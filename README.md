@@ -1,6 +1,6 @@
-# Slack Logger Python
+# OSS Weekly Reporter
 
-Pythonで実装されたSlackログ抽出・処理ツール。Slackの過去ログを取得し、JSONとして保存、Google Spreadsheetへのアップロード、LLM用のMarkdown形式への変換を行います。
+Open Source Software (OSS) Weekly Reporterは、OSSプロジェクトの週次報告を省力化するためのツールです。SlackのログとGitHubのログを抽出し、LLMに渡すためのMarkdown形式に変換します。
 
 ## 機能
 
