@@ -65,7 +65,7 @@ output:
 ### 1. Slackからデータを抽出
 
 ```bash
-python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./slack_data"
+python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./slack_data" --last-days 7
 ```
 
 #### オプション
