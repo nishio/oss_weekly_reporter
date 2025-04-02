@@ -1,0 +1,15 @@
+# Slack Logger設定ファイル
+
+# スキップするチャンネル（IDまたは名前）
+skip_channels:
+  - general
+  - random
+  - C12345678  # チャンネルID
+
+# 自動参加設定
+auto_join: true
+
+# 出力設定
+output:
+  default_dir: ./slack_data
+  timezone: Asia/Tokyo

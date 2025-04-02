@@ -1,0 +1,53 @@
+name: Extract Slack Logs
+
+on:
+  schedule:
+    # 週に2回実行: 月曜日と木曜日の午前3時（UTC）
+    - cron: '0 3 * * 1,4'
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  extract-logs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main  # メインブランチからチェックアウト
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          
+      - name: Extract logs for the past week
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        run: |
+          python -m slack_logger.slack_to_json --token "$SLACK_TOKEN" --last-days 7 --output-dir "./data"
+      
+      - name: Setup Git for data branch
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+      
+      - name: Create and checkout data branch
+        run: |
+          git fetch origin data || true
+          git checkout -B data
+      
+      - name: Add and commit extracted data
+        run: |
+          git add data/
+          current_date=$(date +"%Y-%m-%d")
+          git commit -m "Update Slack logs: $current_date" || echo "No changes to commit"
+      
+      - name: Push to data branch
+        run: |
+          git push -f origin data
