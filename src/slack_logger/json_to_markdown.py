@@ -53,9 +53,9 @@ class MarkdownGenerator:
         formatted_time = self._format_timestamp(ts)
         
         if message.get("parent_ts"):
-            return f"    - **{user_name}**: {text} _{formatted_time}_"
+            return f"**{user_name}** _{formatted_time}_\n\n{text}\n"
         
-        return f"- **{user_name}** in #{channel_name}: {text} _{formatted_time}_"
+        return f"### **{user_name}** in #{channel_name} _{formatted_time}_\n\n{text}\n"
 
     def generate_daily_summary(self, json_dir: str, output_file: Optional[str] = None, 
                               days_ago: int = 0) -> str:
@@ -134,7 +134,9 @@ class MarkdownGenerator:
                         
                         thread_ts = msg.get("ts")
                         if thread_ts in threads:
-                            for reply in sorted(threads[thread_ts], key=lambda x: float(x.get("ts", 0))):
+                            replies = sorted(threads[thread_ts], key=lambda x: float(x.get("ts", 0)))
+                            markdown += "#### スレッド返信\n\n"
+                            for reply in replies:
                                 markdown += self._format_message(reply, channel_name) + "\n"
         
         if output_file:
@@ -262,10 +264,8 @@ class MarkdownGenerator:
                         thread_ts = msg.get("ts")
                         if thread_ts in threads:
                             replies = sorted(threads[thread_ts], key=lambda x: float(x.get("ts", 0)))
-                            for i, reply in enumerate(replies):
-                                if i >= 3:
-                                    markdown += f"    - _他 {len(replies) - 3} 件の返信_\n"
-                                    break
+                            markdown += "#### スレッド返信\n\n"
+                            for reply in replies:
                                 markdown += self._format_message(reply, channel_name) + "\n"
                     
                     markdown += "\n"
