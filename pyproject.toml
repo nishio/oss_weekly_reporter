@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oss_weekly_reporter"
+version = "0.1.0"
+description = "Pythonで実装されたSlackログ抽出・処理ツール"
+readme = "README.md"
+authors = [
+    {name = "nishio", email = "nishio@example.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "slack_sdk",
+    "python-dotenv",
+    "pyyaml",
+    "google-auth",
+    "google-api-python-client",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nishio/oss_weekly_reporter"
+"Bug Tracker" = "https://github.com/nishio/oss_weekly_reporter/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
