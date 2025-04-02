@@ -32,8 +32,8 @@ jobs:
         run: |
           python -m slack_logger.slack_to_json --token "$SLACK_TOKEN" --last-days 7 --output-dir "./data"
           
-          # GitHub Issue Report
-          python -m github_logger.github_issue_report --repo "nishio/oss_weekly_reporter" --output-dir "./data"
+          # GitHub Report
+          python -m github_logger.github_report --repo "nishio/oss_weekly_reporter" --markdown --output-dir "./data"
       
       - name: Setup Git for data branch
         run: |

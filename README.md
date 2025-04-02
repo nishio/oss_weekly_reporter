@@ -111,10 +111,10 @@ python -m slack_logger.json_to_markdown --json-dir "./data" --weekly --output ".
 - `--days-ago`: 何日前のデータを対象とするか（日次サマリー用、デフォルト: 0）
 - `--weeks-ago`: 何週間前のデータを対象とするか（週次サマリー用、デフォルト: 0）
 
-### 4. GitHubのIssueデータを抽出
+### 4. GitHubのデータを抽出してレポートを生成
 
 ```bash
-python -m github_logger.github_issue_report --repo "owner/repo"
+python -m github_logger.github_report --repo "owner/repo" --markdown
 ```
 
 #### オプション
@@ -122,17 +122,29 @@ python -m github_logger.github_issue_report --repo "owner/repo"
 - `--repo`: 対象リポジトリ（必須、'owner/repo'形式で指定）
 - `--output-dir`: 出力ディレクトリ（デフォルト: `./data`）
 - `--last-days`: 過去何日分を取得するか（デフォルト: 7）
+- `--no-prs`: PRを含めない
+- `--markdown`: Markdownレポートも生成する
+- `--output`: Markdownレポートの出力ファイル名（指定しない場合はリポジトリ名から自動生成）
+- `--json-file`: 既存のJSONファイルからMarkdownレポートを生成する場合に指定
 
-### 5. GitHubのIssueデータからMarkdownレポートを生成
+#### 使用例
 
+1. データ抽出とMarkdownレポート生成を一度に行う:
 ```bash
-python -m github_logger.github_issue_report_markdown --json-file "./data/yyyy-MM-dd_to_yyyy-MM-dd/repo-name.json"
+python -m github_logger.github_report --repo "owner/repo" --markdown
 ```
 
-#### オプション
+2. データ抽出のみ行う:
+```bash
+python -m github_logger.github_report --repo "owner/repo"
+```
 
-- `--json-file`: JSONファイルのパス（必須）
-- `--output`: 出力ファイル名（指定しない場合はリポジトリ名から自動生成）
+3. 既存のJSONファイルからMarkdownレポートを生成する:
+```bash
+python -m github_logger.github_report --json-file "./data/yyyy-MM-dd_to_yyyy-MM-dd/repo-name.json"
+```
+
+> 注: 以前の`github_issue_report.py`と`github_issue_report_markdown.py`は後方互換性のために残されていますが、新しい`github_report.py`の使用を推奨します。
 
 ## 自動化
 
