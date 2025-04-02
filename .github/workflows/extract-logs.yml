@@ -31,6 +31,9 @@ jobs:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         run: |
           python -m slack_logger.slack_to_json --token "$SLACK_TOKEN" --last-days 7 --output-dir "./data"
+          
+          # GitHub Issue Report
+          python -m github_logger.github_issue_report --repo "nishio/oss_weekly_reporter" --output-dir "./data"
       
       - name: Setup Git for data branch
         run: |

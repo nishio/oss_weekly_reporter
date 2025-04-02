@@ -56,7 +56,7 @@ auto_join: true
 
 # 出力設定
 output:
-  default_dir: ./slack_data
+  default_dir: ./data
   timezone: Asia/Tokyo
 ```
 
@@ -65,13 +65,13 @@ output:
 ### 1. Slackからデータを抽出
 
 ```bash
-python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./slack_data" --last-days 7
+python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./data" --last-days 7
 ```
 
 #### オプション
 
 - `--token`: Slack APIトークン（必須、または`SLACK_TOKEN`環境変数で指定）
-- `--output-dir`: 出力ディレクトリ（デフォルト: `./slack_data`）
+- `--output-dir`: 出力ディレクトリ（デフォルト: `./data`）
 - `--year`: 抽出する年（指定しない場合は現在の2ヶ月前）
 - `--month`: 抽出する月（指定しない場合は現在の2ヶ月前）
 - `--last-days`: 過去何日分を取得するか（指定した場合はyear, monthは無視）
@@ -82,7 +82,7 @@ python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./s
 ### 2. Google Spreadsheetにアップロード
 
 ```bash
-python -m slack_logger.json_to_gsheet --json-dir "./slack_data"
+python -m slack_logger.json_to_gsheet --json-dir "./data"
 ```
 
 #### オプション
@@ -90,7 +90,7 @@ python -m slack_logger.json_to_gsheet --json-dir "./slack_data"
 - `--client-email`: Google Service Accountのメールアドレス（必須、または`GOOGLE_CLIENT_EMAIL`環境変数で指定）
 - `--private-key`: Google Service Accountの秘密鍵（必須、または`GOOGLE_PRIVATE_KEY`環境変数で指定）
 - `--folder-id`: Google Driveのフォルダーid（必須、または`GOOGLE_FOLDER_ID`環境変数で指定）
-- `--json-dir`: JSONファイルのディレクトリ（デフォルト: `./slack_data`）
+- `--json-dir`: JSONファイルのディレクトリ（デフォルト: `./data`）
 - `--timezone`: タイムゾーン（デフォルト: `Asia/Tokyo`）
 - `--use-latest-file`: 'latest'という名前のファイルを使用する
 - `--backup-with-date`: 日付付きのバックアップを作成する（`--use-latest-file`と共に使用）
@@ -98,18 +98,41 @@ python -m slack_logger.json_to_gsheet --json-dir "./slack_data"
 ### 3. LLM用のMarkdownに変換
 
 ```bash
-python -m slack_logger.json_to_markdown --json-dir "./slack_data" --weekly --output "./weekly_summary.md"
+python -m slack_logger.json_to_markdown --json-dir "./data" --weekly --output "./weekly_summary.md"
 ```
 
 #### オプション
 
-- `--json-dir`: JSONファイルのディレクトリ（デフォルト: `./slack_data`）
+- `--json-dir`: JSONファイルのディレクトリ（デフォルト: `./data`）
 - `--output`: 出力ファイル名（指定しない場合は標準出力）
 - `--timezone`: タイムゾーン（デフォルト: `Asia/Tokyo`）
 - `--daily`: 日次サマリーを生成
 - `--weekly`: 週次サマリーを生成
 - `--days-ago`: 何日前のデータを対象とするか（日次サマリー用、デフォルト: 0）
 - `--weeks-ago`: 何週間前のデータを対象とするか（週次サマリー用、デフォルト: 0）
+
+### 4. GitHubのIssueデータを抽出
+
+```bash
+python -m github_logger.github_issue_report --repo "owner/repo"
+```
+
+#### オプション
+
+- `--repo`: 対象リポジトリ（必須、'owner/repo'形式で指定）
+- `--output-dir`: 出力ディレクトリ（デフォルト: `./data`）
+- `--last-days`: 過去何日分を取得するか（デフォルト: 7）
+
+### 5. GitHubのIssueデータからMarkdownレポートを生成
+
+```bash
+python -m github_logger.github_issue_report_markdown --json-file "./data/yyyy-MM-dd_to_yyyy-MM-dd/repo-name.json"
+```
+
+#### オプション
+
+- `--json-file`: JSONファイルのパス（必須）
+- `--output`: 出力ファイル名（指定しない場合はリポジトリ名から自動生成）
 
 ## 自動化
 

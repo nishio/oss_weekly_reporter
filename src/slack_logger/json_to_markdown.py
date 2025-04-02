@@ -279,7 +279,7 @@ class MarkdownGenerator:
 def main():
     """メイン関数"""
     parser = argparse.ArgumentParser(description='SlackのJSONデータからLLM用のMarkdownを生成するツール')
-    parser.add_argument('--json-dir', help='JSONファイルのディレクトリ', default='./slack_data')
+    parser.add_argument('--json-dir', help='JSONファイルのディレクトリ', default='./data')
     parser.add_argument('--output', help='出力ファイル名（指定しない場合は標準出力）')
     parser.add_argument('--timezone', help='タイムゾーン', default='Asia/Tokyo')
     parser.add_argument('--daily', action='store_true', help='日次サマリーを生成')

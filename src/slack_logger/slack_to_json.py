@@ -293,7 +293,7 @@ def main():
     """メイン関数"""
     config = load_config()
     
-    default_output_dir = config.get('output', {}).get('default_dir', './slack_data')
+    default_output_dir = config.get('output', {}).get('default_dir', './data')
     default_auto_join = config.get('auto_join', True)
     
     config_skip_channels = config.get('skip_channels', [])
