@@ -147,7 +147,7 @@ class MarkdownGenerator:
     def generate_weekly_summary(self, json_dir: str, output_file: Optional[str] = None, 
                                weeks_ago: int = 0) -> str:
         """
-        指定した週のメッセージをMarkdown形式で要約
+        過去7日間のメッセージをMarkdown形式で要約
         
         Args:
             json_dir: JSONファイルのディレクトリ
@@ -158,17 +158,19 @@ class MarkdownGenerator:
             生成されたMarkdown
         """
         now = datetime.now(self.jst or timezone.utc)
-        days_since_monday = now.weekday()
-        start_of_week = now - timedelta(days=days_since_monday + 7 * weeks_ago)
-        start_of_week = datetime(start_of_week.year, start_of_week.month, start_of_week.day, 
-                                tzinfo=self.jst or timezone.utc)
-        end_of_week = start_of_week + timedelta(days=7)
+        end_date = now - timedelta(days=7 * weeks_ago)
+        start_date = end_date - timedelta(days=6)  # 過去7日間（当日を含む）
         
-        start_ts = start_of_week.timestamp()
-        end_ts = end_of_week.timestamp()
+        start_date = datetime(start_date.year, start_date.month, start_date.day, 
+                             tzinfo=self.jst or timezone.utc)
+        end_date = datetime(end_date.year, end_date.month, end_date.day, 23, 59, 59,
+                           tzinfo=self.jst or timezone.utc)
         
-        start_date_str = start_of_week.strftime("%Y年%m月%d日")
-        end_date_str = (end_of_week - timedelta(days=1)).strftime("%Y年%m月%d日")
+        start_ts = start_date.timestamp()
+        end_ts = end_date.timestamp()
+        
+        start_date_str = start_date.strftime("%Y年%m月%d日")
+        end_date_str = end_date.strftime("%Y年%m月%d日")
         
         markdown = f"# {start_date_str}～{end_date_str}のSlack活動まとめ\n\n"
         
