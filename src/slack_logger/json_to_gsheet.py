@@ -447,7 +447,7 @@ def main():
                         default=os.environ.get('GOOGLE_PRIVATE_KEY'))
     parser.add_argument('--folder-id', help='Google Driveのフォルダーid', 
                         default=os.environ.get('GOOGLE_FOLDER_ID'))
-    parser.add_argument('--json-dir', help='JSONファイルのディレクトリ', default='./slack_data')
+    parser.add_argument('--json-dir', help='JSONファイルのディレクトリ', default='./data')
     parser.add_argument('--timezone', help='タイムゾーン', default='Asia/Tokyo')
     parser.add_argument('--use-latest-file', action='store_true', 
                         help="'latest'という名前のファイルを使用する")
