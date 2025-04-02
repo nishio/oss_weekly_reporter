@@ -1,0 +1,14 @@
+# Slack Logger設定ファイル(特に秘密ではないデジタル民主主義2030の設定)
+
+# スキップするチャンネル（IDまたは名前）
+skip_channels:
+  - 2_開発_いどばた_github
+  - 2_開発_広聴ai_github
+
+# 自動参加設定
+auto_join: true
+
+# 出力設定
+output:
+  default_dir: ./slack_data
+  timezone: Asia/Tokyo
