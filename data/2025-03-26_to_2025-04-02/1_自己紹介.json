@@ -1,0 +1,362 @@
+[
+  {
+    "user": "U08HE6A5WF8",
+    "type": "message",
+    "ts": "1743272823.997469",
+    "client_msg_id": "14849a43-2d95-4207-8097-7e71ed0d65e8",
+    "text": "１. お名前:冬椿\n２. 興味があるプロジェクトがあれば教えてください！（該当するものをすべて選んでください）： <#C08FF5MM59C|>\n３. 得意なことを書いてください！: C++、鉄板を切れる\n４. もしgithubやポートフォリオがあれば教えてください！:<https://github.com/Fuyutsubaki>\n５. 本slackを知った経緯を教えてください：  知人の紹介\n６. 自由コメント： よろしくお願いします",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743272823.997469",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743397432.357839",
+    "reply_users": [
+      "U08FY2KR468"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "thumb_height": 420,
+        "thumb_width": 420,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5151925?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/Fuyutsubaki",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "[no preview available]",
+        "fields": [
+          {
+            "value": "43",
+            "title": "Repositories",
+            "short": true
+          },
+          {
+            "value": "8",
+            "title": "Followers",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gWSkE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "１. お名前:冬椿\n２. 興味があるプロジェクトがあれば教えてください！（該当するものをすべて選んでください）： "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": "\n３. 得意なことを書いてください！: C++、鉄板を切れる\n４. もしgithubやポートフォリオがあれば教えてください！:"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/Fuyutsubaki"
+              },
+              {
+                "type": "text",
+                "text": "\n５. 本slackを知った経緯を教えてください：  知人の紹介\n６. 自由コメント： よろしくお願いします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08J8NCNYL8",
+          "U08GAUQTR1N",
+          "U08G2A216TW",
+          "U08HBBH9VJS",
+          "U08J60VKDUY",
+          "U08FZDRRY8Z",
+          "U08HCP7DJ94",
+          "U08FY2KR468"
+        ],
+        "count": 8
+      },
+      {
+        "name": "youkoso",
+        "users": [
+          "U08HCP7DJ94",
+          "U08FY2KR468"
+        ],
+        "count": 2
+      },
+      {
+        "name": "raised_hands::skin-tone-3",
+        "users": [
+          "U08HZDZSPHP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "冬椿",
+    "text_readable": "１. お名前:冬椿\n２. 興味があるプロジェクトがあれば教えてください！（該当するものをすべて選んでください）： <#C08FF5MM59C|>\n３. 得意なことを書いてください！: C++、鉄板を切れる\n４. もしgithubやポートフォリオがあれば教えてください！:<https://github.com/Fuyutsubaki>\n５. 本slackを知った経緯を教えてください：  知人の紹介\n６. 自由コメント： よろしくお願いします"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1743397432.357839",
+    "client_msg_id": "b8266257-9459-4283-bc86-ac37a5981ecb",
+    "text": "<@U08HE6A5WF8> さん、はじめまして！ようこそご参加くださいました！\n<#C08FF5MM59C|> では、毎週水曜日 19:00-20:00で定例会議をしています！そこではどんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ:sparkles:\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください:blob-smile-gif:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743272823.997469",
+    "parent_user_id": "U08HE6A5WF8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Inb8Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HE6A5WF8"
+              },
+              {
+                "type": "text",
+                "text": " さん、はじめまして！ようこそご参加くださいました！\n"
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": " では、毎週水曜日 19:00-20:00で定例会議をしています！そこではどんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ"
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728"
+              },
+              {
+                "type": "text",
+                "text": "\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-smile-gif"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743272823.997469",
+    "user_name": "Michio Kawai",
+    "text_readable": "@pushrunkey さん、はじめまして！ようこそご参加くださいました！\n<#C08FF5MM59C|> では、毎週水曜日 19:00-20:00で定例会議をしています！そこではどんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ:sparkles:\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください:blob-smile-gif:"
+  },
+  {
+    "user": "U08HWF1BPQV",
+    "type": "message",
+    "ts": "1743308719.464059",
+    "client_msg_id": "03bd9baf-22c9-4938-9e21-39efe0a986b8",
+    "text": "１. お名前：Kazu\n２. 興味があるプロジェクトがあれば教えてください！： <#C08FF5MM59C|> <#C08F7JZPD63|> <#C08FL5L6GSH|>\n３. 得意なことを書いてください！：Webアプリケーション設計・開発 (FE: TypeScript, React, Next.JS, BE: Java, Springboot)\n４. もしgithubやポートフォリオがあれば教えてください！：<https://github.com/Kazzy05>\n５. 本slackを知った経緯を教えてください：安野さんのX\n６. 自由コメント： よろしくお願いします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743308719.464059",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743397482.994859",
+    "reply_users": [
+      "U08FY2KR468"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "thumb_height": 320,
+        "thumb_width": 320,
+        "thumb_url": "https://avatars.githubusercontent.com/u/149509993?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/Kazzy05",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Kazzy",
+        "title": "Kazzy",
+        "fields": [
+          {
+            "value": "2",
+            "title": "Repositories",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dVt6v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "１. お名前：Kazu\n２. 興味があるプロジェクトがあれば教えてください！： "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08F7JZPD63"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": "\n３. 得意なことを書いてください！：Webアプリケーション設計・開発 (FE: TypeScript, React, Next.JS, BE: Java, Springboot)\n４. もしgithubやポートフォリオがあれば教えてください！："
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/Kazzy05"
+              },
+              {
+                "type": "text",
+                "text": "\n５. 本slackを知った経緯を教えてください：安野さんのX\n６. 自由コメント： よろしくお願いします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08J8NCNYL8",
+          "U08FZDRRY8Z",
+          "U08HCP7DJ94",
+          "U08J60VKDUY",
+          "U08HBBH9VJS",
+          "U08GAUQTR1N",
+          "U08G2A216TW",
+          "U08FY2KR468"
+        ],
+        "count": 8
+      },
+      {
+        "name": "youkoso",
+        "users": [
+          "U08HCP7DJ94",
+          "U08G2A216TW",
+          "U08FY2KR468"
+        ],
+        "count": 3
+      },
+      {
+        "name": "raised_hands::skin-tone-3",
+        "users": [
+          "U08HZDZSPHP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Kazu",
+    "text_readable": "１. お名前：Kazu\n２. 興味があるプロジェクトがあれば教えてください！： <#C08FF5MM59C|> <#C08F7JZPD63|> <#C08FL5L6GSH|>\n３. 得意なことを書いてください！：Webアプリケーション設計・開発 (FE: TypeScript, React, Next.JS, BE: Java, Springboot)\n４. もしgithubやポートフォリオがあれば教えてください！：<https://github.com/Kazzy05>\n５. 本slackを知った経緯を教えてください：安野さんのX\n６. 自由コメント： よろしくお願いします！"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1743397482.994859",
+    "client_msg_id": "e9fb060b-f83e-4876-b176-be6330b977e3",
+    "text": "<@U08HWF1BPQV> さん、はじめまして！ようこそご参加くださいました！\n<#C08FF5MM59C|> <#C08F7JZPD63|> では、ともに毎週水曜日に定例会議を開催し、どんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\nいどばた：19:00-20:00\n広聴AI：20:00-21:00\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ:sparkles:\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください:blob-smile-gif:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743308719.464059",
+    "parent_user_id": "U08HWF1BPQV",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3MzkA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWF1BPQV"
+              },
+              {
+                "type": "text",
+                "text": " さん、はじめまして！ようこそご参加くださいました！\n"
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08F7JZPD63"
+              },
+              {
+                "type": "text",
+                "text": " では、ともに毎週水曜日に定例会議を開催し、どんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\nいどばた：19:00-20:00\n広聴AI：20:00-21:00\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ"
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728"
+              },
+              {
+                "type": "text",
+                "text": "\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-smile-gif"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWF1BPQV"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743308719.464059",
+    "user_name": "Michio Kawai",
+    "text_readable": "@kazu777cat さん、はじめまして！ようこそご参加くださいました！\n<#C08FF5MM59C|> <#C08F7JZPD63|> では、ともに毎週水曜日に定例会議を開催し、どんな開発をしているかや進捗が共有されるので、よかったらのぞいてみてください\nいどばた：19:00-20:00\n広聴AI：20:00-21:00\n\nプロジェクト全体をゆるっと知りたいよ、という場合は、毎週土曜日22:00-23:00にて全体定例会議をやっているので、こちらもぜひ:sparkles:\n\nまた、4/12(土)PMに1dayハッカソンも企画しているので、ご都合合いそうでしたらご参加ご検討ください:blob-smile-gif:"
+  }
+]
