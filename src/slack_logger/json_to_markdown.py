@@ -58,7 +58,7 @@ class MarkdownGenerator:
         return f"### **{user_name}** in #{channel_name} _{formatted_time}_\n\n{text}\n"
 
     def generate_daily_summary(self, json_dir: str, output_file: Optional[str] = None, 
-                              days_ago: int = 0) -> str:
+                              days_ago: int = 0, all_data: bool = False) -> str:
         """
         指定した日のメッセージをMarkdown形式で要約
         
@@ -66,20 +66,26 @@ class MarkdownGenerator:
             json_dir: JSONファイルのディレクトリ
             output_file: 出力ファイル名（指定しない場合は標準出力）
             days_ago: 何日前のデータを対象とするか
+            all_data: 全てのデータを出力するかどうか（Trueの場合、日付フィルタリングを行わない）
             
         Returns:
             生成されたMarkdown
         """
         now = datetime.now(self.jst or timezone.utc)
-        target_date = now - timedelta(days=days_ago)
-        start_of_day = datetime(target_date.year, target_date.month, target_date.day, 
-                               tzinfo=self.jst or timezone.utc)
-        end_of_day = start_of_day + timedelta(days=1)
+        
+        if all_data:
+            start_of_day = datetime.fromtimestamp(0, tz=self.jst or timezone.utc)  # UNIXエポック（1970年1月1日）
+            end_of_day = now
+            date_str = "全期間"
+        else:
+            target_date = now - timedelta(days=days_ago)
+            start_of_day = datetime(target_date.year, target_date.month, target_date.day, 
+                                  tzinfo=self.jst or timezone.utc)
+            end_of_day = start_of_day + timedelta(days=1)
+            date_str = start_of_day.strftime("%Y年%m月%d日")
         
         start_ts = start_of_day.timestamp()
         end_ts = end_of_day.timestamp()
-        
-        date_str = start_of_day.strftime("%Y年%m月%d日")
         
         markdown = f"# {date_str}のSlack活動まとめ\n\n"
         
@@ -99,7 +105,7 @@ class MarkdownGenerator:
                 day_messages = []
                 for msg in messages:
                     ts = float(msg.get("ts", 0))
-                    if start_ts <= ts < end_ts:
+                    if all_data or (start_ts <= ts < end_ts):
                         day_messages.append(msg)
                 
                 if day_messages:
@@ -147,7 +153,7 @@ class MarkdownGenerator:
         return markdown
 
     def generate_weekly_summary(self, json_dir: str, output_file: Optional[str] = None, 
-                               weeks_ago: int = 0) -> str:
+                               weeks_ago: int = 0, all_data: bool = False) -> str:
         """
         過去7日間のメッセージをMarkdown形式で要約
         
@@ -155,24 +161,32 @@ class MarkdownGenerator:
             json_dir: JSONファイルのディレクトリ
             output_file: 出力ファイル名（指定しない場合は標準出力）
             weeks_ago: 何週間前のデータを対象とするか
+            all_data: 全てのデータを出力するかどうか（Trueの場合、日付フィルタリングを行わない）
             
         Returns:
             生成されたMarkdown
         """
         now = datetime.now(self.jst or timezone.utc)
-        end_date = now - timedelta(days=7 * weeks_ago)
-        start_date = end_date - timedelta(days=6)  # 過去7日間（当日を含む）
         
-        start_date = datetime(start_date.year, start_date.month, start_date.day, 
-                             tzinfo=self.jst or timezone.utc)
-        end_date = datetime(end_date.year, end_date.month, end_date.day, 23, 59, 59,
-                           tzinfo=self.jst or timezone.utc)
+        if all_data:
+            start_date = datetime.fromtimestamp(0, tz=self.jst or timezone.utc)  # UNIXエポック（1970年1月1日）
+            end_date = now
+            start_date_str = "全期間"
+            end_date_str = now.strftime("%Y年%m月%d日")
+        else:
+            end_date = now - timedelta(days=7 * weeks_ago)
+            start_date = end_date - timedelta(days=6)  # 過去7日間（当日を含む）
+            
+            start_date = datetime(start_date.year, start_date.month, start_date.day, 
+                                tzinfo=self.jst or timezone.utc)
+            end_date = datetime(end_date.year, end_date.month, end_date.day, 23, 59, 59,
+                              tzinfo=self.jst or timezone.utc)
+            
+            start_date_str = start_date.strftime("%Y年%m月%d日")
+            end_date_str = end_date.strftime("%Y年%m月%d日")
         
         start_ts = start_date.timestamp()
         end_ts = end_date.timestamp()
-        
-        start_date_str = start_date.strftime("%Y年%m月%d日")
-        end_date_str = end_date.strftime("%Y年%m月%d日")
         
         markdown = f"# {start_date_str}～{end_date_str}のSlack活動まとめ\n\n"
         
@@ -192,7 +206,7 @@ class MarkdownGenerator:
                 week_messages = []
                 for msg in messages:
                     ts = float(msg.get("ts", 0))
-                    if start_ts <= ts < end_ts:
+                    if all_data or (start_ts <= ts < end_ts):
                         week_messages.append(msg)
                 
                 if week_messages:
@@ -288,6 +302,7 @@ def main():
     parser.add_argument('--weekly', action='store_true', help='週次サマリーを生成')
     parser.add_argument('--days-ago', type=int, default=0, help='何日前のデータを対象とするか（日次サマリー用）')
     parser.add_argument('--weeks-ago', type=int, default=0, help='何週間前のデータを対象とするか（週次サマリー用）')
+    parser.add_argument('--all', action='store_true', help='全てのデータを出力する（日付フィルタリングを行わない）')
     
     args = parser.parse_args()
     
@@ -297,13 +312,15 @@ def main():
         markdown = generator.generate_weekly_summary(
             json_dir=args.json_dir,
             output_file=args.output,
-            weeks_ago=args.weeks_ago
+            weeks_ago=args.weeks_ago,
+            all_data=args.all
         )
     else:  # デフォルトは日次サマリー
         markdown = generator.generate_daily_summary(
             json_dir=args.json_dir,
             output_file=args.output,
-            days_ago=args.days_ago
+            days_ago=args.days_ago,
+            all_data=args.all
         )
     
     if not args.output:

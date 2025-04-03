@@ -164,6 +164,14 @@ GitHub Secretsに以下の値を設定する必要があります：
 
 - `SLACK_TOKEN`: SlackのAPIトークン
 
+また、GitHub Actionsがデータブランチにプッシュするために、以下の権限設定が必要です：
+
+1. リポジトリの「Settings」→「Actions」→「General」
+2. 「Workflow permissions」で「Read and write permissions」を選択
+3. 「Save」をクリック
+
+この設定がない場合、GitHub Actionsがデータブランチにプッシュする際に権限エラーが発生します。
+
 ## 開発
 
 ### セットアップ
