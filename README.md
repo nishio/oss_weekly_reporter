@@ -146,6 +146,41 @@ python -m github_logger.github_report --json-file "./data/yyyy-MM-dd_to_yyyy-MM-
 
 > 注: 以前の`github_issue_report.py`と`github_issue_report_markdown.py`は後方互換性のために残されていますが、新しい`github_report.py`の使用を推奨します。
 
+### 5. OpenAI O1 APIを使用してMarkdownを処理
+
+```bash
+# Slackデータの処理（最新のフォルダのweekly_summary.mdを使用）
+python -m src.call_openai_api slack
+
+# Slackデータの処理（all_summary.mdを使用）
+python -m src.call_openai_api slack --all-summary
+
+# 特定の期間を指定してSlackデータを処理
+python -m src.call_openai_api slack --period "2025-03-01_to_2025-03-31"
+
+# GitHubデータの処理
+python -m src.call_openai_api github --repo "owner/repo"
+```
+
+#### オプション
+
+- `--data-dir`: データディレクトリ（指定しない場合は最新のフォルダを使用）
+- `--output-dir`: 出力ディレクトリ（指定しない場合はデータディレクトリと同じ）
+- `slack`: Slackデータを処理するコマンド
+  - `--all-summary`: weekly_summary.mdの代わりにall_summary.mdを使用
+  - `--period`: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式）
+- `github`: GitHubデータを処理するコマンド
+  - `--repo`: リポジトリ名（owner/repo形式、必須）
+
+#### 環境変数
+
+`.env`ファイルに以下の環境変数を追加する必要があります：
+
+```
+# OpenAI API関連
+OPENAI_API_KEY=your-openai-api-key-here
+```
+
 ## 自動化
 
 このリポジトリには、GitHub Actionsを使用して週に2回（月曜日と木曜日）自動的にSlackログを抽出するワークフローが含まれています。抽出されたデータは`data`ブランチに保存されます。
