@@ -8,3 +8,5 @@
 # python -m github_logger.github_report --repo "digitaldemocracy2030/idobata-sns-agent" --markdown --last-days 30
 # python -m github_logger.github_report --repo "digitaldemocracy2030/idobata-infra" --markdown --last-days 30
 # python -m github_logger.github_report --repo "digitaldemocracy2030/website" --markdown --last-days 30
+
+python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai"
