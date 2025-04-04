@@ -146,8 +146,6 @@ python -m github_logger.github_report --repo "owner/repo"
 python -m github_logger.github_report --json-file "./data/yyyy-MM-dd_to_yyyy-MM-dd/repo-name.json"
 ```
 
-> 注: 以前の`github_issue_report.py`と`github_issue_report_markdown.py`は後方互換性のために残されていますが、新しい`github_report.py`の使用を推奨します。
-
 ### 5. OpenAI O1 APIを使用してMarkdownを処理
 
 ```bash
