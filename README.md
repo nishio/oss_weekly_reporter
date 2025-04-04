@@ -81,6 +81,8 @@ python -m slack_logger.slack_to_json --token "xoxb-your-token" --output-dir "./d
 
 ### 2. Google Spreadsheetにアップロード
 
+(この機能は未テストです)
+
 ```bash
 python -m slack_logger.json_to_gsheet --json-dir "./data"
 ```
