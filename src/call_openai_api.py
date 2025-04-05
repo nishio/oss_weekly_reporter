@@ -17,94 +17,106 @@ load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+
 def get_latest_data_folder(base_dir: str = "./data") -> str:
     """
     最新のデータフォルダを取得する
-    
+
     Args:
         base_dir: データフォルダのベースディレクトリ
-        
+
     Returns:
         最新のデータフォルダのパス
     """
     folders = glob.glob(os.path.join(base_dir, "*_to_*"))
     if not folders:
         raise FileNotFoundError(f"データフォルダが見つかりません: {base_dir}")
-    
+
     latest_folder = max(folders, key=os.path.getctime)
     return latest_folder
+
 
 def read_prompt_file(prompt_file: str) -> str:
     """
     プロンプトファイルを読み込む
-    
+
     Args:
         prompt_file: プロンプトファイルのパス
-        
+
     Returns:
         プロンプトの内容
     """
-    with open(prompt_file, 'r', encoding='utf-8') as f:
+    with open(prompt_file, "r", encoding="utf-8") as f:
         return f.read().strip()
+
 
 def read_markdown_file(markdown_file: str) -> str:
     """
     Markdownファイルを読み込む
-    
+
     Args:
         markdown_file: Markdownファイルのパス
-        
+
     Returns:
         Markdownの内容
     """
-    with open(markdown_file, 'r', encoding='utf-8') as f:
+    with open(markdown_file, "r", encoding="utf-8") as f:
         return f.read()
 
-def call_openai_api(prompt: str, content: str, model: str = "o1") -> Tuple[Optional[str], float]:
+
+def call_openai_api(
+    prompt: str, content: str, model: str = "o1"
+) -> Tuple[Optional[str], float]:
     """
     OpenAI APIを呼び出す
-    
+
     Args:
         prompt: プロンプト
         content: 処理するコンテンツ
         model: 使用するモデル
-        
+
     Returns:
         APIレスポンスと費用の見積もり
     """
     start_time = time.time()
-    
+
     try:
         response = openai.chat.completions.create(
             model=model,
             messages=[
                 {"role": "system", "content": prompt},
-                {"role": "user", "content": content}
+                {"role": "user", "content": content},
             ],
-            temperature=0.7,
         )
-        
+
         elapsed_time = time.time() - start_time
-        
+
         input_tokens = response.usage.prompt_tokens
         output_tokens = response.usage.completion_tokens
-        
+
         input_cost_per_token = 0.000015  # $0.015 / 1K tokens
         output_cost_per_token = 0.000060  # $0.060 / 1K tokens
-        
-        estimated_cost = (input_tokens * input_cost_per_token) + (output_tokens * output_cost_per_token)
-        
+
+        estimated_cost = (input_tokens * input_cost_per_token) + (
+            output_tokens * output_cost_per_token
+        )
+
         return response.choices[0].message.content, estimated_cost
-    
+
     except Exception as e:
         print(f"APIの呼び出しに失敗しました: {e}")
         return None, 0.0
 
-def process_slack_data(data_dir: Optional[str] = None, output_dir: Optional[str] = None, 
-                      use_all_summary: bool = False, period: Optional[str] = None) -> None:
+
+def process_slack_data(
+    data_dir: Optional[str] = None,
+    output_dir: Optional[str] = None,
+    use_all_summary: bool = False,
+    period: Optional[str] = None,
+) -> None:
     """
     Slackデータを処理する
-    
+
     Args:
         data_dir: データディレクトリ
         output_dir: 出力ディレクトリ
@@ -117,45 +129,49 @@ def process_slack_data(data_dir: Optional[str] = None, output_dir: Optional[str]
         except FileNotFoundError as e:
             print(e)
             return
-    
+
     if not output_dir:
         output_dir = data_dir
-    
+
     os.makedirs(output_dir, exist_ok=True)
-    
+
     markdown_file = "all_summary.md" if use_all_summary else "weekly_summary.md"
     markdown_path = os.path.join(data_dir, markdown_file)
-    
+
     if not os.path.exists(markdown_path):
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
-    
-    prompt_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-                              "src", "slack_logger", "prompt.txt")
+
+    prompt_file = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
+    )
     prompt = read_prompt_file(prompt_file)
-    
+
     content = read_markdown_file(markdown_path)
-    
+
     if period:
         prompt += f"\n\n対象期間: {period}"
-    
+
     print(f"Slackデータを処理中: {markdown_path}")
     response, cost = call_openai_api(prompt, content)
-    
+
     if response:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_file = os.path.join(output_dir, f"slack_summary_{timestamp}.md")
-        
-        with open(output_file, 'w', encoding='utf-8') as f:
+
+        with open(output_file, "w", encoding="utf-8") as f:
             f.write(response)
-        
+
         print(f"レスポンスを保存しました: {output_file}")
         print(f"推定費用: ${cost:.6f}")
 
-def process_github_data(repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None) -> None:
+
+def process_github_data(
+    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None
+) -> None:
     """
     GitHubデータを処理する
-    
+
     Args:
         repo: リポジトリ名（owner/repo形式）
         data_dir: データディレクトリ
@@ -167,76 +183,91 @@ def process_github_data(repo: str, data_dir: Optional[str] = None, output_dir: O
         except FileNotFoundError as e:
             print(e)
             return
-    
+
     if not output_dir:
         output_dir = data_dir
-    
+
     os.makedirs(output_dir, exist_ok=True)
-    
+
     repo_name = repo.split("/")[1]
     markdown_file = f"github_report-{repo_name}.md"
     markdown_path = os.path.join(data_dir, markdown_file)
-    
+
     if not os.path.exists(markdown_path):
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
-    
-    prompt_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-                              "src", "github_logger", "prompt.txt")
+
+    prompt_file = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
+    )
     prompt = read_prompt_file(prompt_file)
-    
+
     content = read_markdown_file(markdown_path)
-    
+
     print(f"GitHubデータを処理中: {markdown_path}")
     response, cost = call_openai_api(prompt, content)
-    
+
     if response:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = os.path.join(output_dir, f"github_summary_{repo_name}_{timestamp}.md")
-        
-        with open(output_file, 'w', encoding='utf-8') as f:
+        output_file = os.path.join(
+            output_dir, f"github_summary_{repo_name}_{timestamp}.md"
+        )
+
+        with open(output_file, "w", encoding="utf-8") as f:
             f.write(response)
-        
+
         print(f"レスポンスを保存しました: {output_file}")
         print(f"推定費用: ${cost:.6f}")
 
+
 def main():
     """メイン関数"""
-    parser = argparse.ArgumentParser(description='OpenAI O1 APIを使用してMarkdownファイルを処理するツール')
-    parser.add_argument('--data-dir', help='データディレクトリ（指定しない場合は最新のフォルダを使用）')
-    parser.add_argument('--output-dir', help='出力ディレクトリ（指定しない場合はデータディレクトリと同じ）')
-    
-    subparsers = parser.add_subparsers(dest='command', help='コマンド')
-    
-    slack_parser = subparsers.add_parser('slack', help='Slackデータを処理')
-    slack_parser.add_argument('--all-summary', action='store_true', 
-                             help='weekly_summary.mdの代わりにall_summary.mdを使用')
-    slack_parser.add_argument('--period', help='期間（YYYY-MM-DD_to_YYYY-MM-DD形式）')
-    
-    github_parser = subparsers.add_parser('github', help='GitHubデータを処理')
-    github_parser.add_argument('--repo', required=True, help='リポジトリ名（owner/repo形式）')
-    
+    parser = argparse.ArgumentParser(
+        description="OpenAI O1 APIを使用してMarkdownファイルを処理するツール"
+    )
+    parser.add_argument(
+        "--data-dir", help="データディレクトリ（指定しない場合は最新のフォルダを使用）"
+    )
+    parser.add_argument(
+        "--output-dir",
+        help="出力ディレクトリ（指定しない場合はデータディレクトリと同じ）",
+    )
+
+    subparsers = parser.add_subparsers(dest="command", help="コマンド")
+
+    slack_parser = subparsers.add_parser("slack", help="Slackデータを処理")
+    slack_parser.add_argument(
+        "--all-summary",
+        action="store_true",
+        help="weekly_summary.mdの代わりにall_summary.mdを使用",
+    )
+    slack_parser.add_argument("--period", help="期間（YYYY-MM-DD_to_YYYY-MM-DD形式）")
+
+    github_parser = subparsers.add_parser("github", help="GitHubデータを処理")
+    github_parser.add_argument(
+        "--repo", required=True, help="リポジトリ名（owner/repo形式）"
+    )
+
     args = parser.parse_args()
-    
+
     if not args.command:
         parser.print_help()
         return 1
-    
-    if args.command == 'slack':
+
+    if args.command == "slack":
         process_slack_data(
             data_dir=args.data_dir,
             output_dir=args.output_dir,
             use_all_summary=args.all_summary,
-            period=args.period
+            period=args.period,
         )
-    elif args.command == 'github':
+    elif args.command == "github":
         process_github_data(
-            repo=args.repo,
-            data_dir=args.data_dir,
-            output_dir=args.output_dir
+            repo=args.repo, data_dir=args.data_dir, output_dir=args.output_dir
         )
-    
+
     return 0
+
 
 if __name__ == "__main__":
     exit(main())
