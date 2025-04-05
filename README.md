@@ -116,7 +116,7 @@ Google Sheetsへのアップロードを利用するには、以下のセット�
 4. ダウンロードしたJSONから必要な情報を`.env`ファイルに設定：
    ```
    GOOGLE_CLIENT_EMAIL=your-service-account@example.iam.gserviceaccount.com
-   GOOGLE_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n
+   GOOGLE_PRIVATE_KEY=your-private-key-here
    ```
 5. アップロード先のGoogle Driveフォルダを作成し、そのフォルダIDを取得：
    - フォルダのURLが `https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOpQrStUvWxYz` の場合、
