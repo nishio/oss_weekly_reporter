@@ -13,6 +13,12 @@ Open Source Software (OSS) Weekly Reporterは、OSSプロジェクトの週次�
 - **json_to_markdown.py**: JSONデータをLLM用のMarkdown形式に変換
   - 日次または週次のサマリーを生成
   - LLMによる「今日はこんな議論が行われた」という解説作成に適したフォーマット
+- **github_report.py**: GitHubからissueとPRのデータを抽出してレポート作成
+  - 指定したリポジトリの最近のアクティビティ（issue、PR）を取得
+  - JSON形式でデータを保存し、オプションでMarkdownレポートも生成
+- **call_openai_api.py**: OpenAI O1 APIを使用してMarkdownを処理
+  - SlackやGitHubから生成されたMarkdownレポートをLLMで分析
+  - 重要なポイントや活動の要約を自動生成
 
 ## インストール
 
@@ -94,6 +100,28 @@ python -m slack_logger.json_to_gsheet --json-dir "./data"
 - `--timezone`: タイムゾーン（デフォルト: `Asia/Tokyo`）
 - `--use-latest-file`: 'latest'という名前のファイルを使用する
 - `--backup-with-date`: 日付付きのバックアップを作成する（`--use-latest-file`と共に使用）
+
+#### Google Sheets APIのセットアップ
+
+Google Sheetsへのアップロードを利用するには、以下のセットアップが必要です：
+
+1. [Google Cloud Platform](https://console.cloud.google.com/)でプロジェクトを作成
+2. プロジェクトで以下のAPIを有効化：
+   - Google Drive API
+   - Google Sheets API
+3. Service Accountを作成：
+   - Google Cloud Consoleで「IAM & 管理」→「サービスアカウント」→「サービスアカウントを作成」
+   - 必要な権限を付与（Sheets編集権限、Drive ファイル作成権限）
+   - JSONキーをダウンロード
+4. ダウンロードしたJSONから必要な情報を`.env`ファイルに設定：
+   ```
+   GOOGLE_CLIENT_EMAIL=your-service-account@example.iam.gserviceaccount.com
+   GOOGLE_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n
+   ```
+5. アップロード先のGoogle Driveフォルダを作成し、そのフォルダIDを取得：
+   - フォルダのURLが `https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOpQrStUvWxYz` の場合、
+   - フォルダIDは `1AbCdEfGhIjKlMnOpQrStUvWxYz`
+   - このIDを`.env`ファイルの`GOOGLE_FOLDER_ID`に設定
 
 ### 3. LLM用のMarkdownに変換
 
