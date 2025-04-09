@@ -10,3 +10,9 @@ python -m src.github_logger.github_report --repo "digitaldemocracy2030/website" 
 
 python -m src.call_openai_api slack --all-summary
 python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai"
+
+# python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai"
+
+
+# python -m github_logger.github_report --repo "digitaldemocracy2030/politicalfunds" --markdown --last-days 7
+
