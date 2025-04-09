@@ -105,7 +105,7 @@ class MarkdownGenerator:
         markdown = f"# {date_str}のSlack活動まとめ\n\n"
 
         channel_messages = {}
-        json_files = glob.glob(os.path.join(json_dir, "*.json"))
+        json_files = glob.glob(os.path.join(json_dir, "raw", "slack", "*.json"))
 
         for json_file in json_files:
             if os.path.basename(json_file) == "summary.json":
@@ -167,6 +167,9 @@ class MarkdownGenerator:
                                 )
 
         if output_file:
+            markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
+            os.makedirs(markdown_dir, exist_ok=True)
+            output_file = os.path.join(markdown_dir, os.path.basename(output_file))
             with open(output_file, "w", encoding="utf-8") as f:
                 f.write(markdown)
             print(f"Markdownを {output_file} に保存しました")
@@ -230,7 +233,7 @@ class MarkdownGenerator:
         markdown = f"# {start_date_str}～{end_date_str}のSlack活動まとめ\n\n"
 
         channel_messages = {}
-        json_files = glob.glob(os.path.join(json_dir, "*.json"))
+        json_files = glob.glob(os.path.join(json_dir, "raw", "slack", "*.json"))
 
         for json_file in json_files:
             if os.path.basename(json_file) == "summary.json":
@@ -325,6 +328,9 @@ class MarkdownGenerator:
                     markdown += "\n"
 
         if output_file:
+            markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
+            os.makedirs(markdown_dir, exist_ok=True)
+            output_file = os.path.join(markdown_dir, os.path.basename(output_file))
             with open(output_file, "w", encoding="utf-8") as f:
                 f.write(markdown)
             print(f"Markdownを {output_file} に保存しました")

@@ -55,6 +55,9 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
     date_range_path = os.path.join(output_dir, date_range_dir)
     os.makedirs(date_range_path, exist_ok=True)
     
+    github_raw_dir = os.path.join(date_range_path, "raw", "github")
+    os.makedirs(github_raw_dir, exist_ok=True)
+    
     print(f"データを {date_range_path} に保存します")
     
     result = {
@@ -263,13 +266,13 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
     repo_name = repo.split("/")[1]
     
     all_data = all_issues + all_prs
-    github_file = os.path.join(date_range_path, f"{repo_name}.json")
+    github_file = os.path.join(github_raw_dir, f"{repo_name}.json")
     with open(github_file, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=2)
     
     print(f"{len(all_issues)}件のissueと{len(all_prs)}件のPRを {github_file} に保存しました")
     
-    summary_file = os.path.join(date_range_path, f"github_summary_{repo_name}.json")
+    summary_file = os.path.join(github_raw_dir, f"github_summary_{repo_name}.json")
     with open(summary_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     
@@ -385,7 +388,18 @@ def generate_markdown(items, repo, start_date, end_date, output_file=None):
     
     if not output_file:
         repo_name = repo.split("/")[1]
-        output_file = f"github_report-{repo_name}.md"
+        start_date_str = start_date.replace("-", "")
+        end_date_str = end_date.replace("-", "")
+        date_range_dir = f"{start_date}_to_{end_date}"
+        
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        base_dir = os.path.dirname(os.path.dirname(current_dir))  # リポジトリのルートディレクトリ
+        data_dir = os.path.join(base_dir, "data")
+        markdown_dir = os.path.join(data_dir, date_range_dir, "markdown", "github")
+        os.makedirs(markdown_dir, exist_ok=True)
+        output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+    else:
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
     
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(markdown_report)
@@ -420,6 +434,18 @@ def generate_markdown_from_file(json_file, output_file=None):
     
     today = datetime.date.today()
     one_week_ago = today - datetime.timedelta(days=7)
+    
+    if not output_file:
+        repo_name = repo.split("/")[1] if "/" in repo else repo
+        date_range_dir = os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(json_file))))
+        if not '_to_' in date_range_dir:
+            date_range_dir = f"{one_week_ago.strftime('%Y-%m-%d')}_to_{today.strftime('%Y-%m-%d')}"
+        
+        output_dir = os.path.dirname(json_file)
+        markdown_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(output_dir))), 
+                                   date_range_dir, "markdown", "github")
+        os.makedirs(markdown_dir, exist_ok=True)
+        output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
     
     return generate_markdown(
         items=items,
@@ -464,11 +490,27 @@ def main():
             repo_name = args.repo.split("/")[1]
             
             if not args.output:
-                output_dir = os.path.dirname(json_file)
-                args.output = os.path.join(output_dir, f"github_report-{repo_name}.md")
+                today = datetime.date.today()
+                one_week_ago = today - datetime.timedelta(days=args.last_days)
+                start_date_str = one_week_ago.strftime("%Y-%m-%d")
+                end_date_str = today.strftime("%Y-%m-%d")
+                date_range_dir = f"{start_date_str}_to_{end_date_str}"
+                date_range_path = os.path.join(args.output_dir, date_range_dir)
+                
+                if json_file and os.path.exists(json_file):
+                    output_dir = os.path.dirname(json_file)
+                else:
+                    output_dir = date_range_path
+                    
+                markdown_dir = os.path.join(os.path.dirname(os.path.dirname(output_dir)), 
+                                          date_range_dir, "markdown", "github")
+                os.makedirs(markdown_dir, exist_ok=True)
+                args.output = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
             
-            with open(json_file, 'r', encoding='utf-8') as f:
-                items = json.load(f)
+            items = []
+            if json_file and os.path.exists(json_file):
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    items = json.load(f)
             
             generate_markdown(
                 items=items,

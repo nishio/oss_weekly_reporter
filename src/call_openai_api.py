@@ -136,7 +136,7 @@ def process_slack_data(
     os.makedirs(output_dir, exist_ok=True)
 
     markdown_file = "all_summary.md" if use_all_summary else "weekly_summary.md"
-    markdown_path = os.path.join(data_dir, markdown_file)
+    markdown_path = os.path.join(data_dir, "markdown", "slack", markdown_file)
 
     if not os.path.exists(markdown_path):
         print(f"Markdownファイルが見つかりません: {markdown_path}")
@@ -157,7 +157,9 @@ def process_slack_data(
 
     if response:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = os.path.join(output_dir, f"slack_summary_{timestamp}.md")
+        ai_reports_dir = os.path.join(output_dir, "ai_reports")
+        os.makedirs(ai_reports_dir, exist_ok=True)
+        output_file = os.path.join(ai_reports_dir, f"slack_summary_{timestamp}.md")
 
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(response)
@@ -191,7 +193,7 @@ def process_github_data(
 
     repo_name = repo.split("/")[1]
     markdown_file = f"github_report-{repo_name}.md"
-    markdown_path = os.path.join(data_dir, markdown_file)
+    markdown_path = os.path.join(data_dir, "markdown", "github", markdown_file)
 
     if not os.path.exists(markdown_path):
         print(f"Markdownファイルが見つかりません: {markdown_path}")
@@ -209,8 +211,10 @@ def process_github_data(
 
     if response:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        ai_reports_dir = os.path.join(output_dir, "ai_reports")
+        os.makedirs(ai_reports_dir, exist_ok=True)
         output_file = os.path.join(
-            output_dir, f"github_summary_{repo_name}_{timestamp}.md"
+            ai_reports_dir, f"github_summary_{repo_name}_{timestamp}.md"
         )
 
         with open(output_file, "w", encoding="utf-8") as f:
