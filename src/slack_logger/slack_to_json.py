@@ -43,7 +43,7 @@ def load_config() -> Dict[str, Any]:
 class SlackExtractor:
     """Slackからデータを抽出するクラス"""
 
-    def __init__(self, token: str, auto_join: bool = True, skip_channels: List[str] = None):
+    def __init__(self, token: str, auto_join: bool = True, skip_channels: Optional[List[str]] = None):
         """
         初期化
         
@@ -243,6 +243,9 @@ class SlackExtractor:
         date_range_path = os.path.join(output_dir, date_range_dir)
         os.makedirs(date_range_path, exist_ok=True)
         
+        slack_raw_dir = os.path.join(date_range_path, "raw", "slack")
+        os.makedirs(slack_raw_dir, exist_ok=True)
+        
         print(f"データを {date_range_path} に保存します")
         
         result = {
@@ -265,11 +268,11 @@ class SlackExtractor:
                     print(f"  {len(messages)}件のメッセージを取得しました")
             
             if messages:
-                channel_file = os.path.join(date_range_path, f"{channel_name}.json")
+                channel_file = os.path.join(slack_raw_dir, f"{channel_name}.json")
                 with open(channel_file, 'w', encoding='utf-8') as f:
                     json.dump(messages, f, ensure_ascii=False, indent=2)
                 
-                relative_path = os.path.join(date_range_dir, f"{channel_name}.json")
+                relative_path = os.path.join(date_range_dir, "raw", "slack", f"{channel_name}.json")
                 result["channels"].append({
                     "id": channel_id,
                     "name": channel_name,
@@ -281,7 +284,7 @@ class SlackExtractor:
             else:
                 print(f"  メッセージが見つかりませんでした")
         
-        summary_file = os.path.join(date_range_path, "summary.json")
+        summary_file = os.path.join(slack_raw_dir, "summary.json")
         with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
         
