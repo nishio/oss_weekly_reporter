@@ -1,0 +1,73 @@
+[
+  {
+    "id": 2973806112,
+    "number": 12,
+    "title": "SEO的に必要なメタタグ等の項目の整理",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/website/issues/12",
+    "user": "rysh",
+    "created_at": "2025-04-05T03:29:27Z",
+    "body": "Twitterカードがなかったり、リンク先の概要が見えなかったりすると、クリック率が顕著に落ちる。高度なSEOは必要ないが、意欲のあるプロジェクトであることをアピールするためには当たり前品質には達していたい",
+    "type": "issue"
+  },
+  {
+    "id": 2974147983,
+    "number": 14,
+    "title": "Fix: Add generateStaticParams function for dynamic routes",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/14",
+    "user": "nishio",
+    "created_at": "2025-04-05T11:49:19Z",
+    "merged_at": "2025-04-05T11:49:28Z",
+    "body": "## 問題\r\nGitHub Actionsのビルドで以下のエラーが発生していました：\r\n[Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]\r\n\r\n## 修正内容\r\n- `app/activity/[slug]/page.tsx`に`generateStaticParams()`関数を追加\r\n- 「github」または「slack」で始まるMarkdownファイルだけを検出し、対応するスラッグを生成するように設定\r\n\r\nこの修正により、Next.jsのビルド時に必要な静的ページだけが生成されるようになり、`output: export`設定でも正常にビルドできるようになります。",
+    "additions": 24,
+    "deletions": 9,
+    "changed_files": 1,
+    "type": "pr"
+  },
+  {
+    "id": 2973933748,
+    "number": 13,
+    "title": "fix promise slug & lint",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/13",
+    "user": "nanocloudx",
+    "created_at": "2025-04-05T06:20:27Z",
+    "merged_at": "2025-04-05T06:20:51Z",
+    "body": null,
+    "additions": 135,
+    "deletions": 150,
+    "changed_files": 7,
+    "type": "pr"
+  },
+  {
+    "id": 2971200241,
+    "number": 11,
+    "title": "毎週の活動ページを表示する仕組みを作成",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/11",
+    "user": "nishio",
+    "created_at": "2025-04-04T03:51:11Z",
+    "merged_at": "2025-04-05T03:59:55Z",
+    "body": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\r\n各レポート間のnavigationは改善が必要です。現在は何もありません。\r\n\r\n# 活動記録機能の追加\r\n\r\n## 変更内容\r\n- Slack活動記録（第1〜3週）を追加しました\r\n- GitHub活動記録（第1週, sample）を追加しました\r\n- 活動記録を表示するための機能を実装しました\r\n  - 活動記録一覧ページ（`app/activity/page.tsx`）\r\n  - 活動記録詳細ページ（`app/activity/[slug]/page.tsx`）\r\n\r\n## 背景・目的\r\nデジタル民主主義2030プロジェクトの活動を透明化し、コミュニティメンバーや興味を持つ方々に共有するため、SlackとGitHubでの活動記録を閲覧できる機能を追加しました。\r\n\r\n## 技術的詳細\r\n- マークダウンファイルを使用して活動記録を管理（`markdown/`ディレクトリ）\r\n- Next.jsのダイナミックルーティングを活用して、各活動記録の詳細ページを実装\r\n- ファイル名の先頭（「slack」または「github」）に基づいて、活動記録を自動的に分類して表示\r\n\r\n## 今後の展開\r\n- 今後も週次でSlackとGitHubの活動記録を追加していく予定です",
+    "additions": 741,
+    "deletions": 2,
+    "changed_files": 13,
+    "type": "pr"
+  },
+  {
+    "id": 2955010812,
+    "number": 10,
+    "title": "Slackへのリンクを無期限にする",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/10",
+    "user": "nishio",
+    "created_at": "2025-03-28T04:49:02Z",
+    "merged_at": "2025-04-05T03:59:26Z",
+    "body": null,
+    "additions": 2,
+    "deletions": 2,
+    "changed_files": 2,
+    "type": "pr"
+  }
+]

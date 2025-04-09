@@ -1,0 +1,185 @@
+{
+  "period": {
+    "start": "2025-04-02",
+    "end": "2025-04-09"
+  },
+  "repo": "digitaldemocracy2030/idobata-analyst",
+  "issues": [
+    {
+      "id": 2959419233,
+      "number": 90,
+      "title": "Biomeをrootで実行できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2974747535,
+      "number": 105,
+      "title": "プロジェクトレポートの分析に失敗したとき、失敗理由を表示したい",
+      "state": "created"
+    },
+    {
+      "id": 2974367860,
+      "number": 100,
+      "title": "動作確認用サンプルデータの改善",
+      "state": "created"
+    },
+    {
+      "id": 2972193712,
+      "number": 98,
+      "title": "コメント一覧を出力できるようにすることで、自前でテストできるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2965890762,
+      "number": 97,
+      "title": "deep search的な機能によってファクトチェックする",
+      "state": "created"
+    },
+    {
+      "id": 2965612798,
+      "number": 96,
+      "title": "ビジュアル分析のモバイル表示対応",
+      "state": "created"
+    },
+    {
+      "id": 2951788221,
+      "number": 81,
+      "title": "ビジュアル分析をシェアしやすいUIにすることで、良い分析をみた参加者が画像とURLをSNSで共有しやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2951249245,
+      "number": 77,
+      "title": "チャットの履歴を保存できるようにすることで、参加者がより継続的に深く論点に対しての理解を深められるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2941138449,
+      "number": 71,
+      "title": "GitHub Actions で test, linter を実行するようにすることで、開発者が安心してコードの品質を高く保てるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2940965097,
+      "number": 63,
+      "title": "AIのレスポンスをキャッシュするようにすることで、開発時の動作確認で AI 費用がなるべくかからないようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2923441852,
+      "number": 39,
+      "title": "extractionフェーズで過度な捨象が発生してしまうのを避けたい",
+      "state": "updated"
+    },
+    {
+      "id": 2912400039,
+      "number": 20,
+      "title": "コメント数が0件の論点について、0件である旨を表示することで、ユーザーが無駄に読み込みを待ってしまうことを防ぐ",
+      "state": "updated"
+    },
+    {
+      "id": 2912389092,
+      "number": 15,
+      "title": "コメントの左側のバーの色を、各立場（スタンス）に対応する円グラフの色と一致させることで、読み手が理解しやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2912325151,
+      "number": 10,
+      "title": "全体レポートにmarkdownと出てしまうのを修正し、読み手の違和感を防ぐ",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 2965521604,
+      "number": 95,
+      "title": "CSV プレビューの小さなバグ修正",
+      "state": "merged"
+    },
+    {
+      "id": 2965499926,
+      "number": 94,
+      "title": "開発環境でサンプル CSV を読み込めるボタンを置いた",
+      "state": "merged"
+    },
+    {
+      "id": 2965395853,
+      "number": 93,
+      "title": "開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた",
+      "state": "merged"
+    },
+    {
+      "id": 2959435882,
+      "number": 91,
+      "title": "Enable to run biome at the root directory",
+      "state": "merged"
+    },
+    {
+      "id": 2957821231,
+      "number": 88,
+      "title": "make containers-start の微修正",
+      "state": "merged"
+    },
+    {
+      "id": 2941111261,
+      "number": 64,
+      "title": "improve copy-env.sh",
+      "state": "merged"
+    },
+    {
+      "id": 2940957898,
+      "number": 62,
+      "title": "修正：issues19(コメント種類分布の追加)の解決",
+      "state": "merged"
+    },
+    {
+      "id": 2974728642,
+      "number": 104,
+      "title": "Run lint and test on push and pull request",
+      "state": "created"
+    },
+    {
+      "id": 2974442269,
+      "number": 103,
+      "title": "[WIP] コメントが過度に捨象されてしまう問題を緩和した",
+      "state": "created"
+    },
+    {
+      "id": 2974438590,
+      "number": 102,
+      "title": "ディスプレイの大きさに合わせてページ幅を広げるようにした",
+      "state": "created"
+    },
+    {
+      "id": 2974435157,
+      "number": 101,
+      "title": "[WIP] implement cacheService and use it in openRouterService",
+      "state": "created"
+    },
+    {
+      "id": 2972823843,
+      "number": 99,
+      "title": "コメントの左側のバーの色を、各立場（スタンス）に対応する円グラフの色と一致させた",
+      "state": "created"
+    },
+    {
+      "id": 2958007997,
+      "number": 89,
+      "title": "ビジュアル分析タブの余白を調整した",
+      "state": "updated"
+    },
+    {
+      "id": 2940371781,
+      "number": 60,
+      "title": "OpenRouter のクレジットが少なくなってきたらアラートを表示するようにした",
+      "state": "updated"
+    },
+    {
+      "id": 2923120256,
+      "number": 37,
+      "title": "コメントの左側のバーの色を、各立場（スタンス）に対応する円グラフの色と一致させることで、読み手が理解しやすくする",
+      "state": "updated"
+    }
+  ]
+}
