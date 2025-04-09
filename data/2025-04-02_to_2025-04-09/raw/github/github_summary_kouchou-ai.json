@@ -1,0 +1,365 @@
+{
+  "period": {
+    "start": "2025-04-02",
+    "end": "2025-04-09"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 2979402540,
+      "number": 260,
+      "title": "[FEATURE]Azure Blob Serviceにlocal file systemにあるレポートをuploadするスクリプト",
+      "state": "closed"
+    },
+    {
+      "id": 2978773217,
+      "number": 257,
+      "title": "[FEATURE]１層目のクラスタ数上限を緩和する",
+      "state": "closed"
+    },
+    {
+      "id": 2974626937,
+      "number": 238,
+      "title": "[FEATURE]Analysis内の「意見が含まれるコメント数」 を「コメント数」に変える",
+      "state": "closed"
+    },
+    {
+      "id": 2974565326,
+      "number": 237,
+      "title": "[BUG] 散布図等・全体画面表示：背景HPの一部が重なって表示される",
+      "state": "closed"
+    },
+    {
+      "id": 2971583839,
+      "number": 230,
+      "title": "[FEATURE]レポートの削除機能",
+      "state": "closed"
+    },
+    {
+      "id": 2971557072,
+      "number": 229,
+      "title": "[FEATURE]レポートの公開/非公開状態の設定",
+      "state": "closed"
+    },
+    {
+      "id": 2967838327,
+      "number": 225,
+      "title": "[BUG] ２回目以降、静的ファイル出力（static build）時 パーミッションエラーが発生する？",
+      "state": "closed"
+    },
+    {
+      "id": 2965964029,
+      "number": 219,
+      "title": "[FEATURE]client/client-adminのテストをgithub actionsで実行する",
+      "state": "closed"
+    },
+    {
+      "id": 2962812783,
+      "number": 216,
+      "title": "[FEATURE]Azureへのデプロイ時に手元のレポートを含めることを可能にする",
+      "state": "closed"
+    },
+    {
+      "id": 2962326893,
+      "number": 212,
+      "title": "[BUG]新しいレポートを作成してもclient一覧画面にレポートが表示されない",
+      "state": "closed"
+    },
+    {
+      "id": 2948652084,
+      "number": 185,
+      "title": "[FEATURE]失敗したプロセスの詳細情報を得られるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2937303043,
+      "number": 116,
+      "title": "[FEATURE]「どのフィールドをcommentとするか」を指定できる機能",
+      "state": "closed"
+    },
+    {
+      "id": 2935266523,
+      "number": 112,
+      "title": "[FEATURE]クラスタ見出しをanchorにする",
+      "state": "closed"
+    },
+    {
+      "id": 2922122757,
+      "number": 46,
+      "title": "[FEATURE]ストレージ連携",
+      "state": "closed"
+    },
+    {
+      "id": 2893891126,
+      "number": 13,
+      "title": "[FEATURE]レポート出力の進捗を知りたい",
+      "state": "closed"
+    },
+    {
+      "id": 2979959784,
+      "number": 266,
+      "title": "[FEATURE]クラスタ数が増えた場合に散布図上でクラスタラベルが被ってしまう",
+      "state": "created"
+    },
+    {
+      "id": 2979691677,
+      "number": 264,
+      "title": "[REFACTOR] GitHub Actions で Biome の lint, format のチェックを実行する",
+      "state": "created"
+    },
+    {
+      "id": 2978486958,
+      "number": 255,
+      "title": "(情報整理)OpenAIが使えないケースのケア",
+      "state": "created"
+    },
+    {
+      "id": 2978480128,
+      "number": 254,
+      "title": "(情報整理)Windows環境で試す人のためのガイドが必要",
+      "state": "created"
+    },
+    {
+      "id": 2978478982,
+      "number": 253,
+      "title": "[FEATURE]静的HTML出力してローカルファイルシステムで開いたときに詳細なエラー表示をする",
+      "state": "created"
+    },
+    {
+      "id": 2978426960,
+      "number": 250,
+      "title": "[FEATURE]階層図で一番下まで到達した時には原文を見せても良いのではないか",
+      "state": "created"
+    },
+    {
+      "id": 2974877378,
+      "number": 243,
+      "title": "初期設定時のentrypoint.shエラー",
+      "state": "created"
+    },
+    {
+      "id": 2974667369,
+      "number": 241,
+      "title": "[FEATURE]おすすめクラスタ数設定機能",
+      "state": "created"
+    },
+    {
+      "id": 2974091165,
+      "number": 236,
+      "title": "[FEATURE] パブコメモードに回答案を追加する",
+      "state": "created"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "created"
+    },
+    {
+      "id": 2969624362,
+      "number": 227,
+      "title": "[FEATURE]設定画面について",
+      "state": "created"
+    },
+    {
+      "id": 2966981395,
+      "number": 223,
+      "title": "[FEATURE]クライアント開発用のresultを公開",
+      "state": "created"
+    },
+    {
+      "id": 2966961605,
+      "number": 222,
+      "title": "[FEATURE]クラスタ数変更を直接入力可能にする",
+      "state": "created"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "created"
+    },
+    {
+      "id": 2966115761,
+      "number": 220,
+      "title": "[FEATURE] frontからstaticなHTMLファイルをexportしてDownloadできるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2965108490,
+      "number": 218,
+      "title": "[FEATURE]レポート一覧に作成日時を追加する",
+      "state": "created"
+    },
+    {
+      "id": 2927036222,
+      "number": 84,
+      "title": "[REFACTOR] フロントエンドのコードを Biome でフォーマットをする",
+      "state": "updated"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 2979794061,
+      "number": 265,
+      "title": "第一階層のクラスタ数の上限を緩和",
+      "state": "merged"
+    },
+    {
+      "id": 2979660696,
+      "number": 263,
+      "title": "client の package-lock.json に差分が出る課題の修正",
+      "state": "merged"
+    },
+    {
+      "id": 2979635707,
+      "number": 262,
+      "title": "client-admin に Biome を適用",
+      "state": "merged"
+    },
+    {
+      "id": 2979454383,
+      "number": 261,
+      "title": "Azure Blob Storageにローカルのレポートをuploadするscript",
+      "state": "merged"
+    },
+    {
+      "id": 2979232117,
+      "number": 259,
+      "title": "Azure.mdに環境変数の説明を追記",
+      "state": "merged"
+    },
+    {
+      "id": 2978849514,
+      "number": 258,
+      "title": "Fix: 静的ビルド時のパーミッションエラー修正",
+      "state": "merged"
+    },
+    {
+      "id": 2978728308,
+      "number": 256,
+      "title": "「パブコメモード」という名称を「CSV出力モード」に変更",
+      "state": "merged"
+    },
+    {
+      "id": 2978450429,
+      "number": 252,
+      "title": "Fix issue #237: Add z-index to fullscreen chart container",
+      "state": "merged"
+    },
+    {
+      "id": 2976683462,
+      "number": 249,
+      "title": "client に Biome を適用",
+      "state": "merged"
+    },
+    {
+      "id": 2976332198,
+      "number": 247,
+      "title": "[FEATURE] client/client-adminのテストをGitHub Actionsで実行する",
+      "state": "merged"
+    },
+    {
+      "id": 2976319344,
+      "number": 245,
+      "title": "[FEATURE] レポート一覧に作成日時を追加する",
+      "state": "merged"
+    },
+    {
+      "id": 2974802791,
+      "number": 242,
+      "title": "Biome の追加と dummy-server にフォーマットを適用",
+      "state": "merged"
+    },
+    {
+      "id": 2974658733,
+      "number": 240,
+      "title": "clientの一覧画面でISRを有効化",
+      "state": "merged"
+    },
+    {
+      "id": 2974652077,
+      "number": 239,
+      "title": "「意見が含まれるコメント数」 -> 「コメント数」に文言を修正",
+      "state": "merged"
+    },
+    {
+      "id": 2973798076,
+      "number": 234,
+      "title": "意見グループ（クラスタ）数の値の変更を直接入力でも可能にする",
+      "state": "merged"
+    },
+    {
+      "id": 2971926630,
+      "number": 233,
+      "title": "[FEATURE]レポートの公開/非公開状態の設定 (#229)",
+      "state": "merged"
+    },
+    {
+      "id": 2971908072,
+      "number": 232,
+      "title": "Implement report deletion feature (issue #230)",
+      "state": "merged"
+    },
+    {
+      "id": 2970065492,
+      "number": 228,
+      "title": "Azure Blob Storage連携機能の実装",
+      "state": "merged"
+    },
+    {
+      "id": 2968531540,
+      "number": 226,
+      "title": "add column selection",
+      "state": "merged"
+    },
+    {
+      "id": 2967761436,
+      "number": 224,
+      "title": "クラスタ見出しをanchorにする",
+      "state": "merged"
+    },
+    {
+      "id": 2963002553,
+      "number": 217,
+      "title": "レポート出力の進捗を表示",
+      "state": "merged"
+    },
+    {
+      "id": 2978436805,
+      "number": 251,
+      "title": "[FEATURE] GoogleAnalytics 対応 #54",
+      "state": "created"
+    },
+    {
+      "id": 2976337956,
+      "number": 248,
+      "title": "[FEATURE] レポートの複製・再利用機能 (Issue #19)",
+      "state": "created"
+    },
+    {
+      "id": 2976324699,
+      "number": 246,
+      "title": "[FEATURE] 1回のextractionで複数のcommentを処理する",
+      "state": "created"
+    },
+    {
+      "id": 2976318527,
+      "number": 244,
+      "title": "[FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+      "state": "created"
+    },
+    {
+      "id": 2971855106,
+      "number": 231,
+      "title": "Test PR: Dummy change for verification",
+      "state": "created"
+    }
+  ]
+}

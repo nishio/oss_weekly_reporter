@@ -1,0 +1,1138 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743738743.989789",
+    "client_msg_id": "185b8801-d1fb-429f-9ca5-90d4294bef95",
+    "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n<https://github.com/digitaldemocracy2030/website/pull/11>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743738671,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/11",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#11 毎週の活動ページを表示する仕組みを作成",
+        "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。  \n各レポート間のnavigationは改善が必要です。現在は何もありません。\n\n# 活動記録機能の追加\n\n## 変更内容\n\n• Slack活動記録（第1〜3週）を追加しました\n• GitHub活動記録（第1週, sample）を追加しました\n• 活動記録を表示するための機能を実装しました  \n   • 活動記録一覧ページ（`app/activity/page.tsx`）  \n   • 活動記録詳細ページ（`app/activity/[slug]/page.tsx`）\n\n## 背景・目的\n\nデジタル民主主義2030プロジェクトの活動を透明化し、コミュニティメンバーや興味を持つ方々に共有するため、SlackとGitHubでの活動記録を閲覧できる機能を追加しました。\n\n## 技術的詳細\n\n• マークダウンファイルを使用して活動記録を管理（`markdown/`ディレクトリ）\n• Next.jsのダイナミックルーティングを活用して、各活動記録の詳細ページを実装\n• ファイル名の先頭（「slack」または「github」）に基づいて、活動記録を自動的に分類して表示\n\n## 今後の展開\n\n• 今後も週次でSlackとGitHubの活動記録を追加していく予定です\n• 活動記録の検索機能や、タグによるフィルタリング機能などの追加も検討します",
+        "title": "#11 毎週の活動ページを表示する仕組みを作成",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/11",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6Imrr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08H3V9KMFH",
+          "U08HV1H5HKK"
+        ],
+        "count": 3
+      },
+      {
+        "name": "raised_hands::skin-tone-3",
+        "users": [
+          "U08HZDZSPHP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n<https://github.com/digitaldemocracy2030/website/pull/11>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743740588.630799",
+    "client_msg_id": "9CC736DE-5516-4E66-B821-945F3A2C4D02",
+    "text": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4AD+E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1743740844.719329",
+    "client_msg_id": "387b9c42-ed40-4e2f-a744-e6c332514bb0",
+    "text": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L5c4o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743740887.526099",
+    "client_msg_id": "85770C92-F17D-490F-915D-3A2BF4250372",
+    "text": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7STgy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743742555.959499",
+    "client_msg_id": "c5a0b454-c14f-406c-b52c-307befa1bbe0",
+    "text": "まだ間に合うので、idobataモノレポにするのはありうると思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vGj2j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ間に合うので、idobataモノレポにするのはありうると思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "まだ間に合うので、idobataモノレポにするのはありうると思います"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743742769.755069",
+    "client_msg_id": "E16AB93B-77AE-46DA-8100-F62C3C69D2E3",
+    "text": "まあ、レポートのためにまとめる必要はないですよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c0NKm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ、レポートのためにまとめる必要はないですよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ、レポートのためにまとめる必要はないですよ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743742806.614779",
+    "client_msg_id": "29017FF0-BAA6-45E8-BF70-E717B6DF9B5C",
+    "text": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LrMhb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1743743152.745469",
+    "client_msg_id": "c295f05c-6bb2-4f02-958f-762f499b3ae1",
+    "text": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fq4BI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhododesune",
+        "users": [
+          "U08G2A216TW",
+          "U08GJSBAX3K",
+          "U08HV1H5HKK",
+          "U08JASQKEEM"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743756490.990329",
+    "client_msg_id": "bccfd7ed-4365-4aaf-80a5-1c174ad2bb11",
+    "text": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vQJTR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: <https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743820449.542979",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: <https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743820493.492519",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743823065.274679",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1743826189.061409",
+    "client_msg_id": "ad9f8520-1f0d-4c59-b851-b81e2df53a4b",
+    "text": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず:sweat_drops:\n<https://github.com/digitaldemocracy2030/website/issues/12>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1743857492.502939",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08GAUQTR1N"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743823767,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/issues/12",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#12 SEO的に必要なメタタグ等の項目の整理",
+        "text": "Twitterカードがなかったり、リンク先の概要が見えなかったりすると、クリック率が顕著に落ちる。高度なSEOは必要ないが、意欲のあるプロジェクトであることをアピールするためには当たり前品質には達していたい",
+        "title": "#12 SEO的に必要なメタタグ等の項目の整理",
+        "title_link": "https://github.com/digitaldemocracy2030/website/issues/12",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "fields": [
+          {
+            "value": "4",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Vz6sc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず"
+              },
+              {
+                "type": "emoji",
+                "name": "sweat_drops",
+                "unicode": "1f4a6"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/issues/12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず:sweat_drops:\n<https://github.com/digitaldemocracy2030/website/issues/12>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743856536.339549",
+    "client_msg_id": "aa73be03-1979-4413-ad8d-eb1445c89a9b",
+    "text": "<@U08HV1H5HKK>\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rYZBq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HV1H5HKK"
+              },
+              {
+                "type": "text",
+                "text": "\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "@rysh.cact\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743857139.546689",
+    "client_msg_id": "05f07d46-5a3f-4c5f-b8ea-b7f75bd12c4c",
+    "text": "<@U08GAUQTR1N>\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Aew6L",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": "\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "@nanocloudx\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743857321.540999",
+    "client_msg_id": "f6390051-516e-42b7-9eab-58f4e11bee3d",
+    "text": "とりあえず作りました！\n<https://github.com/orgs/digitaldemocracy2030/projects/4>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QLZDU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず作りました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/orgs/digitaldemocracy2030/projects/4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "とりあえず作りました！\n<https://github.com/orgs/digitaldemocracy2030/projects/4>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743857492.502939",
+    "client_msg_id": "cc12967b-3d81-4eeb-9c71-6b53799f99d6",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743833366.890059",
+    "client_msg_id": "EC1D6E50-1B67-41D2-9BE8-EBFAF175C920",
+    "text": "<@U08GAUQTR1N> マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "reply_count": 12,
+    "reply_users_count": 2,
+    "latest_reply": "1743853862.834279",
+    "reply_users": [
+      "U08GAUQTR1N",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ToRNW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": " マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@nanocloudx マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743833441.845729",
+    "client_msg_id": "e7d9bd15-9e8c-4d1f-b5a3-b159a6dc7339",
+    "text": "ビンゴですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kKWqY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ビンゴですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "ビンゴですね"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834072.984749",
+    "client_msg_id": "f4b628b6-cca8-4921-ab66-93642914a500",
+    "text": "fixed\n<https://github.com/digitaldemocracy2030/website/pull/13>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743834027,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/13",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#13 fix promise slug & lint",
+        "title": "#13 fix promise slug & lint",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/13",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "fields": [
+          {
+            "value": "<https://github.com/nanocloudx|@nanocloudx>",
+            "title": "Assignees",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H7Iza",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "fixed\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/13"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "fixed\n<https://github.com/digitaldemocracy2030/website/pull/13>"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834412.291129",
+    "client_msg_id": "69d200e2-c395-4c8e-83f0-04cc107d3a12",
+    "text": "Oops\n&gt; [Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vbY08",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Oops\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "[Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "Oops\n> [Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834561.728719",
+    "client_msg_id": "ccea3652-6420-46d8-970c-060d1311ec06",
+    "text": "なるほど理解",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "86p7N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど理解"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "なるほど理解"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834625.982889",
+    "client_msg_id": "a9fa4b56-6090-4740-9c8a-f8c2ec05f7d4",
+    "text": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BiWSd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834657.439629",
+    "client_msg_id": "b4887c4a-74b9-4648-a962-d75b57e8ffc1",
+    "text": "~原因は分かったが今日は手が回せなさそう問題~",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/p1bF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "原因は分かったが今日は手が回せなさそう問題",
+                "style": {
+                  "strike": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "~原因は分かったが今日は手が回せなさそう問題~"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743835557.158289",
+    "client_msg_id": "4A71CFC2-3948-47D6-9A90-2ED16E0FA806",
+    "text": "帰ったら見てみます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2wSdb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "帰ったら見てみます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "帰ったら見てみます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743852018.276979",
+    "client_msg_id": "c7f9f839-450b-43ac-8a81-ea26a9596598",
+    "text": "Github Actionsを見ればいいのがわかった",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y+bUG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Github Actionsを見ればいいのがわかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Github Actionsを見ればいいのがわかった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743852200.487819",
+    "client_msg_id": "25bff2f9-f269-48ce-9009-9d4114d65a4d",
+    "text": "OK、理解したのでやります",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vAVU+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OK、理解したのでやります"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OK、理解したのでやります"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853307.520939",
+    "client_msg_id": "b8eb8afc-6ce3-427c-8092-4db1382ef878",
+    "text": "あれ？手元でnpm run buildしたらエラーなく通るな…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+iOtg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ？手元でnpm run buildしたらエラーなく通るな…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あれ？手元でnpm run buildしたらエラーなく通るな…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853805.656969",
+    "client_msg_id": "2a1c82b6-202f-4c0c-bc61-5a95e4cdb25e",
+    "text": "<https://github.com/digitaldemocracy2030/website/pull/14>\nmergeしてactionを観察します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743853759,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/14",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#14 Fix: Add generateStaticParams function for dynamic routes",
+        "text": "## 問題\n\nGitHub Actionsのビルドで以下のエラーが発生していました：  \n[Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]\n\n## 修正内容\n\n• `app/activity/[slug]/page.tsx`に`generateStaticParams()`関数を追加\n• 「github」または「slack」で始まるMarkdownファイルだけを検出し、対応するスラッグを生成するように設定\n\nこの修正により、Next.jsのビルド時に必要な静的ページだけが生成されるようになり、`output: export`設定でも正常にビルドできるようになります。",
+        "title": "#14 Fix: Add generateStaticParams function for dynamic routes",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/14",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3Q1f4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/14"
+              },
+              {
+                "type": "text",
+                "text": "\nmergeしてactionを観察します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/website/pull/14>\nmergeしてactionを観察します"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853862.834279",
+    "client_msg_id": "3fe60ece-9512-4c21-861c-b694898fdbc8",
+    "text": "success!\n<https://github.com/digitaldemocracy2030/website/actions/runs/14281597429>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d3WYJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "success!\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/actions/runs/14281597429"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "success!\n<https://github.com/digitaldemocracy2030/website/actions/runs/14281597429>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743854631.752639",
+    "client_msg_id": "84fa856c-417e-448d-954b-5668563de719",
+    "text": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OWY3F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744166367.006689",
+    "client_msg_id": "de48d1d2-cecc-48f4-b18d-7282d2df92b9",
+    "text": "Devinに1週間分のレポートを作ってという無茶振りをした",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cS3ug",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devinに1週間分のレポートを作ってという無茶振りをした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Devinに1週間分のレポートを作ってという無茶振りをした"
+  }
+]

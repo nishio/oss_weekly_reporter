@@ -1,0 +1,324 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08FY2KR468",
+    "text": "<@U08FY2KR468> has joined the channel",
+    "type": "message",
+    "ts": "1743860353.886199",
+    "user_name": "Michio Kawai",
+    "text_readable": "@llehctim.k has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08GJSBAX3K",
+    "text": "<@U08GJSBAX3K> has joined the channel",
+    "type": "message",
+    "ts": "1743860507.158799",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "@shutaro.aoyama has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HMV9AHLL",
+    "text": "<@U08HMV9AHLL> has joined the channel",
+    "type": "message",
+    "ts": "1743860552.102049",
+    "user_name": "Horie Satoru",
+    "text_readable": "@spinutids has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JGS0BS57",
+    "text": "<@U08JGS0BS57> has joined the channel",
+    "type": "message",
+    "ts": "1743860637.016959",
+    "user_name": "naoyo4",
+    "text_readable": "@nao.yo4da has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08H3V9KMFH",
+    "text": "<@U08H3V9KMFH> has joined the channel",
+    "type": "message",
+    "ts": "1743860926.933459",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@truego has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08G2A216TW",
+    "text": "<@U08G2A216TW> has joined the channel",
+    "type": "message",
+    "ts": "1743860940.146299",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@nishio.hirokazu has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JT0NEXJ4",
+    "text": "<@U08JT0NEXJ4> has joined the channel",
+    "type": "message",
+    "ts": "1743861181.898059",
+    "user_name": "Shigeru Urushibara",
+    "text_readable": "@uru has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HWJ80CHG",
+    "text": "<@U08HWJ80CHG> has joined the channel",
+    "type": "message",
+    "ts": "1743862641.068649",
+    "user_name": "小野翔太",
+    "text_readable": "@oscar.gaddress has joined the channel"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743862814.390969",
+    "client_msg_id": "bbb4b554-ecae-42d4-a66a-5b171c476647",
+    "text": "デザイナーじゃないけど入りました！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uUt0F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デザイナーじゃないけど入りました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デザイナーじゃないけど入りました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743862861.815139",
+    "client_msg_id": "5fd2996c-bd23-44af-ada4-1b181638b533",
+    "text": "mobile対応が弱いよねと言う議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539",
+        "ts": "1743602736.031539",
+        "author_id": "U08HMV9AHLL",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1743602736.031539",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "UraeF",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "blob-thinking"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "blob-thinking-cool"
+                        },
+                        {
+                          "type": "text",
+                          "text": "（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539",
+        "fallback": "[April 2nd, 2025 7:05 AM] spinutids: 現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました:blob-thinking:\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています:blob-thinking-cool:（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）",
+        "text": "現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました:blob-thinking:\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています:blob-thinking-cool:（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）",
+        "author_name": "Horie Satoru",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08HMV9AHLL",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8597760742083_598cdd9e06c0fae89043_48.png",
+        "author_subname": "Horie Satoru",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kGj6C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "mobile対応が弱いよねと言う議論\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FY2KR468"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "mobile対応が弱いよねと言う議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FZDRRY8Z",
+    "text": "<@U08FZDRRY8Z> has joined the channel",
+    "type": "message",
+    "ts": "1743862912.791669",
+    "user_name": "安野貴博",
+    "text_readable": "@annyotaka has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08G5MXP0MT",
+    "text": "<@U08G5MXP0MT> has joined the channel",
+    "inviter": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743862919.480129",
+    "user_name": "Yukiya Yamane",
+    "text_readable": "@yamane.yukiya has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J7M1F5CZ",
+    "text": "<@U08J7M1F5CZ> has joined the channel",
+    "type": "message",
+    "ts": "1743864003.716959",
+    "user_name": "Hidekazu Nagamura",
+    "text_readable": "@hinagamura has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J8NCNYL8",
+    "text": "<@U08J8NCNYL8> has joined the channel",
+    "type": "message",
+    "ts": "1743871952.397679",
+    "user_name": "Furukawa",
+    "text_readable": "@efu.eiouai has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HJ4KUM61",
+    "text": "<@U08HJ4KUM61> has joined the channel",
+    "type": "message",
+    "ts": "1743902832.292749",
+    "user_name": "Kazuko Muto",
+    "text_readable": "@kkzz.mmtt has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J64DB084",
+    "text": "<@U08J64DB084> has joined the channel",
+    "type": "message",
+    "ts": "1743902927.587339",
+    "user_name": "いあ(itomaaikon)　田中莉駆",
+    "text_readable": "@riku.tanaka.21 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JXNN8MDY",
+    "text": "<@U08JXNN8MDY> has joined the channel",
+    "type": "message",
+    "ts": "1743903602.452629",
+    "user_name": "Mitsuaki Noda",
+    "text_readable": "@mitsuaki.noda212 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08H87SMJAK",
+    "text": "<@U08H87SMJAK> has joined the channel",
+    "type": "message",
+    "ts": "1743906518.869369",
+    "user_name": "takashimamorino",
+    "text_readable": "@does1026 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FTAEETAB",
+    "text": "<@U08FTAEETAB> has joined the channel",
+    "type": "message",
+    "ts": "1743911302.646749",
+    "user_name": "jujunjun110",
+    "text_readable": "@jujunjun110 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HZDZSPHP",
+    "text": "<@U08HZDZSPHP> has joined the channel",
+    "type": "message",
+    "ts": "1743983427.743239",
+    "user_name": "yamanoku",
+    "text_readable": "@0910yama has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08GAUQTR1N",
+    "text": "<@U08GAUQTR1N> has joined the channel",
+    "type": "message",
+    "ts": "1743984384.067479",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "@nanocloudx has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JARJAHB6",
+    "text": "<@U08JARJAHB6> has joined the channel",
+    "type": "message",
+    "ts": "1743986051.463849",
+    "user_name": "YOSHIMURA Kiyotaka",
+    "text_readable": "@bq20026 has joined the channel"
+  }
+]
