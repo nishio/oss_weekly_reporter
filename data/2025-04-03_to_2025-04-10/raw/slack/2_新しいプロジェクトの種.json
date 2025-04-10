@@ -1,0 +1,1831 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743663070.544289",
+    "client_msg_id": "f8378472-813d-4272-9418-b803f37b6888",
+    "text": "副次的に生まれた「週次レポート作成」の方を <https://github.com/nishio/oss_weekly_reporter> で改善していく予定\n• Slackからの抽出(JSONで保存)\n• JSONからのMarkdown作成\n• GitHubからの抽出(JSON, Markdownで保存)\n• Markdownをプロンプトに積んでo1を叩く(ここは今は手動)\n• Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743663070.544289",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743765613.562219",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C5+kL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "副次的に生まれた「週次レポート作成」の方を "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/oss_weekly_reporter"
+              },
+              {
+                "type": "text",
+                "text": " で改善していく予定\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Slackからの抽出(JSONで保存)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "JSONからのMarkdown作成"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitHubからの抽出(JSON, Markdownで保存)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Markdownをプロンプトに積んでo1を叩く(ここは今は手動)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08J8NCNYL8",
+          "U08H3V9KMFH",
+          "U08FZDRRY8Z",
+          "U08HWJ80CHG"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "副次的に生まれた「週次レポート作成」の方を <https://github.com/nishio/oss_weekly_reporter> で改善していく予定\n• Slackからの抽出(JSONで保存)\n• JSONからのMarkdown作成\n• GitHubからの抽出(JSON, Markdownで保存)\n• Markdownをプロンプトに積んでo1を叩く(ここは今は手動)\n• Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする\n"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1743663070.544289",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1743663070.544289",
+      "client_msg_id": "f8378472-813d-4272-9418-b803f37b6888",
+      "text": "副次的に生まれた「週次レポート作成」の方を <https://github.com/nishio/oss_weekly_reporter> で改善していく予定\n• Slackからの抽出(JSONで保存)\n• JSONからのMarkdown作成\n• GitHubからの抽出(JSON, Markdownで保存)\n• Markdownをプロンプトに積んでo1を叩く(ここは今は手動)\n• Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする\n",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1743663070.544289",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743765613.562219",
+      "reply_users": [
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C5+kL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "副次的に生まれた「週次レポート作成」の方を "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/nishio/oss_weekly_reporter"
+                },
+                {
+                  "type": "text",
+                  "text": " で改善していく予定\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Slackからの抽出(JSONで保存)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "JSONからのMarkdown作成"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "GitHubからの抽出(JSON, Markdownで保存)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Markdownをプロンプトに積んでo1を叩く(ここは今は手動)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1743765613.562219",
+    "client_msg_id": "6753886a-054a-4366-96a8-73bcb8028b10",
+    "text": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LH/Kj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743663070.544289",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1743736981.254829",
+    "client_msg_id": "ccd2832e-75ca-441f-a645-f799b3f7bcc4",
+    "text": "趣味でAIポッドキャスト生成システムを作っていたらだいぶクオリティ高いものができました\nこういう仕組みを熟議前の共通知識のインプットに使うことができそう？\n\nサンプル（全部タイトルだけ入れてあとはmp3まで自動生成です）\n幽玄のコード：能はなぜ650年生き延びたのか\n　<https://drive.google.com/drive/folders/1A3kz3ouG_3wZ_tag0ecIneoJhRKTIxKn?usp=sharing>\n夢と幻のVR史：技術革新、熱狂、そして『次』への期待\n　<https://drive.google.com/drive/folders/1Cmi9ATjTJdcQuzuyArQDkBHLht2QCd4l?usp=drive_link>\nシリコンバレー・マインドの探求：なぜ『世界を変える』場所になったのか？\n　<https://drive.google.com/drive/folders/1XIr0lVIhs5G9EWJlOpFCnFbSvMBcoFzU?usp=drive_link>\n深掘りナイジェリア：政治・社会・経済のこれからを読み解く\n　<https://drive.google.com/drive/folders/1LvjUxX8yN2CNTJAW2XpiQqNpuFrwI61Y?usp=drive_link>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743736981.254829",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1743740298.019759",
+    "reply_users": [
+      "U08J8NCNYL8",
+      "U08FTAEETAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hoGxC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "趣味でAIポッドキャスト生成システムを作っていたらだいぶクオリティ高いものができました\nこういう仕組みを熟議前の共通知識のインプットに使うことができそう？\n\nサンプル（全部タイトルだけ入れてあとはmp3まで自動生成です）\n幽玄のコード：能はなぜ650年生き延びたのか\n　"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1A3kz3ouG_3wZ_tag0ecIneoJhRKTIxKn?usp=sharing"
+              },
+              {
+                "type": "text",
+                "text": "\n夢と幻のVR史：技術革新、熱狂、そして『次』への期待\n　"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1Cmi9ATjTJdcQuzuyArQDkBHLht2QCd4l?usp=drive_link"
+              },
+              {
+                "type": "text",
+                "text": "\nシリコンバレー・マインドの探求：なぜ『世界を変える』場所になったのか？\n　"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1XIr0lVIhs5G9EWJlOpFCnFbSvMBcoFzU?usp=drive_link"
+              },
+              {
+                "type": "text",
+                "text": "\n深掘りナイジェリア：政治・社会・経済のこれからを読み解く\n　"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1LvjUxX8yN2CNTJAW2XpiQqNpuFrwI61Y?usp=drive_link"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08FY2KR468",
+          "U08KXSKKWEB",
+          "U08HKLUGE67"
+        ],
+        "count": 4
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08FY2KR468",
+          "U08J8NCNYL8",
+          "U08KXSKKWEB",
+          "U08HKLUGE67"
+        ],
+        "count": 4
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW",
+          "U08KXSKKWEB",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      },
+      {
+        "name": "sasuga",
+        "users": [
+          "U08HKLUGE67"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "趣味でAIポッドキャスト生成システムを作っていたらだいぶクオリティ高いものができました\nこういう仕組みを熟議前の共通知識のインプットに使うことができそう？\n\nサンプル（全部タイトルだけ入れてあとはmp3まで自動生成です）\n幽玄のコード：能はなぜ650年生き延びたのか\n　<https://drive.google.com/drive/folders/1A3kz3ouG_3wZ_tag0ecIneoJhRKTIxKn?usp=sharing>\n夢と幻のVR史：技術革新、熱狂、そして『次』への期待\n　<https://drive.google.com/drive/folders/1Cmi9ATjTJdcQuzuyArQDkBHLht2QCd4l?usp=drive_link>\nシリコンバレー・マインドの探求：なぜ『世界を変える』場所になったのか？\n　<https://drive.google.com/drive/folders/1XIr0lVIhs5G9EWJlOpFCnFbSvMBcoFzU?usp=drive_link>\n深掘りナイジェリア：政治・社会・経済のこれからを読み解く\n　<https://drive.google.com/drive/folders/1LvjUxX8yN2CNTJAW2XpiQqNpuFrwI61Y?usp=drive_link>"
+  },
+  {
+    "user": "U08J8NCNYL8",
+    "type": "message",
+    "ts": "1743739359.414399",
+    "client_msg_id": "38388C61-834E-4F69-8BBA-BBF617C14BC5",
+    "text": "ただの感想ですが、これ、自分が勉強したい分野の内容をポッドキャスト形式にしたらスッと頭に入ってきそうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743736981.254829",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kw5Xs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ただの感想ですが、これ、自分が勉強したい分野の内容をポッドキャスト形式にしたらスッと頭に入ってきそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743736981.254829",
+    "user_name": "Furukawa",
+    "text_readable": "ただの感想ですが、これ、自分が勉強したい分野の内容をポッドキャスト形式にしたらスッと頭に入ってきそうですね"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1743740298.019759",
+    "client_msg_id": "9c756083-69e7-417d-9a6a-53d62538bbec",
+    "text": "すご！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743736981.254829",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qYRDu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すご！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743736981.254829",
+    "user_name": "jujunjun110",
+    "text_readable": "すご！"
+  },
+  {
+    "user": "U08J8NCNYL8",
+    "type": "message",
+    "ts": "1743739734.637099",
+    "client_msg_id": "FF472D67-6889-4021-BBD8-C95414958B79",
+    "text": "そういえば初心者サポートチャンネルを作るみたいな話って結局どうなってるんですっけ？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "reply_count": 5,
+    "reply_users_count": 4,
+    "latest_reply": "1744159653.558459",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08J8NCNYL8",
+      "U08FY2KR468",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MB4wB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういえば初心者サポートチャンネルを作るみたいな話って結局どうなってるんですっけ？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HKLUGE67"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Furukawa",
+    "text_readable": "そういえば初心者サポートチャンネルを作るみたいな話って結局どうなってるんですっけ？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743740295.781709",
+    "client_msg_id": "057C4496-C7CB-4343-9215-16C316789EBD",
+    "text": "確かに！1dayイベントの時までにはあった方がいいかもですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "parent_user_id": "U08J8NCNYL8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TJ2nI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "確かに！1dayイベントの時までにはあった方がいいかもですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743739734.637099",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "確かに！1dayイベントの時までにはあった方がいいかもですね"
+  },
+  {
+    "user": "U08J8NCNYL8",
+    "type": "message",
+    "ts": "1743742203.078649",
+    "client_msg_id": "1633C120-BC42-4C87-8819-527290FDE473",
+    "text": "なんとなく、\n1. 貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)\n2. ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)\nみたいなことをデジタル民主主義webサイトかそのgithubリポジトリあたりにまとめて書けると良いんじゃないかなと思ってます。\n• 1はとりあえずSlack入ったけどどうしたら良いかわからない人を巻き込むのが目的\n• 2は初心者エンジニアはもちろん、中期的にやる気ある非エンジニア自治体職員や政治家が「手元でちょっと試してみる」ときの手引きとして参照できるようになると良い\n一案ですが、ここで詰まったぜ！という点を12日までにたくさん洗い出して、12日にその場で試しながらドキュメントを編集してプルリク作成(非エンジニアの人にドキュメント修正のプルリク作ってもらう)できたらアツいなと思います\n\n当日の流れあんまり把握できてない&amp;私はオンラインかつちょっとしか参加できないのであんまり無責任なことは言えませんが、手動で見え消しを作成していた元公務員としては、一人でも多くの行政関係者にgitに触れてほしいという気持ちがあります笑\n\nとりあえず <@U08FY2KR468> さんにメンション飛ばしておきます！ご参考まで！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "parent_user_id": "U08J8NCNYL8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "28+3M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なんとなく、"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "offset": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "みたいなことをデジタル民主主義webサイトかそのgithubリポジトリあたりにまとめて書けると良いんじゃないかなと思ってます。"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "1はとりあえずSlack入ったけどどうしたら良いかわからない人を巻き込むのが目的"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "2は初心者エンジニアはもちろん、中期的にやる気ある非エンジニア自治体職員や政治家が「手元でちょっと試してみる」ときの手引きとして参照できるようになると良い"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "offset": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n一案ですが、ここで詰まったぜ！という点を12日までにたくさん洗い出して、12日にその場で試しながらドキュメントを編集してプルリク作成(非エンジニアの人にドキュメント修正のプルリク作ってもらう)できたらアツいなと思います\n\n当日の流れあんまり把握できてない&私はオンラインかつちょっとしか参加できないのであんまり無責任なことは言えませんが、手動で見え消しを作成していた元公務員としては、一人でも多くの行政関係者にgitに触れてほしいという気持ちがあります笑\n\nとりあえず "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FY2KR468"
+              },
+              {
+                "type": "text",
+                "text": " さんにメンション飛ばしておきます！ご参考まで！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW",
+          "U08JGS0BS57",
+          "U08KXSKKWEB",
+          "U08HKLUGE67"
+        ],
+        "count": 4
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW",
+          "U08JGS0BS57",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08HKLUGE67"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743739734.637099",
+    "user_name": "Furukawa",
+    "text_readable": "なんとなく、\n1. 貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)\n2. ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)\nみたいなことをデジタル民主主義webサイトかそのgithubリポジトリあたりにまとめて書けると良いんじゃないかなと思ってます。\n• 1はとりあえずSlack入ったけどどうしたら良いかわからない人を巻き込むのが目的\n• 2は初心者エンジニアはもちろん、中期的にやる気ある非エンジニア自治体職員や政治家が「手元でちょっと試してみる」ときの手引きとして参照できるようになると良い\n一案ですが、ここで詰まったぜ！という点を12日までにたくさん洗い出して、12日にその場で試しながらドキュメントを編集してプルリク作成(非エンジニアの人にドキュメント修正のプルリク作ってもらう)できたらアツいなと思います\n\n当日の流れあんまり把握できてない&私はオンラインかつちょっとしか参加できないのであんまり無責任なことは言えませんが、手動で見え消しを作成していた元公務員としては、一人でも多くの行政関係者にgitに触れてほしいという気持ちがあります笑\n\nとりあえず @llehctim.k さんにメンション飛ばしておきます！ご参考まで！"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1743743818.512199",
+    "client_msg_id": "EC756EDD-8016-46E4-868A-70C2F87A4F84",
+    "text": "ありがとうございます！あとで読んで考えます！\nぼくがすでにgithubギリギリです笑",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "parent_user_id": "U08J8NCNYL8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SFXl3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！あとで読んで考えます！\nぼくがすでにgithubギリギリです笑"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08J8NCNYL8"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743739734.637099",
+    "user_name": "Michio Kawai",
+    "text_readable": "ありがとうございます！あとで読んで考えます！\nぼくがすでにgithubギリギリです笑"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1744159569.525219",
+    "client_msg_id": "ff57a667-2d5e-4f6e-a4c9-04e8653ef231",
+    "text": "プルリクを気軽に試せるサンドボックスレポジトリがあるといいと思います\n<https://pullre-quest.kbn.one/castle/quest>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "parent_user_id": "U08J8NCNYL8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qdVHa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プルリクを気軽に試せるサンドボックスレポジトリがあるといいと思います\n"
+              },
+              {
+                "type": "link",
+                "url": "https://pullre-quest.kbn.one/castle/quest"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08J8NCNYL8"
+        ],
+        "count": 1
+      },
+      {
+        "name": "naruhododesune",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743739734.637099",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "プルリクを気軽に試せるサンドボックスレポジトリがあるといいと思います\n<https://pullre-quest.kbn.one/castle/quest>"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1744159653.558459",
+    "client_msg_id": "96fc4c7d-fbe7-42f6-a185-c30f270153c5",
+    "text": "ありがとうございます！\n&gt; 1. 貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)\n&gt; 2. ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)\nこの言語化、私も難しいなと思っています:cry:\nむしろ自分はこう思うみたいなのをどなたか整理していただけるとありがたいです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743739734.637099",
+    "parent_user_id": "U08J8NCNYL8",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "igXNV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nこの言語化、私も難しいなと思っています"
+              },
+              {
+                "type": "emoji",
+                "name": "cry",
+                "unicode": "1f622"
+              },
+              {
+                "type": "text",
+                "text": "\nむしろ自分はこう思うみたいなのをどなたか整理していただけるとありがたいです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743739734.637099",
+    "user_name": "Michio Kawai",
+    "text_readable": "ありがとうございます！\n> 1. 貢献って具体的になにやったらいいの？(非エンジニア・エンジニア向け)\n> 2. ローカルで試してみたい人、開発してみたい人向けの丁寧な手順説明(まずgithubのアカウントを作って〜、くらいから)\nこの言語化、私も難しいなと思っています:cry:\nむしろ自分はこう思うみたいなのをどなたか整理していただけるとありがたいです！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1743663070.544289",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1743663070.544289",
+      "client_msg_id": "f8378472-813d-4272-9418-b803f37b6888",
+      "text": "副次的に生まれた「週次レポート作成」の方を <https://github.com/nishio/oss_weekly_reporter> で改善していく予定\n• Slackからの抽出(JSONで保存)\n• JSONからのMarkdown作成\n• GitHubからの抽出(JSON, Markdownで保存)\n• Markdownをプロンプトに積んでo1を叩く(ここは今は手動)\n• Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする\n",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1743663070.544289",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743765613.562219",
+      "reply_users": [
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C5+kL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "副次的に生まれた「週次レポート作成」の方を "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/nishio/oss_weekly_reporter"
+                },
+                {
+                  "type": "text",
+                  "text": " で改善していく予定\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Slackからの抽出(JSONで保存)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "JSONからのMarkdown作成"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "GitHubからの抽出(JSON, Markdownで保存)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Markdownをプロンプトに積んでo1を叩く(ここは今は手動)"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Webサイト用の出力を作成して、Slackに参加してない人がプロジェクトの中で起こっているを理解可能にする"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1743765613.562219",
+    "client_msg_id": "6753886a-054a-4366-96a8-73bcb8028b10",
+    "text": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LH/Kj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "これは private リポジトリにも対応して、いろいろ整えたら普通に売り物になりそうですね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743857685.177349",
+    "client_msg_id": "cc004ff6-1a71-4528-8980-a70fe1868e29",
+    "text": "メモ:来週までにwebsiteプロジェクトも対象にする\nDiscorseから1週間のログを出力できればそれも対象に出来る？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "itWID",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ:来週までにwebsiteプロジェクトも対象にする\nDiscorseから1週間のログを出力できればそれも対象に出来る？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08FY2KR468"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "メモ:来週までにwebsiteプロジェクトも対象にする\nDiscorseから1週間のログを出力できればそれも対象に出来る？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743858520.617969",
+    "client_msg_id": "d416407a-1a52-4dab-8812-2d6c2299cf0c",
+    "text": "まー、自動化が済んだら1w, 1.5wみたいな感じで全体定例前に生成してもいいのかもな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GfiV0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まー、自動化が済んだら1w, 1.5wみたいな感じで全体定例前に生成してもいいのかもな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まー、自動化が済んだら1w, 1.5wみたいな感じで全体定例前に生成してもいいのかもな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743858689.839759",
+    "client_msg_id": "489b236e-9a8e-4d0c-9d69-b6fa86814001",
+    "text": "組織内情報共有を効率化して「チームワークあふれる社会を創る」ことをビジョンにしてる会社で働いているのでほぼ仕事であるw &gt; 自動まとめ作成",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uZSuA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "組織内情報共有を効率化して「チームワークあふれる社会を創る」ことをビジョンにしてる会社で働いているのでほぼ仕事であるw > 自動まとめ作成"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08FY2KR468"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "組織内情報共有を効率化して「チームワークあふれる社会を創る」ことをビジョンにしてる会社で働いているのでほぼ仕事であるw > 自動まとめ作成"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743858989.187009",
+    "client_msg_id": "d244ac1c-9d68-4c89-901d-9fce3ce99fa6",
+    "text": "可能なら水曜18時時点と土曜の21時時点のを生成してSlackに投げるとこまでやると僕がいなくても回るようになるな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XnVXk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "可能なら水曜18時時点と土曜の21時時点のを生成してSlackに投げるとこまでやると僕がいなくても回るようになるな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "可能なら水曜18時時点と土曜の21時時点のを生成してSlackに投げるとこまでやると僕がいなくても回るようになるな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743859088.883769",
+    "client_msg_id": "77f0b990-ec27-480f-b911-7eb453152465",
+    "text": "websiteとかの場合、情報がGitHubにいかない(wireframeとか)が発生するからSlackログを混ぜるほうが良さそうだな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yNTP1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "websiteとかの場合、情報がGitHubにいかない(wireframeとか)が発生するからSlackログを混ぜるほうが良さそうだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "websiteとかの場合、情報がGitHubにいかない(wireframeとか)が発生するからSlackログを混ぜるほうが良さそうだな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743859247.502879",
+    "client_msg_id": "d5e16ea7-c68c-4734-bfa9-0b19126cb5b9",
+    "text": "個別プロジェクトpageから“直近の活動“でリンクする",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7Ghjq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個別プロジェクトpageから“直近の活動“でリンクする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "個別プロジェクトpageから“直近の活動“でリンクする"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744080989.913369",
+    "client_msg_id": "1D394434-CA9D-4444-AEBA-3F9733441F36",
+    "text": "こんなのがあったのか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uYxiJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんなのがあったのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "こんなのがあったのか"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744081158.526819",
+    "client_msg_id": "10421B27-5D1D-40BF-BFF4-CFA45D5C34BD",
+    "text": "<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149>\nリンク",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149",
+        "ts": "1744023205.963149",
+        "msg_subtype": "thread_broadcast",
+        "author_id": "U08JPUZRT40",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1744023205.963149",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "EQCnG",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://v0-digital-democracy-platform-fcux2z.vercel.app/"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n---\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "仮説",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "多くの人々は最初から明確な政治的意見を持っているわけではない"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "どう改善するか",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "政党の政策に対して市民が直接編集提案や意見表明ができる"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各政策に対して編集提案"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "関連提案を表示。他の市民からの提案も表示"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "市民の政治参加の二つの形態",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "既存政策への賛否表明（投票）",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "新たな意見の提示",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "結論",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F08MQ8ZRKSL",
+            "created": 1744023179,
+            "timestamp": 1744023179,
+            "name": "5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "title": "5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 475888,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08MQ8ZRKSL/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08MQ8ZRKSL/download/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 263,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 350,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 525,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 583,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 700,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 747,
+            "original_w": 2394,
+            "original_h": 1746,
+            "thumb_tiny": "AwAjADC/8oOOPzpQRngin4FGBQA3ePUfnShs9MfnUF1MYtoUcnvS2splU7hgigV1exP+FH4UUUDG45PBpRwOhppLZ6frSj8KAB0WQYYUIioMKMClx7CjHsKdwFopMfSlpARsBuPX86eAMdKa3WnjpQIMD0pMD0FLRQMMD0qK4JEXBI5HSpaiuf8AVfiKa3E9j//Z",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08MQ8ZRKSL/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08MQ8ZRKSL-e66a5721c2",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M4SSKCFM",
+            "created": 1744023184,
+            "timestamp": 1744023184,
+            "name": "b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "title": "b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 242405,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M4SSKCFM/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M4SSKCFM/download/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 152,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 202,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 303,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 337,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 404,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 431,
+            "original_w": 2422,
+            "original_h": 1020,
+            "thumb_tiny": "AwAUADC87qHIPmfgDTfNTP8Ay1/75NTHr2paeghPujJPFNMgHQE/QU+mKHGdzZ/CkMUOCPSnUwB9+d3y+mKfQAYooooAKKKKACiiigD/2Q==",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M4SSKCFM/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M4SSKCFM-903c3fbb48",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08LMGQSTRD",
+            "created": 1744023189,
+            "timestamp": 1744023189,
+            "name": "4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "title": "4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 623397,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08LMGQSTRD/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08LMGQSTRD/download/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 260,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 347,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 520,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 578,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 694,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 740,
+            "original_w": 2410,
+            "original_h": 1742,
+            "thumb_tiny": "AwAiADDRyoPUfnS8CjgGkckAYoAd1opm73H40oz6rQA4kAZJxTGVJRg8gehpx6UZx6nNAC4pknQU4ZyaRwTjFADVBHpingjHUfnTcf5wKdgf3aAEd1RdzEAUwTxHA3jJqQnAzgn2oH0p6ALTX7fWnU1+g+tIB1FFFACN0paRulLQB//Z",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08LMGQSTRD/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08LMGQSTRD-c92057a6ee",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M02LMZJR",
+            "created": 1744023193,
+            "timestamp": 1744023193,
+            "name": "835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "title": "835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 620673,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LMZJR/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LMZJR/download/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 244,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 325,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 487,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 542,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 650,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 693,
+            "original_w": 2470,
+            "original_h": 1672,
+            "thumb_tiny": "AwAgADDR3HJ+X9aUHnnA/GjjOO9Hy+v60ALRScev60ZHrn8aAFoNJk+ho59KAGt97oDR8wP3RQ2d1Jg/SgB/ze1BzjnFNpQB6A0AGDS9qTYD/wDrpcADFAH/2Q==",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M02LMZJR/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M02LMZJR-daa8fdcb05",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M02LH18D",
+            "created": 1744023198,
+            "timestamp": 1744023198,
+            "name": "7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "title": "7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 437795,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LH18D/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LH18D/download/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_360.png",
+            "thumb_360_w": 235,
+            "thumb_360_h": 360,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_480.png",
+            "thumb_480_w": 313,
+            "thumb_480_h": 480,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_720.png",
+            "thumb_720_w": 469,
+            "thumb_720_h": 720,
+            "original_w": 472,
+            "original_h": 724,
+            "thumb_tiny": "AwAwAB+RadTVp9ACY5qO5XNuw+lTYoK7lI9aAGLUgqNakGKAFoFFKKAIRUoqNRUgoAKUUYoA5oA//9k=",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M02LH18D/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M02LH18D-d7dabe42e5",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149",
+        "fallback": "[April 7th, 2025 3:53 AM] takagishunsuke1129: 昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n<https://v0-digital-democracy-platform-fcux2z.vercel.app/>\n---\n\n*仮説*\n• 多くの人々は最初から明確な政治的意見を持っているわけではない\n• むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する\n• その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用\n*どう改善するか*\n• 政党の政策に対して市民が直接編集提案や意見表明ができる\n• 各政策に対して編集提案\n    ◦ 関連提案を表示。他の市民からの提案も表示\n*市民の政治参加の二つの形態*\n1. *既存政策への賛否表明（投票）*：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。\n2. *新たな意見の提示*：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n*結論*\n*「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。*\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。",
+        "text": "昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n<https://v0-digital-democracy-platform-fcux2z.vercel.app/>\n---\n\n*仮説*\n• 多くの人々は最初から明確な政治的意見を持っているわけではない\n• むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する\n• その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用\n*どう改善するか*\n• 政党の政策に対して市民が直接編集提案や意見表明ができる\n• 各政策に対して編集提案\n    ◦ 関連提案を表示。他の市民からの提案も表示\n*市民の政治参加の二つの形態*\n1. *既存政策への賛否表明（投票）*：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。\n2. *新たな意見の提示*：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n*結論*\n*「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。*\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。",
+        "author_name": "Shunsuke Takagi (taka)",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08JPUZRT40",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8635986184000_d829112023f12461d996_48.png",
+        "author_subname": "Shunsuke Takagi (taka)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3tr+N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149",
+                "text": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149"
+              },
+              {
+                "type": "text",
+                "text": "\nリンク"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149>\nリンク"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744119191.330449",
+    "text": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n7rYo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744119229.867719",
+    "text": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X3pD5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな"
+  },
+  {
+    "text": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな",
+    "files": [
+      {
+        "id": "F08LZ5B6WTZ",
+        "created": 1744187494,
+        "timestamp": 1744187494,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 60155,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08LZ5B6WTZ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08LZ5B6WTZ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 170,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 226,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_160.png",
+        "original_w": 600,
+        "original_h": 283,
+        "thumb_tiny": "AwAWADDQK49fzNJjjgH/AL6NLuOcHbn60ZH+z+dADcYPAOf9404HGeP1NJxx9386eNtAACSOlLTQFOcY96UADtQAEZowf8mlooATB/yaMH2/OlooATb69frS0UUAf//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08G2A216TW/F08LZ5B6WTZ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08LZ5B6WTZ-521bb85ee6",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JaL5u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1744187534.496779",
+    "client_msg_id": "dbeb4da9-5622-4ae7-a76f-457931fb4db2",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08J8NCNYL8"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな"
+  }
+]
