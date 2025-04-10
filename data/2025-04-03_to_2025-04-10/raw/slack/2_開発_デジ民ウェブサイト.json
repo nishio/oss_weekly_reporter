@@ -1,0 +1,2552 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743738743.989789",
+    "client_msg_id": "185b8801-d1fb-429f-9ca5-90d4294bef95",
+    "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n<https://github.com/digitaldemocracy2030/website/pull/11>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743738671,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/11",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#11 毎週の活動ページを表示する仕組みを作成",
+        "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。  \n各レポート間のnavigationは改善が必要です。現在は何もありません。\n\n# 活動記録機能の追加\n\n## 変更内容\n\n• Slack活動記録（第1〜3週）を追加しました\n• GitHub活動記録（第1週, sample）を追加しました\n• 活動記録を表示するための機能を実装しました  \n   • 活動記録一覧ページ（`app/activity/page.tsx`）  \n   • 活動記録詳細ページ（`app/activity/[slug]/page.tsx`）\n\n## 背景・目的\n\nデジタル民主主義2030プロジェクトの活動を透明化し、コミュニティメンバーや興味を持つ方々に共有するため、SlackとGitHubでの活動記録を閲覧できる機能を追加しました。\n\n## 技術的詳細\n\n• マークダウンファイルを使用して活動記録を管理（`markdown/`ディレクトリ）\n• Next.jsのダイナミックルーティングを活用して、各活動記録の詳細ページを実装\n• ファイル名の先頭（「slack」または「github」）に基づいて、活動記録を自動的に分類して表示\n\n## 今後の展開\n\n• 今後も週次でSlackとGitHubの活動記録を追加していく予定です\n• 活動記録の検索機能や、タグによるフィルタリング機能などの追加も検討します",
+        "title": "#11 毎週の活動ページを表示する仕組みを作成",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/11",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6Imrr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08H3V9KMFH",
+          "U08HV1H5HKK"
+        ],
+        "count": 3
+      },
+      {
+        "name": "raised_hands::skin-tone-3",
+        "users": [
+          "U08HZDZSPHP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "3週間分のSlack活動まとめを作りました。トップからはまだリンクしていません。この方針で良さそうなら今後GitHub版を作ります。GitHub版はrepoごとに作られる予定です。\n<https://github.com/digitaldemocracy2030/website/pull/11>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743740588.630799",
+    "client_msg_id": "9CC736DE-5516-4E66-B821-945F3A2C4D02",
+    "text": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4AD+E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(広聴AIと井戸端はそれぞれやるとして、井戸端は細かくリポジトリが分かれてるからそれぞれやるかまとめてやるか悩ましいので一旦手作業で試す)"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1743740844.719329",
+    "client_msg_id": "387b9c42-ed40-4e2f-a744-e6c332514bb0",
+    "text": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L5c4o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "idobataモノレポで作ればよかった〜とめっちゃ思ってますｗ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743740887.526099",
+    "client_msg_id": "85770C92-F17D-490F-915D-3A2BF4250372",
+    "text": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7STgy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "広聴AIの過去の全てのIssueとPRを読んでo1を呼ぶのでも50セントくらいだったので毎週自動生成するくらいなら大した金額にならなさそう"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743742555.959499",
+    "client_msg_id": "c5a0b454-c14f-406c-b52c-307befa1bbe0",
+    "text": "まだ間に合うので、idobataモノレポにするのはありうると思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vGj2j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ間に合うので、idobataモノレポにするのはありうると思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "まだ間に合うので、idobataモノレポにするのはありうると思います"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743742769.755069",
+    "client_msg_id": "E16AB93B-77AE-46DA-8100-F62C3C69D2E3",
+    "text": "まあ、レポートのためにまとめる必要はないですよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c0NKm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ、レポートのためにまとめる必要はないですよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ、レポートのためにまとめる必要はないですよ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743742806.614779",
+    "client_msg_id": "29017FF0-BAA6-45E8-BF70-E717B6DF9B5C",
+    "text": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LrMhb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたが分けてレポート作って欲しいのかそうでないのかわからないなーという話だったので、そういう雰囲気なのであればまとめたレポートを作りますね"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1743743152.745469",
+    "client_msg_id": "c295f05c-6bb2-4f02-958f-762f499b3ae1",
+    "text": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fq4BI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhododesune",
+        "users": [
+          "U08G2A216TW",
+          "U08GJSBAX3K",
+          "U08HV1H5HKK",
+          "U08JASQKEEM"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "（だんだんスレ違いになってきていますが）モノレポだったらいいなという理由は、github actionsやissue templateなどの設定を、一度に4回しなければいけないことのつらさですね。\nこれからもCI/CDなど設定したいことは結構ある気がするので今からでもやるのありですよね〜確かに。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743756490.990329",
+    "client_msg_id": "bccfd7ed-4365-4aaf-80a5-1c174ad2bb11",
+    "text": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vQJTR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GitHubのまとめと前後のレポート絵のナビゲーションを足しておきました"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: <https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743820449.542979",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: <https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743820493.492519",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "subtype": "channel_purpose",
+    "user": "U08HV1H5HKK",
+    "purpose": "サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "text": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>",
+    "type": "message",
+    "ts": "1743823065.274679",
+    "user_name": "石橋隆平",
+    "text_readable": "set the channel description: サイト：<https://dd2030.org/>\nリポジトリ：<https://github.com/digitaldemocracy2030/website/>"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1743826189.061409",
+    "client_msg_id": "ad9f8520-1f0d-4c59-b851-b81e2df53a4b",
+    "text": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず:sweat_drops:\n<https://github.com/digitaldemocracy2030/website/issues/12>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1743857492.502939",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08GAUQTR1N"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743823767,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/issues/12",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#12 SEO的に必要なメタタグ等の項目の整理",
+        "text": "Twitterカードがなかったり、リンク先の概要が見えなかったりすると、クリック率が顕著に落ちる。高度なSEOは必要ないが、意欲のあるプロジェクトであることをアピールするためには当たり前品質には達していたい",
+        "title": "#12 SEO的に必要なメタタグ等の項目の整理",
+        "title_link": "https://github.com/digitaldemocracy2030/website/issues/12",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "fields": [
+          {
+            "value": "4",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Vz6sc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず"
+              },
+              {
+                "type": "emoji",
+                "name": "sweat_drops",
+                "unicode": "1f4a6"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/issues/12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "以前SEO関連のシステム作ってて気になったのでIssueに軽く調べた内容記録しておきました。僕はNextわからんバックエンド民なのでさっとPRつくれず:sweat_drops:\n<https://github.com/digitaldemocracy2030/website/issues/12>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743856536.339549",
+    "client_msg_id": "aa73be03-1979-4413-ad8d-eb1445c89a9b",
+    "text": "<@U08HV1H5HKK>\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rYZBq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HV1H5HKK"
+              },
+              {
+                "type": "text",
+                "text": "\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "@rysh.cact\nありがとうございます！JSON-LD、FAQとかも足してリッチリザルト出したいっすね！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743857139.546689",
+    "client_msg_id": "05f07d46-5a3f-4c5f-b8ea-b7f75bd12c4c",
+    "text": "<@U08GAUQTR1N>\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Aew6L",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": "\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "@nanocloudx\nウェブサイト（もっと広く広報でも？）もProjectsあったら嬉しいです。\nいしばしさんよりいただいたものや、その他をタスクとして整理できたらいいなと思いまして。"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743857321.540999",
+    "client_msg_id": "f6390051-516e-42b7-9eab-58f4e11bee3d",
+    "text": "とりあえず作りました！\n<https://github.com/orgs/digitaldemocracy2030/projects/4>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QLZDU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず作りました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/orgs/digitaldemocracy2030/projects/4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "とりあえず作りました！\n<https://github.com/orgs/digitaldemocracy2030/projects/4>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1743857492.502939",
+    "client_msg_id": "cc12967b-3d81-4eeb-9c71-6b53799f99d6",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743826189.061409",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743826189.061409",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743833366.890059",
+    "client_msg_id": "EC1D6E50-1B67-41D2-9BE8-EBFAF175C920",
+    "text": "<@U08GAUQTR1N> マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "reply_count": 12,
+    "reply_users_count": 2,
+    "latest_reply": "1743853862.834279",
+    "reply_users": [
+      "U08GAUQTR1N",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ToRNW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": " マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@nanocloudx マージはしていただいたみたいですけどサイトは更新されてなさそう？何が起きてるかどうすればわかりますかね。\n(エスパーするとeslintに怒られてビルドが落ちてる)"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743833441.845729",
+    "client_msg_id": "e7d9bd15-9e8c-4d1f-b5a3-b159a6dc7339",
+    "text": "ビンゴですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kKWqY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ビンゴですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "ビンゴですね"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834072.984749",
+    "client_msg_id": "f4b628b6-cca8-4921-ab66-93642914a500",
+    "text": "fixed\n<https://github.com/digitaldemocracy2030/website/pull/13>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743834027,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/13",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#13 fix promise slug & lint",
+        "title": "#13 fix promise slug & lint",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/13",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "fields": [
+          {
+            "value": "<https://github.com/nanocloudx|@nanocloudx>",
+            "title": "Assignees",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H7Iza",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "fixed\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/13"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "fixed\n<https://github.com/digitaldemocracy2030/website/pull/13>"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834412.291129",
+    "client_msg_id": "69d200e2-c395-4c8e-83f0-04cc107d3a12",
+    "text": "Oops\n&gt; [Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vbY08",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Oops\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "[Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "Oops\n> [Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834561.728719",
+    "client_msg_id": "ccea3652-6420-46d8-970c-060d1311ec06",
+    "text": "なるほど理解",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "86p7N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど理解"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "なるほど理解"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834625.982889",
+    "client_msg_id": "a9fa4b56-6090-4740-9c8a-f8c2ec05f7d4",
+    "text": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BiWSd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "静的ビルドする場合 [slug] のページをビルド時に全て生成する必要があるので generateStaticParams() を実装せよ、ということか"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1743834657.439629",
+    "client_msg_id": "b4887c4a-74b9-4648-a962-d75b57e8ffc1",
+    "text": "~原因は分かったが今日は手が回せなさそう問題~",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/p1bF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "原因は分かったが今日は手が回せなさそう問題",
+                "style": {
+                  "strike": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "~原因は分かったが今日は手が回せなさそう問題~"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743835557.158289",
+    "client_msg_id": "4A71CFC2-3948-47D6-9A90-2ED16E0FA806",
+    "text": "帰ったら見てみます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2wSdb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "帰ったら見てみます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "帰ったら見てみます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743852018.276979",
+    "client_msg_id": "c7f9f839-450b-43ac-8a81-ea26a9596598",
+    "text": "Github Actionsを見ればいいのがわかった",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y+bUG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Github Actionsを見ればいいのがわかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Github Actionsを見ればいいのがわかった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743852200.487819",
+    "client_msg_id": "25bff2f9-f269-48ce-9009-9d4114d65a4d",
+    "text": "OK、理解したのでやります",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vAVU+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OK、理解したのでやります"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OK、理解したのでやります"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853307.520939",
+    "client_msg_id": "b8eb8afc-6ce3-427c-8092-4db1382ef878",
+    "text": "あれ？手元でnpm run buildしたらエラーなく通るな…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+iOtg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ？手元でnpm run buildしたらエラーなく通るな…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あれ？手元でnpm run buildしたらエラーなく通るな…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853805.656969",
+    "client_msg_id": "2a1c82b6-202f-4c0c-bc61-5a95e4cdb25e",
+    "text": "<https://github.com/digitaldemocracy2030/website/pull/14>\nmergeしてactionを観察します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743853759,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/14",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#14 Fix: Add generateStaticParams function for dynamic routes",
+        "text": "## 問題\n\nGitHub Actionsのビルドで以下のエラーが発生していました：  \n[Error: Page \"/activity/[slug]\" is missing \"generateStaticParams()\" so it cannot be used with \"output: export\" config.]\n\n## 修正内容\n\n• `app/activity/[slug]/page.tsx`に`generateStaticParams()`関数を追加\n• 「github」または「slack」で始まるMarkdownファイルだけを検出し、対応するスラッグを生成するように設定\n\nこの修正により、Next.jsのビルド時に必要な静的ページだけが生成されるようになり、`output: export`設定でも正常にビルドできるようになります。",
+        "title": "#14 Fix: Add generateStaticParams function for dynamic routes",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/14",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3Q1f4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/14"
+              },
+              {
+                "type": "text",
+                "text": "\nmergeしてactionを観察します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/website/pull/14>\nmergeしてactionを観察します"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743853862.834279",
+    "client_msg_id": "3fe60ece-9512-4c21-861c-b694898fdbc8",
+    "text": "success!\n<https://github.com/digitaldemocracy2030/website/actions/runs/14281597429>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743833366.890059",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d3WYJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "success!\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/actions/runs/14281597429"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743833366.890059",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "success!\n<https://github.com/digitaldemocracy2030/website/actions/runs/14281597429>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743854631.752639",
+    "client_msg_id": "84fa856c-417e-448d-954b-5668563de719",
+    "text": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OWY3F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PR作った時点でビルドが走って結果がPR画面に報告されるといいのかもですね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744166367.006689",
+    "client_msg_id": "de48d1d2-cecc-48f4-b18d-7282d2df92b9",
+    "text": "Devinに1週間分のレポートを作ってという無茶振りをした",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cS3ug",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devinに1週間分のレポートを作ってという無茶振りをした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Devinに1週間分のレポートを作ってという無茶振りをした"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744176579.579209",
+    "client_msg_id": "773bceba-4c78-4142-ad2c-c4e875276a0e",
+    "text": "現状のサイトはReactを使っていると思うのですが、\n技術選定的に何かポイントってありますでしょうか？\n4/12Meet Upでのテーマを考える中で気になりまして。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bwLXA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状のサイトはReactを使っていると思うのですが、\n技術選定的に何かポイントってありますでしょうか？\n4/12Meet Upでのテーマを考える中で気になりまして。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "現状のサイトはReactを使っていると思うのですが、\n技術選定的に何かポイントってありますでしょうか？\n4/12Meet Upでのテーマを考える中で気になりまして。"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1744177311.151929",
+    "client_msg_id": "c9de9b6f-62e1-40b6-b143-b451d447b384",
+    "text": "（違ったら訂正してください）\n\n• 一貫した技術的思想はなく、デファクトだし、各PJを始めたメンバーが慣れてるからという理由でReactが採用されている気がする\n• 新規に始めるならスイッチングコストなどの観点からReactに揃えるのがいいと思う\n    ◦ ただし個人的にVueにめちゃくちゃ知見があるなどのケースを除く",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pxczW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（違ったら訂正してください）\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一貫した技術的思想はなく、デファクトだし、各PJを始めたメンバーが慣れてるからという理由でReactが採用されている気がする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "新規に始めるならスイッチングコストなどの観点からReactに揃えるのがいいと思う"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ただし個人的にVueにめちゃくちゃ知見があるなどのケースを除く"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FY2KR468",
+          "U08GAUQTR1N"
+        ],
+        "count": 3
+      },
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "（違ったら訂正してください）\n\n• 一貫した技術的思想はなく、デファクトだし、各PJを始めたメンバーが慣れてるからという理由でReactが採用されている気がする\n• 新規に始めるならスイッチングコストなどの観点からReactに揃えるのがいいと思う\n    ◦ ただし個人的にVueにめちゃくちゃ知見があるなどのケースを除く"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1744177925.555509",
+    "client_msg_id": "b1181df4-fe4a-4e01-b577-b180d6f9b4a3",
+    "text": "<@U08GAUQTR1N> ？　お手隙でご確認くださいませ:pray:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xI4Mr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": " ？　お手隙でご確認くださいませ"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Michio Kawai",
+    "text_readable": "@nanocloudx ？　お手隙でご確認くださいませ:pray:"
+  },
+  {
+    "text": "ＧＰＴくんに、*彼を選んだ決め手* :sparkles: を聞いてみた・・・後半部分がポイント（ 初心者向け解説 ）\n<https://docs.google.com/document/d/1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU/edit?usp=drive_link>",
+    "files": [
+      {
+        "id": "F08LY27L0B1",
+        "created": 1744177961,
+        "timestamp": 1744177961,
+        "name": "React を選んだ決め手は？",
+        "title": "React を選んだ決め手は？",
+        "mimetype": "application/vnd.google-apps.document",
+        "filetype": "gdoc",
+        "pretty_type": "Google Docs",
+        "user": "U08JGS0BS57",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 150084,
+        "mode": "external",
+        "is_external": true,
+        "external_type": "gdrive",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://docs.google.com/document/d/1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU/edit?usp=drive_link",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________360.png",
+        "thumb_360_w": 255,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________480.png",
+        "thumb_480_w": 340,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________720.png",
+        "thumb_720_w": 509,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1131,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________960.png",
+        "thumb_960_w": 679,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LY27L0B1-3e0c14de1e/react_____________________________1024.png",
+        "thumb_1024_w": 724,
+        "thumb_1024_h": 1024,
+        "original_w": 800,
+        "original_h": 1131,
+        "thumb_tiny": "AwAwACHRYsD8oBFJl/QUrdelGB/dqWvMBMv6Cn0m0egoAAPSmlYBaKKKYCGk70rH3xSA+9ADqKOfWigAooooAQjNJg+lOooAB70UUUAFFFFAH//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JGS0BS57/F08LY27L0B1/react____________________________",
+        "is_starred": false,
+        "external_id": "1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU",
+        "external_url": "https://docs.google.com/document/d/1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU/edit?usp=drive_link",
+        "has_rich_preview": true,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JGS0BS57",
+    "display_as_bot": false,
+    "x_files": [
+      "F08LY27L0B1"
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MEIz8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ＧＰＴくんに、"
+              },
+              {
+                "type": "text",
+                "text": "彼を選んだ決め手 ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728",
+                "style": {
+                  "bold": true,
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ",
+                "style": {
+                  "bold": true,
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を聞いてみた・・・後半部分がポイント（ 初心者向け解説 ）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU/edit?usp=drive_link"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1744177958.115309",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1744178056.000000"
+    },
+    "client_msg_id": "b179b54f-4e2e-49ff-a299-32bf74bc27e4",
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "ＧＰＴくんに、*彼を選んだ決め手* :sparkles: を聞いてみた・・・後半部分がポイント（ 初心者向け解説 ）\n<https://docs.google.com/document/d/1VLfKW1uRXuel90qzIfu_x6GnNtDIEYTNGLGGvjcithU/edit?usp=drive_link>"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1744178262.431869",
+    "client_msg_id": "b7cef497-c2e9-4412-a380-757fb5f873e9",
+    "text": "相違ないです！\n（技術選定については特に議論したわけではなく、たまたま私が得意だったぐらいの理由です）\nエディさんに書いていただいた通りで、デファクトなのと各PRJと揃うというのは利点かなと思います〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zaMF8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "相違ないです！\n（技術選定については特に議論したわけではなく、たまたま私が得意だったぐらいの理由です）\nエディさんに書いていただいた通りで、デファクトなのと各PRJと揃うというのは利点かなと思います〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "相違ないです！\n（技術選定については特に議論したわけではなく、たまたま私が得意だったぐらいの理由です）\nエディさんに書いていただいた通りで、デファクトなのと各PRJと揃うというのは利点かなと思います〜"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744178345.489319",
+    "client_msg_id": "fcacbaa2-f11f-44f1-a6f2-ac3cf53fb66a",
+    "text": "&gt; デファクトなのと各PRJと揃うというのは利点かなと思います〜\nなるほど了解です！ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qHvNk",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デファクトなのと各PRJと揃うというのは利点かなと思います〜"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど了解です！ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "> デファクトなのと各PRJと揃うというのは利点かなと思います〜\nなるほど了解です！ありがとうございます！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744188662.078669",
+    "client_msg_id": "ff3e5ea2-5e56-464a-bf7c-e477c1864357",
+    "text": "<https://github.com/digitaldemocracy2030/website/pull/15>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PiuRo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/website/pull/15>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744188675.442129",
+    "client_msg_id": "6f441d85-685a-4055-921e-c4ec6592d6c5",
+    "text": "week4のコンテンツをPRしました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3AKj1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "week4のコンテンツをPRしました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "week4のコンテンツをPRしました"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744199130.141619",
+    "client_msg_id": "3f6fee6b-9e59-470c-af05-cb36702bd82d",
+    "text": "いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n<https://daisyui.com/theme-generator/>\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n• ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。\n• 特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。\n    ◦ 前述Themeのプライマリーカラーがたまたま紫\n    ◦ もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。\n• 中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）\n• 開発スピード的にさくっと作れるものを使いたい\n    ◦ Reactとも相性良さそう\n• Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n• フォント・ファミリー\n    ◦ BIZ UDGothic\n        ▪︎ 無料のUDフォントという縛りから。\n• フォント・サイズ\n    ◦ 基本は16pxを下回らない様にしたい。\n        ▪︎ 最低14pxとしたい。\n• ライトテーマ・ダークテーマ\n    ◦ とりあえずスピードを考えてライトだけ実装でいいと思う。\n• ロゴ\n    ◦ （アイデア出しの段階から私の範疇を超えている…ヘルプ）\n【ウェブサイト】\n• 装飾として先進的な空気を出したいのでグラデーションをつけたい。\n    ◦ 黄緑→青→紫なグラデーションを検討中。\n• キャッチコピー\n    ◦ 個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）\n        ▪︎ <https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://daisyui.com/theme-generator/",
+        "image_url": "https://img.daisyui.com/images/default.webp",
+        "image_width": 1600,
+        "image_height": 836,
+        "image_bytes": 54962,
+        "service_icon": "https://img.daisyui.com/images/daisyui-logo/favicon-180.png",
+        "id": 1,
+        "original_url": "https://daisyui.com/theme-generator/",
+        "fallback": "daisyUI and Tailwind CSS theme generator — Tailwind CSS Components ( version 5 update is here )",
+        "text": "OKLCH Theme Generator for daisyUI and Tailwind CSS",
+        "title": "daisyUI and Tailwind CSS theme generator — Tailwind CSS Components ( version 5 update is here )",
+        "title_link": "https://daisyui.com/theme-generator/",
+        "service_name": "daisyui.com"
+      },
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329",
+        "ts": "1743076394.463329",
+        "author_id": "U08HW7M1SCV",
+        "channel_id": "C08K4CUB12T",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08K4CUB12T",
+            "ts": "1743076394.463329",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "3XfRa",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "プロジェクトとして目指している世界観をキャッチコピーで表現できると、より多くの人に興味をもってもらえるのではと思ったので、試しにつくってみました。\n\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://www.figma.com/design/T1i8gjbUXiOcpYNPUFZggT/Untitled?node-id=2-4&p=f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 2,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329",
+        "fallback": "[March 27th, 2025 4:53 AM] masaya.kizaki: プロジェクトとして目指している世界観をキャッチコピーで表現できると、より多くの人に興味をもってもらえるのではと思ったので、試しにつくってみました。\n\n<https://www.figma.com/design/T1i8gjbUXiOcpYNPUFZggT/Untitled?node-id=2-4&amp;p=f>",
+        "text": "プロジェクトとして目指している世界観をキャッチコピーで表現できると、より多くの人に興味をもってもらえるのではと思ったので、試しにつくってみました。\n\n<https://www.figma.com/design/T1i8gjbUXiOcpYNPUFZggT/Untitled?node-id=2-4&amp;p=f>",
+        "author_name": "Kizaki",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08HW7M1SCV",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-21/8626362751990_22d9a6319f06573c86a4_48.png",
+        "author_subname": "Kizaki",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T+EHq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://daisyui.com/theme-generator/"
+              },
+              {
+                "type": "text",
+                "text": "\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "前述Themeのプライマリーカラーがたまたま紫"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発スピード的にさくっと作れるものを使いたい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Reactとも相性良さそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "フォント・ファミリー"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "BIZ UDGothic"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "無料のUDフォントという縛りから。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "フォント・サイズ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "基本は16pxを下回らない様にしたい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "最低14pxとしたい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ライトテーマ・ダークテーマ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "とりあえずスピードを考えてライトだけ実装でいいと思う。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ロゴ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "（アイデア出しの段階から私の範疇を超えている…ヘルプ）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n【ウェブサイト】\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "装飾として先進的な空気を出したいのでグラデーションをつけたい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "黄緑→青→紫なグラデーションを検討中。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "キャッチコピー"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08JGS0BS57",
+          "U08HW7M1SCV",
+          "U08FY2KR468"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n<https://daisyui.com/theme-generator/>\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n• ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。\n• 特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。\n    ◦ 前述Themeのプライマリーカラーがたまたま紫\n    ◦ もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。\n• 中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）\n• 開発スピード的にさくっと作れるものを使いたい\n    ◦ Reactとも相性良さそう\n• Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n• フォント・ファミリー\n    ◦ BIZ UDGothic\n        ▪︎ 無料のUDフォントという縛りから。\n• フォント・サイズ\n    ◦ 基本は16pxを下回らない様にしたい。\n        ▪︎ 最低14pxとしたい。\n• ライトテーマ・ダークテーマ\n    ◦ とりあえずスピードを考えてライトだけ実装でいいと思う。\n• ロゴ\n    ◦ （アイデア出しの段階から私の範疇を超えている…ヘルプ）\n【ウェブサイト】\n• 装飾として先進的な空気を出したいのでグラデーションをつけたい。\n    ◦ 黄緑→青→紫なグラデーションを検討中。\n• キャッチコピー\n    ◦ 個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）\n        ▪︎ <https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329>"
+  },
+  {
+    "user": "U08HW7M1SCV",
+    "type": "message",
+    "ts": "1744206098.636089",
+    "client_msg_id": "8b0d9a8c-788d-43a6-9225-6ff16c989adc",
+    "text": "取り上げていただきありがとうございます。\n\n&gt; 最終的に判断するのは誰なのか？\nAIで多種多様な人々を設定して、意見の参考にするのはどうでしょうか。\n\nこれは、デジタル民主主義とは何を目指すのか、どうすれば中立な立場で合意形成を得られるか、という本質的なテーマにもつながる問いだと思います。\n\nオーナーを決めて判断してもらう、コミュニティの人たちでアンケートを募って多数決で決める、コミュニティに入っていない人の意見も取り入れる、さまざまな手段が考えられます。\n\nみんなの声を取り入れた合意形成とは、どのように実現できるか？\n投票の数だけで決まる多数決は、果たして社会的な合意形成と言い切れるのか。例えば人々の考えや意見は、世代によっても異なります。そうなると、人口数の多い世代の意見が有利になります。\n\n年齢だけでなく、社会的な合意形成を考えるには、「性別・地域・家族構成」に加え、経済状況・学歴・職業・文化的背景・健康状態・政治的立場・生活スタイル・デジタル格差などなど、多様な切り口で「みんなの声」を捉える必要があると思います。\n\nすべての分類を完全にカバーするのは難しいですが、少なくとも政策や制度を設計する際には、影響が大きいグループを抜け落とさないように意識し、意見やニーズの違いを把握したうえでバランスを取ることが重要ではないかと思います。\n\n理想な一人ひとり生の声を聞き集計できるといいですが、現段階では難しいです。では、AIやテクノロジーを活用することで、どのように実現できるかと考えると、例えば、多種多様な人格をAIで設定して、人になりきったAIに聞くというのはどうでしょうか。\n\n偏りがおきないように、複数のLLMのモデルを使って、AI同士で会話や議論もできる状態にして、そこで得られた声を参考にし、合意形成としてベストなバランスを見定める。というのは実験できるとおもしろいのではないかと思っております。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tKAzS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "取り上げていただきありがとうございます。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "最終的に判断するのは誰なのか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nAIで多種多様な人々を設定して、意見の参考にするのはどうでしょうか。\n\nこれは、デジタル民主主義とは何を目指すのか、どうすれば中立な立場で合意形成を得られるか、という本質的なテーマにもつながる問いだと思います。\n\nオーナーを決めて判断してもらう、コミュニティの人たちでアンケートを募って多数決で決める、コミュニティに入っていない人の意見も取り入れる、さまざまな手段が考えられます。\n\nみんなの声を取り入れた合意形成とは、どのように実現できるか？\n投票の数だけで決まる多数決は、果たして社会的な合意形成と言い切れるのか。例えば人々の考えや意見は、世代によっても異なります。そうなると、人口数の多い世代の意見が有利になります。\n\n年齢だけでなく、社会的な合意形成を考えるには、「性別・地域・家族構成」に加え、経済状況・学歴・職業・文化的背景・健康状態・政治的立場・生活スタイル・デジタル格差などなど、多様な切り口で「みんなの声」を捉える必要があると思います。\n\nすべての分類を完全にカバーするのは難しいですが、少なくとも政策や制度を設計する際には、影響が大きいグループを抜け落とさないように意識し、意見やニーズの違いを把握したうえでバランスを取ることが重要ではないかと思います。\n\n理想な一人ひとり生の声を聞き集計できるといいですが、現段階では難しいです。では、AIやテクノロジーを活用することで、どのように実現できるかと考えると、例えば、多種多様な人格をAIで設定して、人になりきったAIに聞くというのはどうでしょうか。\n\n偏りがおきないように、複数のLLMのモデルを使って、AI同士で会話や議論もできる状態にして、そこで得られた声を参考にし、合意形成としてベストなバランスを見定める。というのは実験できるとおもしろいのではないかと思っております。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Kizaki",
+    "text_readable": "取り上げていただきありがとうございます。\n\n> 最終的に判断するのは誰なのか？\nAIで多種多様な人々を設定して、意見の参考にするのはどうでしょうか。\n\nこれは、デジタル民主主義とは何を目指すのか、どうすれば中立な立場で合意形成を得られるか、という本質的なテーマにもつながる問いだと思います。\n\nオーナーを決めて判断してもらう、コミュニティの人たちでアンケートを募って多数決で決める、コミュニティに入っていない人の意見も取り入れる、さまざまな手段が考えられます。\n\nみんなの声を取り入れた合意形成とは、どのように実現できるか？\n投票の数だけで決まる多数決は、果たして社会的な合意形成と言い切れるのか。例えば人々の考えや意見は、世代によっても異なります。そうなると、人口数の多い世代の意見が有利になります。\n\n年齢だけでなく、社会的な合意形成を考えるには、「性別・地域・家族構成」に加え、経済状況・学歴・職業・文化的背景・健康状態・政治的立場・生活スタイル・デジタル格差などなど、多様な切り口で「みんなの声」を捉える必要があると思います。\n\nすべての分類を完全にカバーするのは難しいですが、少なくとも政策や制度を設計する際には、影響が大きいグループを抜け落とさないように意識し、意見やニーズの違いを把握したうえでバランスを取ることが重要ではないかと思います。\n\n理想な一人ひとり生の声を聞き集計できるといいですが、現段階では難しいです。では、AIやテクノロジーを活用することで、どのように実現できるかと考えると、例えば、多種多様な人格をAIで設定して、人になりきったAIに聞くというのはどうでしょうか。\n\n偏りがおきないように、複数のLLMのモデルを使って、AI同士で会話や議論もできる状態にして、そこで得られた声を参考にし、合意形成としてベストなバランスを見定める。というのは実験できるとおもしろいのではないかと思っております。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744207743.613059",
+    "client_msg_id": "7B79671E-553B-43BB-BCA4-DD8435CE1AA2",
+    "text": "誰も反対してないなら全会一致だからまどろっこしい意思決定儀式は必要ないと思いますよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x7YxS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "誰も反対してないなら全会一致だからまどろっこしい意思決定儀式は必要ないと思いますよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HW7M1SCV"
+        ],
+        "count": 2
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08HW7M1SCV"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "誰も反対してないなら全会一致だからまどろっこしい意思決定儀式は必要ないと思いますよ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744208490.966929",
+    "client_msg_id": "1f0e51e4-77dd-44ee-b006-b0ef97697a2a",
+    "text": "ありがとうございます！\n将来的には一番良い形にしたいですが、一旦スピードをとってこれで進め、こだわるところは後で改善していきます。\n\nキャッチコピーは仮でサイトに載せてみて、また相談させて頂きます！\n（実は4/12に複数人で練りなおすの楽しみにしてます）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CJwfr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n将来的には一番良い形にしたいですが、一旦スピードをとってこれで進め、こだわるところは後で改善していきます。\n\nキャッチコピーは仮でサイトに載せてみて、また相談させて頂きます！\n（実は4/12に複数人で練りなおすの楽しみにしてます）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N",
+          "U08HW7M1SCV"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！\n将来的には一番良い形にしたいですが、一旦スピードをとってこれで進め、こだわるところは後で改善していきます。\n\nキャッチコピーは仮でサイトに載せてみて、また相談させて頂きます！\n（実は4/12に複数人で練りなおすの楽しみにしてます）"
+  },
+  {
+    "user": "U08HW7M1SCV",
+    "type": "message",
+    "ts": "1744245447.492989",
+    "client_msg_id": "5098d8c4-cd94-4fd1-abc4-1d0b0d4ed7e8",
+    "text": "ありがとうございます！\nプロダクト開発で考えるとPMFより前の段階は、何よりもスピードが重要だと思います。かたちになっていくのを楽しみにしています。\n\n現状、漠然とした理念に共感されたり、興味をもった方々が、集まっていると思いますが、判断に迷ったときように、運営に関わる人たちが大切にする価値観というか、理念、ポリシーのようなものは、どこかにあるとよいかもと思いました。\n\n例\n• 中立的であること\n• 完成度よりスピード重視\n• プロセスの透明性\n• ユーザー中心設計\n• 公正なアルゴリズム\n• 誰でも意見を出しやすいコミニティ\n• 熟議を重視\n• 社会的弱者への配慮を忘れない\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xoVpf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nプロダクト開発で考えるとPMFより前の段階は、何よりもスピードが重要だと思います。かたちになっていくのを楽しみにしています。\n\n現状、漠然とした理念に共感されたり、興味をもった方々が、集まっていると思いますが、判断に迷ったときように、運営に関わる人たちが大切にする価値観というか、理念、ポリシーのようなものは、どこかにあるとよいかもと思いました。\n\n例\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "中立的であること"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "完成度よりスピード重視"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プロセスの透明性"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユーザー中心設計"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "公正なアルゴリズム"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "誰でも意見を出しやすいコミニティ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "熟議を重視"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "社会的弱者への配慮を忘れない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08GAUQTR1N"
+        ],
+        "count": 2
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U08GAUQTR1N",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Kizaki",
+    "text_readable": "ありがとうございます！\nプロダクト開発で考えるとPMFより前の段階は、何よりもスピードが重要だと思います。かたちになっていくのを楽しみにしています。\n\n現状、漠然とした理念に共感されたり、興味をもった方々が、集まっていると思いますが、判断に迷ったときように、運営に関わる人たちが大切にする価値観というか、理念、ポリシーのようなものは、どこかにあるとよいかもと思いました。\n\n例\n• 中立的であること\n• 完成度よりスピード重視\n• プロセスの透明性\n• ユーザー中心設計\n• 公正なアルゴリズム\n• 誰でも意見を出しやすいコミニティ\n• 熟議を重視\n• 社会的弱者への配慮を忘れない\n"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1744245706.514939",
+    "client_msg_id": "42fd5486-98ad-4d27-a925-2ccf30e8f459",
+    "text": "<@U08HW7M1SCV> まさに仰るとおりだと思います！ &amp; 書いていただいた事項もとてもよいですね！　今、ビジョン周りを固める動きも遅ればせながら進めようとしております。しばしお待ちを cc: <@U08N3V4NQRE>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mcD+E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HW7M1SCV"
+              },
+              {
+                "type": "text",
+                "text": " まさに仰るとおりだと思います！ & 書いていただいた事項もとてもよいですね！　今、ビジョン周りを固める動きも遅ればせながら進めようとしております。しばしお待ちを cc: "
+              },
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08HW7M1SCV",
+          "U08G2A216TW",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "@masaya.kizaki まさに仰るとおりだと思います！ & 書いていただいた事項もとてもよいですね！　今、ビジョン周りを固める動きも遅ればせながら進めようとしております。しばしお待ちを cc: @kojin.oshiba"
+  },
+  {
+    "user": "U08HW7M1SCV",
+    "type": "message",
+    "ts": "1744249365.198369",
+    "client_msg_id": "4b7729cd-1da8-48ad-9d82-071c52e067a0",
+    "text": "<@U08FZDRRY8Z> ありがとうございます！！\n\nデジタル民主主義というのが、これまでにない新しい社会の合意形成を目指す取り組みだとすると、以下のようなこれまでの合意形成の課題がどんどん改善されていくんでしょうね。\n\n従来の合意形成の課題\n• 安易な多数決で少数派の声が尊重されない\n• 誰がどのように議論しどのような判断を下されたのかが見えにくい\n• 社会課題が複雑化し過ぎている\n• エキスパートの意見が反映されていない\n• 「自分が関わっても何も変わらない」という諦めからくる無関心\n• 資本力や権力をもつ組織の意向が一般市民の声より優先される\n• 意見の相違からお互いを“敵”とみなしてしまうSNSによる分断と対立\n• 未来の世代の利益よりも有権者の目先の利益が優先されてしまう（世代間格差）\n• 合意に基づき実施された政策やマニフェストが目標通り機能しているかを評価する仕組みがない\nなどなど\n\nこういった課題に対して、以下のようなプロセスが取り入られることで、新しい合意形成が生まれていくのではないかと妄想しています。\n\n1. みんなの声をひろう\n2. 課題を可視化する（誰もが理解できるようにする）\n3. 熟議する（論破ではなく相手を理解する、課題のアップデート）\n4. 熟議をしたことで考えが変わる\n5. 合意形成がされる（ゴールではなくスタート）\n6. 取り組みの振り返りと軌道修正、最適化\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WjGOz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": " ありがとうございます！！\n\nデジタル民主主義というのが、これまでにない新しい社会の合意形成を目指す取り組みだとすると、以下のようなこれまでの合意形成の課題がどんどん改善されていくんでしょうね。\n\n従来の合意形成の課題\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "安易な多数決で少数派の声が尊重されない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "誰がどのように議論しどのような判断を下されたのかが見えにくい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "社会課題が複雑化し過ぎている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "エキスパートの意見が反映されていない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「自分が関わっても何も変わらない」という諦めからくる無関心"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "資本力や権力をもつ組織の意向が一般市民の声より優先される"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "意見の相違からお互いを“敵”とみなしてしまうSNSによる分断と対立"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "未来の世代の利益よりも有権者の目先の利益が優先されてしまう（世代間格差）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "合意に基づき実施された政策やマニフェストが目標通り機能しているかを評価する仕組みがない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "などなど\n\nこういった課題に対して、以下のようなプロセスが取り入られることで、新しい合意形成が生まれていくのではないかと妄想しています。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "みんなの声をひろう"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "課題を可視化する（誰もが理解できるようにする）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "熟議する（論破ではなく相手を理解する、課題のアップデート）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "熟議をしたことで考えが変わる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "合意形成がされる（ゴールではなくスタート）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "取り組みの振り返りと軌道修正、最適化"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Kizaki",
+    "text_readable": "@annyotaka ありがとうございます！！\n\nデジタル民主主義というのが、これまでにない新しい社会の合意形成を目指す取り組みだとすると、以下のようなこれまでの合意形成の課題がどんどん改善されていくんでしょうね。\n\n従来の合意形成の課題\n• 安易な多数決で少数派の声が尊重されない\n• 誰がどのように議論しどのような判断を下されたのかが見えにくい\n• 社会課題が複雑化し過ぎている\n• エキスパートの意見が反映されていない\n• 「自分が関わっても何も変わらない」という諦めからくる無関心\n• 資本力や権力をもつ組織の意向が一般市民の声より優先される\n• 意見の相違からお互いを“敵”とみなしてしまうSNSによる分断と対立\n• 未来の世代の利益よりも有権者の目先の利益が優先されてしまう（世代間格差）\n• 合意に基づき実施された政策やマニフェストが目標通り機能しているかを評価する仕組みがない\nなどなど\n\nこういった課題に対して、以下のようなプロセスが取り入られることで、新しい合意形成が生まれていくのではないかと妄想しています。\n\n1. みんなの声をひろう\n2. 課題を可視化する（誰もが理解できるようにする）\n3. 熟議する（論破ではなく相手を理解する、課題のアップデート）\n4. 熟議をしたことで考えが変わる\n5. 合意形成がされる（ゴールではなくスタート）\n6. 取り組みの振り返りと軌道修正、最適化\n"
+  }
+]

@@ -1,0 +1,2167 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08FZDRRY8Z",
+    "text": "<@U08FZDRRY8Z> has joined the channel",
+    "type": "message",
+    "ts": "1743760932.898009",
+    "user_name": "安野貴博",
+    "text_readable": "@annyotaka has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08M2Q2M6SV",
+    "text": "<@U08M2Q2M6SV> has joined the channel",
+    "inviter": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743760945.375599",
+    "user_name": "Devin",
+    "text_readable": "@devin has joined the channel"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743761011.178999",
+    "client_msg_id": "688c94c9-c908-4223-b614-dbfe3aa2dedf",
+    "text": "<@U08M2Q2M6SV> おう応答せよ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743761011.178999",
+    "reply_count": 17,
+    "reply_users_count": 2,
+    "latest_reply": "1744114496.242549",
+    "reply_users": [
+      "U08M2Q2M6SV",
+      "B08M2Q2LNQ1"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "decIP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08M2Q2M6SV"
+              },
+              {
+                "type": "text",
+                "text": " おう応答せよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "@devin おう応答せよ"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743761014.461529",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "_Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored._ (<https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc|open webapp>)",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9WKD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored.",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ("
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc",
+                "text": "open webapp"
+              },
+              {
+                "type": "text",
+                "text": ")"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "_Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored._ (<https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc|open webapp>)"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743761400.470809",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "Created PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>. I will monitor the PR for results and let you know once it's ready for review.",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pVX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Created PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232"
+              },
+              {
+                "type": "text",
+                "text": ". I will monitor the PR for results and let you know once it's ready for review."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "Created PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>. I will monitor the PR for results and let you know once it's ready for review."
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743761698.859859",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "こんにちは！メッセージを受け取りました。何かお手伝いできることがありますか？",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EBl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんにちは！メッセージを受け取りました。何かお手伝いできることがありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "こんにちは！メッセージを受け取りました。何かお手伝いできることがありますか？"
+  },
+  {
+    "subtype": "bot_message",
+    "text": "kouchou-aiの#230をやってPRを出して",
+    "username": "安野貴博",
+    "icons": {
+      "image_48": "https://s3-us-west-2.amazonaws.com/slack-files2/bot_icons/2025-04-04/8699165180886_48.png"
+    },
+    "type": "message",
+    "ts": "1743762274.255509",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ppyG2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchou-aiの#230をやってPRを出して"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "",
+    "text_readable": "kouchou-aiの#230をやってPRを出して"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743762289.417229",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "了解しました。kouchou-aiリポジトリの#230の課題に取り組み、PRを作成します。まず課題の内容を確認してから作業を進めます。",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5GU+w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "了解しました。kouchou-aiリポジトリの#230の課題に取り組み、PRを作成します。まず課題の内容を確認してから作業を進めます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "了解しました。kouchou-aiリポジトリの#230の課題に取り組み、PRを作成します。まず課題の内容を確認してから作業を進めます。"
+  },
+  {
+    "subtype": "bot_message",
+    "text": "ブラウザに出せる？",
+    "username": "安野貴博",
+    "icons": {
+      "image_48": "https://s3-us-west-2.amazonaws.com/slack-files2/bot_icons/2025-04-04/8699165180886_48.png"
+    },
+    "type": "message",
+    "ts": "1743762298.167049",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZM/aY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ブラウザに出せる？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "",
+    "text_readable": "ブラウザに出せる？"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743762338.386939",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "はい、PRはブラウザで確認できます。先ほど共有したリンク（<https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "14STM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい、PRはブラウザで確認できます。先ほど共有したリンク（"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "はい、PRはブラウザで確認できます。先ほど共有したリンク（<https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743762871.975819",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "Created PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>. I will monitor the PR for results and let you know once it's ready for review.",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IMmKf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Created PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232"
+              },
+              {
+                "type": "text",
+                "text": ". I will monitor the PR for results and let you know once it's ready for review."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "Created PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>. I will monitor the PR for results and let you know once it's ready for review."
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743763633.069789",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "Great news! All CI checks have passed for PR #232 implementing the report deletion feature (issue #230). \n\nThe PR includes:\n1. Added DELETED status to ReportStatus enum\n2. Created a new DELETE endpoint in admin_report.py\n3. Modified report_status.py to filter deleted reports\n4. Updated client-admin UI to enable report deletion functionality\n\nYou can review the PR at: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>\nYou can also review the work in the Devin session at: <https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc>\n\nPlease let me know if you'd like any changes or have any questions!",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eIgD/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Great news! All CI checks have passed for PR #232 implementing the report deletion feature (issue #230). \n\nThe PR includes:\n1. Added DELETED status to ReportStatus enum\n2. Created a new DELETE endpoint in admin_report.py\n3. Modified report_status.py to filter deleted reports\n4. Updated client-admin UI to enable report deletion functionality\n\nYou can review the PR at: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232"
+              },
+              {
+                "type": "text",
+                "text": "\nYou can also review the work in the Devin session at: "
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc"
+              },
+              {
+                "type": "text",
+                "text": "\n\nPlease let me know if you'd like any changes or have any questions!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "Great news! All CI checks have passed for PR #232 implementing the report deletion feature (issue #230). \n\nThe PR includes:\n1. Added DELETED status to ReportStatus enum\n2. Created a new DELETE endpoint in admin_report.py\n3. Modified report_status.py to filter deleted reports\n4. Updated client-admin UI to enable report deletion functionality\n\nYou can review the PR at: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>\nYou can also review the work in the Devin session at: <https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc>\n\nPlease let me know if you'd like any changes or have any questions!"
+  },
+  {
+    "subtype": "bot_message",
+    "text": "いや、PRじゃなくて機能を動かして出せる？",
+    "username": "安野貴博",
+    "icons": {
+      "image_48": "https://s3-us-west-2.amazonaws.com/slack-files2/bot_icons/2025-04-04/8699165180886_48.png"
+    },
+    "type": "message",
+    "ts": "1743763661.456859",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x8uk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや、PRじゃなくて機能を動かして出せる？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "",
+    "text_readable": "いや、PRじゃなくて機能を動かして出せる？"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743763751.369549",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "申し訳ありませんが、私の環境から直接機能をブラウザで実行して見せることはできません。ただし、PRをマージした後、kouchou-aiのadmin画面にアクセスして、レポート一覧からレポートの「...」メニューを開き、「レポートを削除する」オプションを選択することで機能をテストできます。",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tvBrA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "申し訳ありませんが、私の環境から直接機能をブラウザで実行して見せることはできません。ただし、PRをマージした後、kouchou-aiのadmin画面にアクセスして、レポート一覧からレポートの「...」メニューを開き、「レポートを削除する」オプションを選択することで機能をテストできます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "申し訳ありませんが、私の環境から直接機能をブラウザで実行して見せることはできません。ただし、PRをマージした後、kouchou-aiのadmin画面にアクセスして、レポート一覧からレポートの「...」メニューを開き、「レポートを削除する」オプションを選択することで機能をテストできます。"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743764247.848859",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "はい、PRはブラウザで確認できます。先ほど共有したリンク（<https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zdl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい、PRはブラウザで確認できます。先ほど共有したリンク（"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "はい、PRはブラウザで確認できます。先ほど共有したリンク（<https://github.com/digitaldemocracy2030/kouchou-ai/pull/232）をクリックすると、GitHubのPRページが開きます。また、Devinのウェブアプリの上部にあるブラウザタブからも確認できます。>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744011430.893629",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "_Woke up to address PR feedback._",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UUaME",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Woke up to address PR feedback.",
+                "style": {
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "_Woke up to address PR feedback._"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744011640.222589",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "良いニュースです！マージコンフリクトを解決し、すべてのCIチェックが正常に通過しました。PR #232は現在レビューの準備ができています。\n\n変更内容:\n1. ReportStatusにDELETEDステータスを追加\n2. admin_report.pyに削除エンドポイントを実装\n3. report_status.pyを修正して削除されたレポートをフィルタリング\n4. client-admin UIにレポート削除機能を追加\n5. mainブランチの変更（レポート公開状態の切り替え機能）とのマージコンフリクトを解決\n\nPRはこちらで確認できます: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>\nまた、Devinセッションでも作業内容を確認できます: <https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc>\n\n何か質問や変更点があればお知らせください！\n",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HpR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "良いニュースです！マージコンフリクトを解決し、すべてのCIチェックが正常に通過しました。PR #232は現在レビューの準備ができています。\n\n変更内容:\n1. ReportStatusにDELETEDステータスを追加\n2. admin_report.pyに削除エンドポイントを実装\n3. report_status.pyを修正して削除されたレポートをフィルタリング\n4. client-admin UIにレポート削除機能を追加\n5. mainブランチの変更（レポート公開状態の切り替え機能）とのマージコンフリクトを解決\n\nPRはこちらで確認できます: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232"
+              },
+              {
+                "type": "text",
+                "text": "\nまた、Devinセッションでも作業内容を確認できます: "
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc"
+              },
+              {
+                "type": "text",
+                "text": "\n\n何か質問や変更点があればお知らせください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "良いニュースです！マージコンフリクトを解決し、すべてのCIチェックが正常に通過しました。PR #232は現在レビューの準備ができています。\n\n変更内容:\n1. ReportStatusにDELETEDステータスを追加\n2. admin_report.pyに削除エンドポイントを実装\n3. report_status.pyを修正して削除されたレポートをフィルタリング\n4. client-admin UIにレポート削除機能を追加\n5. mainブランチの変更（レポート公開状態の切り替え機能）とのマージコンフリクトを解決\n\nPRはこちらで確認できます: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232>\nまた、Devinセッションでも作業内容を確認できます: <https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc>\n\n何か質問や変更点があればお知らせください！\n"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744114421.734049",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "_Woke up to address PR feedback._",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0=1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Woke up to address PR feedback.",
+                "style": {
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "_Woke up to address PR feedback._"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744114467.211019",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "素晴らしいニュースです！PR #232（レポート削除機能の実装）がマージされました。マージコンフリクトの解決も含め、すべての要件を満たすことができました。\n\n実装した機能:\n1. レポートの削除機能（管理者UI）\n2. 削除APIエンドポイント\n3. 削除されたレポートのフィルタリング\n\nこれで課題 #230 は完了しました。ありがとうございました！\n",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uMl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "素晴らしいニュースです！PR #232（レポート削除機能の実装）がマージされました。マージコンフリクトの解決も含め、すべての要件を満たすことができました。\n\n実装した機能:\n1. レポートの削除機能（管理者UI）\n2. 削除APIエンドポイント\n3. 削除されたレポートのフィルタリング\n\nこれで課題 #230 は完了しました。ありがとうございました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "素晴らしいニュースです！PR #232（レポート削除機能の実装）がマージされました。マージコンフリクトの解決も含め、すべての要件を満たすことができました。\n\n実装した機能:\n1. レポートの削除機能（管理者UI）\n2. 削除APIエンドポイント\n3. 削除されたレポートのフィルタリング\n\nこれで課題 #230 は完了しました。ありがとうございました！\n"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744114496.242549",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "_Devin is awaiting your response. Type 'SLEEP' to put Devin to sleep. Devin will auto-sleep in 30 minutes._",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "deleted": false,
+      "name": "Devin",
+      "updated": 1743759720,
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743761011.178999",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WBmiV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devin is awaiting your response. Type 'SLEEP' to put Devin to sleep. Devin will auto-sleep in 30 minutes.",
+                "style": {
+                  "italic": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743761011.178999",
+    "user_name": "Devin",
+    "text_readable": "_Devin is awaiting your response. Type 'SLEEP' to put Devin to sleep. Devin will auto-sleep in 30 minutes._"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08GG5LRGMP",
+    "text": "<@U08GG5LRGMP> has joined the channel",
+    "type": "message",
+    "ts": "1743843289.016139",
+    "user_name": "Nasuka Sumino",
+    "text_readable": "@nsk.smn has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JN7X6XQX",
+    "text": "<@U08JN7X6XQX> has joined the channel",
+    "type": "message",
+    "ts": "1743995953.059619",
+    "user_name": "LogExporter",
+    "text_readable": "@logexporter has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744011277.978029",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/233|PR #233: [FEATURE]レポートの公開/非公開状態の設定 (#229)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nanocloudx|nanocloudx> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの #229 をやって\n\n```\n<https://app.devin.ai/sessions/5934f18249994900886ec0abe2360456|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743761697,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/233",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#233 [FEATURE]レポートの公開/非公開状態の設定 (#229)",
+        "title": "#233 [FEATURE]レポートの公開/非公開状態の設定 (#229)",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/233",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 310,
+        "thumb_width": 310,
+        "thumb_url": "https://avatars.githubusercontent.com/u/6778507?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nanocloudx",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "なのくろ",
+        "title": "なのくろ",
+        "fields": [
+          {
+            "value": "Tokyo, Japan",
+            "title": "Location",
+            "short": true
+          },
+          {
+            "value": "<https://wwww.dev>",
+            "title": "URL",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f9Sf0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/233",
+                "text": "PR #233: [FEATURE]レポートの公開/非公開状態の設定 (#229)"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nanocloudx",
+                "text": "nanocloudx"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchouaiの #229 をやって\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/5934f18249994900886ec0abe2360456",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/233|PR #233: [FEATURE]レポートの公開/非公開状態の設定 (#229)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nanocloudx|nanocloudx> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの #229 をやって\n\n```\n<https://app.devin.ai/sessions/5934f18249994900886ec0abe2360456|View Devin Session>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JGS0BS57",
+    "text": "<@U08JGS0BS57> has joined the channel",
+    "type": "message",
+    "ts": "1744026943.873529",
+    "user_name": "naoyo4",
+    "text_readable": "@nao.yo4da has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744100418.829619",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/252|PR #252: Fix issue #237: Add z-index to fullscreen chart container> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nこれやってみて。なんかのデグレだと思う。z-indexかも？\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/237>\n```\n<https://app.devin.ai/sessions/9864e37baf8c414a882d0060f821be30|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kGoq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/252",
+                "text": "PR #252: Fix issue #237: Add z-index to fullscreen chart container"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これやってみて。なんかのデグレだと思う。z-indexかも？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/237"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/9864e37baf8c414a882d0060f821be30",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08GG5LRGMP",
+          "U08FZDRRY8Z",
+          "U08JGS0BS57"
+        ],
+        "count": 3
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/252|PR #252: Fix issue #237: Add z-index to fullscreen chart container> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nこれやってみて。なんかのデグレだと思う。z-indexかも？\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/237>\n```\n<https://app.devin.ai/sessions/9864e37baf8c414a882d0060f821be30|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744114358.263129",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232|PR #232: Implement report deletion feature (issue #230)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nReceived message in Slack channel #devin_channel:\n\n@Devin おう応答せよ\n```\n<https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UuFD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/232",
+                "text": "PR #232: Implement report deletion feature (issue #230)"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #devin_channel:\n\n@Devin おう応答せよ\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/232|PR #232: Implement report deletion feature (issue #230)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nReceived message in Slack channel #devin_channel:\n\n@Devin おう応答せよ\n```\n<https://app.devin.ai/sessions/dc95c7c8dabb4dd7b02bdf6a4544c1fc|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744115041.809929",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/247|PR #247: [FEATURE] client/client-adminのテストをGitHub Actionsで実行する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou-aiの#219をやって\n```\n<https://app.devin.ai/sessions/e3d45689784648ae809350c5a927f2ee|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6EjHY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/247",
+                "text": "PR #247: [FEATURE] client/client-adminのテストをGitHub Actionsで実行する"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchou-aiの#219をやって\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/e3d45689784648ae809350c5a927f2ee",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/247|PR #247: [FEATURE] client/client-adminのテストをGitHub Actionsで実行する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou-aiの#219をやって\n```\n<https://app.devin.ai/sessions/e3d45689784648ae809350c5a927f2ee|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744160993.251609",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/245|PR #245: [FEATURE] レポート一覧に作成日時を追加する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou_aiの #218 をやって。\n可能であれば最後にスクリーンショットを撮影して（UIの確認をしやすくするため）\n```\n<https://app.devin.ai/sessions/b13628010677450a813d14ed748a51ca|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744020047,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/245",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#245 [FEATURE] レポート一覧に作成日時を追加する",
+        "title": "#245 [FEATURE] レポート一覧に作成日時を追加する",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/245",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SuEA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/245",
+                "text": "PR #245: [FEATURE] レポート一覧に作成日時を追加する"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchou_aiの #218 をやって。\n可能であれば最後にスクリーンショットを撮影して（UIの確認をしやすくするため）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/b13628010677450a813d14ed748a51ca",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/245|PR #245: [FEATURE] レポート一覧に作成日時を追加する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou_aiの #218 をやって。\n可能であれば最後にスクリーンショットを撮影して（UIの確認をしやすくするため）\n```\n<https://app.devin.ai/sessions/b13628010677450a813d14ed748a51ca|View Devin Session>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FTAEETAB",
+    "text": "<@U08FTAEETAB> has joined the channel",
+    "type": "message",
+    "ts": "1744166239.077059",
+    "user_name": "jujunjun110",
+    "text_readable": "@jujunjun110 has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744173219.951119",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/244|PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n```\n<https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744020036,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#244 [FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+        "title": "#244 [FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kimu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+                "text": "PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/244|PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n```\n<https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744173297.621269",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/244|PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n```\n<https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744020036,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#244 [FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+        "title": "#244 [FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lbzrv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/244",
+                "text": "PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/244|PR #244: [FEATURE] おすすめクラスタ数設定機能の実装 (#241)> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchouaiの#241をやって\n- 案０と案１は実行して\n- Google Spreadsheetは無視していいよ\n```\n<https://app.devin.ai/sessions/4edce5fbbb4241d3b2c60118e98d4b8d|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744185395.256139",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/251|PR #251: [FEATURE] GoogleAnalytics 対応 #54> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou-aiの[FEATURE] GoogleAnalytics 対応 #54\nをやっといて\n```\n<https://app.devin.ai/sessions/bf89d99cdeb94897a6a5085d8e34826e|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744079573,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/251",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#251 [FEATURE] GoogleAnalytics 対応 #54",
+        "title": "#251 [FEATURE] GoogleAnalytics 対応 #54",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/251",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sMLS8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/251",
+                "text": "PR #251: [FEATURE] GoogleAnalytics 対応 #54"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kouchou-aiの[FEATURE] GoogleAnalytics 対応 #54\nをやっといて\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/bf89d99cdeb94897a6a5085d8e34826e",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      },
+      {
+        "name": "kami",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/251|PR #251: [FEATURE] GoogleAnalytics 対応 #54> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nkouchou-aiの[FEATURE] GoogleAnalytics 対応 #54\nをやっといて\n```\n<https://app.devin.ai/sessions/bf89d99cdeb94897a6a5085d8e34826e|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744251357.431269",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/272|PR #272: [FEATURE]adminのレポート一覧画面にも作成日時を追加する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08GG5LRGMP>) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/268>\nこのissueに取り組んで\n```\n<https://app.devin.ai/sessions/5f09835c41a24e2d9f91ed475d0536ff|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "deleted": false,
+      "name": "Devin",
+      "updated": 1743759720,
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744250800,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/272",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#272 [FEATURE]adminのレポート一覧画面にも作成日時を追加する",
+        "title": "#272 [FEATURE]adminのレポート一覧画面にも作成日時を追加する",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/272",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sS8nW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/272",
+                "text": "PR #272: [FEATURE]adminのレポート一覧画面にも作成日時を追加する"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GG5LRGMP"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:nsk.smn@gmail.com",
+                "text": "nsk.smn@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/268"
+              },
+              {
+                "type": "text",
+                "text": "\nこのissueに取り組んで\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/5f09835c41a24e2d9f91ed475d0536ff",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/272|PR #272: [FEATURE]adminのレポート一覧画面にも作成日時を追加する> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @nsk.smn) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/268>\nこのissueに取り組んで\n```\n<https://app.devin.ai/sessions/5f09835c41a24e2d9f91ed475d0536ff|View Devin Session>"
+  }
+]

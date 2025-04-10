@@ -1,0 +1,1005 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08FY2KR468",
+    "text": "<@U08FY2KR468> has joined the channel",
+    "type": "message",
+    "ts": "1743860353.886199",
+    "user_name": "Michio Kawai",
+    "text_readable": "@llehctim.k has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08GJSBAX3K",
+    "text": "<@U08GJSBAX3K> has joined the channel",
+    "type": "message",
+    "ts": "1743860507.158799",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "@shutaro.aoyama has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HMV9AHLL",
+    "text": "<@U08HMV9AHLL> has joined the channel",
+    "type": "message",
+    "ts": "1743860552.102049",
+    "user_name": "Horie Satoru",
+    "text_readable": "@spinutids has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JGS0BS57",
+    "text": "<@U08JGS0BS57> has joined the channel",
+    "type": "message",
+    "ts": "1743860637.016959",
+    "user_name": "naoyo4",
+    "text_readable": "@nao.yo4da has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08H3V9KMFH",
+    "text": "<@U08H3V9KMFH> has joined the channel",
+    "type": "message",
+    "ts": "1743860926.933459",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@truego has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08G2A216TW",
+    "text": "<@U08G2A216TW> has joined the channel",
+    "type": "message",
+    "ts": "1743860940.146299",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@nishio.hirokazu has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JT0NEXJ4",
+    "text": "<@U08JT0NEXJ4> has joined the channel",
+    "type": "message",
+    "ts": "1743861181.898059",
+    "user_name": "Shigeru Urushibara",
+    "text_readable": "@uru has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HWJ80CHG",
+    "text": "<@U08HWJ80CHG> has joined the channel",
+    "type": "message",
+    "ts": "1743862641.068649",
+    "user_name": "小野翔太",
+    "text_readable": "@oscar.gaddress has joined the channel"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743862814.390969",
+    "client_msg_id": "bbb4b554-ecae-42d4-a66a-5b171c476647",
+    "text": "デザイナーじゃないけど入りました！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uUt0F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デザイナーじゃないけど入りました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デザイナーじゃないけど入りました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743862861.815139",
+    "client_msg_id": "5fd2996c-bd23-44af-ada4-1b181638b533",
+    "text": "mobile対応が弱いよねと言う議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539",
+        "ts": "1743602736.031539",
+        "author_id": "U08HMV9AHLL",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1743602736.031539",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "UraeF",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "blob-thinking"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "blob-thinking-cool"
+                        },
+                        {
+                          "type": "text",
+                          "text": "（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539",
+        "fallback": "[April 2nd, 2025 7:05 AM] spinutids: 現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました:blob-thinking:\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています:blob-thinking-cool:（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）",
+        "text": "現状 PC ファーストな UI/UX でやってる認識ですが、スマホ利用者の体験って真剣に考えなくて大丈夫なのかふと気になりました:blob-thinking:\n\nデータ、ロジック、システムの価値検証に集中し、見た目は後で頑張る方針もタイムラインやフェイズによっては合理的だと思いますが、実際に使ってもらって良い体験を提供することが近いうちに重要になるなら、スマホでの体験にはかなり伸びしろあるように感じています！\n\nあとはいどばたで今動いている仕事はエンジニアリング中心のものが多いですが、デザイナーの方々も多くいらっしゃるので、並行に動ける別プロジェクトとしてモバイル対応の企画・制作を進めていただける方を募るのもありえるのかもと思っています:blob-thinking-cool:（デジ民ウェブサイトの方等でもやっていただきたいこといろいろありそうだと思いますが！）",
+        "author_name": "Horie Satoru",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08HMV9AHLL",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8597760742083_598cdd9e06c0fae89043_48.png",
+        "author_subname": "Horie Satoru",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kGj6C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "mobile対応が弱いよねと言う議論\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FY2KR468"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "mobile対応が弱いよねと言う議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743602736031539>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FZDRRY8Z",
+    "text": "<@U08FZDRRY8Z> has joined the channel",
+    "type": "message",
+    "ts": "1743862912.791669",
+    "user_name": "安野貴博",
+    "text_readable": "@annyotaka has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08G5MXP0MT",
+    "text": "<@U08G5MXP0MT> has joined the channel",
+    "inviter": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743862919.480129",
+    "user_name": "Yukiya Yamane",
+    "text_readable": "@yamane.yukiya has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J7M1F5CZ",
+    "text": "<@U08J7M1F5CZ> has joined the channel",
+    "type": "message",
+    "ts": "1743864003.716959",
+    "user_name": "Hidekazu Nagamura",
+    "text_readable": "@hinagamura has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J8NCNYL8",
+    "text": "<@U08J8NCNYL8> has joined the channel",
+    "type": "message",
+    "ts": "1743871952.397679",
+    "user_name": "Furukawa",
+    "text_readable": "@efu.eiouai has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HJ4KUM61",
+    "text": "<@U08HJ4KUM61> has joined the channel",
+    "type": "message",
+    "ts": "1743902832.292749",
+    "user_name": "Kazuko Muto",
+    "text_readable": "@kkzz.mmtt has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J64DB084",
+    "text": "<@U08J64DB084> has joined the channel",
+    "type": "message",
+    "ts": "1743902927.587339",
+    "user_name": "いあ(itomaaikon)　田中莉駆",
+    "text_readable": "@riku.tanaka.21 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JXNN8MDY",
+    "text": "<@U08JXNN8MDY> has joined the channel",
+    "type": "message",
+    "ts": "1743903602.452629",
+    "user_name": "Mitsuaki Noda",
+    "text_readable": "@mitsuaki.noda212 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08H87SMJAK",
+    "text": "<@U08H87SMJAK> has joined the channel",
+    "type": "message",
+    "ts": "1743906518.869369",
+    "user_name": "takashimamorino",
+    "text_readable": "@does1026 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FTAEETAB",
+    "text": "<@U08FTAEETAB> has joined the channel",
+    "type": "message",
+    "ts": "1743911302.646749",
+    "user_name": "jujunjun110",
+    "text_readable": "@jujunjun110 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HZDZSPHP",
+    "text": "<@U08HZDZSPHP> has joined the channel",
+    "type": "message",
+    "ts": "1743983427.743239",
+    "user_name": "yamanoku",
+    "text_readable": "@0910yama has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08GAUQTR1N",
+    "text": "<@U08GAUQTR1N> has joined the channel",
+    "type": "message",
+    "ts": "1743984384.067479",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "@nanocloudx has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JARJAHB6",
+    "text": "<@U08JARJAHB6> has joined the channel",
+    "type": "message",
+    "ts": "1743986051.463849",
+    "user_name": "YOSHIMURA Kiyotaka",
+    "text_readable": "@bq20026 has joined the channel"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744188045.957779",
+    "client_msg_id": "533369d6-1873-4013-8596-ffdaf8a84ab9",
+    "text": "ChatGPTが「これはデザインの話だ」というので貼っときますw\n<https://w1740803485-clv347541.slack.com/archives/C08FL58M3D3/p1744087362874139>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FL58M3D3/p1744087362874139",
+        "ts": "1744087362.874139",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08FL58M3D3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58M3D3",
+            "ts": "1744087362.874139",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "c30Qu",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "全体に関わることかつ、遊びでやってたことなのでここに。\n"
+                        },
+                        {
+                          "type": "channel",
+                          "channel_id": "C08FF5MM59C"
+                        },
+                        {
+                          "type": "text",
+                          "text": " のプロジェクト関連でふわっと色を考えてたんですが、\n安野さんカラーにすると政党色がでちゃう（中立じゃないとか言われる）ので\nマテリアルデザイン３のデフォルトカラー（紫系）でいくのもありかなと思っております。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://honstock.net/political-party-color"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F08M91G6E3E",
+            "created": 1744086543,
+            "timestamp": 1744086543,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08HWJ80CHG",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 109241,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M91G6E3E/image.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M91G6E3E/download/image.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 343,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 458,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M91G6E3E-1d78c65091/image_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 687,
+            "original_w": 740,
+            "original_h": 706,
+            "thumb_tiny": "AwAtADDRzg9KCaD1pG6jHSgaDJo3e9Q3AzFxUMIxEoLMPwFA9C5n3qvdyvGilGwSaDyByR9MVDcY8sZyRu/PigNC+RzQRQSc9aRu1BIYNGDTWYKMscCkWRGAKtkGnYdx+DUF1C8qKEAJBzyal3j1qtetmNcH+KiwXLh601hllOSMdh3p2KCKQiGZS8eAOaiihKoA0fP1q1ijFMCAoTjKg/5+tQ3QKxLkYG7gfhV3FRTwecoG7GDnpQB//9k=",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08HWJ80CHG/F08M91G6E3E/image.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M91G6E3E-fc9be15c98",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M9RLKGUT",
+            "created": 1744087302,
+            "timestamp": 1744087302,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08HWJ80CHG",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 48568,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M9RLKGUT/image.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M9RLKGUT/download/image.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M9RLKGUT-ca6bbfffd6/image_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M9RLKGUT-ca6bbfffd6/image_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M9RLKGUT-ca6bbfffd6/image_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 341,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M9RLKGUT-ca6bbfffd6/image_160.png",
+            "original_w": 378,
+            "original_h": 358,
+            "thumb_tiny": "AwAtADC5NI4k2qccZ6U0ySBQd4PPTFFwhaTOCRjsKi8s8YVvyoNklYa1xOXkw+ArEfdzUiyzLOEaQMCpP3cVVkhYyudsnLHovvT7aJlmB2OBtPUVcrWZzq9y9l8D5v0p0ZJzk9DUW32P5VJEMA1ywbuau1iC52icbuRtqI+XtG372aluiglG5gDjoQTUOYyR869f7prrTVjPkk+gxvL3y7/vbjilQoZf3YwNppzxDzG+ZfvHqppYohv4dc4PRSKwTVzolOLi1ccPL4yPrU9rj58dM0zyfdPyNSwJsDcg5PatXOL0TOVRaZWuywuPlGflGfzqDL4wVAGa0JbeOVtzg5xjrTPscQPQ/nRc6ozikRl2UuAAQWNKjM0wLADg1MbeMkkg5PvSrAiNkZz9awcGcqTuAJHanJ3o2ClAA6VMISTuzVs//9k=",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08HWJ80CHG/F08M9RLKGUT/image.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M9RLKGUT-4f1c2a6fe7",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FL58M3D3/p1744087362874139",
+        "fallback": "[April 7th, 2025 9:42 PM] oscar.gaddress: 全体に関わることかつ、遊びでやってたことなのでここに。\n<#C08FF5MM59C|> のプロジェクト関連でふわっと色を考えてたんですが、\n安野さんカラーにすると政党色がでちゃう（中立じゃないとか言われる）ので\nマテリアルデザイン３のデフォルトカラー（紫系）でいくのもありかなと思っております。\n<https://honstock.net/political-party-color>",
+        "text": "全体に関わることかつ、遊びでやってたことなのでここに。\n<#C08FF5MM59C|> のプロジェクト関連でふわっと色を考えてたんですが、\n安野さんカラーにすると政党色がでちゃう（中立じゃないとか言われる）ので\nマテリアルデザイン３のデフォルトカラー（紫系）でいくのもありかなと思っております。\n<https://honstock.net/political-party-color>",
+        "author_name": "小野翔太",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4E+cz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ChatGPTが「これはデザインの話だ」というので貼っときますw\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FL58M3D3/p1744087362874139"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "rolling_on_the_floor_laughing",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ChatGPTが「これはデザインの話だ」というので貼っときますw\n<https://w1740803485-clv347541.slack.com/archives/C08FL58M3D3/p1744087362874139>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744199353.662259",
+    "client_msg_id": "64d28b22-23b6-464e-89ae-09a6bcbd60cb",
+    "text": "ウェブサイトのデザイン及び、\nほかプロジェクトのデザインにも影響する話について投稿しました。\n<https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1744199130141619>\n\nデザイナーの方に力を貸してほしい点もあるので、見てもらえると助かります！！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1744199130141619",
+        "ts": "1744199130.141619",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08K4CUB12T",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08K4CUB12T",
+            "ts": "1744199130.141619",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "T+EHq",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://daisyui.com/theme-generator/"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "前述Themeのプライマリーカラーがたまたま紫"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "開発スピード的にさくっと作れるものを使いたい"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Reactとも相性良さそう"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "フォント・ファミリー"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "BIZ UDGothic"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "無料のUDフォントという縛りから。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "フォント・サイズ"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "基本は16pxを下回らない様にしたい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "最低14pxとしたい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ライトテーマ・ダークテーマ"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "とりあえずスピードを考えてライトだけ実装でいいと思う。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ロゴ"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "（アイデア出しの段階から私の範疇を超えている…ヘルプ）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n【ウェブサイト】\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "装飾として先進的な空気を出したいのでグラデーションをつけたい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "黄緑→青→紫なグラデーションを検討中。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "キャッチコピー"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1744199130141619",
+        "fallback": "[April 9th, 2025 4:45 AM] oscar.gaddress: いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n<https://daisyui.com/theme-generator/>\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n• ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。\n• 特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。\n    ◦ 前述Themeのプライマリーカラーがたまたま紫\n    ◦ もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。\n• 中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）\n• 開発スピード的にさくっと作れるものを使いたい\n    ◦ Reactとも相性良さそう\n• Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n• フォント・ファミリー\n    ◦ BIZ UDGothic\n        ▪︎ 無料のUDフォントという縛りから。\n• フォント・サイズ\n    ◦ 基本は16pxを下回らない様にしたい。\n        ▪︎ 最低14pxとしたい。\n• ライトテーマ・ダークテーマ\n    ◦ とりあえずスピードを考えてライトだけ実装でいいと思う。\n• ロゴ\n    ◦ （アイデア出しの段階から私の範疇を超えている…ヘルプ）\n【ウェブサイト】\n• 装飾として先進的な空気を出したいのでグラデーションをつけたい。\n    ◦ 黄緑→青→紫なグラデーションを検討中。\n• キャッチコピー\n    ◦ 個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）\n        ▪︎ <https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329>",
+        "text": "いどばた開発会議にて、下記フレームワークの『light』『dark』をそのまま使うのがいいのでは？となったので共有です。\n<https://daisyui.com/theme-generator/>\n※左の方の選択肢をクリックするといろんなThemeのプレビューが観れます。\n\nウェブサイトも基本このフレームワークで行こうと思っているのですがどうでしょうか？\n\nなぜそうなったのか\n• ユニバーサルデザインを意識してプライマリーカラー（ボタンの色など）は、青～紫系を検討。\n• 特定の色を使うと政党色がでてしまう（中立でない様に見える）が、紫が割と空いている。\n    ◦ 前述Themeのプライマリーカラーがたまたま紫\n    ◦ もし紫の政党が現れても、『フレームワークのデフォ使ってるだけです』って言える（シンプルに説明できる）。\n• 中立も考え、白背景・黒ボタンも考えたが、圧がつよい（真面目感。参加を促すのに向いてない？）\n• 開発スピード的にさくっと作れるものを使いたい\n    ◦ Reactとも相性良さそう\n• Themeで使用されてる色は、後から変数で修正できるので、いざとなっても直しやすい。\n＝＝＝＝＝＝＝＝＝＝\n\nその他デザインルール的なことで考えていることも共有しておきます。\n【dd2030全体】\n• フォント・ファミリー\n    ◦ BIZ UDGothic\n        ▪︎ 無料のUDフォントという縛りから。\n• フォント・サイズ\n    ◦ 基本は16pxを下回らない様にしたい。\n        ▪︎ 最低14pxとしたい。\n• ライトテーマ・ダークテーマ\n    ◦ とりあえずスピードを考えてライトだけ実装でいいと思う。\n• ロゴ\n    ◦ （アイデア出しの段階から私の範疇を超えている…ヘルプ）\n【ウェブサイト】\n• 装飾として先進的な空気を出したいのでグラデーションをつけたい。\n    ◦ 黄緑→青→紫なグラデーションを検討中。\n• キャッチコピー\n    ◦ 個人的に良いと思うものはあるが、最終的に判断するのは誰なのか？（安野さん？）\n        ▪︎ <https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1743076394463329>",
+        "author_name": "小野翔太",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ddG9s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ウェブサイトのデザイン及び、\nほかプロジェクトのデザインにも影響する話について投稿しました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1744199130141619"
+              },
+              {
+                "type": "text",
+                "text": "\n\nデザイナーの方に力を貸してほしい点もあるので、見てもらえると助かります！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08FY2KR468",
+          "U08FZDRRY8Z",
+          "U08JGS0BS57"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "ウェブサイトのデザイン及び、\nほかプロジェクトのデザインにも影響する話について投稿しました。\n<https://w1740803485-clv347541.slack.com/archives/C08K4CUB12T/p1744199130141619>\n\nデザイナーの方に力を貸してほしい点もあるので、見てもらえると助かります！！"
+  }
+]

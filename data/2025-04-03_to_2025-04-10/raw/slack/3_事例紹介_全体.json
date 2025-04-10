@@ -1,0 +1,779 @@
+[
+  {
+    "user": "U08JGS0BS57",
+    "type": "message",
+    "ts": "1743725989.158159",
+    "client_msg_id": "d5c075a0-bca2-4cd9-8a38-40d8285fe592",
+    "text": "諸々修正後、とりあえず静的ファイル出力（ static build ）で作成したものをテストサーバーにあげてみた。\n（　作成された開発者さんに感謝　）\n\n<https://naoyo4.xsrv.jp/>\n\nデータ：\n・標準で付属しているサンプルデータ（ Sample ）\n・学校統廃合アンケート（ 全体 ）\n\nなお、通常使用しているデータを全て削除して利用しているので（データ構成上そうせざるをえなかった）\nなるべく早く元に戻したく、事前通告無しでなくなることがありますので、ご欄になりたい方は、お早めに。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://naoyo4.xsrv.jp/",
+        "service_icon": "https://naoyo4.xsrv.jp/meta/icon.png",
+        "id": 1,
+        "original_url": "https://naoyo4.xsrv.jp/",
+        "fallback": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+        "text": "これは動作確認のためのテスト用のメタデータです。レポートの作成者に関する情報等を、public/meta/default/metadata.jsonに記載することで、レポート上で情報を表示することができます。",
+        "title": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+        "title_link": "https://naoyo4.xsrv.jp/",
+        "service_name": "naoyo4.xsrv.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WK5d5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "諸々修正後、とりあえず静的ファイル出力（ static build ）で作成したものをテストサーバーにあげてみた。\n（　作成された開発者さんに感謝　）\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://naoyo4.xsrv.jp/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nデータ：\n・標準で付属しているサンプルデータ（ Sample ）\n・学校統廃合アンケート（ 全体 ）\n\nなお、通常使用しているデータを全て削除して利用しているので（データ構成上そうせざるをえなかった）\nなるべく早く元に戻したく、事前通告無しでなくなることがありますので、ご欄になりたい方は、お早めに。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "iine_",
+        "users": [
+          "U08G2A216TW",
+          "U08J8NCNYL8",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "諸々修正後、とりあえず静的ファイル出力（ static build ）で作成したものをテストサーバーにあげてみた。\n（　作成された開発者さんに感謝　）\n\n<https://naoyo4.xsrv.jp/>\n\nデータ：\n・標準で付属しているサンプルデータ（ Sample ）\n・学校統廃合アンケート（ 全体 ）\n\nなお、通常使用しているデータを全て削除して利用しているので（データ構成上そうせざるをえなかった）\nなるべく早く元に戻したく、事前通告無しでなくなることがありますので、ご欄になりたい方は、お早めに。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743825113.213579",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1743833102.000000"
+    },
+    "client_msg_id": "3E005C1A-0C8E-40C9-ACE3-CA50C91CCD81",
+    "text": "思いつきメモ: GitHub Pagesで広聴AIのレポートを無償で公開し続ける方法の解説があると良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZRUkl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "思いつきメモ: GitHub Pagesで広聴AIのレポートを無償で"
+              },
+              {
+                "type": "text",
+                "text": "公開"
+              },
+              {
+                "type": "text",
+                "text": "し続ける方法の解説があると良さそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HKLUGE67",
+          "U08HZ8JS0EQ",
+          "U08HP67R9PE"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "思いつきメモ: GitHub Pagesで広聴AIのレポートを無償で公開し続ける方法の解説があると良さそう"
+  },
+  {
+    "user": "U08JGS0BS57",
+    "type": "message",
+    "ts": "1743831908.552739",
+    "client_msg_id": "89785f40-24aa-49f5-ba86-a23545ed321b",
+    "text": "ご示唆ありがとうございます。:pray:\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n<https://naoyo4.github.io/>\n\nただ、上手く動きません。ずっと、_*Visualizing...*_　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。:pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743831908.552739",
+    "reply_count": 5,
+    "reply_users_count": 3,
+    "latest_reply": "1743836949.076159",
+    "reply_users": [
+      "U08J1NXL4A0",
+      "U08JGS0BS57",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://naoyo4.github.io/",
+        "service_icon": "https://naoyo4.github.io/meta/icon.png",
+        "id": 1,
+        "original_url": "https://naoyo4.github.io/",
+        "fallback": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+        "text": "これは動作確認のためのテスト用のメタデータです。レポートの作成者に関する情報等を、public/meta/default/metadata.jsonに記載することで、レポート上で情報を表示することができます。",
+        "title": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+        "title_link": "https://naoyo4.github.io/",
+        "service_name": "naoyo4.github.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cmcDT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご示唆ありがとうございます。"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://naoyo4.github.io/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nただ、上手く動きません。ずっと、"
+              },
+              {
+                "type": "text",
+                "text": "Visualizing...",
+                "style": {
+                  "bold": true,
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "ご示唆ありがとうございます。:pray:\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n<https://naoyo4.github.io/>\n\nただ、上手く動きません。ずっと、_*Visualizing...*_　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。:pray:"
+  },
+  {
+    "text": "HTML や画像は取得できていますが、JavaScript や Stylesheet が 404 になっていますね。",
+    "files": [
+      {
+        "id": "F08LGGS47UP",
+        "created": 1743834252,
+        "timestamp": 1743834252,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J1NXL4A0",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 143143,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08LGGS47UP/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08LGGS47UP/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 155,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 206,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 309,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 344,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 413,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LGGS47UP-d89671f371/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 440,
+        "original_w": 1061,
+        "original_h": 456,
+        "thumb_tiny": "AwAUADCoR7ZNIAQDS0jd6BhzgUrDvTPSnN0oEGDu9qMcmk/ioHU0APpG7/SlpG7/AEoGN9Kc3Sm+lObpQIT+OkHU0v8AHQOpoA//2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08J1NXL4A0/F08LGGS47UP/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08LGGS47UP-0a37ff2c28",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J1NXL4A0",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D+fNQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "HTML や画像は取得できていますが、JavaScript や Stylesheet が 404 になっていますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1743834349.913779",
+    "client_msg_id": "e958e1f8-10df-4791-ab37-45eb4a25ac53",
+    "thread_ts": "1743831908.552739",
+    "parent_user_id": "U08JGS0BS57",
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1743831908.552739",
+    "user_name": "shgtkshruch",
+    "text_readable": "HTML や画像は取得できていますが、JavaScript や Stylesheet が 404 になっていますね。"
+  },
+  {
+    "user": "U08J1NXL4A0",
+    "type": "message",
+    "ts": "1743834441.721229",
+    "client_msg_id": "20962716-88ce-4340-ac08-1c01bc277a1d",
+    "text": "GitHub Pages を有効にしているリポジトリのルートフォルダに `.nojekyll` というファイルを置くと動くかもです。（ファイルの中身は空で大丈夫そうです）\n\nGitHub Pages はデフォルトで Jekyll というツールを使って処理をしているのですが、Jekyll は `_` から始まるファイルやディレクトリを無視するので `_next` というディレクトリが適切に処理されていないのが原因かもしれません。\n参考: <https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/|Bypassing Jekyll on GitHub Pages - The GitHub Blog>\n\nJekyll を無効にしたことで既存の挙動が変わる可能性もありますが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743831908.552739",
+    "parent_user_id": "U08JGS0BS57",
+    "attachments": [
+      {
+        "from_url": "https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/",
+        "service_icon": "https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=180%2C180",
+        "ts": 1262153177,
+        "id": 1,
+        "original_url": "https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/",
+        "fallback": "The GitHub Blog: Bypassing Jekyll on GitHub Pages",
+        "text": "It is now possible to completely bypass Jekyll processing on GitHub Pages by creating a file named .nojekyll in the root of your pages repo and pushing it to GitHub.…",
+        "title": "Bypassing Jekyll on GitHub Pages",
+        "title_link": "https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/",
+        "service_name": "The GitHub Blog",
+        "fields": [
+          {
+            "value": "Tom Preston-Werner",
+            "title": "Written by",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kBL9i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GitHub Pages を有効にしているリポジトリのルートフォルダに "
+              },
+              {
+                "type": "text",
+                "text": ".nojekyll",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " というファイルを置くと動くかもです。（ファイルの中身は空で大丈夫そうです）\n\nGitHub Pages はデフォルトで Jekyll というツールを使って処理をしているのですが、Jekyll は "
+              },
+              {
+                "type": "text",
+                "text": "_",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " から始まるファイルやディレクトリを無視するので "
+              },
+              {
+                "type": "text",
+                "text": "_next",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " というディレクトリが適切に処理されていないのが原因かもしれません。\n参考: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/",
+                "text": "Bypassing Jekyll on GitHub Pages - The GitHub Blog"
+              },
+              {
+                "type": "text",
+                "text": "\n\nJekyll を無効にしたことで既存の挙動が変わる可能性もありますが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08JGS0BS57",
+          "U08FZDRRY8Z"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1743831908.552739",
+    "user_name": "shgtkshruch",
+    "text_readable": "GitHub Pages を有効にしているリポジトリのルートフォルダに `.nojekyll` というファイルを置くと動くかもです。（ファイルの中身は空で大丈夫そうです）\n\nGitHub Pages はデフォルトで Jekyll というツールを使って処理をしているのですが、Jekyll は `_` から始まるファイルやディレクトリを無視するので `_next` というディレクトリが適切に処理されていないのが原因かもしれません。\n参考: <https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/|Bypassing Jekyll on GitHub Pages - The GitHub Blog>\n\nJekyll を無効にしたことで既存の挙動が変わる可能性もありますが。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1743831908.552739",
+    "root": {
+      "user": "U08JGS0BS57",
+      "type": "message",
+      "ts": "1743831908.552739",
+      "client_msg_id": "89785f40-24aa-49f5-ba86-a23545ed321b",
+      "text": "ご示唆ありがとうございます。:pray:\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n<https://naoyo4.github.io/>\n\nただ、上手く動きません。ずっと、_*Visualizing...*_　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。:pray:",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1743831908.552739",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1743836949.076159",
+      "reply_users": [
+        "U08J1NXL4A0",
+        "U08JGS0BS57",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://naoyo4.github.io/",
+          "service_icon": "https://naoyo4.github.io/meta/icon.png",
+          "id": 1,
+          "original_url": "https://naoyo4.github.io/",
+          "fallback": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+          "text": "これは動作確認のためのテスト用のメタデータです。レポートの作成者に関する情報等を、public/meta/default/metadata.jsonに記載することで、レポート上で情報を表示することができます。",
+          "title": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+          "title_link": "https://naoyo4.github.io/",
+          "service_name": "naoyo4.github.io"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cmcDT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ご示唆ありがとうございます。"
+                },
+                {
+                  "type": "emoji",
+                  "name": "pray",
+                  "unicode": "1f64f"
+                },
+                {
+                  "type": "text",
+                  "text": "\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://naoyo4.github.io/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nただ、上手く動きません。ずっと、"
+                },
+                {
+                  "type": "text",
+                  "text": "Visualizing...",
+                  "style": {
+                    "bold": true,
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。"
+                },
+                {
+                  "type": "emoji",
+                  "name": "pray",
+                  "unicode": "1f64f"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1743834785.317679",
+    "client_msg_id": "fa8d016a-e6d3-4103-a487-bb8f9a23cdea",
+    "text": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tg7p0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08J1NXL4A0",
+          "U08FZDRRY8Z",
+          "U08GAUQTR1N",
+          "U08G2A216TW"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1743831908.552739",
+    "user_name": "naoyo4",
+    "text_readable": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743835645.426199",
+    "client_msg_id": "2D6F44EE-93C1-4C98-9678-B7320011C103",
+    "text": "あー、なるほどこれは罠ですね、僕も最初同じ罠にハマりました。READMEに静的HTML出力してGitHubで公開するところまで説明を書くと良いのかも？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743831908.552739",
+    "parent_user_id": "U08JGS0BS57",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g9EH5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、なるほどこれは罠ですね、僕も最初同じ罠にハマりました。READMEに静的HTML出力してGitHubで公開するところまで説明を書くと良いのかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743831908.552739",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あー、なるほどこれは罠ですね、僕も最初同じ罠にハマりました。READMEに静的HTML出力してGitHubで公開するところまで説明を書くと良いのかも？"
+  },
+  {
+    "user": "U08J1NXL4A0",
+    "type": "message",
+    "ts": "1743836949.076159",
+    "client_msg_id": "d7937031-3556-46c3-8a6b-f3c4aafc1a6e",
+    "text": "issue 作りました :memo:\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/235>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743831908.552739",
+    "parent_user_id": "U08JGS0BS57",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743836877,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/235",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#235 [DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+        "text": "# 現在の問題点\n\n• client を static build して GitHub Pages で公開する場合、ビルドしたファイルをアップロードすると一部のコードが動かない  \n   • 原因: GitHub Pages で動いている Jekyll が `_` から始まるファイルやディレクトリを無視するため、static build 後の `_next` 以下のファイルが 404 になる  \n         • <https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/|https://github.blog/news-insights/the-library/bypassing-jekyll-on-github-pages/>  \n   • `.nojekyll` というファイルをルートに置くと動くようになるが、この挙動は知らない人が多そうで GitHub Pages で公開する人が同じ罠にハマる可能性がある\n\n# 提案内容\n\n• README の静的ファイル出力のセクションに、GitHub Pages で公開する場合の手順を記載する  \n   • ルートに `.nojekyll` ファイルを追加することもここに記載する",
+        "title": "#235 [DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/235",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gpkAU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "issue 作りました "
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/235"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08JGS0BS57",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1743831908.552739",
+    "user_name": "shgtkshruch",
+    "text_readable": "issue 作りました :memo:\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/235>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1743833271.665369",
+    "client_msg_id": "5275CF93-09CF-4FE3-BE5C-978916B76056",
+    "text": "僕は出先のスマホなのでできないのですが、誰かわかる人がいれば開発ツールでどんなエラーになってるか確認してもらえると助かります",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lBgnx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕は出先のスマホなのでできないのですが、誰かわかる人がいれば開発ツールでどんなエラーになってるか確認してもらえると助かります"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕は出先のスマホなのでできないのですが、誰かわかる人がいれば開発ツールでどんなエラーになってるか確認してもらえると助かります"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1743831908.552739",
+    "root": {
+      "user": "U08JGS0BS57",
+      "type": "message",
+      "ts": "1743831908.552739",
+      "client_msg_id": "89785f40-24aa-49f5-ba86-a23545ed321b",
+      "text": "ご示唆ありがとうございます。:pray:\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n<https://naoyo4.github.io/>\n\nただ、上手く動きません。ずっと、_*Visualizing...*_　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。:pray:",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1743831908.552739",
+      "reply_count": 5,
+      "reply_users_count": 3,
+      "latest_reply": "1743836949.076159",
+      "reply_users": [
+        "U08J1NXL4A0",
+        "U08JGS0BS57",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://naoyo4.github.io/",
+          "service_icon": "https://naoyo4.github.io/meta/icon.png",
+          "id": 1,
+          "original_url": "https://naoyo4.github.io/",
+          "fallback": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+          "text": "これは動作確認のためのテスト用のメタデータです。レポートの作成者に関する情報等を、public/meta/default/metadata.jsonに記載することで、レポート上で情報を表示することができます。",
+          "title": "テスト環境 - 広聴AI(デジタル民主主義2030ブロードリスニング)",
+          "title_link": "https://naoyo4.github.io/",
+          "service_name": "naoyo4.github.io"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cmcDT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ご示唆ありがとうございます。"
+                },
+                {
+                  "type": "emoji",
+                  "name": "pray",
+                  "unicode": "1f64f"
+                },
+                {
+                  "type": "text",
+                  "text": "\n早速、小生のケースでも GitHub Pages に UP してみました。\n\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://naoyo4.github.io/"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nただ、上手く動きません。ずっと、"
+                },
+                {
+                  "type": "text",
+                  "text": "Visualizing...",
+                  "style": {
+                    "bold": true,
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "　中\nリンク先を変えたりするのに index.* ファイルをいじったりしましたが、自身のテストサイトUP時は、基本、データ置くだけで動いたようで．．．\n（　でも、なにか抜けてる気がする　）\n\nまあ、GitHub Pages 作り方分かっただけで良しとしています（ ありがとうございます ）。"
+                },
+                {
+                  "type": "emoji",
+                  "name": "pray",
+                  "unicode": "1f64f"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1743834785.317679",
+    "client_msg_id": "fa8d016a-e6d3-4103-a487-bb8f9a23cdea",
+    "text": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tg7p0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08J1NXL4A0",
+          "U08FZDRRY8Z",
+          "U08GAUQTR1N",
+          "U08G2A216TW"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "おおっ、アドバイス通りやったら動きました。\nありがとうございます。"
+  }
+]
