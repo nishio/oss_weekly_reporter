@@ -104,7 +104,7 @@ class SlackExtractor:
                 )
                 
                 for channel in response["channels"]:
-                    if channel["id"] in self.skip_channels:
+                    if channel["id"] in self.skip_channels or channel["name"] in self.skip_channels:
                         continue
                     
                     if (self.auto_join and 
