@@ -1,0 +1,563 @@
+{
+  "period": {
+    "start": "2025-03-05",
+    "end": "2025-04-04"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 2959588512,
+      "number": 205,
+      "title": "[FEATURE]CIでpytestを実行する",
+      "state": "closed"
+    },
+    {
+      "id": 2958916779,
+      "number": 201,
+      "title": "[DOCUMENT]コードの貢献プロセスの記載",
+      "state": "closed"
+    },
+    {
+      "id": 2958675363,
+      "number": 199,
+      "title": "[DOCUMENT] server開発時のコンテナ起動方法についてREADMEに明記する",
+      "state": "closed"
+    },
+    {
+      "id": 2956516970,
+      "number": 196,
+      "title": "[BUG]静的HTML出力時の画像の 404 解消",
+      "state": "closed"
+    },
+    {
+      "id": 2955142330,
+      "number": 191,
+      "title": "[DOCUMENT] 環境変数を書き換えた場合は docker compose up --build を実行するようにREADMEに追記する",
+      "state": "closed"
+    },
+    {
+      "id": 2948555488,
+      "number": 184,
+      "title": "[FEATURE]スプレッドシートでデータを取得した後にレポートIDを変更して作成を実行するとコメントデータが二重に保管される",
+      "state": "closed"
+    },
+    {
+      "id": 2946531330,
+      "number": 179,
+      "title": "[FEATURE]resultをローカル環境へ取得するscriptをつくる",
+      "state": "closed"
+    },
+    {
+      "id": 2945366131,
+      "number": 151,
+      "title": "[FEATURE]dependabotの導入",
+      "state": "closed"
+    },
+    {
+      "id": 2945316108,
+      "number": 147,
+      "title": "[FEATURE]API呼び出し前にCSVファイル内の意見数を確認する",
+      "state": "closed"
+    },
+    {
+      "id": 2945102514,
+      "number": 142,
+      "title": "[BUG] Unknown event handler property `onFileRemove`. が出る",
+      "state": "closed"
+    },
+    {
+      "id": 2945031648,
+      "number": 140,
+      "title": "[FEATURE] OGPカードを魅力的なものにする",
+      "state": "closed"
+    },
+    {
+      "id": 2940864914,
+      "number": 135,
+      "title": "テスト",
+      "state": "closed"
+    },
+    {
+      "id": 2940864900,
+      "number": 134,
+      "title": "テスト用イシューです",
+      "state": "closed"
+    },
+    {
+      "id": 2940857719,
+      "number": 133,
+      "title": "[DOCUMENT]Azureのセットアップガイドに関する免責事項を記載する",
+      "state": "closed"
+    },
+    {
+      "id": 2940842324,
+      "number": 132,
+      "title": "[FEATURE] 意見データの入力にGoogle スプレッドシートのデータを使えるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2940398564,
+      "number": 128,
+      "title": "[FEATURE] OpenRouterを用いて動くようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2940041698,
+      "number": 124,
+      "title": "[FEATURE]Shift-JISのcsvをUTF-8に変更する",
+      "state": "closed"
+    },
+    {
+      "id": 2940032759,
+      "number": 123,
+      "title": "[FEATURE]文字コードがSJISやBOMがついてるときPythonで変換する",
+      "state": "closed"
+    },
+    {
+      "id": 2938336162,
+      "number": 120,
+      "title": "[FEATURE]サンプルデータの件数増加",
+      "state": "closed"
+    },
+    {
+      "id": 2938084214,
+      "number": 119,
+      "title": "バグテスト",
+      "state": "closed"
+    },
+    {
+      "id": 2937656365,
+      "number": 118,
+      "title": "[REFACTOR]レポート画面における「議論」という言葉がわかりにくい",
+      "state": "closed"
+    },
+    {
+      "id": 2937354376,
+      "number": 117,
+      "title": "バグテスト",
+      "state": "closed"
+    },
+    {
+      "id": 2935307581,
+      "number": 114,
+      "title": "[FEATURE]クラスタ数5/50が分数に見える",
+      "state": "closed"
+    },
+    {
+      "id": 2935266523,
+      "number": 112,
+      "title": "[FEATURE]クラスタ見出しをanchorにする",
+      "state": "closed"
+    },
+    {
+      "id": 2935237095,
+      "number": 110,
+      "title": "[REFACTOR] 「クラスタ」言い換え案",
+      "state": "closed"
+    },
+    {
+      "id": 2934529047,
+      "number": 108,
+      "title": "[FEATURE]apiのlint（ruff）をdocker環境でできるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2934442278,
+      "number": 106,
+      "title": "[FEATURE]ロゴから掛け算をなくす",
+      "state": "closed"
+    },
+    {
+      "id": 2934417917,
+      "number": 105,
+      "title": "[FEATURE]パブコメ形式でレポート出力するようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2934270761,
+      "number": 101,
+      "title": "[REFACTOR] 不要な.env.exampleの削除",
+      "state": "closed"
+    },
+    {
+      "id": 2934265472,
+      "number": 100,
+      "title": "[FEATURE]CSVのアップロードが成功した際に成功メッセージを表示",
+      "state": "closed"
+    },
+    {
+      "id": 2969624362,
+      "number": 227,
+      "title": "[FEATURE]設定画面について",
+      "state": "created"
+    },
+    {
+      "id": 2967838327,
+      "number": 225,
+      "title": "[BUG] ２回目以降、静的ファイル出力（static build）時 パーミッションエラーが発生する？",
+      "state": "created"
+    },
+    {
+      "id": 2966981395,
+      "number": 223,
+      "title": "[FEATURE]クライアント開発用のresultを公開",
+      "state": "created"
+    },
+    {
+      "id": 2966961605,
+      "number": 222,
+      "title": "[FEATURE]クラスタ数変更を直接入力可能にする",
+      "state": "created"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "created"
+    },
+    {
+      "id": 2966115761,
+      "number": 220,
+      "title": "[FEATURE] frontからstaticなHTMLファイルをexportしてDownloadできるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2965964029,
+      "number": 219,
+      "title": "[FEATURE]client/client-adminのテストをgithub actionsで実行する",
+      "state": "created"
+    },
+    {
+      "id": 2965108490,
+      "number": 218,
+      "title": "[FEATURE]レポート一覧に作成日時を追加する",
+      "state": "created"
+    },
+    {
+      "id": 2962812783,
+      "number": 216,
+      "title": "[FEATURE]Azureへのデプロイ時に手元のレポートを含めることを可能にする",
+      "state": "created"
+    },
+    {
+      "id": 2962680964,
+      "number": 214,
+      "title": "[FEATURE]Azureのデプロイ更新作業をMakefileにまとめる",
+      "state": "created"
+    },
+    {
+      "id": 2962653661,
+      "number": 213,
+      "title": "[FEATURE]5→50の表記を50→5に変えるか？",
+      "state": "created"
+    },
+    {
+      "id": 2962326893,
+      "number": 212,
+      "title": "[BUG]新しいレポートを作成してもclient一覧画面にレポートが表示されない",
+      "state": "created"
+    },
+    {
+      "id": 2962321727,
+      "number": 211,
+      "title": "[FEATURE]OOMの事後処理",
+      "state": "created"
+    },
+    {
+      "id": 2960108462,
+      "number": 207,
+      "title": "[FEATURE]レポート一覧のクリック可能範囲を広げる",
+      "state": "created"
+    },
+    {
+      "id": 2954831783,
+      "number": 190,
+      "title": "[FEATURE]1回のextractionで複数のcommentを処理する",
+      "state": "created"
+    },
+    {
+      "id": 2948784429,
+      "number": 186,
+      "title": "[FEATURE]CSVをJSONに変換せずに送信したい",
+      "state": "created"
+    },
+    {
+      "id": 2948652084,
+      "number": 185,
+      "title": "[FEATURE]失敗したプロセスの詳細情報を得られるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2945756829,
+      "number": 177,
+      "title": "[BUG]パスワードに&があるとそこでコマンドが分割される",
+      "state": "created"
+    },
+    {
+      "id": 2945716392,
+      "number": 176,
+      "title": "[FEATURE]LLMベースの分類機能の実装",
+      "state": "created"
+    },
+    {
+      "id": 2945694291,
+      "number": 175,
+      "title": "[DOCUMENT] Azure である程度の期間運用する際に必要な項目を追加する",
+      "state": "created"
+    },
+    {
+      "id": 2945685679,
+      "number": 174,
+      "title": "[FEATURE] 生成するレポートを永続化できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2945669000,
+      "number": 173,
+      "title": "[FEATURE]グラウンディングの実験",
+      "state": "created"
+    },
+    {
+      "id": 2945659198,
+      "number": 172,
+      "title": "[FEATURE]クラスタ説明文におけるグラウンディングの実装",
+      "state": "created"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    },
+    {
+      "id": 2893835579,
+      "number": 11,
+      "title": "[FEATURE]レポート出力にかかる時間の目安を記載する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 2967761436,
+      "number": 224,
+      "title": "クラスタ見出しをanchorにする",
+      "state": "merged"
+    },
+    {
+      "id": 2963002553,
+      "number": 217,
+      "title": "レポート出力の進捗を表示",
+      "state": "merged"
+    },
+    {
+      "id": 2960524533,
+      "number": 210,
+      "title": "不要なターゲット(azure-acr-login)を削除",
+      "state": "merged"
+    },
+    {
+      "id": 2960272317,
+      "number": 209,
+      "title": "レポートページの OGP カードのデザイン",
+      "state": "merged"
+    },
+    {
+      "id": 2960149628,
+      "number": 208,
+      "title": "fix assertion position",
+      "state": "merged"
+    },
+    {
+      "id": 2959779152,
+      "number": 206,
+      "title": "pytestを追加 & github actionsでテストを実行",
+      "state": "merged"
+    },
+    {
+      "id": 2959222901,
+      "number": 204,
+      "title": "パブコメモードについての説明をREADMEに追加",
+      "state": "merged"
+    },
+    {
+      "id": 2959144257,
+      "number": 203,
+      "title": "server内のREADMEを最新の内容にアップデート",
+      "state": "merged"
+    },
+    {
+      "id": 2958924850,
+      "number": 202,
+      "title": "CONTRIBUTING.mdを改善",
+      "state": "merged"
+    },
+    {
+      "id": 2958700909,
+      "number": 200,
+      "title": "階層図ホバー時にクラスタの概要説明を表示",
+      "state": "merged"
+    },
+    {
+      "id": 2957952638,
+      "number": 198,
+      "title": "static build の手順のドキュメントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 2957584104,
+      "number": 197,
+      "title": "static build 時に画像が 404 になる不具合の解消",
+      "state": "merged"
+    },
+    {
+      "id": 2955463577,
+      "number": 195,
+      "title": "client を static build できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 2955424115,
+      "number": 194,
+      "title": "パブコメモード（CSV形式出力・CSVにコメント原文を追加）",
+      "state": "merged"
+    },
+    {
+      "id": 2955220298,
+      "number": 193,
+      "title": "文言の変更（「議論」-> 「意見」、〇〇議論 -> 〇〇件）",
+      "state": "merged"
+    },
+    {
+      "id": 2955170336,
+      "number": 192,
+      "title": "環境変数を編集した場合の起動手順を追記",
+      "state": "merged"
+    },
+    {
+      "id": 2949463408,
+      "number": 189,
+      "title": "サンプルのコメントデータのサンプルを追加",
+      "state": "merged"
+    },
+    {
+      "id": 2949317417,
+      "number": 188,
+      "title": "/を分数に見えなくするために→に変えた",
+      "state": "merged"
+    },
+    {
+      "id": 2948996289,
+      "number": 187,
+      "title": "「データをクリアして再入力」を押した時に、既に保存したデータがあれば削除",
+      "state": "merged"
+    },
+    {
+      "id": 2947757304,
+      "number": 183,
+      "title": "Shift JISのcsvがアップロードされた時にUTF-8に変更する",
+      "state": "merged"
+    },
+    {
+      "id": 2946816745,
+      "number": 182,
+      "title": "公開設定された Google スプレッドシートを意見データとして扱えるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 2946773666,
+      "number": 181,
+      "title": "Azure.mdにサンプル構成の注意事項を追加",
+      "state": "merged"
+    },
+    {
+      "id": 2946600749,
+      "number": 180,
+      "title": "resultをローカル環境へ取得するscriptをつくる",
+      "state": "merged"
+    },
+    {
+      "id": 2946065369,
+      "number": 178,
+      "title": "リポートがない場合は 404 を返すように修正",
+      "state": "merged"
+    },
+    {
+      "id": 2945601172,
+      "number": 171,
+      "title": "dependabotの定期更新を削除",
+      "state": "merged"
+    },
+    {
+      "id": 2945400998,
+      "number": 167,
+      "title": "Bump @types/react from 19.0.10 to 19.0.12 in /client",
+      "state": "merged"
+    },
+    {
+      "id": 2945400790,
+      "number": 165,
+      "title": "Bump @eslint/eslintrc from 3.3.0 to 3.3.1 in /client-admin",
+      "state": "merged"
+    },
+    {
+      "id": 2945394709,
+      "number": 153,
+      "title": "Bump next from 15.1.6 to 15.2.3 in /client-admin",
+      "state": "merged"
+    },
+    {
+      "id": 2945374215,
+      "number": 152,
+      "title": "dependabotを導入",
+      "state": "merged"
+    },
+    {
+      "id": 2945346810,
+      "number": 150,
+      "title": "Bump next from 15.1.7 to 15.2.3 in /utils/dummy-server",
+      "state": "merged"
+    },
+    {
+      "id": 2970065492,
+      "number": 228,
+      "title": "Azure Blob Storage連携機能の実装",
+      "state": "created"
+    },
+    {
+      "id": 2968531540,
+      "number": 226,
+      "title": "add column selection",
+      "state": "created"
+    },
+    {
+      "id": 2962689394,
+      "number": 215,
+      "title": "(Draft)Azureの更新のためのターゲットを追加",
+      "state": "created"
+    },
+    {
+      "id": 2945401387,
+      "number": 169,
+      "title": "Bump lucide-react from 0.474.0 to 0.483.0 in /client",
+      "state": "created"
+    },
+    {
+      "id": 2945401194,
+      "number": 168,
+      "title": "Bump @types/node from 20.17.19 to 22.13.13 in /client",
+      "state": "created"
+    },
+    {
+      "id": 2893999563,
+      "number": 20,
+      "title": "レイアウト修正",
+      "state": "updated"
+    },
+    {
+      "id": 2890484194,
+      "number": 8,
+      "title": "Docker化",
+      "state": "updated"
+    }
+  ]
+}
