@@ -30,6 +30,15 @@ jobs:
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         run: |
+          # データディレクトリの作成
+          mkdir -p "./data"
+          
+          # データのバックアップを作成（週ごと）
+          current_date=$(date +"%Y-%m-%d")
+          if [ -d "./data" ]; then
+            tar -czf "./data_backup_${current_date}.tar.gz" "./data"
+          fi
+          
           python -m slack_logger.slack_to_json --token "$SLACK_TOKEN" --last-days 7 --output-dir "./data"
           
           # GitHub Report
@@ -40,10 +49,19 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
       
-      - name: Create and checkout data branch
+      - name: Fetch data branch
         run: |
           git fetch origin data || true
-          git checkout -B data
+      
+      - name: Create and checkout data branch
+        run: |
+          if git rev-parse --verify origin/data >/dev/null 2>&1; then
+            # dataブランチが存在する場合、チェックアウトする
+            git checkout data
+          else
+            # dataブランチが存在しない場合、新規作成
+            git checkout -b data
+          fi
       
       - name: Add and commit extracted data
         run: |
@@ -53,4 +71,5 @@ jobs:
       
       - name: Push to data branch
         run: |
-          git push -f origin data
+          # force pushを使用せず、通常のpushを使用してデータ履歴を保持する
+          git push origin data
