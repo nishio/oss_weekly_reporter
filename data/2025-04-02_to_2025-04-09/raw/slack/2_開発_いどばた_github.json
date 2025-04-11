@@ -1,0 +1,2887 @@
+[
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743577776.020259",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743598424.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743577776.020259",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743598424.055979",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743577773,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた\n\n# 変更の背景\n\n• 開発時に動作確認のために適当なデータを毎回入力するのが面倒だった\n• ボタンクリックするとサンプルデータが入るようにした\n\n<https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4|[Screenshot 2025-04-02 at 16 09 11](https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "Small Fix",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:93,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/93&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743577776.020259",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743577776.020259",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598424.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743577776.020259",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598424.055979",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743577773,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた\n\n# 変更の背景\n\n• 開発時に動作確認のために適当なデータを毎回入力するのが面倒だった\n• ボタンクリックするとサンプルデータが入るようにした\n\n<https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4|[Screenshot 2025-04-02 at 16 09 11](https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:93,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/93&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598424.055979",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743577773,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "parent_ts": "1743577776.020259",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743580542.001229",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743598422.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743580542.001229",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743598422.440049",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580539,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• 開発環境でプロジェクト作成時に、サンプル CSV を読み込めるボタンを置いた\n• サンプル CSV ファイルを作成して置いた  \n   • Slack で動作確認用に置いてあったダミーデータをレポジトリに置いていいかどうか少し迷ったので、ChatGPT にダミーデータを作らせた <https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722|https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722>  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93> で出てくるテーマと関連するテーマのコメントを生成している\n\n<https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg|[Screenshot 2025-04-02 at 17 09 49](https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg)>\n\n件数表示が変だけどこれは既存のバグっぽいので <https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95> で修正\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94 開発環境でサンプル CSV を読み込めるボタンを置いた>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "Small Fix",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:94,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/94&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境でサンプル CSV を読み込めるボタンを置いた&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743580542.001229",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743580542.001229",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598422.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743580542.001229",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598422.440049",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743580539,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• 開発環境でプロジェクト作成時に、サンプル CSV を読み込めるボタンを置いた\n• サンプル CSV ファイルを作成して置いた  \n   • Slack で動作確認用に置いてあったダミーデータをレポジトリに置いていいかどうか少し迷ったので、ChatGPT にダミーデータを作らせた <https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722|https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722>  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93> で出てくるテーマと関連するテーマのコメントを生成している\n\n<https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg|[Screenshot 2025-04-02 at 17 09 49](https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg)>\n\n件数表示が変だけどこれは既存のバグっぽいので <https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95> で修正\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94 開発環境でサンプル CSV を読み込めるボタンを置いた>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:94,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/94&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境でサンプル CSV を読み込めるボタンを置いた&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598422.440049",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580539,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94 開発環境でサンプル CSV を読み込めるボタンを置いた>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "parent_ts": "1743580542.001229",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743580990.197979",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743598327.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743580990.197979",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743598327.271009",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580987,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\nCSV のプレビュー時に出るデータ件数表示が変だったので修正した\n\n• 常に1件と表示されてしまっていた  \n   • preview: 1 が付いていて、1行しかデータを読み出していないにも関わらず、データの件数を表示していたので変になっていた  \n   • CSVのパースには100万行〜規模のデータでもなければ今どきの PC では大した時間はかからないはずなので、preview: 1 を外してしまうことにした\n• CSV を読み込む際に、末尾の空行が含まれてデータの件数が1件ずれてしまうことがあった（CSV ファイルの作り方によって、末尾に空行が入ることと入らないことがあり、末尾に空行が入る時のみ問題が発生する）  \n   • 空行はフィルタリングするようにして、実際のデータ数と表示数がずれないようにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95 CSV プレビューの小さなバグ修正>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "Small Fix",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:95,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/95&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;CSV プレビューの小さなバグ修正&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743580990.197979",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743580990.197979",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598327.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743580990.197979",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598327.271009",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743580987,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\nCSV のプレビュー時に出るデータ件数表示が変だったので修正した\n\n• 常に1件と表示されてしまっていた  \n   • preview: 1 が付いていて、1行しかデータを読み出していないにも関わらず、データの件数を表示していたので変になっていた  \n   • CSVのパースには100万行〜規模のデータでもなければ今どきの PC では大した時間はかからないはずなので、preview: 1 を外してしまうことにした\n• CSV を読み込む際に、末尾の空行が含まれてデータの件数が1件ずれてしまうことがあった（CSV ファイルの作り方によって、末尾に空行が入ることと入らないことがあり、末尾に空行が入る時のみ問題が発生する）  \n   • 空行はフィルタリングするようにして、実際のデータ数と表示数がずれないようにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95 CSV プレビューの小さなバグ修正>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:95,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/95&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;CSV プレビューの小さなバグ修正&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598327.271009",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580987,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95 CSV プレビューの小さなバグ修正>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "parent_ts": "1743580990.197979",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743582804.477029",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743582826.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "image_url": "https://private-user-images.githubusercontent.com/6639012/429387713-00325e8f-03a3-4f6b-9446-a173b1e70ff2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1ODMxMjYsIm5iZiI6MTc0MzU4MjgyNiwicGF0aCI6Ii82NjM5MDEyLzQyOTM4NzcxMy0wMDMyNWU4Zi0wM2EzLTRmNmItOTQ0Ni1hMTczYjFlNzBmZjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMDgzMzQ2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWM3OTU5Y2NkZjgyNTBmZjkxZTg0Y2ExYzJjMTQ0NjgzM2QwYWQwOGU3MGE5YThlYTI4MDNlODRlY2JmMWEyMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.3tVRiB7pHFUaxnZnMGDNYKrwfO3lISRAUmZhRJEJ3K4",
+        "image_width": 1189,
+        "image_height": 1006,
+        "image_bytes": 281549,
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743582802,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by spinute",
+        "text": "## 解決・改善したいこと\n\nビジュアル分析タブのレポートがモバイル端末の横幅が狭い画面で表示することをおそらく表示しておらず、読みにくい。\n\n今の日本のインターネット利用は PC よりスマホが中心で、スマホで快適に閲覧できることは重要。\n\n<https://private-user-images.githubusercontent.com/6639012/429387713-00325e8f-03a3-4f6b-9446-a173b1e70ff2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1ODMxMjYsIm5iZiI6MTc0MzU4MjgyNiwicGF0aCI6Ii82NjM5MDEyLzQyOTM4NzcxMy0wMDMyNWU4Zi0wM2EzLTRmNmItOTQ0Ni1hMTczYjFlNzBmZjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMDgzMzQ2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWM3OTU5Y2NkZjgyNTBmZjkxZTg0Y2ExYzJjMTQ0NjgzM2QwYWQwOGU3MGE5YThlYTI4MDNlODRlY2JmMWEyMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.3tVRiB7pHFUaxnZnMGDNYKrwfO3lISRAUmZhRJEJ3K4|[Image](https://private-user-images.githubusercontent.com/6639012/429387713-00325e8f-03a3-4f6b-9446-a173b1e70ff2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1ODMxMjYsIm5iZiI6MTc0MzU4MjgyNiwicGF0aCI6Ii82NjM5MDEyLzQyOTM4NzcxMy0wMDMyNWU4Zi0wM2EzLTRmNmItOTQ0Ni1hMTczYjFlNzBmZjIucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMDgzMzQ2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWM3OTU5Y2NkZjgyNTBmZjkxZTg0Y2ExYzJjMTQ0NjgzM2QwYWQwOGU3MGE5YThlYTI4MDNlODRlY2JmMWEyMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.3tVRiB7pHFUaxnZnMGDNYKrwfO3lISRAUmZhRJEJ3K4)>\n\n<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89> で余白を詰めてみたが、まだまだレイアウト的に見づらい。\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\nビジュアル分析のレポートをモバイル端末での表示を意識してリデザインし、実装する。\n\n表面的なところでは、字下げと2カラム表示が縦長で横幅の狭いスマホ表示には向いていない気がする。ただ、別のやり方も色々ありそう。",
+        "pretext": "Issue created by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/96|#96 ビジュアル分析のモバイル表示対応>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "enhancement, frontend, design",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":96,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/96\",\"issueTitle\":\"ビジュアル分析のモバイル表示対応\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":96,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/96\",\"issueTitle\":\"ビジュアル分析のモバイル表示対応\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":96,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/96\",\"issueTitle\":\"ビジュアル分析のモバイル表示対応\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743588359.084689",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743588356,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by Ina299",
+        "text": "## 解決・改善したいこと\n\ndiscourse上でファクトを確かめるための機能の実装",
+        "pretext": "Issue created by <https://github.com/Ina299|Ina299>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/97|#97 deep search的な機能によってファクトチェックする>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":97,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/97\",\"issueTitle\":\"deep search的な機能によってファクトチェックする\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":97,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/97\",\"issueTitle\":\"deep search的な機能によってファクトチェックする\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":97,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/97\",\"issueTitle\":\"deep search的な機能によってファクトチェックする\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743588539.560959",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743588537,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-discourse-agent] Issue opened by Ina299",
+        "text": "deep research的な機能によってファクトチェックする",
+        "pretext": "Issue created by <https://github.com/Ina299|Ina299>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/87|#87 Deep Research的なファクトチェック機能>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent|digitaldemocracy2030/idobata-discourse-agent>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":87,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/87\",\"issueTitle\":\"Deep Research的なファクトチェック機能\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":87,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/87\",\"issueTitle\":\"Deep Research的なファクトチェック機能\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":87,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/87\",\"issueTitle\":\"Deep Research的なファクトチェック機能\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743588585.205799",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743588582,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-discourse-agent] Issue opened by Ina299",
+        "text": "「議論の流れ」にフォーカスした要約機能   \n新規が入ってきやすくするための要約を生成する",
+        "pretext": "Issue created by <https://github.com/Ina299|Ina299>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/88|#88 すぐ議論に入れるためのフラッシュな要約機能>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent|digitaldemocracy2030/idobata-discourse-agent>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":88,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/88\",\"issueTitle\":\"すぐ議論に入れるためのフラッシュな要約機能\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":88,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/88\",\"issueTitle\":\"すぐ議論に入れるためのフラッシュな要約機能\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":88,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/88\",\"issueTitle\":\"すぐ議論に入れるためのフラッシュな要約機能\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743588705.288699",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743588702,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-discourse-agent] Issue opened by Ina299",
+        "text": "議論がより進むようなファシリテーションを行う機能を実装\n\n具体的に何をやるかということが決まっていないのでハッカソン的にtry and errorしたい",
+        "pretext": "Issue created by <https://github.com/Ina299|Ina299>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/89|#89 ファシリテーション機能>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent|digitaldemocracy2030/idobata-discourse-agent>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":89,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/89\",\"issueTitle\":\"ファシリテーション機能\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":89,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/89\",\"issueTitle\":\"ファシリテーション機能\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":89,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/89\",\"issueTitle\":\"ファシリテーション機能\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598326.591739",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 2 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/949f10a53da3e2927f36a700ff93d8b10915760a|949f10a5>` - filter empty rows in loading csv\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/b2125acd6e32e1066c9f13375e51021197c29fbe|b2125acd>` - Merge pull request #95 from spinute/feature/fix-csv-loading",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/5be5bce0d28f...b2125acd6e32|2 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743580990.197979",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743580990.197979",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598327.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743580990.197979",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598327.271009",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743580987,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\nCSV のプレビュー時に出るデータ件数表示が変だったので修正した\n\n• 常に1件と表示されてしまっていた  \n   • preview: 1 が付いていて、1行しかデータを読み出していないにも関わらず、データの件数を表示していたので変になっていた  \n   • CSVのパースには100万行〜規模のデータでもなければ今どきの PC では大した時間はかからないはずなので、preview: 1 を外してしまうことにした\n• CSV を読み込む際に、末尾の空行が含まれてデータの件数が1件ずれてしまうことがあった（CSV ファイルの作り方によって、末尾に空行が入ることと入らないことがあり、末尾に空行が入る時のみ問題が発生する）  \n   • 空行はフィルタリングするようにして、実際のデータ数と表示数がずれないようにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95 CSV プレビューの小さなバグ修正>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:95,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/95&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;CSV プレビューの小さなバグ修正&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598327.271009",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580987,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95 CSV プレビューの小さなバグ修正>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598421.759049",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 3 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/24589f153b4810d4e02f8ec21d09dcbd5fdd137c|24589f15>` - put a button to fill sample data in development\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/cd9debacaa3460796d5c409d5f806c662bad26a3|cd9debac>` - put a button to fill sample CSV in development\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/909f2a0e7a6ea41b74d83b7db4b86752eed37781|909f2a0e>` - Merge pull request #94 from spinute/feature/fill-sample-data-2",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/b2125acd6e32...909f2a0e7a6e|3 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743580542.001229",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743580542.001229",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598422.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743580542.001229",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598422.440049",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743580539,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• 開発環境でプロジェクト作成時に、サンプル CSV を読み込めるボタンを置いた\n• サンプル CSV ファイルを作成して置いた  \n   • Slack で動作確認用に置いてあったダミーデータをレポジトリに置いていいかどうか少し迷ったので、ChatGPT にダミーデータを作らせた <https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722|https://chatgpt.com/share/67ececb7-a83c-8006-9b6e-e9daf3a22722>  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93> で出てくるテーマと関連するテーマのコメントを生成している\n\n<https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg|[Screenshot 2025-04-02 at 17 09 49](https://private-user-images.githubusercontent.com/6639012/429378981-839b05bd-1dd2-4861-b53d-7f6449d875af.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjIsIm5iZiI6MTc0MzU5ODQyMiwicGF0aCI6Ii82NjM5MDEyLzQyOTM3ODk4MS04MzliMDViZC0xZGQyLTQ4NjEtYjUzZC03ZjY0NDlkODc1YWYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmI1ZGFiMTI2MzI0ZjNhYmJmZTUwNzk0MmRmOTAyYjhmZjExZTc3YzJjMjc2MGMyZmQ4OWIzN2M0MjQ2ZmFmNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.t4qRNlb1iu2FlHNqvI9MMtByhxQwdRzUUX4bKCrloVg)>\n\n件数表示が変だけどこれは既存のバグっぽいので <https://github.com/digitaldemocracy2030/idobata-analyst/pull/95|#95> で修正\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94 開発環境でサンプル CSV を読み込めるボタンを置いた>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:94,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/94&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境でサンプル CSV を読み込めるボタンを置いた&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598422.440049",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743580539,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94 開発環境でサンプル CSV を読み込めるボタンを置いた>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743577776.020259",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743577776.020259",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598424.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743577776.020259",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598424.055979",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743577773,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた\n\n# 変更の背景\n\n• 開発時に動作確認のために適当なデータを毎回入力するのが面倒だった\n• ボタンクリックするとサンプルデータが入るようにした\n\n<https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4|[Screenshot 2025-04-02 at 16 09 11](https://private-user-images.githubusercontent.com/6639012/429353882-661369eb-09d2-4a6b-be99-8b6d3f003da5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM1OTg3MjMsIm5iZiI6MTc0MzU5ODQyMywicGF0aCI6Ii82NjM5MDEyLzQyOTM1Mzg4Mi02NjEzNjllYi0wOWQyLTRhNmItYmU5OS04YjZkM2YwMDNkYTUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDJUMTI1MzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjM3NmM1YTkxZjJjOTA1MjdiYjJmMGQ3NWNjNjhmNGIwODM2NWM4YjY3NTgwNTUwYWQxODcxM2RlZGMyNGYxYiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.r76FniYF3OwGcHPz2Xn4dmxSAyDMPazsj2r32HsPpI4)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:93,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/93&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598424.055979",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743577773,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93 開発環境で、プロジェクト作成ページにサンプルデータを入れるボタンを置いた>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598481.804089",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 2 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/30f3c8cb3e7aa8c0c29c64e559ea9a2331e44bf7|30f3c8cb>` - fix makefile\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/c6ce5290455de696aae5421e4f881bf97a51d729|c6ce5290>` - Merge pull request #88 from spinute/feature/fix-makefile",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/909f2a0e7a6e...c6ce5290455d|2 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743230979.971799",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743230979.971799",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598482.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743230979.971799",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598482.436839",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743230977,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/pull/66|#66> で makefile を追加したが、make containers-start を実行したときに `docker compose watch` を実行するようにしていたが、これだとコンソールにログが出ないので、`docker compose up --watch` を実行するように修正した\n\n# 変更の背景\n\n• ここに変更が必要となった背景を記載してください\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/88|#88 make containers-start の微修正>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:88,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/88&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;make containers-start の微修正&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598482.436839",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743230977,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/88|#88 make containers-start の微修正>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598523.237049",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 2 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/31be8ed791a82ad373e508adc0ce0011d82fe1d8|31be8ed7>` - improve copy-env.sh\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/2dc986d7884ea4ca6cd7332457cf3640cb180b08|2dc986d7>` - Merge pull request #64 from spinute/feature/improve-setup",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/c6ce5290455d...2dc986d7884e|2 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1742729354.844589",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1742729354.844589",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598524.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1742729354.844589",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598523.890379",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1742729352,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/pull/48|#48> で導入された copy-env.sh を改善した\n\n# 変更の背景\n\n• .env を既に作っているとき、copy-env.sh を実行すると既存のファイルが上書きされてしまう問題があった\n• 既に .env があるときはおそらく copy-env.sh の実行はミスの可能性が高いので、上書きはせずに警告を表示するようにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/64|#64 improve copy-env.sh>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:64,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/64&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;improve copy-env.sh&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598523.890379",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1742729352,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/64|#64 improve copy-env.sh>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598537.713779",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 2 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/d80e3deb7da2aa50676a42e49aa547d337829b5e|d80e3deb>` - 修正：issues19(コメント種類分布の追加)の解決\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/2a720bc3b52355a4e1837d489a41df16fff7f9ac|2a720bc3>` - Merge pull request #62 from itoma-aikon/feature-issues19",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/2dc986d7884e...2a720bc3b523|2 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1742709951.492619",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1742709951.492619",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598538.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1742709951.492619",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598538.358939",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1742709947,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by itoma-aikon",
+          "text": "# 変更の概要\n\n• issues19(コメント種類分布の追加)の解決\n\n# 変更の背景\n\n• (<https://github.com/digitaldemocracy2030/idobata-analyst/issues/19)%E3%81%AE%E8%A7%A3%E6%B1%BA|https://github.com/digitaldemocracy2030/idobata-analyst/issues/19)の解決>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/itoma-aikon|itoma-aikon>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/62|#62 修正：issues19(コメント種類分布の追加)の解決>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "Small Fix",
+              "title": "Labels",
+              "short": true
+            },
+            {
+              "value": "1",
+              "title": "Comments",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:62,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/62&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;修正：issues19(コメント種類分布の追加)の解決&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598538.358939",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1742709947,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/62|#62 修正：issues19(コメント種類分布の追加)の解決>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598597.194299",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] 6 new commits pushed to _main_ by blu3mo",
+        "text": "`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/20d1fe15456042e68e69e77b10bdb04c9aeb8557|20d1fe15>` - refactor: Use the biome binary in root `node_modules/`\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/5ba766a1d6b5c1dd9e274f6eb50d77788143007e|5ba766a1>` - fix: biome should also format `.jsonc` files\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/c54eec53af02e3b6576647f33808f992f538f7f1|c54eec53>` - feat: organize `npm run lint` and `npm run format` commands on root\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/521b2b593a8464e84d1a2bb2cef3e6f618c05f98|521b2b59>` - npm run format:all\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/52c71399b7ae85ef9a149d63f6439a3d7d281721|52c71399>` - Recommend beginners to install Biome and Docker extensions\n`<https://github.com/digitaldemocracy2030/idobata-analyst/commit/e2c780aa9e5d98fbc4fc0f9ae4f994ab9cb9678f|e2c780aa>` - Merge pull request #91 from takker99/takker99/issue90",
+        "pretext": "<https://github.com/digitaldemocracy2030/idobata-analyst/compare/2a720bc3b523...e2c780aa9e5d|6 new commits> pushed to `<https://github.com/digitaldemocracy2030/idobata-analyst/tree/main|main>` by <https://github.com/blu3mo|blu3mo>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743395700.833579",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743395700.833579",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598597.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743395700.833579",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1743598597.663709",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743395037,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by takker99",
+          "text": "# 変更の概要\n\nFix <https://github.com/digitaldemocracy2030/idobata-analyst/issues/90|#90>\n\n• rootで`npm install`すればbiomeの拡張機能に認識してもらえるようにする (<https://github.com/digitaldemocracy2030/idobata-analyst/commit/20d1fe15456042e68e69e77b10bdb04c9aeb8557|20d1fe1>)\n• すべてのpackagesとルートにあるファイルをformat &amp; lintするコマンドを追加 (<https://github.com/digitaldemocracy2030/idobata-analyst/commit/c54eec53af02e3b6576647f33808f992f538f7f1|c54eec5>)  \n   • この過程で`mongo-init.js`がformatされてないことに気づいたのでやっておきました (<https://github.com/digitaldemocracy2030/idobata-analyst/commit/521b2b593a8464e84d1a2bb2cef3e6f618c05f98|521b2b5>)\n• biomeの拡張機能をinstallするよう促す (<https://github.com/digitaldemocracy2030/idobata-analyst/commit/52c71399b7ae85ef9a149d63f6439a3d7d281721|52c7139>)\n\n本当は`npm install`も拡張機能を入れるのも自動で済ませたいところですが、devcontainerを導入しないとそこまではできないので、いったんこれでPRします。\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/takker99|takker99>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/91|#91 Enable to run biome at the root directory>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:91,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/91&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Enable to run biome at the root directory&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598597.663709",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743395037,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request merged by blu3mo",
+        "pretext": "Pull request merged by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/91|#91 Enable to run biome at the root directory>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743394193.937229",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743394193.937229",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743598598.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743394193.937229",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743598598.093669",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://camo.githubusercontent.com/ad20853d1980fe48f20a7466e1fb0b51f1e6f98d55a41af45ce546f1bece737f/68747470733a2f2f692e6779617a6f2e636f6d2f39353832656438666434353765626264653862353361376333383965633234372e706e67",
+          "image_width": 2386,
+          "image_height": 1594,
+          "image_bytes": 380502,
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743394192,
+          "color": "8250df",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by takker99",
+          "text": "## 解決・改善したいこと\n\n<https://marketplace.visualstudio.com/items?itemName=biomejs.biome|VS codeのBiome拡張機能>でformatしようとしたら、biomejsがないと警告が出てしまいました。  \n<https://gyazo.com/9582ed8fd457ebbde8b53a7c389ec247|[Image from Gyazo](https://camo.githubusercontent.com/ad20853d1980fe48f20a7466e1fb0b51f1e6f98d55a41af45ce546f1bece737f/68747470733a2f2f692e6779617a6f2e636f6d2f39353832656438666434353765626264653862353361376333383965633234372e706e67)>  \nコードを見てみると、`packages/*/package.json`には`@biomejs/biome`が入っているものの、ルートには入っていないため、ルートでbiomeを探せずエラーが出ていたみたいです。  \n<https://gyazo.com/c46bf0183bbf4de9223b7f4b80566cdd|[Image from Gyazo](https://camo.githubusercontent.com/8c800364e1d3d745fff679f8483196739b1d890b98027c364c171983f07111c4/68747470733a2f2f692e6779617a6f2e636f6d2f63343662663031383362626634646539323233623766346238303536366364642e706e67)>\n\n初めての人でも躓かないよう、(vscode限定ですが)biomeをすぐ動かせるような状態にしたいです。\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\n• npm workspaceを導入し、root directoryで`@biomejs/biome`を入れる\n• すべてのpackagesのlintとformatを実行するnpm scriptsをroot directoryに導入\n• 開発に使う拡張機能を`extensions.json`に入れる",
+          "pretext": "Issue created by <https://github.com/takker99|takker99>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/90|#90 Biomeをrootで実行できるようにする>",
+          "callback_id": "issue-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "fields": [
+            {
+              "value": "<https://github.com/takker99|@takker99>",
+              "title": "Assignees",
+              "short": true
+            },
+            {
+              "value": "enhancement",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/90\",\"issueTitle\":\"Biomeをrootで実行できるようにする\"}",
+              "style": ""
+            },
+            {
+              "id": "2",
+              "name": "edit",
+              "text": "Edit",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/90\",\"issueTitle\":\"Biomeをrootで実行できるようにする\"}",
+              "style": ""
+            },
+            {
+              "id": "3",
+              "name": "reopen",
+              "text": "Reopen",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/90\",\"issueTitle\":\"Biomeをrootで実行できるようにする\"}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743598598.093669",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743394192,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue closed as completed by blu3mo",
+        "pretext": "Issue closed as completed by <https://github.com/blu3mo|blu3mo>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/90|#90 Biomeをrootで実行できるようにする>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08M2Q2M6SV",
+    "text": "<@U08M2Q2M6SV> has joined the channel",
+    "inviter": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743759777.644519",
+    "user_name": "Devin",
+    "text_readable": "@devin has joined the channel"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743760328.806049",
+    "client_msg_id": "5eccd618-d2e6-4fb6-b56d-8058423310db",
+    "text": "<@U08M2Q2M6SV> こんにちは",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743760328.806049",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1743761912.029689",
+    "reply_users": [
+      "U08M2Q2M6SV",
+      "U08FZDRRY8Z",
+      "B08M2Q2LNQ1"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PfQXu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08M2Q2M6SV"
+              },
+              {
+                "type": "text",
+                "text": " こんにちは"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "@devin こんにちは"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1743760332.534229",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "_Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored._ (<https://app.devin.ai/sessions/f21c77d27f0a4a5d8d819e88243191bf|open webapp>)",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "deleted": false,
+      "name": "Devin",
+      "updated": 1743759720,
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743760328.806049",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zwq=A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored.",
+                "style": {
+                  "italic": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ("
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/f21c77d27f0a4a5d8d819e88243191bf",
+                "text": "open webapp"
+              },
+              {
+                "type": "text",
+                "text": ")"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743760328.806049",
+    "user_name": "Devin",
+    "text_readable": "_Devin is running, you can send messages in this thread! Messages starting with 'aside' will be ignored._ (<https://app.devin.ai/sessions/f21c77d27f0a4a5d8d819e88243191bf|open webapp>)"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1743760339.002769",
+    "client_msg_id": "1d4aedc4-c80e-4d67-99d7-557907f0ff27",
+    "text": "テストです。返事して",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1743760328.806049",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IJnDV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "テストです。返事して"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743760328.806049",
+    "user_name": "安野貴博",
+    "text_readable": "テストです。返事して"
+  },
+  {
+    "subtype": "bot_message",
+    "text": "sleep",
+    "username": "安野貴博",
+    "icons": {
+      "image_48": "https://s3-us-west-2.amazonaws.com/slack-files2/bot_icons/2025-04-04/8699165180886_48.png"
+    },
+    "type": "message",
+    "ts": "1743761912.029689",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "thread_ts": "1743760328.806049",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oTN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sleep"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1743760328.806049",
+    "user_name": "",
+    "text_readable": "sleep"
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743768799.943399",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743768798,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by itoma-aikon",
+        "text": "## 解決・改善したいこと\n\nコメント一覧を出力できるようにしたら、何かと自前でできて便利そう\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）",
+        "pretext": "Issue created by <https://github.com/itoma-aikon|itoma-aikon>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/98|#98 コメント一覧を出力できるようにすることで、自前でテストできるようにする>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":98,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/98\",\"issueTitle\":\"コメント一覧を出力できるようにすることで、自前でテストできるようにする\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":98,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/98\",\"issueTitle\":\"コメント一覧を出力できるようにすることで、自前でテストできるようにする\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":98,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/98\",\"issueTitle\":\"コメント一覧を出力できるようにすることで、自前でテストできるようにする\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743782676.392399",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743783050.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743782673,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/15|#15> を実装した\n• 円グラフ上の色と、コメントに添える色を一致させるようにした\n• 「その他」用の色を導入し、「その他」は常にその色になるようにした\n\n<https://private-user-images.githubusercontent.com/6639012/430455879-2bfd9cfa-4db2-4124-ac15-02fc528cae8e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODMzNDksIm5iZiI6MTc0Mzc4MzA0OSwicGF0aCI6Ii82NjM5MDEyLzQzMDQ1NTg3OS0yYmZkOWNmYS00ZGIyLTQxMjQtYWMxNS0wMmZjNTI4Y2FlOGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTYxMDQ5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTI4YTY5YzUyMDM0YmM2YzdlY2NmNzU3MWYxNTFkM2RmMDNkZGU0MTNiNmJhNmViNDJhYTg5NmQ5NDUxNWM2NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.pbVkQE_z8azJZfivO76sp3o6EQ0mYInpgJOz9oiOcPg|[Screenshot 2025-04-05 at 0 59 54](https://private-user-images.githubusercontent.com/6639012/430455879-2bfd9cfa-4db2-4124-ac15-02fc528cae8e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODMzNDksIm5iZiI6MTc0Mzc4MzA0OSwicGF0aCI6Ii82NjM5MDEyLzQzMDQ1NTg3OS0yYmZkOWNmYS00ZGIyLTQxMjQtYWMxNS0wMmZjNTI4Y2FlOGUucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTYxMDQ5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTI4YTY5YzUyMDM0YmM2YzdlY2NmNzU3MWYxNTFkM2RmMDNkZGU0MTNiNmJhNmViNDJhYTg5NmQ5NDUxNWM2NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.pbVkQE_z8azJZfivO76sp3o6EQ0mYInpgJOz9oiOcPg)>\n\n# 変更の背景\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/pull/37|#37> で同 issue に PR を立てていただいていたが、<https://github.com/digitaldemocracy2030/idobata-analyst/pull/37#issuecomment-2743121886|#37 (comment)> が解消されておらず、まだマージできなさそうな状態であった\n• 先週の定例の際に状況確認したい旨話が出たので <https://github.com/digitaldemocracy2030/idobata-analyst/issues/15#issuecomment-2763375494|#15 (comment)> や <https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743256551200759|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1743256551200759> でメンションしてみたものの、お忙しいのか返信いただけていないので、こちらの PR で改めて実装することにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/99|#99 コメントの左側のバーの色を、各立場（スタンス）に対応する円グラフの色と一致させた>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "Small Fix",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:99,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/99&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;コメントの左側のバーの色を、各立場（スタンス）に対応する円グラフの色と一致させた&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743784844.439079",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743784852.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1743784844.439079",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1743784844.639039",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743253615,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/72|#72> の対応\n\n# 変更の背景\n\n• ビジュアル分析タブにおいて、特にモバイル端末からの閲覧で横幅が狭く、可読性が非常に低かった\n• div の階層を減らしたり、余白を減らしたりした\n• ビジュアルレポート本体がそもそもモバイル表示厳しそう（おそらく主に①ネストで余白が深くなっていくのと②2カラム表示の2点）なところもあり、それについてはこの PR では対応しない方針とした  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/issues/96|#96> に切り出した\n• TODO: もう少し動作確認してこの PR を review ready にする\n\nbefore\n\n<https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc|[Screenshot 2025-03-29 at 22 04 49](https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc)>\n\nafter\n\n<https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A|[Screenshot 2025-03-29 at 22 05 11](https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89 ビジュアル分析タブの余白を調整した>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:89,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/89&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;ビジュアル分析タブの余白を調整した&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743784844.439079",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743784844.439079",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743784852.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743784844.439079",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743784844.639039",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743253615,
+          "color": "36a64f",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/72|#72> の対応\n\n# 変更の背景\n\n• ビジュアル分析タブにおいて、特にモバイル端末からの閲覧で横幅が狭く、可読性が非常に低かった\n• div の階層を減らしたり、余白を減らしたりした\n• ビジュアルレポート本体がそもそもモバイル表示厳しそう（おそらく主に①ネストで余白が深くなっていくのと②2カラム表示の2点）なところもあり、それについてはこの PR では対応しない方針とした  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/issues/96|#96> に切り出した\n• TODO: もう少し動作確認してこの PR を review ready にする\n\nbefore\n\n<https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc|[Screenshot 2025-03-29 at 22 04 49](https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc)>\n\nafter\n\n<https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A|[Screenshot 2025-03-29 at 22 05 11](https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89 ビジュアル分析タブの余白を調整した>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:89,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/89&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;ビジュアル分析タブの余白を調整した&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743784844.639039",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743253615,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request ready for review by spinute",
+        "pretext": "Pull request ready for review by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89 ビジュアル分析タブの余白を調整した>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "parent_ts": "1743784844.439079",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1743784844.439079",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1743784844.439079",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1743784852.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1743784844.439079",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1743784844.639039",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1743253615,
+          "color": "36a64f",
+          "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+          "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/72|#72> の対応\n\n# 変更の背景\n\n• ビジュアル分析タブにおいて、特にモバイル端末からの閲覧で横幅が狭く、可読性が非常に低かった\n• div の階層を減らしたり、余白を減らしたりした\n• ビジュアルレポート本体がそもそもモバイル表示厳しそう（おそらく主に①ネストで余白が深くなっていくのと②2カラム表示の2点）なところもあり、それについてはこの PR では対応しない方針とした  \n   • <https://github.com/digitaldemocracy2030/idobata-analyst/issues/96|#96> に切り出した\n• TODO: もう少し動作確認してこの PR を review ready にする\n\nbefore\n\n<https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc|[Screenshot 2025-03-29 at 22 04 49](https://private-user-images.githubusercontent.com/6639012/428316942-e518affc-8bb1-4d54-b643-8214012b20c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk0Mi1lNTE4YWZmYy04YmIxLTRkNTQtYjY0My04MjE0MDEyYjIwYzAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWZkZDliZmYwZTUwM2M3MDUyZGMyNzUyMmYwODE5NTJiN2U3NzU0ZTBjMjg5ZTBkMmMyNTMyY2Q2YzYxMjJmMCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KLLuISNw69wQrWFxd-d83kkzQROJq4NPmtRoclPKKsc)>\n\nafter\n\n<https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A|[Screenshot 2025-03-29 at 22 05 11](https://private-user-images.githubusercontent.com/6639012/428316954-a4e45c86-3d1c-4401-9bdb-69a461c0eb20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3ODUxNTIsIm5iZiI6MTc0Mzc4NDg1MiwicGF0aCI6Ii82NjM5MDEyLzQyODMxNjk1NC1hNGU0NWM4Ni0zZDFjLTQ0MDEtOWJkYi02OWE0NjFjMGViMjAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDRUMTY0MDUyWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWE4ZDNjNTQ5ZDJjZTNmYWMzMTg5NTUwM2NiYTQ5ZWQ0NzRkZDkwZjJmMDUyODY5NzUzOGM2NTViYzFkZTkzNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.sWcs9FUHVZuASMTGwMQv0Ct3l2JFdadf4pfypHeaY3A)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+          "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+          "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89 ビジュアル分析タブの余白を調整した>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:89,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/89&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;ビジュアル分析タブの余白を調整した&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743784844.639039",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743253615,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request ready for review by spinute",
+        "pretext": "Pull request ready for review by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/89|#89 ビジュアル分析タブの余白を調整した>",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743873092.787079",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743873099.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743873091,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by spinute",
+        "text": "## 解決・改善したいこと\n\n<https://github.com/digitaldemocracy2030/idobata-analyst/pull/93|#93> と <https://github.com/digitaldemocracy2030/idobata-analyst/pull/94|#94> でサンプルデータを簡単に入れられるようにした。\n\nしかし、サンプルデータが適当過ぎて、分析結果画面のリアリティがあまりない（立場のグラフや抽出された意見の多様性が乏しい等）\n\nまたサンプルデータをランダムに作っているが、ランダムだとキャッシュが当たらず <https://github.com/digitaldemocracy2030/idobata-analyst/issues/63|#63> の恩恵をあまり受けられない\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\nリアリティあるシナリオを想定し、それっぽいコメントデータを作成し、テストデータとして使えるようにする\n\n適当な LLM に想定シナリオを伝えてそれっぽいデータを作ってもらうと良さそう（例えば安野さんの動画ピックし、その内容を伝えて、論点と立場をたくさん列挙してもらった上で、各論点各立場とノイズが入り乱れたコメントを AI に指示して作らせる等）",
+        "pretext": "Issue created by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/100|#100 動作確認用サンプルデータの改善>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "enhancement, good first issue",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":100,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/100\",\"issueTitle\":\"動作確認用サンプルデータの改善\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":100,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/100\",\"issueTitle\":\"動作確認用サンプルデータの改善\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":100,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/100\",\"issueTitle\":\"動作確認用サンプルデータの改善\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743879298.960259",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743911495.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743879296,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/63|#63> を実装した\n• cacheService を追加した。KVS 的なインターフェース read, write, fetch を実装し、Mongo DB をキャッシュサーバーとして使えるようにした\n• openRouterService のリクエストパラメータの digest をキーにして、レスポンスをキャッシュするようにした\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/101|#101 [WIP] implement cacheService and use it in openRouterService>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:101,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/101&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;[WIP] implement cacheService and use it in openRouterService&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743879716.480459",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743909315.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743879714,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• 最大コンテンツ幅 4xl で固定されていたが、ディスプレイが大きいときに余白が無駄に広くなってしまうため、ディスプレイ幅の90%を最大コンテンツ幅に定義し直した\n\nbefore\n\n<https://private-user-images.githubusercontent.com/6639012/430655954-b25c33b1-b443-48f8-ba1c-673d94ebcaa3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MDk2MTUsIm5iZiI6MTc0MzkwOTMxNSwicGF0aCI6Ii82NjM5MDEyLzQzMDY1NTk1NC1iMjVjMzNiMS1iNDQzLTQ4ZjgtYmExYy02NzNkOTRlYmNhYTMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDZUMDMxNTE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDkwOWY0YmJmMzNlNGE4YjU1OTVlODFmODZlMDhkNTAzYmYzMmVmZGViYjZjZjJiM2ZmMDdkYjcxNzA3Mjc5MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.8rcesSypro2xr9-YXhsP-rEk363RaefUkscN3L-OVJ0|[Screenshot 2025-04-06 at 4 01 30](https://private-user-images.githubusercontent.com/6639012/430655954-b25c33b1-b443-48f8-ba1c-673d94ebcaa3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MDk2MTUsIm5iZiI6MTc0MzkwOTMxNSwicGF0aCI6Ii82NjM5MDEyLzQzMDY1NTk1NC1iMjVjMzNiMS1iNDQzLTQ4ZjgtYmExYy02NzNkOTRlYmNhYTMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDZUMDMxNTE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDkwOWY0YmJmMzNlNGE4YjU1OTVlODFmODZlMDhkNTAzYmYzMmVmZGViYjZjZjJiM2ZmMDdkYjcxNzA3Mjc5MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.8rcesSypro2xr9-YXhsP-rEk363RaefUkscN3L-OVJ0)>\n\nafter\n\n<https://private-user-images.githubusercontent.com/6639012/430655927-a6ca6a32-2843-421c-a021-c1e7cbf7aab6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MDk2MTUsIm5iZiI6MTc0MzkwOTMxNSwicGF0aCI6Ii82NjM5MDEyLzQzMDY1NTkyNy1hNmNhNmEzMi0yODQzLTQyMWMtYTAyMS1jMWU3Y2JmN2FhYjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDZUMDMxNTE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Yzc4NTQ3NmVhYmY3NWYyZmU5NjdkNjhkNTU0OWZiYjg1NzJmYWRiYzAwNjY5NWQ2NzBiN2I5OTJiNGZmZmJlZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.YpJa7E5iIcTPEfLjMaJm86koKbbD2GlmYC4pPkZl6pk|[Screenshot 2025-04-06 at 4 00 43](https://private-user-images.githubusercontent.com/6639012/430655927-a6ca6a32-2843-421c-a021-c1e7cbf7aab6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MDk2MTUsIm5iZiI6MTc0MzkwOTMxNSwicGF0aCI6Ii82NjM5MDEyLzQzMDY1NTkyNy1hNmNhNmEzMi0yODQzLTQyMWMtYTAyMS1jMWU3Y2JmN2FhYjYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDQwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA0MDZUMDMxNTE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Yzc4NTQ3NmVhYmY3NWYyZmU5NjdkNjhkNTU0OWZiYjg1NzJmYWRiYzAwNjY5NWQ2NzBiN2I5OTJiNGZmZmJlZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.YpJa7E5iIcTPEfLjMaJm86koKbbD2GlmYC4pPkZl6pk)>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/102|#102 ディスプレイの大きさに合わせてページ幅を広げるようにした>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "Small Fix",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:102,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/102&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;ディスプレイの大きさに合わせてページ幅を広げるようにした&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743880126.493709",
+    "edited": {
+      "user": "B08HGALULNT",
+      "ts": "1743911483.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743880123,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by spinute",
+        "text": "# 変更の概要\n\n• XXX: 実装途中\n• <https://github.com/digitaldemocracy2030/idobata-analyst/issues/39#issuecomment-2781040496|#39 (comment)> の実装\n• stance-analysis 時に、論点・立場に関するコメントを改めて抽出させるようプロンプトを変更した\n• 「論点ごとの分析」「コメントの一覧」に表示しているコメントを、このコメントに置き換えた\n• コメントが加工されたものであることがより明確になるよう、「原文を表示」というボタンを置いた  \n   • 元の hover で原文が表示される機能も残している。hover だけだと気づきにくく、またスマホで操作しづらいのでボタンも置くのが良さそう\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/spinute|spinute>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/103|#103 [WIP] コメントが過度に捨象されてしまう問題を緩和した>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:103,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/103&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;[WIP] コメントが過度に捨象されてしまう問題を緩和した&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743907132.171429",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743907129,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-discourse-agent] Issue opened by itoma-aikon",
+        "text": "＜改善要望＞  \n現在、トピック一覧から一つづつ見ていくしか新規トピックに既読をつけることができないが、これをスライドするなりで簡単に既読を付けられるようにしたい（メールアプリみたいな感じ）",
+        "pretext": "Issue created by <https://github.com/itoma-aikon|itoma-aikon>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/90|#90 既読を容易にできるようにして、簡単に通知を整理する>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-discourse-agent|digitaldemocracy2030/idobata-discourse-agent>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/90\",\"issueTitle\":\"既読を容易にできるようにして、簡単に通知を整理する\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/90\",\"issueTitle\":\"既読を容易にできるようにして、簡単に通知を整理する\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-discourse-agent\",\"selectedRepoId\":920923488,\"issueNumber\":90,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-discourse-agent/issues/90\",\"issueTitle\":\"既読を容易にできるようにして、簡単に通知を整理する\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743920756.263239",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743920753,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Pull request opened by takker99",
+        "text": "# 変更の概要\n\n• Fix <https://github.com/digitaldemocracy2030/idobata-analyst/issues/71|#71>\n\n# CLAへの同意\n\n• 本リポジトリへのコントリビュートには、&lt;/takahiroanno2024/policy-repository/blob/main/CLA.md|コントリビューターライセンス契約（CLA）&gt;に同意することが必須です。  \n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\n• CLAの内容を読み、同意しました",
+        "pretext": "Pull request opened by <https://github.com/takker99|takker99>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/pull/104|#104 Run lint and test on push and pull request>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;idobata-analyst&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:918565117,&amp;amp;quot;number&amp;amp;quot;:104,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/idobata-analyst/pull/104&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Run lint and test on push and pull request&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1743922320.448309",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1743922318,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/idobata-analyst] Issue opened by takker99",
+        "text": "## 解決・改善したいこと\n\n「プロジェクトレポートの分析に失敗しました」などと出ますが、理由が示されていなくて戸惑いがちです。\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\n• 失敗理由を出せるなら出したい  \n   • APIの認証が通らなかった  \n   • ネットワークがつながらなかった  \n   • frontend/backendのコードのバグ  \n   • etc.\n• 失敗理由を出せないなら、よくある失敗例みたいなのを出して、開発者のガイドとなるようにしたい",
+        "pretext": "Issue created by <https://github.com/takker99|takker99>",
+        "title": "<https://github.com/digitaldemocracy2030/idobata-analyst/issues/105|#105 プロジェクトレポートの分析に失敗したとき、失敗理由を表示したい>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata-analyst|digitaldemocracy2030/idobata-analyst>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":105,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/105\",\"issueTitle\":\"プロジェクトレポートの分析に失敗したとき、失敗理由を表示したい\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":105,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/105\",\"issueTitle\":\"プロジェクトレポートの分析に失敗したとき、失敗理由を表示したい\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "close",
+            "text": "Close",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"idobata-analyst\",\"selectedRepoId\":918565117,\"issueNumber\":105,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/idobata-analyst/issues/105\",\"issueTitle\":\"プロジェクトレポートの分析に失敗したとき、失敗理由を表示したい\"}",
+            "style": "danger"
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08J73WKA1H",
+    "text": "<@U08J73WKA1H> has joined the channel",
+    "type": "message",
+    "ts": "1743987835.975119",
+    "user_name": "檜田拓也",
+    "text_readable": "@t-hinokida has joined the channel"
+  }
+]
