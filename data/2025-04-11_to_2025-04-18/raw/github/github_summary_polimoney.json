@@ -1,0 +1,59 @@
+{
+  "period": {
+    "start": "2025-04-11",
+    "end": "2025-04-18"
+  },
+  "repo": "digitaldemocracy2030/polimoney",
+  "issues": [
+    {
+      "id": 2990309670,
+      "number": 5,
+      "title": "議員からの掲載許可に基づくデータ表示制御（オプトイン・アウト）機能",
+      "state": "created"
+    },
+    {
+      "id": 2990308342,
+      "number": 4,
+      "title": "総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能",
+      "state": "created"
+    },
+    {
+      "id": 2990306052,
+      "number": 3,
+      "title": "Gemini API呼び出しの並列化とエラーハンドリング強化（レートリミット対応）",
+      "state": "created"
+    },
+    {
+      "id": 2990300562,
+      "number": 2,
+      "title": "収支報告書のフォーマット差異に対応し、プロンプトを最適化する",
+      "state": "created"
+    },
+    {
+      "id": 2990299328,
+      "number": 1,
+      "title": "JSONデータから集計行（小計・合計）を除外する",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3003683733,
+      "number": 8,
+      "title": "Feature/improve gemini format",
+      "state": "merged"
+    },
+    {
+      "id": 3001581506,
+      "number": 7,
+      "title": "Feature/pdf2image2gemini",
+      "state": "merged"
+    },
+    {
+      "id": 2994134330,
+      "number": 6,
+      "title": "可視化にデータを繋ぎこむ処理を実装",
+      "state": "merged"
+    }
+  ]
+}
