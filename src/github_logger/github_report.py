@@ -460,7 +460,11 @@ def generate_markdown_from_file(json_file, output_file=None):
 def main():
     """メイン関数"""
     parser = argparse.ArgumentParser(description='GitHubのissueとPRデータを抽出してレポートを生成するツール')
-    parser.add_argument('--repo', help='リポジトリ名（owner/repo形式）', required=True)
+    
+    repo_group = parser.add_argument_group('リポジトリ指定')
+    repo_group.add_argument('--repo', help='リポジトリ名（owner/repo形式、またはカンマ区切りで複数指定可能）', required=True)
+    repo_group.add_argument('--org', help='組織名（--repo で指定したリポジトリ名の前に付与される）')
+    
     parser.add_argument('--output-dir', help='出力ディレクトリ', default='./data')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか', default=7)
     parser.add_argument('--no-prs', action='store_true', help='PRを含めない')
@@ -479,46 +483,93 @@ def main():
             json_file=args.json_file,
             output_file=args.output
         )
-    else:
+        return 0
+    
+    repos = []
+    raw_repos = [repo.strip() for repo in args.repo.split(',')]
+    
+    for repo in raw_repos:
+        if '/' in repo:
+            repos.append(repo)  # すでに owner/repo 形式の場合はそのまま
+        elif args.org:
+            repos.append(f"{args.org}/{repo}")  # 組織名を付与
+        else:
+            print(f"エラー: リポジトリ '{repo}' に組織名が指定されていません。--org オプションを使用するか、owner/repo 形式で指定してください。")
+            return 1
+    
+    print(f"処理対象リポジトリ: {repos}")
+    
+    all_results = []
+    all_items = []
+    
+    for repo in repos:
         result, json_file = extract_github_data(
-            repo=args.repo,
+            repo=repo,
             output_dir=args.output_dir,
             last_days=args.last_days,
             include_prs=not args.no_prs
         )
         
-        if result and args.markdown:
-            repo_name = args.repo.split("/")[1]
+        if result:
+            all_results.append(result)
             
-            if not args.output:
-                today = datetime.date.today()
-                one_week_ago = today - datetime.timedelta(days=args.last_days)
-                start_date_str = one_week_ago.strftime("%Y-%m-%d")
-                end_date_str = today.strftime("%Y-%m-%d")
-                date_range_dir = f"{start_date_str}_to_{end_date_str}"
-                date_range_path = os.path.join(args.output_dir, date_range_dir)
+            if args.markdown:
+                repo_name = repo.split("/")[1]
                 
-                if json_file and os.path.exists(json_file):
-                    output_dir = os.path.dirname(json_file)
-                else:
-                    output_dir = date_range_path
+                if not args.output:
+                    today = datetime.date.today()
+                    one_week_ago = today - datetime.timedelta(days=args.last_days)
+                    start_date_str = one_week_ago.strftime("%Y-%m-%d")
+                    end_date_str = today.strftime("%Y-%m-%d")
+                    date_range_dir = f"{start_date_str}_to_{end_date_str}"
                     
-                markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
-                os.makedirs(markdown_dir, exist_ok=True)
-                args.output = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
-            
-            items = []
-            if json_file and os.path.exists(json_file):
-                with open(json_file, 'r', encoding='utf-8') as f:
-                    items = json.load(f)
-            
-            generate_markdown(
-                items=items,
-                repo=args.repo,
-                start_date=result["period"]["start"],
-                end_date=result["period"]["end"],
-                output_file=args.output
-            )
+                    markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
+                    os.makedirs(markdown_dir, exist_ok=True)
+                    output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+                else:
+                    if len(repos) > 1:
+                        base, ext = os.path.splitext(args.output)
+                        output_file = f"{base}-{repo_name}{ext}"
+                    else:
+                        output_file = args.output
+                
+                items = []
+                if json_file and os.path.exists(json_file):
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        items = json.load(f)
+                        all_items.extend(items)
+                
+                generate_markdown(
+                    items=items,
+                    repo=repo,
+                    start_date=result["period"]["start"],
+                    end_date=result["period"]["end"],
+                    output_file=output_file
+                )
+    
+    if len(repos) > 1 and all_items and args.markdown:
+        today = datetime.date.today()
+        one_week_ago = today - datetime.timedelta(days=args.last_days)
+        start_date_str = one_week_ago.strftime("%Y-%m-%d")
+        end_date_str = today.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
+        
+        markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
+        os.makedirs(markdown_dir, exist_ok=True)
+        combined_output = os.path.join(markdown_dir, f"github_report-combined.md")
+        
+        repo_names = [r.split("/")[1] for r in repos]
+        combined_repo_name = ", ".join(repo_names)
+        
+        generate_markdown(
+            items=all_items,
+            repo=combined_repo_name,
+            start_date=one_week_ago.isoformat(),
+            end_date=today.isoformat(),
+            output_file=combined_output
+        )
+        
+        print(f"まとめレポートは {combined_output} に保存されました。")
     
     return 0
 
