@@ -442,8 +442,9 @@ def generate_markdown_from_file(json_file, output_file=None):
             date_range_dir = f"{one_week_ago.strftime('%Y-%m-%d')}_to_{today.strftime('%Y-%m-%d')}"
         
         output_dir = os.path.dirname(json_file)
-        markdown_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(output_dir))), 
-                                   date_range_dir, "markdown", "github")
+        output_dir_base = os.path.dirname(json_file).split(os.sep)
+        base_path = os.sep.join(output_dir_base[:output_dir_base.index(date_range_dir)])
+        markdown_dir = os.path.join(base_path, date_range_dir, "markdown", "github")
         os.makedirs(markdown_dir, exist_ok=True)
         output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
     
@@ -502,8 +503,7 @@ def main():
                 else:
                     output_dir = date_range_path
                     
-                markdown_dir = os.path.join(os.path.dirname(os.path.dirname(output_dir)), 
-                                          date_range_dir, "markdown", "github")
+                markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
                 os.makedirs(markdown_dir, exist_ok=True)
                 args.output = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
             
