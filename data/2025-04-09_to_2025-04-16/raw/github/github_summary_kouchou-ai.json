@@ -1,0 +1,473 @@
+{
+  "period": {
+    "start": "2025-04-09",
+    "end": "2025-04-16"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 2990926652,
+      "number": 298,
+      "title": "[DOCUMENT]docker-compose → docker compose",
+      "state": "closed"
+    },
+    {
+      "id": 2987317166,
+      "number": 278,
+      "title": "[BUG]階層図を全画面表示にすると一番右上の要約文が「全画面終了」ボタンの後ろに隠れてしまう",
+      "state": "closed"
+    },
+    {
+      "id": 2987294795,
+      "number": 277,
+      "title": "[FEATURE]管理画面でCSVをアップロードしたとき、エラーで落ちても進捗状況を自動更新する",
+      "state": "closed"
+    },
+    {
+      "id": 2981550740,
+      "number": 268,
+      "title": "[FEATURE]adminのレポート一覧画面にも作成日時を追加する",
+      "state": "closed"
+    },
+    {
+      "id": 2974877378,
+      "number": 243,
+      "title": "初期設定時のentrypoint.shエラー",
+      "state": "closed"
+    },
+    {
+      "id": 2974667369,
+      "number": 241,
+      "title": "[FEATURE]おすすめクラスタ数設定機能",
+      "state": "closed"
+    },
+    {
+      "id": 2966961605,
+      "number": 222,
+      "title": "[FEATURE]クラスタ数変更を直接入力可能にする",
+      "state": "closed"
+    },
+    {
+      "id": 2965108490,
+      "number": 218,
+      "title": "[FEATURE]レポート一覧に作成日時を追加する",
+      "state": "closed"
+    },
+    {
+      "id": 2927036222,
+      "number": 84,
+      "title": "[REFACTOR] フロントエンドのコードを Biome でフォーマットをする",
+      "state": "closed"
+    },
+    {
+      "id": 2922748191,
+      "number": 54,
+      "title": "[FEATURE] GoogleAnalytics 対応",
+      "state": "closed"
+    },
+    {
+      "id": 2995192689,
+      "number": 310,
+      "title": "[FEATURE] LLMが出力した結果の手動修正機能がほしい",
+      "state": "created"
+    },
+    {
+      "id": 2994589288,
+      "number": 308,
+      "title": "[FEATURE] HTML フォーム入力による広聴 AI システムの簡易デプロイ機能",
+      "state": "created"
+    },
+    {
+      "id": 2991203616,
+      "number": 306,
+      "title": "[FEATURE]「全体図」「濃い意見グループ」のUI/UX改善",
+      "state": "created"
+    },
+    {
+      "id": 2991108744,
+      "number": 305,
+      "title": "[FEATURE]CSVアップロード時にタイトルや説明文を自動で埋めてほしい",
+      "state": "created"
+    },
+    {
+      "id": 2991091837,
+      "number": 304,
+      "title": "[FEATURE]CSVアップロード時にコメント列を自動で特定してほしい",
+      "state": "created"
+    },
+    {
+      "id": 2991091474,
+      "number": 303,
+      "title": "[FEATURE]CSVアップロード時にデフォルトでクラスタ数が設定されてほしい",
+      "state": "created"
+    },
+    {
+      "id": 2991086810,
+      "number": 302,
+      "title": "[FEATURE]「公開」ボタンを押した時の効果を分かりやすくする",
+      "state": "created"
+    },
+    {
+      "id": 2990962155,
+      "number": 300,
+      "title": "[FEATURE]Windowsユーザの利用環境構築",
+      "state": "created"
+    },
+    {
+      "id": 2990925334,
+      "number": 297,
+      "title": "[FEATURE]CSVダウンロード時の文字化け (Windows)",
+      "state": "created"
+    },
+    {
+      "id": 2990914996,
+      "number": 296,
+      "title": "[FEATURE]LLM出力形式の揺らぎによる抽出エラー",
+      "state": "created"
+    },
+    {
+      "id": 2990911889,
+      "number": 295,
+      "title": "OpenAI API Rate Limit関連の問題",
+      "state": "created"
+    },
+    {
+      "id": 2990889159,
+      "number": 294,
+      "title": "[FEATURE]ラベルが多い時の重なりの問題",
+      "state": "created"
+    },
+    {
+      "id": 2990887157,
+      "number": 293,
+      "title": "[FEATURE]レポート表示画面上で、使用したプロンプトを直接編集可能にする",
+      "state": "created"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "created"
+    },
+    {
+      "id": 2990878839,
+      "number": 291,
+      "title": "[DOCUMENT].envファイルの不可視問題 (Mac Finder)",
+      "state": "created"
+    },
+    {
+      "id": 2990876385,
+      "number": 290,
+      "title": "[FEATURE]階層図のUI/UX改善",
+      "state": "created"
+    },
+    {
+      "id": 2990845213,
+      "number": 289,
+      "title": "[FEATURE]exe形式での配布によるインストール簡略化",
+      "state": "created"
+    },
+    {
+      "id": 2990833717,
+      "number": 288,
+      "title": "[FEATURE]zipでのリリース",
+      "state": "created"
+    },
+    {
+      "id": 2990818818,
+      "number": 287,
+      "title": "[DOCUMENT]Windows向けのセットアップ手順",
+      "state": "created"
+    },
+    {
+      "id": 2990813561,
+      "number": 286,
+      "title": "Windows環境でのセットアップの困難さ低減",
+      "state": "created"
+    },
+    {
+      "id": 2990804598,
+      "number": 285,
+      "title": "[FEATURE]利用可能なLLMを増やす",
+      "state": "created"
+    },
+    {
+      "id": 2990795300,
+      "number": 284,
+      "title": "[FEATURE]かかったコストの表示機能",
+      "state": "created"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "created"
+    },
+    {
+      "id": 2988858993,
+      "number": 281,
+      "title": "[FEATURE]属性フィルタ",
+      "state": "created"
+    },
+    {
+      "id": 2987877642,
+      "number": 280,
+      "title": "[FEATURE] テスト用のパブコメデータをCSV化する",
+      "state": "created"
+    },
+    {
+      "id": 2984650643,
+      "number": 274,
+      "title": "[BUG] 静的ファイルがGithub Pagesでうまく表示されない件",
+      "state": "created"
+    },
+    {
+      "id": 2982893942,
+      "number": 271,
+      "title": "[DOCUMENT] 静的ファイルのホスティング手順のドキュメント化",
+      "state": "created"
+    },
+    {
+      "id": 2979959784,
+      "number": 266,
+      "title": "[FEATURE]クラスタ数が増えた場合に散布図上でクラスタラベルが被ってしまう",
+      "state": "updated"
+    },
+    {
+      "id": 2979691677,
+      "number": 264,
+      "title": "[REFACTOR] GitHub Actions で Biome の lint, format のチェックを実行する",
+      "state": "updated"
+    },
+    {
+      "id": 2978486958,
+      "number": 255,
+      "title": "(情報整理)OpenAIが使えないケースのケア",
+      "state": "updated"
+    },
+    {
+      "id": 2978480128,
+      "number": 254,
+      "title": "(情報整理)Windows環境で試す人のためのガイドが必要",
+      "state": "updated"
+    },
+    {
+      "id": 2978478982,
+      "number": 253,
+      "title": "[FEATURE]静的HTML出力してローカルファイルシステムで開いたときに詳細なエラー表示をする",
+      "state": "updated"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "updated"
+    },
+    {
+      "id": 2969624362,
+      "number": 227,
+      "title": "[FEATURE]濃い意見グループの設定画面について",
+      "state": "updated"
+    },
+    {
+      "id": 2967838327,
+      "number": 225,
+      "title": "[BUG] ２回目以降、静的ファイル出力（static build）時 パーミッションエラーが発生する？",
+      "state": "updated"
+    },
+    {
+      "id": 2966115761,
+      "number": 220,
+      "title": "[FEATURE] frontからstaticなHTMLファイルをexportしてDownloadできるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2962321727,
+      "number": 211,
+      "title": "[FEATURE]OOMの事後処理",
+      "state": "updated"
+    },
+    {
+      "id": 2954831783,
+      "number": 190,
+      "title": "[FEATURE]1回のextractionで複数のcommentを処理する",
+      "state": "updated"
+    },
+    {
+      "id": 2945409451,
+      "number": 170,
+      "title": "[FEATURE]ファクトチェック機能の実装",
+      "state": "updated"
+    },
+    {
+      "id": 2945124654,
+      "number": 144,
+      "title": "[FEATURE]LLMによるクラスタ品質の自動評価（実験）",
+      "state": "updated"
+    },
+    {
+      "id": 2935293806,
+      "number": 113,
+      "title": "[REFACTOR] 濃いクラスタのアイコン変更",
+      "state": "updated"
+    },
+    {
+      "id": 2926967566,
+      "number": 79,
+      "title": "[FEATURE]CSVアップロード時にそれを処理した場合のコストを表示",
+      "state": "updated"
+    },
+    {
+      "id": 2922855549,
+      "number": 61,
+      "title": "[FEATURE] ISRによる表示遅延の案内表示",
+      "state": "updated"
+    },
+    {
+      "id": 2922746686,
+      "number": 52,
+      "title": "[FEATURE] チャート表示に連動した文章表示",
+      "state": "updated"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 2998210511,
+      "number": 314,
+      "title": "改行コード混在の解消のため .gitattributes を追加（#243 対応）",
+      "state": "merged"
+    },
+    {
+      "id": 2998186696,
+      "number": 313,
+      "title": "Windowsユーザの利用環境構築 #300　の調整",
+      "state": "merged"
+    },
+    {
+      "id": 2995792597,
+      "number": 312,
+      "title": "濃いクラスタ抽出で対象となるクラスタがない時にはボタンをdisabledにする",
+      "state": "merged"
+    },
+    {
+      "id": 2995775673,
+      "number": 311,
+      "title": "レビュアー向けのガイドラインを追記",
+      "state": "merged"
+    },
+    {
+      "id": 2991273334,
+      "number": 307,
+      "title": "Update windows-setup.md",
+      "state": "merged"
+    },
+    {
+      "id": 2990972837,
+      "number": 301,
+      "title": "Windows環境でのセットアップ簡素化 (Issue #300)",
+      "state": "merged"
+    },
+    {
+      "id": 2990927067,
+      "number": 299,
+      "title": "docker-compose → docker compose",
+      "state": "merged"
+    },
+    {
+      "id": 2989659375,
+      "number": 282,
+      "title": "fix issue #278 : 要約文が「全画面終了」ボタンの後ろに隠れないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 2987807440,
+      "number": 279,
+      "title": "エラーで落ちても進捗状況を自動更新する",
+      "state": "merged"
+    },
+    {
+      "id": 2986179055,
+      "number": 276,
+      "title": "revert #258",
+      "state": "merged"
+    },
+    {
+      "id": 2984262157,
+      "number": 272,
+      "title": "[FEATURE]adminのレポート一覧画面にも作成日時を追加する",
+      "state": "merged"
+    },
+    {
+      "id": 2982265450,
+      "number": 270,
+      "title": "frontend のコードを push する際に Biome の Lint を実行できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 2979635707,
+      "number": 262,
+      "title": "client-admin に Biome を適用",
+      "state": "merged"
+    },
+    {
+      "id": 2978436805,
+      "number": 251,
+      "title": "[FEATURE] GoogleAnalytics 対応 #54",
+      "state": "merged"
+    },
+    {
+      "id": 2976319344,
+      "number": 245,
+      "title": "[FEATURE] レポート一覧に作成日時を追加する",
+      "state": "merged"
+    },
+    {
+      "id": 2976318527,
+      "number": 244,
+      "title": "[FEATURE] おすすめクラスタ数設定機能の実装 (#241)",
+      "state": "merged"
+    },
+    {
+      "id": 2995172973,
+      "number": 309,
+      "title": "静的ファイルエクスポート機能の追加 (#220)",
+      "state": "created"
+    },
+    {
+      "id": 2984668982,
+      "number": 275,
+      "title": "Fix #274: 静的ビルド時のhttp://localhostの参照を相対パスに修正",
+      "state": "created"
+    },
+    {
+      "id": 2984336107,
+      "number": 273,
+      "title": "[FEATURE] Admin一覧画面からstatic exportを実行できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 2978849514,
+      "number": 258,
+      "title": "Fix: 静的ビルド時のパーミッションエラー修正",
+      "state": "updated"
+    },
+    {
+      "id": 2976337956,
+      "number": 248,
+      "title": "[FEATURE] レポートの複製・再利用機能 (Issue #19)",
+      "state": "updated"
+    },
+    {
+      "id": 2976324699,
+      "number": 246,
+      "title": "[FEATURE] 1回のextractionで複数のcommentを処理する",
+      "state": "updated"
+    }
+  ]
+}
