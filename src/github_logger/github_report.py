@@ -4,6 +4,7 @@ import os
 import subprocess
 import json
 import argparse
+import re
 from pathlib import Path
 
 
@@ -179,6 +180,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = match.group(1).strip()
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = match.group(1).strip()
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -192,6 +214,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -210,6 +234,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = match.group(1).strip()
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = match.group(1).strip()
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -222,6 +267,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -240,6 +287,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = match.group(1).strip()
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = match.group(1).strip()
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -253,6 +321,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -297,6 +367,10 @@ def format_item(item):
     item_user = item["user"]
     item_created_at = item["created_at"]
     item_type = item.get("type", "issue")
+    
+    if item_user == "devin-ai-integration[bot]" and (item.get("co_author") or item.get("requester")):
+        human_name = item.get("co_author") or item.get("requester")
+        item_user = f"{human_name}+Devin"
     
     md = f"### [{item_title}]({item_url})\n\n"
     md += f"**作成者:** {item_user}  \n"
