@@ -1,0 +1,1018 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744480787.330519",
+    "client_msg_id": "f6c503e2-1fff-48d4-a88f-a0f88a173d83",
+    "text": "<@U08GAUQTR1N>\nプルリク慣れてないので、とりあえず\nフォントをBIZ UDGothicに変更する\nプルリクを出してみました。\n\n１．なのくろさんメンションであっていますか？\nそもそもslackにプルリクの報告いらないと思うのですが、\n慣れていないので見てほしいという意図でメンションしました。\n\n２．破壊的作業\n今後、どこかのタイミングで下のワイヤーフレーム\n<https://www.figma.com/design/lkwDYHrjp8U7A5pg6E2OdM/web%E3%82%B5%E3%82%A4%E3%83%88?node-id=115-43&amp;t=kryyZ3oACTaoqZpm-1>\nを元に、daisyuiを使って実装していってみようと思うのですが、\n結構破壊的な作業になるので、\nどれくらいの区切りでプルリクしていいかわからず…\n最低限全ページできたら一気にプルリクでもいいでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744480787.330519",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1744535212.686699",
+    "reply_users": [
+      "U08GAUQTR1N",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lon6G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              },
+              {
+                "type": "text",
+                "text": "\nプルリク慣れてないので、とりあえず\nフォントをBIZ UDGothicに変更する\nプルリクを出してみました。\n\n１．なのくろさんメンションであっていますか？\nそもそもslackにプルリクの報告いらないと思うのですが、\n慣れていないので見てほしいという意図でメンションしました。\n\n２．破壊的作業\n今後、どこかのタイミングで下のワイヤーフレーム\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/lkwDYHrjp8U7A5pg6E2OdM/web%E3%82%B5%E3%82%A4%E3%83%88?node-id=115-43&t=kryyZ3oACTaoqZpm-1"
+              },
+              {
+                "type": "text",
+                "text": "\nを元に、daisyuiを使って実装していってみようと思うのですが、\n結構破壊的な作業になるので、\nどれくらいの区切りでプルリクしていいかわからず…\n最低限全ページできたら一気にプルリクでもいいでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08JGS0BS57",
+          "U08G2A216TW",
+          "U08J8NCNYL8",
+          "U08G0C3GM5H",
+          "U08GAUQTR1N"
+        ],
+        "count": 5
+      },
+      {
+        "name": "clap",
+        "users": [
+          "U08G0C3GM5H"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@nanocloudx\nプルリク慣れてないので、とりあえず\nフォントをBIZ UDGothicに変更する\nプルリクを出してみました。\n\n１．なのくろさんメンションであっていますか？\nそもそもslackにプルリクの報告いらないと思うのですが、\n慣れていないので見てほしいという意図でメンションしました。\n\n２．破壊的作業\n今後、どこかのタイミングで下のワイヤーフレーム\n<https://www.figma.com/design/lkwDYHrjp8U7A5pg6E2OdM/web%E3%82%B5%E3%82%A4%E3%83%88?node-id=115-43&t=kryyZ3oACTaoqZpm-1>\nを元に、daisyuiを使って実装していってみようと思うのですが、\n結構破壊的な作業になるので、\nどれくらいの区切りでプルリクしていいかわからず…\n最低限全ページできたら一気にプルリクでもいいでしょうか？"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1744529492.046639",
+    "client_msg_id": "73682c37-d710-4eab-b0e3-3c35823e9289",
+    "text": "ご確認ありがとうございます！\nBIZUDGothic いいですね〜\n\nPRはslack報告不要ですがどちらでも歓迎です！\n基本的に作業して頂ける方のやりやすい状態になっているのが理想だと考えています\n一般的には Issue 単位や一機能単位でPRにするかなとは思います\nとはいえリポジトリの初期はだいたいが新規追加であるのと、速度優先で作業頂けるほうが初期はメリットが大きいですので、あまり強く意識せず、こんなもんかな！ぐらいの肌感でPR投げていただいても全然大丈夫です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744480787.330519",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sf6U1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご確認ありがとうございます！\nBIZUDGothic いいですね〜\n\nPRはslack報告不要ですがどちらでも歓迎です！\n基本的に作業して頂ける方のやりやすい状態になっているのが理想だと考えています\n一般的には Issue 単位や一機能単位でPRにするかなとは思います\nとはいえリポジトリの初期はだいたいが新規追加であるのと、速度優先で作業頂けるほうが初期はメリットが大きいですので、あまり強く意識せず、こんなもんかな！ぐらいの肌感でPR投げていただいても全然大丈夫です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744480787.330519",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "ご確認ありがとうございます！\nBIZUDGothic いいですね〜\n\nPRはslack報告不要ですがどちらでも歓迎です！\n基本的に作業して頂ける方のやりやすい状態になっているのが理想だと考えています\n一般的には Issue 単位や一機能単位でPRにするかなとは思います\nとはいえリポジトリの初期はだいたいが新規追加であるのと、速度優先で作業頂けるほうが初期はメリットが大きいですので、あまり強く意識せず、こんなもんかな！ぐらいの肌感でPR投げていただいても全然大丈夫です！"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1744529537.964759",
+    "client_msg_id": "c2d338be-bc8d-4291-a813-7d182b6e733e",
+    "text": "現状のdd2030サイトはハリボテに近いので、破壊的変更でも全然大丈夫です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744480787.330519",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T4L/B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状のdd2030サイトはハリボテに近いので、破壊的変更でも全然大丈夫です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1744480787.330519",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "現状のdd2030サイトはハリボテに近いので、破壊的変更でも全然大丈夫です"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744535212.686699",
+    "client_msg_id": "da2b21f1-5956-486e-94df-7a4eac1d5f25",
+    "text": "ありがとうございます！エイヤー！でいきます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744480787.330519",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0hmkg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！エイヤー！でいきます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile-illust",
+        "users": [
+          "U08GAUQTR1N"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1744480787.330519",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！エイヤー！でいきます！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744562677.974139",
+    "client_msg_id": "2924e6aa-3073-484d-b8db-06135fb341fd",
+    "text": "ユニバーサルデザインの観点から行くとdaisyuiよりこっちが良さそう＆デファクトっぽい\n<https://ui.shadcn.com/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744562677.974139",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1744613285.850989",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://ui-git-shadcn-oklch-themes-shadcn-pro.vercel.app/og?title=Build%20your%20component%20library&description=A%20set%20of%20beautifully-designed%2C%20accessible%20components%20and%20a%20code%20distribution%20platform.%20Works%20with%20your%20favorite%20frameworks.%20Open%20Source.%20Open%20Code.",
+        "image_width": 1200,
+        "image_height": 628,
+        "image_bytes": 59059,
+        "from_url": "https://ui.shadcn.com/",
+        "service_icon": "https://ui.shadcn.com/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://ui.shadcn.com/",
+        "fallback": "Build your component library - shadcn/ui",
+        "text": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+        "title": "Build your component library - shadcn/ui",
+        "title_link": "https://ui.shadcn.com/",
+        "service_name": "ui.shadcn.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f5pFH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ユニバーサルデザインの観点から行くとdaisyuiよりこっちが良さそう＆デファクトっぽい\n"
+              },
+              {
+                "type": "link",
+                "url": "https://ui.shadcn.com/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "ユニバーサルデザインの観点から行くとdaisyuiよりこっちが良さそう＆デファクトっぽい\n<https://ui.shadcn.com/>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1744594975.460579",
+    "client_msg_id": "3735b607-f98b-41aa-839b-9d672d90355b",
+    "text": "こちらは react component を含んでいるので daisyui とはちょっと立ち位置が違いますね\n私は react より preact を使いたい人なので純粋な css である daisyui を愛用していますが、 react にロックインしていくならこちらの方が便利かもです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744562677.974139",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xEO4V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらは react component を含んでいるので daisyui とはちょっと立ち位置が違いますね\n私は react より preact を使いたい人なので純粋な css である daisyui を愛用していますが、 react にロックインしていくならこちらの方が便利かもです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744562677.974139",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "こちらは react component を含んでいるので daisyui とはちょっと立ち位置が違いますね\n私は react より preact を使いたい人なので純粋な css である daisyui を愛用していますが、 react にロックインしていくならこちらの方が便利かもです。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744613285.850989",
+    "client_msg_id": "626cd8cb-0409-497c-b472-0cf44794d27b",
+    "text": "&gt; 私は react より preact を使いたい人なので\npreact、全然知りませんでした。。。これも良さそうですね！\n\n&gt; react にロックインしていくならこちらの方が便利かもです。\n今回のプロジェクトがオープンソースということもあり、デファクトっぽいものを使っていく流れなので、今回はreact＋shadcnでやってみようと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744562677.974139",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iYRcg",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私は react より preact を使いたい人なので"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "preact、全然知りませんでした。。。これも良さそうですね！\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "react にロックインしていくならこちらの方が便利かもです。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今回のプロジェクトがオープンソースということもあり、デファクトっぽいものを使っていく流れなので、今回はreact＋shadcnでやってみようと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744562677.974139",
+    "user_name": "小野翔太",
+    "text_readable": "> 私は react より preact を使いたい人なので\npreact、全然知りませんでした。。。これも良さそうですね！\n\n> react にロックインしていくならこちらの方が便利かもです。\n今回のプロジェクトがオープンソースということもあり、デファクトっぽいものを使っていく流れなので、今回はreact＋shadcnでやってみようと思います！"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1744586804.417399",
+    "client_msg_id": "2E163E59-8922-4EEC-AF8D-C02FC8B452C5",
+    "text": "shadcn、個人的にも推しです",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m/yTn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "shadcn、個人的にも推しです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "shadcn、個人的にも推しです"
+  },
+  {
+    "text": "ざっくりTOPページコーディングDONE",
+    "files": [
+      {
+        "id": "F08N7BT9VUJ",
+        "created": 1744643229,
+        "timestamp": 1744643229,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 328670,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08N7BT9VUJ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08N7BT9VUJ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_360.png",
+        "thumb_360_w": 64,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_480.png",
+        "thumb_480_w": 85,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_720.png",
+        "thumb_720_w": 128,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_800.png",
+        "thumb_800_w": 142,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_960.png",
+        "thumb_960_w": 171,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08N7BT9VUJ-0b1145848c/image_1024.png",
+        "thumb_1024_w": 182,
+        "thumb_1024_h": 1024,
+        "original_w": 406,
+        "original_h": 2281,
+        "thumb_tiny": "AwAwAAjQXOSG24pdqf3RQuB05/HNOpgMGSeQMU7FNByeh/Wn0gGjr7UuaaoGc7QDT80Af//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08HWJ80CHG/F08N7BT9VUJ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08N7BT9VUJ-4ff2e0cfea",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RC8jT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ざっくりTOPページコーディングDONE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1744643258.754059",
+    "client_msg_id": "a302f10d-2c79-47d2-9f6a-a6fca43fdbf2",
+    "reactions": [
+      {
+        "name": "sutekidesu",
+        "users": [
+          "U08FY2KR468",
+          "U08HW7M1SCV",
+          "U08N7RHE21F"
+        ],
+        "count": 3
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08FY2KR468",
+          "U08HW7M1SCV",
+          "U08N7RHE21F"
+        ],
+        "count": 3
+      },
+      {
+        "name": "igyo",
+        "users": [
+          "U08J60VKDUY",
+          "U08HW7M1SCV",
+          "U08N7RHE21F"
+        ],
+        "count": 3
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HW7M1SCV",
+          "U08N7RHE21F"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "ざっくりTOPページコーディングDONE"
+  },
+  {
+    "text": "<!here>\nウェブサイトのアバウトページ充実させたいので\n協力者募集中です。\n\n• 切り貼りした関係で、段落ごと文の癖が違って気持ち悪い。キレイにしたい。\n• わかりやすいイラストとかあったら最高。\n• マークダウン記法わからなくても問題なし！",
+    "files": [
+      {
+        "id": "F08N7DXDWSX",
+        "created": 1744646010,
+        "timestamp": 1744646010,
+        "name": "about.md",
+        "title": "about.md",
+        "mimetype": "text/plain",
+        "filetype": "markdown",
+        "pretty_type": "Markdown (raw)",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 1325,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08N7DXDWSX/about.md",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08N7DXDWSX/download/about.md",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08HWJ80CHG/F08N7DXDWSX/about.md",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08N7DXDWSX-c99ef5e4ea",
+        "edit_link": "https://w1740803485-clv347541.slack.com/files/U08HWJ80CHG/F08N7DXDWSX/about.md/edit",
+        "preview": "## デジタル民主主義 2030 とは？\r\n\r\n2030 年には、情報技術により民主主義のあり方はアップデートされており、一人ひとりの声が政治・行政に届き、適切に合意形成・政策反映されていくような社会が当たり前になる― そんな未来を目指して立ち上げられたプロジェクトです。\r\nAI やデジタル技術の進化により、これまで不可能だった新しい形の市民参加や政策運営が可能になるはずだという信念に基づき、このプロジェクトは発足しました。\r\n\r",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">デ</span><span class=\"cm-header cm-header-2\">ジ</span><span class=\"cm-header cm-header-2\">タ</span><span class=\"cm-header cm-header-2\">ル</span><span class=\"cm-header cm-header-2\">民</span><span class=\"cm-header cm-header-2\">主</span><span class=\"cm-header cm-header-2\">主</span><span class=\"cm-header cm-header-2\">義</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">2</span><span class=\"cm-header cm-header-2\">0</span><span class=\"cm-header cm-header-2\">3</span><span class=\"cm-header cm-header-2\">0</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">と</span><span class=\"cm-header cm-header-2\">は</span><span class=\"cm-header cm-header-2\">？</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre>2030 年には、情報技術により民主主義のあり方はアップデートされており、一人ひとりの声が政治・行政に届き、適切に合意形成・政策反映されていくような社会が当たり前になる― そんな未来を目指して立ち上げられたプロジェクトです。</pre></div>\n<div><pre>AI やデジタル技術の進化により、これまで不可能だった新しい形の市民参加や政策運営が可能になるはずだという信念に基づき、このプロジェクトは発足しました。</pre></div>\n<div><pre>&#8203;</pre></div>\n</div>\n</div>\n",
+        "lines": 9,
+        "lines_more": 4,
+        "preview_is_truncated": false,
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "co4WO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\nウェブサイトのアバウトページ充実させたいので\n協力者募集中です。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "切り貼りした関係で、段落ごと文の癖が違って気持ち悪い。キレイにしたい。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "わかりやすいイラストとかあったら最高。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "マークダウン記法わからなくても問題なし！"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1744646293.099009",
+    "client_msg_id": "e139abfc-390f-4416-9ba8-5b5438621d78",
+    "thread_ts": "1744646293.099009",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1744650364.538019",
+    "reply_users": [
+      "U08N3V4NQRE"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\nウェブサイトのアバウトページ充実させたいので\n協力者募集中です。\n\n• 切り貼りした関係で、段落ごと文の癖が違って気持ち悪い。キレイにしたい。\n• わかりやすいイラストとかあったら最高。\n• マークダウン記法わからなくても問題なし！"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1744650364.538019",
+    "client_msg_id": "321b36ef-a0f9-479f-aaf1-8e2140000e28",
+    "text": "やりましょう！載せられる新しいコンテンツを一部仕込んでおります",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744646293.099009",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "azIwG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やりましょう！載せられる新しいコンテンツを一部仕込んでおります"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z",
+          "U08J60VKDUY"
+        ],
+        "count": 3
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z",
+          "U08J60VKDUY"
+        ],
+        "count": 3
+      },
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z",
+          "U08J60VKDUY"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1744646293.099009",
+    "user_name": "Kojin Oshiba",
+    "text_readable": "やりましょう！載せられる新しいコンテンツを一部仕込んでおります"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744779554.458869",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1744780247.000000"
+    },
+    "client_msg_id": "90864dbd-0a73-470a-b639-4190c566f421",
+    "text": "~実証実験に参画したい自治体・政党・企業団体向けのGoogleフォームってありますか？~\n~ウェブサイトに載せたいので、なければ作っていただけると助かります！~\n\n見つけました！\n<https://docs.google.com/forms/d/e/1FAIpQLSdAJojxjpIJnOMtydYTOhtsTkkKgDS22R-iHYDVMstYd2RUBA/viewform>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744779554.458869",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1744781004.485559",
+    "reply_users": [
+      "U08FY2KR468"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JvXJc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実証実験に参画したい自治体・政党・企業団体向けのGoogleフォームってありますか？",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "ウェブサイトに載せたいので、なければ作っていただけると助かります！",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n見つけました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdAJojxjpIJnOMtydYTOhtsTkkKgDS22R-iHYDVMstYd2RUBA/viewform"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "~実証実験に参画したい自治体・政党・企業団体向けのGoogleフォームってありますか？~\n~ウェブサイトに載せたいので、なければ作っていただけると助かります！~\n\n見つけました！\n<https://docs.google.com/forms/d/e/1FAIpQLSdAJojxjpIJnOMtydYTOhtsTkkKgDS22R-iHYDVMstYd2RUBA/viewform>"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1744781004.485559",
+    "client_msg_id": "08bc5569-ea05-4296-aa84-130f981e7782",
+    "text": "<@U08HWJ80CHG> 見つけていただいてありがとうございます！\n一旦こちらでいいのですが、このフォームだと安野事務所に接続しているので、棲み分けをしなければという問題意識を持っているということをお伝えさせていただきました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744779554.458869",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JLv36",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " 見つけていただいてありがとうございます！\n一旦こちらでいいのですが、このフォームだと安野事務所に接続しているので、棲み分けをしなければという問題意識を持っているということをお伝えさせていただきました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "了解",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744779554.458869",
+    "user_name": "Michio Kawai",
+    "text_readable": "@oscar.gaddress 見つけていただいてありがとうございます！\n一旦こちらでいいのですが、このフォームだと安野事務所に接続しているので、棲み分けをしなければという問題意識を持っているということをお伝えさせていただきました"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744790203.536959",
+    "client_msg_id": "5caacb79-100e-438f-b488-e2e471454402",
+    "text": "activity以外は刷新したものをプルリクしました～",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744790203.536959",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1745060311.280279",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08GAUQTR1N"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1ysDk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "activity以外は刷新したものをプルリクしました～"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08FY2KR468"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "activity以外は刷新したものをプルリクしました～"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1744790203.536959",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1744790203.536959",
+      "client_msg_id": "5caacb79-100e-438f-b488-e2e471454402",
+      "text": "activity以外は刷新したものをプルリクしました～",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1744790203.536959",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1745060311.280279",
+      "reply_users": [
+        "U08G2A216TW",
+        "U08GAUQTR1N"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1ysDk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "activity以外は刷新したものをプルリクしました～"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1745060259.138469",
+    "client_msg_id": "9d8bfcc2-f22b-41a2-b0ef-1d647a2f02cd",
+    "text": "たぶんなのくろさんも僕も自分がキャッチするボールだと思ってなくて間に落ちてたので今マージしました\n<@U08GAUQTR1N>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ASYle",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たぶんなのくろさんも僕も自分がキャッチするボールだと思ってなくて間に落ちてたので今マージしました\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08GAUQTR1N"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744790203.536959",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "たぶんなのくろさんも僕も自分がキャッチするボールだと思ってなくて間に落ちてたので今マージしました\n@nanocloudx"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1745060297.878279",
+    "client_msg_id": "e5fb8e12-e7cb-4465-a484-84723a1ca812",
+    "text": "！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744790203.536959",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lFzrF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744790203.536959",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "！"
+  },
+  {
+    "user": "U08GAUQTR1N",
+    "type": "message",
+    "ts": "1745060311.280279",
+    "client_msg_id": "b47cec46-520a-40b2-8593-caea95ed7372",
+    "text": "うおお助かりますありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744790203.536959",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zyiNG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うおお助かりますありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744790203.536959",
+    "user_name": "Syuhei Kobayashi (なのくろ)",
+    "text_readable": "うおお助かりますありがとうございます！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1744892346.978139",
+    "client_msg_id": "48566e17-c2a6-4ac9-9946-0a5a276898df",
+    "text": "ウェブサイトにDocsページ追加したいという願望を書いておく\n各プロダクトの導入方法やチップスをまとめたページ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8mUCP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ウェブサイトにDocsページ追加したいという願望を書いておく\n各プロダクトの導入方法やチップスをまとめたページ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U08N3V4NQRE"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "ウェブサイトにDocsページ追加したいという願望を書いておく\n各プロダクトの導入方法やチップスをまとめたページ"
+  }
+]
