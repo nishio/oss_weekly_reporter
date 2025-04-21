@@ -19,6 +19,25 @@ def get_github_token():
         return None
 
 
+def extract_username_from_email(email_or_name):
+    """
+    メールアドレスからユーザー名部分を抽出する
+    
+    Args:
+        email_or_name: メールアドレスまたは名前
+        
+    Returns:
+        ユーザー名（GitHubアカウント名に近い形式）
+    """
+    if not email_or_name:
+        return None
+        
+    email_match = re.search(r'([^@\s]+)@', email_or_name)
+    if email_match:
+        return email_match.group(1)
+    
+    return email_or_name.strip()
+
 def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True):
     """
     GitHubからissueとPRデータを抽出してJSONファイルに保存
@@ -192,14 +211,14 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                     commit_message = commit.get("commit", {}).get("message", "")
                     match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
                     if match:
-                        co_author = match.group(1).strip()
+                        co_author = extract_username_from_email(match.group(1).strip())
                         break
             
             pr_body = pr_detail.get("body", "")
             if pr_body:
                 match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
                 if match:
-                    requester = match.group(1).strip()
+                    requester = extract_username_from_email(match.group(1).strip())
             
             pr_data = {
                 "id": pr["id"],
@@ -246,14 +265,14 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                     commit_message = commit.get("commit", {}).get("message", "")
                     match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
                     if match:
-                        co_author = match.group(1).strip()
+                        co_author = extract_username_from_email(match.group(1).strip())
                         break
             
             pr_body = pr_detail.get("body", "")
             if pr_body:
                 match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
                 if match:
-                    requester = match.group(1).strip()
+                    requester = extract_username_from_email(match.group(1).strip())
             
             pr_data = {
                 "id": pr["id"],
@@ -299,14 +318,14 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                     commit_message = commit.get("commit", {}).get("message", "")
                     match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
                     if match:
-                        co_author = match.group(1).strip()
+                        co_author = extract_username_from_email(match.group(1).strip())
                         break
             
             pr_body = pr_detail.get("body", "")
             if pr_body:
                 match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
                 if match:
-                    requester = match.group(1).strip()
+                    requester = extract_username_from_email(match.group(1).strip())
             
             pr_data = {
                 "id": pr["id"],
