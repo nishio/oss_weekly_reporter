@@ -109,7 +109,7 @@ def slack_report(
     date_range_path = os.path.join(output_dir, date_range_dir)
     
     if markdown:
-        generator = MarkdownGenerator(timezone_str=timezone_str)
+        generator = MarkdownGenerator(timezone_str=timezone_str, skip_channels=skip_channels)
         
         if not output_file:
             if weekly:
