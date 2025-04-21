@@ -13,12 +13,13 @@ from typing import Dict, List, Any, Optional
 class MarkdownGenerator:
     """SlackのJSONデータからMarkdownを生成するクラス"""
 
-    def __init__(self, timezone_str: str = "Asia/Tokyo"):
+    def __init__(self, timezone_str: str = "Asia/Tokyo", skip_channels: Optional[List[str]] = None):
         """
         初期化
 
         Args:
             timezone_str: タイムゾーン
+            skip_channels: スキップするチャンネルIDまたは名前のリスト
         """
         self.timezone_str = timezone_str
         self.jst = (
@@ -26,6 +27,7 @@ class MarkdownGenerator:
             if timezone_str == "Asia/Tokyo"
             else None
         )
+        self.skip_channels = skip_channels or []
 
     def _format_timestamp(self, ts: str) -> str:
         """
@@ -112,6 +114,10 @@ class MarkdownGenerator:
                 continue
 
             channel_name = os.path.splitext(os.path.basename(json_file))[0]
+            
+            if channel_name in self.skip_channels:
+                print(f"Markdownからチャンネル {channel_name} をスキップします")
+                continue
 
             try:
                 with open(json_file, "r", encoding="utf-8") as f:
@@ -244,6 +250,10 @@ class MarkdownGenerator:
                 continue
 
             channel_name = os.path.splitext(os.path.basename(json_file))[0]
+            
+            if channel_name in self.skip_channels:
+                print(f"Markdownからチャンネル {channel_name} をスキップします")
+                continue
 
             try:
                 with open(json_file, "r", encoding="utf-8") as f:
