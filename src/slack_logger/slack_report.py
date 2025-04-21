@@ -72,10 +72,24 @@ def slack_report(
         period=period
     )
     
-    if last_days:
+    if period:
+        date_range_dir = period
+        try:
+            start_date_str, end_date_str = period.split("_to_")
+            oldest = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            latest = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            latest = latest.replace(hour=23, minute=59, second=59)
+        except ValueError as e:
+            print(f"期間の形式が正しくありません: {e}")
+            print("YYYY-MM-DD_to_YYYY-MM-DD形式で指定してください")
+            raise
+    elif last_days:
         now = datetime.now(timezone.utc)
         oldest = now - timedelta(days=last_days)
         latest = now
+        start_date_str = oldest.strftime("%Y-%m-%d")
+        end_date_str = latest.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
     else:
         if year is None or month is None:
             target_date = datetime.now(timezone.utc) - timedelta(days=60)
@@ -88,10 +102,10 @@ def slack_report(
             latest = datetime(year + 1, 1, 1, tzinfo=timezone.utc)
         else:
             latest = datetime(year, month + 1, 1, tzinfo=timezone.utc)
-    
-    start_date_str = oldest.strftime("%Y-%m-%d")
-    end_date_str = latest.strftime("%Y-%m-%d")
-    date_range_dir = f"{start_date_str}_to_{end_date_str}"
+        
+        start_date_str = oldest.strftime("%Y-%m-%d")
+        end_date_str = latest.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
     date_range_path = os.path.join(output_dir, date_range_dir)
     
     if markdown:
