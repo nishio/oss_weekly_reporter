@@ -149,7 +149,8 @@ python -m github_logger.github_report --repo "owner/repo" --markdown
 
 #### オプション
 
-- `--repo`: 対象リポジトリ（必須、'owner/repo'形式で指定）
+- `--repo`: 対象リポジトリ（'owner/repo'形式、またはカンマ区切りで複数指定可能）
+- `--org`: 組織名（`--repo`で指定したリポジトリ名の前に付与される）
 - `--output-dir`: 出力ディレクトリ（デフォルト: `./data`）
 - `--last-days`: 過去何日分を取得するか（デフォルト: 7）
 - `--no-prs`: PRを含めない
@@ -159,17 +160,27 @@ python -m github_logger.github_report --repo "owner/repo" --markdown
 
 #### 使用例
 
-1. データ抽出とMarkdownレポート生成を一度に行う:
+1. 単一リポジトリのデータ抽出とMarkdownレポート生成:
 ```bash
 python -m github_logger.github_report --repo "owner/repo" --markdown
 ```
 
-2. データ抽出のみ行う:
+2. 複数リポジトリの同時処理:
+```bash
+python -m github_logger.github_report --repo "owner/repo1,owner/repo2,owner/repo3" --markdown
+```
+
+3. 組織名を指定して複数リポジトリを処理:
+```bash
+python -m github_logger.github_report --org "organization-name" --repo "repo1,repo2,repo3" --markdown
+```
+
+4. データ抽出のみ行う:
 ```bash
 python -m github_logger.github_report --repo "owner/repo"
 ```
 
-3. 既存のJSONファイルからMarkdownレポートを生成する:
+5. 既存のJSONファイルからMarkdownレポートを生成する:
 ```bash
 python -m github_logger.github_report --json-file "./data/yyyy-MM-dd_to_yyyy-MM-dd/repo-name.json"
 ```
