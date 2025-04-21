@@ -113,6 +113,7 @@ def process_slack_data(
     output_dir: Optional[str] = None,
     use_all_summary: bool = False,
     period: Optional[str] = None,
+    prompt_file: Optional[str] = None,
 ) -> None:
     """
     Slackデータを処理する
@@ -122,6 +123,7 @@ def process_slack_data(
         output_dir: 出力ディレクトリ
         use_all_summary: all_summary.mdを使用するかどうか
         period: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式）
+        prompt_file: 使用するプロンプトファイルのパス（指定しない場合はデフォルト）
     """
     if not data_dir:
         try:
@@ -142,9 +144,14 @@ def process_slack_data(
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
 
-    prompt_file = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
-    )
+    if not prompt_file:
+        prompt_file = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
+        )
+    elif not os.path.exists(prompt_file):
+        print(f"プロンプトファイルが見つかりません: {prompt_file}")
+        return
+        
     prompt = read_prompt_file(prompt_file)
 
     content = read_markdown_file(markdown_path)
@@ -169,7 +176,8 @@ def process_slack_data(
 
 
 def process_github_data(
-    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None
+    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None,
+    prompt_file: Optional[str] = None,
 ) -> None:
     """
     GitHubデータを処理する
@@ -178,6 +186,7 @@ def process_github_data(
         repo: リポジトリ名（owner/repo形式）
         data_dir: データディレクトリ
         output_dir: 出力ディレクトリ
+        prompt_file: 使用するプロンプトファイルのパス（指定しない場合はデフォルト）
     """
     if not data_dir:
         try:
@@ -199,9 +208,14 @@ def process_github_data(
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
 
-    prompt_file = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
-    )
+    if not prompt_file:
+        prompt_file = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
+        )
+    elif not os.path.exists(prompt_file):
+        print(f"プロンプトファイルが見つかりません: {prompt_file}")
+        return
+        
     prompt = read_prompt_file(prompt_file)
 
     content = read_markdown_file(markdown_path)
@@ -246,11 +260,13 @@ def main():
         help="weekly_summary.mdの代わりにall_summary.mdを使用",
     )
     slack_parser.add_argument("--period", help="期間（YYYY-MM-DD_to_YYYY-MM-DD形式）")
+    slack_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     github_parser = subparsers.add_parser("github", help="GitHubデータを処理")
     github_parser.add_argument(
         "--repo", required=True, help="リポジトリ名（owner/repo形式）"
     )
+    github_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     args = parser.parse_args()
 
@@ -264,10 +280,14 @@ def main():
             output_dir=args.output_dir,
             use_all_summary=args.all_summary,
             period=args.period,
+            prompt_file=args.prompt_file,
         )
     elif args.command == "github":
         process_github_data(
-            repo=args.repo, data_dir=args.data_dir, output_dir=args.output_dir
+            repo=args.repo, 
+            data_dir=args.data_dir, 
+            output_dir=args.output_dir,
+            prompt_file=args.prompt_file,
         )
 
     return 0

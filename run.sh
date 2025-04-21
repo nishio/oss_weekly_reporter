@@ -23,7 +23,7 @@ python -m src.github_logger.github_report --repo "digitaldemocracy2030/polimoney
 python -m src.call_openai_api slack --all-summary
 
 # GitHubレポートの要約
-python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai"
-python -m src.call_openai_api github --org "digitaldemocracy2030" --repo "idobata-analyst,idobata-discourse-agent,idobata-sns-agent,idobata-infra,idobata-policy-editor"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/website"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/polimoney"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai" --prompt-file "./prompts/kouchou_prompt.txt"
+python -m src.call_openai_api github --org "digitaldemocracy2030" --repo "idobata-analyst,idobata-discourse-agent,idobata-sns-agent,idobata-infra,idobata-policy-editor" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/website" --prompt-file "./prompts/website_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/polimoney" --prompt-file "./prompts/polimoney_prompt.txt"
