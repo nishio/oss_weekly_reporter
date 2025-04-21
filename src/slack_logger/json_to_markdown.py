@@ -167,9 +167,13 @@ class MarkdownGenerator:
                                 )
 
         if output_file:
-            markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
-            os.makedirs(markdown_dir, exist_ok=True)
-            output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+            if "markdown/slack" in output_file:
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            else:
+                markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
+                os.makedirs(markdown_dir, exist_ok=True)
+                output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+            
             with open(output_file, "w", encoding="utf-8") as f:
                 f.write(markdown)
             print(f"Markdownを {output_file} に保存しました")
@@ -328,9 +332,13 @@ class MarkdownGenerator:
                     markdown += "\n"
 
         if output_file:
-            markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
-            os.makedirs(markdown_dir, exist_ok=True)
-            output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+            if "markdown/slack" in output_file:
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            else:
+                markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
+                os.makedirs(markdown_dir, exist_ok=True)
+                output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+            
             with open(output_file, "w", encoding="utf-8") as f:
                 f.write(markdown)
             print(f"Markdownを {output_file} に保存しました")
