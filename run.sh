@@ -10,7 +10,6 @@ python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata-a
 python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata-discourse-agent" --markdown --last-days 7
 python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata-sns-agent" --markdown --last-days 7
 python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata-infra" --markdown --last-days 7
-python -m src.github_logger.github_report --repo "digitaldemocracy2030/2025_ai_idobatakaigi_output" --markdown --last-days 7
 python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata-policy-editor" --markdown --last-days 7
 
 # website
@@ -25,11 +24,6 @@ python -m src.call_openai_api slack --all-summary
 
 # GitHubレポートの要約
 python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-analyst"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-discourse-agent"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-sns-agent"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-infra"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/2025_ai_idobatakaigi_output"
-python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-policy-editor"
+python -m src.call_openai_api github --org "digitaldemocracy2030" --repo "idobata-analyst,idobata-discourse-agent,idobata-sns-agent,idobata-infra,idobata-policy-editor"
 python -m src.call_openai_api github --repo "digitaldemocracy2030/website"
 python -m src.call_openai_api github --repo "digitaldemocracy2030/polimoney"
