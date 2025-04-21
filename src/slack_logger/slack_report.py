@@ -28,6 +28,7 @@ def slack_report(
     year: Optional[int] = None,
     month: Optional[int] = None,
     last_days: Optional[int] = 7,
+    period: Optional[str] = None,
     auto_join: bool = True,
     skip_channels: Optional[List[str]] = None,
     timezone_str: str = "Asia/Tokyo",
@@ -45,6 +46,7 @@ def slack_report(
         year: 年（指定しない場合は現在の2ヶ月前）
         month: 月（指定しない場合は現在の2ヶ月前）
         last_days: 過去何日分を取得するか（指定した場合はyear, monthは無視）
+        period: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）
         auto_join: 公開チャンネルに自動的に参加するかどうか
         skip_channels: スキップするチャンネルIDのリスト
         timezone_str: タイムゾーン
@@ -66,13 +68,28 @@ def slack_report(
         output_dir=output_dir,
         year=year,
         month=month,
-        last_days=last_days
+        last_days=last_days,
+        period=period
     )
     
-    if last_days:
+    if period:
+        date_range_dir = period
+        try:
+            start_date_str, end_date_str = period.split("_to_")
+            oldest = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            latest = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            latest = latest.replace(hour=23, minute=59, second=59)
+        except ValueError as e:
+            print(f"期間の形式が正しくありません: {e}")
+            print("YYYY-MM-DD_to_YYYY-MM-DD形式で指定してください")
+            raise
+    elif last_days:
         now = datetime.now(timezone.utc)
         oldest = now - timedelta(days=last_days)
         latest = now
+        start_date_str = oldest.strftime("%Y-%m-%d")
+        end_date_str = latest.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
     else:
         if year is None or month is None:
             target_date = datetime.now(timezone.utc) - timedelta(days=60)
@@ -85,10 +102,10 @@ def slack_report(
             latest = datetime(year + 1, 1, 1, tzinfo=timezone.utc)
         else:
             latest = datetime(year, month + 1, 1, tzinfo=timezone.utc)
-    
-    start_date_str = oldest.strftime("%Y-%m-%d")
-    end_date_str = latest.strftime("%Y-%m-%d")
-    date_range_dir = f"{start_date_str}_to_{end_date_str}"
+        
+        start_date_str = oldest.strftime("%Y-%m-%d")
+        end_date_str = latest.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
     date_range_path = os.path.join(output_dir, date_range_dir)
     
     if markdown:
@@ -133,6 +150,7 @@ def main():
     parser.add_argument('--year', type=int, help='抽出する年（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, default=7, help='過去何日分を取得するか（デフォルト: 7日）')
+    parser.add_argument('--period', help='期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）')
     parser.add_argument('--auto-join', action='store_true', default=default_auto_join, 
                         help=f'公開チャンネルに自動的に参加する（デフォルト: {default_auto_join}）')
     parser.add_argument('--no-auto-join', action='store_false', dest='auto_join',
@@ -164,6 +182,7 @@ def main():
         year=args.year,
         month=args.month,
         last_days=args.last_days,
+        period=args.period,
         auto_join=args.auto_join,
         skip_channels=skip_channels,
         timezone_str=args.timezone,

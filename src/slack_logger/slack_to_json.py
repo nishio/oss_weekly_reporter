@@ -200,7 +200,7 @@ class SlackExtractor:
                 break
 
     def extract_to_json(self, output_dir: str, year: Optional[int] = None, month: Optional[int] = None, 
-                       last_days: Optional[int] = None) -> Dict[str, Any]:
+                       last_days: Optional[int] = None, period: Optional[str] = None) -> Dict[str, Any]:
         """
         Slackデータを抽出してJSONファイルに保存
         
@@ -209,13 +209,25 @@ class SlackExtractor:
             year: 年（指定しない場合は現在の2ヶ月前）
             month: 月（指定しない場合は現在の2ヶ月前）
             last_days: 過去何日分を取得するか（指定した場合はyear, monthは無視）
+            period: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）
             
         Returns:
             抽出結果の概要
         """
         now = datetime.now(timezone.utc)
         
-        if last_days:
+        if period:
+            try:
+                start_date_str, end_date_str = period.split("_to_")
+                oldest = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                latest = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                latest = latest.replace(hour=23, minute=59, second=59)
+                print(f"期間 {start_date_str} から {end_date_str} のデータを抽出します")
+            except ValueError as e:
+                print(f"期間の形式が正しくありません: {e}")
+                print("YYYY-MM-DD_to_YYYY-MM-DD形式で指定してください")
+                raise
+        elif last_days:
             latest = now
             oldest = now - timedelta(days=last_days)
         else:
@@ -307,6 +319,7 @@ def main():
     parser.add_argument('--year', type=int, help='抽出する年（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか（指定した場合はyear, monthは無視）')
+    parser.add_argument('--period', help='期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）')
     parser.add_argument('--auto-join', action='store_true', default=default_auto_join, 
                         help=f'公開チャンネルに自動的に参加する（デフォルト: {default_auto_join}）')
     parser.add_argument('--no-auto-join', action='store_false', dest='auto_join',
@@ -337,7 +350,8 @@ def main():
         output_dir=args.output_dir,
         year=args.year,
         month=args.month,
-        last_days=args.last_days
+        last_days=args.last_days,
+        period=args.period
     )
     
     return 0
