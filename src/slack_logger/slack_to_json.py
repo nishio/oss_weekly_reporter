@@ -19,6 +19,8 @@ from ..config import Config
 
 load_dotenv()
 
+default_auto_join = True
+
 
 class SlackExtractor:
     """Slackからデータを抽出するクラス"""
@@ -322,10 +324,12 @@ def main():
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか（指定した場合はyear, monthは無視）')
     parser.add_argument('--period', help='期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）')
-    parser.add_argument('--auto-join', action='store_true', help='公開チャンネルに自動的に参加する')
-    parser.add_argument('--no-auto-join', action='store_false', dest='auto_join', help='公開チャンネルに自動的に参加しない')
-    parser.add_argument('--skip-channels', help='スキップするチャンネルIDまたは名前のカンマ区切りリスト')
-    parser.add_argument('--config', help='設定ファイルのパス')
+    parser.add_argument('--auto-join', action='store_true', default=default_auto_join, 
+                        help=f'公開チャンネルに自動的に参加する（デフォルト: {default_auto_join}）')
+    parser.add_argument('--no-auto-join', action='store_false', dest='auto_join',
+                        help='公開チャンネルに自動的に参加しない')
+    parser.add_argument('--skip-channels', help='スキップするチャンネルIDのカンマ区切りリスト')
+    parser.add_argument('--config', help='設定ファイルのパス', default='config.yaml')
     
     args = parser.parse_args()
     
