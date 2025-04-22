@@ -16,6 +16,8 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 from ..config import Config
+from ..utils.date_utils import get_date_range, get_date_range_dir
+from ..utils.file_utils import ensure_dir, write_json_file
 
 load_dotenv()
 
@@ -209,7 +211,8 @@ class SlackExtractor:
                 break
 
     def extract_to_json(self, output_dir: str, year: Optional[int] = None, month: Optional[int] = None, 
-                       last_days: Optional[int] = None, period: Optional[str] = None) -> Dict[str, Any]:
+                       last_days: Optional[int] = None, period: Optional[str] = None, 
+                       timezone_str: str = "UTC") -> Dict[str, Any]:
         """
         Slackデータを抽出してJSONファイルに保存
         
@@ -219,54 +222,40 @@ class SlackExtractor:
             month: 月（指定しない場合は現在の2ヶ月前）
             last_days: 過去何日分を取得するか（指定した場合はyear, monthは無視）
             period: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）
+            timezone_str: タイムゾーン名
             
         Returns:
             抽出結果の概要
         """
-        now = datetime.now(timezone.utc)
+        if year is None and month is None and not last_days and not period:
+            now = datetime.now(timezone.utc)
+            target_date = now - timedelta(days=60)
+            year = target_date.year
+            month = target_date.month
         
-        if period:
-            try:
-                start_date_str, end_date_str = period.split("_to_")
-                oldest = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-                latest = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-                latest = latest.replace(hour=23, minute=59, second=59)
-                print(f"期間 {start_date_str} から {end_date_str} のデータを抽出します")
-            except ValueError as e:
-                print(f"期間の形式が正しくありません: {e}")
-                print("YYYY-MM-DD_to_YYYY-MM-DD形式で指定してください")
-                raise
-        elif last_days:
-            latest = now
-            oldest = now - timedelta(days=last_days)
-        else:
-            if year is None or month is None:
-                target_date = now - timedelta(days=60)
-                year = target_date.year
-                month = target_date.month
-            
-            oldest = datetime(year, month, 1, tzinfo=timezone.utc)
-            
-            if month == 12:
-                latest = datetime(year + 1, 1, 1, tzinfo=timezone.utc)
-            else:
-                latest = datetime(year, month + 1, 1, tzinfo=timezone.utc)
+        oldest, latest = get_date_range(
+            year=year,
+            month=month,
+            last_days=last_days,
+            period=period,
+            timezone_str=timezone_str
+        )
         
         oldest_ts = str(oldest.timestamp())
         latest_ts = str(latest.timestamp())
         
-        os.makedirs(output_dir, exist_ok=True)
+        date_range_dir = get_date_range_dir(oldest, latest)
+        
+        ensure_dir(Path(output_dir))
+        date_range_path = Path(output_dir) / date_range_dir
+        ensure_dir(date_range_path)
+        
+        slack_raw_dir = date_range_path / "raw" / "slack"
+        ensure_dir(slack_raw_dir)
         
         start_date_str = oldest.strftime("%Y-%m-%d")
         end_date_str = latest.strftime("%Y-%m-%d")
-        date_range_dir = f"{start_date_str}_to_{end_date_str}"
-        
-        date_range_path = os.path.join(output_dir, date_range_dir)
-        os.makedirs(date_range_path, exist_ok=True)
-        
-        slack_raw_dir = os.path.join(date_range_path, "raw", "slack")
-        os.makedirs(slack_raw_dir, exist_ok=True)
-        
+        print(f"期間 {start_date_str} から {end_date_str} のデータを抽出します")
         print(f"データを {date_range_path} に保存します")
         
         result = {
@@ -289,25 +278,24 @@ class SlackExtractor:
                     print(f"  {len(messages)}件のメッセージを取得しました")
             
             if messages:
-                channel_file = os.path.join(slack_raw_dir, f"{channel_name}.json")
-                with open(channel_file, 'w', encoding='utf-8') as f:
-                    json.dump(messages, f, ensure_ascii=False, indent=2)
+                # JSONファイルに保存
+                channel_file = slack_raw_dir / f"{channel_name}.json"
+                write_json_file(messages, channel_file)
                 
-                relative_path = os.path.join(date_range_dir, "raw", "slack", f"{channel_name}.json")
+                relative_path = Path(date_range_dir) / "raw" / "slack" / f"{channel_name}.json"
                 result["channels"].append({
                     "id": channel_id,
                     "name": channel_name,
                     "message_count": len(messages),
-                    "file": relative_path
+                    "file": str(relative_path)
                 })
                 
                 print(f"  {len(messages)}件のメッセージを {channel_file} に保存しました")
             else:
                 print(f"  メッセージが見つかりませんでした")
         
-        summary_file = os.path.join(slack_raw_dir, "summary.json")
-        with open(summary_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+        summary_file = slack_raw_dir / "summary.json"
+        write_json_file(result, summary_file)
         
         print(f"抽出結果の概要を {summary_file} に保存しました")
         return result
@@ -359,12 +347,15 @@ def main():
         skip_channels=skip_channels
     )
     
+    timezone_str = config.get("output.timezone", "UTC")
+    
     extractor.extract_to_json(
         output_dir=output_dir,
         year=args.year,
         month=args.month,
         last_days=args.last_days,
-        period=args.period
+        period=args.period,
+        timezone_str=timezone_str
     )
     
     return 0
