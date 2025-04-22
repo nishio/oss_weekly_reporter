@@ -103,7 +103,12 @@ class SlackExtractor:
         return text
 
     def get_channels(self) -> Generator[Dict[str, Any], None, None]:
-        """公開チャンネルの一覧を取得"""
+        """
+        公開チャンネルの一覧を取得
+        
+        Yields:
+            Dict[str, Any]: チャンネル情報（id, name, is_member等を含む）
+        """
         cursor = None
         
         while True:
@@ -140,7 +145,16 @@ class SlackExtractor:
                 break
 
     def get_replies(self, channel_id: str, thread_ts: str) -> List[Dict[str, Any]]:
-        """スレッド返信を取得"""
+        """
+        スレッド返信を取得
+        
+        Args:
+            channel_id: チャンネルID
+            thread_ts: スレッドの親メッセージのタイムスタンプ
+            
+        Returns:
+            List[Dict[str, Any]]: スレッド返信のリスト（user_name, text_readable等を含む）
+        """
         replies = []
         cursor = None
         
@@ -167,8 +181,23 @@ class SlackExtractor:
                 
         return replies
 
-    def get_history(self, channel_id: str, oldest: str, latest: Optional[str] = None) -> Generator[Dict[str, Any], None, None]:
-        """チャンネル履歴を取得"""
+    def get_history(
+        self, 
+        channel_id: str, 
+        oldest: str, 
+        latest: Optional[str] = None
+    ) -> Generator[Dict[str, Any], None, None]:
+        """
+        チャンネル履歴を取得
+        
+        Args:
+            channel_id: チャンネルID
+            oldest: 取得開始タイムスタンプ（Unix時間）
+            latest: 取得終了タイムスタンプ（Unix時間、指定しない場合は現在まで）
+            
+        Yields:
+            Dict[str, Any]: メッセージ情報（ts, user_name, text_readable等を含む）
+        """
         cursor = None
         
         while True:
@@ -210,9 +239,15 @@ class SlackExtractor:
                 print(f"チャンネル履歴の取得に失敗しました: {e}")
                 break
 
-    def extract_to_json(self, output_dir: str, year: Optional[int] = None, month: Optional[int] = None, 
-                       last_days: Optional[int] = None, period: Optional[str] = None, 
-                       timezone_str: str = "UTC") -> Dict[str, Any]:
+    def extract_to_json(
+        self, 
+        output_dir: Union[str, Path], 
+        year: Optional[int] = None, 
+        month: Optional[int] = None, 
+        last_days: Optional[int] = None, 
+        period: Optional[str] = None, 
+        timezone_str: str = "UTC"
+    ) -> Dict[str, Any]:
         """
         Slackデータを抽出してJSONファイルに保存
         
@@ -225,7 +260,7 @@ class SlackExtractor:
             timezone_str: タイムゾーン名
             
         Returns:
-            抽出結果の概要
+            Dict[str, Any]: 抽出結果の概要（期間情報とチャンネル一覧を含む）
         """
         if year is None and month is None and not last_days and not period:
             now = datetime.now(timezone.utc)
@@ -301,7 +336,7 @@ class SlackExtractor:
         return result
 
 
-def main():
+def main() -> int:
     """メイン関数"""
     parser = argparse.ArgumentParser(description='Slackの履歴をJSONファイルに抽出するツール')
     parser.add_argument('--token', help='Slack APIトークン', default=os.environ.get('SLACK_TOKEN'))
