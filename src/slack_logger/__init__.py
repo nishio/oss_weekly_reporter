@@ -1,0 +1,3 @@
+"""
+Slack Logger Module
+"""

@@ -7,7 +7,6 @@ import os
 import json
 import argparse
 import time
-import yaml
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Generator, Any, Union
 from pathlib import Path
@@ -16,28 +15,9 @@ from dotenv import load_dotenv
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-load_dotenv()
+from ..config import Config
 
-def load_config() -> Dict[str, Any]:
-    """設定ファイルを読み込む"""
-    config_paths = [
-        Path("config.yaml"),  # カレントディレクトリ
-        Path(__file__).parent.parent.parent / "config.yaml",  # リポジトリルート
-    ]
-    
-    for config_path in config_paths:
-        if config_path.exists():
-            try:
-                with open(config_path, "r", encoding="utf-8") as f:
-                    config = yaml.safe_load(f)
-                print(f"設定ファイルを読み込みました: {config_path}")
-                return config or {}
-            except Exception as e:
-                print(f"設定ファイルの読み込みに失敗しました: {e}")
-                break
-    
-    print("設定ファイルが見つからないか、読み込めませんでした。デフォルト設定を使用します。")
-    return {}
+load_dotenv()
 
 
 class SlackExtractor:
@@ -335,48 +315,52 @@ class SlackExtractor:
 
 def main():
     """メイン関数"""
-    config = load_config()
-    
-    default_output_dir = config.get('output', {}).get('default_dir', './data')
-    default_auto_join = config.get('auto_join', True)
-    
-    config_skip_channels = config.get('skip_channels', [])
-    
     parser = argparse.ArgumentParser(description='Slackの履歴をJSONファイルに抽出するツール')
     parser.add_argument('--token', help='Slack APIトークン', default=os.environ.get('SLACK_TOKEN'))
-    parser.add_argument('--output-dir', help=f'出力ディレクトリ（デフォルト: {default_output_dir}）', default=default_output_dir)
+    parser.add_argument('--output-dir', help='出力ディレクトリ')
     parser.add_argument('--year', type=int, help='抽出する年（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか（指定した場合はyear, monthは無視）')
     parser.add_argument('--period', help='期間（YYYY-MM-DD_to_YYYY-MM-DD形式、指定した場合はyear, month, last_daysは無視）')
-    parser.add_argument('--auto-join', action='store_true', default=default_auto_join, 
-                        help=f'公開チャンネルに自動的に参加する（デフォルト: {default_auto_join}）')
-    parser.add_argument('--no-auto-join', action='store_false', dest='auto_join',
-                        help='公開チャンネルに自動的に参加しない')
-    parser.add_argument('--skip-channels', help='スキップするチャンネルIDのカンマ区切りリスト')
-    parser.add_argument('--config', help='設定ファイルのパス', default='config.yaml')
+    parser.add_argument('--auto-join', action='store_true', help='公開チャンネルに自動的に参加する')
+    parser.add_argument('--no-auto-join', action='store_false', dest='auto_join', help='公開チャンネルに自動的に参加しない')
+    parser.add_argument('--skip-channels', help='スキップするチャンネルIDまたは名前のカンマ区切りリスト')
+    parser.add_argument('--config', help='設定ファイルのパス')
     
     args = parser.parse_args()
     
-    if not args.token:
+    cli_args = {
+        "slack.token": args.token,
+        "output.default_dir": args.output_dir,
+        "slack.auto_join": args.auto_join if args.auto_join is not None else None
+    }
+    
+    # skip_channelsが指定されている場合は追加
+    if args.skip_channels:
+        cli_args["slack.skip_channels"] = args.skip_channels.split(',')
+    
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    token = config.get("slack.token")
+    output_dir = config.get("output.default_dir")
+    auto_join = config.get("slack.auto_join")
+    skip_channels = config.get("slack.skip_channels", [])
+    
+    if not token:
         print("エラー: Slack APIトークンが指定されていません。--tokenオプションまたはSLACK_TOKEN環境変数で指定してください。")
         return 1
-    
-    skip_channels = config_skip_channels.copy()
-    if args.skip_channels:
-        skip_channels.extend(args.skip_channels.split(','))
     
     if skip_channels:
         print(f"スキップするチャンネル: {', '.join(skip_channels)}")
     
     extractor = SlackExtractor(
-        token=args.token,
-        auto_join=args.auto_join,
+        token=token,
+        auto_join=auto_join,
         skip_channels=skip_channels
     )
     
     extractor.extract_to_json(
-        output_dir=args.output_dir,
+        output_dir=output_dir,
         year=args.year,
         month=args.month,
         last_days=args.last_days,
