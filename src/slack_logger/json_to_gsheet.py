@@ -8,6 +8,7 @@ import json
 import argparse
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Dict, List, Optional, Any, Union
 
 import google.auth
@@ -48,7 +49,7 @@ class GoogleSheetUploader:
         self.drive_service = build('drive', 'v3', credentials=credentials)
         self.folder_id = folder_id
 
-    def create_spreadsheet(self, name: str, timezone: str = 'UTC') -> Dict[str, Any]:
+    def create_spreadsheet(self, name: str, timezone: str = 'UTC') -> Dict[str, str]:
         """
         新しいスプレッドシートを作成
         
@@ -57,7 +58,7 @@ class GoogleSheetUploader:
             timezone: タイムゾーン
             
         Returns:
-            作成されたスプレッドシートの情報
+            Dict[str, str]: 作成されたスプレッドシートの情報（id, name, urlを含む）
         """
         try:
             spreadsheet = self.sheets_service.spreadsheets().create(
@@ -86,12 +87,12 @@ class GoogleSheetUploader:
             print(f"スプレッドシートの作成に失敗しました: {error}")
             raise
 
-    def get_latest_file(self) -> Optional[Dict[str, Any]]:
+    def get_latest_file(self) -> Optional[Dict[str, str]]:
         """
         'latest'という名前のスプレッドシートを検索
         
         Returns:
-            スプレッドシートの情報（見つからない場合はNone）
+            Optional[Dict[str, str]]: スプレッドシートの情報（id, name, urlを含む）（見つからない場合はNone）
         """
         try:
             results = self.drive_service.files().list(
@@ -112,7 +113,7 @@ class GoogleSheetUploader:
             print(f"最新ファイルの検索に失敗しました: {error}")
             return None
 
-    def copy_spreadsheet(self, file_id: str, new_name: str) -> Dict[str, Any]:
+    def copy_spreadsheet(self, file_id: str, new_name: str) -> Dict[str, str]:
         """
         スプレッドシートをコピー
         
@@ -121,7 +122,7 @@ class GoogleSheetUploader:
             new_name: 新しいスプレッドシートの名前
             
         Returns:
-            コピーされたスプレッドシートの情報
+            Dict[str, str]: コピーされたスプレッドシートの情報（id, name, urlを含む）
         """
         try:
             copied_file = self.drive_service.files().copy(
@@ -294,7 +295,7 @@ class GoogleSheetUploader:
                 print(f"バッチ更新に失敗しました: {error}")
                 raise
 
-    def upload_json_to_sheet(self, json_file: str, spreadsheet_id: str, sheet_name: str) -> int:
+    def upload_json_to_sheet(self, json_file: Union[str, Path], spreadsheet_id: str, sheet_name: str) -> int:
         """
         JSONファイルのデータをシートにアップロード
         
@@ -304,7 +305,7 @@ class GoogleSheetUploader:
             sheet_name: シート名
             
         Returns:
-            アップロードされたメッセージ数
+            int: アップロードされたメッセージ数
         """
         with open(json_file, 'r', encoding='utf-8') as f:
             messages = json.load(f)
@@ -350,19 +351,24 @@ class GoogleSheetUploader:
         
         return len(messages)
 
-    def upload_from_directory(self, json_dir: str, timezone: str = 'Asia/Tokyo', 
-                             use_latest_file: bool = False, backup_with_date: bool = False) -> Dict[str, Any]:
+    def upload_from_directory(
+        self, 
+        json_dir: Union[str, Path], 
+        timezone_str: str = 'Asia/Tokyo', 
+        use_latest_file: bool = False, 
+        backup_with_date: bool = False
+    ) -> Dict[str, Any]:
         """
         ディレクトリ内のJSONファイルをGoogle Spreadsheetにアップロード
         
         Args:
             json_dir: JSONファイルのディレクトリ
-            timezone: タイムゾーン
+            timezone_str: タイムゾーン名
             use_latest_file: 'latest'という名前のファイルを使用するかどうか
             backup_with_date: 日付付きのバックアップを作成するかどうか
             
         Returns:
-            アップロード結果の概要
+            Dict[str, Any]: アップロード結果の概要（スプレッドシート情報、メッセージ数等を含む）
         """
         summary_file = os.path.join(json_dir, "summary.json")
         if not os.path.exists(summary_file):
@@ -391,7 +397,7 @@ class GoogleSheetUploader:
                     backup_info = self.copy_spreadsheet(spreadsheet_info['id'], backup_name)
                     print(f"バックアップを作成しました: {backup_info['url']}")
             else:
-                spreadsheet_info = self.create_spreadsheet('latest', timezone)
+                spreadsheet_info = self.create_spreadsheet('latest', timezone_str)
                 print(f"新しい'latest'ファイルを作成しました: {spreadsheet_info['url']}")
         else:
             if period_start and period_end:
@@ -404,7 +410,7 @@ class GoogleSheetUploader:
             else:
                 sheet_name = f"slack-log-{date_str}"
             
-            spreadsheet_info = self.create_spreadsheet(sheet_name, timezone)
+            spreadsheet_info = self.create_spreadsheet(sheet_name, timezone_str)
             print(f"新しいスプレッドシートを作成しました: {spreadsheet_info['url']}")
         
         total_messages = 0
@@ -438,7 +444,7 @@ class GoogleSheetUploader:
         return result
 
 
-def main():
+def main() -> int:
     """メイン関数"""
     parser = argparse.ArgumentParser(description='JSONファイルからGoogle Spreadsheetにデータをアップロードするツール')
     parser.add_argument('--client-email', help='Google Service Accountのメールアドレス', 
@@ -480,7 +486,7 @@ def main():
     
     uploader.upload_from_directory(
         json_dir=args.json_dir,
-        timezone=args.timezone,
+        timezone_str=args.timezone,
         use_latest_file=args.use_latest_file,
         backup_with_date=args.backup_with_date
     )
