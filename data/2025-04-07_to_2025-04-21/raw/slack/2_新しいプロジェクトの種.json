@@ -1,0 +1,3596 @@
+[
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744080989.913369",
+    "client_msg_id": "1D394434-CA9D-4444-AEBA-3F9733441F36",
+    "text": "こんなのがあったのか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uYxiJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんなのがあったのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "こんなのがあったのか"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744081158.526819",
+    "client_msg_id": "10421B27-5D1D-40BF-BFF4-CFA45D5C34BD",
+    "text": "<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149>\nリンク",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149",
+        "ts": "1744023205.963149",
+        "msg_subtype": "thread_broadcast",
+        "author_id": "U08JPUZRT40",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1744023205.963149",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "EQCnG",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://v0-digital-democracy-platform-fcux2z.vercel.app/"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n---\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "仮説",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "多くの人々は最初から明確な政治的意見を持っているわけではない"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "どう改善するか",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "政党の政策に対して市民が直接編集提案や意見表明ができる"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各政策に対して編集提案"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "関連提案を表示。他の市民からの提案も表示"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "市民の政治参加の二つの形態",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "既存政策への賛否表明（投票）",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "新たな意見の提示",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "結論",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F08MQ8ZRKSL",
+            "created": 1744023179,
+            "timestamp": 1744023179,
+            "name": "5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "title": "5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 475888,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08MQ8ZRKSL/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08MQ8ZRKSL/download/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 263,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 350,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 525,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 583,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 700,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08MQ8ZRKSL-7ee563ae35/5e3e727c-c0d7-454f-84b9-e60112350527_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 747,
+            "original_w": 2394,
+            "original_h": 1746,
+            "thumb_tiny": "AwAjADC/8oOOPzpQRngin4FGBQA3ePUfnShs9MfnUF1MYtoUcnvS2splU7hgigV1exP+FH4UUUDG45PBpRwOhppLZ6frSj8KAB0WQYYUIioMKMClx7CjHsKdwFopMfSlpARsBuPX86eAMdKa3WnjpQIMD0pMD0FLRQMMD0qK4JEXBI5HSpaiuf8AVfiKa3E9j//Z",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08MQ8ZRKSL/5e3e727c-c0d7-454f-84b9-e60112350527.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08MQ8ZRKSL-e66a5721c2",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M4SSKCFM",
+            "created": 1744023184,
+            "timestamp": 1744023184,
+            "name": "b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "title": "b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 242405,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M4SSKCFM/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M4SSKCFM/download/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 152,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 202,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 303,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 337,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 404,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M4SSKCFM-53c298f7af/b1c5f662-21ba-44a5-8c85-e402cbd099d7_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 431,
+            "original_w": 2422,
+            "original_h": 1020,
+            "thumb_tiny": "AwAUADC87qHIPmfgDTfNTP8Ay1/75NTHr2paeghPujJPFNMgHQE/QU+mKHGdzZ/CkMUOCPSnUwB9+d3y+mKfQAYooooAKKKKACiiigD/2Q==",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M4SSKCFM/b1c5f662-21ba-44a5-8c85-e402cbd099d7.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M4SSKCFM-903c3fbb48",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08LMGQSTRD",
+            "created": 1744023189,
+            "timestamp": 1744023189,
+            "name": "4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "title": "4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 623397,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08LMGQSTRD/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08LMGQSTRD/download/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 260,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 347,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 520,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 578,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 694,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LMGQSTRD-8f7b1dae33/4ccf78c4-251e-42c5-831c-ab8381603647_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 740,
+            "original_w": 2410,
+            "original_h": 1742,
+            "thumb_tiny": "AwAiADDRyoPUfnS8CjgGkckAYoAd1opm73H40oz6rQA4kAZJxTGVJRg8gehpx6UZx6nNAC4pknQU4ZyaRwTjFADVBHpingjHUfnTcf5wKdgf3aAEd1RdzEAUwTxHA3jJqQnAzgn2oH0p6ALTX7fWnU1+g+tIB1FFFACN0paRulLQB//Z",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08LMGQSTRD/4ccf78c4-251e-42c5-831c-ab8381603647.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08LMGQSTRD-c92057a6ee",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M02LMZJR",
+            "created": 1744023193,
+            "timestamp": 1744023193,
+            "name": "835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "title": "835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 620673,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LMZJR/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LMZJR/download/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 244,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 325,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 487,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 542,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 650,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LMZJR-72c9b86d54/835c6708-69e2-427d-bdc8-1b6c008a7e02_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 693,
+            "original_w": 2470,
+            "original_h": 1672,
+            "thumb_tiny": "AwAgADDR3HJ+X9aUHnnA/GjjOO9Hy+v60ALRScev60ZHrn8aAFoNJk+ho59KAGt97oDR8wP3RQ2d1Jg/SgB/ze1BzjnFNpQB6A0AGDS9qTYD/wDrpcADFAH/2Q==",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M02LMZJR/835c6708-69e2-427d-bdc8-1b6c008a7e02.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M02LMZJR-daa8fdcb05",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F08M02LH18D",
+            "created": 1744023198,
+            "timestamp": 1744023198,
+            "name": "7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "title": "7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08JPUZRT40",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 437795,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LH18D/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08M02LH18D/download/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_360.png",
+            "thumb_360_w": 235,
+            "thumb_360_h": 360,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_480.png",
+            "thumb_480_w": 313,
+            "thumb_480_h": 480,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08M02LH18D-a33df3d635/7270cd0d-1ab3-4d8e-b547-99b16143b4ed_720.png",
+            "thumb_720_w": 469,
+            "thumb_720_h": 720,
+            "original_w": 472,
+            "original_h": 724,
+            "thumb_tiny": "AwAwAB+RadTVp9ACY5qO5XNuw+lTYoK7lI9aAGLUgqNakGKAFoFFKKAIRUoqNRUgoAKUUYoA5oA//9k=",
+            "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08M02LH18D/7270cd0d-1ab3-4d8e-b547-99b16143b4ed.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F08M02LH18D-d7dabe42e5",
+            "comments_count": 0,
+            "is_starred": false,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&amp;channel=C08FF5MM59C&amp;message_ts=1744023205.963149",
+        "fallback": "[April 7th, 2025 3:53 AM] takagishunsuke1129: 昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n<https://v0-digital-democracy-platform-fcux2z.vercel.app/>\n---\n\n*仮説*\n• 多くの人々は最初から明確な政治的意見を持っているわけではない\n• むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する\n• その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用\n*どう改善するか*\n• 政党の政策に対して市民が直接編集提案や意見表明ができる\n• 各政策に対して編集提案\n    ◦ 関連提案を表示。他の市民からの提案も表示\n*市民の政治参加の二つの形態*\n1. *既存政策への賛否表明（投票）*：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。\n2. *新たな意見の提示*：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n*結論*\n*「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。*\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。",
+        "text": "昨日はありがとうございました！勝手に自分の中でどういう形で民主主義があるべきなのかを考えつつ、スケッチとして作ってみました。\n<https://v0-digital-democracy-platform-fcux2z.vercel.app/>\n---\n\n*仮説*\n• 多くの人々は最初から明確な政治的意見を持っているわけではない\n• むしろ、既存の意見や政策の中から自分が共感できるものを探し、それに賛同する\n• その結果、このUIでは政党のマニフェストや政策、他の市民の意見を簡単に閲覧・比較できる構造を採用\n*どう改善するか*\n• 政党の政策に対して市民が直接編集提案や意見表明ができる\n• 各政策に対して編集提案\n    ◦ 関連提案を表示。他の市民からの提案も表示\n*市民の政治参加の二つの形態*\n1. *既存政策への賛否表明（投票）*：政策詳細ページの「賛成」「反対」ボタンや、政党詳細ページの「支持する」ボタンがこれに該当します。\n2. *新たな意見の提示*：既存の政策に対する編集提案や、全く新しい政策提言の投稿がこれに該当します。\nこれらの行動は、UIにおいて同等の重要性を持つように設計されています。ホームページでは「政党を探す」（既存政策への賛否）と「政策提言を見る・書く」（新たな意見の提示）が同列に配置され、どちらの行動も同じく重要であることを示しています。\n\n*結論*\n*「自分で一から意見を形成する」というよりも、「既存の意見の中から自分に合うものを見つけ、必要に応じて修正・追加する」という、より現実的な市民参加のモデルを元に設計してみました。*\n\n政党という枠組みが存在する限り、市民の政治参加は政党の政策に対する反応という形を取りますが、このプラットフォームでは、その反応が単なる賛否を超えて、建設的な提案や新たな視点の提供にまで拡張されることを目指しています。",
+        "author_name": "Shunsuke Takagi (taka)",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08JPUZRT40",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8635986184000_d829112023f12461d996_48.png",
+        "author_subname": "Shunsuke Takagi (taka)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3tr+N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149",
+                "text": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149"
+              },
+              {
+                "type": "text",
+                "text": "\nリンク"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744023205963149?thread_ts=1743594843.938879&channel=C08FF5MM59C&message_ts=1744023205.963149>\nリンク"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744119191.330449",
+    "text": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n7rYo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "discourse見てると、玉石混合の提案が入り混じってるので将来的にシビル攻撃されることも見越すと、何かしらのフィルターは必要そう"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1744119229.867719",
+    "text": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X3pD5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "これを市場でできるのではないかと思っている。Redditのupvoteとかもその1つな気がするが、どうにかアイデンティティのステーキングでできないかな"
+  },
+  {
+    "text": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな",
+    "files": [
+      {
+        "id": "F08LZ5B6WTZ",
+        "created": 1744187494,
+        "timestamp": 1744187494,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 60155,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08LZ5B6WTZ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08LZ5B6WTZ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 170,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 226,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08LZ5B6WTZ-093a2f99d9/image_160.png",
+        "original_w": 600,
+        "original_h": 283,
+        "thumb_tiny": "AwAWADDQK49fzNJjjgH/AL6NLuOcHbn60ZH+z+dADcYPAOf9404HGeP1NJxx9386eNtAACSOlLTQFOcY96UADtQAEZowf8mlooATB/yaMH2/OlooATb69frS0UUAf//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08G2A216TW/F08LZ5B6WTZ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08LZ5B6WTZ-521bb85ee6",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JaL5u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1744187534.496779",
+    "client_msg_id": "dbeb4da9-5622-4ae7-a76f-457931fb4db2",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08J8NCNYL8"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "この数値は嘘なんだけど、そのチャンネルで話すことに向いていたけど他のチャンネルで話されてたものがカウントされてるんだな"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744602356.636819",
+    "client_msg_id": "c44c7e1c-3ef5-4a49-9507-f4be33dc10ca",
+    "text": "先日のミートアップにて、学生側からデジタル民主主義の認知を広めるための活動をしたい旨の発表をしました！高橋と申しますー！:muscle:\n\n改めて、こちらご協力いただける方を大大大募集しております！！:pray::pray::pray:\n「興味はあるけど…」という方も、ぜひ<https://w1740803485-clv347541.slack.com/archives/C08N2C1RUTE|チャンネル> をチラチラ覗くだけでもめちゃくちゃ嬉しいです！:eyes:（ついでにリアクションもくださいw）\n少しでも興味ある方いればお気軽にリプなどくださいー！\n\nとにかく小規模でも、まずは実績を作るところからスタートできればと思っていますので、ぜひよろしくお願いいたしますー！:bow:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744602356.636819",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1744615514.179909",
+    "reply_users": [
+      "U08M95GEVBM",
+      "U08MG09M5FH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gHknz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先日のミートアップにて、学生側からデジタル民主主義の認知を広めるための活動をしたい旨の発表をしました！高橋と申しますー！"
+              },
+              {
+                "type": "emoji",
+                "name": "muscle",
+                "unicode": "1f4aa"
+              },
+              {
+                "type": "text",
+                "text": "\n\n改めて、こちらご協力いただける方を大大大募集しております！！"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "\n「興味はあるけど…」という方も、ぜひ"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08N2C1RUTE",
+                "text": "チャンネル"
+              },
+              {
+                "type": "text",
+                "text": " をチラチラ覗くだけでもめちゃくちゃ嬉しいです！"
+              },
+              {
+                "type": "emoji",
+                "name": "eyes",
+                "unicode": "1f440"
+              },
+              {
+                "type": "text",
+                "text": "（ついでにリアクションもくださいw）\n少しでも興味ある方いればお気軽にリプなどくださいー！\n\nとにかく小規模でも、まずは実績を作るところからスタートできればと思っていますので、ぜひよろしくお願いいたしますー！"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08M95GEVBM",
+          "U08J8NCNYL8"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "takahashiTakashi",
+    "text_readable": "先日のミートアップにて、学生側からデジタル民主主義の認知を広めるための活動をしたい旨の発表をしました！高橋と申しますー！:muscle:\n\n改めて、こちらご協力いただける方を大大大募集しております！！:pray::pray::pray:\n「興味はあるけど…」という方も、ぜひ<https://w1740803485-clv347541.slack.com/archives/C08N2C1RUTE|チャンネル> をチラチラ覗くだけでもめちゃくちゃ嬉しいです！:eyes:（ついでにリアクションもくださいw）\n少しでも興味ある方いればお気軽にリプなどくださいー！\n\nとにかく小規模でも、まずは実績を作るところからスタートできればと思っていますので、ぜひよろしくお願いいたしますー！:bow:"
+  },
+  {
+    "user": "U08M95GEVBM",
+    "type": "message",
+    "ts": "1744615384.871609",
+    "client_msg_id": "c6d07119-378e-4505-9715-685f6aba0c80",
+    "text": "一応書き込んでみましたが学生じゃなくてよかったかしら。\nおっさん臭くなって困るとかあったら消しときますので連絡ください",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744602356.636819",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M5hF2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応書き込んでみましたが学生じゃなくてよかったかしら。\nおっさん臭くなって困るとかあったら消しときますので連絡ください"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744602356.636819",
+    "user_name": "山岡木太郎",
+    "text_readable": "一応書き込んでみましたが学生じゃなくてよかったかしら。\nおっさん臭くなって困るとかあったら消しときますので連絡ください"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744615514.179909",
+    "client_msg_id": "157c419f-23c2-403a-8263-458e8698b904",
+    "text": "<@U08M95GEVBM>とんでもないです！！むしろありがたい:pray::pray::pray::pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744602356.636819",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QcMqJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08M95GEVBM"
+              },
+              {
+                "type": "text",
+                "text": "とんでもないです！！むしろありがたい"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744602356.636819",
+    "user_name": "takahashiTakashi",
+    "text_readable": "@takeroku2008とんでもないです！！むしろありがたい:pray::pray::pray::pray:"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744620089.775249",
+    "edited": {
+      "user": "U08MG09M5FH",
+      "ts": "1744629161.000000"
+    },
+    "client_msg_id": "ed6decdb-447a-478d-bd91-fa8b3ba12a9b",
+    "text": "私個人では判断しかねるので皆さんに意見をいただきたいです！！\n\n件の「学生のためのデジタル民主主義（仮）」についてですが、私が日本大学の学生ということもあり、まずは日大でイベント主催するつもりです！\nそれに関連して、可能なら<https://www.nihon-u.ac.jp/students_first/cooperation/|日大の補助金>を申請したいと考えています！\nしかし、~あらゆる団体との中立~\n→政治的な中立を謳っている以上、補助金をいただくこと自体が問題なのかどうか判断しきれません！皆さんの意見をください:bow::bow::bow:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "reply_count": 9,
+    "reply_users_count": 4,
+    "latest_reply": "1744693916.954589",
+    "reply_users": [
+      "U08MG09M5FH",
+      "U08HZ8JS0EQ",
+      "U08M95GEVBM",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TaEOf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私個人では判断しかねるので皆さんに意見をいただきたいです！！\n\n件の「学生のためのデジタル民主主義（仮）」についてですが、私が日本大学の学生ということもあり、まずは日大でイベント主催するつもりです！\nそれに関連して、可能なら"
+              },
+              {
+                "type": "link",
+                "url": "https://www.nihon-u.ac.jp/students_first/cooperation/",
+                "text": "日大の補助金"
+              },
+              {
+                "type": "text",
+                "text": "を申請したいと考えています！\nしかし、"
+              },
+              {
+                "type": "text",
+                "text": "あらゆる団体との中立",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n→政治的な中立を謳っている以上、補助金をいただくこと自体が問題なのかどうか判断しきれません！皆さんの意見をください"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "takahashiTakashi",
+    "text_readable": "私個人では判断しかねるので皆さんに意見をいただきたいです！！\n\n件の「学生のためのデジタル民主主義（仮）」についてですが、私が日本大学の学生ということもあり、まずは日大でイベント主催するつもりです！\nそれに関連して、可能なら<https://www.nihon-u.ac.jp/students_first/cooperation/|日大の補助金>を申請したいと考えています！\nしかし、~あらゆる団体との中立~\n→政治的な中立を謳っている以上、補助金をいただくこと自体が問題なのかどうか判断しきれません！皆さんの意見をください:bow::bow::bow:"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744620194.387819",
+    "client_msg_id": "8bd08daf-df23-4bf2-9258-a3ed2edd110b",
+    "text": "一応、イベントを主催する主体を私個人とすれば問題ないんじゃないかと勝手に考えていますが、正直わからんというのが本音です:innocent:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ybAuq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応、イベントを主催する主体を私個人とすれば問題ないんじゃないかと勝手に考えていますが、正直わからんというのが本音です"
+              },
+              {
+                "type": "emoji",
+                "name": "innocent",
+                "unicode": "1f607"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "takahashiTakashi",
+    "text_readable": "一応、イベントを主催する主体を私個人とすれば問題ないんじゃないかと勝手に考えていますが、正直わからんというのが本音です:innocent:"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1744620526.793829",
+    "client_msg_id": "c11e8461-be61-4ced-84dc-1b8872d60885",
+    "text": "お金(今回は補助金)をもらうこと自体は、運用する上で必須だと思います。\n\nただ、中立性を失わないためには(政治資金透明化ではありませんが、)補助金の出どころや用途の透明性が必要ではないでしょうか。\n\n資金や活動といった情報を公開しつつ、活動が補助元に左右されていないことを示す努力さえすれば問題ないかな～と...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MggH8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お金(今回は補助金)をもらうこと自体は、運用する上で必須だと思います。\n\nただ、中立性を失わないためには(政治資金透明化ではありませんが、)補助金の出どころや用途の透明性が必要ではないでしょうか。\n\n資金や活動といった情報を公開しつつ、活動が補助元に左右されていないことを示す努力さえすれば問題ないかな～と..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tasikani",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "今井 竜也",
+    "text_readable": "お金(今回は補助金)をもらうこと自体は、運用する上で必須だと思います。\n\nただ、中立性を失わないためには(政治資金透明化ではありませんが、)補助金の出どころや用途の透明性が必要ではないでしょうか。\n\n資金や活動といった情報を公開しつつ、活動が補助元に左右されていないことを示す努力さえすれば問題ないかな～と..."
+  },
+  {
+    "user": "U08M95GEVBM",
+    "type": "message",
+    "ts": "1744622189.006969",
+    "client_msg_id": "edb9644d-005d-440d-85b0-3e35618db3f7",
+    "text": "chat-gptにもろもろ聞いてみたところ問題なさそうな見解でしたが、\n私も確証を与えられるほどでは。。。\n<https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "attachments": [
+      {
+        "image_url": "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
+        "image_width": 1600,
+        "image_height": 900,
+        "image_bytes": 8652,
+        "from_url": "https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0",
+        "service_icon": "https://cdn.oaistatic.com/assets/favicon-180x180-od45eci6.webp",
+        "id": 1,
+        "original_url": "https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0",
+        "fallback": "ChatGPT: ChatGPT - 大学補助金と中立性",
+        "text": "Shared via ChatGPT",
+        "title": "ChatGPT - 大学補助金と中立性",
+        "title_link": "https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0",
+        "service_name": "ChatGPT"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nmC2s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "chat-gptにもろもろ聞いてみたところ問題なさそうな見解でしたが、\n私も確証を与えられるほどでは。。。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "山岡木太郎",
+    "text_readable": "chat-gptにもろもろ聞いてみたところ問題なさそうな見解でしたが、\n私も確証を与えられるほどでは。。。\n<https://chatgpt.com/share/67fccf72-9628-8012-a348-faacb247b3b0>"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744625445.786479",
+    "client_msg_id": "cf6dbedd-6518-4d25-9ec6-68e5f4dbbc11",
+    "text": "私も<https://g.co/gemini/share/b787e0034767|GeminiにDeepRecerch> させました！\nまだ確認できてませんが、帰ったら問題になりそうな点などGoogleDocumentにまとめてみます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "attachments": [
+      {
+        "image_url": "https://www.gstatic.com/lamda/images/gemini_thumbnail_c362e5eadc46ca9f617e2.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 39948,
+        "from_url": "https://g.co/gemini/share/b787e0034767",
+        "service_icon": "https://www.gstatic.com/lamda/images/gemini_home_icon_8d62f72e7aae54b6859f1.png",
+        "id": 1,
+        "original_url": "https://g.co/gemini/share/b787e0034767",
+        "fallback": "Gemini: ‎Gemini - 日大補助金とデジタル民主主義",
+        "text": "Created with Gemini Advanced",
+        "title": "‎Gemini - 日大補助金とデジタル民主主義",
+        "title_link": "https://g.co/gemini/share/b787e0034767",
+        "service_name": "Gemini"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iFsnV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私も"
+              },
+              {
+                "type": "link",
+                "url": "https://g.co/gemini/share/b787e0034767",
+                "text": "GeminiにDeepRecerch"
+              },
+              {
+                "type": "text",
+                "text": " させました！\nまだ確認できてませんが、帰ったら問題になりそうな点などGoogleDocumentにまとめてみます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08M95GEVBM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "takahashiTakashi",
+    "text_readable": "私も<https://g.co/gemini/share/b787e0034767|GeminiにDeepRecerch> させました！\nまだ確認できてませんが、帰ったら問題になりそうな点などGoogleDocumentにまとめてみます"
+  },
+  {
+    "user": "U08M95GEVBM",
+    "type": "message",
+    "ts": "1744628192.404359",
+    "client_msg_id": "98102724-706d-48f6-8add-c7d26d83e992",
+    "text": "「あらゆる団体との中立」が実はちょっと気になっていまして。\nどこから来た話でしょ？\n「はじめに読んでね」あたりにあるのは政治的中立という\nやつまでよさそうにみえたので。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+sw3G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「あらゆる団体との中立」が実はちょっと気になっていまして。\nどこから来た話でしょ？\n「はじめに読んでね」あたりにあるのは政治的中立という\nやつまでよさそうにみえたので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "山岡木太郎",
+    "text_readable": "「あらゆる団体との中立」が実はちょっと気になっていまして。\nどこから来た話でしょ？\n「はじめに読んでね」あたりにあるのは政治的中立という\nやつまでよさそうにみえたので。"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744628295.760669",
+    "client_msg_id": "265da42b-457f-443e-808d-296ff4356e98",
+    "text": "<@U08M95GEVBM> おっしゃる通り、記憶から引っ張り出した言葉なのでどこかから引用したわけではないです！\nありがとうございます:bow:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GbsYh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08M95GEVBM"
+              },
+              {
+                "type": "text",
+                "text": " おっしゃる通り、記憶から引っ張り出した言葉なのでどこかから引用したわけではないです！\nありがとうございます"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "takahashiTakashi",
+    "text_readable": "@takeroku2008 おっしゃる通り、記憶から引っ張り出した言葉なのでどこかから引用したわけではないです！\nありがとうございます:bow:"
+  },
+  {
+    "user": "U08M95GEVBM",
+    "type": "message",
+    "ts": "1744629729.296709",
+    "client_msg_id": "14f95f8b-9878-4a4b-a874-8b34fcae33c1",
+    "text": "なるほど承知です。\n私も詳しい訳ではないのでどちらとも分からずです。\nちなみに私も先週入ったばかりなので…\n何なら同期！\n:man-bowing:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+hAGD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど承知です。\n私も詳しい訳ではないのでどちらとも分からずです。\nちなみに私も先週入ったばかりなので…\n何なら同期！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "kannsyakanngeki",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "bow",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "山岡木太郎",
+    "text_readable": "なるほど承知です。\n私も詳しい訳ではないのでどちらとも分からずです。\nちなみに私も先週入ったばかりなので…\n何なら同期！\n:man-bowing:"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744646744.462139",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1744694101.000000"
+    },
+    "client_msg_id": "ED2B5AC1-EFB8-43F5-8952-F63BD53E4360",
+    "text": "むしろこの補助金の性質的に「日大生のやりたいことを補助する」というものですから、主催者が「デジタル民主主義2030」ではなく高橋さんである必要があるように思います。\n行うイベントの内容がある程度決まったらデジタル民主主義2030に対して後援依頼をして、ボードメンバーが後援して良いかどうかを意思決定する、という形になるかなと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kUeui",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "むしろこの補助金の性質的に「日大生のやりたいことを補助する」というものですから、主催者が「デジタル民主主義2030」ではなく高橋さんである必要があるように思います。\n行うイベントの内容がある程度決まったらデジタル民主主義2030に対して後援依頼をして、ボードメンバーが"
+              },
+              {
+                "type": "text",
+                "text": "後援"
+              },
+              {
+                "type": "text",
+                "text": "して良いかどうかを意思決定する、という形になるかなと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08GJSBAX3K",
+          "U08HV1H5HKK"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "bow",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "kannsyakanngeki",
+        "users": [
+          "U08MG09M5FH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "むしろこの補助金の性質的に「日大生のやりたいことを補助する」というものですから、主催者が「デジタル民主主義2030」ではなく高橋さんである必要があるように思います。\n行うイベントの内容がある程度決まったらデジタル民主主義2030に対して後援依頼をして、ボードメンバーが後援して良いかどうかを意思決定する、という形になるかなと思います。"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1744693916.954589",
+    "client_msg_id": "e9c886cb-bf46-4f65-95f9-0e265120cf66",
+    "text": "<@U08G2A216TW>ありがとうございます！！\n細かい文面など確認はしますが、おおまかにはその方向で調整していきます！:saluting_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744620089.775249",
+    "parent_user_id": "U08MG09M5FH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oNT09",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "ありがとうございます！！\n細かい文面など確認はしますが、おおまかにはその方向で調整していきます！"
+              },
+              {
+                "type": "emoji",
+                "name": "saluting_face",
+                "unicode": "1fae1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744620089.775249",
+    "user_name": "takahashiTakashi",
+    "text_readable": "@nishio.hirokazuありがとうございます！！\n細かい文面など確認はしますが、おおまかにはその方向で調整していきます！:saluting_face:"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744705040.489079",
+    "client_msg_id": "00B5B7B1-5BD3-4635-8D75-5228782BCC0C",
+    "text": "長期的観点でのより良いデジタル民主主義の議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&amp;channel=C08FF5MM59C&amp;message_ts=1744693584.226509|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&amp;channel=C08FF5MM59C&amp;message_ts=1744693584.226509>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744705040.489079",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1745044620.752949",
+    "reply_users": [
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&amp;channel=C08FF5MM59C&amp;message_ts=1744693584.226509",
+        "ts": "1744693584.226509",
+        "author_id": "U08LQ25DPAB",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1744693584.226509",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "91xDN",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ロジックツリーに関連してこんなことが気になっています。\n今はスコープ外とか、前提が違うとかでしたらすみません。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&amp;channel=C08FF5MM59C&amp;message_ts=1744693584.226509",
+        "fallback": "[April 14th, 2025 10:06 PM] masatosasano2: ロジックツリーに関連してこんなことが気になっています。\n今はスコープ外とか、前提が違うとかでしたらすみません。",
+        "text": "ロジックツリーに関連してこんなことが気になっています。\n今はスコープ外とか、前提が違うとかでしたらすみません。",
+        "author_name": "masato sasano",
+        "author_link": "https://w1740803485-clv347541.slack.com/team/U08LQ25DPAB",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-07/8704073704119_b9f990abdcfe59254f8c_48.png",
+        "author_subname": "masato sasano",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QtA/i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "長期的観点でのより良いデジタル民主主義の議論\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&channel=C08FF5MM59C&message_ts=1744693584.226509",
+                "text": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&channel=C08FF5MM59C&message_ts=1744693584.226509"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-sign-thx",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "長期的観点でのより良いデジタル民主主義の議論\n<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&channel=C08FF5MM59C&message_ts=1744693584.226509|https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1744693584226509?thread_ts=1744690291.688899&channel=C08FF5MM59C&message_ts=1744693584.226509>"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1745044610.808489",
+    "client_msg_id": "55551c0e-9c57-4ce1-b25a-c7889276681a",
+    "text": "ポエムです\n\n都知事選直後に安野さんがGenron Cafeに参加されたときに、東浩紀さんとこんな議論があったように記憶しています。\n東さん「主張は理解したが、政治課題はロジックだけで解決せず、価値判断がどうしても入る。だから安野さん個人の価値観を知りたい。」\n安野さん「価値判断が必要になることもあるだろうが、選挙プロセスや自治体行政においては価値にあまり依存しない効率化や最適化問題がまだ多く残されており、そちらを解決することによるインパクトが大きい。そのため、特定の価値観に依存しない情報発信を心がけている。」\n\n今のフェーズはこれでいいのでしょうが、すでに主要な国政政党の多くが参加を表明している以上、価値判断の取り扱いはこれから重要性を増していくんだろうと予想します。\n\n様々な価値観やフレーミングとそこから導かれる要望や解決策たちを、なめらかに、もしくは複層的・多次元的に表現するなんてことができるようになれば、デジタル民主主義2030は、民意の収集と反映の速度と精度を大幅に上げるのみならず、人間の認知の限界に起因する世界モデルの単純化に抗い、本来のより複雑で豊かな世界により近いモデルと人間社会が向き合うための不可欠なOSになるかもしれません。\n\nということで、このテーマについては少しずつ考えていこうと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744705040.489079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BXDX0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ポエムです\n\n都知事選直後に安野さんがGenron Cafeに参加されたときに、東浩紀さんとこんな議論があったように記憶しています。\n東さん「主張は理解したが、政治課題はロジックだけで解決せず、価値判断がどうしても入る。だから安野さん個人の価値観を知りたい。」\n安野さん「価値判断が必要になることもあるだろうが、選挙プロセスや自治体行政においては価値にあまり依存しない効率化や最適化問題がまだ多く残されており、そちらを解決することによるインパクトが大きい。そのため、特定の価値観に依存しない情報発信を心がけている。」\n\n今のフェーズはこれでいいのでしょうが、すでに主要な国政政党の多くが参加を表明している以上、価値判断の取り扱いはこれから重要性を増していくんだろうと予想します。\n\n様々な価値観やフレーミングとそこから導かれる要望や解決策たちを、なめらかに、もしくは複層的・多次元的に表現するなんてことができるようになれば、デジタル民主主義2030は、民意の収集と反映の速度と精度を大幅に上げるのみならず、人間の認知の限界に起因する世界モデルの単純化に抗い、本来のより複雑で豊かな世界により近いモデルと人間社会が向き合うための不可欠なOSになるかもしれません。\n\nということで、このテーマについては少しずつ考えていこうと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744705040.489079",
+    "user_name": "masato sasano",
+    "text_readable": "ポエムです\n\n都知事選直後に安野さんがGenron Cafeに参加されたときに、東浩紀さんとこんな議論があったように記憶しています。\n東さん「主張は理解したが、政治課題はロジックだけで解決せず、価値判断がどうしても入る。だから安野さん個人の価値観を知りたい。」\n安野さん「価値判断が必要になることもあるだろうが、選挙プロセスや自治体行政においては価値にあまり依存しない効率化や最適化問題がまだ多く残されており、そちらを解決することによるインパクトが大きい。そのため、特定の価値観に依存しない情報発信を心がけている。」\n\n今のフェーズはこれでいいのでしょうが、すでに主要な国政政党の多くが参加を表明している以上、価値判断の取り扱いはこれから重要性を増していくんだろうと予想します。\n\n様々な価値観やフレーミングとそこから導かれる要望や解決策たちを、なめらかに、もしくは複層的・多次元的に表現するなんてことができるようになれば、デジタル民主主義2030は、民意の収集と反映の速度と精度を大幅に上げるのみならず、人間の認知の限界に起因する世界モデルの単純化に抗い、本来のより複雑で豊かな世界により近いモデルと人間社会が向き合うための不可欠なOSになるかもしれません。\n\nということで、このテーマについては少しずつ考えていこうと思います。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1745044620.752949",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1745083927.000000"
+    },
+    "client_msg_id": "a40452c8-09a3-4d83-a856-b0d99da47678",
+    "text": "うっすら考えている具体策（随時更新予定）\n*<https://docs.google.com/presentation/d/1iqPKBM-joduqeycCJonEFhJd6ZMZjLzTx278Ae8u4tY/edit?usp=sharing|デジタル民主主義2030_ロジックツリーの複層化案>*",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1744705040.489079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X8aj6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うっすら考えている具体策（随時更新予定）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/presentation/d/1iqPKBM-joduqeycCJonEFhJd6ZMZjLzTx278Ae8u4tY/edit?usp=sharing",
+                "text": "デジタル民主主義2030_ロジックツリーの複層化案",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1744705040.489079",
+    "user_name": "masato sasano",
+    "text_readable": "うっすら考えている具体策（随時更新予定）\n*<https://docs.google.com/presentation/d/1iqPKBM-joduqeycCJonEFhJd6ZMZjLzTx278Ae8u4tY/edit?usp=sharing|デジタル民主主義2030_ロジックツリーの複層化案>*"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1744798509.527899",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1744799034.000000"
+    },
+    "client_msg_id": "ee17f87b-ccc4-4b82-87c9-11750a57bfd7",
+    "text": "4/16のweekly-reporterのメモ\n• DevinがらみのPRが人間側の情報を取れてなくて「Devin+人間」になる\n• いどばたでも広聴AIのpromptが使われてちょっと混乱している\n• Githubからのmarkdownの保存先のパスにミスがある\n• 僕の作業が必要だと僕が忙しい時にドタバタするので水曜18:00にGithubActionで走るとかにしたいな(と先週も言ってた気がするけど作る暇はなかった)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eoTKP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "4/16のweekly-reporterのメモ\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DevinがらみのPRが人間側の情報を取れてなくて「Devin+人間」になる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばたでも広聴AIのpromptが使われてちょっと混乱している"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Githubからのmarkdownの保存先のパスにミスがある"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "僕の作業が必要だと僕が忙しい時にドタバタするので水曜18:00にGithubActionで走るとかにしたいな(と先週も言ってた気がするけど作る暇はなかった)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "4/16のweekly-reporterのメモ\n• DevinがらみのPRが人間側の情報を取れてなくて「Devin+人間」になる\n• いどばたでも広聴AIのpromptが使われてちょっと混乱している\n• Githubからのmarkdownの保存先のパスにミスがある\n• 僕の作業が必要だと僕が忙しい時にドタバタするので水曜18:00にGithubActionで走るとかにしたいな(と先週も言ってた気がするけど作る暇はなかった)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1745054733.612429",
+    "client_msg_id": "B0CE2216-7F88-4316-AD52-86A1B506EA75",
+    "text": "週定例とSocial Hack Daysがぶつかると「急いで帰れば作業が間に合うかも」という気持ちになって懇親会を楽しめないことがわかったw そして結局間に合わなさそうww",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zm3o4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "週定例とSocial Hack Daysがぶつかると「急いで帰れば作業が間に合うかも」という気持ちになって懇親会を楽しめないことがわかったw そして結局間に合わなさそうww"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "週定例とSocial Hack Daysがぶつかると「急いで帰れば作業が間に合うかも」という気持ちになって懇親会を楽しめないことがわかったw そして結局間に合わなさそうww"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1745060551.563069",
+    "client_msg_id": "e5cc3535-000c-46ca-8e27-2df203a1c110",
+    "text": "20時からだと勘違いしていたが22時からだった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8SimV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "20時からだと勘違いしていたが22時からだった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "laughing",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "20時からだと勘違いしていたが22時からだった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1745061283.524449",
+    "client_msg_id": "1b5fe940-5c7f-4896-8822-e7aa4ae2d2e8",
+    "text": "しかしwebsiteのCDが死んでることが明らかになったのでやっぱり今回は間に合わせるのは無理そう、という感じ\n改善点の整理をするか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ai0A7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "しかしwebsiteのCDが死んでることが明らかになったのでやっぱり今回は間に合わせるのは無理そう、という感じ\n改善点の整理をするか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "しかしwebsiteのCDが死んでることが明らかになったのでやっぱり今回は間に合わせるのは無理そう、という感じ\n改善点の整理をするか"
+  },
+  {
+    "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc <@U08G2A216TW> <@U08GJSBAX3K>\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n• 熟議で設定された目標について、市場が「実現可能性の境界」を示す\n• 例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます\n• これにより、現実と乖離した議論や非建設的な対立が減少\nあたりを目指しています\n<https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323>",
+    "files": [
+      {
+        "id": "F08NJ7EEPNK",
+        "created": 1745225191,
+        "timestamp": 1745225191,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 509728,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 276,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 368,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 552,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 613,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 736,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 785,
+        "original_w": 1962,
+        "original_h": 1504,
+        "thumb_tiny": "AwAkADC80S7icdfelVFTO3HPvTiMnmjaPendisA9sfnSn6D86No9/wA6QqT0OPwpDAnHb8qUUmMADNKOtACFsHFLuX1pCcHFLuX1oAN6+tISCMBsfSlyP8ijNADHVSF3/NjuaEWPdlRzSuCRxSp9MUXYWHUUUUAFFFFABRRRQB//2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NJ7EEPNK/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NJ7EEPNK-55c63845d0",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08NWPLAECD",
+        "created": 1745225201,
+        "timestamp": 1745225201,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 579491,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 254,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 338,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 507,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 564,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 676,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 722,
+        "original_w": 1964,
+        "original_h": 1384,
+        "thumb_tiny": "AwAhADDQPB60uQf4iKCBnmgAGgAyMdaM+5pcD/JpGzxhgPqKAEJOARmlU+9HUDOD+FKKAEYZOaQIKVlJPWk2nsaAF2/5xSHI6KD9TSgH1pG4xlWP0oAGLbRhcn2NIpbcAUwPXNK33Bxj2NInXrRcLD6KKKACiiigBr9KRPvmlfpSJ980gP/Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPLAECD/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPLAECD-67024d07e7",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08NWPNEGMT",
+        "created": 1745225227,
+        "timestamp": 1745225227,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 241652,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_360.png",
+        "thumb_360_w": 297,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_480.png",
+        "thumb_480_w": 396,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_720.png",
+        "thumb_720_w": 594,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 970,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_960.png",
+        "thumb_960_w": 792,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_1024.png",
+        "thumb_1024_w": 844,
+        "thumb_1024_h": 1024,
+        "original_w": 1222,
+        "original_h": 1482,
+        "thumb_tiny": "AwAwACfROd1Jg57/AJ0rdz096AeOtABgjvS5pAeTzQxx3oAcDmikFLQAh60UhbB5pcigAoo4ppYgnjpQA8UUinOeMUtAEbK5fIYAe4zSqrjqwP0GKR94fKpn3zik3Sf88x/31VCH4PrSEnJ/wpoaTIzGMf71S1LQxF5FLRRQB//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPNEGMT/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPNEGMT-b625df5360",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08P36H2VA8",
+        "created": 1745225233,
+        "timestamp": 1745225233,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 213926,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_360.png",
+        "thumb_360_w": 300,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_480.png",
+        "thumb_480_w": 400,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_720.png",
+        "thumb_720_w": 600,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 959,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_960.png",
+        "thumb_960_w": 800,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_1024.png",
+        "thumb_1024_w": 854,
+        "thumb_1024_h": 1024,
+        "original_w": 1174,
+        "original_h": 1408,
+        "thumb_tiny": "AwAwACjRJOSOaTnPenEc0g3ZOcY7UAKMjqaXNJzSHdkYxigB2aKQZpaAE70tNJIPFLn60AGaWkppzu9vrQA+imruzz0p1AEbRqz5JOfY0LGqnILfiaHVy2VKge4pNsv95fyqvmIftHqaRgSeKbtm/vp+VSjpzUtDGqDnn+dOoooA/9k=",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08P36H2VA8/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08P36H2VA8-a94e8f904b",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08PMU3F396",
+        "created": 1745225239,
+        "timestamp": 1745225239,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 233311,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_360.png",
+        "thumb_360_w": 326,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_480.png",
+        "thumb_480_w": 434,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_720.png",
+        "thumb_720_w": 651,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 885,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_960.png",
+        "thumb_960_w": 868,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_1024.png",
+        "thumb_1024_w": 926,
+        "thumb_1024_h": 1024,
+        "original_w": 1192,
+        "original_h": 1318,
+        "thumb_tiny": "AwAwACvRPXg0AMB60Mobrn86AoHekAvPtR83tSFATnJ/Olx70AL+FFNVQvenUwE70fgaQk7uKMn0oAXn0o/A0U1+3GaAHUtR4OeOPwqSgCNo0Z8t1oESKcgc/Wh1kLZXbj3FJibuU/Kq17iH7RSNxjFNxN6p+VSKDtG7Gfak0MaG5/8ArU+iikB//9k=",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PMU3F396/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PMU3F396-ca4641f3c5",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08PAHUTGLR",
+        "created": 1745225248,
+        "timestamp": 1745225248,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 249402,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 225,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 300,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 451,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 501,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 601,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 641,
+        "original_w": 1646,
+        "original_h": 1030,
+        "thumb_tiny": "AwAeADDR79KX8KRhmnCgBvPYfrS49f50hznigds0ANZEY5LH8GoWNQ2QST9afgelA607sVhjRoWJIOT70nkp6H8zUmKMUXYWQnfkUZHpS45zRj3pDDI9qWiigD//2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PAHUTGLR/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PAHUTGLR-cf80af9598",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JPUZRT40",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0OyCA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "熟議で設定された目標について、市場が「実現可能性の境界」を示す"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "これにより、現実と乖離した議論や非建設的な対立が減少"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あたりを目指しています\n"
+              },
+              {
+                "type": "link",
+                "url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1745226493.873939",
+    "client_msg_id": "8434de00-780b-4648-ba3e-b0e707a6251f",
+    "thread_ts": "1745226493.873939",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1745235124.827239",
+    "reply_users": [
+      "U08JPUZRT40",
+      "U08HV1H5HKK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://claude.site/images/claude_ogimage.png",
+        "image_width": 1138,
+        "image_height": 640,
+        "image_bytes": 12257,
+        "from_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+        "service_icon": "https://claude.site/favicon.ico",
+        "id": 1,
+        "original_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+        "fallback": "Claude Artifact",
+        "text": "Try out Artifacts created by Claude users",
+        "title": "Claude Artifact",
+        "title_link": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+        "service_name": "claude.site"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "atsui",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc @nishio.hirokazu @shutaro.aoyama\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n• 熟議で設定された目標について、市場が「実現可能性の境界」を示す\n• 例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます\n• これにより、現実と乖離した議論や非建設的な対立が減少\nあたりを目指しています\n<https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323>"
+  },
+  {
+    "text": "ちなみに予測市場は気をつけないと違法ですw",
+    "files": [
+      {
+        "id": "F08NWRVFF29",
+        "created": 1745226517,
+        "timestamp": 1745226517,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 610318,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWRVFF29/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWRVFF29/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 323,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 431,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 647,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 719,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 862,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 920,
+        "original_w": 1908,
+        "original_h": 1714,
+        "thumb_tiny": "AwArADCsvzLyf0oIAPWkXtTi31pgGeAM8D2pM+/6UbgeooyvpQAbjRuNGV9KTj3oAF7U/wDz0qNe1SZP/wCqgBM89KAfYUpz7Uh3dxQAh9hRgn0/SkwfQ0EYODQAg6CngcU3o3FPycHk0AHSjP0oAoAHpQAh+tB479R6UuB6CggelAH/2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWRVFF29/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWRVFF29-ce3d859140",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JPUZRT40",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i62mc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに予測市場は気をつけないと違法ですw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc <@U08G2A216TW> <@U08GJSBAX3K>\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n• 熟議で設定された目標について、市場が「実現可能性の境界」を示す\n• 例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます\n• これにより、現実と乖離した議論や非建設的な対立が減少\nあたりを目指しています\n<https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323>",
+      "files": [
+        {
+          "id": "F08NJ7EEPNK",
+          "created": 1745225191,
+          "timestamp": 1745225191,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 509728,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 276,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 368,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 552,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 613,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 736,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 785,
+          "original_w": 1962,
+          "original_h": 1504,
+          "thumb_tiny": "AwAkADC80S7icdfelVFTO3HPvTiMnmjaPendisA9sfnSn6D86No9/wA6QqT0OPwpDAnHb8qUUmMADNKOtACFsHFLuX1pCcHFLuX1oAN6+tISCMBsfSlyP8ijNADHVSF3/NjuaEWPdlRzSuCRxSp9MUXYWHUUUUAFFFFABRRRQB//2Q==",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NJ7EEPNK/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NJ7EEPNK-55c63845d0",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08NWPLAECD",
+          "created": 1745225201,
+          "timestamp": 1745225201,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 579491,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 254,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 338,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 507,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 564,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 676,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 722,
+          "original_w": 1964,
+          "original_h": 1384,
+          "thumb_tiny": "AwAhADDQPB60uQf4iKCBnmgAGgAyMdaM+5pcD/JpGzxhgPqKAEJOARmlU+9HUDOD+FKKAEYZOaQIKVlJPWk2nsaAF2/5xSHI6KD9TSgH1pG4xlWP0oAGLbRhcn2NIpbcAUwPXNK33Bxj2NInXrRcLD6KKKACiiigBr9KRPvmlfpSJ980gP/Z",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPLAECD/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPLAECD-67024d07e7",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08NWPNEGMT",
+          "created": 1745225227,
+          "timestamp": 1745225227,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 241652,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_360.png",
+          "thumb_360_w": 297,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_480.png",
+          "thumb_480_w": 396,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_720.png",
+          "thumb_720_w": 594,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 970,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_960.png",
+          "thumb_960_w": 792,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_1024.png",
+          "thumb_1024_w": 844,
+          "thumb_1024_h": 1024,
+          "original_w": 1222,
+          "original_h": 1482,
+          "thumb_tiny": "AwAwACfROd1Jg57/AJ0rdz096AeOtABgjvS5pAeTzQxx3oAcDmikFLQAh60UhbB5pcigAoo4ppYgnjpQA8UUinOeMUtAEbK5fIYAe4zSqrjqwP0GKR94fKpn3zik3Sf88x/31VCH4PrSEnJ/wpoaTIzGMf71S1LQxF5FLRRQB//Z",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPNEGMT/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPNEGMT-b625df5360",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08P36H2VA8",
+          "created": 1745225233,
+          "timestamp": 1745225233,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 213926,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_360.png",
+          "thumb_360_w": 300,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_480.png",
+          "thumb_480_w": 400,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_720.png",
+          "thumb_720_w": 600,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 959,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_960.png",
+          "thumb_960_w": 800,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_1024.png",
+          "thumb_1024_w": 854,
+          "thumb_1024_h": 1024,
+          "original_w": 1174,
+          "original_h": 1408,
+          "thumb_tiny": "AwAwACjRJOSOaTnPenEc0g3ZOcY7UAKMjqaXNJzSHdkYxigB2aKQZpaAE70tNJIPFLn60AGaWkppzu9vrQA+imruzz0p1AEbRqz5JOfY0LGqnILfiaHVy2VKge4pNsv95fyqvmIftHqaRgSeKbtm/vp+VSjpzUtDGqDnn+dOoooA/9k=",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08P36H2VA8/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08P36H2VA8-a94e8f904b",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08PMU3F396",
+          "created": 1745225239,
+          "timestamp": 1745225239,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 233311,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_360.png",
+          "thumb_360_w": 326,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_480.png",
+          "thumb_480_w": 434,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_720.png",
+          "thumb_720_w": 651,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 885,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_960.png",
+          "thumb_960_w": 868,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_1024.png",
+          "thumb_1024_w": 926,
+          "thumb_1024_h": 1024,
+          "original_w": 1192,
+          "original_h": 1318,
+          "thumb_tiny": "AwAwACvRPXg0AMB60Mobrn86AoHekAvPtR83tSFATnJ/Olx70AL+FFNVQvenUwE70fgaQk7uKMn0oAXn0o/A0U1+3GaAHUtR4OeOPwqSgCNo0Z8t1oESKcgc/Wh1kLZXbj3FJibuU/Kq17iH7RSNxjFNxN6p+VSKDtG7Gfak0MaG5/8ArU+iikB//9k=",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PMU3F396/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PMU3F396-ca4641f3c5",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08PAHUTGLR",
+          "created": 1745225248,
+          "timestamp": 1745225248,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 249402,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 225,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 300,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 451,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 501,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 601,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 641,
+          "original_w": 1646,
+          "original_h": 1030,
+          "thumb_tiny": "AwAeADDR79KX8KRhmnCgBvPYfrS49f50hznigds0ANZEY5LH8GoWNQ2QST9afgelA607sVhjRoWJIOT70nkp6H8zUmKMUXYWQnfkUZHpS45zRj3pDDI9qWiigD//2Q==",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PAHUTGLR/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PAHUTGLR-cf80af9598",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08JPUZRT40",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0OyCA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "熟議で設定された目標について、市場が「実現可能性の境界」を示す"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "これにより、現実と乖離した議論や非建設的な対立が減少"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "あたりを目指しています\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1745226493.873939",
+      "client_msg_id": "8434de00-780b-4648-ba3e-b0e707a6251f",
+      "thread_ts": "1745226493.873939",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1745235124.827239",
+      "reply_users": [
+        "U08JPUZRT40",
+        "U08HV1H5HKK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://claude.site/images/claude_ogimage.png",
+          "image_width": 1138,
+          "image_height": 640,
+          "image_bytes": 12257,
+          "from_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "service_icon": "https://claude.site/favicon.ico",
+          "id": 1,
+          "original_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "fallback": "Claude Artifact",
+          "text": "Try out Artifacts created by Claude users",
+          "title": "Claude Artifact",
+          "title_link": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "service_name": "claude.site"
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1745226534.218929",
+    "client_msg_id": "cc41dbda-e681-4b30-bb33-fded512b8889",
+    "thread_ts": "1745226493.873939",
+    "parent_user_id": "U08JPUZRT40",
+    "reactions": [
+      {
+        "name": "wwww",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1745226493.873939",
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "ちなみに予測市場は気をつけないと違法ですw"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1745234504.349989",
+    "client_msg_id": "582606EA-4B2F-4935-B493-5D85FE52CFC0",
+    "text": "イーロンのDOGEみたいなのは消去されちゃわないかな？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1745226493.873939",
+    "parent_user_id": "U08JPUZRT40",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UQoG6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "イーロンのDOGE"
+              },
+              {
+                "type": "text",
+                "text": "みたいなのは消去されちゃわないかな？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1745226493.873939",
+    "user_name": "石橋隆平",
+    "text_readable": "イーロンのDOGEみたいなのは消去されちゃわないかな？"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1745235124.827239",
+    "client_msg_id": "004d730f-2610-4e62-8915-16020ddd06eb",
+    "text": "&gt; イーロンのDOGEみたいなのは消去されちゃわないかな？\nポイントは、全員の合意ではないので「これはうまくいく！！」と確信すれば高い金額をbet可能なのです！\n\nこのコメントがどんなことを想定したのかはあんまりわからなかったのですが、どんなケースがうまく動かなさそうかを考えるのは面白そうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1745226493.873939",
+    "parent_user_id": "U08JPUZRT40",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pG6NJ",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "イーロンのDOGEみたいなのは消去されちゃわないかな？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ポイントは、全員の合意ではないので「これはうまくいく！！」と確信すれば高い金額をbet可能なのです！\n\nこのコメントがどんなことを想定したのかはあんまりわからなかったのですが、どんなケースがうまく動かなさそうかを考えるのは面白そうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1745226493.873939",
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "> イーロンのDOGEみたいなのは消去されちゃわないかな？\nポイントは、全員の合意ではないので「これはうまくいく！！」と確信すれば高い金額をbet可能なのです！\n\nこのコメントがどんなことを想定したのかはあんまりわからなかったのですが、どんなケースがうまく動かなさそうかを考えるのは面白そうですね"
+  },
+  {
+    "text": "ちなみに予測市場は気をつけないと違法ですw",
+    "files": [
+      {
+        "id": "F08NWRVFF29",
+        "created": 1745226517,
+        "timestamp": 1745226517,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 610318,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWRVFF29/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWRVFF29/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 323,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 431,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 647,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 719,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 862,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWRVFF29-0d96444f98/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 920,
+        "original_w": 1908,
+        "original_h": 1714,
+        "thumb_tiny": "AwArADCsvzLyf0oIAPWkXtTi31pgGeAM8D2pM+/6UbgeooyvpQAbjRuNGV9KTj3oAF7U/wDz0qNe1SZP/wCqgBM89KAfYUpz7Uh3dxQAh9hRgn0/SkwfQ0EYODQAg6CngcU3o3FPycHk0AHSjP0oAoAHpQAh+tB479R6UuB6CggelAH/2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWRVFF29/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWRVFF29-ce3d859140",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JPUZRT40",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i62mc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに予測市場は気をつけないと違法ですw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc <@U08G2A216TW> <@U08GJSBAX3K>\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n• 熟議で設定された目標について、市場が「実現可能性の境界」を示す\n• 例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます\n• これにより、現実と乖離した議論や非建設的な対立が減少\nあたりを目指しています\n<https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323>",
+      "files": [
+        {
+          "id": "F08NJ7EEPNK",
+          "created": 1745225191,
+          "timestamp": 1745225191,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 509728,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NJ7EEPNK/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 276,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 368,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 552,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 613,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 736,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NJ7EEPNK-0da249b8d7/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 785,
+          "original_w": 1962,
+          "original_h": 1504,
+          "thumb_tiny": "AwAkADC80S7icdfelVFTO3HPvTiMnmjaPendisA9sfnSn6D86No9/wA6QqT0OPwpDAnHb8qUUmMADNKOtACFsHFLuX1pCcHFLuX1oAN6+tISCMBsfSlyP8ijNADHVSF3/NjuaEWPdlRzSuCRxSp9MUXYWHUUUUAFFFFABRRRQB//2Q==",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NJ7EEPNK/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NJ7EEPNK-55c63845d0",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08NWPLAECD",
+          "created": 1745225201,
+          "timestamp": 1745225201,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 579491,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPLAECD/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 254,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 338,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 507,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 564,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 676,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPLAECD-9fa86822aa/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 722,
+          "original_w": 1964,
+          "original_h": 1384,
+          "thumb_tiny": "AwAhADDQPB60uQf4iKCBnmgAGgAyMdaM+5pcD/JpGzxhgPqKAEJOARmlU+9HUDOD+FKKAEYZOaQIKVlJPWk2nsaAF2/5xSHI6KD9TSgH1pG4xlWP0oAGLbRhcn2NIpbcAUwPXNK33Bxj2NInXrRcLD6KKKACiiigBr9KRPvmlfpSJ980gP/Z",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPLAECD/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPLAECD-67024d07e7",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08NWPNEGMT",
+          "created": 1745225227,
+          "timestamp": 1745225227,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 241652,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08NWPNEGMT/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_360.png",
+          "thumb_360_w": 297,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_480.png",
+          "thumb_480_w": 396,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_720.png",
+          "thumb_720_w": 594,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 970,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_960.png",
+          "thumb_960_w": 792,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08NWPNEGMT-0c9e074d45/image_1024.png",
+          "thumb_1024_w": 844,
+          "thumb_1024_h": 1024,
+          "original_w": 1222,
+          "original_h": 1482,
+          "thumb_tiny": "AwAwACfROd1Jg57/AJ0rdz096AeOtABgjvS5pAeTzQxx3oAcDmikFLQAh60UhbB5pcigAoo4ppYgnjpQA8UUinOeMUtAEbK5fIYAe4zSqrjqwP0GKR94fKpn3zik3Sf88x/31VCH4PrSEnJ/wpoaTIzGMf71S1LQxF5FLRRQB//Z",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08NWPNEGMT/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08NWPNEGMT-b625df5360",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08P36H2VA8",
+          "created": 1745225233,
+          "timestamp": 1745225233,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 213926,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08P36H2VA8/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_360.png",
+          "thumb_360_w": 300,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_480.png",
+          "thumb_480_w": 400,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_720.png",
+          "thumb_720_w": 600,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 959,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_960.png",
+          "thumb_960_w": 800,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08P36H2VA8-45acd02f79/image_1024.png",
+          "thumb_1024_w": 854,
+          "thumb_1024_h": 1024,
+          "original_w": 1174,
+          "original_h": 1408,
+          "thumb_tiny": "AwAwACjRJOSOaTnPenEc0g3ZOcY7UAKMjqaXNJzSHdkYxigB2aKQZpaAE70tNJIPFLn60AGaWkppzu9vrQA+imruzz0p1AEbRqz5JOfY0LGqnILfiaHVy2VKge4pNsv95fyqvmIftHqaRgSeKbtm/vp+VSjpzUtDGqDnn+dOoooA/9k=",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08P36H2VA8/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08P36H2VA8-a94e8f904b",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08PMU3F396",
+          "created": 1745225239,
+          "timestamp": 1745225239,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 233311,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PMU3F396/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_360.png",
+          "thumb_360_w": 326,
+          "thumb_360_h": 360,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_480.png",
+          "thumb_480_w": 434,
+          "thumb_480_h": 480,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_720.png",
+          "thumb_720_w": 651,
+          "thumb_720_h": 720,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 885,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_960.png",
+          "thumb_960_w": 868,
+          "thumb_960_h": 960,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PMU3F396-72382872b0/image_1024.png",
+          "thumb_1024_w": 926,
+          "thumb_1024_h": 1024,
+          "original_w": 1192,
+          "original_h": 1318,
+          "thumb_tiny": "AwAwACvRPXg0AMB60Mobrn86AoHekAvPtR83tSFATnJ/Olx70AL+FFNVQvenUwE70fgaQk7uKMn0oAXn0o/A0U1+3GaAHUtR4OeOPwqSgCNo0Z8t1oESKcgc/Wh1kLZXbj3FJibuU/Kq17iH7RSNxjFNxN6p+VSKDtG7Gfak0MaG5/8ArU+iikB//9k=",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PMU3F396/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PMU3F396-ca4641f3c5",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        },
+        {
+          "id": "F08PAHUTGLR",
+          "created": 1745225248,
+          "timestamp": 1745225248,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08JPUZRT40",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 249402,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PAHUTGLR/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 225,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 300,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 451,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 501,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 601,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PAHUTGLR-a39470b536/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 641,
+          "original_w": 1646,
+          "original_h": 1030,
+          "thumb_tiny": "AwAeADDR79KX8KRhmnCgBvPYfrS49f50hznigds0ANZEY5LH8GoWNQ2QST9afgelA607sVhjRoWJIOT70nkp6H8zUmKMUXYWQnfkUZHpS45zRj3pDDI9qWiigD//2Q==",
+          "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PAHUTGLR/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PAHUTGLR-cf80af9598",
+          "is_starred": false,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08JPUZRT40",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0OyCA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "熟議 + 予測市場（Futarchy）のプロトタイプを作ってみた。モチベーションは、「何をやるのか」を合意するのは人間がやるべきだけど、『どうやれるのか』『そもそもやれるのか』は市場メカニズムを使った方が情報量が増えそう（市場効率化仮説）という点です。 cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nいどばたを参考に、「熟議フォーラム」と「予測市場」の二層構造になってます.\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "熟議で設定された目標について、市場が「実現可能性の境界」を示す"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "例えば「GDPを5000京にしたい」という目標が予測市場で「不可能」と示されれば、より現実的な目標設定に向けた議論を促すことができます"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "これにより、現実と乖離した議論や非建設的な対立が減少"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "あたりを目指しています\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1745226493.873939",
+      "client_msg_id": "8434de00-780b-4648-ba3e-b0e707a6251f",
+      "thread_ts": "1745226493.873939",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1745235124.827239",
+      "reply_users": [
+        "U08JPUZRT40",
+        "U08HV1H5HKK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://claude.site/images/claude_ogimage.png",
+          "image_width": 1138,
+          "image_height": 640,
+          "image_bytes": 12257,
+          "from_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "service_icon": "https://claude.site/favicon.ico",
+          "id": 1,
+          "original_url": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "fallback": "Claude Artifact",
+          "text": "Try out Artifacts created by Claude users",
+          "title": "Claude Artifact",
+          "title_link": "https://claude.site/artifacts/330a7797-2500-4455-abe7-1a7a18a56323",
+          "service_name": "claude.site"
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1745226534.218929",
+    "client_msg_id": "cc41dbda-e681-4b30-bb33-fded512b8889",
+    "thread_ts": "1745226493.873939",
+    "parent_user_id": "U08JPUZRT40",
+    "reactions": [
+      {
+        "name": "wwww",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "ちなみに予測市場は気をつけないと違法ですw"
+  },
+  {
+    "text": "こっちは実際に市場が動く\n<https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4>",
+    "files": [
+      {
+        "id": "F08PALK7NAV",
+        "created": 1745226846,
+        "timestamp": 1745226846,
+        "name": "GpB-o9nasAARdrd.jpg",
+        "title": "GpB-o9nasAARdrd.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 90283,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALK7NAV/gpb-o9nasaardrd.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALK7NAV/download/gpb-o9nasaardrd.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK7NAV-1fa7f742be/gpb-o9nasaardrd_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK7NAV-1fa7f742be/gpb-o9nasaardrd_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK7NAV-1fa7f742be/gpb-o9nasaardrd_360.jpg",
+        "thumb_360_w": 307,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK7NAV-1fa7f742be/gpb-o9nasaardrd_480.jpg",
+        "thumb_480_w": 409,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK7NAV-1fa7f742be/gpb-o9nasaardrd_160.jpg",
+        "original_w": 580,
+        "original_h": 680,
+        "thumb_tiny": "AwAwACjQYkNgZ/OjP+9SSLls+1KEH+TQAu72NLn60wqFI4/WlAU8YFADh+NLQKKAGsDnt+dICw7D86R2w2P6UA+v8qAF5J5A/OlGfQfnSZA9Pypc/wCcUAKPfFLSDr/9aloAjkBLDB5FADd/5Urj5s4zSBTnv+VAC4NBB/yKNp/yKUD1FAAoIzmnUgAHbFLQB//Z",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PALK7NAV/gpb-o9nasaardrd.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PALK7NAV-0b49e2e6fa",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08PALJUK5F",
+        "created": 1745226848,
+        "timestamp": 1745226848,
+        "name": "GpB-mkOacAAcGuc.jpg",
+        "title": "GpB-mkOacAAcGuc.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 62326,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALJUK5F/gpb-mkoacaacguc.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALJUK5F/download/gpb-mkoacaacguc.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_360.jpg",
+        "thumb_360_w": 360,
+        "thumb_360_h": 277,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_480.jpg",
+        "thumb_480_w": 480,
+        "thumb_480_h": 370,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_720.jpg",
+        "thumb_720_w": 720,
+        "thumb_720_h": 554,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALJUK5F-55611db94c/gpb-mkoacaacguc_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 616,
+        "original_w": 900,
+        "original_h": 693,
+        "thumb_tiny": "AwAkADC+5IY8kAelODZprAFj978KUKo6DFAhc0c+tFB5yKTGR+cgfbuJJ6ZHFSjOar/Zzu5xj1qwBzSGIR89GPemPJscjy2PuBSef/0zf8qq4WZJj3o/iPFRibJA8txn2p5Bzx/M0mFrC/mKADkcn8qB70AdKAAoC2e9G33NLRTJDHvRRS0MYlFLRSA//9k=",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PALJUK5F/gpb-mkoacaacguc.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PALJUK5F-8e5950bee9",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F08PALK67LH",
+        "created": 1745226850,
+        "timestamp": 1745226850,
+        "name": "GpB-0ItbcAANCwT.jpg",
+        "title": "GpB-0ItbcAANCwT.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08JPUZRT40",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 49311,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALK67LH/gpb-0itbcaancwt.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08PALK67LH/download/gpb-0itbcaancwt.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK67LH-efcc3a427b/gpb-0itbcaancwt_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK67LH-efcc3a427b/gpb-0itbcaancwt_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK67LH-efcc3a427b/gpb-0itbcaancwt_360.jpg",
+        "thumb_360_w": 277,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK67LH-efcc3a427b/gpb-0itbcaancwt_480.jpg",
+        "thumb_480_w": 370,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08PALK67LH-efcc3a427b/gpb-0itbcaancwt_160.jpg",
+        "original_w": 524,
+        "original_h": 680,
+        "thumb_tiny": "AwAwACTS796PzoJGeoooAPzpaKKACiiigCKffgeXnPtUTLKY1+9nJzVjuetLzwKdwIlaRI1Gwse/NNlMrFSoYccgVPg+powc9TRcBEzsXPXHNOoHTrmikA3jdS4z36U07Q+TmlyvtQA6k96T5fQUHbjsKAHUUDpRQB//2Q==",
+        "permalink": "https://w1740803485-clv347541.slack.com/files/U08JPUZRT40/F08PALK67LH/gpb-0itbcaancwt.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08PALK67LH-57099b29d2",
+        "is_starred": false,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JPUZRT40",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YdHPE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こっちは実際に市場が動く\n"
+              },
+              {
+                "type": "link",
+                "url": "https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1745226853.133439",
+    "client_msg_id": "c8d39b08-a5a7-48b4-886e-38f6847eae37",
+    "attachments": [
+      {
+        "image_url": "https://claude.site/images/claude_ogimage.png",
+        "image_width": 1138,
+        "image_height": 640,
+        "image_bytes": 12257,
+        "from_url": "https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4",
+        "service_icon": "https://claude.site/favicon.ico",
+        "id": 1,
+        "original_url": "https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4",
+        "fallback": "Claude Artifact",
+        "text": "Try out Artifacts created by Claude users",
+        "title": "Claude Artifact",
+        "title_link": "https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4",
+        "service_name": "claude.site"
+      }
+    ],
+    "user_name": "Shunsuke Takagi (taka)",
+    "text_readable": "こっちは実際に市場が動く\n<https://claude.site/artifacts/8582d622-0739-4f7c-a011-7db64a6d95f4>"
+  },
+  {
+    "user": "U08JGS0BS57",
+    "type": "message",
+    "ts": "1745228108.312899",
+    "client_msg_id": "d55a9d51-d4c5-4a8e-b48f-1afeb55aefc3",
+    "text": "<@U08JPUZRT40> さんのコメントは、いつも楽しいな〜　:four_leaf_clover:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HhDOs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JPUZRT40"
+              },
+              {
+                "type": "text",
+                "text": " さんのコメントは、いつも楽しいな〜　"
+              },
+              {
+                "type": "emoji",
+                "name": "four_leaf_clover",
+                "unicode": "1f340"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatomatsuri",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "@takagishunsuke1129 さんのコメントは、いつも楽しいな〜　:four_leaf_clover:"
+  }
+]
