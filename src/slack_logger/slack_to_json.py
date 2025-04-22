@@ -50,13 +50,15 @@ class SlackExtractor:
         Args:
             token: Slack APIトークン
             auto_join: 公開チャンネルに自動的に参加するかどうか
-            skip_channels: スキップするチャンネルIDのリスト
+            skip_channels: スキップするチャンネルIDまたは名前のリスト
         """
         self.client = WebClient(token=token)
         self.auto_join = auto_join
         self.skip_channels = skip_channels or []
+        self.skip_channel_ids = []  # チャンネルIDのリスト
         self.users = {}
         self._load_users()
+        self._resolve_channel_names()  # チャンネル名をIDに解決
 
     def _load_users(self) -> None:
         """ユーザー情報を読み込む"""
@@ -70,6 +72,32 @@ class SlackExtractor:
                 }
         except SlackApiError as e:
             print(f"ユーザー情報の取得に失敗しました: {e}")
+            
+    def _resolve_channel_names(self) -> None:
+        """チャンネル名をチャンネルIDに解決する"""
+        try:
+            response = self.client.conversations_list(types="public_channel")
+            channels = response["channels"]
+            
+            while response.get("response_metadata", {}).get("next_cursor"):
+                cursor = response["response_metadata"]["next_cursor"]
+                response = self.client.conversations_list(
+                    cursor=cursor, types="public_channel"
+                )
+                channels.extend(response["channels"])
+            
+            channel_map = {channel["name"]: channel["id"] for channel in channels}
+            
+            # skip_channelsの各項目がIDかチャンネル名かを判断し、IDのリストを作成
+            for item in self.skip_channels:
+                if item in channel_map:  # チャンネル名の場合
+                    self.skip_channel_ids.append(channel_map[item])
+                else:  # IDの場合またはマッチしない場合
+                    self.skip_channel_ids.append(item)
+            
+            print(f"チャンネル名をIDに解決しました: {len(self.skip_channel_ids)}件")
+        except SlackApiError as e:
+            print(f"チャンネル一覧の取得に失敗しました: {e}")
 
     def get_username(self, user_id: Optional[str]) -> str:
         """ユーザーIDからユーザー名を取得"""
@@ -104,7 +132,8 @@ class SlackExtractor:
                 )
                 
                 for channel in response["channels"]:
-                    if channel["id"] in self.skip_channels:
+                    if channel["id"] in self.skip_channel_ids or channel["name"] in self.skip_channels:
+                        print(f"チャンネル {channel['name']} ({channel['id']}) をスキップします")
                         continue
                     
                     if (self.auto_join and 
