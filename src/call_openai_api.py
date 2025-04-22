@@ -13,9 +13,11 @@ from typing import Dict, List, Any, Optional, Tuple
 import openai
 from dotenv import load_dotenv
 
+from .config import Config
+
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+config = Config()
 
 
 def get_latest_data_folder(base_dir: str = "./data") -> str:
@@ -65,7 +67,7 @@ def read_markdown_file(markdown_file: str) -> str:
 
 
 def call_openai_api(
-    prompt: str, content: str, model: str = "o1"
+    prompt: str, content: str, model: Optional[str] = None, temperature: Optional[float] = None
 ) -> Tuple[Optional[str], float]:
     """
     OpenAI APIを呼び出す
@@ -73,17 +75,31 @@ def call_openai_api(
     Args:
         prompt: プロンプト
         content: 処理するコンテンツ
-        model: 使用するモデル
+        model: 使用するモデル（指定しない場合は設定から取得）
+        temperature: 温度パラメータ（指定しない場合は設定から取得）
 
     Returns:
         APIレスポンスと費用の見積もり
     """
+    if model is None:
+        model = config.get("openai.model", "o1")
+    
+    if temperature is None:
+        temperature = config.get("openai.temperature", 0.7)
+    
+    openai.api_key = config.get("openai.api_key", os.getenv("OPENAI_API_KEY"))
+    
+    if not openai.api_key:
+        print("エラー: OpenAI APIキーが設定されていません。")
+        return None, 0.0
+    
     start_time = time.time()
 
     try:
         try:
             response = openai.chat.completions.create(
                 model=model,
+                temperature=temperature,
                 messages=[
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": content},
@@ -285,6 +301,15 @@ def main():
         "--output-dir",
         help="出力ディレクトリ（指定しない場合はデータディレクトリと同じ）",
     )
+    parser.add_argument(
+        "--model", help="使用するOpenAIモデル"
+    )
+    parser.add_argument(
+        "--temperature", type=float, help="OpenAI APIの温度パラメータ"
+    )
+    parser.add_argument(
+        "--config", help="設定ファイルのパス"
+    )
 
     subparsers = parser.add_subparsers(dest="command", help="コマンド")
 
@@ -305,15 +330,27 @@ def main():
     github_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     args = parser.parse_args()
-
+    
+    cli_args = {
+        "output.default_dir": args.data_dir,
+        "openai.model": args.model,
+        "openai.temperature": args.temperature
+    }
+    
+    global config
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    data_dir = args.data_dir
+    output_dir = args.output_dir or data_dir
+    
     if not args.command:
         parser.print_help()
         return 1
 
     if args.command == "slack":
         process_slack_data(
-            data_dir=args.data_dir,
-            output_dir=args.output_dir,
+            data_dir=data_dir,
+            output_dir=output_dir,
             use_all_summary=args.all_summary,
             period=args.period,
             prompt_file=args.prompt_file,
@@ -321,8 +358,8 @@ def main():
     elif args.command == "github":
         process_github_data(
             repo=args.repo, 
-            data_dir=args.data_dir, 
-            output_dir=args.output_dir,
+            data_dir=data_dir, 
+            output_dir=output_dir,
             prompt_file=args.prompt_file,
             org=args.org,
         )
