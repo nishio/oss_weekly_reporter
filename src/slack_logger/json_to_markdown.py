@@ -9,6 +9,8 @@ import glob
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Any, Optional
 
+from ..config import Config
+
 
 class MarkdownGenerator:
     """SlackのJSONデータからMarkdownを生成するクラス"""
@@ -362,22 +364,20 @@ def main():
         description="SlackのJSONデータからLLM用のMarkdownを生成するツール"
     )
     parser.add_argument(
-        "--json-dir", help="JSONファイルのディレクトリ", default="./data"
+        "--json-dir", help="JSONファイルのディレクトリ"
     )
     parser.add_argument("--output", help="出力ファイル名（指定しない場合は標準出力）")
-    parser.add_argument("--timezone", help="タイムゾーン", default="Asia/Tokyo")
+    parser.add_argument("--timezone", help="タイムゾーン")
     parser.add_argument("--daily", action="store_true", help="日次サマリーを生成")
     parser.add_argument("--weekly", action="store_true", help="週次サマリーを生成")
     parser.add_argument(
         "--days-ago",
         type=int,
-        default=0,
         help="何日前のデータを対象とするか（日次サマリー用）",
     )
     parser.add_argument(
         "--weeks-ago",
         type=int,
-        default=0,
         help="何週間前のデータを対象とするか（週次サマリー用）",
     )
     parser.add_argument(
@@ -385,23 +385,43 @@ def main():
         action="store_true",
         help="全てのデータを出力する（日付フィルタリングを行わない）",
     )
+    parser.add_argument("--skip-channels", help="スキップするチャンネルIDまたは名前のカンマ区切りリスト")
+    parser.add_argument("--config", help="設定ファイルのパス")
 
     args = parser.parse_args()
+    
+    cli_args = {
+        "output.default_dir": args.json_dir,
+        "output.timezone": args.timezone
+    }
+    
+    # skip_channelsが指定されている場合は追加
+    if args.skip_channels:
+        cli_args["slack.skip_channels"] = args.skip_channels.split(',')
+    
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    json_dir = config.get("output.default_dir")
+    timezone_str = config.get("output.timezone", "Asia/Tokyo")
+    skip_channels = config.get("slack.skip_channels", [])
+    
+    days_ago = args.days_ago if args.days_ago is not None else 0
+    weeks_ago = args.weeks_ago if args.weeks_ago is not None else 0
 
-    generator = MarkdownGenerator(timezone_str=args.timezone)
+    generator = MarkdownGenerator(timezone_str=timezone_str, skip_channels=skip_channels)
 
     if args.weekly:
         markdown = generator.generate_weekly_summary(
-            json_dir=args.json_dir,
+            json_dir=json_dir,
             output_file=args.output,
-            weeks_ago=args.weeks_ago,
+            weeks_ago=weeks_ago,
             all_data=args.all,
         )
     else:  # デフォルトは日次サマリー
         markdown = generator.generate_daily_summary(
-            json_dir=args.json_dir,
+            json_dir=json_dir,
             output_file=args.output,
-            days_ago=args.days_ago,
+            days_ago=days_ago,
             all_data=args.all,
         )
 
