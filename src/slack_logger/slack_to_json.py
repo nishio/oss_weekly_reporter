@@ -7,7 +7,6 @@ import os
 import json
 import argparse
 import time
-import yaml
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Generator, Any, Union
 from pathlib import Path
@@ -16,28 +15,11 @@ from dotenv import load_dotenv
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
+from ..config import Config
+
 load_dotenv()
 
-def load_config() -> Dict[str, Any]:
-    """設定ファイルを読み込む"""
-    config_paths = [
-        Path("config.yaml"),  # カレントディレクトリ
-        Path(__file__).parent.parent.parent / "config.yaml",  # リポジトリルート
-    ]
-    
-    for config_path in config_paths:
-        if config_path.exists():
-            try:
-                with open(config_path, "r", encoding="utf-8") as f:
-                    config = yaml.safe_load(f)
-                print(f"設定ファイルを読み込みました: {config_path}")
-                return config or {}
-            except Exception as e:
-                print(f"設定ファイルの読み込みに失敗しました: {e}")
-                break
-    
-    print("設定ファイルが見つからないか、読み込めませんでした。デフォルト設定を使用します。")
-    return {}
+default_auto_join = True
 
 
 class SlackExtractor:
@@ -50,13 +32,15 @@ class SlackExtractor:
         Args:
             token: Slack APIトークン
             auto_join: 公開チャンネルに自動的に参加するかどうか
-            skip_channels: スキップするチャンネルIDのリスト
+            skip_channels: スキップするチャンネルIDまたは名前のリスト
         """
         self.client = WebClient(token=token)
         self.auto_join = auto_join
         self.skip_channels = skip_channels or []
+        self.skip_channel_ids = []  # チャンネルIDのリスト
         self.users = {}
         self._load_users()
+        self._resolve_channel_names()  # チャンネル名をIDに解決
 
     def _load_users(self) -> None:
         """ユーザー情報を読み込む"""
@@ -70,6 +54,32 @@ class SlackExtractor:
                 }
         except SlackApiError as e:
             print(f"ユーザー情報の取得に失敗しました: {e}")
+            
+    def _resolve_channel_names(self) -> None:
+        """チャンネル名をチャンネルIDに解決する"""
+        try:
+            response = self.client.conversations_list(types="public_channel")
+            channels = response["channels"]
+            
+            while response.get("response_metadata", {}).get("next_cursor"):
+                cursor = response["response_metadata"]["next_cursor"]
+                response = self.client.conversations_list(
+                    cursor=cursor, types="public_channel"
+                )
+                channels.extend(response["channels"])
+            
+            channel_map = {channel["name"]: channel["id"] for channel in channels}
+            
+            # skip_channelsの各項目がIDかチャンネル名かを判断し、IDのリストを作成
+            for item in self.skip_channels:
+                if item in channel_map:  # チャンネル名の場合
+                    self.skip_channel_ids.append(channel_map[item])
+                else:  # IDの場合またはマッチしない場合
+                    self.skip_channel_ids.append(item)
+            
+            print(f"チャンネル名をIDに解決しました: {len(self.skip_channel_ids)}件")
+        except SlackApiError as e:
+            print(f"チャンネル一覧の取得に失敗しました: {e}")
 
     def get_username(self, user_id: Optional[str]) -> str:
         """ユーザーIDからユーザー名を取得"""
@@ -104,7 +114,8 @@ class SlackExtractor:
                 )
                 
                 for channel in response["channels"]:
-                    if channel["id"] in self.skip_channels:
+                    if channel["id"] in self.skip_channel_ids or channel["name"] in self.skip_channels:
+                        print(f"チャンネル {channel['name']} ({channel['id']}) をスキップします")
                         continue
                     
                     if (self.auto_join and 
@@ -306,16 +317,9 @@ class SlackExtractor:
 
 def main():
     """メイン関数"""
-    config = load_config()
-    
-    default_output_dir = config.get('output', {}).get('default_dir', './data')
-    default_auto_join = config.get('auto_join', True)
-    
-    config_skip_channels = config.get('skip_channels', [])
-    
     parser = argparse.ArgumentParser(description='Slackの履歴をJSONファイルに抽出するツール')
     parser.add_argument('--token', help='Slack APIトークン', default=os.environ.get('SLACK_TOKEN'))
-    parser.add_argument('--output-dir', help=f'出力ディレクトリ（デフォルト: {default_output_dir}）', default=default_output_dir)
+    parser.add_argument('--output-dir', help='出力ディレクトリ')
     parser.add_argument('--year', type=int, help='抽出する年（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか（指定した場合はyear, monthは無視）')
@@ -329,25 +333,38 @@ def main():
     
     args = parser.parse_args()
     
-    if not args.token:
+    cli_args = {
+        "slack.token": args.token,
+        "output.default_dir": args.output_dir,
+        "slack.auto_join": args.auto_join if args.auto_join is not None else None
+    }
+    
+    # skip_channelsが指定されている場合は追加
+    if args.skip_channels:
+        cli_args["slack.skip_channels"] = args.skip_channels.split(',')
+    
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    token = config.get("slack.token")
+    output_dir = config.get("output.default_dir")
+    auto_join = config.get("slack.auto_join")
+    skip_channels = config.get("slack.skip_channels", [])
+    
+    if not token:
         print("エラー: Slack APIトークンが指定されていません。--tokenオプションまたはSLACK_TOKEN環境変数で指定してください。")
         return 1
-    
-    skip_channels = config_skip_channels.copy()
-    if args.skip_channels:
-        skip_channels.extend(args.skip_channels.split(','))
     
     if skip_channels:
         print(f"スキップするチャンネル: {', '.join(skip_channels)}")
     
     extractor = SlackExtractor(
-        token=args.token,
-        auto_join=args.auto_join,
+        token=token,
+        auto_join=auto_join,
         skip_channels=skip_channels
     )
     
     extractor.extract_to_json(
-        output_dir=args.output_dir,
+        output_dir=output_dir,
         year=args.year,
         month=args.month,
         last_days=args.last_days,

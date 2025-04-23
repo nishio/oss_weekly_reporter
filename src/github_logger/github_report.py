@@ -4,6 +4,7 @@ import os
 import subprocess
 import json
 import argparse
+import re
 from pathlib import Path
 
 
@@ -17,6 +18,25 @@ def get_github_token():
         print(f"GitHub CLIからトークンを取得できませんでした: {e}")
         return None
 
+
+def extract_username_from_email(email_or_name):
+    """
+    メールアドレスからユーザー名部分を抽出する
+    
+    Args:
+        email_or_name: メールアドレスまたは名前
+        
+    Returns:
+        ユーザー名（GitHubアカウント名に近い形式）
+    """
+    if not email_or_name:
+        return None
+        
+    email_match = re.search(r'([^@\s]+)@', email_or_name)
+    if email_match:
+        return email_match.group(1)
+    
+    return email_or_name.strip()
 
 def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True):
     """
@@ -179,6 +199,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = extract_username_from_email(match.group(1).strip())
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = extract_username_from_email(match.group(1).strip())
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -192,6 +233,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -210,6 +253,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = extract_username_from_email(match.group(1).strip())
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = extract_username_from_email(match.group(1).strip())
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -222,6 +286,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -240,6 +306,27 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
             pr_response = requests.get(pr_url, headers=headers)
             pr_detail = pr_response.json()
             
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = extract_username_from_email(match.group(1).strip())
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = extract_username_from_email(match.group(1).strip())
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
@@ -253,6 +340,8 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
                 "additions": pr_detail.get("additions"),
                 "deletions": pr_detail.get("deletions"),
                 "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
                 "type": "pr"
             }
             all_prs.append(pr_data)
@@ -297,6 +386,10 @@ def format_item(item):
     item_user = item["user"]
     item_created_at = item["created_at"]
     item_type = item.get("type", "issue")
+    
+    if item_user == "devin-ai-integration[bot]" and (item.get("co_author") or item.get("requester")):
+        human_name = item.get("co_author") or item.get("requester")
+        item_user = f"{human_name}+Devin"
     
     md = f"### [{item_title}]({item_url})\n\n"
     md += f"**作成者:** {item_user}  \n"
@@ -442,8 +535,9 @@ def generate_markdown_from_file(json_file, output_file=None):
             date_range_dir = f"{one_week_ago.strftime('%Y-%m-%d')}_to_{today.strftime('%Y-%m-%d')}"
         
         output_dir = os.path.dirname(json_file)
-        markdown_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(output_dir))), 
-                                   date_range_dir, "markdown", "github")
+        output_dir_base = os.path.dirname(json_file).split(os.sep)
+        base_path = os.sep.join(output_dir_base[:output_dir_base.index(date_range_dir)])
+        markdown_dir = os.path.join(base_path, date_range_dir, "markdown", "github")
         os.makedirs(markdown_dir, exist_ok=True)
         output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
     
@@ -459,7 +553,11 @@ def generate_markdown_from_file(json_file, output_file=None):
 def main():
     """メイン関数"""
     parser = argparse.ArgumentParser(description='GitHubのissueとPRデータを抽出してレポートを生成するツール')
-    parser.add_argument('--repo', help='リポジトリ名（owner/repo形式）', required=True)
+    
+    repo_group = parser.add_argument_group('リポジトリ指定')
+    repo_group.add_argument('--repo', help='リポジトリ名（owner/repo形式、またはカンマ区切りで複数指定可能）', required=True)
+    repo_group.add_argument('--org', help='組織名（--repo で指定したリポジトリ名の前に付与される）')
+    
     parser.add_argument('--output-dir', help='出力ディレクトリ', default='./data')
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか', default=7)
     parser.add_argument('--no-prs', action='store_true', help='PRを含めない')
@@ -478,47 +576,93 @@ def main():
             json_file=args.json_file,
             output_file=args.output
         )
-    else:
+        return 0
+    
+    repos = []
+    raw_repos = [repo.strip() for repo in args.repo.split(',')]
+    
+    for repo in raw_repos:
+        if '/' in repo:
+            repos.append(repo)  # すでに owner/repo 形式の場合はそのまま
+        elif args.org:
+            repos.append(f"{args.org}/{repo}")  # 組織名を付与
+        else:
+            print(f"エラー: リポジトリ '{repo}' に組織名が指定されていません。--org オプションを使用するか、owner/repo 形式で指定してください。")
+            return 1
+    
+    print(f"処理対象リポジトリ: {repos}")
+    
+    all_results = []
+    all_items = []
+    
+    for repo in repos:
         result, json_file = extract_github_data(
-            repo=args.repo,
+            repo=repo,
             output_dir=args.output_dir,
             last_days=args.last_days,
             include_prs=not args.no_prs
         )
         
-        if result and args.markdown:
-            repo_name = args.repo.split("/")[1]
+        if result:
+            all_results.append(result)
             
-            if not args.output:
-                today = datetime.date.today()
-                one_week_ago = today - datetime.timedelta(days=args.last_days)
-                start_date_str = one_week_ago.strftime("%Y-%m-%d")
-                end_date_str = today.strftime("%Y-%m-%d")
-                date_range_dir = f"{start_date_str}_to_{end_date_str}"
-                date_range_path = os.path.join(args.output_dir, date_range_dir)
+            if args.markdown:
+                repo_name = repo.split("/")[1]
                 
-                if json_file and os.path.exists(json_file):
-                    output_dir = os.path.dirname(json_file)
-                else:
-                    output_dir = date_range_path
+                if not args.output:
+                    today = datetime.date.today()
+                    one_week_ago = today - datetime.timedelta(days=args.last_days)
+                    start_date_str = one_week_ago.strftime("%Y-%m-%d")
+                    end_date_str = today.strftime("%Y-%m-%d")
+                    date_range_dir = f"{start_date_str}_to_{end_date_str}"
                     
-                markdown_dir = os.path.join(os.path.dirname(os.path.dirname(output_dir)), 
-                                          date_range_dir, "markdown", "github")
-                os.makedirs(markdown_dir, exist_ok=True)
-                args.output = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
-            
-            items = []
-            if json_file and os.path.exists(json_file):
-                with open(json_file, 'r', encoding='utf-8') as f:
-                    items = json.load(f)
-            
-            generate_markdown(
-                items=items,
-                repo=args.repo,
-                start_date=result["period"]["start"],
-                end_date=result["period"]["end"],
-                output_file=args.output
-            )
+                    markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
+                    os.makedirs(markdown_dir, exist_ok=True)
+                    output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+                else:
+                    if len(repos) > 1:
+                        base, ext = os.path.splitext(args.output)
+                        output_file = f"{base}-{repo_name}{ext}"
+                    else:
+                        output_file = args.output
+                
+                items = []
+                if json_file and os.path.exists(json_file):
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        items = json.load(f)
+                        all_items.extend(items)
+                
+                generate_markdown(
+                    items=items,
+                    repo=repo,
+                    start_date=result["period"]["start"],
+                    end_date=result["period"]["end"],
+                    output_file=output_file
+                )
+    
+    if len(repos) > 1 and all_items and args.markdown:
+        today = datetime.date.today()
+        one_week_ago = today - datetime.timedelta(days=args.last_days)
+        start_date_str = one_week_ago.strftime("%Y-%m-%d")
+        end_date_str = today.strftime("%Y-%m-%d")
+        date_range_dir = f"{start_date_str}_to_{end_date_str}"
+        
+        markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
+        os.makedirs(markdown_dir, exist_ok=True)
+        combined_output = os.path.join(markdown_dir, f"github_report-combined.md")
+        
+        repo_names = [r.split("/")[1] for r in repos]
+        combined_repo_name = ", ".join(repo_names)
+        
+        generate_markdown(
+            items=all_items,
+            repo=combined_repo_name,
+            start_date=one_week_ago.isoformat(),
+            end_date=today.isoformat(),
+            output_file=combined_output
+        )
+        
+        print(f"まとめレポートは {combined_output} に保存されました。")
     
     return 0
 

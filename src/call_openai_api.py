@@ -13,9 +13,11 @@ from typing import Dict, List, Any, Optional, Tuple
 import openai
 from dotenv import load_dotenv
 
+from .config import Config
+
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+config = Config()
 
 
 def get_latest_data_folder(base_dir: str = "./data") -> str:
@@ -65,7 +67,7 @@ def read_markdown_file(markdown_file: str) -> str:
 
 
 def call_openai_api(
-    prompt: str, content: str, model: str = "o1"
+    prompt: str, content: str, model: Optional[str] = None, temperature: Optional[float] = None
 ) -> Tuple[Optional[str], float]:
     """
     OpenAI APIを呼び出す
@@ -73,35 +75,82 @@ def call_openai_api(
     Args:
         prompt: プロンプト
         content: 処理するコンテンツ
-        model: 使用するモデル
+        model: 使用するモデル（指定しない場合は設定から取得）
+        temperature: 温度パラメータ（指定しない場合は設定から取得）
 
     Returns:
         APIレスポンスと費用の見積もり
     """
+    if model is None:
+        model = config.get("openai.model", "o1")
+    
+    if temperature is None:
+        temperature = config.get("openai.temperature", 0.7)
+    
+    openai.api_key = config.get("openai.api_key", os.getenv("OPENAI_API_KEY"))
+    
+    if not openai.api_key:
+        print("エラー: OpenAI APIキーが設定されていません。")
+        return None, 0.0
+    
     start_time = time.time()
 
     try:
-        response = openai.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": content},
-            ],
-        )
+        try:
+            params = {
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content},
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.chat.completions.create(**params)
+            
+            elapsed_time = time.time() - start_time
 
-        elapsed_time = time.time() - start_time
+            input_tokens = response.usage.prompt_tokens
+            output_tokens = response.usage.completion_tokens
 
-        input_tokens = response.usage.prompt_tokens
-        output_tokens = response.usage.completion_tokens
+            input_cost_per_token = 0.000015  # $0.015 / 1K tokens
+            output_cost_per_token = 0.000060  # $0.060 / 1K tokens
 
-        input_cost_per_token = 0.000015  # $0.015 / 1K tokens
-        output_cost_per_token = 0.000060  # $0.060 / 1K tokens
+            estimated_cost = (input_tokens * input_cost_per_token) + (
+                output_tokens * output_cost_per_token
+            )
 
-        estimated_cost = (input_tokens * input_cost_per_token) + (
-            output_tokens * output_cost_per_token
-        )
+            return response.choices[0].message.content, estimated_cost
+            
+        except AttributeError:
+            params = {
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content},
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.ChatCompletion.create(**params)
+            
+            elapsed_time = time.time() - start_time
 
-        return response.choices[0].message.content, estimated_cost
+            input_tokens = response["usage"]["prompt_tokens"]
+            output_tokens = response["usage"]["completion_tokens"]
+
+            input_cost_per_token = 0.000015  # $0.015 / 1K tokens
+            output_cost_per_token = 0.000060  # $0.060 / 1K tokens
+
+            estimated_cost = (input_tokens * input_cost_per_token) + (
+                output_tokens * output_cost_per_token
+            )
+
+            return response["choices"][0]["message"]["content"], estimated_cost
 
     except Exception as e:
         print(f"APIの呼び出しに失敗しました: {e}")
@@ -113,6 +162,7 @@ def process_slack_data(
     output_dir: Optional[str] = None,
     use_all_summary: bool = False,
     period: Optional[str] = None,
+    prompt_file: Optional[str] = None,
 ) -> None:
     """
     Slackデータを処理する
@@ -122,6 +172,7 @@ def process_slack_data(
         output_dir: 出力ディレクトリ
         use_all_summary: all_summary.mdを使用するかどうか
         period: 期間（YYYY-MM-DD_to_YYYY-MM-DD形式）
+        prompt_file: 使用するプロンプトファイルのパス（指定しない場合はデフォルト）
     """
     if not data_dir:
         try:
@@ -142,9 +193,14 @@ def process_slack_data(
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
 
-    prompt_file = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
-    )
+    if not prompt_file:
+        prompt_file = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
+        )
+    elif not os.path.exists(prompt_file):
+        print(f"プロンプトファイルが見つかりません: {prompt_file}")
+        return
+        
     prompt = read_prompt_file(prompt_file)
 
     content = read_markdown_file(markdown_path)
@@ -169,15 +225,18 @@ def process_slack_data(
 
 
 def process_github_data(
-    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None
+    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None,
+    prompt_file: Optional[str] = None, org: Optional[str] = None,
 ) -> None:
     """
     GitHubデータを処理する
 
     Args:
-        repo: リポジトリ名（owner/repo形式）
+        repo: リポジトリ名（owner/repo形式）またはカンマ区切りのリポジトリ名リスト
         data_dir: データディレクトリ
         output_dir: 出力ディレクトリ
+        prompt_file: 使用するプロンプトファイルのパス（指定しない場合はデフォルト）
+        org: 組織名（指定した場合、repoはowner/なしのリポジトリ名のリストとして扱う）
     """
     if not data_dir:
         try:
@@ -191,37 +250,52 @@ def process_github_data(
 
     os.makedirs(output_dir, exist_ok=True)
 
-    repo_name = repo.split("/")[1]
-    markdown_file = f"github_report-{repo_name}.md"
-    markdown_path = os.path.join(data_dir, "markdown", "github", markdown_file)
+    repos = repo.split(",")
+    
+    for single_repo in repos:
+        single_repo = single_repo.strip()
+        
+        if org:
+            full_repo = f"{org}/{single_repo}"
+        else:
+            full_repo = single_repo
+            
+        repo_name = full_repo.split("/")[1]
+        markdown_file = f"github_report-{repo_name}.md"
+        markdown_path = os.path.join(data_dir, "markdown", "github", markdown_file)
 
-    if not os.path.exists(markdown_path):
-        print(f"Markdownファイルが見つかりません: {markdown_path}")
-        return
+        if not os.path.exists(markdown_path):
+            print(f"Markdownファイルが見つかりません: {markdown_path}")
+            continue
 
-    prompt_file = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
-    )
-    prompt = read_prompt_file(prompt_file)
+        if not prompt_file:
+            prompt_file = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
+            )
+        elif not os.path.exists(prompt_file):
+            print(f"プロンプトファイルが見つかりません: {prompt_file}")
+            return
+            
+        prompt = read_prompt_file(prompt_file)
 
-    content = read_markdown_file(markdown_path)
+        content = read_markdown_file(markdown_path)
 
-    print(f"GitHubデータを処理中: {markdown_path}")
-    response, cost = call_openai_api(prompt, content)
+        print(f"GitHubデータを処理中: {markdown_path}")
+        response, cost = call_openai_api(prompt, content)
 
-    if response:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        ai_reports_dir = os.path.join(output_dir, "ai_reports")
-        os.makedirs(ai_reports_dir, exist_ok=True)
-        output_file = os.path.join(
-            ai_reports_dir, f"github_summary_{repo_name}_{timestamp}.md"
-        )
+        if response:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            ai_reports_dir = os.path.join(output_dir, "ai_reports")
+            os.makedirs(ai_reports_dir, exist_ok=True)
+            output_file = os.path.join(
+                ai_reports_dir, f"github_summary_{repo_name}_{timestamp}.md"
+            )
 
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(response)
+            with open(output_file, "w", encoding="utf-8") as f:
+                f.write(response)
 
-        print(f"レスポンスを保存しました: {output_file}")
-        print(f"推定費用: ${cost:.6f}")
+            print(f"レスポンスを保存しました: {output_file}")
+            print(f"推定費用: ${cost:.6f}")
 
 
 def main():
@@ -236,6 +310,15 @@ def main():
         "--output-dir",
         help="出力ディレクトリ（指定しない場合はデータディレクトリと同じ）",
     )
+    parser.add_argument(
+        "--model", help="使用するOpenAIモデル"
+    )
+    parser.add_argument(
+        "--temperature", type=float, help="OpenAI APIの温度パラメータ"
+    )
+    parser.add_argument(
+        "--config", help="設定ファイルのパス"
+    )
 
     subparsers = parser.add_subparsers(dest="command", help="コマンド")
 
@@ -246,28 +329,48 @@ def main():
         help="weekly_summary.mdの代わりにall_summary.mdを使用",
     )
     slack_parser.add_argument("--period", help="期間（YYYY-MM-DD_to_YYYY-MM-DD形式）")
+    slack_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     github_parser = subparsers.add_parser("github", help="GitHubデータを処理")
     github_parser.add_argument(
-        "--repo", required=True, help="リポジトリ名（owner/repo形式）"
+        "--repo", required=True, help="リポジトリ名（owner/repo形式またはカンマ区切りのリスト）"
     )
+    github_parser.add_argument("--org", help="組織名（指定した場合、repoはowner/なしのリポジトリ名のリストとして扱う）")
+    github_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     args = parser.parse_args()
-
+    
+    cli_args = {
+        "output.default_dir": args.data_dir,
+        "openai.model": args.model,
+        "openai.temperature": args.temperature
+    }
+    
+    global config
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    data_dir = args.data_dir
+    output_dir = args.output_dir or data_dir
+    
     if not args.command:
         parser.print_help()
         return 1
 
     if args.command == "slack":
         process_slack_data(
-            data_dir=args.data_dir,
-            output_dir=args.output_dir,
+            data_dir=data_dir,
+            output_dir=output_dir,
             use_all_summary=args.all_summary,
             period=args.period,
+            prompt_file=args.prompt_file,
         )
     elif args.command == "github":
         process_github_data(
-            repo=args.repo, data_dir=args.data_dir, output_dir=args.output_dir
+            repo=args.repo, 
+            data_dir=data_dir, 
+            output_dir=output_dir,
+            prompt_file=args.prompt_file,
+            org=args.org,
         )
 
     return 0

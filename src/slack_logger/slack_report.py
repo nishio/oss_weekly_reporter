@@ -7,7 +7,6 @@ import json
 import argparse
 import glob
 import time
-import yaml
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Generator, Any, Union, Tuple
 from pathlib import Path
@@ -16,11 +15,13 @@ from dotenv import load_dotenv
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-from .slack_to_json import SlackExtractor, load_config
+from .slack_to_json import SlackExtractor
 from .json_to_markdown import MarkdownGenerator
+from ..config import Config
 
 load_dotenv()
 
+default_auto_join = True
 
 def slack_report(
     token: str,
@@ -109,7 +110,7 @@ def slack_report(
     date_range_path = os.path.join(output_dir, date_range_dir)
     
     if markdown:
-        generator = MarkdownGenerator(timezone_str=timezone_str)
+        generator = MarkdownGenerator(timezone_str=timezone_str, skip_channels=skip_channels)
         
         if not output_file:
             if weekly:
@@ -137,16 +138,9 @@ def slack_report(
 
 def main():
     """メイン関数"""
-    config = load_config()
-    
-    default_output_dir = config.get('output', {}).get('default_dir', './data')
-    default_auto_join = config.get('auto_join', True)
-    
-    config_skip_channels = config.get('skip_channels', [])
-    
     parser = argparse.ArgumentParser(description='Slackデータの抽出からMarkdown生成までを一括で行うツール')
     parser.add_argument('--token', help='Slack APIトークン', default=os.environ.get('SLACK_TOKEN'))
-    parser.add_argument('--output-dir', help=f'出力ディレクトリ（デフォルト: {default_output_dir}）', default=default_output_dir)
+    parser.add_argument('--output-dir', help='出力ディレクトリ')
     parser.add_argument('--year', type=int, help='抽出する年（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--month', type=int, help='抽出する月（指定しない場合は現在の2ヶ月前）')
     parser.add_argument('--last-days', type=int, default=7, help='過去何日分を取得するか（デフォルト: 7日）')
@@ -158,34 +152,53 @@ def main():
     parser.add_argument('--skip-channels', help='スキップするチャンネルIDのカンマ区切りリスト')
     parser.add_argument('--timezone', help='タイムゾーン', default="Asia/Tokyo")
     parser.add_argument('--daily', action='store_true', help='日次サマリーを生成（デフォルトは週次サマリー）')
-    parser.add_argument('--weekly', action='store_true', default=True, help='週次サマリーを生成（デフォルト）')
+    parser.add_argument('--weekly', action='store_true', help='週次サマリーを生成（デフォルト）')
     parser.add_argument('--all', action='store_true', help='全てのデータを出力する（日付フィルタリングを行わない）')
     parser.add_argument('--no-markdown', action='store_false', dest='markdown', help='Markdownを生成しない')
     parser.add_argument('--output', help='Markdown出力ファイル名（指定しない場合は自動生成）')
+    parser.add_argument('--config', help='設定ファイルのパス')
     
     args = parser.parse_args()
     
-    if not args.token:
+    cli_args = {
+        "slack.token": args.token,
+        "output.default_dir": args.output_dir,
+        "slack.auto_join": args.auto_join if args.auto_join is not None else None,
+        "output.timezone": args.timezone
+    }
+    
+    # skip_channelsが指定されている場合は追加
+    if args.skip_channels:
+        cli_args["slack.skip_channels"] = args.skip_channels.split(',')
+    
+    config = Config(config_file=args.config, cli_args=cli_args)
+    
+    token = config.get("slack.token")
+    output_dir = config.get("output.default_dir")
+    auto_join = config.get("slack.auto_join")
+    skip_channels = config.get("slack.skip_channels", [])
+    timezone_str = config.get("output.timezone", "Asia/Tokyo")
+    
+    if not token:
         print("エラー: Slack APIトークンが指定されていません。--tokenオプションまたはSLACK_TOKEN環境変数で指定してください。")
         return 1
-    
-    skip_channels = config_skip_channels.copy()
-    if args.skip_channels:
-        skip_channels.extend(args.skip_channels.split(','))
     
     if skip_channels:
         print(f"スキップするチャンネル: {', '.join(skip_channels)}")
     
+    if args.last_days is None:
+        args.last_days = 7
+    
     result = slack_report(
-        token=args.token,
-        output_dir=args.output_dir,
+        token=token,
+        output_dir=output_dir,
         year=args.year,
         month=args.month,
         last_days=args.last_days,
         period=args.period,
         auto_join=args.auto_join,
         skip_channels=skip_channels,
-        timezone_str=args.timezone,
+        timezone_str=timezone_str,
         weekly=not args.daily,  # --dailyが指定されていない場合は週次サマリー
         all_data=args.all,
         markdown=args.markdown,
