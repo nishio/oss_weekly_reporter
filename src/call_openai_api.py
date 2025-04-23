@@ -55,28 +55,61 @@ def call_openai_api(
     start_time = time.time()
 
     try:
-        response = openai.chat.completions.create(
-            model=model,
-            temperature=temperature,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": content},
-            ],
-        )
+        try:
+            params = {
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content},
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.chat.completions.create(**params)
+            
+            elapsed_time = time.time() - start_time
 
-        elapsed_time = time.time() - start_time
+            input_tokens = response.usage.prompt_tokens
+            output_tokens = response.usage.completion_tokens
 
-        input_tokens = response.usage.prompt_tokens
-        output_tokens = response.usage.completion_tokens
+            input_cost_per_token = 0.000015  # $0.015 / 1K tokens
+            output_cost_per_token = 0.000060  # $0.060 / 1K tokens
 
-        input_cost_per_token = 0.000015  # $0.015 / 1K tokens
-        output_cost_per_token = 0.000060  # $0.060 / 1K tokens
+            estimated_cost = (input_tokens * input_cost_per_token) + (
+                output_tokens * output_cost_per_token
+            )
 
-        estimated_cost = (input_tokens * input_cost_per_token) + (
-            output_tokens * output_cost_per_token
-        )
+            return response.choices[0].message.content, estimated_cost
+            
+        except AttributeError:
+            params = {
+                "model": model,
+                "messages": [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": content},
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.ChatCompletion.create(**params)
+            
+            elapsed_time = time.time() - start_time
 
-        return response.choices[0].message.content, estimated_cost
+            input_tokens = response["usage"]["prompt_tokens"]
+            output_tokens = response["usage"]["completion_tokens"]
+
+            input_cost_per_token = 0.000015  # $0.015 / 1K tokens
+            output_cost_per_token = 0.000060  # $0.060 / 1K tokens
+
+            estimated_cost = (input_tokens * input_cost_per_token) + (
+                output_tokens * output_cost_per_token
+            )
+
+            return response["choices"][0]["message"]["content"], estimated_cost
 
     except Exception as e:
         print(f"APIの呼び出しに失敗しました: {e}")
@@ -158,15 +191,17 @@ def process_github_data(
     data_dir: Optional[Union[str, Path]] = None, 
     output_dir: Optional[Union[str, Path]] = None,
     prompt_file: Optional[Union[str, Path]] = None,
+    org: Optional[str] = None,
 ) -> None:
     """
     GitHubデータを処理する
 
     Args:
-        repo: リポジトリ名（owner/repo形式）
+        repo: リポジトリ名（owner/repo形式）またはカンマ区切りのリポジトリ名リスト
         data_dir: データディレクトリ
         output_dir: 出力ディレクトリ
         prompt_file: 使用するプロンプトファイルのパス（指定しない場合はデフォルト）
+        org: 組織名（指定した場合、repoはowner/なしのリポジトリ名のリストとして扱う）
     """
     if not data_dir:
         try:
@@ -187,36 +222,46 @@ def process_github_data(
     
     ensure_dir(output_path)
 
-    repo_name = repo.split("/")[1]
-    markdown_file = f"github_report-{repo_name}.md"
-    markdown_path = data_path / "markdown" / "github" / markdown_file
-
-    if not markdown_path.exists():
-        print(f"Markdownファイルが見つかりません: {markdown_path}")
-        return
-
-    if not prompt_file:
-        prompt_file = Path(__file__).parent.parent / "src" / "github_logger" / "prompt.txt"
-    elif not Path(prompt_file).exists():
-        print(f"プロンプトファイルが見つかりません: {prompt_file}")
-        return
+    repos = repo.split(",")
+    
+    for single_repo in repos:
+        single_repo = single_repo.strip()
         
-    prompt = read_text_file(prompt_file)
-    content = read_text_file(markdown_path)
+        if org:
+            full_repo = f"{org}/{single_repo}"
+        else:
+            full_repo = single_repo
+            
+        repo_name = full_repo.split("/")[1]
+        markdown_file = f"github_report-{repo_name}.md"
+        markdown_path = data_path / "markdown" / "github" / markdown_file
 
-    print(f"GitHubデータを処理中: {markdown_path}")
-    response, cost = call_openai_api(prompt, content)
+        if not markdown_path.exists():
+            print(f"Markdownファイルが見つかりません: {markdown_path}")
+            continue
 
-    if response:
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        ai_reports_dir = output_path / "ai_reports"
-        ensure_dir(ai_reports_dir)
-        output_file = ai_reports_dir / f"github_summary_{repo_name}_{timestamp}.md"
+        if not prompt_file:
+            prompt_file = Path(__file__).parent.parent / "src" / "github_logger" / "prompt.txt"
+        elif not Path(prompt_file).exists():
+            print(f"プロンプトファイルが見つかりません: {prompt_file}")
+            return
+            
+        prompt = read_text_file(prompt_file)
+        content = read_text_file(markdown_path)
 
-        write_text_file(response, output_file)
+        print(f"GitHubデータを処理中: {markdown_path}")
+        response, cost = call_openai_api(prompt, content)
 
-        print(f"レスポンスを保存しました: {output_file}")
-        print(f"推定費用: ${cost:.6f}")
+        if response:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            ai_reports_dir = output_path / "ai_reports"
+            ensure_dir(ai_reports_dir)
+            output_file = ai_reports_dir / f"github_summary_{repo_name}_{timestamp}.md"
+
+            write_text_file(response, output_file)
+
+            print(f"レスポンスを保存しました: {output_file}")
+            print(f"推定費用: ${cost:.6f}")
 
 
 def main() -> int:
@@ -254,8 +299,9 @@ def main() -> int:
 
     github_parser = subparsers.add_parser("github", help="GitHubデータを処理")
     github_parser.add_argument(
-        "--repo", required=True, help="リポジトリ名（owner/repo形式）"
+        "--repo", required=True, help="リポジトリ名（owner/repo形式またはカンマ区切りのリスト）"
     )
+    github_parser.add_argument("--org", help="組織名（指定した場合、repoはowner/なしのリポジトリ名のリストとして扱う）")
     github_parser.add_argument("--prompt-file", help="使用するプロンプトファイルのパス")
 
     args = parser.parse_args()
@@ -290,6 +336,7 @@ def main() -> int:
             data_dir=data_dir, 
             output_dir=output_dir,
             prompt_file=args.prompt_file,
+            org=args.org,
         )
 
     return 0
