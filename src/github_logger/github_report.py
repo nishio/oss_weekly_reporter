@@ -6,6 +6,11 @@ import json
 import argparse
 import re
 from pathlib import Path
+from typing import Dict, List, Any, Optional, Union, Tuple
+
+from ..config import Config
+from ..utils.date_utils import get_date_range, get_date_range_dir
+from ..utils.file_utils import ensure_dir, write_json_file, read_json_file
 
 
 def get_github_token():
@@ -38,7 +43,13 @@ def extract_username_from_email(email_or_name):
     
     return email_or_name.strip()
 
-def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True):
+def extract_github_data(
+    repo: str, 
+    output_dir: str = "./data", 
+    last_days: int = 7, 
+    include_prs: bool = True,
+    timezone_str: str = "UTC"
+) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
     """
     GitHubからissueとPRデータを抽出してJSONファイルに保存
     
@@ -47,6 +58,7 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
         output_dir: 出力ディレクトリ
         last_days: 過去何日分を取得するか
         include_prs: PRも含めるかどうか
+        timezone_str: タイムゾーン名
     
     Returns:
         抽出結果の概要とJSONファイルのパス
@@ -62,28 +74,26 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
         "Accept": "application/vnd.github.v3+json",
     }
     
-    today = datetime.date.today()
-    one_week_ago = today - datetime.timedelta(days=last_days)
-    one_week_ago_str = one_week_ago.isoformat()
+    start_date, end_date = get_date_range(last_days=last_days, timezone_str=timezone_str)
+    one_week_ago_str = start_date.date().isoformat()
     
-    os.makedirs(output_dir, exist_ok=True)
+    output_path = Path(output_dir)
+    ensure_dir(output_path)
     
-    start_date_str = one_week_ago.strftime("%Y-%m-%d")
-    end_date_str = today.strftime("%Y-%m-%d")
-    date_range_dir = f"{start_date_str}_to_{end_date_str}"
+    date_range_dir = get_date_range_dir(start_date, end_date)
     
-    date_range_path = os.path.join(output_dir, date_range_dir)
-    os.makedirs(date_range_path, exist_ok=True)
+    date_range_path = output_path / date_range_dir
+    ensure_dir(date_range_path)
     
-    github_raw_dir = os.path.join(date_range_path, "raw", "github")
-    os.makedirs(github_raw_dir, exist_ok=True)
+    github_raw_dir = date_range_path / "raw" / "github"
+    ensure_dir(github_raw_dir)
     
     print(f"データを {date_range_path} に保存します")
     
     result = {
         "period": {
-            "start": one_week_ago.isoformat(),
-            "end": today.isoformat()
+            "start": start_date.isoformat(),
+            "end": end_date.isoformat()
         },
         "repo": repo,
         "issues": [],
@@ -355,15 +365,13 @@ def extract_github_data(repo, output_dir="./data", last_days=7, include_prs=True
     repo_name = repo.split("/")[1]
     
     all_data = all_issues + all_prs
-    github_file = os.path.join(github_raw_dir, f"{repo_name}.json")
-    with open(github_file, 'w', encoding='utf-8') as f:
-        json.dump(all_data, f, ensure_ascii=False, indent=2)
+    github_file = github_raw_dir / f"{repo_name}.json"
+    write_json_file(all_data, github_file)
     
     print(f"{len(all_issues)}件のissueと{len(all_prs)}件のPRを {github_file} に保存しました")
     
-    summary_file = os.path.join(github_raw_dir, f"github_summary_{repo_name}.json")
-    with open(summary_file, 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    summary_file = github_raw_dir / f"github_summary_{repo_name}.json"
+    write_json_file(result, summary_file)
     
     print(f"抽出結果の概要を {summary_file} に保存しました")
     
@@ -417,15 +425,21 @@ def format_item(item):
     return md
 
 
-def generate_markdown(items, repo, start_date, end_date, output_file=None):
+def generate_markdown(
+    items: List[Dict[str, Any]], 
+    repo: str, 
+    start_date: str, 
+    end_date: str, 
+    output_file: Optional[Union[str, Path]] = None
+) -> Optional[str]:
     """
     データからMarkdownレポートを生成
     
     Args:
         items: GitHubデータのリスト
         repo: リポジトリ名
-        start_date: 開始日
-        end_date: 終了日
+        start_date: 開始日（ISO形式）
+        end_date: 終了日（ISO形式）
         output_file: 出力ファイル名（指定しない場合はリポジトリ名から自動生成）
         
     Returns:
@@ -441,6 +455,8 @@ def generate_markdown(items, repo, start_date, end_date, output_file=None):
     issues = [item for item in items if item.get("type") == "issue"]
     prs = [item for item in items if item.get("type") == "pr"]
     
+    days_diff = (datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days
+    
     if issues:
         markdown_report += f"## Issues\n\n"
         
@@ -448,15 +464,15 @@ def generate_markdown(items, repo, start_date, end_date, output_file=None):
         created_issues = [issue for issue in issues if issue.get("state") == "created"]
         updated_issues = [issue for issue in issues if issue.get("state") == "updated"]
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間に完了されたissue ({len(closed_issues)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に完了されたissue ({len(closed_issues)}件)\n\n"
         for issue in closed_issues:
             markdown_report += format_item(issue)
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間に作成されたissue ({len(created_issues)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に作成されたissue ({len(created_issues)}件)\n\n"
         for issue in created_issues:
             markdown_report += format_item(issue)
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間に更新されたissue（作成・クローズを除く）({len(updated_issues)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に更新されたissue（作成・クローズを除く）({len(updated_issues)}件)\n\n"
         for issue in updated_issues:
             markdown_report += format_item(issue)
     
@@ -467,32 +483,31 @@ def generate_markdown(items, repo, start_date, end_date, output_file=None):
         created_prs = [pr for pr in prs if pr.get("state") == "created"]
         updated_prs = [pr for pr in prs if pr.get("state") == "updated"]
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間にマージされたPR ({len(merged_prs)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間にマージされたPR ({len(merged_prs)}件)\n\n"
         for pr in merged_prs:
             markdown_report += format_item(pr)
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間に作成されたPR ({len(created_prs)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に作成されたPR ({len(created_prs)}件)\n\n"
         for pr in created_prs:
             markdown_report += format_item(pr)
         
-        markdown_report += f"### 過去{(datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days}日間に更新されたPR（作成・マージを除く）({len(updated_prs)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に更新されたPR（作成・マージを除く）({len(updated_prs)}件)\n\n"
         for pr in updated_prs:
             markdown_report += format_item(pr)
     
     if not output_file:
         repo_name = repo.split("/")[1]
-        start_date_str = start_date.replace("-", "")
-        end_date_str = end_date.replace("-", "")
         date_range_dir = f"{start_date}_to_{end_date}"
         
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        base_dir = os.path.dirname(os.path.dirname(current_dir))  # リポジトリのルートディレクトリ
-        data_dir = os.path.join(base_dir, "data")
-        markdown_dir = os.path.join(data_dir, date_range_dir, "markdown", "github")
-        os.makedirs(markdown_dir, exist_ok=True)
-        output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+        current_dir = Path(__file__).parent.absolute()
+        base_dir = current_dir.parent.parent  # リポジトリのルートディレクトリ
+        data_dir = base_dir / "data"
+        
+        markdown_dir = data_dir / date_range_dir / "markdown" / "github"
+        ensure_dir(markdown_dir)
+        output_file = markdown_dir / f"github_report-{repo_name}.md"
     else:
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        ensure_dir(Path(output_file).parent)
     
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(markdown_report)
@@ -501,19 +516,23 @@ def generate_markdown(items, repo, start_date, end_date, output_file=None):
     return markdown_report
 
 
-def generate_markdown_from_file(json_file, output_file=None):
+def generate_markdown_from_file(
+    json_file: Union[str, Path], 
+    output_file: Optional[Union[str, Path]] = None,
+    timezone_str: str = "UTC"
+) -> Optional[str]:
     """
     JSONファイルからMarkdownレポートを生成
     
     Args:
         json_file: JSONファイルのパス
         output_file: 出力ファイル名（指定しない場合はリポジトリ名から自動生成）
+        timezone_str: タイムゾーン名
         
     Returns:
         生成されたMarkdown
     """
-    with open(json_file, 'r', encoding='utf-8') as f:
-        items = json.load(f)
+    items = read_json_file(json_file)
     
     if not items:
         print(f"{json_file} にデータが見つかりませんでした")
@@ -525,56 +544,85 @@ def generate_markdown_from_file(json_file, output_file=None):
     else:
         repo = "unknown-repo"
     
-    today = datetime.date.today()
-    one_week_ago = today - datetime.timedelta(days=7)
+    start_date, end_date = get_date_range(last_days=7, timezone_str=timezone_str)
     
     if not output_file:
         repo_name = repo.split("/")[1] if "/" in repo else repo
-        date_range_dir = os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(json_file))))
-        if not '_to_' in date_range_dir:
-            date_range_dir = f"{one_week_ago.strftime('%Y-%m-%d')}_to_{today.strftime('%Y-%m-%d')}"
+        json_file_path = Path(json_file)
         
-        output_dir = os.path.dirname(json_file)
-        output_dir_base = os.path.dirname(json_file).split(os.sep)
-        base_path = os.sep.join(output_dir_base[:output_dir_base.index(date_range_dir)])
-        markdown_dir = os.path.join(base_path, date_range_dir, "markdown", "github")
-        os.makedirs(markdown_dir, exist_ok=True)
-        output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+        try:
+            date_range_dir = json_file_path.parent.parent.parent.name
+            if not '_to_' in date_range_dir:
+                date_range_dir = get_date_range_dir(start_date, end_date)
+                
+            base_path = json_file_path.parent
+            while base_path.name != date_range_dir and str(base_path) != '/':
+                base_path = base_path.parent
+            
+            if str(base_path) == '/':
+                base_path = json_file_path.parent.parent.parent
+            else:
+                base_path = base_path.parent
+                
+            markdown_dir = base_path / date_range_dir / "markdown" / "github"
+            ensure_dir(markdown_dir)
+            output_file = markdown_dir / f"github_report-{repo_name}.md"
+        except (IndexError, ValueError):
+            date_range_dir = get_date_range_dir(start_date, end_date)
+            markdown_dir = Path(json_file).parent.parent / "markdown" / "github"
+            ensure_dir(markdown_dir)
+            output_file = markdown_dir / f"github_report-{repo_name}.md"
     
     return generate_markdown(
         items=items,
         repo=repo,
-        start_date=one_week_ago.isoformat(),
-        end_date=today.isoformat(),
+        start_date=start_date.date().isoformat(),
+        end_date=end_date.date().isoformat(),
         output_file=output_file
     )
 
 
-def main():
-    """メイン関数"""
+def main() -> int:
+    """
+    メイン関数
+    
+    Returns:
+        int: 終了コード（0: 成功, 1: 失敗）
+    """
+    config = Config()
+    
     parser = argparse.ArgumentParser(description='GitHubのissueとPRデータを抽出してレポートを生成するツール')
     
     repo_group = parser.add_argument_group('リポジトリ指定')
     repo_group.add_argument('--repo', help='リポジトリ名（owner/repo形式、またはカンマ区切りで複数指定可能）', required=True)
     repo_group.add_argument('--org', help='組織名（--repo で指定したリポジトリ名の前に付与される）')
     
-    parser.add_argument('--output-dir', help='出力ディレクトリ', default='./data')
+    parser.add_argument('--output-dir', help='出力ディレクトリ', default=config.get("output.default_dir", "./data"))
     parser.add_argument('--last-days', type=int, help='過去何日分を取得するか', default=7)
     parser.add_argument('--no-prs', action='store_true', help='PRを含めない')
     parser.add_argument('--markdown', action='store_true', help='Markdownレポートも生成する')
     parser.add_argument('--output', help='Markdownレポートの出力ファイル名（指定しない場合はリポジトリ名から自動生成）')
     parser.add_argument('--json-file', help='既存のJSONファイルからMarkdownレポートを生成する場合に指定')
+    parser.add_argument('--timezone', help='タイムゾーン', default=config.get("output.timezone", "UTC"))
+    parser.add_argument('--config', help='設定ファイルのパス')
     
     args = parser.parse_args()
     
+    if args.config:
+        config = Config(config_file=args.config)
+    
+    timezone_str = args.timezone or config.get("output.timezone", "UTC")
+    
+    # 既存のJSONファイルからMarkdownレポートを生成
     if args.json_file:
-        if not os.path.exists(args.json_file):
+        if not Path(args.json_file).exists():
             print(f"エラー: JSONファイルが見つかりません: {args.json_file}")
             return 1
         
         generate_markdown_from_file(
             json_file=args.json_file,
-            output_file=args.output
+            output_file=args.output,
+            timezone_str=timezone_str
         )
         return 0
     
@@ -592,15 +640,21 @@ def main():
     
     print(f"処理対象リポジトリ: {repos}")
     
+    output_dir = args.output_dir or config.get("output.default_dir", "./data")
+    
+    start_date, end_date = get_date_range(last_days=args.last_days, timezone_str=timezone_str)
+    date_range_dir = get_date_range_dir(start_date, end_date)
+    
     all_results = []
     all_items = []
     
     for repo in repos:
         result, json_file = extract_github_data(
             repo=repo,
-            output_dir=args.output_dir,
+            output_dir=output_dir,
             last_days=args.last_days,
-            include_prs=not args.no_prs
+            include_prs=not args.no_prs,
+            timezone_str=timezone_str
         )
         
         if result:
@@ -610,27 +664,22 @@ def main():
                 repo_name = repo.split("/")[1]
                 
                 if not args.output:
-                    today = datetime.date.today()
-                    one_week_ago = today - datetime.timedelta(days=args.last_days)
-                    start_date_str = one_week_ago.strftime("%Y-%m-%d")
-                    end_date_str = today.strftime("%Y-%m-%d")
-                    date_range_dir = f"{start_date_str}_to_{end_date_str}"
-                    
-                    markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
-                    os.makedirs(markdown_dir, exist_ok=True)
-                    output_file = os.path.join(markdown_dir, f"github_report-{repo_name}.md")
+                    markdown_dir = Path(output_dir) / date_range_dir / "markdown" / "github"
+                    ensure_dir(markdown_dir)
+                    output_file = markdown_dir / f"github_report-{repo_name}.md"
                 else:
                     if len(repos) > 1:
-                        base, ext = os.path.splitext(args.output)
-                        output_file = f"{base}-{repo_name}{ext}"
+                        output_path = Path(args.output)
+                        base, ext = output_path.stem, output_path.suffix
+                        output_file = output_path.with_name(f"{base}-{repo_name}{ext}")
                     else:
                         output_file = args.output
                 
+                # JSONファイルからデータを読み込み
                 items = []
-                if json_file and os.path.exists(json_file):
-                    with open(json_file, 'r', encoding='utf-8') as f:
-                        items = json.load(f)
-                        all_items.extend(items)
+                if json_file and Path(json_file).exists():
+                    items = read_json_file(json_file)
+                    all_items.extend(items)
                 
                 generate_markdown(
                     items=items,
@@ -641,15 +690,9 @@ def main():
                 )
     
     if len(repos) > 1 and all_items and args.markdown:
-        today = datetime.date.today()
-        one_week_ago = today - datetime.timedelta(days=args.last_days)
-        start_date_str = one_week_ago.strftime("%Y-%m-%d")
-        end_date_str = today.strftime("%Y-%m-%d")
-        date_range_dir = f"{start_date_str}_to_{end_date_str}"
-        
-        markdown_dir = os.path.join(args.output_dir, date_range_dir, "markdown", "github")
-        os.makedirs(markdown_dir, exist_ok=True)
-        combined_output = os.path.join(markdown_dir, f"github_report-combined.md")
+        markdown_dir = Path(output_dir) / date_range_dir / "markdown" / "github"
+        ensure_dir(markdown_dir)
+        combined_output = markdown_dir / "github_report-combined.md"
         
         repo_names = [r.split("/")[1] for r in repos]
         combined_repo_name = ", ".join(repo_names)
@@ -657,8 +700,8 @@ def main():
         generate_markdown(
             items=all_items,
             repo=combined_repo_name,
-            start_date=one_week_ago.isoformat(),
-            end_date=today.isoformat(),
+            start_date=start_date.date().isoformat(),
+            end_date=end_date.date().isoformat(),
             output_file=combined_output
         )
         
