@@ -97,14 +97,18 @@ def call_openai_api(
 
     try:
         try:
-            response = openai.chat.completions.create(
-                model=model,
-                temperature=temperature,
-                messages=[
+            params = {
+                "model": model,
+                "messages": [
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": content},
-                ],
-            )
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.chat.completions.create(**params)
             
             elapsed_time = time.time() - start_time
 
@@ -121,13 +125,18 @@ def call_openai_api(
             return response.choices[0].message.content, estimated_cost
             
         except AttributeError:
-            response = openai.ChatCompletion.create(
-                model=model,
-                messages=[
+            params = {
+                "model": model,
+                "messages": [
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": content},
-                ],
-            )
+                ]
+            }
+            
+            if model != "o1":
+                params["temperature"] = temperature
+                
+            response = openai.ChatCompletion.create(**params)
             
             elapsed_time = time.time() - start_time
 
