@@ -96,14 +96,18 @@ def call_openai_api(
     start_time = time.time()
 
     try:
-        response = openai.chat.completions.create(
-            model=model,
-            temperature=temperature,
-            messages=[
+        params = {
+            "model": model,
+            "messages": [
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": content},
-            ],
-        )
+            ]
+        }
+        
+        if model != "o1":
+            params["temperature"] = temperature
+            
+        response = openai.chat.completions.create(**params)
 
         elapsed_time = time.time() - start_time
 

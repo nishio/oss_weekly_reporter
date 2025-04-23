@@ -1,4 +1,5 @@
 # Slackデータの抽出と週次レポート生成
+SLACK_TOKEN=$(grep SLACK_TOKEN .env | cut -d'=' -f2)
 python -m src.slack_logger.slack_report --token "${SLACK_TOKEN}" --last-days 7 --weekly
 
 # GitHubデータの抽出とレポート生成
@@ -24,6 +25,10 @@ python -m src.call_openai_api slack --all-summary
 
 # GitHubレポートの要約
 python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai" --prompt-file "./prompts/kouchou_prompt.txt"
-python -m src.call_openai_api github --org "digitaldemocracy2030" --repo "idobata-analyst,idobata-discourse-agent,idobata-sns-agent,idobata-infra,idobata-policy-editor" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-analyst" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-discourse-agent" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-sns-agent" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-infra" --prompt-file "./prompts/idobata_prompt.txt"
+python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata-policy-editor" --prompt-file "./prompts/idobata_prompt.txt"
 python -m src.call_openai_api github --repo "digitaldemocracy2030/website" --prompt-file "./prompts/website_prompt.txt"
 python -m src.call_openai_api github --repo "digitaldemocracy2030/polimoney" --prompt-file "./prompts/polimoney_prompt.txt"
