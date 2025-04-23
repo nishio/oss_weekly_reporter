@@ -57,7 +57,7 @@ jobs:
         run: |
           if git rev-parse --verify origin/data >/dev/null 2>&1; then
             # dataブランチが存在する場合、チェックアウトする
-            git checkout data
+            git checkout -B data origin/data || git checkout -b data
           else
             # dataブランチが存在しない場合、新規作成
             git checkout -b data
