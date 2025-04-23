@@ -1,0 +1,551 @@
+{
+  "period": {
+    "start": "2025-04-15",
+    "end": "2025-04-22"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3009048885,
+      "number": 355,
+      "title": "[BUG]Dockerコンテナでのazureモジュールインポートエラー",
+      "state": "closed"
+    },
+    {
+      "id": 3007870628,
+      "number": 347,
+      "title": "[REFACTOR] broadlistening.pngが重い",
+      "state": "closed"
+    },
+    {
+      "id": 3006863891,
+      "number": 343,
+      "title": "[BUG] レポート数が多いときにstatic buildのOGP画像生成でエラーが出る",
+      "state": "closed"
+    },
+    {
+      "id": 3003989815,
+      "number": 327,
+      "title": "[FEATURE]Scatterにおいてラベルの表示/非表示を選択できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3002951870,
+      "number": 325,
+      "title": "[BUG]Azure Storage連携をしている場合にパブコメモードのCSVファイルがDLできなくなる",
+      "state": "closed"
+    },
+    {
+      "id": 3001177093,
+      "number": 317,
+      "title": "[FEATURE] 作成日時がUTCで出力される",
+      "state": "closed"
+    },
+    {
+      "id": 2990962155,
+      "number": 300,
+      "title": "[FEATURE]Windowsユーザの利用環境構築",
+      "state": "closed"
+    },
+    {
+      "id": 2990925334,
+      "number": 297,
+      "title": "[FEATURE]CSVダウンロード時の文字化け (Windows)",
+      "state": "closed"
+    },
+    {
+      "id": 2990813561,
+      "number": 286,
+      "title": "Windows環境でのセットアップの困難さ低減",
+      "state": "closed"
+    },
+    {
+      "id": 2987317166,
+      "number": 278,
+      "title": "[BUG]階層図を全画面表示にすると一番右上の要約文が「全画面終了」ボタンの後ろに隠れてしまう",
+      "state": "closed"
+    },
+    {
+      "id": 2979691677,
+      "number": 264,
+      "title": "[REFACTOR] GitHub Actions で Biome の lint, format のチェックを実行する",
+      "state": "closed"
+    },
+    {
+      "id": 2974877378,
+      "number": 243,
+      "title": "初期設定時のentrypoint.shエラー",
+      "state": "closed"
+    },
+    {
+      "id": 2962680964,
+      "number": 214,
+      "title": "[FEATURE]Azureのデプロイ更新作業をMakefileにまとめる",
+      "state": "closed"
+    },
+    {
+      "id": 2945694291,
+      "number": 175,
+      "title": "[DOCUMENT] Azure である程度の期間運用する際に必要な項目を追加する",
+      "state": "closed"
+    },
+    {
+      "id": 2945685679,
+      "number": 174,
+      "title": "[FEATURE] 生成するレポートを永続化できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2930293296,
+      "number": 96,
+      "title": "[FEATURE]50件の小さいデータで試した場合に濃いクラスタ抽出で見た目が変わらない問題の解決",
+      "state": "closed"
+    },
+    {
+      "id": 2926991813,
+      "number": 80,
+      "title": "(情報整理)Azureについて",
+      "state": "closed"
+    },
+    {
+      "id": 3008680112,
+      "number": 350,
+      "title": "[REFACTOR] client-admin/app/create/page.tsx のリファクタリング",
+      "state": "created"
+    },
+    {
+      "id": 3007630765,
+      "number": 346,
+      "title": "(実験) 同一の内容が大量に投稿される問題への対処法",
+      "state": "created"
+    },
+    {
+      "id": 3007613196,
+      "number": 345,
+      "title": "（情報整理）同一の内容が大量に投稿される問題への対処法",
+      "state": "created"
+    },
+    {
+      "id": 3006586222,
+      "number": 342,
+      "title": "[FEATURE]文脈をふまえた生データの整形",
+      "state": "created"
+    },
+    {
+      "id": 3006474334,
+      "number": 341,
+      "title": "[FEATURE] レポートの限定公開",
+      "state": "created"
+    },
+    {
+      "id": 3006247223,
+      "number": 339,
+      "title": "[FEATURE]同義語マップがほしい",
+      "state": "created"
+    },
+    {
+      "id": 3006200638,
+      "number": 337,
+      "title": "[FEATURE] 「全体図」と「階層図」の意見グループの色を揃える",
+      "state": "created"
+    },
+    {
+      "id": 3004393459,
+      "number": 333,
+      "title": "[FEATURE] static exportしたHTMLファイルをwebサーバーなしで閲覧できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3004071958,
+      "number": 330,
+      "title": "[FEATURE]第一階層の意見グループ数の上限を増やす",
+      "state": "created"
+    },
+    {
+      "id": 3004009762,
+      "number": 328,
+      "title": "[FEATURE] レポートのタイトルを変更できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3002618758,
+      "number": 324,
+      "title": "[FEATURE]ファクトチェックロジックの実験",
+      "state": "created"
+    },
+    {
+      "id": 3002279558,
+      "number": 323,
+      "title": "[FEATURE] レポートの多言語対応",
+      "state": "created"
+    },
+    {
+      "id": 3001208233,
+      "number": 318,
+      "title": "[FEATURE] 意見を抽出できなかったときのエラーハンドリング",
+      "state": "created"
+    },
+    {
+      "id": 2999437812,
+      "number": 315,
+      "title": "[FEATURE]エラーログをファイルに出力する",
+      "state": "created"
+    },
+    {
+      "id": 2995192689,
+      "number": 310,
+      "title": "[FEATURE] LLMが出力した結果の手動修正機能がほしい",
+      "state": "created"
+    },
+    {
+      "id": 2994589288,
+      "number": 308,
+      "title": "[FEATURE] HTML フォーム入力による広聴 AI システムの簡易デプロイ機能",
+      "state": "created"
+    },
+    {
+      "id": 2991203616,
+      "number": 306,
+      "title": "[FEATURE]「全体図」「濃い意見グループ」のUI/UX改善",
+      "state": "updated"
+    },
+    {
+      "id": 2991091837,
+      "number": 304,
+      "title": "[FEATURE]CSVアップロード時にコメント列を自動で特定してほしい",
+      "state": "updated"
+    },
+    {
+      "id": 2991091474,
+      "number": 303,
+      "title": "[FEATURE]CSVアップロード時にデフォルトでクラスタ数が設定されてほしい",
+      "state": "updated"
+    },
+    {
+      "id": 2991086810,
+      "number": 302,
+      "title": "[FEATURE]「公開」ボタンを押した時の効果を分かりやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2990914996,
+      "number": 296,
+      "title": "[FEATURE]LLM出力形式の揺らぎによる抽出エラー",
+      "state": "updated"
+    },
+    {
+      "id": 2990911889,
+      "number": 295,
+      "title": "OpenAI API Rate Limit関連の問題",
+      "state": "updated"
+    },
+    {
+      "id": 2990889159,
+      "number": 294,
+      "title": "[FEATURE]ラベルが多い時の重なりの問題",
+      "state": "updated"
+    },
+    {
+      "id": 2990887157,
+      "number": 293,
+      "title": "[FEATURE]レポート表示画面上で、使用したプロンプトを直接編集可能にする",
+      "state": "updated"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "updated"
+    },
+    {
+      "id": 2990878839,
+      "number": 291,
+      "title": "[DOCUMENT].envファイルの不可視問題 (Mac Finder)",
+      "state": "updated"
+    },
+    {
+      "id": 2990876385,
+      "number": 290,
+      "title": "[FEATURE]階層図のUI/UX改善",
+      "state": "updated"
+    },
+    {
+      "id": 2990845213,
+      "number": 289,
+      "title": "[FEATURE]exe形式での配布によるインストール簡略化",
+      "state": "updated"
+    },
+    {
+      "id": 2990818818,
+      "number": 287,
+      "title": "[DOCUMENT]Windows向けのセットアップ手順",
+      "state": "updated"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "updated"
+    },
+    {
+      "id": 2987877642,
+      "number": 280,
+      "title": "[FEATURE] テスト用のパブコメデータをCSV化する",
+      "state": "updated"
+    },
+    {
+      "id": 2982893942,
+      "number": 271,
+      "title": "[DOCUMENT] 静的ファイルのホスティング手順のドキュメント化",
+      "state": "updated"
+    },
+    {
+      "id": 2981664009,
+      "number": 269,
+      "title": "（アルゴリズム検証） 広聴AIで出力したクラスタのタイトルが抽象的になる問題の解決",
+      "state": "updated"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "updated"
+    },
+    {
+      "id": 2966115761,
+      "number": 220,
+      "title": "[FEATURE] frontからstaticなHTMLファイルをexportしてDownloadできるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2945409451,
+      "number": 170,
+      "title": "[FEATURE]ファクトチェック機能の実装",
+      "state": "updated"
+    },
+    {
+      "id": 2945124654,
+      "number": 144,
+      "title": "[FEATURE]LLMによるクラスタ品質の自動評価（実験）",
+      "state": "updated"
+    },
+    {
+      "id": 2938766428,
+      "number": 121,
+      "title": "[BUG]縦長画面での散布図の表示がおかしい",
+      "state": "updated"
+    },
+    {
+      "id": 2935293806,
+      "number": 113,
+      "title": "[REFACTOR] 濃いクラスタのアイコン変更",
+      "state": "updated"
+    },
+    {
+      "id": 2934407416,
+      "number": 104,
+      "title": "[FEATURE] ツールの利用状況を知る仕組み",
+      "state": "updated"
+    },
+    {
+      "id": 2922751037,
+      "number": 55,
+      "title": "[FEATURE] 濃いクラスタのしきい値のデフォルト値をレポートごとに設定できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2899402452,
+      "number": 24,
+      "title": "[FEATURE]濃いクラスタを表示している際は、クラスタの説明文も濃いクラスタに合わせたい",
+      "state": "updated"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    },
+    {
+      "id": 2893835579,
+      "number": 11,
+      "title": "[FEATURE]レポート出力にかかる時間の目安を記載する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3008364816,
+      "number": 349,
+      "title": "broadlistening.pngの圧縮",
+      "state": "merged"
+    },
+    {
+      "id": 3008324936,
+      "number": 348,
+      "title": "make azure-cleanup 時に確認メッセージを出す",
+      "state": "merged"
+    },
+    {
+      "id": 3006866301,
+      "number": 344,
+      "title": "Bug修正: static build時のOGP画像のリトライ処理を実装",
+      "state": "merged"
+    },
+    {
+      "id": 3006443813,
+      "number": 340,
+      "title": "shingo-ohkiさんをメンテナーに追加",
+      "state": "merged"
+    },
+    {
+      "id": 3004658274,
+      "number": 335,
+      "title": "CSVアップロード時におすすめクラスタ数をデフォルトとして設定する",
+      "state": "merged"
+    },
+    {
+      "id": 3004094750,
+      "number": 332,
+      "title": "[FEATURE] 意見グループのカラーバリエーションを20から40に増やす",
+      "state": "merged"
+    },
+    {
+      "id": 3004030475,
+      "number": 329,
+      "title": "意見グループのタイトルの表示/非表示を設定する項目を実装",
+      "state": "merged"
+    },
+    {
+      "id": 3002966419,
+      "number": 326,
+      "title": "CSVダウンロード機能に用いるcsvを、Azure Blob Storage連携時の削除対象から除外",
+      "state": "merged"
+    },
+    {
+      "id": 3002219397,
+      "number": 322,
+      "title": "レポート作成時にISR関連の注意書きを追加する",
+      "state": "merged"
+    },
+    {
+      "id": 3002072268,
+      "number": 321,
+      "title": "CSVダウンロードにBOM付きオプションを追加する",
+      "state": "merged"
+    },
+    {
+      "id": 3001422724,
+      "number": 320,
+      "title": "レポート作成日時にtimezoneをつけて保存",
+      "state": "merged"
+    },
+    {
+      "id": 3001394675,
+      "number": 319,
+      "title": "ラベリングのデフォルトプロンプトをアップデート",
+      "state": "merged"
+    },
+    {
+      "id": 2999963716,
+      "number": 316,
+      "title": "レポート一覧のクリック可能範囲を広げる(#207)",
+      "state": "merged"
+    },
+    {
+      "id": 2998210511,
+      "number": 314,
+      "title": "改行コード混在の解消のため .gitattributes を追加（#243 対応）",
+      "state": "merged"
+    },
+    {
+      "id": 2998186696,
+      "number": 313,
+      "title": "Windowsユーザの利用環境構築 #300　の調整",
+      "state": "merged"
+    },
+    {
+      "id": 2995792597,
+      "number": 312,
+      "title": "濃いクラスタ抽出で対象となるクラスタがない時にはボタンをdisabledにする",
+      "state": "merged"
+    },
+    {
+      "id": 2995775673,
+      "number": 311,
+      "title": "レビュアー向けのガイドラインを追記",
+      "state": "merged"
+    },
+    {
+      "id": 2989659375,
+      "number": 282,
+      "title": "fix issue #278 : 要約文が「全画面終了」ボタンの後ろに隠れないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 2962689394,
+      "number": 215,
+      "title": "Azureの更新のためのターゲットを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3008963725,
+      "number": 354,
+      "title": "add ruff setting on .vscode/settings.json",
+      "state": "created"
+    },
+    {
+      "id": 3008956836,
+      "number": 353,
+      "title": "[REFACTOR] langchainの依存を削除する",
+      "state": "created"
+    },
+    {
+      "id": 3008901452,
+      "number": 352,
+      "title": "LLM出力形式の揺らぎによる抽出エラーの修正",
+      "state": "created"
+    },
+    {
+      "id": 3008743423,
+      "number": 351,
+      "title": "client-admin/app/create/page.tsx のリファクタリング",
+      "state": "created"
+    },
+    {
+      "id": 3006209488,
+      "number": 338,
+      "title": "REVALIDATE周りの設定をAzureのセットアップスクリプトに追加",
+      "state": "created"
+    },
+    {
+      "id": 3004792022,
+      "number": 336,
+      "title": "レポート一覧からタイトルと調査概要を変更可能にする",
+      "state": "created"
+    },
+    {
+      "id": 3004424050,
+      "number": 334,
+      "title": "第1階層の意見グループ数の上限を 20 -> 40に増加",
+      "state": "created"
+    },
+    {
+      "id": 3004072776,
+      "number": 331,
+      "title": "OpenAI API Rate Limit対策の実装",
+      "state": "created"
+    },
+    {
+      "id": 2995172973,
+      "number": 309,
+      "title": "静的ファイルエクスポート機能の追加 (#220)",
+      "state": "created"
+    },
+    {
+      "id": 2990972837,
+      "number": 301,
+      "title": "Windows環境でのセットアップ簡素化 (Issue #300)",
+      "state": "updated"
+    }
+  ]
+}
