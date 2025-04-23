@@ -1,0 +1,935 @@
+[
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1744957551.253609",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/332|PR #332: [FEATURE] 意見グループのカラーバリエーションを20から40に増やす> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08GG5LRGMP>) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/330>\nこの対応をお願い。\nカラーバリエーションはclient/components/charts/ScatterChart.tsxに定義されている。なるべく既存の色合いと被らないようにバリエーションを増やして。\n\n```\n<https://app.devin.ai/sessions/13cf7d9312e1499bbeda7a28e54f55af|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1744956671,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/332",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#332 [FEATURE] 意見グループのカラーバリエーションを20から40に増やす",
+        "title": "#332 [FEATURE] 意見グループのカラーバリエーションを20から40に増やす",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/332",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 362,
+        "thumb_width": 362,
+        "thumb_url": "https://avatars.githubusercontent.com/u/5045294?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nasuka",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "nasuka",
+        "title": "nasuka",
+        "fields": [
+          {
+            "value": "The University of Tokyo",
+            "title": "Company",
+            "short": true
+          },
+          {
+            "value": "Japan,Tokyo",
+            "title": "Location",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zalv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/332",
+                "text": "PR #332: [FEATURE] 意見グループのカラーバリエーションを20から40に増やす"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GG5LRGMP"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:nsk.smn@gmail.com",
+                "text": "nsk.smn@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/330"
+              },
+              {
+                "type": "text",
+                "text": "\nこの対応をお願い。\nカラーバリエーションはclient/components/charts/ScatterChart.tsxに定義されている。なるべく既存の色合いと被らないようにバリエーションを増やして。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/13cf7d9312e1499bbeda7a28e54f55af",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/332|PR #332: [FEATURE] 意見グループのカラーバリエーションを20から40に増やす> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @nsk.smn) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/330>\nこの対応をお願い。\nカラーバリエーションはclient/components/charts/ScatterChart.tsxに定義されている。なるべく既存の色合いと被らないようにバリエーションを増やして。\n\n```\n<https://app.devin.ai/sessions/13cf7d9312e1499bbeda7a28e54f55af|View Devin Session>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08NE6BK1GX",
+    "text": "<@U08NE6BK1GX> has joined the channel",
+    "type": "message",
+    "ts": "1745064564.392619",
+    "user_name": "Eri Hashidume",
+    "text_readable": "@eri.hsdm has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745237721.352759",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/polimoney/pull/14|PR #14: Add LICENSE file (AGPL-3.0)> in digitaldemocracy2030/polimoney was merged by <https://github.com/takahiroanno|takahiroanno> (requested by <@U08FZDRRY8Z>) :rocket:\nOriginal prompt from gmailcom:\n```\nこれやって\n<https://github.com/digitaldemocracy2030/polimoney/issues/12>\n```\n<https://app.devin.ai/sessions/61fd23ca07404b8bac16a95fba4f07ab|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745237649,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/polimoney/pull/14",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#14 Add LICENSE file (AGPL-3.0)",
+        "title": "#14 Add LICENSE file (AGPL-3.0)",
+        "title_link": "https://github.com/digitaldemocracy2030/polimoney/pull/14",
+        "footer": "<https://github.com/digitaldemocracy2030/polimoney|digitaldemocracy2030/polimoney>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 460,
+        "thumb_width": 460,
+        "thumb_url": "https://avatars.githubusercontent.com/u/1589322?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/takahiroanno",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "[no preview available]",
+        "fields": [
+          {
+            "value": "15",
+            "title": "Repositories",
+            "short": true
+          },
+          {
+            "value": "75",
+            "title": "Followers",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0Pb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/pull/14",
+                "text": "PR #14: Add LICENSE file (AGPL-3.0)"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/polimoney was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/takahiroanno",
+                "text": "takahiroanno"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from gmailcom:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これやって\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/12"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/61fd23ca07404b8bac16a95fba4f07ab",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/polimoney/pull/14|PR #14: Add LICENSE file (AGPL-3.0)> in digitaldemocracy2030/polimoney was merged by <https://github.com/takahiroanno|takahiroanno> (requested by @annyotaka) :rocket:\nOriginal prompt from gmailcom:\n```\nこれやって\n<https://github.com/digitaldemocracy2030/polimoney/issues/12>\n```\n<https://app.devin.ai/sessions/61fd23ca07404b8bac16a95fba4f07ab|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745304966.362079",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/26|PR #26: 日本語はUDGothic、英語はInterフォントを使用するように変更> in digitaldemocracy2030/website was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): Google FontsのUDゴシックは、日本語は綺麗ですが英文が見苦しいと思います。\n英文は何か別のフォント（Interとか）になるように指定した方が良いと思いました！\n（Devinが稼働できるならこれをそのままリクエストとして投げたい）\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\nできる？コードはここです。\n<https://github.com/digitaldemocracy2030/website>\n\ndigitaldemocracy2030/website\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/9f2e55f8ed634b55bb56ba7e6bff7b84|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745304637,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/26",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#26 日本語はUDGothic、英語はInterフォントを使用するように変更",
+        "title": "#26 日本語はUDGothic、英語はInterフォントを使用するように変更",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/26",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 460,
+        "thumb_width": 460,
+        "thumb_url": "https://avatars.githubusercontent.com/u/31824270?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/blu3mo",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Shutaro Aoyama",
+        "title": "Shutaro Aoyama",
+        "fields": [
+          {
+            "value": "NYC & Tokyo",
+            "title": "Location",
+            "short": true
+          },
+          {
+            "value": "<http://blu3mo.com|blu3mo.com>",
+            "title": "URL",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LvS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/26",
+                "text": "PR #26: 日本語はUDGothic、英語はInterフォントを使用するように変更"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): Google FontsのUDゴシックは、日本語は綺麗ですが英文が見苦しいと思います。\n英文は何か別のフォント（Interとか）になるように指定した方が良いと思いました！\n（Devinが稼働できるならこれをそのままリクエストとして投げたい）\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\nできる？コードはここです。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website"
+              },
+              {
+                "type": "text",
+                "text": "\n\ndigitaldemocracy2030/website\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/9f2e55f8ed634b55bb56ba7e6bff7b84",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/26|PR #26: 日本語はUDGothic、英語はInterフォントを使用するように変更> in digitaldemocracy2030/website was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): Google FontsのUDゴシックは、日本語は綺麗ですが英文が見苦しいと思います。\n英文は何か別のフォント（Interとか）になるように指定した方が良いと思いました！\n（Devinが稼働できるならこれをそのままリクエストとして投げたい）\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\nできる？コードはここです。\n<https://github.com/digitaldemocracy2030/website>\n\ndigitaldemocracy2030/website\n\nShutaro Aoyama (ぶるーも) (U08GJSBAX3K): @Devin\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/9f2e55f8ed634b55bb56ba7e6bff7b84|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745364291.516569",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/10|PR #10: Move repositories to new structure> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\n今は二つのrepoがあります。\n<https://github.com/digitaldemocracy2030/idobata>\n<https://github.com/blu3mo/idobata-prototype-20250409>\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n```\n<https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745364119,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/10",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#10 Move repositories to new structure",
+        "title": "#10 Move repositories to new structure",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/10",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 460,
+        "thumb_width": 460,
+        "thumb_url": "https://avatars.githubusercontent.com/u/31824270?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/blu3mo",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Shutaro Aoyama",
+        "title": "Shutaro Aoyama",
+        "fields": [
+          {
+            "value": "NYC & Tokyo",
+            "title": "Location",
+            "short": true
+          },
+          {
+            "value": "<http://blu3mo.com|blu3mo.com>",
+            "title": "URL",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NA=v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/10",
+                "text": "PR #10: Move repositories to new structure"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今は二つのrepoがあります。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo/idobata-prototype-20250409"
+              },
+              {
+                "type": "text",
+                "text": "\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/10|PR #10: Move repositories to new structure> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\n今は二つのrepoがあります。\n<https://github.com/digitaldemocracy2030/idobata>\n<https://github.com/blu3mo/idobata-prototype-20250409>\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n```\n<https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745365012.938349",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/11|PR #11: Remove original folders from root directory> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\n今は二つのrepoがあります。\n<https://github.com/digitaldemocracy2030/idobata>\n<https://github.com/blu3mo/idobata-prototype-20250409>\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n```\n<https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745364991,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/11",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#11 Remove original folders from root directory",
+        "title": "#11 Remove original folders from root directory",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/11",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 460,
+        "thumb_width": 460,
+        "thumb_url": "https://avatars.githubusercontent.com/u/31824270?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/blu3mo",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Shutaro Aoyama",
+        "title": "Shutaro Aoyama",
+        "fields": [
+          {
+            "value": "NYC & Tokyo",
+            "title": "Location",
+            "short": true
+          },
+          {
+            "value": "<http://blu3mo.com|blu3mo.com>",
+            "title": "URL",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fI9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/11",
+                "text": "PR #11: Remove original folders from root directory"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今は二つのrepoがあります。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo/idobata-prototype-20250409"
+              },
+              {
+                "type": "text",
+                "text": "\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/11|PR #11: Remove original folders from root directory> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\n今は二つのrepoがあります。\n<https://github.com/digitaldemocracy2030/idobata>\n<https://github.com/blu3mo/idobata-prototype-20250409>\nこれを、\nblu3mo/idobata-prototype-20250409 → digitaldemocracy2030/idobata/idea-discussion\ndigitaldemocracy2030/idobata → digitaldemocracy2030/idobata/policy-edit\nに移動したい。まじで移動するだけで良い。他に何もしないで。\n```\n<https://app.devin.ai/sessions/353182e6d34c4321a79af254b9fafc01|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745381852.133689",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/12|PR #12: 非エンジニア向けに技術的な用語を削除> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin digitaldemocracy2030/idobata に関して、policy-editorの部分のフロントエンドから非エンジニアが混乱するような表記を消して欲しい。\n例：\n• 「チャットスレッドが開始されました。GitHub Contribution MCPサーバーと対話してください！」\n• ✓ MCP接続済み\n挙動は一切変えずに、文言だけ編集して。よろしく〜\n```\n<https://app.devin.ai/sessions/e3c5e360e3064c70a44e7c76b3bd2260|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "deleted": false,
+      "name": "Devin",
+      "updated": 1743759720,
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745381629,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/12",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#12 非エンジニア向けに技術的な用語を削除",
+        "title": "#12 非エンジニア向けに技術的な用語を削除",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/12",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>"
+      },
+      {
+        "id": 2,
+        "thumb_height": 460,
+        "thumb_width": 460,
+        "thumb_url": "https://avatars.githubusercontent.com/u/31824270?v=4",
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/blu3mo",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Shutaro Aoyama",
+        "title": "Shutaro Aoyama",
+        "fields": [
+          {
+            "value": "NYC & Tokyo",
+            "title": "Location",
+            "short": true
+          },
+          {
+            "value": "<http://blu3mo.com|blu3mo.com>",
+            "title": "URL",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RXb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/12",
+                "text": "PR #12: 非エンジニア向けに技術的な用語を削除"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin digitaldemocracy2030/idobata に関して、policy-editorの部分のフロントエンドから非エンジニアが混乱するような表記を消して欲しい。\n例：\n• 「チャットスレッドが開始されました。GitHub Contribution MCPサーバーと対話してください！」\n• ✓ MCP接続済み\n挙動は一切変えずに、文言だけ編集して。よろしく〜\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/e3c5e360e3064c70a44e7c76b3bd2260",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/12|PR #12: 非エンジニア向けに技術的な用語を削除> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin digitaldemocracy2030/idobata に関して、policy-editorの部分のフロントエンドから非エンジニアが混乱するような表記を消して欲しい。\n例：\n• 「チャットスレッドが開始されました。GitHub Contribution MCPサーバーと対話してください！」\n• ✓ MCP接続済み\n挙動は一切変えずに、文言だけ編集して。よろしく〜\n```\n<https://app.devin.ai/sessions/e3c5e360e3064c70a44e7c76b3bd2260|View Devin Session>"
+  }
+]
