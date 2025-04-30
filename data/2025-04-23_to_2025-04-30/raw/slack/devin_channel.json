@@ -1,0 +1,3612 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08J6JR5SNQ",
+    "text": "<@U08J6JR5SNQ> has joined the channel",
+    "type": "message",
+    "ts": "1745455994.923189",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@shinta.nakayama has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745505991.284479",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/331|PR #331: OpenAI API Rate Limit対策の実装> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/mtane0412|mtane0412> (requested by <@U08GG5LRGMP>) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/295>\nこのイシューに記載してある、以下のアプローチを実装してほしい。\nllm.pyのrequest_to_chat_openaiに対して、tenacityでexponential backoffでリトライするようにすれば実現できると思う。\n\n指数バックオフ付きリトライ処理の実装: API呼び出し部分で RateLimitError (429) を検知した場合、待機時間を指数関数的に増やしながら、複数回（上限を設定して）API呼び出しを再試行する処理を実装します。\n\n```\n<https://app.devin.ai/sessions/67c2a06784d74e068af3a03c787f2394|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VL2j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/331",
+                "text": "PR #331: OpenAI API Rate Limit対策の実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/mtane0412",
+                "text": "mtane0412"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GG5LRGMP"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:nsk.smn@gmail.com",
+                "text": "nsk.smn@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/295"
+              },
+              {
+                "type": "text",
+                "text": "\nこのイシューに記載してある、以下のアプローチを実装してほしい。\nllm.pyのrequest_to_chat_openaiに対して、tenacityでexponential backoffでリトライするようにすれば実現できると思う。\n\n指数バックオフ付きリトライ処理の実装: API呼び出し部分で RateLimitError (429) を検知した場合、待機時間を指数関数的に増やしながら、複数回（上限を設定して）API呼び出しを再試行する処理を実装します。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/67c2a06784d74e068af3a03c787f2394",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/331|PR #331: OpenAI API Rate Limit対策の実装> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/mtane0412|mtane0412> (requested by @nsk.smn) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/295>\nこのイシューに記載してある、以下のアプローチを実装してほしい。\nllm.pyのrequest_to_chat_openaiに対して、tenacityでexponential backoffでリトライするようにすれば実現できると思う。\n\n指数バックオフ付きリトライ処理の実装: API呼び出し部分で RateLimitError (429) を検知した場合、待機時間を指数関数的に増やしながら、複数回（上限を設定して）API呼び出しを再試行する処理を実装します。\n\n```\n<https://app.devin.ai/sessions/67c2a06784d74e068af3a03c787f2394|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745554224.389729",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/35|PR #35: 広聴AIページに歴史セクションを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShingo OHKI (U08H3V9KMFH): いどばたシステムを分かりやすく伝えるという話が動いていますが、広聴AIについても\n<https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499|こういうこと>が <https://dd2030.org/kouchou-ai> で伝えられるとよさそうだなと思いました\n\nQuote of conversation (<https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499>):\n&gt; From NISHIO Hirokazu\n&gt; 昨年段階ではwebサービス化されてなかったTalk to the Cityを都知事選、日テレ衆院選報道、シン東京2050、の経験を踏まえて「ノンエンジニアがCSVをアップロードするだけで使える仕組みが必要だ」となって作られたのが広聴AI\n&gt; Posted on April 25, 2025 at 03:04 AM\n\n\nNISHIO Hirokazu (U08G2A216TW): @Devin website repoでこれをやってみて、参考情報はwebsiteのactivityとかこれとかを読んで\n<https://note.com/nishiohirokazu/n/nb37adf96fe50>\n\n[attachment(s) from latest message omitted here, will be added below]\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/f84aee916f4948689b562b091f1c8f91|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bO7MX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/35",
+                "text": "PR #35: 広聴AIページに歴史セクションを追加"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShingo OHKI (U08H3V9KMFH): いどばたシステムを分かりやすく伝えるという話が動いていますが、広聴AIについても\n"
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499",
+                "text": "こういうこと"
+              },
+              {
+                "type": "text",
+                "text": "が "
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/kouchou-ai"
+              },
+              {
+                "type": "text",
+                "text": " で伝えられるとよさそうだなと思いました\n\nQuote of conversation ("
+              },
+              {
+                "type": "link",
+                "url": "https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499"
+              },
+              {
+                "type": "text",
+                "text": "):\n> From NISHIO Hirokazu\n> 昨年段階ではwebサービス化されてなかったTalk to the Cityを都知事選、日テレ衆院選報道、シン東京2050、の経験を踏まえて「ノンエンジニアがCSVをアップロードするだけで使える仕組みが必要だ」となって作られたのが広聴AI\n> Posted on April 25, 2025 at 03:04 AM\n\n\nNISHIO Hirokazu (U08G2A216TW): @Devin website repoでこれをやってみて、参考情報はwebsiteのactivityとかこれとかを読んで\n"
+              },
+              {
+                "type": "link",
+                "url": "https://note.com/nishiohirokazu/n/nb37adf96fe50"
+              },
+              {
+                "type": "text",
+                "text": "\n\n[attachment(s) from latest message omitted here, will be added below]\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/f84aee916f4948689b562b091f1c8f91",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/35|PR #35: 広聴AIページに歴史セクションを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nShingo OHKI (U08H3V9KMFH): いどばたシステムを分かりやすく伝えるという話が動いていますが、広聴AIについても\n<https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499|こういうこと>が <https://dd2030.org/kouchou-ai> で伝えられるとよさそうだなと思いました\n\nQuote of conversation (<https://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1745550274593499>):\n> From NISHIO Hirokazu\n> 昨年段階ではwebサービス化されてなかったTalk to the Cityを都知事選、日テレ衆院選報道、シン東京2050、の経験を踏まえて「ノンエンジニアがCSVをアップロードするだけで使える仕組みが必要だ」となって作られたのが広聴AI\n> Posted on April 25, 2025 at 03:04 AM\n\n\nNISHIO Hirokazu (U08G2A216TW): @Devin website repoでこれをやってみて、参考情報はwebsiteのactivityとかこれとかを読んで\n<https://note.com/nishiohirokazu/n/nb37adf96fe50>\n\n[attachment(s) from latest message omitted here, will be added below]\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/f84aee916f4948689b562b091f1c8f91|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745564951.874819",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/25|PR #25: Add Japanese usage guide for idea-discussion> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nidea-discussion/README.mdに使い方ガイドを書きたい。日本語で。\nデプロイ方法とかはrootのREADMEに書いてあるので割愛。\nその上で、\n- 最初にシードデータを投入して分析を生成する方法のガイド。\n tmp/import_comments.pyが参考になるかも。この感じでimportした上で、開発画面の「シャープな問いを生成」ボタンを押してもらうと良い。\n- そのあとレポートを読んだり、AIとチャットしたりできる。\n```\n<https://app.devin.ai/sessions/931a03b61f97486d80fd1aa7ee97b487|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "htYPc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/25",
+                "text": "PR #25: Add Japanese usage guide for idea-discussion"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "idea-discussion/README.mdに使い方ガイドを書きたい。日本語で。\nデプロイ方法とかはrootのREADMEに書いてあるので割愛。\nその上で、\n- 最初にシードデータを投入して分析を生成する方法のガイド。\n tmp/import_comments.pyが参考になるかも。この感じでimportした上で、開発画面の「シャープな問いを生成」ボタンを押してもらうと良い。\n- そのあとレポートを読んだり、AIとチャットしたりできる。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/931a03b61f97486d80fd1aa7ee97b487",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/25|PR #25: Add Japanese usage guide for idea-discussion> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nidea-discussion/README.mdに使い方ガイドを書きたい。日本語で。\nデプロイ方法とかはrootのREADMEに書いてあるので割愛。\nその上で、\n- 最初にシードデータを投入して分析を生成する方法のガイド。\n tmp/import_comments.pyが参考になるかも。この感じでimportした上で、開発画面の「シャープな問いを生成」ボタンを押してもらうと良い。\n- そのあとレポートを読んだり、AIとチャットしたりできる。\n```\n<https://app.devin.ai/sessions/931a03b61f97486d80fd1aa7ee97b487|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745565599.711159",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/26|PR #26: ルーティング実装の修正: 直接URLアクセスとリロード時のサポート> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin よろしく\n```\n<https://app.devin.ai/sessions/01e318be0f604144ae2faee43e8f6b79|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "co0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/26",
+                "text": "PR #26: ルーティング実装の修正: 直接URLアクセスとリロード時のサポート"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #devin部屋:\n\n@Devin よろしく\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/01e318be0f604144ae2faee43e8f6b79",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/26|PR #26: ルーティング実装の修正: 直接URLアクセスとリロード時のサポート> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin よろしく\n```\n<https://app.devin.ai/sessions/01e318be0f604144ae2faee43e8f6b79|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745624509.235389",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/27|PR #27: Add digest feature similar to policy feature> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin 今のpolicyGeneratorとかpolicyControllerあたりは、「あるシャープな問い(question)と、それにlinkしている最新データを元に、政策を生成してデータベースに保存」みたいなことをやっていると思う。\nこれから作って欲しいのは、「あるシャープな問い(question)と、それにlinkしている最新データと、その問いを扱う政策レポートの最新バージョン一つを元に、一般人向けの読みやすい噛み砕いたレポートを生成して版をデータベースに保存」という機能。設計はすごいpolicy周りのものと似るとおもうので、参考にしつつ独立の機能を作ってね。policyに対してこれはdigestという名前がいいかな。\n```\n<https://app.devin.ai/sessions/0b943ede65af428092431e628038a2f9|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GQbK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/27",
+                "text": "PR #27: Add digest feature similar to policy feature"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin 今のpolicyGeneratorとかpolicyControllerあたりは、「あるシャープな問い(question)と、それにlinkしている最新データを元に、政策を生成してデータベースに保存」みたいなことをやっていると思う。\nこれから作って欲しいのは、「あるシャープな問い(question)と、それにlinkしている最新データと、その問いを扱う政策レポートの最新バージョン一つを元に、一般人向けの読みやすい噛み砕いたレポートを生成して版をデータベースに保存」という機能。設計はすごいpolicy周りのものと似るとおもうので、参考にしつつ独立の機能を作ってね。policyに対してこれはdigestという名前がいいかな。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/0b943ede65af428092431e628038a2f9",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/27|PR #27: Add digest feature similar to policy feature> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin 今のpolicyGeneratorとかpolicyControllerあたりは、「あるシャープな問い(question)と、それにlinkしている最新データを元に、政策を生成してデータベースに保存」みたいなことをやっていると思う。\nこれから作って欲しいのは、「あるシャープな問い(question)と、それにlinkしている最新データと、その問いを扱う政策レポートの最新バージョン一つを元に、一般人向けの読みやすい噛み砕いたレポートを生成して版をデータベースに保存」という機能。設計はすごいpolicy周りのものと似るとおもうので、参考にしつつ独立の機能を作ってね。policyに対してこれはdigestという名前がいいかな。\n```\n<https://app.devin.ai/sessions/0b943ede65af428092431e628038a2f9|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745643578.242329",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/33|PR #33: Remove GITHUB_APP_PRIVATE_KEY environment variable> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nGITHUB_APP_PRIVATE_KEY 環境変数は、pemファイルを直接読む方式に置き換えられたから不要とのこと。\n消して本当に問題ないか一応確認しつつ、問題ないのであれば関連する箇所から消してください。\n```\n<https://app.devin.ai/sessions/20b1c2edaf734181a7081e0a20347205|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FKhSL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/33",
+                "text": "PR #33: Remove GITHUB_APP_PRIVATE_KEY environment variable"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\nGITHUB_APP_PRIVATE_KEY 環境変数は、pemファイルを直接読む方式に置き換えられたから不要とのこと。\n消して本当に問題ないか一応確認しつつ、問題ないのであれば関連する箇所から消してください。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/20b1c2edaf734181a7081e0a20347205",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/33|PR #33: Remove GITHUB_APP_PRIVATE_KEY environment variable> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nGITHUB_APP_PRIVATE_KEY 環境変数は、pemファイルを直接読む方式に置き換えられたから不要とのこと。\n消して本当に問題ないか一応確認しつつ、問題ないのであれば関連する箇所から消してください。\n```\n<https://app.devin.ai/sessions/20b1c2edaf734181a7081e0a20347205|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745645494.495329",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/34|PR #34: Add CLA and PR template> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/PULL_REQUEST_TEMPLATE.md>\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md>\n\nこの2つのファイルを複製するような形で、\n\n<https://github.com/digitaldemocracy2030/idobata>\n\nにも、PRの際にCLAへのチェックを必要とする機構を作って。\n```\n<https://app.devin.ai/sessions/4e00de8c098c499583e8c243c269646f|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z74",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/34",
+                "text": "PR #34: Add CLA and PR template"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/PULL_REQUEST_TEMPLATE.md"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md"
+              },
+              {
+                "type": "text",
+                "text": "\n\nこの2つのファイルを複製するような形で、\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata"
+              },
+              {
+                "type": "text",
+                "text": "\n\nにも、PRの際にCLAへのチェックを必要とする機構を作って。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/4e00de8c098c499583e8c243c269646f",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/34|PR #34: Add CLA and PR template> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/PULL_REQUEST_TEMPLATE.md>\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md>\n\nこの2つのファイルを複製するような形で、\n\n<https://github.com/digitaldemocracy2030/idobata>\n\nにも、PRの際にCLAへのチェックを必要とする機構を作って。\n```\n<https://app.devin.ai/sessions/4e00de8c098c499583e8c243c269646f|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745738595.869919",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/48|PR #48: モバイル画面のレイアウト改善> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin idobataのpolicy-editのフロントエンド、pc画面はいい感じだけど、スマホの時のレイアウトが使いづらい。スマホの時のみ、画面の下半分がチャット、上半分がドキュメントみたいな感じになると良さそう。\n```\n<https://app.devin.ai/sessions/b0e4d9ff13cb40fba188f70cac2ad214|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rKQQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/48",
+                "text": "PR #48: モバイル画面のレイアウト改善"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin idobataのpolicy-editのフロントエンド、pc画面はいい感じだけど、スマホの時のレイアウトが使いづらい。スマホの時のみ、画面の下半分がチャット、上半分がドキュメントみたいな感じになると良さそう。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/b0e4d9ff13cb40fba188f70cac2ad214",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/48|PR #48: モバイル画面のレイアウト改善> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin idobataのpolicy-editのフロントエンド、pc画面はいい感じだけど、スマホの時のレイアウトが使いづらい。スマホの時のみ、画面の下半分がチャット、上半分がドキュメントみたいな感じになると良さそう。\n```\n<https://app.devin.ai/sessions/b0e4d9ff13cb40fba188f70cac2ad214|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745744016.327439",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/28|PR #28: 重複検証を防止するためにlinkingWorkerを改善> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\n\"\"\"idea-discussionの方、今の仕組みだと新しいquestionが発生すると、既存の全てのproblem/solutionと新しいquestionの間のlinkがあるかどうかを検証するlinkingWorkerが走る仕組みになっていてほしい。ただ、なんか様子をみていると、同じ検証が二度以上走っている気がしていて、多分どこかのロジックにミスがあって二回以上同じ検証をやるはめになっている。この辺の流れを整理して、どこかに不具合がないか確認して。 - 様子を見ていると、すでに全部の検証が終わってデータベースに反映されたっぽいのに、まだ検証のログが流れ続けていることがある。とはいえ永遠に続くわけではなく、しばらく待つとシステム的にもlinkingが完了して終わる。\nDeep\nSearched across idobata\n\nThought Process\nlinkingWorkerの実行が重複している問題の分析\nコードベースを調査したところ、linkingWorkerが同じquestionとproblem/solution間の検証を複数回実行してしまう問題を特定しました。\n\n問題の原因\n問題の根本原因は、linkQuestionToAllItems関数の実装にあります。この関数は新しいquestionが生成された際に呼び出され、既存のすべてのproblem/solutionとそのquestionの関連性を検証するはずです。しかし、現在の実装では以下のような問題があります：\n\nlinkQuestionToAllItems関数は、すべてのproblemとsolutionを取得した後、各itemに対してlinkItemToQuestionsを呼び出しています linkingWorker.js:125-135\n\nしかし、linkItemToQuestions関数はすべてのquestionを再度取得して検証します linkingWorker.js:37-43\n\nこれにより、新しいquestionと既存のitem(problem/solution)の間の検証が、すべてのitem数の回数だけ繰り返し実行されることになります。\n\n呼び出しの流れ\n新しいquestionが生成されると以下の流れで処理が行われます：\n\nquestionGenerator.jsで新しいquestionが生成され、linkQuestionToAllItemsが呼び出されます questionGenerator.js:74-77\n\nlinkQuestionToAllItems内で全てのproblemとsolutionについてlinkItemToQuestionsが呼び出されます linkingWorker.js:120-135\n\n各linkItemToQuestions呼び出しは再度すべてのquestionを取得し、その中にはすでに処理中の新しいquestionも含まれます linkingWorker.js:37-43\n\n解決策\nこの問題を解決するための最適な方法は以下の通りです：\n\nlinkQuestionToAllItems関数の改善:\n\n現在の実装：\n\nfor (const problem of problems) {  \n    await linkItemToQuestions(problem._id.toString(), 'problem');  \n}  \n  \nfor (const solution of solutions) {  \n    await linkItemToQuestions(solution._id.toString(), 'solution');  \n}\n改善案：関数を修正して、渡されたquestionIdのみを対象にして各itemとの関連性を直接検証します。各itemに対して全questionを再取得する代わりに、特定のquestionのみを対象とした処理を実装します。\n\nデータベース検索の最適化:\n\nQuestionLinkモデルを使って、すでに検証済みの(question, item)の組み合わせについては再検証しないようにします。 linkingWorker.js:76-88\n\n現在のコードではfindOneAndUpdateを使ってupsert: trueオプションを指定していますが、これを活用して重複処理を防ぐチェックを追加することができます。\n\n結論\n問題の根本原因は、linkQuestionToAllItems関数が各problem/solutionに対してlinkItemToQuestionsを呼び出し、さらにlinkItemToQuestionsが全questionを再取得することで生じる重複処理です。最終的に同じ(problem/solution, question)ペアに対して複数回LLM検証が実行されています。\n\nlinkQuestionToAllItems関数を修正して、特定のquestionのみを対象とした処理を直接実装することで、この問題は解決できるでしょう。\"\"\"\nこちら対応お願いします\n```\n<https://app.devin.ai/sessions/ff86692eade241dc8e13cf550d2d2f6c|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Cs78J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/28",
+                "text": "PR #28: 重複検証を防止するためにlinkingWorkerを改善"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\"\"\"idea-discussionの方、今の仕組みだと新しいquestionが発生すると、既存の全てのproblem/solutionと新しいquestionの間のlinkがあるかどうかを検証するlinkingWorkerが走る仕組みになっていてほしい。ただ、なんか様子をみていると、同じ検証が二度以上走っている気がしていて、多分どこかのロジックにミスがあって二回以上同じ検証をやるはめになっている。この辺の流れを整理して、どこかに不具合がないか確認して。 - 様子を見ていると、すでに全部の検証が終わってデータベースに反映されたっぽいのに、まだ検証のログが流れ続けていることがある。とはいえ永遠に続くわけではなく、しばらく待つとシステム的にもlinkingが完了して終わる。\nDeep\nSearched across idobata\n\nThought Process\nlinkingWorkerの実行が重複している問題の分析\nコードベースを調査したところ、linkingWorkerが同じquestionとproblem/solution間の検証を複数回実行してしまう問題を特定しました。\n\n問題の原因\n問題の根本原因は、linkQuestionToAllItems関数の実装にあります。この関数は新しいquestionが生成された際に呼び出され、既存のすべてのproblem/solutionとそのquestionの関連性を検証するはずです。しかし、現在の実装では以下のような問題があります：\n\nlinkQuestionToAllItems関数は、すべてのproblemとsolutionを取得した後、各itemに対してlinkItemToQuestionsを呼び出しています linkingWorker.js:125-135\n\nしかし、linkItemToQuestions関数はすべてのquestionを再度取得して検証します linkingWorker.js:37-43\n\nこれにより、新しいquestionと既存のitem(problem/solution)の間の検証が、すべてのitem数の回数だけ繰り返し実行されることになります。\n\n呼び出しの流れ\n新しいquestionが生成されると以下の流れで処理が行われます：\n\nquestionGenerator.jsで新しいquestionが生成され、linkQuestionToAllItemsが呼び出されます questionGenerator.js:74-77\n\nlinkQuestionToAllItems内で全てのproblemとsolutionについてlinkItemToQuestionsが呼び出されます linkingWorker.js:120-135\n\n各linkItemToQuestions呼び出しは再度すべてのquestionを取得し、その中にはすでに処理中の新しいquestionも含まれます linkingWorker.js:37-43\n\n解決策\nこの問題を解決するための最適な方法は以下の通りです：\n\nlinkQuestionToAllItems関数の改善:\n\n現在の実装：\n\nfor (const problem of problems) {  \n    await linkItemToQuestions(problem._id.toString(), 'problem');  \n}  \n  \nfor (const solution of solutions) {  \n    await linkItemToQuestions(solution._id.toString(), 'solution');  \n}\n改善案：関数を修正して、渡されたquestionIdのみを対象にして各itemとの関連性を直接検証します。各itemに対して全questionを再取得する代わりに、特定のquestionのみを対象とした処理を実装します。\n\nデータベース検索の最適化:\n\nQuestionLinkモデルを使って、すでに検証済みの(question, item)の組み合わせについては再検証しないようにします。 linkingWorker.js:76-88\n\n現在のコードではfindOneAndUpdateを使ってupsert: trueオプションを指定していますが、これを活用して重複処理を防ぐチェックを追加することができます。\n\n結論\n問題の根本原因は、linkQuestionToAllItems関数が各problem/solutionに対してlinkItemToQuestionsを呼び出し、さらにlinkItemToQuestionsが全questionを再取得することで生じる重複処理です。最終的に同じ(problem/solution, question)ペアに対して複数回LLM検証が実行されています。\n\nlinkQuestionToAllItems関数を修正して、特定のquestionのみを対象とした処理を直接実装することで、この問題は解決できるでしょう。\"\"\"\nこちら対応お願いします\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/ff86692eade241dc8e13cf550d2d2f6c",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/28|PR #28: 重複検証を防止するためにlinkingWorkerを改善> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\n\"\"\"idea-discussionの方、今の仕組みだと新しいquestionが発生すると、既存の全てのproblem/solutionと新しいquestionの間のlinkがあるかどうかを検証するlinkingWorkerが走る仕組みになっていてほしい。ただ、なんか様子をみていると、同じ検証が二度以上走っている気がしていて、多分どこかのロジックにミスがあって二回以上同じ検証をやるはめになっている。この辺の流れを整理して、どこかに不具合がないか確認して。 - 様子を見ていると、すでに全部の検証が終わってデータベースに反映されたっぽいのに、まだ検証のログが流れ続けていることがある。とはいえ永遠に続くわけではなく、しばらく待つとシステム的にもlinkingが完了して終わる。\nDeep\nSearched across idobata\n\nThought Process\nlinkingWorkerの実行が重複している問題の分析\nコードベースを調査したところ、linkingWorkerが同じquestionとproblem/solution間の検証を複数回実行してしまう問題を特定しました。\n\n問題の原因\n問題の根本原因は、linkQuestionToAllItems関数の実装にあります。この関数は新しいquestionが生成された際に呼び出され、既存のすべてのproblem/solutionとそのquestionの関連性を検証するはずです。しかし、現在の実装では以下のような問題があります：\n\nlinkQuestionToAllItems関数は、すべてのproblemとsolutionを取得した後、各itemに対してlinkItemToQuestionsを呼び出しています linkingWorker.js:125-135\n\nしかし、linkItemToQuestions関数はすべてのquestionを再度取得して検証します linkingWorker.js:37-43\n\nこれにより、新しいquestionと既存のitem(problem/solution)の間の検証が、すべてのitem数の回数だけ繰り返し実行されることになります。\n\n呼び出しの流れ\n新しいquestionが生成されると以下の流れで処理が行われます：\n\nquestionGenerator.jsで新しいquestionが生成され、linkQuestionToAllItemsが呼び出されます questionGenerator.js:74-77\n\nlinkQuestionToAllItems内で全てのproblemとsolutionについてlinkItemToQuestionsが呼び出されます linkingWorker.js:120-135\n\n各linkItemToQuestions呼び出しは再度すべてのquestionを取得し、その中にはすでに処理中の新しいquestionも含まれます linkingWorker.js:37-43\n\n解決策\nこの問題を解決するための最適な方法は以下の通りです：\n\nlinkQuestionToAllItems関数の改善:\n\n現在の実装：\n\nfor (const problem of problems) {  \n    await linkItemToQuestions(problem._id.toString(), 'problem');  \n}  \n  \nfor (const solution of solutions) {  \n    await linkItemToQuestions(solution._id.toString(), 'solution');  \n}\n改善案：関数を修正して、渡されたquestionIdのみを対象にして各itemとの関連性を直接検証します。各itemに対して全questionを再取得する代わりに、特定のquestionのみを対象とした処理を実装します。\n\nデータベース検索の最適化:\n\nQuestionLinkモデルを使って、すでに検証済みの(question, item)の組み合わせについては再検証しないようにします。 linkingWorker.js:76-88\n\n現在のコードではfindOneAndUpdateを使ってupsert: trueオプションを指定していますが、これを活用して重複処理を防ぐチェックを追加することができます。\n\n結論\n問題の根本原因は、linkQuestionToAllItems関数が各problem/solutionに対してlinkItemToQuestionsを呼び出し、さらにlinkItemToQuestionsが全questionを再取得することで生じる重複処理です。最終的に同じ(problem/solution, question)ペアに対して複数回LLM検証が実行されています。\n\nlinkQuestionToAllItems関数を修正して、特定のquestionのみを対象とした処理を直接実装することで、この問題は解決できるでしょう。\"\"\"\nこちら対応お願いします\n```\n<https://app.devin.ai/sessions/ff86692eade241dc8e13cf550d2d2f6c|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745751610.150309",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/49|PR #49: 複数テーマ対応のためのバックエンド改修> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\n\"\"\"idobataのidea-discussionバックエンド：複数テーマ対応のための変更提案\n現状のデータ構造\n現在のidea-discussionバックエンドは以下のようなデータモデルで構成されています：\n\nSharpQuestion - \"How might we...\"形式の問い SharpQuestion.js:3-12\n\nProblem - 課題/問題点 Problem.js:3-33\n\nSolution - 解決策 Solution.js:3-32\n\nQuestionLink - 質問と問題/解決策のリンク QuestionLink.js:3-39\n\n現在のAPIエンドポイント： questionRoutes.js:6-16\n\n現状では「テーマ」という概念が明示的に存在せず、1つのデプロイ環境が1つのテーマのみをサポートしています。すべての質問、問題、解決策が暗黙的に同じコンテキストに属しています。\n\n新しいデータ構造と仕様\n1. 新しいモデル：Theme\n// /idea-discussion/backend/models/Theme.js  \nimport mongoose from 'mongoose';  \n  \nconst themeSchema = new mongoose.Schema({  \n    title: {  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    description: {  \n        type: String,  \n        required: false,  \n    },  \n    slug: {  // URLなどで使用するための識別子  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    isActive: {  \n        type: Boolean,  \n        default: true,  \n    },  \n}, { timestamps: true });  \n  \nconst Theme = mongoose.model('Theme', themeSchema);  \n  \nexport default Theme;\n2. 既存モデルの拡張：themeIdフィールドの追加\nSharpQuestionの更新例：\n\nconst sharpQuestionSchema = new mongoose.Schema({  \n    questionText: {   \n        type: String,  \n        required: true,  \n    },  \n    sourceProblemIds: [{   \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Problem',  \n    }],  \n    themeId: {  // 追加：所属するテーマのID  \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Theme',  \n        required: true,  \n    }  \n}, { timestamps: true });\n同様に、Problem、SolutionモデルにもthemeIdフィールドを追加します。\n\n3. 新しいAPIルート\n// /idea-discussion/backend/routes/themeRoutes.js  \nimport express from 'express';  \nimport { getAllThemes, getThemeById, createTheme, updateTheme, deleteTheme } from '../controllers/themeController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/themes - すべてのテーマを取得  \nrouter.get('/', getAllThemes);  \n  \n// GET /api/themes/:themeId - 特定のテーマを取得  \nrouter.get('/:themeId', getThemeById);  \n  \n// POST /api/themes - 新しいテーマを作成  \n<http://router.post|router.post>('/', createTheme);  \n  \n// PUT /api/themes/:themeId - テーマを更新  \nrouter.put('/:themeId', updateTheme);  \n  \n// DELETE /api/themes/:themeId - テーマを削除  \nrouter.delete('/:themeId', deleteTheme);  \n  \nexport default router;\n4. テーマ対応のための既存APIルートの変更\n変更後の質問ルート:\n\n// /idea-discussion/backend/routes/questionRoutes.js  \nimport express from 'express';  \nimport {   \n    getAllQuestions,   \n    getQuestionsByTheme,   \n    getQuestionDetails,   \n    triggerPolicyGeneration,   \n    triggerDigestGeneration   \n} from '../controllers/questionController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/questions - すべての質問を取得（非推奨）  \nrouter.get('/', getAllQuestions);  \n  \n// GET /api/questions/theme/:themeId - 特定テーマの質問のみ取得  \nrouter.get('/theme/:themeId', getQuestionsByTheme);  \n  \n// GET /api/questions/:questionId/details - 特定の質問の詳細を取得  \nrouter.get('/:questionId/details', getQuestionDetails);  \n  \n// POST /api/questions/:questionId/generate-policy - ポリシードラフト生成  \n<http://router.post|router.post>('/:questionId/generate-policy', triggerPolicyGeneration);  \n  \n// POST /api/questions/:questionId/generate-digest - ダイジェストドラフト生成  \n<http://router.post|router.post>('/:questionId/generate-digest', triggerDigestGeneration);  \n  \nexport default router;\n5. コントローラーの更新例\n// questionController.js の追加メソッド  \nexport const getQuestionsByTheme = async (req, res) =&gt; {  \n    const { themeId } = req.params;  \n  \n    if (!mongoose.Types.ObjectId.isValid(themeId)) {  \n        return res.status(400).json({ message: 'Invalid theme ID format' });  \n    }  \n  \n    try {  \n        const questions = await SharpQuestion.find({ themeId }).sort({ createdAt: -1 });  \n        res.status(200).json(questions);  \n    } catch (error) {  ",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oR2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/49",
+                "text": "PR #49: 複数テーマ対応のためのバックエンド改修"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:\n```\n\"\"\"idobataのidea-discussionバックエンド：複数テーマ対応のための変更提案\n現状のデータ構造\n現在のidea-discussionバックエンドは以下のようなデータモデルで構成されています：\n\nSharpQuestion - \"How might we...\"形式の問い SharpQuestion.js:3-12\n\nProblem - 課題/問題点 Problem.js:3-33\n\nSolution - 解決策 Solution.js:3-32\n\nQuestionLink - 質問と問題/解決策のリンク QuestionLink.js:3-39\n\n現在のAPIエンドポイント： questionRoutes.js:6-16\n\n現状では「テーマ」という概念が明示的に存在せず、1つのデプロイ環境が1つのテーマのみをサポートしています。すべての質問、問題、解決策が暗黙的に同じコンテキストに属しています。\n\n新しいデータ構造と仕様\n1. 新しいモデル：Theme\n// /idea-discussion/backend/models/Theme.js  \nimport mongoose from 'mongoose';  \n  \nconst themeSchema = new mongoose.Schema({  \n    title: {  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    description: {  \n        type: String,  \n        required: false,  \n    },  \n    slug: {  // URLなどで使用するための識別子  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    isActive: {  \n        type: Boolean,  \n        default: true,  \n    },  \n}, { timestamps: true });  \n  \nconst Theme = mongoose.model('Theme', themeSchema);  \n  \nexport default Theme;\n2. 既存モデルの拡張：themeIdフィールドの追加\nSharpQuestionの更新例：\n\nconst sharpQuestionSchema = new mongoose.Schema({  \n    questionText: {   \n        type: String,  \n        required: true,  \n    },  \n    sourceProblemIds: [{   \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Problem',  \n    }],  \n    themeId: {  // 追加：所属するテーマのID  \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Theme',  \n        required: true,  \n    }  \n}, { timestamps: true });\n同様に、Problem、SolutionモデルにもthemeIdフィールドを追加します。\n\n3. 新しいAPIルート\n// /idea-discussion/backend/routes/themeRoutes.js  \nimport express from 'express';  \nimport { getAllThemes, getThemeById, createTheme, updateTheme, deleteTheme } from '../controllers/themeController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/themes - すべてのテーマを取得  \nrouter.get('/', getAllThemes);  \n  \n// GET /api/themes/:themeId - 特定のテーマを取得  \nrouter.get('/:themeId', getThemeById);  \n  \n// POST /api/themes - 新しいテーマを作成  \n"
+              },
+              {
+                "type": "link",
+                "url": "http://router.post",
+                "text": "router.post"
+              },
+              {
+                "type": "text",
+                "text": "('/', createTheme);  \n  \n// PUT /api/themes/:themeId - テーマを更新  \nrouter.put('/:themeId', updateTheme);  \n  \n// DELETE /api/themes/:themeId - テーマを削除  \nrouter.delete('/:themeId', deleteTheme);  \n  \nexport default router;\n4. テーマ対応のための既存APIルートの変更\n変更後の質問ルート:\n\n// /idea-discussion/backend/routes/questionRoutes.js  \nimport express from 'express';  \nimport {   \n    getAllQuestions,   \n    getQuestionsByTheme,   \n    getQuestionDetails,   \n    triggerPolicyGeneration,   \n    triggerDigestGeneration   \n} from '../controllers/questionController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/questions - すべての質問を取得（非推奨）  \nrouter.get('/', getAllQuestions);  \n  \n// GET /api/questions/theme/:themeId - 特定テーマの質問のみ取得  \nrouter.get('/theme/:themeId', getQuestionsByTheme);  \n  \n// GET /api/questions/:questionId/details - 特定の質問の詳細を取得  \nrouter.get('/:questionId/details', getQuestionDetails);  \n  \n// POST /api/questions/:questionId/generate-policy - ポリシードラフト生成  \n"
+              },
+              {
+                "type": "link",
+                "url": "http://router.post",
+                "text": "router.post"
+              },
+              {
+                "type": "text",
+                "text": "('/:questionId/generate-policy', triggerPolicyGeneration);  \n  \n// POST /api/questions/:questionId/generate-digest - ダイジェストドラフト生成  \n"
+              },
+              {
+                "type": "link",
+                "url": "http://router.post",
+                "text": "router.post"
+              },
+              {
+                "type": "text",
+                "text": "('/:questionId/generate-digest', triggerDigestGeneration);  \n  \nexport default router;\n5. コントローラーの更新例\n// questionController.js の追加メソッド  \nexport const getQuestionsByTheme = async (req, res) => {  \n    const { themeId } = req.params;  \n  \n    if (!mongoose.Types.ObjectId.isValid(themeId)) {  \n        return res.status(400).json({ message: 'Invalid theme ID format' });  \n    }  \n  \n    try {  \n        const questions = await SharpQuestion.find({ themeId }).sort({ createdAt: -1 });  \n        res.status(200).json(questions);  \n    } catch (error) {"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/49|PR #49: 複数テーマ対応のためのバックエンド改修> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\n\"\"\"idobataのidea-discussionバックエンド：複数テーマ対応のための変更提案\n現状のデータ構造\n現在のidea-discussionバックエンドは以下のようなデータモデルで構成されています：\n\nSharpQuestion - \"How might we...\"形式の問い SharpQuestion.js:3-12\n\nProblem - 課題/問題点 Problem.js:3-33\n\nSolution - 解決策 Solution.js:3-32\n\nQuestionLink - 質問と問題/解決策のリンク QuestionLink.js:3-39\n\n現在のAPIエンドポイント： questionRoutes.js:6-16\n\n現状では「テーマ」という概念が明示的に存在せず、1つのデプロイ環境が1つのテーマのみをサポートしています。すべての質問、問題、解決策が暗黙的に同じコンテキストに属しています。\n\n新しいデータ構造と仕様\n1. 新しいモデル：Theme\n// /idea-discussion/backend/models/Theme.js  \nimport mongoose from 'mongoose';  \n  \nconst themeSchema = new mongoose.Schema({  \n    title: {  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    description: {  \n        type: String,  \n        required: false,  \n    },  \n    slug: {  // URLなどで使用するための識別子  \n        type: String,  \n        required: true,  \n        unique: true,  \n    },  \n    isActive: {  \n        type: Boolean,  \n        default: true,  \n    },  \n}, { timestamps: true });  \n  \nconst Theme = mongoose.model('Theme', themeSchema);  \n  \nexport default Theme;\n2. 既存モデルの拡張：themeIdフィールドの追加\nSharpQuestionの更新例：\n\nconst sharpQuestionSchema = new mongoose.Schema({  \n    questionText: {   \n        type: String,  \n        required: true,  \n    },  \n    sourceProblemIds: [{   \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Problem',  \n    }],  \n    themeId: {  // 追加：所属するテーマのID  \n        type: mongoose.Schema.Types.ObjectId,  \n        ref: 'Theme',  \n        required: true,  \n    }  \n}, { timestamps: true });\n同様に、Problem、SolutionモデルにもthemeIdフィールドを追加します。\n\n3. 新しいAPIルート\n// /idea-discussion/backend/routes/themeRoutes.js  \nimport express from 'express';  \nimport { getAllThemes, getThemeById, createTheme, updateTheme, deleteTheme } from '../controllers/themeController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/themes - すべてのテーマを取得  \nrouter.get('/', getAllThemes);  \n  \n// GET /api/themes/:themeId - 特定のテーマを取得  \nrouter.get('/:themeId', getThemeById);  \n  \n// POST /api/themes - 新しいテーマを作成  \n<http://router.post|router.post>('/', createTheme);  \n  \n// PUT /api/themes/:themeId - テーマを更新  \nrouter.put('/:themeId', updateTheme);  \n  \n// DELETE /api/themes/:themeId - テーマを削除  \nrouter.delete('/:themeId', deleteTheme);  \n  \nexport default router;\n4. テーマ対応のための既存APIルートの変更\n変更後の質問ルート:\n\n// /idea-discussion/backend/routes/questionRoutes.js  \nimport express from 'express';  \nimport {   \n    getAllQuestions,   \n    getQuestionsByTheme,   \n    getQuestionDetails,   \n    triggerPolicyGeneration,   \n    triggerDigestGeneration   \n} from '../controllers/questionController.js';  \n  \nconst router = express.Router();  \n  \n// GET /api/questions - すべての質問を取得（非推奨）  \nrouter.get('/', getAllQuestions);  \n  \n// GET /api/questions/theme/:themeId - 特定テーマの質問のみ取得  \nrouter.get('/theme/:themeId', getQuestionsByTheme);  \n  \n// GET /api/questions/:questionId/details - 特定の質問の詳細を取得  \nrouter.get('/:questionId/details', getQuestionDetails);  \n  \n// POST /api/questions/:questionId/generate-policy - ポリシードラフト生成  \n<http://router.post|router.post>('/:questionId/generate-policy', triggerPolicyGeneration);  \n  \n// POST /api/questions/:questionId/generate-digest - ダイジェストドラフト生成  \n<http://router.post|router.post>('/:questionId/generate-digest', triggerDigestGeneration);  \n  \nexport default router;\n5. コントローラーの更新例\n// questionController.js の追加メソッド  \nexport const getQuestionsByTheme = async (req, res) => {  \n    const { themeId } = req.params;  \n  \n    if (!mongoose.Types.ObjectId.isValid(themeId)) {  \n        return res.status(400).json({ message: 'Invalid theme ID format' });  \n    }  \n  \n    try {  \n        const questions = await SharpQuestion.find({ themeId }).sort({ createdAt: -1 });  \n        res.status(200).json(questions);  \n    } catch (error) {  "
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745751610.192499",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": "        console.error(`Error fetching questions for theme ${themeId}:`, error);  \n        res.status(500).json({ message: 'Error fetching theme questions', error: error.message });  \n    }  \n};\n6. server.jsへの新ルートの追加\n// server.js に追加  \nimport themeRoutes from './routes/themeRoutes.js';  \n// ...  \napp.use('/api/themes', themeRoutes);\n現在と新しい仕様の違い\nデータ構造の違い\n現在:\nテーマの概念がなく、すべてのデータが暗黙的に同じテーマに属する questionController.js:9-17\n新しい仕様:\nThemeモデルの導入\n各モデル（SharpQuestion, Problem, Solution）にthemeIdフィールドを追加\n複数テーマを分離して管理可能\nAPIの違い\n現在:\n/api/questionsでコンテキストの区別なくすべての質問を取得 questionRoutes.js:6-7\n新しい仕様:\n/api/themesで複数テーマを管理\n/api/questions/theme/:themeIdでテーマごとに質問をフィルタリング\nURLにテーマIDを含むことでコンテキストを分離\nクライアント側での影響\nクライアントはまずテーマ一覧を取得し、ユーザーにテーマ選択させる必要がある\n選択されたテーマIDをその後のすべてのリクエストに含める\n新規作成画面でテーマの選択が必要\nまとめ\nこの変更により、一つのidobataシステムで複数のテーマを管理できるようになります。テーマごとに問題、解決策、質問をコンテキスト分離できるため、異なるトピックや目的ごとにディスカッションを整理できます。URLパスにテーマIDを含めることで、APIリクエストごとにコンテキストを指定できるようになります。\n\nNotes\n既存データの移行には、デフォルトテーマを作成し、既存の全レコードにそのテーマIDを設定するマイグレーションスクリプトが必要になります。\n実装時には、特定テーマに属する問題/解決策のみを関連付けるなどの整合性検証も追加する必要があります。\"\"\"\nこのbackend改修作業をやってほしい。migration scriptもよろしく。\n```\n<https://app.devin.ai/sessions/4338e7e1a5ec43348a2454e314ded85e|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7uKaU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "console.error("
+              },
+              {
+                "type": "text",
+                "text": "Error fetching questions for theme ${themeId}:",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", error);  \n        res.status(500).json({ message: 'Error fetching theme questions', error: error.message });  \n    }  \n};\n6. server.jsへの新ルートの追加\n// server.js に追加  \nimport themeRoutes from './routes/themeRoutes.js';  \n// ...  \napp.use('/api/themes', themeRoutes);\n現在と新しい仕様の違い\nデータ構造の違い\n現在:\nテーマの概念がなく、すべてのデータが暗黙的に同じテーマに属する questionController.js:9-17\n新しい仕様:\nThemeモデルの導入\n各モデル（SharpQuestion, Problem, Solution）にthemeIdフィールドを追加\n複数テーマを分離して管理可能\nAPIの違い\n現在:\n/api/questionsでコンテキストの区別なくすべての質問を取得 questionRoutes.js:6-7\n新しい仕様:\n/api/themesで複数テーマを管理\n/api/questions/theme/:themeIdでテーマごとに質問をフィルタリング\nURLにテーマIDを含むことでコンテキストを分離\nクライアント側での影響\nクライアントはまずテーマ一覧を取得し、ユーザーにテーマ選択させる必要がある\n選択されたテーマIDをその後のすべてのリクエストに含める\n新規作成画面でテーマの選択が必要\nまとめ\nこの変更により、一つのidobataシステムで複数のテーマを管理できるようになります。テーマごとに問題、解決策、質問をコンテキスト分離できるため、異なるトピックや目的ごとにディスカッションを整理できます。URLパスにテーマIDを含めることで、APIリクエストごとにコンテキストを指定できるようになります。\n\nNotes\n既存データの移行には、デフォルトテーマを作成し、既存の全レコードにそのテーマIDを設定するマイグレーションスクリプトが必要になります。\n実装時には、特定テーマに属する問題/解決策のみを関連付けるなどの整合性検証も追加する必要があります。\"\"\"\nこのbackend改修作業をやってほしい。migration scriptもよろしく。\n```\n"
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/4338e7e1a5ec43348a2454e314ded85e",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": "        console.error(`Error fetching questions for theme ${themeId}:`, error);  \n        res.status(500).json({ message: 'Error fetching theme questions', error: error.message });  \n    }  \n};\n6. server.jsへの新ルートの追加\n// server.js に追加  \nimport themeRoutes from './routes/themeRoutes.js';  \n// ...  \napp.use('/api/themes', themeRoutes);\n現在と新しい仕様の違い\nデータ構造の違い\n現在:\nテーマの概念がなく、すべてのデータが暗黙的に同じテーマに属する questionController.js:9-17\n新しい仕様:\nThemeモデルの導入\n各モデル（SharpQuestion, Problem, Solution）にthemeIdフィールドを追加\n複数テーマを分離して管理可能\nAPIの違い\n現在:\n/api/questionsでコンテキストの区別なくすべての質問を取得 questionRoutes.js:6-7\n新しい仕様:\n/api/themesで複数テーマを管理\n/api/questions/theme/:themeIdでテーマごとに質問をフィルタリング\nURLにテーマIDを含むことでコンテキストを分離\nクライアント側での影響\nクライアントはまずテーマ一覧を取得し、ユーザーにテーマ選択させる必要がある\n選択されたテーマIDをその後のすべてのリクエストに含める\n新規作成画面でテーマの選択が必要\nまとめ\nこの変更により、一つのidobataシステムで複数のテーマを管理できるようになります。テーマごとに問題、解決策、質問をコンテキスト分離できるため、異なるトピックや目的ごとにディスカッションを整理できます。URLパスにテーマIDを含めることで、APIリクエストごとにコンテキストを指定できるようになります。\n\nNotes\n既存データの移行には、デフォルトテーマを作成し、既存の全レコードにそのテーマIDを設定するマイグレーションスクリプトが必要になります。\n実装時には、特定テーマに属する問題/解決策のみを関連付けるなどの整合性検証も追加する必要があります。\"\"\"\nこのbackend改修作業をやってほしい。migration scriptもよろしく。\n```\n<https://app.devin.ai/sessions/4338e7e1a5ec43348a2454e314ded85e|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745802295.501459",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/67|PR #67: 問い個別ページの実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nこの手順書に従って問いの個別ページを作成してください。\n\nATTACHMENT:\"<https://app.devin.ai/attachments/afb2fe37-1198-4d01-8b1e-284bb09cfb66/idobata_question_detail_task.md>\"\n```\n<https://app.devin.ai/sessions/922dfb24ef504828b70358b551c5e27e|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mI/o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/67",
+                "text": "PR #67: 問い個別ページの実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\nこの手順書に従って問いの個別ページを作成してください。\n\nATTACHMENT:\""
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/attachments/afb2fe37-1198-4d01-8b1e-284bb09cfb66/idobata_question_detail_task.md"
+              },
+              {
+                "type": "text",
+                "text": "\"\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/922dfb24ef504828b70358b551c5e27e",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/67|PR #67: 問い個別ページの実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nこの手順書に従って問いの個別ページを作成してください。\n\nATTACHMENT:\"<https://app.devin.ai/attachments/afb2fe37-1198-4d01-8b1e-284bb09cfb66/idobata_question_detail_task.md>\"\n```\n<https://app.devin.ai/sessions/922dfb24ef504828b70358b551c5e27e|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745805753.297799",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/68|PR #68: frontendディレクトリのlint/formatをBiomeに統一> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n現在idobataについて、frontend 以下ではeslint + prettire, それ以外ではbiomeを使っている状態になっている。\n統一感のため、frontendもbiomeを使うようにして、トップレベルでbiomeでformatをかけたらlintが通るようにして。\n```\n<https://app.devin.ai/sessions/1a45309ddcda4caebe20c4521c75a52e|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TMq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/68",
+                "text": "PR #68: frontendディレクトリのlint/formatをBiomeに統一"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n現在idobataについて、frontend 以下ではeslint + prettire, それ以外ではbiomeを使っている状態になっている。\n統一感のため、frontendもbiomeを使うようにして、トップレベルでbiomeでformatをかけたらlintが通るようにして。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/1a45309ddcda4caebe20c4521c75a52e",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/68|PR #68: frontendディレクトリのlint/formatをBiomeに統一> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n現在idobataについて、frontend 以下ではeslint + prettire, それ以外ではbiomeを使っている状態になっている。\n統一感のため、frontendもbiomeを使うようにして、トップレベルでbiomeでformatをかけたらlintが通るようにして。\n```\n<https://app.devin.ai/sessions/1a45309ddcda4caebe20c4521c75a52e|View Devin Session>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08Q0QU4LSX",
+    "text": "<@U08Q0QU4LSX> has joined the channel",
+    "type": "message",
+    "ts": "1745813071.711369",
+    "user_name": "Kay Vincent",
+    "text_readable": "@mr121008 has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745814408.718969",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/54|PR #54: APIクライアントの実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/api-client> ブランチで、\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/api-client/frontend/project/apiclient-task.md> の手順に従ってAPIクライアントを作ってください。\n```\n<https://app.devin.ai/sessions/590de1cab3674751888aafa50e4b5298|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "okxr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/54",
+                "text": "PR #54: APIクライアントの実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/feature/api-client"
+              },
+              {
+                "type": "text",
+                "text": " ブランチで、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/blob/feature/api-client/frontend/project/apiclient-task.md"
+              },
+              {
+                "type": "text",
+                "text": " の手順に従ってAPIクライアントを作ってください。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/590de1cab3674751888aafa50e4b5298",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/54|PR #54: APIクライアントの実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/api-client> ブランチで、\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/api-client/frontend/project/apiclient-task.md> の手順に従ってAPIクライアントを作ってください。\n```\n<https://app.devin.ai/sessions/590de1cab3674751888aafa50e4b5298|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745889569.767979",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/74|PR #74: Add: 管理画面実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/admin>\nの\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/admin/admin-task.md>\nに従って管理画面を実装してください。\n```\n<https://app.devin.ai/sessions/4d8f2936ed3f43d0bf1a66016d7e3a40|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i/bE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/74",
+                "text": "PR #74: Add: 管理画面実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/feature/admin"
+              },
+              {
+                "type": "text",
+                "text": "\nの\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/blob/feature/admin/admin-task.md"
+              },
+              {
+                "type": "text",
+                "text": "\nに従って管理画面を実装してください。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/4d8f2936ed3f43d0bf1a66016d7e3a40",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/74|PR #74: Add: 管理画面実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/admin>\nの\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/admin/admin-task.md>\nに従って管理画面を実装してください。\n```\n<https://app.devin.ai/sessions/4d8f2936ed3f43d0bf1a66016d7e3a40|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745895434.037199",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/76|PR #76: Refactor: Configure separate CORS_ORIGIN variables for each backend from root .env> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin\npolicy-editとidea-discussionのそれぞれのバックエンドのCORS_ORIGINを、rootの.envで設定できるようにしてほしいです\n```\n<https://app.devin.ai/sessions/255b366632de47b98bc0356387f14c33|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8vCSp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/76",
+                "text": "PR #76: Refactor: Configure separate CORS_ORIGIN variables for each backend from root .env"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #devin部屋:\n\n@Devin\npolicy-editとidea-discussionのそれぞれのバックエンドのCORS_ORIGINを、rootの.envで設定できるようにしてほしいです\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/255b366632de47b98bc0356387f14c33",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/76|PR #76: Refactor: Configure separate CORS_ORIGIN variables for each backend from root .env> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin\npolicy-editとidea-discussionのそれぞれのバックエンドのCORS_ORIGINを、rootの.envで設定できるようにしてほしいです\n```\n<https://app.devin.ai/sessions/255b366632de47b98bc0356387f14c33|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745896461.359539",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/77|PR #77: feat: Configure allowedHosts for Vite from root .env variables> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by <@U08GJSBAX3K>) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin\n今のidobataの/frontendと/policy-edit/frontendの両方で、vite configのallowedHostsをrootの.envで設定できるようにしてほしい。docker-compose.ymlも編集してもらうことになりそうだね。それぞれ別の変数にしたい。\n```\n<https://app.devin.ai/sessions/7a8c170d271846bc9facac28bbe522ec|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2vmo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/77",
+                "text": "PR #77: feat: Configure allowedHosts for Vite from root .env variables"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo",
+                "text": "blu3mo"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from Shutaro:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #devin部屋:\n\n@Devin\n今のidobataの/frontendと/policy-edit/frontendの両方で、vite configのallowedHostsをrootの.envで設定できるようにしてほしい。docker-compose.ymlも編集してもらうことになりそうだね。それぞれ別の変数にしたい。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/7a8c170d271846bc9facac28bbe522ec",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/77|PR #77: feat: Configure allowedHosts for Vite from root .env variables> in digitaldemocracy2030/idobata was merged by <https://github.com/blu3mo|blu3mo> (requested by @shutaro.aoyama) :rocket:\nOriginal prompt from Shutaro:\n```\nReceived message in Slack channel #devin部屋:\n\n@Devin\n今のidobataの/frontendと/policy-edit/frontendの両方で、vite configのallowedHostsをrootの.envで設定できるようにしてほしい。docker-compose.ymlも編集してもらうことになりそうだね。それぞれ別の変数にしたい。\n```\n<https://app.devin.ai/sessions/7a8c170d271846bc9facac28bbe522ec|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745900184.804079",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/386|PR #386: ドキュメント: v2.0.0リリースに伴い、各プラットフォーム向けユーザーガイドを更新・追加> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin\n安定版v2.0.0をリリースしました。\nノンエンジニア向けの「Zipでダウンロードして」から始まるガイドを「安定版リリースをダウンロードして」に書き換えて。\n「ツールとして使う人=git cloneする必要がないのでreleaseからダウンロード」「OSS開発に参加する人=main branchをgit cloneする」という切り分けです。\n多分現状「Windowsユーザ向け」のものしかないと思う。MacやLinuxを使う人向けのガイドも必要だね。\n開発者向けのガイドもあるんだっけ？それら全体的に確認して整合性を持って修正して。\n```\n<https://app.devin.ai/sessions/224687d6737a40f7ac37bd2365910458|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "=WKBz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/386",
+                "text": "PR #386: ドキュメント: v2.0.0リリースに伴い、各プラットフォーム向けユーザーガイドを更新・追加"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin\n安定版v2.0.0をリリースしました。\nノンエンジニア向けの「Zipでダウンロードして」から始まるガイドを「安定版リリースをダウンロードして」に書き換えて。\n「ツールとして使う人=git cloneする必要がないのでreleaseからダウンロード」「OSS開発に参加する人=main branchをgit cloneする」という切り分けです。\n多分現状「Windowsユーザ向け」のものしかないと思う。MacやLinuxを使う人向けのガイドも必要だね。\n開発者向けのガイドもあるんだっけ？それら全体的に確認して整合性を持って修正して。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/224687d6737a40f7ac37bd2365910458",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/386|PR #386: ドキュメント: v2.0.0リリースに伴い、各プラットフォーム向けユーザーガイドを更新・追加> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin\n安定版v2.0.0をリリースしました。\nノンエンジニア向けの「Zipでダウンロードして」から始まるガイドを「安定版リリースをダウンロードして」に書き換えて。\n「ツールとして使う人=git cloneする必要がないのでreleaseからダウンロード」「OSS開発に参加する人=main branchをgit cloneする」という切り分けです。\n多分現状「Windowsユーザ向け」のものしかないと思う。MacやLinuxを使う人向けのガイドも必要だね。\n開発者向けのガイドもあるんだっけ？それら全体的に確認して整合性を持って修正して。\n```\n<https://app.devin.ai/sessions/224687d6737a40f7ac37bd2365910458|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745901248.984429",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/47|PR #47: Add news page for kouchou-ai v2.0.0 release> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n```\n<https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T24",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/47",
+                "text": "PR #47: Add news page for kouchou-ai v2.0.0 release"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/47|PR #47: Add news page for kouchou-ai v2.0.0 release> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n```\n<https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745902456.155029",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/49|PR #49: Fix kouchou-ai project website link> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n```\n<https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MUui",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/49",
+                "text": "PR #49: Fix kouchou-ai project website link"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/49|PR #49: Fix kouchou-ai project website link> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 安定版v2.0.0をリリースしました。このページは開発者向けでわかりにくいので。websiteにこの件に関する一般人向けのページを作りたい。原稿をMarkdownで下書きして。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n```\n<https://app.devin.ai/sessions/3c1994aa11f94b94b576f8ce0a5b59c5|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745906018.163239",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/79|PR #79: Add @biomejs/biome to policy-edit/frontend> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataのpolicy-edit/frontend にbiomeが入っていないから入れるPRを作成して\n```\n<https://app.devin.ai/sessions/b7521d21cb584b3785a6f101812185e1|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qo/Cy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/79",
+                "text": "PR #79: Add @biomejs/biome to policy-edit/frontend"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataのpolicy-edit/frontend にbiomeが入っていないから入れるPRを作成して\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/b7521d21cb584b3785a6f101812185e1",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/79|PR #79: Add @biomejs/biome to policy-edit/frontend> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataのpolicy-edit/frontend にbiomeが入っていないから入れるPRを作成して\n```\n<https://app.devin.ai/sessions/b7521d21cb584b3785a6f101812185e1|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745908711.201079",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/78|PR #78: 管理画面ログイン機能の実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/admin-login/admin-login.md>\nこの指示書に従って、このブランチで、管理画面ログイン機能を作成してください。\n```\n<https://app.devin.ai/sessions/ff233ffe90184c0db5a521026cd6f9aa|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tex",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/78",
+                "text": "PR #78: 管理画面ログイン機能の実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/blob/feature/admin-login/admin-login.md"
+              },
+              {
+                "type": "text",
+                "text": "\nこの指示書に従って、このブランチで、管理画面ログイン機能を作成してください。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/ff233ffe90184c0db5a521026cd6f9aa",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/78|PR #78: 管理画面ログイン機能の実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/blob/feature/admin-login/admin-login.md>\nこの指示書に従って、このブランチで、管理画面ログイン機能を作成してください。\n```\n<https://app.devin.ai/sessions/ff233ffe90184c0db5a521026cd6f9aa|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745909646.961799",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/82|PR #82: イシューの自動プロジェクト追加先をプロジェクト#6に変更> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/issues/80>\nのように作成したタスクが、↓のプロジェクトに自動追加されてしまう。\n<https://github.com/orgs/digitaldemocracy2030/projects/1>\nしかし本当は↓にプロジェクトに自動追加したい。\n<https://github.com/orgs/digitaldemocracy2030/projects/6>\n\n古い方のオートメーションは切っているはずなのだけど、どの自動化で古い方に追加されているか、また何を修正すればいいか調べて教えて。\n```\n<https://app.devin.ai/sessions/d59e3470d3a245fca3d79b21a44678ea|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xSqJL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/82",
+                "text": "PR #82: イシューの自動プロジェクト追加先をプロジェクト#6に変更"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/issues/80"
+              },
+              {
+                "type": "text",
+                "text": "\nのように作成したタスクが、↓のプロジェクトに自動追加されてしまう。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/orgs/digitaldemocracy2030/projects/1"
+              },
+              {
+                "type": "text",
+                "text": "\nしかし本当は↓にプロジェクトに自動追加したい。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/orgs/digitaldemocracy2030/projects/6"
+              },
+              {
+                "type": "text",
+                "text": "\n\n古い方のオートメーションは切っているはずなのだけど、どの自動化で古い方に追加されているか、また何を修正すればいいか調べて教えて。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/d59e3470d3a245fca3d79b21a44678ea",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/82|PR #82: イシューの自動プロジェクト追加先をプロジェクト#6に変更> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\n<https://github.com/digitaldemocracy2030/idobata/issues/80>\nのように作成したタスクが、↓のプロジェクトに自動追加されてしまう。\n<https://github.com/orgs/digitaldemocracy2030/projects/1>\nしかし本当は↓にプロジェクトに自動追加したい。\n<https://github.com/orgs/digitaldemocracy2030/projects/6>\n\n古い方のオートメーションは切っているはずなのだけど、どの自動化で古い方に追加されているか、また何を修正すればいいか調べて教えて。\n```\n<https://app.devin.ai/sessions/d59e3470d3a245fca3d79b21a44678ea|View Devin Session>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08M95GEVBM",
+    "text": "<@U08M95GEVBM> has joined the channel",
+    "type": "message",
+    "ts": "1745910322.699989",
+    "user_name": "山岡木太郎",
+    "text_readable": "@takeroku2008 has joined the channel"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745912810.002149",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/389|PR #389: 用語統一: クラスタ→意見グループ、クラスタリング→意見グループ化> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by <@U08GG5LRGMP>) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin\nこのイシュー対応して。\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/388>\n```\n<https://app.devin.ai/sessions/823bf4bf008344e68a5415f15c165404|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AE0Wi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/389",
+                "text": "PR #389: 用語統一: クラスタ→意見グループ、クラスタリング→意見グループ化"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nasuka",
+                "text": "nasuka"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GG5LRGMP"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:nsk.smn@gmail.com",
+                "text": "nsk.smn@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin\nこのイシュー対応して。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/388"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/823bf4bf008344e68a5415f15c165404",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/389|PR #389: 用語統一: クラスタ→意見グループ、クラスタリング→意見グループ化> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nasuka|nasuka> (requested by @nsk.smn) :rocket:\nOriginal prompt from <mailto:nsk.smn@gmail.com|nsk.smn@gmail.com>:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin\nこのイシュー対応して。\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/388>\n```\n<https://app.devin.ai/sessions/823bf4bf008344e68a5415f15c165404|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745928795.769099",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/387|PR #387: Windows環境セットアップガイドの改善> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 下記のフィードバックを参考にしてWindows用のガイドを更新して\n\n*中山心太（tokoroten）*  [14:50]\nWindowdsでの環境構築をやり始めたので、何かトラブったら書いていきます。\n\ndocker desktopをインストールして、setup_win.batを実行してもダメだった\ndockerのインストール直後はパスが通っておらず、再起動しないと通らない模様\ndockerコマンドが使えるようになっても、docker desktopが明示的に起動していないと、動かない。\n\nOpenAIのAPI Keyを張ろうとすると、CTRL+Vで張り付けができない。右クリックで張り付けを行った。\n\nたぶん、自治体職員はこれで躓くか、API Keyを手打ちしようとして投げ出す。\n\nOpenAIのAPI Keyの有効性チェックが行えていないので、ここで入力ミスをすると、後で面倒なことになりそう。\n```\n<https://app.devin.ai/sessions/28c147520d24426cad036b05ca8d9f1a|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "46JY3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/387",
+                "text": "PR #387: Windows環境セットアップガイドの改善"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin 下記のフィードバックを参考にしてWindows用のガイドを更新して\n\n*中山心太（tokoroten）*  [14:50]\nWindowdsでの環境構築をやり始めたので、何かトラブったら書いていきます。\n\ndocker desktopをインストールして、setup_win.batを実行してもダメだった\ndockerのインストール直後はパスが通っておらず、再起動しないと通らない模様\ndockerコマンドが使えるようになっても、docker desktopが明示的に起動していないと、動かない。\n\nOpenAIのAPI Keyを張ろうとすると、CTRL+Vで張り付けができない。右クリックで張り付けを行った。\n\nたぶん、自治体職員はこれで躓くか、API Keyを手打ちしようとして投げ出す。\n\nOpenAIのAPI Keyの有効性チェックが行えていないので、ここで入力ミスをすると、後で面倒なことになりそう。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/28c147520d24426cad036b05ca8d9f1a",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/387|PR #387: Windows環境セットアップガイドの改善> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin 下記のフィードバックを参考にしてWindows用のガイドを更新して\n\n*中山心太（tokoroten）*  [14:50]\nWindowdsでの環境構築をやり始めたので、何かトラブったら書いていきます。\n\ndocker desktopをインストールして、setup_win.batを実行してもダメだった\ndockerのインストール直後はパスが通っておらず、再起動しないと通らない模様\ndockerコマンドが使えるようになっても、docker desktopが明示的に起動していないと、動かない。\n\nOpenAIのAPI Keyを張ろうとすると、CTRL+Vで張り付けができない。右クリックで張り付けを行った。\n\nたぶん、自治体職員はこれで躓くか、API Keyを手打ちしようとして投げ出す。\n\nOpenAIのAPI Keyの有効性チェックが行えていないので、ここで入力ミスをすると、後で面倒なことになりそう。\n```\n<https://app.devin.ai/sessions/28c147520d24426cad036b05ca8d9f1a|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745934498.890669",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/390|PR #390: 基本的なE2Eテスト環境構築> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin <https://github.com/digitaldemocracy2030/kouchou-ai/issues/380>\nこれをやって。コメントも参考にしてね\n```\n<https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SAK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/390",
+                "text": "PR #390: 基本的なE2Eテスト環境構築"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/380"
+              },
+              {
+                "type": "text",
+                "text": "\nこれをやって。コメントも参考にしてね\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/390|PR #390: 基本的なE2Eテスト環境構築> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin <https://github.com/digitaldemocracy2030/kouchou-ai/issues/380>\nこれをやって。コメントも参考にしてね\n```\n<https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745945464.922449",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/394|PR #394: E2Eテスト環境の依存関係インストール修正> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin <https://github.com/digitaldemocracy2030/kouchou-ai/issues/380>\nこれをやって。コメントも参考にしてね\n```\n<https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AU2rF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/394",
+                "text": "PR #394: E2Eテスト環境の依存関係インストール修正"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/kouchou-ai was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_広聴ai:\n\n@Devin "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/380"
+              },
+              {
+                "type": "text",
+                "text": "\nこれをやって。コメントも参考にしてね\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/kouchou-ai/pull/394|PR #394: E2Eテスト環境の依存関係インストール修正> in digitaldemocracy2030/kouchou-ai was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_広聴ai:\n\n@Devin <https://github.com/digitaldemocracy2030/kouchou-ai/issues/380>\nこれをやって。コメントも参考にしてね\n```\n<https://app.devin.ai/sessions/fc39bd7faed64fc1974439a23934e541|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745974133.771569",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/57|PR #57: 広聴AI v2.0.0リリースページにコントリビューターリストを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin\n*いしばし*  [16:12]\nプレス打つならコントリビューターの名前をいれるとエンジニアのキャリアにプラスなので参加するモチベーションになるかと。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n\n*NISHIO Hirokazu*  [23:14]\n@Devin websiteリポジトリの最近追加された\n<https://github.com/digitaldemocracy2030/website/pull/47>\nなんだけども、上記のリリースページを読んでコントリビュートした人のリストを末尾につけて。各ユーザ名はGiuHubプロフィールページへのリンクにして、dependabotとdevinは除外して。\n```\n<https://app.devin.ai/sessions/07dea2a8c80645f39c129785a1481c19|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YBaZO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/57",
+                "text": "PR #57: 広聴AI v2.0.0リリースページにコントリビューターリストを追加"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin\n*いしばし*  [16:12]\nプレス打つならコントリビューターの名前をいれるとエンジニアのキャリアにプラスなので参加するモチベーションになるかと。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0"
+              },
+              {
+                "type": "text",
+                "text": "\n\n*NISHIO Hirokazu*  [23:14]\n@Devin websiteリポジトリの最近追加された\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/47"
+              },
+              {
+                "type": "text",
+                "text": "\nなんだけども、上記のリリースページを読んでコントリビュートした人のリストを末尾につけて。各ユーザ名はGiuHubプロフィールページへのリンクにして、dependabotとdevinは除外して。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/07dea2a8c80645f39c129785a1481c19",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/57|PR #57: 広聴AI v2.0.0リリースページにコントリビューターリストを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin\n*いしばし*  [16:12]\nプレス打つならコントリビューターの名前をいれるとエンジニアのキャリアにプラスなので参加するモチベーションになるかと。\n<https://github.com/digitaldemocracy2030/kouchou-ai/releases/tag/v2.0.0>\n\n*NISHIO Hirokazu*  [23:14]\n@Devin websiteリポジトリの最近追加された\n<https://github.com/digitaldemocracy2030/website/pull/47>\nなんだけども、上記のリリースページを読んでコントリビュートした人のリストを末尾につけて。各ユーザ名はGiuHubプロフィールページへのリンクにして、dependabotとdevinは除外して。\n```\n<https://app.devin.ai/sessions/07dea2a8c80645f39c129785a1481c19|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1745980351.308589",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/98|PR #98: QuestionDetail.tsxで実際のデータを取得するように実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by <@U08FTAEETAB>) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataにおいて、\n\nfrontend/src/pages/ThemeDetail.tsx\nの実装を参考にして、\nfrontend/src/pages/QuestionDetail.tsx\nでも実際のデータを取得してくるようにしてください。\n\n・フロントエンドとバックエンドの両方が修正対象です\n・BFFの設計で、エンドポイントをページに最適化し、1回のリクエストで必要データがfetchできるようにしてください\n・参考のページと同様、モックデータモードをつけてください\n・neverthrowを利用しているので、try-catchは使わないようにしてください\n```\n<https://app.devin.ai/sessions/7d5b15f6d6fe4a2da0ee1c5740b969cd|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PdN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/98",
+                "text": "PR #98: QuestionDetail.tsxで実際のデータを取得するように実装",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/idobata was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/jujunjun110",
+                "text": "jujunjun110"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from "
+              },
+              {
+                "type": "link",
+                "url": "mailto:jujunjun110@gmail.com",
+                "text": "jujunjun110@gmail.com"
+              },
+              {
+                "type": "text",
+                "text": ":"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataにおいて、\n\nfrontend/src/pages/ThemeDetail.tsx\nの実装を参考にして、\nfrontend/src/pages/QuestionDetail.tsx\nでも実際のデータを取得してくるようにしてください。\n\n・フロントエンドとバックエンドの両方が修正対象です\n・BFFの設計で、エンドポイントをページに最適化し、1回のリクエストで必要データがfetchできるようにしてください\n・参考のページと同様、モックデータモードをつけてください\n・neverthrowを利用しているので、try-catchは使わないようにしてください\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/7d5b15f6d6fe4a2da0ee1c5740b969cd",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/idobata/pull/98|PR #98: QuestionDetail.tsxで実際のデータを取得するように実装> in digitaldemocracy2030/idobata was merged by <https://github.com/jujunjun110|jujunjun110> (requested by @jujunjun110) :rocket:\nOriginal prompt from <mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>:\n```\nReceived message in Slack channel #2_開発_いどばた:\n\n@Devin\nidobataにおいて、\n\nfrontend/src/pages/ThemeDetail.tsx\nの実装を参考にして、\nfrontend/src/pages/QuestionDetail.tsx\nでも実際のデータを取得してくるようにしてください。\n\n・フロントエンドとバックエンドの両方が修正対象です\n・BFFの設計で、エンドポイントをページに最適化し、1回のリクエストで必要データがfetchできるようにしてください\n・参考のページと同様、モックデータモードをつけてください\n・neverthrowを利用しているので、try-catchは使わないようにしてください\n```\n<https://app.devin.ai/sessions/7d5b15f6d6fe4a2da0ee1c5740b969cd|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1746008439.130889",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/52|PR #52: PRプレビューデプロイメントの実装> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin これをやって\n<https://github.com/digitaldemocracy2030/website/issues/50>\n```\n<https://app.devin.ai/sessions/779250f9742041dabc0d395bf370202f|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZHzUA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/52",
+                "text": "PR #52: PRプレビューデプロイメントの実装"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Received message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin これをやって\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/issues/50"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/779250f9742041dabc0d395bf370202f",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/52|PR #52: PRプレビューデプロイメントの実装> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nReceived message in Slack channel #2_開発_デジ民ウェブサイト:\n\n@Devin これをやって\n<https://github.com/digitaldemocracy2030/website/issues/50>\n```\n<https://app.devin.ai/sessions/779250f9742041dabc0d395bf370202f|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1746008492.990659",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/58|PR #58: 宇多津町のブロードリスニング事例を追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): <@U08HWJ80CHG> 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n<https://www.town.utazu.lg.jp/page/4114.html>\n\nPreview of a link: <https://www.town.utazu.lg.jp/page/4114.html>\n&gt; # 宇多津町\n&gt; ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました](<https://www.town.utazu.lg.jp/page/4114.html>)\n&gt; ATTACHMENT:\"<https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image>\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "name": "Devin",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "deleted": false,
+      "updated": 1743759720,
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d2es9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/58",
+                "text": "PR #58: 宇多津町のブロードリスニング事例を追加"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": "\n\nPreview of a link: "
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": "\n> # 宇多津町\n> ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました]("
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": ")\n> ATTACHMENT:\""
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image"
+              },
+              {
+                "type": "text",
+                "text": "\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/58|PR #58: 宇多津町のブロードリスニング事例を追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): @oscar.gaddress 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n<https://www.town.utazu.lg.jp/page/4114.html>\n\nPreview of a link: <https://www.town.utazu.lg.jp/page/4114.html>\n> # 宇多津町\n> ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました](<https://www.town.utazu.lg.jp/page/4114.html>)\n> ATTACHMENT:\"<https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image>\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86|View Devin Session>"
+  },
+  {
+    "user": "U08M2Q2M6SV",
+    "type": "message",
+    "ts": "1746010443.963389",
+    "bot_id": "B08M2Q2LNQ1",
+    "app_id": "A06A3TU8H39",
+    "text": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/60|PR #60: 宇多津町の事例にリンクを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by <@U08G2A216TW>) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): <@U08HWJ80CHG> 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n<https://www.town.utazu.lg.jp/page/4114.html>\n\nPreview of a link: <https://www.town.utazu.lg.jp/page/4114.html>\n&gt; # 宇多津町\n&gt; ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました](<https://www.town.utazu.lg.jp/page/4114.html>)\n&gt; ATTACHMENT:\"<https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image>\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86|View Devin Session>",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08M2Q2LNQ1",
+      "deleted": false,
+      "name": "Devin",
+      "updated": 1743759720,
+      "app_id": "A06A3TU8H39",
+      "user_id": "U08M2Q2M6SV",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_36.png",
+        "image_48": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "image_72": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ITmE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " PR "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/60",
+                "text": "PR #60: 宇多津町の事例にリンクを追加"
+              },
+              {
+                "type": "text",
+                "text": " in digitaldemocracy2030/website was merged by "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio",
+                "text": "nishio"
+              },
+              {
+                "type": "text",
+                "text": " (requested by "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": ") "
+              },
+              {
+                "type": "emoji",
+                "name": "rocket",
+                "unicode": "1f680"
+              },
+              {
+                "type": "text",
+                "text": "\nOriginal prompt from NISHIO:"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": "\n\nPreview of a link: "
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": "\n> # 宇多津町\n> ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました]("
+              },
+              {
+                "type": "link",
+                "url": "https://www.town.utazu.lg.jp/page/4114.html"
+              },
+              {
+                "type": "text",
+                "text": ")\n> ATTACHMENT:\""
+              },
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image"
+              },
+              {
+                "type": "text",
+                "text": "\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86",
+                "text": "View Devin Session"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Devin",
+    "text_readable": ":tada: PR <https://github.com/digitaldemocracy2030/website/pull/60|PR #60: 宇多津町の事例にリンクを追加> in digitaldemocracy2030/website was merged by <https://github.com/nishio|nishio> (requested by @nishio.hirokazu) :rocket:\nOriginal prompt from NISHIO:\n```\nSYSTEM:\nThe following is the thread conversation in Slack channel #2_開発_デジ民ウェブサイト that you've been added to:\n\n=== BEGIN THREAD HISTORY ===\nNISHIO Hirokazu (U08G2A216TW): @oscar.gaddress 宇多津町の事例を事例紹介に載せたいなと思ったんですけど、事例紹介の置き方って何か方針ありましたっけ？\n<https://www.town.utazu.lg.jp/page/4114.html>\n\nPreview of a link: <https://www.town.utazu.lg.jp/page/4114.html>\n> # 宇多津町\n> ## [AIで多くの住民の意見を政策立案に反映する『ブロードリスニング』の先進的なトライアルを実施しました](<https://www.town.utazu.lg.jp/page/4114.html>)\n> ATTACHMENT:\"<https://app.devin.ai/attachments/e0bc6eb4-6eea-4183-b831-b0519b1cc5d8/link_image>\"\n\n\n小野翔太 (U08HWJ80CHG): 特に決まってないです！\nmdにできたら追加・管理しやすそうだよね、くらいです！\n\n小野翔太 (U08HWJ80CHG): あとは事例ページにまとめて表示、ソート（プロダクト毎など）できたら見やすいかな？と思っていたくらいです。\n\nNISHIO Hirokazu (U08G2A216TW): 了解です。ではそれらを踏まえつつ、Devinに試しに作ってみてもらいますね\n\nNISHIO Hirokazu (U08G2A216TW): @Devin 上記の事例紹介をwebsiteリポジトリに追加して\n=== END THREAD HISTORY ===\n\nThe latest message is the one right above that tagged you.\n```\n<https://app.devin.ai/sessions/10542d74a949498abe86f10164df3d86|View Devin Session>"
+  }
+]

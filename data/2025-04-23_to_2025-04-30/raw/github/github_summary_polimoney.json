@@ -1,0 +1,101 @@
+{
+  "period": {
+    "start": "2025-04-23T18:03:51.976194+09:00",
+    "end": "2025-04-30T18:03:51.976194+09:00"
+  },
+  "repo": "digitaldemocracy2030/polimoney",
+  "issues": [
+    {
+      "id": 3008286665,
+      "number": 13,
+      "title": "OGPタグを書く",
+      "state": "closed"
+    },
+    {
+      "id": 3022720107,
+      "number": 25,
+      "title": "devcontainerを設定する",
+      "state": "created"
+    },
+    {
+      "id": 3019635503,
+      "number": 22,
+      "title": "収支報告書のスキーマ定義",
+      "state": "created"
+    },
+    {
+      "id": 3017818422,
+      "number": 21,
+      "title": "支出のどれが税金で賄われているか明示",
+      "state": "created"
+    },
+    {
+      "id": 3017813904,
+      "number": 20,
+      "title": "収支報告書のフォーマット調査",
+      "state": "created"
+    },
+    {
+      "id": 3014175992,
+      "number": 19,
+      "title": "OCR（画像認識）の精度強化",
+      "state": "created"
+    },
+    {
+      "id": 3014047468,
+      "number": 18,
+      "title": "issue templateを用意する",
+      "state": "created"
+    },
+    {
+      "id": 3014036500,
+      "number": 17,
+      "title": "データ引用元のURLを貼る",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3029711836,
+      "number": 28,
+      "title": "linterをPR作成時に走らせる設定の追加",
+      "state": "merged"
+    },
+    {
+      "id": 3023144895,
+      "number": 26,
+      "title": "【fix: 13】サンプルデータのOGP Image作成機能実装と反映を行いました",
+      "state": "merged"
+    },
+    {
+      "id": 3020415239,
+      "number": 23,
+      "title": "手書き文字判定の追加",
+      "state": "merged"
+    },
+    {
+      "id": 3012565986,
+      "number": 16,
+      "title": "docstring整備",
+      "state": "merged"
+    },
+    {
+      "id": 3006956615,
+      "number": 11,
+      "title": "jsonスキーマを採用",
+      "state": "merged"
+    },
+    {
+      "id": 3029697756,
+      "number": 27,
+      "title": "LinterがGitHub Actions上で走るように設定",
+      "state": "created"
+    },
+    {
+      "id": 3022668292,
+      "number": 24,
+      "title": "update readme",
+      "state": "created"
+    }
+  ]
+}

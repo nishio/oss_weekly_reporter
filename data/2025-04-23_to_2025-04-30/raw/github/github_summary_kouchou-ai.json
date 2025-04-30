@@ -1,0 +1,515 @@
+{
+  "period": {
+    "start": "2025-04-23T23:24:08.222346+09:00",
+    "end": "2025-04-30T23:24:08.222346+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3030409183,
+      "number": 401,
+      "title": "[DOCUMENT]クラスタ → グループ への言い換え",
+      "state": "closed"
+    },
+    {
+      "id": 3027281615,
+      "number": 388,
+      "title": "[REFACTOR] 「クラスタ」と「意見グループ」という表現が混在している",
+      "state": "closed"
+    },
+    {
+      "id": 3019341901,
+      "number": 375,
+      "title": "[BUG]レポート作成時に編集したプロンプトが反映されない",
+      "state": "closed"
+    },
+    {
+      "id": 3019121537,
+      "number": 373,
+      "title": "[FEATURE] LLM用のプロンプトに出力されるjsonフォーマットを入力できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3019100792,
+      "number": 371,
+      "title": "[BUG] プロンプトのAIバイアス問題の修正",
+      "state": "closed"
+    },
+    {
+      "id": 3012543055,
+      "number": 361,
+      "title": "(実験)embeddingベースの前処理",
+      "state": "closed"
+    },
+    {
+      "id": 2991091474,
+      "number": 303,
+      "title": "[FEATURE]CSVアップロード時にデフォルトでクラスタ数が設定されてほしい",
+      "state": "closed"
+    },
+    {
+      "id": 2990914996,
+      "number": 296,
+      "title": "[FEATURE]LLM出力形式の揺らぎによる抽出エラー",
+      "state": "closed"
+    },
+    {
+      "id": 2990878839,
+      "number": 291,
+      "title": "[DOCUMENT].envファイルの不可視問題 (Mac Finder)",
+      "state": "closed"
+    },
+    {
+      "id": 2990833717,
+      "number": 288,
+      "title": "[FEATURE]zipでのリリース",
+      "state": "closed"
+    },
+    {
+      "id": 2981664009,
+      "number": 269,
+      "title": "（アルゴリズム検証） 広聴AIで出力したクラスタのタイトルが抽象的になる問題の解決",
+      "state": "closed"
+    },
+    {
+      "id": 2966115761,
+      "number": 220,
+      "title": "[FEATURE] frontからstaticなHTMLファイルをexportしてDownloadできるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 2960108462,
+      "number": 207,
+      "title": "[FEATURE]レポート一覧のクリック可能範囲を広げる",
+      "state": "closed"
+    },
+    {
+      "id": 2922771064,
+      "number": 58,
+      "title": "[REFACTOR] langchainの依存を削除する",
+      "state": "closed"
+    },
+    {
+      "id": 3031011318,
+      "number": 403,
+      "title": "[REFACTOR] metadata のオプショナル化",
+      "state": "created"
+    },
+    {
+      "id": 3030607120,
+      "number": 402,
+      "title": "[FEATURE] OpenRouterを使えるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "created"
+    },
+    {
+      "id": 3029992887,
+      "number": 398,
+      "title": "Devin とのうまい協働方法を考える",
+      "state": "created"
+    },
+    {
+      "id": 3029893633,
+      "number": 396,
+      "title": "管理画面の基本e2eテスト計画",
+      "state": "created"
+    },
+    {
+      "id": 3029891330,
+      "number": 395,
+      "title": "管理画面のe2eテスト拡張ケース",
+      "state": "created"
+    },
+    {
+      "id": 3028299508,
+      "number": 393,
+      "title": "プラポリURL等をhowtoに記載すると良さそう",
+      "state": "created"
+    },
+    {
+      "id": 3028084834,
+      "number": 391,
+      "title": "レポート作成時にAPIが正常でない場合にわかりやすいエラーを出す",
+      "state": "created"
+    },
+    {
+      "id": 3026963537,
+      "number": 385,
+      "title": "[FEATURE]ローカルLLM / embedding を利用できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3019850654,
+      "number": 380,
+      "title": "基本的なE2Eテスト環境構築 (Basic E2E Test Environment Setup)",
+      "state": "created"
+    },
+    {
+      "id": 3019714231,
+      "number": 379,
+      "title": "E2Eテスト導入計画 (E2E Testing Implementation Plan)",
+      "state": "created"
+    },
+    {
+      "id": 3019171696,
+      "number": 374,
+      "title": "[FEATURE] OpenAIのBatch APIで、レートリミットを迂回する",
+      "state": "created"
+    },
+    {
+      "id": 3018856704,
+      "number": 370,
+      "title": "[FEATURE]パブコメ大量投稿への対策として省庁が実用可能なツールを作る",
+      "state": "created"
+    },
+    {
+      "id": 3014089385,
+      "number": 367,
+      "title": "[DOCUMENT] 元データの特徴に合わせたextractionプロンプトのガイドライン",
+      "state": "created"
+    },
+    {
+      "id": 3014028565,
+      "number": 366,
+      "title": "[FEATURE] 複数の公開リスト",
+      "state": "created"
+    },
+    {
+      "id": 3014011288,
+      "number": 365,
+      "title": "[FEATURE] レポートがデフォルトで公開されないようにする",
+      "state": "created"
+    },
+    {
+      "id": 3013991294,
+      "number": 364,
+      "title": "[FEATURE] 個別レポートのパスワード認証",
+      "state": "created"
+    },
+    {
+      "id": 3007630765,
+      "number": 346,
+      "title": "(実験) 同一の内容が大量に投稿される問題への対処法",
+      "state": "updated"
+    },
+    {
+      "id": 3007613196,
+      "number": 345,
+      "title": "（情報整理）同一の内容が大量に投稿される問題への対処法",
+      "state": "updated"
+    },
+    {
+      "id": 3006474334,
+      "number": 341,
+      "title": "[FEATURE] レポートの限定公開",
+      "state": "updated"
+    },
+    {
+      "id": 3004393459,
+      "number": 333,
+      "title": "[FEATURE] static exportしたHTMLファイルをwebサーバーなしで閲覧できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3002618758,
+      "number": 324,
+      "title": "（実験）ファクトチェックロジックの実験",
+      "state": "updated"
+    },
+    {
+      "id": 2991108744,
+      "number": 305,
+      "title": "[FEATURE]CSVアップロード時にタイトルや説明文を自動で埋めてほしい",
+      "state": "updated"
+    },
+    {
+      "id": 2991086810,
+      "number": 302,
+      "title": "[FEATURE]「公開」ボタンを押した時の効果を分かりやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2990889159,
+      "number": 294,
+      "title": "[FEATURE]ラベルが多い時の重なりの問題",
+      "state": "updated"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "updated"
+    },
+    {
+      "id": 2990876385,
+      "number": 290,
+      "title": "[FEATURE]階層図のUI/UX改善",
+      "state": "updated"
+    },
+    {
+      "id": 2990804598,
+      "number": 285,
+      "title": "[FEATURE]利用可能なLLMを増やす",
+      "state": "updated"
+    },
+    {
+      "id": 2984650643,
+      "number": 274,
+      "title": "[BUG] 静的ファイルがGithub Pagesでうまく表示されない件",
+      "state": "updated"
+    },
+    {
+      "id": 2978480128,
+      "number": 254,
+      "title": "(情報整理)Windows環境で試す人のためのガイドが必要",
+      "state": "updated"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "updated"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "updated"
+    },
+    {
+      "id": 2945716392,
+      "number": 176,
+      "title": "[FEATURE]LLMベースの分類機能の実装",
+      "state": "updated"
+    },
+    {
+      "id": 2945669000,
+      "number": 173,
+      "title": "[FEATURE]グラウンディングの実験",
+      "state": "updated"
+    },
+    {
+      "id": 2945659198,
+      "number": 172,
+      "title": "[FEATURE]クラスタ説明文におけるグラウンディングの実装",
+      "state": "updated"
+    },
+    {
+      "id": 2945124654,
+      "number": 144,
+      "title": "（実験）LLMによるクラスタ品質の自動評価",
+      "state": "updated"
+    },
+    {
+      "id": 2945122247,
+      "number": 143,
+      "title": "[FEATURE]クラスタ品質の自動評価",
+      "state": "updated"
+    },
+    {
+      "id": 2940417589,
+      "number": 130,
+      "title": "[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい",
+      "state": "updated"
+    },
+    {
+      "id": 2930296014,
+      "number": 97,
+      "title": "[FEATURE]CSVのフォーマットのエラーをわかりやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2926967566,
+      "number": 79,
+      "title": "[FEATURE]CSVアップロード時にそれを処理した場合のコストを表示",
+      "state": "updated"
+    },
+    {
+      "id": 2899402452,
+      "number": 24,
+      "title": "[FEATURE]濃いクラスタを表示している際は、クラスタの説明文も濃いクラスタに合わせたい",
+      "state": "updated"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3031234513,
+      "number": 404,
+      "title": "散布図にズームとパンを追加（あとスクショもできるようになった）",
+      "state": "merged"
+    },
+    {
+      "id": 3028461140,
+      "number": 394,
+      "title": "E2Eテスト環境の依存関係インストール修正",
+      "state": "merged"
+    },
+    {
+      "id": 3028250973,
+      "number": 392,
+      "title": "文脈埋め込み（エンベデッド）の処理をローカルで動かせるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3028075019,
+      "number": 390,
+      "title": "基本的なE2Eテスト環境構築",
+      "state": "merged"
+    },
+    {
+      "id": 3027335374,
+      "number": 389,
+      "title": "用語統一: クラスタ→意見グループ、クラスタリング→意見グループ化",
+      "state": "merged"
+    },
+    {
+      "id": 3027214568,
+      "number": 387,
+      "title": "Windows環境セットアップガイドの改善",
+      "state": "merged"
+    },
+    {
+      "id": 3026978383,
+      "number": 386,
+      "title": "ドキュメント: v2.0.0リリースに伴い、各プラットフォーム向けユーザーガイドを更新・追加",
+      "state": "merged"
+    },
+    {
+      "id": 3023094512,
+      "number": 384,
+      "title": "プロンプトの編集バグを修正しclient-adminのリファクタリングを再適用する",
+      "state": "merged"
+    },
+    {
+      "id": 3021565757,
+      "number": 383,
+      "title": "add mtane0412 to maintainer",
+      "state": "merged"
+    },
+    {
+      "id": 3020414103,
+      "number": 382,
+      "title": "LLMの出力にStructured Outputによるjsonフォーマットの強制を可能にする",
+      "state": "merged"
+    },
+    {
+      "id": 3019897887,
+      "number": 381,
+      "title": "Azure に client-static-build コンテナを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3019415666,
+      "number": 377,
+      "title": "client-adminのリファクタリングをrevert",
+      "state": "merged"
+    },
+    {
+      "id": 3017537814,
+      "number": 369,
+      "title": "アルゴリズムのイシューテンプレートをアップデート",
+      "state": "merged"
+    },
+    {
+      "id": 3016617852,
+      "number": 368,
+      "title": "[実験] 埋め込みベクトルを用いた類似コメントの検知コード",
+      "state": "merged"
+    },
+    {
+      "id": 3012813716,
+      "number": 362,
+      "title": ".github配下のテンプレートをアップデート",
+      "state": "merged"
+    },
+    {
+      "id": 3011073325,
+      "number": 360,
+      "title": "admin から static な HTML ファイルをダウンロードできるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3011027530,
+      "number": 359,
+      "title": "Solve issue #290 階層図のUI/UX改善",
+      "state": "merged"
+    },
+    {
+      "id": 3011024400,
+      "number": 358,
+      "title": "client-admin/app/page.tsxのリファクタリング (関連: #336)",
+      "state": "merged"
+    },
+    {
+      "id": 3008963725,
+      "number": 354,
+      "title": "add ruff setting on .vscode/settings.json",
+      "state": "merged"
+    },
+    {
+      "id": 3008956836,
+      "number": 353,
+      "title": "[REFACTOR] langchainの依存を削除する",
+      "state": "merged"
+    },
+    {
+      "id": 3004072776,
+      "number": 331,
+      "title": "OpenAI API Rate Limit対策の実装",
+      "state": "merged"
+    },
+    {
+      "id": 3030082015,
+      "number": 399,
+      "title": "Devinとのコラボレーションについてのドキュメントを追加",
+      "state": "created"
+    },
+    {
+      "id": 3029913116,
+      "number": 397,
+      "title": "Issue #396: 管理画面の基本e2eテストを実装",
+      "state": "created"
+    },
+    {
+      "id": 3019517598,
+      "number": 378,
+      "title": "extractionのプロンプトを改善",
+      "state": "created"
+    },
+    {
+      "id": 3019360629,
+      "number": 376,
+      "title": "[Fix] プロンプト編集が反映されない問題を修正 (#375)",
+      "state": "created"
+    },
+    {
+      "id": 3019107307,
+      "number": 372,
+      "title": "fix: プロンプトからAI特有の文脈を削除 #371",
+      "state": "created"
+    },
+    {
+      "id": 3013422173,
+      "number": 363,
+      "title": "Windows 環境で Docker を使わずに手動でセットアップできるようにするためのスクリプトおよび手順",
+      "state": "created"
+    },
+    {
+      "id": 3008901452,
+      "number": 352,
+      "title": "LLM出力形式の揺らぎによる抽出エラーの修正",
+      "state": "updated"
+    }
+  ]
+}
