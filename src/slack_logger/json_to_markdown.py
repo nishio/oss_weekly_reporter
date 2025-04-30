@@ -46,6 +46,28 @@ class MarkdownGenerator:
         dt = datetime.fromtimestamp(float(ts), tz=self.jst or timezone.utc)
         return dt.strftime("%Y-%m-%d %H:%M:%S")
 
+    def _should_skip_message(self, message: Any) -> bool:
+        """
+        スキップすべきメッセージかどうかを判定
+
+        Args:
+            message: メッセージデータ
+
+        Returns:
+            スキップする場合はTrue、そうでない場合はFalse
+        """
+        if not isinstance(message, dict):
+            return False
+            
+        if message.get("subtype") == "channel_join":
+            return True
+            
+        user_name = message.get("user_name", "").lower()
+        if "devin" in user_name:
+            return True
+            
+        return False
+
     def _format_message(self, message: Dict[str, Any], channel_name: str) -> str:
         """
         メッセージをMarkdown形式に変換
@@ -128,8 +150,11 @@ class MarkdownGenerator:
 
                 day_messages = []
                 for msg in messages:
+                    if not isinstance(msg, dict):
+                        continue
+                        
                     ts = float(msg.get("ts", 0))
-                    if all_data or (start_ts <= ts < end_ts):
+                    if (all_data or (start_ts <= ts < end_ts)) and not self._should_skip_message(msg):
                         day_messages.append(msg)
 
                 if day_messages:
@@ -263,8 +288,11 @@ class MarkdownGenerator:
 
                 week_messages = []
                 for msg in messages:
+                    if not isinstance(msg, dict):
+                        continue
+                        
                     ts = float(msg.get("ts", 0))
-                    if all_data or (start_ts <= ts < end_ts):
+                    if (all_data or (start_ts <= ts < end_ts)) and not self._should_skip_message(msg):
                         week_messages.append(msg)
 
                 if week_messages:
