@@ -455,7 +455,9 @@ def generate_markdown(
     issues = [item for item in items if item.get("type") == "issue"]
     prs = [item for item in items if item.get("type") == "pr"]
     
-    days_diff = (datetime.date.fromisoformat(end_date) - datetime.date.fromisoformat(start_date)).days
+    start_date_str = start_date.split('T')[0] if 'T' in start_date else start_date
+    end_date_str = end_date.split('T')[0] if 'T' in end_date else end_date
+    days_diff = (datetime.date.fromisoformat(end_date_str) - datetime.date.fromisoformat(start_date_str)).days
     
     if issues:
         markdown_report += f"## Issues\n\n"
