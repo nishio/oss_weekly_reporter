@@ -1,6 +1,5 @@
 # Slackデータの抽出と週次レポート生成
-SLACK_TOKEN=$(grep SLACK_TOKEN .env | cut -d'=' -f2)
-python -m src.slack_logger.slack_report --token "${SLACK_TOKEN}" --last-days 7 --weekly
+python -m src.slack_logger.slack_report --last-days 7 --weekly
 
 # GitHubデータの抽出とレポート生成
 # 広聴AI
