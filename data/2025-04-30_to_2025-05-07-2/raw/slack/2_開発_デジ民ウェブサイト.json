@@ -1,0 +1,205 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1746010737.003529",
+    "client_msg_id": "10ccaf53-f67a-48ce-b7ea-2dd07fddf3ef",
+    "text": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "osPvm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1746435137.046669",
+    "client_msg_id": "8ed25a78-dec4-4885-a9f3-cbaf80e7c6df",
+    "text": "<@U08LQ25DPAB>\n遅くなりましたがプルリクマージしました！ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fKcIp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": "\n遅くなりましたがプルリクマージしました！ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@masatosasano2\n遅くなりましたがプルリクマージしました！ありがとうございます！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1746590393.555449",
+    "client_msg_id": "91c34f30-238f-42b5-b521-2b9aefaef73b",
+    "text": "<@U08N3V4NQRE>\nボードメンバーの更新、おまかせしてしまってすみません。\nプルリクマージ後、\nbuidに失敗していたのでそこは直しました。\n<https://github.com/digitaldemocracy2030/website/pull/68>\n仕事が忙しく、細かく見れてないですが、\nまだ何かあってデプロイできてません。\nタイミングがあれば修正を試みますが、すぐには出来ないかもしれません。\nひとまずご連絡です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1746590393.555449",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1746596403.256819",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08N3V4NQRE"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8gnVI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": "\nボードメンバーの更新、おまかせしてしまってすみません。\nプルリクマージ後、\nbuidに失敗していたのでそこは直しました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/68"
+              },
+              {
+                "type": "text",
+                "text": "\n仕事が忙しく、細かく見れてないですが、\nまだ何かあってデプロイできてません。\nタイミングがあれば修正を試みますが、すぐには出来ないかもしれません。\nひとまずご連絡です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba\nボードメンバーの更新、おまかせしてしまってすみません。\nプルリクマージ後、\nbuidに失敗していたのでそこは直しました。\n<https://github.com/digitaldemocracy2030/website/pull/68>\n仕事が忙しく、細かく見れてないですが、\nまだ何かあってデプロイできてません。\nタイミングがあれば修正を試みますが、すぐには出来ないかもしれません。\nひとまずご連絡です。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1746594832.261759",
+    "client_msg_id": "9850998e-89de-4a4a-9ad7-d7512639905b",
+    "text": "こちら、デプロイできました～！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1746590393.555449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PQrif",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちら、デプロイできました～！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1746590393.555449",
+    "user_name": "小野翔太",
+    "text_readable": "こちら、デプロイできました～！"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1746596403.256819",
+    "client_msg_id": "fda8d085-b131-4b14-9882-a2c5e62462c4",
+    "text": "ありがとうございます！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1746590393.555449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "osj2N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1746590393.555449",
+    "user_name": "Kojin Oshiba",
+    "text_readable": "ありがとうございます！！"
+  }
+]

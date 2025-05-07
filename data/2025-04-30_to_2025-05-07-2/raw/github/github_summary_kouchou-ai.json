@@ -1,0 +1,563 @@
+{
+  "period": {
+    "start": "2025-04-30T16:21:25.965323+09:00",
+    "end": "2025-05-07T16:21:25.965323+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3041871188,
+      "number": 436,
+      "title": "[FEATURE] #427のVD作成",
+      "state": "closed"
+    },
+    {
+      "id": 3038826034,
+      "number": 432,
+      "title": "セットアップに時間がかかる",
+      "state": "closed"
+    },
+    {
+      "id": 3037671609,
+      "number": 424,
+      "title": "[workflowテスト]client画面の見た目を修正",
+      "state": "closed"
+    },
+    {
+      "id": 3037379450,
+      "number": 420,
+      "title": "テスト起票 🎨 資料整備",
+      "state": "closed"
+    },
+    {
+      "id": 3035342323,
+      "number": 415,
+      "title": "[design]マスターデザインデータの作成",
+      "state": "closed"
+    },
+    {
+      "id": 3033805068,
+      "number": 409,
+      "title": "Github Actions x LLM で Issueに自動でラベルを貼りたい",
+      "state": "closed"
+    },
+    {
+      "id": 3031011318,
+      "number": 403,
+      "title": "[REFACTOR] metadata のオプショナル化",
+      "state": "closed"
+    },
+    {
+      "id": 3030409183,
+      "number": 401,
+      "title": "[DOCUMENT]クラスタ → グループ への言い換え",
+      "state": "closed"
+    },
+    {
+      "id": 2991091837,
+      "number": 304,
+      "title": "[FEATURE]CSVアップロード時にコメント列を自動で特定してほしい",
+      "state": "closed"
+    },
+    {
+      "id": 2991091474,
+      "number": 303,
+      "title": "[FEATURE]CSVアップロード時にデフォルトでクラスタ数が設定されてほしい",
+      "state": "closed"
+    },
+    {
+      "id": 2991086810,
+      "number": 302,
+      "title": "[FEATURE]「公開」ボタンを押した時の効果を分かりやすくする",
+      "state": "closed"
+    },
+    {
+      "id": 2990878839,
+      "number": 291,
+      "title": "[DOCUMENT].envファイルの不可視問題 (Mac Finder)",
+      "state": "closed"
+    },
+    {
+      "id": 2990833717,
+      "number": 288,
+      "title": "[FEATURE]zipでのリリース",
+      "state": "closed"
+    },
+    {
+      "id": 2981664009,
+      "number": 269,
+      "title": "（アルゴリズム検証） 広聴AIで出力したクラスタのタイトルが抽象的になる問題の解決",
+      "state": "closed"
+    },
+    {
+      "id": 2960108462,
+      "number": 207,
+      "title": "[FEATURE]レポート一覧のクリック可能範囲を広げる",
+      "state": "closed"
+    },
+    {
+      "id": 2939692563,
+      "number": 122,
+      "title": "[FEATURE] コード以外の貢献も可視化する",
+      "state": "closed"
+    },
+    {
+      "id": 2899402452,
+      "number": 24,
+      "title": "[FEATURE]濃いクラスタを表示している際は、クラスタの説明文も濃いクラスタに合わせたい",
+      "state": "closed"
+    },
+    {
+      "id": 3044948581,
+      "number": 450,
+      "title": "[FEATURE]エンベデッドモデルを選択可能にする",
+      "state": "created"
+    },
+    {
+      "id": 3044456213,
+      "number": 447,
+      "title": "[design]#400 #421 に関連したマスター反映 & マスターデザイン作成",
+      "state": "created"
+    },
+    {
+      "id": 3044409190,
+      "number": 445,
+      "title": "[DOCUMENT] .github/copilot-instructions.md を設置したい。",
+      "state": "created"
+    },
+    {
+      "id": 3043356411,
+      "number": 444,
+      "title": "[GITHUB_ACTIONS] ラベル判定用のプロンプトの改善",
+      "state": "created"
+    },
+    {
+      "id": 3042780468,
+      "number": 443,
+      "title": "[design] デザインシステムの設計",
+      "state": "created"
+    },
+    {
+      "id": 3042475618,
+      "number": 441,
+      "title": "[FEATURE][design] headerにプロダクト名を表示する",
+      "state": "created"
+    },
+    {
+      "id": 3042178801,
+      "number": 438,
+      "title": "[FEATURE][design] コンテンツ下部のAbout情報をFooterにまとめる",
+      "state": "created"
+    },
+    {
+      "id": 3042156699,
+      "number": 437,
+      "title": "[FEATURE][design]見出し文言変更",
+      "state": "created"
+    },
+    {
+      "id": 3038607867,
+      "number": 431,
+      "title": "[BUG][design]管理画面：スプレッドシートURLのinput欄がスマホ時のみ高さがつぶれてる",
+      "state": "created"
+    },
+    {
+      "id": 3038577096,
+      "number": 430,
+      "title": "[FEATURE] ローカルLLMを簡単に動かすために、OllamaのDockerを追加する",
+      "state": "created"
+    },
+    {
+      "id": 3038124639,
+      "number": 428,
+      "title": "[FEATURE]レポート一覧画面：レポート0件時のエンプティ表現をする",
+      "state": "created"
+    },
+    {
+      "id": 3038115997,
+      "number": 427,
+      "title": "[FEATURE]レポート一覧画面：レポートタイトルと本文に文字数制限",
+      "state": "created"
+    },
+    {
+      "id": 3037770152,
+      "number": 425,
+      "title": "[GITHUB ACTIONS] 開発状況に応じてProjectsのstatusを自動更新する",
+      "state": "created"
+    },
+    {
+      "id": 3035439227,
+      "number": 417,
+      "title": "コードレビューの効率化",
+      "state": "created"
+    },
+    {
+      "id": 3035388472,
+      "number": 416,
+      "title": "[design]ブランドコンパス制定",
+      "state": "created"
+    },
+    {
+      "id": 3035339617,
+      "number": 414,
+      "title": "[FEATURE]ローカル文脈埋め込み（エンベデッド）をもっとアピールする",
+      "state": "created"
+    },
+    {
+      "id": 3030607120,
+      "number": 402,
+      "title": "[FEATURE] OpenRouterを使えるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "created"
+    },
+    {
+      "id": 3029992887,
+      "number": 398,
+      "title": "Devin とのうまい協働方法を考える",
+      "state": "created"
+    },
+    {
+      "id": 3029893633,
+      "number": 396,
+      "title": "管理画面の基本e2eテスト計画",
+      "state": "created"
+    },
+    {
+      "id": 3029891330,
+      "number": 395,
+      "title": "管理画面のe2eテスト拡張ケース",
+      "state": "created"
+    },
+    {
+      "id": 3026963537,
+      "number": 385,
+      "title": "[FEATURE]ローカルLLM / embedding を利用できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3014028565,
+      "number": 366,
+      "title": "[FEATURE] 複数の公開リスト",
+      "state": "updated"
+    },
+    {
+      "id": 3014011288,
+      "number": 365,
+      "title": "[FEATURE] レポートがデフォルトで公開されないようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3007630765,
+      "number": 346,
+      "title": "(実験) 同一の内容が大量に投稿される問題への対処法",
+      "state": "updated"
+    },
+    {
+      "id": 2995192689,
+      "number": 310,
+      "title": "[FEATURE] LLMが出力した結果の手動修正機能がほしい",
+      "state": "updated"
+    },
+    {
+      "id": 2991203616,
+      "number": 306,
+      "title": "[FEATURE]「全体図」「濃い意見グループ」のUI/UX改善",
+      "state": "updated"
+    },
+    {
+      "id": 2990889159,
+      "number": 294,
+      "title": "[FEATURE]ラベルが多い時の重なりの問題",
+      "state": "updated"
+    },
+    {
+      "id": 2990887157,
+      "number": 293,
+      "title": "[FEATURE]レポート表示画面上で、使用したプロンプトを直接編集可能にする",
+      "state": "updated"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "updated"
+    },
+    {
+      "id": 2990876385,
+      "number": 290,
+      "title": "[FEATURE]階層図のUI/UX改善",
+      "state": "updated"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "updated"
+    },
+    {
+      "id": 2984650643,
+      "number": 274,
+      "title": "[BUG] 静的ファイルがGithub Pagesでうまく表示されない件",
+      "state": "updated"
+    },
+    {
+      "id": 2982893942,
+      "number": 271,
+      "title": "[DOCUMENT] 静的ファイルのホスティング手順のドキュメント化",
+      "state": "updated"
+    },
+    {
+      "id": 2979959784,
+      "number": 266,
+      "title": "[FEATURE]クラスタ数が増えた場合に散布図上でクラスタラベルが被ってしまう",
+      "state": "updated"
+    },
+    {
+      "id": 2978426960,
+      "number": 250,
+      "title": "[FEATURE]階層図で一番下まで到達した時には原文を見せても良いのではないか",
+      "state": "updated"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "updated"
+    },
+    {
+      "id": 2969624362,
+      "number": 227,
+      "title": "[FEATURE]濃い意見グループの設定画面について",
+      "state": "updated"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "updated"
+    },
+    {
+      "id": 2945659198,
+      "number": 172,
+      "title": "[FEATURE]クラスタ説明文におけるグラウンディングの実装",
+      "state": "updated"
+    },
+    {
+      "id": 2945124654,
+      "number": 144,
+      "title": "（実験）LLMによるクラスタ品質の自動評価",
+      "state": "updated"
+    },
+    {
+      "id": 2940417589,
+      "number": 130,
+      "title": "[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい",
+      "state": "updated"
+    },
+    {
+      "id": 2935293806,
+      "number": 113,
+      "title": "[REFACTOR] 濃いクラスタのアイコン変更",
+      "state": "updated"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "updated"
+    },
+    {
+      "id": 2926967566,
+      "number": 79,
+      "title": "[FEATURE]CSVアップロード時にそれを処理した場合のコストを表示",
+      "state": "updated"
+    },
+    {
+      "id": 2922839578,
+      "number": 60,
+      "title": "[FEATURE]階層図で、最下層の表示を濃いクラスタだけに絞る",
+      "state": "updated"
+    },
+    {
+      "id": 2922752696,
+      "number": 56,
+      "title": "[FEATURE] 元コメントの表示機能",
+      "state": "updated"
+    },
+    {
+      "id": 2893835579,
+      "number": 11,
+      "title": "[FEATURE]レポート出力にかかる時間の目安を記載する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3044861881,
+      "number": 449,
+      "title": "ところてんさんをメンテナーに追加",
+      "state": "merged"
+    },
+    {
+      "id": 3044428029,
+      "number": 446,
+      "title": "Labeling prompt improvement",
+      "state": "merged"
+    },
+    {
+      "id": 3042516967,
+      "number": 442,
+      "title": "api コンテナの build 時間を短縮する ",
+      "state": "merged"
+    },
+    {
+      "id": 3041367454,
+      "number": 435,
+      "title": "metadata が未設定の場合でもリンクがエラーにならないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3038213175,
+      "number": 429,
+      "title": "カラムの自動選択アルゴリズムを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3037466479,
+      "number": 423,
+      "title": "[REFACTOR] metadata のオプショナル化 #403",
+      "state": "merged"
+    },
+    {
+      "id": 3037406529,
+      "number": 421,
+      "title": "Client-AdminにChatGPTのAPIKeyの確認画面の追加",
+      "state": "merged"
+    },
+    {
+      "id": 3036161417,
+      "number": 418,
+      "title": "ラジオボタンに見た目を変更",
+      "state": "merged"
+    },
+    {
+      "id": 3034087094,
+      "number": 413,
+      "title": "static exportでbase pathを設定可能にする(Github Pages対応)",
+      "state": "merged"
+    },
+    {
+      "id": 3033920551,
+      "number": 411,
+      "title": "Github Projectsの運用ポリシーをドキュメント化",
+      "state": "merged"
+    },
+    {
+      "id": 3033872634,
+      "number": 410,
+      "title": "Solve #409 automate Issues labeling with Github Actions and LLM",
+      "state": "merged"
+    },
+    {
+      "id": 3033660379,
+      "number": 408,
+      "title": "static build時のフォントキャッシュを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3031616629,
+      "number": 405,
+      "title": "濃い意見グループが選択された際にグループの説明文を切り替える",
+      "state": "merged"
+    },
+    {
+      "id": 3031234513,
+      "number": 404,
+      "title": "散布図にズームとパンを追加（あとスクショもできるようになった）",
+      "state": "merged"
+    },
+    {
+      "id": 3030082015,
+      "number": 399,
+      "title": "Devinとのコラボレーションについてのドキュメントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3044650279,
+      "number": 448,
+      "title": "Feat/evaluation report",
+      "state": "created"
+    },
+    {
+      "id": 3042274412,
+      "number": 440,
+      "title": "Feat/evaluation report クラスタ品質の自動評価 #144",
+      "state": "created"
+    },
+    {
+      "id": 3042238344,
+      "number": 439,
+      "title": "Feat/evaluation report",
+      "state": "created"
+    },
+    {
+      "id": 3041048428,
+      "number": 434,
+      "title": "create",
+      "state": "created"
+    },
+    {
+      "id": 3040935379,
+      "number": 433,
+      "title": "create",
+      "state": "created"
+    },
+    {
+      "id": 3037777528,
+      "number": 426,
+      "title": "Issue の Project status の自動更新",
+      "state": "created"
+    },
+    {
+      "id": 3037451152,
+      "number": 422,
+      "title": "Add provider selection to LLM integration",
+      "state": "created"
+    },
+    {
+      "id": 3036654526,
+      "number": 419,
+      "title": "Devin/1746211334 issue project status sync",
+      "state": "created"
+    },
+    {
+      "id": 3034036696,
+      "number": 412,
+      "title": "Add support for Open Router and LocalLLM providers",
+      "state": "created"
+    },
+    {
+      "id": 3033233392,
+      "number": 407,
+      "title": "管理画面の基本e2eテスト実装の簡素化",
+      "state": "created"
+    },
+    {
+      "id": 3033029270,
+      "number": 406,
+      "title": "Add environment verification page for ChatGPT API key",
+      "state": "created"
+    },
+    {
+      "id": 3029913116,
+      "number": 397,
+      "title": "Issue #396: 管理画面の基本e2eテストを実装",
+      "state": "created"
+    }
+  ]
+}
