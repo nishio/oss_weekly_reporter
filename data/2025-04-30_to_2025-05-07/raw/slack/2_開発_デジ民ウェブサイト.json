@@ -1,0 +1,78 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1746010737.003529",
+    "client_msg_id": "10ccaf53-f67a-48ce-b7ea-2dd07fddf3ef",
+    "text": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "osPvm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PRでのプレビュー機能はまだ構築中です。エラーになっても気にせずマージしてください。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1746435137.046669",
+    "client_msg_id": "8ed25a78-dec4-4885-a9f3-cbaf80e7c6df",
+    "text": "<@U08LQ25DPAB>\n遅くなりましたがプルリクマージしました！ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fKcIp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": "\n遅くなりましたがプルリクマージしました！ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@masatosasano2\n遅くなりましたがプルリクマージしました！ありがとうございます！"
+  }
+]
