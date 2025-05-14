@@ -1,0 +1,84 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08JN7X6XQX",
+    "text": "<@U08JN7X6XQX> has joined the channel",
+    "type": "message",
+    "ts": "1746588363.022379",
+    "user_name": "LogExporter",
+    "text_readable": "@logexporter has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08RW9HTS76",
+    "text": "<@U08RW9HTS76> has joined the channel",
+    "type": "message",
+    "ts": "1746955737.159809",
+    "user_name": "吾解",
+    "text_readable": "@akai2013sagagei has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08RVQB4Y86",
+    "text": "<@U08RVQB4Y86> has joined the channel",
+    "type": "message",
+    "ts": "1747130601.013179",
+    "user_name": "Yatima Kagurazaka (神楽坂やちま)",
+    "text_readable": "@tarakomarecity has joined the channel"
+  },
+  {
+    "user": "U08JYDRQ17U",
+    "type": "message",
+    "ts": "1747192132.831339",
+    "bot_id": "B08JYDRQ15Y",
+    "app_id": "A08JYBYGM6X",
+    "text": ":new: 新しいチャンネル <#C08SCPMMPL4>（#2_開発_slackbot）が作成されました！",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08JYDRQ15Y",
+      "deleted": false,
+      "name": "MemberMonitorBot",
+      "updated": 1746335796,
+      "app_id": "A08JYBYGM6X",
+      "user_id": "U08JYDRQ17U",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_36.png",
+        "image_48": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_48.png",
+        "image_72": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Cut7m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "new",
+                "unicode": "1f195"
+              },
+              {
+                "type": "text",
+                "text": " 新しいチャンネル "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08SCPMMPL4"
+              },
+              {
+                "type": "text",
+                "text": "（#2_開発_slackbot）が作成されました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "MemberMonitorBot",
+    "text_readable": ":new: 新しいチャンネル <#C08SCPMMPL4>（#2_開発_slackbot）が作成されました！"
+  }
+]
