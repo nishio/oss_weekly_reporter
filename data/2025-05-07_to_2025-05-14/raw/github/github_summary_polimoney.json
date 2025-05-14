@@ -1,0 +1,221 @@
+{
+  "period": {
+    "start": "2025-05-07T17:37:59.080922+09:00",
+    "end": "2025-05-14T17:37:59.080922+09:00"
+  },
+  "repo": "digitaldemocracy2030/polimoney",
+  "issues": [
+    {
+      "id": 3056803021,
+      "number": 56,
+      "title": "test",
+      "state": "closed"
+    },
+    {
+      "id": 3055733505,
+      "number": 53,
+      "title": "Issue→projectsテスト",
+      "state": "closed"
+    },
+    {
+      "id": 3014047468,
+      "number": 18,
+      "title": "issue templateを用意する",
+      "state": "closed"
+    },
+    {
+      "id": 3014036500,
+      "number": 17,
+      "title": "データ引用元のURLを貼る",
+      "state": "closed"
+    },
+    {
+      "id": 3008285375,
+      "number": 12,
+      "title": "LICENSE / CLAを書く",
+      "state": "closed"
+    },
+    {
+      "id": 3056009101,
+      "number": 54,
+      "title": "TypeScriptのフォーマッターの導入",
+      "state": "created"
+    },
+    {
+      "id": 3055431257,
+      "number": 51,
+      "title": "CONTRIBUTING.mdを作成する",
+      "state": "created"
+    },
+    {
+      "id": 3046163479,
+      "number": 46,
+      "title": "検索結果のサムネイルを差し替える",
+      "state": "created"
+    },
+    {
+      "id": 3036597936,
+      "number": 41,
+      "title": "対内外向け[資料露出]",
+      "state": "updated"
+    },
+    {
+      "id": 3036586980,
+      "number": 40,
+      "title": "対内外向け[資料作成]",
+      "state": "updated"
+    },
+    {
+      "id": 3031392868,
+      "number": 34,
+      "title": "Pythonのlinter、formatterを導入する",
+      "state": "updated"
+    },
+    {
+      "id": 3031310787,
+      "number": 31,
+      "title": "議論：収支報告書に不記載(裏金)の情報について",
+      "state": "updated"
+    },
+    {
+      "id": 3031283768,
+      "number": 29,
+      "title": "E2E動作確認（つなぎこみ）",
+      "state": "updated"
+    },
+    {
+      "id": 3022720107,
+      "number": 25,
+      "title": "devcontainerを設定する",
+      "state": "updated"
+    },
+    {
+      "id": 3017813904,
+      "number": 20,
+      "title": "収支報告書のフォーマット調査",
+      "state": "updated"
+    },
+    {
+      "id": 3014175992,
+      "number": 19,
+      "title": "OCR（画像認識）の精度強化",
+      "state": "updated"
+    },
+    {
+      "id": 2990309670,
+      "number": 5,
+      "title": "議員からの掲載許可に基づくデータ表示制御（オプトイン・アウト）機能",
+      "state": "updated"
+    },
+    {
+      "id": 2990308342,
+      "number": 4,
+      "title": "総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能",
+      "state": "updated"
+    },
+    {
+      "id": 2990306052,
+      "number": 3,
+      "title": "Gemini API呼び出しの並列化とエラーハンドリング強化（レートリミット対応）",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3061725351,
+      "number": 58,
+      "title": "update readme",
+      "state": "merged"
+    },
+    {
+      "id": 3055668669,
+      "number": 52,
+      "title": "reactのレンダリング時の警告修正",
+      "state": "merged"
+    },
+    {
+      "id": 3051349155,
+      "number": 49,
+      "title": "cla追加, プルリク & issueのテンプレート追加,  自己アサイン機能追加",
+      "state": "merged"
+    },
+    {
+      "id": 3044366868,
+      "number": 44,
+      "title": "gemini 2.5 pro preview 05-26 導入",
+      "state": "merged"
+    },
+    {
+      "id": 3042795753,
+      "number": 43,
+      "title": "docs: Add Japanese translation of project documentation",
+      "state": "merged"
+    },
+    {
+      "id": 3041887247,
+      "number": 42,
+      "title": "Devin wikiコンテンツのドキュメント追加",
+      "state": "merged"
+    },
+    {
+      "id": 3035998733,
+      "number": 39,
+      "title": "収支報告書の表現に合わせて修正",
+      "state": "merged"
+    },
+    {
+      "id": 3022668292,
+      "number": 24,
+      "title": "update readme",
+      "state": "merged"
+    },
+    {
+      "id": 3061868835,
+      "number": 59,
+      "title": "pythonにruff, pyrightを導入",
+      "state": "created"
+    },
+    {
+      "id": 3056958785,
+      "number": 57,
+      "title": "Biome + lefthookの導入",
+      "state": "created"
+    },
+    {
+      "id": 3056531675,
+      "number": 55,
+      "title": "analyze_image_gemini.py のエラーハンドリング改善",
+      "state": "created"
+    },
+    {
+      "id": 3054290153,
+      "number": 50,
+      "title": "pinact runでバージョンをコミットハッシュにする",
+      "state": "created"
+    },
+    {
+      "id": 3046292352,
+      "number": 48,
+      "title": "E2E - merge_jsons.py変更",
+      "state": "created"
+    },
+    {
+      "id": 3046166683,
+      "number": 47,
+      "title": "E2E - Geminiプロンプト変更",
+      "state": "created"
+    },
+    {
+      "id": 3045253696,
+      "number": 45,
+      "title": "DevContainer configuration with Dockerfile, README, and VS Code settings",
+      "state": "created"
+    },
+    {
+      "id": 3035855455,
+      "number": 38,
+      "title": "all.jsonをsample_input.json形式に変換するスクリプト",
+      "state": "updated"
+    }
+  ]
+}

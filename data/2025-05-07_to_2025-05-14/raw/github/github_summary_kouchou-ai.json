@@ -1,0 +1,557 @@
+{
+  "period": {
+    "start": "2025-05-07T17:36:45.597823+09:00",
+    "end": "2025-05-14T17:36:45.597823+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3059322544,
+      "number": 502,
+      "title": "[REFACTOR] npm run lint のエラー対応",
+      "state": "closed"
+    },
+    {
+      "id": 3057135610,
+      "number": 491,
+      "title": "[FEATURE] ScatterChartの領域をわかりやすくする",
+      "state": "closed"
+    },
+    {
+      "id": 3056984260,
+      "number": 488,
+      "title": "[CLIENT][DESIGN] ScatterChartのグリッドを非表示にする",
+      "state": "closed"
+    },
+    {
+      "id": 3055527624,
+      "number": 483,
+      "title": "[BUG]LocalLLMがOllama apiサーバーと疎通しない?",
+      "state": "closed"
+    },
+    {
+      "id": 3054738733,
+      "number": 479,
+      "title": "[BUG] クライアントで、プロットを最大化したときに、コマンドパレットと最大化終了が被る",
+      "state": "closed"
+    },
+    {
+      "id": 3054272699,
+      "number": 472,
+      "title": "[FEATURE] Admin管理画面から、clientの静的ページをダウンロード可能にする",
+      "state": "closed"
+    },
+    {
+      "id": 3047755570,
+      "number": 466,
+      "title": "[FEATURE] CodeRabbitの導入",
+      "state": "closed"
+    },
+    {
+      "id": 3047537737,
+      "number": 462,
+      "title": "[BUG]apiのビルド時に依存関係でエラーが起きる",
+      "state": "closed"
+    },
+    {
+      "id": 3045718482,
+      "number": 455,
+      "title": "テスト起票",
+      "state": "closed"
+    },
+    {
+      "id": 3043356411,
+      "number": 444,
+      "title": "[GITHUB_ACTIONS] ラベル判定用のプロンプトの改善",
+      "state": "closed"
+    },
+    {
+      "id": 3042780468,
+      "number": 443,
+      "title": "[design] デザインシステムの設計",
+      "state": "closed"
+    },
+    {
+      "id": 3042475618,
+      "number": 441,
+      "title": "[FEATURE][design] headerにプロダクト名を表示する",
+      "state": "closed"
+    },
+    {
+      "id": 3042156699,
+      "number": 437,
+      "title": "[FEATURE][design]見出し文言変更",
+      "state": "closed"
+    },
+    {
+      "id": 3038826034,
+      "number": 432,
+      "title": "セットアップに時間がかかる",
+      "state": "closed"
+    },
+    {
+      "id": 3038607867,
+      "number": 431,
+      "title": "[BUG][design]管理画面：スプレッドシートURLのinput欄がスマホ時のみ高さがつぶれてる",
+      "state": "closed"
+    },
+    {
+      "id": 3038577096,
+      "number": 430,
+      "title": "[FEATURE] ローカルLLMを簡単に動かすために、OllamaのDockerを追加する",
+      "state": "closed"
+    },
+    {
+      "id": 3035388472,
+      "number": 416,
+      "title": "[design]ブランドコンパス制定",
+      "state": "closed"
+    },
+    {
+      "id": 3014011288,
+      "number": 365,
+      "title": "[FEATURE] レポートがデフォルトで公開されないようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3006474334,
+      "number": 341,
+      "title": "[FEATURE] レポートの限定公開",
+      "state": "closed"
+    },
+    {
+      "id": 2973973916,
+      "number": 235,
+      "title": "[DOCUMENT] README に GitHub Pages で公開する手順を記載する",
+      "state": "closed"
+    },
+    {
+      "id": 2945124654,
+      "number": 144,
+      "title": "（実験）LLMによるクラスタ品質の自動評価",
+      "state": "closed"
+    },
+    {
+      "id": 2939692563,
+      "number": 122,
+      "title": "[FEATURE] コード以外の貢献も可視化する",
+      "state": "closed"
+    },
+    {
+      "id": 3061652220,
+      "number": 515,
+      "title": "[FEATURE] 別のレポートのUMAPを使い回す",
+      "state": "created"
+    },
+    {
+      "id": 3061512551,
+      "number": 514,
+      "title": "[FEATURE] Extructionで並列実行した結果をソートしてから保存する",
+      "state": "created"
+    },
+    {
+      "id": 3061488108,
+      "number": 513,
+      "title": "[FEATURE] 確率的挙動がある箇所にはランダムシードを設定して結果を固定する",
+      "state": "created"
+    },
+    {
+      "id": 3060284102,
+      "number": 509,
+      "title": "[FEATURE]windows直環境での起動手順・構成を整備する（python仮想環境＋npm 対応）",
+      "state": "created"
+    },
+    {
+      "id": 3059971272,
+      "number": 507,
+      "title": "[REFACTOR] report_status.jsonの互換性を担保するためのコードの削除",
+      "state": "created"
+    },
+    {
+      "id": 3059860901,
+      "number": 506,
+      "title": "[design] デザインシステム構築／数値環境",
+      "state": "created"
+    },
+    {
+      "id": 3059836329,
+      "number": 505,
+      "title": "[design] デザインシステム構築／Typography環境",
+      "state": "created"
+    },
+    {
+      "id": 3059811590,
+      "number": 504,
+      "title": "[design] デザインシステム構築／color環境",
+      "state": "created"
+    },
+    {
+      "id": 3059384810,
+      "number": 503,
+      "title": "個人情報生成と除去率測定の機能追加",
+      "state": "created"
+    },
+    {
+      "id": 3058569484,
+      "number": 496,
+      "title": "[DOCKER] なしでも動かせるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3057830124,
+      "number": 494,
+      "title": "[BUG] OpenAI API以外のLLMを使っても、OpenAI APIを利用したと表示される",
+      "state": "created"
+    },
+    {
+      "id": 3057175497,
+      "number": 493,
+      "title": "[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される",
+      "state": "created"
+    },
+    {
+      "id": 3054727810,
+      "number": 478,
+      "title": "[BUG] Clientの意見の説明が禁則処理ができていない",
+      "state": "created"
+    },
+    {
+      "id": 3054606101,
+      "number": 477,
+      "title": "[REFACTOR] Azureのモデル選択の不整合の修正",
+      "state": "created"
+    },
+    {
+      "id": 3054278174,
+      "number": 475,
+      "title": "[REFACTOR] envのUSE_AZUREを剥がす",
+      "state": "created"
+    },
+    {
+      "id": 3054276995,
+      "number": 474,
+      "title": "[ALGORITHM] bonsaiの検証をする",
+      "state": "created"
+    },
+    {
+      "id": 3054275789,
+      "number": 473,
+      "title": "[FEATURE] 環境検証ページに、Azure、OpenRouter、LocalLLMを付ける",
+      "state": "created"
+    },
+    {
+      "id": 3054133875,
+      "number": 471,
+      "title": "[DOCUMENT] ローカルLLMのベンチマーク、推奨スペックの決定",
+      "state": "created"
+    },
+    {
+      "id": 3053532447,
+      "number": 470,
+      "title": "[ALGORITHM]　extractフェーズで、個人情報の除去を行う",
+      "state": "created"
+    },
+    {
+      "id": 3048069863,
+      "number": 467,
+      "title": "エネルギー庁パブコメのpdf -> csv化",
+      "state": "created"
+    },
+    {
+      "id": 3047576683,
+      "number": 464,
+      "title": "OpenAI APIキーの確保",
+      "state": "created"
+    },
+    {
+      "id": 3047485001,
+      "number": 461,
+      "title": "[FEATURE] 複数のレポートに対する処理を簡単に行えるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3042178801,
+      "number": 438,
+      "title": "[FEATURE][design] コンテンツ下部のAbout情報をFooterにまとめる",
+      "state": "updated"
+    },
+    {
+      "id": 3038124639,
+      "number": 428,
+      "title": "[FEATURE]レポート一覧画面：レポート0件時のエンプティ表現をする",
+      "state": "updated"
+    },
+    {
+      "id": 3035439227,
+      "number": 417,
+      "title": "コードレビューの効率化",
+      "state": "updated"
+    },
+    {
+      "id": 3030607120,
+      "number": 402,
+      "title": "[FEATURE] OpenRouterを使えるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3006200638,
+      "number": 337,
+      "title": "[FEATURE] 「全体図」と「階層図」の意見グループの色を揃える",
+      "state": "updated"
+    },
+    {
+      "id": 2995192689,
+      "number": 310,
+      "title": "[FEATURE] LLMが出力した結果の手動修正機能（編集機能）がほしい",
+      "state": "updated"
+    },
+    {
+      "id": 2990845213,
+      "number": 289,
+      "title": "[FEATURE]exe形式での配布によるインストール簡略化",
+      "state": "updated"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "updated"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "updated"
+    },
+    {
+      "id": 2935293806,
+      "number": 113,
+      "title": "[REFACTOR] 濃いクラスタのアイコン変更",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3060472937,
+      "number": 511,
+      "title": "Fix/biome lint errors",
+      "state": "merged"
+    },
+    {
+      "id": 3060375859,
+      "number": 510,
+      "title": "biomeのlineWidthを120まで引き上げる",
+      "state": "merged"
+    },
+    {
+      "id": 3060141725,
+      "number": 508,
+      "title": "フロントのlint errorを修正",
+      "state": "merged"
+    },
+    {
+      "id": 3059276189,
+      "number": 501,
+      "title": "client, client-admin の見出しを変更",
+      "state": "merged"
+    },
+    {
+      "id": 3059209814,
+      "number": 500,
+      "title": "限定公開機能を実装",
+      "state": "merged"
+    },
+    {
+      "id": 3058648544,
+      "number": 497,
+      "title": "Chart に枠線をつける",
+      "state": "merged"
+    },
+    {
+      "id": 3058439649,
+      "number": 495,
+      "title": "ScatterChartの全画面表示でボタンが重ならないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3057169678,
+      "number": 492,
+      "title": "Update README.md `docker compose up` の時間短縮",
+      "state": "merged"
+    },
+    {
+      "id": 3057005512,
+      "number": 490,
+      "title": "hide ScatterChart grid lines",
+      "state": "merged"
+    },
+    {
+      "id": 3055683885,
+      "number": 485,
+      "title": "LocalLLM 接続先の例を修正",
+      "state": "merged"
+    },
+    {
+      "id": 3054769267,
+      "number": 480,
+      "title": "GitHub Pagesで公開する手順のドキュメントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3054323184,
+      "number": 476,
+      "title": "Plotlyのクラスタ名のラベルを改行するように設定した",
+      "state": "merged"
+    },
+    {
+      "id": 3050411737,
+      "number": 468,
+      "title": "ローカルLLMを利用するための ollama コンテナを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3047750821,
+      "number": 465,
+      "title": "client-build-static実行時にルートに.nojekyllファイルを追加する",
+      "state": "merged"
+    },
+    {
+      "id": 3047540942,
+      "number": 463,
+      "title": "APIの依存関係エラーを解決",
+      "state": "merged"
+    },
+    {
+      "id": 3045846433,
+      "number": 458,
+      "title": "fix json import and str format for labeling",
+      "state": "merged"
+    },
+    {
+      "id": 3045800934,
+      "number": 457,
+      "title": "レビューのガイドラインを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3045518394,
+      "number": 453,
+      "title": "Update review_issue.py: cast issue_number to int",
+      "state": "merged"
+    },
+    {
+      "id": 3045068272,
+      "number": 451,
+      "title": "事前の合意が必須でない旨を追記",
+      "state": "merged"
+    },
+    {
+      "id": 3044861881,
+      "number": 449,
+      "title": "ところてんさんをメンテナーに追加",
+      "state": "merged"
+    },
+    {
+      "id": 3044650279,
+      "number": 448,
+      "title": "Feat/evaluation report",
+      "state": "merged"
+    },
+    {
+      "id": 3044428029,
+      "number": 446,
+      "title": "Labeling prompt improvement",
+      "state": "merged"
+    },
+    {
+      "id": 3037451152,
+      "number": 422,
+      "title": "Add provider selection to LLM integration",
+      "state": "merged"
+    },
+    {
+      "id": 3060579931,
+      "number": 512,
+      "title": "[GITHUB_ACTIONS] アサイン状況に合わせてステータスを更新する",
+      "state": "created"
+    },
+    {
+      "id": 3058816506,
+      "number": 499,
+      "title": "Add Windows manual startup support (venv/npm) - resolves #999",
+      "state": "created"
+    },
+    {
+      "id": 3058814468,
+      "number": 498,
+      "title": "Add Windows manual startup support (venv/npm) - resolves #999",
+      "state": "created"
+    },
+    {
+      "id": 3056993511,
+      "number": 489,
+      "title": "軸の表示機能を導入: PR:481をベースに本番実装",
+      "state": "created"
+    },
+    {
+      "id": 3055785853,
+      "number": 487,
+      "title": "デザイン変更: セグメントビューでの全体・濃い意見・階層の切り替え機能",
+      "state": "created"
+    },
+    {
+      "id": 3055736139,
+      "number": 486,
+      "title": "[FEATURE] OpenRouterを使えるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3055584096,
+      "number": 484,
+      "title": "Feature/openrouter llm main202406",
+      "state": "created"
+    },
+    {
+      "id": 3055499904,
+      "number": 482,
+      "title": "[FEATURE] OpenRouterを使えるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3055084182,
+      "number": 481,
+      "title": "[WIP] [実験]軸の性質を推定し、プロット時に軸情報を表示する",
+      "state": "created"
+    },
+    {
+      "id": 3053492879,
+      "number": 469,
+      "title": "自動静的ファイル生成機能の実装",
+      "state": "created"
+    },
+    {
+      "id": 3037406529,
+      "number": 421,
+      "title": "Client-AdminにChatGPTのAPIKeyの確認画面の追加",
+      "state": "updated"
+    },
+    {
+      "id": 3033233392,
+      "number": 407,
+      "title": "管理画面の基本e2eテスト実装の簡素化",
+      "state": "updated"
+    },
+    {
+      "id": 3029913116,
+      "number": 397,
+      "title": "Issue #396: 管理画面の基本e2eテストを実装",
+      "state": "updated"
+    }
+  ]
+}
