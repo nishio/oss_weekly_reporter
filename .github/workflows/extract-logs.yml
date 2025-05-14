@@ -2,8 +2,8 @@ name: Extract Slack Logs
 
 on:
   schedule:
-    # 週に2回実行: 月曜日と木曜日の午前3時（UTC）
-    - cron: '0 3 * * 1,4'
+    # 毎週水曜日の午前3時（UTC）に実行（日本時間では水曜日の正午12時）
+    - cron: '0 3 * * 3'
   workflow_dispatch:  # 手動実行も可能
 
 jobs:
@@ -57,7 +57,7 @@ jobs:
         run: |
           if git rev-parse --verify origin/data >/dev/null 2>&1; then
             # dataブランチが存在する場合、チェックアウトする
-            git checkout data
+            git checkout -B data origin/data || git checkout -b data
           else
             # dataブランチが存在しない場合、新規作成
             git checkout -b data

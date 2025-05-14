@@ -7,9 +7,11 @@ import json
 import argparse
 import glob
 from datetime import datetime, timedelta, timezone
-from typing import Dict, List, Any, Optional
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Union, Tuple
 
 from ..config import Config
+from ..utils.file_utils import ensure_dir, read_json_file, write_text_file
 
 
 class MarkdownGenerator:
@@ -44,6 +46,28 @@ class MarkdownGenerator:
         dt = datetime.fromtimestamp(float(ts), tz=self.jst or timezone.utc)
         return dt.strftime("%Y-%m-%d %H:%M:%S")
 
+    def _should_skip_message(self, message: Any) -> bool:
+        """
+        スキップすべきメッセージかどうかを判定
+
+        Args:
+            message: メッセージデータ
+
+        Returns:
+            スキップする場合はTrue、そうでない場合はFalse
+        """
+        if not isinstance(message, dict):
+            return False
+            
+        if message.get("subtype") == "channel_join":
+            return True
+            
+        user_name = message.get("user_name", "").lower()
+        if "devin" in user_name:
+            return True
+            
+        return False
+
     def _format_message(self, message: Dict[str, Any], channel_name: str) -> str:
         """
         メッセージをMarkdown形式に変換
@@ -67,8 +91,8 @@ class MarkdownGenerator:
 
     def generate_daily_summary(
         self,
-        json_dir: str,
-        output_file: Optional[str] = None,
+        json_dir: Union[str, Path],
+        output_file: Optional[Union[str, Path]] = None,
         days_ago: int = 0,
         all_data: bool = False,
     ) -> str:
@@ -109,26 +133,28 @@ class MarkdownGenerator:
         markdown = f"# {date_str}のSlack活動まとめ\n\n"
 
         channel_messages = {}
-        json_files = glob.glob(os.path.join(json_dir, "raw", "slack", "*.json"))
+        json_files = list(Path(json_dir).glob("raw/slack/*.json"))
 
         for json_file in json_files:
-            if os.path.basename(json_file) == "summary.json":
+            if json_file.name == "summary.json":
                 continue
 
-            channel_name = os.path.splitext(os.path.basename(json_file))[0]
+            channel_name = json_file.stem
             
             if channel_name in self.skip_channels:
                 print(f"Markdownからチャンネル {channel_name} をスキップします")
                 continue
 
             try:
-                with open(json_file, "r", encoding="utf-8") as f:
-                    messages = json.load(f)
+                messages = read_json_file(json_file)
 
                 day_messages = []
                 for msg in messages:
+                    if not isinstance(msg, dict):
+                        continue
+                        
                     ts = float(msg.get("ts", 0))
-                    if all_data or (start_ts <= ts < end_ts):
+                    if (all_data or (start_ts <= ts < end_ts)) and not self._should_skip_message(msg):
                         day_messages.append(msg)
 
                 if day_messages:
@@ -175,23 +201,23 @@ class MarkdownGenerator:
                                 )
 
         if output_file:
-            if "markdown/slack" in output_file:
-                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            output_path = Path(output_file)
+            if "markdown/slack" in str(output_path):
+                ensure_dir(output_path.parent)
             else:
-                markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
-                os.makedirs(markdown_dir, exist_ok=True)
-                output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+                markdown_dir = output_path.parent / "markdown" / "slack"
+                ensure_dir(markdown_dir)
+                output_path = markdown_dir / output_path.name
             
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(markdown)
-            print(f"Markdownを {output_file} に保存しました")
+            write_text_file(content=markdown, file_path=output_path)
+            print(f"Markdownを {output_path} に保存しました")
 
         return markdown
 
     def generate_weekly_summary(
         self,
-        json_dir: str,
-        output_file: Optional[str] = None,
+        json_dir: Union[str, Path],
+        output_file: Optional[Union[str, Path]] = None,
         weeks_ago: int = 0,
         all_data: bool = False,
     ) -> str:
@@ -245,26 +271,28 @@ class MarkdownGenerator:
         markdown = f"# {start_date_str}～{end_date_str}のSlack活動まとめ\n\n"
 
         channel_messages = {}
-        json_files = glob.glob(os.path.join(json_dir, "raw", "slack", "*.json"))
+        json_files = list(Path(json_dir).glob("raw/slack/*.json"))
 
         for json_file in json_files:
-            if os.path.basename(json_file) == "summary.json":
+            if json_file.name == "summary.json":
                 continue
 
-            channel_name = os.path.splitext(os.path.basename(json_file))[0]
+            channel_name = json_file.stem
             
             if channel_name in self.skip_channels:
                 print(f"Markdownからチャンネル {channel_name} をスキップします")
                 continue
 
             try:
-                with open(json_file, "r", encoding="utf-8") as f:
-                    messages = json.load(f)
+                messages = read_json_file(json_file)
 
                 week_messages = []
                 for msg in messages:
+                    if not isinstance(msg, dict):
+                        continue
+                        
                     ts = float(msg.get("ts", 0))
-                    if all_data or (start_ts <= ts < end_ts):
+                    if (all_data or (start_ts <= ts < end_ts)) and not self._should_skip_message(msg):
                         week_messages.append(msg)
 
                 if week_messages:
@@ -344,21 +372,21 @@ class MarkdownGenerator:
                     markdown += "\n"
 
         if output_file:
-            if "markdown/slack" in output_file:
-                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            output_path = Path(output_file)
+            if "markdown/slack" in str(output_path):
+                ensure_dir(output_path.parent)
             else:
-                markdown_dir = os.path.join(os.path.dirname(output_file), "markdown", "slack")
-                os.makedirs(markdown_dir, exist_ok=True)
-                output_file = os.path.join(markdown_dir, os.path.basename(output_file))
+                markdown_dir = output_path.parent / "markdown" / "slack"
+                ensure_dir(markdown_dir)
+                output_path = markdown_dir / output_path.name
             
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(markdown)
-            print(f"Markdownを {output_file} に保存しました")
+            write_text_file(content=markdown, file_path=output_path)
+            print(f"Markdownを {output_path} に保存しました")
 
         return markdown
 
 
-def main():
+def main() -> int:
     """メイン関数"""
     parser = argparse.ArgumentParser(
         description="SlackのJSONデータからLLM用のMarkdownを生成するツール"

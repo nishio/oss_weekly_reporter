@@ -9,61 +9,20 @@ import glob
 from datetime import datetime
 import time
 from pathlib import Path
-from typing import Dict, List, Any, Optional, Tuple
+from typing import Dict, List, Any, Optional, Tuple, Union
 import openai
 from dotenv import load_dotenv
 
 from .config import Config
+from .utils.file_utils import ensure_dir, read_text_file, write_text_file, get_latest_data_folder
 
 load_dotenv()
 
 config = Config()
 
 
-def get_latest_data_folder(base_dir: str = "./data") -> str:
-    """
-    最新のデータフォルダを取得する
-
-    Args:
-        base_dir: データフォルダのベースディレクトリ
-
-    Returns:
-        最新のデータフォルダのパス
-    """
-    folders = glob.glob(os.path.join(base_dir, "*_to_*"))
-    if not folders:
-        raise FileNotFoundError(f"データフォルダが見つかりません: {base_dir}")
-
-    latest_folder = max(folders, key=os.path.getctime)
-    return latest_folder
 
 
-def read_prompt_file(prompt_file: str) -> str:
-    """
-    プロンプトファイルを読み込む
-
-    Args:
-        prompt_file: プロンプトファイルのパス
-
-    Returns:
-        プロンプトの内容
-    """
-    with open(prompt_file, "r", encoding="utf-8") as f:
-        return f.read().strip()
-
-
-def read_markdown_file(markdown_file: str) -> str:
-    """
-    Markdownファイルを読み込む
-
-    Args:
-        markdown_file: Markdownファイルのパス
-
-    Returns:
-        Markdownの内容
-    """
-    with open(markdown_file, "r", encoding="utf-8") as f:
-        return f.read()
 
 
 def call_openai_api(
@@ -158,11 +117,11 @@ def call_openai_api(
 
 
 def process_slack_data(
-    data_dir: Optional[str] = None,
-    output_dir: Optional[str] = None,
+    data_dir: Optional[Union[str, Path]] = None,
+    output_dir: Optional[Union[str, Path]] = None,
     use_all_summary: bool = False,
     period: Optional[str] = None,
-    prompt_file: Optional[str] = None,
+    prompt_file: Optional[Union[str, Path]] = None,
 ) -> None:
     """
     Slackデータを処理する
@@ -181,29 +140,33 @@ def process_slack_data(
             print(e)
             return
 
+    if data_dir is None:
+        print("データディレクトリが指定されていません")
+        return
+        
     if not output_dir:
         output_dir = data_dir
 
-    os.makedirs(output_dir, exist_ok=True)
+    data_path = Path(data_dir)
+    output_path = Path(output_dir)
+    
+    ensure_dir(output_path)
 
     markdown_file = "all_summary.md" if use_all_summary else "weekly_summary.md"
-    markdown_path = os.path.join(data_dir, "markdown", "slack", markdown_file)
+    markdown_path = data_path / "markdown" / "slack" / markdown_file
 
-    if not os.path.exists(markdown_path):
+    if not markdown_path.exists():
         print(f"Markdownファイルが見つかりません: {markdown_path}")
         return
 
     if not prompt_file:
-        prompt_file = os.path.join(
-            os.path.dirname(os.path.dirname(__file__)), "src", "slack_logger", "prompt.txt"
-        )
-    elif not os.path.exists(prompt_file):
+        prompt_file = Path(__file__).parent.parent / "src" / "slack_logger" / "prompt.txt"
+    elif not Path(prompt_file).exists():
         print(f"プロンプトファイルが見つかりません: {prompt_file}")
         return
         
-    prompt = read_prompt_file(prompt_file)
-
-    content = read_markdown_file(markdown_path)
+    prompt = read_text_file(prompt_file)
+    content = read_text_file(markdown_path)
 
     if period:
         prompt += f"\n\n対象期間: {period}"
@@ -213,20 +176,22 @@ def process_slack_data(
 
     if response:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        ai_reports_dir = os.path.join(output_dir, "ai_reports")
-        os.makedirs(ai_reports_dir, exist_ok=True)
-        output_file = os.path.join(ai_reports_dir, f"slack_summary_{timestamp}.md")
+        ai_reports_dir = output_path / "ai_reports"
+        ensure_dir(ai_reports_dir)
+        output_file = ai_reports_dir / f"slack_summary_{timestamp}.md"
 
-        with open(output_file, "w", encoding="utf-8") as f:
-            f.write(response)
+        write_text_file(response, output_file)
 
         print(f"レスポンスを保存しました: {output_file}")
         print(f"推定費用: ${cost:.6f}")
 
 
 def process_github_data(
-    repo: str, data_dir: Optional[str] = None, output_dir: Optional[str] = None,
-    prompt_file: Optional[str] = None, org: Optional[str] = None,
+    repo: str, 
+    data_dir: Optional[Union[str, Path]] = None, 
+    output_dir: Optional[Union[str, Path]] = None,
+    prompt_file: Optional[Union[str, Path]] = None,
+    org: Optional[str] = None,
 ) -> None:
     """
     GitHubデータを処理する
@@ -245,10 +210,17 @@ def process_github_data(
             print(e)
             return
 
+    if data_dir is None:
+        print("データディレクトリが指定されていません")
+        return
+        
     if not output_dir:
         output_dir = data_dir
 
-    os.makedirs(output_dir, exist_ok=True)
+    data_path = Path(data_dir)
+    output_path = Path(output_dir)
+    
+    ensure_dir(output_path)
 
     repos = repo.split(",")
     
@@ -262,43 +234,37 @@ def process_github_data(
             
         repo_name = full_repo.split("/")[1]
         markdown_file = f"github_report-{repo_name}.md"
-        markdown_path = os.path.join(data_dir, "markdown", "github", markdown_file)
+        markdown_path = data_path / "markdown" / "github" / markdown_file
 
-        if not os.path.exists(markdown_path):
+        if not markdown_path.exists():
             print(f"Markdownファイルが見つかりません: {markdown_path}")
             continue
 
         if not prompt_file:
-            prompt_file = os.path.join(
-                os.path.dirname(os.path.dirname(__file__)), "src", "github_logger", "prompt.txt"
-            )
-        elif not os.path.exists(prompt_file):
+            prompt_file = Path(__file__).parent.parent / "src" / "github_logger" / "prompt.txt"
+        elif not Path(prompt_file).exists():
             print(f"プロンプトファイルが見つかりません: {prompt_file}")
             return
             
-        prompt = read_prompt_file(prompt_file)
-
-        content = read_markdown_file(markdown_path)
+        prompt = read_text_file(prompt_file)
+        content = read_text_file(markdown_path)
 
         print(f"GitHubデータを処理中: {markdown_path}")
         response, cost = call_openai_api(prompt, content)
 
         if response:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            ai_reports_dir = os.path.join(output_dir, "ai_reports")
-            os.makedirs(ai_reports_dir, exist_ok=True)
-            output_file = os.path.join(
-                ai_reports_dir, f"github_summary_{repo_name}_{timestamp}.md"
-            )
+            ai_reports_dir = output_path / "ai_reports"
+            ensure_dir(ai_reports_dir)
+            output_file = ai_reports_dir / f"github_summary_{repo_name}_{timestamp}.md"
 
-            with open(output_file, "w", encoding="utf-8") as f:
-                f.write(response)
+            write_text_file(response, output_file)
 
             print(f"レスポンスを保存しました: {output_file}")
             print(f"推定費用: ${cost:.6f}")
 
 
-def main():
+def main() -> int:
     """メイン関数"""
     parser = argparse.ArgumentParser(
         description="OpenAI O1 APIを使用してMarkdownファイルを処理するツール"

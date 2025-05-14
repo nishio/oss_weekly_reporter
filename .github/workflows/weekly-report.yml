@@ -1,0 +1,133 @@
+name: Generate Weekly Report
+
+on:
+  schedule:
+    # 毎週水曜日の午前3時（UTC）に実行（日本時間では水曜日の正午12時）
+    - cron: '0 3 * * 3'
+  workflow_dispatch:  # 手動実行も可能
+    inputs:
+      days:
+        description: '過去何日分のデータを取得するか'
+        required: false
+        default: '7'
+        type: string
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: main  # メインブランチからチェックアウト
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          
+      - name: Set up GitHub CLI
+        run: |
+          gh auth status || echo "GitHub CLIの認証に問題があります"
+          
+      - name: Prepare data directory
+        run: |
+          mkdir -p "./data"
+          
+          # データのバックアップを作成（週ごと）
+          current_date=$(date +"%Y-%m-%d")
+          if [ -d "./data" ]; then
+            tar -czf "./data_backup_${current_date}.tar.gz" "./data"
+          fi
+      
+      - name: Extract Slack data
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        run: |
+          days="${{ github.event.inputs.days || '7' }}"
+          python -m src.slack_logger.slack_report --token "$SLACK_TOKEN" --last-days "$days" --weekly
+      
+      - name: Extract GitHub data for kouchou-ai
+        run: |
+          days="${{ github.event.inputs.days || '7' }}"
+          python -m src.github_logger.github_report --repo "digitaldemocracy2030/kouchou-ai" --markdown --last-days "$days"
+      
+      - name: Extract GitHub data for idobata
+        run: |
+          days="${{ github.event.inputs.days || '7' }}"
+          python -m src.github_logger.github_report --repo "digitaldemocracy2030/idobata" --markdown --last-days "$days"
+      
+      - name: Extract GitHub data for website
+        run: |
+          days="${{ github.event.inputs.days || '7' }}"
+          python -m src.github_logger.github_report --repo "digitaldemocracy2030/website" --markdown --last-days "$days"
+      
+      - name: Extract GitHub data for polimoney
+        run: |
+          days="${{ github.event.inputs.days || '7' }}"
+          python -m src.github_logger.github_report --repo "digitaldemocracy2030/polimoney" --markdown --last-days "$days"
+      
+      - name: Generate OpenAI summary for Slack data
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m src.call_openai_api slack --all-summary
+      
+      - name: Generate OpenAI summary for GitHub data (kouchou-ai)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m src.call_openai_api github --repo "digitaldemocracy2030/kouchou-ai" --prompt-file "./prompts/kouchou_prompt.txt"
+      
+      - name: Generate OpenAI summary for GitHub data (idobata)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m src.call_openai_api github --repo "digitaldemocracy2030/idobata" --prompt-file "./prompts/idobata_prompt.txt"
+      
+      - name: Generate OpenAI summary for GitHub data (website)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m src.call_openai_api github --repo "digitaldemocracy2030/website" --prompt-file "./prompts/website_prompt.txt"
+      
+      - name: Generate OpenAI summary for GitHub data (polimoney)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m src.call_openai_api github --repo "digitaldemocracy2030/polimoney" --prompt-file "./prompts/polimoney_prompt.txt"
+      
+      - name: Setup Git for data branch
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+      
+      - name: Fetch data branch
+        run: |
+          git fetch origin data || true
+      
+      - name: Create and checkout data branch
+        run: |
+          if git rev-parse --verify origin/data >/dev/null 2>&1; then
+            # dataブランチが存在する場合、チェックアウトする
+            git checkout -B data origin/data || git checkout -b data
+          else
+            # dataブランチが存在しない場合、新規作成
+            git checkout -b data
+          fi
+      
+      - name: Add and commit extracted data
+        run: |
+          git add data/
+          current_date=$(date +"%Y-%m-%d")
+          git commit -m "Update Weekly Report: $current_date" || echo "No changes to commit"
+      
+      - name: Push to data branch
+        run: |
+          git push origin data
