@@ -1,0 +1,744 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1747556207.002259",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1747556331.000000"
+    },
+    "client_msg_id": "652336dc-f2af-449d-b7b0-78ac0a1740ef",
+    "text": "~私の環境(win11)でpolimoneyのリポジトリをCursorで開いていると、Antimalware Service ExecutableがCPU4割も食うのでものすごい重いんですが、同じことなってる方いらっしゃいますか？~\n~おまかんでしょうか...~\n\nCoderabbitが400ファイル読んでました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HY447",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私の環境(win11)でpolimoneyのリポジトリをCursorで開いていると、Antimalware Service ExecutableがCPU4割も食うのでものすごい重いんですが、同じことなってる方いらっしゃいますか？",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "おまかんでしょうか...",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nCoderabbitが400ファイル読んでました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "~私の環境(win11)でpolimoneyのリポジトリをCursorで開いていると、Antimalware Service ExecutableがCPU4割も食うのでものすごい重いんですが、同じことなってる方いらっしゃいますか？~\n~おまかんでしょうか...~\n\nCoderabbitが400ファイル読んでました"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08Q6L6921Y",
+    "thread_ts": "1747490739.152409",
+    "root": {
+      "user": "U08Q6L6921Y",
+      "type": "message",
+      "ts": "1747490739.152409",
+      "client_msg_id": "e05f0d29-ec1e-45d0-82ea-4a0ec377315a",
+      "text": "現在、苦戦している収支報告書のOCR関連について、現状の理解を整理し、課題の明確化とタスクの細分化を進めるきっかけになればと思い、まとめてみました。\n 私の現時点での理解は以下の通りです。認識が異なっていたり、不足している重要事項、あるいは修正すべき点などございましたら、ぜひご指摘いただけますと幸いです。\n※短くまとめようと思いましたが長くなってしまいました　すいません！\n ---\n【現状の理解】\n1. E2Eテスト（#29）とOCR精度の関連\n・当初「OCR精度は低くても良いので、まずE2Eで全体の処理を繋ぎこむ」方針でしたが、OCR結果を後続の`converter.ts`（HTML出力用JSONへの変換処理）に渡す際、ある程度のOCR精度と正しいJSON形式が必須であることが判明しました。\n・このため、E2Eテストを達成する上でも、OCR精度向上と、`converter.ts`が要求する仕様に沿ったJSON形式での出力が重要なマイルストーンとなっています。\n\n2. OCR技術の状況（#19）\n・Gemini: 現在主に利用されていますが、特に手書き文字の認識精度に課題があります。\nまた、文字の座標情報を取得できない点も認識しています。\n・yomitoku:\n　→　手書き文字認識精度が高く、文字の座標情報取得や表構造分析も可能とのことで、非常に有望視されています。\n　→　一方で、最終的な意味構造（例：「項目名：金額」）までのJSON構造化は限定的かもしれません。\n　→　MCP対応により機能拡張の可能性も示唆されていますが、具体的な効果や導入方法についてはこれから詳細な検証が必要という認識です。\n・<@U08NZH1RY4S> さんの併用案: Geminiとyomitokuを組み合わせる3段階の分析方式（Geminiで全体分析 → yomitokuで座標情報取得と手書き部分の推定 → 座標データをファクトチェックに活用）も有力なアプローチとして検討されていると理解しています。\n\n3. 収支報告書フォーマット調査（#20）\n・政治資金収支報告書は、提出先（都道府県、国）や報告主体（政党、資金管理団体等）によってフォーマットが多様であることが確認されています。\n・全都道府県のフォーマット収集は完了し、スプレッドシートに情報が集約されており、これが今後のOCR精度向上のための重要な基盤情報になると考えています。\n\n---\n【現時点で認識している主な課題】\n\n1. OCR精度の向上:\n　→　手書き文字・訂正箇所の正確な認識: 特に金額の訂正（二重線＋手書き数字）などをどう扱うか。\n　→　多様なフォーマットへの対応: 収集した多様なフォーマットに対して、ロバストなOCR処理を実現する。\n　→　座標情報の活用: yomitoku等で取得できる座標情報を、ファクトチェックや精度改善にどう具体的に結びつけるか。\n\n 2. データ構造化:\n　→`converter.ts`の要求仕様への準拠: OCRの出力結果を、`converter.ts`が処理できる厳密なJSONスキーマ（`sample_input.json`のような形式、適切なキーやデータ型）に整形する。\n　→　意味的な構造化: yomitoku等で文字と表構造は認識できても、それを「どの項目がいくら」という情報に正しく紐付けるロジックの確立。\n\n---\nまずは上記のような現状認識と課題について、開発メンバー間で共通認識を持つことが重要だと考えています。 その上で、これらの課題を解決するために、具体的なタスクへの細分化や、優先順位付けなどを進めていければと思います。 ご確認、ご意見よろしくお願いいたします。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747490739.152409",
+      "reply_count": 22,
+      "reply_users_count": 3,
+      "latest_reply": "1747571925.385579",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08Q6L6921Y",
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sPKPz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "現在、苦戦している収支報告書のOCR関連について、現状の理解を整理し、課題の明確化とタスクの細分化を進めるきっかけになればと思い、まとめてみました。\n 私の現時点での理解は以下の通りです。認識が異なっていたり、不足している重要事項、あるいは修正すべき点などございましたら、ぜひご指摘いただけますと幸いです。\n※短くまとめようと思いましたが長くなってしまいました　すいません！\n ---\n【現状の理解】\n1. E2Eテスト（#29）とOCR精度の関連\n・当初「OCR精度は低くても良いので、まずE2Eで全体の処理を繋ぎこむ」方針でしたが、OCR結果を後続の`converter.ts`（HTML出力用JSONへの変換処理）に渡す際、ある程度のOCR精度と正しいJSON形式が必須であることが判明しました。\n・このため、E2Eテストを達成する上でも、OCR精度向上と、`converter.ts`が要求する仕様に沿ったJSON形式での出力が重要なマイルストーンとなっています。\n\n2. OCR技術の状況（#19）\n・Gemini: 現在主に利用されていますが、特に手書き文字の認識精度に課題があります。\nまた、文字の座標情報を取得できない点も認識しています。\n・yomitoku:\n　→　手書き文字認識精度が高く、文字の座標情報取得や表構造分析も可能とのことで、非常に有望視されています。\n　→　一方で、最終的な意味構造（例：「項目名：金額」）までのJSON構造化は限定的かもしれません。\n　→　MCP対応により機能拡張の可能性も示唆されていますが、具体的な効果や導入方法についてはこれから詳細な検証が必要という認識です。\n・"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08NZH1RY4S"
+                },
+                {
+                  "type": "text",
+                  "text": " さんの併用案: Geminiとyomitokuを組み合わせる3段階の分析方式（Geminiで全体分析 → yomitokuで座標情報取得と手書き部分の推定 → 座標データをファクトチェックに活用）も有力なアプローチとして検討されていると理解しています。\n\n3. 収支報告書フォーマット調査（#20）\n・政治資金収支報告書は、提出先（都道府県、国）や報告主体（政党、資金管理団体等）によってフォーマットが多様であることが確認されています。\n・全都道府県のフォーマット収集は完了し、スプレッドシートに情報が集約されており、これが今後のOCR精度向上のための重要な基盤情報になると考えています。\n\n---\n【現時点で認識している主な課題】\n\n1. OCR精度の向上:\n　→　手書き文字・訂正箇所の正確な認識: 特に金額の訂正（二重線＋手書き数字）などをどう扱うか。\n　→　多様なフォーマットへの対応: 収集した多様なフォーマットに対して、ロバストなOCR処理を実現する。\n　→　座標情報の活用: yomitoku等で取得できる座標情報を、ファクトチェックや精度改善にどう具体的に結びつけるか。\n\n 2. データ構造化:\n　→`converter.ts`の要求仕様への準拠: OCRの出力結果を、`converter.ts`が処理できる厳密なJSONスキーマ（`sample_input.json`のような形式、適切なキーやデータ型）に整形する。\n　→　意味的な構造化: yomitoku等で文字と表構造は認識できても、それを「どの項目がいくら」という情報に正しく紐付けるロジックの確立。\n\n---\nまずは上記のような現状認識と課題について、開発メンバー間で共通認識を持つことが重要だと考えています。 その上で、これらの課題を解決するために、具体的なタスクへの細分化や、優先順位付けなどを進めていければと思います。 ご確認、ご意見よろしくお願いいたします。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747571925.385579",
+    "client_msg_id": "4b637808-47c8-45a1-8ec0-063fead8627e",
+    "text": "Slackでの議論は情報が流れてしまいやすいため、新規参加者の方も状況を把握しやすくなるよう、関連する各GitHub Issueに現状の理解や課題のまとめを記載させていただきました。\n\n以下のIssueに追記しています。\n<https://github.com/digitaldemocracy2030/polimoney/issues/19|OCR（画像認識）の精度強化 #19>\n<https://github.com/digitaldemocracy2030/polimoney/issues/20|収支報告書のフォーマット調査 #20>\n<https://github.com/digitaldemocracy2030/polimoney/issues/29|E2E動作確認（つなぎこみ） #29>\n\nそして、コメントや情報提供でご協力いただいた皆さん、本当にありがとうございました。\n皆さんのおかげで、私自身もプロジェクトの現状と課題について深く理解する良い機会となりました。 引き続きよろしくお願いいたします。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zXy3m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Slackでの議論は情報が流れてしまいやすいため、新規参加者の方も状況を把握しやすくなるよう、関連する各GitHub Issueに現状の理解や課題のまとめを記載させていただきました。\n\n以下のIssueに追記しています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/19",
+                "text": "OCR（画像認識）の精度強化 #19"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/20",
+                "text": "収支報告書のフォーマット調査 #20"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/29",
+                "text": "E2E動作確認（つなぎこみ） #29"
+              },
+              {
+                "type": "text",
+                "text": "\n\nそして、コメントや情報提供でご協力いただいた皆さん、本当にありがとうございました。\n皆さんのおかげで、私自身もプロジェクトの現状と課題について深く理解する良い機会となりました。 引き続きよろしくお願いいたします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08RTFAMN91",
+          "U08H3V9KMFH",
+          "U08NZH1RY4S",
+          "U08ST3B84AZ",
+          "U08RW9HTS76",
+          "U08RVJ39D4M"
+        ],
+        "count": 6
+      },
+      {
+        "name": "sparkles",
+        "users": [
+          "U08LQ25DPAB",
+          "U08H3V9KMFH",
+          "U08RW9HTS76",
+          "U08HWJ80CHG"
+        ],
+        "count": 4
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "ymori",
+    "text_readable": "Slackでの議論は情報が流れてしまいやすいため、新規参加者の方も状況を把握しやすくなるよう、関連する各GitHub Issueに現状の理解や課題のまとめを記載させていただきました。\n\n以下のIssueに追記しています。\n<https://github.com/digitaldemocracy2030/polimoney/issues/19|OCR（画像認識）の精度強化 #19>\n<https://github.com/digitaldemocracy2030/polimoney/issues/20|収支報告書のフォーマット調査 #20>\n<https://github.com/digitaldemocracy2030/polimoney/issues/29|E2E動作確認（つなぎこみ） #29>\n\nそして、コメントや情報提供でご協力いただいた皆さん、本当にありがとうございました。\n皆さんのおかげで、私自身もプロジェクトの現状と課題について深く理解する良い機会となりました。 引き続きよろしくお願いいたします。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747614734.836389",
+    "client_msg_id": "a8189bb5-74dd-4f00-9b8c-083eaeb53e49",
+    "text": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1746382642452819?thread_ts=1746022738.300259&amp;cid=C08FL5L6GSH|このスレッド>にあった、マスキングされた政治資金収支報告書のサンプル\n<https://drive.google.com/drive/folders/1NBqa0qRerze-jmXtqnWJOc64EyJYeY3c|DD2030 polimoney 共有フォルダ> に入れておきました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747614734.836389",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1747615768.834419",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4l7+g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1746382642452819?thread_ts=1746022738.300259&cid=C08FL5L6GSH",
+                "text": "このスレッド"
+              },
+              {
+                "type": "text",
+                "text": "にあった、マスキングされた政治資金収支報告書のサンプル\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1NBqa0qRerze-jmXtqnWJOc64EyJYeY3c",
+                "text": "DD2030 polimoney 共有フォルダ"
+              },
+              {
+                "type": "text",
+                "text": " に入れておきました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08Q6L6921Y"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1746382642452819?thread_ts=1746022738.300259&cid=C08FL5L6GSH|このスレッド>にあった、マスキングされた政治資金収支報告書のサンプル\n<https://drive.google.com/drive/folders/1NBqa0qRerze-jmXtqnWJOc64EyJYeY3c|DD2030 polimoney 共有フォルダ> に入れておきました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747615662.332999",
+    "client_msg_id": "18788631-4856-42b3-b55a-ee1a4e059b8b",
+    "text": "あら、このフォルダはファイルの移動できないんですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747614734.836389",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w0LK/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あら、このフォルダはファイルの移動できないんですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747614734.836389",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あら、このフォルダはファイルの移動できないんですね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747615768.834419",
+    "client_msg_id": "3d0acfb2-8fd9-4512-8648-d94af031264a",
+    "text": "<https://drive.google.com/drive/folders/1gyR_NDj6g6vVtUygpSrcopDzzznohMhy|政治資金収支報告書サンプル>というフォルダを作ってみたのでそっちに移動しようと思ったらできなかった...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747614734.836389",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dGXw6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1gyR_NDj6g6vVtUygpSrcopDzzznohMhy",
+                "text": "政治資金収支報告書サンプル"
+              },
+              {
+                "type": "text",
+                "text": "というフォルダを作ってみたのでそっちに移動しようと思ったらできなかった..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747614734.836389",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://drive.google.com/drive/folders/1gyR_NDj6g6vVtUygpSrcopDzzznohMhy|政治資金収支報告書サンプル>というフォルダを作ってみたのでそっちに移動しようと思ったらできなかった..."
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747616753.088179",
+    "client_msg_id": "fd9e7a68-3d23-4bb8-95f1-63493435257a",
+    "text": "これ便利そうですね！\n<https://github.com/digitaldemocracy2030/polimoney/issues/4|総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UJB5/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ便利そうですね！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/4",
+                "text": "総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "これ便利そうですね！\n<https://github.com/digitaldemocracy2030/polimoney/issues/4|総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747618719.068489",
+    "client_msg_id": "c028e387-279b-4c21-a679-6bf10dd1b8db",
+    "text": "<https://github.com/digitaldemocracy2030/polimoney/issues/46|検索結果のサムネイルを差し替える>\n確かにこれはまずそう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747618719.068489",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1747638132.765139",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08RTFAMN91"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y3Bf6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/46",
+                "text": "検索結果のサムネイルを差し替える"
+              },
+              {
+                "type": "text",
+                "text": "\n確かにこれはまずそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://github.com/digitaldemocracy2030/polimoney/issues/46|検索結果のサムネイルを差し替える>\n確かにこれはまずそう"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747619667.611329",
+    "client_msg_id": "a77aef53-7265-48ca-9677-1987859223f1",
+    "text": "<https://polimoney.dd2030.org/ogp.jpg> は 404 なので、\n代わりの画像を用意するのに時間がかかるのであれば、Search Console で削除申請した方がいいのかも？（要管理権限）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747618719.068489",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "N2VLB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://polimoney.dd2030.org/ogp.jpg"
+              },
+              {
+                "type": "text",
+                "text": " は 404 なので、\n代わりの画像を用意するのに時間がかかるのであれば、Search Console で削除申請した方がいいのかも？（要管理権限）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747618719.068489",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://polimoney.dd2030.org/ogp.jpg> は 404 なので、\n代わりの画像を用意するのに時間がかかるのであれば、Search Console で削除申請した方がいいのかも？（要管理権限）"
+  },
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1747626937.644849",
+    "edited": {
+      "user": "U08RTFAMN91",
+      "ts": "1747626943.000000"
+    },
+    "client_msg_id": "e6abea19-8758-4833-9663-701e60612302",
+    "text": "出てること自体がまずそうであれば、とりあえず適当な生成画像のOGP画像を設定しておきますか？\n後でちゃんとしたものに差し替える前提で。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747618719.068489",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BibuK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "出てること自体がまずそうであれば、とりあえず適当な生成画像のOGP画像を設定しておきますか？\n後でちゃんとしたものに差し替える前提で。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yosasou",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747618719.068489",
+    "user_name": "shinji yamada",
+    "text_readable": "出てること自体がまずそうであれば、とりあえず適当な生成画像のOGP画像を設定しておきますか？\n後でちゃんとしたものに差し替える前提で。"
+  },
+  {
+    "text": "いったん添付の画像をOGPに設定するPRを出してみました。\n<https://github.com/digitaldemocracy2030/polimoney/pull/67>",
+    "files": [
+      {
+        "id": "F08SJ58JFRD",
+        "created": 1747628349,
+        "timestamp": 1747628349,
+        "name": "polimoney_gradient_1200x630_nostretch.png",
+        "title": "polimoney_gradient_1200x630_nostretch.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08RTFAMN91",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 650119,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08SJ58JFRD/polimoney_gradient_1200x630_nostretch.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08SJ58JFRD/download/polimoney_gradient_1200x630_nostretch.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 189,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 252,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 378,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 420,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 504,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SJ58JFRD-b627a940a3/polimoney_gradient_1200x630_nostretch_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 538,
+        "original_w": 1200,
+        "original_h": 630,
+        "thumb_tiny": "AwAZADC9RSil461RQ2incUYFAmJRS8UHg0EsbRRRTLCiiigli0UUUiT/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08SJ58JFRD/polimoney_gradient_1200x630_nostretch.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08SJ58JFRD-23300614c4",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08RTFAMN91",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Te6Y+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いったん添付の画像をOGPに設定するPRを出してみました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/pull/67"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1747628368.884819",
+    "client_msg_id": "787932e3-b1e3-4277-96c4-3d13ae94db82",
+    "thread_ts": "1747618719.068489",
+    "parent_user_id": "U08H3V9KMFH",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08Q6L6921Y"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08H3V9KMFH",
+          "U08Q6L6921Y",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1747618719.068489",
+    "user_name": "shinji yamada",
+    "text_readable": "いったん添付の画像をOGPに設定するPRを出してみました。\n<https://github.com/digitaldemocracy2030/polimoney/pull/67>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08RTFAMN91",
+    "thread_ts": "1747618719.068489",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747618719.068489",
+      "client_msg_id": "c028e387-279b-4c21-a679-6bf10dd1b8db",
+      "text": "<https://github.com/digitaldemocracy2030/polimoney/issues/46|検索結果のサムネイルを差し替える>\n確かにこれはまずそう",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747618719.068489",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1747638132.765139",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08RTFAMN91"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "y3Bf6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/polimoney/issues/46",
+                  "text": "検索結果のサムネイルを差し替える"
+                },
+                {
+                  "type": "text",
+                  "text": "\n確かにこれはまずそう"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747638132.765139",
+    "client_msg_id": "555fefde-d892-421f-8771-4d2829f6e0f5",
+    "text": "問題なさそうであればマージ権限あるかたマージをお願いします。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6ra0q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "問題なさそうであればマージ権限あるかたマージをお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747618719.068489",
+    "user_name": "shinji yamada",
+    "text_readable": "問題なさそうであればマージ権限あるかたマージをお願いします。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08RTFAMN91",
+    "thread_ts": "1747618719.068489",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747618719.068489",
+      "client_msg_id": "c028e387-279b-4c21-a679-6bf10dd1b8db",
+      "text": "<https://github.com/digitaldemocracy2030/polimoney/issues/46|検索結果のサムネイルを差し替える>\n確かにこれはまずそう",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747618719.068489",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1747638132.765139",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08RTFAMN91"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "y3Bf6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/polimoney/issues/46",
+                  "text": "検索結果のサムネイルを差し替える"
+                },
+                {
+                  "type": "text",
+                  "text": "\n確かにこれはまずそう"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747638132.765139",
+    "client_msg_id": "555fefde-d892-421f-8771-4d2829f6e0f5",
+    "text": "問題なさそうであればマージ権限あるかたマージをお願いします。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6ra0q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "問題なさそうであればマージ権限あるかたマージをお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "shinji yamada",
+    "text_readable": "問題なさそうであればマージ権限あるかたマージをお願いします。"
+  }
+]

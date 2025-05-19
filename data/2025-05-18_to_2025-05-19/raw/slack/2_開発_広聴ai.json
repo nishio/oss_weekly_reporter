@@ -1,0 +1,922 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747572781.302269",
+    "client_msg_id": "0553e3ff-2163-4018-a796-e785984bcb2e",
+    "text": "とりあえず、フィルタ周りを一通り整理し終わったので、OpenRouterの動作確認をしてきます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QzG1j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず、フィルタ周りを一通り整理し終わったので、OpenRouterの動作確認をしてきます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08QJ5X1BK2"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "とりあえず、フィルタ周りを一通り整理し終わったので、OpenRouterの動作確認をしてきます。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747579292.523099",
+    "client_msg_id": "1efcc71b-efd8-4601-880d-7bbdeded9e3e",
+    "text": "OpenRouterの動作確認をして、ひとまず4o-miniで動作確認ができたので、マージをしておきました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EEyQs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OpenRouterの動作確認をして、ひとまず4o-miniで動作確認ができたので、マージをしておきました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08QJ5X1BK2",
+          "U08M95GEVBM"
+        ],
+        "count": 2
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "OpenRouterの動作確認をして、ひとまず4o-miniで動作確認ができたので、マージをしておきました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747579331.675389",
+    "client_msg_id": "ff880401-0ca5-4e18-8cb4-e8a48d62bb6e",
+    "text": "OpenRouterは、無料モデルが使えるのが特徴の一つなので、出来れば、無料モデルをサポートしてもらえると嬉しいです。チケット切っておきました。\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/537>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747579331.675389",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1747611871.601959",
+    "reply_users": [
+      "U08QJ5X1BK2"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EDqZm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OpenRouterは、無料モデルが使えるのが特徴の一つなので、出来れば、無料モデルをサポートしてもらえると嬉しいです。チケット切っておきました。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/537"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08QJ5X1BK2",
+          "U08GG5LRGMP"
+        ],
+        "count": 2
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "OpenRouterは、無料モデルが使えるのが特徴の一つなので、出来れば、無料モデルをサポートしてもらえると嬉しいです。チケット切っておきました。\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/537>"
+  },
+  {
+    "user": "U08QJ5X1BK2",
+    "type": "message",
+    "ts": "1747611871.601959",
+    "client_msg_id": "A9DAEDB4-F833-46E2-8221-63A8277B666B",
+    "text": "<@U08J6JR5SNQ> \nありがとうございます！\n私も動作確認でけっこうデポジットの消費が激しいと思ってました、、、\n今回は元のISSUEにあったモデルのみ実装しましたが、ユーザーが任意のモデルを選択できるようにするべきですかね？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747579331.675389",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OqDSf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " \nありがとうございます！\n私も動作確認でけっこうデポジットの消費が激しいと思ってました、、、\n今回は元のISSUEにあったモデルのみ実装しましたが、ユーザーが任意のモデルを選択できるようにするべきですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747579331.675389",
+    "user_name": "山坂巧",
+    "text_readable": "@shinta.nakayama \nありがとうございます！\n私も動作確認でけっこうデポジットの消費が激しいと思ってました、、、\n今回は元のISSUEにあったモデルのみ実装しましたが、ユーザーが任意のモデルを選択できるようにするべきですかね？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747579776.978349",
+    "client_msg_id": "1b91ac7f-a162-47d2-afff-875275fa757b",
+    "text": "gemini2.5で一瞬でデポジットが消えたので、もっと安いモデルにしておきたい・・・",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6FKR2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "gemini2.5で一瞬でデポジットが消えたので、もっと安いモデルにしておきたい・・・"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "gemini2.5で一瞬でデポジットが消えたので、もっと安いモデルにしておきたい・・・"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1747609356.461799",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1747615091.000000"
+    },
+    "client_msg_id": "6d96cccf-c4dd-4665-afe0-41234df2af26",
+    "text": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747609356.461799",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1747615091.064869",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "26cLp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " high priority issue の対応が完了しました！\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/402",
+                    "text": "[FEATURE] OpenRouterを使えるようにする"
+                  },
+                  {
+                    "type": "text",
+                    "text": " Thanks to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "takumi19910112 ",
+                    "style": {
+                      "unlink": true
+                    }
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "raised_hands",
+                    "unicode": "1f64c"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/467",
+                    "text": "エネルギー庁パブコメのpdf -> csv化"
+                  },
+                  {
+                    "type": "text",
+                    "text": " Thanks to tokoroten, nasuka, nishio, youkiti "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "raised_hands",
+                    "unicode": "1f64c"
+                  },
+                  {
+                    "type": "text",
+                    "text": " （こっちは少し前）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08M95GEVBM",
+          "U08HP67R9PE",
+          "U08HKU721PV",
+          "U08GG5LRGMP"
+        ],
+        "count": 4
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08LQ25DPAB",
+          "U08PMMXPVTN"
+        ],
+        "count": 2
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "神",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1747609356.461799",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747609356.461799",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1747615091.000000"
+      },
+      "client_msg_id": "6d96cccf-c4dd-4665-afe0-41234df2af26",
+      "text": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747609356.461799",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747615091.064869",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "26cLp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "unicode": "1f389"
+                },
+                {
+                  "type": "text",
+                  "text": " high priority issue の対応が完了しました！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/402",
+                      "text": "[FEATURE] OpenRouterを使えるようにする"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "takumi19910112 ",
+                      "style": {
+                        "unlink": true
+                      }
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/467",
+                      "text": "エネルギー庁パブコメのpdf -> csv化"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to tokoroten, nasuka, nishio, youkiti "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    },
+                    {
+                      "type": "text",
+                      "text": " （こっちは少し前）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747615022.399139",
+    "client_msg_id": "AE4447E6-B3F5-45D8-BC9C-5B00F07088D8",
+    "text": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "APhOD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HKU721PV",
+          "U08GG5LRGMP",
+          "U08P0HQCV6F"
+        ],
+        "count": 4
+      },
+      {
+        "name": "sparkles",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747609356.461799",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1747609356.461799",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747609356.461799",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1747615091.000000"
+      },
+      "client_msg_id": "6d96cccf-c4dd-4665-afe0-41234df2af26",
+      "text": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747609356.461799",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747615091.064869",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "26cLp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "unicode": "1f389"
+                },
+                {
+                  "type": "text",
+                  "text": " high priority issue の対応が完了しました！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/402",
+                      "text": "[FEATURE] OpenRouterを使えるようにする"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "takumi19910112 ",
+                      "style": {
+                        "unlink": true
+                      }
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/467",
+                      "text": "エネルギー庁パブコメのpdf -> csv化"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to tokoroten, nasuka, nishio, youkiti "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    },
+                    {
+                      "type": "text",
+                      "text": " （こっちは少し前）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747615091.064869",
+    "client_msg_id": "E70141A0-AA40-45E0-B31B-6097C08BEE56",
+    "text": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ufuon",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08H3V9KMFH",
+          "U08QJ5X1BK2"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747609356.461799",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1747609356.461799",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747609356.461799",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1747615091.000000"
+      },
+      "client_msg_id": "6d96cccf-c4dd-4665-afe0-41234df2af26",
+      "text": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747609356.461799",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747615091.064869",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "26cLp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "unicode": "1f389"
+                },
+                {
+                  "type": "text",
+                  "text": " high priority issue の対応が完了しました！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/402",
+                      "text": "[FEATURE] OpenRouterを使えるようにする"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "takumi19910112 ",
+                      "style": {
+                        "unlink": true
+                      }
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/467",
+                      "text": "エネルギー庁パブコメのpdf -> csv化"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to tokoroten, nasuka, nishio, youkiti "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    },
+                    {
+                      "type": "text",
+                      "text": " （こっちは少し前）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747615022.399139",
+    "client_msg_id": "AE4447E6-B3F5-45D8-BC9C-5B00F07088D8",
+    "text": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "APhOD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HKU721PV",
+          "U08GG5LRGMP",
+          "U08P0HQCV6F"
+        ],
+        "count": 4
+      },
+      {
+        "name": "sparkles",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "CSV化、issueに名前が出てないけどyoutikiさんも貢献者です！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1747609356.461799",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1747609356.461799",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1747615091.000000"
+      },
+      "client_msg_id": "6d96cccf-c4dd-4665-afe0-41234df2af26",
+      "text": ":tada: high priority issue の対応が完了しました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/402|[FEATURE] OpenRouterを使えるようにする> Thanks to takumi19910112 :raised_hands:\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/467|エネルギー庁パブコメのpdf -> csv化> Thanks to tokoroten, nasuka, nishio, youkiti :raised_hands: （こっちは少し前）",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747609356.461799",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747615091.064869",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "26cLp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "unicode": "1f389"
+                },
+                {
+                  "type": "text",
+                  "text": " high priority issue の対応が完了しました！\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/402",
+                      "text": "[FEATURE] OpenRouterを使えるようにする"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "takumi19910112 ",
+                      "style": {
+                        "unlink": true
+                      }
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/467",
+                      "text": "エネルギー庁パブコメのpdf -> csv化"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks to tokoroten, nasuka, nishio, youkiti "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "raised_hands",
+                      "unicode": "1f64c"
+                    },
+                    {
+                      "type": "text",
+                      "text": " （こっちは少し前）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747615091.064869",
+    "client_msg_id": "E70141A0-AA40-45E0-B31B-6097C08BEE56",
+    "text": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ufuon",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08H3V9KMFH",
+          "U08QJ5X1BK2"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これ一旦完了とした上で細かい足りてないところは別issueを立てときますね(忘れてました)"
+  }
+]
