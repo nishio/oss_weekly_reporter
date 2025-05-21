@@ -1,0 +1,691 @@
+[
+  {
+    "user": "U08SG2GU1NH",
+    "type": "message",
+    "ts": "1747526436.732499",
+    "client_msg_id": "a3002c73-97ef-4140-87b6-3efcedcac0ba",
+    "text": "おはようございます。\n昨日はウェルカムミーティングには参加しましたが、眠くなってしまい全体定例には参加できませんでした。\n公聴AIといどばたについて、エンジニアの視点で関わりたいと思っていますが\nGitHubのissueを見ても数が大きすぎて、何が自分に取り組めることなのかわかりません。\nどこから手を付ければよいでしょうか？\nC#やRuby,Pythonなどのプログラミングの知識がありますが、これにかかわらず、必要とされた技術をその都度吸収していければと思っています。\nよろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1747571791.701779",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08SG2GU1NH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pTGxX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おはようございます。\n昨日はウェルカムミーティングには参加しましたが、眠くなってしまい全体定例には参加できませんでした。\n公聴AIといどばたについて、エンジニアの視点で関わりたいと思っていますが\nGitHubのissueを見ても数が大きすぎて、何が自分に取り組めることなのかわかりません。\nどこから手を付ければよいでしょうか？\nC#やRuby,Pythonなどのプログラミングの知識がありますが、これにかかわらず、必要とされた技術をその都度吸収していければと思っています。\nよろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08RW9HTS76",
+          "U08MG09M5FH",
+          "U08HWJ80CHG",
+          "U08M95GEVBM"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "佐々木淳哉",
+    "text_readable": "おはようございます。\n昨日はウェルカムミーティングには参加しましたが、眠くなってしまい全体定例には参加できませんでした。\n公聴AIといどばたについて、エンジニアの視点で関わりたいと思っていますが\nGitHubのissueを見ても数が大きすぎて、何が自分に取り組めることなのかわかりません。\nどこから手を付ければよいでしょうか？\nC#やRuby,Pythonなどのプログラミングの知識がありますが、これにかかわらず、必要とされた技術をその都度吸収していければと思っています。\nよろしくお願いします。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747531817.762639",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1747531854.000000"
+    },
+    "client_msg_id": "9d8404fa-05df-4f13-860b-1b420dcf19c9",
+    "text": "特に決まりはないのですが、典型的にはこんな感じでしょうか\n技術面はGitHubなりSlackなりで相談すれば誰か答えてくれると思います！\n1. デモサイトを触ってみたり、ローカルにセットアップしたり\n2. 改善すべき点が見つかったらIssueを立てる\n3. 解決できそうなIssueがあれば「/assign」とコメントして取り掛かる\n    a. Issueが多くて全部みてられない場合は、「good first issue」というラベルのついたものが比較的前提知識が少なめでも取り掛かれるので、みてみるといいかもしれません",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "r6Qbk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "特に決まりはないのですが、典型的にはこんな感じでしょうか\n技術面はGitHubなりSlackなりで相談すれば誰か答えてくれると思います！\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デモサイトを触ってみたり、ローカルにセットアップしたり"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "改善すべき点が見つかったらIssueを立てる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "解決できそうなIssueがあれば「/assign」とコメントして取り掛かる"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Issueが多くて全部みてられない場合は、「good first issue」というラベルのついたものが比較的前提知識が少なめでも取り掛かれるので、みてみるといいかもしれません"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "masato sasano",
+    "text_readable": "特に決まりはないのですが、典型的にはこんな感じでしょうか\n技術面はGitHubなりSlackなりで相談すれば誰か答えてくれると思います！\n1. デモサイトを触ってみたり、ローカルにセットアップしたり\n2. 改善すべき点が見つかったらIssueを立てる\n3. 解決できそうなIssueがあれば「/assign」とコメントして取り掛かる\n    a. Issueが多くて全部みてられない場合は、「good first issue」というラベルのついたものが比較的前提知識が少なめでも取り掛かれるので、みてみるといいかもしれません"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747532262.408499",
+    "client_msg_id": "7f4a6893-76dc-4616-89d1-9949e4479e2c",
+    "text": "Good first issues： <https://github.com/digitaldemocracy2030/kouchou-ai/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22|公聴AI>　<https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue|いどばた>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zHyPW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Good first issues： "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22",
+                "text": "公聴AI"
+              },
+              {
+                "type": "text",
+                "text": "　"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue",
+                "text": "いどばた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "masato sasano",
+    "text_readable": "Good first issues： <https://github.com/digitaldemocracy2030/kouchou-ai/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22|公聴AI>　<https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue|いどばた>"
+  },
+  {
+    "user": "U08SG2GU1NH",
+    "type": "message",
+    "ts": "1747534251.837999",
+    "client_msg_id": "e92f1a42-9ac8-4d1c-813a-87b9d1c1d8bd",
+    "text": "返信ありがとうございます。\nなるほど、確かにOSSなので、ローカルにセットアップして触ってみるところが最初ですね。\ngood first issue大変助かります。この辺から見てみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TnpgV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "返信ありがとうございます。\nなるほど、確かにOSSなので、ローカルにセットアップして触ってみるところが最初ですね。\ngood first issue大変助かります。この辺から見てみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08J8NCNYL8"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "佐々木淳哉",
+    "text_readable": "返信ありがとうございます。\nなるほど、確かにOSSなので、ローカルにセットアップして触ってみるところが最初ですね。\ngood first issue大変助かります。この辺から見てみます！"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747538288.584419",
+    "client_msg_id": "59763b93-50b2-4992-80c0-e87c5fefcadb",
+    "text": "あ、触るだけでしたらデモサイトありますよ！\n*<https://kouchou-ai.dd2030.org/|広聴AI>　<https://idobata-demo.dd2030.org/|いどばたビジョン>　<https://delib.takahiroanno.com/view/docs/index.md|いどばた政策立案>　<https://polimoney.dd2030.org/|Polimoney>*",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U9tAZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、触るだけでしたらデモサイトありますよ！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://kouchou-ai.dd2030.org/",
+                "text": "広聴AI",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "　",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://idobata-demo.dd2030.org/",
+                "text": "いどばたビジョン",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "　",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://delib.takahiroanno.com/view/docs/index.md",
+                "text": "いどばた政策立案",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "　",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "https://polimoney.dd2030.org/",
+                "text": "Polimoney",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08SG2GU1NH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "masato sasano",
+    "text_readable": "あ、触るだけでしたらデモサイトありますよ！\n*<https://kouchou-ai.dd2030.org/|広聴AI>　<https://idobata-demo.dd2030.org/|いどばたビジョン>　<https://delib.takahiroanno.com/view/docs/index.md|いどばた政策立案>　<https://polimoney.dd2030.org/|Polimoney>*"
+  },
+  {
+    "user": "U08SG2GU1NH",
+    "type": "message",
+    "ts": "1747570878.540669",
+    "client_msg_id": "3350cfbe-ef8f-475e-8ef3-2067009901a7",
+    "text": "自分なりに気になる点を見つけた時、そのままIssueを立ててもよいのでしょうか？　一度どこかで聞いたほうが良いでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1Tuh0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自分なりに気になる点を見つけた時、そのままIssueを立ててもよいのでしょうか？　一度どこかで聞いたほうが良いでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "佐々木淳哉",
+    "text_readable": "自分なりに気になる点を見つけた時、そのままIssueを立ててもよいのでしょうか？　一度どこかで聞いたほうが良いでしょうか？"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747571791.701779",
+    "client_msg_id": "eea3abdf-b939-4770-b5de-dbc7eaa5380c",
+    "text": "自由に立ててしまっていいと思います！\n開発関連のガイドラインは <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CONTRIBUTING.md|CONTRIBUTING.md> をご参照ください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747526436.732499",
+    "parent_user_id": "U08SG2GU1NH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kISX2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自由に立ててしまっていいと思います！\n開発関連のガイドラインは "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CONTRIBUTING.md",
+                "text": "CONTRIBUTING.md",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": " をご参照ください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747526436.732499",
+    "user_name": "masato sasano",
+    "text_readable": "自由に立ててしまっていいと思います！\n開発関連のガイドラインは <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CONTRIBUTING.md|CONTRIBUTING.md> をご参照ください。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1747644384.394759",
+    "client_msg_id": "c02b515a-c8d7-4b87-a481-fe7eb0c070f4",
+    "text": "第二回MEET UPを企画しているのですが、備品を買いたいです。\nこういった場合はどなたに相談すればよいでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747644384.394759",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1747794242.844439",
+    "reply_users": [
+      "U08J8NCNYL8",
+      "U08N3V4NQRE"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zJ+vI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "第二回MEET UPを企画しているのですが、備品を買いたいです。\nこういった場合はどなたに相談すればよいでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "第二回MEET UPを企画しているのですが、備品を買いたいです。\nこういった場合はどなたに相談すればよいでしょうか？"
+  },
+  {
+    "user": "U08J8NCNYL8",
+    "type": "message",
+    "ts": "1747768941.289189",
+    "client_msg_id": "280E0389-4A82-43B8-9ABF-E56CB07B7107",
+    "text": "<@U08N3V4NQRE> こちら、何か方針ありますでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747644384.394759",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oboSg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " こちら、何か方針ありますでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747644384.394759",
+    "user_name": "Furukawa",
+    "text_readable": "@kojin.oshiba こちら、何か方針ありますでしょうか？"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1747794242.844439",
+    "client_msg_id": "6322B129-FE07-4658-A70B-D0D06B9BFA88",
+    "text": "今後CfJさんで財務管理もしてもらう予定ですが、とりあえず私にリストとざっくりいくら使うか教えてください、承認します。 cc <@U08HN9UDJUB> ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747644384.394759",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yyyqj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今後CfJさんで財務管理もしてもらう予定ですが、とりあえず私にリストとざっくりいくら使うか教えてください、承認します。 cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HN9UDJUB"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747644384.394759",
+    "user_name": "Kojin Oshiba",
+    "text_readable": "今後CfJさんで財務管理もしてもらう予定ですが、とりあえず私にリストとざっくりいくら使うか教えてください、承認します。 cc @hal "
+  },
+  {
+    "text": "デザインや広報のチームで協力できそうな形式の資料を作られている方、liz さんをお見掛けしました。\nliz さんご本人がご希望されるようでしたら、liz さんがツイートされていた、添付の図の様な形式の資料をこのコミュニティで一緒に作るのはいかがでしょうか。\nわたし自身では、特に目立った貢献もできていない中、失礼いたします。\n\nliz さんには、わたしが直接積極的に本コミュニティをご紹介したわけではないのですが、迅速に本コミュニティに参加されました。\n\n<https://dd2030.slack.com/archives/C08HKET1YG3/p1747627162275809>\n<@U08SZP92XAN> さんが、『3つの「有権者の声を聴く」取り組み』として各集団が利用している「いどばた」やTTTC の利用のされかた、特に意見を取り込くおおまかなの流れについて、お独りで各集団の利用方法をまとめられていたのを拝見しました。お独りで纏められたり、最新化していくのは膨大な労力なのではないかと想像し、協働的な編集方法の１つとしてGitHub をご紹介しました。\n\n声を聴く、というくくりでまとめられているのは珍しく、また興味のある方々にも届きやすそうに思えました。デジタル民主主義2030 で扱う取り組み以外のツールを記載されることもあるかもしれないと想像しますが、今後は、liz さんお独りではなく、本コミュニティとも協働できる部分があるのではないかと考えます。\n\nいかがでしょうか。\n\n(liz さん、許可なく記載し申し訳ありません)",
+    "files": [
+      {
+        "id": "F08TRA6FZL0",
+        "created": 1747676357,
+        "timestamp": 1747676357,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JM08PTK5",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 503020,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08TRA6FZL0/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08TRA6FZL0/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 203,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 270,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 405,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 450,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 540,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TRA6FZL0-b8e5bf315a/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 576,
+        "original_w": 1216,
+        "original_h": 684,
+        "thumb_tiny": "AwAbADCycbRtyDT4cgncw6cU5yTja4HPNOVh/eGaLkqNhM5I+bGO/rTsjPUYozwPmGe9GeeoxQUDEEcMAfXFAIHQjFN52/fG71p24Z6jFAEXly9ytOjjK53HqKloPQ1Cgk7jbG4HAFG1dxbHOMUYG1aXHNWIaQGXHVfXNPpu1SuCBj0p2BnNAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08TRA6FZL0/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08TRA6FZL0-3c58027017",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JM08PTK5",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wBJEK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デザインや広報のチームで協力できそうな形式の資料を作られている方、liz さんをお見掛けしました。\nliz さんご本人がご希望されるようでしたら、liz さんがツイートされていた、添付の図の様な形式の資料をこのコミュニティで一緒に作るのはいかがでしょうか。\nわたし自身では、特に目立った貢献もできていない中、失礼いたします。\n\nliz さんには、わたしが直接積極的に本コミュニティをご紹介したわけではないのですが、迅速に本コミュニティに参加されました。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1747627162275809"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08SZP92XAN"
+              },
+              {
+                "type": "text",
+                "text": " さんが、『3つの「有権者の声を聴く」取り組み』として各集団が利用している「いどばた」やTTTC の利用のされかた、特に意見を取り込くおおまかなの流れについて、お独りで各集団の利用方法をまとめられていたのを拝見しました。お独りで纏められたり、最新化していくのは膨大な労力なのではないかと想像し、協働的な編集方法の１つとしてGitHub をご紹介しました。\n\n声を聴く、というくくりでまとめられているのは珍しく、また興味のある方々にも届きやすそうに思えました。デジタル民主主義2030 で扱う取り組み以外のツールを記載されることもあるかもしれないと想像しますが、今後は、liz さんお独りではなく、本コミュニティとも協働できる部分があるのではないかと考えます。\n\nいかがでしょうか。\n\n(liz さん、許可なく記載し申し訳ありません)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1747676410.748359",
+    "client_msg_id": "28b09eac-5ae4-4e1f-8f2d-5e91791cd637",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1747627162275809",
+        "ts": "1747627162.275809",
+        "author_id": "U08SZP92XAN",
+        "channel_id": "C08HKET1YG3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08HKET1YG3",
+            "ts": "1747627162.275809",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "de1rW",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "１. お名前（ハンドルネームOK）\nliz\n２. 興味のあるプロジェクト：\n"
+                        },
+                        {
+                          "type": "channel",
+                          "channel_id": "C08F7JZPD63"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "channel",
+                          "channel_id": "C08FF5MM59C"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n３. 得意なこと\n中小SIer勤務でSE兼PGやってます。小規模(1人案件)だと要件定義～開発まですることがあります。\n４. GitHubやポートフォリオ\n…ないです"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "sweat_drops",
+                          "unicode": "1f4a6"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n５. 本slackを知った経緯： X / YouTube / ブログ / リアルイベント / 報道 / 知人の紹介 / その他（）\nチームみらい、公明党、国民民主党が行っている「有権者の声を聞く取り組み」を比較してXに投稿したところリプを頂き、その流れでslackを紹介していただきました。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://x.com/__l_i_z/status/1923720485642306042"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n６. 自由コメント\n今の段階では、ブロードリスニングがどのような形で活用されるのかを知ったり、\nより効果的な活用方法（どうしたらより多く声を拾えるか）を探したりすることに興味があります。\n色々知っていく中で、興味の幅も広げていきたいです。\nよろしくお願いいたします。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1747627162275809",
+        "fallback": "[May 18th, 2025 8:59 PM] figure_zero: １. お名前（ハンドルネームOK）\nliz\n２. 興味のあるプロジェクト：\n<#C08F7JZPD63|> <#C08FF5MM59C|>\n３. 得意なこと\n中小SIer勤務でSE兼PGやってます。小規模(1人案件)だと要件定義～開発まですることがあります。\n４. GitHubやポートフォリオ\n…ないです:sweat_drops:\n５. 本slackを知った経緯： X / YouTube / ブログ / リアルイベント / 報道 / 知人の紹介 / その他（）\nチームみらい、公明党、国民民主党が行っている「有権者の声を聞く取り組み」を比較してXに投稿したところリプを頂き、その流れでslackを紹介していただきました。\n<https://x.com/__l_i_z/status/1923720485642306042>\n\n６. 自由コメント\n今の段階では、ブロードリスニングがどのような形で活用されるのかを知ったり、\nより効果的な活用方法（どうしたらより多く声を拾えるか）を探したりすることに興味があります。\n色々知っていく中で、興味の幅も広げていきたいです。\nよろしくお願いいたします。",
+        "text": "１. お名前（ハンドルネームOK）\nliz\n２. 興味のあるプロジェクト：\n<#C08F7JZPD63|> <#C08FF5MM59C|>\n３. 得意なこと\n中小SIer勤務でSE兼PGやってます。小規模(1人案件)だと要件定義～開発まですることがあります。\n４. GitHubやポートフォリオ\n…ないです:sweat_drops:\n５. 本slackを知った経緯： X / YouTube / ブログ / リアルイベント / 報道 / 知人の紹介 / その他（）\nチームみらい、公明党、国民民主党が行っている「有権者の声を聞く取り組み」を比較してXに投稿したところリプを頂き、その流れでslackを紹介していただきました。\n<https://x.com/__l_i_z/status/1923720485642306042>\n\n６. 自由コメント\n今の段階では、ブロードリスニングがどのような形で活用されるのかを知ったり、\nより効果的な活用方法（どうしたらより多く声を拾えるか）を探したりすることに興味があります。\n色々知っていく中で、興味の幅も広げていきたいです。\nよろしくお願いいたします。",
+        "author_name": "liz",
+        "author_link": "https://dd2030.slack.com/team/U08SZP92XAN",
+        "author_icon": "https://avatars.slack-edge.com/2025-05-19/8909149290678_673caae711f679485caf_48.png",
+        "author_subname": "liz",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08H3V9KMFH",
+          "U08J66CBKKJ"
+        ],
+        "count": 3
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Akinori Oyama",
+    "text_readable": "デザインや広報のチームで協力できそうな形式の資料を作られている方、liz さんをお見掛けしました。\nliz さんご本人がご希望されるようでしたら、liz さんがツイートされていた、添付の図の様な形式の資料をこのコミュニティで一緒に作るのはいかがでしょうか。\nわたし自身では、特に目立った貢献もできていない中、失礼いたします。\n\nliz さんには、わたしが直接積極的に本コミュニティをご紹介したわけではないのですが、迅速に本コミュニティに参加されました。\n\n<https://dd2030.slack.com/archives/C08HKET1YG3/p1747627162275809>\n@figure_zero さんが、『3つの「有権者の声を聴く」取り組み』として各集団が利用している「いどばた」やTTTC の利用のされかた、特に意見を取り込くおおまかなの流れについて、お独りで各集団の利用方法をまとめられていたのを拝見しました。お独りで纏められたり、最新化していくのは膨大な労力なのではないかと想像し、協働的な編集方法の１つとしてGitHub をご紹介しました。\n\n声を聴く、というくくりでまとめられているのは珍しく、また興味のある方々にも届きやすそうに思えました。デジタル民主主義2030 で扱う取り組み以外のツールを記載されることもあるかもしれないと想像しますが、今後は、liz さんお独りではなく、本コミュニティとも協働できる部分があるのではないかと考えます。\n\nいかがでしょうか。\n\n(liz さん、許可なく記載し申し訳ありません)"
+  }
+]

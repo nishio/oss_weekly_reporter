@@ -1,0 +1,319 @@
+[
+  {
+    "user": "U08M95GEVBM",
+    "type": "message",
+    "ts": "1747220668.311179",
+    "client_msg_id": "e9b70d82-da97-4128-abbc-e4b770755849",
+    "text": "定例で時間あったら報告させてください。\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/516>\nクラスタ数、エンベディングのモデルの違いによるシルエットスコアの変化\nサンプルデータ（400件）\n<https://take365.github.io/Embedding_Championship/outputs/sample/compare_models.html>\n\n■課題（自動クラスタリング数決定）\n自動クラスタリング数判定はあってもよいと思う。ただしデータ量と試行回数で指数的に増える。\n判定範囲をどうするか。\n例\n上位層： 2 ～ 意見数の立方根（³√n）の二乗\n下位層： 上記の上限 ～ その2倍（上限200）\n■課題（対応モデル）\n現行のmpnetは結構性能がよく万能感。\nsarashinaはサンプルデータで最良だが商用要相談。\nplamoは長文？でよい評価だがモデルが重い。\n→mpnetだけでもいいのでは。。。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AGVpi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "定例で時間あったら報告させてください。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/516"
+              },
+              {
+                "type": "text",
+                "text": "\nクラスタ数、エンベディングのモデルの違いによるシルエットスコアの変化\nサンプルデータ（400件）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://take365.github.io/Embedding_Championship/outputs/sample/compare_models.html"
+              },
+              {
+                "type": "text",
+                "text": "\n\n■課題（自動クラスタリング数決定）\n自動クラスタリング数判定はあってもよいと思う。ただしデータ量と試行回数で指数的に増える。\n判定範囲をどうするか。\n例\n上位層： 2 ～ 意見数の立方根（³√n）の二乗\n下位層： 上記の上限 ～ その2倍（上限200）\n■課題（対応モデル）\n現行のmpnetは結構性能がよく万能感。\nsarashinaはサンプルデータで最良だが商用要相談。\nplamoは長文？でよい評価だがモデルが重い。\n→mpnetだけでもいいのでは。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "山岡木太郎",
+    "text_readable": "定例で時間あったら報告させてください。\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/516>\nクラスタ数、エンベディングのモデルの違いによるシルエットスコアの変化\nサンプルデータ（400件）\n<https://take365.github.io/Embedding_Championship/outputs/sample/compare_models.html>\n\n■課題（自動クラスタリング数決定）\n自動クラスタリング数判定はあってもよいと思う。ただしデータ量と試行回数で指数的に増える。\n判定範囲をどうするか。\n例\n上位層： 2 ～ 意見数の立方根（³√n）の二乗\n下位層： 上記の上限 ～ その2倍（上限200）\n■課題（対応モデル）\n現行のmpnetは結構性能がよく万能感。\nsarashinaはサンプルデータで最良だが商用要相談。\nplamoは長文？でよい評価だがモデルが重い。\n→mpnetだけでもいいのでは。。。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08J6JR5SNQ",
+    "thread_ts": "1747154097.895669",
+    "root": {
+      "user": "U08J6JR5SNQ",
+      "type": "message",
+      "ts": "1747154097.895669",
+      "client_msg_id": "26e70003-659a-4d8c-b164-dbf86ad9a4ce",
+      "text": "ふと思ったんだけど、最新のExcelからはPythonがコールできるので、広聴AIのExcelプラグインが作れないかな？",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747154097.895669",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1747424155.066049",
+      "reply_users": [
+        "U08J6JR5SNQ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mbVbJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ふと思ったんだけど、最新のExcelからはPythonがコールできるので、広聴AIのExcelプラグインが作れないかな？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747424155.066049",
+    "client_msg_id": "b90b426a-6c54-4fae-88ec-f103c2bb9b28",
+    "text": "これ、検証したけど、ちょっとダメでした。\n\nExcelのセルに=PY と入れるとPythonモードになる\nExcelからAzure上のコンテナで動いているAnacondaに接続されて、最初からいろいろなライブラリは入っているが、pip installはできない\nそのため、最初から動いているAnacondaで出来る範囲のタスクしかできず、微妙に狭い",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+JKKi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ、検証したけど、ちょっとダメでした。\n\nExcelのセルに=PY と入れるとPythonモードになる\nExcelからAzure上のコンテナで動いているAnacondaに接続されて、最初からいろいろなライブラリは入っているが、pip installはできない\nそのため、最初から動いているAnacondaで出来る範囲のタスクしかできず、微妙に狭い"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW",
+          "U08LQ25DPAB",
+          "U08GG5LRGMP",
+          "U08M95GEVBM"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "これ、検証したけど、ちょっとダメでした。\n\nExcelのセルに=PY と入れるとPythonモードになる\nExcelからAzure上のコンテナで動いているAnacondaに接続されて、最初からいろいろなライブラリは入っているが、pip installはできない\nそのため、最初から動いているAnacondaで出来る範囲のタスクしかできず、微妙に狭い"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747469344.120719",
+    "client_msg_id": "e47e5f45-19ce-4d10-814e-495e1ced7517",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/d95e757f0e304d1cf67658e947a29c8dd426fb0e/server/broadlistening/pipeline/prompts/overview/default.txt|server/broadlistening/pipeline/prompts/> の下にある、プロンプトのdefault.txt、どこからも参照されてないようなので、葬ってしまってよいですか？\n<https://github.com/search?q=repo%3Adigitaldemocracy2030%2Fkouchou-ai%20default.txt&amp;type=code>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747469344.120719",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1747469847.453029",
+    "reply_users": [
+      "U08GG5LRGMP"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/s8NY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/d95e757f0e304d1cf67658e947a29c8dd426fb0e/server/broadlistening/pipeline/prompts/overview/default.txt",
+                "text": "server/broadlistening/pipeline/prompts/"
+              },
+              {
+                "type": "text",
+                "text": " の下にある、プロンプトのdefault.txt、どこからも参照されてないようなので、葬ってしまってよいですか？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/search?q=repo%3Adigitaldemocracy2030%2Fkouchou-ai%20default.txt&type=code"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/d95e757f0e304d1cf67658e947a29c8dd426fb0e/server/broadlistening/pipeline/prompts/overview/default.txt|server/broadlistening/pipeline/prompts/> の下にある、プロンプトのdefault.txt、どこからも参照されてないようなので、葬ってしまってよいですか？\n<https://github.com/search?q=repo%3Adigitaldemocracy2030%2Fkouchou-ai%20default.txt&type=code>"
+  },
+  {
+    "user": "U08GG5LRGMP",
+    "type": "message",
+    "ts": "1747469847.453029",
+    "client_msg_id": "e7c6b3d4-f709-496f-8274-aa20612f9553",
+    "text": "はい、現状api側のプロンプトは参照されていないので削除いただいて問題ないです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747469344.120719",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PxPBD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい、現状api側のプロンプトは参照されていないので削除いただいて問題ないです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747469344.120719",
+    "user_name": "Nasuka Sumino",
+    "text_readable": "はい、現状api側のプロンプトは参照されていないので削除いただいて問題ないです"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747469597.200949",
+    "client_msg_id": "6caa5571-318f-4c37-8ffa-e05b1c90c2a8",
+    "text": "とりあえずファイルを殺して動作確認しよう。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PeWzT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずファイルを殺して動作確認しよう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "とりあえずファイルを殺して動作確認しよう。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747470377.811049",
+    "client_msg_id": "0fbe3919-0a97-4521-9c5f-f1cfbb3a10b0",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/527>\nひとまず、削除のPRを出しました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XKhjl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/527"
+              },
+              {
+                "type": "text",
+                "text": "\nひとまず、削除のPRを出しました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      },
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/527>\nひとまず、削除のPRを出しました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747509461.829469",
+    "client_msg_id": "4d4d7edd-90f0-43eb-8569-1030c559223c",
+    "text": "架空データの生成コードを作成しました。よかったら使ってください。\n<https://gist.github.com/tokoroten/0115947bc25a53caa53d2f1e55a0b1df>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w0XIq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "架空データの生成コードを作成しました。よかったら使ってください。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/tokoroten/0115947bc25a53caa53d2f1e55a0b1df"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08M95GEVBM",
+          "U08QJ5X1BK2",
+          "U08NWNM05LY",
+          "U08FZDRRY8Z"
+        ],
+        "count": 4
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08QJ5X1BK2",
+          "U08FZDRRY8Z"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "架空データの生成コードを作成しました。よかったら使ってください。\n<https://gist.github.com/tokoroten/0115947bc25a53caa53d2f1e55a0b1df>"
+  }
+]

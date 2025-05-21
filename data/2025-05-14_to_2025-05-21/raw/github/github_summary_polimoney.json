@@ -1,0 +1,245 @@
+{
+  "period": {
+    "start": "2025-05-14T12:26:30.658584+09:00",
+    "end": "2025-05-21T12:26:30.658584+09:00"
+  },
+  "repo": "digitaldemocracy2030/polimoney",
+  "issues": [
+    {
+      "id": 3065888255,
+      "number": 64,
+      "title": "PythonコードのLintが通るようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3056009101,
+      "number": 54,
+      "title": "TypeScriptのフォーマッターの導入",
+      "state": "closed"
+    },
+    {
+      "id": 3046163479,
+      "number": 46,
+      "title": "検索結果のサムネイルを差し替える",
+      "state": "closed"
+    },
+    {
+      "id": 3031392868,
+      "number": 34,
+      "title": "Pythonのlinter、formatterを導入する",
+      "state": "closed"
+    },
+    {
+      "id": 3022720107,
+      "number": 25,
+      "title": "devcontainerを設定する",
+      "state": "closed"
+    },
+    {
+      "id": 2990308342,
+      "number": 4,
+      "title": "総務省ウェブサイトからの政治資金収支報告書PDF自動取得機能",
+      "state": "closed"
+    },
+    {
+      "id": 2990306052,
+      "number": 3,
+      "title": "Gemini API呼び出しの並列化とエラーハンドリング強化（レートリミット対応）",
+      "state": "closed"
+    },
+    {
+      "id": 3076249790,
+      "number": 69,
+      "title": "Github Discusisonを有効にする",
+      "state": "created"
+    },
+    {
+      "id": 3064723493,
+      "number": 63,
+      "title": "PRIVACY.mdを策定する",
+      "state": "created"
+    },
+    {
+      "id": 3055431257,
+      "number": 51,
+      "title": "CONTRIBUTING.mdを作成する",
+      "state": "updated"
+    },
+    {
+      "id": 3036586980,
+      "number": 40,
+      "title": "対内外向け[資料作成]",
+      "state": "updated"
+    },
+    {
+      "id": 3031355927,
+      "number": 32,
+      "title": "データベース移行",
+      "state": "updated"
+    },
+    {
+      "id": 3031310787,
+      "number": 31,
+      "title": "議論：収支報告書に不記載(裏金)の情報について",
+      "state": "updated"
+    },
+    {
+      "id": 3031300124,
+      "number": 30,
+      "title": "議論：個人献金の個人情報を隠す必要性について",
+      "state": "updated"
+    },
+    {
+      "id": 3031283768,
+      "number": 29,
+      "title": "E2E動作確認（つなぎこみ）",
+      "state": "updated"
+    },
+    {
+      "id": 3017813904,
+      "number": 20,
+      "title": "収支報告書のフォーマット調査",
+      "state": "updated"
+    },
+    {
+      "id": 3014175992,
+      "number": 19,
+      "title": "OCR（画像認識）の精度強化",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3076636892,
+      "number": 73,
+      "title": "pythonのlefthook対応とlint error修正",
+      "state": "merged"
+    },
+    {
+      "id": 3076600490,
+      "number": 72,
+      "title": "analyze_image_gemini.py に並列数をコマンドライン引数で渡せるようにした",
+      "state": "merged"
+    },
+    {
+      "id": 3076582102,
+      "number": 71,
+      "title": "fix pdf downloader: カテゴリ名のより正確な抽出",
+      "state": "merged"
+    },
+    {
+      "id": 3076520492,
+      "number": 70,
+      "title": "add biomejs.biome to extensions.json",
+      "state": "merged"
+    },
+    {
+      "id": 3073949474,
+      "number": 68,
+      "title": "converter.ts でエラーを許容するフラグの実装",
+      "state": "merged"
+    },
+    {
+      "id": 3072444703,
+      "number": 67,
+      "title": "一時的なOGP画像を設定",
+      "state": "merged"
+    },
+    {
+      "id": 3071569008,
+      "number": 66,
+      "title": "E2E - Geminiプロンプト新設",
+      "state": "merged"
+    },
+    {
+      "id": 3070238205,
+      "number": 65,
+      "title": "ruffのチェックを有効にする",
+      "state": "merged"
+    },
+    {
+      "id": 3063428871,
+      "number": 62,
+      "title": "TypeScriptのLintエラー修正",
+      "state": "merged"
+    },
+    {
+      "id": 3063413103,
+      "number": 61,
+      "title": "Pythonコードのフォーマット",
+      "state": "merged"
+    },
+    {
+      "id": 3062855724,
+      "number": 60,
+      "title": "政治資金収支報告書一括ダウンロード機能",
+      "state": "merged"
+    },
+    {
+      "id": 3061868835,
+      "number": 59,
+      "title": "pythonにruff, pyrightを導入",
+      "state": "merged"
+    },
+    {
+      "id": 3061725351,
+      "number": 58,
+      "title": "update readme",
+      "state": "merged"
+    },
+    {
+      "id": 3056958785,
+      "number": 57,
+      "title": "Biome + lefthookの導入",
+      "state": "merged"
+    },
+    {
+      "id": 3056531675,
+      "number": 55,
+      "title": "analyze_image_gemini.py のエラーハンドリング改善",
+      "state": "merged"
+    },
+    {
+      "id": 3054290153,
+      "number": 50,
+      "title": "pinact runでバージョンをコミットハッシュにする",
+      "state": "merged"
+    },
+    {
+      "id": 3046292352,
+      "number": 48,
+      "title": "E2E - merge_jsons.py変更",
+      "state": "merged"
+    },
+    {
+      "id": 3046166683,
+      "number": 47,
+      "title": "E2E - Geminiプロンプト変更",
+      "state": "merged"
+    },
+    {
+      "id": 3045253696,
+      "number": 45,
+      "title": "DevContainer configuration with Dockerfile, README, and VS Code settings",
+      "state": "merged"
+    },
+    {
+      "id": 3035998733,
+      "number": 39,
+      "title": "収支報告書の表現に合わせて修正",
+      "state": "merged"
+    },
+    {
+      "id": 3044366868,
+      "number": 44,
+      "title": "gemini 2.5 pro preview 05-26 導入",
+      "state": "updated"
+    },
+    {
+      "id": 3031647391,
+      "number": 35,
+      "title": "E2Eテストで発生したエラーの修正",
+      "state": "updated"
+    }
+  ]
+}

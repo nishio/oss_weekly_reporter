@@ -1,0 +1,1162 @@
+[
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1747207066.938969",
+    "client_msg_id": "1a5f8fcc-c75a-46a6-883b-7361620aedae",
+    "text": "<#C08FF5MM59C|> で今短期で進んでいる話とは若干ズレるのでこっちに書きますが、\n• 現状の「広聴AI」や「いどばた」のような意見収集システムでは、多様な意見（例えば、主張A、B、C）を把握することは可能。\n• しかし、それぞれの主張が発言者にとって「どの程度重要か」という情報までは収集できていない。\n    ◦ この「主観的な重要度」のデータこそが、実は非常に価値が高いのではない\n• 例えば、ある論点AとB、そしてCについて、二人の人間から以下のような意見が出たとする\n    ◦ *人間1:* 「Aはどうでもいいが、強いて言えば賛成。Bには強く反対。Cはどうでもいいが、強いて言えば賛成。」\n    ◦ *人間2:* 「Aはどうでもいいが、強いて言えば賛成。Bには強く賛成。Cには強く反対。」\n• 現状の「いどばた」のようなシステムでこのデータを分析すると、「Aについては賛成で合意が取れており、BとCについては意見が対立している」という結果になる\n• しかし、この解釈には以下のような問題点が含まれている\n    a. *論点Aの価値の誤認:* Aについては両者とも「どうでもいい」と考えており、論点としての価値が低い。レポートなどに掲載されても、ノイズにしかならないかもしれない\n    b. *論点Cの対立構造の誤解:* Cは「強いて言えば賛成」と「強く反対」で対立していると分析される。しかし、実際には「強く反対」の意見を優先することで合意形成に至る可能性が高い。\n    c. *真に重要な論点Bの見落とし:* 上記の例では、人間1はBに「強く反対」し、人間2はBに「強く賛成」している。この論点Bこそが、双方にとって最も重要であり、議論を深めるべき核心的なテーマであるが、現状の仕組みでは他の論点に埋もれてしまう\n• このように、現在のデータ収集方法だけでは、各論点の真の重要性を見極めることができず、分析結果が実態と乖離してしまう可能性がある\n    ◦ 意見の多様性だけでなく、各々の「重要度」を把握することで、より本質的な議論や合意形成に繋がる分析が可能になりそう。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747207066.938969",
+    "reply_count": 4,
+    "reply_users_count": 4,
+    "latest_reply": "1747223737.763449",
+    "reply_users": [
+      "U08J6JR5SNQ",
+      "U08Q66ACBTK",
+      "U08P0HQCV6F",
+      "U08HV1H5HKK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uzFgT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "channel",
+                "channel_id": "C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": " で今短期で進んでいる話とは若干ズレるのでこっちに書きますが、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状の「広聴AI」や「いどばた」のような意見収集システムでは、多様な意見（例えば、主張A、B、C）を把握することは可能。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "しかし、それぞれの主張が発言者にとって「どの程度重要か」という情報までは収集できていない。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "この「主観的な重要度」のデータこそが、実は非常に価値が高いのではない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "例えば、ある論点AとB、そしてCについて、二人の人間から以下のような意見が出たとする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "人間1:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 「Aはどうでもいいが、強いて言えば賛成。Bには強く反対。Cはどうでもいいが、強いて言えば賛成。」"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "人間2:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 「Aはどうでもいいが、強いて言えば賛成。Bには強く賛成。Cには強く反対。」"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状の「いどばた」のようなシステムでこのデータを分析すると、「Aについては賛成で合意が取れており、BとCについては意見が対立している」という結果になる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "しかし、この解釈には以下のような問題点が含まれている"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "論点Aの価値の誤認:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Aについては両者とも「どうでもいい」と考えており、論点としての価値が低い。レポートなどに掲載されても、ノイズにしかならないかもしれない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "論点Cの対立構造の誤解:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " Cは「強いて言えば賛成」と「強く反対」で対立していると分析される。しかし、実際には「強く反対」の意見を優先することで合意形成に至る可能性が高い。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "真に重要な論点Bの見落とし:",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 上記の例では、人間1はBに「強く反対」し、人間2はBに「強く賛成」している。この論点Bこそが、双方にとって最も重要であり、議論を深めるべき核心的なテーマであるが、現状の仕組みでは他の論点に埋もれてしまう"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "このように、現在のデータ収集方法だけでは、各論点の真の重要性を見極めることができず、分析結果が実態と乖離してしまう可能性がある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "意見の多様性だけでなく、各々の「重要度」を把握することで、より本質的な議論や合意形成に繋がる分析が可能になりそう。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08LQ25DPAB",
+          "U08RW9HTS76",
+          "U08HV1H5HKK",
+          "U08G0C3GM5H",
+          "U08N34PBRLH"
+        ],
+        "count": 6
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<#C08FF5MM59C|> で今短期で進んでいる話とは若干ズレるのでこっちに書きますが、\n• 現状の「広聴AI」や「いどばた」のような意見収集システムでは、多様な意見（例えば、主張A、B、C）を把握することは可能。\n• しかし、それぞれの主張が発言者にとって「どの程度重要か」という情報までは収集できていない。\n    ◦ この「主観的な重要度」のデータこそが、実は非常に価値が高いのではない\n• 例えば、ある論点AとB、そしてCについて、二人の人間から以下のような意見が出たとする\n    ◦ *人間1:* 「Aはどうでもいいが、強いて言えば賛成。Bには強く反対。Cはどうでもいいが、強いて言えば賛成。」\n    ◦ *人間2:* 「Aはどうでもいいが、強いて言えば賛成。Bには強く賛成。Cには強く反対。」\n• 現状の「いどばた」のようなシステムでこのデータを分析すると、「Aについては賛成で合意が取れており、BとCについては意見が対立している」という結果になる\n• しかし、この解釈には以下のような問題点が含まれている\n    a. *論点Aの価値の誤認:* Aについては両者とも「どうでもいい」と考えており、論点としての価値が低い。レポートなどに掲載されても、ノイズにしかならないかもしれない\n    b. *論点Cの対立構造の誤解:* Cは「強いて言えば賛成」と「強く反対」で対立していると分析される。しかし、実際には「強く反対」の意見を優先することで合意形成に至る可能性が高い。\n    c. *真に重要な論点Bの見落とし:* 上記の例では、人間1はBに「強く反対」し、人間2はBに「強く賛成」している。この論点Bこそが、双方にとって最も重要であり、議論を深めるべき核心的なテーマであるが、現状の仕組みでは他の論点に埋もれてしまう\n• このように、現在のデータ収集方法だけでは、各論点の真の重要性を見極めることができず、分析結果が実態と乖離してしまう可能性がある\n    ◦ 意見の多様性だけでなく、各々の「重要度」を把握することで、より本質的な議論や合意形成に繋がる分析が可能になりそう。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747208053.093809",
+    "client_msg_id": "de579057-982a-46cf-bf6b-55783f280a27",
+    "text": "為政者のツールと、民衆のツールで要件が違うのかなぁというのが直観です\n\n現状は民衆のためのツールで、隣人を理解する、隣人と対立しない、隣人の多様性を認める、という方向のデザインになっていて、\n為政者のための「融和・説得を行わないといけない場所はどこか」という判断が行えない。\nみたいなように思えました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747207066.938969",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J8flZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "為政者のツールと、民衆のツールで要件が違うのかなぁというのが直観です\n\n現状は民衆のためのツールで、隣人を理解する、隣人と対立しない、隣人の多様性を認める、という方向のデザインになっていて、\n為政者のための「融和・説得を行わないといけない場所はどこか」という判断が行えない。\nみたいなように思えました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747207066.938969",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "為政者のツールと、民衆のツールで要件が違うのかなぁというのが直観です\n\n現状は民衆のためのツールで、隣人を理解する、隣人と対立しない、隣人の多様性を認める、という方向のデザインになっていて、\n為政者のための「融和・説得を行わないといけない場所はどこか」という判断が行えない。\nみたいなように思えました"
+  },
+  {
+    "user": "U08Q66ACBTK",
+    "type": "message",
+    "ts": "1747208085.535809",
+    "client_msg_id": "352C70A4-681F-44C0-BBE7-C44727719DF1",
+    "text": "重要か否かきめるみたいなやつですよね、それこそQVみたいにある程度ポイント持っといて割り振るとかできそうですよね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747207066.938969",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bG37R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "重要か否かきめるみたいなやつですよね、それこそQVみたいにある程度ポイント持っといて割り振るとかできそうですよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747207066.938969",
+    "user_name": "takatetomoki",
+    "text_readable": "重要か否かきめるみたいなやつですよね、それこそQVみたいにある程度ポイント持っといて割り振るとかできそうですよね"
+  },
+  {
+    "user": "U08P0HQCV6F",
+    "type": "message",
+    "ts": "1747208776.522339",
+    "client_msg_id": "8c99c1f4-722d-446c-b531-87837f94a3fc",
+    "text": "混合研究法がなぜ必要か、という話に近いでしょうか。\n単一の情報収集をせずに、複数の視点で情報収集したうえで統合しようという。\n<https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747207066.938969",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "from_url": "https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja",
+        "service_icon": "https://www.jstage.jst.go.jp/favicon.ico",
+        "thumb_url": "https://www.jstage.jst.go.jp/html/images/common/SNS/J-STAGE_logo_sns.png",
+        "thumb_width": 946,
+        "thumb_height": 945,
+        "id": 1,
+        "original_url": "https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja",
+        "fallback": "J-STAGE: 地域保健活動に活かす混合研究法：質と量 両者の統合から見えるもの",
+        "text": "保健師教育, 2021 年 5 巻 1 号 p. 7-13",
+        "title": "地域保健活動に活かす混合研究法：質と量 両者の統合から見えるもの",
+        "title_link": "https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja",
+        "service_name": "J-STAGE"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wTfJ7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "混合研究法がなぜ必要か、という話に近いでしょうか。\n単一の情報収集をせずに、複数の視点で情報収集したうえで統合しようという。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747207066.938969",
+    "user_name": "youkiti",
+    "text_readable": "混合研究法がなぜ必要か、という話に近いでしょうか。\n単一の情報収集をせずに、複数の視点で情報収集したうえで統合しようという。\n<https://www.jstage.jst.go.jp/article/hokenshikyouiku/5/1/5_7/_html/-char/ja>"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747223737.763449",
+    "client_msg_id": "4A8599E7-9496-4894-BC61-F0BE801F24A9",
+    "text": "なぜなぜ分析とかしてより深い原因を探したりするとまた視点が変わったりもしそうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747207066.938969",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qcRlh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なぜなぜ分析とかしてより深い原因を探したりするとまた視点が変わったりもしそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08P0HQCV6F"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747207066.938969",
+    "user_name": "石橋隆平",
+    "text_readable": "なぜなぜ分析とかしてより深い原因を探したりするとまた視点が変わったりもしそうですね"
+  },
+  {
+    "user": "U08HKU721PV",
+    "type": "message",
+    "ts": "1747277690.721389",
+    "client_msg_id": "f3ca10c0-1bde-461c-8cb4-b29470b99ce7",
+    "text": "dd2030で思考を思い切り発散させる場所が欲しくなったので、許可よりも謝罪ドリブンでCode for Japanを参考にして非公式のCosenseを立てました。\n一旦好き勝手に編集しまくってどうなるか見たいのでよかったら参加してください！\n<https://scrapbox.io/dd2030/>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/dd2030/",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/55a6e681d730a4c0078e6bd09f7960cf/max_size/1000",
+        "thumb_width": 128,
+        "thumb_height": 128,
+        "id": 1,
+        "original_url": "https://scrapbox.io/dd2030/",
+        "fallback": "デジタル民主主義2030 (非公式)",
+        "text": "デジタル民主主義2030 / デジタル民主主義2030のSlackに参加する / 用語集 / このCosenseに参加する / いどばた / Polimoney / 広聴AI / dd2030 Slackは公開情報 / Code for Japan / ブロードリスニング / Cosenseの使い方",
+        "title": "デジタル民主主義2030 (非公式)",
+        "title_link": "https://scrapbox.io/dd2030/",
+        "service_name": "scrapbox.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "N2qq4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030で思考を思い切り発散させる場所が欲しくなったので、許可よりも謝罪ドリブンでCode for Japanを参考にして非公式のCosenseを立てました。\n一旦好き勝手に編集しまくってどうなるか見たいのでよかったら参加してください！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/dd2030/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z",
+          "U08GJSBAX3K",
+          "U08QJ5X1BK2",
+          "U08LQ25DPAB",
+          "U08N3V4NQRE",
+          "U08HZ8JS0EQ",
+          "U08HBBH9VJS",
+          "U08GG5LRGMP",
+          "U08MG09M5FH",
+          "U08RW9HTS76",
+          "U08G2A216TW",
+          "U08G0C3GM5H",
+          "U08HV1H5HKK",
+          "U08Q7GEJXEK",
+          "U08H3V9KMFH"
+        ],
+        "count": 15
+      },
+      {
+        "name": "parrot-love",
+        "users": [
+          "U08RW9HTS76"
+        ],
+        "count": 1
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U08MNRDM28K"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08J66CBKKJ",
+          "U08NWNM05LY"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "種延真之",
+    "text_readable": "dd2030で思考を思い切り発散させる場所が欲しくなったので、許可よりも謝罪ドリブンでCode for Japanを参考にして非公式のCosenseを立てました。\n一旦好き勝手に編集しまくってどうなるか見たいのでよかったら参加してください！\n<https://scrapbox.io/dd2030/>"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747659757.388829",
+    "client_msg_id": "E6649CA8-57A8-42E9-8789-2868AF324BEC",
+    "text": "こういう嘆きとかヘイトを相互理解にむけるきっかけにできないですかねー\n<https://x.com/t45356/status/1924136656602603781?s=46|https://x.com/t45356/status/1924136656602603781?s=46>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/t45356/status/1924136656602603781?s=46",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1774152080242147328/AfI-jWb4_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/t45356/status/1924136656602603781?s=46",
+        "fallback": "X (formerly Twitter): Tomo (@T45356) on X",
+        "text": "エックス見てればわかるけど、アカデミアも文科省も将来のことなんてまるで考えてないよ",
+        "title": "Tomo (@T45356) on X",
+        "title_link": "https://x.com/t45356/status/1924136656602603781?s=46",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "quWOQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういう嘆きとかヘイトを相互理解にむけるきっかけにできないですかねー\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/t45356/status/1924136656602603781?s=46",
+                "text": "https://x.com/t45356/status/1924136656602603781?s=46"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "こういう嘆きとかヘイトを相互理解にむけるきっかけにできないですかねー\n<https://x.com/t45356/status/1924136656602603781?s=46|https://x.com/t45356/status/1924136656602603781?s=46>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747674477.413619",
+    "client_msg_id": "29b6321f-3c5d-4534-b4ec-c7efc9cc7964",
+    "text": "ジョックバイアスを乗り越える、というのは新しいテーマになりそうな気がしてきた。\n<https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
+        "image_width": 1600,
+        "image_height": 900,
+        "image_bytes": 8652,
+        "from_url": "https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110",
+        "service_icon": "https://cdn.oaistatic.com/assets/favicon-180x180-od45eci6.webp",
+        "id": 1,
+        "original_url": "https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110",
+        "fallback": "ChatGPT: ChatGPT - ジョックと民主主義",
+        "text": "Shared via ChatGPT",
+        "title": "ChatGPT - ジョックと民主主義",
+        "title_link": "https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110",
+        "service_name": "ChatGPT"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Sg0fa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ジョックバイアスを乗り越える、というのは新しいテーマになりそうな気がしてきた。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "atsui",
+        "users": [
+          "U08J66CBKKJ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ジョックバイアスを乗り越える、というのは新しいテーマになりそうな気がしてきた。\n<https://chatgpt.com/share/682b6493-fc28-8009-b23d-47f885fb1110>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747684445.378559",
+    "client_msg_id": "319ffbe1-47eb-4e86-90be-635c9d358964",
+    "text": "polisの時も顔のアイコンが出たりしていたけど、自分が信頼する人が案外べつのクラスタにいる、というのを受け入れるのが大切なんだろうなぁ。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6nCgj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polisの時も顔のアイコンが出たりしていたけど、自分が信頼する人が案外べつのクラスタにいる、というのを受け入れるのが大切なんだろうなぁ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "polisの時も顔のアイコンが出たりしていたけど、自分が信頼する人が案外べつのクラスタにいる、というのを受け入れるのが大切なんだろうなぁ。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747684469.998369",
+    "client_msg_id": "dcc5f06a-c6b5-442a-b395-6cd7002640d9",
+    "text": "「信頼している人が別クラスタ」というのをうまいこと見せたい。たぶんここらへんに何かが埋まってそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AYzCV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「信頼している人が別クラスタ」というのをうまいこと見せたい。たぶんここらへんに何かが埋まってそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW",
+          "U08HKU721PV",
+          "U08MG09M5FH",
+          "U08HBBH9VJS"
+        ],
+        "count": 4
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08J66CBKKJ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "「信頼している人が別クラスタ」というのをうまいこと見せたい。たぶんここらへんに何かが埋まってそう"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747710772.707019",
+    "client_msg_id": "C5A27343-190A-4675-9F13-FCAD92EDDF84",
+    "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n<https://x.com/nikkei/status/1924513703782973739?s=46|https://x.com/nikkei/status/1924513703782973739?s=46>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747710772.707019",
+    "reply_count": 5,
+    "reply_users_count": 2,
+    "latest_reply": "1747715305.400109",
+    "reply_users": [
+      "U08HV1H5HKK",
+      "U08HKU721PV"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1161879315933351936/CQbpby6s_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+        "fallback": "X (formerly Twitter): 日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+        "text": "ハローワーク、求人出しても9割空振り　求職者とミスマッチ拡大\n<https://t.co/u3k4FrUlda>",
+        "title": "日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+        "title_link": "https://x.com/nikkei/status/1924513703782973739?s=46",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "O/o2z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+                "text": "https://x.com/nikkei/status/1924513703782973739?s=46"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "kininaru",
+        "users": [
+          "U08RW9HTS76"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n<https://x.com/nikkei/status/1924513703782973739?s=46|https://x.com/nikkei/status/1924513703782973739?s=46>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HV1H5HKK",
+    "thread_ts": "1747710772.707019",
+    "root": {
+      "user": "U08HV1H5HKK",
+      "type": "message",
+      "ts": "1747710772.707019",
+      "client_msg_id": "C5A27343-190A-4675-9F13-FCAD92EDDF84",
+      "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n<https://x.com/nikkei/status/1924513703782973739?s=46|https://x.com/nikkei/status/1924513703782973739?s=46>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747710772.707019",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1747715305.400109",
+      "reply_users": [
+        "U08HV1H5HKK",
+        "U08HKU721PV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+          "thumb_url": "https://pbs.twimg.com/profile_images/1161879315933351936/CQbpby6s_200x200.jpg",
+          "thumb_width": 200,
+          "thumb_height": 200,
+          "id": 1,
+          "original_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "fallback": "X (formerly Twitter): 日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+          "text": "ハローワーク、求人出しても9割空振り　求職者とミスマッチ拡大\n<https://t.co/u3k4FrUlda>",
+          "title": "日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+          "title_link": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "service_name": "X (formerly Twitter)"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O/o2z",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+                  "text": "https://x.com/nikkei/status/1924513703782973739?s=46"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747710901.913569",
+    "client_msg_id": "DA8E82FB-87DB-48DB-9CF9-EF216316F66A",
+    "text": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tOjtP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "kininaru",
+        "users": [
+          "U08HKU721PV",
+          "U08QDPC2JRG",
+          "U08R11R3ERM"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1747710772.707019",
+    "user_name": "石橋隆平",
+    "text_readable": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？"
+  },
+  {
+    "user": "U08HKU721PV",
+    "type": "message",
+    "ts": "1747713335.070859",
+    "client_msg_id": "48e72528-1fee-4051-afa3-e2ce767e60ed",
+    "text": "&gt; 情報の非対称性が問題の根本にある\nこれ気になります。\n求人に割く余力がない企業とそういう求人を避ける求職者とそのような景気動向という見方をしていました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747710772.707019",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XqOQz",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "情報の非対称性が問題の根本にある"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ気になります。\n求人に割く余力がない企業とそういう求人を避ける求職者とそのような景気動向という見方をしていました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747710772.707019",
+    "user_name": "種延真之",
+    "text_readable": "> 情報の非対称性が問題の根本にある\nこれ気になります。\n求人に割く余力がない企業とそういう求人を避ける求職者とそのような景気動向という見方をしていました。"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747714968.366009",
+    "client_msg_id": "CBA52936-C7C0-47EB-B5E7-8733BD421C8D",
+    "text": "求人に割く余力がないというのはその通りです\nハローワークは安いので他の求人にお金をかけたくないか、人材マーケットに詳しくない小規模事業者が使ってます\nまた、求職者側もIndeedやスタンバイのような求人検索サービスや転職エージェントを知らない層が使ってます\nハローワークを使っている時点で求職者側もそこまで真面目に探していないと思うんですよね。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747710772.707019",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "taPAd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "求人に割く余力がないというのはその通りです\nハローワークは安いので他の求人にお金をかけたくないか、人材マーケットに詳しくない小規模事業者が使ってます\nまた、求職者側もIndeedやスタンバイのような求人検索サービスや転職エージェントを知らない層が使ってます\nハローワークを使っている時点で求職者側もそこまで真面目に探していないと思うんですよね。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747710772.707019",
+    "user_name": "石橋隆平",
+    "text_readable": "求人に割く余力がないというのはその通りです\nハローワークは安いので他の求人にお金をかけたくないか、人材マーケットに詳しくない小規模事業者が使ってます\nまた、求職者側もIndeedやスタンバイのような求人検索サービスや転職エージェントを知らない層が使ってます\nハローワークを使っている時点で求職者側もそこまで真面目に探していないと思うんですよね。。。"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747715086.304509",
+    "client_msg_id": "C11DFD0B-E86F-412B-94CD-639066117B74",
+    "text": "転職エージェントは売上を上げるために予算がある会社にはどうすれば採用できるかコンサルティング的な動きをすることもありますが、ハローワークにはそういう機能はないんですよね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747710772.707019",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HrHly",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "転職エージェントは売上を上げるために予算がある会社にはどうすれば採用できるかコンサルティング的な動きをすることもありますが、ハローワークにはそういう機能はないんですよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747710772.707019",
+    "user_name": "石橋隆平",
+    "text_readable": "転職エージェントは売上を上げるために予算がある会社にはどうすれば採用できるかコンサルティング的な動きをすることもありますが、ハローワークにはそういう機能はないんですよね"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747715305.400109",
+    "client_msg_id": "42D2E171-1983-465F-B495-BF4B9CA8B589",
+    "text": "失業手当もらうために必要なので他で転職活動するけどハローワークでも紹介してもらってるというケースもあるけどどれくらいのボリュームかは不明",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747710772.707019",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9j/aS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "失業手当もらうために必要なので他で転職活動するけどハローワークでも紹介してもらってるというケースもあるけどどれくらいのボリュームかは不明"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747710772.707019",
+    "user_name": "石橋隆平",
+    "text_readable": "失業手当もらうために必要なので他で転職活動するけどハローワークでも紹介してもらってるというケースもあるけどどれくらいのボリュームかは不明"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HV1H5HKK",
+    "thread_ts": "1747710772.707019",
+    "root": {
+      "user": "U08HV1H5HKK",
+      "type": "message",
+      "ts": "1747710772.707019",
+      "client_msg_id": "C5A27343-190A-4675-9F13-FCAD92EDDF84",
+      "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n<https://x.com/nikkei/status/1924513703782973739?s=46|https://x.com/nikkei/status/1924513703782973739?s=46>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747710772.707019",
+      "reply_count": 5,
+      "reply_users_count": 2,
+      "latest_reply": "1747715305.400109",
+      "reply_users": [
+        "U08HV1H5HKK",
+        "U08HKU721PV"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+          "thumb_url": "https://pbs.twimg.com/profile_images/1161879315933351936/CQbpby6s_200x200.jpg",
+          "thumb_width": 200,
+          "thumb_height": 200,
+          "id": 1,
+          "original_url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "fallback": "X (formerly Twitter): 日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+          "text": "ハローワーク、求人出しても9割空振り　求職者とミスマッチ拡大\n<https://t.co/u3k4FrUlda>",
+          "title": "日本経済新聞 電子版（日経電子版） (@nikkei) on X",
+          "title_link": "https://x.com/nikkei/status/1924513703782973739?s=46",
+          "service_name": "X (formerly Twitter)"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O/o2z",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "ながらく人材業界のエンジニアしてたものの身としてはこの問題は無視できないんだけどなんかいいアプローチないかなぁ。。。\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://x.com/nikkei/status/1924513703782973739?s=46",
+                  "text": "https://x.com/nikkei/status/1924513703782973739?s=46"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747710901.913569",
+    "client_msg_id": "DA8E82FB-87DB-48DB-9CF9-EF216316F66A",
+    "text": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tOjtP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "kininaru",
+        "users": [
+          "U08HKU721PV",
+          "U08QDPC2JRG",
+          "U08R11R3ERM"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "情報の非対称性が問題の根本にあるだけど、求職者側のニーズと求人企業側のニーズを公聴AIやいどばたで繋げてミスマッチが自然解消する仕組み作れないですかね？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1747718106.095609",
+    "client_msg_id": "bc0f83eb-88cb-4dba-a61d-c30a27e5b05d",
+    "text": "ゼロサムヒューリスティックを主張する政治家の可視化はやりたいな\n\n<https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&amp;s=31|https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&amp;s=31>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31",
+        "image_url": "https://pbs.twimg.com/media/GrUFblvaMAEw1Rp.png:large",
+        "image_width": 1738,
+        "image_height": 1290,
+        "image_bytes": 207626,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&amp;s=31",
+        "fallback": "X (formerly Twitter): 読書猿 5/23 新刊『ゼロからの読書教室』 (@kurubushi_rm) on X",
+        "text": "たとえば\nゼロサムヒューリスティック、\nざっくりいうと「他者が得をすると自分が損をする」思考は、\n社会・経済への深刻なマイナス影響がありますよね。\n\nちょっとまとめただけでもこんな具合。\nどれも、よく見かける「光景」じゃないですか。",
+        "title": "読書猿 5/23 新刊『ゼロからの読書教室』 (@kurubushi_rm) on X",
+        "title_link": "https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z0AFU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ゼロサムヒューリスティックを主張する政治家の可視化はやりたいな\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31",
+                "text": "https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08J8NCNYL8"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yosasou",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ゼロサムヒューリスティックを主張する政治家の可視化はやりたいな\n\n<https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31|https://x.com/kurubushi_rm/status/1924450605365604482?t=zhfsYcjt7IJ_IayM3cF6yQ&s=31>"
+  }
+]

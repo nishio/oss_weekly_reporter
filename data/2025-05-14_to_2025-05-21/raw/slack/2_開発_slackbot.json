@@ -1,0 +1,2181 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08JN7X6XQX",
+    "text": "<@U08JN7X6XQX> has joined the channel",
+    "type": "message",
+    "ts": "1747193132.738289",
+    "user_name": "LogExporter",
+    "text_readable": "@logexporter has joined the channel"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747193220.640169",
+    "client_msg_id": "b62e35fa-7d63-42d4-84be-28bec76ce44a",
+    "text": "やろうとして仕様検討中のこと:\n• <#C08HKET1YG3|> への投稿をユーザIDごとにDBに保存しておく\n    ◦ 同じユーザが再度投稿した場合は最新のものだけ\n• このユーザの自己紹介、をパッと参照できるようにしておきたい\n• 実行した本人だけが読めれば良いので、 slash command として実装するのがいい気がする。\n• 自分に slash command の追加権限がない ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "urUQU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やろうとして仕様検討中のこと:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "channel",
+                    "channel_id": "C08HKET1YG3"
+                  },
+                  {
+                    "type": "text",
+                    "text": " への投稿をユーザIDごとにDBに保存しておく"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "同じユーザが再度投稿した場合は最新のものだけ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "このユーザの自己紹介、をパッと参照できるようにしておきたい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "実行した本人だけが読めれば良いので、 slash command として実装するのがいい気がする。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自分に slash command の追加権限がない "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sparkles",
+        "users": [
+          "U08RW9HTS76"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "やろうとして仕様検討中のこと:\n• <#C08HKET1YG3|> への投稿をユーザIDごとにDBに保存しておく\n    ◦ 同じユーザが再度投稿した場合は最新のものだけ\n• このユーザの自己紹介、をパッと参照できるようにしておきたい\n• 実行した本人だけが読めれば良いので、 slash command として実装するのがいい気がする。\n• 自分に slash command の追加権限がない "
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747193365.524999",
+    "client_msg_id": "745c2e0b-a77c-4cec-8352-ef0a9f8ec33a",
+    "text": "LogExporter とか、個別に app にする必要は多分ないので、1つの app にまとめられるものはどんどんまとめていきたい。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dIyST",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "LogExporter とか、個別に app にする必要は多分ないので、1つの app にまとめられるものはどんどんまとめていきたい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "LogExporter とか、個別に app にする必要は多分ないので、1つの app にまとめられるものはどんどんまとめていきたい。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747193725.870839",
+    "client_msg_id": "26670986-8453-4b9f-90bf-05aad1005ab3",
+    "text": "<@U08RRK2AWLQ> のアイコン作るか。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d/93S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RRK2AWLQ"
+              },
+              {
+                "type": "text",
+                "text": " のアイコン作るか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@ddbot のアイコン作るか。"
+  },
+  {
+    "user": "U08RRK2AWLQ",
+    "type": "message",
+    "ts": "1747193728.386349",
+    "bot_id": "B08RRK2AJ80",
+    "app_id": "A08PM1QDJBF",
+    "text": "やっほー <@U08JASQKEEM>!",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08RRK2AJ80",
+      "deleted": false,
+      "name": "dd-bot",
+      "updated": 1746532812,
+      "app_id": "A08PM1QDJBF",
+      "user_id": "U08RRK2AWLQ",
+      "icons": {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "section",
+        "block_id": "ZbkxM",
+        "text": {
+          "type": "mrkdwn",
+          "text": "やっほー <@U08JASQKEEM>!",
+          "verbatim": false
+        }
+      }
+    ],
+    "user_name": "dd-bot",
+    "text_readable": "やっほー @kuboon!"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08G2A216TW",
+    "text": "<@U08G2A216TW> has joined the channel",
+    "type": "message",
+    "ts": "1747197455.423089",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@nishio.hirokazu has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08RW9HTS76",
+    "text": "<@U08RW9HTS76> has joined the channel",
+    "type": "message",
+    "ts": "1747201015.170719",
+    "user_name": "吾解",
+    "text_readable": "@akai2013sagagei has joined the channel"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747203282.942049",
+    "client_msg_id": "64ad2080-c808-40d4-8ecc-4cf55acd75b4",
+    "text": "自己紹介を書いたときに、その内容をもとにおすすめのチャンネルを自動招待するとかできるかなあ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "STZgz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自己紹介を書いたときに、その内容をもとにおすすめのチャンネルを自動招待するとかできるかなあ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "自己紹介を書いたときに、その内容をもとにおすすめのチャンネルを自動招待するとかできるかなあ"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08LQ25DPAB",
+    "text": "<@U08LQ25DPAB> has joined the channel",
+    "type": "message",
+    "ts": "1747217393.690379",
+    "user_name": "masato sasano",
+    "text_readable": "@masatosasano2 has joined the channel"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747217538.042879",
+    "client_msg_id": "bb5af265-a39a-487e-bb27-60806d22bf0d",
+    "text": "自己紹介をGSSに溜めるのは自分が作ったやつです、今出先なので戻ったらコード共有します！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "osep+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自己紹介をGSSに溜めるのは自分が作ったやつです、今出先なので戻ったらコード共有します！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": "自己紹介をGSSに溜めるのは自分が作ったやつです、今出先なので戻ったらコード共有します！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08LQ25DPAB",
+    "thread_ts": "1747193051.351489",
+    "root": {
+      "user": "U08JASQKEEM",
+      "type": "message",
+      "ts": "1747193051.351489",
+      "client_msg_id": "47972d75-0fa3-42fd-8d74-1a2a4e2b32dc",
+      "text": "やろうとして挫折したこと１:\n• <https://dd2030.slack.com/archives/C08FL58M3D3/p1746583497846969> で、 slack profile に github 欄を追加したので、その逆検索 (github の kuboon はこの slack の誰か？) を実装しようとしたのだけど、 \n• users.list でカスタムプロフィールが取れない。\n• users.profile.get を人数分 (すでに900人) コールする必要がある\n• 一旦実行して db に保存したとして、更新のイベントが取れないっぽい？ \n    ◦ <https://api.slack.com/events/user_change> はカスタムプロフィールの変更では fire されないっぽい (未検証)",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747193051.351489",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1747220208.808849",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08JASQKEEM",
+        "U08LQ25DPAB"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1746583497846969",
+          "ts": "1746583497.846969",
+          "author_id": "U08JASQKEEM",
+          "channel_id": "C08FL58M3D3",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "is_thread_root_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08FL58M3D3",
+              "ts": "1746583497.846969",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "sTIPz",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "この slack workspace の管理者はどなたでしたっけ？\n"
+                          },
+                          {
+                            "type": "text",
+                            "text": "https://w1740803485-clv347541.slack.com/",
+                            "style": {
+                              "unlink": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "admin/atlas/configure-profile\nここの一番下でユーザープロフィールの項目を追加できるのですが、\ngithub とか追加しとくといいかもです。"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "files": [
+            {
+              "id": "F08QSUTTJET",
+              "created": 1746583489,
+              "timestamp": 1746583489,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U08JASQKEEM",
+              "user_team": "T08FL58DC9K",
+              "editable": false,
+              "size": 44671,
+              "mode": "hosted",
+              "is_external": false,
+              "external_type": "",
+              "is_public": true,
+              "public_url_shared": false,
+              "display_as_bot": false,
+              "username": "",
+              "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08QSUTTJET/image.png",
+              "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08QSUTTJET/download/image.png",
+              "media_display_type": "unknown",
+              "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_80.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_360.png",
+              "thumb_360_w": 360,
+              "thumb_360_h": 195,
+              "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 260,
+              "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_160.png",
+              "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 391,
+              "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08QSUTTJET-a82cc1952e/image_800.png",
+              "thumb_800_w": 800,
+              "thumb_800_h": 434,
+              "original_w": 920,
+              "original_h": 499,
+              "thumb_tiny": "AwAaADDSwc9fwpTxSDGenNDY70ALRQBgUUAFJg7s54x0peMU35fM/wBrFAC8+tFFFAC5ozSUUALmikqJSd4570Af/9k=",
+              "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08QSUTTJET/image.png",
+              "permalink_public": "https://slack-files.com/T08FL58DC9K-F08QSUTTJET-f25f9ba976",
+              "comments_count": 0,
+              "is_starred": false,
+              "skipped_shares": true,
+              "has_rich_preview": false,
+              "file_access": "visible"
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1746583497846969",
+          "fallback": "[May 6th, 2025 7:04 PM] kuboon: この slack workspace の管理者はどなたでしたっけ？\n<https://w1740803485-clv347541.slack.com/admin/atlas/configure-profile>\nここの一番下でユーザープロフィールの項目を追加できるのですが、\ngithub とか追加しとくといいかもです。",
+          "text": "この slack workspace の管理者はどなたでしたっけ？\n<https://w1740803485-clv347541.slack.com/admin/atlas/configure-profile>\nここの一番下でユーザープロフィールの項目を追加できるのですが、\ngithub とか追加しとくといいかもです。",
+          "author_name": "Ohkubo KOHEI (kuboon)",
+          "author_link": "https://dd2030.slack.com/team/U08JASQKEEM",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-17/8622908976177_04e3df87088aa6049b14_48.jpg",
+          "author_subname": "Ohkubo KOHEI (kuboon)",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack conversation"
+        },
+        {
+          "from_url": "https://api.slack.com/events/user_change",
+          "service_icon": "https://a.slack-edge.com/80588/marketing/img/meta/favicon-32.png",
+          "thumb_url": "https://a.slack-edge.com/80588/img/services/api_200.png",
+          "thumb_width": 200,
+          "thumb_height": 200,
+          "id": 2,
+          "original_url": "https://api.slack.com/events/user_change",
+          "fallback": "Slack API: user_change eventAPI event",
+          "text": "A member's data has changed",
+          "title": "user_change eventAPI event",
+          "title_link": "https://api.slack.com/events/user_change",
+          "service_name": "Slack API"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xyWsU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "やろうとして挫折したこと１:\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1746583497846969"
+                    },
+                    {
+                      "type": "text",
+                      "text": " で、 slack profile に github 欄を追加したので、その逆検索 (github の kuboon はこの slack の誰か？) を実装しようとしたのだけど、 "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "users.list でカスタムプロフィールが取れない。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "users.profile.get を人数分 (すでに900人) コールする必要がある"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "一旦実行して db に保存したとして、更新のイベントが取れないっぽい？ "
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://api.slack.com/events/user_change"
+                    },
+                    {
+                      "type": "text",
+                      "text": " はカスタムプロフィールの変更では fire されないっぽい (未検証)"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747220208.808849",
+    "client_msg_id": "bf138a6f-cd2a-419c-a25e-7466890c0cd1",
+    "text": "<@U08JASQKEEM> 自己紹介まとめのやつです。Bot使ってました\n<https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259|スプレッドシート>　<https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit|GAS>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8vDJh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " 自己紹介まとめのやつです。Bot使ってました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259",
+                "text": "スプレッドシート"
+              },
+              {
+                "type": "text",
+                "text": "　"
+              },
+              {
+                "type": "link",
+                "url": "https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit",
+                "text": "GAS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": "@kuboon 自己紹介まとめのやつです。Bot使ってました\n<https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259|スプレッドシート>　<https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit|GAS>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747231803.161259",
+    "client_msg_id": "56A9EFB4-0D37-493F-AA05-297AA1B35544",
+    "text": "これはこのままで bot token を使い回すだけでアプリ1つ消せますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "reply_count": 8,
+    "reply_users_count": 3,
+    "latest_reply": "1747363812.115069",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08JASQKEEM",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MujJ8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはこのままで bot token を使い回すだけでアプリ1つ消せますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "これはこのままで bot token を使い回すだけでアプリ1つ消せますね"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747233553.357639",
+    "client_msg_id": "d8aba473-3368-4e71-8355-f12036e5cadf",
+    "text": "<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/installed|アプリ一覧>のうち、外部ツールを除くと以下4つですね。2が自己紹介のやつです。全部まとめてしまってもいいですが、3は公式サイトにある活動履歴の更新に使われてるのと、4は雰囲気外部ツールトリガーっぽいので、慎重にいきたいです。となると、まとめやすいのは1と2でしょうか。こっちのを移植するの難しくないので、1に合流して良いですか？\n1. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08PM1QDJBF/permissions|dd-bot>*\n2. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|dd2030 crawler>*\n3. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KDFBBV8R/permissions|LogExporter>*\n4. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KJ9745LG/permissions|Webhook>*",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PqcKt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/installed",
+                "text": "アプリ一覧"
+              },
+              {
+                "type": "text",
+                "text": "のうち、外部ツールを除くと以下4つですね。2が自己紹介のやつです。全部まとめてしまってもいいですが、3は公式サイトにある活動履歴の更新に使われてるのと、4は雰囲気外部ツールトリガーっぽいので、慎重にいきたいです。となると、まとめやすいのは1と2でしょうか。こっちのを移植するの難しくないので、1に合流して良いですか？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08PM1QDJBF/permissions",
+                    "text": "dd-bot",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions",
+                    "text": "dd2030 crawler",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KDFBBV8R/permissions",
+                    "text": "LogExporter",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KJ9745LG/permissions",
+                    "text": "Webhook",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": "<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/installed|アプリ一覧>のうち、外部ツールを除くと以下4つですね。2が自己紹介のやつです。全部まとめてしまってもいいですが、3は公式サイトにある活動履歴の更新に使われてるのと、4は雰囲気外部ツールトリガーっぽいので、慎重にいきたいです。となると、まとめやすいのは1と2でしょうか。こっちのを移植するの難しくないので、1に合流して良いですか？\n1. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08PM1QDJBF/permissions|dd-bot>*\n2. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|dd2030 crawler>*\n3. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KDFBBV8R/permissions|LogExporter>*\n4. *<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08KJ9745LG/permissions|Webhook>*"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747233634.258139",
+    "client_msg_id": "8929fa0e-84ef-48ba-b6a4-a7175c73dce0",
+    "text": "&gt;  外部ツールを除くと\nあれ、Figmaっているんだろうか\nあとLoopHQは何かに使われてるんだろうか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4s7GX",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 外部ツールを除くと"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nあれ、Figmaっているんだろうか\nあとLoopHQは何かに使われてるんだろうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": ">  外部ツールを除くと\nあれ、Figmaっているんだろうか\nあとLoopHQは何かに使われてるんだろうか"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747268231.297389",
+    "client_msg_id": "0f366ed1-77a5-4ee4-b8a0-19615dde0feb",
+    "text": "dd_botのtokenをDMか何かで教えていただけますか？:pray: 差し替え後にdd2030 crawlerは消します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6GDbd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd_botのtokenをDMか何かで教えていただけますか？"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": " 差し替え後にdd2030 crawlerは消します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": "dd_botのtokenをDMか何かで教えていただけますか？:pray: 差し替え後にdd2030 crawlerは消します"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747268307.926739",
+    "client_msg_id": "b790b853-d420-47ff-bc4e-890aeafe6b87",
+    "text": "<@U08LQ25DPAB> DM しました。\n私は元々 <@U08FTAEETAB> さんからもらったので一応情報共有。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BNM5e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": " DM しました。\n私は元々 "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": " さんからもらったので一応情報共有。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@masatosasano2 DM しました。\n私は元々 @jujunjun110 さんからもらったので一応情報共有。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747268887.555329",
+    "client_msg_id": "b4451275-78fe-4da3-b0b2-955924493ae4",
+    "text": "あれ、こけた\n携帯だとよく分からないので夜確認します！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4Kzdh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ、こけた\n携帯だとよく分からないので夜確認します！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": "あれ、こけた\n携帯だとよく分からないので夜確認します！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1747287972.202299",
+    "client_msg_id": "09C83ECA-E7D0-4A51-8C51-AE3BB2282888",
+    "text": "僕にもDMしておいてください、毎週のまとめを生成してるところを置き換えて問題なく動きそうか確認しときます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+jgEd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕にもDMしておいてください、毎週のまとめを生成してるところを置き換えて問題なく動きそうか確認しときます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM",
+          "U08LQ25DPAB"
+        ],
+        "count": 2
+      },
+      {
+        "name": "done2",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕にもDMしておいてください、毎週のまとめを生成してるところを置き換えて問題なく動きそうか確認しときます"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747354825.357349",
+    "client_msg_id": "ed774358-6671-41cf-a6a2-b018c8dcebb4",
+    "text": "チャンネルに招待されたbotを入れ替えたら無事通りました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "32K1k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チャンネルに招待されたbotを入れ替えたら無事通りました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": "チャンネルに招待されたbotを入れ替えたら無事通りました！"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747363812.115069",
+    "client_msg_id": "f2880188-1e60-41b7-b821-89e7ade3c4a8",
+    "text": "dd2030 crawler を削除しました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747231803.161259",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6rkzm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030 crawler を削除しました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747231803.161259",
+    "user_name": "masato sasano",
+    "text_readable": "dd2030 crawler を削除しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747270299.247349",
+    "client_msg_id": "883c123e-1192-448c-a235-353b27d5d1b4",
+    "text": "<@U08FY2KR468> MemberMonitorBot について教えてください、これはどういう実装でしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "reply_count": 6,
+    "reply_users_count": 4,
+    "latest_reply": "1747618754.724679",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08FY2KR468",
+      "U08LQ25DPAB",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dAbWP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FY2KR468"
+              },
+              {
+                "type": "text",
+                "text": " MemberMonitorBot について教えてください、これはどういう実装でしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@llehctim.k MemberMonitorBot について教えてください、これはどういう実装でしょうか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1747365514.087559",
+    "client_msg_id": "b2276f7e-2a61-436d-873e-747a8d2774d7",
+    "text": "中身は不明ですが<#C08QLT17362|> 用かと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HdGLD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "中身は不明ですが"
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08QLT17362"
+              },
+              {
+                "type": "text",
+                "text": " 用かと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747270299.247349",
+    "user_name": "小野翔太",
+    "text_readable": "中身は不明ですが<#C08QLT17362|> 用かと思います"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1747366987.624409",
+    "client_msg_id": "8f82b866-2dc5-4669-83c9-6aa2c1625464",
+    "text": "すみません、こちら週末にお返事させてください！:pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WgeF1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません、こちら週末にお返事させてください！"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U08HWJ80CHG",
+          "U08JASQKEEM"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747270299.247349",
+    "user_name": "Michio Kawai",
+    "text_readable": "すみません、こちら週末にお返事させてください！:pray:"
+  },
+  {
+    "text": "こういうパターンもあるんですね",
+    "files": [
+      {
+        "id": "F08SFN38E2X",
+        "created": 1747401155,
+        "timestamp": 1747401155,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08LQ25DPAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 47768,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08SFN38E2X/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08SFN38E2X/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 38,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 51,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 76,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 84,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 101,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08SFN38E2X-9b3f04817f/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 108,
+        "original_w": 1250,
+        "original_h": 132,
+        "thumb_tiny": "AwAFADDQcHIw2KXb/tH86G6rS0AIMjvS8+o/KiigA5x1H5UDNHaloA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08SFN38E2X/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08SFN38E2X-8bda58e106",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08LQ25DPAB",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qox3D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういうパターンもあるんですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1747401159.959819",
+    "client_msg_id": "4615a6bc-8714-46d7-8e4e-e1de516e4298",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "parent_ts": "1747270299.247349",
+    "user_name": "masato sasano",
+    "text_readable": "こういうパターンもあるんですね"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1747581844.396399",
+    "client_msg_id": "c591fc3f-5d2f-4e4e-aa8f-663b8e837339",
+    "text": "• このBotの主な用途：\n    ◦ <#C08QLT17362|> チャンネルにて、参加人数の増減（差分）を通知するために作成したBotです  \n    ◦ 当初はコミュニティの状況把握に活用していましたが、現在この用途が必要かどうかは、皆さんの運用状況に応じてご判断ください。\n•  使用中の OAuth Scopes：\n    ◦ chat:write\n    ◦ channels:read\n    ◦ users:read\n• スクリプトはこちらのスプシから確認できます： <https://docs.google.com/spreadsheets/d/12ZZrBb3InE1257AvGgp3xMr1q_RxUl7-nd6PoqYOVTg/edit>\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XgXN8",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "このBotの主な用途："
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "channel",
+                    "channel_id": "C08QLT17362"
+                  },
+                  {
+                    "type": "text",
+                    "text": " チャンネルにて、参加人数の増減（差分）を通知するために作成したBotです  "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "当初はコミュニティの状況把握に活用していましたが、現在この用途が必要かどうかは、皆さんの運用状況に応じてご判断ください。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " 使用中の OAuth Scopes："
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "chat:write"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "channels:read"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "users:read"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "スクリプトはこちらのスプシから確認できます： "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/spreadsheets/d/12ZZrBb3InE1257AvGgp3xMr1q_RxUl7-nd6PoqYOVTg/edit"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747270299.247349",
+    "user_name": "Michio Kawai",
+    "text_readable": "• このBotの主な用途：\n    ◦ <#C08QLT17362|> チャンネルにて、参加人数の増減（差分）を通知するために作成したBotです  \n    ◦ 当初はコミュニティの状況把握に活用していましたが、現在この用途が必要かどうかは、皆さんの運用状況に応じてご判断ください。\n•  使用中の OAuth Scopes：\n    ◦ chat:write\n    ◦ channels:read\n    ◦ users:read\n• スクリプトはこちらのスプシから確認できます： <https://docs.google.com/spreadsheets/d/12ZZrBb3InE1257AvGgp3xMr1q_RxUl7-nd6PoqYOVTg/edit>\n"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747616622.147139",
+    "client_msg_id": "c8ac45d5-bebc-4d7d-92d5-3b281bcb8a54",
+    "text": "把握しました、ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q17DD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "把握しました、ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08FY2KR468"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747270299.247349",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "把握しました、ありがとうございます！"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1747618754.724679",
+    "client_msg_id": "0788865f-d02b-4ac7-8c37-07d5ebac0846",
+    "text": "ありがとうございます！追加で何か必要でしたらお声がけください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747270299.247349",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XuNWJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！追加で何か必要でしたらお声がけください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747270299.247349",
+    "user_name": "Michio Kawai",
+    "text_readable": "ありがとうございます！追加で何か必要でしたらお声がけください！"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08FY2KR468",
+    "text": "<@U08FY2KR468> has joined the channel",
+    "inviter": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747270303.056249",
+    "user_name": "Michio Kawai",
+    "text_readable": "@llehctim.k has joined the channel"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747364413.638649",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1747364434.000000"
+    },
+    "client_msg_id": "82edf423-71f2-49eb-ab9b-165fa4526c57",
+    "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n• read-only のもの\n• 過去ログ書き換えや削除等のより強い権限を持つもの\nの2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747364413.638649",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1747399794.343439",
+    "reply_users": [
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VYwP9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "read-only のもの"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "過去ログ書き換えや削除等のより強い権限を持つもの"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "の2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "agree",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n• read-only のもの\n• 過去ログ書き換えや削除等のより強い権限を持つもの\nの2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08LQ25DPAB",
+    "thread_ts": "1747364413.638649",
+    "root": {
+      "user": "U08JASQKEEM",
+      "type": "message",
+      "ts": "1747364413.638649",
+      "edited": {
+        "user": "U08JASQKEEM",
+        "ts": "1747364434.000000"
+      },
+      "client_msg_id": "82edf423-71f2-49eb-ab9b-165fa4526c57",
+      "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n• read-only のもの\n• 過去ログ書き換えや削除等のより強い権限を持つもの\nの2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747364413.638649",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747399794.343439",
+      "reply_users": [
+        "U08LQ25DPAB"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VYwP9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "read-only のもの"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "過去ログ書き換えや削除等のより強い権限を持つもの"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "の2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747399739.047659",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1747399961.000000"
+    },
+    "client_msg_id": "d822f5df-c59b-4dfc-8540-9cf60c4ff653",
+    "text": "`dd-bot-readonly` を作りました。\nDMとprivate channelを除く<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|主要なread権限>を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o1Ceq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd-bot-readonly",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " を作りました。\nDMとprivate channelを除く"
+              },
+              {
+                "type": "link",
+                "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions",
+                "text": "主要なread権限"
+              },
+              {
+                "type": "text",
+                "text": "を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "igyo",
+        "users": [
+          "U08JASQKEEM",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747364413.638649",
+    "user_name": "masato sasano",
+    "text_readable": "`dd-bot-readonly` を作りました。\nDMとprivate channelを除く<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|主要なread権限>を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747399794.343439",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1747401343.000000"
+    },
+    "client_msg_id": "d381148c-08ae-4c12-a1c0-084200abcd32",
+    "text": "こちらでtokenを確認できます\n<https://api.slack.com/apps/A08QR0DF57B/oauth>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747364413.638649",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zIoYf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらでtokenを確認できます\n"
+              },
+              {
+                "type": "link",
+                "url": "https://api.slack.com/apps/A08QR0DF57B/oauth"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747364413.638649",
+    "user_name": "masato sasano",
+    "text_readable": "こちらでtokenを確認できます\n<https://api.slack.com/apps/A08QR0DF57B/oauth>"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747398300.815089",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1747398627.000000"
+    },
+    "client_msg_id": "0d059f32-b53e-4fc2-a050-2577bf8e074a",
+    "text": "<@U08HWJ80CHG> ふと思ったのですが、リマインダー系ってちょこちょこ書き換える羽目になる割に手間がかかるので、どこかの ~Canvasの~ リンクだけ貼っておく方式にするのはどうでしょう？次回の変更からでも\n追記：Canvasだとプレビューが出ないのでNG。投稿リンクの方が良さそう。ただし、それだと90日で削除される。うーむ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "reply_count": 8,
+    "reply_users_count": 4,
+    "latest_reply": "1747583044.972889",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08JASQKEEM",
+      "U08LQ25DPAB",
+      "U08FY2KR468"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MpOHc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " ふと思ったのですが、リマインダー系ってちょこちょこ書き換える羽目になる割に手間がかかるので、どこかの "
+              },
+              {
+                "type": "text",
+                "text": "Canvasの",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " リンクだけ貼っておく方式にするのはどうでしょう？次回の変更からでも\n追記：Canvasだとプレビューが出ないのでNG。投稿リンクの方が良さそう。ただし、それだと90日で削除される。うーむ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": "@oscar.gaddress ふと思ったのですが、リマインダー系ってちょこちょこ書き換える羽目になる割に手間がかかるので、どこかの ~Canvasの~ リンクだけ貼っておく方式にするのはどうでしょう？次回の変更からでも\n追記：Canvasだとプレビューが出ないのでNG。投稿リンクの方が良さそう。ただし、それだと90日で削除される。うーむ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1747398759.171619",
+    "client_msg_id": "9142a6ee-8b16-4991-abf1-f129e0cc983d",
+    "text": "slackに良いUIがないのが問題ですよねw\nslackの有料化、ボードメンバーの方にも伝えておいたので、検討してもらってます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6VSsW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "slackに良いUIがないのが問題ですよねw\nslackの有料化、ボードメンバーの方にも伝えておいたので、検討してもらってます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "小野翔太",
+    "text_readable": "slackに良いUIがないのが問題ですよねw\nslackの有料化、ボードメンバーの方にも伝えておいたので、検討してもらってます。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1747398821.720049",
+    "client_msg_id": "e923f677-a3d3-4628-a872-faded61944c8",
+    "text": "仕事のslackだとbotに呟かせてるので、うまくやればmdで管理できるかも？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "suyDV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "仕事のslackだとbotに呟かせてるので、うまくやればmdで管理できるかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "小野翔太",
+    "text_readable": "仕事のslackだとbotに呟かせてるので、うまくやればmdで管理できるかも？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747540822.448239",
+    "client_msg_id": "66D47C35-D0C5-4DF7-8DDD-B7E6B93662ED",
+    "text": "どんなリマインダーが slack 上で使いやすいか、はわりと興味のあるテーマなので詳しく検討したいです。\n仕様が固まったらわたしが実装します。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "osH1u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どんなリマインダーが slack 上で使いやすいか、はわりと興味のあるテーマなので詳しく検討したいです。\n仕様が固まったらわたしが実装します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "どんなリマインダーが slack 上で使いやすいか、はわりと興味のあるテーマなので詳しく検討したいです。\n仕様が固まったらわたしが実装します。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747541115.451179",
+    "client_msg_id": "2bb7cb78-63e7-4613-9bb2-b46ff5d0718a",
+    "text": "今の定例会のリマインダー、時間を変えて3回投稿されていますが、これが1アクションでできるとよさそうです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GiYJl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今の定例会のリマインダー、時間を変えて3回投稿されていますが、これが1アクションでできるとよさそうです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "masato sasano",
+    "text_readable": "今の定例会のリマインダー、時間を変えて3回投稿されていますが、これが1アクションでできるとよさそうです"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747541443.710239",
+    "client_msg_id": "06B4E674-DFDA-439E-A859-3FE25B03B692",
+    "text": "時刻の変更があった時に3回書き換えるのが面倒、という話ですかね？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w96aP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "時刻の変更があった時に3回書き換えるのが面倒、という話ですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "時刻の変更があった時に3回書き換えるのが面倒、という話ですかね？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747541466.455599",
+    "client_msg_id": "191F1415-6FD5-452B-A8DD-DE8637AC9B52",
+    "text": "(そもそも3回必要なのか。？みたいな気はちょっとしますが)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1U/qi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(そもそも3回必要なのか。？みたいな気はちょっとしますが)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "(そもそも3回必要なのか。？みたいな気はちょっとしますが)"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747542429.718249",
+    "client_msg_id": "393b9dc0-41c1-490b-b836-dda36928df59",
+    "text": "ですね。時刻の他に、URLが変わったり資料リンクを追記したりと、時々内容が変わります\n3回必要なのか？ → これは確かに",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a8mwy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ですね。時刻の他に、URLが変わったり資料リンクを追記したりと、時々内容が変わります\n3回必要なのか？ → これは確かに"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "masato sasano",
+    "text_readable": "ですね。時刻の他に、URLが変わったり資料リンクを追記したりと、時々内容が変わります\n3回必要なのか？ → これは確かに"
+  },
+  {
+    "user": "U08FY2KR468",
+    "type": "message",
+    "ts": "1747583044.972889",
+    "client_msg_id": "b15b472a-d2a7-4a31-90d9-7feddc4bee43",
+    "text": "3回は当初メンバーの要望だったので、全然変えていいと思います（慣れてきたと思いますし）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747398300.815089",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G1x8b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3回は当初メンバーの要望だったので、全然変えていいと思います（慣れてきたと思いますし）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1747398300.815089",
+    "user_name": "Michio Kawai",
+    "text_readable": "3回は当初メンバーの要望だったので、全然変えていいと思います（慣れてきたと思いますし）"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08LQ25DPAB",
+    "thread_ts": "1747364413.638649",
+    "root": {
+      "user": "U08JASQKEEM",
+      "type": "message",
+      "ts": "1747364413.638649",
+      "edited": {
+        "user": "U08JASQKEEM",
+        "ts": "1747364434.000000"
+      },
+      "client_msg_id": "82edf423-71f2-49eb-ab9b-165fa4526c57",
+      "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n• read-only のもの\n• 過去ログ書き換えや削除等のより強い権限を持つもの\nの2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747364413.638649",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1747399794.343439",
+      "reply_users": [
+        "U08LQ25DPAB"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VYwP9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "bot-token の集約を進めているところですが、強い権限の bot-token がばら撒かれていくのはちょっと危うい感じはするので、\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "read-only のもの"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "過去ログ書き換えや削除等のより強い権限を持つもの"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "の2つは最低限 slack app を分けた方がいいような気がしてきました。\n本 slack 自体が full open であるという前提のはずなので前者は bot-token を秘匿する必要がなく、 canvas とかに書いちゃってもいい\n後者は厳重に bot デプロイ先のみに保管し、 github 上でレビュー&マージされたコードからしか利用できないようにする。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1747399739.047659",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1747399961.000000"
+    },
+    "client_msg_id": "d822f5df-c59b-4dfc-8540-9cf60c4ff653",
+    "text": "`dd-bot-readonly` を作りました。\nDMとprivate channelを除く<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|主要なread権限>を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o1Ceq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd-bot-readonly",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " を作りました。\nDMとprivate channelを除く"
+              },
+              {
+                "type": "link",
+                "url": "https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions",
+                "text": "主要なread権限"
+              },
+              {
+                "type": "text",
+                "text": "を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "igyo",
+        "users": [
+          "U08JASQKEEM",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": "`dd-bot-readonly` を作りました。\nDMとprivate channelを除く<https://app.slack.com/apps-manage/T08FL58DC9K/integrations/profile/A08QR0DF57B/permissions|主要なread権限>を付与しました。Collaboratorsに今このチャンネルにいるメンバーを追加してます。"
+  }
+]

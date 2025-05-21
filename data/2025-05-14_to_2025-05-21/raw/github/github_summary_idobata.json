@@ -1,0 +1,425 @@
+{
+  "period": {
+    "start": "2025-05-14T12:26:02.346355+09:00",
+    "end": "2025-05-21T12:26:02.346355+09:00"
+  },
+  "repo": "digitaldemocracy2030/idobata",
+  "issues": [
+    {
+      "id": 3038759487,
+      "number": 202,
+      "title": "[UI] チャット内で改行したい",
+      "state": "closed"
+    },
+    {
+      "id": 3038757554,
+      "number": 201,
+      "title": "[UI] チャット入力欄へのfocusの改善",
+      "state": "closed"
+    },
+    {
+      "id": 3027865125,
+      "number": 84,
+      "title": "ワイヤフレームに存在する画面を一通り揃え、開発者がイメージを持ちやすくしつつ、開発を行う際の雛形を作成する(管理画面)",
+      "state": "closed"
+    },
+    {
+      "id": 3072435796,
+      "number": 336,
+      "title": "論点ページがどのテーマの論点なのかわからない",
+      "state": "created"
+    },
+    {
+      "id": 3070805581,
+      "number": 332,
+      "title": "強い意見がマージされなかった場合の対処と運営者匿名性について",
+      "state": "created"
+    },
+    {
+      "id": 3070750436,
+      "number": 330,
+      "title": "長文を貼り付けると、元データの大半が書き換えられてしまう",
+      "state": "created"
+    },
+    {
+      "id": 3070395948,
+      "number": 329,
+      "title": "１つのチャットで別の話題を話した場合は、別のスペースに誘導してほしい",
+      "state": "created"
+    },
+    {
+      "id": 3070352781,
+      "number": 328,
+      "title": "チャットの回答が不自然",
+      "state": "created"
+    },
+    {
+      "id": 3070332797,
+      "number": 327,
+      "title": "[いどばた政策立案] 利用者が特定トピックを見つけやすいように横断検索機能をつける",
+      "state": "created"
+    },
+    {
+      "id": 3070273590,
+      "number": 326,
+      "title": "[いどばた政策立案] 提案者がSNS上で拡散しやすいように、PRのリンクと同時にSNSシェアボタンを提供する",
+      "state": "created"
+    },
+    {
+      "id": 3069009532,
+      "number": 320,
+      "title": "PR文面がcodeリージョンになり横スクロールでMarkdownを読むハメになった",
+      "state": "created"
+    },
+    {
+      "id": 3068828859,
+      "number": 317,
+      "title": "[いどばた政策立案] 利用者にとって理解しやすくなるように、今見ているページを図式化する機能をつける",
+      "state": "created"
+    },
+    {
+      "id": 3068811366,
+      "number": 316,
+      "title": "markdownが表示される右ペインの下部に「進む」「戻る」ボタンが欲しい",
+      "state": "created"
+    },
+    {
+      "id": 3068752497,
+      "number": 314,
+      "title": "[いどばた政策立案]利用者が自身の過去の提案を見返せるように、AIとの対話ログを見える形で残す",
+      "state": "created"
+    },
+    {
+      "id": 3068673764,
+      "number": 313,
+      "title": "[GitHub Actions] 開発者やDevinが理解しやすいように、タイトルと内容とラベルを踏まえてタイトルを次の形式に整形する：「（利用者）が（価値を感じる）ように（実装内容）する」",
+      "state": "created"
+    },
+    {
+      "id": 3068620594,
+      "number": 312,
+      "title": "[いどばた政策立案] 利用者の認知コストと操作コストを減らすために、提案プロセスについて選択肢がない質問は省略する",
+      "state": "created"
+    },
+    {
+      "id": 3068578684,
+      "number": 311,
+      "title": "[いどばた政策立案] PRの一覧を見た有権者が不審に思わないように、提案者の名前の記法に一貫性を持たせる",
+      "state": "created"
+    },
+    {
+      "id": 3068563506,
+      "number": 310,
+      "title": "[いどばた政策立案] 利用者が、会話の進行度合いによっては右側に表示されているのが変更後の文章であることがわかるように、変更箇所を目立たせる",
+      "state": "created"
+    },
+    {
+      "id": 3068547878,
+      "number": 309,
+      "title": "[いどばた政策立案] [Bug] 利用者が混乱しないように、OpenRouter のエラーメッセージをそのまま表示しない",
+      "state": "created"
+    },
+    {
+      "id": 3068520601,
+      "number": 308,
+      "title": "[いどばた政策立案] 「レビュー」という用語に馴染みのない利用者にとって使いやすくなるように、「レビュー」という用語を言い換える",
+      "state": "created"
+    },
+    {
+      "id": 3068516568,
+      "number": 307,
+      "title": "[いどばた政策立案] 利用者に余計なところに意識を向かせないように、チャット欄の左上の「チャット」という見出しをなくす",
+      "state": "created"
+    },
+    {
+      "id": 3068501056,
+      "number": 306,
+      "title": "[いどばた政策立案] 利用者に余計なところに意識を向かせないように、チャット欄の右上の「✔︎接続済み」を消してエラー発生時のみ現れるUIを作成する",
+      "state": "created"
+    },
+    {
+      "id": 3068484556,
+      "number": 305,
+      "title": "[いどばた政策立案] 利用者が話題を切り替えられるように、話題を変えるボタンをつける",
+      "state": "created"
+    },
+    {
+      "id": 3068430642,
+      "number": 304,
+      "title": "[いどばた制作立案] 利用者が混乱しないように、1つの返信文に実行計画や実行結果が複数混在しないようにする",
+      "state": "created"
+    },
+    {
+      "id": 3068411747,
+      "number": 303,
+      "title": "[いどばた政策立案]利用者が飽きたり完了したと勘違いしないように、変更提案からPR完了までのステップや文章を簡略化する",
+      "state": "created"
+    },
+    {
+      "id": 3068378674,
+      "number": 302,
+      "title": "[いどばた政策立案] コミットとPRの違いがわからない利用者にとっても意味が伝わりやすくなるように、変更提案プロセスの説明文を改善する",
+      "state": "created"
+    },
+    {
+      "id": 3068368058,
+      "number": 301,
+      "title": "[いどばた政策立案]利用者にとって読みやすくなるように、チャット欄に入力されたプレーンテキストの改行などを正しく可視化する",
+      "state": "created"
+    },
+    {
+      "id": 3068198157,
+      "number": 300,
+      "title": "スマホで見る際に、チャット欄の高さを調整したい",
+      "state": "created"
+    },
+    {
+      "id": 3062641145,
+      "number": 285,
+      "title": "GitHubのことを何も知らない人でも使えるように体験を改善する",
+      "state": "created"
+    },
+    {
+      "id": 3062639535,
+      "number": 284,
+      "title": "[いどばた政策]MCPプルリク作成時に確率的に発生する不具合を抑える",
+      "state": "created"
+    },
+    {
+      "id": 3062637179,
+      "number": 283,
+      "title": "[いどばた政策]改善案を提案する過程でブランチに新しいコミットが入ったら、右の下書きビューワーの中身も更新されてほしい",
+      "state": "created"
+    },
+    {
+      "id": 3054077318,
+      "number": 276,
+      "title": "ロシア語表記が出る",
+      "state": "updated"
+    },
+    {
+      "id": 3052159602,
+      "number": 265,
+      "title": "課題点や解決策の数が他テーマの内容を含んで集計されてしまう",
+      "state": "updated"
+    },
+    {
+      "id": 3052128733,
+      "number": 262,
+      "title": "プロフィール名が未設定の時に誤った名前で呼びかけられることがある",
+      "state": "updated"
+    },
+    {
+      "id": 3052120564,
+      "number": 261,
+      "title": "[チャット] ハイコンテクストな問題提起への反応がイマイチ",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3075218343,
+      "number": 337,
+      "title": "Update: リンクワーカーが意見を紐づけるときにテーマIDを参照するように変更",
+      "state": "merged"
+    },
+    {
+      "id": 3071888467,
+      "number": 334,
+      "title": "Add: factcheck function",
+      "state": "merged"
+    },
+    {
+      "id": 3069488301,
+      "number": 322,
+      "title": "Feature/chat layout",
+      "state": "merged"
+    },
+    {
+      "id": 3069380911,
+      "number": 321,
+      "title": "Feature/dir refactoring",
+      "state": "merged"
+    },
+    {
+      "id": 3068919189,
+      "number": 319,
+      "title": "Add ADMIN_API_BASE_URL environment variable",
+      "state": "merged"
+    },
+    {
+      "id": 3068864444,
+      "number": 318,
+      "title": "Add VITE_ADMIN_FRONTEND_ALLOWED_HOSTS to admin vite config",
+      "state": "merged"
+    },
+    {
+      "id": 3067804309,
+      "number": 299,
+      "title": "チャットプロンプトに表示中のドキュメント名を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3067698850,
+      "number": 298,
+      "title": "ユーザー体験向上: 名前入力プロンプトの表示タイミング変更",
+      "state": "merged"
+    },
+    {
+      "id": 3067673310,
+      "number": 297,
+      "title": "ファイルパスをプロンプトに含める機能を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3067662572,
+      "number": 296,
+      "title": "プロンプト改善: レビュー依頼を改善提案の投稿に変更",
+      "state": "merged"
+    },
+    {
+      "id": 3067539485,
+      "number": 295,
+      "title": "UI/UX improvements for non-engineers",
+      "state": "merged"
+    },
+    {
+      "id": 3067260937,
+      "number": 293,
+      "title": "軽微な修正",
+      "state": "merged"
+    },
+    {
+      "id": 3067233423,
+      "number": 292,
+      "title": "hotfix nginx reload",
+      "state": "merged"
+    },
+    {
+      "id": 3067161526,
+      "number": 291,
+      "title": "Feature/postgres logging",
+      "state": "merged"
+    },
+    {
+      "id": 3064005723,
+      "number": 286,
+      "title": "Fix Markdown rendering in policy-edit module to match GitHub's style",
+      "state": "merged"
+    },
+    {
+      "id": 3062215331,
+      "number": 282,
+      "title": "モバイル向けチャットUIの改善",
+      "state": "merged"
+    },
+    {
+      "id": 3059437481,
+      "number": 281,
+      "title": "Add Open Graph and Twitter Card metadata to index.html",
+      "state": "merged"
+    },
+    {
+      "id": 3055061196,
+      "number": 279,
+      "title": "[UI] チャット入力欄へのfocusの改善",
+      "state": "merged"
+    },
+    {
+      "id": 3052084080,
+      "number": 259,
+      "title": "チャットUIでShift+Enterで改行できるように修正",
+      "state": "merged"
+    },
+    {
+      "id": 3075279568,
+      "number": 338,
+      "title": "Update: 見せたくないディレクトリをignoreする設定を追加",
+      "state": "created"
+    },
+    {
+      "id": 3071897080,
+      "number": 335,
+      "title": "ファクトチェック機能の実装",
+      "state": "created"
+    },
+    {
+      "id": 3071882065,
+      "number": 333,
+      "title": "Add factcheck implementation guide",
+      "state": "created"
+    },
+    {
+      "id": 3070767017,
+      "number": 331,
+      "title": "チャット画面をリサイズ可能に変更",
+      "state": "created"
+    },
+    {
+      "id": 3070271022,
+      "number": 325,
+      "title": "Replace '話題を変える' button with '再スタート' button",
+      "state": "created"
+    },
+    {
+      "id": 3070236565,
+      "number": 324,
+      "title": "「話題を変える」ボタンを「再スタート」ボタンに変更",
+      "state": "created"
+    },
+    {
+      "id": 3069987517,
+      "number": 323,
+      "title": "Add starter questions functionality",
+      "state": "created"
+    },
+    {
+      "id": 3068771192,
+      "number": 315,
+      "title": "チャットボットのシステムプロンプトに日本語応答の指示を追加",
+      "state": "created"
+    },
+    {
+      "id": 3067500759,
+      "number": 294,
+      "title": "OGP画像URLを環境変数から設定できるように変更",
+      "state": "created"
+    },
+    {
+      "id": 3066119641,
+      "number": 290,
+      "title": "チャット接続時にAIからの挨拶メッセージを表示する機能を追加",
+      "state": "created"
+    },
+    {
+      "id": 3065549425,
+      "number": 289,
+      "title": "チャット接続時に挨拶メッセージを表示する機能を追加",
+      "state": "created"
+    },
+    {
+      "id": 3064529669,
+      "number": 288,
+      "title": "Add authentication to policy-edit using better-auth with Drizzle adapter",
+      "state": "created"
+    },
+    {
+      "id": 3064212230,
+      "number": 287,
+      "title": "Implement backend authentication with better-auth",
+      "state": "created"
+    },
+    {
+      "id": 3044822892,
+      "number": 250,
+      "title": "Add demo URLs to README.md",
+      "state": "updated"
+    },
+    {
+      "id": 3042703217,
+      "number": 249,
+      "title": "Replace ListFilter icon with MessageSquareWarning",
+      "state": "updated"
+    }
+  ]
+}
