@@ -1,0 +1,5240 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1747818023.106119",
+    "bot_id": "B01",
+    "text": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JvX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Reminder: !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1747818053.826129",
+    "client_msg_id": "91080b15-cc13-4b0a-b953-4a758822af56",
+    "text": "すみません、5/9ののいどばた体験会に参加させてもらったものです。\n\nいどばた直接の質問ではなくて恐縮なのですが、体験会で使用された<https://idobata-demo.dd2030.org/top|こちらのデモ版>はどのようにホスティングされたのでしょうか。\n立憲民主党でいどばたを使用する予定でして、私が担当する予定です。\nアクセス数などは予想ができず、一旦はアクセス数が増えた場合も考慮しつつ、ミニマムな構成でデプロイしたいと考えております。\n管理画面側もデプロイしますが、当然一般ユーザーには非公開としたいです。\nどのような構築、構成がおすすめになりますでしょうか。\n\nいどばたに直接的な質問ではなく、申し訳ありません。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "reply_count": 13,
+    "reply_users_count": 3,
+    "latest_reply": "1748254202.857039",
+    "reply_users": [
+      "U08HMV9AHLL",
+      "U08HV1H5HKK",
+      "U08NN8A6P9D"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zZTwP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません、5/9ののいどばた体験会に参加させてもらったものです。\n\nいどばた直接の質問ではなくて恐縮なのですが、体験会で使用された"
+              },
+              {
+                "type": "link",
+                "url": "https://idobata-demo.dd2030.org/top",
+                "text": "こちらのデモ版"
+              },
+              {
+                "type": "text",
+                "text": "はどのようにホスティングされたのでしょうか。\n立憲民主党でいどばたを使用する予定でして、私が担当する予定です。\nアクセス数などは予想ができず、一旦はアクセス数が増えた場合も考慮しつつ、ミニマムな構成でデプロイしたいと考えております。\n管理画面側もデプロイしますが、当然一般ユーザーには非公開としたいです。\nどのような構築、構成がおすすめになりますでしょうか。\n\nいどばたに直接的な質問ではなく、申し訳ありません。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08HV1H5HKK",
+          "U08PM1S92DQ"
+        ],
+        "count": 2
+      },
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "sparkles",
+        "users": [
+          "U08RW9HTS76",
+          "U08PM1S92DQ"
+        ],
+        "count": 2
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "すみません、5/9ののいどばた体験会に参加させてもらったものです。\n\nいどばた直接の質問ではなくて恐縮なのですが、体験会で使用された<https://idobata-demo.dd2030.org/top|こちらのデモ版>はどのようにホスティングされたのでしょうか。\n立憲民主党でいどばたを使用する予定でして、私が担当する予定です。\nアクセス数などは予想ができず、一旦はアクセス数が増えた場合も考慮しつつ、ミニマムな構成でデプロイしたいと考えております。\n管理画面側もデプロイしますが、当然一般ユーザーには非公開としたいです。\nどのような構築、構成がおすすめになりますでしょうか。\n\nいどばたに直接的な質問ではなく、申し訳ありません。。"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747818489.137439",
+    "client_msg_id": "c2bf37f3-e617-4557-be1b-6a3ccccf33e4",
+    "text": ":yoroshikuonegaishimasu:\n\nデモは <@U08GJSBAX3K> さんがホスティングしていただいている気がします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RrCgD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "yoroshikuonegaishimasu"
+              },
+              {
+                "type": "text",
+                "text": "\n\nデモは "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " さんがホスティングしていただいている気がします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": ":yoroshikuonegaishimasu:\n\nデモは @shutaro.aoyama さんがホスティングしていただいている気がします！"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747818773.131719",
+    "client_msg_id": "7A9A2113-BE1E-4FE6-85C7-1353462DE663",
+    "text": "管理画面はベーシック認証かけるのが1番楽ですかね？\nもっと良い方あるかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aICJQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "管理画面はベーシック認証かけるのが1番楽ですかね？\nもっと良い方あるかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "石橋隆平",
+    "text_readable": "管理画面はベーシック認証かけるのが1番楽ですかね？\nもっと良い方あるかも"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1747818927.501069",
+    "client_msg_id": "8EDCB7D8-1570-4183-9A0A-BAEC158D4AB2",
+    "text": "<@U08NN8A6P9D> たしかいまブルーもさんが体調崩してるらしく、少し返信遅れるかもです。立憲さんのスケジュールはいつ頃をめどに考えておられますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qj/Th",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " たしかいまブルーもさんが体調崩してるらしく、少し返信遅れるかもです。立憲さんのスケジュールはいつ頃をめどに考えておられますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "石橋隆平",
+    "text_readable": "@foino74 たしかいまブルーもさんが体調崩してるらしく、少し返信遅れるかもです。立憲さんのスケジュールはいつ頃をめどに考えておられますか？"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747818982.165629",
+    "client_msg_id": "068cc28e-ca90-4bc3-809a-d38894d1024e",
+    "text": "ミニマムでいうと、<https://github.com/digitaldemocracy2030/idobata/tree/main> の readme に倣って各コンテナを起動していただくのが良さそうです\n\n想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています:yoroshikuonegaishimasu:）\n\n管理画面はそもそもアカウント作成手順的に認証認可がマストになっています！（<https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95|https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%[…]81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95> にある手順に沿って構築していただければ、自然と管理者のみがアクセスできるようになります）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wswm6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ミニマムでいうと、"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/main"
+              },
+              {
+                "type": "text",
+                "text": " の readme に倣って各コンテナを起動していただくのが良さそうです\n\n想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています"
+              },
+              {
+                "type": "emoji",
+                "name": "yoroshikuonegaishimasu"
+              },
+              {
+                "type": "text",
+                "text": "）\n\n管理画面はそもそもアカウント作成手順的に認証認可がマストになっています！（"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95",
+                "text": "https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%[…]81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95"
+              },
+              {
+                "type": "text",
+                "text": " にある手順に沿って構築していただければ、自然と管理者のみがアクセスできるようになります）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": "ミニマムでいうと、<https://github.com/digitaldemocracy2030/idobata/tree/main> の readme に倣って各コンテナを起動していただくのが良さそうです\n\n想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています:yoroshikuonegaishimasu:）\n\n管理画面はそもそもアカウント作成手順的に認証認可がマストになっています！（<https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95|https://github.com/digitaldemocracy2030/idobata/tree/main/admin#%E5%88%9D%E6%9C%9F%E7%AE%A1%E7%90%86%E3%[…]81%AE%E4%BD%9C%E6%88%90%E6%96%B9%E6%B3%95> にある手順に沿って構築していただければ、自然と管理者のみがアクセスできるようになります）"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1747821269.954129",
+    "client_msg_id": "b8e51735-1533-4639-ac37-ea71132fda06",
+    "text": "<@U08HMV9AHLL>\n\nありがとうございます。\nローカルでの環境構築はまさに上記のREADMEを参照しながら済ませており、管理画面もローカルでは初期ユーザーを生成し、立ち上げております。\n確かにadminもトップページで 認証画面が表示されるので、このままでも良いかもしれませんね。ありがとうございます。\n\n&gt; 想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています:yoroshikuonegaishimasu:）\n とても助かります。私のキャリアとしてホスティングの経験は薄く、、サポートしていただけると大変嬉しいです。ありがとうございます。\n要件やスケジュール、アクセス数(まだ想像がまだつきませんが、、)など考慮しながら構築できればと思っています。\n\n<@U08HV1H5HKK>\n\n&gt; 立憲さんのスケジュールはいつ頃をめどに考えておられますか？\n明日打ち合わせがありまして、立憲さんがやりたいテーマと共にスケジュール感を聞いてきます。\nありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hX8yO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\nありがとうございます。\nローカルでの環境構築はまさに上記のREADMEを参照しながら済ませており、管理画面もローカルでは初期ユーザーを生成し、立ち上げております。\n確かにadminもトップページで 認証画面が表示されるので、このままでも良いかもしれませんね。ありがとうございます。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています"
+              },
+              {
+                "type": "emoji",
+                "name": "yoroshikuonegaishimasu"
+              },
+              {
+                "type": "text",
+                "text": "）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": " とても助かります。私のキャリアとしてホスティングの経験は薄く、、サポートしていただけると大変嬉しいです。ありがとうございます。\n要件やスケジュール、アクセス数(まだ想像がまだつきませんが、、)など考慮しながら構築できればと思っています。\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08HV1H5HKK"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "立憲さんのスケジュールはいつ頃をめどに考えておられますか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "明日打ち合わせがありまして、立憲さんがやりたいテーマと共にスケジュール感を聞いてきます。\nありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids\n\nありがとうございます。\nローカルでの環境構築はまさに上記のREADMEを参照しながら済ませており、管理画面もローカルでは初期ユーザーを生成し、立ち上げております。\n確かにadminもトップページで 認証画面が表示されるので、このままでも良いかもしれませんね。ありがとうございます。\n\n> 想定アクセス数などの観点でロードバランサーを置いて複数のWebサーバーを起動する、などより凝った構成が追って必要になる可能性もありますが、そのあたりはおそらくこれまで開発チームとしても前例はないので、要件やスケジュール等ふまえてぜひ相談させていただきたいです！（実践的な事例として運用ノウハウが溜まるのはいどばた開発チームとしても歓迎なので、積極的にサポートさせていただきたいと思っています:yoroshikuonegaishimasu:）\n とても助かります。私のキャリアとしてホスティングの経験は薄く、、サポートしていただけると大変嬉しいです。ありがとうございます。\n要件やスケジュール、アクセス数(まだ想像がまだつきませんが、、)など考慮しながら構築できればと思っています。\n\n@rysh.cact\n\n> 立憲さんのスケジュールはいつ頃をめどに考えておられますか？\n明日打ち合わせがありまして、立憲さんがやりたいテーマと共にスケジュール感を聞いてきます。\nありがとうございます！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747823359.505869",
+    "client_msg_id": "786d41af-7214-4f5b-957c-d47c4dc6fc65",
+    "text": "<@U08NN8A6P9D> もし可能でしたら、明日の打ち合わせにいどばた開発チームからも1名（都合が付けば私）同席させていただけたりしないでしょうか...？（このプロジェクトを温度感高く進めたいと思っており、取り組めることをなるべくリアルにキャッチアップしたい意図です！）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FsKhU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " もし可能でしたら、明日の打ち合わせにいどばた開発チームからも1名（都合が付けば私）同席させていただけたりしないでしょうか...？（このプロジェクトを温度感高く進めたいと思っており、取り組めることをなるべくリアルにキャッチアップしたい意図です！）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "sparkles",
+        "users": [
+          "U08RW9HTS76"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": "@foino74 もし可能でしたら、明日の打ち合わせにいどばた開発チームからも1名（都合が付けば私）同席させていただけたりしないでしょうか...？（このプロジェクトを温度感高く進めたいと思っており、取り組めることをなるべくリアルにキャッチアップしたい意図です！）"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747823815.246289",
+    "client_msg_id": "837859b0-c688-4ac6-925f-c30759e689bf",
+    "text": "memo: チームみらいのホスティングは inahara さん・bluemo さんがやっているらしい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IQLKe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: チームみらいのホスティングは inahara さん・bluemo さんがやっているらしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": "memo: チームみらいのホスティングは inahara さん・bluemo さんがやっているらしい"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1747824219.557249",
+    "client_msg_id": "a4a1519d-756e-41bf-bd1a-e2fc242a865c",
+    "text": "<@U08HMV9AHLL>\n\nありがとうございます:man-bowing:\n\nちょっと私の一存では決めれませんので(かつ、今から立憲さんにメールを送っても返信がないように思います。。)\nので明日当日にお聞きしてから、こちらのスレッドにURLを共有することになるかもしれません。\nちなみに明日のMTGは明日のAM11:00より実施予定です。\n\n大丈夫そうでしょうか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m3EJo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\nありがとうございます"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              },
+              {
+                "type": "text",
+                "text": "\n\nちょっと私の一存では決めれませんので(かつ、今から立憲さんにメールを送っても返信がないように思います。。)\nので明日当日にお聞きしてから、こちらのスレッドにURLを共有することになるかもしれません。\nちなみに明日のMTGは明日のAM11:00より実施予定です。\n\n大丈夫そうでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids\n\nありがとうございます:man-bowing:\n\nちょっと私の一存では決めれませんので(かつ、今から立憲さんにメールを送っても返信がないように思います。。)\nので明日当日にお聞きしてから、こちらのスレッドにURLを共有することになるかもしれません。\nちなみに明日のMTGは明日のAM11:00より実施予定です。\n\n大丈夫そうでしょうか。"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747824270.437389",
+    "client_msg_id": "4264e758-7738-475e-89fc-a8f2af362177",
+    "text": "<@U08NN8A6P9D> 承知しました。ありがとうございます！:yoroshikuonegaishimasu:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+O78h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " 承知しました。ありがとうございます！"
+              },
+              {
+                "type": "emoji",
+                "name": "yoroshikuonegaishimasu"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ありがとうございます",
+        "users": [
+          "U08NN8A6P9D"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": "@foino74 承知しました。ありがとうございます！:yoroshikuonegaishimasu:"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1747881770.571739",
+    "edited": {
+      "user": "U08NN8A6P9D",
+      "ts": "1747881786.000000"
+    },
+    "client_msg_id": "8c88c185-6912-4892-806c-87907a35670a",
+    "text": "<@U08HMV9AHLL>\n\n> ちょっと私の一存では決めれませんので\n今日お話ししてみました。毎週 木曜日にMTGしてるので、昨日のお話しを伝えたところ、オープンな会なので宜しくお願いします。との事でしたので、次回またMTGのURLを共有させてくださいませ！\n\nまた、Discourse を使用してテーマを募集するところから始める方向に修正したいそうでして( テーマを立憲さんで決めてそのテーマでいどばたビションを使う、という話だったのですが。)、まずはDiscourseを使ったフォーラム構築から始める、ということになりました。\n\nなのですぐにホスティングして公開する、という流れではなくなりましたが、その間にこの件に関しても色々動いていければとは思います。宜しくお願いします:man-bowing:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oetQF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちょっと私の一存では決めれませんので"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日お話ししてみました。毎週 木曜日にMTGしてるので、昨日のお話しを伝えたところ、オープンな会なので宜しくお願いします。との事でしたので、次回またMTGのURLを共有させてくださいませ！\n\nまた、Discourse を使用してテーマを募集するところから始める方向に修正したいそうでして( テーマを立憲さんで決めてそのテーマでいどばたビションを使う、という話だったのですが。)、まずはDiscourseを使ったフォーラム構築から始める、ということになりました。\n\nなのですぐにホスティングして公開する、という流れではなくなりましたが、その間にこの件に関しても色々動いていければとは思います。宜しくお願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids\n\n> ちょっと私の一存では決めれませんので\n今日お話ししてみました。毎週 木曜日にMTGしてるので、昨日のお話しを伝えたところ、オープンな会なので宜しくお願いします。との事でしたので、次回またMTGのURLを共有させてくださいませ！\n\nまた、Discourse を使用してテーマを募集するところから始める方向に修正したいそうでして( テーマを立憲さんで決めてそのテーマでいどばたビションを使う、という話だったのですが。)、まずはDiscourseを使ったフォーラム構築から始める、ということになりました。\n\nなのですぐにホスティングして公開する、という流れではなくなりましたが、その間にこの件に関しても色々動いていければとは思います。宜しくお願いします:man-bowing:"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747883316.014949",
+    "client_msg_id": "bf2099f1-7ab1-4b73-89d5-ab30f9cc6a25",
+    "text": "<@U08NN8A6P9D> ご確認いただきありがとうございます！\n\n今回限られた期間の中で多くを実現するために、開発チームに期待や課題をなるべく早く伝えられると望ましく、もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？（<https://calendly.com/spinute/45min> の空いている日時は私の予定は空いており、この URL からご都合良い日時を抑えていただいて構いません。）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Jso96",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " ご確認いただきありがとうございます！\n\n今回限られた期間の中で多くを実現するために、開発チームに期待や課題をなるべく早く伝えられると望ましく、もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？（"
+              },
+              {
+                "type": "link",
+                "url": "https://calendly.com/spinute/45min"
+              },
+              {
+                "type": "text",
+                "text": " の空いている日時は私の予定は空いており、この URL からご都合良い日時を抑えていただいて構いません。）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "kami",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "Horie Satoru",
+    "text_readable": "@foino74 ご確認いただきありがとうございます！\n\n今回限られた期間の中で多くを実現するために、開発チームに期待や課題をなるべく早く伝えられると望ましく、もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？（<https://calendly.com/spinute/45min> の空いている日時は私の予定は空いており、この URL からご都合良い日時を抑えていただいて構いません。）"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1747883398.282299",
+    "client_msg_id": "62042D0C-7A6E-4547-92B8-2767A5E8F402",
+    "text": "<@U08HMV9AHLL> \n\nお伝えしてみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "axGdx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": " \n\nお伝えしてみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids \n\nお伝えしてみます！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1748254202.857039",
+    "client_msg_id": "b6dddc48-7bc3-4b62-8731-d4bd68eb8a0a",
+    "text": "<@U08HMV9AHLL>\n\n&gt; もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？\nすみません。私と立憲さんとの都合合わせで返信が遅れました。\nこちら、立憲さんの都合で次回MTGが明日の15時になってしまいました。。\n\n<https://calendly.com/spinute/45min> 拝見しましたが、次回は合わせることが出来ずすみません。。\n\nネクストアクションとして Discourse を使用してテーマを募集するところから始めることになりました。(その後ににいどばたビジョンを使用する)\n\n毎週火曜に立憲さんの記者会見あるそうですが、6/10(火) までにには *テーマを募集する* ことを発表したいそうです。\n\nステータスとしては <https://docs.google.com/document/d/1gaYNTgzPm1_-ylCcKPnmslGcAv2g_W7h3kQ5ARn9cWY/edit?tab=t.0#heading=h.u4z9966kjh74|Discourse Businessプランを使ったフォーラム構築・運営の詳細ガイド> をみて、<https://cdp-japan.discourse.group/|フォーラムの立ち上げ> だけをやった状況です。。\n\n渉外担当の <@U08FSED4GG4> さんにお聞きしたところ <@U08HMV9AHLL> さんがお詳しいとの事でした。\nいどばた以外のこともお聞きするかもしれません、、すみませんが宜しくお願い致します。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747818053.826129",
+    "parent_user_id": "U08NN8A6P9D",
+    "attachments": [
+      {
+        "from_url": "https://cdp-japan.discourse.group/",
+        "service_icon": "https://europe1.discourse-cdn.com/flex018/uploads/cdp_japan/optimized/1X/_129430568242d1b7f853bb13ebea28b3f6af4e7_2_180x180.png",
+        "id": 1,
+        "original_url": "https://cdp-japan.discourse.group/",
+        "fallback": "cdp-japan",
+        "text": "日本のこれからを、対話から築くコミュニティ。",
+        "title": "cdp-japan",
+        "title_link": "https://cdp-japan.discourse.group/",
+        "service_name": "cdp-japan.discourse.group"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t5XGm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません。私と立憲さんとの都合合わせで返信が遅れました。\nこちら、立憲さんの都合で次回MTGが明日の15時になってしまいました。。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://calendly.com/spinute/45min"
+              },
+              {
+                "type": "text",
+                "text": " 拝見しましたが、次回は合わせることが出来ずすみません。。\n\nネクストアクションとして Discourse を使用してテーマを募集するところから始めることになりました。(その後ににいどばたビジョンを使用する)\n\n毎週火曜に立憲さんの記者会見あるそうですが、6/10(火) までにには "
+              },
+              {
+                "type": "text",
+                "text": "テーマを募集する",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ことを発表したいそうです。\n\nステータスとしては "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1gaYNTgzPm1_-ylCcKPnmslGcAv2g_W7h3kQ5ARn9cWY/edit?tab=t.0#heading=h.u4z9966kjh74",
+                "text": "Discourse Businessプランを使ったフォーラム構築・運営の詳細ガイド"
+              },
+              {
+                "type": "text",
+                "text": " をみて、"
+              },
+              {
+                "type": "link",
+                "url": "https://cdp-japan.discourse.group/",
+                "text": "フォーラムの立ち上げ"
+              },
+              {
+                "type": "text",
+                "text": " だけをやった状況です。。\n\n渉外担当の "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FSED4GG4"
+              },
+              {
+                "type": "text",
+                "text": " さんにお聞きしたところ "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": " さんがお詳しいとの事でした。\nいどばた以外のこともお聞きするかもしれません、、すみませんが宜しくお願い致します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747818053.826129",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids\n\n> もし可能でしたら来週木曜日を待たずに坂本様を交え一度オンラインミーティングの機会をいただけませんしょうか...？\nすみません。私と立憲さんとの都合合わせで返信が遅れました。\nこちら、立憲さんの都合で次回MTGが明日の15時になってしまいました。。\n\n<https://calendly.com/spinute/45min> 拝見しましたが、次回は合わせることが出来ずすみません。。\n\nネクストアクションとして Discourse を使用してテーマを募集するところから始めることになりました。(その後ににいどばたビジョンを使用する)\n\n毎週火曜に立憲さんの記者会見あるそうですが、6/10(火) までにには *テーマを募集する* ことを発表したいそうです。\n\nステータスとしては <https://docs.google.com/document/d/1gaYNTgzPm1_-ylCcKPnmslGcAv2g_W7h3kQ5ARn9cWY/edit?tab=t.0#heading=h.u4z9966kjh74|Discourse Businessプランを使ったフォーラム構築・運営の詳細ガイド> をみて、<https://cdp-japan.discourse.group/|フォーラムの立ち上げ> だけをやった状況です。。\n\n渉外担当の @satoshi.takayama さんにお聞きしたところ @spinutids さんがお詳しいとの事でした。\nいどばた以外のこともお聞きするかもしれません、、すみませんが宜しくお願い致します。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1747821028.363879",
+    "bot_id": "B01",
+    "text": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TQ2G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Reminder: !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747825966.864979",
+    "client_msg_id": "9f50d9a5-f19a-48a2-b747-1c088c71cbd0",
+    "text": "AI にナレッジ補助員してもらう話、以前 bluemo さんがメモってたので再掲\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1742695263535549>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1742695263535549",
+        "ts": "1742695263.535549",
+        "author_id": "U08GJSBAX3K",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1742695263.535549",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "ypM4U",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1742548125506749?thread_ts=1742542019.540019&cid=C08FF5MM59C"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n専門知を今のパイプラインのどの部分にどう組み込むのか考えていました\n\nやりたいことはこのあたり？：\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "必要な前提知識の提供"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "不正確な主張の訂正"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "論点に対する新たな立場の提示"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "新しい論点の提示"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "論点の優先順位づけ（この議論はどうでもいいからこっちを話すべき、みたいな）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n色々な組み込み方がありそう。例えば：\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "議論前/議論中に前提知識の教育コンテンツを提供する"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "チャットボットで会話しているときに裏でファクトチェックを回して、不正確なことを言ったら否定/追求する"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "明らかに不正確な主張をフィルタリングする"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "（この中立性の説明は難しいので、できればやらない設計の方が望ましいとは思う）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "論点分析/レポート生成時に、各論点に対して「専門家の視点」レポートを作る"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "例："
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://delib.takahiroanno.com/projects/67d76376c29091a5f2fb8aa4/analytics?question=9fba8341-81dc-43bd-bc4c-9baa8b19c5ba",
+                              "text": "「東京都アプリOSS化においてセキュリティリスクは許容できる範囲か？」"
+                            },
+                            {
+                              "type": "text",
+                              "text": "という論点に対して、"
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://chatgpt.com/share/67df7136-c858-8002-bec2-1812bd690223",
+                              "text": "このレポート"
+                            },
+                            {
+                              "type": "text",
+                              "text": "が作れる"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各主張にCommunity Notes的な感じで文脈補足や訂正を入れる"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1742695263535549",
+        "fallback": "[March 22nd, 2025 7:01 PM] shutaro.aoyama: <https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1742548125506749?thread_ts=1742542019.540019&cid=C08FF5MM59C>\n専門知を今のパイプラインのどの部分にどう組み込むのか考えていました\n\nやりたいことはこのあたり？：\n• 必要な前提知識の提供\n• 不正確な主張の訂正\n• 論点に対する新たな立場の提示\n• 新しい論点の提示\n• 論点の優先順位づけ（この議論はどうでもいいからこっちを話すべき、みたいな）\n色々な組み込み方がありそう。例えば：\n• 議論前/議論中に前提知識の教育コンテンツを提供する\n• チャットボットで会話しているときに裏でファクトチェックを回して、不正確なことを言ったら否定/追求する\n• 明らかに不正確な主張をフィルタリングする\n    ◦ （この中立性の説明は難しいので、できればやらない設計の方が望ましいとは思う）\n• 論点分析/レポート生成時に、各論点に対して「専門家の視点」レポートを作る\n    ◦ 例：<https://delib.takahiroanno.com/projects/67d76376c29091a5f2fb8aa4/analytics?question=9fba8341-81dc-43bd-bc4c-9baa8b19c5ba|「東京都アプリOSS化においてセキュリティリスクは許容できる範囲か？」>という論点に対して、<https://chatgpt.com/share/67df7136-c858-8002-bec2-1812bd690223|このレポート>が作れる\n• 各主張にCommunity Notes的な感じで文脈補足や訂正を入れる",
+        "text": "<https://w1740803485-clv347541.slack.com/archives/C08FF5MM59C/p1742548125506749?thread_ts=1742542019.540019&cid=C08FF5MM59C>\n専門知を今のパイプラインのどの部分にどう組み込むのか考えていました\n\nやりたいことはこのあたり？：\n• 必要な前提知識の提供\n• 不正確な主張の訂正\n• 論点に対する新たな立場の提示\n• 新しい論点の提示\n• 論点の優先順位づけ（この議論はどうでもいいからこっちを話すべき、みたいな）\n色々な組み込み方がありそう。例えば：\n• 議論前/議論中に前提知識の教育コンテンツを提供する\n• チャットボットで会話しているときに裏でファクトチェックを回して、不正確なことを言ったら否定/追求する\n• 明らかに不正確な主張をフィルタリングする\n    ◦ （この中立性の説明は難しいので、できればやらない設計の方が望ましいとは思う）\n• 論点分析/レポート生成時に、各論点に対して「専門家の視点」レポートを作る\n    ◦ 例：<https://delib.takahiroanno.com/projects/67d76376c29091a5f2fb8aa4/analytics?question=9fba8341-81dc-43bd-bc4c-9baa8b19c5ba|「東京都アプリOSS化においてセキュリティリスクは許容できる範囲か？」>という論点に対して、<https://chatgpt.com/share/67df7136-c858-8002-bec2-1812bd690223|このレポート>が作れる\n• 各主張にCommunity Notes的な感じで文脈補足や訂正を入れる",
+        "author_name": "Shutaro Aoyama (ぶるーも)",
+        "author_link": "https://dd2030.slack.com/team/U08GJSBAX3K",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-05/8562895877809_d4c7a9097f140ba638be_48.png",
+        "author_subname": "Shutaro Aoyama (ぶるーも)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xkEik",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AI にナレッジ補助員してもらう話、以前 bluemo さんがメモってたので再掲\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1742695263535549"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HV1H5HKK"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Horie Satoru",
+    "text_readable": "AI にナレッジ補助員してもらう話、以前 bluemo さんがメモってたので再掲\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1742695263535549>"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747835573.806609",
+    "client_msg_id": "36987b01-8ee9-4c66-bbdf-32503b677c72",
+    "text": "先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n1. <https://github.com/digitaldemocracy2030/idobata/issues/341|#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する>\n2. <https://github.com/digitaldemocracy2030/idobata/issues/342|#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する>\n3. <https://github.com/digitaldemocracy2030/idobata/issues/343|#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する>\n4. <https://github.com/digitaldemocracy2030/idobata/issues/344|#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する>\n5. <https://github.com/digitaldemocracy2030/idobata/issues/345|#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する>\n6. <https://github.com/digitaldemocracy2030/idobata/issues/346|#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する>\n7. <https://github.com/digitaldemocracy2030/idobata/issues/347|#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する>\n8. <https://github.com/digitaldemocracy2030/idobata/issues/348|#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する>\n9. <https://github.com/digitaldemocracy2030/idobata/issues/349|#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する>\n10. <https://github.com/digitaldemocracy2030/idobata/issues/350|#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する>\n11. <https://github.com/digitaldemocracy2030/idobata/issues/351|#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する>\n12. <https://github.com/digitaldemocracy2030/idobata/issues/352|#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する>\n13. <https://github.com/digitaldemocracy2030/idobata/issues/353|#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IVfj0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/341",
+                    "text": "#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/342",
+                    "text": "#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/343",
+                    "text": "#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/344",
+                    "text": "#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/345",
+                    "text": "#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/346",
+                    "text": "#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/347",
+                    "text": "#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/348",
+                    "text": "#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/349",
+                    "text": "#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/350",
+                    "text": "#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/351",
+                    "text": "#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/352",
+                    "text": "#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues/353",
+                    "text": "#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する",
+                    "unsafe": true
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "igyo",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HWJ80CHG",
+          "U08RW9HTS76",
+          "U08HBBH9VJS",
+          "U08HV1H5HKK",
+          "U08HMV9AHLL",
+          "U08JASQKEEM"
+        ],
+        "count": 7
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n1. <https://github.com/digitaldemocracy2030/idobata/issues/341|#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する>\n2. <https://github.com/digitaldemocracy2030/idobata/issues/342|#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する>\n3. <https://github.com/digitaldemocracy2030/idobata/issues/343|#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する>\n4. <https://github.com/digitaldemocracy2030/idobata/issues/344|#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する>\n5. <https://github.com/digitaldemocracy2030/idobata/issues/345|#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する>\n6. <https://github.com/digitaldemocracy2030/idobata/issues/346|#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する>\n7. <https://github.com/digitaldemocracy2030/idobata/issues/347|#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する>\n8. <https://github.com/digitaldemocracy2030/idobata/issues/348|#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する>\n9. <https://github.com/digitaldemocracy2030/idobata/issues/349|#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する>\n10. <https://github.com/digitaldemocracy2030/idobata/issues/350|#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する>\n11. <https://github.com/digitaldemocracy2030/idobata/issues/351|#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する>\n12. <https://github.com/digitaldemocracy2030/idobata/issues/352|#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する>\n13. <https://github.com/digitaldemocracy2030/idobata/issues/353|#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する>"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747869930.009439",
+    "client_msg_id": "50a12eda-176b-4ba0-a336-6527160dc206",
+    "text": "<@U08GJSBAX3K>\n<https://github.com/digitaldemocracy2030/idobata/pulls>\nぶるーもさんがDevinに依頼したと思われるちょっとした変更が結構あるようだけどいまどういう状態かな？\nレビュー必要であれば言ってください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747869930.009439",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1747870424.235809",
+    "reply_users": [
+      "U08GJSBAX3K",
+      "U08FTAEETAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ty5iT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pulls"
+              },
+              {
+                "type": "text",
+                "text": "\nぶるーもさんがDevinに依頼したと思われるちょっとした変更が結構あるようだけどいまどういう状態かな？\nレビュー必要であれば言ってください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "@shutaro.aoyama\n<https://github.com/digitaldemocracy2030/idobata/pulls>\nぶるーもさんがDevinに依頼したと思われるちょっとした変更が結構あるようだけどいまどういう状態かな？\nレビュー必要であれば言ってください！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1747869967.696739",
+    "client_msg_id": "F818FE45-A418-4957-B279-C556DB312D38",
+    "text": "うまくいかなかったものを放置していた気がします、確認してクローズします:bow:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747869930.009439",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y9h2q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うまくいかなかったものを放置していた気がします、確認してクローズします"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747869930.009439",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "うまくいかなかったものを放置していた気がします、確認してクローズします:bow:"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747870424.235809",
+    "client_msg_id": "7330bd4d-d91b-494b-8e53-b2e3df49734e",
+    "text": "OKです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747869930.009439",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YuzB4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OKです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747869930.009439",
+    "user_name": "jujunjun110",
+    "text_readable": "OKです！"
+  },
+  {
+    "text": "（雑談です）↓このこと知らなかったからめちゃハマってしまった。さすがにまぎらわしすぎると思う...。",
+    "files": [
+      {
+        "id": "F08TECH2M2R",
+        "created": 1747879648,
+        "timestamp": 1747879648,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 160851,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08TECH2M2R/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08TECH2M2R/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_360.png",
+        "thumb_360_w": 289,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_480.png",
+        "thumb_480_w": 386,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_720.png",
+        "thumb_720_w": 579,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_800.png",
+        "thumb_800_w": 643,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TECH2M2R-164de8aca6/image_960.png",
+        "thumb_960_w": 771,
+        "thumb_960_h": 960,
+        "original_w": 798,
+        "original_h": 993,
+        "thumb_tiny": "AwAwACbTyPWmt833Wpu7HGM/WnZPoKADa3940bT/AHjRk0uTQAAEdyaWkBzS0AN79qUGmk/7P60uRQAtFGRRxQACloxRQA3OSdp6ehpMH3/OlPX/AOtSH8fyNACgH1pwz3pn5/kaVefX8RQA6ijmigD/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08TECH2M2R/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08TECH2M2R-4ff8ec24f7",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08FTAEETAB",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7fLQ7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（雑談です）↓このこと知らなかったからめちゃハマってしまった。さすがにまぎらわしすぎると思う...。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1747879680.189019",
+    "client_msg_id": "81adab78-0d35-4429-b538-214e2fca5003",
+    "thread_ts": "1747879680.189019",
+    "reply_count": 8,
+    "reply_users_count": 4,
+    "latest_reply": "1747886417.310569",
+    "reply_users": [
+      "U08HMV9AHLL",
+      "U08FTAEETAB",
+      "U08G2A216TW",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "hushed",
+        "users": [
+          "U08H3V9KMFH",
+          "U08RW9HTS76"
+        ],
+        "count": 2
+      },
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08LQ25DPAB",
+          "U08HBBH9VJS",
+          "U08HV1H5HKK",
+          "U08RW9HTS76"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "（雑談です）↓このこと知らなかったからめちゃハマってしまった。さすがにまぎらわしすぎると思う...。"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747880048.251539",
+    "edited": {
+      "user": "U08HMV9AHLL",
+      "ts": "1747880263.000000"
+    },
+    "client_msg_id": "2a487100-3fac-4b4d-aa91-e245446ee436",
+    "text": "ライブラリというよりは、openai のライブラリをキーと URL だけ差し替えれば使えるバックエンドを提供しているのが openrouter という理解です！（既存の openai を使っているコードの、そこだけ差し替えるとバックエンドを差し替えられる。openai が先行者でデファクトに近いので便利）\n\nopenai が先行者として走った結果、他の LLM プロバイダーも中心的な機能は openai と似たものを提供しているので、openai ライブラリと同じインターフェースを提供すれば、各 LLM の独自機能以外は概ね動くという",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uC4PO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ライブラリというよりは、openai のライブラリをキーと URL だけ差し替えれば使えるバックエンドを提供しているのが openrouter という理解です！（既存の openai を使っているコードの、そこだけ差し替えるとバックエンドを差し替えられる。openai が先行者でデファクトに近いので便利）\n\nopenai が先行者として走った結果、他の LLM プロバイダーも中心的な機能は openai と似たものを提供しているので、openai ライブラリと同じインターフェースを提供すれば、各 LLM の独自機能以外は概ね動くという"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "Horie Satoru",
+    "text_readable": "ライブラリというよりは、openai のライブラリをキーと URL だけ差し替えれば使えるバックエンドを提供しているのが openrouter という理解です！（既存の openai を使っているコードの、そこだけ差し替えるとバックエンドを差し替えられる。openai が先行者でデファクトに近いので便利）\n\nopenai が先行者として走った結果、他の LLM プロバイダーも中心的な機能は openai と似たものを提供しているので、openai ライブラリと同じインターフェースを提供すれば、各 LLM の独自機能以外は概ね動くという"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747880128.709169",
+    "client_msg_id": "840babee-d377-4a26-a269-8a23e4988279",
+    "text": "openai ライブラリ使わない叩き方もできる（REST エンドポイントを単に叩くだけですが）のですが、sdk 使った方が便利なんであえて採用するメリットは薄いかもです（openai なの？と思う人は減りそうですが）\n<https://openrouter.ai/docs/quickstart#using-the-openrouter-api-directly>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "I/XYz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "openai ライブラリ使わない叩き方もできる（REST エンドポイントを単に叩くだけですが）のですが、sdk 使った方が便利なんであえて採用するメリットは薄いかもです（openai なの？と思う人は減りそうですが）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://openrouter.ai/docs/quickstart#using-the-openrouter-api-directly"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "Horie Satoru",
+    "text_readable": "openai ライブラリ使わない叩き方もできる（REST エンドポイントを単に叩くだけですが）のですが、sdk 使った方が便利なんであえて採用するメリットは薄いかもです（openai なの？と思う人は減りそうですが）\n<https://openrouter.ai/docs/quickstart#using-the-openrouter-api-directly>"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747881125.249989",
+    "client_msg_id": "0eb4e979-8cff-49bb-8b62-578b3dab66a3",
+    "text": "なるほど、そういう感じなのですね！勉強になりました。\nひとまずOpenRouter SDKを使ったライブラリで進めてみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "udT55",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど、そういう感じなのですね！勉強になりました。\nひとまずOpenRouter SDKを使ったライブラリで進めてみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "jujunjun110",
+    "text_readable": "なるほど、そういう感じなのですね！勉強になりました。\nひとまずOpenRouter SDKを使ったライブラリで進めてみます！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747881340.112779",
+    "client_msg_id": "abf0e851-b68e-4f55-be7c-85e1a60f5d16",
+    "text": "あああ、やっと理解した。\n\nimport OpenAI from \"openai\";\n\nこれは本物のOpenAIで、custom endpoint をハックすることで他のLLMを呼んでるのか、賢い...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hU4/I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あああ、やっと理解した。\n\nimport OpenAI from \"openai\";\n\nこれは本物のOpenAIで、custom endpoint をハックすることで他のLLMを呼んでるのか、賢い..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "jujunjun110",
+    "text_readable": "あああ、やっと理解した。\n\nimport OpenAI from \"openai\";\n\nこれは本物のOpenAIで、custom endpoint をハックすることで他のLLMを呼んでるのか、賢い..."
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1747881351.492209",
+    "client_msg_id": "6c6c49af-1b66-4f0f-ac5a-b5d9a8252946",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "jujunjun110",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1747881471.732739",
+    "client_msg_id": "cffccf57-5076-4be8-9689-b6947ad44caa",
+    "text": "です！（なので変な設計というよりはおもしろハックだと思っていました:catshake:）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1xIHc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "です！（なので変な設計というよりはおもしろハックだと思っていました"
+              },
+              {
+                "type": "emoji",
+                "name": "catshake"
+              },
+              {
+                "type": "text",
+                "text": "）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "catshake",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "Horie Satoru",
+    "text_readable": "です！（なので変な設計というよりはおもしろハックだと思っていました:catshake:）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1747883633.694739",
+    "client_msg_id": "da39af53-56c9-4f71-94fd-bc69b2709b73",
+    "text": "僕も初見ハマった",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tVu/2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕も初見ハマった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕も初見ハマった"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1747886417.310569",
+    "client_msg_id": "12458097-a5aa-491a-97b7-873b0beaddc7",
+    "text": "これは歴史的経緯ですねー今更名前変えるのも、という感じで放置されている",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747879680.189019",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CnvkP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは歴史的経緯ですねー今更名前変えるのも、という感じで放置されている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747879680.189019",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "これは歴史的経緯ですねー今更名前変えるのも、という感じで放置されている"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1747912081.962249",
+    "client_msg_id": "781fcaeb-390d-465f-bc8e-4088297010c3",
+    "text": "• memo\n    ◦ いどばた政策、ページ開いた時に最初に何か言ってくれるようになると良さそう。ここはチャット欄なのだということが明示できていたほうがよいのではないか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747912081.962249",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1747975027.253559",
+    "reply_users": [
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0hALS",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "memo"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策、ページ開いた時に最初に何か言ってくれるようになると良さそう。ここはチャット欄なのだということが明示できていたほうがよいのではないか？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08FTAEETAB",
+          "U08ST3B84AZ",
+          "U08PM71NMT5",
+          "U08G2A216TW",
+          "U08HBBH9VJS"
+        ],
+        "count": 5
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "• memo\n    ◦ いどばた政策、ページ開いた時に最初に何か言ってくれるようになると良さそう。ここはチャット欄なのだということが明示できていたほうがよいのではないか？"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747975027.253559",
+    "client_msg_id": "cf365a95-e1df-4824-8f28-8433f4d4662f",
+    "text": "<https://github.com/digitaldemocracy2030/idobata/issues/204|関連Issue>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747912081.962249",
+    "parent_user_id": "U08FZDRRY8Z",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1746428536,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/issues/204",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#204 [UI] 会話の始め方に迷う",
+        "text": "## 解決・改善したいこと\n\n何から話せばいいかわからない\n\n## 具体的な実現方法・実装方法の概要\n\n改善案\n\n• 最初に「こんにちはと入力することから始めましょう」とか記載あるとよさそう  \n   • 3つくらいスターターメッセージのボタン置いとくと良さそうですね  \n   • スタートメッセージ案は <https://www.figma.com/design/Td64AEvdk42ov6t6IPEvTN/DD2030?node-id=1629-2799&t=FKLwRTD4s9QaGqTx-4|こちら>\n• AI側から何かボールを投げる。「こんにちは！○○についてどう思いますか」\n• 「テーマに関して何か言いたいことがある人」と「特に言いたいことがない人」のそれぞれにとって良いフローを作ってあげたい。  \n   • 入り口を分けてしまうのも一案。",
+        "title": "#204 [UI] 会話の始め方に迷う",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/issues/204",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IqNA4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/issues/204",
+                "text": "関連Issue"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747912081.962249",
+    "user_name": "masato sasano",
+    "text_readable": "<https://github.com/digitaldemocracy2030/idobata/issues/204|関連Issue>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1747973178.409669",
+    "client_msg_id": "C1D291FC-77D9-4351-BF9B-C7A330284214",
+    "text": "意外とイシューに上げ忘れてましたけど、作られるPRのタイトルが内容の要約でない「にしおさんの提案」みたいなやつは認知コストが上がるので適切なタイトルになるようにプロンプトを工夫すると良いかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747973178.409669",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1747974946.200299",
+    "reply_users": [
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yrxtK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "意外とイシューに上げ忘れてましたけど、作られるPRのタイトルが内容の要約でない「にしおさんの提案」みたいなやつは認知コストが上がるので適切なタイトルになるようにプロンプトを工夫すると良いかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "意外とイシューに上げ忘れてましたけど、作られるPRのタイトルが内容の要約でない「にしおさんの提案」みたいなやつは認知コストが上がるので適切なタイトルになるようにプロンプトを工夫すると良いかも"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747974834.713809",
+    "client_msg_id": "16500871-a663-45d3-af80-cc82a6deeee1",
+    "text": "あと、一覧するときに名前はノイズなので、一律でPR本文の最後に記載するのがいいと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747973178.409669",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lfE0/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、一覧するときに名前はノイズなので、一律でPR本文の最後に記載するのがいいと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1747973178.409669",
+    "user_name": "masato sasano",
+    "text_readable": "あと、一覧するときに名前はノイズなので、一律でPR本文の最後に記載するのがいいと思います"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1747974946.200299",
+    "client_msg_id": "c75601e6-78c3-4d25-91dc-53b702cb8286",
+    "text": "<https://github.com/digitaldemocracy2030/idobata/issues/311|Issue#311> に追記しました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1747973178.409669",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1747390286,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/issues/311",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#311 [いどばた政策立案] PRの一覧を見た有権者が不審に思わないように、提案者の名前の記法に一貫性を持たせる",
+        "text": "## 解決・改善したいこと\n\n表記がぶれている\n\n• 〇〇\n• 〇〇提案\n• 〇〇さん提案\n• 〇〇様提案\n• 〇〇より\n• 〇〇による\n• by 〇〇\n• 括弧の種類や有無\n• 先頭か最後か\n\n## 具体的な実現方法・実装方法の概要\n\n揃える",
+        "title": "#311 [いどばた政策立案] PRの一覧を見た有権者が不審に思わないように、提案者の名前の記法に一貫性を持たせる",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/issues/311",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          },
+          {
+            "value": "1",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OVCLf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/issues/311",
+                "text": "Issue#311"
+              },
+              {
+                "type": "text",
+                "text": " に追記しました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1747973178.409669",
+    "user_name": "masato sasano",
+    "text_readable": "<https://github.com/digitaldemocracy2030/idobata/issues/311|Issue#311> に追記しました"
+  },
+  {
+    "text": "• memo\n    ◦ いどばた政策について\n        ▪︎ 編集してくれたところだけ画面上で赤字/緑字で差分がわかるようにしたい\n            • GitHubのdiffみたいな感じにできると最高\n        ▪︎ ファイルの冒頭か末尾に無駄な改行をいれるのをやめてほしい\n",
+    "files": [
+      {
+        "id": "F08U4137PEV",
+        "created": 1748008082,
+        "timestamp": 1748008082,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FZDRRY8Z",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 66211,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08U4137PEV/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08U4137PEV/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08U4137PEV-3172fdf741/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08U4137PEV-3172fdf741/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08U4137PEV-3172fdf741/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 214,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08U4137PEV-3172fdf741/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 285,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08U4137PEV-3172fdf741/image_160.png",
+        "original_w": 499,
+        "original_h": 296,
+        "thumb_tiny": "AwAcADDPzxinjrkEfjim7WxnBxTlO3of50xC59cH6YpOB/8ArFG7HQ/zoLeh+oyeaAF3DHP9P8Ka3QUbv9n9TSMSf/10AP3DYB/SkDKOo/Smn7goQZpBYduX/IpN49B+VOWNTnOetMYYPFAWF3ew/KkzTaKAP//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08U4137PEV/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08U4137PEV-d51a68912d",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08FZDRRY8Z",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NIwdP",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "memo"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策について"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "編集してくれたところだけ画面上で赤字/緑字で差分がわかるようにしたい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitHubのdiffみたいな感じにできると最高"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ファイルの冒頭か末尾に無駄な改行をいれるのをやめてほしい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1748008085.050269",
+    "client_msg_id": "d7136f67-5734-4612-ac51-19c4a7290d95",
+    "thread_ts": "1748008085.050269",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1748012749.814489",
+    "reply_users": [
+      "U08JM08PTK5",
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "user_name": "安野貴博",
+    "text_readable": "• memo\n    ◦ いどばた政策について\n        ▪︎ 編集してくれたところだけ画面上で赤字/緑字で差分がわかるようにしたい\n            • GitHubのdiffみたいな感じにできると最高\n        ▪︎ ファイルの冒頭か末尾に無駄な改行をいれるのをやめてほしい\n"
+  },
+  {
+    "user": "U08JM08PTK5",
+    "type": "message",
+    "ts": "1748012610.880979",
+    "client_msg_id": "8a4a3cc6-719b-4c80-8fc0-59a8aaa73b92",
+    "text": "余談かもしれませんが、各ファイル中該当箇所に各PR や全PR が表示されるように自分用に作っていました。。。現行のラベル付けと、変更指定されたファイルではなく内容によって再度グループ化して纏めてくれる方がよいと思います。\n<https://github.com/akinorioyama/GitHub-dif-display>\n\n未取込部分や却下された提案部分が、いどばた本文中に表示されるといいのになぁ、と思っていながらも、いどばたにcommit まではできていません。マージが頻繁に行われるのかもとも、軽率に考えていました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748008085.050269",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Er1uY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "余談かもしれませんが、各ファイル中該当箇所に各PR や全PR が表示されるように自分用に作っていました。。。現行のラベル付けと、変更指定されたファイルではなく内容によって再度グループ化して纏めてくれる方がよいと思います。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/akinorioyama/GitHub-dif-display"
+              },
+              {
+                "type": "text",
+                "text": "\n\n未取込部分や却下された提案部分が、いどばた本文中に表示されるといいのになぁ、と思っていながらも、いどばたにcommit まではできていません。マージが頻繁に行われるのかもとも、軽率に考えていました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748008085.050269",
+    "user_name": "Akinori Oyama",
+    "text_readable": "余談かもしれませんが、各ファイル中該当箇所に各PR や全PR が表示されるように自分用に作っていました。。。現行のラベル付けと、変更指定されたファイルではなく内容によって再度グループ化して纏めてくれる方がよいと思います。\n<https://github.com/akinorioyama/GitHub-dif-display>\n\n未取込部分や却下された提案部分が、いどばた本文中に表示されるといいのになぁ、と思っていながらも、いどばたにcommit まではできていません。マージが頻繁に行われるのかもとも、軽率に考えていました。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748012749.814489",
+    "client_msg_id": "028d019d-5515-4586-a13d-68ad2f3fab21",
+    "text": "メモ：Issue368など複数のissueの解決策として提案されている",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748008085.050269",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G+/ZK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ：Issue368など複数のissueの解決策として提案されている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748008085.050269",
+    "user_name": "masato sasano",
+    "text_readable": "メモ：Issue368など複数のissueの解決策として提案されている"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1748068765.120799",
+    "client_msg_id": "c1b2f0bb-223f-4470-b4e4-b5c892de8a1b",
+    "text": "• memo\n    ◦ いどばた政策について、markdown横断で検索したいというニーズがあります",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748068765.120799",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1748081051.264939",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08FZDRRY8Z"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DS6sp",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "memo"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策について、markdown横断で検索したいというニーズがあります"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "• memo\n    ◦ いどばた政策について、markdown横断で検索したいというニーズがあります"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748079811.187489",
+    "client_msg_id": "907efc0a-c0e5-40ec-8013-3e42a9bc2c81",
+    "text": "<https://github.com/digitaldemocracy2030/idobata/issues/327|Issue327> で起票済みです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748068765.120799",
+    "parent_user_id": "U08FZDRRY8Z",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1747456823,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/issues/327",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#327 [いどばた政策立案] 利用者が特定トピックを見つけやすいように横断検索機能をつける",
+        "text": "## 解決・改善したいこと\n\n<https://x.com/noly_sugii/status/1923571566086095035?s=46&t=M4dSB_2Qy8NFfK-Mse0C3g|https://x.com/noly_sugii/status/1923571566086095035?s=46&t=M4dSB_2Qy8NFfK-Mse0C3g>\n\n> たとえば、Xでタイムラインに流れていて、そんな話題あったんだ。じゃあ、提案したいことある！となってとき、その提案がどこに含まれてるか探すのが大変なことあるのだけど、検索できるようになりません？\n\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1747450528558519|https://dd2030.slack.com/archives/C08FF5MM59C/p1747450528558519>\n\n> ページを横断できるようにしたいというニーズはかなりきていますね。ここ進めていきたいです！\n\n## 具体的な実現方法・実装方法の概要",
+        "title": "#327 [いどばた政策立案] 利用者が特定トピックを見つけやすいように横断検索機能をつける",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/issues/327",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "enhancement",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8krN2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/issues/327",
+                "text": "Issue327"
+              },
+              {
+                "type": "text",
+                "text": " で起票済みです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08FZDRRY8Z"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748068765.120799",
+    "user_name": "masato sasano",
+    "text_readable": "<https://github.com/digitaldemocracy2030/idobata/issues/327|Issue327> で起票済みです"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1748081051.264939",
+    "client_msg_id": "30019530-8255-4e0e-8c34-090d2b7a480a",
+    "text": "あざます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748068765.120799",
+    "parent_user_id": "U08FZDRRY8Z",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KYw4+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あざます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748068765.120799",
+    "user_name": "安野貴博",
+    "text_readable": "あざます！"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748083303.537749",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "ts": "1748046473.851049",
+        "author_id": "U08R0JY8AQN",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1748046473.851049",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "7TvIT",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "皆様、こちら先日ボードメンバーで話し合いまして、デジ庁のほうのオフィシャルなイベントに乗せていくという方向で検討するということになりました。こちらは関さんの方でおすすめいただくことになります。これまたもうちょっとお時間ください。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1748046473851049?thread_ts=1747726495.969979&cid=C08FF5MM59C",
+        "is_share": true,
+        "fallback": "[May 24th, 2025 9:27 AM] makikon: 皆様、こちら先日ボードメンバーで話し合いまして、デジ庁のほうのオフィシャルなイベントに乗せていくという方向で検討するということになりました。こちらは関さんの方でおすすめいただくことになります。これまたもうちょっとお時間ください。",
+        "text": "皆様、こちら先日ボードメンバーで話し合いまして、デジ庁のほうのオフィシャルなイベントに乗せていくという方向で検討するということになりました。こちらは関さんの方でおすすめいただくことになります。これまたもうちょっとお時間ください。",
+        "author_name": "中室牧子",
+        "author_link": "https://dd2030.slack.com/team/U08R0JY8AQN",
+        "author_icon": "https://avatars.slack-edge.com/2025-05-07/8863594749092_eacc423aad5f8e12e41b_48.jpg",
+        "author_subname": "中室牧子",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U08GAUQTR1N",
+          "U08HBBH9VJS",
+          "U08RW9HTS76",
+          "U08G2A216TW"
+        ],
+        "count": 6
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748099558.504419",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1748099581.000000"
+    },
+    "client_msg_id": "58CD0BFE-B0F0-4E94-82A8-7BCDB0E723FB",
+    "text": "いどばたシステムを使って複数のPRが生まれた後に発生するニーズの話を聞きまして、なるほど解決すべき問題だなと思ったものの、解決アイデアを思いつかなかったのでここにシェアします\n\n一つのファイルに複数のPRが来るので、当然同じ場所をいじるものがある。同じ場所をいじるものを一覧して見比べてからマージをどうするかを決めたい。\n現状では「同じファイルをいじっている」という単位でのグルーピングはされているが、それより細かい単位での衝突判定はないので、同じところをいじっているコードがないかはどうかは同じファイルをいじってるPRを目視で全部見るハメになっている。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "reply_count": 8,
+    "reply_users_count": 5,
+    "latest_reply": "1748131588.647879",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08LQ25DPAB",
+      "U08RW9HTS76",
+      "U08G2A216TW",
+      "U08JM08PTK5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JuXiT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたシステムを使って複数のPRが生まれた後に発生するニーズの話を聞きまして、なるほど"
+              },
+              {
+                "type": "text",
+                "text": "解決すべき問題だ"
+              },
+              {
+                "type": "text",
+                "text": "なと思ったものの、解決アイデアを思いつかなかったのでここにシェアします\n\n一つのファイルに複数のPRが来るので、当然同じ場所をいじるものがある。同じ場所をいじるものを一覧して見比べてからマージをどうするかを決めたい。\n現状では「同じファイルをいじっている」という単位でのグルーピングはされているが、それより細かい単位での衝突判定はないので、同じところをいじっているコードがないかはどうかは同じファイルをいじってるPRを目視で全部見るハメになっている。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたシステムを使って複数のPRが生まれた後に発生するニーズの話を聞きまして、なるほど解決すべき問題だなと思ったものの、解決アイデアを思いつかなかったのでここにシェアします\n\n一つのファイルに複数のPRが来るので、当然同じ場所をいじるものがある。同じ場所をいじるものを一覧して見比べてからマージをどうするかを決めたい。\n現状では「同じファイルをいじっている」という単位でのグルーピングはされているが、それより細かい単位での衝突判定はないので、同じところをいじっているコードがないかはどうかは同じファイルをいじってるPRを目視で全部見るハメになっている。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1748099928.686039",
+    "client_msg_id": "c1856007-8c93-416e-98c0-3e74d72db84b",
+    "text": "現実味がなく斜め下かもしれないんですが、\n条文を細かく分割して、そもそも1つのファイルにしないとか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q5sLv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現実味がなく斜め下かもしれないんですが、\n条文を細かく分割して、そもそも1つのファイルにしないとか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "小野翔太",
+    "text_readable": "現実味がなく斜め下かもしれないんですが、\n条文を細かく分割して、そもそも1つのファイルにしないとか。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748100411.196819",
+    "client_msg_id": "a415cf7f-874b-4073-8525-059302d63e2c",
+    "text": "<@U08JM08PTK5> この辺り何かやられてたりしますか・・？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "btmPR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JM08PTK5"
+              },
+              {
+                "type": "text",
+                "text": " この辺り何かやられてたりしますか・・？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "masato sasano",
+    "text_readable": "@akinori.oyama この辺り何かやられてたりしますか・・？"
+  },
+  {
+    "user": "U08RW9HTS76",
+    "type": "message",
+    "ts": "1748109848.914469",
+    "client_msg_id": "5BB6FEEF-A618-4722-AD0F-A4D5020CD573",
+    "text": "良い方法か分からないのですが、案です。\n\n1.ファイルごとにブランチを作る\n2.そのブランチで、同じファイルをいじってるプルリクをマージしまくる。コンフリクトしててもひとまずマージする\n3.ファイル上にコンフリクトが全部可視化されているはずなので、ファイルの内容を決める人が良いと思う内容に決める",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lN54K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "良い方法か分からないのですが、案です。\n\n1.ファイルごとにブランチを作る\n2.そのブランチで、同じファイルをいじってるプルリクをマージしまくる。コンフリクトしててもひとまずマージする\n3.ファイル上にコンフリクトが全部可視化されているはずなので、ファイルの内容を決める人が良いと思う内容に決める"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "吾解",
+    "text_readable": "良い方法か分からないのですが、案です。\n\n1.ファイルごとにブランチを作る\n2.そのブランチで、同じファイルをいじってるプルリクをマージしまくる。コンフリクトしててもひとまずマージする\n3.ファイル上にコンフリクトが全部可視化されているはずなので、ファイルの内容を決める人が良いと思う内容に決める"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748110182.601709",
+    "client_msg_id": "9dd83d4f-1b71-49bf-a58c-4d22b93340a5",
+    "text": "コンフリクトした状態で解消しないで次のマージを開始できないと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sBGrl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コンフリクトした状態で解消しないで次のマージを開始できないと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "コンフリクトした状態で解消しないで次のマージを開始できないと思います"
+  },
+  {
+    "user": "U08RW9HTS76",
+    "type": "message",
+    "ts": "1748110345.297669",
+    "client_msg_id": "AA5E1329-0674-48A7-87AA-CE768B8EB620",
+    "text": "コンフリクトした状態で「解消したことにする」という方法があった気がしたのですが、いずれにせよ良い方法ではないかもです… :pray: ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "82VTr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コンフリクトした状態で「解消したことにする」という方法があった気がしたのですが、いずれにせよ良い方法ではないかもです… "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "吾解",
+    "text_readable": "コンフリクトした状態で「解消したことにする」という方法があった気がしたのですが、いずれにせよ良い方法ではないかもです… :pray: "
+  },
+  {
+    "user": "U08JM08PTK5",
+    "type": "message",
+    "ts": "1748111335.806849",
+    "client_msg_id": "4bdfe19f-d2cc-4dec-b992-170aa4a073ee",
+    "text": "<https://x.com/Aki_laid_back/status/1925238022951543291>\n<@U08LQ25DPAB> チームみらいさんに関しては、自分用に閲覧したいので時々各ファイルの該当箇所内に変更を入れ込んだファイルを作っています。(差し込まれる先が妥当かは別として)\n\nProject 341~343, 344~346 に関連して、複数PR を蓄積してからマージする場合には、PR で作成された変更内容を再度整理して、条文位置事に別PR 作成してマージしつつ、各PR に反映方法や理由を追記するような丁寧な運用がありがたいように思えます。\n不十分な理解のなか、お邪魔しました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "from_url": "https://x.com/Aki_laid_back/status/1925238022951543291",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1915486913156554752/eWNotCY5_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/Aki_laid_back/status/1925238022951543291",
+        "fallback": "X (formerly Twitter): aki (@Aki_laid_back) on X",
+        "text": "<https://t.co/NVqC4RBHZS>\n生成物例",
+        "title": "aki (@Aki_laid_back) on X",
+        "title_link": "https://x.com/Aki_laid_back/status/1925238022951543291",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aJ4wQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/Aki_laid_back/status/1925238022951543291"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": " チームみらいさんに関しては、自分用に閲覧したいので時々各ファイルの該当箇所内に変更を入れ込んだファイルを作っています。(差し込まれる先が妥当かは別として)\n\nProject 341~343, 344~346 に関連して、複数PR を蓄積してからマージする場合には、PR で作成された変更内容を再度整理して、条文位置事に別PR 作成してマージしつつ、各PR に反映方法や理由を追記するような丁寧な運用がありがたいように思えます。\n不十分な理解のなか、お邪魔しました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "Akinori Oyama",
+    "text_readable": "<https://x.com/Aki_laid_back/status/1925238022951543291>\n@masatosasano2 チームみらいさんに関しては、自分用に閲覧したいので時々各ファイルの該当箇所内に変更を入れ込んだファイルを作っています。(差し込まれる先が妥当かは別として)\n\nProject 341~343, 344~346 に関連して、複数PR を蓄積してからマージする場合には、PR で作成された変更内容を再度整理して、条文位置事に別PR 作成してマージしつつ、各PR に反映方法や理由を追記するような丁寧な運用がありがたいように思えます。\n不十分な理解のなか、お邪魔しました。"
+  },
+  {
+    "text": "該当PRや同ファイルへの全PRを選択すると、添付画像のように入れ込んで表示します。\n(ご不要かもしれませんが、念のため添付します)",
+    "files": [
+      {
+        "id": "F08TGEAH5NK",
+        "created": 1748113606,
+        "timestamp": 1748113606,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JM08PTK5",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 73413,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08TGEAH5NK/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08TGEAH5NK/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 292,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 389,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TGEAH5NK-ac8dc84c8e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 584,
+        "original_w": 758,
+        "original_h": 615,
+        "thumb_tiny": "AwAmADDQMYOeTz1o8sc8nn3pSvJ4WgBhwNuKAGmBTjlhj0NKIgoUBmwPel+b2pRnHNAC0UUUAISRSF8dqRiAckfjmk3gYOBz70ALub0FLuOOlJv9v1o3jP8A9egA3n0FG4+go3j/ACaPM9v1oAUrk5zTDAjHLZz9TUtFAEP2eP0P5mj7PH6H8zUtFAEX2eP0P/fRqUAAADoKKKAP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08TGEAH5NK/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08TGEAH5NK-f332e4f086",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JM08PTK5",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sliF0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "該当PRや同ファイルへの全PRを選択すると、添付画像のように入れ込んで表示します。\n(ご不要かもしれませんが、念のため添付します)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1748113705.255789",
+    "edited": {
+      "user": "U08JM08PTK5",
+      "ts": "1748113759.000000"
+    },
+    "client_msg_id": "e2b884bd-846f-4e90-91f3-0aca6bfdcc54",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1748099558.504419",
+    "user_name": "Akinori Oyama",
+    "text_readable": "該当PRや同ファイルへの全PRを選択すると、添付画像のように入れ込んで表示します。\n(ご不要かもしれませんが、念のため添付します)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748131588.647879",
+    "client_msg_id": "D9148B14-A2FE-401E-AB68-B61960F8E426",
+    "text": "Devinが頑張ってこんなものができました\n<https://github.com/team-mirai/random/pull/25|https://github.com/team-mirai/random/pull/25>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748099558.504419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "32k/b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Devinが頑張ってこんなものができました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/team-mirai/random/pull/25",
+                "text": "https://github.com/team-mirai/random/pull/25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748099558.504419",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Devinが頑張ってこんなものができました\n<https://github.com/team-mirai/random/pull/25|https://github.com/team-mirai/random/pull/25>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748110120.690729",
+    "client_msg_id": "09bc9e96-7a8b-4476-ab52-6b90eb3b938d",
+    "text": "いどばたシステムから来たPRに対して受け手サイドで要約やラベル付けをするAIを走らせて現状対処していますが、\nニーズは普遍的だと思うのでいどばた側で吸収した方がいいかもです\n\n出力例\n<https://gist.github.com/nishio/aa931dae9b3be98b002ada219aaa0add>\nみどころ:\n• 信頼度付きのカテゴリ分類\n• タイトル変換(元タイトル“匿名ユーザーによる政策改善案（教育・子育て分野）” → 新タイトル “教育と子育て分野におけるリモート技術活用の政策改善案“)\n実装\n<https://github.com/team-mirai/random/blob/main/pr_analysis/content_classifier.py#L103>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hGwkz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたシステムから来たPRに対して受け手サイドで要約やラベル付けをするAIを走らせて現状対処していますが、\nニーズは普遍的だと思うのでいどばた側で吸収した方がいいかもです\n\n出力例\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/nishio/aa931dae9b3be98b002ada219aaa0add"
+              },
+              {
+                "type": "text",
+                "text": "\nみどころ:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "信頼度付きのカテゴリ分類"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "タイトル変換(元タイトル“匿名ユーザーによる政策改善案（教育・子育て分野）” → 新タイトル “教育と子育て分野におけるリモート技術活用の政策改善案“)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n実装\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/team-mirai/random/blob/main/pr_analysis/content_classifier.py#L103"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08Q2CKU139"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたシステムから来たPRに対して受け手サイドで要約やラベル付けをするAIを走らせて現状対処していますが、\nニーズは普遍的だと思うのでいどばた側で吸収した方がいいかもです\n\n出力例\n<https://gist.github.com/nishio/aa931dae9b3be98b002ada219aaa0add>\nみどころ:\n• 信頼度付きのカテゴリ分類\n• タイトル変換(元タイトル“匿名ユーザーによる政策改善案（教育・子育て分野）” → 新タイトル “教育と子育て分野におけるリモート技術活用の政策改善案“)\n実装\n<https://github.com/team-mirai/random/blob/main/pr_analysis/content_classifier.py#L103>"
+  },
+  {
+    "text": "僕がいどばたの認知負荷に慣れた理由はこれらしい",
+    "files": [
+      {
+        "id": "F08TUU4QZRB",
+        "created": 1748188145,
+        "timestamp": 1748188145,
+        "name": "IMG_3442.jpg",
+        "title": "IMG_3442",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08HV1H5HKK",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 266327,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08TUU4QZRB/img_3442.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08TUU4QZRB/download/img_3442.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_360.jpg",
+        "thumb_360_w": 270,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_480.jpg",
+        "thumb_480_w": 360,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_720.jpg",
+        "thumb_720_w": 539,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1068,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_960.jpg",
+        "thumb_960_w": 719,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08TUU4QZRB-7179e02d24/img_3442_1024.jpg",
+        "thumb_1024_w": 767,
+        "thumb_1024_h": 1024,
+        "original_w": 1290,
+        "original_h": 1722,
+        "thumb_tiny": "AwAwACO+zMCfnQc8Zoy5ziRPbihm+Yg7ePWkDjH8J+lAC7mIwrpmgiXsyf8AfNJu5+6MfSn5Y9B+YoAcM4560UDpRQAxyQ3GfypMkj0/z9Kcx+btUQYZ/h59qAH5bOP8/wAqXLe9NXceRgH6Uv7z6fhQBJRRRQBG5IbvSEkjgn86c27PABFIS/ZP5f40AIMnoT+dL82D978KP3me35f/AF6dh/VfyoAcOgz1ooooA//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08TUU4QZRB/img_3442.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08TUU4QZRB-098d78e65a",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HV1H5HKK",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TDn2+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕がいどばたの認知負荷に慣れた理由はこれらしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1748188160.853759",
+    "client_msg_id": "C780DF5E-A948-48AC-9041-849EAF834399",
+    "user_name": "石橋隆平",
+    "text_readable": "僕がいどばたの認知負荷に慣れた理由はこれらしい"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748225406.339599",
+    "client_msg_id": "4f57d8a5-c42a-4ce2-91bf-271ca378bffe",
+    "text": "Chatの回答や政策の編集後の文案に日本語以外の文字が混じることがあることに対する対策として <https://github.com/digitaldemocracy2030/idobata/pull/315|PR#315> で明示的に日本語で回答するようプロンプトの指示が追加されていますが、innactive期間が長いことでcloseになってしまいました。\nこれって何か理由があってnot merged なのでしょうか？そういうわけではないなら、ユーザー体験に影響しますし、マージしてしまってもいいのではないでしょうか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748225406.339599",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1748272856.652259",
+    "reply_users": [
+      "U08LQ25DPAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dJgNo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Chatの回答や政策の編集後の文案に日本語以外の文字が混じることがあることに対する対策として "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/315",
+                "text": "PR#315"
+              },
+              {
+                "type": "text",
+                "text": " で明示的に日本語で回答するようプロンプトの指示が追加されていますが、innactive期間が長いことでcloseになってしまいました。\nこれって何か理由があってnot merged なのでしょうか？そういうわけではないなら、ユーザー体験に影響しますし、マージしてしまってもいいのではないでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "masato sasano",
+    "text_readable": "Chatの回答や政策の編集後の文案に日本語以外の文字が混じることがあることに対する対策として <https://github.com/digitaldemocracy2030/idobata/pull/315|PR#315> で明示的に日本語で回答するようプロンプトの指示が追加されていますが、innactive期間が長いことでcloseになってしまいました。\nこれって何か理由があってnot merged なのでしょうか？そういうわけではないなら、ユーザー体験に影響しますし、マージしてしまってもいいのではないでしょうか。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748272856.652259",
+    "client_msg_id": "e13619d1-c013-49a0-b6ce-e523c997fc0c",
+    "text": "このパターンそこそこあるのですが、レビューが溜まりがちなので意図せず閉じてしまってるものもありそう？\n<https://github.com/digitaldemocracy2030/idobata/pulls?q=is%3Apr+is%3Aclosed+Closing+due+to+inactivity+for+more+than+7+days>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748225406.339599",
+    "parent_user_id": "U08LQ25DPAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vOWCP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このパターンそこそこあるのですが、レビューが溜まりがちなので意図せず閉じてしまってるものもありそう？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pulls?q=is%3Apr+is%3Aclosed+Closing+due+to+inactivity+for+more+than+7+days"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748225406.339599",
+    "user_name": "masato sasano",
+    "text_readable": "このパターンそこそこあるのですが、レビューが溜まりがちなので意図せず閉じてしまってるものもありそう？\n<https://github.com/digitaldemocracy2030/idobata/pulls?q=is%3Apr+is%3Aclosed+Closing+due+to+inactivity+for+more+than+7+days>"
+  },
+  {
+    "text": "新聞に載っているらしい",
+    "files": [
+      {
+        "id": "F08UPL3HEQY",
+        "created": 1748261252,
+        "timestamp": 1748261252,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 3666033,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08UPL3HEQY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08UPL3HEQY/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_360.png",
+        "thumb_360_w": 342,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_480.png",
+        "thumb_480_w": 456,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_720.png",
+        "thumb_720_w": 685,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 841,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_960.png",
+        "thumb_960_w": 913,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F08UPL3HEQY-76f7d3bb41/image_1024.png",
+        "thumb_1024_w": 974,
+        "thumb_1024_h": 1024,
+        "original_w": 1643,
+        "original_h": 1728,
+        "thumb_tiny": "AwAwAC2wjlixHYYFNj3gEvnOabCf3IP945qQjgYoAUMc4BpHdwPlGTSSOI8dT9KaLhfRqAHI7lSWXBBxTmODSFi0ZIPXBFDZz1oAYvCgDtUg7VCpz1qVQTQAkjuAAi5GOeKi80j70dTEUvNAAnzR5xgEZpWOD+FHOc5pCT3oApqSelWEmXcF554BqrvCck4pY3UOu49elAF8nuD+dKSCMio8+lKCDQAueOlAXd2/Wjg4pVyM5oA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F08UPL3HEQY/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08UPL3HEQY-7891227af7",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "frdUV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新聞に載っているらしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1748261259.025689",
+    "client_msg_id": "2421fb0b-e974-4d31-960c-99aabaa52e6e",
+    "thread_ts": "1748261259.025689",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1748389051.756209",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08JM08PTK5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB",
+          "U08RW9HTS76",
+          "U08G2A216TW",
+          "U08Q66ACBTK",
+          "U08NJNMHPLG",
+          "U08RVJ39D4M",
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z",
+          "U08H3V9KMFH"
+        ],
+        "count": 9
+      },
+      {
+        "name": "sugoi",
+        "users": [
+          "U08J64P3SF4",
+          "U08RW9HTS76",
+          "U08LQ25DPAB",
+          "U08Q66ACBTK",
+          "U08HBBH9VJS",
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z",
+          "U08H3V9KMFH"
+        ],
+        "count": 8
+      },
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW",
+          "U08HTMJPH6K",
+          "U08Q66ACBTK",
+          "U08HWJ80CHG",
+          "U08FZDRRY8Z"
+        ],
+        "count": 5
+      },
+      {
+        "name": "sunrise_over_mountains",
+        "users": [
+          "U08LQ25DPAB",
+          "U08FZDRRY8Z"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "新聞に載っているらしい"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748262932.264389",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1748263459.000000"
+    },
+    "client_msg_id": "063d071d-989b-4ddc-811c-c215ac3cea58",
+    "text": "<https://www.asahi.com/rensai/list.html?id=3039&iref=pc_rensai_article_breadcrumb_3039|この特集>か。主要国政政党の顔や安野さん、オードリー・タンさん、グレン・ワイルさんも映ってる。\nAI×民主主義について懐疑的な報道が多い中、ここまでど真ん中で取り上げられたのは画期的ですね。\n<https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1|デジタル版の第一回>は国民民主党×ブロードリスニングが詳しく解説されてました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "image_url": "https://www.asahicom.jp/rensai/T_2025_ai_tominsyusyugi_1200_800_main.jpg",
+        "image_width": 1200,
+        "image_height": 800,
+        "image_bytes": 624977,
+        "from_url": "https://www.asahi.com/rensai/list.html?id=3039&iref=pc_rensai_article_breadcrumb_3039",
+        "service_icon": "https://www.asahi.com/logo_icon.png",
+        "id": 1,
+        "original_url": "https://www.asahi.com/rensai/list.html?id=3039&amp;iref=pc_rensai_article_breadcrumb_3039",
+        "fallback": "朝日新聞: 連載「AIと民主主義」一覧：朝日新聞",
+        "text": "連載「AIと民主主義」一覧 ：朝日新聞",
+        "title": "連載「AIと民主主義」一覧：朝日新聞",
+        "title_link": "https://www.asahi.com/rensai/list.html?id=3039&iref=pc_rensai_article_breadcrumb_3039",
+        "service_name": "朝日新聞"
+      },
+      {
+        "image_url": "https://imgopt.asahi.com/ogp/AS20250524004186_comm.jpg",
+        "image_width": 640,
+        "image_height": 335,
+        "image_bytes": 96079,
+        "from_url": "https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1",
+        "service_icon": "http://www.asahicom.jp/logo_icon.png",
+        "ts": 1748113200,
+        "id": 2,
+        "original_url": "https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1",
+        "fallback": "朝日新聞: AIが政治家に示した「声」、それは民意か誘導か　問われる民主主義：朝日新聞",
+        "text": "　「今週、寄せられた意見が増えましたね。江藤拓農林水産大臣の発言への意見もありますが、コメが高い、野菜が高い、物価高騰（への不満）が増えてきたのが目に見えて確認できます」　5月23日夜、国民民主党の動…",
+        "title": "AIが政治家に示した「声」、それは民意か誘導か　問われる民主主義：朝日新聞",
+        "title_link": "https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1",
+        "service_name": "朝日新聞"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+j2gs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.asahi.com/rensai/list.html?id=3039&iref=pc_rensai_article_breadcrumb_3039",
+                "text": "この特集"
+              },
+              {
+                "type": "text",
+                "text": "か。主要国政政党の顔や安野さん、オードリー・タンさん、グレン・ワイルさんも映ってる。\nAI×民主主義について懐疑的な報道が多い中、ここまでど真ん中で取り上げられたのは画期的ですね。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1",
+                "text": "デジタル版の第一回"
+              },
+              {
+                "type": "text",
+                "text": "は国民民主党×ブロードリスニングが詳しく解説されてました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "masato sasano",
+    "text_readable": "<https://www.asahi.com/rensai/list.html?id=3039&iref=pc_rensai_article_breadcrumb_3039|この特集>か。主要国政政党の顔や安野さん、オードリー・タンさん、グレン・ワイルさんも映ってる。\nAI×民主主義について懐疑的な報道が多い中、ここまでど真ん中で取り上げられたのは画期的ですね。\n<https://digital.asahi.com/articles/AST5P13HBT5PUTFK014M.html?ptoken=01JW68ZG9GNK305JBTXATX6YP1|デジタル版の第一回>は国民民主党×ブロードリスニングが詳しく解説されてました。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748264786.062039",
+    "client_msg_id": "2759fa62-eb46-400a-a559-71d619d61f12",
+    "text": "（朝日新聞のTTTCのコードを見に行ったら、勤め先のOSSもForkされてて世間の狭さを感じた）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c0Vni",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（朝日新聞のTTTCのコードを見に行ったら、勤め先のOSSもForkされてて世間の狭さを感じた）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "masato sasano",
+    "text_readable": "（朝日新聞のTTTCのコードを見に行ったら、勤め先のOSSもForkされてて世間の狭さを感じた）"
+  },
+  {
+    "user": "U08JM08PTK5",
+    "type": "message",
+    "ts": "1748269648.750179",
+    "client_msg_id": "19776b7c-47f3-478c-b64d-b56ca15f9d2d",
+    "text": "プレゼント記事、ありがとうございます。\nこのシリーズではないようですが、こちらも、動画が見たいっ!! (台湾華語なのが、ちょっとズルい気もします...)\n<https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html>\nご紹介のシリーズだと、第５回に登場するようですね。そちらがどこまでの範囲のものなのか、気になりますっ!!",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "image_url": "https://imgopt.asahi.com/ogp/AS20250522003734_comm.jpg",
+        "image_width": 640,
+        "image_height": 335,
+        "image_bytes": 48328,
+        "from_url": "https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html",
+        "service_icon": "http://www.asahicom.jp/logo_icon.png",
+        "ts": 1748113200,
+        "id": 1,
+        "original_url": "https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html",
+        "fallback": "朝日新聞: オードリー・タン氏、日本への警鐘　デジタル技術で分断は防げるか：朝日新聞",
+        "text": "　台湾で初代デジタル担当相を務めたオードリー・タン氏（44）が5月に来日し、人工知能（AI）と民主主義をテーマに朝日新聞の単独インタビューに応じた。タン氏は、AIによって社会の分断を乗り越えられる可能…",
+        "title": "オードリー・タン氏、日本への警鐘　デジタル技術で分断は防げるか：朝日新聞",
+        "title_link": "https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html",
+        "service_name": "朝日新聞"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/aSEk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プレゼント記事、ありがとうございます。\nこのシリーズではないようですが、こちらも、動画が見たいっ!! (台湾華語なのが、ちょっとズルい気もします...)\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html"
+              },
+              {
+                "type": "text",
+                "text": "\nご紹介のシリーズだと、第５回に登場するようですね。そちらがどこまでの範囲のものなのか、気になりますっ!!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "Akinori Oyama",
+    "text_readable": "プレゼント記事、ありがとうございます。\nこのシリーズではないようですが、こちらも、動画が見たいっ!! (台湾華語なのが、ちょっとズルい気もします...)\n<https://www.asahi.com/articles/AST5P14THT5PUTFK01LM.html>\nご紹介のシリーズだと、第５回に登場するようですね。そちらがどこまでの範囲のものなのか、気になりますっ!!"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748270663.601349",
+    "client_msg_id": "2fade32d-85c9-4cfa-aab4-ddcabff9c1ef",
+    "text": "どぞ！つ <https://digital.asahi.com/articles/AST5P14THT5PUTFK01LM.html?ptoken=01JW6GRG6RNG3BEEE2ATC8FEFK>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H7V5m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どぞ！つ "
+              },
+              {
+                "type": "link",
+                "url": "https://digital.asahi.com/articles/AST5P14THT5PUTFK01LM.html?ptoken=01JW6GRG6RNG3BEEE2ATC8FEFK"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "masato sasano",
+    "text_readable": "どぞ！つ <https://digital.asahi.com/articles/AST5P14THT5PUTFK01LM.html?ptoken=01JW6GRG6RNG3BEEE2ATC8FEFK>"
+  },
+  {
+    "user": "U08JM08PTK5",
+    "type": "message",
+    "ts": "1748270879.694689",
+    "client_msg_id": "946a9d17-0ef8-468c-9b66-5319514c2d71",
+    "text": "<@U08LQ25DPAB>!! ありがとうございます!!\n8:39の動画! こちらも台湾語...\n本文のお話はいつものお話ですが、広がるのは嬉しいですよねっ!!",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TpUUg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": "!! ありがとうございます!!\n8:39の動画! こちらも台湾語...\n本文のお話はいつものお話ですが、広がるのは嬉しいですよねっ!!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "Akinori Oyama",
+    "text_readable": "@masatosasano2!! ありがとうございます!!\n8:39の動画! こちらも台湾語...\n本文のお話はいつものお話ですが、広がるのは嬉しいですよねっ!!"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748389051.756209",
+    "client_msg_id": "bdbc4f56-997a-4c3e-9b73-256a5f6e30aa",
+    "text": "<https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7|電子版>も出てました\n「デジタル民主主義2030」「いどばた」が紹介されてます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748261259.025689",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "image_url": "https://imgopt.asahi.com/ogp/AS20250523001891_comm.jpg",
+        "image_width": 640,
+        "image_height": 334,
+        "image_bytes": 130647,
+        "from_url": "https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7",
+        "service_icon": "http://www.asahicom.jp/logo_icon.png",
+        "ts": 1748386800,
+        "id": 1,
+        "original_url": "https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7",
+        "fallback": "朝日新聞: AIで1億人が合意形成？「民主主義のアップデート」はSFか現実か：朝日新聞",
+        "text": "　AIを使えば、1億人が熟議し、合意をめざすことも夢じゃない。そんな社会を実現しようと、本気で動き出しているエンジニアがいる。　安野貴博（34）。昨年の都知事選に立候補し、AIによって、誰もが参加でき…",
+        "title": "AIで1億人が合意形成？「民主主義のアップデート」はSFか現実か：朝日新聞",
+        "title_link": "https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7",
+        "service_name": "朝日新聞"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "I+he/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7",
+                "text": "電子版"
+              },
+              {
+                "type": "text",
+                "text": "も出てました\n「デジタル民主主義2030」「いどばた」が紹介されてます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748261259.025689",
+    "user_name": "masato sasano",
+    "text_readable": "<https://digital.asahi.com/articles/AST5R1PL1T5RUTFK018M.html?ptoken=01JWA1HZ85TJ9TQYVKCMDN1EB7|電子版>も出てました\n「デジタル民主主義2030」「いどばた」が紹介されてます！"
+  },
+  {
+    "user": "U08MX5MUU83",
+    "type": "message",
+    "ts": "1748268962.919139",
+    "client_msg_id": "c3b72ab1-4110-4497-8448-601fbcf2819b",
+    "text": "こんにちは。チームみらいボランティアのみやこしです。\nローカルでいどばた政策立案を動かすところまでできたので、そろそろ開発に参加しようと考えています。\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1747835573806609>\nの #341-#353 あたりから取ればよいのかな、と思ってはいますが、いきなり RAG とかハードルが高いのでどこから手をつけようか、と思っているところです。\nこれ以外でも貢献していきたい気持ちはあるので「beginner にはこれがよさそう」的なオススメがあったらお願いします :pray:\n\nスキルセットなど:\n• バックエンドエンジニアとしてそこそこ長い間働いています。\n• 得意な分野はDBのテーブル設計やデータモデリング、アプリケーション設計などだと考えています。\n• LLM を使った開発は未経験です。chat.ts/client.ts を読んで「こんな感じかー」と眺めているところです\n• フロントエンドはモダンなウェブクライアント開発の経験もなく(業務ではweb service backend 開発のみ)、現在のコードもチラ見した程度です。勉強すれば、書けるようになる・・・はず・・・\n• 使える時間はせいぜい 1, 2 hour/day くらいです。休みの日はもうちょっとは取れます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748268962.919139",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1748344181.062459",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08MX5MUU83"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1747835573806609",
+        "ts": "1747835573.806609",
+        "author_id": "U08FTAEETAB",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1747835573.806609",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "IVfj0",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/341",
+                              "text": "#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/342",
+                              "text": "#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/343",
+                              "text": "#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/344",
+                              "text": "#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/345",
+                              "text": "#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/346",
+                              "text": "#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/347",
+                              "text": "#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/348",
+                              "text": "#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/349",
+                              "text": "#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/350",
+                              "text": "#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/351",
+                              "text": "#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/352",
+                              "text": "#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する",
+                              "unsafe": true
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://github.com/digitaldemocracy2030/idobata/issues/353",
+                              "text": "#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する",
+                              "unsafe": true
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1747835573806609",
+        "fallback": "[May 21st, 2025 6:52 AM] jujunjun110: 先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n1. <https://github.com/digitaldemocracy2030/idobata/issues/341|#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する>\n2. <https://github.com/digitaldemocracy2030/idobata/issues/342|#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する>\n3. <https://github.com/digitaldemocracy2030/idobata/issues/343|#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する>\n4. <https://github.com/digitaldemocracy2030/idobata/issues/344|#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する>\n5. <https://github.com/digitaldemocracy2030/idobata/issues/345|#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する>\n6. <https://github.com/digitaldemocracy2030/idobata/issues/346|#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する>\n7. <https://github.com/digitaldemocracy2030/idobata/issues/347|#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する>\n8. <https://github.com/digitaldemocracy2030/idobata/issues/348|#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する>\n9. <https://github.com/digitaldemocracy2030/idobata/issues/349|#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する>\n10. <https://github.com/digitaldemocracy2030/idobata/issues/350|#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する>\n11. <https://github.com/digitaldemocracy2030/idobata/issues/351|#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する>\n12. <https://github.com/digitaldemocracy2030/idobata/issues/352|#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する>\n13. <https://github.com/digitaldemocracy2030/idobata/issues/353|#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する>",
+        "text": "先ほどの定例でも触れましたが、チームみらいでいどばた政策を使って発見された課題について、GitHub Issue として登録しました！\n実際のユースケースで生まれた課題なので、他のタスクとの優先度の兼ね合いを見ながら進めていければと思います！\n\n1. <https://github.com/digitaldemocracy2030/idobata/issues/341|#341 政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する>\n2. <https://github.com/digitaldemocracy2030/idobata/issues/342|#342 政策担当者が適切なページで変更提案を受け取れるようにPR作成ロジックを改善する>\n3. <https://github.com/digitaldemocracy2030/idobata/issues/343|#343 政策担当者が変更提案の妥当性を効率的に確認できるようにファクトチェック機能を実装する>\n4. <https://github.com/digitaldemocracy2030/idobata/issues/344|#344 政策担当者が提案内容の書きっぷりを効率的に改善できるように書き換え機能を実装する>\n5. <https://github.com/digitaldemocracy2030/idobata/issues/345|#345 ユーザーが質の高い変更提案を作成できるようにPR品質管理機能を実装する>\n6. <https://github.com/digitaldemocracy2030/idobata/issues/346|#346 ユーザーが既存の提案を参照できるように類似PR検出機能を実装する>\n7. <https://github.com/digitaldemocracy2030/idobata/issues/347|#347 政策担当者がPR却下作業を効率化できるように却下文章生成機能を実装する>\n8. <https://github.com/digitaldemocracy2030/idobata/issues/348|#348 ユーザーがページ構造を把握しやすくなるようにナビゲーション機能を改善する>\n9. <https://github.com/digitaldemocracy2030/idobata/issues/349|#349 政策担当者がレビュー作業を効率化できるように類似PR検出・サジェスト機能を実装する>\n10. <https://github.com/digitaldemocracy2030/idobata/issues/350|#350 政策担当者がレビューの優先度を効率的に判断できるようにPR分類機能を実装する>\n11. <https://github.com/digitaldemocracy2030/idobata/issues/351|#351 ユーザーが適切な変更提案を作成できるように構造保持機能を実装する>\n12. <https://github.com/digitaldemocracy2030/idobata/issues/352|#352 政策担当者が本質的な変更に集中できるように差分最適化機能を実装する>\n13. <https://github.com/digitaldemocracy2030/idobata/issues/353|#353 ユーザーが使いやすいインターフェースを利用できるようにデザイン改善を実施する>",
+        "author_name": "jujunjun110",
+        "author_link": "https://dd2030.slack.com/team/U08FTAEETAB",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-16/8610664276051_eba2e0b3d3d1d9996d59_48.png",
+        "author_subname": "jujunjun110",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gYesJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんにちは。チームみらいボランティアのみやこしです。\nローカルでいどばた政策立案を動かすところまでできたので、そろそろ開発に参加しようと考えています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1747835573806609"
+              },
+              {
+                "type": "text",
+                "text": "\nの #341-#353 あたりから取ればよいのかな、と思ってはいますが、いきなり RAG とかハードルが高いのでどこから手をつけようか、と思っているところです。\nこれ以外でも貢献していきたい気持ちはあるので「beginner にはこれがよさそう」的なオススメがあったらお願いします "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "\n\nスキルセットなど:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "バックエンドエンジニアとしてそこそこ長い間働いています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "得意な分野はDBのテーブル設計やデータモデリング、アプリケーション設計などだと考えています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "LLM を使った開発は未経験です。chat.ts/client.ts を読んで「こんな感じかー」と眺めているところです"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "フロントエンドはモダンなウェブクライアント開発の経験もなく(業務ではweb service backend 開発のみ)、現在のコードもチラ見した程度です。勉強すれば、書けるようになる・・・はず・・・"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "使える時間はせいぜい 1, 2 hour/day くらいです。休みの日はもうちょっとは取れます"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "MIYAKOSI Sigeaki",
+    "text_readable": "こんにちは。チームみらいボランティアのみやこしです。\nローカルでいどばた政策立案を動かすところまでできたので、そろそろ開発に参加しようと考えています。\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1747835573806609>\nの #341-#353 あたりから取ればよいのかな、と思ってはいますが、いきなり RAG とかハードルが高いのでどこから手をつけようか、と思っているところです。\nこれ以外でも貢献していきたい気持ちはあるので「beginner にはこれがよさそう」的なオススメがあったらお願いします :pray:\n\nスキルセットなど:\n• バックエンドエンジニアとしてそこそこ長い間働いています。\n• 得意な分野はDBのテーブル設計やデータモデリング、アプリケーション設計などだと考えています。\n• LLM を使った開発は未経験です。chat.ts/client.ts を読んで「こんな感じかー」と眺めているところです\n• フロントエンドはモダンなウェブクライアント開発の経験もなく(業務ではweb service backend 開発のみ)、現在のコードもチラ見した程度です。勉強すれば、書けるようになる・・・はず・・・\n• 使える時間はせいぜい 1, 2 hour/day くらいです。休みの日はもうちょっとは取れます"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748274495.371689",
+    "client_msg_id": "65930b3f-45e7-42ea-9e52-919bcc2e04c0",
+    "text": "こんにちは。\n正確な優先度は<https://github.com/digitaldemocracy2030/idobata/blob/main/docs/CONTRIBUTING.md|メンテナーの方>の返信待ちになりそうですが、ご参考までに：\n• 週次定例会の<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp#heading=h.ljdy8854l1ck|議事録>を見る限り、チームみらい起点で直近上がった課題はご記載いただいたものです。あと、その後安野さんが本チャンネルに投稿されている2,3の要望も該当しそうです。\n• チームみらいに限らなければ <https://github.com/orgs/digitaldemocracy2030/projects/6/views/1?filterQuery=%E5%84%AA%E5%85%88%E5%BA%A6%3A%E9%AB%98|優先度:高> と <https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue|good first issueラベル> が一応あるものの、メンテが追いついてなさそうです。\n• あとは、以下の定例会でご相談いただくか、気になった課題から取り掛かっていただくのでも良いのではないかと思います！`毎週水曜日 19:00-20:00` <https://meet.google.com/vno-mknp-aoo|Meet>　<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU|議事メモ>\n• その他、Devinを使われたい場合は他の利用者や上記のメンテナーの方にご相談ください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748268962.919139",
+    "parent_user_id": "U08MX5MUU83",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3kEaf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんにちは。\n正確な優先度は"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/blob/main/docs/CONTRIBUTING.md",
+                "text": "メンテナーの方"
+              },
+              {
+                "type": "text",
+                "text": "の返信待ちになりそうですが、ご参考までに：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "週次定例会の"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp#heading=h.ljdy8854l1ck",
+                    "text": "議事録"
+                  },
+                  {
+                    "type": "text",
+                    "text": "を見る限り、チームみらい起点で直近上がった課題はご記載いただいたものです。あと、その後安野さんが本チャンネルに投稿されている2,3の要望も該当しそうです。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "チームみらいに限らなければ "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/orgs/digitaldemocracy2030/projects/6/views/1?filterQuery=%E5%84%AA%E5%85%88%E5%BA%A6%3A%E9%AB%98",
+                    "text": "優先度:高"
+                  },
+                  {
+                    "type": "text",
+                    "text": " と "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue",
+                    "text": "good first issueラベル"
+                  },
+                  {
+                    "type": "text",
+                    "text": " が一応あるものの、メンテが追いついてなさそうです。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "あとは、以下の定例会でご相談いただくか、気になった課題から取り掛かっていただくのでも良いのではないかと思います！"
+                  },
+                  {
+                    "type": "text",
+                    "text": "毎週水曜日 19:00-20:00",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://meet.google.com/vno-mknp-aoo",
+                    "text": "Meet"
+                  },
+                  {
+                    "type": "text",
+                    "text": "　"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU",
+                    "text": "議事メモ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その他、Devinを使われたい場合は他の利用者や上記のメンテナーの方にご相談ください。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08MX5MUU83"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748268962.919139",
+    "user_name": "masato sasano",
+    "text_readable": "こんにちは。\n正確な優先度は<https://github.com/digitaldemocracy2030/idobata/blob/main/docs/CONTRIBUTING.md|メンテナーの方>の返信待ちになりそうですが、ご参考までに：\n• 週次定例会の<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp#heading=h.ljdy8854l1ck|議事録>を見る限り、チームみらい起点で直近上がった課題はご記載いただいたものです。あと、その後安野さんが本チャンネルに投稿されている2,3の要望も該当しそうです。\n• チームみらいに限らなければ <https://github.com/orgs/digitaldemocracy2030/projects/6/views/1?filterQuery=%E5%84%AA%E5%85%88%E5%BA%A6%3A%E9%AB%98|優先度:高> と <https://github.com/digitaldemocracy2030/idobata/labels/good%20first%20issue|good first issueラベル> が一応あるものの、メンテが追いついてなさそうです。\n• あとは、以下の定例会でご相談いただくか、気になった課題から取り掛かっていただくのでも良いのではないかと思います！`毎週水曜日 19:00-20:00` <https://meet.google.com/vno-mknp-aoo|Meet>　<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU|議事メモ>\n• その他、Devinを使われたい場合は他の利用者や上記のメンテナーの方にご相談ください。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748339870.193329",
+    "client_msg_id": "ac803060-8cf9-4615-bab4-3e3971d75537",
+    "text": "`FYI` <@U08GJSBAX3K> <@U08HMV9AHLL> <@U08GXFFJLTA> <@U08FTAEETAB>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748268962.919139",
+    "parent_user_id": "U08MX5MUU83",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VK/5e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "FYI",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GXFFJLTA"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748268962.919139",
+    "user_name": "masato sasano",
+    "text_readable": "`FYI` @shutaro.aoyama @spinutids @kainekominto299 @jujunjun110"
+  },
+  {
+    "user": "U08MX5MUU83",
+    "type": "message",
+    "ts": "1748344181.062459",
+    "client_msg_id": "a926265e-efa9-45aa-96b9-0fc82c993e48",
+    "text": "response ありがとうございます！見てみますね。手例も時間帯的に参加できるかちょっと怪しいですが、出来る限り都合を付けてみようと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748268962.919139",
+    "parent_user_id": "U08MX5MUU83",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fShkC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "response ありがとうございます！見てみますね。手例も時間帯的に参加できるかちょっと怪しいですが、出来る限り都合を付けてみようと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748268962.919139",
+    "user_name": "MIYAKOSI Sigeaki",
+    "text_readable": "response ありがとうございます！見てみますね。手例も時間帯的に参加できるかちょっと怪しいですが、出来る限り都合を付けてみようと思います！"
+  },
+  {
+    "user": "U08MX5MUU83",
+    "type": "message",
+    "ts": "1748270685.955069",
+    "client_msg_id": "66e8ea22-7fe2-4eb4-901c-ec173c49c8cb",
+    "text": "あとは細かい運用フローなども気になっています。たとえば PR-A と PR-B があって、政策担当者が\n• A はほぼ同意なんだけど、Bの要素もいれたい時\n    ◦ -&gt; A に対して修正コミットを入れて、B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな\n    ◦ 政策担当者はみな git を使うんだろうか？（まあマニュアルがあれば git で 更新操作とかはできそうではあるかも）\n• A と B のそれぞれを良いとこ取りしたい\n    ◦ -&gt; 政策担当者が新しく PR を起こして、A と B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな\nとか、このあたりの使い方的な部分もある程度すでに検討・想定があるのか、それもそこはまだ検討段階だったりするのかも気になっています。\n（大規模熟議の仕組みで github を使っているのも goal ではなく今ある仕組みを活用しているだけだと思うので、理想形は検討中なのではないかな、と思っています）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "891p2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとは細かい運用フローなども気になっています。たとえば PR-A と PR-B があって、政策担当者が\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "A はほぼ同意なんだけど、Bの要素もいれたい時"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "-> A に対して修正コミットを入れて、B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "政策担当者はみな git を使うんだろうか？（まあマニュアルがあれば git で 更新操作とかはできそうではあるかも）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "A と B のそれぞれを良いとこ取りしたい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "-> 政策担当者が新しく PR を起こして、A と B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とか、このあたりの使い方的な部分もある程度すでに検討・想定があるのか、それもそこはまだ検討段階だったりするのかも気になっています。\n（大規模熟議の仕組みで github を使っているのも goal ではなく今ある仕組みを活用しているだけだと思うので、理想形は検討中なのではないかな、と思っています）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "MIYAKOSI Sigeaki",
+    "text_readable": "あとは細かい運用フローなども気になっています。たとえば PR-A と PR-B があって、政策担当者が\n• A はほぼ同意なんだけど、Bの要素もいれたい時\n    ◦ -> A に対して修正コミットを入れて、B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな\n    ◦ 政策担当者はみな git を使うんだろうか？（まあマニュアルがあれば git で 更新操作とかはできそうではあるかも）\n• A と B のそれぞれを良いとこ取りしたい\n    ◦ -> 政策担当者が新しく PR を起こして、A と B に「こっちに要素を入れましたよ」的なコメントを出して close なのかな\nとか、このあたりの使い方的な部分もある程度すでに検討・想定があるのか、それもそこはまだ検討段階だったりするのかも気になっています。\n（大規模熟議の仕組みで github を使っているのも goal ではなく今ある仕組みを活用しているだけだと思うので、理想形は検討中なのではないかな、と思っています）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748271499.893409",
+    "client_msg_id": "2A2BA4FC-F6E2-4B7E-B75A-B7EBE8E72A0D",
+    "text": "そのプロセスの説明文書を用意してて安野さんのレビューが済んだら追加される的な状況ですが、ざっとみ予想されてる通りだと思います、細かい正確なことは解説文章を待ってください",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748271499.893409",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1748344026.969219",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08MX5MUU83"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fumuR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そのプロセスの説明文書を用意してて安野さんのレビューが済んだら追加される的な状況ですが、ざっとみ予想されてる通りだと思います、細かい正確なことは解説文章を待ってください"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08MX5MUU83"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そのプロセスの説明文書を用意してて安野さんのレビューが済んだら追加される的な状況ですが、ざっとみ予想されてる通りだと思います、細かい正確なことは解説文章を待ってください"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748271881.751959",
+    "client_msg_id": "7e960322-1313-4422-872e-e7418c13d39a",
+    "text": "正確には、チームみらいとしての回答はこう↑で、いどばたのプロダクトとしての推奨プロセスはまだ議論が成熟していない、ですかね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748271499.893409",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U3qqE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "正確には、チームみらいとしての回答はこう↑で、いどばたのプロダクトとしての推奨プロセスはまだ議論が成熟していない、ですかね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08RW9HTS76",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      },
+      {
+        "name": "yes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08G2A216TW",
+          "U08MX5MUU83"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1748271499.893409",
+    "user_name": "masato sasano",
+    "text_readable": "正確には、チームみらいとしての回答はこう↑で、いどばたのプロダクトとしての推奨プロセスはまだ議論が成熟していない、ですかね"
+  },
+  {
+    "user": "U08MX5MUU83",
+    "type": "message",
+    "ts": "1748344026.969219",
+    "client_msg_id": "ef4e4015-718e-4799-8ee2-8b0349171984",
+    "text": "こちら拝見しました。どちらの観点も理解できました。ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748271499.893409",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9eBcq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちら拝見しました。どちらの観点も理解できました。ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748271499.893409",
+    "user_name": "MIYAKOSI Sigeaki",
+    "text_readable": "こちら拝見しました。どちらの観点も理解できました。ありがとうございます！"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1748335994.542699",
+    "edited": {
+      "user": "U08J66CBKKJ",
+      "ts": "1748336216.000000"
+    },
+    "client_msg_id": "2f1f0950-9a9a-4a10-bc03-f4e8a9ce1396",
+    "text": "*【いどばたビジョンの導入実績を作る作戦会議をしませんか！】*:fire:\nいどばた会議、とても面白いプロダクトができていると思っていて、\nぜひいろんな場への導入を目指していけると面白いと思います！:blob-neon-devil:\nいどばた政策はある程度ユースケース見える気がしつつ、\nいどばたビジョンもユースケースの目処つけていけたら素敵だなと。\n(それによって開発方向性も変わってくるかなと)\n\n例えば自治体などでの活用ニーズなどあり得ると思うのですが、\n一方で(担当者が)どう使うとよいのか、運用のイメージがまだ解像度上がっていない気もしています:thinking_face:\n\nせっかく、このコミュニティには自治体職員の方や、\nその他の有識者がいっぱいいらっしゃると思うので、\nどうやったら現場で使いやすいツールになるか、考える会をしませんか？:busts_in_silhouette:\n\n興味ある人何人かいたら日程調整したいので、\nぜひ挙手お願いします！:hand:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748335994.542699",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1748356330.661419",
+    "reply_users": [
+      "U08MG09M5FH",
+      "U08HZGSCT53"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vVg9C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【いどばたビジョンの導入実績を作る作戦会議をしませんか！】",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "emoji",
+                "name": "fire",
+                "unicode": "1f525",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nいどばた会議、とても面白いプロダクトができていると思っていて、\nぜひいろんな場への導入を目指していけると面白いと思います！"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-neon-devil"
+              },
+              {
+                "type": "text",
+                "text": "\nいどばた政策はある程度ユースケース見える気がしつつ、\nいどばたビジョンもユースケースの目処つけていけたら素敵だなと。\n(それによって開発方向性も変わってくるかなと)\n\n例えば自治体などでの活用ニーズなどあり得ると思うのですが、\n一方で(担当者が)どう使うとよいのか、運用のイメージがまだ解像度上がっていない気もしています"
+              },
+              {
+                "type": "emoji",
+                "name": "thinking_face",
+                "unicode": "1f914"
+              },
+              {
+                "type": "text",
+                "text": "\n\nせっかく、このコミュニティには自治体職員の方や、\nその他の有識者がいっぱいいらっしゃると思うので、\nどうやったら現場で使いやすいツールになるか、考える会をしませんか？"
+              },
+              {
+                "type": "emoji",
+                "name": "busts_in_silhouette",
+                "unicode": "1f465"
+              },
+              {
+                "type": "text",
+                "text": "\n\n興味ある人何人かいたら日程調整したいので、\nぜひ挙手お願いします！"
+              },
+              {
+                "type": "emoji",
+                "name": "hand",
+                "unicode": "270b"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_back_of_hand",
+        "users": [
+          "U08GJSBAX3K",
+          "U08J66CBKKJ",
+          "U08MG09M5FH",
+          "U08HWJ80CHG",
+          "U08HMV9AHLL",
+          "U08SZLLTNQN",
+          "U08J1QVLLAY",
+          "U08HKLUGE67"
+        ],
+        "count": 8
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08GJSBAX3K",
+          "U08HWJ80CHG",
+          "U08HMV9AHLL",
+          "U08HC0144PQ",
+          "U08RW9HTS76",
+          "U08HTMJPH6K"
+        ],
+        "count": 6
+      },
+      {
+        "name": "parrot-boba",
+        "users": [
+          "U08GJSBAX3K",
+          "U08HWJ80CHG",
+          "U08HMV9AHLL",
+          "U08SSCNELQ5",
+          "U08HZGSCT53"
+        ],
+        "count": 5
+      },
+      {
+        "name": "boat",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Kosuke Sera",
+    "text_readable": "*【いどばたビジョンの導入実績を作る作戦会議をしませんか！】*:fire:\nいどばた会議、とても面白いプロダクトができていると思っていて、\nぜひいろんな場への導入を目指していけると面白いと思います！:blob-neon-devil:\nいどばた政策はある程度ユースケース見える気がしつつ、\nいどばたビジョンもユースケースの目処つけていけたら素敵だなと。\n(それによって開発方向性も変わってくるかなと)\n\n例えば自治体などでの活用ニーズなどあり得ると思うのですが、\n一方で(担当者が)どう使うとよいのか、運用のイメージがまだ解像度上がっていない気もしています:thinking_face:\n\nせっかく、このコミュニティには自治体職員の方や、\nその他の有識者がいっぱいいらっしゃると思うので、\nどうやったら現場で使いやすいツールになるか、考える会をしませんか？:busts_in_silhouette:\n\n興味ある人何人かいたら日程調整したいので、\nぜひ挙手お願いします！:hand:"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1748337498.721699",
+    "client_msg_id": "9341bb59-161c-4d31-a573-95c24f8e6241",
+    "text": "予定合えばオブザーバーとして参加したいです！（なので他の方の都合優先でお願いいたします！）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748335994.542699",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FpX3N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "予定合えばオブザーバーとして参加したいです！（なので他の方の都合優先でお願いいたします！）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748335994.542699",
+    "user_name": "tahashika（たはしか）",
+    "text_readable": "予定合えばオブザーバーとして参加したいです！（なので他の方の都合優先でお願いいたします！）"
+  },
+  {
+    "user": "U08HZGSCT53",
+    "type": "message",
+    "ts": "1748356330.661419",
+    "client_msg_id": "e2dc8865-3e75-4bde-af59-26483ceea209",
+    "text": "東京都中央区で議員をやってます、ほづみです。先日のmeetupでもウチの自治体で実験的にやってみたいという話もしてまして、想定する用途に合致しているかはさておきめっちゃ関心あります。ぜひ考える会参加したいです。\n\nわたしの考えるユースケースの概要について書きます。\n本区は恥ずかしながら住民の声を聞くということをなかなかに前向きにやってくれない区でして、そもそもリアルに住民が区長などに意見を伝えるタウンミーティング的なものを実施しておらず、ディシディムみたいなweb上での意見聴取なども一切できてません。\n\n一方で、最近ではマンション建築ラッシュにより新住民が増えており、彼らは色々と意見があるにもかかわらずそれを反映する機会がないことによる不満が溜まっているところです。\n\nそんな思いのはけ口として、いどばたビジョンが使えないかなと考えているところでした。非公式という位置づけではありますが、一応議員という立場なので出てきた意見を行政に対して提案するということはできますし、心ある職員であればこの場でどういう声が出ているのかを把握して施策に活かすこともできるかと考えております。\n\nそして、一定程度活用されることが検証されれば、オフィシャルに導入することも視野に入るのかなということを期待してます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748335994.542699",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l6QND",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "東京都中央区で議員をやってます、ほづみです。先日のmeetupでもウチの自治体で実験的にやってみたいという話もしてまして、想定する用途に合致しているかはさておきめっちゃ関心あります。ぜひ考える会参加したいです。\n\nわたしの考えるユースケースの概要について書きます。\n本区は恥ずかしながら住民の声を聞くということをなかなかに前向きにやってくれない区でして、そもそもリアルに住民が区長などに意見を伝えるタウンミーティング的なものを実施しておらず、ディシディムみたいなweb上での意見聴取なども一切できてません。\n\n一方で、最近ではマンション建築ラッシュにより新住民が増えており、彼らは色々と意見があるにもかかわらずそれを反映する機会がないことによる不満が溜まっているところです。\n\nそんな思いのはけ口として、いどばたビジョンが使えないかなと考えているところでした。非公式という位置づけではありますが、一応議員という立場なので出てきた意見を行政に対して提案するということはできますし、心ある職員であればこの場でどういう声が出ているのかを把握して施策に活かすこともできるかと考えております。\n\nそして、一定程度活用されることが検証されれば、オフィシャルに導入することも視野に入るのかなということを期待してます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08J66CBKKJ",
+          "U08MG09M5FH",
+          "U08HTMJPH6K"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1748335994.542699",
+    "user_name": "ほづみゆうき",
+    "text_readable": "東京都中央区で議員をやってます、ほづみです。先日のmeetupでもウチの自治体で実験的にやってみたいという話もしてまして、想定する用途に合致しているかはさておきめっちゃ関心あります。ぜひ考える会参加したいです。\n\nわたしの考えるユースケースの概要について書きます。\n本区は恥ずかしながら住民の声を聞くということをなかなかに前向きにやってくれない区でして、そもそもリアルに住民が区長などに意見を伝えるタウンミーティング的なものを実施しておらず、ディシディムみたいなweb上での意見聴取なども一切できてません。\n\n一方で、最近ではマンション建築ラッシュにより新住民が増えており、彼らは色々と意見があるにもかかわらずそれを反映する機会がないことによる不満が溜まっているところです。\n\nそんな思いのはけ口として、いどばたビジョンが使えないかなと考えているところでした。非公式という位置づけではありますが、一応議員という立場なので出てきた意見を行政に対して提案するということはできますし、心ある職員であればこの場でどういう声が出ているのかを把握して施策に活かすこともできるかと考えております。\n\nそして、一定程度活用されることが検証されれば、オフィシャルに導入することも視野に入るのかなということを期待してます。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1748390421.723679",
+    "bot_id": "B01",
+    "text": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GE2a",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Reminder: !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "Reminder: !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748391827.316509",
+    "client_msg_id": "469bb2a1-9391-488a-97fa-3d843b53d1b8",
+    "text": "人工知能学会 AIとデモクラシー メモ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "reply_count": 7,
+    "reply_users_count": 2,
+    "latest_reply": "1748393778.052339",
+    "reply_users": [
+      "U08GJSBAX3K",
+      "U08KVN5B6HX"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hha0J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人工知能学会 AIとデモクラシー メモ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08J1QVLLAY",
+          "U08HKLUGE67"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigatougozaimasu",
+        "users": [
+          "U08HKLUGE67"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "人工知能学会 AIとデモクラシー メモ"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748391832.945609",
+    "client_msg_id": "cc17c2c9-45ff-4473-972c-d63444861097",
+    "text": "<https://note.com/kken78/n/na1b6792943d9>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "from_url": "https://note.com/kken78/n/na1b6792943d9",
+        "image_url": "https://assets.st-note.com/production/uploads/images/94796729/rectangle_large_type_2_7b566310a9f76410c30b64915c6b921f.png?fit=bounds&quality=85&width=1280",
+        "image_width": 1280,
+        "image_height": 670,
+        "image_bytes": 523431,
+        "service_icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/icons/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://note.com/kken78/n/na1b6792943d9",
+        "fallback": "note（ノート）: 市民参加プロセスに関するOECDガイドラインを読む〜OECD Public Governance Reviewsより〜（デジガバ読経会2023新春）｜HIGASHI Kenjiro",
+        "text": "これは何？ 2023年1月3日に開催されたオンラインイベント「デジガバ読経会2023新春」（主催：Civic Tech Zen Chiba、共催：千葉県DX推進協議会データ活用部会）でお話したものです。 \n\n【時間変更】デジガバ読経会 2023新春 ～往来、オーライ～\n\n※（1月1日17時）開始時間変更しました。 2021年より開催しております「デジガバ読経会」2023年新春、3年目の開催\n\n<http://fb.me|fb.me>\n\n \n ※注釈　「読経会」というのは、「読むべき重要な文書に関する解説を聞き、参加者で感想や質問をシェアしながら読み解きをする」という勉強会です。テイストとして「住職",
+        "title": "市民参加プロセスに関するOECDガイドラインを読む〜OECD Public Governance Reviewsより〜（デジガバ読経会2023新春）｜HIGASHI Kenjiro",
+        "title_link": "https://note.com/kken78/n/na1b6792943d9",
+        "service_name": "note（ノート）"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J4SWU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://note.com/kken78/n/na1b6792943d9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://note.com/kken78/n/na1b6792943d9>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748391842.086969",
+    "client_msg_id": "836051db-a8f8-468b-8002-b76a3c1a493d",
+    "text": "<https://www.agreebit.jp/case>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "from_url": "https://www.agreebit.jp/case",
+        "service_icon": "https://www.agreebit.jp/favicon.png",
+        "id": 1,
+        "original_url": "https://www.agreebit.jp/case",
+        "fallback": "AI・マルチエージェントシステムを使用した様々な課題解決の実績",
+        "text": "AI・マルチエージェントシステムで実現する新しい課題解決のカタチ。オンラインでの議論活性化・分類は、大規模な意見収集や集約、会議の活性化と効率化、市場調査やリサーチに有効です。",
+        "title": "AI・マルチエージェントシステムを使用した様々な課題解決の実績",
+        "title_link": "https://www.agreebit.jp/case",
+        "service_name": "agreebit.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RuUpr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.agreebit.jp/case"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://www.agreebit.jp/case>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748392303.867589",
+    "client_msg_id": "7bac29c4-696c-459c-8591-d8438a5d9363",
+    "text": "アフガニスタン等の事例　論文化されていた",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oWx84",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アフガニスタン等の事例　論文化されていた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "アフガニスタン等の事例　論文化されていた"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1748393232.797449",
+    "client_msg_id": "6e25137f-5379-4002-ba59-2af23329ba15",
+    "text": "このsessionはzoomで見ているけど、録画されているけど、あとで視聴できるのかな。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NNIJ1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このsessionはzoomで見ているけど、録画されているけど、あとで視聴できるのかな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Ken Suzuki",
+    "text_readable": "このsessionはzoomで見ているけど、録画されているけど、あとで視聴できるのかな。"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748393538.055779",
+    "client_msg_id": "62929e01-d99c-4579-aef6-1dc4698e9d74",
+    "text": "<https://liquitous.com/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tPX5q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://liquitous.com/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://liquitous.com/>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748393542.040979",
+    "client_msg_id": "7b0b15e1-baee-4de2-85b1-50ea52cb2576",
+    "text": "<https://www.hammerbird.jp/wp-content/uploads/2021/05/thisis_PoliNeCo.pdf>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iXi0T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.hammerbird.jp/wp-content/uploads/2021/05/thisis_PoliNeCo.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://www.hammerbird.jp/wp-content/uploads/2021/05/thisis_PoliNeCo.pdf>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1748393778.052339",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1748393783.000000"
+    },
+    "client_msg_id": "d92c8ec2-a583-4d2b-ad8b-6ab69e0e4ce7",
+    "text": "Liquidだと思ってたがLiqlidなのか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748391827.316509",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yBKVZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Liquidだと思ってたがLiqlidなのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748391827.316509",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "Liquidだと思ってたがLiqlidなのか"
+  }
+]
