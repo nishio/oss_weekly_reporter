@@ -1,0 +1,143 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08HWJ80CHG",
+    "text": "<@U08HWJ80CHG> has joined the channel",
+    "type": "message",
+    "ts": "1747842027.626169",
+    "user_name": "小野翔太",
+    "text_readable": "@oscar.gaddress has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08RTFAMN91",
+    "text": "<@U08RTFAMN91> has joined the channel",
+    "type": "message",
+    "ts": "1747842092.992789",
+    "user_name": "shinji yamada",
+    "text_readable": "@dotneet has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08Q6L6921Y",
+    "text": "<@U08Q6L6921Y> has joined the channel",
+    "type": "message",
+    "ts": "1747865672.397019",
+    "user_name": "ymori",
+    "text_readable": "@moriyuu1212 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08NZH1RY4S",
+    "text": "<@U08NZH1RY4S> has joined the channel",
+    "type": "message",
+    "ts": "1747874259.947789",
+    "user_name": "haruki shimizu",
+    "text_readable": "@shumizu418128 has joined the channel"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08RHEPN8AW",
+    "text": "<@U08RHEPN8AW> has joined the channel",
+    "type": "message",
+    "ts": "1748183290.803479",
+    "user_name": "T Kondo",
+    "text_readable": "@kd1049 has joined the channel"
+  },
+  {
+    "user": "U08Q6L6921Y",
+    "type": "message",
+    "ts": "1748389263.866479",
+    "client_msg_id": "e423da68-325c-49dc-929b-d388fba4c3b5",
+    "text": "ここ1週間ほど少しバタバタしていてあまり手を動かせていませんでした　すいません！\n\n昨日時間が確保できましたので、OCRの画像前処理に関するIssueを起票いたしました。\n*<https://github.com/digitaldemocracy2030/polimoney/issues/95|画像の前処理モジュールを追加してOCR精度を向上させる #95>*\n\n特にこの実装方針で問題なさそうならこれで実装しようかと思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0iiqS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ここ1週間ほど少しバタバタしていてあまり手を動かせていませんでした　すいません！\n\n昨日時間が確保できましたので、OCRの画像前処理に関するIssueを起票いたしました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/95",
+                "text": "画像の前処理モジュールを追加してOCR精度を向上させる #95",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n特にこの実装方針で問題なさそうならこれで実装しようかと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "ymori",
+    "text_readable": "ここ1週間ほど少しバタバタしていてあまり手を動かせていませんでした　すいません！\n\n昨日時間が確保できましたので、OCRの画像前処理に関するIssueを起票いたしました。\n*<https://github.com/digitaldemocracy2030/polimoney/issues/95|画像の前処理モジュールを追加してOCR精度を向上させる #95>*\n\n特にこの実装方針で問題なさそうならこれで実装しようかと思います"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1748390797.589069",
+    "client_msg_id": "1582705d-23eb-4e38-9ff4-707db978b21e",
+    "text": "ありがとうございます!\nこれでいっちゃいましょう\n\n私来週火曜までなにもできない見込みですのでどなたか定例報告お願いします:bow:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IS/6/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます!\nこれでいっちゃいましょう\n\n私来週火曜までなにもできない見込みですのでどなたか定例報告お願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08Q6L6921Y"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08Q6L6921Y"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "ありがとうございます!\nこれでいっちゃいましょう\n\n私来週火曜までなにもできない見込みですのでどなたか定例報告お願いします:bow:"
+  }
+]
