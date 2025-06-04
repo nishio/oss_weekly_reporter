@@ -1,0 +1,173 @@
+{
+  "period": {
+    "start": "2025-05-28T12:29:26.956566+09:00",
+    "end": "2025-06-04T12:29:26.956566+09:00"
+  },
+  "repo": "digitaldemocracy2030/polimoney",
+  "issues": [
+    {
+      "id": 3094036187,
+      "number": 95,
+      "title": "画像の前処理モジュールを追加してOCR精度を向上させる",
+      "state": "closed"
+    },
+    {
+      "id": 3115929172,
+      "number": 108,
+      "title": "OCRの出力結果に合計や小計などのtransactionsとして不適切な項目が出力されてしまう",
+      "state": "created"
+    },
+    {
+      "id": 3104629934,
+      "number": 106,
+      "title": "会計ソフトの仕様書づくり",
+      "state": "created"
+    },
+    {
+      "id": 3104598904,
+      "number": 105,
+      "title": "継続フロー：タイムライン決定〜公開までの作成",
+      "state": "created"
+    },
+    {
+      "id": 3104566930,
+      "number": 104,
+      "title": "OCRの出力項目にプロフィール情報などウェブの表示に必要な情報がない",
+      "state": "created"
+    },
+    {
+      "id": 3100515353,
+      "number": 103,
+      "title": "シェアボタンの実装",
+      "state": "created"
+    },
+    {
+      "id": 3097354100,
+      "number": 102,
+      "title": "準備中の「Coming Soon..」パネルをUIに追加",
+      "state": "created"
+    },
+    {
+      "id": 3097313771,
+      "number": 101,
+      "title": "「polimoney」検索結果で表示されるアイキャッチ画像の変更",
+      "state": "created"
+    },
+    {
+      "id": 3080738740,
+      "number": 80,
+      "title": "converter.ts の出力ファイルを使った可視化ページの表示",
+      "state": "updated"
+    },
+    {
+      "id": 3079441980,
+      "number": 74,
+      "title": "[デザイン] アクセシビリティの向上",
+      "state": "updated"
+    },
+    {
+      "id": 3064723493,
+      "number": 63,
+      "title": "PRIVACY.mdを策定する",
+      "state": "updated"
+    },
+    {
+      "id": 3036597936,
+      "number": 41,
+      "title": "対内外向け[資料露出]",
+      "state": "updated"
+    },
+    {
+      "id": 3036586980,
+      "number": 40,
+      "title": "対内外向け[資料作成]",
+      "state": "updated"
+    },
+    {
+      "id": 3031355927,
+      "number": 32,
+      "title": "データベース移行",
+      "state": "updated"
+    },
+    {
+      "id": 3031283768,
+      "number": 29,
+      "title": "E2E動作確認（つなぎこみ）",
+      "state": "updated"
+    },
+    {
+      "id": 3019635503,
+      "number": 22,
+      "title": "収支報告書のスキーマ定義",
+      "state": "updated"
+    },
+    {
+      "id": 3017818422,
+      "number": 21,
+      "title": "支出のどれが税金で賄われているか明示",
+      "state": "updated"
+    },
+    {
+      "id": 3017813904,
+      "number": 20,
+      "title": "収支報告書のフォーマット調査",
+      "state": "updated"
+    },
+    {
+      "id": 3014175992,
+      "number": 19,
+      "title": "OCR（画像認識）の精度強化",
+      "state": "updated"
+    },
+    {
+      "id": 2990309670,
+      "number": 5,
+      "title": "議員からの掲載許可に基づくデータ表示制御（オプトイン・アウト）機能",
+      "state": "updated"
+    },
+    {
+      "id": 2990300562,
+      "number": 2,
+      "title": "収支報告書のフォーマット差異に対応し、プロンプトを最適化する",
+      "state": "updated"
+    },
+    {
+      "id": 2990299328,
+      "number": 1,
+      "title": "JSONデータから集計行（小計・合計）を除外する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3096940661,
+      "number": 100,
+      "title": "isuueテンプレートの修正",
+      "state": "merged"
+    },
+    {
+      "id": 3096928895,
+      "number": 99,
+      "title": "issueテンプレートを更新",
+      "state": "merged"
+    },
+    {
+      "id": 3095980416,
+      "number": 97,
+      "title": "PDFから画像への変換処理に画像前処理機能を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3095753557,
+      "number": 96,
+      "title": "Add json ld and robots txt",
+      "state": "merged"
+    },
+    {
+      "id": 3115892118,
+      "number": 107,
+      "title": "基本情報のjsonへの出力",
+      "state": "created"
+    }
+  ]
+}

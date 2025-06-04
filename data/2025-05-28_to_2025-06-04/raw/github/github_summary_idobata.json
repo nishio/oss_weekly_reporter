@@ -1,0 +1,251 @@
+{
+  "period": {
+    "start": "2025-05-28T12:29:01.117155+09:00",
+    "end": "2025-06-04T12:29:01.117155+09:00"
+  },
+  "repo": "digitaldemocracy2030/idobata",
+  "issues": [
+    {
+      "id": 3080207488,
+      "number": 341,
+      "title": "政策担当者が担当政策のPRを簡単に見つけられるようにラベル自動付与機能を実装する",
+      "state": "closed"
+    },
+    {
+      "id": 3062641145,
+      "number": 285,
+      "title": "GitHubのことを何も知らない人でも使えるように体験を改善する",
+      "state": "closed"
+    },
+    {
+      "id": 3045697984,
+      "number": 252,
+      "title": "チャット欄を右に固定する。",
+      "state": "closed"
+    },
+    {
+      "id": 3038881920,
+      "number": 213,
+      "title": "[バグ] チャット開くと、設定いただいたプロンプトが2つ表示される",
+      "state": "closed"
+    },
+    {
+      "id": 3038875233,
+      "number": 211,
+      "title": "[いどばたビジョン] キークエスチョンの文字数の最適化",
+      "state": "closed"
+    },
+    {
+      "id": 3104593450,
+      "number": 377,
+      "title": "他のホスティング主体が利用しやすいよう、サイト名を管理画面からカスタマイズ可能にする",
+      "state": "created"
+    },
+    {
+      "id": 3102993208,
+      "number": 375,
+      "title": "[いどばた政策立案] openrouter の API Call で tools の description を渡すようにする",
+      "state": "created"
+    },
+    {
+      "id": 3080208529,
+      "number": 343,
+      "title": "政策担当者が変更提案の妥当性を効率的に確認できるようにコンテキストリサーチ機能を実装する",
+      "state": "updated"
+    },
+    {
+      "id": 3068578684,
+      "number": 311,
+      "title": "[いどばた政策立案] PRの一覧を見た有権者が不審に思わないように、提案者の名前の記法に一貫性を持たせる",
+      "state": "updated"
+    },
+    {
+      "id": 3062639535,
+      "number": 284,
+      "title": "[いどばた政策]MCPプルリク作成時に確率的に発生する不具合を抑える",
+      "state": "updated"
+    },
+    {
+      "id": 3038778944,
+      "number": 204,
+      "title": "[UI] 会話の始め方に迷う",
+      "state": "updated"
+    },
+    {
+      "id": 3038764073,
+      "number": 203,
+      "title": "[UI] チャットのAIがマークダウンで回答した場合、整形されたビューを表示してほしい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3106905526,
+      "number": 394,
+      "title": "Update: unittestの型の書き方のミスを修正",
+      "state": "merged"
+    },
+    {
+      "id": 3106630536,
+      "number": 393,
+      "title": "Add dynamic favicon support via VITE_FAVICON_URL environment variable",
+      "state": "merged"
+    },
+    {
+      "id": 3106588365,
+      "number": 392,
+      "title": "Add dynamic page title from environment variable for policy-edit frontend",
+      "state": "merged"
+    },
+    {
+      "id": 3106581376,
+      "number": 391,
+      "title": "Feature/mock GitHub client",
+      "state": "merged"
+    },
+    {
+      "id": 3106461261,
+      "number": 390,
+      "title": "Feature/GitHub client",
+      "state": "merged"
+    },
+    {
+      "id": 3105738587,
+      "number": 389,
+      "title": "Feature/mcp service",
+      "state": "merged"
+    },
+    {
+      "id": 3105667492,
+      "number": 388,
+      "title": "Update: file",
+      "state": "merged"
+    },
+    {
+      "id": 3105642215,
+      "number": 387,
+      "title": "Feature/backend neverthrow",
+      "state": "merged"
+    },
+    {
+      "id": 3105340637,
+      "number": 386,
+      "title": "Feature/refactoring chat panel",
+      "state": "merged"
+    },
+    {
+      "id": 3105314654,
+      "number": 385,
+      "title": "feat: implement type-safe HTTP client for policy-edit chat API",
+      "state": "merged"
+    },
+    {
+      "id": 3105097132,
+      "number": 384,
+      "title": "Implement dynamic color palette generation system",
+      "state": "merged"
+    },
+    {
+      "id": 3104888824,
+      "number": 381,
+      "title": "Reorganize policy-edit frontend components into hierarchical structure",
+      "state": "merged"
+    },
+    {
+      "id": 3104866293,
+      "number": 380,
+      "title": "Add: ロゴ設定機能",
+      "state": "merged"
+    },
+    {
+      "id": 3104827172,
+      "number": 379,
+      "title": "Feature/design base",
+      "state": "merged"
+    },
+    {
+      "id": 3104727536,
+      "number": 378,
+      "title": "feat(policy-edit): introduce shadcn/ui components",
+      "state": "merged"
+    },
+    {
+      "id": 3103532403,
+      "number": 376,
+      "title": "openrouter の API Call で tools の description を渡すようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3105012736,
+      "number": 383,
+      "title": "feat: implement dynamic color palette generation for policy-edit",
+      "state": "created"
+    },
+    {
+      "id": 3104895809,
+      "number": 382,
+      "title": "feat: implement dynamic color palette generation with chroma.js",
+      "state": "created"
+    },
+    {
+      "id": 3089155779,
+      "number": 372,
+      "title": "Add 'Powered by Digital Democracy 2030' credit to both frontends",
+      "state": "updated"
+    },
+    {
+      "id": 3087903096,
+      "number": 371,
+      "title": "本番環境デプロイ設定の追加",
+      "state": "updated"
+    },
+    {
+      "id": 3086229806,
+      "number": 370,
+      "title": "Enhance policy document citation styling with source URLs",
+      "state": "updated"
+    },
+    {
+      "id": 3081897191,
+      "number": 363,
+      "title": "[UI]プロフィール保存が失敗したことがわからない",
+      "state": "updated"
+    },
+    {
+      "id": 3081778726,
+      "number": 361,
+      "title": "ユーザーの提案内容に基づいて適切なファイルを自動選択する機能を実装",
+      "state": "updated"
+    },
+    {
+      "id": 3081733022,
+      "number": 360,
+      "title": "変更提案の適切なファイル自動選択機能を実装",
+      "state": "updated"
+    },
+    {
+      "id": 3081710923,
+      "number": 358,
+      "title": "コンテクストリサーチサービス機能の実装",
+      "state": "updated"
+    },
+    {
+      "id": 3070271022,
+      "number": 325,
+      "title": "Replace '話題を変える' button with '再スタート' button",
+      "state": "updated"
+    },
+    {
+      "id": 3070236565,
+      "number": 324,
+      "title": "「話題を変える」ボタンを「再スタート」ボタンに変更",
+      "state": "updated"
+    },
+    {
+      "id": 3069987517,
+      "number": 323,
+      "title": "Add starter questions functionality",
+      "state": "updated"
+    }
+  ]
+}

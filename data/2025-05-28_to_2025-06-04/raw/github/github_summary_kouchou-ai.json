@@ -1,0 +1,137 @@
+{
+  "period": {
+    "start": "2025-05-28T12:28:52.721502+09:00",
+    "end": "2025-06-04T12:28:52.721502+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3102742248,
+      "number": 585,
+      "title": "[BUG] client のヘッダー画像の表示・非表示に一貫性がない",
+      "state": "closed"
+    },
+    {
+      "id": 3059860901,
+      "number": 506,
+      "title": "[design] デザインシステム構築／数値環境",
+      "state": "closed"
+    },
+    {
+      "id": 3059836329,
+      "number": 505,
+      "title": "[design] デザインシステム構築／Typography環境",
+      "state": "closed"
+    },
+    {
+      "id": 3059811590,
+      "number": 504,
+      "title": "[design] デザインシステム構築／color環境",
+      "state": "closed"
+    },
+    {
+      "id": 2922855549,
+      "number": 61,
+      "title": "[FEATURE] ISRによる表示遅延の案内表示",
+      "state": "closed"
+    },
+    {
+      "id": 3105607759,
+      "number": 587,
+      "title": "[DOCUMENT]ローカル LLM の使用時のdocker composeコマンドについて",
+      "state": "created"
+    },
+    {
+      "id": 3105217672,
+      "number": 586,
+      "title": "[REFACTOR] フロントエンド共通で利用するデザインシステムの開発基盤を作る",
+      "state": "created"
+    },
+    {
+      "id": 3100187047,
+      "number": 584,
+      "title": "[BUG] レポート編集、意見グループ編集を行うと、トークン使用量や推定コストが0になる",
+      "state": "created"
+    },
+    {
+      "id": 3099729568,
+      "number": 583,
+      "title": "[BUG]分析対象のカラムにから文字列が含まれているとエラーになる",
+      "state": "created"
+    },
+    {
+      "id": 3085808288,
+      "number": 566,
+      "title": "[FEATURE] データの有無に応じた UI のパターンを確認しやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 3085030525,
+      "number": 564,
+      "title": "活用事例を集めて公開する",
+      "state": "updated"
+    },
+    {
+      "id": 3046497026,
+      "number": 460,
+      "title": "[FEATURE][design] レポート管理画面：直感的に使いやすくしたい",
+      "state": "updated"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3109907846,
+      "number": 588,
+      "title": "[client] ヘッダーの画像をデジタル民主主義2030のロゴに変更",
+      "state": "merged"
+    },
+    {
+      "id": 3097211799,
+      "number": 582,
+      "title": "team-mirai fork repoで実装した機能",
+      "state": "merged"
+    },
+    {
+      "id": 3096762197,
+      "number": 581,
+      "title": "[client] レポーター情報を表示するコンポーネントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3090475049,
+      "number": 574,
+      "title": "限定公開のレポートでは検索エンジンにインデックスされないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3113423197,
+      "number": 589,
+      "title": "[client] Footer にプロジェクトの概要をまとめる",
+      "state": "created"
+    },
+    {
+      "id": 3096067479,
+      "number": 580,
+      "title": "claude.mdをアップデート",
+      "state": "created"
+    },
+    {
+      "id": 3093184705,
+      "number": 579,
+      "title": "Revert \"Merge pull request #567 from take365/feature/auto-cluster-clean\"",
+      "state": "updated"
+    },
+    {
+      "id": 3085827622,
+      "number": 567,
+      "title": "LLMのスキップ、自動クラス数決定、タイトル省略",
+      "state": "updated"
+    }
+  ]
+}

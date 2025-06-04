@@ -1,0 +1,216 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1748566780.991009",
+    "client_msg_id": "244a82d9-8d5c-42e2-9f63-e0fe61d5c632",
+    "text": "うっこれはきつい\n&gt;  The `conversations.history` API method rate limit for apps created after *May 29, 2025*, and for net new installations of existing apps, will be limited to 1 request per minute, unless they are approved for the Slack Marketplace. The maximum and default for the `limit` parameter has been reduced to 15 objects.\n<https://api.slack.com/changelog/2025-05-terms-rate-limit-update-and-faq>\nすでに作ってある app だからセーフか？\n今後、過去ログ取得系の slack app を追加するのは難しくなりますね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748566780.991009",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1748574114.727429",
+    "reply_users": [
+      "U08LQ25DPAB",
+      "U08JASQKEEM",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wWhxP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うっこれはきつい\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " The "
+              },
+              {
+                "type": "text",
+                "text": "conversations.history",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " API method rate limit for apps created after "
+              },
+              {
+                "type": "text",
+                "text": "May 29, 2025",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ", and for net new installations of existing apps, will be limited to 1 request per minute, unless they are approved for the Slack Marketplace. The maximum and default for the "
+              },
+              {
+                "type": "text",
+                "text": "limit",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " parameter has been reduced to 15 objects."
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://api.slack.com/changelog/2025-05-terms-rate-limit-update-and-faq"
+              },
+              {
+                "type": "text",
+                "text": "\nすでに作ってある app だからセーフか？\n今後、過去ログ取得系の slack app を追加するのは難しくなりますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "うっこれはきつい\n>  The `conversations.history` API method rate limit for apps created after *May 29, 2025*, and for net new installations of existing apps, will be limited to 1 request per minute, unless they are approved for the Slack Marketplace. The maximum and default for the `limit` parameter has been reduced to 15 objects.\n<https://api.slack.com/changelog/2025-05-terms-rate-limit-update-and-faq>\nすでに作ってある app だからセーフか？\n今後、過去ログ取得系の slack app を追加するのは難しくなりますね。"
+  },
+  {
+    "user": "U08LQ25DPAB",
+    "type": "message",
+    "ts": "1748567573.899949",
+    "edited": {
+      "user": "U08LQ25DPAB",
+      "ts": "1748567652.000000"
+    },
+    "client_msg_id": "2f1fcf85-6abe-45d9-827f-1b3dcd24f2f3",
+    "text": "制限オーバーする場合は<https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit|自己紹介まとめ>みたいに分割してTriggerに投げれば良さそうです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748566780.991009",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "I8VCe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "制限オーバーする場合は"
+              },
+              {
+                "type": "link",
+                "url": "https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit",
+                "text": "自己紹介まとめ"
+              },
+              {
+                "type": "text",
+                "text": "みたいに分割してTriggerに投げれば良さそうです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1748566780.991009",
+    "user_name": "masato sasano",
+    "text_readable": "制限オーバーする場合は<https://script.google.com/home/projects/1h09jb4bpCcCrrpBn1uw1fkdpoQOrvn4Rv8G-MKNhiWmthHMSHy9tu2br/edit|自己紹介まとめ>みたいに分割してTriggerに投げれば良さそうです"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1748569354.992879",
+    "client_msg_id": "07fded5c-3be1-468a-b682-f232d4b3df16",
+    "text": "まあそうなんですけど、1分に1回で1回当たり15件なのでかなり厳しいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748566780.991009",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XeRdA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあそうなんですけど、1分に1回で1回当たり15件なのでかなり厳しいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08LQ25DPAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748566780.991009",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まあそうなんですけど、1分に1回で1回当たり15件なのでかなり厳しいです"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1748574114.727429",
+    "client_msg_id": "5C11FB44-A323-4F0A-A98A-F79CBF7401DB",
+    "text": "いま週に1回動かしてるGitHub Actionを、毎分動き続けるプログラムに変えないと機能しなくなる感じですかね。前から使ってるのはOKなのが救いか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1748566780.991009",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DZQDH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いま週に1回動かしてるGitHub Actionを、毎分動き続けるプログラムに変えないと機能しなくなる感じですかね。前から使ってるのはOKなのが救いか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1748566780.991009",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いま週に1回動かしてるGitHub Actionを、毎分動き続けるプログラムに変えないと機能しなくなる感じですかね。前から使ってるのはOKなのが救いか"
+  }
+]
