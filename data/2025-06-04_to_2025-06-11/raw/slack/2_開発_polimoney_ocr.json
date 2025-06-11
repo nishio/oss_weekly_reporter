@@ -1,0 +1,748 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1749136605.539129",
+    "client_msg_id": "00aa1e57-8b72-4359-bacf-9693afd15c94",
+    "text": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1749130958627669>\n超朗報。yamadaさんありがとうございます！\n\nこれで本格的にOCR精度の議論ができますね。\nサンキー図描画まわりで発生している問題は、対応次第ではOCRでのデータのとり方を変えなければいけないので要注目です。\n\nメモ：フロントエンドはここでは話さないので、詳細は<https://github.com/digitaldemocracy2030/polimoney/issues/118|issue>確認",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1749130958627669",
+        "ts": "1749130958.627669",
+        "author_id": "U08RTFAMN91",
+        "channel_id": "C08FL5L6GSH",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL5L6GSH",
+            "ts": "1749130958.627669",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "eY9vp",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "OCRからWeb表示まで一気通関できるようにするところまでできました。JSONを作って public/reports/[id].json におけば、URL: /reports/[id] で見れるようになります。\nその結果わかったこととして、政党支部くらいデータ(トランザクション100件超)があるとカテゴリもかなり細分化されてしまい、サンキー図は結構厳しそうですね。同レベルのカテゴリ数が5, 6個を超えたら勝手にその他にまとめるくらいのことをしないと。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/digitaldemocracy2030/polimoney/pull/115"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F090HKMLJCR",
+            "file_access": "check_file_info",
+            "created": 0,
+            "timestamp": 0,
+            "user": "U08NZH1RY4S",
+            "filetype": "png"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1749130958627669",
+        "fallback": "[June 5th, 2025 6:42 AM] dotneet: OCRからWeb表示まで一気通関できるようにするところまでできました。JSONを作って public/reports/[id].json におけば、URL: /reports/[id] で見れるようになります。\nその結果わかったこととして、政党支部くらいデータ(トランザクション100件超)があるとカテゴリもかなり細分化されてしまい、サンキー図は結構厳しそうですね。同レベルのカテゴリ数が5, 6個を超えたら勝手にその他にまとめるくらいのことをしないと。\n<https://github.com/digitaldemocracy2030/polimoney/pull/115>",
+        "text": "OCRからWeb表示まで一気通関できるようにするところまでできました。JSONを作って public/reports/[id].json におけば、URL: /reports/[id] で見れるようになります。\nその結果わかったこととして、政党支部くらいデータ(トランザクション100件超)があるとカテゴリもかなり細分化されてしまい、サンキー図は結構厳しそうですね。同レベルのカテゴリ数が5, 6個を超えたら勝手にその他にまとめるくらいのことをしないと。\n<https://github.com/digitaldemocracy2030/polimoney/pull/115>",
+        "author_name": "shinji yamada",
+        "author_link": "https://dd2030.slack.com/team/U08RTFAMN91",
+        "author_icon": "https://avatars.slack-edge.com/2025-05-11/8877520771875_c3658e447d1b3bbeec79_48.png",
+        "author_subname": "shinji yamada",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yP+ox",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1749130958627669"
+              },
+              {
+                "type": "text",
+                "text": "\n超朗報。yamadaさんありがとうございます！\n\nこれで本格的にOCR精度の議論ができますね。\nサンキー図描画まわりで発生している問題は、対応次第ではOCRでのデータのとり方を変えなければいけないので要注目です。\n\nメモ：フロントエンドはここでは話さないので、詳細は"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/118",
+                "text": "issue"
+              },
+              {
+                "type": "text",
+                "text": "確認"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08Q6L6921Y"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1749130958627669>\n超朗報。yamadaさんありがとうございます！\n\nこれで本格的にOCR精度の議論ができますね。\nサンキー図描画まわりで発生している問題は、対応次第ではOCRでのデータのとり方を変えなければいけないので要注目です。\n\nメモ：フロントエンドはここでは話さないので、詳細は<https://github.com/digitaldemocracy2030/polimoney/issues/118|issue>確認"
+  },
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1749274937.907829",
+    "client_msg_id": "16bbbcae-1872-4a21-b24b-75ffba4d974b",
+    "text": "OCR実験 打ち消し線関連",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "reply_count": 10,
+    "reply_users_count": 3,
+    "latest_reply": "1749306988.250679",
+    "reply_users": [
+      "U08RTFAMN91",
+      "U08NZH1RY4S",
+      "U08Q6L6921Y"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "09PHJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OCR実験 打ち消し線関連"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "shinji yamada",
+    "text_readable": "OCR実験 打ち消し線関連"
+  },
+  {
+    "text": "プロンプト「この文書から「収入総額」と「翌年への繰越額」の金額読み取ってください。」",
+    "files": [
+      {
+        "id": "F090SUNBJGH",
+        "created": 1749274965,
+        "timestamp": 1749274965,
+        "name": "937ce13e-c2f6-4024-aeb0-ae13f369494e.png",
+        "title": "937ce13e-c2f6-4024-aeb0-ae13f369494e.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08RTFAMN91",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1017595,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F090SUNBJGH/937ce13e-c2f6-4024-aeb0-ae13f369494e.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F090SUNBJGH/download/937ce13e-c2f6-4024-aeb0-ae13f369494e.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 239,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 319,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 478,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 532,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 638,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F090SUNBJGH-5fdd0de3cd/937ce13e-c2f6-4024-aeb0-ae13f369494e_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 681,
+        "original_w": 2048,
+        "original_h": 1361,
+        "thumb_tiny": "AwAfADDRLbQOKTeD0GaGGcfSm4GDtH4UAKXxyR19qN9IVBA4zRkigBS2TgZBoB5xk0vORxSc7jxQArZwMU0H2pX7c9qb+P6UAP6r0pp7UvGOtNDLgZBoAeOooP3qTcKAwLYxQB//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F090SUNBJGH/937ce13e-c2f6-4024-aeb0-ae13f369494e.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F090SUNBJGH-e9110bc892",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08RTFAMN91",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xzpue",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プロンプト「この文書から「収入総額」と「翌年への繰越額」の金額読み取ってください。」"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1749274970.037309",
+    "client_msg_id": "b52f3d06-df52-4dc0-9457-dacc1179ca71",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "parent_ts": "1749274937.907829",
+    "user_name": "shinji yamada",
+    "text_readable": "プロンプト「この文書から「収入総額」と「翌年への繰越額」の金額読み取ってください。」"
+  },
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1749275151.854239",
+    "edited": {
+      "user": "U08RTFAMN91",
+      "ts": "1749275993.000000"
+    },
+    "client_msg_id": "d26f4d4d-de31-42a1-8fcb-c108e2169367",
+    "text": "*o3*\n読み取れた金額は次のとおりです。\n項目金額収入総額*15,915,303 円*翌年への繰越額*3,406,179 円*\n\n※いずれも手書きで訂正された最終的な数字を採用しました。\n\n*o4-mini-high*\n\n「収入総額」は　15,915,303円\n 「翌年への繰越額」は　3,406,179円 です。\n\n*gemini 05-06*\n画像から読み取った情報は以下の通りです。\n収入総額（Ⅰ 収入総額 (1)～(2)の計）: 15,055,303円\n（訂正印があるため、右側の金額を採用しました）\n翌年への繰越額（Ⅲ 翌年への繰越額（Ⅰ－Ⅱ））: 2,546,179円\n（訂正印があるため、下の金額を採用しました）\n\n*gemini 06-05*\nはい、この文書から「収入総額」と「翌年への繰越額」の金額を読み取ります。\nどちらの項目も訂正印が押され、金額が修正されています。修正後の正しい金額は以下の通りです。\n収入総額 (I): 15,055,303円\n翌年への繰越額 (III): 2,546,179円",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iONq9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "o3",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n読み取れた金額は次のとおりです。\n項目金額収入総額"
+              },
+              {
+                "type": "text",
+                "text": "15,915,303 円",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "翌年への繰越額"
+              },
+              {
+                "type": "text",
+                "text": "3,406,179 円",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n※いずれも手書きで訂正された最終的な数字を採用しました。\n\n"
+              },
+              {
+                "type": "text",
+                "text": "o4-mini-high",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n「収入総額」は　15,915,303円\n 「翌年への繰越額」は　3,406,179円 です。\n\n"
+              },
+              {
+                "type": "text",
+                "text": "gemini 05-06",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n画像から読み取った情報は以下の通りです。\n収入総額（Ⅰ 収入総額 (1)～(2)の計）: 15,055,303円\n（訂正印があるため、右側の金額を採用しました）\n翌年への繰越額（Ⅲ 翌年への繰越額（Ⅰ－Ⅱ））: 2,546,179円\n（訂正印があるため、下の金額を採用しました）\n\n"
+              },
+              {
+                "type": "text",
+                "text": "gemini 06-05",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nはい、この文書から「収入総額」と「翌年への繰越額」の金額を読み取ります。\nどちらの項目も訂正印が押され、金額が修正されています。修正後の正しい金額は以下の通りです。\n収入総額 (I): 15,055,303円\n翌年への繰越額 (III): 2,546,179円"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "shinji yamada",
+    "text_readable": "*o3*\n読み取れた金額は次のとおりです。\n項目金額収入総額*15,915,303 円*翌年への繰越額*3,406,179 円*\n\n※いずれも手書きで訂正された最終的な数字を採用しました。\n\n*o4-mini-high*\n\n「収入総額」は　15,915,303円\n 「翌年への繰越額」は　3,406,179円 です。\n\n*gemini 05-06*\n画像から読み取った情報は以下の通りです。\n収入総額（Ⅰ 収入総額 (1)～(2)の計）: 15,055,303円\n（訂正印があるため、右側の金額を採用しました）\n翌年への繰越額（Ⅲ 翌年への繰越額（Ⅰ－Ⅱ））: 2,546,179円\n（訂正印があるため、下の金額を採用しました）\n\n*gemini 06-05*\nはい、この文書から「収入総額」と「翌年への繰越額」の金額を読み取ります。\nどちらの項目も訂正印が押され、金額が修正されています。修正後の正しい金額は以下の通りです。\n収入総額 (I): 15,055,303円\n翌年への繰越額 (III): 2,546,179円"
+  },
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1749275175.922689",
+    "edited": {
+      "user": "U08RTFAMN91",
+      "ts": "1749275196.000000"
+    },
+    "client_msg_id": "55574202-d3fe-48c8-9a5c-1c7bb5171a84",
+    "text": "gemini さんは打ち消し線や訂正印の意味を理解できてないかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ur95v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "gemini さんは打ち消し線や訂正印の意味を理解できてないかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "shinji yamada",
+    "text_readable": "gemini さんは打ち消し線や訂正印の意味を理解できてないかも。"
+  },
+  {
+    "text": "実は打ち消し線に関してはyomitokuイケるんじゃないかと期待してます",
+    "files": [
+      {
+        "id": "F09081TFF62",
+        "created": 1749275212,
+        "timestamp": 1749275212,
+        "name": "output_ocr_1.jpg",
+        "title": "output_ocr_1.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1122921,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09081TFF62/output_ocr_1.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09081TFF62/download/output_ocr_1.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_360.jpg",
+        "thumb_360_w": 360,
+        "thumb_360_h": 255,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_480.jpg",
+        "thumb_480_w": 480,
+        "thumb_480_h": 339,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_720.jpg",
+        "thumb_720_w": 720,
+        "thumb_720_h": 509,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 566,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_960.jpg",
+        "thumb_960_w": 960,
+        "thumb_960_h": 679,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09081TFF62-210c4493e5/output_ocr_1_1024.jpg",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 724,
+        "original_w": 2341,
+        "original_h": 1655,
+        "thumb_tiny": "AwAhADDRZ9v0pPMB6DNEgz2zTAAR8oz7GgBxkxyQeT6UeZnikZRgcU3JDY9qAHs+TgEg+1Ct82Mk0oJ44/WkAPmZxQASkgcVGrDpg5qSQEkEZpoDY7j6igB55UcZ/Go2+8MdQKkwcd/ypox3Vs0AKOoPPNKPv9qPwNAOX+6R70APooooAKKKKACiiigD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09081TFF62/output_ocr_1.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09081TFF62-6b576f6f7e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9yx80",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実は打ち消し線に関してはyomitokuイケるんじゃないかと期待してます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1749275218.072799",
+    "client_msg_id": "00901075-4f7d-49cc-bbcf-7b62c83892c4",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "parent_ts": "1749274937.907829",
+    "user_name": "haruki shimizu",
+    "text_readable": "実は打ち消し線に関してはyomitokuイケるんじゃないかと期待してます"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1749275363.385349",
+    "client_msg_id": "2ec04311-c039-4f07-bbe9-21d0f2f30c19",
+    "text": "いや微妙だな...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MqdN1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや微妙だな..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "haruki shimizu",
+    "text_readable": "いや微妙だな..."
+  },
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1749275699.177029",
+    "client_msg_id": "d40d559a-03d4-401c-a6be-9845c54922e0",
+    "text": "なるほど。良く見ると訂正後の方にゴミが入っちゃったりしてますね。yomitokuさんもやや混乱しちゃうのか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2/GxQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど。良く見ると訂正後の方にゴミが入っちゃったりしてますね。yomitokuさんもやや混乱しちゃうのか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "shinji yamada",
+    "text_readable": "なるほど。良く見ると訂正後の方にゴミが入っちゃったりしてますね。yomitokuさんもやや混乱しちゃうのか。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1749275869.327859",
+    "client_msg_id": "91695872-f3c9-4f2b-b78e-310c4e9fdb53",
+    "text": "`翌年への繰越額`をみると、なぜか両方うまくとれています\n\n座標の情報を活かしてこの2つ`3406179, 2546179` を`翌年への繰越額`にどうにか結び付け、UIを通して人が最終判断できるようにできたらいいなと思っています",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LYaXG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "翌年への繰越額",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "をみると、なぜか両方うまくとれています\n\n座標の情報を活かしてこの2つ"
+              },
+              {
+                "type": "text",
+                "text": "3406179, 2546179",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " を"
+              },
+              {
+                "type": "text",
+                "text": "翌年への繰越額",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "にどうにか結び付け、UIを通して人が最終判断できるようにできたらいいなと思っています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "haruki shimizu",
+    "text_readable": "`翌年への繰越額`をみると、なぜか両方うまくとれています\n\n座標の情報を活かしてこの2つ`3406179, 2546179` を`翌年への繰越額`にどうにか結び付け、UIを通して人が最終判断できるようにできたらいいなと思っています"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F090CTQK405",
+        "created": 1749275891,
+        "timestamp": 1749275891,
+        "name": "output_1.json",
+        "title": "output_1.json",
+        "mimetype": "text/plain",
+        "filetype": "json",
+        "pretty_type": "JSON",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 117645,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F090CTQK405/output_1.json",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F090CTQK405/download/output_1.json",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F090CTQK405/output_1.json",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F090CTQK405-ef4c9fd999",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F090CTQK405/output_1.json/edit",
+        "preview": "{\r\n    \"figures\": [],\r\n    \"paragraphs\": [\r\n        {\r\n            \"box\": [\r",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre>{</pre></div>\n<div><pre>    <span class=\"cm-string cm-property\">&quot;figures&quot;</span>: [],</pre></div>\n<div><pre>    <span class=\"cm-string cm-property\">&quot;paragraphs&quot;</span>: [</pre></div>\n<div><pre>        {</pre></div>\n<div><pre>            <span class=\"cm-string cm-property\">&quot;box&quot;</span>: [</pre></div>\n</div>\n</div>\n",
+        "lines": 4300,
+        "lines_more": 4295,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1749275894.869649",
+    "client_msg_id": "9c6c7630-b8d1-4243-a171-3d696283dc97",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "parent_ts": "1749274937.907829",
+    "user_name": "haruki shimizu",
+    "text_readable": ""
+  },
+  {
+    "user": "U08Q6L6921Y",
+    "type": "message",
+    "ts": "1749306924.038919",
+    "client_msg_id": "88be4e2a-5a71-4177-8142-e6c798335cff",
+    "text": "二重線で抹消された数字は完全に無視し，その近くに書き込まれた手書きの訂正額だけを抽出する\nとかを入れてもGeminiは頑なに訂正前の数値を引っ張ってくる傾向がありますよね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AUH+J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "二重線で抹消された数字は完全に無視し，その近くに書き込まれた手書きの訂正額だけを抽出する\nとかを入れてもGeminiは頑なに訂正前の数値を引っ張ってくる傾向がありますよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "ymori",
+    "text_readable": "二重線で抹消された数字は完全に無視し，その近くに書き込まれた手書きの訂正額だけを抽出する\nとかを入れてもGeminiは頑なに訂正前の数値を引っ張ってくる傾向がありますよね"
+  },
+  {
+    "user": "U08Q6L6921Y",
+    "type": "message",
+    "ts": "1749306988.250679",
+    "client_msg_id": "d207f53a-923e-4126-857a-2a441998558e",
+    "text": "あとなぜこうなるのかは分かりませんが\n「日本の政治資金収支報告書のページから、「収入総額」と「翌年への繰越額」の金額を読み取ってください。注意点として、手書きの訂正は無視し、二重線で消されている元の印刷された数字を抽出してください。」\nと逆の入力したところ\n\nはい、承知いたしました。\nご提示の政治資金収支報告書の画像から、二重線で消されている元の印刷された数字を読み取ります。\n• *収入総額 (I 収入総額)*： *15,915,303円*\n• *翌年への繰越額 (III 翌年への繰越額)*： *3,406,179円*\nという風に答えてくれました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749274937.907829",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xk/X6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとなぜこうなるのかは分かりませんが\n「日本の政治資金収支報告書のページから、「収入総額」と「翌年への繰越額」の金額を読み取ってください。注意点として、手書きの訂正は無視し、二重線で消されている元の印刷された数字を抽出してください。」\nと逆の入力したところ\n\nはい、承知いたしました。\nご提示の政治資金収支報告書の画像から、二重線で消されている元の印刷された数字を読み取ります。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "収入総額 (I 収入総額)",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "： "
+                  },
+                  {
+                    "type": "text",
+                    "text": "15,915,303円",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "翌年への繰越額 (III 翌年への繰越額)",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "： "
+                  },
+                  {
+                    "type": "text",
+                    "text": "3,406,179円",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nという風に答えてくれました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749274937.907829",
+    "user_name": "ymori",
+    "text_readable": "あとなぜこうなるのかは分かりませんが\n「日本の政治資金収支報告書のページから、「収入総額」と「翌年への繰越額」の金額を読み取ってください。注意点として、手書きの訂正は無視し、二重線で消されている元の印刷された数字を抽出してください。」\nと逆の入力したところ\n\nはい、承知いたしました。\nご提示の政治資金収支報告書の画像から、二重線で消されている元の印刷された数字を読み取ります。\n• *収入総額 (I 収入総額)*： *15,915,303円*\n• *翌年への繰越額 (III 翌年への繰越額)*： *3,406,179円*\nという風に答えてくれました"
+  }
+]

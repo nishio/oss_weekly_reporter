@@ -1,0 +1,166 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749319703.673149",
+    "client_msg_id": "8655EE14-3B2E-45D7-88D4-43BAA3C310E5",
+    "text": "<@U08J6JR5SNQ> <https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1|https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749319703.673149",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1749460367.514919",
+    "reply_users": [
+      "U08J6JR5SNQ",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BOZ/c",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1",
+                "text": "https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama <https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1|https://gist.github.com/nishio/3278475028844af3a896d86dddcdd9a1>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749360118.431719",
+    "client_msg_id": "f963b60f-5bcf-49c5-87a2-ce3f89059936",
+    "text": "ｔｈｘ\nDeepresearchで読ませたんだけど、そこら辺出てこなかった\nソースを読ませるべきだったな⋯",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749319703.673149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b5iA8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ｔｈｘ\nDeepresearchで読ませたんだけど、そこら辺出てこなかった\nソースを読ませるべきだったな⋯"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749319703.673149",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ｔｈｘ\nDeepresearchで読ませたんだけど、そこら辺出てこなかった\nソースを読ませるべきだったな⋯"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749460367.514919",
+    "client_msg_id": "5EE5396D-3248-4BC6-9348-9BB12A35C536",
+    "text": "ちなみにこれはDevinです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749319703.673149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5/Ofo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみにこれはDevinです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749319703.673149",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ちなみにこれはDevinです"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749567184.888549",
+    "client_msg_id": "03be714d-8b75-4d82-8a17-05497eb13759",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L56>\ngenerate_cluster_count_list　これ、おそらく未使用関数ですが、消しちゃってよいですか？\n\nあと、HDBSCSNは使われなくなったので、頭の説明文とか直したい。\n\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\"",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "38MV9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L56"
+              },
+              {
+                "type": "text",
+                "text": "\ngenerate_cluster_count_list　これ、おそらく未使用関数ですが、消しちゃってよいですか？\n\nあと、HDBSCSNは使われなくなったので、頭の説明文とか直したい。\n\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L56>\ngenerate_cluster_count_list　これ、おそらく未使用関数ですが、消しちゃってよいですか？\n\nあと、HDBSCSNは使われなくなったので、頭の説明文とか直したい。\n\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749603439.774669",
+    "client_msg_id": "EECB6932-548B-45B0-BDB4-042912FAC60A",
+    "text": "OKです！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JiU9j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OKです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OKです！"
+  }
+]

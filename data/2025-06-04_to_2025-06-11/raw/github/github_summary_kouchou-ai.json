@@ -1,0 +1,191 @@
+{
+  "period": {
+    "start": "2025-06-04T12:29:47.506818+09:00",
+    "end": "2025-06-11T12:29:47.506818+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3047485001,
+      "number": 461,
+      "title": "[FEATURE] 複数のレポートに対する処理を簡単に行えるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3042178801,
+      "number": 438,
+      "title": "[FEATURE][design] コンテンツ下部のAbout情報をFooterにまとめる",
+      "state": "closed"
+    },
+    {
+      "id": 3132776740,
+      "number": 599,
+      "title": "[FEATURE] デザインシステムの実装反映 / Button",
+      "state": "created"
+    },
+    {
+      "id": 3132728539,
+      "number": 598,
+      "title": "[FEATURE] デザインシステムの実装反映 / Typography",
+      "state": "created"
+    },
+    {
+      "id": 3129788474,
+      "number": 596,
+      "title": "[FEATURE] admin のレポートについて、CSV ダウンロードを一律で可能にする",
+      "state": "created"
+    },
+    {
+      "id": 3124820934,
+      "number": 594,
+      "title": "[FEATURE] .env 書き換えた際に Docker build を忘れやすい",
+      "state": "created"
+    },
+    {
+      "id": 3124340592,
+      "number": 592,
+      "title": "[FEATURE] Azure OpenAI Service 利用時のエラーハンドリングをよりユーザーフレンドリーにする",
+      "state": "created"
+    },
+    {
+      "id": 3121798645,
+      "number": 590,
+      "title": "[REFACTOR] レポーター情報のデフォルト値を空にしたい（なってる?）",
+      "state": "created"
+    },
+    {
+      "id": 3105607759,
+      "number": 587,
+      "title": "[DOCUMENT]ローカル LLM の使用時のdocker composeコマンドについて",
+      "state": "updated"
+    },
+    {
+      "id": 3105217672,
+      "number": 586,
+      "title": "[REFACTOR] フロントエンド共通で利用するデザインシステムの開発基盤を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3057175497,
+      "number": 493,
+      "title": "[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される",
+      "state": "updated"
+    },
+    {
+      "id": 3046497026,
+      "number": 460,
+      "title": "[FEATURE][design] レポート管理画面：直感的に使いやすくしたい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3124359931,
+      "number": 593,
+      "title": "[client] Dialog を開いた際の Initial Focus を変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3113423197,
+      "number": 589,
+      "title": "[client] Footer にプロジェクトの概要をまとめる",
+      "state": "merged"
+    },
+    {
+      "id": 3130123124,
+      "number": 597,
+      "title": "Feature/issue 493 レポート画面のスクロールイベント回避を追加",
+      "state": "created"
+    },
+    {
+      "id": 3129678380,
+      "number": 595,
+      "title": "[client] レポーター画像が Docker 環境で取得できないエラーを修正",
+      "state": "created"
+    },
+    {
+      "id": 3123693078,
+      "number": 591,
+      "title": "fix: ollama コンテナの起動方法",
+      "state": "created"
+    },
+    {
+      "id": 3085050006,
+      "number": 565,
+      "title": "Draft/221 auto cluster and skip",
+      "state": "updated"
+    },
+    {
+      "id": 3082771581,
+      "number": 563,
+      "title": "グラフ選択の UI を Figma と揃える",
+      "state": "updated"
+    },
+    {
+      "id": 3058816506,
+      "number": 499,
+      "title": "Add Windows manual startup support (venv/npm) - resolves #999",
+      "state": "updated"
+    },
+    {
+      "id": 3058814468,
+      "number": 498,
+      "title": "Add Windows manual startup support (venv/npm) - resolves #999",
+      "state": "updated"
+    },
+    {
+      "id": 3044650279,
+      "number": 448,
+      "title": "Feat/evaluation report",
+      "state": "updated"
+    },
+    {
+      "id": 3013422173,
+      "number": 363,
+      "title": "Windows 環境で Docker を使わずに手動でセットアップできるようにするためのスクリプトおよび手順",
+      "state": "updated"
+    },
+    {
+      "id": 2998210511,
+      "number": 314,
+      "title": "改行コード混在の解消のため .gitattributes を追加（#243 対応）",
+      "state": "updated"
+    },
+    {
+      "id": 2998186696,
+      "number": 313,
+      "title": "Windowsユーザの利用環境構築 #300　の調整",
+      "state": "updated"
+    },
+    {
+      "id": 2982265450,
+      "number": 270,
+      "title": "frontend のコードを push する際に Biome の Lint を実行できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2979660696,
+      "number": 263,
+      "title": "client の package-lock.json に差分が出る課題の修正",
+      "state": "updated"
+    },
+    {
+      "id": 2979635707,
+      "number": 262,
+      "title": "client-admin に Biome を適用",
+      "state": "updated"
+    },
+    {
+      "id": 2976683462,
+      "number": 249,
+      "title": "client に Biome を適用",
+      "state": "updated"
+    },
+    {
+      "id": 2974802791,
+      "number": 242,
+      "title": "Biome の追加と dummy-server にフォーマットを適用",
+      "state": "updated"
+    }
+  ]
+}
