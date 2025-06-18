@@ -1,0 +1,386 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1749859228.465909",
+    "bot_id": "B01",
+    "text": "Reminder: :mega: 1時間後より、全体定例会を開催します！:mega: :clock10: 10:00-11:00 :link: <https://meet.google.com/sui-qfzy-znj> :memo: <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I> • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/sui-qfzy-znj",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/sui-qfzy-znj",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/sui-qfzy-znj",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c5/V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Reminder: "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、全体定例会を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock10",
+                "unicode": "1f559"
+              },
+              {
+                "type": "text",
+                "text": " 10"
+              },
+              {
+                "type": "emoji",
+                "name": "00-11"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/sui-qfzy-znj"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I"
+              },
+              {
+                "type": "text",
+                "text": "\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "Reminder: :mega: 1時間後より、全体定例会を開催します！:mega: :clock10: 10:00-11:00 :link: <https://meet.google.com/sui-qfzy-znj> :memo: <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I> • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください"
+  },
+  {
+    "user": "U08MG09M5FH",
+    "type": "message",
+    "ts": "1749862807.509439",
+    "client_msg_id": "03b3f5bd-2080-40a0-ab8a-23bba0a278a0",
+    "text": "まもなくはじまりますー！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "akWxr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まもなくはじまりますー！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "tahashika（たはしか）",
+    "text_readable": "まもなくはじまりますー！"
+  },
+  {
+    "text": "自己紹介をさっと確認できる機能を追加しました。\n`/intro @` に続いてユーザー名を入力してメンションにすると、 <#C08HKET1YG3|> に入力されたその人の自己紹介文を見ることができます。\n結果はコマンドの実行者にしか表示されないので他の人のタイムラインを汚しません。無料プランの制限によってすでに初期のユーザーは slack 上から参照できなくなっておりますが、消える前にDB に記録してありますので自己紹介された方は全員参照可能 (なはず)です。\nなお、自己紹介は1人１ポストしか保存してないので、 <#C08HKET1YG3|> に再度投稿した場合は最新の投稿でDBが上書きされます。自己紹介以外の内容をポストしてしまった方はご注意ください。\nメッセージの編集には対応しておりますが削除には対応しておりません。\nなお、もっと横断的にずらずらっと自己紹介を眺めたい方は引き続きスプレッドシートをご覧ください <https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259>\nこのような機能の開発にご興味ある方は <#C08SCPMMPL4|> へどうぞ。",
+    "files": [
+      {
+        "id": "F0926S5QHQ8",
+        "created": 1749999089,
+        "timestamp": 1749999089,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JASQKEEM",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 14282,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0926S5QHQ8/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0926S5QHQ8/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0926S5QHQ8-2b658f747e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0926S5QHQ8-2b658f747e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0926S5QHQ8-2b658f747e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 70,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0926S5QHQ8-2b658f747e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 94,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0926S5QHQ8-2b658f747e/image_160.png",
+        "original_w": 492,
+        "original_h": 96,
+        "thumb_tiny": "AwAJADCmv0zTyyDrGPzqKincRJvT/nmPzo3p/wA8/wBajoouFiQun/PP9aQspHC4plFFwsf/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0926S5QHQ8/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0926S5QHQ8-f333f8535f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JASQKEEM",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XmIOn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自己紹介をさっと確認できる機能を追加しました。\n"
+              },
+              {
+                "type": "text",
+                "text": "/intro @",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " に続いてユーザー名を入力してメンションにすると、 "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08HKET1YG3"
+              },
+              {
+                "type": "text",
+                "text": " に入力されたその人の自己紹介文を見ることができます。\n結果はコマンドの実行者にしか表示されないので他の人のタイムラインを汚しません。無料プランの制限によってすでに初期のユーザーは slack 上から参照できなくなっておりますが、消える前にDB に記録してありますので自己紹介された方は全員参照可能 (なはず)です。\nなお、自己紹介は1人１ポストしか保存してないので、 "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08HKET1YG3"
+              },
+              {
+                "type": "text",
+                "text": " に再度投稿した場合は最新の投稿でDBが上書きされます。自己紹介以外の内容をポストしてしまった方はご注意ください。\nメッセージの編集には対応しておりますが削除には対応しておりません。\nなお、もっと横断的にずらずらっと自己紹介を眺めたい方は引き続きスプレッドシートをご覧ください "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259"
+              },
+              {
+                "type": "text",
+                "text": "\nこのような機能の開発にご興味ある方は "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08SCPMMPL4"
+              },
+              {
+                "type": "text",
+                "text": " へどうぞ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1749999598.411319",
+    "client_msg_id": "8f88ea80-4584-48d9-b8de-dd2d8071f042",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08J66CBKKJ",
+          "U08Q6L6921Y",
+          "U08H3V9KMFH",
+          "U08HN9UDJUB",
+          "U08PEHNF1T9",
+          "U08HWJ80CHG",
+          "U08HV1H5HKK",
+          "U08HBBH9VJS",
+          "U08MG09M5FH",
+          "U08J64P3SF4",
+          "U090JV6648N",
+          "U08G2A216TW"
+        ],
+        "count": 12
+      },
+      {
+        "name": "神",
+        "users": [
+          "U08MG09M5FH",
+          "U090JV6648N",
+          "U08G2A216TW"
+        ],
+        "count": 3
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08MG09M5FH",
+          "U090JV6648N"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "自己紹介をさっと確認できる機能を追加しました。\n`/intro @` に続いてユーザー名を入力してメンションにすると、 <#C08HKET1YG3|> に入力されたその人の自己紹介文を見ることができます。\n結果はコマンドの実行者にしか表示されないので他の人のタイムラインを汚しません。無料プランの制限によってすでに初期のユーザーは slack 上から参照できなくなっておりますが、消える前にDB に記録してありますので自己紹介された方は全員参照可能 (なはず)です。\nなお、自己紹介は1人１ポストしか保存してないので、 <#C08HKET1YG3|> に再度投稿した場合は最新の投稿でDBが上書きされます。自己紹介以外の内容をポストしてしまった方はご注意ください。\nメッセージの編集には対応しておりますが削除には対応しておりません。\nなお、もっと横断的にずらずらっと自己紹介を眺めたい方は引き続きスプレッドシートをご覧ください <https://docs.google.com/spreadsheets/d/11t5YDWSxoUXeRMD4ut1b3F7HKL0HNUJ83m1nyu8PdBw/edit?gid=259140259#gid=259140259>\nこのような機能の開発にご興味ある方は <#C08SCPMMPL4|> へどうぞ。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1750213305.780089",
+    "client_msg_id": "AF034435-E93B-4E83-9BF8-9DA7CC624C83",
+    "text": "今週のweekly更新もどなたか代わりにやってくださる方はいませんか？ <https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969|https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969",
+        "ts": "1749606912.942969",
+        "author_id": "U08G2A216TW",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1749606912.942969",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "kd/HG",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "今週のweekly更新を代わりにやってくれる方はいませんか？やってみるのに挑戦してみるくらいのノリで大丈夫です\n12:00に下記に新しいAIレポートが生成されるはずなのでdd2030のwebsiteにコピーしてファイル名を整えるだけです\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/nishio/oss_weekly_reporter/tree/data/data"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n作業解説(前半は事故ってたの修正なので無関係です)\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.slack.com/archives/C08K4CUB12T/p1748421361473959?thread_ts=1748421120.611049&cid=C08K4CUB12T"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969",
+        "fallback": "[June 10th, 2025 6:55 PM] nishio.hirokazu: 今週のweekly更新を代わりにやってくれる方はいませんか？やってみるのに挑戦してみるくらいのノリで大丈夫です\n12:00に下記に新しいAIレポートが生成されるはずなのでdd2030のwebsiteにコピーしてファイル名を整えるだけです\n<https://github.com/nishio/oss_weekly_reporter/tree/data/data>\n\n作業解説(前半は事故ってたの修正なので無関係です)\n<https://dd2030.slack.com/archives/C08K4CUB12T/p1748421361473959?thread_ts=1748421120.611049&amp;cid=C08K4CUB12T>",
+        "text": "今週のweekly更新を代わりにやってくれる方はいませんか？やってみるのに挑戦してみるくらいのノリで大丈夫です\n12:00に下記に新しいAIレポートが生成されるはずなのでdd2030のwebsiteにコピーしてファイル名を整えるだけです\n<https://github.com/nishio/oss_weekly_reporter/tree/data/data>\n\n作業解説(前半は事故ってたの修正なので無関係です)\n<https://dd2030.slack.com/archives/C08K4CUB12T/p1748421361473959?thread_ts=1748421120.611049&amp;cid=C08K4CUB12T>",
+        "author_name": "NISHIO Hirokazu",
+        "author_link": "https://dd2030.slack.com/team/U08G2A216TW",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-03/8546342683588_63fd2b76c154c16c727e_48.png",
+        "author_subname": "NISHIO Hirokazu",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s2Hfw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今週のweekly更新もどなたか代わりにやってくださる方はいませんか？ "
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969",
+                "text": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今週のweekly更新もどなたか代わりにやってくださる方はいませんか？ <https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969|https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969>"
+  }
+]

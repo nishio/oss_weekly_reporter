@@ -1,0 +1,125 @@
+{
+  "period": {
+    "start": "2025-06-11T12:28:53.668659+09:00",
+    "end": "2025-06-18T12:28:53.668659+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3132776740,
+      "number": 599,
+      "title": "[FEATURE] デザインシステムの実装反映 / Button",
+      "state": "closed"
+    },
+    {
+      "id": 3132728539,
+      "number": 598,
+      "title": "[FEATURE] デザインシステムの実装反映 / Typography",
+      "state": "closed"
+    },
+    {
+      "id": 3129788474,
+      "number": 596,
+      "title": "[FEATURE] admin のレポートについて、CSV ダウンロードを一律で可能にする",
+      "state": "closed"
+    },
+    {
+      "id": 3057830124,
+      "number": 494,
+      "title": "[BUG] OpenAI API以外のLLMを使っても、OpenAI APIを利用したと表示される",
+      "state": "closed"
+    },
+    {
+      "id": 3149557463,
+      "number": 604,
+      "title": "[REFACTOR] 管理画面のレポート一覧画面をコンポーネント分割する",
+      "state": "created"
+    },
+    {
+      "id": 3121798645,
+      "number": 590,
+      "title": "[REFACTOR] レポーター情報のデフォルト値を空にしたい（なってる?）",
+      "state": "updated"
+    },
+    {
+      "id": 3057175497,
+      "number": 493,
+      "title": "[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される",
+      "state": "updated"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "updated"
+    },
+    {
+      "id": 2893959131,
+      "number": 19,
+      "title": "[FEATURE]レポートの複製・再利用機能",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3152805528,
+      "number": 606,
+      "title": "Revert \"[FEATURE] admin のレポートについて、CSV ダウンロードを一律で可能にする\"",
+      "state": "merged"
+    },
+    {
+      "id": 3147166404,
+      "number": 603,
+      "title": "[FEATURE] admin のレポートについて、CSV ダウンロードを一律で可能にする",
+      "state": "merged"
+    },
+    {
+      "id": 3147165382,
+      "number": 602,
+      "title": "[client] デザインシステムの Button を適用する",
+      "state": "merged"
+    },
+    {
+      "id": 3146880226,
+      "number": 601,
+      "title": "[BUG] OpenAI API以外のLLMを使っても、OpenAI APIを利用したと表示される",
+      "state": "merged"
+    },
+    {
+      "id": 3143027278,
+      "number": 600,
+      "title": "[client] デザインシステムの Typography を適用する",
+      "state": "merged"
+    },
+    {
+      "id": 3129678380,
+      "number": 595,
+      "title": "[client] レポーター画像が Docker 環境で取得できないエラーを修正",
+      "state": "merged"
+    },
+    {
+      "id": 3152778104,
+      "number": 605,
+      "title": "Revert \"[FEATURE] admin のレポートについて、CSV ダウンロードを一律で可能にする\"",
+      "state": "created"
+    },
+    {
+      "id": 3130123124,
+      "number": 597,
+      "title": "Feature/issue 493 レポート画面のスクロールイベント回避を追加",
+      "state": "updated"
+    },
+    {
+      "id": 3123693078,
+      "number": 591,
+      "title": "fix: ollama コンテナの起動方法",
+      "state": "updated"
+    },
+    {
+      "id": 3074065554,
+      "number": 543,
+      "title": "アドミン管理画面でリロードを抑制する",
+      "state": "updated"
+    }
+  ]
+}

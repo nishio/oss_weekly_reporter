@@ -1,0 +1,761 @@
+[
+  {
+    "user": "U08HBBH9VJS",
+    "type": "message",
+    "ts": "1749637186.472709",
+    "client_msg_id": "666425e5-21f3-4267-80b6-b455f0007dca",
+    "text": "week13のPRを作成しました\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V>\n`1 workflow awaiting approval` が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc <@U08G2A216TW>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749637186.472709",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1749638998.062289",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08HBBH9VJS"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+        "ts": "1749637061.889299",
+        "author_id": "U08HBBH9VJS",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1749637061.889299",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "qWRtf",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "できました！\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/digitaldemocracy2030/website/pull/133"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+        "fallback": "[June 11th, 2025 3:17 AM] takker99public: できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+        "text": "できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+        "author_name": "石井拓都",
+        "author_link": "https://dd2030.slack.com/team/U08HBBH9VJS",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8589391651366_27893de07fadf0c05975_48.png",
+        "author_subname": "石井拓都",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jgkDA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "week13のPRを作成しました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&cid=C08FL58LK8V"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "1 workflow awaiting approval",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "石井拓都",
+    "text_readable": "week13のPRを作成しました\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&cid=C08FL58LK8V>\n`1 workflow awaiting approval` が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc @nishio.hirokazu"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1749637931.429959",
+    "client_msg_id": "c1d48583-d6ef-4d47-a3dc-0f215cac3281",
+    "text": "マージしました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749637186.472709",
+    "parent_user_id": "U08HBBH9VJS",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZrCXb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "マージしました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749637186.472709",
+    "user_name": "小野翔太",
+    "text_readable": "マージしました！"
+  },
+  {
+    "user": "U08HBBH9VJS",
+    "type": "message",
+    "ts": "1749637952.284879",
+    "client_msg_id": "7e933a12-0232-4504-8517-58ebd16f25f5",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749637186.472709",
+    "parent_user_id": "U08HBBH9VJS",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1749637186.472709",
+    "user_name": "石井拓都",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HBBH9VJS",
+    "thread_ts": "1749637186.472709",
+    "root": {
+      "user": "U08HBBH9VJS",
+      "type": "message",
+      "ts": "1749637186.472709",
+      "client_msg_id": "666425e5-21f3-4267-80b6-b455f0007dca",
+      "text": "week13のPRを作成しました\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V>\n`1 workflow awaiting approval` が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc <@U08G2A216TW>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1749637186.472709",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1749638998.062289",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08HBBH9VJS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+          "ts": "1749637061.889299",
+          "author_id": "U08HBBH9VJS",
+          "channel_id": "C08FL58LK8V",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "is_reply_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08FL58LK8V",
+              "ts": "1749637061.889299",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "qWRtf",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "できました！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://github.com/digitaldemocracy2030/website/pull/133"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+          "fallback": "[June 11th, 2025 3:17 AM] takker99public: できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+          "text": "できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+          "author_name": "石井拓都",
+          "author_link": "https://dd2030.slack.com/team/U08HBBH9VJS",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8589391651366_27893de07fadf0c05975_48.png",
+          "author_subname": "石井拓都",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jgkDA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "week13のPRを作成しました\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&cid=C08FL58LK8V"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "1 workflow awaiting approval",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1749638998.062289",
+    "client_msg_id": "a7d02a94-df45-464e-8abc-8eda60935bd2",
+    "text": "やったことを簡単にメモしました\n<https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B|/dd2030/weeklyレポートを公式サイトに反映する>",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "fallback": "デジタル民主主義2030 (非公式): weeklyレポートを公式サイトに反映する - デジタル民主主義2030 (非公式)",
+        "text": "やってみたのでメモtakker 経緯 NISHIO Hirokazu 10:55 <https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969> 今週のweekly更新を代わりにやってくれる方はいませんか？やってみるのに挑戦してみるくらいのノリで大丈夫です 12:00に下記に新しいAIレポートが生成されるはずなのでdd2030のweb",
+        "title": "weeklyレポートを公式サイトに反映する - デジタル民主主義2030 (非公式)",
+        "title_link": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "service_name": "デジタル民主主義2030 (非公式)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JZwtw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やったことを簡単にメモしました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+                "text": "/dd2030/weeklyレポートを公式サイトに反映する"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HMV9AHLL",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      },
+      {
+        "name": "arigatai_",
+        "users": [
+          "U08G2A216TW",
+          "U08HMV9AHLL"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1749637186.472709",
+    "user_name": "石井拓都",
+    "text_readable": "やったことを簡単にメモしました\n<https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B|/dd2030/weeklyレポートを公式サイトに反映する>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HBBH9VJS",
+    "thread_ts": "1749637186.472709",
+    "root": {
+      "user": "U08HBBH9VJS",
+      "type": "message",
+      "ts": "1749637186.472709",
+      "client_msg_id": "666425e5-21f3-4267-80b6-b455f0007dca",
+      "text": "week13のPRを作成しました\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V>\n`1 workflow awaiting approval` が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc <@U08G2A216TW>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1749637186.472709",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1749638998.062289",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08HBBH9VJS"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+          "ts": "1749637061.889299",
+          "author_id": "U08HBBH9VJS",
+          "channel_id": "C08FL58LK8V",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "is_reply_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08FL58LK8V",
+              "ts": "1749637061.889299",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "qWRtf",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "できました！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://github.com/digitaldemocracy2030/website/pull/133"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&amp;cid=C08FL58LK8V",
+          "fallback": "[June 11th, 2025 3:17 AM] takker99public: できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+          "text": "できました！\n<https://github.com/digitaldemocracy2030/website/pull/133>",
+          "author_name": "石井拓都",
+          "author_link": "https://dd2030.slack.com/team/U08HBBH9VJS",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8589391651366_27893de07fadf0c05975_48.png",
+          "author_subname": "石井拓都",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jgkDA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "week13のPRを作成しました\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1749637061889299?thread_ts=1749606912.942969&cid=C08FL58LK8V"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "text",
+                  "text": "1 workflow awaiting approval",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " が出ているのでmergeはできなさそうです。\n問題がなければ、権限を持っている方にmergeをお願いしたいです\n\n念のためcc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1749638998.062289",
+    "client_msg_id": "a7d02a94-df45-464e-8abc-8eda60935bd2",
+    "text": "やったことを簡単にメモしました\n<https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B|/dd2030/weeklyレポートを公式サイトに反映する>",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "fallback": "デジタル民主主義2030 (非公式): weeklyレポートを公式サイトに反映する - デジタル民主主義2030 (非公式)",
+        "text": "やってみたのでメモtakker 経緯 NISHIO Hirokazu 10:55 <https://dd2030.slack.com/archives/C08FL58LK8V/p1749606912942969> 今週のweekly更新を代わりにやってくれる方はいませんか？やってみるのに挑戦してみるくらいのノリで大丈夫です 12:00に下記に新しいAIレポートが生成されるはずなのでdd2030のweb",
+        "title": "weeklyレポートを公式サイトに反映する - デジタル民主主義2030 (非公式)",
+        "title_link": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+        "service_name": "デジタル民主主義2030 (非公式)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JZwtw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やったことを簡単にメモしました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B",
+                "text": "/dd2030/weeklyレポートを公式サイトに反映する"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HMV9AHLL",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      },
+      {
+        "name": "arigatai_",
+        "users": [
+          "U08G2A216TW",
+          "U08HMV9AHLL"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "石井拓都",
+    "text_readable": "やったことを簡単にメモしました\n<https://scrapbox.io/dd2030/weekly%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%8F%8D%E6%98%A0%E3%81%99%E3%82%8B|/dd2030/weeklyレポートを公式サイトに反映する>"
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1749646455.202539",
+    "client_msg_id": "9f0c25d7-c9c8-4f76-b83b-efc28a15fc43",
+    "text": "<@U08STL2NPEG> 　CC：<@U08HWJ80CHG>\nnoteにPolimoneyのユーザーインタビューを載せたいと思っているのですが、編集権限いただけますか？\nついでにアイキャッチ画像も新ロゴ仕様に替えたほうがよさそう\n<https://note.com/dd2030/all>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749646455.202539",
+    "reply_count": 4,
+    "reply_users_count": 3,
+    "latest_reply": "1749693011.014579",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08J66CBKKJ",
+      "U08QDPC2JRG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://assets.st-note.com/poc-image/manual/production/default_top_ogp_202212.png",
+        "image_width": 1280,
+        "image_height": 670,
+        "image_bytes": 60218,
+        "from_url": "https://note.com/dd2030/all",
+        "service_icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+        "id": 1,
+        "original_url": "https://note.com/dd2030/all",
+        "fallback": "note（ノート）: デジタル民主主義2030の記事一覧｜note（ノート）",
+        "text": "デジタル民主主義2030さんの記事一覧です。",
+        "title": "デジタル民主主義2030の記事一覧｜note（ノート）",
+        "title_link": "https://note.com/dd2030/all",
+        "service_name": "note（ノート）"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tBqah",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08STL2NPEG"
+              },
+              {
+                "type": "text",
+                "text": " 　CC："
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nnoteにPolimoneyのユーザーインタビューを載せたいと思っているのですが、編集権限いただけますか？\nついでにアイキャッチ画像も新ロゴ仕様に替えたほうがよさそう\n"
+              },
+              {
+                "type": "link",
+                "url": "https://note.com/dd2030/all"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "@seratch 　CC：@oscar.gaddress\nnoteにPolimoneyのユーザーインタビューを載せたいと思っているのですが、編集権限いただけますか？\nついでにアイキャッチ画像も新ロゴ仕様に替えたほうがよさそう\n<https://note.com/dd2030/all>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1749651255.275579",
+    "client_msg_id": "3a45912d-4916-4ed1-9a28-3d47596f93c7",
+    "text": "あ、<@U08J66CBKKJ>です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749646455.202539",
+    "parent_user_id": "U08QDPC2JRG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dbBYX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、"
+              },
+              {
+                "type": "user",
+                "user_id": "U08J66CBKKJ"
+              },
+              {
+                "type": "text",
+                "text": "です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1749646455.202539",
+    "user_name": "小野翔太",
+    "text_readable": "あ、@k0414sailorです！"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1749651324.002259",
+    "client_msg_id": "62976bef-4c8e-4124-92b5-3dfc794c5e7c",
+    "text": "いろんなせらさんがおりますね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749646455.202539",
+    "parent_user_id": "U08QDPC2JRG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "adfZm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いろんなせらさんがおりますね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749646455.202539",
+    "user_name": "K",
+    "text_readable": "いろんなせらさんがおりますね！"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1749651332.942219",
+    "client_msg_id": "1b0a1d50-6247-4b1f-8d3a-3c1859b11c14",
+    "text": "DMで送ります！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749646455.202539",
+    "parent_user_id": "U08QDPC2JRG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hPUb0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DMで送ります！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749646455.202539",
+    "user_name": "K",
+    "text_readable": "DMで送ります！"
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1749693011.014579",
+    "client_msg_id": "E596E81B-67F2-480F-B6A6-8326C913F271",
+    "text": "失礼しました！ありがとうございます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749646455.202539",
+    "parent_user_id": "U08QDPC2JRG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B8Rbe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "失礼しました！ありがとうございます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749646455.202539",
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "失礼しました！ありがとうございます"
+  }
+]

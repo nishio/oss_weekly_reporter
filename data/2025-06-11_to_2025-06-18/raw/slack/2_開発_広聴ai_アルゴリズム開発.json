@@ -1,0 +1,558 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749712294.922159",
+    "client_msg_id": "dea27998-93b9-4a8d-8dd4-b9141a20b4c4",
+    "text": "broadlisteingのフォルダのコードを全部読んだんですが、\nhierarchical_visualization って動いてないという認識であってます？\n静的ファイルを出力するためのコードだと思うんですが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749712294.922159",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1749721081.465639",
+    "reply_users": [
+      "U08GG5LRGMP",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fTXkX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "broadlisteingのフォルダのコードを全部読んだんですが、\nhierarchical_visualization って動いてないという認識であってます？\n静的ファイルを出力するためのコードだと思うんですが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "broadlisteingのフォルダのコードを全部読んだんですが、\nhierarchical_visualization って動いてないという認識であってます？\n静的ファイルを出力するためのコードだと思うんですが。"
+  },
+  {
+    "user": "U08GG5LRGMP",
+    "type": "message",
+    "ts": "1749716697.170459",
+    "client_msg_id": "bbffd84b-fb4f-4234-874c-715698f388d7",
+    "text": "&gt; hierarchical_visualization って動いてないという認識であってます？\nこの認識で合ってます！\n広聴AIに移行する前の改良版TTTCでは動作させていたのですが、現在は使っていません。\n\n&gt; without-html をFalseに叩き込むすべが見当たらん……\nバックエンドでレポート出力する際はここで呼び出してるんですが（`--without-html -o`にする）、知りたいことはこちらで合ってますかね？\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/cb053a64902550b34e83e2a8433baf5090124f11/server/src/services/report_launcher.py#L177-L187>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749712294.922159",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W0F4L",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hierarchical_visualization って動いてないという認識であってます？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この認識で合ってます！\n広聴AIに移行する前の改良版TTTCでは動作させていたのですが、現在は使っていません。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "without-html をFalseに叩き込むすべが見当たらん……"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "バックエンドでレポート出力する際はここで呼び出してるんですが（"
+              },
+              {
+                "type": "text",
+                "text": "--without-html -o",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "にする）、知りたいことはこちらで合ってますかね？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/cb053a64902550b34e83e2a8433baf5090124f11/server/src/services/report_launcher.py#L177-L187"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749712294.922159",
+    "user_name": "Nasuka Sumino",
+    "text_readable": "> hierarchical_visualization って動いてないという認識であってます？\nこの認識で合ってます！\n広聴AIに移行する前の改良版TTTCでは動作させていたのですが、現在は使っていません。\n\n> without-html をFalseに叩き込むすべが見当たらん……\nバックエンドでレポート出力する際はここで呼び出してるんですが（`--without-html -o`にする）、知りたいことはこちらで合ってますかね？\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/cb053a64902550b34e83e2a8433baf5090124f11/server/src/services/report_launcher.py#L177-L187>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749721081.465639",
+    "client_msg_id": "1e686936-d528-4601-b132-b4ac4667fda2",
+    "text": "ありがとうございます。とはいえ、正常系では呼び出されないという理解で納得しました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1749712294.922159",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jxkIm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。とはいえ、正常系では呼び出されないという理解で納得しました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1749712294.922159",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ありがとうございます。とはいえ、正常系では呼び出されないという理解で納得しました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749712557.603029",
+    "client_msg_id": "7beec84d-b826-4711-83fb-a65210f0e432",
+    "text": "without-html をFalseに叩き込むすべが見当たらん……",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y1QEn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "without-html をFalseに叩き込むすべが見当たらん……"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "without-html をFalseに叩き込むすべが見当たらん……"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749877073.187849",
+    "client_msg_id": "189e027e-113f-4530-8780-34f4988f89ae",
+    "text": "<https://x.com/narumichiaki/status/1933743124054245596>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/narumichiaki/status/1933743124054245596",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1074678396/face1_200x200.png",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/narumichiaki/status/1933743124054245596",
+        "fallback": "X (formerly Twitter): なるみちあき (@narumichiaki) on X",
+        "text": "この種の公聴システム、次元圧縮アルゴリズムとして分類に強いアルゴリズムを使っているのが気になっている。スペクトラムである現実よりも集団性や集団間の距離を強く見せることになり、認識への影響が大きいはずなので、深い議論の上でUMAPが選定されていると嬉しいなと思う。",
+        "title": "なるみちあき (@narumichiaki) on X",
+        "title_link": "https://x.com/narumichiaki/status/1933743124054245596",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uVaJ0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/narumichiaki/status/1933743124054245596"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://x.com/narumichiaki/status/1933743124054245596>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1749877308.527749",
+    "client_msg_id": "a49555b1-1cfc-4167-b817-4037c91330c9",
+    "text": "polisは議題があって、それに対してどうかなので、数次元で切れるで、元データの質が良いのでPCAで十分というのが直感的意見だが、公聴AIがなぜUMAPなのかは答えられてないな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "keJM3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polisは議題があって、それに対してどうかなので、数次元で切れるで、元データの質が良いのでPCAで十分というのが直感的意見だが、公聴AIがなぜUMAPなのかは答えられてないな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "polisは議題があって、それに対してどうかなので、数次元で切れるで、元データの質が良いのでPCAで十分というのが直感的意見だが、公聴AIがなぜUMAPなのかは答えられてないな"
+  },
+  {
+    "user": "U08GG5LRGMP",
+    "type": "message",
+    "ts": "1749886094.753769",
+    "client_msg_id": "d05bf69e-da2f-4858-9139-a105d4beee3d",
+    "text": "二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ulsF2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Nasuka Sumino",
+    "text_readable": "二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749917763.134079",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1749917832.000000"
+    },
+    "client_msg_id": "d33bb8fe-8f80-4ec8-b104-6f87a3bbb382",
+    "text": "寄与率計算してみればわかるけどembeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることになる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KXIJw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "寄与率計算してみればわかるけどembeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "寄与率計算してみればわかるけどembeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることになる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749917810.413109",
+    "client_msg_id": "2c5855f6-44b6-4a4f-9325-e3ccdd273784",
+    "text": "&gt; 個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）\ntrue",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jQPUm",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）\ntrue"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749918061.538489",
+    "client_msg_id": "d8610f09-44eb-4256-b35c-07e5f7ea6919",
+    "text": "&gt; オードリー・タンが使ったpol .isはPCAを使っているのだが、これは線形性のあるアルゴリズムを意図して採用したということではないのかな。\nない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p3Rgp",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "オードリー・タンが使ったpol .isはPCAを使っているのだが、これは線形性のあるアルゴリズムを意図して採用したということではないのかな。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> オードリー・タンが使ったpol .isはPCAを使っているのだが、これは線形性のあるアルゴリズムを意図して採用したということではないのかな。\nない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749918153.452459",
+    "client_msg_id": "37f4c54c-2f2d-4de3-aff0-8426bffd59d3",
+    "text": "Polisは2013年、UMAPは2018年、PolisをPCAでやったあとで高次元の時にはPCAが使い物にならないことがわかり開発チームはtSNEやUMAPを検討している",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WluxZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Polisは2013年、UMAPは2018年、PolisをPCAでやったあとで高次元の時にはPCAが使い物にならないことがわかり開発チームはtSNEやUMAPを検討している"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Polisは2013年、UMAPは2018年、PolisをPCAでやったあとで高次元の時にはPCAが使い物にならないことがわかり開発チームはtSNEやUMAPを検討している"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749918232.776839",
+    "client_msg_id": "05cbd29b-d306-4581-b6e1-bc0404fb720b",
+    "text": "採用されてない理由は、計算の重さや、計算のたびに大きく変化しないで安定した結果を返すことの困難。Poilsは投票のたびに2次元可視化を更新していくので、その度に全然違う可視化が出てくる手法では使い物にならない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4r0Na",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "採用されてない理由は、計算の重さや、計算のたびに大きく変化しないで安定した結果を返すことの困難。Poilsは投票のたびに2次元可視化を更新していくので、その度に全然違う可視化が出てくる手法では使い物にならない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "採用されてない理由は、計算の重さや、計算のたびに大きく変化しないで安定した結果を返すことの困難。Poilsは投票のたびに2次元可視化を更新していくので、その度に全然違う可視化が出てくる手法では使い物にならない"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F091GV4CKB4",
+        "created": 1749918607,
+        "timestamp": 1749918607,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 31165,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F091GV4CKB4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F091GV4CKB4/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F091GV4CKB4-679f08b3cf/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F091GV4CKB4-679f08b3cf/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F091GV4CKB4-679f08b3cf/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 284,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F091GV4CKB4-679f08b3cf/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 379,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F091GV4CKB4-679f08b3cf/image_160.png",
+        "original_w": 689,
+        "original_h": 544,
+        "thumb_tiny": "AwAlADDS70bR7/nQDmgkAZJoANo9/wA6adoOOSfQUvLeoX9TSgADA4oAbhj2A+ppQGHcYp1IehoARaPvH2FKeP6UAYGKAFooooAKD0NFB6GgAIzRiiigBG4pAT0obtSd6AH4oxRRQB//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F091GV4CKB4/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F091GV4CKB4-2c8c12e203",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1749918610.538089",
+    "client_msg_id": "0711b3e7-0196-4ff7-8527-4c03e124e5c3",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1749918625.524719",
+    "client_msg_id": "eb0a7800-1c74-4b3d-98ee-e409f4dbb889",
+    "text": "&gt; embeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることにな\n9割捨てることになる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IaSR1",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "embeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることにな"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "9割捨てることになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> embeddingに対してのPCAは2次元程度ではほとんどの情報を捨てることにな\n9割捨てることになる"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1750059544.083649",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1750061411.000000"
+    },
+    "client_msg_id": "3ea0cec7-f19f-4e53-9e63-34e3b8f99e4d",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264|https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264>\n\n現状、ラベルをマージする際に、下の階層からランダムに標本を引っ張ってきているけど、\n空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする\nそうしないと、全体を包括した意見にならない気がする",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XltXB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264",
+                "text": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264"
+              },
+              {
+                "type": "text",
+                "text": "\n\n現状、ラベルをマージする際に、下の階層からランダムに標本を引っ張ってきているけど、\n空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする\nそうしないと、全体を包括した意見にならない気がする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264|https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_merge_labelling.py#L262-L264>\n\n現状、ラベルをマージする際に、下の階層からランダムに標本を引っ張ってきているけど、\n空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする\nそうしないと、全体を包括した意見にならない気がする"
+  }
+]
