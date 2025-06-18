@@ -178,7 +178,7 @@ def process_slack_data(
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         ai_reports_dir = output_path / "ai_reports"
         ensure_dir(ai_reports_dir)
-        output_file = ai_reports_dir / f"slack_summary_{timestamp}.md"
+        output_file = ai_reports_dir / f"slack.md"
 
         write_text_file(response, output_file)
 
@@ -256,7 +256,7 @@ def process_github_data(
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             ai_reports_dir = output_path / "ai_reports"
             ensure_dir(ai_reports_dir)
-            output_file = ai_reports_dir / f"github_summary_{repo_name}_{timestamp}.md"
+            output_file = ai_reports_dir / f"{repo_name}.md"
 
             write_text_file(response, output_file)
 
