@@ -1,0 +1,1318 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1750225264.077119",
+    "client_msg_id": "9df2c79d-0da7-4c34-8bfc-06a0d7dc03b9",
+    "text": "<https://x.com/AlwaysLightning/status/1934733249970110818>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/AlwaysLightning/status/1934733249970110818",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/AlwaysLightning/status/1934733249970110818",
+        "fallback": "X (formerly Twitter): AlwaysLightning (@AlwaysLightning) on X",
+        "text": "@tokoroten p.61の\n&gt; 出力はJSONであり、トップレベルにArrayを置けない\nここだけ、うーん？\njsonの仕様としてトップレベルにarrayを許してないわけじゃなかったと思うし、\n実装で言えばpydanticのRootModelを使えば普通に受け取れるはず\n<https://t.co/1IhizeDwU9>",
+        "title": "AlwaysLightning (@AlwaysLightning) on X",
+        "title_link": "https://x.com/AlwaysLightning/status/1934733249970110818",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZUatN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/AlwaysLightning/status/1934733249970110818"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      },
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://x.com/AlwaysLightning/status/1934733249970110818>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1750225274.120219",
+    "client_msg_id": "da111cbc-ab23-41e1-b83f-cd8954789f65",
+    "text": "あとで検証する",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zYoBi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとで検証する"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あとで検証する"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1750230220.853279",
+    "client_msg_id": "c92d68bb-324f-4a69-814d-bbe39b99f824",
+    "text": "OpenAPIの仕様としてルートがobjectでなければならない気はする(が要検証)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YhXqs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OpenAPIの仕様としてルートがobjectでなければならない気はする(が要検証)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OpenAPIの仕様としてルートがobjectでなければならない気はする(が要検証)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1750230295.824129",
+    "client_msg_id": "ad83edd5-a3bc-4214-bd22-85955ea991e0",
+    "text": "o3に「それはあってるけどendpointのresponseはroot arrayでもOKだよ」と突っ込まれた\n<https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://cdn.oaistatic.com/assets/chatgpt-share-og-u7j5uyao.webp",
+        "image_width": 1600,
+        "image_height": 900,
+        "image_bytes": 8652,
+        "from_url": "https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c",
+        "service_icon": "https://cdn.oaistatic.com/assets/favicon-180x180-od45eci6.webp",
+        "id": 1,
+        "original_url": "https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c",
+        "fallback": "ChatGPT: ChatGPT - OpenAPI 仕様 配列",
+        "text": "Shared via ChatGPT",
+        "title": "ChatGPT - OpenAPI 仕様 配列",
+        "title_link": "https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c",
+        "service_name": "ChatGPT"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MbSeZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "o3に「それはあってるけどendpointのresponseはroot arrayでもOKだよ」と突っ込まれた\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "o3に「それはあってるけどendpointのresponseはroot arrayでもOKだよ」と突っ込まれた\n<https://chatgpt.com/share/685264f5-578c-8011-aecc-9101bd0ac14c>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750234418.681989",
+    "client_msg_id": "B521CEFC-7D4B-45B1-AA25-758CA7E0E5DD",
+    "text": "pydantic は使ってないけど openapi で array root の json schema は普通に使えている",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DcI84",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "pydantic は使ってないけど openapi で array root の json schema は普通に使えている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "pydantic は使ってないけど openapi で array root の json schema は普通に使えている"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750240821.204599",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5Gx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750243812.990969",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TehX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08Q0QU4LSX",
+    "type": "message",
+    "ts": "1750383974.972169",
+    "client_msg_id": "46efabe2-7f13-4756-b1d2-d6c485696c50",
+    "text": "みすった昨日だったのか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4pk/j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "みすった昨日だったのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sob",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Kay Vincent",
+    "text_readable": "みすった昨日だったのか"
+  },
+  {
+    "text": "【UIエンハンス】おまたせしました！以前<https://dd2030.slack.com/archives/C08F7JZPD63/p1749028809652869|こちら>でいただいたフィードバック対応がすべて完了したのでこちらを最終デザイン案として提出します。\ngithub：  <https://github.com/digitaldemocracy2030/kouchou-ai/issues/460|#460>  |  <https://github.com/digitaldemocracy2030/kouchou-ai/issues/461|#461>\nFigma：  <https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88%E3%83%87%E3%82%B8%E6%B0%912030%EF%BC%89?node-id=226-636&amp;t=PIAiRFYgGT7ReJNb-11|デザイン案>\n\n一度ご覧いただいた案のブラッシュアップなのでほとんどもんだいない認識ですが、もし気づきがありましたらコメントお願いします。もし1~2日待って大丈夫そうでしたら、エンジニアさんに着手いただければと思います。どうぞよろしくお願いいたします！\n\n主な変更点：\n• レポート作成中カード ＆ 作成エラーカード の仕様微調整\n• 「削除確認モーダル」「エンプティ画面」を追加\n• 広聴AIを使用した効果を実感できる数値表現を本スコープからは外す（「総コメント数」「情報圧縮率」など）",
+    "files": [
+      {
+        "id": "F093077P74Y",
+        "created": 1750421779,
+        "timestamp": 1750421779,
+        "name": "img1.png",
+        "title": "img1.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 226352,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F093077P74Y/img1.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F093077P74Y/download/img1.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 215,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 287,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 430,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 478,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 573,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F093077P74Y-275cce6acf/img1_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 612,
+        "original_w": 1594,
+        "original_h": 952,
+        "thumb_tiny": "AwAcADDRAoI9jS9qD0oAQCg/SjtSnpQAmKPwNL2pCOSe+KAEzRmiigAzRmiigYpzt+XGfeg9KTNGaBH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F093077P74Y/img1.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F093077P74Y-3a47973d6b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tpAsl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【UIエンハンス】おまたせしました！以前"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1749028809652869",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "でいただいたフィードバック対応がすべて完了したのでこちらを最終デザイン案として提出します。\ngithub：  "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/460",
+                "text": "#460",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "  |  "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/461",
+                "text": "#461",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "\nFigma：  "
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88%E3%83%87%E3%82%B8%E6%B0%912030%EF%BC%89?node-id=226-636&t=PIAiRFYgGT7ReJNb-11",
+                "text": "デザイン案"
+              },
+              {
+                "type": "text",
+                "text": "\n\n一度ご覧いただいた案のブラッシュアップなのでほとんどもんだいない認識ですが、もし気づきがありましたらコメントお願いします。もし1~2日待って大丈夫そうでしたら、エンジニアさんに着手いただければと思います。どうぞよろしくお願いいたします！\n\n主な変更点：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "レポート作成中カード ＆ 作成エラーカード の仕様微調整"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「削除確認モーダル」「エンプティ画面」を追加"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AIを使用した効果を実感できる数値表現を本スコープからは外す（「総コメント数」「情報圧縮率」など）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1750421834.861339",
+    "client_msg_id": "bc7d5055-ef3a-4cb3-91e9-068295fdba7e",
+    "thread_ts": "1750421834.861339",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1750502521.089669",
+    "reply_users": [
+      "U08J1NXL4A0",
+      "U08PMMXPVTN"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08JGS0BS57",
+          "U08J1NXL4A0"
+        ],
+        "count": 3
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HTMJPH6K",
+          "U08JGS0BS57",
+          "U08J1NXL4A0"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "ウタコ ノギグチ（別案件対応のためミニマム稼働中）",
+    "text_readable": "【UIエンハンス】おまたせしました！以前<https://dd2030.slack.com/archives/C08F7JZPD63/p1749028809652869|こちら>でいただいたフィードバック対応がすべて完了したのでこちらを最終デザイン案として提出します。\ngithub：  <https://github.com/digitaldemocracy2030/kouchou-ai/issues/460|#460>  |  <https://github.com/digitaldemocracy2030/kouchou-ai/issues/461|#461>\nFigma：  <https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88%E3%83%87%E3%82%B8%E6%B0%912030%EF%BC%89?node-id=226-636&t=PIAiRFYgGT7ReJNb-11|デザイン案>\n\n一度ご覧いただいた案のブラッシュアップなのでほとんどもんだいない認識ですが、もし気づきがありましたらコメントお願いします。もし1~2日待って大丈夫そうでしたら、エンジニアさんに着手いただければと思います。どうぞよろしくお願いいたします！\n\n主な変更点：\n• レポート作成中カード ＆ 作成エラーカード の仕様微調整\n• 「削除確認モーダル」「エンプティ画面」を追加\n• 広聴AIを使用した効果を実感できる数値表現を本スコープからは外す（「総コメント数」「情報圧縮率」など）"
+  },
+  {
+    "user": "U08J1NXL4A0",
+    "type": "message",
+    "ts": "1750501010.797489",
+    "edited": {
+      "user": "U08J1NXL4A0",
+      "ts": "1750501103.000000"
+    },
+    "client_msg_id": "d078dc2f-0e8e-4fb0-b713-250b47f746af",
+    "text": "UI の作成ありがとうございます！\n1点質問コメントさせていただきましたが、全体的によさそうに思いました :clap:\n実装して、実際にユーザーさんに使っていただきたいですね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750421834.861339",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zgY03",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UI の作成ありがとうございます！\n1点質問コメントさせていただきましたが、全体的によさそうに思いました "
+              },
+              {
+                "type": "emoji",
+                "name": "clap",
+                "unicode": "1f44f"
+              },
+              {
+                "type": "text",
+                "text": "\n実装して、実際にユーザーさんに使っていただきたいですね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1750421834.861339",
+    "user_name": "shgtkshruch",
+    "text_readable": "UI の作成ありがとうございます！\n1点質問コメントさせていただきましたが、全体的によさそうに思いました :clap:\n実装して、実際にユーザーさんに使っていただきたいですね！"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1750502521.089669",
+    "client_msg_id": "3e3ef732-e5c3-4f88-ada1-99f75fea6b11",
+    "text": "<@U08J1NXL4A0> ありがとうございます！そうですね、使っていただくためにぜひとも実装のお力添えをよろしくお願いいたします^^/",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750421834.861339",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NNB/3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J1NXL4A0"
+              },
+              {
+                "type": "text",
+                "text": " ありがとうございます！そうですね、使っていただくためにぜひとも実装のお力添えをよろしくお願いいたします^^/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "muscle",
+        "users": [
+          "U08J1NXL4A0"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1750421834.861339",
+    "user_name": "ウタコ ノギグチ（別案件対応のためミニマム稼働中）",
+    "text_readable": "@shgtk.shruch ありがとうございます！そうですね、使っていただくためにぜひとも実装のお力添えをよろしくお願いいたします^^/"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1749833369.542839",
+    "root": {
+      "user": "U08J6JR5SNQ",
+      "type": "message",
+      "ts": "1749833369.542839",
+      "client_msg_id": "ca1d252a-71ea-4bef-a671-e70721474e8c",
+      "text": "<https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546>\n公開しました。\nひとまず、私が抱えていたデカいタスクは完了",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1749833369.542839",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1750557792.773999",
+      "reply_users": [
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://bcdn.docswell.com/page/GE82N455ED.jpg?width=480",
+          "image_width": 480,
+          "image_height": 270,
+          "image_bytes": 13619,
+          "from_url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+          "service_icon": "https://bcdn.docswell.com/assets/images/favicon.ico",
+          "id": 1,
+          "original_url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+          "fallback": "Docswell: 広聴AI技術解説_tokoroten_202506 | ドクセル",
+          "text": "広聴AIの解説だよ <https://dd2030.org/kouchou-ai>",
+          "title": "広聴AI技術解説_tokoroten_202506 | ドクセル",
+          "title_link": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+          "service_name": "Docswell",
+          "fields": [
+            {
+              "value": "tokoroten",
+              "title": "Published by",
+              "short": true
+            }
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Sa6uw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546"
+                },
+                {
+                  "type": "text",
+                  "text": "\n公開しました。\nひとまず、私が抱えていたデカいタスクは完了"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1750557792.773999",
+    "client_msg_id": "E0F5A6A3-0C22-4020-A077-C84FC4B2273E",
+    "text": "ところてん氏の解説本、最高です。 :fire: \n最近は、印刷して、本当に本にして持ち歩いています。\n\n少しずつしか理解できないけど、隙間を埋めてくれる\nこれまで抱えていた　？？感に寄り添ってくれる\nやさしい本です。 :four_leaf_clover:\n\n暑き日々、くれぐれもご自愛ください。\nでは、また〜",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "raOW8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ところてん氏の解説本、最高です。 "
+              },
+              {
+                "type": "emoji",
+                "name": "fire",
+                "unicode": "1f525"
+              },
+              {
+                "type": "text",
+                "text": " \n最近は、印刷して、本当に本にして持ち歩いています。\n\n少しずつしか理解できないけど、隙間を埋めてくれる\nこれまで抱えていた　？？感に寄り添ってくれる\nやさしい本です。 "
+              },
+              {
+                "type": "emoji",
+                "name": "four_leaf_clover",
+                "unicode": "1f340"
+              },
+              {
+                "type": "text",
+                "text": "\n\n暑き日々、くれぐれもご自愛ください。\nでは、また〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "naoyo4...zzz",
+    "text_readable": "ところてん氏の解説本、最高です。 :fire: \n最近は、印刷して、本当に本にして持ち歩いています。\n\n少しずつしか理解できないけど、隙間を埋めてくれる\nこれまで抱えていた　？？感に寄り添ってくれる\nやさしい本です。 :four_leaf_clover:\n\n暑き日々、くれぐれもご自愛ください。\nでは、また〜"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750632792.341159",
+    "client_msg_id": "07b2ad82-4dd1-46b9-8327-3ac0a7f65734",
+    "text": "動作確認・デモ環境用の Azure 利用の話がどこかで止まってそうなので状況確認してみます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750632792.341159",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1750652058.022199",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hqSo/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "動作確認・デモ環境用の Azure 利用の話がどこかで止まってそうなので状況確認してみます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08GG5LRGMP",
+          "U08J1NXL4A0"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "動作確認・デモ環境用の Azure 利用の話がどこかで止まってそうなので状況確認してみます。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750652058.022199",
+    "client_msg_id": "57f61438-4498-4e39-b66a-847dbb4cd078",
+    "text": "アカウント作成依頼中\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750651882793649>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750632792.341159",
+    "parent_user_id": "U08H3V9KMFH",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750651882793649",
+        "ts": "1750651882.793649",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1750651882.793649",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "ijjw6",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08N4BTNYN6"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n広聴AIのクラウドサービスの運用管理を担当することになりました、大木です。\n\nボードメンバーのお二人とお話して、広聴AIのデモサイトの構築を始めようと考えています。\n他のプロジェクトでは GCP の環境を用意していますが、広聴AIでは Azure の方がより適切なため GCP ではなく Azure の利用をしたいです。\n請求先などがDD2030に紐づいたアカウントを発行＆大木("
+                        },
+                        {
+                          "type": "link",
+                          "url": "mailto:truego@gmail.com",
+                          "text": "truego@gmail.com"
+                        },
+                        {
+                          "type": "text",
+                          "text": ") に管理権限の付与をお願いできますか？\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_quote",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "広聴AIで、以下の目的で Azure を使用したい。\n- 自治体での利用に親和性が高いと思われる Azure 環境用の機能の開発\n- プロジェクト内のメンバー間での動作確認環境（現状は公式のデプロイ先がなく、開発者でないと手元で動かして動作確認できない）\nまた、広聴AIについては、Azure 環境があれば、相談リスト 2. のGCP環境は不要なため、広聴AIについては利用するクラウドサービスはAzureに一本化したい。"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&range=13:13"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750651882793649",
+        "fallback": "[June 22nd, 2025 9:11 PM] truego: <@U08N4BTNYN6>\n広聴AIのクラウドサービスの運用管理を担当することになりました、大木です。\n\nボードメンバーのお二人とお話して、広聴AIのデモサイトの構築を始めようと考えています。\n他のプロジェクトでは GCP の環境を用意していますが、広聴AIでは Azure の方がより適切なため GCP ではなく Azure の利用をしたいです。\n請求先などがDD2030に紐づいたアカウントを発行＆大木(<mailto:truego@gmail.com|truego@gmail.com>) に管理権限の付与をお願いできますか？\n&gt; 広聴AIで、以下の目的で Azure を使用したい。\n&gt; - 自治体での利用に親和性が高いと思われる Azure 環境用の機能の開発\n&gt; - プロジェクト内のメンバー間での動作確認環境（現状は公式のデプロイ先がなく、開発者でないと手元で動かして動作確認できない）\n&gt; また、広聴AIについては、Azure 環境があれば、相談リスト 2. のGCP環境は不要なため、広聴AIについては利用するクラウドサービスはAzureに一本化したい。\n<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&amp;range=13:13>",
+        "text": "<@U08N4BTNYN6>\n広聴AIのクラウドサービスの運用管理を担当することになりました、大木です。\n\nボードメンバーのお二人とお話して、広聴AIのデモサイトの構築を始めようと考えています。\n他のプロジェクトでは GCP の環境を用意していますが、広聴AIでは Azure の方がより適切なため GCP ではなく Azure の利用をしたいです。\n請求先などがDD2030に紐づいたアカウントを発行＆大木(<mailto:truego@gmail.com|truego@gmail.com>) に管理権限の付与をお願いできますか？\n&gt; 広聴AIで、以下の目的で Azure を使用したい。\n&gt; - 自治体での利用に親和性が高いと思われる Azure 環境用の機能の開発\n&gt; - プロジェクト内のメンバー間での動作確認環境（現状は公式のデプロイ先がなく、開発者でないと手元で動かして動作確認できない）\n&gt; また、広聴AIについては、Azure 環境があれば、相談リスト 2. のGCP環境は不要なため、広聴AIについては利用するクラウドサービスはAzureに一本化したい。\n<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&amp;range=13:13>",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u/a+S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アカウント作成依頼中\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750651882793649"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750632792.341159",
+    "user_name": "Shingo OHKI",
+    "text_readable": "アカウント作成依頼中\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750651882793649>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750652137.215159",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1750653368.000000"
+    },
+    "client_msg_id": "064eda9e-5bcb-47e7-91f2-6206f02843b6",
+    "text": "広聴AIについて、ボードメンバーのお二人とお話ししたのでメモを共有します\n開発定例でも触れようと思いますが、広聴AIのマーケティング活動に興味がある方はぜひ！\n<https://docs.google.com/document/d/1r4MvL1FdBzkG-iGltlMPEGSFmNhwvtDoBvtQMdHdur8/edit?tab=t.0|20250623-広聴AI深堀withボードメンバー>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1QCii",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIについて、ボードメンバーのお二人とお話ししたのでメモを共有します\n開発定例でも触れようと思いますが、広聴AIのマーケティング活動に興味がある方はぜひ！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1r4MvL1FdBzkG-iGltlMPEGSFmNhwvtDoBvtQMdHdur8/edit?tab=t.0",
+                "text": "20250623-広聴AI深堀withボードメンバー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08GG5LRGMP",
+          "U08RVJ39D4M",
+          "U08J1NXL4A0",
+          "U08HKLUGE67"
+        ],
+        "count": 4
+      },
+      {
+        "name": "clap::skin-tone-2",
+        "users": [
+          "U08HTMJPH6K"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "広聴AIについて、ボードメンバーのお二人とお話ししたのでメモを共有します\n開発定例でも触れようと思いますが、広聴AIのマーケティング活動に興味がある方はぜひ！\n<https://docs.google.com/document/d/1r4MvL1FdBzkG-iGltlMPEGSFmNhwvtDoBvtQMdHdur8/edit?tab=t.0|20250623-広聴AI深堀withボードメンバー>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1750759021.345919",
+    "client_msg_id": "72afd26e-1bcf-4d28-9a4f-f12387c60aad",
+    "text": "<https://x.com/harmoniamonda/status/1937309956359041475>\nたぶん、人文系の大学で、卒論のアンケート調査の解析にはドンピシャで刺さるんですよね",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/harmoniamonda/status/1937309956359041475",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1422329316/imgres_200x200.jpeg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/harmoniamonda/status/1937309956359041475",
+        "fallback": "X (formerly Twitter): ルーデンス:name_badge:計画 (@harmoniamonda) on X",
+        "text": "人類学のみんな\n\nLLMや生成AIがわかる\n大規模調査に活用できそうなフレームワークも紹介されてる\n\nKJ法とかでてくるプレゼン資料\n\n数ページごとにAha!と盛り上がる（個人的感想）\n\n飽きずに楽しく77pを20分くらいで読めました\n\nやってみたくなった\n\nうまい発表だなー\n<https://t.co/YTCDvsGQ1b>",
+        "title": "ルーデンス:name_badge:計画 (@harmoniamonda) on X",
+        "title_link": "https://x.com/harmoniamonda/status/1937309956359041475",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3a7w/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/harmoniamonda/status/1937309956359041475"
+              },
+              {
+                "type": "text",
+                "text": "\nたぶん、人文系の大学で、卒論のアンケート調査の解析にはドンピシャで刺さるんですよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "atsui",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://x.com/harmoniamonda/status/1937309956359041475>\nたぶん、人文系の大学で、卒論のアンケート調査の解析にはドンピシャで刺さるんですよね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750806535.297299",
+    "client_msg_id": "bdc1aad0-0d58-41eb-be6a-1c16b06e7412",
+    "text": "*【エンジニアの方、ご意見ください！】*\n現在、レポート管理画面の UI/UX の検討を行っています。\nその中で、レポート生成中の管理画面での削除ボタンについての話をしています。\n僕の所感をコメントしているのですが、他の方もぜひコメントいただけると！\n<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=226-636#1310907743>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aYBde",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【エンジニアの方、ご意見ください！】",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n現在、レポート管理画面の UI/UX の検討を行っています。\nその中で、レポート生成中の管理画面での削除ボタンについての話をしています。\n僕の所感をコメントしているのですが、他の方もぜひコメントいただけると！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=226-636#1310907743"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "*【エンジニアの方、ご意見ください！】*\n現在、レポート管理画面の UI/UX の検討を行っています。\nその中で、レポート生成中の管理画面での削除ボタンについての話をしています。\n僕の所感をコメントしているのですが、他の方もぜひコメントいただけると！\n<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=226-636#1310907743>"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750809625.590609",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+XIT6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750814730.138909",
+    "client_msg_id": "82711c9d-cd23-48c5-b26d-85806a47291c",
+    "text": "広聴AIの活用拡大に向けて、これまでやり取りのあった7自治体に改めてメールを送ってみました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9gv4B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIの活用拡大に向けて、これまでやり取りのあった7自治体に改めてメールを送ってみました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GG5LRGMP",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08N3V4NQRE",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "広聴AIの活用拡大に向けて、これまでやり取りのあった7自治体に改めてメールを送ってみました"
+  }
+]

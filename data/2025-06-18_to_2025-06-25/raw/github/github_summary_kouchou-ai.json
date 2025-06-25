@@ -1,0 +1,101 @@
+{
+  "period": {
+    "start": "2025-06-18T12:31:34.393831+09:00",
+    "end": "2025-06-25T12:31:34.393831+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3121798645,
+      "number": 590,
+      "title": "[REFACTOR] レポーター情報のデフォルト値を空にしたい（なってる?）",
+      "state": "closed"
+    },
+    {
+      "id": 3065566746,
+      "number": 520,
+      "title": "[FEATURE]限定公開のページにはnoindexオプションを付ける",
+      "state": "closed"
+    },
+    {
+      "id": 3038115997,
+      "number": 427,
+      "title": "[FEATURE]レポート一覧画面：レポートタイトルと本文に文字数制限",
+      "state": "closed"
+    },
+    {
+      "id": 3171592866,
+      "number": 613,
+      "title": "[FEATURE] フォームから入力された API Key を使ってレポートを生成できる",
+      "state": "created"
+    },
+    {
+      "id": 3149557463,
+      "number": 604,
+      "title": "[REFACTOR] 管理画面のレポート一覧画面をコンポーネント分割する",
+      "state": "updated"
+    },
+    {
+      "id": 3046497026,
+      "number": 460,
+      "title": "[FEATURE][design] レポート管理画面：直感的に使いやすくしたい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3171022290,
+      "number": 612,
+      "title": "[client-admin] レポート編集 dialog をコンポーネントとして切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3167570131,
+      "number": 611,
+      "title": "[client-admin] トークン使用量等を計算するロジックを Custom Hook に切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3162384687,
+      "number": 610,
+      "title": "[client] レポートのタイトルと本文に行数制限を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3160734420,
+      "number": 608,
+      "title": "不要になったコメントを削除",
+      "state": "merged"
+    },
+    {
+      "id": 3156986280,
+      "number": 607,
+      "title": "[client] meta タグやレポーター情報の初期値を変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3162346531,
+      "number": 609,
+      "title": "Replace random sampling with Farthest Point Sampling for better spatial coverage",
+      "state": "created"
+    },
+    {
+      "id": 3147165382,
+      "number": 602,
+      "title": "[client] デザインシステムの Button を適用する",
+      "state": "updated"
+    },
+    {
+      "id": 3129678380,
+      "number": 595,
+      "title": "[client] レポーター画像が Docker 環境で取得できないエラーを修正",
+      "state": "updated"
+    },
+    {
+      "id": 3124359931,
+      "number": 593,
+      "title": "[client] Dialog を開いた際の Initial Focus を変更する",
+      "state": "updated"
+    }
+  ]
+}

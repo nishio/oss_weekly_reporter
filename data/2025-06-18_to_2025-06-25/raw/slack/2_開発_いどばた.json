@@ -1,0 +1,843 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750237228.701169",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JlsA6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1750240212.546209",
+    "client_msg_id": "b0e11aa2-bb1d-47a7-af17-63dddb1ebe21",
+    "text": "すみません、いどばた定例、本職のミーティングが長引いてしまい入るのが間に合わないかもしれません...&amp;資料の事前記載間に合わなそうです:pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750240212.546209",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1750244034.788259",
+    "reply_users": [
+      "U08HMV9AHLL",
+      "U08FTAEETAB"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jJOSe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません、いどばた定例、本職のミーティングが長引いてしまい入るのが間に合わないかもしれません...&資料の事前記載間に合わなそうです"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "すみません、いどばた定例、本職のミーティングが長引いてしまい入るのが間に合わないかもしれません...&資料の事前記載間に合わなそうです:pray:"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1750240936.557489",
+    "client_msg_id": "61fbd4f0-b8c9-410d-9593-ab4287970514",
+    "text": "了解です！進めてます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750240212.546209",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b/tMg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "了解です！進めてます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750240212.546209",
+    "user_name": "Horie Satoru",
+    "text_readable": "了解です！進めてます！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1750240942.408129",
+    "client_msg_id": "7c85e690-9ad0-4ebd-b106-af4158b5832c",
+    "text": "（あまり議題なさそうですが）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750240212.546209",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Dn8D5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（あまり議題なさそうですが）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750240212.546209",
+    "user_name": "Horie Satoru",
+    "text_readable": "（あまり議題なさそうですが）"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1750244034.788259",
+    "client_msg_id": "bea67d6d-a245-49ec-820f-5df5e72b4c86",
+    "text": "すみません！ありがとうございました！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750240212.546209",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ttRx4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません！ありがとうございました！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750240212.546209",
+    "user_name": "jujunjun110",
+    "text_readable": "すみません！ありがとうございました！！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750240212.576799",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JuTha",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08SG2GU1NH",
+    "type": "message",
+    "ts": "1750318231.042759",
+    "client_msg_id": "f2874f0a-fbf4-457a-a68f-d455e284d01d",
+    "text": "手探りで<https://github.com/digitaldemocracy2030/idobata/issues/203|こちらのIssue> に対する修正を行ってみました。OSSにコミットするのは初めてなので、お手柔らかにお願いします。手順などに不手際がありましたら、ご指摘いただけますと幸いです。よろしくお願いいたします。\n<https://github.com/digitaldemocracy2030/idobata/pull/407>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RNAEC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "手探りで"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/issues/203",
+                "text": "こちらのIssue"
+              },
+              {
+                "type": "text",
+                "text": " に対する修正を行ってみました。OSSにコミットするのは初めてなので、お手柔らかにお願いします。手順などに不手際がありましたら、ご指摘いただけますと幸いです。よろしくお願いいたします。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/407"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "igyo",
+        "users": [
+          "U08GJSBAX3K",
+          "U08HMV9AHLL"
+        ],
+        "count": 2
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "mimashita",
+        "users": [
+          "U08HMV9AHLL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "佐々木淳哉",
+    "text_readable": "手探りで<https://github.com/digitaldemocracy2030/idobata/issues/203|こちらのIssue> に対する修正を行ってみました。OSSにコミットするのは初めてなので、お手柔らかにお願いします。手順などに不手際がありましたら、ご指摘いただけますと幸いです。よろしくお願いいたします。\n<https://github.com/digitaldemocracy2030/idobata/pull/407>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750336147.217279",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1750382589.000000"
+    },
+    "client_msg_id": "E76346D6-304F-40FA-81D0-4CE54CABE54D",
+    "text": "~早急に要対応？（既に無効化済み？）~\n~<https://github.com/kuboon/dd2030-website/security/secret-scanning/1>~",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "reply_count": 5,
+    "reply_users_count": 2,
+    "latest_reply": "1750382519.757159",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WmfER",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "早急に要対応？（既に無効化済み？）",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/kuboon/dd2030-website/security/secret-scanning/1",
+                "style": {
+                  "strike": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "~早急に要対応？（既に無効化済み？）~\n~<https://github.com/kuboon/dd2030-website/security/secret-scanning/1>~"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750336250.508749",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1750382390.000000"
+    },
+    "client_msg_id": "FC8653D8-E773-4216-915B-772E6CC90707",
+    "text": "~<@U08FTAEETAB> さんかな？~",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i4zLT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " さんかな？",
+                "style": {
+                  "strike": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750336147.217279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "~@jujunjun110 さんかな？~"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1750338031.487909",
+    "client_msg_id": "63e275f5-6293-474f-b5ac-5c39882cc318",
+    "text": "リンク先がprivate repoのようです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zJ7oM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リンク先がprivate repoのようです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750336147.217279",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "リンク先がprivate repoのようです！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750380612.273289",
+    "client_msg_id": "f7ccdb79-aee3-40dc-bfbc-7cb993a3e277",
+    "text": "あーそうかすみません\nAWSの secret が slack ログ内に流れていて、それを拾って web に公開してしまったのでキーのローテーションが必要です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TbUlZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あーそうかすみません\nAWSの secret が slack ログ内に流れていて、それを拾って web に公開してしまったのでキーのローテーションが必要です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750336147.217279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "あーそうかすみません\nAWSの secret が slack ログ内に流れていて、それを拾って web に公開してしまったのでキーのローテーションが必要です"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750380717.477169",
+    "client_msg_id": "c6d126e4-4d6e-4a80-a112-ba981ac65bf6",
+    "text": "いや、よく見るとこれ devin が持ってる画像か。。？\nじゃあ大丈夫かな",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jjjWK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや、よく見るとこれ devin が持ってる画像か。。？\nじゃあ大丈夫かな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750336147.217279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いや、よく見るとこれ devin が持ってる画像か。。？\nじゃあ大丈夫かな"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1750382519.757159",
+    "client_msg_id": "8729312a-df75-48e7-840c-13679ef85128",
+    "text": "内容は github による自動セキュリティレポートで、 公開リポジトリに流れた以下の部分に AWS の鍵が含まれていた、とのことでした。\n```## Requested by\n<mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>\n\n![SSR Application Screenshot](<https://devin-public-attachments.s3.dualstack.us-west-2.amazonaws.com/attachments_private/org_59RHUaMtRiE9rGRu/ed3549b6-f53c-481c-a880-f18e0b8d6039/localhost_3000_134038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=xxxxxxxxxxxxxxxxxx%2F20250611%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20250611T134313Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIH8mIzXdQWOXJbTSsGFYRYlDWibQcRjoDuvkabKVXI0WAiEA%2BEgIGBN4%2Fmk5Y8lwepN2n31cLDscZSPrfK3EtQ6v6LIqwAUI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwyNzI1MDY0OTgzMDMiDCbVQV8JCRTR4EVQFyqUBcs9x%2Foc2a3ww5CBQu9KXknPLZrUh9bUtDO%2F1HDuzxm7N7fnoJcD1vmhzd08DGd4V%2B%2BGJia0E2lXLsRse%2FVgjJnua0afBrjCdwujv8Qyr8hGxQMpN9xWxiubXQRW%2F3eWq8Vm5nzAi8kc13DEtHwf89W3%2B7q%2B4EswF6%2Fkqt5pTJfwugEayv3BAiWEn8LwN1K12KP%2F%2Frp2VF5N%2F2NO1u8DOeGzFZVxXdGdtFQTxm2LJ2jS9WzBWLOYhqmovhN06kCG238DFU2DWjDm%2BJdRh3I0%2Be9Qh2YkPQ5NqUJQCtz22D99eaalZ5YaIphAge2UoKdVw9Iyra78IeZUGBLN0Srx0rM5HU88%2BW3iikFcPBau4BpJ6V8jSQ9HbYQ78Bwb8AbP9yW4FOCkAeT0MrBsFUzlRNie3bUgWOTmNw3pP7ph7zhgdpBIXay1eKTcJMp1Qoi1IzoSvhEuB9KkYmIRBhbodU3Nga4Hs5%2B8iPwl0Rq7Ix7xo1GT%2BV8DWYYWzJWEV3Cx2bRY2V2t8zKtiMfaeJkMDD6KzCIjcR7QbJeGcmGWz%2FXAhjs2Hpn8jCFQXOMHyb%2B5v9Mb87CKGxo3gT%2BpEwYpdOx%2F7HzF08OiSVfMq75XbZz0517Nzdi0w0xDcd78O7i9pShBKwZPR%2FU7%2BahgZm210NIfbBFxSkJyPFilgykkM6F1%2FOiKJGH7FT0OUhPhsCD156VlC%2BoYkhbde2Bi1zXqYjDARZwLZAK%2BCFrr6tM9OaKInhYIUziAQf0rpWxZ7Z3vDxpl%2FeXT8Z8WDHyrTlDCKF7mEm%2BarmvdxLw9dhIhgC0iqsUjEahVGmRhsV0ddUKOryCzu7XjI6%2BKMxJErX%2BD57L0DIVHJ4AMWnuOW%2FNvafU7nIaSfTDsh6bCBjqYAVdc76rVHwrGt91SxyHxfKpLRsnZpYf10As3dDDuweMuFGJ%2Fn43l2yPG0z3Yz8g2yc1TUy6z4%2Fo2Do4LF3qkNZdZ7gdG74pUoajfYN%2B3e2yqrDlRqUpjkMR4rsizz8G2eDE77HdPp6t7pvzAzzcrrcRu5WP%2Br71CtJws3Vt5szN0Am%2FNGK9qsUa2bJN0zySHd%2F0JclqITj3I&amp;X-Amz-Signature=40acf61deabc1f2d11b69502b8e7d6e95da23ff00e8a6670abe9335e71e50c3f>)\n\n\n**コメント:** なし```",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750336147.217279",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q9Kn6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "内容は github による自動セキュリティレポートで、 公開リポジトリに流れた以下の部分に AWS の鍵が含まれていた、とのことでした。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "## Requested by\njujunjun110@gmail.com\n\n![SSR Application Screenshot]("
+              },
+              {
+                "type": "link",
+                "url": "https://devin-public-attachments.s3.dualstack.us-west-2.amazonaws.com/attachments_private/org_59RHUaMtRiE9rGRu/ed3549b6-f53c-481c-a880-f18e0b8d6039/localhost_3000_134038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=xxxxxxxxxxxxxxxxxx%2F20250611%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250611T134313Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIH8mIzXdQWOXJbTSsGFYRYlDWibQcRjoDuvkabKVXI0WAiEA%2BEgIGBN4%2Fmk5Y8lwepN2n31cLDscZSPrfK3EtQ6v6LIqwAUI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwyNzI1MDY0OTgzMDMiDCbVQV8JCRTR4EVQFyqUBcs9x%2Foc2a3ww5CBQu9KXknPLZrUh9bUtDO%2F1HDuzxm7N7fnoJcD1vmhzd08DGd4V%2B%2BGJia0E2lXLsRse%2FVgjJnua0afBrjCdwujv8Qyr8hGxQMpN9xWxiubXQRW%2F3eWq8Vm5nzAi8kc13DEtHwf89W3%2B7q%2B4EswF6%2Fkqt5pTJfwugEayv3BAiWEn8LwN1K12KP%2F%2Frp2VF5N%2F2NO1u8DOeGzFZVxXdGdtFQTxm2LJ2jS9WzBWLOYhqmovhN06kCG238DFU2DWjDm%2BJdRh3I0%2Be9Qh2YkPQ5NqUJQCtz22D99eaalZ5YaIphAge2UoKdVw9Iyra78IeZUGBLN0Srx0rM5HU88%2BW3iikFcPBau4BpJ6V8jSQ9HbYQ78Bwb8AbP9yW4FOCkAeT0MrBsFUzlRNie3bUgWOTmNw3pP7ph7zhgdpBIXay1eKTcJMp1Qoi1IzoSvhEuB9KkYmIRBhbodU3Nga4Hs5%2B8iPwl0Rq7Ix7xo1GT%2BV8DWYYWzJWEV3Cx2bRY2V2t8zKtiMfaeJkMDD6KzCIjcR7QbJeGcmGWz%2FXAhjs2Hpn8jCFQXOMHyb%2B5v9Mb87CKGxo3gT%2BpEwYpdOx%2F7HzF08OiSVfMq75XbZz0517Nzdi0w0xDcd78O7i9pShBKwZPR%2FU7%2BahgZm210NIfbBFxSkJyPFilgykkM6F1%2FOiKJGH7FT0OUhPhsCD156VlC%2BoYkhbde2Bi1zXqYjDARZwLZAK%2BCFrr6tM9OaKInhYIUziAQf0rpWxZ7Z3vDxpl%2FeXT8Z8WDHyrTlDCKF7mEm%2BarmvdxLw9dhIhgC0iqsUjEahVGmRhsV0ddUKOryCzu7XjI6%2BKMxJErX%2BD57L0DIVHJ4AMWnuOW%2FNvafU7nIaSfTDsh6bCBjqYAVdc76rVHwrGt91SxyHxfKpLRsnZpYf10As3dDDuweMuFGJ%2Fn43l2yPG0z3Yz8g2yc1TUy6z4%2Fo2Do4LF3qkNZdZ7gdG74pUoajfYN%2B3e2yqrDlRqUpjkMR4rsizz8G2eDE77HdPp6t7pvzAzzcrrcRu5WP%2Br71CtJws3Vt5szN0Am%2FNGK9qsUa2bJN0zySHd%2F0JclqITj3I&X-Amz-Signature=40acf61deabc1f2d11b69502b8e7d6e95da23ff00e8a6670abe9335e71e50c3f"
+              },
+              {
+                "type": "text",
+                "text": ")\n\n\n**コメント:** なし"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750336147.217279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "内容は github による自動セキュリティレポートで、 公開リポジトリに流れた以下の部分に AWS の鍵が含まれていた、とのことでした。\n```## Requested by\n<mailto:jujunjun110@gmail.com|jujunjun110@gmail.com>\n\n![SSR Application Screenshot](<https://devin-public-attachments.s3.dualstack.us-west-2.amazonaws.com/attachments_private/org_59RHUaMtRiE9rGRu/ed3549b6-f53c-481c-a880-f18e0b8d6039/localhost_3000_134038.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=xxxxxxxxxxxxxxxxxx%2F20250611%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250611T134313Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIH8mIzXdQWOXJbTSsGFYRYlDWibQcRjoDuvkabKVXI0WAiEA%2BEgIGBN4%2Fmk5Y8lwepN2n31cLDscZSPrfK3EtQ6v6LIqwAUI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgwyNzI1MDY0OTgzMDMiDCbVQV8JCRTR4EVQFyqUBcs9x%2Foc2a3ww5CBQu9KXknPLZrUh9bUtDO%2F1HDuzxm7N7fnoJcD1vmhzd08DGd4V%2B%2BGJia0E2lXLsRse%2FVgjJnua0afBrjCdwujv8Qyr8hGxQMpN9xWxiubXQRW%2F3eWq8Vm5nzAi8kc13DEtHwf89W3%2B7q%2B4EswF6%2Fkqt5pTJfwugEayv3BAiWEn8LwN1K12KP%2F%2Frp2VF5N%2F2NO1u8DOeGzFZVxXdGdtFQTxm2LJ2jS9WzBWLOYhqmovhN06kCG238DFU2DWjDm%2BJdRh3I0%2Be9Qh2YkPQ5NqUJQCtz22D99eaalZ5YaIphAge2UoKdVw9Iyra78IeZUGBLN0Srx0rM5HU88%2BW3iikFcPBau4BpJ6V8jSQ9HbYQ78Bwb8AbP9yW4FOCkAeT0MrBsFUzlRNie3bUgWOTmNw3pP7ph7zhgdpBIXay1eKTcJMp1Qoi1IzoSvhEuB9KkYmIRBhbodU3Nga4Hs5%2B8iPwl0Rq7Ix7xo1GT%2BV8DWYYWzJWEV3Cx2bRY2V2t8zKtiMfaeJkMDD6KzCIjcR7QbJeGcmGWz%2FXAhjs2Hpn8jCFQXOMHyb%2B5v9Mb87CKGxo3gT%2BpEwYpdOx%2F7HzF08OiSVfMq75XbZz0517Nzdi0w0xDcd78O7i9pShBKwZPR%2FU7%2BahgZm210NIfbBFxSkJyPFilgykkM6F1%2FOiKJGH7FT0OUhPhsCD156VlC%2BoYkhbde2Bi1zXqYjDARZwLZAK%2BCFrr6tM9OaKInhYIUziAQf0rpWxZ7Z3vDxpl%2FeXT8Z8WDHyrTlDCKF7mEm%2BarmvdxLw9dhIhgC0iqsUjEahVGmRhsV0ddUKOryCzu7XjI6%2BKMxJErX%2BD57L0DIVHJ4AMWnuOW%2FNvafU7nIaSfTDsh6bCBjqYAVdc76rVHwrGt91SxyHxfKpLRsnZpYf10As3dDDuweMuFGJ%2Fn43l2yPG0z3Yz8g2yc1TUy6z4%2Fo2Do4LF3qkNZdZ7gdG74pUoajfYN%2B3e2yqrDlRqUpjkMR4rsizz8G2eDE77HdPp6t7pvzAzzcrrcRu5WP%2Br71CtJws3Vt5szN0Am%2FNGK9qsUa2bJN0zySHd%2F0JclqITj3I&X-Amz-Signature=40acf61deabc1f2d11b69502b8e7d6e95da23ff00e8a6670abe9335e71e50c3f>)\n\n\n**コメント:** なし```"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1750809618.394649",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UzN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1750819775.967609",
+    "client_msg_id": "bdc81a7f-b297-4b94-976a-ebbaf3e06a8c",
+    "text": "共有: 広聴AIは GCP -&gt; Azure に切り替える動きをしています\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750819171201719?thread_ts=1750651882.793649&amp;cid=C08TR6S8Y0Z>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750819171201719?thread_ts=1750651882.793649&amp;cid=C08TR6S8Y0Z",
+        "ts": "1750819171.201719",
+        "author_id": "U08N3V4NQRE",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1750819171.201719",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "I6blE",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Azureがエンプラや政府強いのは理解できます。Microsoftの他のプロダクト群とバンドルでサポートもついて、のいつもの戦略ですね。\n私としては今後統一していく方向なのであればAzureでもGCPでもいいです！\nとりあえずこの件についてはunblockします。 "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08N4BTNYN6"
+                        },
+                        {
+                          "type": "text",
+                          "text": " Azure作成お願いします！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750819171201719?thread_ts=1750651882.793649&amp;cid=C08TR6S8Y0Z",
+        "fallback": "[June 24th, 2025 7:39 PM] kojin.oshiba: Azureがエンプラや政府強いのは理解できます。Microsoftの他のプロダクト群とバンドルでサポートもついて、のいつもの戦略ですね。\n私としては今後統一していく方向なのであればAzureでもGCPでもいいです！\nとりあえずこの件についてはunblockします。 <@U08N4BTNYN6> Azure作成お願いします！",
+        "text": "Azureがエンプラや政府強いのは理解できます。Microsoftの他のプロダクト群とバンドルでサポートもついて、のいつもの戦略ですね。\n私としては今後統一していく方向なのであればAzureでもGCPでもいいです！\nとりあえずこの件についてはunblockします。 <@U08N4BTNYN6> Azure作成お願いします！",
+        "author_name": "ルー大柴（Kojin Oshiba）",
+        "author_link": "https://dd2030.slack.com/team/U08N3V4NQRE",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-09/8751991571792_96c6eb1e59a6dd54a634_48.jpg",
+        "author_subname": "ルー大柴（Kojin Oshiba）",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xBOCa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "共有: 広聴AIは GCP -> Azure に切り替える動きをしています\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750819171201719?thread_ts=1750651882.793649&cid=C08TR6S8Y0Z"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "共有: 広聴AIは GCP -> Azure に切り替える動きをしています\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1750819171201719?thread_ts=1750651882.793649&cid=C08TR6S8Y0Z>"
+  }
+]

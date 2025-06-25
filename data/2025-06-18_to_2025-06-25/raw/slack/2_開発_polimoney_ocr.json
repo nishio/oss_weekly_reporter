@@ -1,0 +1,246 @@
+[
+  {
+    "user": "U08RTFAMN91",
+    "type": "message",
+    "ts": "1750257816.950719",
+    "edited": {
+      "user": "U08RTFAMN91",
+      "ts": "1750257880.000000"
+    },
+    "client_msg_id": "f24acfaf-3386-4264-b146-2c9098ee3e94",
+    "text": "OCR周りで考えていること。かなり大工事が必要と思ってます。\n\nカテゴリとトランザクションを１パス(1度の画像走査)で取得する方式をやめて、カテゴリの情報取得と階層関係の構築を先にやってからトランザクション取得用にもう一度OCRを走らせた方がよさそう。\n今の方式だとカテゴリに別々のIDが振られるのを補正したり、階層構造をうまく処理するためにmerge_jsons.py がどんどん複雑化してしまう。すでにかなり複雑だけどまだ不整合がでるのでもっと複雑なロジックを導入しないと整合性がとれない。\n手元で色々実験してるが、プロンプトのルールがどんどん増えてルールを守れなくなってきている。処理を分割することでロジックの複雑度やOCRの難易度を下げる。\n\n・1度目のOCRでカテゴリ一覧と階層関係とページ種別を取得する。\n・カテゴリの重複や階層構造誤り表記ブレをロジックで補正する。\n・補正済みカテゴリ情報をコンテキストに入れて2度目のOCRをし、トランザクション一覧を取得する。LLMにカテゴリへの割り当てをさせる。\n・収支状況ページについてはプロンプトを分ける。サマリ情報として別途項目に出力。\n\nまた converter.ts は正しいトランザクション一覧から収支状況ページの合計値が導ける前提となっているが、これは難易度が高いので、収支状況ページの値をそのままもってきて収入総額、支出総額、年間収支とする。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750257816.950719",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1750329294.036069",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U08RTFAMN91"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "05PVc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OCR周りで考えていること。かなり大工事が必要と思ってます。\n\nカテゴリとトランザクションを１パス(1度の画像走査)で取得する方式をやめて、カテゴリの情報取得と階層関係の構築を先にやってからトランザクション取得用にもう一度OCRを走らせた方がよさそう。\n今の方式だとカテゴリに別々のIDが振られるのを補正したり、階層構造をうまく処理するためにmerge_jsons.py がどんどん複雑化してしまう。すでにかなり複雑だけどまだ不整合がでるのでもっと複雑なロジックを導入しないと整合性がとれない。\n手元で色々実験してるが、プロンプトのルールがどんどん増えてルールを守れなくなってきている。処理を分割することでロジックの複雑度やOCRの難易度を下げる。\n\n・1度目のOCRでカテゴリ一覧と階層関係とページ種別を取得する。\n・カテゴリの重複や階層構造誤り表記ブレをロジックで補正する。\n・補正済みカテゴリ情報をコンテキストに入れて2度目のOCRをし、トランザクション一覧を取得する。LLMにカテゴリへの割り当てをさせる。\n・収支状況ページについてはプロンプトを分ける。サマリ情報として別途項目に出力。\n\nまた converter.ts は正しいトランザクション一覧から収支状況ページの合計値が導ける前提となっているが、これは難易度が高いので、収支状況ページの値をそのままもってきて収入総額、支出総額、年間収支とする。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sob",
+        "users": [
+          "U08NZH1RY4S",
+          "U08Q6L6921Y"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "shinji yamada",
+    "text_readable": "OCR周りで考えていること。かなり大工事が必要と思ってます。\n\nカテゴリとトランザクションを１パス(1度の画像走査)で取得する方式をやめて、カテゴリの情報取得と階層関係の構築を先にやってからトランザクション取得用にもう一度OCRを走らせた方がよさそう。\n今の方式だとカテゴリに別々のIDが振られるのを補正したり、階層構造をうまく処理するためにmerge_jsons.py がどんどん複雑化してしまう。すでにかなり複雑だけどまだ不整合がでるのでもっと複雑なロジックを導入しないと整合性がとれない。\n手元で色々実験してるが、プロンプトのルールがどんどん増えてルールを守れなくなってきている。処理を分割することでロジックの複雑度やOCRの難易度を下げる。\n\n・1度目のOCRでカテゴリ一覧と階層関係とページ種別を取得する。\n・カテゴリの重複や階層構造誤り表記ブレをロジックで補正する。\n・補正済みカテゴリ情報をコンテキストに入れて2度目のOCRをし、トランザクション一覧を取得する。LLMにカテゴリへの割り当てをさせる。\n・収支状況ページについてはプロンプトを分ける。サマリ情報として別途項目に出力。\n\nまた converter.ts は正しいトランザクション一覧から収支状況ページの合計値が導ける前提となっているが、これは難易度が高いので、収支状況ページの値をそのままもってきて収入総額、支出総額、年間収支とする。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1750307704.122099",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1750307740.000000"
+    },
+    "client_msg_id": "8ab6dac1-ce6e-4eea-adee-fd6f43b2078a",
+    "text": "どこまで精度を追い求めるか、も重要ですね。\n大きな政党さんだと内容が多くて大変だと思いますが、出井さん、藤崎さんはあまりOCR大変な量ではないように感じました。\n確か藤崎さんは手直し1-2カ所程度でいけました\n\nOCR苦労するレベルの大きな政党って日本にどれくらいあるんですかね？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750257816.950719",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VSQjE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どこまで精度を追い求めるか、も重要ですね。\n大きな政党さんだと内容が多くて大変だと思いますが、出井さん、藤崎さんはあまりOCR大変な量ではないように感じました。\n確か藤崎さんは手直し1-2カ所程度でいけました\n\nOCR苦労するレベルの大きな政党って日本にどれくらいあるんですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750257816.950719",
+    "user_name": "haruki shimizu",
+    "text_readable": "どこまで精度を追い求めるか、も重要ですね。\n大きな政党さんだと内容が多くて大変だと思いますが、出井さん、藤崎さんはあまりOCR大変な量ではないように感じました。\n確か藤崎さんは手直し1-2カ所程度でいけました\n\nOCR苦労するレベルの大きな政党って日本にどれくらいあるんですかね？"
+  },
+  {
+    "text": "量が多めなのは添付画像に載ってるあたりですね。\n\nカテゴリの種類とカテゴリ階層はいったんLLMじゃなくてハードコードしてしまった方がいいのかも。\nLLMに任せるからその時のLLMの気分で階層構造が深くなってサンキー図が見づらくなるなども起きているので。",
+    "files": [
+      {
+        "id": "F091RDWQ8S3",
+        "created": 1750327859,
+        "timestamp": 1750327859,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08RTFAMN91",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 119451,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F091RDWQ8S3/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F091RDWQ8S3/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 149,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 199,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 299,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 332,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 398,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F091RDWQ8S3-b14066f458/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 425,
+        "original_w": 1206,
+        "original_h": 500,
+        "thumb_tiny": "AwATADDQ6saXYM5OfzpOd1PByKAE2imryeafTACGoAXYM55/Ol2ilooAYfvfjT6YfvD60+gAooooAKKKKAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F091RDWQ8S3/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F091RDWQ8S3-11edbe8322",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08RTFAMN91",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fXp0a",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "量が多めなのは添付画像に載ってるあたりですね。\n\nカテゴリの種類とカテゴリ階層はいったんLLMじゃなくてハードコードしてしまった方がいいのかも。\nLLMに任せるからその時のLLMの気分で階層構造が深くなってサンキー図が見づらくなるなども起きているので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1750327987.758879",
+    "client_msg_id": "fb62a7b1-98b2-40e8-898f-87ee84c52045",
+    "thread_ts": "1750257816.950719",
+    "parent_user_id": "U08RTFAMN91",
+    "parent_ts": "1750257816.950719",
+    "user_name": "shinji yamada",
+    "text_readable": "量が多めなのは添付画像に載ってるあたりですね。\n\nカテゴリの種類とカテゴリ階層はいったんLLMじゃなくてハードコードしてしまった方がいいのかも。\nLLMに任せるからその時のLLMの気分で階層構造が深くなってサンキー図が見づらくなるなども起きているので。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1750329294.036069",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1750329332.000000"
+    },
+    "client_msg_id": "b9ed9450-fd2a-4d53-9d85-d04bdf3cf59f",
+    "text": "個人的には国会の政党の参加はしばらく無いんじゃないかと勝手に予想していますｗ\n現時点で東京23区の事例しかないですし、市区町村・都道府県が増えてからだんだん国会にも興味持ってもらえるのかなという読みです\n\n絶対数も市区町村が多いですし、収支報告書の規模で分岐作るのもありかなーと今日思いつきました\n\n（なおいどばたは立憲民主に見つかっている模様）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1750257816.950719",
+    "parent_user_id": "U08RTFAMN91",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ibOAa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人的には国会の政党の参加はしばらく無いんじゃないかと勝手に予想していますｗ\n現時点で東京23区の事例しかないですし、市区町村・都道府県が増えてからだんだん国会にも興味持ってもらえるのかなという読みです\n\n絶対数も市区町村が多いですし、収支報告書の規模で分岐作るのもありかなーと今日思いつきました\n\n（なおいどばたは立憲民主に見つかっている模様）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1750257816.950719",
+    "user_name": "haruki shimizu",
+    "text_readable": "個人的には国会の政党の参加はしばらく無いんじゃないかと勝手に予想していますｗ\n現時点で東京23区の事例しかないですし、市区町村・都道府県が増えてからだんだん国会にも興味持ってもらえるのかなという読みです\n\n絶対数も市区町村が多いですし、収支報告書の規模で分岐作るのもありかなーと今日思いつきました\n\n（なおいどばたは立憲民主に見つかっている模様）"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1750586954.578089",
+    "client_msg_id": "2a49ad5b-5753-4315-a659-e0ad1c608c40",
+    "text": "↑読んでいると、`yomitoku`モジュール要らない...?\nどこから手を付けようか迷っています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nmG/V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑読んでいると、"
+              },
+              {
+                "type": "text",
+                "text": "yomitoku",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "モジュール要らない...?\nどこから手を付けようか迷っています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "↑読んでいると、`yomitoku`モジュール要らない...?\nどこから手を付けようか迷っています"
+  }
+]
