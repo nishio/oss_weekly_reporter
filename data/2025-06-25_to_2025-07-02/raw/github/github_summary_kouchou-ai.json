@@ -1,0 +1,137 @@
+{
+  "period": {
+    "start": "2025-06-25T12:31:34.859945+09:00",
+    "end": "2025-07-02T12:31:34.859945+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3149557463,
+      "number": 604,
+      "title": "[REFACTOR] 管理画面のレポート一覧画面をコンポーネント分割する",
+      "state": "closed"
+    },
+    {
+      "id": 3065566746,
+      "number": 520,
+      "title": "[FEATURE]限定公開のページにはnoindexオプションを付ける",
+      "state": "closed"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "created"
+    },
+    {
+      "id": 3184798897,
+      "number": 621,
+      "title": "管理画面アクション関数のエラーハンドリング改善",
+      "state": "created"
+    },
+    {
+      "id": 3184796805,
+      "number": 620,
+      "title": "CSVダウンロード機能のエラーハンドリング改善",
+      "state": "created"
+    },
+    {
+      "id": 3184487887,
+      "number": 617,
+      "title": "[FEATURE] 意見グループの並び順を意見数の降順で表示する",
+      "state": "created"
+    },
+    {
+      "id": 3076145303,
+      "number": 547,
+      "title": "[FEATURE] adminにおいて、APIルートを介してfastapiにリクエストを送る",
+      "state": "updated"
+    },
+    {
+      "id": 3046497026,
+      "number": 460,
+      "title": "[FEATURE][design] レポート管理画面：直感的に使いやすくしたい",
+      "state": "updated"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3186008258,
+      "number": 624,
+      "title": "[client-admin] 管理画面の Footer の UI を変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3185963699,
+      "number": 623,
+      "title": "[client-admin] 管理画面のコンポーネントを別ファイルに切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3184788184,
+      "number": 619,
+      "title": "[client-admin] デザインシステムのトークンやコンポーネントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3184780586,
+      "number": 618,
+      "title": "[client-admin] 管理画面の更新ロジックを関数に切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3182433144,
+      "number": 616,
+      "title": "[client-admin] 管理画面の Header の UI を変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3178163238,
+      "number": 615,
+      "title": "[client-admin] 意見グループを編集する dialog をコンポーネントに切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3174342527,
+      "number": 614,
+      "title": "[client-admin] レポート生成時の Polling 処理と UI を別ファイルに切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3171022290,
+      "number": 612,
+      "title": "[client-admin] レポート編集 dialog をコンポーネントとして切り出す",
+      "state": "merged"
+    },
+    {
+      "id": 3191755907,
+      "number": 627,
+      "title": "fix: GPUに関連するパッケージの分岐処理が適切に動かなくなっている",
+      "state": "created"
+    },
+    {
+      "id": 3191136217,
+      "number": 626,
+      "title": "[client-admin] レポート一覧の fetch を Server Component で実行する",
+      "state": "created"
+    },
+    {
+      "id": 3191064567,
+      "number": 625,
+      "title": "[client-admin] AI サービスとの API 接続チェックの Dialog を追加",
+      "state": "created"
+    },
+    {
+      "id": 3162346531,
+      "number": 609,
+      "title": "Replace random sampling with Farthest Point Sampling for better spatial coverage",
+      "state": "updated"
+    }
+  ]
+}
