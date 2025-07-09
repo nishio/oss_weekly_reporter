@@ -1,0 +1,98 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1751443429.801939",
+    "client_msg_id": "6778cfde-f6eb-4be9-9cb0-f4f542dbf692",
+    "text": "history/week16 の pull req です\nどなたかレビューお願いします\n<https://github.com/digitaldemocracy2030/website/pull/139>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1751443429.801939",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1751614435.032919",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1751443310,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/139",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#139 week16",
+        "title": "#139 week16",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/139",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CGZb9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "history/week16 の pull req です\nどなたかレビューお願いします\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/139"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "history/week16 の pull req です\nどなたかレビューお願いします\n<https://github.com/digitaldemocracy2030/website/pull/139>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1751614435.032919",
+    "client_msg_id": "aaa3273f-e02b-4a20-a25d-bce5e64ec538",
+    "text": "ご連絡遅くなりました。マージしました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1751443429.801939",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oFXbl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご連絡遅くなりました。マージしました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1751443429.801939",
+    "user_name": "小野翔太",
+    "text_readable": "ご連絡遅くなりました。マージしました！"
+  }
+]

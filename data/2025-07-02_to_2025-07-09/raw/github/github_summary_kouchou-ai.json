@@ -1,0 +1,137 @@
+{
+  "period": {
+    "start": "2025-07-02T12:33:22.889207+09:00",
+    "end": "2025-07-09T12:33:22.889207+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3204533768,
+      "number": 635,
+      "title": "[FEATURE] 管理画面のレポート一覧でコメント数などを取得できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3214253654,
+      "number": 643,
+      "title": "Docker build時のシークレット渡し方法の改善",
+      "state": "created"
+    },
+    {
+      "id": 3211707049,
+      "number": 641,
+      "title": "[FEATURE]レポートが完成したときに通知する",
+      "state": "created"
+    },
+    {
+      "id": 3211692132,
+      "number": 640,
+      "title": "[FEATURE]onChangeでの自動修正が入力の妨げになる",
+      "state": "created"
+    },
+    {
+      "id": 3211674986,
+      "number": 639,
+      "title": "[FEATURE]タイトルや概要空欄の状態でCSVをD&Dしたときファイル名を入れる",
+      "state": "created"
+    },
+    {
+      "id": 3211663840,
+      "number": 638,
+      "title": "[FEATURE]濃い意見ビュー改善案",
+      "state": "created"
+    },
+    {
+      "id": 3202721982,
+      "number": 634,
+      "title": "[FEATURE] Gemini を利用してレポート生成できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3202553181,
+      "number": 633,
+      "title": "form から受け付けた API KEY を使ってレポートを生成できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3197806044,
+      "number": 631,
+      "title": "[BUG] azure-build 時に警告が出る",
+      "state": "created"
+    },
+    {
+      "id": 3197614831,
+      "number": 629,
+      "title": "[BUG]  scripts/fetch_reports.pyでは「限定公開」「非公開」状態のレポートがバックアップできない",
+      "state": "created"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3184487887,
+      "number": 617,
+      "title": "[FEATURE] 意見グループの並び順を意見数の降順で表示する",
+      "state": "updated"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3205988889,
+      "number": 636,
+      "title": "[api] 管理画面のレポート一覧のレスポンスにコメント数などを含める",
+      "state": "merged"
+    },
+    {
+      "id": 3194660035,
+      "number": 628,
+      "title": "[client-admin] 背景色のデザイントークンと IconButton コンポーネントを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3191136217,
+      "number": 626,
+      "title": "[client-admin] レポート一覧の fetch を Server Component で実行する",
+      "state": "merged"
+    },
+    {
+      "id": 3191064567,
+      "number": 625,
+      "title": "[client-admin] AI サービスとの API 接続チェックの Dialog を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3214153971,
+      "number": 642,
+      "title": "[GitHub Actions] main ブランチにマージされたコードを Azure に deploy する",
+      "state": "created"
+    },
+    {
+      "id": 3207942327,
+      "number": 637,
+      "title": "[client-admin] レポート一覧のテーブルのデザインを変更する",
+      "state": "created"
+    },
+    {
+      "id": 3197835332,
+      "number": 632,
+      "title": "fix: make azure-build 時に警告が出る",
+      "state": "created"
+    },
+    {
+      "id": 3197696820,
+      "number": 630,
+      "title": "レポートのバックアップスクリプトを docker 環境で実行する",
+      "state": "created"
+    }
+  ]
+}

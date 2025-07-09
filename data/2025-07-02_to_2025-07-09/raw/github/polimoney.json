@@ -1,0 +1,51 @@
+[
+  {
+    "id": 3206518888,
+    "number": 141,
+    "title": "chore: README のタイポ修正",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/141",
+    "user": "noritaka1166",
+    "created_at": "2025-07-06T13:10:05Z",
+    "merged_at": "2025-07-08T01:51:52Z",
+    "body": "# 変更の概要\r\nREADME 内のタイポを修正\r\n\r\n# スクリーンショット\r\nなし\r\n\r\n# 変更の背景\r\nREADME を読んだ際にタイポを見つけたためPRを作成させていただきました\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **ドキュメント**\n  * README.mdの「貢献ガイドライン」セクションの余分な空白を修正しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 1,
+    "deletions": 1,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3206595754,
+    "number": 143,
+    "title": "chore: 使用していないパッケージの削除 (dependencies)",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/143",
+    "user": "noritaka1166",
+    "created_at": "2025-07-06T14:11:01Z",
+    "body": "# 変更の概要\r\n使用していないパッケージの削除 (dependencies)\r\n\r\n# スクリーンショット\r\nなし\r\n\r\n# 変更の背景\r\n使用していない dependencies がいくつかあるように見えたため、対応しました。  \r\n意図的に入れているものでしたらすみません...\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Chores**\n  * 不要な依存パッケージおよび開発用依存パッケージを削除しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 0,
+    "deletions": 209,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3206544099,
+    "number": 142,
+    "title": "chore: @biomejs/biome を devDependencies へ移動",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/142",
+    "user": "noritaka1166",
+    "created_at": "2025-07-06T13:33:52Z",
+    "body": "# 変更の概要\r\n@biomejs/biome を devDependencies へ移動\r\n\r\n# スクリーンショット\r\nなし\r\n\r\n# 変更の背景\r\n@biomejs/biome は プロダクトコードでは使用しておらず、  \r\n開発でしか使用されていないかと思うので dependencies から devDependencies へ移動しました\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Chores**\n  * 「@biomejs/biome」依存関係を開発用依存関係に移動しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 11,
+    "deletions": 2,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
