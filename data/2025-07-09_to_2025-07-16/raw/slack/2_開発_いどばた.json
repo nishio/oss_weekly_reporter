@@ -1,0 +1,4002 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1752051621.414519",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752051621.414519",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1752053025.799679",
+    "reply_users": [
+      "U08NN8A6P9D"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xZbo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752052888.726869",
+    "client_msg_id": "4a85d7cc-8250-4e50-a5bb-a6689323bc3b",
+    "text": "<@U08FTAEETAB> <@U08HMV9AHLL>\n\nすみません、僕は今日参加できません:pray:\n一点質問ですが、\n<https://github.com/digitaldemocracy2030/idobata/tree/main/idea-discussion#aiチャット機能の使い方>\n\nこちらの4\n```会話の中で課題や解決策が自動的に抽出されます。「抽出された課題/解決策を表示」ボタンをクリックすると、抽出結果を確認できます。```\nなのですが、抽出された課題/解決策を表示」ボタン は今のUIにも存在しますかね。\n\n```「会話をリセット」ボタンで新しい会話を始めることができます。```\n会話をリセットは、*話題を変える*。に読み替えようと思っています。\n明日にでも本日のdocは確認しておきます。\n\nあと、\n<https://github.com/digitaldemocracy2030/idobata/pull/413>\n\nも問題ないかなと思っています。もし皆様もそうであるなら、マージお願いします:pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752051621.414519",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "K6CnN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\nすみません、僕は今日参加できません"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "\n一点質問ですが、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/main/idea-discussion#aiチャット機能の使い方"
+              },
+              {
+                "type": "text",
+                "text": "\n\nこちらの4\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "会話の中で課題や解決策が自動的に抽出されます。「抽出された課題/解決策を表示」ボタンをクリックすると、抽出結果を確認できます。"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なのですが、抽出された課題/解決策を表示」ボタン は今のUIにも存在しますかね。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「会話をリセット」ボタンで新しい会話を始めることができます。"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n会話をリセットは、"
+              },
+              {
+                "type": "text",
+                "text": "話題を変える",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "。に読み替えようと思っています。\n明日にでも本日のdocは確認しておきます。\n\nあと、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/413"
+              },
+              {
+                "type": "text",
+                "text": "\n\nも問題ないかなと思っています。もし皆様もそうであるなら、マージお願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752051621.414519",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@jujunjun110 @spinutids\n\nすみません、僕は今日参加できません:pray:\n一点質問ですが、\n<https://github.com/digitaldemocracy2030/idobata/tree/main/idea-discussion#aiチャット機能の使い方>\n\nこちらの4\n```会話の中で課題や解決策が自動的に抽出されます。「抽出された課題/解決策を表示」ボタンをクリックすると、抽出結果を確認できます。```\nなのですが、抽出された課題/解決策を表示」ボタン は今のUIにも存在しますかね。\n\n```「会話をリセット」ボタンで新しい会話を始めることができます。```\n会話をリセットは、*話題を変える*。に読み替えようと思っています。\n明日にでも本日のdocは確認しておきます。\n\nあと、\n<https://github.com/digitaldemocracy2030/idobata/pull/413>\n\nも問題ないかなと思っています。もし皆様もそうであるなら、マージお願いします:pray:"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752053025.799679",
+    "client_msg_id": "53ab5b5e-c621-4fb0-9b9e-b74c91130572",
+    "text": "↑\n(使い方、マニュアル作成の際の参考にしたいです。)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752051621.414519",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lnp7M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑\n(使い方、マニュアル作成の際の参考にしたいです。)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752051621.414519",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "↑\n(使い方、マニュアル作成の際の参考にしたいです。)"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1752054604.791169",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q/Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1752059451.134219",
+    "client_msg_id": "5f0fb8e8-99b2-4d71-8372-50cd19fd32ff",
+    "text": "聞きそびれたのですが、　<http://fly.io|fly.io>　対応の件て特に進んでなさそう？ですか？？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752059451.134219",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1752244196.600739",
+    "reply_users": [
+      "U08HMV9AHLL",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5zJld",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "聞きそびれたのですが、　"
+              },
+              {
+                "type": "link",
+                "url": "http://fly.io",
+                "text": "fly.io"
+              },
+              {
+                "type": "text",
+                "text": "　対応の件て特に進んでなさそう？ですか？？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08GJSBAX3K"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "聞きそびれたのですが、　<http://fly.io|fly.io>　対応の件て特に進んでなさそう？ですか？？"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752203102.106559",
+    "client_msg_id": "be4d5771-e93a-4f20-8d91-6a25b439d3ae",
+    "text": "手つけられておらずです！:pray::pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752059451.134219",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3lloD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "手つけられておらずです！"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752059451.134219",
+    "user_name": "Horie Satoru",
+    "text_readable": "手つけられておらずです！:pray::pray:"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1752244196.600739",
+    "client_msg_id": "431400fb-8fd4-4d6f-9056-2a56f28363a8",
+    "text": "いえいえ！了解です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752059451.134219",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "22xZw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いえいえ！了解です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752059451.134219",
+    "user_name": "小野翔太",
+    "text_readable": "いえいえ！了解です！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1752283458.603969",
+    "client_msg_id": "a351d139-ebc9-412b-8845-cd803208ff76",
+    "text": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1752250439190799|7/18 の meetup> で各プロダクトからの話をする時間があるのですが、ここで、いとばたに関わっていらっしゃる方から、どなたかお話しいただけませんか？\n&gt; 各プロダクトごとの紹介＆今後の開発方針\n<https://docs.google.com/spreadsheets/d/183k5Uc18x94vhjrWUpI04ToRsl_f8Jv-Wqs2tmQsAI8/edit?gid=1094959744#gid=1094959744&amp;range=8:8>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752283458.603969",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1752559720.746169",
+    "reply_users": [
+      "U08GJSBAX3K",
+      "U08H3V9KMFH",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1752250439190799",
+        "ts": "1752250439.190799",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1752250439.190799",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "FsFP7",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "broadcast",
+                          "range": "here"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "tada",
+                          "unicode": "1f389"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "text",
+                          "text": "デジタル民主主義の未来を語ろう！「デジタル民主主義2030 MEETUP #3」開催決定！",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "tada",
+                          "unicode": "1f389"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\nみなさん、こんにちは！ MEETUPのお知らせです！\nなんと今回は、デジタル民主主義2030のボードメンバー、鈴木健さん、大柴行人さん、関治之さん、中室牧子さんの4名が"
+                        },
+                        {
+                          "type": "text",
+                          "text": "全員集結",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "します！ "
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "sparkles",
+                          "unicode": "2728"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n「デジタル民主主義って面白そう！」「今後の開発に関わってみたい！」「ボードメンバーの話を直接聞いてみたい！」 そんなあなたにぴったりのイベントです。\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "▼ こんな方におすすめ！",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "white_check_mark",
+                          "unicode": "2705"
+                        },
+                        {
+                          "type": "text",
+                          "text": " デジタル民主主義の今とこれからが知りたい方\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "white_check_mark",
+                          "unicode": "2705"
+                        },
+                        {
+                          "type": "text",
+                          "text": " プロジェクトの裏側や今後の開発方針に興味がある方\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "white_check_mark",
+                          "unicode": "2705"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 鈴木健さんの「なめ敵」話が聞きたい方\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "white_check_mark",
+                          "unicode": "2705"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 同じ興味を持つ仲間と繋がりたい方\n\n懇親会もあるので、気軽に交流しましょう！"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "beers",
+                          "unicode": "1f37b"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "【開催概要】",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "イベント名",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "デジタル民主主義2030 MEETUP #3"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "日時",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "7/18 19:00～21:00"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "場所",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "官民共創HUB"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "東京都港区⻁ノ門1-1-3 磯村ビル３階"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "YouTubeオンライン配信"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://youtube.com/live/Trhk7JUASjU?feature=share",
+                              "text": "URLはこちら"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プログラム",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "デジタル民主主義2030とは"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ボードメンバー紹介"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プロジェクト全体の今後の活動指針"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各プロダクトごとの紹介＆今後の開発方針"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "健さんによるなめ敵サマリー＆10年経って思うこと"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "世界のデジタル民主主義事例について皆で話す勉強会"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "事前に募った質問へボードメンバーが回答"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://forms.gle/Lhu1mYFDbzLYEe1k6",
+                              "text": "ご質問はこちらから"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "メンバー募集！"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "自由懇親"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "定員",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "オフラインは30名"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "参加費",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "無料"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "お申し込み",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://dd2030mu-3.peatix.com"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "【参加にあたってのお願い】",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n当日は活動の様子を写真や動画で撮影する予定です。\n撮影したものは、プロジェクトの広報のため、SlackやSNSなどに掲載させていただく場合がございます。\nあらかじめご了承ください。\n\n未来の民主主義を、一緒につくっていきませんか？\nみなさんのご参加を心からお待ちしています！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1752250439190799",
+        "fallback": "[July 11th, 2025 9:13 AM] oscar.gaddress: <!here>\n:tada: *デジタル民主主義の未来を語ろう！「デジタル民主主義2030 MEETUP #3」開催決定！* :tada:\n\nみなさん、こんにちは！ MEETUPのお知らせです！\nなんと今回は、デジタル民主主義2030のボードメンバー、鈴木健さん、大柴行人さん、関治之さん、中室牧子さんの4名が*全員集結*します！ :sparkles:\n「デジタル民主主義って面白そう！」「今後の開発に関わってみたい！」「ボードメンバーの話を直接聞いてみたい！」 そんなあなたにぴったりのイベントです。\n\n*▼ こんな方におすすめ！*\n:white_check_mark: デジタル民主主義の今とこれからが知りたい方\n:white_check_mark: プロジェクトの裏側や今後の開発方針に興味がある方\n:white_check_mark: 鈴木健さんの「なめ敵」話が聞きたい方\n:white_check_mark: 同じ興味を持つ仲間と繋がりたい方\n\n懇親会もあるので、気軽に交流しましょう！:beers:\n\n*【開催概要】*\n• *イベント名*\n    ◦ デジタル民主主義2030 MEETUP #3\n• *日時*\n    ◦ 7/18 19:00～21:00\n• *場所*\n    ◦ 官民共創HUB\n        ▪︎ 東京都港区⻁ノ門1-1-3 磯村ビル３階\n    ◦ YouTubeオンライン配信\n        ▪︎ <https://youtube.com/live/Trhk7JUASjU?feature=share|URLはこちら>\n• *プログラム*\n    ◦ デジタル民主主義2030とは\n    ◦ ボードメンバー紹介\n    ◦ プロジェクト全体の今後の活動指針\n    ◦ 各プロダクトごとの紹介＆今後の開発方針\n    ◦ 健さんによるなめ敵サマリー＆10年経って思うこと\n    ◦ 世界のデジタル民主主義事例について皆で話す勉強会\n    ◦ 事前に募った質問へボードメンバーが回答\n        ▪︎ <https://forms.gle/Lhu1mYFDbzLYEe1k6|ご質問はこちらから>\n    ◦ メンバー募集！\n    ◦ 自由懇親\n• *定員*\n    ◦ オフラインは30名\n• *参加費*\n    ◦ 無料\n• *お申し込み*\n    ◦ <https://dd2030mu-3.peatix.com>\n*【参加にあたってのお願い】*\n当日は活動の様子を写真や動画で撮影する予定です。\n撮影したものは、プロジェクトの広報のため、SlackやSNSなどに掲載させていただく場合がございます。\nあらかじめご了承ください。\n\n未来の民主主義を、一緒につくっていきませんか？\nみなさんのご参加を心からお待ちしています！",
+        "text": "<!here>\n:tada: *デジタル民主主義の未来を語ろう！「デジタル民主主義2030 MEETUP #3」開催決定！* :tada:\n\nみなさん、こんにちは！ MEETUPのお知らせです！\nなんと今回は、デジタル民主主義2030のボードメンバー、鈴木健さん、大柴行人さん、関治之さん、中室牧子さんの4名が*全員集結*します！ :sparkles:\n「デジタル民主主義って面白そう！」「今後の開発に関わってみたい！」「ボードメンバーの話を直接聞いてみたい！」 そんなあなたにぴったりのイベントです。\n\n*▼ こんな方におすすめ！*\n:white_check_mark: デジタル民主主義の今とこれからが知りたい方\n:white_check_mark: プロジェクトの裏側や今後の開発方針に興味がある方\n:white_check_mark: 鈴木健さんの「なめ敵」話が聞きたい方\n:white_check_mark: 同じ興味を持つ仲間と繋がりたい方\n\n懇親会もあるので、気軽に交流しましょう！:beers:\n\n*【開催概要】*\n• *イベント名*\n    ◦ デジタル民主主義2030 MEETUP #3\n• *日時*\n    ◦ 7/18 19:00～21:00\n• *場所*\n    ◦ 官民共創HUB\n        ▪︎ 東京都港区⻁ノ門1-1-3 磯村ビル３階\n    ◦ YouTubeオンライン配信\n        ▪︎ <https://youtube.com/live/Trhk7JUASjU?feature=share|URLはこちら>\n• *プログラム*\n    ◦ デジタル民主主義2030とは\n    ◦ ボードメンバー紹介\n    ◦ プロジェクト全体の今後の活動指針\n    ◦ 各プロダクトごとの紹介＆今後の開発方針\n    ◦ 健さんによるなめ敵サマリー＆10年経って思うこと\n    ◦ 世界のデジタル民主主義事例について皆で話す勉強会\n    ◦ 事前に募った質問へボードメンバーが回答\n        ▪︎ <https://forms.gle/Lhu1mYFDbzLYEe1k6|ご質問はこちらから>\n    ◦ メンバー募集！\n    ◦ 自由懇親\n• *定員*\n    ◦ オフラインは30名\n• *参加費*\n    ◦ 無料\n• *お申し込み*\n    ◦ <https://dd2030mu-3.peatix.com>\n*【参加にあたってのお願い】*\n当日は活動の様子を写真や動画で撮影する予定です。\n撮影したものは、プロジェクトの広報のため、SlackやSNSなどに掲載させていただく場合がございます。\nあらかじめご了承ください。\n\n未来の民主主義を、一緒につくっていきませんか？\nみなさんのご参加を心からお待ちしています！",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iziUf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1752250439190799",
+                "text": "7/18 の meetup"
+              },
+              {
+                "type": "text",
+                "text": " で各プロダクトからの話をする時間があるのですが、ここで、いとばたに関わっていらっしゃる方から、どなたかお話しいただけませんか？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "各プロダクトごとの紹介＆今後の開発方針"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/183k5Uc18x94vhjrWUpI04ToRsl_f8Jv-Wqs2tmQsAI8/edit?gid=1094959744#gid=1094959744&range=8:8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1752250439190799|7/18 の meetup> で各プロダクトからの話をする時間があるのですが、ここで、いとばたに関わっていらっしゃる方から、どなたかお話しいただけませんか？\n> 各プロダクトごとの紹介＆今後の開発方針\n<https://docs.google.com/spreadsheets/d/183k5Uc18x94vhjrWUpI04ToRsl_f8Jv-Wqs2tmQsAI8/edit?gid=1094959744#gid=1094959744&range=8:8>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1752484500.255709",
+    "client_msg_id": "f331079e-23ac-41fc-858b-114df3416c1d",
+    "text": "やります！こちら5分程度話すイメージでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752283458.603969",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DYaEx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やります！こちら5分程度話すイメージでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752283458.603969",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "やります！こちら5分程度話すイメージでしょうか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1752484620.952099",
+    "client_msg_id": "3b95274b-2ee2-40bc-90e1-543776e9ecfe",
+    "text": "ありがとうございます！\nはい、そうだと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752283458.603969",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fAmkZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nはい、そうだと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752283458.603969",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！\nはい、そうだと思います！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1752559720.746169",
+    "client_msg_id": "e1af74e9-230d-43bc-88e5-dcb62d53d61d",
+    "text": "<@U08GJSBAX3K>\nありがとうございます！\n5分程度であってます！よろしくおねがいします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752283458.603969",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6QDd4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\nありがとうございます！\n5分程度であってます！よろしくおねがいします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752283458.603969",
+    "user_name": "小野翔太",
+    "text_readable": "@shutaro.aoyama\nありがとうございます！\n5分程度であってます！よろしくおねがいします！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752389192.988569",
+    "edited": {
+      "user": "U08HMV9AHLL",
+      "ts": "1752389198.000000"
+    },
+    "client_msg_id": "4432eccf-e162-49f2-95ff-1cdf0a5a044a",
+    "text": "<@U08PMMXPVTN> <@U08GJSBAX3K> <@U08FTAEETAB> <@U08NN8A6P9D> 本日続きはこちらで！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "reply_count": 26,
+    "reply_users_count": 4,
+    "latest_reply": "1752571267.662439",
+    "reply_users": [
+      "U08HMV9AHLL",
+      "U08PMMXPVTN",
+      "U08FTAEETAB",
+      "U08NN8A6P9D"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/zcDo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08PMMXPVTN"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " 本日続きはこちらで！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08NN8A6P9D",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Horie Satoru",
+    "text_readable": "@hello.utako @shutaro.aoyama @jujunjun110 @foino74 本日続きはこちらで！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HMV9AHLL",
+    "thread_ts": "1752389192.988569",
+    "root": {
+      "user": "U08HMV9AHLL",
+      "type": "message",
+      "ts": "1752389192.988569",
+      "edited": {
+        "user": "U08HMV9AHLL",
+        "ts": "1752389198.000000"
+      },
+      "client_msg_id": "4432eccf-e162-49f2-95ff-1cdf0a5a044a",
+      "text": "<@U08PMMXPVTN> <@U08GJSBAX3K> <@U08FTAEETAB> <@U08NN8A6P9D> 本日続きはこちらで！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1752389192.988569",
+      "reply_count": 26,
+      "reply_users_count": 4,
+      "latest_reply": "1752571267.662439",
+      "reply_users": [
+        "U08HMV9AHLL",
+        "U08PMMXPVTN",
+        "U08FTAEETAB",
+        "U08NN8A6P9D"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/zcDo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08PMMXPVTN"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08FTAEETAB"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08NN8A6P9D"
+                },
+                {
+                  "type": "text",
+                  "text": " 本日続きはこちらで！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1752389240.178989",
+    "client_msg_id": "6916ab90-0304-46ff-bfe5-e5aa600fa632",
+    "text": "新 UI docs <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9LhS9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新 UI docs "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "新 UI docs <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg>"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752390296.688849",
+    "client_msg_id": "5bc79dfe-e7e6-49b2-bb18-70b8fa57ccea",
+    "text": "【ユーザー名をデフォルトで付与する】こちらいかがでしょう！！\n\n・「ランダム カタカナ果物」+「ランダム数字」\n・例：リンゴ123, ミカン456, イチゴ789",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZkDDL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【ユーザー名をデフォルトで付与する】こちらいかがでしょう！！\n\n・「ランダム カタカナ果物」+「ランダム数字」\n・例：リンゴ123, ミカン456, イチゴ789"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "【ユーザー名をデフォルトで付与する】こちらいかがでしょう！！\n\n・「ランダム カタカナ果物」+「ランダム数字」\n・例：リンゴ123, ミカン456, イチゴ789"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752390469.638169",
+    "client_msg_id": "4548773a-ccf6-45fa-b9d1-6e44d4867415",
+    "text": "りんご123、みかん456\nネコ123, イヌ456, クマ789",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FTgSX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "りんご123、みかん456\nネコ123, イヌ456, クマ789"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "りんご123、みかん456\nネコ123, イヌ456, クマ789"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1752390550.851679",
+    "client_msg_id": "bf174382-0d55-4644-bcd3-4cb1d5b28f26",
+    "text": "参考: Googleの動物\n<https://onotakehiko.com/zoo/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "attachments": [
+      {
+        "image_url": "https://onotakehiko.com/zoo/assets/images/og.png?timestamp=1733724310",
+        "image_width": 1870,
+        "image_height": 982,
+        "image_bytes": 344989,
+        "from_url": "https://onotakehiko.com/zoo/",
+        "service_icon": "https://onotakehiko.com/favicon.ico",
+        "id": 1,
+        "original_url": "https://onotakehiko.com/zoo/",
+        "fallback": "とくめいどうぶつえん",
+        "text": "Googleドキュメントにかくれている匿名どうぶつたちを集めました。",
+        "title": "とくめいどうぶつえん",
+        "title_link": "https://onotakehiko.com/zoo/",
+        "service_name": "onotakehiko.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lTqsj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "参考: Googleの動物\n"
+              },
+              {
+                "type": "link",
+                "url": "https://onotakehiko.com/zoo/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "jujunjun110",
+    "text_readable": "参考: Googleの動物\n<https://onotakehiko.com/zoo/>"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752390738.276689",
+    "client_msg_id": "cac7e8e4-02c3-4086-9fd1-bce6a5e5fe9c",
+    "text": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1752390693000449>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1752390693000449",
+        "ts": "1752390693.000449",
+        "author_id": "U08NN8A6P9D",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1752390693.000449",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "I5YQ7",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08HMV9AHLL"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n立憲さん様にfrontで追加修正したファイル\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts"
+                        }
+                      ],
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1752390693000449",
+        "fallback": "[July 13th, 2025 12:11 AM] foino74: <@U08HMV9AHLL>\n\n立憲さん様にfrontで追加修正したファイル\n```$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts```",
+        "text": "<@U08HMV9AHLL>\n\n立憲さん様にfrontで追加修正したファイル\n```$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts```",
+        "author_name": "TAKESHI SHIBASAKI",
+        "author_link": "https://dd2030.slack.com/team/U08NN8A6P9D",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-22/8790016418116_2a0f22ddb3ceb91f0cbe_48.jpg",
+        "author_subname": "TAKESHI SHIBASAKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5g9p/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1752390693000449"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1752390693000449>"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752390971.270259",
+    "edited": {
+      "user": "U08PMMXPVTN",
+      "ts": "1752391324.000000"
+    },
+    "client_msg_id": "bb3d3bed-195e-4baa-b201-9d5f7755c7f3",
+    "text": "10種類：\nキタキツネ、ムササビ、キジ、エゾシカ、ハクビシン、ツキノワグマ、ウグイス、メジロ、ツバメ、ヤマコウモリ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yGCrZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10種類：\nキタキツネ、ムササビ、キジ、エゾシカ、ハクビシン、ツキノワグマ、ウグイス、メジロ、ツバメ、ヤマコウモリ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "10種類：\nキタキツネ、ムササビ、キジ、エゾシカ、ハクビシン、ツキノワグマ、ウグイス、メジロ、ツバメ、ヤマコウモリ"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752391417.529549",
+    "client_msg_id": "a236bde5-8ec6-44c1-86a5-d8bbc061f30b",
+    "text": "| 動物名    | 一般的なイメージ                | ネガティブな側面                      |\n| ------ | ----------------------- | ----------------------------- |\n| キタキツネ  | 可愛い・北海道の象徴              | **エキノコックス症の媒介**（感染症リスク）       |\n| ムササビ   | 森林のかわいい滑空動物             | 屋根裏などへの侵入（騒音・糞害）              |\n| エゾシカ   | 野生の雄大さ・北海道の風物詩          | **農林業被害、交通事故の原因、個体数過剰**       |\n| ハクビシン  | 謎めいた動物・可愛い見た目（都市でも見られる） | **外来種（在来説もある）・農作物被害・住宅被害**    |\n| ツキノワグマ | 山の王者・神秘的な存在             | **人間との衝突・人身事故・畑荒らしなどで危険視される** |\n| ヤマコウモリ | 普段見えない夜行性哺乳類            | 家屋への侵入・糞害、**コウモリ全体への不気味な印象**  |\n\n| 動物名  | 一般的なイメージ             | ネガティブな側面                           |\n| ---- | -------------------- | ---------------------------------- |\n| キジ   | 美しい鳥・日本の象徴・「桃太郎」     | **農作物被害（果実・野菜など）**                 |\n| ウグイス | 春の訪れを告げる鳴き声・縁起の良い鳥   | 実際の見た目が地味でがっかりされることがある程度           |\n| メジロ  | 小さくてかわいい・庭に来る鳥       | 飼育目的での**違法捕獲**問題                   |\n| ツバメ  | 幸運の象徴・民家に巣を作る・子育ての象徴 | 巣の**糞や騒音による迷惑**（店舗・マンションで敬遠されることも） |",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9yD3S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "| 動物名    | 一般的なイメージ                | ネガティブな側面                      |\n| ------ | ----------------------- | ----------------------------- |\n| キタキツネ  | 可愛い・北海道の象徴              | **エキノコックス症の媒介**（感染症リスク）       |\n| ムササビ   | 森林のかわいい滑空動物             | 屋根裏などへの侵入（騒音・糞害）              |\n| エゾシカ   | 野生の雄大さ・北海道の風物詩          | **農林業被害、交通事故の原因、個体数過剰**       |\n| ハクビシン  | 謎めいた動物・可愛い見た目（都市でも見られる） | **外来種（在来説もある）・農作物被害・住宅被害**    |\n| ツキノワグマ | 山の王者・神秘的な存在             | **人間との衝突・人身事故・畑荒らしなどで危険視される** |\n| ヤマコウモリ | 普段見えない夜行性哺乳類            | 家屋への侵入・糞害、**コウモリ全体への不気味な印象**  |\n\n| 動物名  | 一般的なイメージ             | ネガティブな側面                           |\n| ---- | -------------------- | ---------------------------------- |\n| キジ   | 美しい鳥・日本の象徴・「桃太郎」     | **農作物被害（果実・野菜など）**                 |\n| ウグイス | 春の訪れを告げる鳴き声・縁起の良い鳥   | 実際の見た目が地味でがっかりされることがある程度           |\n| メジロ  | 小さくてかわいい・庭に来る鳥       | 飼育目的での**違法捕獲**問題                   |\n| ツバメ  | 幸運の象徴・民家に巣を作る・子育ての象徴 | 巣の**糞や騒音による迷惑**（店舗・マンションで敬遠されることも） |"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "| 動物名    | 一般的なイメージ                | ネガティブな側面                      |\n| ------ | ----------------------- | ----------------------------- |\n| キタキツネ  | 可愛い・北海道の象徴              | **エキノコックス症の媒介**（感染症リスク）       |\n| ムササビ   | 森林のかわいい滑空動物             | 屋根裏などへの侵入（騒音・糞害）              |\n| エゾシカ   | 野生の雄大さ・北海道の風物詩          | **農林業被害、交通事故の原因、個体数過剰**       |\n| ハクビシン  | 謎めいた動物・可愛い見た目（都市でも見られる） | **外来種（在来説もある）・農作物被害・住宅被害**    |\n| ツキノワグマ | 山の王者・神秘的な存在             | **人間との衝突・人身事故・畑荒らしなどで危険視される** |\n| ヤマコウモリ | 普段見えない夜行性哺乳類            | 家屋への侵入・糞害、**コウモリ全体への不気味な印象**  |\n\n| 動物名  | 一般的なイメージ             | ネガティブな側面                           |\n| ---- | -------------------- | ---------------------------------- |\n| キジ   | 美しい鳥・日本の象徴・「桃太郎」     | **農作物被害（果実・野菜など）**                 |\n| ウグイス | 春の訪れを告げる鳴き声・縁起の良い鳥   | 実際の見た目が地味でがっかりされることがある程度           |\n| メジロ  | 小さくてかわいい・庭に来る鳥       | 飼育目的での**違法捕獲**問題                   |\n| ツバメ  | 幸運の象徴・民家に巣を作る・子育ての象徴 | 巣の**糞や騒音による迷惑**（店舗・マンションで敬遠されることも） |"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F095YLNBAQH",
+        "created": 1752391425,
+        "timestamp": 1752391425,
+        "name": "Screenshot 2025-07-13 at 16.23.43.png",
+        "title": "Screenshot 2025-07-13 at 16.23.43.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08HMV9AHLL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 164917,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095YLNBAQH/screenshot_2025-07-13_at_16.23.43.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095YLNBAQH/download/screenshot_2025-07-13_at_16.23.43.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 200,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 266,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 399,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 444,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 532,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YLNBAQH-c9dff43f95/screenshot_2025-07-13_at_16.23.43_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 568,
+        "original_w": 1544,
+        "original_h": 856,
+        "thumb_tiny": "AwAaADCkMc5FLgE9APzptO/KgAbgY249+abTiB3xSfL70AJRRRQADrTqbRQA7np1+tIQcdAPxpKKACiiigD/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095YLNBAQH/screenshot_2025-07-13_at_16.23.43.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095YLNBAQH-a9ee5d8d97",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HMV9AHLL",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1752391428.671789",
+    "client_msg_id": "17163d13-ba5e-4b44-bc1e-c5ef39652175",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752391638.567219",
+    "client_msg_id": "7d722815-2814-4219-ae10-0ad2830b81ef",
+    "text": "以下に、*日本国内で好意的・文化的イメージが強い動物たち*をカテゴリ別にいくつかご提案します。「見た目」「鳴き声」「伝承・信仰」「人との関係性」など、ポジティブな文脈で語られやすい動物を中心に選定しています。\n\n:bird: 鳥類（縁起・季節感・美しさ）\n   動物名 イメージ・理由     *カッコウ* 夏の訪れを告げる鳥、古典や俳句にも登場   *ホトトギス* 文学的象徴（正岡子規の俳号など）   *ヤマガラ* 手乗りになる人懐っこさ、神社での餌付け体験も人気   *サギ（シラサギ）* 水辺の優雅な鳥として風景画などに登場   *タンチョウ* 縁起物・一夫一妻制・「鶴は千年」など長寿の象徴   *フクロウ* 「福来郎」「不苦労」などの語呂で縁起物とされる\n:cat: 哺乳類（親しみ・信仰・物語性）\n   動物名 イメージ・理由     *タヌキ* 信楽焼・昔話（ばける）で親しみあり、民話の常連   *イタチ* 細くて素早い、昔は家の守り神とも   *ネコ（ノラ含む）* 招き猫・神社での人気者・癒し系の象徴   *イノシシの子（ウリ坊）* 干支・かわいらしさ・無病息災祈願   *モモンガ* 見た目のかわいさと滑空する驚きで人気上昇中\n:turtle: 爬虫類・両生類（長寿や守りの象徴）\n   動物名 イメージ・理由     *カメ（リクガメ、クサガメ）* 長寿・縁起・鶴と並ぶ吉兆動物   *ヤモリ* 「家守」と書き、家を守る存在とされる\n:fish: 魚類・水棲生物（文化・縁起）\n   動物名 イメージ・理由     *コイ（錦鯉）* 鯉のぼり・縁起物・池での観賞価値も高い   *フナ* 釣り文化・和食文化と結びつく、郷土料理にも登場   *カエル* 「帰る（無事帰る）」の語呂合わせで縁起が良い   *アユ（鮎）* 夏の風物詩・清流のシンボル\n:butterfly: 昆虫（ポジティブな象徴）\n   動物名 イメージ・理由     *ホタル* 幻想的な光・初夏の風物詩・恋愛や純粋さの象徴   *アゲハチョウ* 美しい・変化（さなぎ→成虫）の象徴   *テントウムシ* 幸運の象徴・子どもにも人気   *カマキリ* 秋の昆虫・神聖視されることも\n:scroll: 神話・伝承・縁起もの枠（分類問わず）\n   動物名 イメージ・理由     *ツル* 長寿・一夫一妻・祝い事の象徴（折り鶴など）   *ウサギ* 月と関係が深い（餅つき伝承）・かわいさも人気   *キツネ（稲荷）* 神使・稲荷神社との結びつき   *シシ（獅子）* 獅子舞・厄除け・正月などに登場\n特定テーマにあわせたおすすめ例\n• *子ども向け*：モモンガ、ホタル、テントウムシ、ウサギ\n• *日本文化・縁起推し*：ツル、カメ、キツネ、カエル\n• *環境教育*：ムササビ、タンチョウ、フクロウ、コウノトリ、ホタル\n• *キャラクター化しやすい*：メジロ、ヤマガラ、ウリ坊、ヤモリ、アゲハチョウ\n必要であれば「*商業利用でネガティブイメージが出にくい動物リスト*」「*SNS映えしやすい日本の動物*」など目的に合わせて提案できます。お気軽にどうぞ。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iwYXr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以下に、"
+              },
+              {
+                "type": "text",
+                "text": "日本国内で好意的・文化的イメージが強い動物たち",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "をカテゴリ別にいくつかご提案します。「見た目」「鳴き声」「伝承・信仰」「人との関係性」など、ポジティブな文脈で語られやすい動物を中心に選定しています。\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "bird",
+                "unicode": "1f426"
+              },
+              {
+                "type": "text",
+                "text": " 鳥類（縁起・季節感・美しさ）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "カッコウ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 夏の訪れを告げる鳥、古典や俳句にも登場   "
+              },
+              {
+                "type": "text",
+                "text": "ホトトギス",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 文学的象徴（正岡子規の俳号など）   "
+              },
+              {
+                "type": "text",
+                "text": "ヤマガラ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 手乗りになる人懐っこさ、神社での餌付け体験も人気   "
+              },
+              {
+                "type": "text",
+                "text": "サギ（シラサギ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 水辺の優雅な鳥として風景画などに登場   "
+              },
+              {
+                "type": "text",
+                "text": "タンチョウ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 縁起物・一夫一妻制・「鶴は千年」など長寿の象徴   "
+              },
+              {
+                "type": "text",
+                "text": "フクロウ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 「福来郎」「不苦労」などの語呂で縁起物とされる\n"
+              },
+              {
+                "type": "emoji",
+                "name": "cat",
+                "unicode": "1f431"
+              },
+              {
+                "type": "text",
+                "text": " 哺乳類（親しみ・信仰・物語性）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "タヌキ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 信楽焼・昔話（ばける）で親しみあり、民話の常連   "
+              },
+              {
+                "type": "text",
+                "text": "イタチ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 細くて素早い、昔は家の守り神とも   "
+              },
+              {
+                "type": "text",
+                "text": "ネコ（ノラ含む）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 招き猫・神社での人気者・癒し系の象徴   "
+              },
+              {
+                "type": "text",
+                "text": "イノシシの子（ウリ坊）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 干支・かわいらしさ・無病息災祈願   "
+              },
+              {
+                "type": "text",
+                "text": "モモンガ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 見た目のかわいさと滑空する驚きで人気上昇中\n"
+              },
+              {
+                "type": "emoji",
+                "name": "turtle",
+                "unicode": "1f422"
+              },
+              {
+                "type": "text",
+                "text": " 爬虫類・両生類（長寿や守りの象徴）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "カメ（リクガメ、クサガメ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 長寿・縁起・鶴と並ぶ吉兆動物   "
+              },
+              {
+                "type": "text",
+                "text": "ヤモリ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 「家守」と書き、家を守る存在とされる\n"
+              },
+              {
+                "type": "emoji",
+                "name": "fish",
+                "unicode": "1f41f"
+              },
+              {
+                "type": "text",
+                "text": " 魚類・水棲生物（文化・縁起）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "コイ（錦鯉）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 鯉のぼり・縁起物・池での観賞価値も高い   "
+              },
+              {
+                "type": "text",
+                "text": "フナ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 釣り文化・和食文化と結びつく、郷土料理にも登場   "
+              },
+              {
+                "type": "text",
+                "text": "カエル",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 「帰る（無事帰る）」の語呂合わせで縁起が良い   "
+              },
+              {
+                "type": "text",
+                "text": "アユ（鮎）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 夏の風物詩・清流のシンボル\n"
+              },
+              {
+                "type": "emoji",
+                "name": "butterfly",
+                "unicode": "1f98b"
+              },
+              {
+                "type": "text",
+                "text": " 昆虫（ポジティブな象徴）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "ホタル",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 幻想的な光・初夏の風物詩・恋愛や純粋さの象徴   "
+              },
+              {
+                "type": "text",
+                "text": "アゲハチョウ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 美しい・変化（さなぎ→成虫）の象徴   "
+              },
+              {
+                "type": "text",
+                "text": "テントウムシ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 幸運の象徴・子どもにも人気   "
+              },
+              {
+                "type": "text",
+                "text": "カマキリ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 秋の昆虫・神聖視されることも\n"
+              },
+              {
+                "type": "emoji",
+                "name": "scroll",
+                "unicode": "1f4dc"
+              },
+              {
+                "type": "text",
+                "text": " 神話・伝承・縁起もの枠（分類問わず）\n   動物名 イメージ・理由     "
+              },
+              {
+                "type": "text",
+                "text": "ツル",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 長寿・一夫一妻・祝い事の象徴（折り鶴など）   "
+              },
+              {
+                "type": "text",
+                "text": "ウサギ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 月と関係が深い（餅つき伝承）・かわいさも人気   "
+              },
+              {
+                "type": "text",
+                "text": "キツネ（稲荷）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 神使・稲荷神社との結びつき   "
+              },
+              {
+                "type": "text",
+                "text": "シシ（獅子）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 獅子舞・厄除け・正月などに登場\n特定テーマにあわせたおすすめ例\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "子ども向け",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：モモンガ、ホタル、テントウムシ、ウサギ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "日本文化・縁起推し",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：ツル、カメ、キツネ、カエル"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "環境教育",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：ムササビ、タンチョウ、フクロウ、コウノトリ、ホタル"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "キャラクター化しやすい",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：メジロ、ヤマガラ、ウリ坊、ヤモリ、アゲハチョウ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n必要であれば「"
+              },
+              {
+                "type": "text",
+                "text": "商業利用でネガティブイメージが出にくい動物リスト",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "」「"
+              },
+              {
+                "type": "text",
+                "text": "SNS映えしやすい日本の動物",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "」など目的に合わせて提案できます。お気軽にどうぞ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "以下に、*日本国内で好意的・文化的イメージが強い動物たち*をカテゴリ別にいくつかご提案します。「見た目」「鳴き声」「伝承・信仰」「人との関係性」など、ポジティブな文脈で語られやすい動物を中心に選定しています。\n\n:bird: 鳥類（縁起・季節感・美しさ）\n   動物名 イメージ・理由     *カッコウ* 夏の訪れを告げる鳥、古典や俳句にも登場   *ホトトギス* 文学的象徴（正岡子規の俳号など）   *ヤマガラ* 手乗りになる人懐っこさ、神社での餌付け体験も人気   *サギ（シラサギ）* 水辺の優雅な鳥として風景画などに登場   *タンチョウ* 縁起物・一夫一妻制・「鶴は千年」など長寿の象徴   *フクロウ* 「福来郎」「不苦労」などの語呂で縁起物とされる\n:cat: 哺乳類（親しみ・信仰・物語性）\n   動物名 イメージ・理由     *タヌキ* 信楽焼・昔話（ばける）で親しみあり、民話の常連   *イタチ* 細くて素早い、昔は家の守り神とも   *ネコ（ノラ含む）* 招き猫・神社での人気者・癒し系の象徴   *イノシシの子（ウリ坊）* 干支・かわいらしさ・無病息災祈願   *モモンガ* 見た目のかわいさと滑空する驚きで人気上昇中\n:turtle: 爬虫類・両生類（長寿や守りの象徴）\n   動物名 イメージ・理由     *カメ（リクガメ、クサガメ）* 長寿・縁起・鶴と並ぶ吉兆動物   *ヤモリ* 「家守」と書き、家を守る存在とされる\n:fish: 魚類・水棲生物（文化・縁起）\n   動物名 イメージ・理由     *コイ（錦鯉）* 鯉のぼり・縁起物・池での観賞価値も高い   *フナ* 釣り文化・和食文化と結びつく、郷土料理にも登場   *カエル* 「帰る（無事帰る）」の語呂合わせで縁起が良い   *アユ（鮎）* 夏の風物詩・清流のシンボル\n:butterfly: 昆虫（ポジティブな象徴）\n   動物名 イメージ・理由     *ホタル* 幻想的な光・初夏の風物詩・恋愛や純粋さの象徴   *アゲハチョウ* 美しい・変化（さなぎ→成虫）の象徴   *テントウムシ* 幸運の象徴・子どもにも人気   *カマキリ* 秋の昆虫・神聖視されることも\n:scroll: 神話・伝承・縁起もの枠（分類問わず）\n   動物名 イメージ・理由     *ツル* 長寿・一夫一妻・祝い事の象徴（折り鶴など）   *ウサギ* 月と関係が深い（餅つき伝承）・かわいさも人気   *キツネ（稲荷）* 神使・稲荷神社との結びつき   *シシ（獅子）* 獅子舞・厄除け・正月などに登場\n特定テーマにあわせたおすすめ例\n• *子ども向け*：モモンガ、ホタル、テントウムシ、ウサギ\n• *日本文化・縁起推し*：ツル、カメ、キツネ、カエル\n• *環境教育*：ムササビ、タンチョウ、フクロウ、コウノトリ、ホタル\n• *キャラクター化しやすい*：メジロ、ヤマガラ、ウリ坊、ヤモリ、アゲハチョウ\n必要であれば「*商業利用でネガティブイメージが出にくい動物リスト*」「*SNS映えしやすい日本の動物*」など目的に合わせて提案できます。お気軽にどうぞ。"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752392042.068959",
+    "client_msg_id": "27eaa133-af9b-4eb7-a15c-252745ca9ec5",
+    "text": "鳥10種類：<@U08GJSBAX3K>\nウグイス、メジロ、ツバメ、カワセミ、ツル、キジ、ヒバリ、カッコウ、ムクドリ、ヤマガラ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uDC1W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "鳥10種類："
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\nウグイス、メジロ、ツバメ、カワセミ、ツル、キジ、ヒバリ、カッコウ、ムクドリ、ヤマガラ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "鳥10種類：@shutaro.aoyama\nウグイス、メジロ、ツバメ、カワセミ、ツル、キジ、ヒバリ、カッコウ、ムクドリ、ヤマガラ"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752392100.543689",
+    "client_msg_id": "356a9bb1-dc8b-4d84-bea6-b38102bcadd8",
+    "text": "数字5桁ランダム",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tIX5l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "数字5桁ランダム"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "数字5桁ランダム"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F095JKSASP4",
+        "created": 1752392787,
+        "timestamp": 1752392787,
+        "name": "スクリーンショット 2025-07-13 16.46.13.png",
+        "title": "スクリーンショット 2025-07-13 16.46.13.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 143379,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095JKSASP4/____________________________2025-07-13_16.46.13.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095JKSASP4/download/____________________________2025-07-13_16.46.13.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 144,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 192,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 288,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 320,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 384,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JKSASP4-3e573242dc/____________________________2025-07-13_16.46.13_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 409,
+        "original_w": 1642,
+        "original_h": 656,
+        "thumb_tiny": "AwATADDQoxSZ5pcUDDFGKMUYpCDFFGKKYwooooAKKKKACiiigD//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095JKSASP4/____________________________2025-07-13_16.46.13.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095JKSASP4-1c37af093c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1752392791.679449",
+    "client_msg_id": "f7dab687-8520-4f0c-a67a-03314c901a80",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": ""
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F095YMVJ8RX",
+        "created": 1752393235,
+        "timestamp": 1752393235,
+        "name": "white background area.jpg",
+        "title": "white background area.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 367640,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095YMVJ8RX/white_background_area.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095YMVJ8RX/download/white_background_area.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_360.jpg",
+        "thumb_360_w": 360,
+        "thumb_360_h": 316,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_480.jpg",
+        "thumb_480_w": 480,
+        "thumb_480_h": 422,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_720.jpg",
+        "thumb_720_w": 720,
+        "thumb_720_h": 632,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 703,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_960.jpg",
+        "thumb_960_w": 960,
+        "thumb_960_h": 843,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YMVJ8RX-fdfdfb5bc5/white_background_area_1024.jpg",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 899,
+        "original_w": 1280,
+        "original_h": 1124,
+        "thumb_tiny": "AwAqADDSPTrikXry2fwpWGRSBe+aAFyBS5GKaRzQR8uKAFyDS00DvSjvQAHGORmkUgnhSPwpWOBTQTnvQA7A9BS4FMJOeKXJ20AOwPSgU0E570o7/WgBT0pBn2paKAEwc9qDnFLRQAgzSiiigD//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095YMVJ8RX/white_background_area.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095YMVJ8RX-5aacbb1f49",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1752393311.473319",
+    "client_msg_id": "c2864dfe-42a5-4417-9937-12cb59109ad0",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": ""
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752393420.115769",
+    "client_msg_id": "2fabc78b-0c7f-49fe-933f-c05ac7d2c2ff",
+    "text": "cssは除いて利用規約を立憲側に追加してみました。\n<https://dev.daikibo-jyukugi-cdp.jp/terms>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MPklV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "cssは除いて利用規約を立憲側に追加してみました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dev.daikibo-jyukugi-cdp.jp/terms"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "cssは除いて利用規約を立憲側に追加してみました。\n<https://dev.daikibo-jyukugi-cdp.jp/terms>"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752394143.207189",
+    "client_msg_id": "8560184d-8683-48d1-86d8-093fe21851e3",
+    "text": "memo: 人数は今の DB 設計でも普通に数えられそう（chat thread を theme ではなく論点に紐づけられるようになれば、それ以上の変更は不要。パフォーマンス観点だとインデックスを貼ったりカウントをキャッシュしておいたりする必要が出てくるかも）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m1ML3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: 人数は今の DB 設計でも普通に数えられそう（chat thread を theme ではなく論点に紐づけられるようになれば、それ以上の変更は不要。パフォーマンス観点だとインデックスを貼ったりカウントをキャッシュしておいたりする必要が出てくるかも）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "memo: 人数は今の DB 設計でも普通に数えられそう（chat thread を theme ではなく論点に紐づけられるようになれば、それ以上の変更は不要。パフォーマンス観点だとインデックスを貼ったりカウントをキャッシュしておいたりする必要が出てくるかも）"
+  },
+  {
+    "text": "<@U08GJSBAX3K>\nユーザーのカラバリこちらでお願いしますー！\n<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1705-8028&amp;t=sRmVWTXSUomlld0d-11>",
+    "files": [
+      {
+        "id": "F095JM3EGR0",
+        "created": 1752394812,
+        "timestamp": 1752394812,
+        "name": "スクリーンショット 2025-07-13 17.19.53.png",
+        "title": "スクリーンショット 2025-07-13 17.19.53.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 51391,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095JM3EGR0/____________________________2025-07-13_17.19.53.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095JM3EGR0/download/____________________________2025-07-13_17.19.53.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 114,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 152,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 228,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 253,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 304,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F095JM3EGR0-ee03e3da88/____________________________2025-07-13_17.19.53_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 324,
+        "original_w": 1150,
+        "original_h": 364,
+        "thumb_tiny": "AwAPADDRwMUYFGaM+1ABgUYFG72oz7UAGBRgYoz7UZoA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095JM3EGR0/____________________________2025-07-13_17.19.53.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095JM3EGR0-0d8167687d",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SaVPq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\nユーザーのカラバリこちらでお願いしますー！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1705-8028&t=sRmVWTXSUomlld0d-11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1752394816.517569",
+    "client_msg_id": "9afc5c5b-d9df-46da-a817-61d83a520344",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "@shutaro.aoyama\nユーザーのカラバリこちらでお願いしますー！\n<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1705-8028&t=sRmVWTXSUomlld0d-11>"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752396363.800969",
+    "client_msg_id": "0ac1c09e-2a1e-458e-a8de-4ce8d0af524f",
+    "text": "<https://help.figma.com/hc/ja/articles/32132100833559-Dev-Mode-MCP%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%88%A9%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V5gvU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://help.figma.com/hc/ja/articles/32132100833559-Dev-Mode-MCP%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%88%A9%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "<https://help.figma.com/hc/ja/articles/32132100833559-Dev-Mode-MCP%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E5%88%A9%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89>"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752396519.465599",
+    "client_msg_id": "50c14889-154d-4942-8f63-abaed7652aa4",
+    "text": "（余談）これはFigma MCPができる前の話ですかね？\n<https://zenn.dev/ubie_dev/articles/f927aaff02d618>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "attachments": [
+      {
+        "image_url": "https://res.cloudinary.com/zenn/image/upload/s--_1Klui_T--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E7%25A4%25BE%25E5%2586%2585%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B7%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25A0%25E3%2582%2592MCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BC%25E5%258C%2596%25E3%2581%2597%25E3%2581%259F%25E3%2582%2589UI%25E5%25AE%259F%25E8%25A3%2585%25E3%2581%258C%25E7%2588%2586%25E9%2580%259F%25E3%2581%25AB%25E3%2581%25AA%25E3%2581%25A3%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:%25E3%2581%2590%25E3%2582%258A%25E3%2581%2593%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2VlOWMzMWRhODMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Ubie%2520%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzMzYWVmZGQyNDIuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 35856,
+        "from_url": "https://zenn.dev/ubie_dev/articles/f927aaff02d618",
+        "service_icon": "https://zenn.dev/favicon.ico",
+        "id": 1,
+        "original_url": "https://zenn.dev/ubie_dev/articles/f927aaff02d618",
+        "fallback": "Zenn: 社内デザインシステムをMCPサーバー化したらUI実装が爆速になった",
+        "title": "社内デザインシステムをMCPサーバー化したらUI実装が爆速になった",
+        "title_link": "https://zenn.dev/ubie_dev/articles/f927aaff02d618",
+        "service_name": "Zenn"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SYrwE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（余談）これはFigma MCPができる前の話ですかね？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://zenn.dev/ubie_dev/articles/f927aaff02d618"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "（余談）これはFigma MCPができる前の話ですかね？\n<https://zenn.dev/ubie_dev/articles/f927aaff02d618>"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752397008.214599",
+    "client_msg_id": "eec4ff51-de8f-4508-8685-67b9fe4809ed",
+    "text": "そのブログ結構前なんで昔の話だと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uut2d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そのブログ結構前なんで昔の話だと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "そのブログ結構前なんで昔の話だと思います！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752407098.943679",
+    "client_msg_id": "c9383065-f9b1-4fdb-a916-247480a9262a",
+    "text": "本日ご参加いただきありがとうございました！\n\n久しぶりのリアル開発イベントで、念願のいどばたビジョンのバージョン1の輪郭が見えてくる有意義な会になったと思います:waiwai:\n個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っているのでとても楽しかったです:round_pushpin:\n\n<@U08PMMXPVTN> 急なお声がけにも関わらず爆速で素敵なデザイン仕上げていただけて助かりました！:igyo:（隣のプロジェクトから勇気出してウタコさん頼って本当に良かったです... ！）\n\n<@U08NN8A6P9D> 坂本さんにも本当にお忙しい時期にご参加いただき、ご挨拶の機会と貴重な生のフィードバックをいただけて大変参考になった旨、よろしくお伝えいただけますと幸いです:blob-prayge:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YL301",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日ご参加いただきありがとうございました！\n\n久しぶりのリアル開発イベントで、念願のいどばたビジョンのバージョン1の輪郭が見えてくる有意義な会になったと思います"
+              },
+              {
+                "type": "emoji",
+                "name": "waiwai"
+              },
+              {
+                "type": "text",
+                "text": "\n個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っているのでとても楽しかったです"
+              },
+              {
+                "type": "emoji",
+                "name": "round_pushpin",
+                "unicode": "1f4cd"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08PMMXPVTN"
+              },
+              {
+                "type": "text",
+                "text": " 急なお声がけにも関わらず爆速で素敵なデザイン仕上げていただけて助かりました！"
+              },
+              {
+                "type": "emoji",
+                "name": "igyo"
+              },
+              {
+                "type": "text",
+                "text": "（隣のプロジェクトから勇気出してウタコさん頼って本当に良かったです... ！）\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " 坂本さんにも本当にお忙しい時期にご参加いただき、ご挨拶の機会と貴重な生のフィードバックをいただけて大変参考になった旨、よろしくお伝えいただけますと幸いです"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-prayge"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": "本日ご参加いただきありがとうございました！\n\n久しぶりのリアル開発イベントで、念願のいどばたビジョンのバージョン1の輪郭が見えてくる有意義な会になったと思います:waiwai:\n個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っているのでとても楽しかったです:round_pushpin:\n\n@hello.utako 急なお声がけにも関わらず爆速で素敵なデザイン仕上げていただけて助かりました！:igyo:（隣のプロジェクトから勇気出してウタコさん頼って本当に良かったです... ！）\n\n@foino74 坂本さんにも本当にお忙しい時期にご参加いただき、ご挨拶の機会と貴重な生のフィードバックをいただけて大変参考になった旨、よろしくお伝えいただけますと幸いです:blob-prayge:"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752417841.166149",
+    "client_msg_id": "a50575da-0129-4341-ac16-d1dfcc0e80aa",
+    "text": "こちらこそ仲間にいれていただきありがとうございました！各所の視点を取り入れて新たな案を生みだしたり、みなさんとの雑談もめちゃ楽しかったです！笑　UIUXの残タスクも数日以内には整うようにしますー◎",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2kUrV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらこそ仲間にいれていただきありがとうございました！各所の視点を取り入れて新たな案を生みだしたり、みなさんとの雑談もめちゃ楽しかったです！笑　UIUXの残タスクも数日以内には整うようにしますー◎"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "こちらこそ仲間にいれていただきありがとうございました！各所の視点を取り入れて新たな案を生みだしたり、みなさんとの雑談もめちゃ楽しかったです！笑　UIUXの残タスクも数日以内には整うようにしますー◎"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752453129.819559",
+    "client_msg_id": "c6fa78d7-9627-41d3-b76d-d58b1164ccce",
+    "text": "こちらこそありがとうございました！坂本さんにはお伝えしておきます。\n&gt; 個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っている\nまさにそれを感じることが出来ました。もっと関われるようになりたいなと思いました。\n引き続きよろしくお願いいたします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gVQOo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらこそありがとうございました！坂本さんにはお伝えしておきます。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っている"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nまさにそれを感じることが出来ました。もっと関われるようになりたいなと思いました。\n引き続きよろしくお願いいたします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "こちらこそありがとうございました！坂本さんにはお伝えしておきます。\n> 個人的には色々な人と一緒にものを作る機会を持てることが OSS コミュニティに参加する醍醐味だと思っている\nまさにそれを感じることが出来ました。もっと関われるようになりたいなと思いました。\n引き続きよろしくお願いいたします！"
+  },
+  {
+    "text": "ご相談。「話題を変える」でお題が変わる時のUXについて。\n\nAIが「わかりました。次のお題の中から選んでください。（仮）」のような返答で、準備されてる*お題のリンクが表示されて選んでもらう*体験が適切そうだと思いました。\n\nメリット：\n・そのお題の対話ページに遷移するので、チャット内容とページ内容が一致する\n・ガチャ要素が減って、興味のないお題を提案される確率を減らすことができる\n\nこちら私が見逃してる論点やエンジニアさん観点での懸念などありましたら教えてくださいー！",
+    "files": [
+      {
+        "id": "F095P1PR467",
+        "created": 1752566699,
+        "timestamp": 1752566699,
+        "name": "img.png",
+        "title": "img.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 69044,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095P1PR467/img.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095P1PR467/download/img.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095P1PR467-f805a01087/img_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095P1PR467-f805a01087/img_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095P1PR467-f805a01087/img_360.png",
+        "thumb_360_w": 251,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095P1PR467-f805a01087/img_480.png",
+        "thumb_480_w": 334,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095P1PR467-f805a01087/img_160.png",
+        "original_w": 480,
+        "original_h": 689,
+        "thumb_tiny": "AwAwACHRPPQmkIJH3mFHbmlyB/8ArNMBc/WjNAOaM0gE3j3o3j3pNo9KNo9KBC8Y5pwpvalFMYtIelLSHpSASiiimITml5oz06UZ9MUAHNHNLmmtuLjBG3uKAFooooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095P1PR467/img.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095P1PR467-5b966f0814",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gzfmA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご相談。「話題を変える」でお題が変わる時のUXについて。\n\nAIが「わかりました。次のお題の中から選んでください。（仮）」のような返答で、準備されてる"
+              },
+              {
+                "type": "text",
+                "text": "お題のリンクが表示されて選んでもらう",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "体験が適切そうだと思いました。\n\nメリット：\n・そのお題の対話ページに遷移するので、チャット内容とページ内容が一致する\n・ガチャ要素が減って、興味のないお題を提案される確率を減らすことができる\n\nこちら私が見逃してる論点やエンジニアさん観点での懸念などありましたら教えてくださいー！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1752567089.487579",
+    "client_msg_id": "6d7f2b11-f0a6-4721-ab57-980ac0c220e3",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "ご相談。「話題を変える」でお題が変わる時のUXについて。\n\nAIが「わかりました。次のお題の中から選んでください。（仮）」のような返答で、準備されてる*お題のリンクが表示されて選んでもらう*体験が適切そうだと思いました。\n\nメリット：\n・そのお題の対話ページに遷移するので、チャット内容とページ内容が一致する\n・ガチャ要素が減って、興味のないお題を提案される確率を減らすことができる\n\nこちら私が見逃してる論点やエンジニアさん観点での懸念などありましたら教えてくださいー！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1752570268.010689",
+    "client_msg_id": "b29bcced-6bee-4e56-95f6-330a4bb7cc8e",
+    "text": ":arigato: :yosasou:\n\n気になるのは、論点がたくさんあるときにどの話題をどの順番で表示するかくらいですかね〜（とりあえず、ランダムでmax10件とか？）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ia7qo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "arigato"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "yosasou"
+              },
+              {
+                "type": "text",
+                "text": "\n\n気になるのは、論点がたくさんあるときにどの話題をどの順番で表示するかくらいですかね〜（とりあえず、ランダムでmax10件とか？）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "Horie Satoru",
+    "text_readable": ":arigato: :yosasou:\n\n気になるのは、論点がたくさんあるときにどの話題をどの順番で表示するかくらいですかね〜（とりあえず、ランダムでmax10件とか？）"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752571120.736659",
+    "client_msg_id": "a3ca25ff-3e69-4823-8a11-b59cf0a029db",
+    "text": "デザイナー観点ではランダムmax10件よさそうだと思いました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pJyCZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デザイナー観点ではランダムmax10件よさそうだと思いました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "デザイナー観点ではランダムmax10件よさそうだと思いました！"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752571267.662439",
+    "client_msg_id": "61b23268-3d5c-4c92-a547-d528f90de907",
+    "text": "10件以上ほかのお題もある場合は、最後に「もっとお題をみる」みたいなテキストリンクを押して、さらに10件表示されるとかいいかもですね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752389192.988569",
+    "parent_user_id": "U08HMV9AHLL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cN7fJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10件以上ほかのお題もある場合は、最後に「もっとお題をみる」みたいなテキストリンクを押して、さらに10件表示されるとかいいかもですね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752389192.988569",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "10件以上ほかのお題もある場合は、最後に「もっとお題をみる」みたいなテキストリンクを押して、さらに10件表示されるとかいいかもですね！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HMV9AHLL",
+    "thread_ts": "1752389192.988569",
+    "root": {
+      "user": "U08HMV9AHLL",
+      "type": "message",
+      "ts": "1752389192.988569",
+      "edited": {
+        "user": "U08HMV9AHLL",
+        "ts": "1752389198.000000"
+      },
+      "client_msg_id": "4432eccf-e162-49f2-95ff-1cdf0a5a044a",
+      "text": "<@U08PMMXPVTN> <@U08GJSBAX3K> <@U08FTAEETAB> <@U08NN8A6P9D> 本日続きはこちらで！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1752389192.988569",
+      "reply_count": 26,
+      "reply_users_count": 4,
+      "latest_reply": "1752571267.662439",
+      "reply_users": [
+        "U08HMV9AHLL",
+        "U08PMMXPVTN",
+        "U08FTAEETAB",
+        "U08NN8A6P9D"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/zcDo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08PMMXPVTN"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08FTAEETAB"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08NN8A6P9D"
+                },
+                {
+                  "type": "text",
+                  "text": " 本日続きはこちらで！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1752389240.178989",
+    "client_msg_id": "6916ab90-0304-46ff-bfe5-e5aa600fa632",
+    "text": "新 UI docs <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9LhS9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新 UI docs "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Horie Satoru",
+    "text_readable": "新 UI docs <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.xzt2jds3imgg>"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752390693.000449",
+    "client_msg_id": "856c2136-5eca-481c-a8d0-e35855a90a7d",
+    "text": "<@U08HMV9AHLL>\n\n立憲さん様にfrontで追加修正したファイル\n```$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts```",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "I5YQ7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n\n立憲さん様にfrontで追加修正したファイル\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@spinutids\n\n立憲さん様にfrontで追加修正したファイル\n```$ git diff main --name-only | grep ^frontend\nfrontend/index.html\nfrontend/package-lock.json\nfrontend/package.json\nfrontend/public/images/noda.jpg\nfrontend/src/App.tsx\nfrontend/src/components/home/HeroSection.tsx\nfrontend/src/components/layout/Footer.tsx\nfrontend/src/components/layout/Header.tsx\nfrontend/src/components/layout/PageLayout.tsx\nfrontend/src/components/layout/Sidebar.tsx\nfrontend/src/components/top/TopPageTemplate.tsx\nfrontend/src/components/ui/section.tsx\nfrontend/src/pages/About.tsx\nfrontend/src/pages/Manual.tsx\nfrontend/src/pages/MyPage.tsx\nfrontend/vite.config.ts```"
+  },
+  {
+    "text": "名前ランダム生成:white_check_mark:",
+    "files": [
+      {
+        "id": "F09552JH3F1",
+        "created": 1752393557,
+        "timestamp": 1752393557,
+        "name": "Screenshot 2025-07-13 at 4.59.05 PM.png",
+        "title": "Screenshot 2025-07-13 at 4.59.05 PM.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 125081,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09552JH3F1/screenshot_2025-07-13_at_4.59.05___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09552JH3F1/download/screenshot_2025-07-13_at_4.59.05___pm.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 330,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 440,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 660,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 734,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 881,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JH3F1-a8250751fc/screenshot_2025-07-13_at_4.59.05___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 939,
+        "original_w": 1136,
+        "original_h": 1042,
+        "thumb_tiny": "AwAsADDRBA6n9aXcPUfnSenSl5z2xQAhUn+Jh9DQFIx8zHHqadketFABz6UhBJB547UtFACYyBTZIhJjJPFLjoQM/jQo9Rj8c0XsAxIFRwwJ4qWk2j/JpQMU27gFFFRRtKWw64GKLAPLYxwfwGaTefQ/lTgOBRgUgGh+OQ35UocE9G/KlAApaAEzS5oooA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09552JH3F1/screenshot_2025-07-13_at_4.59.05___pm.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09552JH3F1-78748d5a83",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F09552JALDV",
+        "created": 1752393562,
+        "timestamp": 1752393562,
+        "name": "Screenshot 2025-07-13 at 4.58.26 PM.png",
+        "title": "Screenshot 2025-07-13 at 4.58.26 PM.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 180660,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09552JALDV/screenshot_2025-07-13_at_4.58.26___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09552JALDV/download/screenshot_2025-07-13_at_4.58.26___pm.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 224,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 299,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 448,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 498,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 597,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09552JALDV-fdc2f0ad18/screenshot_2025-07-13_at_4.58.26___pm_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 637,
+        "original_w": 1710,
+        "original_h": 1064,
+        "thumb_tiny": "AwAdADDRwM8n9TTh0ppYA8mlDA9KAE3H2/OlGaCDzimqJA3zMCPpTAfRRRSAaQCSTmhVUcgGnUUANIHr+lLgHsKCoNJsX0oAdRSBQOgpcUAf/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09552JALDV/screenshot_2025-07-13_at_4.58.26___pm.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09552JALDV-ed11f37b93",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5x12G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "名前ランダム生成"
+              },
+              {
+                "type": "emoji",
+                "name": "white_check_mark",
+                "unicode": "2705"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1752393572.234019",
+    "client_msg_id": "f5e3239d-206d-40e2-a212-9ad27126fc19",
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "名前ランダム生成:white_check_mark:"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1752394984.671169",
+    "client_msg_id": "99d6b5ca-f52a-4ecb-9231-a256fb4958ea",
+    "text": "<@U08GJSBAX3K> <@U08HMV9AHLL> <@U08NN8A6P9D> <@U08PMMXPVTN>\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1>\n\n新UIを組み込んでいくブランチを feature/vision-ui-v1 としてみました。違和感あったら変えてください！\nそしてatomっぽいものをひとしきり実装させてみました。\n\natom単体だけをいじって完璧にするの難しそうなので、個別のUIを実装しながら不足や間違いがあったら立ち戻ってくるようにしたいと思います！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LhL0G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NN8A6P9D"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08PMMXPVTN"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1"
+              },
+              {
+                "type": "text",
+                "text": "\n\n新UIを組み込んでいくブランチを feature/vision-ui-v1 としてみました。違和感あったら変えてください！\nそしてatomっぽいものをひとしきり実装させてみました。\n\natom単体だけをいじって完璧にするの難しそうなので、個別のUIを実装しながら不足や間違いがあったら立ち戻ってくるようにしたいと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HMV9AHLL",
+          "U08NN8A6P9D"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "@shutaro.aoyama @spinutids @foino74 @hello.utako\n<https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1>\n\n新UIを組み込んでいくブランチを feature/vision-ui-v1 としてみました。違和感あったら変えてください！\nそしてatomっぽいものをひとしきり実装させてみました。\n\natom単体だけをいじって完璧にするの難しそうなので、個別のUIを実装しながら不足や間違いがあったら立ち戻ってくるようにしたいと思います！"
+  },
+  {
+    "text": "AIの自己判断で生成されたメッセージなんですが、この振り返りまとめはいいですね。",
+    "files": [
+      {
+        "id": "F095YP8JAPK",
+        "created": 1752395165,
+        "timestamp": 1752395165,
+        "name": "Screenshot 2025-07-13 at 5.26.00 PM.png",
+        "title": "Screenshot 2025-07-13 at 5.26.00 PM.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 250667,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F095YP8JAPK/screenshot_2025-07-13_at_5.26.00___pm.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F095YP8JAPK/download/screenshot_2025-07-13_at_5.26.00___pm.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_360.png",
+        "thumb_360_w": 313,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_480.png",
+        "thumb_480_w": 417,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_720.png",
+        "thumb_720_w": 626,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 921,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_960.png",
+        "thumb_960_w": 834,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F095YP8JAPK-d8fd2803ac/screenshot_2025-07-13_at_5.26.00___pm_1024.png",
+        "thumb_1024_w": 890,
+        "thumb_1024_h": 1024,
+        "original_w": 1206,
+        "original_h": 1388,
+        "thumb_tiny": "AwAwACnSxS4ppJBPIxSgk+n50ALimlcnOSKXn0H50c+lAETyxIxDSYI6jFPyPWlKITkqpPqRS0AMcZPVfxo2jHUClbOeuKT5vUfhQAuwY42/lTgMDAwPwpuT6/rS84+8KAHDPc5pKUdOuaSgBCoJ60uPejFGKADijilxRQAUlAGOlJkUAf/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F095YP8JAPK/screenshot_2025-07-13_at_5.26.00___pm.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F095YP8JAPK-2fa9b70e9d",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4P02u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIの自己判断で生成されたメッセージなんですが、この振り返りまとめはいいですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1752395178.733929",
+    "client_msg_id": "c118a647-3707-4e6e-a2a2-f1cec3c980b8",
+    "reactions": [
+      {
+        "name": "いい",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "AIの自己判断で生成されたメッセージなんですが、この振り返りまとめはいいですね。"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1752395285.535679",
+    "client_msg_id": "ee7e9f23-ed31-4de4-a56a-bb17326dfef2",
+    "text": "• 自分が会話を通じてどう貢献したのかわかる\n• 長期的に考えるべき良い問いが提示されている\nあたりが良いなと",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T8onZ",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自分が会話を通じてどう貢献したのかわかる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "長期的に考えるべき良い問いが提示されている"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あたりが良いなと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "• 自分が会話を通じてどう貢献したのかわかる\n• 長期的に考えるべき良い問いが提示されている\nあたりが良いなと"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1752396495.122809",
+    "client_msg_id": "05040ccf-cf63-430e-902f-23ca9ce99bec",
+    "text": "<@U08HMV9AHLL>\n<https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma>\n僕がみた設定方法これです！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://res.cloudinary.com/zenn/image/upload/s--t17RU4C3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590MCP%25E3%2581%25AE%25E3%2583%2588%25E3%2583%25AA%25E3%2582%25BB%25E3%2583%2584%2520%25236%25E3%2580%2591Figma%2520MCP%25EF%25BC%259A%25E3%2583%2587%25E3%2582%25B6%25E3%2582%25A4%25E3%2583%25B3%25E3%2581%25A8%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%25E3%2582%2592%25E5%258A%25B9%25E7%258E%2587%25E7%259A%2584%25E3%2581%25AB%25E9%2580%25A3%25E6%2590%25BA%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2581%25AA%25E3%2581%258C%25E3%2581%259F%25E3%2581%258F%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyL2NhMTdlMmFmNjYuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 34208,
+        "from_url": "https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma",
+        "service_icon": "https://zenn.dev/favicon.ico",
+        "id": 1,
+        "original_url": "https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma",
+        "fallback": "Zenn: 【MCPのトリセツ #6】Figma MCP：デザインとコードを効率的に連携",
+        "title": "【MCPのトリセツ #6】Figma MCP：デザインとコードを効率的に連携",
+        "title_link": "https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma",
+        "service_name": "Zenn"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9AmO1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma"
+              },
+              {
+                "type": "text",
+                "text": "\n僕がみた設定方法これです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "@spinutids\n<https://zenn.dev/takna/articles/mcp-server-tutorial-06-figma>\n僕がみた設定方法これです！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1752396794.136349",
+    "client_msg_id": "50bdbeb2-d329-4216-aaab-a174b511efab",
+    "text": "memo: QuestionChatManager.tsとThemeDetailChatManager.tsで同じことめっちゃ2度書いてるので、リファクタしたほうがよさそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7Knh9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: QuestionChatManager.tsとThemeDetailChatManager.tsで同じことめっちゃ2度書いてるので、リファクタしたほうがよさそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "memo: QuestionChatManager.tsとThemeDetailChatManager.tsで同じことめっちゃ2度書いてるので、リファクタしたほうがよさそう"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1752624022.417219",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752624022.417219",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1752635433.660729",
+    "reply_users": [
+      "U08NN8A6P9D",
+      "U08PMMXPVTN"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hJ=",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1752624898.098919",
+    "client_msg_id": "3BD43C42-13D3-4D31-842E-79B166B75EE9",
+    "text": "本日、立憲側の秘書の坂本さんがどんなミーティングなのか参加してみたいそうです:pray:(開発タスクの整理、進捗、今後の方針の話が中心だとは伝えていますが)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752624022.417219",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "O/Epk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日、立憲側の秘書の坂本さんがどんなミーティングなのか参加してみたいそうです"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "(開発タスクの整理、進捗、今後の方針の話が中心だとは伝えていますが)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GJSBAX3K"
+        ],
+        "count": 1
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08GJSBAX3K"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1752624022.417219",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "本日、立憲側の秘書の坂本さんがどんなミーティングなのか参加してみたいそうです:pray:(開発タスクの整理、進捗、今後の方針の話が中心だとは伝えていますが)"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1752635433.660729",
+    "client_msg_id": "628482c7-c3c4-4da7-95fb-45fa07738db4",
+    "text": "帰宅間に合えば参加できそうですが、間に合わない時のためにメモです！\n\n*デザイン残タスク3つ：*\n• hover、empty、などのstate別のUI制作\n• 生成されるレポートの見出しと本文のsizeやweightを整えて読みやすくしたい\n• 「人数」の軽説明UIを作る（厳密にいうと端末数なので）\n*納期見込み：*\n新論点発生しなければ 7/17いっぱいではUI整う見込み\n\n*デザイン：*\nすべて<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&amp;t=TQl1Zvz5DBh2LBtY-11|ここに置いてます>\n汎用的な「使い方」ページも追加しました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1752624022.417219",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zYucg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "帰宅間に合えば参加できそうですが、間に合わない時のためにメモです！\n\n"
+              },
+              {
+                "type": "text",
+                "text": "デザイン残タスク3つ：",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "hover、empty、などのstate別のUI制作"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "生成されるレポートの見出しと本文のsizeやweightを整えて読みやすくしたい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「人数」の軽説明UIを作る（厳密にいうと端末数なので）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "納期見込み：",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n新論点発生しなければ 7/17いっぱいではUI整う見込み\n\n"
+              },
+              {
+                "type": "text",
+                "text": "デザイン：",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nすべて"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&t=TQl1Zvz5DBh2LBtY-11",
+                "text": "ここに置いてます"
+              },
+              {
+                "type": "text",
+                "text": "\n汎用的な「使い方」ページも追加しました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1752624022.417219",
+    "user_name": "ウタコ ノギグチ（7/13までいどばた対応中）",
+    "text_readable": "帰宅間に合えば参加できそうですが、間に合わない時のためにメモです！\n\n*デザイン残タスク3つ：*\n• hover、empty、などのstate別のUI制作\n• 生成されるレポートの見出しと本文のsizeやweightを整えて読みやすくしたい\n• 「人数」の軽説明UIを作る（厳密にいうと端末数なので）\n*納期見込み：*\n新論点発生しなければ 7/17いっぱいではUI整う見込み\n\n*デザイン：*\nすべて<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&t=TQl1Zvz5DBh2LBtY-11|ここに置いてます>\n汎用的な「使い方」ページも追加しました"
+  }
+]

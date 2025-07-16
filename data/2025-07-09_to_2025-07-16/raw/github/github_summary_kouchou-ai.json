@@ -1,0 +1,245 @@
+{
+  "period": {
+    "start": "2025-07-09T12:35:48.818714+09:00",
+    "end": "2025-07-16T12:35:48.818714+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3222400233,
+      "number": 647,
+      "title": "[FEATURE] 管理画面のレポート削除の確認ダイアログ実装",
+      "state": "closed"
+    },
+    {
+      "id": 3222396050,
+      "number": 646,
+      "title": "[FEATURE] 管理画面のレポート一覧の Empty State のデザイン変更",
+      "state": "closed"
+    },
+    {
+      "id": 3222392807,
+      "number": 645,
+      "title": "[FEATURE] 管理画面のレポート一覧の数値を1Mの略称にする",
+      "state": "closed"
+    },
+    {
+      "id": 3222380371,
+      "number": 644,
+      "title": "[FEATURE] 管理画面のレポート一覧のテーブルヘッダーのデザイン",
+      "state": "closed"
+    },
+    {
+      "id": 3204533768,
+      "number": 635,
+      "title": "[FEATURE] 管理画面のレポート一覧でコメント数などを取得できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3184798897,
+      "number": 621,
+      "title": "管理画面アクション関数のエラーハンドリング改善",
+      "state": "closed"
+    },
+    {
+      "id": 3184796805,
+      "number": 620,
+      "title": "CSVダウンロード機能のエラーハンドリング改善",
+      "state": "closed"
+    },
+    {
+      "id": 3046497026,
+      "number": 460,
+      "title": "[FEATURE][design] レポート管理画面：直感的に使いやすくしたい",
+      "state": "closed"
+    },
+    {
+      "id": 3233857220,
+      "number": 666,
+      "title": "[BUG] Windows 環境で api の build error が出る",
+      "state": "created"
+    },
+    {
+      "id": 3228152836,
+      "number": 664,
+      "title": "[FEATURE] レポート単体での static export 機能",
+      "state": "created"
+    },
+    {
+      "id": 3222407918,
+      "number": 648,
+      "title": "[FEATURE] 管理画面のレポートの一括編集機能の実装",
+      "state": "created"
+    },
+    {
+      "id": 3214253654,
+      "number": 643,
+      "title": "Docker build時のシークレット渡し方法の改善",
+      "state": "created"
+    },
+    {
+      "id": 3211663840,
+      "number": 638,
+      "title": "[FEATURE]濃い意見ビュー改善案",
+      "state": "updated"
+    },
+    {
+      "id": 3202553181,
+      "number": 633,
+      "title": "form から受け付けた API KEY を使ってレポートを生成できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3076145303,
+      "number": 547,
+      "title": "[FEATURE] adminにおいて、APIルートを介してfastapiにリクエストを送る",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3228139401,
+      "number": 663,
+      "title": "[client-admin] コメント数が100万を超えたら1M単位で表示する",
+      "state": "merged"
+    },
+    {
+      "id": 3228063221,
+      "number": 662,
+      "title": "[client-admin] レポートのタイトル・説明文のを編集する fetch を Server Functions で実行する",
+      "state": "merged"
+    },
+    {
+      "id": 3228038995,
+      "number": 661,
+      "title": "[client-admin] ディレクトリ構成の整理・不要な props の削除",
+      "state": "merged"
+    },
+    {
+      "id": 3226285353,
+      "number": 659,
+      "title": "[client-admin] レポート生成後のデータ fetch を Server Component で処理する",
+      "state": "merged"
+    },
+    {
+      "id": 3226275916,
+      "number": 658,
+      "title": "[client-admin] レポートのタイトルが短い場合の削除ダイアログのデザイン崩れを修正",
+      "state": "merged"
+    },
+    {
+      "id": 3226112411,
+      "number": 657,
+      "title": "[client-admin] レポート作成画面のボタンの文言変更",
+      "state": "merged"
+    },
+    {
+      "id": 3226096111,
+      "number": 656,
+      "title": "[client-admin] 管理画面でレポート削除を Server Function で実行・エラーハンドリングの改善",
+      "state": "merged"
+    },
+    {
+      "id": 3226070367,
+      "number": 655,
+      "title": "[client-admin] 管理画面のレポート一覧の Empty State のデザイン変更",
+      "state": "merged"
+    },
+    {
+      "id": 3226064901,
+      "number": 654,
+      "title": "[client-admin] format, type エラーを修正する",
+      "state": "merged"
+    },
+    {
+      "id": 3225057134,
+      "number": 652,
+      "title": "[client-admin] 管理画面の CSV ダウンロードを Server Functions での実行・エラーハンドリングの改善",
+      "state": "merged"
+    },
+    {
+      "id": 3224998733,
+      "number": 651,
+      "title": "[client-admin] 管理画面のレポート削除の確認ダイアログを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3223037437,
+      "number": 650,
+      "title": "[client-admin] レポートの公開状態の総数を表示する UI を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3222456992,
+      "number": 649,
+      "title": "[client-admin] 公開状態の更新を Server Functions で実行し、エラーハンドリングを改善する",
+      "state": "merged"
+    },
+    {
+      "id": 3207942327,
+      "number": 637,
+      "title": "[client-admin] レポート一覧のテーブルのデザインを変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3205988889,
+      "number": 636,
+      "title": "[api] 管理画面のレポート一覧のレスポンスにコメント数などを含める",
+      "state": "merged"
+    },
+    {
+      "id": 3234322879,
+      "number": 667,
+      "title": "Fix Windows Docker build failure for PyTorch installation",
+      "state": "created"
+    },
+    {
+      "id": 3231271130,
+      "number": 665,
+      "title": "[client-admin] レポート単体のHTML書き出し機能を追加",
+      "state": "created"
+    },
+    {
+      "id": 3226501945,
+      "number": 660,
+      "title": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3225413442,
+      "number": 653,
+      "title": "chore(deps): jest を v29 → v30 へアップデート",
+      "state": "created"
+    },
+    {
+      "id": 3214153971,
+      "number": 642,
+      "title": "[GitHub Actions] main ブランチにマージされたコードを Azure に deploy する",
+      "state": "created"
+    },
+    {
+      "id": 3191136217,
+      "number": 626,
+      "title": "[client-admin] レポート一覧の fetch を Server Component で実行する",
+      "state": "updated"
+    },
+    {
+      "id": 3186008258,
+      "number": 624,
+      "title": "[client-admin] 管理画面の Footer の UI を変更する",
+      "state": "updated"
+    },
+    {
+      "id": 3184780586,
+      "number": 618,
+      "title": "[client-admin] 管理画面の更新ロジックを関数に切り出す",
+      "state": "updated"
+    }
+  ]
+}
