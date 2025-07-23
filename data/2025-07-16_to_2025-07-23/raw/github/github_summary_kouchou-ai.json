@@ -1,0 +1,77 @@
+{
+  "period": {
+    "start": "2025-07-16T12:36:47.518275+09:00",
+    "end": "2025-07-23T12:36:47.518275+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3228152836,
+      "number": 664,
+      "title": "[FEATURE] レポート単体での static export 機能",
+      "state": "closed"
+    },
+    {
+      "id": 3246013224,
+      "number": 669,
+      "title": "[REFACTOR] [GitHub Actions] DD2030 の azure 環境への deploy 処理の最適化",
+      "state": "created"
+    },
+    {
+      "id": 3054278174,
+      "number": 475,
+      "title": "[REFACTOR] envのUSE_AZUREを剥がす",
+      "state": "updated"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3231271130,
+      "number": 665,
+      "title": "[client-admin] レポート単体のHTML書き出し機能を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3252792337,
+      "number": 671,
+      "title": "[REFACTOR] envのUSE_AZUREを剥がす",
+      "state": "created"
+    },
+    {
+      "id": 3251213640,
+      "number": 670,
+      "title": "Bump form-data from 4.0.2 to 4.0.4 in /client-admin",
+      "state": "created"
+    },
+    {
+      "id": 3245064835,
+      "number": 668,
+      "title": "[client-admin] 意見グループ編集の fetch を Server Functions で実行する",
+      "state": "created"
+    },
+    {
+      "id": 3234322879,
+      "number": 667,
+      "title": "Fix Windows Docker build failure for PyTorch installation",
+      "state": "created"
+    },
+    {
+      "id": 3226501945,
+      "number": 660,
+      "title": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3214153971,
+      "number": 642,
+      "title": "[GitHub Actions] main ブランチにマージされたコードを Azure に deploy する",
+      "state": "updated"
+    }
+  ]
+}
