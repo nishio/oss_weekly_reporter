@@ -1,0 +1,161 @@
+{
+  "period": {
+    "start": "2025-07-23T12:37:34.605167+09:00",
+    "end": "2025-07-30T12:37:34.605167+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3258237357,
+      "number": 673,
+      "title": "[REFACTOR] Talk to the City にあったカテゴリー分類処理の要否",
+      "state": "closed"
+    },
+    {
+      "id": 3184487887,
+      "number": 617,
+      "title": "[FEATURE] 意見グループの並び順を意見数の降順で表示する",
+      "state": "closed"
+    },
+    {
+      "id": 3054278174,
+      "number": 475,
+      "title": "[REFACTOR] envのUSE_AZUREを剥がす",
+      "state": "closed"
+    },
+    {
+      "id": 2981408440,
+      "number": 267,
+      "title": "[FEATURE] 全画面表示を dialog として実装する",
+      "state": "closed"
+    },
+    {
+      "id": 3271667129,
+      "number": 682,
+      "title": "[BUG] main へマージ時に DD2030 の azure 環境へのデプロイが失敗する",
+      "state": "created"
+    },
+    {
+      "id": 3266981229,
+      "number": 681,
+      "title": "[FEATURE] APIの接続チェック機能でユーザー入力APIキーもチェックできるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3266463844,
+      "number": 679,
+      "title": "[FEATURE] 集まった意見を任意のカテゴリーで分類できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 3211692132,
+      "number": 640,
+      "title": "[FEATURE]onChangeでの自動修正が入力の妨げになる",
+      "state": "updated"
+    },
+    {
+      "id": 3211663840,
+      "number": 638,
+      "title": "[FEATURE]濃い意見ビュー改善案",
+      "state": "updated"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3124820934,
+      "number": 594,
+      "title": "[FEATURE] .env 書き換えた際に Docker build を忘れやすい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3266941786,
+      "number": 680,
+      "title": "Bump form-data from 4.0.2 to 4.0.4 in /client",
+      "state": "merged"
+    },
+    {
+      "id": 3266447971,
+      "number": 678,
+      "title": "使われていないカテゴリー分類処理の削除",
+      "state": "merged"
+    },
+    {
+      "id": 3259327959,
+      "number": 674,
+      "title": "[client/client-admin] 意見グループの並び順を意見数の降順にする",
+      "state": "merged"
+    },
+    {
+      "id": 3255318031,
+      "number": 672,
+      "title": "[FEATURE] 全画面表示を dialog として実装する",
+      "state": "merged"
+    },
+    {
+      "id": 3252792337,
+      "number": 671,
+      "title": "[REFACTOR] envのUSE_AZUREを剥がす",
+      "state": "merged"
+    },
+    {
+      "id": 3251213640,
+      "number": 670,
+      "title": "Bump form-data from 4.0.2 to 4.0.4 in /client-admin",
+      "state": "merged"
+    },
+    {
+      "id": 3245064835,
+      "number": 668,
+      "title": "[client-admin] 意見グループ編集の fetch を Server Functions で実行する",
+      "state": "merged"
+    },
+    {
+      "id": 3214153971,
+      "number": 642,
+      "title": "[GitHub Actions] main ブランチにマージされたコードを Azure に deploy する",
+      "state": "merged"
+    },
+    {
+      "id": 3265375785,
+      "number": 677,
+      "title": "[FEATURE]onChangeでの自動修正が入力の妨げになる",
+      "state": "created"
+    },
+    {
+      "id": 3263050623,
+      "number": 676,
+      "title": "[client-admin] レポート作成のリクエストを Server Functions で実行する",
+      "state": "created"
+    },
+    {
+      "id": 3261818365,
+      "number": 675,
+      "title": "Makefile 利用時に .env の自動更新を行う",
+      "state": "created"
+    },
+    {
+      "id": 3234322879,
+      "number": 667,
+      "title": "Fix Windows Docker build failure for PyTorch installation",
+      "state": "updated"
+    },
+    {
+      "id": 3226501945,
+      "number": 660,
+      "title": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3055084182,
+      "number": 481,
+      "title": "[WIP] [実験]軸の性質を推定し、プロット時に軸情報を表示する",
+      "state": "updated"
+    }
+  ]
+}

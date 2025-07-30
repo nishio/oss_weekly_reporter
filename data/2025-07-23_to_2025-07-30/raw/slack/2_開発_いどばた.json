@@ -1,0 +1,4533 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753258152.477449",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1753258347.000000"
+    },
+    "client_msg_id": "c0c82227-6875-4d0d-a2c8-374d607284c4",
+    "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "reply_count": 11,
+    "reply_users_count": 3,
+    "latest_reply": "1753763480.758859",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08G2A216TW",
+      "U097KN7URN1"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MBlsg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "たくさん来た提案の優先順位付の仕組みがない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "投票？Quadratic Voting？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753405629.484319",
+    "client_msg_id": "5f9500c9-281b-4838-919c-ae3ae1762748",
+    "text": "1. プルリクを作る際に\n    a. 相当の内容をDBにも入れておく\n    b. 既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする\n2. プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n3. 「提案中の意見」一覧画面をDBから生成\nとりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s9vAY",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プルリクを作る際に"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "相当の内容をDBにも入れておく"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「提案中の意見」一覧画面をDBから生成"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "offset": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "1. プルリクを作る際に\n    a. 相当の内容をDBにも入れておく\n    b. 既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする\n2. プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n3. 「提案中の意見」一覧画面をDBから生成\nとりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753405650.629459",
+    "client_msg_id": "4b8b3da0-2ac0-4ff8-82dc-fcddf67bd3ba",
+    "text": "&gt;  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\nこれはどういう方向で解決可能なんですかね？アイデアが湧かない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zU3+g",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはどういう方向で解決可能なんですかね？アイデアが湧かない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\nこれはどういう方向で解決可能なんですかね？アイデアが湧かない"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753405826.105109",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1753405924.000000"
+    },
+    "client_msg_id": "56a8234d-464b-4b1f-b594-c782e26b3243",
+    "text": "AI トークン周りは今どうなってるのかよくわからない、OpenRouter に課金していてそれが limit ?\n\n>  予算承認の遅い組織では問題大きくなりそう\n何が必要なんだろう、消費額、残額の可視化？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G5gUW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AI トークン周りは今どうなってるのかよくわからない、OpenRouter に課金していてそれが limit ?\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 予算承認の遅い組織では問題大きくなりそう"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何が必要なんだろう、消費額、残額の可視化？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "AI トークン周りは今どうなってるのかよくわからない、OpenRouter に課金していてそれが limit ?\n\n>  予算承認の遅い組織では問題大きくなりそう\n何が必要なんだろう、消費額、残額の可視化？"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1753258152.477449",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1753258152.477449",
+      "edited": {
+        "user": "U08G2A216TW",
+        "ts": "1753258347.000000"
+      },
+      "client_msg_id": "c0c82227-6875-4d0d-a2c8-374d607284c4",
+      "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1753258152.477449",
+      "reply_count": 11,
+      "reply_users_count": 3,
+      "latest_reply": "1753763480.758859",
+      "reply_users": [
+        "U08JASQKEEM",
+        "U08G2A216TW",
+        "U097KN7URN1"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MBlsg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "たくさん来た提案の優先順位付の仕組みがない"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "投票？Quadratic Voting？"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1753722161.045019",
+    "client_msg_id": "39ed295b-5d15-4b89-bc87-f8ffb45a51b7",
+    "text": "&gt;&gt;  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n&gt; これはどういう方向で解決可能なんですかね？アイデアが湧かない\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは<https://scrapbox.io/nishio/Your_Priorities|Your Priorities>をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/Your_Priorities",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/d566903fbcc1b957b23371b0bb3be006/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 872,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/Your_Priorities",
+        "fallback": "西尾泰和の外部脳: Your Priorities - 西尾泰和の外部脳",
+        "text": "<https://www.yrpri.org/post/26494> gptYour Prioritiesは、市民参加型の意思決定プラットフォームで、アイスランドの非営利団体Citizens Foundationによって開発されたオープンソースソフトウェア（OSS）です。このプラットフォームは、民主的な議論や提案の収集、優先順位付けを目的として設計されています。 主な機能 提案と議論: 市民が提案を",
+        "title": "Your Priorities - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/Your_Priorities",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n6LnW",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+              }
+            ],
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはどういう方向で解決可能なんですかね？アイデアが湧かない"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/Your_Priorities",
+                "text": "Your Priorities"
+              },
+              {
+                "type": "text",
+                "text": "をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ">>  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n> これはどういう方向で解決可能なんですかね？アイデアが湧かない\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは<https://scrapbox.io/nishio/Your_Priorities|Your Priorities>をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。"
+  },
+  {
+    "user": "U097KN7URN1",
+    "type": "message",
+    "ts": "1753755093.237949",
+    "client_msg_id": "a352e05a-c208-4567-b492-47037640ddc2",
+    "text": "外野からすみません。\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\nについては、githubのpull requstのコメントにreactionsプロパティがあるのでマニフェストのヘッダーに別タブを用意してプルリクエストを一覧表示させ、コメントへのReactionsを（「いいね」のように）集められるようにしたらいいのではないかと思いました。\n\n同様に、\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出\nは別タブでdiscussionsの一覧を用意してブログのようにユーザに投稿させるのがいいのではないかなと思いました。\n\n現在開発中の<https://vtaiwan.pages.dev/blogs|vue.vtaiwan.neo>にはブログの機能（おそらくfirebaseで管理されている）があるので需要はあるのだと思います。\n\nコンフリクトの問題は難しいですが、制限を加えたgithubのtokenを公開すればデータベースもオープンソースにできるので、githubを完全にBaaSとして使う手法は面白いと勝手ながら思っています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "image_url": "https://vtaiwan.pages.dev/og-image.png",
+        "image_width": 1024,
+        "image_height": 1040,
+        "image_bytes": 186065,
+        "from_url": "https://vtaiwan.pages.dev/blogs",
+        "service_icon": "https://vtaiwan.pages.dev/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://vtaiwan.pages.dev/blogs",
+        "fallback": "vTaiwan: vTaiwan - 公共政策開放協作",
+        "text": "vTaiwan 是台灣的公共政策開放協作平台，致力於促進政府與公民之間的對話，讓每個人都能參與公共政策的形成過程。",
+        "title": "vTaiwan - 公共政策開放協作",
+        "title_link": "https://vtaiwan.pages.dev/blogs",
+        "service_name": "vTaiwan"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JcshH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "外野からすみません。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "たくさん来た提案の優先順位付の仕組みがない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "投票？Quadratic Voting？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "については、githubのpull requstのコメントにreactionsプロパティがあるのでマニフェストのヘッダーに別タブを用意してプルリクエストを一覧表示させ、コメントへのReactionsを（「いいね」のように）集められるようにしたらいいのではないかと思いました。\n\n同様に、\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出\nは別タブでdiscussionsの一覧を用意してブログのようにユーザに投稿させるのがいいのではないかなと思いました。\n\n現在開発中の"
+              },
+              {
+                "type": "link",
+                "url": "https://vtaiwan.pages.dev/blogs",
+                "text": "vue.vtaiwan.neo",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "にはブログの機能（おそらくfirebaseで管理されている）があるので需要はあるのだと思います。\n\nコンフリクトの問題は難しいですが、制限を加えたgithubのtokenを公開すればデータベースもオープンソースにできるので、githubを完全にBaaSとして使う手法は面白いと勝手ながら思っています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "U097KN7URN1",
+    "text_readable": "外野からすみません。\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\nについては、githubのpull requstのコメントにreactionsプロパティがあるのでマニフェストのヘッダーに別タブを用意してプルリクエストを一覧表示させ、コメントへのReactionsを（「いいね」のように）集められるようにしたらいいのではないかと思いました。\n\n同様に、\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出\nは別タブでdiscussionsの一覧を用意してブログのようにユーザに投稿させるのがいいのではないかなと思いました。\n\n現在開発中の<https://vtaiwan.pages.dev/blogs|vue.vtaiwan.neo>にはブログの機能（おそらくfirebaseで管理されている）があるので需要はあるのだと思います。\n\nコンフリクトの問題は難しいですが、制限を加えたgithubのtokenを公開すればデータベースもオープンソースにできるので、githubを完全にBaaSとして使う手法は面白いと勝手ながら思っています。"
+  },
+  {
+    "user": "U097KN7URN1",
+    "type": "message",
+    "ts": "1753762738.597749",
+    "client_msg_id": "c7802fd3-4583-41c6-a7a0-b522e17228de",
+    "text": "pull request と連携しやすくトップダウン型（マニフェストや法案へのpull requesstが前提でそれが期待されている）なgithub discussionとは別でボトムアップでよりナチュラルな声を聞くと言う観点ならat protocol（Bluesky）かmastodonのAPIを活用し「特定のハッシュタグを集める」と言うだけでいいかもしれません。分散型SNSのユーザを広げる一助にもなるのかなと。（完全に開発中のvtaiwan.nueのパクリです。）\n\n初学者なので見えてない点が多いと思うし、勝手なこと言ってしまってすみません。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tZUyl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "pull request と連携しやすくトップダウン型（マニフェストや法案へのpull requesstが前提でそれが期待されている）なgithub discussionとは別でボトムアップでよりナチュラルな声を聞くと言う観点ならat protocol（Bluesky）かmastodonのAPIを活用し「特定のハッシュタグを集める」と言うだけでいいかもしれません。分散型SNSのユーザを広げる一助にもなるのかなと。（完全に開発中のvtaiwan.nueのパクリです。）\n\n初学者なので見えてない点が多いと思うし、勝手なこと言ってしまってすみません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "U097KN7URN1",
+    "text_readable": "pull request と連携しやすくトップダウン型（マニフェストや法案へのpull requesstが前提でそれが期待されている）なgithub discussionとは別でボトムアップでよりナチュラルな声を聞くと言う観点ならat protocol（Bluesky）かmastodonのAPIを活用し「特定のハッシュタグを集める」と言うだけでいいかもしれません。分散型SNSのユーザを広げる一助にもなるのかなと。（完全に開発中のvtaiwan.nueのパクリです。）\n\n初学者なので見えてない点が多いと思うし、勝手なこと言ってしまってすみません。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753762911.304559",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1753762924.000000"
+    },
+    "client_msg_id": "b24b442c-60a6-4093-9f41-00440df19cea",
+    "text": ">  githubを完全にBaaSとして使う手法は面白い\nAIとかでまるっと処理したい時に「全てのプルリクをまとめて取得する」のような処理がgithub のAPI仕様上難しい、というのが問題にあがっています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DuggN",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " githubを完全にBaaSとして使う手法は面白い"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIとかでまるっと処理したい時に「全てのプルリクをまとめて取得する」のような処理がgithub のAPI仕様上難しい、というのが問題にあがっています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  githubを完全にBaaSとして使う手法は面白い\nAIとかでまるっと処理したい時に「全てのプルリクをまとめて取得する」のような処理がgithub のAPI仕様上難しい、というのが問題にあがっています。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753762970.899679",
+    "client_msg_id": "164a45dc-2d6e-4685-93ce-9218b9f10daf",
+    "text": "そのために、別途DBを持ってユーザーからの提案をまずそちらに保存する、というのは最低限必要となります。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Frvz1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そのために、別途DBを持ってユーザーからの提案をまずそちらに保存する、というのは最低限必要となります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "そのために、別途DBを持ってユーザーからの提案をまずそちらに保存する、というのは最低限必要となります。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753763086.220459",
+    "client_msg_id": "4ee1444f-7b76-4184-b8bb-ec0e310f935c",
+    "text": "で、そうした場合、逆に github のどの機能を利用するか？という話になりますね。git によるバージョン管理とプルリクはgithub を使う (ただし使用するのは運営サイドのみ) として、それ以外の部分は無理に github の機能を利用しなくても良いかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vobFq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "で、そうした場合、逆に github のどの機能を利用するか？という話になりますね。git によるバージョン管理とプルリクはgithub を使う (ただし使用するのは運営サイドのみ) として、それ以外の部分は無理に github の機能を利用しなくても良いかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "で、そうした場合、逆に github のどの機能を利用するか？という話になりますね。git によるバージョン管理とプルリクはgithub を使う (ただし使用するのは運営サイドのみ) として、それ以外の部分は無理に github の機能を利用しなくても良いかも。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753763367.770049",
+    "client_msg_id": "b1b25b68-956f-4864-96b1-1f916fa3b8be",
+    "text": "&gt;  「特定のハッシュタグを集める」\nこの辺はビジョンとしてはあって\n<https://docs.google.com/presentation/d/1etZjpfj9v59NW5REC4bOv4QwVq_ApZMFDMQZqPDHb8Q/edit?slide=id.g342152f012a_13_288#slide=id.g342152f012a_13_288>\nこの大きな絵の中の部分部分が実装されているような状況のようです。公聴ai とidobata の関係性とか全体像は私もまだよく分かってません。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PZNZq",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 「特定のハッシュタグを集める」"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この辺はビジョンとしてはあって\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/presentation/d/1etZjpfj9v59NW5REC4bOv4QwVq_ApZMFDMQZqPDHb8Q/edit?slide=id.g342152f012a_13_288#slide=id.g342152f012a_13_288"
+              },
+              {
+                "type": "text",
+                "text": "\nこの大きな絵の中の部分部分が実装されているような状況のようです。公聴ai とidobata の関係性とか全体像は私もまだよく分かってません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  「特定のハッシュタグを集める」\nこの辺はビジョンとしてはあって\n<https://docs.google.com/presentation/d/1etZjpfj9v59NW5REC4bOv4QwVq_ApZMFDMQZqPDHb8Q/edit?slide=id.g342152f012a_13_288#slide=id.g342152f012a_13_288>\nこの大きな絵の中の部分部分が実装されているような状況のようです。公聴ai とidobata の関係性とか全体像は私もまだよく分かってません。"
+  },
+  {
+    "user": "U097KN7URN1",
+    "type": "message",
+    "ts": "1753763480.758859",
+    "client_msg_id": "a74fa225-0bc6-43bd-9201-066586370edc",
+    "text": "DBに関して、めちゃくちゃごもっともな意見だと思います。一応、LLMに聞いてみたら、「データが送られた時、都度処理してデータベースに送ったり、AIで分析したりするgithu actions」を作ると言う代替案を出されました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753258152.477449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gJF7W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DBに関して、めちゃくちゃごもっともな意見だと思います。一応、LLMに聞いてみたら、「データが送られた時、都度処理してデータベースに送ったり、AIで分析したりするgithu actions」を作ると言う代替案を出されました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753258152.477449",
+    "user_name": "U097KN7URN1",
+    "text_readable": "DBに関して、めちゃくちゃごもっともな意見だと思います。一応、LLMに聞いてみたら、「データが送られた時、都度処理してデータベースに送ったり、AIで分析したりするgithu actions」を作ると言う代替案を出されました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753258546.662609",
+    "client_msg_id": "a0a1993f-b396-403a-bbdc-4fb3b844803b",
+    "text": "自分は１５件くらい放り込んで、１件マニュフェストにマージされたからまだ良かったんですが、\nそれでも、その情報もGithubを監視していないとわからないし、どれが自分の投稿かは名前が載るかどうかは井戸端の気まぐれで、「放置された」感が酷かった\n１件のマージがなかったら、チームみらいに失望していたと思う。（１件しか放り込んでない人は大体失望することになる）\nなので、放り込んだ情報がどのように処理されたのかをユーザに戻してあげないといけないだろうなぁとは思います。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kf/Oe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自分は１５件くらい放り込んで、１件マニュフェストにマージされたからまだ良かったんですが、\nそれでも、その情報もGithubを監視していないとわからないし、どれが自分の投稿かは名前が載るかどうかは井戸端の気まぐれで、「放置された」感が酷かった\n１件のマージがなかったら、チームみらいに失望していたと思う。（１件しか放り込んでない人は大体失望することになる）\nなので、放り込んだ情報がどのように処理されたのかをユーザに戻してあげないといけないだろうなぁとは思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "自分は１５件くらい放り込んで、１件マニュフェストにマージされたからまだ良かったんですが、\nそれでも、その情報もGithubを監視していないとわからないし、どれが自分の投稿かは名前が載るかどうかは井戸端の気まぐれで、「放置された」感が酷かった\n１件のマージがなかったら、チームみらいに失望していたと思う。（１件しか放り込んでない人は大体失望することになる）\nなので、放り込んだ情報がどのように処理されたのかをユーザに戻してあげないといけないだろうなぁとは思います。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753261224.100839",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eXG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1753262087.291009",
+    "client_msg_id": "F8B2240D-27CD-462C-A353-F44A743C90EF",
+    "text": "めちゃくちゃ興味深い分析\n<https://x.com/tdualdir/status/1947850534226215143?s=46&amp;t=Gkwm-Je9FYRpAicifCz40A|https://x.com/tdualdir/status/1947850534226215143?s=46&amp;t=Gkwm-Je9FYRpAicifCz40A>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1753319126.109229",
+    "reply_users": [
+      "U08FTAEETAB",
+      "U08J66CBKKJ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1946487296707985409/C4mrGNhr_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/tdualdir/status/1947850534226215143?s=46&amp;t=Gkwm-Je9FYRpAicifCz40A",
+        "fallback": "X (formerly Twitter): tdual(ティーデュアル)@MatrixFlow (@tdualdir) on X",
+        "text": "チームみらいの政策PR 9,000件をAIエージェントに分析させてみました！:rocket:\n\nわかったこと：\n・市民が「文句言う人」から「一緒に作る人」に変わってた。\n・医療も教育も地方創生も、みんなで解決策を考える時代。\n\nこれが新しい民主主義の形なのか。\n\nレポート↓\n<https://t.co/8ZkCEyzmPq>",
+        "title": "tdual(ティーデュアル)@MatrixFlow (@tdualdir) on X",
+        "title_link": "https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZLYR4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "めちゃくちゃ興味深い分析\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A",
+                "text": "https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HV1H5HKK"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "K",
+    "text_readable": "めちゃくちゃ興味深い分析\n<https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A|https://x.com/tdualdir/status/1947850534226215143?s=46&t=Gkwm-Je9FYRpAicifCz40A>"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753268100.570259",
+    "client_msg_id": "39bd03ac-6794-47cb-adb7-fecc26f4c7fa",
+    "text": "<@U08J66CBKKJ>\nこれ、良い事例なので筆者の方に声をかけて、DDの事例ページから引用させていただくのがいいのではないか、という話が出たのだけどどう思う？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2h9eK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J66CBKKJ"
+              },
+              {
+                "type": "text",
+                "text": "\nこれ、良い事例なので筆者の方に声をかけて、DDの事例ページから引用させていただくのがいいのではないか、という話が出たのだけどどう思う？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "jujunjun110",
+    "text_readable": "@k0414sailor\nこれ、良い事例なので筆者の方に声をかけて、DDの事例ページから引用させていただくのがいいのではないか、という話が出たのだけどどう思う？"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1753275304.953169",
+    "client_msg_id": "13AEB923-960B-44CE-BE52-5CF258C54A2B",
+    "text": "めちゃ良いと思う！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JzkwS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "めちゃ良いと思う！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "K",
+    "text_readable": "めちゃ良いと思う！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753276318.809779",
+    "client_msg_id": "FDD65A32-55CD-4100-B17A-1E6CACF21F39",
+    "text": "<@U08J66CBKKJ> \nせらがdd2030のTwitterアカウント持ってる認識なのだけど、せらのほうから一言コミュニケーションとってもらうことって可能？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d9l1X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J66CBKKJ"
+              },
+              {
+                "type": "text",
+                "text": " \nせらが"
+              },
+              {
+                "type": "text",
+                "text": "dd2030の"
+              },
+              {
+                "type": "text",
+                "text": "Twitterアカウント持ってる認識なのだけど、"
+              },
+              {
+                "type": "text",
+                "text": "せらのほうから一言コミュニケーションとってもらうことって可能？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08J66CBKKJ"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "jujunjun110",
+    "text_readable": "@k0414sailor \nせらがdd2030のTwitterアカウント持ってる認識なのだけど、せらのほうから一言コミュニケーションとってもらうことって可能？"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1753277386.326019",
+    "client_msg_id": "F7893FDA-7410-4601-9FEC-28ADF705B830",
+    "text": "おけです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2YZMU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おけです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "K",
+    "text_readable": "おけです！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753277941.322059",
+    "client_msg_id": "F6E33081-2C6C-47CC-83A4-3F5FE88BA5DD",
+    "text": "ありがとう！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VZ3CL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとう！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "jujunjun110",
+    "text_readable": "ありがとう！！"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1753319126.109229",
+    "client_msg_id": "28D6E1AF-99D1-4EC9-B956-1179ECEE4872",
+    "text": "OKもらった！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753262087.291009",
+    "parent_user_id": "U08J66CBKKJ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "usBeb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OKもらった！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753262087.291009",
+    "user_name": "K",
+    "text_readable": "OKもらった！"
+  },
+  {
+    "user": "U08GXFFJLTA",
+    "type": "message",
+    "ts": "1753262154.569309",
+    "client_msg_id": "4E69F07E-5D2E-45B7-8643-67B6CD8ADF50",
+    "text": "tdualさんだ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UW5d0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "tdualさんだ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "稲原宗能",
+    "text_readable": "tdualさんだ"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753264201.260189",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5ig=Q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753342059.781909",
+    "client_msg_id": "384cb09c-ad80-44ee-9e7a-9e998e8de11c",
+    "text": "<https://policy.team-mir.ai/view/README.md>\nで実稼働していた「いどばた政策 (policy_edit)」は実際触ってコードも読んだので大体掴めたのですが、ここから作成されたプルリクが\n「いどばたビジョン (idea-discussion)」のどこかの稼働インスタンス上で見えていた、のですか？",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://tibsocpjqvxxipszbwui.supabase.co/storage/v1/object/public/assets/idobata-policy-ogp.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 905274,
+        "from_url": "https://policy.team-mir.ai/view/README.md",
+        "service_icon": "https://team-mir.ai/favicon/favicon.ico",
+        "id": 1,
+        "original_url": "https://policy.team-mir.ai/view/README.md",
+        "fallback": "チームみらい マニフェストver.1.0",
+        "text": "チームみらいの掲げるマニフェストをご覧いただけます。「しゃべれるマニフェスト」として、チャットで政策について質問したり、AIとともにまとめた改善提案を送ることができます。",
+        "title": "チームみらい マニフェストver.1.0",
+        "title_link": "https://policy.team-mir.ai/view/README.md",
+        "service_name": "policy.team-mir.ai"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "38d9k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://policy.team-mir.ai/view/README.md"
+              },
+              {
+                "type": "text",
+                "text": "\nで実稼働していた「いどばた政策 (policy_edit)」は実際触ってコードも読んだので大体掴めたのですが、ここから作成されたプルリクが\n「いどばたビジョン (idea-discussion)」のどこかの稼働インスタンス上で見えていた、のですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://policy.team-mir.ai/view/README.md>\nで実稼働していた「いどばた政策 (policy_edit)」は実際触ってコードも読んだので大体掴めたのですが、ここから作成されたプルリクが\n「いどばたビジョン (idea-discussion)」のどこかの稼働インスタンス上で見えていた、のですか？"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1753343044.286679",
+    "client_msg_id": "74c07300-ddc6-4570-a6fd-b08a85b90967",
+    "text": "policy-editとidea-discussionは独立して動いていました。特にデータの連携などもありませんでした。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753343044.286679",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1753346166.890459",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rw9q0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "policy-editとidea-discussionは独立して動いていました。特にデータの連携などもありませんでした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "policy-editとidea-discussionは独立して動いていました。特にデータの連携などもありませんでした。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753344772.205909",
+    "client_msg_id": "5f68343d-5373-469d-99da-bf940e4e68a7",
+    "text": "チームみらいで使われていた「いどばた」は policy_edit だけ、という理解であってます？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753343044.286679",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vRxeW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チームみらいで使われていた「いどばた」は policy_edit だけ、という理解であってます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753343044.286679",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "チームみらいで使われていた「いどばた」は policy_edit だけ、という理解であってます？"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1753346166.890459",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1753346196.000000"
+    },
+    "client_msg_id": "fe0c5d13-778a-47e7-9ca3-0541c9a7fe70",
+    "text": "<https://dd2030.org/case/idobata>\nいどばたビジョン（idea-discussion）も配信やオフラインインベトで試験運用していました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753343044.286679",
+    "parent_user_id": "U08GJSBAX3K",
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1200,
+        "image_height": 840,
+        "image_bytes": 22781,
+        "from_url": "https://dd2030.org/case/idobata",
+        "service_icon": "https://dd2030.org/apple-icon.png?10e1927b48f6048d",
+        "id": 1,
+        "original_url": "https://dd2030.org/case/idobata",
+        "fallback": "デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトポータルサイト",
+        "title": "デジタル民主主義2030",
+        "title_link": "https://dd2030.org/case/idobata",
+        "service_name": "dd2030.org"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BP0w/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.org/case/idobata"
+              },
+              {
+                "type": "text",
+                "text": "\nいどばたビジョン（idea-discussion）も配信やオフラインインベトで試験運用していました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753343044.286679",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://dd2030.org/case/idobata>\nいどばたビジョン（idea-discussion）も配信やオフラインインベトで試験運用していました。"
+  },
+  {
+    "text": "<@U08PMMXPVTN>\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？",
+    "files": [
+      {
+        "id": "F097ZG2QTGQ",
+        "created": 1753368895,
+        "timestamp": 1753368895,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 124096,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 352,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 469,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 704,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 782,
+        "original_w": 810,
+        "original_h": 792,
+        "thumb_tiny": "AwAvADDQBJ4FLhvUUifepXYqMgUwDDeoow3qKFb5Mk/jRzzz260CFw3rSEkdaUZBpHpAIn3qecY56e9MT71OJPYE/SgYbge4pCyElSwz6Z5/zzSHd2LdD0x/n/PNOIPPzEZ78cUAAZcnBHvzSPQwYjILLjPAxzQ9ACJ96kYMXwAu0cglc8/nQMg5FOy3oKYDRGwOR5YOMcJ29OtOG7bzjd9On60Zb0FGW9KQAm7GXx9MYx+poejJ9KQ5NAj/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097ZG2QTGQ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097ZG2QTGQ-48f4b07c24",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08FTAEETAB",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1nBfz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08PMMXPVTN"
+              },
+              {
+                "type": "text",
+                "text": "\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1753368924.909119",
+    "client_msg_id": "4f97cc78-fc0b-4dda-92b4-e94bcff8d109",
+    "thread_ts": "1753368924.909119",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1753370252.926059",
+    "reply_users": [
+      "U08FTAEETAB",
+      "U08PMMXPVTN"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "@hello.utako\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？"
+  },
+  {
+    "text": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！",
+    "files": [
+      {
+        "id": "F096W0GEKAB",
+        "created": 1753369053,
+        "timestamp": 1753369053,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 748236,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F096W0GEKAB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F096W0GEKAB/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 185,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 247,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 371,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 412,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 494,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 527,
+        "original_w": 4318,
+        "original_h": 2224,
+        "thumb_tiny": "AwAZADDT/Gj8abvHvShgaAF/Gj8aM+xoz7GgA/GjFIWx1Bo3D3oATApD8oJCkn0Bp9FADQSf4WHTuKG3fwgH6tinUUANxRgU6igD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F096W0GEKAB/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F096W0GEKAB-33dd3b59ec",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F097CCBV8KE",
+        "created": 1753369101,
+        "timestamp": 1753369101,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 306765,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097CCBV8KE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097CCBV8KE/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_360.png",
+        "thumb_360_w": 160,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_480.png",
+        "thumb_480_w": 213,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_720.png",
+        "thumb_720_w": 320,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_960.png",
+        "thumb_960_w": 427,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_1024.png",
+        "thumb_1024_w": 455,
+        "thumb_1024_h": 1024,
+        "original_w": 952,
+        "original_h": 2142,
+        "thumb_tiny": "AwAwABa9IUGAxccnABPNO81OOcZ6Zp2cLkkflSbucUBoKDk0tISQKbuNADh0H0paTH1qJplWQJtkJJwCBx+dAErdKZTyKTApiEZmBwqE8Z9vpTvmyeBikKhipI+6cilUKOFAGOw7UhhyVGRg+lFBooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097CCBV8KE/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097CCBV8KE-bd682bdba2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F097BEUBAAE",
+        "created": 1753369110,
+        "timestamp": 1753369110,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 240777,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097BEUBAAE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097BEUBAAE/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_360.png",
+        "thumb_360_w": 162,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_480.png",
+        "thumb_480_w": 216,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_720.png",
+        "thumb_720_w": 324,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1776,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_960.png",
+        "thumb_960_w": 432,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_1024.png",
+        "thumb_1024_w": 461,
+        "thumb_1024_h": 1024,
+        "original_w": 964,
+        "original_h": 2140,
+        "thumb_tiny": "AwAwABZ7FcjJOe2DVyA5hUj3/nVTPGTVqJcxLgkHnkY96AJaKKKAKHpzjircH+pXnNVcVag/1K/j/OgCSiiigCgSR0GePWrkH+qWqvlscfKeParMACxBcYI7UASUUUUAf//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097BEUBAAE/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097BEUBAAE-297944f1d0",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lVCiw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "text": "<@U08PMMXPVTN>\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？",
+      "files": [
+        {
+          "id": "F097ZG2QTGQ",
+          "created": 1753368895,
+          "timestamp": 1753368895,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08FTAEETAB",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 124096,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 352,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 469,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 704,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 782,
+          "original_w": 810,
+          "original_h": 792,
+          "thumb_tiny": "AwAvADDQBJ4FLhvUUifepXYqMgUwDDeoow3qKFb5Mk/jRzzz260CFw3rSEkdaUZBpHpAIn3qecY56e9MT71OJPYE/SgYbge4pCyElSwz6Z5/zzSHd2LdD0x/n/PNOIPPzEZ78cUAAZcnBHvzSPQwYjILLjPAxzQ9ACJ96kYMXwAu0cglc8/nQMg5FOy3oKYDRGwOR5YOMcJ29OtOG7bzjd9On60Zb0FGW9KQAm7GXx9MYx+poejJ9KQ5NAj/2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097ZG2QTGQ/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F097ZG2QTGQ-48f4b07c24",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08FTAEETAB",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1nBfz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08PMMXPVTN"
+                },
+                {
+                  "type": "text",
+                  "text": "\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1753368924.909119",
+      "client_msg_id": "4f97cc78-fc0b-4dda-92b4-e94bcff8d109",
+      "thread_ts": "1753368924.909119",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1753370252.926059",
+      "reply_users": [
+        "U08FTAEETAB",
+        "U08PMMXPVTN"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1753369133.199799",
+    "client_msg_id": "aee14675-dc16-4b41-b3b3-0367b7dd18a0",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "reactions": [
+      {
+        "name": "神",
+        "users": [
+          "U08PMMXPVTN",
+          "U08NN8A6P9D",
+          "U096VK0FHV1"
+        ],
+        "count": 3
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "clap",
+        "users": [
+          "U08PMMXPVTN",
+          "U08H3V9KMFH",
+          "U08NN8A6P9D"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "jujunjun110",
+    "text_readable": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753369302.228609",
+    "client_msg_id": "c9b89566-fbcc-4731-b9da-41a5e3c48e82",
+    "text": "PC版のFooterの文字列の左右揃えが合っていないことに気づいたので修正します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Cmpyx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PC版のFooterの文字列の左右揃えが合っていないことに気づいたので修正します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "jujunjun110",
+    "text_readable": "PC版のFooterの文字列の左右揃えが合っていないことに気づいたので修正します"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1753369530.711159",
+    "client_msg_id": "b42d5b77-bb8b-4c20-8c7b-562d3b7ca813",
+    "text": "メモ：\nFigma上でテキスト会話をし、いどばたビジョンでは元のプロダクトがないため謝辞ボタントルツメ、に決定。\n（広聴AIはTTTCを元にしていたのでOSS文化で謝辞があった）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3bKu3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ：\nFigma上でテキスト会話をし、いどばたビジョンでは元のプロダクトがないため謝辞ボタントルツメ、に決定。\n（広聴AIはTTTCを元にしていたのでOSS文化で謝辞があった）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "メモ：\nFigma上でテキスト会話をし、いどばたビジョンでは元のプロダクトがないため謝辞ボタントルツメ、に決定。\n（広聴AIはTTTCを元にしていたのでOSS文化で謝辞があった）"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753369623.046179",
+    "edited": {
+      "user": "U08FTAEETAB",
+      "ts": "1753369650.000000"
+    },
+    "client_msg_id": "42c2fcd1-4d3a-433f-8748-f7924431bd7b",
+    "text": "↑ちなみに自分コーディング箇所ゼロで、全部AI（RooCode + figma MCP）がやってくれました。\n※審美眼はまだAIはあまり持ってないので、自然言語によるディレクションは結構自分でやってます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "h+Zhe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑ちなみに自分コーディング箇所ゼロで、全部AI（RooCode + figma MCP）がやってくれました。\n※審美眼はまだAIはあまり持ってないので、自然言語によるディレクションは結構自分でやってます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "jujunjun110",
+    "text_readable": "↑ちなみに自分コーディング箇所ゼロで、全部AI（RooCode + figma MCP）がやってくれました。\n※審美眼はまだAIはあまり持ってないので、自然言語によるディレクションは結構自分でやってます。"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1753370039.207759",
+    "client_msg_id": "33d35f26-97ef-4ab1-b7b4-77de4f19b5e7",
+    "text": "えええそうなんですか..!!! その方法私も習得したいです。RooCodeというのを調べてみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bTUZ6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "えええそうなんですか..!!! その方法私も習得したいです。RooCodeというのを調べてみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08FTAEETAB"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "えええそうなんですか..!!! その方法私も習得したいです。RooCodeというのを調べてみます！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753370252.926059",
+    "client_msg_id": "eadb29df-af5f-4223-b209-9ec30149de56",
+    "text": "分からなかったら何でも聞いて下さい！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "02vhb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分からなかったら何でも聞いて下さい！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "神",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753368924.909119",
+    "user_name": "jujunjun110",
+    "text_readable": "分からなかったら何でも聞いて下さい！"
+  },
+  {
+    "text": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！",
+    "files": [
+      {
+        "id": "F096W0GEKAB",
+        "created": 1753369053,
+        "timestamp": 1753369053,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 748236,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F096W0GEKAB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F096W0GEKAB/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 185,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 247,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 371,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 412,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 494,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F096W0GEKAB-66db873df3/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 527,
+        "original_w": 4318,
+        "original_h": 2224,
+        "thumb_tiny": "AwAZADDT/Gj8abvHvShgaAF/Gj8aM+xoz7GgA/GjFIWx1Bo3D3oATApD8oJCkn0Bp9FADQSf4WHTuKG3fwgH6tinUUANxRgU6igD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F096W0GEKAB/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F096W0GEKAB-33dd3b59ec",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F097CCBV8KE",
+        "created": 1753369101,
+        "timestamp": 1753369101,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 306765,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097CCBV8KE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097CCBV8KE/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_360.png",
+        "thumb_360_w": 160,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_480.png",
+        "thumb_480_w": 213,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_720.png",
+        "thumb_720_w": 320,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_960.png",
+        "thumb_960_w": 427,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F097CCBV8KE-2b29fbae46/image_1024.png",
+        "thumb_1024_w": 455,
+        "thumb_1024_h": 1024,
+        "original_w": 952,
+        "original_h": 2142,
+        "thumb_tiny": "AwAwABa9IUGAxccnABPNO81OOcZ6Zp2cLkkflSbucUBoKDk0tISQKbuNADh0H0paTH1qJplWQJtkJJwCBx+dAErdKZTyKTApiEZmBwqE8Z9vpTvmyeBikKhipI+6cilUKOFAGOw7UhhyVGRg+lFBooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097CCBV8KE/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097CCBV8KE-bd682bdba2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F097BEUBAAE",
+        "created": 1753369110,
+        "timestamp": 1753369110,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08FTAEETAB",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 240777,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097BEUBAAE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097BEUBAAE/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_360.png",
+        "thumb_360_w": 162,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_480.png",
+        "thumb_480_w": 216,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_720.png",
+        "thumb_720_w": 324,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1776,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_960.png",
+        "thumb_960_w": 432,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F097BEUBAAE-665a996e5b/image_1024.png",
+        "thumb_1024_w": 461,
+        "thumb_1024_h": 1024,
+        "original_w": 964,
+        "original_h": 2140,
+        "thumb_tiny": "AwAwABZ7FcjJOe2DVyA5hUj3/nVTPGTVqJcxLgkHnkY96AJaKKKAKHpzjircH+pXnNVcVag/1K/j/OgCSiiigCgSR0GePWrkH+qWqvlscfKeParMACxBcYI7UASUUUUAf//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097BEUBAAE/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097BEUBAAE-297944f1d0",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lVCiw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "text": "<@U08PMMXPVTN>\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？",
+      "files": [
+        {
+          "id": "F097ZG2QTGQ",
+          "created": 1753368895,
+          "timestamp": 1753368895,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08FTAEETAB",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 124096,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097ZG2QTGQ/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 352,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 469,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 704,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097ZG2QTGQ-8da4c16846/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 782,
+          "original_w": 810,
+          "original_h": 792,
+          "thumb_tiny": "AwAvADDQBJ4FLhvUUifepXYqMgUwDDeoow3qKFb5Mk/jRzzz260CFw3rSEkdaUZBpHpAIn3qecY56e9MT71OJPYE/SgYbge4pCyElSwz6Z5/zzSHd2LdD0x/n/PNOIPPzEZ78cUAAZcnBHvzSPQwYjILLjPAxzQ9ACJ96kYMXwAu0cglc8/nQMg5FOy3oKYDRGwOR5YOMcJ29OtOG7bzjd9On60Zb0FGW9KQAm7GXx9MYx+poejJ9KQ5NAj/2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097ZG2QTGQ/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F097ZG2QTGQ-48f4b07c24",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08FTAEETAB",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1nBfz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08PMMXPVTN"
+                },
+                {
+                  "type": "text",
+                  "text": "\nおつかれさまです〜！！\nこの謝辞のリンクのところって、具体的にリンク先のイメージありましたか？それとももしあればくらいの感じです？"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1753368924.909119",
+      "client_msg_id": "4f97cc78-fc0b-4dda-92b4-e94bcff8d109",
+      "thread_ts": "1753368924.909119",
+      "reply_count": 6,
+      "reply_users_count": 2,
+      "latest_reply": "1753370252.926059",
+      "reply_users": [
+        "U08FTAEETAB",
+        "U08PMMXPVTN"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1753369133.199799",
+    "client_msg_id": "aee14675-dc16-4b41-b3b3-0367b7dd18a0",
+    "thread_ts": "1753368924.909119",
+    "parent_user_id": "U08FTAEETAB",
+    "reactions": [
+      {
+        "name": "神",
+        "users": [
+          "U08PMMXPVTN",
+          "U08NN8A6P9D",
+          "U096VK0FHV1"
+        ],
+        "count": 3
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "clap",
+        "users": [
+          "U08PMMXPVTN",
+          "U08H3V9KMFH",
+          "U08NN8A6P9D"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "まだ触れる場所なくて恐縮ですがデザイン的にヘッダー・フッターは実装おおよそ完了しております！"
+  },
+  {
+    "user": "U08FTAEETAB",
+    "type": "message",
+    "ts": "1753371784.128539",
+    "edited": {
+      "user": "U08FTAEETAB",
+      "ts": "1753407919.000000"
+    },
+    "client_msg_id": "4e010113-4010-492a-adf7-1eba24fb2ebd",
+    "text": "<@U08HMV9AHLL> <@U08GJSBAX3K>\nヘッダー・フッター・ハンバーガーメニューについて <https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1|feature/vision-ui-v1> ブランチに対して実装完了しております！！\nmainとのconflictもないのでマージしても大丈夫だと思います！\n（自分は明日から月曜まで旅行にいってしまうので作業時間はとれないのですが、何卒よろしくお願いします！）\n\n※ちなみにUIデザイン系のタスクにfigma MCPは神だったので設定に時間かかってもやるのをおすすめします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753371784.128539",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1753449110.515989",
+    "reply_users": [
+      "U08NN8A6P9D",
+      "U08HMV9AHLL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QrNbx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": "\nヘッダー・フッター・ハンバーガーメニューについて "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1",
+                "text": "feature/vision-ui-v1"
+              },
+              {
+                "type": "text",
+                "text": " ブランチに対して実装完了しております！！\nmainとのconflictもないのでマージしても大丈夫だと思います！\n（自分は明日から月曜まで旅行にいってしまうので作業時間はとれないのですが、何卒よろしくお願いします！）\n\n※ちなみにUIデザイン系のタスクにfigma MCPは神だったので設定に時間かかってもやるのをおすすめします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "igyo",
+        "users": [
+          "U08HMV9AHLL",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08HMV9AHLL",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "jujunjun110",
+    "text_readable": "@spinutids @shutaro.aoyama\nヘッダー・フッター・ハンバーガーメニューについて <https://github.com/digitaldemocracy2030/idobata/tree/feature/vision-ui-v1|feature/vision-ui-v1> ブランチに対して実装完了しております！！\nmainとのconflictもないのでマージしても大丈夫だと思います！\n（自分は明日から月曜まで旅行にいってしまうので作業時間はとれないのですが、何卒よろしくお願いします！）\n\n※ちなみにUIデザイン系のタスクにfigma MCPは神だったので設定に時間かかってもやるのをおすすめします！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1753411914.903879",
+    "client_msg_id": "54b2594e-be89-4f17-b72c-fc8f6e6b98a8",
+    "text": "<@U08FTAEETAB> (<@U08HMV9AHLL>)\n\nありがとうございます！(自分がやるのかなと思ってて自分もやってました… ハンバーガーはやれてなかったですが。)\n\nたしかにfigma MCP便利でしたー！\n一旦 この状態で立憲側にも反映させてみた後、共有しておきます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753371784.128539",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8zCvQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FTAEETAB"
+              },
+              {
+                "type": "text",
+                "text": " ("
+              },
+              {
+                "type": "user",
+                "user_id": "U08HMV9AHLL"
+              },
+              {
+                "type": "text",
+                "text": ")\n\nありがとうございます！(自分がやるのかなと思ってて自分もやってました… ハンバーガーはやれてなかったですが。)\n\nたしかにfigma MCP便利でしたー！\n一旦 この状態で立憲側にも反映させてみた後、共有しておきます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753371784.128539",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "@jujunjun110 (@spinutids)\n\nありがとうございます！(自分がやるのかなと思ってて自分もやってました… ハンバーガーはやれてなかったですが。)\n\nたしかにfigma MCP便利でしたー！\n一旦 この状態で立憲側にも反映させてみた後、共有しておきます！"
+  },
+  {
+    "user": "U08HMV9AHLL",
+    "type": "message",
+    "ts": "1753434005.486139",
+    "client_msg_id": "edc210a3-36d3-4275-b226-af4a8df3022c",
+    "text": "すみません、一昨日柴崎さんが抜けたあと実装分担相談し直したこと共有し漏れていました！:blob-pray:\n\n<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp> の 7/23 議事録末尾にある感じで一旦分担しており、特に「論点ページのフロント実装」が一旦 bluemo さんと書いてあるものの手に余りそうで、もしどなたか担当していただけると嬉しいという感じでした！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753371784.128539",
+    "parent_user_id": "U08FTAEETAB",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "of2qz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません、一昨日柴崎さんが抜けたあと実装分担相談し直したこと共有し漏れていました！"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-pray"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp"
+              },
+              {
+                "type": "text",
+                "text": " の 7/23 議事録末尾にある感じで一旦分担しており、特に「論点ページのフロント実装」が一旦 bluemo さんと書いてあるものの手に余りそうで、もしどなたか担当していただけると嬉しいという感じでした！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753371784.128539",
+    "user_name": "Horie Satoru",
+    "text_readable": "すみません、一昨日柴崎さんが抜けたあと実装分担相談し直したこと共有し漏れていました！:blob-pray:\n\n<https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU/edit?tab=t.fax1253vkyvp> の 7/23 議事録末尾にある感じで一旦分担しており、特に「論点ページのフロント実装」が一旦 bluemo さんと書いてあるものの手に余りそうで、もしどなたか担当していただけると嬉しいという感じでした！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1753449110.515989",
+    "client_msg_id": "cae967c4-2f7f-458e-be86-0d515147ca52",
+    "text": "なるほど。\n\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1753228805077009?thread_ts=1752624022.417219&amp;cid=C08FF5MM59C>\nの上からやろうと思ってました。。(確認不足でした:pray:)\n\n先週水曜少ししか入れなかったのでdocs確認してみます。興味ありますし。\nよろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753371784.128539",
+    "parent_user_id": "U08FTAEETAB",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753228805077009?thread_ts=1752624022.417219&amp;cid=C08FF5MM59C",
+        "ts": "1753228805.077009",
+        "author_id": "U08HMV9AHLL",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1753228805.077009",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "bSOLq",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08NN8A6P9D"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nありがとうございます！もしお時間あれば、アサイン未定の以下の実装等担当していただけると大変ありがたいです"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "blob-prayge"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "共通モジュールのフロント実装（ヘッダ、フッタ、サイドメニューなど）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "チャットモジュールのフロント実装"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "論点、テーマページのフロント実装"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753228805077009?thread_ts=1752624022.417219&amp;cid=C08FF5MM59C",
+        "fallback": "[July 22nd, 2025 5:00 PM] spinutids: <@U08NN8A6P9D>\nありがとうございます！もしお時間あれば、アサイン未定の以下の実装等担当していただけると大変ありがたいです:blob-prayge:\n• 共通モジュールのフロント実装（ヘッダ、フッタ、サイドメニューなど）\n• チャットモジュールのフロント実装\n• 論点、テーマページのフロント実装",
+        "text": "<@U08NN8A6P9D>\nありがとうございます！もしお時間あれば、アサイン未定の以下の実装等担当していただけると大変ありがたいです:blob-prayge:\n• 共通モジュールのフロント実装（ヘッダ、フッタ、サイドメニューなど）\n• チャットモジュールのフロント実装\n• 論点、テーマページのフロント実装",
+        "author_name": "Horie Satoru",
+        "author_link": "https://dd2030.slack.com/team/U08HMV9AHLL",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8597760742083_598cdd9e06c0fae89043_48.png",
+        "author_subname": "Horie Satoru",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "56m1a",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753228805077009?thread_ts=1752624022.417219&cid=C08FF5MM59C"
+              },
+              {
+                "type": "text",
+                "text": "\nの上からやろうと思ってました。。(確認不足でした"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": ")\n\n先週水曜少ししか入れなかったのでdocs確認してみます。興味ありますし。\nよろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753371784.128539",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "なるほど。\n\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1753228805077009?thread_ts=1752624022.417219&cid=C08FF5MM59C>\nの上からやろうと思ってました。。(確認不足でした:pray:)\n\n先週水曜少ししか入れなかったのでdocs確認してみます。興味ありますし。\nよろしくお願いします。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753663589.859729",
+    "client_msg_id": "f532905e-1d38-4281-9e34-432e62596911",
+    "text": "<https://policy.team-mir.ai/> で動作していた policy_edit のインスタンスは\n<https://github.com/digitaldemocracy2030/idobata/pull/430> によってチャットウィンドウが消えて閲覧のみの状態になっているわけですね\n近い将来チャットウィンドウを復活させる予定があるんでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "reply_count": 14,
+    "reply_users_count": 3,
+    "latest_reply": "1753721314.726389",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08G2A216TW",
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://tibsocpjqvxxipszbwui.supabase.co/storage/v1/object/public/assets/idobata-policy-ogp.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 905274,
+        "from_url": "https://policy.team-mir.ai/",
+        "service_icon": "https://team-mir.ai/favicon/favicon.ico",
+        "id": 1,
+        "original_url": "https://policy.team-mir.ai/",
+        "fallback": "チームみらい マニフェストver.1.0",
+        "text": "チームみらいの掲げるマニフェストをご覧いただけます。「しゃべれるマニフェスト」として、チャットで政策について質問したり、AIとともにまとめた改善提案を送ることができます。",
+        "title": "チームみらい マニフェストver.1.0",
+        "title_link": "https://policy.team-mir.ai/",
+        "service_name": "policy.team-mir.ai"
+      },
+      {
+        "id": 2,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1752924639,
+        "color": "6f42c1",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/430",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#430 Add environment variable to disable chat in policy-edit frontend",
+        "text": "# Add environment variable to disable chat in policy-edit frontend\n\n## Summary\n\nThis PR adds a new environment variable `VITE_DISABLE_CHAT` that allows completely disabling the chat functionality in the policy-edit frontend. When set to `\"true\"`, both the ChatPanel (desktop) and FloatingChatButton (mobile) are hidden, and the content area expands to use the full available width.\n\n*Key changes:*\n\n• Added `VITE_DISABLE_CHAT=false` to `.env.template` with Japanese documentation\n• Updated TypeScript environment variable definitions in `vite-env.d.ts`\n• Modified `Layout.tsx` to conditionally render chat components and adjust content area width\n• Updated `docker-compose.yml` to pass the environment variable to the policy-frontend service\n• Maintains backward compatibility (defaults to chat enabled when unset)\n\n## Review & Testing Checklist for Human\n\n• *Test both enabled/disabled states end-to-end* - Set `VITE_DISABLE_CHAT=false` and `VITE_DISABLE_CHAT=true`, verify chat visibility and content area expansion\n• *Verify mobile responsiveness* - Test on mobile/narrow viewport that FloatingChatButton is properly hidden when disabled\n• *Check Docker environment variable passing* - Ensure the environment variable works correctly in Docker Compose setup\n• *Visual regression testing* - Verify no unintended layout issues or visual regressions in both enabled/disabled states\n\n*Recommended test plan:*\n\n1. Start with `VITE_DISABLE_CHAT=false` (or unset), verify chat panel visible on left side\n2. Change to `VITE_DISABLE_CHAT=true`, verify chat completely hidden and content uses full width\n3. Test mobile view in both states to ensure FloatingChatButton behavior\n4. Test in your Docker environment to ensure env var passing works\n\n---\n\n### Diagram\n\n%%{ init : { \"theme\" : \"default\" }}%%\ngraph TD\n    A[\".env.template\"]:::major-edit --> B[\"policy-edit/frontend\"]\n    B --> C[\"vite-env.d.ts\"]:::minor-edit\n    B --> D[\"Layout.tsx\"]:::major-edit\n    B --> E[\"ChatPanel.tsx\"]:::context\n    B --> F[\"FloatingChatButton.tsx\"]:::context\n    D --> E\n    D --> F\n    G[\"docker-compose.yml\"]:::minor-edit --> B\n    \n    subgraph Legend\n        L1[\"Major Edit\"]:::major-edit\n        L2[\"Minor Edit\"]:::minor-edit  \n        L3[\"Context/No Edit\"]:::context\n    end\n\n    classDef major-edit fill:#90EE90\n    classDef minor-edit fill:#87CEEB  \n    classDef context fill:#FFFFFF\n\nLoading \n\n### Notes\n\n• The implementation follows existing patterns in the codebase for environment variable usage and conditional rendering\n• Layout changes use flexbox modifications to expand content area when chat is disabled\n• Both desktop ChatPanel and mobile FloatingChatButton are handled consistently\n• Environment variable defaults to `false` (chat enabled) for backward compatibility\n\n*Testing completed:*\n\n• :white_check_mark: Lint, typecheck, and build all passed\n• :white_check_mark: Unit tests passed (13/13)\n• :white_check_mark: Local testing confirmed chat visibility behavior in both states\n• :white_check_mark: Mobile responsiveness verified\n\n---\n\n*Link to Devin run:* <https://app.devin.ai/sessions/28f397625eaa410d9937978539172588|https://app.devin.ai/sessions/28f397625eaa410d9937978539172588>  \n*Requested by:* Shutaro (<https://github.com/blu3mo|@blu3mo>)",
+        "title": "#430 Add environment variable to disable chat in policy-edit frontend",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/430",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "1",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qUiB3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://policy.team-mir.ai/"
+              },
+              {
+                "type": "text",
+                "text": " で動作していた policy_edit のインスタンスは\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/430"
+              },
+              {
+                "type": "text",
+                "text": " によってチャットウィンドウが消えて閲覧のみの状態になっているわけですね\n近い将来チャットウィンドウを復活させる予定があるんでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://policy.team-mir.ai/> で動作していた policy_edit のインスタンスは\n<https://github.com/digitaldemocracy2030/idobata/pull/430> によってチャットウィンドウが消えて閲覧のみの状態になっているわけですね\n近い将来チャットウィンドウを復活させる予定があるんでしょうか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753664415.697099",
+    "client_msg_id": "da8a7b50-479c-4103-aed2-1d80e18d19ff",
+    "text": "<https://github.com/digitaldemocracy2030/idobata/pull/429>\nこれ devin に close されてしまったが、 policy_edit が今後も使われていくなら絶対やるべき修正だと思っているものの、 今後 policy_edit に活躍の場が来ないのであればまあいいか、という感じ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1752827050,
+        "color": "cb2431",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/429",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#429 Implement direct octokit calls bypassing MCP server",
+        "text": "# Bypass MCP server for direct GitHub API calls\n\n## Summary\n\nThis PR implements a significant architectural change to bypass the MCP (Model Context Protocol) server and call GitHub APIs directly within `IdobataMcpService.processQuery()`. The change eliminates the overhead of MCP communication while maintaining the same AI-driven GitHub operations functionality.\n\n*Key Changes:*\n\n• *Direct GitHub Integration*: Added Octokit dependencies and GitHub App authentication to the backend\n• *Logic Migration*: Moved GitHub operation logic from `policy-edit/mcp/src/` to `policy-edit/backend/src/`\n• *Service Refactoring*: Modified `IdobataMcpService` to execute GitHub tools directly instead of via MCP\n• *Workspace Cleanup*: Removed MCP from npm workspaces to resolve CI failures\n• *Configuration*: Added new GitHub App environment variables for authentication\n\n*Flow Change:*\n\n• *Before*: `callTool` → `mcpClient` → `mcpServer` → `octokit`\n• *After*: `callTool` → `octokit` (direct)\n\n## Review & Testing Checklist for Human\n\n*:red_circle: High Risk - Requires Careful Verification:*\n\n• *Environment Configuration*: Verify all GitHub App environment variables are properly set in all environments (`GITHUB_APP_ID`, `GITHUB_INSTALLATION_ID`, `GITHUB_TARGET_OWNER`, `GITHUB_TARGET_REPO`, `GITHUB_BASE_BRANCH`, `GITHUB_API_BASE_URL`)\n• *GitHub App Private Key*: Confirm the private key file exists at `/app/secrets/github-key.pem` in the container and has correct permissions\n• *End-to-End Testing*: Test the complete chat flow with actual GitHub operations (file creation/updates, PR creation/updates) to ensure the ported logic works correctly\n• *Error Handling*: Verify that GitHub API errors are properly handled and don't crash the chat service\n• *Deployment Impact*: Confirm that removing MCP from workspaces doesn't break the Docker build or deployment process\n\n*Recommended Test Plan:*\n\n1. Test chat requests that trigger `upsert_file_and_commit` operations\n2. Test chat requests that trigger `update_pr` operations\n3. Verify error scenarios (invalid file paths, GitHub API failures)\n4. Check that branch creation and PR management still work as expected\n\n---\n\n### Diagram\n\n%%{ init : { \"theme\" : \"default\" }}%%\ngraph TD\n    ChatRoute[\"policy-edit/backend/src/<br/>routes/chat.ts\"]:::context\n    ProcessUsecase[\"policy-edit/backend/src/<br/>usecases/ProcessChatMessageUsecase.ts\"]:::context\n    IdobataService[\"policy-edit/backend/src/<br/>mcp/idobataMcpService.ts\"]:::major-edit\n    \n    GitHubClient[\"policy-edit/backend/src/<br/>github/client.ts\"]:::major-edit\n    GitHubUtils[\"policy-edit/backend/src/<br/>github/utils.ts\"]:::major-edit\n    StringUtils[\"policy-edit/backend/src/<br/>utils/stringUtils.ts\"]:::major-edit\n    \n    Config[\"policy-edit/backend/src/<br/>config.ts\"]:::minor-edit\n    PackageJson[\"package.json\"]:::minor-edit\n    \n    McpClient[\"policy-edit/backend/src/<br/>mcp/client.ts\"]:::context\n    \n    ChatRoute --> ProcessUsecase\n    ProcessUsecase --> IdobataService\n    IdobataService -.->|\"bypassed\"| McpClient\n    IdobataService --> GitHubClient\n    GitHubClient --> GitHubUtils\n    GitHubUtils --> StringUtils\n    GitHubClient --> Config\n    \n    subgraph Legend\n        L1[\"Major Edit\"]:::major-edit\n        L2[\"Minor Edit\"]:::minor-edit  \n        L3[\"Context/No Edit\"]:::context\n    end\n    \n    classDef major-edit fill:#90EE90\n    classDef minor-edit fill:#87CEEB\n    classDef context fill:#FFFFFF\n\nLoading \n\n### Notes\n\n• *Session*: <https://app.devin.ai/sessions/502f83bde7044f72bc8e7e62284d1aa1|https://app.devin.ai/sessions/502f83bde7044f72bc8e7e62284d1aa1>\n• *Requested by*: kuboon (<mailto:kuboon@trick-with.net|kuboon@trick-with.net>)\n• *MCP Directory*: The `policy-edit/mcp` directory still exists but is no longer functional or included in CI. This was intentional per user requirements.\n• *Authentication*: Uses GitHub App authentication instead of personal access tokens for better security and rate limiting.\n• *Performance*: Should improve response times by eliminating MCP server communication overhead.",
+        "title": "#429 Implement direct octokit calls bypassing MCP server",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/429",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "3",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5AtJ9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/429"
+              },
+              {
+                "type": "text",
+                "text": "\nこれ devin に close されてしまったが、 policy_edit が今後も使われていくなら絶対やるべき修正だと思っているものの、 今後 policy_edit に活躍の場が来ないのであればまあいいか、という感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://github.com/digitaldemocracy2030/idobata/pull/429>\nこれ devin に close されてしまったが、 policy_edit が今後も使われていくなら絶対やるべき修正だと思っているものの、 今後 policy_edit に活躍の場が来ないのであればまあいいか、という感じ"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753664491.671689",
+    "client_msg_id": "f775c231-6542-4bee-8781-ed3d196556e1",
+    "text": "policy_edit くらいの軽いプロジェクトなら、今回のフィードバックをもとに仕様を詰めたプロンプトをきっちり書いてゼロから生成AIで書いてもらうのも全然アリですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7pwXE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "policy_edit くらいの軽いプロジェクトなら、今回のフィードバックをもとに仕様を詰めたプロンプトをきっちり書いてゼロから生成AIで書いてもらうのも全然アリですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "policy_edit くらいの軽いプロジェクトなら、今回のフィードバックをもとに仕様を詰めたプロンプトをきっちり書いてゼロから生成AIで書いてもらうのも全然アリですね"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753664548.932469",
+    "client_msg_id": "49c3d5b0-65da-4147-9ab7-f2f35232ed82",
+    "text": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1753258152477449>\nこれは多分 policy_edit の話",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753258152477449",
+        "ts": "1753258152.477449",
+        "author_id": "U08G2A216TW",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1753258152.477449",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "MBlsg",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた "
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "たくさん来た提案の優先順位付の仕組みがない"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "投票？Quadratic Voting？"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753258152477449",
+        "fallback": "[July 23rd, 2025 1:09 AM] nishio.hirokazu: 忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う",
+        "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う",
+        "author_name": "NISHIO Hirokazu",
+        "author_link": "https://dd2030.slack.com/team/U08G2A216TW",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-03/8546342683588_63fd2b76c154c16c727e_48.png",
+        "author_subname": "NISHIO Hirokazu",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YEEqO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753258152477449"
+              },
+              {
+                "type": "text",
+                "text": "\nこれは多分 policy_edit の話"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1753258152477449>\nこれは多分 policy_edit の話"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753669034.666879",
+    "client_msg_id": "36C45B09-220E-4862-86C3-9D9DF9CA6CFA",
+    "text": "集まった後のデータを扱うユーザとしては「直接GitHubに入れてGitHubをデータベースとして使う」のはやめてほしいと思っている(開発に関わってないので好き勝手なことをいう)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0nr1H",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "集まった後のデータを扱うユーザとしては「直接GitHubに入れてGitHubをデータベースとして使う」のはやめてほしいと思っている(開発に関わってないので好き勝手なことをいう)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "集まった後のデータを扱うユーザとしては「直接GitHubに入れてGitHubをデータベースとして使う」のはやめてほしいと思っている(開発に関わってないので好き勝手なことをいう)"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753669500.351719",
+    "client_msg_id": "dae2a6d9-f363-4f05-b9e5-212bc6e968d2",
+    "text": "プルリク作る時にDB にもコピーすればOK?\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1753405629484319?thread_ts=1753258152.477449&amp;cid=C08FF5MM59C>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753405629484319?thread_ts=1753258152.477449&amp;cid=C08FF5MM59C",
+        "ts": "1753405629.484319",
+        "author_id": "U08JASQKEEM",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1753405629.484319",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "s9vAY",
+                  "elements": [
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プルリクを作る際に"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "相当の内容をDBにも入れておく"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「提案中の意見」一覧画面をDBから生成"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "offset": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "とりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753405629484319?thread_ts=1753258152.477449&amp;cid=C08FF5MM59C",
+        "fallback": "[July 24th, 2025 6:07 PM] kuboon: 1. プルリクを作る際に\n    a. 相当の内容をDBにも入れておく\n    b. 既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする\n2. プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n3. 「提案中の意見」一覧画面をDBから生成\nとりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)",
+        "text": "1. プルリクを作る際に\n    a. 相当の内容をDBにも入れておく\n    b. 既存の提案と内容が似通っている場合は同じプルリクへ入れるようにする\n2. プルリクがマージされたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n3. 「提案中の意見」一覧画面をDBから生成\nとりあえずこれくらいは出来そうか (DB 持つとなるとインフラの複雑性が一気に跳ね上がるが)",
+        "author_name": "Ohkubo KOHEI (kuboon)",
+        "author_link": "https://dd2030.slack.com/team/U08JASQKEEM",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8622908976177_04e3df87088aa6049b14_48.jpg",
+        "author_subname": "Ohkubo KOHEI (kuboon)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1sHuL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プルリク作る時にDB にもコピーすればOK?\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1753405629484319?thread_ts=1753258152.477449&cid=C08FF5MM59C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "プルリク作る時にDB にもコピーすればOK?\n<https://dd2030.slack.com/archives/C08FF5MM59C/p1753405629484319?thread_ts=1753258152.477449&cid=C08FF5MM59C>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1753669522.083929",
+    "client_msg_id": "d5bcd532-f5c9-4942-aa30-a275fee98f56",
+    "text": "&gt; チャットウィンドウが消えて閲覧のみの状態になっているわけですね\n<https://github.com/team-mirai/policy> が一旦参議院選挙2025のリポジトリとしてアーカイブされたのに伴って、チャットも一旦停止しました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Qabei",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チャットウィンドウが消えて閲覧のみの状態になっているわけですね"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/team-mirai/policy"
+              },
+              {
+                "type": "text",
+                "text": " が一旦参議院選挙2025のリポジトリとしてアーカイブされたのに伴って、チャットも一旦停止しました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "> チャットウィンドウが消えて閲覧のみの状態になっているわけですね\n<https://github.com/team-mirai/policy> が一旦参議院選挙2025のリポジトリとしてアーカイブされたのに伴って、チャットも一旦停止しました！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1753669533.256919",
+    "client_msg_id": "29f6637f-3f6a-4e17-bafd-d81a8b8545fa",
+    "text": "短期的に再開させる予定はないです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LXGbl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "短期的に再開させる予定はないです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "短期的に再開させる予定はないです。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753669692.624719",
+    "client_msg_id": "3e84ff03-16f1-4a7a-aede-43769d2abebb",
+    "text": "じゃあ policy_edit は一旦オワコンって感じですかね。\n私はまだいどばたの全体像が掴めてなくて policy_edit だけは動いてるものを自分でさわれたのでやっとわかった、という感じです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HAckr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "じゃあ policy_edit は一旦オワコンって感じですかね。\n私はまだいどばたの全体像が掴めてなくて policy_edit だけは動いてるものを自分でさわれたのでやっとわかった、という感じです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "じゃあ policy_edit は一旦オワコンって感じですかね。\n私はまだいどばたの全体像が掴めてなくて policy_edit だけは動いてるものを自分でさわれたのでやっとわかった、という感じです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753693638.391689",
+    "client_msg_id": "7B37FFF8-6BF8-4719-A4A7-658160EE5970",
+    "text": "次に何をするかは決まってないのだけど、僕はプルリクを作るべきではないと思っている\n都知事選の時には人間がIssueを作った、GitHubを使えない人を取りこぼしてるという議論になった\n参院選の時はAIがPRを作った、2桁くらい多くの意見を集めることはできたが、しばしばPRのマージが困難で、結局人間が各々のPRを見て新しいPRを作ってて、そこの工数が大きい\nこの問題は「マニフェスト文言修正のPR」という詳細度の高すぎるものを出力したことが原因で、そうではなく人々の問題意識や、その問題を解決しうるいくつかの選択肢の中でどれを好むのかのようなもっと手前のデータを作るべきだったと思う。で、それをみて人間のスタッフがマニフェスト修正PRを作れば良い。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4Edts",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "次に何をするかは決まってないのだけど、僕はプルリクを作るべきではないと思っている\n都知事選の時には人間がIssueを作った、GitHubを使えない人を取りこぼしてるという議論になった\n参院選の時はAIがPRを作った、2桁くらい多くの意見を集めることはできたが、しばしばPRのマージが困難で、結局人間が各々のPRを見て新しいPRを作ってて、そこの工数が大きい\nこの問題は"
+              },
+              {
+                "type": "text",
+                "text": "「マニフェスト文言修正の"
+              },
+              {
+                "type": "text",
+                "text": "PR"
+              },
+              {
+                "type": "text",
+                "text": "」"
+              },
+              {
+                "type": "text",
+                "text": "という詳細度の高すぎるものを出力したことが原因で、"
+              },
+              {
+                "type": "text",
+                "text": "そうではなく人々の問題意識や、その問題を解決しうるいくつかの選択肢の中でどれを好むのかのようなもっと手前のデータを作るべきだったと思う。で、それをみて人間のスタッフがマニフェスト修正PRを作れば良い。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "次に何をするかは決まってないのだけど、僕はプルリクを作るべきではないと思っている\n都知事選の時には人間がIssueを作った、GitHubを使えない人を取りこぼしてるという議論になった\n参院選の時はAIがPRを作った、2桁くらい多くの意見を集めることはできたが、しばしばPRのマージが困難で、結局人間が各々のPRを見て新しいPRを作ってて、そこの工数が大きい\nこの問題は「マニフェスト文言修正のPR」という詳細度の高すぎるものを出力したことが原因で、そうではなく人々の問題意識や、その問題を解決しうるいくつかの選択肢の中でどれを好むのかのようなもっと手前のデータを作るべきだったと思う。で、それをみて人間のスタッフがマニフェスト修正PRを作れば良い。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753695565.107699",
+    "client_msg_id": "18b223f5-64fd-4934-833a-e24fe1ef1e5a",
+    "text": "なるほど。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LZHVT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "なるほど。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753695694.629369",
+    "client_msg_id": "0e37ee99-79b5-4367-88d8-f81b2a598369",
+    "text": "チャットbot -&gt; 公聴AI -&gt; プルリク\nみたいな感じか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qgLVU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チャットbot -> 公聴AI -> プルリク\nみたいな感じか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "チャットbot -> 公聴AI -> プルリク\nみたいな感じか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753697835.114059",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1753697867.000000"
+    },
+    "client_msg_id": "edcbd101-6649-4233-bcf5-ade87b69a266",
+    "text": "プリルクじゃなくて issue にすればいいのかも？\n1. 提案をDBに入れると同時に github issue にする\n    a. 既存の提案と内容が似通っている場合はそれを提案者にまず紹介し、なお改善要求があれば当該 issue へ追記する\n2. 公聴AI的なものと人間が協調して、 issue を解決するプルリクを作成、マージする\n3. 関連する issue が close される\n4. issue が close されたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n5. 「提案された意見」一覧画面をDBから生成。マージ済みのものについては該当する PR へリンク",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3v8uT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プリルクじゃなくて issue にすればいいのかも？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "提案をDBに入れると同時に github issue にする"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存の提案と内容が似通っている場合はそれを提案者にまず紹介し、なお改善要求があれば当該 issue へ追記する"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "公聴AI的なものと人間が協調して、 issue を解決するプルリクを作成、マージする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "関連する issue が close される"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "issue が close されたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「提案された意見」一覧画面をDBから生成。マージ済みのものについては該当する PR へリンク"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "offset": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "プリルクじゃなくて issue にすればいいのかも？\n1. 提案をDBに入れると同時に github issue にする\n    a. 既存の提案と内容が似通っている場合はそれを提案者にまず紹介し、なお改善要求があれば当該 issue へ追記する\n2. 公聴AI的なものと人間が協調して、 issue を解決するプルリクを作成、マージする\n3. 関連する issue が close される\n4. issue が close されたら github action で policy-edit へ通知し、「マージされた」という状況をDBにも反映する\n5. 「提案された意見」一覧画面をDBから生成。マージ済みのものについては該当する PR へリンク"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753700131.924309",
+    "client_msg_id": "BB45F0C5-1419-48B9-82C5-2ED20EED439B",
+    "text": "いやー、類似度の判定とか、なんなら投票とかをできるレイヤーが間に挟まるべきなんじゃないかなーと。\n根本的に人間が頑張らなくていい仕組みを新しく作る必要があるよねと思っている。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gMAsO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いやー、類似度の判定とか、なんなら投票とかをできるレイヤーが間に挟まるべきなんじゃないかなーと。\n根本的に人間が頑張らなくていい仕組みを新しく作る必要があるよねと思っている。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いやー、類似度の判定とか、なんなら投票とかをできるレイヤーが間に挟まるべきなんじゃないかなーと。\n根本的に人間が頑張らなくていい仕組みを新しく作る必要があるよねと思っている。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753721314.726389",
+    "client_msg_id": "cd53c9b9-30e2-4acb-9511-b0a4ddd66e71",
+    "text": "補足: 解こうとしている問題に対してGitHubのデータ構造やUIは適切ではなく、GitHubに入れることを前提とすると発想が縛られてしまう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753663589.859729",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LHwG3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "補足: 解こうとしている問題に対してGitHubのデータ構造やUIは適切ではなく、GitHubに入れることを前提とすると発想が縛られてしまう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753663589.859729",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "補足: 解こうとしている問題に対してGitHubのデータ構造やUIは適切ではなく、GitHubに入れることを前提とすると発想が縛られてしまう"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753670077.067939",
+    "client_msg_id": "1524ec2b-9357-4119-8bc3-f893fac6d697",
+    "text": "dd2030 関連の何かをいどばたして dogfooding したいなあ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YkV9N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030 関連の何かをいどばたして dogfooding したいなあ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "dd2030 関連の何かをいどばたして dogfooding したいなあ"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753670186.168859",
+    "client_msg_id": "594c83a2-50d5-4fc8-9520-e578a67b5cb8",
+    "text": "README を見ると「いどばた政策」のリンク先が <https://delib.takahiroanno.com/> となっていて開かない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RZXWQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "README を見ると「いどばた政策」のリンク先が "
+              },
+              {
+                "type": "link",
+                "url": "https://delib.takahiroanno.com/"
+              },
+              {
+                "type": "text",
+                "text": " となっていて開かない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "README を見ると「いどばた政策」のリンク先が <https://delib.takahiroanno.com/> となっていて開かない"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753670223.584279",
+    "client_msg_id": "a65430bf-59ae-4e41-80f2-88102755baa5",
+    "text": "<https://idobata-demo.dd2030.org/> も動いてないっぽい？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EuzzO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://idobata-demo.dd2030.org/"
+              },
+              {
+                "type": "text",
+                "text": " も動いてないっぽい？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://idobata-demo.dd2030.org/> も動いてないっぽい？"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1753258152.477449",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1753258152.477449",
+      "edited": {
+        "user": "U08G2A216TW",
+        "ts": "1753258347.000000"
+      },
+      "client_msg_id": "c0c82227-6875-4d0d-a2c8-374d607284c4",
+      "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n• いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある\n• 「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った\n• クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう\n• 直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった\n    ◦ GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた \n    ◦ 後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい\n• たくさん来た提案の優先順位付の仕組みがない\n    ◦ 後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは\n    ◦ 投票？Quadratic Voting？\n• 類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている\n• 提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した\n• 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n• 提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1753258152.477449",
+      "reply_count": 11,
+      "reply_users_count": 3,
+      "latest_reply": "1753763480.758859",
+      "reply_users": [
+        "U08JASQKEEM",
+        "U08G2A216TW",
+        "U097KN7URN1"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MBlsg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "忙しくてユーザサイドとしての体験談とか困ったことを整理しきれてないんですけど、雑にフィードバックしておきます:\n\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "いどばたによって「自分の意見を提案する」という体験を8000人くらいに配れたのは都知事選の2桁上の成果だと思う、世界最先端事例でもある"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "「生のエラーメッセージをユーザに露出する問題」が解消しなかった、その結果大量の問い合わせに困った"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "クレジットが尽きている時の振る舞いが設計されてないので単にエラーになる、エラー回避のためにクレジットを入れ続ける運用は、予算承認の遅い組織では問題大きくなりそう"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "直接GitHubに書き込んだことで、そのデータを機械的に扱うことが困難になった"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "GitHub APIからの情報収集がRate Limitになるので全件を対象にした分析をするためにまず差分取得して溜めるシステムが必要、前半はずっとそれをやってた "
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "後段の処理のやりやすさ的にはDBに入れてGET APIが欲しい"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "たくさん来た提案の優先順位付の仕組みがない"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "後から気づいてX上での投稿とかGitHub上でのいいねとかをやろうとしたがシステムが分離しててアカウントも別途必要なので難しかった、いどばた自体が持つ方がいいのでは"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "投票？Quadratic Voting？"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "類似提案の合流機能が必要、たぶんGitHubに直接書き込んでしまってるのでシステムから扱うのが困難になっている"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "提案を見る担当者が複数人いて内容によって分担している、この分担を割り振ることが(データを取りにくいことが原因で)大変だった、後付けでGitHub Actionsで無理やり実現した"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "提案を人間が見ているのだが、見た段階では投稿者にフィードバックがないので「放置されている」感を与えてしまう、「何人が閲覧」とか「議論中」とか色々な情報を素早くフィードバックすることができるとベターだと思う"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1753722161.045019",
+    "client_msg_id": "39ed295b-5d15-4b89-bc87-f8ffb45a51b7",
+    "text": "&gt;&gt;  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n&gt; これはどういう方向で解決可能なんですかね？アイデアが湧かない\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは<https://scrapbox.io/nishio/Your_Priorities|Your Priorities>をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/Your_Priorities",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/d566903fbcc1b957b23371b0bb3be006/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 872,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/Your_Priorities",
+        "fallback": "西尾泰和の外部脳: Your Priorities - 西尾泰和の外部脳",
+        "text": "<https://www.yrpri.org/post/26494> gptYour Prioritiesは、市民参加型の意思決定プラットフォームで、アイスランドの非営利団体Citizens Foundationによって開発されたオープンソースソフトウェア（OSS）です。このプラットフォームは、民主的な議論や提案の収集、優先順位付けを目的として設計されています。 主な機能 提案と議論: 市民が提案を",
+        "title": "Your Priorities - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/Your_Priorities",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n6LnW",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い"
+              }
+            ],
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはどういう方向で解決可能なんですかね？アイデアが湧かない"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/Your_Priorities",
+                "text": "Your Priorities"
+              },
+              {
+                "type": "text",
+                "text": "をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ">>  生の修正差分として生成されてしまうと、PR間でガンガンconflictが起こる、人力で解決していて辛い\n> これはどういう方向で解決可能なんですかね？アイデアが湧かない\n「AIがインタビューする」というところまではいい、その結果として出力されるものが「マニフェストの文言の修正」なのが過度に具体的すぎる\n「ユーザが何を解決すべき問題だと思っているか」「ユーザはその問題の解決策として何を提案しているか」の抽出をするべき\n「解決すべき問題」の似ている複数の提案は、解決策が異なっていてもまとめるべき\nそもそも解決策は構造の見えてない一般ユーザからの提案だと間違っていることの方が多い、そこに重要度を置くべきではない\n「解決すべき問題」が複数の提案から集まったり、他のユーザが「共感する」ボタンを押すなどして、スコアが上がっていって、高いものから「どうやって解決すべきか」の熟議がトリガーされる(この共感ボタンがSNSのいいねと同様に速いフィードバック手段として機能する)\n熟議部分はいまは<https://scrapbox.io/nishio/Your_Priorities|Your Priorities>をイメージしているけど、Polisでも「いどばた会議」でもありだと思う。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1753748364.248529",
+    "client_msg_id": "9e31e414-e0ce-4226-87dd-705e070c1b7f",
+    "text": "なんかドッグフーディングしながらじゃないと開発が進まないので、架空のマニフェストでも作るか。。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ecxt6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なんかドッグフーディングしながらじゃないと開発が進まないので、架空のマニフェストでも作るか。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "なんかドッグフーディングしながらじゃないと開発が進まないので、架空のマニフェストでも作るか。。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753833622.543169",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W3h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U096VK0FHV1"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]

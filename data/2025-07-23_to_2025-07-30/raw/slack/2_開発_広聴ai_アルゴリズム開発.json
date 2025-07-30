@@ -1,0 +1,232 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753244344.052289",
+    "client_msg_id": "ff0cc4ad-54ff-4fc2-bc60-13a414aaed31",
+    "text": "公聴AIのマーケ戦略の資料を読みながらの雑感\n<https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?tab=t.0>\n\nなんとなくの直感ですが、公聴AIの次の一手は、すでに実施済みの政策を対象にしたベクトル検索かなーと思いました。\n抽出されたクラスタ → 関連する政策　でマッピングしていく\n\n基本的に、市民からの要望の大半は、すでに実施済みだと思っています。\nスジのいい政策が検索で出てこなかったら、それこそが未実施の要望で、キーインサイトだと思っています。\n\nプロトタイプとしては、政策のベクトル検索、あたりがあり得そう\n<https://voluntas.ghost.io/duckdb-hybrid-search/>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Gsoor",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "公聴AIのマーケ戦略の資料を読みながらの雑感\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n\nなんとなくの直感ですが、公聴AIの次の一手は、すでに実施済みの政策を対象にしたベクトル検索かなーと思いました。\n抽出されたクラスタ → 関連する政策　でマッピングしていく\n\n基本的に、市民からの要望の大半は、すでに実施済みだと思っています。\nスジのいい政策が検索で出てこなかったら、それこそが未実施の要望で、キーインサイトだと思っています。\n\nプロトタイプとしては、政策のベクトル検索、あたりがあり得そう\n"
+              },
+              {
+                "type": "link",
+                "url": "https://voluntas.ghost.io/duckdb-hybrid-search/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "公聴AIのマーケ戦略の資料を読みながらの雑感\n<https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?tab=t.0>\n\nなんとなくの直感ですが、公聴AIの次の一手は、すでに実施済みの政策を対象にしたベクトル検索かなーと思いました。\n抽出されたクラスタ → 関連する政策　でマッピングしていく\n\n基本的に、市民からの要望の大半は、すでに実施済みだと思っています。\nスジのいい政策が検索で出てこなかったら、それこそが未実施の要望で、キーインサイトだと思っています。\n\nプロトタイプとしては、政策のベクトル検索、あたりがあり得そう\n<https://voluntas.ghost.io/duckdb-hybrid-search/>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753255081.386409",
+    "client_msg_id": "8256fe32-112f-4a42-b092-7386af034b0a",
+    "text": "政策や施策を、ベクトル検索にヒットしやすいように、Helpfeelみたいな感じでLLMで言い換えてあげる、という戦略が有効だと思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1SM1w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "政策や施策を、ベクトル検索にヒットしやすいように、Helpfeelみたいな感じでLLMで言い換えてあげる、という戦略が有効だと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "政策や施策を、ベクトル検索にヒットしやすいように、Helpfeelみたいな感じでLLMで言い換えてあげる、という戦略が有効だと思う"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753260834.603419",
+    "client_msg_id": "797ffd93-6a7f-499e-8225-5df9d2fac40a",
+    "text": "井戸端もそうだけど、コストのかからないRAG （データのオーグメンテーションを含む）は検討しておく必要があるなぁ。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xkq3Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "井戸端もそうだけど、コストのかからないRAG （データのオーグメンテーションを含む）は検討しておく必要があるなぁ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "井戸端もそうだけど、コストのかからないRAG （データのオーグメンテーションを含む）は検討しておく必要があるなぁ。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753260928.479769",
+    "client_msg_id": "5134ae72-4062-4c39-b888-391277c11630",
+    "text": "データ集 → プロンプトを元にして要約＋オーグメンテーション → ベクトル検索＋リランキング",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "h972q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "データ集 → プロンプトを元にして要約＋オーグメンテーション → ベクトル検索＋リランキング"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "データ集 → プロンプトを元にして要約＋オーグメンテーション → ベクトル検索＋リランキング"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753276711.901649",
+    "client_msg_id": "B2A9C211-11A7-4E9E-9F2D-94BD526E8910",
+    "text": "そうね、それは汎用的に使いどころ多い部品になりそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bhyCA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうね、それは汎用的に使いどころ多い部品になりそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうね、それは汎用的に使いどころ多い部品になりそう"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1753544956.533489",
+    "client_msg_id": "686e4018-a661-49ea-bd17-43c06dc7dc5a",
+    "text": "<https://umap-learn.readthedocs.io/en/latest/reproducibility.html>\numapのrandom stateを外せば、umapの処理に並列化が効くみたい。\n前段階のextractionですでにランダム性があるので、後段でseed固定をする必要はないと思うんだけどどうでしょう？\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L31>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753544956.533489",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1753582985.706809",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NoB6s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://umap-learn.readthedocs.io/en/latest/reproducibility.html"
+              },
+              {
+                "type": "text",
+                "text": "\numapのrandom stateを外せば、umapの処理に並列化が効くみたい。\n前段階のextractionですでにランダム性があるので、後段でseed固定をする必要はないと思うんだけどどうでしょう？\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://umap-learn.readthedocs.io/en/latest/reproducibility.html>\numapのrandom stateを外せば、umapの処理に並列化が効くみたい。\n前段階のextractionですでにランダム性があるので、後段でseed固定をする必要はないと思うんだけどどうでしょう？\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/steps/hierarchical_clustering.py#L31>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753582985.706809",
+    "client_msg_id": "6AF2F19F-B31B-41AB-A9BD-829833AE9AD3",
+    "text": "一般的なユースケースではシードの固定はしないだろうから外しても良いと思う",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753544956.533489",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NGWlx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一般的なユースケースではシードの固定はしないだろうから外しても良いと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753544956.533489",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "一般的なユースケースではシードの固定はしないだろうから外しても良いと思う"
+  }
+]
