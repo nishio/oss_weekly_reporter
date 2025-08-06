@@ -1,0 +1,2759 @@
+[
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753848300.000269",
+    "client_msg_id": "A9DC2A76-DCC3-4B03-8A9A-BB579EB13DF8",
+    "text": "<!here> 午後ちょっと暇あるんですが出来ることあります？Claude Code使えるものだと嬉しい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jV2E6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 午後ちょっと暇あるんですが出来ることあります？Claude Code使えるものだと嬉しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "<!here> 午後ちょっと暇あるんですが出来ることあります？Claude Code使えるものだと嬉しい"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753848914.706609",
+    "client_msg_id": "07daf92e-0b6d-495a-bd3e-77622eebc8ef",
+    "text": "収支報告書のデータ構造化`/tools` 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "reply_count": 19,
+    "reply_users_count": 3,
+    "latest_reply": "1753880225.507439",
+    "reply_users": [
+      "U08HV1H5HKK",
+      "U08NZH1RY4S",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GbR+F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "収支報告書のデータ構造化"
+              },
+              {
+                "type": "text",
+                "text": "/tools",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08HV1H5HKK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "収支報告書のデータ構造化`/tools` 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753857585.456509",
+    "client_msg_id": "d61fd450-eb48-4a80-8ee7-198e07048ec5",
+    "text": "ブランチとかIssueとか教えてもらえます？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FSPpY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ブランチとかIssueとか教えてもらえます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "ブランチとかIssueとか教えてもらえます？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753857791.349749",
+    "client_msg_id": "df8d5856-890d-4872-a844-00a643555c9c",
+    "text": "issueは確かこれです\n<https://github.com/digitaldemocracy2030/polimoney/issues/19>\n\nconverter.tsは改良していただいた結果収入と支出の合計値があっていなくても動くようになっていたはずです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1745417403,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/polimoney/issues/19",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#19 OCR（画像認識）の精度強化",
+        "text": "ただのメモ  \n4/23現在、OCR・Geminiまわりの担当は清水のみです\n\n### なるべく処理ログを残す\n\n• どの座標をどんな文字と認識したのか記録\n• 合計金額を計算し記録（「小計」の活用）\n• 手書き文字・訂正印が邪魔で読みにくい部分を記録\n• 備考などのイレギュラー対策の検討\n• 必要に応じて画像をトリミング\n\n目標：バグ発生時の迅速な対応を実現する\n\n### json形式の統一\n\n• DBとのやりとりはPinさん担当なので相談する\n• 上記処理ログ含め残したい\n\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0|参考：4/23 ミーティングログ>",
+        "title": "#19 OCR（画像認識）の精度強化",
+        "title_link": "https://github.com/digitaldemocracy2030/polimoney/issues/19",
+        "footer": "<https://github.com/digitaldemocracy2030/polimoney|digitaldemocracy2030/polimoney>",
+        "fields": [
+          {
+            "value": "<https://github.com/shumizu418128|@shumizu418128>",
+            "title": "Assignees",
+            "short": true
+          },
+          {
+            "value": "DEV",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c08Os",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "issueは確かこれです\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/19"
+              },
+              {
+                "type": "text",
+                "text": "\n\nconverter.tsは改良していただいた結果収入と支出の合計値があっていなくても動くようになっていたはずです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "issueは確かこれです\n<https://github.com/digitaldemocracy2030/polimoney/issues/19>\n\nconverter.tsは改良していただいた結果収入と支出の合計値があっていなくても動くようになっていたはずです"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860004.881229",
+    "client_msg_id": "9752f97e-827a-493a-bf4c-cc2ef6d30de9",
+    "text": "push権限がないw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a/8wa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "push権限がないw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "push権限がないw"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753860051.216439",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1753860073.000000"
+    },
+    "client_msg_id": "b47da11e-9f37-4bdd-ac34-f721ac0e5491",
+    "text": "mainへのプッシュはできない設定にしているので、みなさんプルリク作っていただいてます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BEalA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "mainへのプッシュはできない設定にしているので、みなさんプルリク作っていただいてます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "mainへのプッシュはできない設定にしているので、みなさんプルリク作っていただいてます"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860080.092939",
+    "client_msg_id": "6208bcab-1999-49df-ac5a-5c2bdd277c1f",
+    "text": "ブランチへの’pushも権限ないからforkした",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5hYah",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ブランチへの’pushも権限ないからforkした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "ブランチへの’pushも権限ないからforkした"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753860106.394979",
+    "client_msg_id": "40f6799b-8356-4565-8770-70c60a582813",
+    "text": "あ、はいそうですね\nみんなfork, プルリク、承認の流れ踏んでます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Niusu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、はいそうですね\nみんなfork, プルリク、承認の流れ踏んでます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "あ、はいそうですね\nみんなfork, プルリク、承認の流れ踏んでます"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860265.056829",
+    "client_msg_id": "819d5dcc-0e89-4207-a749-d5c489425903",
+    "text": "PR作る時はIssue必須？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gf6fS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PR作る時はIssue必須？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "PR作る時はIssue必須？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753860315.234649",
+    "client_msg_id": "1064d6c2-566b-45b6-94dd-3ba565b2ed2b",
+    "text": "不要です～",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0v4df",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "不要です～"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "不要です～"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753860342.938319",
+    "client_msg_id": "301e23ad-9fe4-486a-80a4-d87baa6bcd18",
+    "text": "（あったらうれしいですが無くても気にせず通してます）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zi+ll",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（あったらうれしいですが無くても気にせず通してます）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "（あったらうれしいですが無くても気にせず通してます）"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860365.418809",
+    "client_msg_id": "d79d24db-2293-4995-b9ef-62c3892c9420",
+    "text": "<https://github.com/digitaldemocracy2030/polimoney/pull/167>\nこれレビューしてマージして欲しい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lLxri",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/pull/167"
+              },
+              {
+                "type": "text",
+                "text": "\nこれレビューしてマージして欲しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "<https://github.com/digitaldemocracy2030/polimoney/pull/167>\nこれレビューしてマージして欲しい"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860506.458149",
+    "client_msg_id": "db6ab145-f0cf-484a-a2ba-9c6306925bb9",
+    "text": "あ、言語って全部英語の方がいい？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v0fH8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、言語って全部英語の方がいい？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "あ、言語って全部英語の方がいい？"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860568.746729",
+    "client_msg_id": "db38b90d-a16d-4b50-9991-a61fa36a6555",
+    "text": "polimoneyは外国で使われることそうてしてないだろうから日本語の方がいいのか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "soOmS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoneyは外国で使われることそうてしてないだろうから日本語の方がいいのか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "polimoneyは外国で使われることそうてしてないだろうから日本語の方がいいのか？"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753860837.498879",
+    "client_msg_id": "9d241033-b73b-4aad-b533-ed3315a1ab71",
+    "text": "issue19読んでるなう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mOXJz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "issue19読んでるなう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "issue19読んでるなう"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753861524.770289",
+    "client_msg_id": "e9b80748-1408-4f2c-a217-1acb993149d3",
+    "text": "ヒューマンインザループじゃだめなのか。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+V/+Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ヒューマンインザループじゃだめなのか。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "ヒューマンインザループじゃだめなのか。。。"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753862911.647939",
+    "client_msg_id": "fe2c7d15-78e8-4dbe-b543-709aec3e5ab7",
+    "text": "&gt;  今一番必要なのはやはり「当面の主な課題と取り組み」であるデータ構造化（特にconverter.tsの改良\nこれは何がやりたいんですかね？僕リファクタリングやユニットテスト得意ですが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LOKE+",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " 今一番必要なのはやはり「当面の主な課題と取り組み」であるデータ構造化（特にconverter.tsの改良"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは何がやりたいんですかね？僕リファクタリングやユニットテスト得意ですが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": ">  今一番必要なのはやはり「当面の主な課題と取り組み」であるデータ構造化（特にconverter.tsの改良\nこれは何がやりたいんですかね？僕リファクタリングやユニットテスト得意ですが。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HV1H5HKK",
+    "thread_ts": "1753848914.706609",
+    "root": {
+      "user": "U08NZH1RY4S",
+      "type": "message",
+      "ts": "1753848914.706609",
+      "client_msg_id": "07daf92e-0b6d-495a-bd3e-77622eebc8ef",
+      "text": "収支報告書のデータ構造化`/tools` 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1753848914.706609",
+      "reply_count": 19,
+      "reply_users_count": 3,
+      "latest_reply": "1753880225.507439",
+      "reply_users": [
+        "U08HV1H5HKK",
+        "U08NZH1RY4S",
+        "U08HWJ80CHG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GbR+F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "収支報告書のデータ構造化"
+                },
+                {
+                  "type": "text",
+                  "text": "/tools",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1753864191.990149",
+    "client_msg_id": "9bf1678e-edd2-434c-9b95-dbad7990e3de",
+    "text": "とりあえずローカルで動かしてみる画像データが欲しい",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UYl+/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずローカルで動かしてみる画像データが欲しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "とりあえずローカルで動かしてみる画像データが欲しい"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753867728.963019",
+    "client_msg_id": "906aa3ea-fe6d-46db-a038-097d84ed5ad8",
+    "text": "<https://github.com/digitaldemocracy2030/polimoney/issues/19#issuecomment-3135508197>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Oh9Zc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/19#issuecomment-3135508197"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "石橋隆平",
+    "text_readable": "<https://github.com/digitaldemocracy2030/polimoney/issues/19#issuecomment-3135508197>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1753875532.309189",
+    "client_msg_id": "99ee83ee-abef-4d7b-8a5a-4d50b983c11a",
+    "text": "&gt; とりあえずローカルで動かしてみる画像データが欲しい\n<https://www.soumu.go.jp/senkyo/seiji_s/seijishikin/reports/SS20231124/SF/000050.html>\nこのあたりとかどうでしょう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hnUCN",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずローカルで動かしてみる画像データが欲しい"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.soumu.go.jp/senkyo/seiji_s/seijishikin/reports/SS20231124/SF/000050.html"
+              },
+              {
+                "type": "text",
+                "text": "\nこのあたりとかどうでしょう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "小野翔太",
+    "text_readable": "> とりあえずローカルで動かしてみる画像データが欲しい\n<https://www.soumu.go.jp/senkyo/seiji_s/seijishikin/reports/SS20231124/SF/000050.html>\nこのあたりとかどうでしょう"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753880225.507439",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1753880245.000000"
+    },
+    "client_msg_id": "3fcefbd9-a309-49af-bbf4-8a201291f649",
+    "text": "<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/05teiki-jimin_365|出井さんの収支報告書>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753848914.706609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jLrOT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/05teiki-jimin_365",
+                "text": "出井さんの収支報告書"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753848914.706609",
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/05teiki-jimin_365|出井さんの収支報告書>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HV1H5HKK",
+    "thread_ts": "1753848914.706609",
+    "root": {
+      "user": "U08NZH1RY4S",
+      "type": "message",
+      "ts": "1753848914.706609",
+      "client_msg_id": "07daf92e-0b6d-495a-bd3e-77622eebc8ef",
+      "text": "収支報告書のデータ構造化`/tools` 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1753848914.706609",
+      "reply_count": 19,
+      "reply_users_count": 3,
+      "latest_reply": "1753880225.507439",
+      "reply_users": [
+        "U08HV1H5HKK",
+        "U08NZH1RY4S",
+        "U08HWJ80CHG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GbR+F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "収支報告書のデータ構造化"
+                },
+                {
+                  "type": "text",
+                  "text": "/tools",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " 止まっちゃってるのでなんとかしたいですね...\n現状把握からですが"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1753864191.990149",
+    "client_msg_id": "9bf1678e-edd2-434c-9b95-dbad7990e3de",
+    "text": "とりあえずローカルで動かしてみる画像データが欲しい",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UYl+/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずローカルで動かしてみる画像データが欲しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "とりあえずローカルで動かしてみる画像データが欲しい"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1753872717.519509",
+    "client_msg_id": "99a88349-012f-4002-a1fe-c1f8fd4a6262",
+    "text": "Polimoney、日本でやるならカタカナの方が良い説。\nそしてそれならば、\n日本語（カタカナ）では\nポリマネー or ポリマ二ー\nをはっきりさせたい。\nロゴを作る際、カタカナの方がいいのではないかと思いご相談です。\n何かご意見あればいただきたし！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753872717.519509",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1753879381.454629",
+    "reply_users": [
+      "U09725PGV9P",
+      "U08J64P3SF4"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cxmOm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Polimoney、日本でやるならカタカナの方が良い説。\nそしてそれならば、\n日本語（カタカナ）では\nポリマネー or ポリマ二ー\nをはっきりさせたい。\nロゴを作る際、カタカナの方がいいのではないかと思いご相談です。\n何かご意見あればいただきたし！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "Polimoney、日本でやるならカタカナの方が良い説。\nそしてそれならば、\n日本語（カタカナ）では\nポリマネー or ポリマ二ー\nをはっきりさせたい。\nロゴを作る際、カタカナの方がいいのではないかと思いご相談です。\n何かご意見あればいただきたし！"
+  },
+  {
+    "user": "U09725PGV9P",
+    "type": "message",
+    "ts": "1753877564.597639",
+    "client_msg_id": "0ffef8b8-90f9-455d-946f-8e193ecbf97a",
+    "text": "一応どれもまだ日本での商標登録はされてなさそう？\n• Polimoney\n• ポリマネー\n• ポリマ二ー\n<https://www.j-platpat.inpit.go.jp/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753872717.519509",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tNX30",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応どれもまだ日本での商標登録はされてなさそう？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Polimoney"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ポリマネー"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ポリマ二ー"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.j-platpat.inpit.go.jp/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753872717.519509",
+    "user_name": "U09725PGV9P",
+    "text_readable": "一応どれもまだ日本での商標登録はされてなさそう？\n• Polimoney\n• ポリマネー\n• ポリマ二ー\n<https://www.j-platpat.inpit.go.jp/>"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1753879381.454629",
+    "client_msg_id": "64B3B4E5-480E-4C61-8581-2E56D14B6FCA",
+    "text": "あ、やっちゃった、ごめんなさい！別スレでコメントしましたが商標チェック大丈夫との事でよかったですー :blob-bongo-love: ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753872717.519509",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HPhzp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、やっちゃった、"
+              },
+              {
+                "type": "text",
+                "text": "ごめんなさい！別スレでコメントしましたが商標チェック大丈夫との事でよかったですー "
+              },
+              {
+                "type": "emoji",
+                "name": "blob-bongo-love"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753872717.519509",
+    "user_name": "Chieko",
+    "text_readable": "あ、やっちゃった、ごめんなさい！別スレでコメントしましたが商標チェック大丈夫との事でよかったですー :blob-bongo-love: "
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753873203.568739",
+    "bot_id": "B01",
+    "text": "リマインダー : !here  :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 21:00-22:00 :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YhuM/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here  "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 21"
+              },
+              {
+                "type": "emoji",
+                "name": "00-22"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here  :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 21:00-22:00 :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1753880556.420499",
+    "client_msg_id": "8ebd410a-5e0a-4891-ba5d-f0696bc85fcc",
+    "text": "<!here>\n中村さんに作ってもらっている会計ソフトの要件読む会をやろうと思います！\nいったん8/1～8/7の間で、何時・何曜・朝昼晩など、都合が良さそうな日をスレッドにコメントいただけると助かります！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "reply_count": 6,
+    "reply_users_count": 4,
+    "latest_reply": "1753955942.358909",
+    "reply_users": [
+      "U08J64P3SF4",
+      "U08QDPC2JRG",
+      "U08HV1H5HKK",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qP4bC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\n中村さんに作ってもらっている会計ソフトの要件読む会をやろうと思います！\nいったん8/1～8/7の間で、何時・何曜・朝昼晩など、都合が良さそうな日をスレッドにコメントいただけると助かります！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "he-brings-you-yaas",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\n中村さんに作ってもらっている会計ソフトの要件読む会をやろうと思います！\nいったん8/1～8/7の間で、何時・何曜・朝昼晩など、都合が良さそうな日をスレッドにコメントいただけると助かります！"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1753930474.635689",
+    "client_msg_id": "837BBDDF-AC54-41A8-9237-C64E3CF854FE",
+    "text": "ご提案ありがとうございます‼︎\nこちら録画されますか？？\nリアルタイムでは耳だけ参加も難しい可能性かなり高く…追いかけでインプットさせていただきたいです :bow: ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7CChB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご提案ありがとうございます‼︎\nこちら録画されますか？？\nリアルタイムでは耳だけ参加も難しい可能性かなり高く…追いかけでインプットさせていただきたいです "
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "Chieko",
+    "text_readable": "ご提案ありがとうございます‼︎\nこちら録画されますか？？\nリアルタイムでは耳だけ参加も難しい可能性かなり高く…追いかけでインプットさせていただきたいです :bow: "
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1753938650.429899",
+    "client_msg_id": "05FDE3F3-1C26-464C-B9E7-ED994DCA9B89",
+    "text": "平日19時以降だと助かります！8/1はNG",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TjJXR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "平日19時以降だと助かります！8/1はNG"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "平日19時以降だと助かります！8/1はNG"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753939192.000659",
+    "client_msg_id": "1ff92989-8c65-4b02-b289-0ef4ba0a583e",
+    "text": "僕はいつもは暇なのにその区間だけ2,5,7NGです:pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7rzCP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕はいつもは暇なのにその区間だけ2,5,7NGです"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "石橋隆平",
+    "text_readable": "僕はいつもは暇なのにその区間だけ2,5,7NGです:pray:"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753939313.233789",
+    "client_msg_id": "ae7cc720-ee88-49f9-8917-e51659124e32",
+    "text": "そして全期間でメインのMacがなくて開発環境作ってないゲーミングWindowsPCしか手元にない。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t9yY5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そして全期間でメインのMacがなくて開発環境作ってないゲーミングWindowsPCしか手元にない。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "石橋隆平",
+    "text_readable": "そして全期間でメインのMacがなくて開発環境作ってないゲーミングWindowsPCしか手元にない。。。"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753939371.057189",
+    "client_msg_id": "87ba4a98-dadb-43c9-a4a1-8ac0690064bb",
+    "text": "７は夜は大丈夫でもしかするとその頃にはPC届いてるかも。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hUH5e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "７は夜は大丈夫でもしかするとその頃にはPC届いてるかも。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "石橋隆平",
+    "text_readable": "７は夜は大丈夫でもしかするとその頃にはPC届いてるかも。。。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1753955942.358909",
+    "client_msg_id": "b827e84d-18e5-455d-aec6-40f1f5c2605c",
+    "text": "8/6の定例を読み合わせ会にする…？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753880556.420499",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E93Na",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "8/6の定例を読み合わせ会にする…？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "ariyorinoari",
+        "users": [
+          "U08QDPC2JRG",
+          "U08HV1H5HKK"
+        ],
+        "count": 2
+      },
+      {
+        "name": "+1::skin-tone-2",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U09725PGV9P",
+          "U08PD4Y0D9V",
+          "U08HV1H5HKK"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1753880556.420499",
+    "user_name": "小野翔太",
+    "text_readable": "8/6の定例を読み合わせ会にする…？"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753949507.888249",
+    "client_msg_id": "32408bfa-b0e9-42dc-aa8e-a1058be94ce7",
+    "text": "一個ずつのファイルがでかくて時間かかりすぎるから単体テストで細かく開発してくのが良さそう\n帳票は似たものをGEMINIに生成させて偽物だったらrepositoryにコミットしてもいんじゃないかな",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753949507.888249",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1753955722.746249",
+    "reply_users": [
+      "U08HV1H5HKK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3Rcj4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一個ずつのファイルがでかくて時間かかりすぎるから単体テストで細かく開発してくのが良さそう\n帳票は似たものをGEMINIに生成させて偽物だったらrepositoryにコミットしてもいんじゃないかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "一個ずつのファイルがでかくて時間かかりすぎるから単体テストで細かく開発してくのが良さそう\n帳票は似たものをGEMINIに生成させて偽物だったらrepositoryにコミットしてもいんじゃないかな"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1753955722.746249",
+    "client_msg_id": "69ac8437-78e9-4291-8b0e-0e991c9cc67a",
+    "text": "クリアしないといけない課題（画像）が明確じゃないから雲を掴むような感じだ簡単なベンチマークとか作った方がいいかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753949507.888249",
+    "parent_user_id": "U08HV1H5HKK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "op+AC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "クリアしないといけない課題（画像）が明確じゃないから雲を掴むような感じだ簡単なベンチマークとか作った方がいいかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753949507.888249",
+    "user_name": "石橋隆平",
+    "text_readable": "クリアしないといけない課題（画像）が明確じゃないから雲を掴むような感じだ簡単なベンチマークとか作った方がいいかも"
+  },
+  {
+    "user": "U09725PGV9P",
+    "type": "message",
+    "ts": "1753966969.423229",
+    "edited": {
+      "user": "U09725PGV9P",
+      "ts": "1753967046.000000"
+    },
+    "client_msg_id": "30f153d8-100b-4dcd-870f-8e126467badc",
+    "text": "どなたかお手隙の際に教えてください。\n公認バッジのデザインを検討する前に知りたいのですが、プロダクト自体のコンセプトやデザインガイドライン、なんかこんな感じにしたいんや〜\nとかってイメージはあったりするんでしょうか？\n\n以下のテストページを発見したのですが、このデザインについて聞きたいことが、、、\n<https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/|https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/>\n①完成度は何割くらいなんでしょうか？（まだまだ機能のせるから全然変わりそう、とか、この画面をベースにちょっと追加したい、とか）\n\n②またこのデザインのデータとかを置いてるファイルとかあるんでしょうか？（当方figma無料枠なのでデザインデータ場所あればそこで作業できたら助かります）\n\n③テスト環境のデザインをどんなイメージで作られたかなど知りたいです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753966969.423229",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1754203561.711279",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U09725PGV9P"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1A1/z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どなたかお手隙の際に教えてください。\n公認バッジのデザインを検討する前に知りたいのですが、プロダクト自体のコンセプトやデザインガイドライン、なんかこんな感じにしたいんや〜\nとかってイメージはあったりするんでしょうか？\n\n以下のテストページを発見したのですが、このデザインについて聞きたいことが、、、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/",
+                "text": "https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/"
+              },
+              {
+                "type": "text",
+                "text": "\n①完成度は何割くらいなんでしょうか？（まだまだ機能のせるから全然変わりそう、とか、この画面をベースにちょっと追加したい、とか）\n\n②またこのデザインのデータとかを置いてるファイルとかあるんでしょうか？（当方figma無料枠なのでデザインデータ場所あればそこで作業できたら助かります）\n\n③テスト環境のデザインをどんなイメージで作られたかなど知りたいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U09725PGV9P",
+    "text_readable": "どなたかお手隙の際に教えてください。\n公認バッジのデザインを検討する前に知りたいのですが、プロダクト自体のコンセプトやデザインガイドライン、なんかこんな感じにしたいんや〜\nとかってイメージはあったりするんでしょうか？\n\n以下のテストページを発見したのですが、このデザインについて聞きたいことが、、、\n<https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/|https://polimoney-forked-by-dotneet.vercel.app/demo-takahiro-anno-2024/>\n①完成度は何割くらいなんでしょうか？（まだまだ機能のせるから全然変わりそう、とか、この画面をベースにちょっと追加したい、とか）\n\n②またこのデザインのデータとかを置いてるファイルとかあるんでしょうか？（当方figma無料枠なのでデザインデータ場所あればそこで作業できたら助かります）\n\n③テスト環境のデザインをどんなイメージで作られたかなど知りたいです。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753972150.334489",
+    "client_msg_id": "560a32ec-a75d-4616-acbe-685c9ed3b2e2",
+    "text": "1と3はわからない（完成度がわかるほどしっかり計画は立てられていないと思う）のですが、デザインのデータは見つけました\n<https://www.figma.com/design/ION1vliUYD3oqzmGKETsDo/Polimoney?node-id=0-1&amp;p=f>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753966969.423229",
+    "parent_user_id": "U09725PGV9P",
+    "attachments": [
+      {
+        "id": 1,
+        "blocks": [
+          {
+            "type": "divider",
+            "block_id": "QjLcp"
+          },
+          {
+            "type": "section",
+            "block_id": "eir+4",
+            "text": {
+              "type": "mrkdwn",
+              "text": "<https://www.figma.com/design/ION1vliUYD3oqzmGKETsDo/Polimoney?node-id=0-1&amp;p=f|*Polimoney*>",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "image",
+            "block_id": "GStYH",
+            "image_url": "https://api-cdn.figma.com/resize/thumbnails/254627d7-cfea-49d9-acaf-352011515d21?height=112&bucket=figma-alpha",
+            "alt_text": "Figma File Image",
+            "image_width": 116,
+            "image_height": 112,
+            "image_bytes": 14091,
+            "is_animated": true,
+            "fallback": "116x112px image"
+          }
+        ],
+        "fallback": "[no preview available]",
+        "bot_id": "B08L84Z0M16",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://www.figma.com/design/ION1vliUYD3oqzmGKETsDo/Polimoney?node-id=0-1&amp;p=f",
+        "is_app_unfurl": true,
+        "app_id": "A01N2QYSA81"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R3MgD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1と3はわからない（完成度がわかるほどしっかり計画は立てられていないと思う）のですが、デザインのデータは見つけました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ION1vliUYD3oqzmGKETsDo/Polimoney?node-id=0-1&p=f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U09725PGV9P"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigatou",
+        "users": [
+          "U09725PGV9P"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753966969.423229",
+    "user_name": "haruki shimizu",
+    "text_readable": "1と3はわからない（完成度がわかるほどしっかり計画は立てられていないと思う）のですが、デザインのデータは見つけました\n<https://www.figma.com/design/ION1vliUYD3oqzmGKETsDo/Polimoney?node-id=0-1&p=f>"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1753972268.200849",
+    "client_msg_id": "9d90b967-2da4-4504-89b7-c5b058ac9142",
+    "text": "まだまだ出来立てのプロジェクトなので、決まっていないところは多いですね。\n私この前一人で仕様策定会議もせず勝手にいろいろ決めて開発やってました（事後報告はしました）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753966969.423229",
+    "parent_user_id": "U09725PGV9P",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1TES+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだまだ出来立てのプロジェクトなので、決まっていないところは多いですね。\n私この前一人で仕様策定会議もせず勝手にいろいろ決めて開発やってました（事後報告はしました）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U09725PGV9P"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753966969.423229",
+    "user_name": "haruki shimizu",
+    "text_readable": "まだまだ出来立てのプロジェクトなので、決まっていないところは多いですね。\n私この前一人で仕様策定会議もせず勝手にいろいろ決めて開発やってました（事後報告はしました）"
+  },
+  {
+    "user": "U09725PGV9P",
+    "type": "message",
+    "ts": "1754203561.711279",
+    "client_msg_id": "a6364bb9-981b-4129-a15d-0616c2245587",
+    "text": "<@U08NZH1RY4S>\nお返事が遅くなりましたが、ありがとうございます！\nこのデザインデータはどなたがつくられたんでしょうね？謎ですね・・:thinking_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753966969.423229",
+    "parent_user_id": "U09725PGV9P",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/Zc5v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\nお返事が遅くなりましたが、ありがとうございます！\nこのデザインデータはどなたがつくられたんでしょうね？謎ですね・・"
+              },
+              {
+                "type": "emoji",
+                "name": "thinking_face",
+                "unicode": "1f914"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753966969.423229",
+    "user_name": "U09725PGV9P",
+    "text_readable": "@shumizu418128\nお返事が遅くなりましたが、ありがとうございます！\nこのデザインデータはどなたがつくられたんでしょうね？謎ですね・・:thinking_face:"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08NZH1RY4S",
+    "thread_ts": "1753835758.228569",
+    "root": {
+      "user": "U08NZH1RY4S",
+      "type": "message",
+      "ts": "1753835758.228569",
+      "client_msg_id": "cec78899-d94c-49cd-a328-cf3aa9fd57fd",
+      "text": "なんかこのチャンネルをスマホで開いたらSlack落ちるようになってしまったのですが、おま環でしょうか...",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1753835758.228569",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1754032294.168839",
+      "reply_users": [
+        "U08QDPC2JRG",
+        "U08NZH1RY4S"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "R+YHM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "なんかこのチャンネルをスマホで開いたらSlack落ちるようになってしまったのですが、おま環でしょうか..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754032294.168839",
+    "client_msg_id": "6cc4d2cf-a3e5-458a-a38c-d3e840f6fc4f",
+    "text": "きぬがささんのPDFが画面内に入った瞬間落ちます\n\nなんでやｗ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "enDbY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "きぬがささんのPDFが画面内に入った瞬間落ちます\n\nなんでやｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "rolling_on_the_floor_laughing",
+        "users": [
+          "U08QDPC2JRG",
+          "U08HV1H5HKK",
+          "U09725PGV9P",
+          "U08PNJ3KTRA",
+          "U08J64P3SF4"
+        ],
+        "count": 5
+      },
+      {
+        "name": "dousite",
+        "users": [
+          "U08QDPC2JRG",
+          "U08HV1H5HKK",
+          "U08J64P3SF4"
+        ],
+        "count": 3
+      },
+      {
+        "name": "he-brings-you-contagion",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "きぬがささんのPDFが画面内に入った瞬間落ちます\n\nなんでやｗ"
+  },
+  {
+    "user": "U08Q66ACBTK",
+    "type": "message",
+    "ts": "1754097392.287709",
+    "client_msg_id": "f448d807-2bb2-40c2-81e8-77d825289d06",
+    "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754097392.287709",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1754444312.570879",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U08QDPC2JRG",
+      "U08Q66ACBTK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BFf/l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "takatetomoki",
+    "text_readable": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08NZH1RY4S",
+    "thread_ts": "1754097392.287709",
+    "root": {
+      "user": "U08Q66ACBTK",
+      "type": "message",
+      "ts": "1754097392.287709",
+      "client_msg_id": "f448d807-2bb2-40c2-81e8-77d825289d06",
+      "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754097392.287709",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1754444312.570879",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08QDPC2JRG",
+        "U08Q66ACBTK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BFf/l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754107731.216059",
+    "client_msg_id": "97cf2ffc-7686-4ad4-8982-9ffd67779914",
+    "text": "現状、使いたい人を全員把握している人ってどなたでしょう？",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ptIWT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状、使いたい人を全員把握している人ってどなたでしょう？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "nazo",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "blob-rolling-eyes-gif",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray::skin-tone-2",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754097392.287709",
+    "user_name": "haruki shimizu",
+    "text_readable": "現状、使いたい人を全員把握している人ってどなたでしょう？"
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1754407877.016089",
+    "client_msg_id": "0BAC9912-C10F-46B4-B6CA-589339D500FF",
+    "text": "<@U08Q66ACBTK> \nまずお見せできる資料として <https://docs.google.com/presentation/d/1d5OqyfjVNiQCokVXgEdy9K1RTlEExyQUWOeEFXVl2UM/mobilepresent?slide=id.p1|Polimoney_formal> があります！(すみませんパワポ内の赤字まだ消してません :sweat_drops:)\np.11で導入の流れを説明してるのですが、お探しのものはこちらでしたか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754097392.287709",
+    "parent_user_id": "U08Q66ACBTK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f79Rq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08Q66ACBTK"
+              },
+              {
+                "type": "text",
+                "text": " \nまずお見せできる資料"
+              },
+              {
+                "type": "text",
+                "text": "として"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/presentation/d/1d5OqyfjVNiQCokVXgEdy9K1RTlEExyQUWOeEFXVl2UM/mobilepresent?slide=id.p1",
+                "text": "Polimoney_formal"
+              },
+              {
+                "type": "text",
+                "text": " があります！"
+              },
+              {
+                "type": "text",
+                "text": "(すみませんパワポ内の赤字まだ消してません "
+              },
+              {
+                "type": "emoji",
+                "name": "sweat_drops",
+                "unicode": "1f4a6"
+              },
+              {
+                "type": "text",
+                "text": ")\np.11で導入の流れを説明してるのですが、お探しのものはこちらでしたか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754097392.287709",
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "@tomoki2757 \nまずお見せできる資料として <https://docs.google.com/presentation/d/1d5OqyfjVNiQCokVXgEdy9K1RTlEExyQUWOeEFXVl2UM/mobilepresent?slide=id.p1|Polimoney_formal> があります！(すみませんパワポ内の赤字まだ消してません :sweat_drops:)\np.11で導入の流れを説明してるのですが、お探しのものはこちらでしたか？"
+  },
+  {
+    "user": "U08Q66ACBTK",
+    "type": "message",
+    "ts": "1754444312.570879",
+    "client_msg_id": "941809F8-C621-4BDA-B3E8-DF6DB91FBCCA",
+    "text": "あざます！これです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754097392.287709",
+    "parent_user_id": "U08Q66ACBTK",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yIkES",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あざます！これです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-attention-gif",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754097392.287709",
+    "user_name": "takatetomoki",
+    "text_readable": "あざます！これです！"
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1754100131.956389",
+    "client_msg_id": "17BAB7BE-EC96-453D-8B70-DAE32FB663C7",
+    "text": "<!here> \nPolimoneyのロゴデザインを決めるにあたり、改めてプロダクト名を決めようと思います！\n:one: Polimoney\n:two: ポリマネー\n:three: ぽりまねー\nそもそもの名前の由来はpolitical moneyらしい！\n日本で広めるなら日本語の方がいいのかも？\n番号のスタンプを押してぜひ投票にご参加ください :blush: \n一旦投票は8/6までといたします〜",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754100131.956389",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1754100177.486159",
+    "reply_users": [
+      "U08QDPC2JRG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HQjkO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " \nPolimoneyのロゴデザインを決めるにあたり、改めてプロダクト名を決めようと思います！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "one",
+                "unicode": "0031-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney\n"
+              },
+              {
+                "type": "emoji",
+                "name": "two",
+                "unicode": "0032-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " ポリマネー\n"
+              },
+              {
+                "type": "emoji",
+                "name": "three",
+                "unicode": "0033-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " ぽりまねー\nそもそもの名前の由来は"
+              },
+              {
+                "type": "text",
+                "text": "political moneyらしい！\n日本で広めるなら日本語の方がいいのかも？"
+              },
+              {
+                "type": "text",
+                "text": "\n番号のスタンプを押してぜひ投票にご参加ください "
+              },
+              {
+                "type": "emoji",
+                "name": "blush",
+                "unicode": "1f60a"
+              },
+              {
+                "type": "text",
+                "text": " \n一旦投票は8/6までといたします〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "two",
+        "users": [
+          "U08PMMXPVTN",
+          "U08HWJ80CHG",
+          "U08Q66ACBTK",
+          "U08HMV9AHLL",
+          "U08HV1H5HKK"
+        ],
+        "count": 5
+      },
+      {
+        "name": "one",
+        "users": [
+          "U08QDPC2JRG",
+          "U097KN7URN1",
+          "U08J60VKDUY",
+          "U08PNJ3KTRA",
+          "U08Q2CKU139",
+          "U08HTMJPH6K",
+          "U09725PGV9P",
+          "U08J64P3SF4",
+          "U08RVJ39D4M",
+          "U08P9JSBDFB"
+        ],
+        "count": 10
+      }
+    ],
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "<!here> \nPolimoneyのロゴデザインを決めるにあたり、改めてプロダクト名を決めようと思います！\n:one: Polimoney\n:two: ポリマネー\n:three: ぽりまねー\nそもそもの名前の由来はpolitical moneyらしい！\n日本で広めるなら日本語の方がいいのかも？\n番号のスタンプを押してぜひ投票にご参加ください :blush: \n一旦投票は8/6までといたします〜"
+  },
+  {
+    "user": "U08QDPC2JRG",
+    "type": "message",
+    "ts": "1754100177.486159",
+    "client_msg_id": "AC67E1B9-F55B-4CF5-BD6F-D31685110787",
+    "text": "※日英併記は一旦除外しましたが、もし希望あればスレッドにてコメントお願いします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754100131.956389",
+    "parent_user_id": "U08QDPC2JRG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X5krQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "※日英併記は一旦除外しましたが、もし希望あればスレッドにてコメントお願いします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754100131.956389",
+    "user_name": "Nozomi.M（みたらし）",
+    "text_readable": "※日英併記は一旦除外しましたが、もし希望あればスレッドにてコメントお願いします！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08J64P3SF4",
+    "thread_ts": "1747697376.595699",
+    "root": {
+      "user": "U08NUE5AM8F",
+      "type": "message",
+      "ts": "1747697376.595699",
+      "client_msg_id": "A0A70F79-0598-40AC-85CA-6934D2952D64",
+      "text": "<@U08J64P3SF4> \n下記のユーザーインタビューを資料もしくはWEBページとして公開すると良いと思うのですが、コンテンツ化をお願いしても良いでしょうか？\n<https://docs.google.com/spreadsheets/d/1-FltsXWMpve6JtOzpUthTx9TWBiMguBDL3DAw_YlwM4/edit?usp=drivesdk|https://docs.google.com/spreadsheets/d/1-FltsXWMpve6JtOzpUthTx9TWBiMguBDL3DAw_YlwM4/edit?usp=drivesdk>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1747697376.595699",
+      "reply_count": 51,
+      "reply_users_count": 5,
+      "latest_reply": "1754447782.023059",
+      "reply_users": [
+        "U08J64P3SF4",
+        "U08NUE5AM8F",
+        "U08QDPC2JRG",
+        "U08HWJ80CHG",
+        "U09725PGV9P"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7xyF8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08J64P3SF4"
+                },
+                {
+                  "type": "text",
+                  "text": " \n下記のユーザーインタビューを資料もしくはWEBページとして公開すると良いと思うのですが、コンテンツ化をお願いしても良いでしょうか？\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/spreadsheets/d/1-FltsXWMpve6JtOzpUthTx9TWBiMguBDL3DAw_YlwM4/edit?usp=drivesdk",
+                  "text": "https://docs.google.com/spreadsheets/d/1-FltsXWMpve6JtOzpUthTx9TWBiMguBDL3DAw_YlwM4/edit?usp=drivesdk"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754101276.420259",
+    "client_msg_id": "709cf8c2-b906-41d0-8b98-8023d3fd068b",
+    "text": "<@U08NUE5AM8F> <@U08QDPC2JRG> <@U08HWJ80CHG>\n＠ here!!!\nお疲れ様です、FBありがとうございました‼︎:kannsyakanngeki::sparkles:\nこちら踏まえて再度更新してみましたので今一度ご確認いただいてもよろしいでしょうか:he-brings-you-the-template-to-make-new-emojis-starting-with-he-brings-you:？\n&gt; <https://www.figma.com/board/zNuCc9qCNe1mSqKWpzk7kq/polimoney?node-id=539-953&amp;t=U6Br9F618RVpsLML-4|figma>\n&gt; <https://note.com/preview/n6b0a55592b0f?prev_access_key=37c4ae02fdfcdc7ea8a017d839bbec1c|noteプレビューリンク>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lTvSA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NUE5AM8F"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08QDPC2JRG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n＠ here!!!\nお疲れ様です、FBありがとうございました‼︎"
+              },
+              {
+                "type": "emoji",
+                "name": "kannsyakanngeki"
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728"
+              },
+              {
+                "type": "text",
+                "text": "\nこちら踏まえて再度更新してみましたので今一度ご確認いただいてもよろしいでしょうか"
+              },
+              {
+                "type": "emoji",
+                "name": "he-brings-you-the-template-to-make-new-emojis-starting-with-he-brings-you"
+              },
+              {
+                "type": "text",
+                "text": "？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.figma.com/board/zNuCc9qCNe1mSqKWpzk7kq/polimoney?node-id=539-953&t=U6Br9F618RVpsLML-4",
+                "text": "figma"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://note.com/preview/n6b0a55592b0f?prev_access_key=37c4ae02fdfcdc7ea8a017d839bbec1c",
+                "text": "noteプレビューリンク"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "orange_heart",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "saluting_face",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Chieko",
+    "text_readable": "@sasaki @1999.n.mitarashi @oscar.gaddress\n＠ here!!!\nお疲れ様です、FBありがとうございました‼︎:kannsyakanngeki::sparkles:\nこちら踏まえて再度更新してみましたので今一度ご確認いただいてもよろしいでしょうか:he-brings-you-the-template-to-make-new-emojis-starting-with-he-brings-you:？\n> <https://www.figma.com/board/zNuCc9qCNe1mSqKWpzk7kq/polimoney?node-id=539-953&t=U6Br9F618RVpsLML-4|figma>\n> <https://note.com/preview/n6b0a55592b0f?prev_access_key=37c4ae02fdfcdc7ea8a017d839bbec1c|noteプレビューリンク>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08NZH1RY4S",
+    "thread_ts": "1754097392.287709",
+    "root": {
+      "user": "U08Q66ACBTK",
+      "type": "message",
+      "ts": "1754097392.287709",
+      "client_msg_id": "f448d807-2bb2-40c2-81e8-77d825289d06",
+      "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754097392.287709",
+      "reply_count": 3,
+      "reply_users_count": 3,
+      "latest_reply": "1754444312.570879",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08QDPC2JRG",
+        "U08Q66ACBTK"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BFf/l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "八代市長選挙に出てる小野さん陣営で使いたいという話が出てるんですが､使い始めるにあたっての案内とかあれば共有ほしいです"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754107731.216059",
+    "client_msg_id": "97cf2ffc-7686-4ad4-8982-9ffd67779914",
+    "text": "現状、使いたい人を全員把握している人ってどなたでしょう？",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ptIWT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状、使いたい人を全員把握している人ってどなたでしょう？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "nazo",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "blob-rolling-eyes-gif",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray::skin-tone-2",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "現状、使いたい人を全員把握している人ってどなたでしょう？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1754149610.437139",
+    "client_msg_id": "1170dde5-fdb3-44f1-9d17-d2ca58093ca5",
+    "text": "aiすごい\n\n<https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357|https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357>\n\n(勝手に第三者をメンションしはじめたこと以外)とてもよい",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1754149392,
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "Comment on #166 理解の助けになるよう、解説を書き込む",
+        "text": "Tip\n\nFor best results, initiate chat on the files or code changes.\n\n:jigsaw: Analysis chain \n\n<https://github.com/shumizu418128|@shumizu418128> OSS プロジェクトに適した命名規則を提案させていただきます！\n\n## 提案する命名規則システム\n\n### 1. *プレフィックス + セマンティック識別子* (推奨)\n\n// 基本構造: {type}_{category}_{specific_id}\n\n// 収入項目 (Income)\ninc_donation_individual     // 個人からの寄附\ninc_donation_corporate      // 法人からの寄附  \ninc_party_membership        // 党費・会費\ninc_fundraising_party       // 政治資金パーティー\n\n// 支出項目 (Expense)  \nexp_office_rent            // 事務所費\nexp_personnel_salary       // 人件費\nexp_utilities_electric     // 光熱水費\nexp_equipment_office       // 備品・消耗品費\n\n// ツールチップ\ntooltip_inc_donation_individual\ntooltip_exp_office_rent\n\n// 政治家・団体\npolitician_{lastname}_{year}     // demo-takahiro-anno-2024\norganization_{name}_{year}\n\n### 2. *メリット*\n\n• :white_check_mark: *自己文書化*: IDを見ただけで内容が分かる\n• :white_check_mark: *国際対応*: 英語ベースで海外貢献者にも理解しやすい\n• :white_check_mark: *拡張性*: 新しいカテゴリを簡単に追加可能\n• :white_check_mark: *一貫性*: 明確なルールで誰でも従える\n• :white_check_mark: *検索性*: プレフィックスでフィルタリング可能\n\n### 3. *実装例*\n\n// constants/ids.ts (新規作成推奨)\nexport const IDS = {\n  // 収入項目\n  INCOME: {\n    DONATION_INDIVIDUAL: 'inc_donation_individual',\n    DONATION_CORPORATE: 'inc_donation_corporate', \n    PARTY_MEMBERSHIP: 'inc_party_membership',\n    FUNDRAISING_PARTY: 'inc_fundraising_party'\n  },\n  \n  // 支出項目  \n  EXPENSE: {\n    OFFICE_RENT: 'exp_office_rent',\n    PERSONNEL: 'exp_personnel_salary',\n    UTILITIES: 'exp_utilities_electric',\n    EQUIPMENT: 'exp_equipment_office'\n  },\n  \n  // ツールチップ\n  TOOLTIP: {\n    INC_DONATION_INDIVIDUAL: 'tooltip_inc_donation_individual',\n    EXP_OFFICE_RENT: 'tooltip_exp_office_rent'\n  }\n} as const;\n\n### 4. *移行戦略*\n\n1. 新しいIDシステムを段階的に導入\n2. 既存の `i1`, `e1` などは後方互換性のため残す\n3. 新機能（ツールチップなど）は新規則を採用\n4. ドキュメント化してCONTRIBUTING.mdに追加\n\nこの規則なら、<https://github.com/grassfieldk|@grassfieldk> さんがツールチップ実装する際も、どのIDがどの説明に対応するか一目瞭然になりますね！\n\nどの部分を調整したいか、他にご要望があればお聞かせください。\n\n---\n\n:checkered_flag: Script executed:\n\n```\n#!/bin/bash\n# まず、現在のIDパターンをより詳細に調査\necho \"=== 現在のIDパターンの詳細調査 ===\"\necho \"Transaction/Flow ID patterns:\"\nrg -o '\"id\":\\s*\"[^\"]*\"' --no-filename | head -20\n\necho -e \"\\n=== データファイルでの命名パターン ===\"\nrg -A 2 -B 1 'id.*:|.*id\\s*=' data/ | head -30\n\necho -e \"\\n=== 各種エンティティタイプの識別 ===\"\necho \"Income items (収入):\"\nrg '\"name\".*寄附|募金|パーティー|党費|会費' data/ -o | head -10\n\necho -e \"\\nExpense items (支出):\"  \nrg '\"name\".*事務所|人件費|光熱水費|備品|交通費' data/ -o | head -10\n\necho -e \"\\n=== ファイル構造の確認 ===\"\nfd -t f . data/ | head -10\n\n```\n\nLength of output: 2821\n\n---\n\n調査結果を踏まえて、より具体的な命名規則を提案します！\n\n## 現状の問題点\n\n• `\"xxx1\"`, `\"xxx2\"` のようなプレースホルダー\n• `\"cat1\"`, `\"t1\"` のような意味不明な短縮形\n• `\"category-__num__\"`, `\"transaction-__num__\"` のような動的ID\n\n## *改良版命名規則提案*\n\n### 1. *政治資金項目の標準化*\n\n// 収入項目 (Income) - 実際のデータに基づいて\nexport const INCOME_IDS = {\n  // 寄付関連\n  INDIVIDUAL_DONATION: 'inc_donation_individual',        // 個人からの寄付\n  POLITICAL_ORG_DONATION: 'inc_donation_political_org',  // 政治団体からの寄付  \n  GENERAL_DONATION: 'inc_donation_general',              // 寄付（一般）\n  \n  // その他収入\n  PUBLICATION_REVENUE: 'inc_publication_revenue',        // 機関紙誌の発行その他の事業による収入\n  PREVIOUS_BALANCE: 'inc_previous_balance',             // 前年からの繰越額\n  TOTAL_INCOME: 'inc_total',                           // 総収入\n  \n  // 党費・会費\n  PARTY_MEMBERSHIP: 'inc_party_membership',            // 党費・会費\n} as const;\n\n// 支出項目 (Expense)\nexport const EXPENSE_IDS = {\n  PERSONNEL_COST: 'exp_personnel_cost',      // 人件費\n  UTILITIES: 'exp_utilities',                // 光熱水費  \n  OFFICE_SUPPLIES: 'exp_office_supplies',    // 備品・事務用品\n  OFFICE_RENT: 'exp_office_rent',           // 事務所費\n  TRAVEL_EXPENSE: 'exp_travel',             // 交通費\n} as const;\n\n### 2. *カテゴリとトランザクションの区別*\n\n// 現在の \"cat1\", \"category-__num__\" を置き換え\nexport const CATEGORY_IDS = {\n  INCOME_DONATIONS: 'category_income_donations',\n  INCOME_OTHER: 'category_income_other', \n  EXPENSE_OPERATIONS: 'category_expense_operations',\n  EXPENSE_ACTIVITIES: 'category_expense_activities',\n} as const;\n\n// 現在の \"t1\", \"transaction-__num__\" を置き換え  \n// 実際のトランザクションには更に具体的なIDを付与\n// 例: transaction_2024_takahiro_anno_donation_001\n\n### 3. *段階的移行計画*\n\n// 1. 既存データとの互換性を保つマッピング\nexport const LEGACY_ID_MAPPING = {\n  'xxx1': INCOME_IDS.INDIVIDUAL_DONATION,\n  'xxx2': INCOME_IDS.POLITICAL_ORG_DONATION, \n  'xxx3': INCOME_IDS.GENERAL_DONATION,\n  'xxx4': INCOME_IDS.PUBLICATION_REVENUE,\n  'xxx5': INCOME_IDS.PREVIOUS_BALANCE,\n  'xxx66': INCOME_IDS.TOTAL_INCOME,\n  // 必要に応じて追加\n} as const;\n\n// 2. 新しいデータ構造例\nconst exampleFlow = {\n  id: INCOME_IDS.INDIVIDUAL_DONATION,\n  name: '個人からの寄付',\n  direction: 'income' as const,\n  tooltip: 'tooltip_inc_donation_individual', // ツールチップIDとの連携\n  amount: 1000000,\n  // その他のプロパティ\n};\n\n### 4. *実装手順*\n\n# 1. constants/political-finance-ids.ts を作成\n# 2. 既存の xxx1, xxx2 を段階的に置換\n# 3. 新しいツールチップ機能は新ID体系を使用\n# 4. ドキュメントをCONTRIBUTING.mdに追加\n\n### 5. *ツールチップとの連携例*\n\n// tooltip実装時の参考\nexport const TOOLTIP_CONTENT = {\n  [INCOME_IDS.INDIVIDUAL_DONATION]: {\n    id: 'tooltip_inc_donation_individual',\n    title: '個人からの寄付とは？',\n    content: '個人が政治家や政治団体に対して行う金銭的支援です。法律により上限額が定められています...'\n  },\n  // 他の項目も同様に定義\n} as const;\n\nこの方式なら：\n\n• :white_check_mark: 現在の `xxx1` → `inc_donation_individual` のような分かりやすい命名\n• :white_check_mark: <https://github.com/grassfieldk|@grassfieldk> さんのツールチップ実装も体系的に進められる\n• :white_check_mark: 既存データとの互換性も保持\n• :white_check_mark: 国際貢献者にも理解しやすい\n\nいかがでしょうか？この方向性で進めますか？",
+        "title": "Comment on #166 理解の助けになるよう、解説を書き込む",
+        "title_link": "https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357",
+        "footer": "<https://github.com/digitaldemocracy2030/polimoney|digitaldemocracy2030/polimoney>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NT6kq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "aiすごい\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357",
+                "text": "https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357"
+              },
+              {
+                "type": "text",
+                "text": "\n\n(勝手に第三者をメンションしはじめたこと以外)とてもよい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08PNJ3KTRA",
+          "U08J64P3SF4",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "aiすごい\n\n<https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357|https://github.com/digitaldemocracy2030/polimoney/issues/166#issuecomment-3146575357>\n\n(勝手に第三者をメンションしはじめたこと以外)とてもよい"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1754373355.338649",
+    "client_msg_id": "213f70b3-009a-448f-90b5-8ba074f04576",
+    "text": "まだ見れてないのですが、複式簿記についての説明動画？を中村さんが作ってくれました！\n<https://dd2030.slack.com/archives/C08FL5L6GSH/p1754192182217579?thread_ts=1753266429.091859&amp;cid=C08FL5L6GSH>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1754192182217579?thread_ts=1753266429.091859&amp;cid=C08FL5L6GSH",
+        "ts": "1754192182.217579",
+        "author_id": "U08PD4Y0D9V",
+        "channel_id": "C08FL5L6GSH",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "files": [
+          {
+            "id": "F098954N03Z",
+            "created": 1754191815,
+            "timestamp": 1754191815,
+            "name": "video1230998567.mp4",
+            "title": "video1230998567.mp4",
+            "mimetype": "video/mp4",
+            "filetype": "mp4",
+            "pretty_type": "MPEG-4 video",
+            "user": "U08PD4Y0D9V",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 14356070,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "transcription": {
+              "status": "complete",
+              "locale": "en-US",
+              "preview": {
+                "content": "皆さんこんにちは。ポリマレーのシステムの必要性と、あとは短式簿記とふしき複式簿記について、ご存知ない方もいらっしゃると思うので、公認会計士の",
+                "has_more": true
+              }
+            },
+            "mp4": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/video1230998567.mp4",
+            "url_private": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/video1230998567.mp4",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F098954N03Z/download/video1230998567.mp4",
+            "vtt": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/file.vtt?_xcb=3b13b",
+            "hls": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/file.m3u8?_xcb=3b13b",
+            "mp4_low": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/video1230998567_trans.mp4",
+            "duration_ms": 434934,
+            "media_display_type": "video",
+            "thumb_video": "https://files.slack.com/files-tmb/T08FL58DC9K-F098954N03Z-3d633baa63/video1230998567_thumb_video.jpeg",
+            "thumb_video_w": 1920,
+            "thumb_video_h": 1080,
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F098954N03Z/video1230998567.mp4",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F098954N03Z-c70e66cc83",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1754192182217579?thread_ts=1753266429.091859&amp;cid=C08FL5L6GSH",
+        "fallback": "[August 2nd, 2025 8:36 PM] seikeijin.tokyo.10969:  video1230998567.mp4",
+        "author_name": "中村幸信",
+        "author_link": "https://dd2030.slack.com/team/U08PD4Y0D9V",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-26/8795168229687_1c9423e2affba339fe13_48.png",
+        "author_subname": "中村幸信",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8baWA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ見れてないのですが、複式簿記についての説明動画？を中村さんが作ってくれました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1754192182217579?thread_ts=1753266429.091859&cid=C08FL5L6GSH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigatai_",
+        "users": [
+          "U08NZH1RY4S",
+          "U08QDPC2JRG",
+          "U08J64P3SF4",
+          "U09725PGV9P"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "まだ見れてないのですが、複式簿記についての説明動画？を中村さんが作ってくれました！\n<https://dd2030.slack.com/archives/C08FL5L6GSH/p1754192182217579?thread_ts=1753266429.091859&cid=C08FL5L6GSH>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1754449059.221349",
+    "client_msg_id": "58eeba65-391e-47bb-8704-7ea6585db6c7",
+    "text": "polimoney の全体像はこんな感じという理解であってますか？\n• polimoney\n    ◦ <https://polimoney.dd2030.org/> で公開されているもの\n    ◦ サンキー図など用いてでデータを見やすく公開する\n    ◦ プロジェクト全体を意味する polimoney と名称を分けて polimoney-view とか呼ぶのはどうでしょうか\n• polimoney-ocr\n    ◦ 書面から polimoney データを抽出するツール\n• polimoney 会計\n    ◦ 複式簿記の記録ツール\n    ◦ 現在使用策定中 <https://drive.google.com/drive/folders/1AVeA39CTMqUURluhMzCb4eozDDkKNMlc>\nで、 polimoney-view 用のデータフォーマットが規定されていて、 polimoney-ocr や polimoney 会計から、 polimoney-view のデータを出力できるような仕組み？",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://polimoney.dd2030.org/ogp/polimoney.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 650119,
+        "from_url": "https://polimoney.dd2030.org/",
+        "service_icon": "https://polimoney.dd2030.org/favicon.ico",
+        "id": 1,
+        "original_url": "https://polimoney.dd2030.org/",
+        "fallback": "Polimoney - 政治資金の透明性を高める",
+        "text": "Polimoneyは、デジタル民主主義2030プロジェクトの一環として、政治資金の透明性を高めるために開発されたオープンソースのプロジェクトです。",
+        "title": "Polimoney - 政治資金の透明性を高める",
+        "title_link": "https://polimoney.dd2030.org/",
+        "service_name": "polimoney.dd2030.org"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y6FAD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoney の全体像はこんな感じという理解であってますか？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "polimoney"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://polimoney.dd2030.org/"
+                  },
+                  {
+                    "type": "text",
+                    "text": " で公開されているもの"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "サンキー図など用いてでデータを見やすく公開する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プロジェクト全体を意味する polimoney と名称を分けて polimoney-view とか呼ぶのはどうでしょうか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "polimoney-ocr"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "書面から polimoney データを抽出するツール"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "polimoney 会計"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "複式簿記の記録ツール"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現在使用策定中 "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://drive.google.com/drive/folders/1AVeA39CTMqUURluhMzCb4eozDDkKNMlc"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nで、 polimoney-view 用のデータフォーマットが規定されていて、 polimoney-ocr や polimoney 会計から、 polimoney-view のデータを出力できるような仕組み？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "polimoney の全体像はこんな感じという理解であってますか？\n• polimoney\n    ◦ <https://polimoney.dd2030.org/> で公開されているもの\n    ◦ サンキー図など用いてでデータを見やすく公開する\n    ◦ プロジェクト全体を意味する polimoney と名称を分けて polimoney-view とか呼ぶのはどうでしょうか\n• polimoney-ocr\n    ◦ 書面から polimoney データを抽出するツール\n• polimoney 会計\n    ◦ 複式簿記の記録ツール\n    ◦ 現在使用策定中 <https://drive.google.com/drive/folders/1AVeA39CTMqUURluhMzCb4eozDDkKNMlc>\nで、 polimoney-view 用のデータフォーマットが規定されていて、 polimoney-ocr や polimoney 会計から、 polimoney-view のデータを出力できるような仕組み？"
+  }
+]

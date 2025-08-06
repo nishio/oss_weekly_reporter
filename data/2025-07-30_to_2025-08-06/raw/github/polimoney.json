@@ -1,0 +1,60 @@
+[
+  {
+    "id": 3273444044,
+    "number": 166,
+    "title": "理解の助けになるよう、解説を書き込む",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/166",
+    "user": "grassfieldk",
+    "created_at": "2025-07-29T12:26:57Z",
+    "updated_at": "2025-08-02T16:38:07Z",
+    "body": "## 解決・改善したいこと\n\n起票者である私も含め、政治や経済についての知識が浅い人間が見たときの助けとなる UI/UX の導入を図りたい\n現在の状態でもなんとなく\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\n### ツールチップによる補足説明\n\nすでに [こちらのページ](https://polimoney.dd2030.org/takahiro-anno/2024) の [支出の一覧] にも限定的に実装はされていますが、\n全体的に専門用語や意図が掴みづらい表現などの解説を導入すべきかと思います\n\n例えば \"個人からの寄附\" という項目について、私のようなリテラシのない人間からすれば\n「政治家って個人からの寄附もらっていいの？」「そもそも寄附ってどうするの？できるなら自分もしたい」\nという疑問が浮かびます\n正直、国民の大半の政治知識レベルはその程度だと思います（悲観しているわけではなく、事実として）\n\nですので、下記画像のようにツールチップによる補足説明が充実していれば、なんとなくお金の動きを見たいだけだったユーザーもより政治の仕組みについて詳しくなれ、興味を持ちやすくなっていくと思います\n<img width=\"1334\" height=\"669\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/69cff889-8a1e-435b-a7e1-fd79518c1074\" />\n\nちなみに、ソニー損保の契約ページなどがとてもわかり易く参考になるかと思います\n保険契約をするうえで出てくる専門用語や会社独自のサービス名などの説明がツールチップでされており、非常にわかりやすく難解なはずの保険契約で困ったことがありません\n※ 契約を持っていなくても新規契約ページの閲覧は可能です\n\n---\n\nあらゆる事象や活動の可視化による国民が監視しやすい仕組みを作ることの物理的効果だけでなく、\n誰もが見やすく興味を持てるような仕組みを取り入れていくことで、より多くの人が政治に関心を持つ心理的な効果をねらっていきたいと感じました",
+    "type": "issue"
+  },
+  {
+    "id": 3014175992,
+    "number": 19,
+    "title": "OCR（画像認識）の精度強化",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/19",
+    "user": "shumizu418128",
+    "created_at": "2025-04-23T14:10:03Z",
+    "updated_at": "2025-07-30T09:25:38Z",
+    "body": "ただのメモ\n4/23現在、OCR・Geminiまわりの担当は清水のみです\n \n### なるべく処理ログを残す\n  - どの座標をどんな文字と認識したのか記録\n  - 合計金額を計算し記録（「小計」の活用）\n  - 手書き文字・訂正印が邪魔で読みにくい部分を記録\n  - 備考などのイレギュラー対策の検討\n  - 必要に応じて画像をトリミング\n\n目標：バグ発生時の迅速な対応を実現する\n\n### json形式の統一\n  - DBとのやりとりはPinさん担当なので相談する\n  - 上記処理ログ含め残したい\n\n\n[参考：4/23 ミーティングログ](https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0)",
+    "type": "issue"
+  },
+  {
+    "id": 3287185744,
+    "number": 168,
+    "title": "refactor: 型修正 / 冗長なfragmentの修正 / 未使用の変数の削除",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/168",
+    "user": "noritaka1166",
+    "created_at": "2025-08-03T13:37:40Z",
+    "merged_at": "2025-08-03T14:54:37Z",
+    "body": "# 変更の概要\r\n- 型修正\r\n- 冗長な fragment の修正\r\n- 未使用の変数の削除\r\n \r\n# スクリーンショット\r\nなし\r\n\r\n# 変更の背景\r\nワーニングが出ていたりして気になる箇所があったため、リファクタリングしました\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **リファクタリング**\n  * 型安全性を向上させるため、データ構造の明示的な型付けを導入しました。\n  * 不要なReactフラグメントラッパーを削除し、JSX構造を簡素化しました。\n  * 未使用のインポートおよび関連変数を削除しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 14,
+    "deletions": 17,
+    "changed_files": 3,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3275978244,
+    "number": 167,
+    "title": "feat: 構造化されたCLAUDE.mdドキュメントシステムの構築",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/167",
+    "user": "rysh",
+    "created_at": "2025-07-30T07:25:37Z",
+    "merged_at": "2025-07-30T07:31:43Z",
+    "body": "- プロジェクトルートのCLAUDE.mdに最重要な開発指針を追加\r\n- 各サブプロジェクト（tools/, backend/, data/, docs/）に固有のCLAUDE.mdを作成\r\n- メインCLAUDE.mdから詳細な実装手順を削除し、概要とリンクに集約\r\n- 既存ドキュメント（README.md等）を重複せずimport形式で参照\r\n- サブプロジェクト間でのナレッジ共有と保守性を向上\r\n\r\n🤖 Generated with [Claude Code](https://claude.ai/code)\r\n\r\n# 変更の概要\r\nCLAUDE.mdを改善した\r\n\r\n\r\n# 変更の背景\r\n既存のCLAUDE.mdにはほとんど有効な情報がなかった。自分のプロジェクトのナレッジを一部反映\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [ x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **ドキュメント**\n  * プロジェクト全体および各サブプロジェクト（backend、data、docs、tools）向けの詳細な開発ガイドライン・手順書を新規追加・大幅改訂しました。\n  * 日本語でのコミュニケーション推奨、開発フロー、環境構築、API設計、データ入力ルール、テスト、ドキュメント作成手順などを明確化しました。\n  * 既存の説明や構成を整理し、最新のアーキテクチャや運用ルールに合わせて内容を刷新しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 343,
+    "deletions": 63,
+    "changed_files": 5,
+    "co_author": "Claude",
+    "requester": null,
+    "type": "pr"
+  }
+]

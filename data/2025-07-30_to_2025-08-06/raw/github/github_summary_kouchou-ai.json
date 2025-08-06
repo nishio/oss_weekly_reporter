@@ -1,0 +1,125 @@
+{
+  "period": {
+    "start": "2025-07-30T12:37:51.672330+09:00",
+    "end": "2025-08-06T12:37:51.672330+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3286890326,
+      "number": 687,
+      "title": "[FEATURE] レポート管理画面の意見グループ数の表記を変更する",
+      "state": "closed"
+    },
+    {
+      "id": 3211692132,
+      "number": 640,
+      "title": "[FEATURE]onChangeでの自動修正が入力の妨げになる",
+      "state": "closed"
+    },
+    {
+      "id": 3124820934,
+      "number": 594,
+      "title": "[FEATURE] .env 書き換えた際に Docker build を忘れやすい",
+      "state": "closed"
+    },
+    {
+      "id": 3292457041,
+      "number": 690,
+      "title": "[REFACTOR] ts-node-dev はメンテナンスされなくなっているようなので別パッケージに変えたほうがいいかもしれない",
+      "state": "created"
+    },
+    {
+      "id": 3282638514,
+      "number": 685,
+      "title": "[BUG] リモート環境でのHTTPアクセス時に発生するCSPおよびJavaScriptエラーについて",
+      "state": "created"
+    },
+    {
+      "id": 3278836515,
+      "number": 683,
+      "title": "[BUG] 静的ファイル出力時に公開状態のレポートがない場合にエラーとなる",
+      "state": "created"
+    },
+    {
+      "id": 3271667129,
+      "number": 682,
+      "title": "[BUG] main へマージ時に DD2030 の azure 環境へのデプロイが失敗する",
+      "state": "updated"
+    },
+    {
+      "id": 3042475618,
+      "number": 441,
+      "title": "[FEATURE][design] headerにプロダクト名を表示する",
+      "state": "updated"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3293407846,
+      "number": 691,
+      "title": "refactor: 不要なアサーションと未使用のimportの削除",
+      "state": "merged"
+    },
+    {
+      "id": 3289198409,
+      "number": 689,
+      "title": "[api] レポート管理画面の意見グループ数の表記を変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3286113173,
+      "number": 686,
+      "title": "crypto.randomUUID に統一",
+      "state": "merged"
+    },
+    {
+      "id": 3278918462,
+      "number": 684,
+      "title": "docs: 静的エクスポートの実行前にレポートを「公開」状態にする必要があることを明記",
+      "state": "merged"
+    },
+    {
+      "id": 3265375785,
+      "number": 677,
+      "title": "[FEATURE]onChangeでの自動修正が入力の妨げになる",
+      "state": "merged"
+    },
+    {
+      "id": 3263050623,
+      "number": 676,
+      "title": "[client-admin] レポート作成のリクエストを Server Functions で実行する",
+      "state": "merged"
+    },
+    {
+      "id": 3261818365,
+      "number": 675,
+      "title": "Makefile 利用時に .env の自動更新を行う",
+      "state": "merged"
+    },
+    {
+      "id": 3288017596,
+      "number": 688,
+      "title": "fix: Azure Deploy 時に client コンテナの環境変数が未設定になる",
+      "state": "created"
+    },
+    {
+      "id": 3226501945,
+      "number": 660,
+      "title": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3225413442,
+      "number": 653,
+      "title": "chore(deps): jest を v29 → v30 へアップデート",
+      "state": "updated"
+    }
+  ]
+}

@@ -1,0 +1,5446 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753862951.041489",
+    "client_msg_id": "13F3BEFD-78A9-4A10-8C5B-B797D26A8899",
+    "text": "新しい事例です\n<https://x.com/nishio/status/1950464289552367894?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/nishio/status/1950464289552367894?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "image_url": "https://pbs.twimg.com/media/GxFwbvFbUAEhr9m.jpg:large",
+        "image_width": 2048,
+        "image_height": 1131,
+        "image_bytes": 208495,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/nishio/status/1950464289552367894?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw",
+        "fallback": "X (formerly Twitter): NISHIO Hirokazu (@nishio) on X",
+        "text": "チームみらいのマニフェストに寄せられた提案(プルリクエスト)を元に、提案者が持っている問題意識を抽出・分析しました。\nこれは未来への第一歩で、今後このデータを活用するためにシステムの側を改善していく予定です。",
+        "title": "NISHIO Hirokazu (@nishio) on X",
+        "title_link": "https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cM69w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新しい事例です\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+                "text": "https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U09778PE0AV",
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08HZGSCT53"
+        ],
+        "count": 4
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "新しい事例です\n<https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/nishio/status/1950464289552367894?s=46&t=gkSZtjGEtUZPO0JCzBxCBw>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753863000.940919",
+    "client_msg_id": "09ECBAA0-685D-4ED1-92A8-A6E5F819FD99",
+    "text": "これはextractionの前段階にもう一つ段階を差し込んで、1つの元データからN件の「問題意識」を抽出しています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m8Msm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはextractionの前段階にもう一つ段階を差し込んで、1つの元データからN件の「問題意識」を抽出しています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これはextractionの前段階にもう一つ段階を差し込んで、1つの元データからN件の「問題意識」を抽出しています"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753863131.020869",
+    "client_msg_id": "C31ED909-C978-4416-83CB-B2E5D554509E",
+    "text": "元データへのリンクは保っているので、同一クラスタ内に入ったデータを「共通・類似の問題意識に対するもの」としてまとめることができるはずで、今後そのビューをつけたりしてみようと思っています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0PfIY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "元データへのリンクは保っているので、同一クラスタ内に入ったデータを「共通・類似の問題意識に対するもの」としてまとめることができるはずで、今後そのビューをつけたりしてみようと思っています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "元データへのリンクは保っているので、同一クラスタ内に入ったデータを「共通・類似の問題意識に対するもの」としてまとめることができるはずで、今後そのビューをつけたりしてみようと思っています"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753869613.716309",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6h1wH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1753872617.481599",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753872617.481599",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1753872810.800249",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PAo28",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1753872810.800249",
+    "client_msg_id": "80490df1-1d62-4c93-8632-b88a1bdff41d",
+    "text": "今日は西尾さんから、広聴AIに対するとても濃いフィードバックがもらえそう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753872617.481599",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z8a4O",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日は西尾さんから、広聴AIに対するとても濃いフィードバックがもらえそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753872617.481599",
+    "user_name": "Shingo OHKI",
+    "text_readable": "今日は西尾さんから、広聴AIに対するとても濃いフィードバックがもらえそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753872977.196889",
+    "client_msg_id": "d34f393b-4dab-491a-a05c-5793858e4ced",
+    "text": "思いついたことを書き連ねてたらすごい長文になったので先に検討する必要のあることがあればやってもらって、残り時間でやるのがいいかも",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0kl1U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "思いついたことを書き連ねてたらすごい長文になったので先に検討する必要のあることがあればやってもらって、残り時間でやるのがいいかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "思いついたことを書き連ねてたらすごい長文になったので先に検討する必要のあることがあればやってもらって、残り時間でやるのがいいかも"
+  },
+  {
+    "text": "サンバースト図とはこういうもの",
+    "files": [
+      {
+        "id": "F097Q6V87C7",
+        "created": 1753878973,
+        "timestamp": 1753878973,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 82640,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F097Q6V87C7/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F097Q6V87C7/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 316,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 422,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 633,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 703,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F097Q6V87C7-be42e28636/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 844,
+        "original_w": 1006,
+        "original_h": 884,
+        "thumb_tiny": "AwArADDTpGZVGWOKUnAJPaqcj7iWNF11Gk2TG4GeF/WgXA7qR9KqFz2GKA3GSQfatuREmgrBhlTkUtVI5NhBHTv71b61m1YZHOcRn3qpIOAauygtGQKpspbp1rORpAiOTxQVI6inJgkZHSn+3rVwm0rEVWlIagOOauwnMS1XVOOOPrVlF2oBVSkmSrdB1QSxHqg69RU9FQUnYphRzkc05QD/AAkH3q0QD1ANAAHQYpWJkru5HHHg7j+VSUUUwSsf/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F097Q6V87C7/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F097Q6V87C7-fbd44ce9f0",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LPF4U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "サンバースト図とはこういうもの"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1753878986.204989",
+    "client_msg_id": "8a2010a6-08de-42f3-a564-88b8951e3f26",
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN",
+          "U08Q66ACBTK"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "サンバースト図とはこういうもの"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753879321.722659",
+    "client_msg_id": "875d8d58-9ba2-4052-bee1-d96d56d69205",
+    "text": "アウトライナー的なものといってたのはこれとか\n<https://mui.com/x/react-tree-view/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753879321.722659",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1754011124.964579",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://mui.com/x/react-tree-view/",
+        "service_icon": "https://mui.com/static/icons/180x180.png",
+        "id": 1,
+        "original_url": "https://mui.com/x/react-tree-view/",
+        "fallback": "Tree View React component - MUI X",
+        "text": "The Tree View component lets users navigate hierarchical lists of data with nested levels that can be expanded and collapsed.",
+        "title": "Tree View React component - MUI X",
+        "title_link": "https://mui.com/x/react-tree-view/",
+        "service_name": "mui.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KkXeC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アウトライナー的なものといってたのはこれとか\n"
+              },
+              {
+                "type": "link",
+                "url": "https://mui.com/x/react-tree-view/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "アウトライナー的なものといってたのはこれとか\n<https://mui.com/x/react-tree-view/>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754011003.529259",
+    "client_msg_id": "12639b36-53ab-4b9e-83a0-b2f3739dea9a",
+    "text": "現状使っている Chakra UI でいうとこのあたりっぽい\n<https://chakra-ui.com/docs/components/tree-view>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753879321.722659",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "image_url": "https://next.chakra-ui.com/og?title=TreeView&category=Components&description=Used%20to%20display%20hierarchical%20data%20structures%20in%20an%20expandable%20tree%20format",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 468239,
+        "from_url": "https://chakra-ui.com/docs/components/tree-view",
+        "service_icon": "https://chakra-ui.com/favicon.ico",
+        "id": 1,
+        "original_url": "https://chakra-ui.com/docs/components/tree-view",
+        "fallback": "TreeView | Chakra UI",
+        "text": "Used to display hierarchical data structures in an expandable tree format",
+        "title": "TreeView | Chakra UI",
+        "title_link": "https://chakra-ui.com/docs/components/tree-view",
+        "service_name": "chakra-ui.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nPlLL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状使っている Chakra UI でいうとこのあたりっぽい\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chakra-ui.com/docs/components/tree-view"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhododesune",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753879321.722659",
+    "user_name": "Shingo OHKI",
+    "text_readable": "現状使っている Chakra UI でいうとこのあたりっぽい\n<https://chakra-ui.com/docs/components/tree-view>"
+  },
+  {
+    "text": "何の話かというと、現状の階層表示は、↑のような表示の方が細かく掘り下げていく用途にはよいのではないか？という話",
+    "files": [
+      {
+        "id": "F0980UT9563",
+        "created": 1754011026,
+        "timestamp": 1754011026,
+        "name": "Screenshot from 2025-08-01 10-16-00.png",
+        "title": "Screenshot from 2025-08-01 10-16-00.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 56691,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0980UT9563/screenshot_from_2025-08-01_10-16-00.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0980UT9563/download/screenshot_from_2025-08-01_10-16-00.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 175,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 233,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 349,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 388,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 465,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0980UT9563-b3e8e08195/screenshot_from_2025-08-01_10-16-00_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 496,
+        "original_w": 1215,
+        "original_h": 589,
+        "thumb_tiny": "AwAYADC8ZSCRt6H1o849Cv601vvH60lTcVxxlAH3T+dKJM4+UjHvTKKLiuP87jO39aBLuOdpHbk0yii47jmU7jwetJtb0P5VPRTsFiDa3ofyo2t6H8qnoosFivsPoaXafQ/lU9FFgsf/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0980UT9563/screenshot_from_2025-08-01_10-16-00.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0980UT9563-8b910f08f8",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eB3vD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何の話かというと、現状の階層表示は、↑のような表示の方が細かく掘り下げていく用途にはよいのではないか？という話"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754011124.964579",
+    "client_msg_id": "909938df-22bb-4f68-9335-5b503daadbf3",
+    "thread_ts": "1753879321.722659",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1753879321.722659",
+    "user_name": "Shingo OHKI",
+    "text_readable": "何の話かというと、現状の階層表示は、↑のような表示の方が細かく掘り下げていく用途にはよいのではないか？という話"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753879451.112639",
+    "client_msg_id": "e406b931-b774-436c-a54a-e3bbea2dec59",
+    "text": "「何をレポートのビューに出すか」に関するオプションをレポート作成後に変更できる仕組みをまず作ると、追加のビューを作ることがやりやすくなるかも？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "chWDu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「何をレポートのビューに出すか」に関するオプションをレポート作成後に変更できる仕組みをまず作ると、追加のビューを作ることがやりやすくなるかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「何をレポートのビューに出すか」に関するオプションをレポート作成後に変更できる仕組みをまず作ると、追加のビューを作ることがやりやすくなるかも？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753879513.341919",
+    "client_msg_id": "a5b34219-50f8-4dbd-b9df-64616b51764c",
+    "text": "携帯用ビューをどう作るのか的なこともそういう設定の変更とかの機能があるとやりやすいかも？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QgQ3R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "携帯用ビューをどう作るのか的なこともそういう設定の変更とかの機能があるとやりやすいかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "携帯用ビューをどう作るのか的なこともそういう設定の変更とかの機能があるとやりやすいかも？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753879556.260039",
+    "client_msg_id": "eb4324ed-57fc-43ac-b794-139a456a81cc",
+    "text": "そういう意味では、分析プロセスのパイプラインをカスタマイズしたい人より、レポートの見た目画面をカスタマイズしたい人の方が多そう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uc8NG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういう意味では、分析プロセスのパイプラインをカスタマイズしたい人より、レポートの見た目画面をカスタマイズしたい人の方が多そう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そういう意味では、分析プロセスのパイプラインをカスタマイズしたい人より、レポートの見た目画面をカスタマイズしたい人の方が多そう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753926207.108519",
+    "client_msg_id": "4d8b4d78-617e-47a5-9538-0d456f398e7d",
+    "text": "レポートのJSON生データが欲しかった\n• エクスポートボタンを押した\n    ◦  →これは公開済みレポートの静的HTML出力のエクスポートだった\n• 昔作ったfetch_report.pyを使おうとした\n    ◦  →PUBLIC_API_KEYを要求されたが、これってもう使ってないんだっけか？\n• Azure Portalを見た\n    ◦  storageがあるのを見て、そうだったコンテナの中ではなくストレージに置くようになったんだったと思い出した\n    ◦ “Explorerで開く“というメニューがある\n    ◦ [Azure Storage Explorer]なるネイティブアプリをインストールする\n    ◦ ログインしたり色々したらファイルが閲覧できるようになった\n    ◦ フォルダをクリックしてダウンロードしてみる\n    ◦ zipされるかと思ったらフォルダ構造のままダウンロードされた\n    ◦ hierarchical_result.jsonが目的のデータだった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NJDAO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポートのJSON生データが欲しかった\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "エクスポートボタンを押した"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " →これは公開済みレポートの静的HTML出力のエクスポートだった"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "昔作ったfetch_report.pyを使おうとした"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " →PUBLIC_API_KEYを要求されたが、これってもう使ってないんだっけか？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Azure Portalを見た"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " storageがあるのを見て、そうだったコンテナの中ではなくストレージに置くようになったんだったと思い出した"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "“Explorerで開く“というメニューがある"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "[Azure Storage Explorer]なるネイティブアプリをインストールする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ログインしたり色々したらファイルが閲覧できるようになった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "フォルダをクリックしてダウンロードしてみる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "zipされるかと思ったらフォルダ構造のままダウンロードされた"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "hierarchical_result.jsonが目的のデータだった"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "レポートのJSON生データが欲しかった\n• エクスポートボタンを押した\n    ◦  →これは公開済みレポートの静的HTML出力のエクスポートだった\n• 昔作ったfetch_report.pyを使おうとした\n    ◦  →PUBLIC_API_KEYを要求されたが、これってもう使ってないんだっけか？\n• Azure Portalを見た\n    ◦  storageがあるのを見て、そうだったコンテナの中ではなくストレージに置くようになったんだったと思い出した\n    ◦ “Explorerで開く“というメニューがある\n    ◦ [Azure Storage Explorer]なるネイティブアプリをインストールする\n    ◦ ログインしたり色々したらファイルが閲覧できるようになった\n    ◦ フォルダをクリックしてダウンロードしてみる\n    ◦ zipされるかと思ったらフォルダ構造のままダウンロードされた\n    ◦ hierarchical_result.jsonが目的のデータだった"
+  },
+  {
+    "user": "U08Q66ACBTK",
+    "type": "message",
+    "ts": "1753928600.388409",
+    "client_msg_id": "2bea4eba-192c-4834-9d7c-79f7d7bb9903",
+    "text": "<@U08H3V9KMFH>\n相談のところで話していたPRです｡\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/684>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "k+Yab",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": "\n相談のところで話していたPRです｡\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/684"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "lgtm",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HTMJPH6K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "takatetomoki",
+    "text_readable": "@truego\n相談のところで話していたPRです｡\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/684>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753938965.696749",
+    "client_msg_id": "34733162-D8E9-49C6-A229-1DCE38C9A8AA",
+    "text": "レポートの再利用に関して詳細化\n・アップロードしたデータを再利用する\n・embeddingを再利用する\n・分析結果を再利用して見せ方だけ変える",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nb5Xm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポートの再利用に関して詳細化\n・アップロードしたデータを再利用する\n・embeddingを再利用する\n・分析結果を再利用して見せ方だけ変える"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "レポートの再利用に関して詳細化\n・アップロードしたデータを再利用する\n・embeddingを再利用する\n・分析結果を再利用して見せ方だけ変える"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753939251.439309",
+    "client_msg_id": "EF9B8DEB-B3A7-4FC0-9979-33379D320787",
+    "text": "1番も必要だなと思ったのは「3万件のtweetをアップロードしてあって、質問を投げかけるとレポートができる」的なユースケース\nまだ「質問」を「プロンプト」に変換するところができてないからすぐ使えるものではないが、質問への回答に影響するデータがたとえ3万件の1%しかないとしても300件のデータに基づいて回答を出せるわけだし、人間がクエリを考えてX APIで収集するより安く済むと思う(X APIが高くて扱いづらすぎる)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6aC5z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1番も必要だなと思ったのは「3万件のtweetをアップロードしてあって、質問を投げかけるとレポートができる」的なユースケース\nまだ「質問」を「プロンプト」に変換するところができてないからすぐ使えるものではないが、質問への回答に影響するデータがたとえ3万件の1%しかないとしても300件のデータに基づいて回答を出せるわけだし、人間がクエリを考えてX APIで収集するより安く済むと思う(X APIが高くて扱いづらすぎる)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08Q66ACBTK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1番も必要だなと思ったのは「3万件のtweetをアップロードしてあって、質問を投げかけるとレポートができる」的なユースケース\nまだ「質問」を「プロンプト」に変換するところができてないからすぐ使えるものではないが、質問への回答に影響するデータがたとえ3万件の1%しかないとしても300件のデータに基づいて回答を出せるわけだし、人間がクエリを考えてX APIで収集するより安く済むと思う(X APIが高くて扱いづらすぎる)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753940445.234879",
+    "client_msg_id": "7A5FB554-9F62-4DC6-8328-9416264F5A2C",
+    "text": "朝日新聞さんのこれはスマホで見れてる\n<https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html|https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://imgopt.asahi.com/ogp/AS20250730002466_comm.jpg",
+        "image_width": 640,
+        "image_height": 334,
+        "image_bytes": 172915,
+        "from_url": "https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html",
+        "service_icon": "http://www.asahicom.jp/logo_icon.png",
+        "ts": 1753930800,
+        "id": 1,
+        "original_url": "https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html",
+        "fallback": "朝日新聞: 参院選のX投稿をAI分析　公示前からずっと関心集めたテーマが判明：朝日新聞",
+        "text": "　選挙におけるSNSの影響が大きくなる中、今回の参院選についてSNSではどんなテーマが多く投稿されたのか。選挙期間中にどう変化したのか。AI（人工知能）でSNSの膨大な投稿を集めて分析するブロードリス…",
+        "title": "参院選のX投稿をAI分析　公示前からずっと関心集めたテーマが判明：朝日新聞",
+        "title_link": "https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html",
+        "service_name": "朝日新聞"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mLfC+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "朝日新聞さんのこれはスマホで見れてる\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html",
+                "text": "https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "朝日新聞さんのこれはスマホで見れてる\n<https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html|https://www.asahi.com/sp/articles/AST7Z2BVZT7ZULLI008M.html>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753940509.079289",
+    "client_msg_id": "265C5283-ADA2-4437-8569-BDCBE0F55972",
+    "text": "横長になるラベルと自動アスペクト比調整の干渉が問題なだけであって「スマホ画面ならラベルを非表示にする」だけで割とまともになるかもしれない、これなら大規模改修はいらない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AR97x",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "横長になるラベルと自動アスペクト比調整の干渉が問題なだけであって「スマホ画面ならラベルを非表示にする」だけで割とまともになるかもしれない、これなら大規模改修はいらない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HTMJPH6K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "横長になるラベルと自動アスペクト比調整の干渉が問題なだけであって「スマホ画面ならラベルを非表示にする」だけで割とまともになるかもしれない、これなら大規模改修はいらない"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1753967379.452459",
+    "client_msg_id": "4c8e6ec2-5216-4bbb-bab4-c4d85e1f35c4",
+    "text": "【単語についておしえてください】\nFAQページのテキストを整え中です。\n単語「クラスタ」「意見グループ」「集約した意見グループ」について確認させてください：\n\n①「クラスタ」と「意見グループ」の違いは何になりますか？クラスタが集まったものが意見グループ？\n② 包括構造としては 「集約した意見グループ ＞ 意見グループ ＞ クラスタ」で認識合ってますか？\n③「集約した意見グループ」の、左右の数字はそれぞれ具体的に何を指してますか？（ex. 10→100、58→24、など）\n\n教えていただいた内容をもとに、一般ユーザーにとってもわかりやすい言葉づかいでFAQの回答を生成したいと考えています。\n有識者のかたお力添えをどうぞよろしくお願いいたします^^/",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1754021936.491739",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08PMMXPVTN"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "drzWZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【単語についておしえてください】\nFAQページのテキストを整え中です。\n単語「クラスタ」「意見グループ」「集約した意見グループ」について確認させてください：\n\n①「クラスタ」と「意見グループ」の違いは何になりますか？クラスタが集まったものが意見グループ？\n② 包括構造としては 「集約した意見グループ ＞ 意見グループ ＞ クラスタ」で認識合ってますか？\n③「集約した意見グループ」の、左右の数字はそれぞれ具体的に何を指してますか？（ex. 10→100、58→24、など）\n\n教えていただいた内容をもとに、一般ユーザーにとってもわかりやすい言葉づかいでFAQの回答を生成したいと考えています。\n有識者のかたお力添えをどうぞよろしくお願いいたします^^/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "【単語についておしえてください】\nFAQページのテキストを整え中です。\n単語「クラスタ」「意見グループ」「集約した意見グループ」について確認させてください：\n\n①「クラスタ」と「意見グループ」の違いは何になりますか？クラスタが集まったものが意見グループ？\n② 包括構造としては 「集約した意見グループ ＞ 意見グループ ＞ クラスタ」で認識合ってますか？\n③「集約した意見グループ」の、左右の数字はそれぞれ具体的に何を指してますか？（ex. 10→100、58→24、など）\n\n教えていただいた内容をもとに、一般ユーザーにとってもわかりやすい言葉づかいでFAQの回答を生成したいと考えています。\n有識者のかたお力添えをどうぞよろしくお願いいたします^^/"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753977675.479549",
+    "client_msg_id": "9E636778-159D-4084-A618-CE627BBD7933",
+    "text": "違いはないです、表記揺れです\n専門用語としては「クラスタ」ですが、伝わりにくいので「意見グループ」に揃えたいと思ってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wo8sB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "違いはないです、表記揺れです\n専門用語としては「クラスタ」ですが、伝わりにくいので「意見グループ」に揃えたいと思ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "違いはないです、表記揺れです\n専門用語としては「クラスタ」ですが、伝わりにくいので「意見グループ」に揃えたいと思ってます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1753977823.431669",
+    "client_msg_id": "9702CE5B-09E6-42A7-8304-340A38BA9C31",
+    "text": "10→100は「データをまず100件にまとめた後、近いものを順にくっつけて行って10件にした」という意味です。\n処理の流れとしては矢印が逆なのですが、安野さんが「ユーザが見るのは10→100の順なのだからこっちがいい」というのでこうなってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7OTSq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10→100は「データをまず100件にまとめた後、近いものを順にくっつけて行って10件にした」という意味です。\n処理の流れとしては矢印が逆なのですが、安野さんが「ユーザが見るのは10→100の順なのだからこっちがいい」というのでこうなってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "10→100は「データをまず100件にまとめた後、近いものを順にくっつけて行って10件にした」という意味です。\n処理の流れとしては矢印が逆なのですが、安野さんが「ユーザが見るのは10→100の順なのだからこっちがいい」というのでこうなってます"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1754018840.285429",
+    "client_msg_id": "0b009788-f719-4605-afff-b7bb32748876",
+    "text": "<@U08G2A216TW>\nやはり表記揺れ！そうですね、今後は「意見グループ」に統一ということで、FAQページや今後のUIエンハンスなどにも適応します◎（スッキリしそう〜）\n\n「集約した意見グループ：10→100」については、こちらシンプルに「意見グループ総数：10」だといかがでしょう？\n「データをまず100件にまとめた」ことを表記するかどうか、を相談したく、現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかなと考えました。もし表記するにしても、別枠で名前をつけて表記（ex. 意見カテゴリ、とか）が適切だと考えております",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zZ9Pc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\nやはり表記揺れ！そうですね、今後は「意見グループ」に統一ということで、FAQページや今後のUIエンハンスなどにも適応します◎（スッキリしそう〜）\n\n「集約した意見グループ：10→100」については、こちらシンプルに「意見グループ総数：10」だといかがでしょう？\n「データをまず100件にまとめた」ことを表記するかどうか、を相談したく、現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかなと考えました。もし表記するにしても、別枠で名前をつけて表記（ex. 意見カテゴリ、とか）が適切だと考えております"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "@nishio.hirokazu\nやはり表記揺れ！そうですね、今後は「意見グループ」に統一ということで、FAQページや今後のUIエンハンスなどにも適応します◎（スッキリしそう〜）\n\n「集約した意見グループ：10→100」については、こちらシンプルに「意見グループ総数：10」だといかがでしょう？\n「データをまず100件にまとめた」ことを表記するかどうか、を相談したく、現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかなと考えました。もし表記するにしても、別枠で名前をつけて表記（ex. 意見カテゴリ、とか）が適切だと考えております"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754021725.704199",
+    "client_msg_id": "e72576b5-9cbb-4a89-996d-c6b4fd244d86",
+    "text": "&gt; 現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかな\nたしかに〜〜",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/UYeA",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかな"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たしかに〜〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 現在はその100件を見る方法がない(?)ので、ここであえて表示しなくてもいいのかな\nたしかに〜〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754021783.237009",
+    "client_msg_id": "bfb70e0a-43ac-4ebe-8e96-4ee7e9a854ae",
+    "text": "今言ったような処理の流れの解説は普段畳まれている下の処理の流れ解説欄にあるのが適切かもですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AHi99",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今言ったような処理の流れの解説は普段畳まれている下の処理の流れ解説欄にあるのが適切かもですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今言ったような処理の流れの解説は普段畳まれている下の処理の流れ解説欄にあるのが適切かもですね"
+  },
+  {
+    "text": "ふむふむ！ここの「分析手順」の「意見グループ化」のあたりですかね",
+    "files": [
+      {
+        "id": "F098CSN9RDH",
+        "created": 1754021897,
+        "timestamp": 1754021897,
+        "name": "img.png",
+        "title": "img.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 128202,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F098CSN9RDH/img.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F098CSN9RDH/download/img.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 290,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 387,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 580,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 644,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 773,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F098CSN9RDH-d0eb3adaa1/img_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 825,
+        "original_w": 1038,
+        "original_h": 836,
+        "thumb_tiny": "AwAnADDRJ+baHUHGcEc0vzeo/KkKKSTgbiMZxzikCjP3SAeowMUAPopoTb0OOewFOI98UAFFFFACbTv3bj0xjt9aYAxIw7YHXIAz+lO3/vNm1umc44pSQp78n3NADVDbsFiQO57/AKf5xSk7eSSfwzTqKAEUkkggCgbsnIAHbBpaKACkwc9R78UtFACYHoKAoAwAAB2paKAECgdAPypcDOcc0UUAf//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F098CSN9RDH/img.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F098CSN9RDH-d5566b9fab",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0KU+5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ふむふむ！ここの「分析手順」の「意見グループ化」のあたりですかね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754021936.491739",
+    "client_msg_id": "11f079be-2ab9-4c72-8607-211ec8444e58",
+    "thread_ts": "1753967379.452459",
+    "parent_user_id": "U08PMMXPVTN",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1753967379.452459",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "ふむふむ！ここの「分析手順」の「意見グループ化」のあたりですかね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754095674.226899",
+    "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+    "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754095674.226899",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1754184890.114739",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JGS0BS57"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+        "ts": "1753666971.911219",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C08F7JZPD63",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08F7JZPD63",
+            "ts": "1753666971.911219",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "NDGFo",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                          "text": "こちら"
+                        },
+                        {
+                          "type": "text",
+                          "text": "について、\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+        "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+        "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C9mK3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダーです。飛び入り参加歓迎です。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                    "text": "アジェンダ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                    "text": "zoom リンク"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1754095674.226899",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754103980.033709",
+    "client_msg_id": "19dd7d35-ad47-4c33-bb51-d0099a67d8af",
+    "text": "とてもよい議論ができました！\n<https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|議事録>（順次追記中 ありがとうございます！）\n<@U08JFSYHEP6>、ご参加いただいた方\nありがとうございました！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2U3ow",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とてもよい議論ができました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                "text": "議事録"
+              },
+              {
+                "type": "text",
+                "text": "（順次追記中 ありがとうございます！）\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08JFSYHEP6"
+              },
+              {
+                "type": "text",
+                "text": "、ご参加いただいた方\nありがとうございました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6",
+          "U08HKLUGE67",
+          "U08Q66ACBTK",
+          "U08JGS0BS57"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1754095674.226899",
+    "user_name": "Shingo OHKI",
+    "text_readable": "とてもよい議論ができました！\n<https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|議事録>（順次追記中 ありがとうございます！）\n@yuki.kawabe、ご参加いただいた方\nありがとうございました！"
+  },
+  {
+    "text": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。",
+    "files": [
+      {
+        "id": "F09881F8YQ7",
+        "created": 1754145322,
+        "timestamp": 1754145322,
+        "name": "広聴AI奈良市導入事例.m4a",
+        "title": "広聴AI奈良市導入事例.m4a",
+        "mimetype": "audio/mp4",
+        "filetype": "m4a",
+        "pretty_type": "MPEG-4 audio",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 28953089,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "transcription": {
+          "status": "complete",
+          "locale": "en-US",
+          "preview": {
+            "content": "2030は、校長aiぐらいしか追ってないステータスで、えっとーまー。そうですね。ですと。で、奈良市、奈良市長は、えっとー、最近よく一緒に仕事",
+            "has_more": true
+          }
+        },
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09881F8YQ7/______ai_____________________.m4a",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09881F8YQ7/download/______ai_____________________.m4a",
+        "vtt": "https://files.slack.com/files-tmb/T08FL58DC9K-F09881F8YQ7-0b1f5957c3/file.vtt?_xcb=781f5",
+        "audio_wave_samples": [
+          23,
+          46,
+          69,
+          92,
+          15,
+          38,
+          61,
+          84,
+          7,
+          30,
+          53,
+          76,
+          99,
+          22,
+          45,
+          68,
+          91,
+          14,
+          37,
+          60,
+          83,
+          6,
+          29,
+          52,
+          75,
+          98,
+          21,
+          44,
+          67,
+          90,
+          13,
+          36,
+          59,
+          82,
+          5,
+          28,
+          51,
+          74,
+          97,
+          20,
+          43,
+          66,
+          89,
+          12,
+          35,
+          58,
+          81,
+          4,
+          27,
+          50,
+          73,
+          96,
+          19,
+          42,
+          65,
+          88,
+          11,
+          34,
+          57,
+          80,
+          3,
+          26,
+          49,
+          72,
+          95,
+          18,
+          41,
+          64,
+          87,
+          10,
+          33,
+          56,
+          79,
+          2,
+          25,
+          48,
+          71,
+          94,
+          17,
+          40,
+          63,
+          86,
+          9,
+          32,
+          55,
+          78,
+          1,
+          24,
+          47,
+          70,
+          93,
+          16,
+          39,
+          62,
+          85,
+          8,
+          31,
+          54,
+          77,
+          0
+        ],
+        "media_display_type": "audio",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09881F8YQ7/______ai_____________________.m4a",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09881F8YQ7-a820373a8f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L5R7P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754145584.837129",
+    "client_msg_id": "71fb85ad-0ff2-4474-9cd1-e755b6879c79",
+    "thread_ts": "1754095674.226899",
+    "parent_user_id": "U08H3V9KMFH",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57",
+          "U08G2A216TW",
+          "U08M5UU4B54",
+          "U08Q66ACBTK"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1754095674.226899",
+    "user_name": "Shingo OHKI",
+    "text_readable": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1754095674.226899",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754184890.114739",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1754188326.000000"
+    },
+    "client_msg_id": "e13e5466-f966-4700-acda-f682fc4402af",
+    "text": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n> tomokiさん\n> • 八代市長選\n> • *クラスタ図*は殆ど使われなかった\n> • 有用なのは*階層図*\n> • 結果をみて、*意外な観点*も見つかったのでそれを政策にFBできそうという感触はある\n>     ◦ マニフェストにも反映されそう\n> 奈良市の感触\n> • プロンプトめっちゃ頑張らないと*質の良い成果物はでない*、市長も同意見\n> • 概念の*表記揺れ*にも課題感（*認知負荷*がかかる）\n> • *今まで見えなかった視点*を出せるという感触はある\n・*クラスタ図*は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは*階層図* ー＞ 情報自体は安定的に利用できるが、*現状、少し見づらい*のが難点（ 特にデータ件数増えると ）。\n＊*表記ゆれ（ 認知負荷 ）*の問題はあるものの、（ 頑張れば ）何となく*インサイト*を得られそうな感触はある:sparkles:",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9d65r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "tomokiさん"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "八代市長選"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "クラスタ図",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "は殆ど使われなかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "有用なのは"
+                  },
+                  {
+                    "type": "text",
+                    "text": "階層図",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "結果をみて、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "意外な観点",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "も見つかったのでそれを政策にFBできそうという感触はある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "マニフェストにも反映されそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "奈良市の感触"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プロンプトめっちゃ頑張らないと"
+                  },
+                  {
+                    "type": "text",
+                    "text": "質の良い成果物はでない",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、市長も同意見"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "概念の"
+                  },
+                  {
+                    "type": "text",
+                    "text": "表記揺れ",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "にも課題感（"
+                  },
+                  {
+                    "type": "text",
+                    "text": "認知負荷",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "がかかる）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今まで見えなかった視点",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "を出せるという感触はある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n・"
+              },
+              {
+                "type": "text",
+                "text": "クラスタ図",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは"
+              },
+              {
+                "type": "text",
+                "text": "階層図",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ー＞ 情報自体は安定的に利用できるが、"
+              },
+              {
+                "type": "text",
+                "text": "現状、少し見づらい",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "のが難点（ 特にデータ件数増えると ）。\n＊"
+              },
+              {
+                "type": "text",
+                "text": "表記ゆれ（ 認知負荷 ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "の問題はあるものの、（ 頑張れば ）何となく"
+              },
+              {
+                "type": "text",
+                "text": "インサイト",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を得られそうな感触はある"
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754095674.226899",
+    "user_name": "naoyo4...zzz",
+    "text_readable": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n> tomokiさん\n> • 八代市長選\n> • *クラスタ図*は殆ど使われなかった\n> • 有用なのは*階層図*\n> • 結果をみて、*意外な観点*も見つかったのでそれを政策にFBできそうという感触はある\n>     ◦ マニフェストにも反映されそう\n> 奈良市の感触\n> • プロンプトめっちゃ頑張らないと*質の良い成果物はでない*、市長も同意見\n> • 概念の*表記揺れ*にも課題感（*認知負荷*がかかる）\n> • *今まで見えなかった視点*を出せるという感触はある\n・*クラスタ図*は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは*階層図* ー＞ 情報自体は安定的に利用できるが、*現状、少し見づらい*のが難点（ 特にデータ件数増えると ）。\n＊*表記ゆれ（ 認知負荷 ）*の問題はあるものの、（ 頑張れば ）何となく*インサイト*を得られそうな感触はある:sparkles:"
+  },
+  {
+    "user": "U08Q66ACBTK",
+    "type": "message",
+    "ts": "1754100189.609939",
+    "client_msg_id": "82f74ef3-40e1-4167-aaf9-d79747630ad6",
+    "text": "はじまらない?",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aR/6w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はじまらない?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "takatetomoki",
+    "text_readable": "はじまらない?"
+  },
+  {
+    "user": "U08HKLUGE67",
+    "type": "message",
+    "ts": "1754100200.457659",
+    "client_msg_id": "0438a77e-985f-419d-a863-e344da16a886",
+    "text": "私も入れず",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t5bu8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私も入れず"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "zawa",
+        "users": [
+          "U08Q66ACBTK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "佐藤まみ",
+    "text_readable": "私も入れず"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754100214.700789",
+    "client_msg_id": "2f39554b-065c-41d2-a81a-77785a534039",
+    "text": "僕もです、お声がけしてますー",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JtpA2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕もです、お声がけしてますー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "僕もです、お声がけしてますー"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754100492.679899",
+    "client_msg_id": "b5b5ff8d-507e-4106-94b3-54d0f37ef7cf",
+    "text": "始まりました！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lJAkG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "始まりました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "始まりました！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1754095674.226899",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754103980.033709",
+    "client_msg_id": "19dd7d35-ad47-4c33-bb51-d0099a67d8af",
+    "text": "とてもよい議論ができました！\n<https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|議事録>（順次追記中 ありがとうございます！）\n<@U08JFSYHEP6>、ご参加いただいた方\nありがとうございました！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2U3ow",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とてもよい議論ができました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                "text": "議事録"
+              },
+              {
+                "type": "text",
+                "text": "（順次追記中 ありがとうございます！）\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08JFSYHEP6"
+              },
+              {
+                "type": "text",
+                "text": "、ご参加いただいた方\nありがとうございました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6",
+          "U08HKLUGE67",
+          "U08Q66ACBTK",
+          "U08JGS0BS57"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "とてもよい議論ができました！\n<https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|議事録>（順次追記中 ありがとうございます！）\n@yuki.kawabe、ご参加いただいた方\nありがとうございました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754107188.355909",
+    "client_msg_id": "D8B74630-9349-45A1-8EA1-A3A74DFE8DEF",
+    "text": "すっかり忘れてました、すみません(なぜかスケジュールに入れ忘れてた)\n選挙は打ち上げ花火でアテンションを集めるには有益だが、日常的に情報を集めて意思決定することに使っていく「目立たない使い方」も必要だよねというところには全く賛成です\n目立たない有益な使い方のユースケースを集めて発信していけると良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8qrPe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すっかり忘れてました、すみません(なぜかスケジュールに入れ忘れてた)\n選挙は打ち上げ花火でアテンションを集めるには有益だが、日常的に情報を集めて意思決定することに使っていく「目立たない使い方」も必要だよねというところには全く賛成です\n目立たない有益な使い方のユースケースを集めて発信していけると良さそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HKLUGE67",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "すっかり忘れてました、すみません(なぜかスケジュールに入れ忘れてた)\n選挙は打ち上げ花火でアテンションを集めるには有益だが、日常的に情報を集めて意思決定することに使っていく「目立たない使い方」も必要だよねというところには全く賛成です\n目立たない有益な使い方のユースケースを集めて発信していけると良さそう"
+  },
+  {
+    "text": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。",
+    "files": [
+      {
+        "id": "F09881F8YQ7",
+        "created": 1754145322,
+        "timestamp": 1754145322,
+        "name": "広聴AI奈良市導入事例.m4a",
+        "title": "広聴AI奈良市導入事例.m4a",
+        "mimetype": "audio/mp4",
+        "filetype": "m4a",
+        "pretty_type": "MPEG-4 audio",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 28953089,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "transcription": {
+          "status": "complete",
+          "locale": "en-US",
+          "preview": {
+            "content": "2030は、校長aiぐらいしか追ってないステータスで、えっとーまー。そうですね。ですと。で、奈良市、奈良市長は、えっとー、最近よく一緒に仕事",
+            "has_more": true
+          }
+        },
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09881F8YQ7/______ai_____________________.m4a",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09881F8YQ7/download/______ai_____________________.m4a",
+        "vtt": "https://files.slack.com/files-tmb/T08FL58DC9K-F09881F8YQ7-0b1f5957c3/file.vtt?_xcb=781f5",
+        "audio_wave_samples": [
+          23,
+          46,
+          69,
+          92,
+          15,
+          38,
+          61,
+          84,
+          7,
+          30,
+          53,
+          76,
+          99,
+          22,
+          45,
+          68,
+          91,
+          14,
+          37,
+          60,
+          83,
+          6,
+          29,
+          52,
+          75,
+          98,
+          21,
+          44,
+          67,
+          90,
+          13,
+          36,
+          59,
+          82,
+          5,
+          28,
+          51,
+          74,
+          97,
+          20,
+          43,
+          66,
+          89,
+          12,
+          35,
+          58,
+          81,
+          4,
+          27,
+          50,
+          73,
+          96,
+          19,
+          42,
+          65,
+          88,
+          11,
+          34,
+          57,
+          80,
+          3,
+          26,
+          49,
+          72,
+          95,
+          18,
+          41,
+          64,
+          87,
+          10,
+          33,
+          56,
+          79,
+          2,
+          25,
+          48,
+          71,
+          94,
+          17,
+          40,
+          63,
+          86,
+          9,
+          32,
+          55,
+          78,
+          1,
+          24,
+          47,
+          70,
+          93,
+          16,
+          39,
+          62,
+          85,
+          8,
+          31,
+          54,
+          77,
+          0
+        ],
+        "media_display_type": "audio",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09881F8YQ7/______ai_____________________.m4a",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09881F8YQ7-a820373a8f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L5R7P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754145584.837129",
+    "client_msg_id": "71fb85ad-0ff2-4474-9cd1-e755b6879c79",
+    "thread_ts": "1754095674.226899",
+    "parent_user_id": "U08H3V9KMFH",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57",
+          "U08G2A216TW",
+          "U08M5UU4B54",
+          "U08Q66ACBTK"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "非常に良い議論ができたなと思ったので、自分なりのまとめを作ろうと試みましたが、どんなにAIがきれいな要約を作っても薄っぺらいまとめにしかならなくて、全く濃さが伝わらないので、オリジナルの音声をそのまま共有します。\n\n約1時間ありますが、お時間ある方はぜひ聞いてほしいです。"
+  },
+  {
+    "text": "【アイディアの頭出し】\nふと思ったのですが、レポートページで*「地図アプリのような体験」*もよさそうです。\nGoogle Map、iOS地図アプリ、などのように、マッピングが全面にあり、その上位レイヤーに意見要約やビューの切り替えなどの機能が配置されてるイメージです。荒いですがラフを添付します。\n\n狙い：\n• 空間的な位置関係を維持したままで詳細情報にアクセスできる\n    ◦ マッピングと意見グループ要約を見比べる際のスクロール往復を解消\n    ◦ 一画面完結により認知負荷を軽減し、分析・思考に集中できる環境を提供\n• <https://www.figma.com/deck/0B55u8rxDjjjpRJbNUEP0Z/%F0%9F%A7%AD-Brand-Compass?node-id=24-1113&amp;t=2wMQWxTaZ3WAxmVr-1|Brand Promiss> 「“意見の海“で、道しるべをあなたに。」を体現する\n    ◦ 意見の海を航海するような没入感ある分析体験を実現\n    ◦ 地図探索のような発見する楽しさ --&gt; 中長期UXに貢献",
+    "files": [
+      {
+        "id": "F098LV7RP1B",
+        "created": 1754161096,
+        "timestamp": 1754161096,
+        "name": "img__pc.png",
+        "title": "img__pc.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 370270,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F098LV7RP1B/img__pc.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F098LV7RP1B/download/img__pc.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 253,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 337,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 506,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 562,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 674,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F098LV7RP1B-78a5d81409/img__pc_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 719,
+        "original_w": 1280,
+        "original_h": 899,
+        "thumb_tiny": "AwAiADDSZgq5PT25pFkV/usDxmgjI60pDdiKADNJ5if3l/OmvIqkg1XaZN+0qdvTg042egWZbDBhkEGjNQoyBQ3QkeuaeJFJxmhiuOOPm3AAYAz60nyKDwR3zz3p2ACSBzik8wZIw3Az900hkEwcyHGcduaZiTptY49wOandsN9xulNL4PEbn8KmzuWmyOPeCpKk1JtY4K5H1qWlq2kRfW4maMmikoEOopKWgApKWk70Af/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F098LV7RP1B/img__pc.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F098LV7RP1B-a433063cca",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F098QGV0136",
+        "created": 1754161100,
+        "timestamp": 1754161100,
+        "name": "img__sp.png",
+        "title": "img__sp.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 122771,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F098QGV0136/img__sp.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F098QGV0136/download/img__sp.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F098QGV0136-6aaa4f3768/img__sp_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F098QGV0136-6aaa4f3768/img__sp_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F098QGV0136-6aaa4f3768/img__sp_360.png",
+        "thumb_360_w": 202,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F098QGV0136-6aaa4f3768/img__sp_480.png",
+        "thumb_480_w": 270,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F098QGV0136-6aaa4f3768/img__sp_160.png",
+        "original_w": 375,
+        "original_h": 667,
+        "thumb_tiny": "AwAwABu95cbkkO5OecSHg/nUigKoAzj3OaKjeQqSNhI9adrgSHkdcUuagDlsZibr3FS0WsK5VUqikDP401yxxzjuOKseSmcA5I9+aa0MZGeMDr81Z6p3NFJESOV43H6ZqbDf3m/KhYEDfK2PXBp/kj+8351pvuzOVm9BShZwSeBn09vakEKjpwPQAf4dqdkAnOMDnNNbaf4VD+4BP8/rSGKI1BJHAPOMCn1HkBs/LnHtk1IOAAaAP//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F098QGV0136/img__sp.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F098QGV0136-fb88086294",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dsOkZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【アイディアの頭出し】\nふと思ったのですが、レポートページで"
+              },
+              {
+                "type": "text",
+                "text": "「地図アプリのような体験」",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "もよさそうです。\nGoogle Map、iOS地図アプリ、などのように、マッピングが全面にあり、その上位レイヤーに意見要約やビューの切り替えなどの機能が配置されてるイメージです。荒いですがラフを添付します。\n\n狙い：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "空間的な位置関係を維持したままで詳細情報にアクセスできる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "マッピングと意見グループ要約を見比べる際のスクロール往復を解消"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一画面完結により認知負荷を軽減し、分析・思考に集中できる環境を提供"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://www.figma.com/deck/0B55u8rxDjjjpRJbNUEP0Z/%F0%9F%A7%AD-Brand-Compass?node-id=24-1113&t=2wMQWxTaZ3WAxmVr-1",
+                    "text": "Brand Promiss"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 「“意見の海“で、道しるべをあなたに。」を体現する"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "意見の海を航海するような没入感ある分析体験を実現"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "地図探索のような発見する楽しさ --> 中長期UXに貢献"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754161197.742219",
+    "client_msg_id": "6e8076e1-c307-4960-b242-3fcbef0ef5ec",
+    "thread_ts": "1754161197.742219",
+    "reply_count": 8,
+    "reply_users_count": 3,
+    "latest_reply": "1754185633.507359",
+    "reply_users": [
+      "U08PMMXPVTN",
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08Q2CKU139"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U09778PE0AV"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "【アイディアの頭出し】\nふと思ったのですが、レポートページで*「地図アプリのような体験」*もよさそうです。\nGoogle Map、iOS地図アプリ、などのように、マッピングが全面にあり、その上位レイヤーに意見要約やビューの切り替えなどの機能が配置されてるイメージです。荒いですがラフを添付します。\n\n狙い：\n• 空間的な位置関係を維持したままで詳細情報にアクセスできる\n    ◦ マッピングと意見グループ要約を見比べる際のスクロール往復を解消\n    ◦ 一画面完結により認知負荷を軽減し、分析・思考に集中できる環境を提供\n• <https://www.figma.com/deck/0B55u8rxDjjjpRJbNUEP0Z/%F0%9F%A7%AD-Brand-Compass?node-id=24-1113&t=2wMQWxTaZ3WAxmVr-1|Brand Promiss> 「“意見の海“で、道しるべをあなたに。」を体現する\n    ◦ 意見の海を航海するような没入感ある分析体験を実現\n    ◦ 地図探索のような発見する楽しさ --> 中長期UXに貢献"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1754161255.389459",
+    "edited": {
+      "user": "U08PMMXPVTN",
+      "ts": "1754162248.000000"
+    },
+    "client_msg_id": "0c2341d8-5208-4d97-9b07-9b81bf270a7d",
+    "text": "考えること：\n• 階層の時どうする\n• 意見グループが多い時のスマホでの表示方法どうする\n• 技術的な懸念があるかどうか\n• footer情報の入れ方（ラフではロゴマークで入れてしまったがコンテンツエリア内はレポーターの持ち物にしたいので移動）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pMPIn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "考えること：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "階層の時どうする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "意見グループが多い時のスマホでの表示方法どうする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "技術的な懸念があるかどうか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "footer情報の入れ方（ラフではロゴマークで入れてしまったがコンテンツエリア内はレポーターの持ち物にしたいので移動）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "考えること：\n• 階層の時どうする\n• 意見グループが多い時のスマホでの表示方法どうする\n• 技術的な懸念があるかどうか\n• footer情報の入れ方（ラフではロゴマークで入れてしまったがコンテンツエリア内はレポーターの持ち物にしたいので移動）"
+  },
+  {
+    "text": "いいですね！\n\n先日の開発定例でも、階層の切り替えのUXについては、チームみらいの<https://action.team-mir.ai/map/poster/hokkaido|ポスター掲示板マップ>のUXも参考になりそうという話も出てました。",
+    "files": [
+      {
+        "id": "F099B7HHEKS",
+        "created": 1754177703,
+        "timestamp": 1754177703,
+        "name": "screenshot 2025-08-03 8.34.24.mov",
+        "title": "screenshot 2025-08-03 8.34.24.mov",
+        "mimetype": "video/quicktime",
+        "filetype": "mov",
+        "pretty_type": "QuickTime movie",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 12596474,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "transcription": {
+          "status": "none"
+        },
+        "mp4": "https://files.slack.com/files-tmb/T08FL58DC9K-F099B7HHEKS-8e32964cab/screenshot_2025-08-03_8.34.24.mp4",
+        "url_private": "https://files.slack.com/files-tmb/T08FL58DC9K-F099B7HHEKS-8e32964cab/screenshot_2025-08-03_8.34.24.mp4",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F099B7HHEKS/download/screenshot_2025-08-03_8.34.24.mov",
+        "hls": "https://files.slack.com/files-tmb/T08FL58DC9K-F099B7HHEKS-8e32964cab/file.m3u8?_xcb=62c21",
+        "hls_embed": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiNFWFQtWC1JTkRFUEVOREVOVC1TRUdNRU5UUwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9MzMwNjI0NSxBVkVSQUdFLUJBTkRXSURUSD0zMzA2MjQ1LENPREVDUz0iYXZjMS42NDAwMWYsbXA0YS40MC41IixSRVNPTFVUSU9OPTEyODB4Njg2LEZSQU1FLVJBVEU9MjkuOTcwCmRhdGE6YXBwbGljYXRpb24vdm5kLmFwcGxlLm1wZWd1cmw7YmFzZTY0LEkwVllWRTB6VlFvalJWaFVMVmd0VmtWU1UwbFBUam96Q2lORldGUXRXQzFVUVZKSFJWUkVWVkpCVkVsUFRqbzNDaU5GV0ZRdFdDMU5SVVJKUVMxVFJWRlZSVTVEUlRveENpTkZXRlF0V0MxUVRFRlpURWxUVkMxVVdWQkZPbFpQUkFvalJWaFVTVTVHT2pZdU1EQTJMQXBvZEhSd2N6b3ZMMlpwYkdWekxuTnNZV05yTG1OdmJTOW1hV3hsY3kxMGJXSXZWREE0Umt3MU9FUkRPVXN0UmpBNU9VSTNTRWhGUzFNdE9HVXpNamsyTkdOaFlpOW1hV3hsWDBoZk1qWTBYekV5T0RCNE56SXdYek0xTURCTFFsQlRYemRSVmtKU1h6QXdNREF4TG5SekNpTkZXRlJKVGtZNk5TNHhOeklzQ21oMGRIQnpPaTh2Wm1sc1pYTXVjMnhoWTJzdVkyOXRMMlpwYkdWekxYUnRZaTlVTURoR1REVTRSRU01U3kxR01EazVRamRJU0VWTFV5MDRaVE15T1RZMFkyRmlMMlpwYkdWZlNGOHlOalJmTVRJNE1IZzNNakJmTXpVd01FdENVRk5mTjFGV1FsSmZNREF3TURJdWRITUtJMFZZVkMxWUxVVk9SRXhKVTFRSwo=",
+        "mp4_low": "https://files.slack.com/files-tmb/T08FL58DC9K-F099B7HHEKS-8e32964cab/screenshot_2025-08-03_8.34.24_trans.mp4",
+        "duration_ms": 11177,
+        "media_display_type": "video",
+        "thumb_video": "https://files.slack.com/files-tmb/T08FL58DC9K-F099B7HHEKS-8e32964cab/screenshot_2025-08-03_8.34.24_thumb_video.jpeg",
+        "thumb_video_w": 1264,
+        "thumb_video_h": 676,
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F099B7HHEKS/screenshot_2025-08-03_8.34.24.mov",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F099B7HHEKS-f99eb7dd05",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dIEFZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いいですね！\n\n先日の開発定例でも、階層の切り替えのUXについては、チームみらいの"
+              },
+              {
+                "type": "link",
+                "url": "https://action.team-mir.ai/map/poster/hokkaido",
+                "text": "ポスター掲示板マップ"
+              },
+              {
+                "type": "text",
+                "text": "のUXも参考になりそうという話も出てました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754177753.098679",
+    "client_msg_id": "400e4f66-a4b9-4bff-aaf3-15254cc7f804",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "attachments": [
+      {
+        "image_url": "https://action.team-mir.ai/img/ogp-default.png?v=20250714",
+        "image_width": 1208,
+        "image_height": 638,
+        "image_bytes": 258192,
+        "from_url": "https://action.team-mir.ai/map/poster/hokkaido",
+        "service_icon": "https://action.team-mir.ai/apple-icon.png",
+        "id": 1,
+        "original_url": "https://action.team-mir.ai/map/poster/hokkaido",
+        "fallback": "チームみらい アクションボード",
+        "text": "政治活動をもっと身近に。政治活動をゲーム感覚で楽しめる、チームみらいのアクションボード。",
+        "title": "チームみらい アクションボード",
+        "title_link": "https://action.team-mir.ai/map/poster/hokkaido",
+        "service_name": "action.team-mir.ai"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "Shingo OHKI",
+    "text_readable": "いいですね！\n\n先日の開発定例でも、階層の切り替えのUXについては、チームみらいの<https://action.team-mir.ai/map/poster/hokkaido|ポスター掲示板マップ>のUXも参考になりそうという話も出てました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754178098.093479",
+    "client_msg_id": "12a10933-d053-4c38-b681-6b69603c030f",
+    "text": "（全然関係ないけど、時差のあるところにいるのでなければ、すごい時間の投稿だ）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7kAEN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（全然関係ないけど、時差のあるところにいるのでなければ、すごい時間の投稿だ）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "laughing",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "Shingo OHKI",
+    "text_readable": "（全然関係ないけど、時差のあるところにいるのでなければ、すごい時間の投稿だ）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754184110.966469",
+    "client_msg_id": "D9F63550-562B-4DB6-A66D-BC56E68F586D",
+    "text": "階層だけ明らかに表示しているデータのフォーマットが異なるのに、あまり深くデザインすることなく並べてしまっているのはデザイン的に適切で無い可能性がある、階層部分は別パネルなりページなりにして、階層掘り下げがもっと使いやすいように特化したUIにしてしまう方がユーザ価値が高い可能性がある",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z4Htv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "階層だけ明らかに表示しているデータのフォーマットが異なるのに、あまり深くデザインすることなく並べてしまっているのはデザイン的に適切で無い可能性がある、階層部分は別パネルなりページなりにして、階層掘り下げがもっと使いやすいように特化したUIにしてしまう方がユーザ価値が高い可能性がある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "階層だけ明らかに表示しているデータのフォーマットが異なるのに、あまり深くデザインすることなく並べてしまっているのはデザイン的に適切で無い可能性がある、階層部分は別パネルなりページなりにして、階層掘り下げがもっと使いやすいように特化したUIにしてしまう方がユーザ価値が高い可能性がある"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754184176.126349",
+    "client_msg_id": "F048B8A7-8A88-43DA-99EA-7CC536724673",
+    "text": "技術的には、これは分析が終わった後のビューの話なので今あるデータで描けるものなら何に変えたとしても手前に影響はない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mzhLI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "技術的には、これは分析が終わった後のビューの話なので今あるデータで描けるものなら何に変えたとしても手前に影響はない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "技術的には、これは分析が終わった後のビューの話なので今あるデータで描けるものなら何に変えたとしても手前に影響はない"
+  },
+  {
+    "text": "<@U08H3V9KMFH>\n今週の定例に話題に出ていたのですね！\nそういえば5月に<https://github.com/digitaldemocracy2030/kouchou-ai/issues/113#issuecomment-2859152829|#113>でも一瞬この話でてたことを今思い出しました\nそして、Figmaのマスターデザイン作成時にも<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=56-849#1241726330|コメント>で同じ提案してました、、:joy:\n（時差は夜にカフェインを摂取してしまって寝れず作業時間に当ててました笑 日本にいます！笑）",
+    "files": [
+      {
+        "id": "F09890L54ET",
+        "created": 1754185150,
+        "timestamp": 1754185150,
+        "name": "img.png",
+        "title": "img.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 181731,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09890L54ET/img.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09890L54ET/download/img.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_360.png",
+        "thumb_360_w": 243,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_480.png",
+        "thumb_480_w": 325,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_720.png",
+        "thumb_720_w": 487,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_800.png",
+        "thumb_800_w": 541,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_960.png",
+        "thumb_960_w": 649,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09890L54ET-fc18c43adc/img_1024.png",
+        "thumb_1024_w": 692,
+        "thumb_1024_h": 1024,
+        "original_w": 764,
+        "original_h": 1130,
+        "thumb_tiny": "AwAwACGtcEm4kyc/MajqSf8A18n+8f50zjvQAUdqM8jOSKSgDa3H1o3H1pKKAMqT5Z5M88kUg+7wpyeM9f6e9OlP7+TgHDk8/WkwuzIC5Hvz/OgBowMEg9PWm07GRnj86THGaANXMv8AeT/vn/69GZf7yf8AfP8A9elooAzZji4l5IO49PrSEhlAHUdz6fnSzEGZxjA3nnHPWmE/KOAPfuaAHIx2sAdueuD1/Wo6XHGaSgDY2j3/ADNG0e/5mloouB//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09890L54ET/img.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09890L54ET-22da916164",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qmJNp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": "\n今週の定例に話題に出ていたのですね！\nそういえば5月に"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/113#issuecomment-2859152829",
+                "text": "#113",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "でも一瞬この話でてたことを今思い出しました\nそして、Figmaのマスターデザイン作成時にも"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=56-849#1241726330",
+                "text": "コメント"
+              },
+              {
+                "type": "text",
+                "text": "で同じ提案してました、、"
+              },
+              {
+                "type": "emoji",
+                "name": "joy",
+                "unicode": "1f602"
+              },
+              {
+                "type": "text",
+                "text": "\n（時差は夜にカフェインを摂取してしまって寝れず作業時間に当ててました笑 日本にいます！笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754185488.061169",
+    "client_msg_id": "61e55b8d-a3f2-4799-afac-ffe9819b7d88",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "@truego\n今週の定例に話題に出ていたのですね！\nそういえば5月に<https://github.com/digitaldemocracy2030/kouchou-ai/issues/113#issuecomment-2859152829|#113>でも一瞬この話でてたことを今思い出しました\nそして、Figmaのマスターデザイン作成時にも<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX?node-id=56-849#1241726330|コメント>で同じ提案してました、、:joy:\n（時差は夜にカフェインを摂取してしまって寝れず作業時間に当ててました笑 日本にいます！笑）"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754185633.223469",
+    "client_msg_id": "aab392e1-185d-4040-aaf1-f45828f35c86",
+    "text": "複数人が思っている方向性が同じということは、何となく方向性は正しそうな気がしますねー",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "frXmB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "複数人が思っている方向性が同じということは、何となく方向性は正しそうな気がしますねー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "Shingo OHKI",
+    "text_readable": "複数人が思っている方向性が同じということは、何となく方向性は正しそうな気がしますねー"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1754185633.507359",
+    "client_msg_id": "e09837ef-814f-44d9-950e-2961971b91d2",
+    "text": "<@U08G2A216TW>\nなるほどです！そしたら階層機能がどうあるべきかから議論していくのがよさそうですね\n「今あるデータで描ける」を担保したままちょっと考えてみます！（技術制約おしえてくれるのたすかります！）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754161197.742219",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DfOOt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\nなるほどです！そしたら階層機能がどうあるべきかから議論していくのがよさそうですね\n「今あるデータで描ける」を担保したままちょっと考えてみます！（技術制約おしえてくれるのたすかります！）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754161197.742219",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "@nishio.hirokazu\nなるほどです！そしたら階層機能がどうあるべきかから議論していくのがよさそうですね\n「今あるデータで描ける」を担保したままちょっと考えてみます！（技術制約おしえてくれるのたすかります！）"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1754095674.226899",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1754095674.226899",
+      "client_msg_id": "38cee016-274d-4f53-8a73-2c8f24a690e7",
+      "text": "リマインダーです。飛び入り参加歓迎です。\n• 奈良市広聴AI導入について（導入支援者の話を聞く会）\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\n    ◦ <https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0|アジェンダ>\n    ◦ <https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1|zoom リンク>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754095674.226899",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1754184890.114739",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "ts": "1753666971.911219",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08F7JZPD63",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08F7JZPD63",
+              "ts": "1753666971.911219",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "NDGFo",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！",
+                            "style": {
+                              "bold": true
+                            }
+                          },
+                          {
+                            "type": "text",
+                            "text": "\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&cid=C08F7JZPD63",
+                            "text": "こちら"
+                          },
+                          {
+                            "type": "text",
+                            "text": "について、\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "rich_text_list",
+                        "elements": [
+                          {
+                            "type": "rich_text_section",
+                            "elements": [
+                              {
+                                "type": "text",
+                                "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                              }
+                            ]
+                          }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                      },
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "で、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219",
+          "fallback": "[July 27th, 2025 6:42 PM] truego: *■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "text": "*■奈良市の広聴AIの利用事例についてご興味がある方 ぜひご参加ください！*\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1753340027554579?thread_ts=1752460969.397409&amp;cid=C08F7JZPD63|こちら>について、\n• 8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）\nで、導入支援をされた方から状況をお聞きする mtg の機会をいただきました。\nご興味がある方はぜひご参加ください！\n<https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C9mK3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダーです。飛び入り参加歓迎です。\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "奈良市広聴AI導入について（導入支援者の話を聞く会）"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "8/2（土）11:00 - 11:30（DD2030全体定例の後の時間）"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://docs.google.com/document/d/1H2ADBk6bMpqkMBDOKwRRaWSo0TIHNY-OTGrDNW61zUc/edit?tab=t.0",
+                      "text": "アジェンダ"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://us02web.zoom.us/j/89792695304?pwd=9hiNR57BERHupa4Qib0QYcBbQoLktI.1",
+                      "text": "zoom リンク"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1753666971911219"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754184890.114739",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1754188326.000000"
+    },
+    "client_msg_id": "e13e5466-f966-4700-acda-f682fc4402af",
+    "text": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n> tomokiさん\n> • 八代市長選\n> • *クラスタ図*は殆ど使われなかった\n> • 有用なのは*階層図*\n> • 結果をみて、*意外な観点*も見つかったのでそれを政策にFBできそうという感触はある\n>     ◦ マニフェストにも反映されそう\n> 奈良市の感触\n> • プロンプトめっちゃ頑張らないと*質の良い成果物はでない*、市長も同意見\n> • 概念の*表記揺れ*にも課題感（*認知負荷*がかかる）\n> • *今まで見えなかった視点*を出せるという感触はある\n・*クラスタ図*は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは*階層図* ー＞ 情報自体は安定的に利用できるが、*現状、少し見づらい*のが難点（ 特にデータ件数増えると ）。\n＊*表記ゆれ（ 認知負荷 ）*の問題はあるものの、（ 頑張れば ）何となく*インサイト*を得られそうな感触はある:sparkles:",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9d65r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "tomokiさん"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "八代市長選"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "クラスタ図",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "は殆ど使われなかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "有用なのは"
+                  },
+                  {
+                    "type": "text",
+                    "text": "階層図",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "結果をみて、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "意外な観点",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "も見つかったのでそれを政策にFBできそうという感触はある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "マニフェストにも反映されそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "奈良市の感触"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プロンプトめっちゃ頑張らないと"
+                  },
+                  {
+                    "type": "text",
+                    "text": "質の良い成果物はでない",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、市長も同意見"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "概念の"
+                  },
+                  {
+                    "type": "text",
+                    "text": "表記揺れ",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "にも課題感（"
+                  },
+                  {
+                    "type": "text",
+                    "text": "認知負荷",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "がかかる）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今まで見えなかった視点",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "を出せるという感触はある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n・"
+              },
+              {
+                "type": "text",
+                "text": "クラスタ図",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは"
+              },
+              {
+                "type": "text",
+                "text": "階層図",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ー＞ 情報自体は安定的に利用できるが、"
+              },
+              {
+                "type": "text",
+                "text": "現状、少し見づらい",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "のが難点（ 特にデータ件数増えると ）。\n＊"
+              },
+              {
+                "type": "text",
+                "text": "表記ゆれ（ 認知負荷 ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "の問題はあるものの、（ 頑張れば ）何となく"
+              },
+              {
+                "type": "text",
+                "text": "インサイト",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を得られそうな感触はある"
+              },
+              {
+                "type": "emoji",
+                "name": "sparkles",
+                "unicode": "2728"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "naoyo4...zzz",
+    "text_readable": "ありがとうございます。リアルに参加したけど、再度音声聞きました。\n上にある議事録も含め、個人的には以下の部分（ 議事録抜粋 ）注目\n\n> tomokiさん\n> • 八代市長選\n> • *クラスタ図*は殆ど使われなかった\n> • 有用なのは*階層図*\n> • 結果をみて、*意外な観点*も見つかったのでそれを政策にFBできそうという感触はある\n>     ◦ マニフェストにも反映されそう\n> 奈良市の感触\n> • プロンプトめっちゃ頑張らないと*質の良い成果物はでない*、市長も同意見\n> • 概念の*表記揺れ*にも課題感（*認知負荷*がかかる）\n> • *今まで見えなかった視点*を出せるという感触はある\n・*クラスタ図*は、注目を得やすいが、実際の現場では使いにくい。\n・むしろ、有用なのは*階層図* ー＞ 情報自体は安定的に利用できるが、*現状、少し見づらい*のが難点（ 特にデータ件数増えると ）。\n＊*表記ゆれ（ 認知負荷 ）*の問題はあるものの、（ 頑張れば ）何となく*インサイト*を得られそうな感触はある:sparkles:"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754209531.178849",
+    "client_msg_id": "61bd2318-7577-4fe2-81b0-3d424f82445f",
+    "text": "メンテナーの方どなたか、\nこちら以前 approve いただいたのですが、別のPRをマージした結果 conflict が発生してしまい、それを解消した関係で再度 approve が必要となってしまったので、\n改めて approve いただけると:pray:\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/660|OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする #660>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754209531.178849",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1754288295.826719",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rpu6T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メンテナーの方どなたか、\nこちら以前 approve いただいたのですが、別のPRをマージした結果 conflict が発生してしまい、それを解消した関係で再度 approve が必要となってしまったので、\n改めて approve いただけると"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/660",
+                "text": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする #660"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "メンテナーの方どなたか、\nこちら以前 approve いただいたのですが、別のPRをマージした結果 conflict が発生してしまい、それを解消した関係で再度 approve が必要となってしまったので、\n改めて approve いただけると:pray:\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/660|OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする #660>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754288295.826719",
+    "client_msg_id": "86966e8c-53de-4b12-a846-85ff5cf2c063",
+    "text": "こちらも high priority issue 関連のため、合わせてレビューいただけると助かります。\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/688|fix: Azure Deploy 時に client コンテナの環境変数が未設定になる #688>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754209531.178849",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tMaR+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらも high priority issue 関連のため、合わせてレビューいただけると助かります。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/688",
+                "text": "fix: Azure Deploy 時に client コンテナの環境変数が未設定になる #688"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754209531.178849",
+    "user_name": "Shingo OHKI",
+    "text_readable": "こちらも high priority issue 関連のため、合わせてレビューいただけると助かります。\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/688|fix: Azure Deploy 時に client コンテナの環境変数が未設定になる #688>"
+  },
+  {
+    "text": "【UIエンハンス】よくあるご質問ページ新設 &amp; それに伴うheader改善\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/111|#111>と<https://github.com/digitaldemocracy2030/kouchou-ai/issues/441|#441>の同時対応でデザイン作成完了しました。詳細はIssueのほうに書いてます。\nご確認いただき気になるところがありましたらIssueコメントをお願いいたします！\n\n▼特に相談したいこと：\nグローバルメニュー内のレポート管理画面へのリンクボタンについて。\nレポーターのみに表示したいが、そのような出しわけは可能かどうか。\n\n:figma:<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=434-2041&amp;t=U9PzkwU5HMd5FwfS-11|Design>",
+    "files": [
+      {
+        "id": "F098M1MSVC3",
+        "created": 1754220316,
+        "timestamp": 1754220316,
+        "name": "img.png",
+        "title": "img.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PMMXPVTN",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 452013,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F098M1MSVC3/img.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F098M1MSVC3/download/img.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 253,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 337,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 505,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 561,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 673,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F098M1MSVC3-3428c28657/img_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 718,
+        "original_w": 1728,
+        "original_h": 1212,
+        "thumb_tiny": "AwAiADDQIyvBwfXFLj5fWjGAPrRk4IwenWgBo+/jtinEDFC0p6GgBoBzntjpxSkcdMUA9Bg9OtKehoATPA4pT36U3AA/Glzwf8aAEAzg+lOI4NM3EUbjQA4HilJ4PWkHY0p6GgBp+7Tacfuim0AFFFFAxcn1oyfWkooA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F098M1MSVC3/img.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F098M1MSVC3-1bb4ad9ac2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PMMXPVTN",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RrqC3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【UIエンハンス】よくあるご質問ページ新設 & それに伴うheader改善\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/111",
+                "text": "#111",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "と"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/441",
+                "text": "#441",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "の同時対応でデザイン作成完了しました。詳細はIssueのほうに書いてます。\nご確認いただき気になるところがありましたらIssueコメントをお願いいたします！\n\n▼特に相談したいこと：\nグローバルメニュー内のレポート管理画面へのリンクボタンについて。\nレポーターのみに表示したいが、そのような出しわけは可能かどうか。\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "figma"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=434-2041&t=U9PzkwU5HMd5FwfS-11",
+                "text": "Design"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1754220393.140079",
+    "client_msg_id": "86b2a53b-cd99-4d2e-ad05-4a04da5dce90",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "【UIエンハンス】よくあるご質問ページ新設 & それに伴うheader改善\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/111|#111>と<https://github.com/digitaldemocracy2030/kouchou-ai/issues/441|#441>の同時対応でデザイン作成完了しました。詳細はIssueのほうに書いてます。\nご確認いただき気になるところがありましたらIssueコメントをお願いいたします！\n\n▼特に相談したいこと：\nグローバルメニュー内のレポート管理画面へのリンクボタンについて。\nレポーターのみに表示したいが、そのような出しわけは可能かどうか。\n\n:figma:<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=434-2041&t=U9PzkwU5HMd5FwfS-11|Design>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1754379007.153879",
+    "client_msg_id": "bd8b1bb1-0cfa-47fd-afee-1d31d2126868",
+    "text": ":tada: 新たな Contributor による Pull Request がマージされました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/pull/686|crypto.randomUUID に統一 #686> Thanks to noritaka1166 :raised_hands:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1fYuU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " 新たな Contributor による Pull Request がマージされました！\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/686",
+                    "text": "crypto.randomUUID に統一 #686",
+                    "unsafe": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " Thanks to "
+                  },
+                  {
+                    "type": "text",
+                    "text": "noritaka1166",
+                    "style": {
+                      "unlink": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "raised_hands",
+                    "unicode": "1f64c"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GG5LRGMP",
+          "U08G2A216TW",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 3
+      },
+      {
+        "name": "saluting_face",
+        "users": [
+          "U08PNJ3KTRA"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": ":tada: 新たな Contributor による Pull Request がマージされました！\n• <https://github.com/digitaldemocracy2030/kouchou-ai/pull/686|crypto.randomUUID に統一 #686> Thanks to noritaka1166 :raised_hands:"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1754402658.659459",
+    "client_msg_id": "10229cc5-809b-4ed5-a167-c7f7c8c03435",
+    "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n<https://policy-pr-hub.vercel.app/hierarchical>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1754402658.659459",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1754449064.847789",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://policy-pr-hub.vercel.app/hierarchical",
+        "id": 1,
+        "original_url": "https://policy-pr-hub.vercel.app/hierarchical",
+        "fallback": "Create Next App",
+        "text": "Generated by create next app",
+        "title": "Create Next App",
+        "title_link": "https://policy-pr-hub.vercel.app/hierarchical",
+        "service_name": "policy-pr-hub.vercel.app"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "O1AYr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n"
+              },
+              {
+                "type": "link",
+                "url": "https://policy-pr-hub.vercel.app/hierarchical"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1::skin-tone-2",
+        "users": [
+          "U08HTMJPH6K"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n<https://policy-pr-hub.vercel.app/hierarchical>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1754402658.659459",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1754402658.659459",
+      "client_msg_id": "10229cc5-809b-4ed5-a167-c7f7c8c03435",
+      "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n<https://policy-pr-hub.vercel.app/hierarchical>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754402658.659459",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1754449064.847789",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://policy-pr-hub.vercel.app/hierarchical",
+          "id": 1,
+          "original_url": "https://policy-pr-hub.vercel.app/hierarchical",
+          "fallback": "Create Next App",
+          "text": "Generated by create next app",
+          "title": "Create Next App",
+          "title_link": "https://policy-pr-hub.vercel.app/hierarchical",
+          "service_name": "policy-pr-hub.vercel.app"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O1AYr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://policy-pr-hub.vercel.app/hierarchical"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754449064.847789",
+    "client_msg_id": "D3AB5465-8EE1-40FA-A6AD-133BDE39E19F",
+    "text": "かなりまともに動くようになりました\n今日は会議に参加できないです",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "le51H",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "かなりまともに動くようになりました\n今日は会議に参加できないです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1754402658.659459",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "かなりまともに動くようになりました\n今日は会議に参加できないです"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1754438423.432959",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bez=5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20"
+              },
+              {
+                "type": "emoji",
+                "name": "00-21"
+              },
+              {
+                "type": "text",
+                "text": "00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1754402658.659459",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1754402658.659459",
+      "client_msg_id": "10229cc5-809b-4ed5-a167-c7f7c8c03435",
+      "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n<https://policy-pr-hub.vercel.app/hierarchical>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1754402658.659459",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1754449064.847789",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://policy-pr-hub.vercel.app/hierarchical",
+          "id": 1,
+          "original_url": "https://policy-pr-hub.vercel.app/hierarchical",
+          "fallback": "Create Next App",
+          "text": "Generated by create next app",
+          "title": "Create Next App",
+          "title_link": "https://policy-pr-hub.vercel.app/hierarchical",
+          "service_name": "policy-pr-hub.vercel.app"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O1AYr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "アウトライナー的階層表示、一応動いた、まだ快適には色々足りない\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://policy-pr-hub.vercel.app/hierarchical"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1754449064.847789",
+    "client_msg_id": "D3AB5465-8EE1-40FA-A6AD-133BDE39E19F",
+    "text": "かなりまともに動くようになりました\n今日は会議に参加できないです",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "le51H",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "かなりまともに動くようになりました\n今日は会議に参加できないです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "かなりまともに動くようになりました\n今日は会議に参加できないです"
+  }
+]
