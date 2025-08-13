@@ -1,0 +1,89 @@
+{
+  "period": {
+    "start": "2025-08-06T12:32:11.819444+09:00",
+    "end": "2025-08-13T12:32:11.819444+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3202553181,
+      "number": 633,
+      "title": "form から受け付けた API KEY を使ってレポートを生成できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3105607759,
+      "number": 587,
+      "title": "[DOCUMENT]ローカル LLM の使用時のdocker composeコマンドについて",
+      "state": "closed"
+    },
+    {
+      "id": 3306016439,
+      "number": 693,
+      "title": "[DOCUMENT]GitHub Pagesの静的ファイルホスティング手順の修正",
+      "state": "created"
+    },
+    {
+      "id": 3304326852,
+      "number": 692,
+      "title": "[FEATURE]ハイフンで終わるIDが受理されないことを注意書きやエラーで知らせたい",
+      "state": "created"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "updated"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3293407846,
+      "number": 691,
+      "title": "refactor: 不要なアサーションと未使用のimportの削除",
+      "state": "merged"
+    },
+    {
+      "id": 3226501945,
+      "number": 660,
+      "title": "OpenAI, OpenRouter の API KEY をフォームから入力してレポートを作成できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3191755907,
+      "number": 627,
+      "title": "fix: GPUに関連するパッケージの分岐処理が適切に動かなくなっている",
+      "state": "merged"
+    },
+    {
+      "id": 3123693078,
+      "number": 591,
+      "title": "fix: ollama コンテナの起動方法",
+      "state": "merged"
+    },
+    {
+      "id": 3306045148,
+      "number": 694,
+      "title": "docs: ビルド結果コピー時にドットファイルも含めるよう修正",
+      "state": "created"
+    },
+    {
+      "id": 3289198409,
+      "number": 689,
+      "title": "[api] レポート管理画面の意見グループ数の表記を変更する",
+      "state": "updated"
+    },
+    {
+      "id": 3261818365,
+      "number": 675,
+      "title": "Makefile 利用時に .env の自動更新を行う",
+      "state": "updated"
+    }
+  ]
+}
