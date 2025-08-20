@@ -1,0 +1,340 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755567193.390419",
+    "client_msg_id": "3ed40cde-c23d-44c7-943d-7b802ba0fadd",
+    "text": "dd2030 の webpage の slack リンクが期限切れになっていたので、対応したのですが、うまく更新されないという状況になっています。\nこのリポジトリの状況がよく分かっていないので、どなたか見ていただけますか？\n<https://dd2030.slack.com/archives/C08FL58M3D3/p1755519235536499>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "reply_count": 5,
+    "reply_users_count": 3,
+    "latest_reply": "1755578961.289569",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08HWJ80CHG",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1755519235536499",
+        "ts": "1755519235.536499",
+        "author_id": "U08GJSBAX3K",
+        "channel_id": "C08FL58M3D3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58M3D3",
+            "ts": "1755519235.536499",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "rRy4t",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nSlackリンク切れてるみたいです！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1755519235536499",
+        "fallback": "[August 18th, 2025 5:13 AM] shutaro.aoyama: <https://dd2030.org/>\nSlackリンク切れてるみたいです！",
+        "text": "<https://dd2030.org/>\nSlackリンク切れてるみたいです！",
+        "author_name": "Shutaro Aoyama (ぶるーも)",
+        "author_link": "https://dd2030.slack.com/team/U08GJSBAX3K",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-05/8562895877809_d4c7a9097f140ba638be_48.png",
+        "author_subname": "Shutaro Aoyama (ぶるーも)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W6ntv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030 の webpage の slack リンクが期限切れになっていたので、対応したのですが、うまく更新されないという状況になっています。\nこのリポジトリの状況がよく分かっていないので、どなたか見ていただけますか？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1755519235536499"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "済",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "dd2030 の webpage の slack リンクが期限切れになっていたので、対応したのですが、うまく更新されないという状況になっています。\nこのリポジトリの状況がよく分かっていないので、どなたか見ていただけますか？\n<https://dd2030.slack.com/archives/C08FL58M3D3/p1755519235536499>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755569325.482559",
+    "client_msg_id": "8b89bcc5-aa08-4c24-895c-1a2ccf947ac1",
+    "text": "これは私が修正箇所を間違えましたね。\n当然１箇所で全部管理してるかと思ったんですがその前提はなかった :sweat:\nこの辺含めてゴリゴリリファクタリングしちゃいたいなあ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3nMNa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは私が修正箇所を間違えましたね。\n当然１箇所で全部管理してるかと思ったんですがその前提はなかった "
+              },
+              {
+                "type": "emoji",
+                "name": "sweat",
+                "unicode": "1f613"
+              },
+              {
+                "type": "text",
+                "text": "\nこの辺含めてゴリゴリリファクタリングしちゃいたいなあ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755567193.390419",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "これは私が修正箇所を間違えましたね。\n当然１箇所で全部管理してるかと思ったんですがその前提はなかった :sweat:\nこの辺含めてゴリゴリリファクタリングしちゃいたいなあ"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755569347.294619",
+    "client_msg_id": "3441a10e-d1fc-4f55-96e1-6c678af80d39",
+    "text": "CMS の方針が確定したら全面的に書き換えようと身構えてはいます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ujb/g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CMS の方針が確定したら全面的に書き換えようと身構えてはいます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755567193.390419",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "CMS の方針が確定したら全面的に書き換えようと身構えてはいます"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1755570540.058719",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1755570591.000000"
+    },
+    "client_msg_id": "74703b53-e245-4263-a74f-5f4c246c46b2",
+    "text": "slackの人数増えていってるのですが、みんな違うところから流入してるのか…？？\nちなみにslackのリンクはたしかに無期限のはずなんですが…\n新しい無期限のリンクです\n\n<https://join.slack.com/t/dd2030/shared_invite/zt-3bg5nmxiv-CB9LXLpvxH_JvJil_EPa_w>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6SxJb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "slackの人数増えていってるのですが、みんな違うところから流入してるのか…？？\nちなみにslackのリンクはたしかに無期限のはずなんですが…\n新しい無期限のリンクです\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://join.slack.com/t/dd2030/shared_invite/zt-3bg5nmxiv-CB9LXLpvxH_JvJil_EPa_w"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1755567193.390419",
+    "user_name": "小野翔太",
+    "text_readable": "slackの人数増えていってるのですが、みんな違うところから流入してるのか…？？\nちなみにslackのリンクはたしかに無期限のはずなんですが…\n新しい無期限のリンクです\n\n<https://join.slack.com/t/dd2030/shared_invite/zt-3bg5nmxiv-CB9LXLpvxH_JvJil_EPa_w>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755578137.341189",
+    "client_msg_id": "f9644584-926c-4594-8bab-1b8bdeaf4167",
+    "text": "↑使って再修正しました\n<https://github.com/digitaldemocracy2030/website/pull/161>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "parent_user_id": "U08H3V9KMFH",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1755577966,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/website/pull/161",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#161 Slack招待リンクを再修正",
+        "text": "<https://github.com/digitaldemocracy2030/website/pull/160|#160> １箇所じゃなかった。。。",
+        "title": "#161 Slack招待リンクを再修正",
+        "title_link": "https://github.com/digitaldemocracy2030/website/pull/161",
+        "footer": "<https://github.com/digitaldemocracy2030/website|digitaldemocracy2030/website>",
+        "fields": [
+          {
+            "value": "<https://github.com/kuboon|@kuboon>",
+            "title": "Assignees",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gp+62",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑使って再修正しました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/161"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "lgtm",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1755567193.390419",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "↑使って再修正しました\n<https://github.com/digitaldemocracy2030/website/pull/161>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755578961.289569",
+    "client_msg_id": "e9a73799-7acd-4d9b-b974-51f7079af354",
+    "text": "無事リンク変わったようです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755567193.390419",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "siyg/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "無事リンク変わったようです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U08JASQKEEM"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1755567193.390419",
+    "user_name": "Shingo OHKI",
+    "text_readable": "無事リンク変わったようです！"
+  }
+]

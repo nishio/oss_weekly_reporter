@@ -1,0 +1,66 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08NF0S6D63",
+    "text": "<@U08NF0S6D63>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1755581485.911969",
+    "user_name": "森啓太郎",
+    "text_readable": "@keitaro.bocさんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08JYDRQ17U",
+    "type": "message",
+    "ts": "1755590361.548219",
+    "bot_id": "B08JYDRQ15Y",
+    "app_id": "A08JYBYGM6X",
+    "text": ":new: 新しいチャンネル <#C09AMKP77HD>（#デジ民に人文知を活かしたいゼミ）が作成されました！",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08JYDRQ15Y",
+      "deleted": false,
+      "name": "MemberMonitorBot",
+      "updated": 1746335796,
+      "app_id": "A08JYBYGM6X",
+      "user_id": "U08JYDRQ17U",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_36.png",
+        "image_48": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_48.png",
+        "image_72": "https://avatars.slack-edge.com/2025-05-03/8841956362261_bb6c5defd1153582af09_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "338R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "new",
+                "unicode": "1f195"
+              },
+              {
+                "type": "text",
+                "text": " 新しいチャンネル "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C09AMKP77HD"
+              },
+              {
+                "type": "text",
+                "text": "（#デジ民に人文知を活かしたいゼミ）が作成されました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "MemberMonitorBot",
+    "text_readable": ":new: 新しいチャンネル <#C09AMKP77HD>（#デジ民に人文知を活かしたいゼミ）が作成されました！"
+  }
+]

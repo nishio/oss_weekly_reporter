@@ -1,0 +1,53 @@
+[
+  {
+    "id": 3322347039,
+    "number": 177,
+    "title": "fix: トップページに不要なリンクが表示されてしまっているので修正",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/177",
+    "user": "noritaka1166",
+    "created_at": "2025-08-14T13:58:27Z",
+    "merged_at": "2025-08-14T14:04:59Z",
+    "body": "# 変更の概要\r\nトップページに表示されるようになってしまった不要なリンクが表示されなくなるように修正\r\n\r\n# スクリーンショット\r\n- 修正前\r\n<img width=\"1186\" height=\"465\" alt=\"スクリーンショット 2025-08-14 午後10 56 50\" src=\"https://github.com/user-attachments/assets/501601c9-5d32-4809-a305-b9efaa233b13\" />\r\n\r\n- 修正後\r\n<img width=\"1164\" height=\"448\" alt=\"スクリーンショット 2025-08-14 午後10 57 16\" src=\"https://github.com/user-attachments/assets/5e119130-da13-4b0e-9eab-4a2b19e72862\" />\r\n\r\n\r\n# 変更の背景\r\n- トップページに不要なリンクが表示されてしまっていることに気づいたため修正\r\n  - モバイルの幅だと表示されないが、webの幅だと表示されるようになってしまっていた\r\n\r\n# 関連Issue\r\n- 関連するPR\r\n  -   <https://github.com/digitaldemocracy2030/polimoney/pull/176>\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n",
+    "additions": 27,
+    "deletions": 29,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3321657883,
+    "number": 176,
+    "title": "feat: ヘッダーのレスポンシブデザインを改善",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/176",
+    "user": "takeruhukushima",
+    "created_at": "2025-08-14T10:14:43Z",
+    "merged_at": "2025-08-14T11:09:27Z",
+    "body": "# 変更の概要\r\nヘッダーのレスポンシブデザインを改善し、モバイルとデスクトップでの表示を最適化しました。\r\n\r\n# スクリーンショット\r\n<img width=\"557\" height=\"742\" alt=\"スクリーンショット 2025-08-14 19 11 27\" src=\"https://github.com/user-attachments/assets/bebe5bf5-9769-43d0-8fee-6ace49b93374\" />\r\n\r\n# 変更の背景\r\n- 共有ボタンの表示位置が画面幅によって適切でなかった\r\n\r\n# 主な変更点\r\n- モバイル表示時のレイアウトを最適化\r\n\r\n# 関連Issue\r\n#172 In digitaldemocracy2030/polimoney;\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- 新機能\n  - ヘッダーをレスポンシブ対応。デスクトップで右寄せナビ（サマリー・収入・支出）を追加。モバイルは中央タイトルと右端のシェアボタンを表示。シェアは非トップページでのみ表示。\n- リファクタ\n  - レイアウトを再構成し、絶対/相対配置でデスクトップ・モバイルの配置を最適化。パディングをブレークポイントに応じて調整。\n- スタイル\n  - ナビの文字サイズ/太さと余白を見直し、視認性を向上。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 60,
+    "deletions": 23,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3310483477,
+    "number": 175,
+    "title": "feat: 404ページの実装",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/175",
+    "user": "noritaka1166",
+    "created_at": "2025-08-11T15:08:55Z",
+    "merged_at": "2025-08-13T07:47:48Z",
+    "body": "# 変更の概要\r\n404ページを実装し、存在しないURLの場合に表示されるようにした\r\n\r\n# スクリーンショット\r\n<img width=\"1470\" height=\"719\" alt=\"スクリーンショット 2025-08-12 午前0 08 15\" src=\"https://github.com/user-attachments/assets/de9dbedd-5a61-4f23-8956-f25cfaa7fed3\" />\r\n\r\n# 変更の背景\r\nデフォルトの404ページが表示されてしまっていたので対応\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- 新機能\n  - 日本語対応の404ページを追加。大きな「404」表示と説明文で、誤ったURLや存在しないページへの到達時に状況を明確化。「トップページへ戻る」ボタンでワンクリック復帰が可能。画面中央のカードを用いたレスポンシブなレイアウトで可読性を向上し、既存のヘッダー・お知らせ・フッターと統一感のあるデザインを維持。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 52,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
