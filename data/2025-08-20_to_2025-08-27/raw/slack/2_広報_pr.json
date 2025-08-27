@@ -1,0 +1,856 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755742135.001609",
+    "client_msg_id": "bb7be669-672d-495c-9f79-bade57eaa0a9",
+    "text": "<https://dd2030.org/history>\nこのページは毎週水曜に自動起動するスクリプトでAIが要約したものをアップしているのですがその AI が <@U08G2A216TW> の個人契約になっていて動作が停止しており、 nishio も原因がよく分からないと言っており更新が2週間止まっています。 このページを今後も同じ方針で継続的にやっていくなら個人に依存しないやり方を考えないといけない。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "reply_count": 10,
+    "reply_users_count": 2,
+    "latest_reply": "1756257994.668499",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1200,
+        "image_height": 840,
+        "image_bytes": 22781,
+        "from_url": "https://dd2030.org/history",
+        "service_icon": "https://dd2030.org/apple-icon.png?10e1927b48f6048d",
+        "id": 1,
+        "original_url": "https://dd2030.org/history",
+        "fallback": "デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトポータルサイト",
+        "title": "デジタル民主主義2030",
+        "title_link": "https://dd2030.org/history",
+        "service_name": "dd2030.org"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tLoTZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.org/history"
+              },
+              {
+                "type": "text",
+                "text": "\nこのページは毎週水曜に自動起動するスクリプトでAIが要約したものをアップしているのですがその AI が "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " の個人契約になっていて動作が停止しており、 nishio も原因がよく分からないと言っており更新が2週間止まっています。 このページを今後も同じ方針で継続的にやっていくなら個人に依存しないやり方を考えないといけない。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08HC0144PQ",
+          "U08PNJ3KTRA"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://dd2030.org/history>\nこのページは毎週水曜に自動起動するスクリプトでAIが要約したものをアップしているのですがその AI が @nishio.hirokazu の個人契約になっていて動作が停止しており、 nishio も原因がよく分からないと言っており更新が2週間止まっています。 このページを今後も同じ方針で継続的にやっていくなら個人に依存しないやり方を考えないといけない。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755745513.698249",
+    "client_msg_id": "4fad7fec-500b-40b2-80bf-55e4109821c2",
+    "text": "仕組みがあんまり分かってないですが、<https://github.com/nishio/oss_weekly_reporter/blob/main/.github/workflows/weekly-report.yml|この処理>を <https://github.com/digitaldemocracy2030/website> のリポジトリで動かして適切な認証情報を設定すると良さそうな感じがしますが、どうなんでしょう。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TTefd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "仕組みがあんまり分かってないですが、"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/oss_weekly_reporter/blob/main/.github/workflows/weekly-report.yml",
+                "text": "この処理"
+              },
+              {
+                "type": "text",
+                "text": "を "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website"
+              },
+              {
+                "type": "text",
+                "text": " のリポジトリで動かして適切な認証情報を設定すると良さそうな感じがしますが、どうなんでしょう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "仕組みがあんまり分かってないですが、<https://github.com/nishio/oss_weekly_reporter/blob/main/.github/workflows/weekly-report.yml|この処理>を <https://github.com/digitaldemocracy2030/website> のリポジトリで動かして適切な認証情報を設定すると良さそうな感じがしますが、どうなんでしょう。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755755354.035159",
+    "client_msg_id": "455d0f66-6370-45e9-bf05-627f575b6cab",
+    "text": "根本的には、 LLM のAPIを誰の名義で契約してどう管理するか、という話なのですが、 dd2030 で組織として利用と支払いがなされている LLM サービスって既にあるのですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BUbpE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "根本的には、 LLM のAPIを誰の名義で契約してどう管理するか、という話なのですが、 dd2030 で組織として利用と支払いがなされている LLM サービスって既にあるのですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "根本的には、 LLM のAPIを誰の名義で契約してどう管理するか、という話なのですが、 dd2030 で組織として利用と支払いがなされている LLM サービスって既にあるのですか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755755479.973979",
+    "client_msg_id": "131e2d64-1431-4e31-b808-5659c5532464",
+    "text": "単発的なデータ処理とかは従来通り各自が手元のLLMでやるで良いと思うのですが、毎週やることが確定している作業にLLMを使うのであれば個人に依存するのは難しいのではないかと。LLMを使わないようにする、という方向も要検討だと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yzdh6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "単発的なデータ処理とかは従来通り各自が手元のLLMでやるで良いと思うのですが、毎週やることが確定している作業にLLMを使うのであれば個人に依存するのは難しいのではないかと。LLMを使わないようにする、という方向も要検討だと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "単発的なデータ処理とかは従来通り各自が手元のLLMでやるで良いと思うのですが、毎週やることが確定している作業にLLMを使うのであれば個人に依存するのは難しいのではないかと。LLMを使わないようにする、という方向も要検討だと思います。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755755619.568019",
+    "client_msg_id": "03c1b161-4fd3-47e5-9d1a-8fc21810e98a",
+    "text": "そういう話であれば、プロジェクトの広報活動や運営に必要なものなので、負担する判断はされていそうですね。\nそこから先どう進んでいるかがちょっと分かってないですが\n<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&amp;range=5:5>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nr6Q7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういう話であれば、プロジェクトの広報活動や運営に必要なものなので、負担する判断はされていそうですね。\nそこから先どう進んでいるかがちょっと分かってないですが\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&range=5:5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "そういう話であれば、プロジェクトの広報活動や運営に必要なものなので、負担する判断はされていそうですね。\nそこから先どう進んでいるかがちょっと分かってないですが\n<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&range=5:5>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755755713.346529",
+    "client_msg_id": "5766b08a-e953-4a13-9fcd-aa52c2ae74bd",
+    "text": "管理者立てて進めるというところで、リソースがなくて止まってそう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kC9FQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "管理者立てて進めるというところで、リソースがなくて止まってそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "管理者立てて進めるというところで、リソースがなくて止まってそう"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755756017.845919",
+    "client_msg_id": "6f4c6b22-e139-432d-a39f-9cef3dfa7e39",
+    "text": "&gt;  OpenAI API Keyが欲しい。\n&gt; CfJのnakakuboさんに発行をお願いします\n&gt; \n&gt; →5/23 環境を用意しましたので運用管理者の選定をお願いします／C4J <@U08N4BTNYN6> \n&gt; →6/3 各プロダクトの運用管理者：<https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419|PO/PjM> ／<@U08LQ25DPAB> ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419",
+        "ts": "1748702584.694419",
+        "author_id": "U08N3V4NQRE",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1748702584.694419",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "T4DfO",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "さらに体制整備が進んでおりますので、以下アップデートです！元のPinned messageもアップデートしてます\n\n更新内容\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "渉外担当に"
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R11R3ERM"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (Polimoney) 追加。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各プロダクトのPO / PjM情報追加"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08LQ25DPAB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08H3V9KMFH"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばた："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08GJSBAX3K"
+                            },
+                            {
+                              "type": "text",
+                              "text": "（いどばたビジョンPO）"
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08FTAEETAB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " （いどばた政策PO）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Polimoney："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08QDPC2JRG"
+                            },
+                            {
+                              "type": "text",
+                              "text": "(PO) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R11R3ERM"
+                            },
+                            {
+                              "type": "text",
+                              "text": "(PO) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HWJ80CHG"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (PjM)"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419",
+        "fallback": "[May 31st, 2025 7:43 AM] kojin.oshiba: さらに体制整備が進んでおりますので、以下アップデートです！元のPinned messageもアップデートしてます\n\n更新内容\n• 渉外担当に<@U08R11R3ERM> (Polimoney) 追加。\n• 各プロダクトのPO / PjM情報追加\n    ◦ 公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 <@U08LQ25DPAB> <@U08H3V9KMFH>\n    ◦ いどばた：<@U08GJSBAX3K>（いどばたビジョンPO）<@U08FTAEETAB> （いどばた政策PO）\n    ◦ Polimoney：<@U08QDPC2JRG>(PO) <@U08R11R3ERM>(PO) <@U08HWJ80CHG> (PjM)",
+        "text": "さらに体制整備が進んでおりますので、以下アップデートです！元のPinned messageもアップデートしてます\n\n更新内容\n• 渉外担当に<@U08R11R3ERM> (Polimoney) 追加。\n• 各プロダクトのPO / PjM情報追加\n    ◦ 公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 <@U08LQ25DPAB> <@U08H3V9KMFH>\n    ◦ いどばた：<@U08GJSBAX3K>（いどばたビジョンPO）<@U08FTAEETAB> （いどばた政策PO）\n    ◦ Polimoney：<@U08QDPC2JRG>(PO) <@U08R11R3ERM>(PO) <@U08HWJ80CHG> (PjM)",
+        "author_name": "ルー大柴（Kojin Oshiba）",
+        "author_link": "https://dd2030.slack.com/team/U08N3V4NQRE",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-09/8751991571792_96c6eb1e59a6dd54a634_48.jpg",
+        "author_subname": "ルー大柴（Kojin Oshiba）",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WR6Gf",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " OpenAI API Keyが欲しい。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CfJのnakakuboさんに発行をお願いします\n\n→5/23 環境を用意しましたので運用管理者の選定をお願いします／C4J "
+              },
+              {
+                "type": "user",
+                "user_id": "U08N4BTNYN6"
+              },
+              {
+                "type": "text",
+                "text": " \n→6/3 各プロダクトの運用管理者："
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419",
+                "text": "PO/PjM"
+              },
+              {
+                "type": "text",
+                "text": " ／"
+              },
+              {
+                "type": "user",
+                "user_id": "U08LQ25DPAB"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  OpenAI API Keyが欲しい。\n> CfJのnakakuboさんに発行をお願いします\n> \n> →5/23 環境を用意しましたので運用管理者の選定をお願いします／C4J @satorun \n> →6/3 各プロダクトの運用管理者：<https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419|PO/PjM> ／@masatosasano2 "
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1755756343.999799",
+    "client_msg_id": "c27ce7d4-565b-41b6-8e98-5c90ed6b1a1d",
+    "text": "dd2030 の azure アカウント (テナント？) があるっぽいので、そこにLLMのエンドポイント建ててもらうのが簡単ですかね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "45V5A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030 の azure アカウント (テナント？) があるっぽいので、そこにLLMのエンドポイント建ててもらうのが簡単ですかね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "dd2030 の azure アカウント (テナント？) があるっぽいので、そこにLLMのエンドポイント建ててもらうのが簡単ですかね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755756490.288659",
+    "client_msg_id": "96f30208-7250-4a6c-ac23-050e0d5e8c8c",
+    "text": "各プロダクトごとには管理者を立てていますが、広報やwebsite の部分の管理者がいないということだと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cHwcc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "各プロダクトごとには管理者を立てていますが、広報やwebsite の部分の管理者がいないということだと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "各プロダクトごとには管理者を立てていますが、広報やwebsite の部分の管理者がいないということだと思います。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1755756590.233619",
+    "client_msg_id": "0b7aabe9-f8ec-4250-a6bd-aa3a9faddcf1",
+    "text": "<@U08HWJ80CHG> さんがあちこち見てくださってますが、範囲が広すぎるので全部は見きれないという状態かと",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lu2qj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " さんがあちこち見てくださってますが、範囲が広すぎるので全部は見きれないという状態かと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@oscar.gaddress さんがあちこち見てくださってますが、範囲が広すぎるので全部は見きれないという状態かと"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1756257994.668499",
+    "client_msg_id": "5cb2eb41-1474-4af6-a0b4-740cf81d9279",
+    "text": "今朝も要約に失敗、これで3週分\n<https://github.com/nishio/oss_weekly_reporter/actions/runs/17087638521/job/48454968885>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755742135.001609",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V9abR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今朝も要約に失敗、これで3週分\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/oss_weekly_reporter/actions/runs/17087638521/job/48454968885"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755742135.001609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "今朝も要約に失敗、これで3週分\n<https://github.com/nishio/oss_weekly_reporter/actions/runs/17087638521/job/48454968885>"
+  },
+  {
+    "user": "U08HR28EDU4",
+    "type": "message",
+    "ts": "1755820809.848399",
+    "edited": {
+      "user": "U08HR28EDU4",
+      "ts": "1755821008.000000"
+    },
+    "client_msg_id": "e113492b-eedf-432c-8fa0-7c2bd70292e2",
+    "text": "おはようございます！広島県です！\n現在、県のDX推進課が広聴AIの活用を前提に意見募集をしている最中です。\nいろいろとご協力いただき、一般向けの実施に至ることができました。\nありがとうございました！\n\n皆さんにもぜひ*「\"#広島デジタル\"*をつけてX（旧Twitter）に*投稿」*と*「拡散」*をご協力いただきたいです！\n参考ポスト（ツイート）は<https://x.com/hiroshima_pref/status/1955162335724642757|こちら>\nよろしくお願いいたします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755820809.848399",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1755820870.429589",
+    "reply_users": [
+      "U08HR28EDU4"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://pbs.twimg.com/media/GyHYfGUaEAANP9P.jpg:large",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 158685,
+        "from_url": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "fallback": "X (formerly Twitter): 広島県 (@hiroshima_pref) on X",
+        "text": "／\n:loudspeaker:アイデア募集\nみんなで描くデジタル広島:robot_face:\n＼\n\n仕事や暮らしが\nデジタルでどうなってほしい？\n\nあなたのアイデアが\nAIで見える化され\n未来につながります。\n\nリンク先を確認して\n#広島デジタル をつけて\n投稿してください:iphone:\n\n詳細はこちら(9/12〆):point_down:\n<https://t.co/V4nRFybQbj>",
+        "title": "広島県 (@hiroshima_pref) on X",
+        "title_link": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oOaGI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おはようございます！広島県です！\n現在、県のDX推進課が広聴AIの活用を前提に意見募集をしている最中です。\nいろいろとご協力いただき、一般向けの実施に至ることができました。\nありがとうございました！\n\n皆さんにもぜひ"
+              },
+              {
+                "type": "text",
+                "text": "「\"#広島デジタル\"",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "をつけてX（旧Twitter）に"
+              },
+              {
+                "type": "text",
+                "text": "投稿」",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "と"
+              },
+              {
+                "type": "text",
+                "text": "「拡散」",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "をご協力いただきたいです！\n参考ポスト（ツイート）は"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/hiroshima_pref/status/1955162335724642757",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "\nよろしくお願いいたします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH",
+          "U08GJSBAX3K",
+          "U08HWJ80CHG",
+          "U08G0C3GM5H"
+        ],
+        "count": 4
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08J66CBKKJ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "えもえも",
+    "text_readable": "おはようございます！広島県です！\n現在、県のDX推進課が広聴AIの活用を前提に意見募集をしている最中です。\nいろいろとご協力いただき、一般向けの実施に至ることができました。\nありがとうございました！\n\n皆さんにもぜひ*「\"#広島デジタル\"*をつけてX（旧Twitter）に*投稿」*と*「拡散」*をご協力いただきたいです！\n参考ポスト（ツイート）は<https://x.com/hiroshima_pref/status/1955162335724642757|こちら>\nよろしくお願いいたします！"
+  },
+  {
+    "user": "U08HR28EDU4",
+    "type": "message",
+    "ts": "1755820830.078329",
+    "client_msg_id": "c438ce93-2174-4d52-922f-93f9bf3968ad",
+    "text": "概要はこちら（HP）：\n<https://x.com/hiroshima_pref/status/1955162335724642757>\nフォームへ直接投稿するならこちら（Forms）：\n<https://forms.office.com/pages/responsepage.aspx?id=98LdODv-F0K3hf5Fv8xUP_VpdqZ7SbRHpJ3138kHCTtUNEY5V05EWDJPWkhVN0RNUTZWMEhEVjZCWC4u&amp;route=shorturl>\nポスト（ツイート）はこちら（X)：\n<https://x.com/hiroshima_pref/status/1955162335724642757>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755820809.848399",
+    "parent_user_id": "U08HR28EDU4",
+    "attachments": [
+      {
+        "image_url": "https://pbs.twimg.com/media/GyHYfGUaEAANP9P.jpg:large",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 158685,
+        "from_url": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "fallback": "X (formerly Twitter): 広島県 (@hiroshima_pref) on X",
+        "text": "／\n:loudspeaker:アイデア募集\nみんなで描くデジタル広島:robot_face:\n＼\n\n仕事や暮らしが\nデジタルでどうなってほしい？\n\nあなたのアイデアが\nAIで見える化され\n未来につながります。\n\nリンク先を確認して\n#広島デジタル をつけて\n投稿してください:iphone:\n\n詳細はこちら(9/12〆):point_down:\n<https://t.co/V4nRFybQbj>",
+        "title": "広島県 (@hiroshima_pref) on X",
+        "title_link": "https://x.com/hiroshima_pref/status/1955162335724642757",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/olJS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "概要はこちら（HP）：\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/hiroshima_pref/status/1955162335724642757"
+              },
+              {
+                "type": "text",
+                "text": "\nフォームへ直接投稿するならこちら（Forms）：\n"
+              },
+              {
+                "type": "link",
+                "url": "https://forms.office.com/pages/responsepage.aspx?id=98LdODv-F0K3hf5Fv8xUP_VpdqZ7SbRHpJ3138kHCTtUNEY5V05EWDJPWkhVN0RNUTZWMEhEVjZCWC4u&route=shorturl"
+              },
+              {
+                "type": "text",
+                "text": "\nポスト（ツイート）はこちら（X)：\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/hiroshima_pref/status/1955162335724642757"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1755820809.848399",
+    "user_name": "えもえも",
+    "text_readable": "概要はこちら（HP）：\n<https://x.com/hiroshima_pref/status/1955162335724642757>\nフォームへ直接投稿するならこちら（Forms）：\n<https://forms.office.com/pages/responsepage.aspx?id=98LdODv-F0K3hf5Fv8xUP_VpdqZ7SbRHpJ3138kHCTtUNEY5V05EWDJPWkhVN0RNUTZWMEhEVjZCWC4u&route=shorturl>\nポスト（ツイート）はこちら（X)：\n<https://x.com/hiroshima_pref/status/1955162335724642757>"
+  },
+  {
+    "user": "U08HR28EDU4",
+    "type": "message",
+    "ts": "1755820870.429589",
+    "edited": {
+      "user": "U08HR28EDU4",
+      "ts": "1755831833.000000"
+    },
+    "client_msg_id": "d5fab9e1-d656-4e32-84a8-6656bfc4e7f1",
+    "text": "複数回の実施や、統計的調査とのハイブリッドなど試したいことは山ほどあります。\n引き続きお力添えをいただければ幸いです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1755820809.848399",
+    "parent_user_id": "U08HR28EDU4",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "275x2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "複数回の実施や、統計的調査とのハイブリッドなど試したいことは山ほどあります。\n引き続きお力添えをいただければ幸いです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1755820809.848399",
+    "user_name": "えもえも",
+    "text_readable": "複数回の実施や、統計的調査とのハイブリッドなど試したいことは山ほどあります。\n引き続きお力添えをいただければ幸いです。"
+  }
+]
