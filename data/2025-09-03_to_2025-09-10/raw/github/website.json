@@ -1,0 +1,71 @@
+[
+  {
+    "id": 3368975952,
+    "number": 165,
+    "title": "「プロジェクトの歴史-第○週の活動」の更新処理が失敗している",
+    "state": "closed",
+    "html_url": "https://github.com/digitaldemocracy2030/website/issues/165",
+    "user": "shingo-ohki",
+    "created_at": "2025-08-30T09:51:01Z",
+    "closed_at": "2025-09-03T08:41:56Z",
+    "body": "[プロジェクトの歴史](https://dd2030.org/history)ページの第○週の活動の更新処理が失敗している\n\n>kuboon\n  [11:08](https://dd2030.slack.com/archives/C08K4CUB12T/p1755742135001609)\nhttps://dd2030.org/history\nこのページは毎週水曜に自動起動するスクリプトでAIが要約したものをアップしているのですがその AI が [@NISHIO Hirokazu](https://dd2030.slack.com/team/U08G2A216TW) の個人契約になっていて動作が停止しており、 nishio も原因がよく分からないと言っており更新が2週間止まっています。 このページを今後も同じ方針で継続的にやっていくなら個人に依存しないやり方を考えないといけない。\nShingo OHKI\n  [8月21日 12:05](https://dd2030.slack.com/archives/C08K4CUB12T/p1755745513698249?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n仕組みがあんまり分かってないですが、[この処理](https://github.com/nishio/oss_weekly_reporter/blob/main/.github/workflows/weekly-report.yml)を https://github.com/digitaldemocracy2030/website のリポジトリで動かして適切な認証情報を設定すると良さそうな感じがしますが、どうなんでしょう。\nkuboon\n  [8月21日 14:49](https://dd2030.slack.com/archives/C08K4CUB12T/p1755755354035159?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n根本的には、 LLM のAPIを誰の名義で契約してどう管理するか、という話なのですが、 dd2030 で組織として利用と支払いがなされている LLM サービスって既にあるのですか？\n[14:51](https://dd2030.slack.com/archives/C08K4CUB12T/p1755755479973979?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n単発的なデータ処理とかは従来通り各自が手元のLLMでやるで良いと思うのですが、毎週やることが確定している作業にLLMを使うのであれば個人に依存するのは難しいのではないかと。LLMを使わないようにする、という方向も要検討だと思います。\nShingo OHKI\n  [8月21日 14:53](https://dd2030.slack.com/archives/C08K4CUB12T/p1755755619568019?thread_ts=1755742135.001609&cid=C08K4CUB12T)\nそういう話であれば、プロジェクトの広報活動や運営に必要なものなので、負担する判断はされていそうですね。\nそこから先どう進んでいるかがちょっと分かってないですが\nhttps://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0&range=5:5\n[14:55](https://dd2030.slack.com/archives/C08K4CUB12T/p1755755713346529?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n管理者立てて進めるというところで、リソースがなくて止まってそう\nkuboon\n  [8月21日 15:00](https://dd2030.slack.com/archives/C08K4CUB12T/p1755756017845919?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n OpenAI API Keyが欲しい。\nCfJのnakakuboさんに発行をお願いします\n→5/23 環境を用意しましたので運用管理者の選定をお願いします／C4J [@Satoru Nakakubo](https://dd2030.slack.com/team/U08N4BTNYN6)\n→6/3 各プロダクトの運用管理者：[PO/PjM](https://dd2030.slack.com/archives/C08FL58LK8V/p1748702584694419) ／[@sasano](https://dd2030.slack.com/team/U08LQ25DPAB)\nこのメッセージは投稿から 90 日以上経過したため、非表示になっています。表示するには、有料プランへアップグレードしてください。\nkuboon\n  [8月21日 15:05](https://dd2030.slack.com/archives/C08K4CUB12T/p1755756343999799?thread_ts=1755742135.001609&cid=C08K4CUB12T)\ndd2030 の azure アカウント (テナント？) があるっぽいので、そこにLLMのエンドポイント建ててもらうのが簡単ですかね\nShingo OHKI\n  [8月21日 15:08](https://dd2030.slack.com/archives/C08K4CUB12T/p1755756490288659?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n各プロダクトごとには管理者を立てていますが、広報やwebsite の部分の管理者がいないということだと思います。\n[15:09](https://dd2030.slack.com/archives/C08K4CUB12T/p1755756590233619?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n[@モアイ（小野）コミュマネ](https://dd2030.slack.com/team/U08HWJ80CHG) さんがあちこち見てくださってますが、範囲が広すぎるので全部は見きれないという状態かと\nkuboon\n  [水曜日 10:26](https://dd2030.slack.com/archives/C08K4CUB12T/p1756257994668499?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n今朝も要約に失敗、これで3週分\nhttps://github.com/nishio/oss_weekly_reporter/actions/runs/17087638521/job/48454968885\nShingo OHKI\n  [10分前](https://dd2030.slack.com/archives/C08K4CUB12T/p1756546731625309?thread_ts=1755742135.001609&cid=C08K4CUB12T)\n[ここ](https://github.com/nishio/oss_weekly_reporter/tree/data/data/2025-08-06_to_2025-08-13/markdown/slack)に要約前のデータはあったので、ひとまずそのデータを使って失敗していた直近3週分(week22~24)を追加しました\nhttps://dd2030.org/history\n\nfrom [2_広報_pr channel](https://dd2030.slack.com/archives/C08K4CUB12T/p1755742135001609)",
+    "type": "issue"
+  },
+  {
+    "id": 3378973452,
+    "number": 168,
+    "title": ".github/workflows/weekly-summary.yml のリファクタリング",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/website/issues/168",
+    "user": "shingo-ohki",
+    "created_at": "2025-09-03T08:58:51Z",
+    "body": "> スクリプト部分は別ファイルにして単体で動作確認できる方がベターかも？\n\nhttps://github.com/digitaldemocracy2030/website/pull/166#issuecomment-3248259621",
+    "type": "issue"
+  },
+  {
+    "id": 2953864694,
+    "number": 9,
+    "title": "1週間ごとの活動紹介をつくる",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/website/issues/9",
+    "user": "nishio",
+    "created_at": "2025-03-27T17:22:13Z",
+    "updated_at": "2025-09-09T04:59:29Z",
+    "body": ">NISHIO Hirokazu\no1にSlack logを投げてまとめさせてみる！\nNasuka Sumino\nありがとうございます！o1まとめがだいぶいい感じですね。\n\nhttps://w1740803485-clv347541.slack.com/archives/C08F7JZPD63/p1742983677103139\n\n>NISHIO Hirokazu\n僕の次の方向性としては毎週「今週の出来事」みたいな形で解説を生成してSlack外の人やSlackの流量が速すぎて追えない人向けに発信すること。\nメモ: Slackのログのo1まとめはSlackのログしか見てないのでGitHubの動きが拾えない\n一見GitHubの情報を流すページに情報があるのでは？となるが、あれはembedで表示されてるだけなのでチャットのメッセージのログにはほぼ情報がない\nGitHubから「この1週間で完了したのはこれ」「議論が進んだものはこれ」などと抽出できると今回みたいな振り返りの時に便利\n安野貴博\nslackのログo1まとめはあらゆるslack spaceで欲しいですねｗ\nめっちゃいい\nNISHIO Hirokazu\nGitHubからの情報収集もそんなに難しくなさそう\nhttps://chatgpt.com/share/67e4212d-6c38-8011-8aa4-258c031d9799\nSlackログからの解説生成、タスクの性質的にはGeminiの方が向いてる気がしました\n\nhttps://w1740803485-clv347541.slack.com/archives/C08JMAGJDMY/p1742966118471709",
+    "type": "issue"
+  },
+  {
+    "id": 3378932067,
+    "number": 167,
+    "title": "Week25 Summary Update",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/167",
+    "user": "github-actions[bot]",
+    "created_at": "2025-09-03T08:47:42Z",
+    "merged_at": "2025-09-03T08:50:05Z",
+    "body": "Auto-generated weekly summaries for week25",
+    "additions": 248,
+    "deletions": 0,
+    "changed_files": 4,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3375883115,
+    "number": 166,
+    "title": "定期的に \"プロジェクトの歴史\" を更新する GitHub workflow を追加",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/166",
+    "user": "shingo-ohki",
+    "created_at": "2025-09-02T12:44:55Z",
+    "merged_at": "2025-09-03T08:41:55Z",
+    "body": "定期的に[プロジェクトの歴史](https://dd2030.org/history) の slack, github の週ごとのサマリーを更新するようにします\r\n\r\nSlack, GitHub からのデータの抽出までは[このリポジトリのワークフロー](https://github.com/nishio/oss_weekly_reporter/actions/runs/17256391901/workflow)にて定期的に取得されているため、そのデータを使って要約を生成し、このリポジトリにPR(draft) を提出するようにします。\r\n\r\n- dd2030 が費用負担する OPENAI_API_KEY を利用（リポジトリに設定）\r\n- 毎週水曜 12:30 JSTに実行（[元データの処理が毎週水曜 12:00 JST に実行される](https://github.com/nishio/oss_weekly_reporter/blob/6dd583d0492f1ff029d6dc5a837f8530fea1e93d/.github/workflows/weekly-report.yml#L6)ため、それ以降の時間を指定）\r\n\r\n## 動作確認\r\n自分のリポジトリで試してみました\r\n- GitHub Actions: https://github.com/shingo-ohki/dd2030-website/actions/runs/17403185245\r\n- 作成されたPR: https://github.com/shingo-ohki/dd2030-website/pull/3/files",
+    "additions": 180,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
