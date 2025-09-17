@@ -1,0 +1,550 @@
+[
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1757479518.857609",
+    "edited": {
+      "user": "U08PMMXPVTN",
+      "ts": "1757479580.000000"
+    },
+    "client_msg_id": "5ef25094-8fdf-434a-9cff-375665a9a644",
+    "text": "昨日のリアルMTGにて確定した内容をデザイン反映しました。\n変更点はコメントやメモで残しています。\n気になる点があればFigma上にコメントいただき、なければ実装を進めていただければと思います。\n:figma:<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&t=4f9rst1QNPUuhGxU-11|Design>\n\n1点だけ「レポートのパワーアップ版」がまだです。\nこちらは新規かつ重要な機能であり、ステート別のデザインも複数必要になるため、少しお時間いただきますー！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1757479518.857609",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1757479530.602679",
+    "reply_users": [
+      "U08PMMXPVTN"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eQAgX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "昨日のリアルMTGにて確定した内容をデザイン反映しました。\n変更点はコメントやメモで残しています。\n気になる点があればFigma上にコメントいただき、なければ実装を進めていただければと思います。\n"
+              },
+              {
+                "type": "emoji",
+                "name": "figma"
+              },
+              {
+                "type": "link",
+                "url": "https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&t=4f9rst1QNPUuhGxU-11",
+                "text": "Design"
+              },
+              {
+                "type": "text",
+                "text": "\n\n1点だけ「レポートのパワーアップ版」がまだです。\nこちらは新規かつ重要な機能であり、ステート別のデザインも複数必要になるため、少しお時間いただきますー！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "昨日のリアルMTGにて確定した内容をデザイン反映しました。\n変更点はコメントやメモで残しています。\n気になる点があればFigma上にコメントいただき、なければ実装を進めていただければと思います。\n:figma:<https://www.figma.com/design/ZImSumdtUme9loVY5CejWX/%E5%BA%83%E8%81%B4AI%EF%BC%88dd2030%EF%BC%89?node-id=1543-5830&t=4f9rst1QNPUuhGxU-11|Design>\n\n1点だけ「レポートのパワーアップ版」がまだです。\nこちらは新規かつ重要な機能であり、ステート別のデザインも複数必要になるため、少しお時間いただきますー！"
+  },
+  {
+    "user": "U08PMMXPVTN",
+    "type": "message",
+    "ts": "1757479530.602679",
+    "client_msg_id": "5461e44f-6b90-4b91-aaef-301d4615825c",
+    "text": "レポートのパワーアップ版仕様メモ：\n• 投票フェーズになったお題は対話を締め切る。\n• 対話された内容をもとにAIがまとめた政策プランが複数提示される。\n• エンドユーザーはプランに対して関心ボタンを押せるように。\n• ホスティングユーザーはそのリアクション数を資料の一つとして活用可能になる。→いどばたビジョンの出口",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1757479518.857609",
+    "parent_user_id": "U08PMMXPVTN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qKnrc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポートのパワーアップ版仕様メモ：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "投票フェーズになったお題は対話を締め切る。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "対話された内容をもとにAIがまとめた政策プランが複数提示される。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "エンドユーザーはプランに対して関心ボタンを押せるように。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ホスティングユーザーはそのリアクション数を資料の一つとして活用可能になる。→いどばたビジョンの出口"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1757479518.857609",
+    "user_name": "ウタコ ノギグチ",
+    "text_readable": "レポートのパワーアップ版仕様メモ：\n• 投票フェーズになったお題は対話を締め切る。\n• 対話された内容をもとにAIがまとめた政策プランが複数提示される。\n• エンドユーザーはプランに対して関心ボタンを押せるように。\n• ホスティングユーザーはそのリアクション数を資料の一つとして活用可能になる。→いどばたビジョンの出口"
+  },
+  {
+    "user": "U0976EW330F",
+    "type": "message",
+    "ts": "1757484365.467969",
+    "client_msg_id": "9e5a0785-ee96-42d2-b6ca-9f66c0c76e2b",
+    "text": "昨日のリアルMTG＠小川事務所をまとめました\n加筆・訂正がありましたらお願いします\nあやふやな所もあります、本日の会議でクリアーにしていきたいです。\n\n１．その他のお題について\n・その他のお題は有りか無しか→大きく、開発チームで検討\n・今回は\n「その他のお題をリクエスト」をお題リストの外に作る\n→単純に担当者に行く→NGワード、他人の中傷などの確認→別ページで他人も見られるようにする→「いいね」が付けられるようにする。例「「いいね」が多いとお題に格上げします」\n\n２．解決策の賛否について\n＜現在＞\n意見の支持の強さを計ることはできる\nAIが課題・対策をまとめる過程で、何人からの意見をまとめたかは、数値化することはできている（支持の強度）\n\n＜MTG中に出た考え＞\n〇ほかの人の意見ページを作る\n その中で課題と対策を一覧で見られるようにする\n（そこに「いいね」を押せるようにする）\n\n〇ネガ・ポジについて\n・政治はポジ・ネガ両方多い意見にこそ介入し、政治の俎上に上げる必要がある\n・ポジだけを取るのか、ネガもとるのか？\n・ネガなものも受け取っていますよというメッセージは大事！\n・ネガの可視化は必要か？\n・俎上に上がる時、上がった後に、判断が引っ張られる。ネガボタンはないほうが良い\n・ネガが多いのに俎上に上げるのはなぜ\n＜ネガポジについての結論＞\nAIがチャット上でファシリテーションし、ネガ意見もとり入れ、それも含めて課題や対策として可視化する\n\n＜全体の結論＞\n ・対話アリーナだけで、アウトプットまでの完成は難しい。\n・対話アリーナは課題と対策の浮彫とその強度までに留めて、リアルの俎上に上げるのは別の仕組みが必要。\n・論点まとめ、意見まとめにおいて、「感心がある」ボタンを付け、その強度を可視化する。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yuQaN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "昨日のリアルMTG＠小川事務所をまとめました\n加筆・訂正がありましたらお願いします\nあやふやな所もあります、本日の会議でクリアーにしていきたいです。\n\n１．その他のお題について\n・その他のお題は有りか無しか→大きく、開発チームで検討\n・今回は\n「その他のお題をリクエスト」をお題リストの外に作る\n→単純に担当者に行く→NGワード、他人の中傷などの確認→別ページで他人も見られるようにする→「いいね」が付けられるようにする。例「「いいね」が多いとお題に格上げします」\n\n２．解決策の賛否について\n＜現在＞\n意見の支持の強さを計ることはできる\nAIが課題・対策をまとめる過程で、何人からの意見をまとめたかは、数値化することはできている（支持の強度）\n\n＜MTG中に出た考え＞\n〇ほかの人の意見ページを作る\n その中で課題と対策を一覧で見られるようにする\n（そこに「いいね」を押せるようにする）\n\n〇ネガ・ポジについて\n・政治はポジ・ネガ両方多い意見にこそ介入し、政治の俎上に上げる必要がある\n・ポジだけを取るのか、ネガもとるのか？\n・ネガなものも受け取っていますよというメッセージは大事！\n・ネガの可視化は必要か？\n・俎上に上がる時、上がった後に、判断が引っ張られる。ネガボタンはないほうが良い\n・ネガが多いのに俎上に上げるのはなぜ\n＜ネガポジについての結論＞\nAIがチャット上でファシリテーションし、ネガ意見もとり入れ、それも含めて課題や対策として可視化する\n\n＜全体の結論＞\n ・対話アリーナだけで、アウトプットまでの完成は難しい。\n・対話アリーナは課題と対策の浮彫とその強度までに留めて、リアルの俎上に上げるのは別の仕組みが必要。\n・論点まとめ、意見まとめにおいて、「感心がある」ボタンを付け、その強度を可視化する。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0976EW330F",
+    "text_readable": "昨日のリアルMTG＠小川事務所をまとめました\n加筆・訂正がありましたらお願いします\nあやふやな所もあります、本日の会議でクリアーにしていきたいです。\n\n１．その他のお題について\n・その他のお題は有りか無しか→大きく、開発チームで検討\n・今回は\n「その他のお題をリクエスト」をお題リストの外に作る\n→単純に担当者に行く→NGワード、他人の中傷などの確認→別ページで他人も見られるようにする→「いいね」が付けられるようにする。例「「いいね」が多いとお題に格上げします」\n\n２．解決策の賛否について\n＜現在＞\n意見の支持の強さを計ることはできる\nAIが課題・対策をまとめる過程で、何人からの意見をまとめたかは、数値化することはできている（支持の強度）\n\n＜MTG中に出た考え＞\n〇ほかの人の意見ページを作る\n その中で課題と対策を一覧で見られるようにする\n（そこに「いいね」を押せるようにする）\n\n〇ネガ・ポジについて\n・政治はポジ・ネガ両方多い意見にこそ介入し、政治の俎上に上げる必要がある\n・ポジだけを取るのか、ネガもとるのか？\n・ネガなものも受け取っていますよというメッセージは大事！\n・ネガの可視化は必要か？\n・俎上に上がる時、上がった後に、判断が引っ張られる。ネガボタンはないほうが良い\n・ネガが多いのに俎上に上げるのはなぜ\n＜ネガポジについての結論＞\nAIがチャット上でファシリテーションし、ネガ意見もとり入れ、それも含めて課題や対策として可視化する\n\n＜全体の結論＞\n ・対話アリーナだけで、アウトプットまでの完成は難しい。\n・対話アリーナは課題と対策の浮彫とその強度までに留めて、リアルの俎上に上げるのは別の仕組みが必要。\n・論点まとめ、意見まとめにおいて、「感心がある」ボタンを付け、その強度を可視化する。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1757494819.304349",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/2B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1757497812.576959",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ASW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08KXSKKWEB",
+    "thread_ts": "1757411099.948369",
+    "root": {
+      "user": "U08KXSKKWEB",
+      "type": "message",
+      "ts": "1757411099.948369",
+      "client_msg_id": "ecf23e8b-71ce-498e-b5c3-783c3a4f2506",
+      "text": "この後立憲さんとの打ち合わせになるタイミングで大変恐縮なのですが、モアイさんやぶるーもさんから教えていただいた話を踏まえて、いどばたのことを紹介して回ってたら、\n和歌山版のいどばたを有志で立ち上げたいという話になってきておりまして、相談させていただけたら嬉しいです…\n<https://kaigi.team-mir.ai/top|https://kaigi.team-mir.ai/top>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1757411099.948369",
+      "reply_count": 13,
+      "reply_users_count": 4,
+      "latest_reply": "1757659530.682979",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08GJSBAX3K",
+        "U09BCAE2SV7",
+        "U08KXSKKWEB"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G7k3+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "この後立憲さんとの打ち合わせになるタイミングで大変恐縮なのですが、モアイさんやぶるーもさんから教えていただいた話を踏まえて、いどばたのことを紹介して回ってたら、\n和歌山版のいどばたを有志で立ち上げたいという話になってきておりまして、"
+                },
+                {
+                  "type": "text",
+                  "text": "相談させていただけたら嬉しいです…"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://kaigi.team-mir.ai/top",
+                  "text": "https://kaigi.team-mir.ai/top"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1757640830.223209",
+    "client_msg_id": "0d19a268-0bd7-4bc5-bedc-de8d48b7f830",
+    "text": "<@U08HWJ80CHG> <@U08GJSBAX3K> <@U09BCAE2SV7>\nこちら一旦meetさせてもらえたらと思うのですが、来週あたりでと思っています。\nぶるーもさんアメリカ時間やから、朝活とかの方がいいんですかね？",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zEfXJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U09BCAE2SV7"
+              },
+              {
+                "type": "text",
+                "text": "\nこちら一旦meetさせてもらえたらと思うのですが、来週あたりでと思っています。\nぶるーもさんアメリカ時間やから、朝活とかの方がいいんですかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "岩永淳志",
+    "text_readable": "@oscar.gaddress @shutaro.aoyama <@U09BCAE2SV7>\nこちら一旦meetさせてもらえたらと思うのですが、来週あたりでと思っています。\nぶるーもさんアメリカ時間やから、朝活とかの方がいいんですかね？"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1758067224.663399",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iojV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日19時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日19時より、いどばた開発会議を開催します！:mega: :clock9: 19:00-20:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "period": {
+    "start": "2025-09-10T12:15:59.724824+09:00",
+    "end": "2025-09-17T12:15:59.724824+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3401363713,
+      "number": 702,
+      "title": "[REFACTOR] client-admin: lint error が出ている",
+      "state": "closed"
+    },
+    {
+      "id": 3401347330,
+      "number": 701,
+      "title": "[REFACTOR] client: lint error が出ている",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3401434156,
+      "number": 703,
+      "title": "fix: client-admin lint error",
+      "state": "merged"
+    },
+    {
+      "id": 3404662078,
+      "number": 705,
+      "title": "Add GitHub Issues extraction and problem awareness analysis",
+      "state": "created"
+    },
+    {
+      "id": 3401540479,
+      "number": 704,
+      "title": "Fix remaining lint and test issues after PR #703",
+      "state": "created"
+    },
+    {
+      "id": 3380345169,
+      "number": 698,
+      "title": "[FEATURE] Gemini を利用してレポート生成できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3288017596,
+      "number": 688,
+      "title": "fix: Azure Deploy 時に client コンテナの環境変数が未設定になる",
+      "state": "updated"
+    }
+  ]
+}
