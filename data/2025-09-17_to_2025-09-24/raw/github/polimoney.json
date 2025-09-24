@@ -1,0 +1,53 @@
+[
+  {
+    "id": 3429550237,
+    "number": 202,
+    "title": "開発アップデートの周知＿＃134シェアボタン・タイトルとサムネイルの変更",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/202",
+    "user": "cKinu",
+    "created_at": "2025-09-18T09:46:20Z",
+    "body": "## 解決・改善したいこと\n利用者・閲覧者にシェアボタンを新たに設置っした旨を周知して、認知を上げたい\n\n<!-- この提案はどのようなものかを説明してください。また、どのような人がどのように嬉しい提案なのかを、できればユーザーを主語にして記載してください。 -->\n利用者・閲覧者増加による認知度向上\n\n<!-- 対象画面の URL や関連する議論や資料の URL があれば、添付いただけると理解の助けになります。 -->\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\n- [ ] シェアボタンの説明キャプチャの作成（４枚絵以内に収める）　〜9/30 @cKinu \n- [ ] 利用者アンケートの作成　〜9/30 @cKinu \n- [ ] 利用者にアップデートの連絡　10月上旬\n- [ ] 利用者にアップデートの連絡ついでにアンケート　10月上旬\n- [ ] Xにて周知依頼　To旧seraさん　10月上旬\n\n",
+    "type": "issue"
+  },
+  {
+    "id": 3429527008,
+    "number": 201,
+    "title": "インタビュー記事公開＆周知（出井先生）",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/201",
+    "user": "cKinu",
+    "created_at": "2025-09-18T09:38:59Z",
+    "body": "## 解決・改善したいこと\n利用者へのインタビューをしてもらったので、世間にに公開して認知を上げたい\n\n<!-- この提案はどのようなものかを説明してください。また、どのような人がどのように嬉しい提案なのかを、できればユーザーを主語にして記載してください。 -->\n◾️利用者・閲覧者を増やし、認知度向上施策として\n\n<!-- 対象画面の URL や関連する議論や資料の URL があれば、添付いただけると理解の助けになります。 -->\nSlackURL　記事作成完了〜出井先生記事チェック依頼スレ\nhttps://dd2030.slack.com/archives/C08FL5L6GSH/p1757020752935429\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n- [ ] 出井先生に記事チェック依頼・追加質問　〜9/30 @太田さん\n- [ ] 出井先生の記事チェック対応・追加質問の入れ込み　9/30〜 @cKinu \n- [ ] noteの公開　〆10月上旬 @cKinu \n- [ ] Xで記事公開の周知依頼　To旧 seraさん　〆公開以降 @cKinu ",
+    "type": "issue"
+  },
+  {
+    "id": 3374522834,
+    "number": 191,
+    "title": "選挙運動費用収支報告書に対応",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/191",
+    "user": "shumizu418128",
+    "created_at": "2025-09-02T05:59:44Z",
+    "updated_at": "2025-09-18T10:37:10Z",
+    "body": "現時点では、和歌山県議員・[岩永さんの選挙運動費用収支報告書](https://drive.google.com/drive/folders/13bMJ4q2mOg_CtAg1YUSe9RrK1U04cn3q)に対応することを目指す。\n\n政治資金収支報告書とは別の書類であり、ルールが変わってくるため、データ構造形式など検討が必要。\n参考Slack：https://dd2030.slack.com/archives/C08FL5L6GSH/p1756387625940919\n\n※Slackにまだ参加していない方は私をメンションしてください\n招待URLを差し上げます",
+    "type": "issue"
+  },
+  {
+    "id": 3415356612,
+    "number": 200,
+    "title": "#199 データ定義方法の統一",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/200",
+    "user": "grassfieldk",
+    "created_at": "2025-09-14T18:05:09Z",
+    "merged_at": "2025-09-18T10:23:04Z",
+    "body": "## 変更の概要\r\n\r\n資金項目のデータ定義（`data/demo-*.ts`）の方法がバラバラであったため統一\r\n\r\n\r\n## 変更の背景\r\n\r\nデータ構造が異なることにより、型定義の修正やそれに関連するロジック修正でエラーが起きやすくなっていた\r\nデータ定義を統一することでデータモデルの可読性を上げ、今後のデータまわりの作業効率を上げる\r\n\r\n## 関連 Issue\r\n\r\n- #199 \r\n\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- Refactor\n  - データ構造を年別に再編し、フィールド名を datas → data に統一。関連画面の読み込みと表示を安定化。\n  - レポート詳細ページ（/reports/[id]）を削除し、関連処理を整理。\n- Documentation\n  - Flow と Transaction の整合性方針を記したメモを追加。\n- Chores\n  - TypeScript 型チェック／ウォッチ用の VSCode タスクを追加。\n  - データ整合性を検証するスクリプトを追加。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 1406,
+    "deletions": 1171,
+    "changed_files": 15,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

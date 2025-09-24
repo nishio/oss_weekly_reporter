@@ -1,0 +1,71 @@
+{
+  "period": {
+    "start": "2025-09-17T12:19:02.271139+09:00",
+    "end": "2025-09-24T12:19:02.271139+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3439716753,
+      "number": 707,
+      "title": "[BUG]APIが利用可能であってもAPI接続チェックが失敗する",
+      "state": "created"
+    },
+    {
+      "id": 3401347330,
+      "number": 701,
+      "title": "[REFACTOR] client: lint error が出ている",
+      "state": "updated"
+    },
+    {
+      "id": 3278836515,
+      "number": 683,
+      "title": "[BUG] 静的ファイル出力時に公開状態のレポートがない場合にエラーとなる",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3447415177,
+      "number": 709,
+      "title": "Fix hardcoded image paths for GitHub Pages subpath hosting",
+      "state": "created"
+    },
+    {
+      "id": 3440909084,
+      "number": 708,
+      "title": "Improve Azure OpenAI setup experience with better error handling",
+      "state": "created"
+    },
+    {
+      "id": 3436717137,
+      "number": 706,
+      "title": "[REFACTOR] client: lint error が出ている",
+      "state": "created"
+    },
+    {
+      "id": 3404662078,
+      "number": 705,
+      "title": "Add GitHub Issues extraction and problem awareness analysis",
+      "state": "updated"
+    },
+    {
+      "id": 3401540479,
+      "number": 704,
+      "title": "Fix remaining lint and test issues after PR #703",
+      "state": "updated"
+    },
+    {
+      "id": 3393978686,
+      "number": 699,
+      "title": "[client] 用語解説ページとグローバルナビゲーションを追加",
+      "state": "updated"
+    },
+    {
+      "id": 3380345169,
+      "number": 698,
+      "title": "[FEATURE] Gemini を利用してレポート生成できるようにする",
+      "state": "updated"
+    }
+  ]
+}

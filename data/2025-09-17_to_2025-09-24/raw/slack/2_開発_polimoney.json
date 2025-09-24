@@ -1,0 +1,544 @@
+[
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1758084155.740919",
+    "client_msg_id": "7959FC9F-FAF5-4357-BDC8-9B0BB924A8BA",
+    "text": "ちょっと今更ですが npm パッケージが汚染された事件がありました\nWindows Pro の場合は Sandbox 内で開発すればほぼ安全ですが、基本的に確実な対策はないので、しばらく npm audit などでパッケージの更新がないか確認したほうがよさそうです\n\n<https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html|https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html>\n<https://x.com/hasegawayosuke/status/1968099580970697034?s=46|https://x.com/hasegawayosuke/status/1968099580970697034?s=46>\n<https://x.com/kawada_syogo225/status/1968113187649388672?s=46|https://x.com/kawada_syogo225/status/1968113187649388672?s=46>\n\nこの手のリアルタイム性の高い話題については Grok が優秀ですね…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "reply_count": 5,
+    "reply_users_count": 3,
+    "latest_reply": "1758371251.047409",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U099TAD6RKL",
+      "U08PNJ3KTRA"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtemm9XFX7C2s0emclL3-7RrQ5wLlQ2ltlzDI0sOVKMC8NirJxT9C9yMnNO0DrcwB6yDwsArFXsKik-k9b1FvWeelLcN3rwubVJnllQwDUwoEH4WkTuUOiU5wgLCBrSaHhvvx9MNaH0dFr8tt9oqnDfSFY_26Cy6r-Nhwnrr00QiUifziWejCo5vd5jyQ/s728-rw-e365/1000015719.jpg",
+        "image_width": 728,
+        "image_height": 380,
+        "image_bytes": 38592,
+        "from_url": "https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html",
+        "service_icon": "https://thehackernews.com/favicon.ico",
+        "id": 1,
+        "original_url": "https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html",
+        "fallback": "The Hacker News: 20 Popular npm Packages With 2 Billion Weekly Downloads Compromised in Supply Chain Attack",
+        "text": "20 npm packages with 2B weekly downloads compromised after maintainer phishing led to crypto-stealing malware.",
+        "title": "20 Popular npm Packages With 2 Billion Weekly Downloads Compromised in Supply Chain Attack",
+        "title_link": "https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html",
+        "service_name": "The Hacker News"
+      },
+      {
+        "from_url": "https://x.com/hasegawayosuke/status/1968099580970697034?s=46",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1389938323444027392/0fgJ84ND_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 2,
+        "original_url": "https://x.com/hasegawayosuke/status/1968099580970697034?s=46",
+        "fallback": "X (formerly Twitter): Yosuke HASEGAWA (@hasegawayosuke) on X",
+        "text": "npmのパッケージあちこち汚染されるの、「どう対応すればいいですか？」って尋ねられても答えがないのがきびしい。",
+        "title": "Yosuke HASEGAWA (@hasegawayosuke) on X",
+        "title_link": "https://x.com/hasegawayosuke/status/1968099580970697034?s=46",
+        "service_name": "X (formerly Twitter)"
+      },
+      {
+        "from_url": "https://x.com/kawada_syogo225/status/1968113187649388672?s=46",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1606285477447110656/eQTQojw9_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 3,
+        "original_url": "https://x.com/kawada_syogo225/status/1968113187649388672?s=46",
+        "fallback": "X (formerly Twitter): Hazy (@kawada_syogo225) on X",
+        "text": "これ、npm installだけじゃなくて、VSCodeの拡張周りも暫く控えた方がいいかもな、、、",
+        "title": "Hazy (@kawada_syogo225) on X",
+        "title_link": "https://x.com/kawada_syogo225/status/1968113187649388672?s=46",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L4qb2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちょっと今更ですが npm パッケージが汚染された事件がありました"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Windows Pro の場合は Sandbox 内で開発すればほぼ安全ですが、基本的に確実な対策はないので、しばらく npm audit などでパッケージの更新がないか確認したほうがよさそうです\n"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html",
+                "text": "https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/hasegawayosuke/status/1968099580970697034?s=46",
+                "text": "https://x.com/hasegawayosuke/status/1968099580970697034?s=46"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/kawada_syogo225/status/1968113187649388672?s=46",
+                "text": "https://x.com/kawada_syogo225/status/1968113187649388672?s=46"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "この手のリアルタイム性の高い話題については Grok が優秀ですね…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08ST3B84AZ",
+          "U08PNJ3KTRA"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "U099TAD6RKL",
+    "text_readable": "ちょっと今更ですが npm パッケージが汚染された事件がありました\nWindows Pro の場合は Sandbox 内で開発すればほぼ安全ですが、基本的に確実な対策はないので、しばらく npm audit などでパッケージの更新がないか確認したほうがよさそうです\n\n<https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html|https://thehackernews.com/2025/09/20-popular-npm-packages-with-2-billion.html>\n<https://x.com/hasegawayosuke/status/1968099580970697034?s=46|https://x.com/hasegawayosuke/status/1968099580970697034?s=46>\n<https://x.com/kawada_syogo225/status/1968113187649388672?s=46|https://x.com/kawada_syogo225/status/1968113187649388672?s=46>\n\nこの手のリアルタイム性の高い話題については Grok が優秀ですね…"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1758087456.883089",
+    "client_msg_id": "4349d37b-03b4-4c03-b198-ed72f0dcf89f",
+    "text": "現在のpolimoneyの運用上すぐに大きな問題になりうることではなさそうなので、あまり心配はしていないものの、今後の頭痛の種ですね。\nいやだなぁ...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "59wtn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在のpolimoneyの運用上すぐに大きな問題になりうることではなさそうなので、あまり心配はしていないものの、今後の頭痛の種ですね。\nいやだなぁ..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758084155.740919",
+    "user_name": "haruki shimizu",
+    "text_readable": "現在のpolimoneyの運用上すぐに大きな問題になりうることではなさそうなので、あまり心配はしていないものの、今後の頭痛の種ですね。\nいやだなぁ..."
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1758087694.988489",
+    "client_msg_id": "AC44D4C6-C2D6-4306-98F9-9A8F9F849515",
+    "text": "ですね\n\n最近リリースされたバージョンに問題があるということなので、逆にいえば package.json に書かれているものは安全ということ\n最近はアップデートとかインストールはしてなかったと思うので、今後しばらくそのあたり控えてれば大丈夫だと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n4IeR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ですね\n\n最近リリースされたバージョンに問題があるということなので、逆にいえば package.json に書かれているものは安全ということ\n最近はアップデートとかインストールはしてなかったと思うので、今後しばらくそのあたり控えてれば大丈夫だと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758084155.740919",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "ですね\n\n最近リリースされたバージョンに問題があるということなので、逆にいえば package.json に書かれているものは安全ということ\n最近はアップデートとかインストールはしてなかったと思うので、今後しばらくそのあたり控えてれば大丈夫だと思います！"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1758193683.393229",
+    "client_msg_id": "2aa296ba-2fdc-437f-ad92-3b4485d46b75",
+    "text": "一応 polimoney に現在インストールされているパッケージのリリース日をすべて調べましたが、今月リリースされているものはなかったので大丈夫でした！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "swvA5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応 polimoney に現在インストールされているパッケージのリリース日をすべて調べましたが、今月リリースされているものはなかったので大丈夫でした！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08PNJ3KTRA"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1758084155.740919",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "一応 polimoney に現在インストールされているパッケージのリリース日をすべて調べましたが、今月リリースされているものはなかったので大丈夫でした！"
+  },
+  {
+    "user": "U08PNJ3KTRA",
+    "type": "message",
+    "ts": "1758370823.139039",
+    "client_msg_id": "8769C187-EB32-405D-9C12-35F1E0F4B1D7",
+    "text": "renovate とか dependabotで、\nパッケージに新しいバージョンが来てたらPR作って、テストが通れば自動でマージとかしている場合には危険そうですよね。\n\n使う場合には、公開されてから1週間以上たっているものだけやるというような設定にした方が良い気がしています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RJqSM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "renovate とか dependabotで、\nパッケージに新しいバージョンが来てたらPR作って、テストが通れば自動でマージとかしている場合には危険そうですよね。\n\n使う場合には、公開されてから1週間以上たっているものだけやるというような設定にした方が良い気がしています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758084155.740919",
+    "user_name": "Noritaka Kobayashi",
+    "text_readable": "renovate とか dependabotで、\nパッケージに新しいバージョンが来てたらPR作って、テストが通れば自動でマージとかしている場合には危険そうですよね。\n\n使う場合には、公開されてから1週間以上たっているものだけやるというような設定にした方が良い気がしています。"
+  },
+  {
+    "user": "U08PNJ3KTRA",
+    "type": "message",
+    "ts": "1758371251.047409",
+    "client_msg_id": "93C4248F-E8C6-4774-B40B-C96667D08998",
+    "text": "仕事では、Contrast Securityの SCA や Assess(AST)を使っていますが有料なので、\n使うとしたら snykの無料版のやつとかですかね\n\n<https://www.contrastsecurity.com/ja/|https://www.contrastsecurity.com/ja/>\n<https://snyk.io/jp/|https://snyk.io/jp/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758084155.740919",
+    "parent_user_id": "U099TAD6RKL",
+    "attachments": [
+      {
+        "from_url": "https://www.contrastsecurity.com/ja/",
+        "service_icon": "https://www.contrastsecurity.com/hubfs/CS_logo_RGB_color%20icon.png",
+        "id": 1,
+        "original_url": "https://www.contrastsecurity.com/ja/",
+        "fallback": "Contrast Security | アプリケーションを内側から守る",
+        "text": "Contrastは、アプリケーションとAPIの内側で、リアルタイムかつ常時有効なセキュリティを実現します。",
+        "title": "Contrast Security | アプリケーションを内側から守る",
+        "title_link": "https://www.contrastsecurity.com/ja/",
+        "service_name": "contrastsecurity.com"
+      },
+      {
+        "image_url": "https://snyk.io/_next/static/media/default-social.8953a9bd.jpg",
+        "image_width": 1200,
+        "image_height": 631,
+        "image_bytes": 643361,
+        "from_url": "https://snyk.io/jp/",
+        "service_icon": "https://snyk.io/favicon.ico",
+        "id": 2,
+        "original_url": "https://snyk.io/jp/",
+        "fallback": "Snyk: Snyk AI を活用した開発者 I セキュリティプラットフォーム | AI を活用したアプリケーションセキュリティツールとセキュリティプラットフォーム | Snyk",
+        "text": "Snyk は、AI を活用した最新のアプリケーション開発において、スピードとセキュリティの両立を実現する信頼性の高いプラットフォームです。安全性を備えた AI 時代のアプリケーション開発を支援します。まずは資料請求から。",
+        "title": "Snyk AI を活用した開発者 I セキュリティプラットフォーム | AI を活用したアプリケーションセキュリティツールとセキュリティプラットフォーム | Snyk",
+        "title_link": "https://snyk.io/jp/",
+        "service_name": "Snyk"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yjdca",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "仕事では、Contrast Securityの SCA や Assess(AST)を使っていますが有料なので、\n使うとしたら snykの無料版のやつとか"
+              },
+              {
+                "type": "text",
+                "text": "ですかね"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.contrastsecurity.com/ja/",
+                "text": "https://www.contrastsecurity.com/ja/"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://snyk.io/jp/",
+                "text": "https://snyk.io/jp/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758084155.740919",
+    "user_name": "Noritaka Kobayashi",
+    "text_readable": "仕事では、Contrast Securityの SCA や Assess(AST)を使っていますが有料なので、\n使うとしたら snykの無料版のやつとかですかね\n\n<https://www.contrastsecurity.com/ja/|https://www.contrastsecurity.com/ja/>\n<https://snyk.io/jp/|https://snyk.io/jp/>"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1758186012.262829",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FzQk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1758189014.974919",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7WxbL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]
