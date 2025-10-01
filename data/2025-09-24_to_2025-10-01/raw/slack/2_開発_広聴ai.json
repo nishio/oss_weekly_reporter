@@ -1,0 +1,2231 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1758555642.922119",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1758555642.922119",
+      "client_msg_id": "1b1ec5a9-6759-4ec1-b3e3-58302267cc26",
+      "text": "`displayModeBar: \"hover\"`を削除すれば直る\n<https://github.com/digitaldemocracy2030/kouchou-ai/blob/40d228c8f791d269fd69eae7aed33320c0f241d9/client/components/charts/ScatterChart.tsx#L385>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1758555642.922119",
+      "reply_count": 4,
+      "reply_users_count": 2,
+      "latest_reply": "1758762322.031669",
+      "reply_users": [
+        "U08G2A216TW",
+        "U097LQ22YSG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XjtXM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "displayModeBar: \"hover\"",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "を削除すれば直る\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/40d228c8f791d269fd69eae7aed33320c0f241d9/client/components/charts/ScatterChart.tsx#L385"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1758702494.000819",
+    "client_msg_id": "009FF6AF-F521-4E76-A211-4B59C2A04EC5",
+    "text": "これPRにしようとしたら再現しなくなって困ってます(苦笑)",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qyk3p",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これPRにしようとしたら再現しなくなって困ってます(苦笑)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これPRにしようとしたら再現しなくなって困ってます(苦笑)"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1758708016.544889",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AC22o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1758711025.035019",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7ju",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758716376.627499",
+    "client_msg_id": "a94f555c-a1c0-4e59-b1f8-4dbc42c45ba1",
+    "text": "口頭で話してたことの続き\ndd2030のrepoではなくforkしたrepoから来ているPRがconflictを起こしてしまった時ってどうするのがいいんでしょうね\nDevinに直させようとしたのですけど、そもそもdd2030のrepoにbranchが存在しないから直せないことに気づきました\n\n溜め込むと大変になるので毎週の定例で新着のPRを見たほうがいいのかもしれない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "utdZL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "口頭で話してたことの続き\ndd2030のrepoではなくforkしたrepoから来ているPRがconflictを起こしてしまった時ってどうするのがいいんでしょうね\nDevinに直させようとしたのですけど、そもそもdd2030のrepoにbranchが存在しないから直せないことに気づきました\n\n溜め込むと大変になるので毎週の定例で新着のPRを見たほうがいいのかもしれない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "口頭で話してたことの続き\ndd2030のrepoではなくforkしたrepoから来ているPRがconflictを起こしてしまった時ってどうするのがいいんでしょうね\nDevinに直させようとしたのですけど、そもそもdd2030のrepoにbranchが存在しないから直せないことに気づきました\n\n溜め込むと大変になるので毎週の定例で新着のPRを見たほうがいいのかもしれない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758716637.310629",
+    "client_msg_id": "4282938a-684f-400a-a8e9-5b30a4e4f10f",
+    "text": "ファイルが一件だったので仕組みを考えるより僕がGitHub上で手作業でマージしてしまうほうが早いなと判断してやっちゃいましたが、どうするのが正解だったのか\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/699/>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bCdCg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ファイルが一件だったので仕組みを考えるより僕がGitHub上で手作業でマージしてしまうほうが早いなと判断してやっちゃいましたが、どうするのが正解だったのか\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/699/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ファイルが一件だったので仕組みを考えるより僕がGitHub上で手作業でマージしてしまうほうが早いなと判断してやっちゃいましたが、どうするのが正解だったのか\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/699/>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758716709.494609",
+    "client_msg_id": "3cfab0d3-f174-4015-992b-1c9fa7f22eae",
+    "text": "あらら、ビルドが転けてしまった\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758716709.494609",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1758722787.018649",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AKFS1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あらら、ビルドが転けてしまった\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あらら、ビルドが転けてしまった\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1758716709.494609",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1758716709.494609",
+      "client_msg_id": "3cfab0d3-f174-4015-992b-1c9fa7f22eae",
+      "text": "あらら、ビルドが転けてしまった\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1758716709.494609",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1758722787.018649",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AKFS1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "あらら、ビルドが転けてしまった\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1758722787.018649",
+    "client_msg_id": "db41e068-f99c-4bb6-850a-54e96f23ea55",
+    "text": "読み直したらシンプルな勘違いだった",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nC8ng",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "読み直したらシンプルな勘違いだった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758716709.494609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "読み直したらシンプルな勘違いだった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758718894.641859",
+    "client_msg_id": "5d005117-4bb1-4f70-a47a-be498ac231d7",
+    "text": "こういうときどうするのがいいのだろう…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WTK55",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういうときどうするのがいいのだろう…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "こういうときどうするのがいいのだろう…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758719840.803529",
+    "client_msg_id": "78c1e1bb-646c-41c8-aacf-bed6f3ad4f04",
+    "text": "別の話\nCIでRuffのlintに引っかかってDevinが自力で直せず無限に試行錯誤して力尽きる問題は\n1: そもそも引っ掛かっているimport orderのエラーはruff formatで直らないらしい(GPT5談)\n2: なのでDevinも直せなくて混乱する\n3: lintエラーになる状態のものがすでにmergeされているっぽい\n4: なので関係ないところをいじっても毎回落ちる(./server以下をいじったときだけlintが走るのでフロントエンドだけいじってるときには発生しない)\nみたいな感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Oguba",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "別の話\nCIでRuffのlintに引っかかってDevinが自力で直せず無限に試行錯誤して力尽きる問題は\n1: そもそも引っ掛かっているimport orderのエラーはruff formatで直らないらしい(GPT5談)\n2: なのでDevinも直せなくて混乱する\n3: lintエラーになる状態のものがすでにmergeされているっぽい\n4: なので関係ないところをいじっても毎回落ちる(./server以下をいじったときだけlintが走るのでフロントエンドだけいじってるときには発生しない)\nみたいな感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "別の話\nCIでRuffのlintに引っかかってDevinが自力で直せず無限に試行錯誤して力尽きる問題は\n1: そもそも引っ掛かっているimport orderのエラーはruff formatで直らないらしい(GPT5談)\n2: なのでDevinも直せなくて混乱する\n3: lintエラーになる状態のものがすでにmergeされているっぽい\n4: なので関係ないところをいじっても毎回落ちる(./server以下をいじったときだけlintが走るのでフロントエンドだけいじってるときには発生しない)\nみたいな感じ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758720500.576689",
+    "client_msg_id": "a1e0f6a8-c258-4a10-8d59-56156b11a5f4",
+    "text": "というわけで\n1: メインの修正としては環境変数が正しく設定されてない時に「result is empty, maybe bad prompt」という分かりにくいエラーが発生して原因に気付きにくきので環境変数が足りてないのをみてRuntimeErrorを投げるように修正\n2: 関係ないimport orderのlint errorでCIが通らないのでimport orderをチェックしないように修正\n3: 今まで修正されてなかった他のlint errorも軒並み修正\nという3つ合体になってしまったPRをself-mergeしました\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/708>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KqgP/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "というわけで\n1: メインの修正としては環境変数が正しく設定されてない時に「result is empty, maybe bad prompt」という分かりにくいエラーが発生して原因に気付きにくきので環境変数が足りてないのをみてRuntimeErrorを投げるように修正\n2: 関係ないimport orderのlint errorでCIが通らないのでimport orderをチェックしないように修正\n3: 今まで修正されてなかった他のlint errorも軒並み修正\nという3つ合体になってしまったPRをself-mergeしました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/708"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "というわけで\n1: メインの修正としては環境変数が正しく設定されてない時に「result is empty, maybe bad prompt」という分かりにくいエラーが発生して原因に気付きにくきので環境変数が足りてないのをみてRuntimeErrorを投げるように修正\n2: 関係ないimport orderのlint errorでCIが通らないのでimport orderをチェックしないように修正\n3: 今まで修正されてなかった他のlint errorも軒並み修正\nという3つ合体になってしまったPRをself-mergeしました\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/708>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758720514.744119",
+    "client_msg_id": "be9557f8-c4ee-43ec-a354-dfa32ec02ed0",
+    "text": "経緯をdocsに書いておくか〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SwYo/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "経緯をdocsに書いておくか〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "経緯をdocsに書いておくか〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758721781.012409",
+    "client_msg_id": "40aac3d7-cc11-4c29-90c1-933dd9d30289",
+    "text": "2件を残してPRをmerge:white_check_mark:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G4Nl0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2件を残してPRをmerge"
+              },
+              {
+                "type": "emoji",
+                "name": "white_check_mark",
+                "unicode": "2705"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2件を残してPRをmerge:white_check_mark:"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758722220.729709",
+    "client_msg_id": "e161ebde-19bb-49b3-8763-d4ba6594dd43",
+    "text": "先週言ってたClaude CodeにAzure環境のセットアップを試させる実験レポートのまとめに関して、詳細にまとめるまでもないなという感じがするのて1行要約すると\n「GPT5が作った手順書の環境変数の名前が古くて、しかも環境変数の間違いに早期に気づく手段がなかったのでCCが混乱した」\nという感じでした。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xtp0j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先週言ってたClaude CodeにAzure環境のセットアップを試させる実験レポートのまとめに関して、詳細にまとめるまでもないなという感じがするのて1行要約すると\n「GPT5が作った手順書の環境変数の名前が古くて、しかも環境変数の間違いに早期に気づく手段がなかったのでCCが混乱した」\nという感じでした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "先週言ってたClaude CodeにAzure環境のセットアップを試させる実験レポートのまとめに関して、詳細にまとめるまでもないなという感じがするのて1行要約すると\n「GPT5が作った手順書の環境変数の名前が古くて、しかも環境変数の間違いに早期に気づく手段がなかったのでCCが混乱した」\nという感じでした。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1758716709.494609",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1758716709.494609",
+      "client_msg_id": "3cfab0d3-f174-4015-992b-1c9fa7f22eae",
+      "text": "あらら、ビルドが転けてしまった\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1758716709.494609",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1758722787.018649",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AKFS1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "あらら、ビルドが転けてしまった\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/17976498954/job/51131234267?pr=699"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1758722787.018649",
+    "client_msg_id": "db41e068-f99c-4bb6-850a-54e96f23ea55",
+    "text": "読み直したらシンプルな勘違いだった",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nC8ng",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "読み直したらシンプルな勘違いだった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "読み直したらシンプルな勘違いだった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758722920.134269",
+    "client_msg_id": "3400b306-6a0a-4981-a20b-7d7ac1c43d52",
+    "text": "マージできました〜 <https://github.com/digitaldemocracy2030/kouchou-ai/pull/699>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3dEPW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "マージできました〜 "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/699"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "マージできました〜 <https://github.com/digitaldemocracy2030/kouchou-ai/pull/699>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758723078.044329",
+    "client_msg_id": "326fd717-4d62-4cd4-b43b-1254e3b37b3b",
+    "text": "残りの1個は進行中という話だったのでdraftにして、これにて完結",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9ItiL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "残りの1個は進行中という話だったのでdraftにして、これにて完結"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "残りの1個は進行中という話だったのでdraftにして、これにて完結"
+  },
+  {
+    "user": "U097LQ22YSG",
+    "type": "message",
+    "ts": "1758837508.885439",
+    "edited": {
+      "user": "U097LQ22YSG",
+      "ts": "1758837600.000000"
+    },
+    "client_msg_id": "e909c1fa-9655-4304-9703-3f4517fef9cf",
+    "text": "はじめまして！水谷と申します。\n\n広聴AIに興味を持ってここ数日感レポジトリを動かしてました。\n\nclientの開発環境を動かすのにちょっと変更を加えてみたので、お時間あるときにレビューしてもらえたら幸いです！\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/712>\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/713>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oMBJH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はじめまして！水谷と申します。\n\n広聴AIに興味を持ってここ数日感レポジトリを動かしてました。\n\nclientの開発環境を動かすのにちょっと変更を加えてみたので、お時間あるときにレビューしてもらえたら幸いです！\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/712"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/713"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "U097LQ22YSG",
+    "text_readable": "はじめまして！水谷と申します。\n\n広聴AIに興味を持ってここ数日感レポジトリを動かしてました。\n\nclientの開発環境を動かすのにちょっと変更を加えてみたので、お時間あるときにレビューしてもらえたら幸いです！\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/712>\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/713>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758876891.070659",
+    "client_msg_id": "94B2CC14-234A-4971-BD0E-3F7A667444AB",
+    "text": "AIに環境構築をさせるのはやっぱりダメだという気持ちになりました()",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758876891.070659",
+    "reply_count": 3,
+    "reply_users_count": 1,
+    "latest_reply": "1758877508.307719",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9xzUd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIに環境構築をさせるのはやっぱりダメだという気持ちになりました()"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smiling_face_with_tear",
+        "users": [
+          "U08HP67R9PE",
+          "U08FZDRRY8Z",
+          "U08RQ278HAA",
+          "U08J60VKDUY",
+          "U08HWJ80CHG"
+        ],
+        "count": 5
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "AIに環境構築をさせるのはやっぱりダメだという気持ちになりました()"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758877232.463709",
+    "client_msg_id": "EAF15624-23FD-4AC5-921D-A6A66E1A0293",
+    "text": "- ソースコードをAIが編集する場合、大事な「ソースコード」はファイルに書かれててバージョン管理もされてる\n- AIが環境構築をする場合にコマンドを生成して実行すると、オプションを間違えたりするし、この情報はLLMのコンテキストにだけあるから明示的にファイルに書き出させるなどしないと消滅する\n- だったらAIにはMakefileなどを編集したり新しいターゲットを作ったりさせて、実行はさせないのが良いのでは\n- 一方で色々なコマンドを駆使してAzure環境のログとかコンテナの状況とかを取得して現状がどうなってるか把握するのはめっちゃ捗る",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758876891.070659",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9G80y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "- ソースコードをAIが編集する場合、大事な「ソースコード」はファイルに書かれててバージョン管理もされてる\n- AIが環境構築をする場合にコマンドを生成して実行すると、オプションを間違えたりするし、この情報はLLMのコンテキストにだけあるから明示的にファイルに書き出させるなどしないと消滅する\n- だったらAIにはMakefileなどを編集したり新しいターゲットを作ったりさせて、実行は"
+              },
+              {
+                "type": "text",
+                "text": "させないのが良いのでは"
+              },
+              {
+                "type": "text",
+                "text": "\n- "
+              },
+              {
+                "type": "text",
+                "text": "一方で色々なコマンドを駆使してAzure環境のログとかコンテナの状況とかを取得して現状がどうなってるか把握するのはめっちゃ捗る"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758876891.070659",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "- ソースコードをAIが編集する場合、大事な「ソースコード」はファイルに書かれててバージョン管理もされてる\n- AIが環境構築をする場合にコマンドを生成して実行すると、オプションを間違えたりするし、この情報はLLMのコンテキストにだけあるから明示的にファイルに書き出させるなどしないと消滅する\n- だったらAIにはMakefileなどを編集したり新しいターゲットを作ったりさせて、実行はさせないのが良いのでは\n- 一方で色々なコマンドを駆使してAzure環境のログとかコンテナの状況とかを取得して現状がどうなってるか把握するのはめっちゃ捗る"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758877333.969889",
+    "client_msg_id": "C0769402-C7CF-4C9B-8C2B-CC882FB29321",
+    "text": "というわけで「環境構築」は人間がmakeなどを使って行い、トラブった時に現状把握をAIにさせて、改善のアクションはAIにさせず提案させて人間がやる、という感じが良さそう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758876891.070659",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "k2yS2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "というわけで「環境構築」は人間がmakeなどを使って行い、トラブった時に現状把握をAIにさせて、改善のアクションはAIにさせず提案させて人間がやる、という感じが良さそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1758876891.070659",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "というわけで「環境構築」は人間がmakeなどを使って行い、トラブった時に現状把握をAIにさせて、改善のアクションはAIにさせず提案させて人間がやる、という感じが良さそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1758877508.307719",
+    "client_msg_id": "CAE5E922-AC2E-4537-A669-34AAD9A5FA4B",
+    "text": "多分これは環境構築というタスクの性質が影響してて、10の設定を10正しくやり切るとちゃんと動くけど、1間違えてるとどこが間違ってるかの究明に3〜5くらい掛かるから間違える確率を減らすことが大事",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1758876891.070659",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BJEcM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "多分これは環境構築というタスクの性質が影響してて、10の設定を10正しくやり切るとちゃんと動くけど、1間違えてるとどこが間違ってるかの究明に3〜5くらい掛かるから間違える確率を減らすことが大事"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08Q2CKU139",
+          "U08HN9UDJUB",
+          "U090QNFMXD0"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1758876891.070659",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "多分これは環境構築というタスクの性質が影響してて、10の設定を10正しくやり切るとちゃんと動くけど、1間違えてるとどこが間違ってるかの究明に3〜5くらい掛かるから間違える確率を減らすことが大事"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1759023083.640459",
+    "client_msg_id": "d0af0f99-0e4e-4a09-9705-e7c0cec8d2cf",
+    "text": "自分の地域の自治体の区政推進課の方が広聴AIに興味をお持ちだという情報をキャッチしたので、コンタクトを試みています。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CoiKC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自分の地域の自治体の区政推進課の方が広聴AIに興味をお持ちだという情報をキャッチしたので、コンタクトを試みています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08N3V4NQRE",
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 3
+      },
+      {
+        "name": "yellow_heart",
+        "users": [
+          "U08PMMXPVTN"
+        ],
+        "count": 1
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U08PNJ3KTRA"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "自分の地域の自治体の区政推進課の方が広聴AIに興味をお持ちだという情報をキャッチしたので、コンタクトを試みています。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759119990.195979",
+    "client_msg_id": "8d6cb2cd-b321-46be-87e6-6ff3b4cb71b8",
+    "text": "ビューの切り替え的な機能をつけるとするならサムシング「レポートごとに書き換えられて永続化される情報の置き場所」が必要で、よく考えたらタイトルを後から編集できるようにするなどの形ですでにできているはずなので汎用的なオプションを格納できるようにするといいのかもと思った",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rODxs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ビューの切り替え的な機能をつけるとするならサムシング「レポートごとに書き換えられて永続化される情報の置き場所」が必要で、よく考えたらタイトルを後から編集できるようにするなどの形ですでにできているはずなので汎用的なオプションを格納できるようにするといいのかもと思った"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ビューの切り替え的な機能をつけるとするならサムシング「レポートごとに書き換えられて永続化される情報の置き場所」が必要で、よく考えたらタイトルを後から編集できるようにするなどの形ですでにできているはずなので汎用的なオプションを格納できるようにするといいのかもと思った"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1759219942.957059",
+    "client_msg_id": "fe87a4ab-f12f-4d87-9b9a-3111e7fd7280",
+    "text": "今日自治体の方からお話を伺った際に教えていただいたのですが、ある自治体ではこんなツールを使っているそうです\n（なので、このような自治体では、広聴AIで想定しているような OpenAI や Gemini のAPIを直接使うための契約を新たに行うのにハードルがある場合がある）\n• <https://masaru.tech/masaru-test/index.html>\n• <https://exawizards.com/exabase/gpt/gov/>\n",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://masaru.tech/demo/images/front.jpg",
+        "image_width": 1676,
+        "image_height": 889,
+        "image_bytes": 235082,
+        "from_url": "https://masaru.tech/masaru-test/index.html",
+        "service_icon": "https://masaru.tech/images/favicon2.ico",
+        "id": 1,
+        "original_url": "https://masaru.tech/masaru-test/index.html",
+        "fallback": "版の自治体AI「マサルくん」| demo 行政AI",
+        "text": "行政システム が提供する自治体専用AIサービス。626自治体導入、月間15万回以上利用される信頼のAIシステム",
+        "title": "版の自治体AI「マサルくん」| demo 行政AI",
+        "title_link": "https://masaru.tech/masaru-test/index.html",
+        "service_name": "masaru.tech"
+      },
+      {
+        "image_url": "https://exawizards.com/exabase/gpt/_next/static/media/ogp.f91e731a.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 652981,
+        "from_url": "https://exawizards.com/exabase/gpt/gov/",
+        "id": 2,
+        "original_url": "https://exawizards.com/exabase/gpt/gov/",
+        "fallback": "exaBase 生成AI | 株式会社エクサウィザーズ: exaBase 生成AI for 自治体 | exaBase 生成AI",
+        "text": "ChatGPTを始めとする生成AIを国内最高峰のセキュリティ環境で利用できるプラットフォームです。RAGやプロンプトテンプレートなど多数の機能を有しています。",
+        "title": "exaBase 生成AI for 自治体 | exaBase 生成AI",
+        "title_link": "https://exawizards.com/exabase/gpt/gov/",
+        "service_name": "exaBase 生成AI | 株式会社エクサウィザーズ"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LsCY5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日自治体の方からお話を伺った際に教えていただいたのですが、ある自治体ではこんなツールを使っているそうです\n（なので、このような自治体では、広聴AIで想定しているような OpenAI や Gemini のAPIを直接使うための契約を新たに行うのにハードルがある場合がある）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://masaru.tech/masaru-test/index.html"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://exawizards.com/exabase/gpt/gov/"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "今日自治体の方からお話を伺った際に教えていただいたのですが、ある自治体ではこんなツールを使っているそうです\n（なので、このような自治体では、広聴AIで想定しているような OpenAI や Gemini のAPIを直接使うための契約を新たに行うのにハードルがある場合がある）\n• <https://masaru.tech/masaru-test/index.html>\n• <https://exawizards.com/exabase/gpt/gov/>\n"
+  },
+  {
+    "text": "書籍企画、通りました。\n\n<@U08G2A216TW> <@U08NPS512ES> <@U08H3V9KMFH> <@U08Q66ACBTK>",
+    "files": [
+      {
+        "id": "F09HPSP8ACB",
+        "created": 1759223434,
+        "timestamp": 1759223434,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 33324,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 239,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 319,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_160.png",
+        "original_w": 594,
+        "original_h": 395,
+        "thumb_tiny": "AwAgADC8w+YkyED04oyvI83nPqKMtvIGeOf88U75uD3zyM0AKR7kUmDn7xoAPGTSANu5PH1/+tQBJRRRQAznPtSBSOpzz70bQWJGdw7kGlCMCcEYJ9OfzoACDxz0/nRjnrShQOgAoC46AUAOoNFI3T8RQB//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09HPSP8ACB/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09HPSP8ACB-05fdd3d4c1",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KqmiY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "書籍企画、通りました。\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NPS512ES"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08Q66ACBTK"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1759223464.214759",
+    "client_msg_id": "a7bd2bf4-67d0-4d72-84bc-549daeb005b3",
+    "thread_ts": "1759223464.214759",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1759233326.350549",
+    "reply_users": [
+      "U08N3V4NQRE",
+      "U08JGS0BS57"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH",
+          "U08Q66ACBTK",
+          "U08HKLUGE67",
+          "U08N3V4NQRE",
+          "U08JGS0BS57",
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 7
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08H3V9KMFH",
+          "U08Q66ACBTK",
+          "U08HKLUGE67",
+          "U08N3V4NQRE",
+          "U09C3J7V960",
+          "U08JGS0BS57",
+          "U08HWJ80CHG"
+        ],
+        "count": 7
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "書籍企画、通りました。\n\n@nishio.hirokazu @kazuya.obanayama @truego @tomoki2757"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1759226533.471989",
+    "client_msg_id": "c5e4844d-b235-48f6-b3cc-45ec087788e1",
+    "text": "すごい！楽しみですね！！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759223464.214759",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JEF0T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すごい！楽しみですね！！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759223464.214759",
+    "user_name": "ルー大柴（Kojin Oshiba）",
+    "text_readable": "すごい！楽しみですね！！！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1759223464.214759",
+    "root": {
+      "text": "書籍企画、通りました。\n\n<@U08G2A216TW> <@U08NPS512ES> <@U08H3V9KMFH> <@U08Q66ACBTK>",
+      "files": [
+        {
+          "id": "F09HPSP8ACB",
+          "created": 1759223434,
+          "timestamp": 1759223434,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08J6JR5SNQ",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 33324,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 239,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 319,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_160.png",
+          "original_w": 594,
+          "original_h": 395,
+          "thumb_tiny": "AwAgADC8w+YkyED04oyvI83nPqKMtvIGeOf88U75uD3zyM0AKR7kUmDn7xoAPGTSANu5PH1/+tQBJRRRQAznPtSBSOpzz70bQWJGdw7kGlCMCcEYJ9OfzoACDxz0/nRjnrShQOgAoC46AUAOoNFI3T8RQB//2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09HPSP8ACB/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F09HPSP8ACB-05fdd3d4c1",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08J6JR5SNQ",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KqmiY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "書籍企画、通りました。\n\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08NPS512ES"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08Q66ACBTK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1759223464.214759",
+      "client_msg_id": "a7bd2bf4-67d0-4d72-84bc-549daeb005b3",
+      "thread_ts": "1759223464.214759",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1759233326.350549",
+      "reply_users": [
+        "U08N3V4NQRE",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1759233326.350549",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1759233477.000000"
+    },
+    "client_msg_id": "b0e3aaab-7174-44d3-bc71-0362238a8a20",
+    "text": "おめでとうございます。:tada:\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839>\n\n以前、定例会議でもお話した小生の\n*Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）*も\n*OK* のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。:man-bowing:",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s951E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おめでとうございます。"
+              },
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": "\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839"
+              },
+              {
+                "type": "text",
+                "text": "\n\n以前、定例会議でもお話した小生の\n"
+              },
+              {
+                "type": "text",
+                "text": "Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "も\n"
+              },
+              {
+                "type": "text",
+                "text": "OK ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759223464.214759",
+    "user_name": "naoyo4.​com",
+    "text_readable": "おめでとうございます。:tada:\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839>\n\n以前、定例会議でもお話した小生の\n*Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）*も\n*OK* のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。:man-bowing:"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759223782.525419",
+    "client_msg_id": "382ea8fe-4b14-40fa-a599-1290d9c5b82f",
+    "text": "明日の定例に編集者呼べないか交渉中",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gC6wt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "明日の定例に編集者呼べないか交渉中"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "明日の定例に編集者呼べないか交渉中"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759224239.715929",
+    "client_msg_id": "ae26db1f-fa13-47e5-acfa-b2b7fe516e48",
+    "text": "確かに、この本、どこに並べたらいいんだろうな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e46/2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "確かに、この本、どこに並べたらいいんだろうな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "確かに、この本、どこに並べたらいいんだろうな"
+  },
+  {
+    "text": "現状の本の見出しです。\nあとで、ちゃんとgithub上に執筆企画のプロジェクトを建てさせてください。\n基本的には私と西尾( <@U08G2A216TW> )が書く予定ですが、他のメンバーでも書きたいという方がいたら書いていただいて結構です。\nひとまず文章を書いておいて、どこかにコラムでねじ込む、みたいなことも可能です。\nまた、取材も私以外の方が行っていただいたり、当事者が書いてもらっても大丈夫です。\n（<@U08NPS512ES> には、自信の選挙活動での実施を書いてもらう予定 ）",
+    "files": [
+      {
+        "id": "F09HUM3D8MC",
+        "created": 1759226809,
+        "timestamp": 1759226809,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 248732,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09HUM3D8MC/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09HUM3D8MC/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_360.png",
+        "thumb_360_w": 245,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_480.png",
+        "thumb_480_w": 327,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_720.png",
+        "thumb_720_w": 490,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_800.png",
+        "thumb_800_w": 545,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HUM3D8MC-8c8e350ecf/image_960.png",
+        "thumb_960_w": 654,
+        "thumb_960_h": 960,
+        "original_w": 692,
+        "original_h": 1016,
+        "thumb_tiny": "AwAwACHRcEjg8+nrUJkYLlTz6E+2f8etWDnHHJqPzEYHK5wMnoaAGGcqBlQ3TcQen+f61Krbj0I+oxQGXGQRinZGcZ59KACiiigAqFVAZQWDMo/i61MTgEgE+wqFYiAFJGPQHGcev170mn0Am5oGe9JklQQvOOhNLQAUUUUwCoPNbbzwVByRjBIqemAqWUbCDjIJXpQAnmHcoC9epz0pyuGA5XJ9DmnAAAADAHaigAooooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09HUM3D8MC/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09HUM3D8MC-5a43e46533",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jYY9e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状の本の見出しです。\nあとで、ちゃんとgithub上に執筆企画のプロジェクトを建てさせてください。\n基本的には私と西尾( "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " )が書く予定ですが、他のメンバーでも書きたいという方がいたら書いていただいて結構です。\nひとまず文章を書いておいて、どこかにコラムでねじ込む、みたいなことも可能です。\nまた、取材も私以外の方が行っていただいたり、当事者が書いてもらっても大丈夫です。\n（"
+              },
+              {
+                "type": "user",
+                "user_id": "U08NPS512ES"
+              },
+              {
+                "type": "text",
+                "text": " には、自信の選挙活動での実施を書いてもらう予定 ）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1759227107.995789",
+    "client_msg_id": "c53d611d-7fe2-47b7-848d-9a2ed4a200d9",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "現状の本の見出しです。\nあとで、ちゃんとgithub上に執筆企画のプロジェクトを建てさせてください。\n基本的には私と西尾( @nishio.hirokazu )が書く予定ですが、他のメンバーでも書きたいという方がいたら書いていただいて結構です。\nひとまず文章を書いておいて、どこかにコラムでねじ込む、みたいなことも可能です。\nまた、取材も私以外の方が行っていただいたり、当事者が書いてもらっても大丈夫です。\n（@kazuya.obanayama には、自信の選挙活動での実施を書いてもらう予定 ）"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759228666.998989",
+    "client_msg_id": "4a57f6b1-376a-4785-bb08-b5cf9a1f8101",
+    "text": "<@U08HWJ80CHG>\ngithubにブロードリスニング本の執筆プロジェクトのためのレポジトリを建てたいのですが、こちらのお願いはモアイさんでよいでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "reply_count": 5,
+    "reply_users_count": 2,
+    "latest_reply": "1759241088.282289",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "22jqq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\ngithubにブロードリスニング本の執筆プロジェクトのためのレポジトリを建てたいのですが、こちらのお願いはモアイさんでよいでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@oscar.gaddress\ngithubにブロードリスニング本の執筆プロジェクトのためのレポジトリを建てたいのですが、こちらのお願いはモアイさんでよいでしょうか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1759232793.977139",
+    "client_msg_id": "f3d31f61-e306-44f2-a8cb-8a0b8af79f61",
+    "text": "はい！\nレポジトリ名何にしましょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D35PU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい！\nレポジトリ名何にしましょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759228666.998989",
+    "user_name": "小野翔太",
+    "text_readable": "はい！\nレポジトリ名何にしましょうか？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759233257.884039",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1759233289.000000"
+    },
+    "client_msg_id": "6799144a-e738-4830-b47b-fd070b0deca1",
+    "text": "broad-listening-book としてください。\n私と西尾さんをひとまずownerとしてください。\n<http://github.com/tokoroten>\n<https://github.com/nishio>\nあとはこちらで良しなにしますので。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FFrhr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "broad-listening-book としてください。\n私と西尾さんをひとまずownerとしてください。\n"
+              },
+              {
+                "type": "link",
+                "url": "http://github.com/tokoroten"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio"
+              },
+              {
+                "type": "text",
+                "text": "\nあとはこちらで良しなにしますので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759228666.998989",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "broad-listening-book としてください。\n私と西尾さんをひとまずownerとしてください。\n<http://github.com/tokoroten>\n<https://github.com/nishio>\nあとはこちらで良しなにしますので。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1759233726.950089",
+    "client_msg_id": "a6bb7115-ed70-49c6-8533-eb80789fc143",
+    "text": "<@U08J6JR5SNQ> <@U08G2A216TW>\nadminになりますが、権限付与しました。\n<https://github.com/digitaldemocracy2030/broad-listening-book>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QhiBR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\nadminになりますが、権限付与しました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/broad-listening-book"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759228666.998989",
+    "user_name": "小野翔太",
+    "text_readable": "@shinta.nakayama @nishio.hirokazu\nadminになりますが、権限付与しました。\n<https://github.com/digitaldemocracy2030/broad-listening-book>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759235433.484829",
+    "client_msg_id": "9da7545a-c9df-47ce-9d7e-0e4534e647d9",
+    "text": "ありがとうございます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "82tG2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1759228666.998989",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ありがとうございます。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759241088.282289",
+    "client_msg_id": "47ec475d-a6bf-41a5-ba82-78223bc45091",
+    "text": "<@U08HWJ80CHG>\n執筆活動が本格化したら、Slackも別チャネルに切り離してほしいです。その時になったらまたお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1759228666.998989",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VQrSf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n執筆活動が本格化したら、Slackも別チャネルに切り離してほしいです。その時になったらまたお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1759228666.998989",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@oscar.gaddress\n執筆活動が本格化したら、Slackも別チャネルに切り離してほしいです。その時になったらまたお願いします。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1759223464.214759",
+    "root": {
+      "text": "書籍企画、通りました。\n\n<@U08G2A216TW> <@U08NPS512ES> <@U08H3V9KMFH> <@U08Q66ACBTK>",
+      "files": [
+        {
+          "id": "F09HPSP8ACB",
+          "created": 1759223434,
+          "timestamp": 1759223434,
+          "name": "image.png",
+          "title": "image.png",
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08J6JR5SNQ",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 33324,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09HPSP8ACB/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 239,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 319,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09HPSP8ACB-1a5923a789/image_160.png",
+          "original_w": 594,
+          "original_h": 395,
+          "thumb_tiny": "AwAgADC8w+YkyED04oyvI83nPqKMtvIGeOf88U75uD3zyM0AKR7kUmDn7xoAPGTSANu5PH1/+tQBJRRRQAznPtSBSOpzz70bQWJGdw7kGlCMCcEYJ9OfzoACDxz0/nRjnrShQOgAoC46AUAOoNFI3T8RQB//2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09HPSP8ACB/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F09HPSP8ACB-05fdd3d4c1",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08J6JR5SNQ",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KqmiY",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "書籍企画、通りました。\n\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08G2A216TW"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08NPS512ES"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08Q66ACBTK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1759223464.214759",
+      "client_msg_id": "a7bd2bf4-67d0-4d72-84bc-549daeb005b3",
+      "thread_ts": "1759223464.214759",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1759233326.350549",
+      "reply_users": [
+        "U08N3V4NQRE",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1759233326.350549",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1759233477.000000"
+    },
+    "client_msg_id": "b0e3aaab-7174-44d3-bc71-0362238a8a20",
+    "text": "おめでとうございます。:tada:\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839>\n\n以前、定例会議でもお話した小生の\n*Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）*も\n*OK* のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。:man-bowing:",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s951E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おめでとうございます。"
+              },
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": "\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839"
+              },
+              {
+                "type": "text",
+                "text": "\n\n以前、定例会議でもお話した小生の\n"
+              },
+              {
+                "type": "text",
+                "text": "Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "も\n"
+              },
+              {
+                "type": "text",
+                "text": "OK ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "naoyo4.​com",
+    "text_readable": "おめでとうございます。:tada:\n\ntokorotenさん本ファンとしては、書籍の普及等にも貢献したいところ。\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1749833369542839>\n\n以前、定例会議でもお話した小生の\n*Code for Japan Summit 2025（ 11/29 ） への参加（ ５分の事例紹介 ）*も\n*OK* のご返事いただきましたので、ぜひとも・・・\n\n詳細、明日の定例会で時間が余れば、ご検討のほど、よろしくお願いいたします。:man-bowing:"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759239370.835719",
+    "client_msg_id": "a96074de-8443-4ae0-bea3-27c6ac37b28a",
+    "text": "<@U08FZDRRY8Z> ↑ ブロードリスニング本の出版企画が通ったので、これから執筆をしていきます。\n目次は上記の画像の通りです。\nできれば序文の寄稿や帯をお願いしたいのですが、いかがでしょうか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kKj+U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08FZDRRY8Z"
+              },
+              {
+                "type": "text",
+                "text": " ↑ ブロードリスニング本の出版企画が通ったので、これから執筆をしていきます。\n目次は上記の画像の通りです。\nできれば序文の寄稿や帯をお願いしたいのですが、いかがでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@annyotaka ↑ ブロードリスニング本の出版企画が通ったので、これから執筆をしていきます。\n目次は上記の画像の通りです。\nできれば序文の寄稿や帯をお願いしたいのですが、いかがでしょうか？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759239385.709559",
+    "client_msg_id": "fd5a5e26-79bc-4d87-854c-6c293649a2da",
+    "text": "<https://github.com/digitaldemocracy2030/broad-listening-book>\nREADME.MDを置いた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/s/De",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/broad-listening-book"
+              },
+              {
+                "type": "text",
+                "text": "\nREADME.MDを置いた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://github.com/digitaldemocracy2030/broad-listening-book>\nREADME.MDを置いた"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1759276832.420249",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mps",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]

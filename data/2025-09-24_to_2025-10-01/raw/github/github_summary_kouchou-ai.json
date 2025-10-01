@@ -1,0 +1,143 @@
+{
+  "period": {
+    "start": "2025-09-24T12:26:54.436632+09:00",
+    "end": "2025-10-01T12:26:54.436632+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3455133639,
+      "number": 712,
+      "title": "[BUG]client の開発環境がうまく動かない",
+      "state": "closed"
+    },
+    {
+      "id": 3401347330,
+      "number": 701,
+      "title": "[REFACTOR] client: lint error が出ている",
+      "state": "closed"
+    },
+    {
+      "id": 3271667129,
+      "number": 682,
+      "title": "[BUG] main へマージ時に DD2030 の azure 環境へのデプロイが失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 3202721982,
+      "number": 634,
+      "title": "[FEATURE] Gemini を利用してレポート生成できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3197806044,
+      "number": 631,
+      "title": "[BUG] azure-build 時に警告が出る",
+      "state": "closed"
+    },
+    {
+      "id": 2935247659,
+      "number": 111,
+      "title": "[FEATURE]用語解説ページをつける",
+      "state": "closed"
+    },
+    {
+      "id": 3448355817,
+      "number": 710,
+      "title": "[BUG]url情報のある散布図で点をクリックしてもリンク先にジャンプできない現象",
+      "state": "created"
+    },
+    {
+      "id": 3214253654,
+      "number": 643,
+      "title": "Docker build時のシークレット渡し方法の改善",
+      "state": "updated"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "updated"
+    },
+    {
+      "id": 3085030525,
+      "number": 564,
+      "title": "活用事例を集めて公開する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3455168311,
+      "number": 713,
+      "title": "client開発環境が正しく動くように修正",
+      "state": "merged"
+    },
+    {
+      "id": 3452203885,
+      "number": 711,
+      "title": "Azure Blob Storage への接続と基本アップロードを検証するテストツールを追加 -",
+      "state": "merged"
+    },
+    {
+      "id": 3447415177,
+      "number": 709,
+      "title": "Fix hardcoded image paths for GitHub Pages subpath hosting",
+      "state": "merged"
+    },
+    {
+      "id": 3440909084,
+      "number": 708,
+      "title": "Improve Azure OpenAI setup experience with better error handling",
+      "state": "merged"
+    },
+    {
+      "id": 3436717137,
+      "number": 706,
+      "title": "[REFACTOR] client: lint error が出ている",
+      "state": "merged"
+    },
+    {
+      "id": 3393978686,
+      "number": 699,
+      "title": "[client] 用語解説ページとグローバルナビゲーションを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3380345169,
+      "number": 698,
+      "title": "[FEATURE] Gemini を利用してレポート生成できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 3288017596,
+      "number": 688,
+      "title": "fix: Azure Deploy 時に client コンテナの環境変数が未設定になる",
+      "state": "merged"
+    },
+    {
+      "id": 3197835332,
+      "number": 632,
+      "title": "fix: make azure-build 時に警告が出る",
+      "state": "merged"
+    },
+    {
+      "id": 3197696820,
+      "number": 630,
+      "title": "レポートのバックアップスクリプトを docker 環境で実行する",
+      "state": "merged"
+    },
+    {
+      "id": 3130123124,
+      "number": 597,
+      "title": "Feature/issue 493 レポート画面のスクロールイベント回避を追加",
+      "state": "updated"
+    },
+    {
+      "id": 3074065554,
+      "number": 543,
+      "title": "アドミン管理画面でリロードを抑制する",
+      "state": "updated"
+    }
+  ]
+}
