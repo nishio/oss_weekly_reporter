@@ -1,0 +1,638 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321023.831479",
+    "client_msg_id": "9b8f8062-e401-41ce-a89d-6ba9a97acb22",
+    "text": "もっとインサイトを抽出できるようにアルゴリズムを改善しようという <@U08KVN5B6HX> さんの話に関してはこちらのチャンネルがよいかと(入ってなかってので気づいてないと思って追加しました)\n\n角野さんのこの意見とかが今日の議論に関連していますね\n&gt; 個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1749886094753769>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1749886094753769",
+        "ts": "1749886094.753769",
+        "author_id": "U08GG5LRGMP",
+        "channel_id": "C08PX74S5T4",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08PX74S5T4",
+            "ts": "1749886094.753769",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "ulsF2",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1749886094753769",
+        "fallback": "[June 14th, 2025 12:28 AM] nsk.smn: 二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）",
+        "text": "二次元平面での可視化およびUMAPの採用についてはTTTCのscatterを踏襲しているのですが、個人的にも議論の余地があるポイントだと思っています。以下の2つの問いがあると思っています。\n\nQ.なぜ二次元に射影するのか？\n（自分の理解）\nマップ上でデータを探索的に見やすいから（クラスタ名を確認しながら、ざーっとデータを眺める、という体験は二次元平面にプロットするのがやりやすい）\n\nQ.なぜUMAPなのか？\n（自分の理解）\nデータの密集構造に対してより着目したく、そのために（UMAPによる歪みを許容して）UMAPを採用したものと推察しています。\n\n今の構成がベストとは限らないと思っていて、このあたりは修正・改善の余地は大いにあると思っています。\n個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）",
+        "author_name": "Nasuka Sumino",
+        "author_link": "https://dd2030.slack.com/team/U08GG5LRGMP",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-16/8607958307157_7331b7830f918fb9445d_48.png",
+        "author_subname": "Nasuka Sumino",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5V4rV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もっとインサイトを抽出できるようにアルゴリズムを改善しようという "
+              },
+              {
+                "type": "user",
+                "user_id": "U08KVN5B6HX"
+              },
+              {
+                "type": "text",
+                "text": " さんの話に関してはこちらのチャンネルがよいかと(入ってなかってので気づいてないと思って追加しました)\n\n角野さんのこの意見とかが今日の議論に関連していますね\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1749886094753769"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "もっとインサイトを抽出できるようにアルゴリズムを改善しようという @kensuzuki さんの話に関してはこちらのチャンネルがよいかと(入ってなかってので気づいてないと思って追加しました)\n\n角野さんのこの意見とかが今日の議論に関連していますね\n> 個人的には、昨今だとLLMの高性能化・低価格化が進んでいるので、embeddingを使わずにLLMでトピック抽出・分類を完結させるような構成もありかなと思っています（embeddingに基づいてグループを形成しなくなるので２次元平面上にはプロットできなくなりますが、embeddingではなくLLMを使ってグルーピングした方がより妥当なまとまりを作れるはず）\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1749886094753769>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759321271.931139",
+    "client_msg_id": "6208c7b2-246d-41e0-a7c9-4a615cc60f1a",
+    "text": "M4 Macを買ったら、gpt-oss-20bやgpt-oss-120bが爆速で動いたので、これでいいんじゃないかとは思います。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zn7ii",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "M4 Macを買ったら、gpt-oss-20bやgpt-oss-120bが爆速で動いたので、これでいいんじゃないかとは思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "M4 Macを買ったら、gpt-oss-20bやgpt-oss-120bが爆速で動いたので、これでいいんじゃないかとは思います。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759321334.496429",
+    "client_msg_id": "7d18917f-79e3-4aec-9178-e3f6cb202f31",
+    "text": "あとは、UMAPを経由せずに、高次元のまま階層化クラスタリングとかですかね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wT5Kq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとは、UMAPを経由せずに、高次元のまま階層化クラスタリングとかですかね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あとは、UMAPを経由せずに、高次元のまま階層化クラスタリングとかですかね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321355.886999",
+    "client_msg_id": "BDA30E1C-67FC-4CFA-BB2A-604A9E246185",
+    "text": "それofそれ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "95kWu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それofそれ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それofそれ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321405.862319",
+    "client_msg_id": "BBB520FD-B659-4E8E-AD8D-C859A19BBB88",
+    "text": "UMAPで密度保持されない次元削減してからクラスタリングするのはいけてないなーと思ってます",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SnX5s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UMAPで密度保持されない次元削減してからクラスタリングするのはいけてないなーと思ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "UMAPで密度保持されない次元削減してからクラスタリングするのはいけてないなーと思ってます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321431.988649",
+    "client_msg_id": "9A7DF3DA-60CA-40E8-A66A-FC61DA23B0DF",
+    "text": "HDBSCANを捨てた理由も、単に時間が掛かるからですし。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1jJ4A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "HDBSCANを捨てた理由も、単に時間が掛かるからですし。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "HDBSCANを捨てた理由も、単に時間が掛かるからですし。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321571.669699",
+    "client_msg_id": "9BE15EA5-54EE-4D49-A9A0-BE7ADB9E6182",
+    "text": "それから2階層の階層クラスタリングする際のクラスタ個数をデータを見る前にユーザが指定する設計も、割と無理があるし、その「決めた数」に合わせてクラスタを併合してるから「あんまり関係ないのが混ざってるな」を避けようがない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V+thR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それから2階層の階層クラスタリングする際のクラスタ個数をデータを見る前にユーザが指定する設計も、割と無理があるし、その「決めた数」に合わせてクラスタを併合してるから「あんまり関係ないのが混ざってるな」を避けようがない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それから2階層の階層クラスタリングする際のクラスタ個数をデータを見る前にユーザが指定する設計も、割と無理があるし、その「決めた数」に合わせてクラスタを併合してるから「あんまり関係ないのが混ざってるな」を避けようがない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759321760.616619",
+    "client_msg_id": "27DFB60C-CF2C-4370-89CE-74A177E18DF1",
+    "text": "あとこれも角野・中山・西尾が有益だと判断してるが単にリソースの問題で実装されてない\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929|https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929",
+        "ts": "1750227230.189929",
+        "author_id": "U08GG5LRGMP",
+        "channel_id": "C08PX74S5T4",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08PX74S5T4",
+            "ts": "1750227230.189929",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "Hw68M",
+                  "elements": [
+                    {
+                      "type": "rich_text_quote",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "記載いただいたように、この方がよりクラスタ全体のデータ点を踏まえたタイトルになるはずなのでアリだと思いました！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929",
+        "fallback": "[June 17th, 2025 11:13 PM] nsk.smn: &gt; 空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする\n記載いただいたように、この方がよりクラスタ全体のデータ点を踏まえたタイトルになるはずなのでアリだと思いました！",
+        "text": "&gt; 空間全体を被覆するように、Farthest Point Sampling とかで、標本を引っ張ってきたほうがいい気がする\n記載いただいたように、この方がよりクラスタ全体のデータ点を踏まえたタイトルになるはずなのでアリだと思いました！",
+        "author_name": "Nasuka Sumino",
+        "author_link": "https://dd2030.slack.com/team/U08GG5LRGMP",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-16/8607958307157_7331b7830f918fb9445d_48.png",
+        "author_subname": "Nasuka Sumino",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Jyhri",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとこれも角野・中山・西尾が有益だと判断してるが単にリソースの問題で実装されてない\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929",
+                "text": "https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あとこれも角野・中山・西尾が有益だと判断してるが単にリソースの問題で実装されてない\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929|https://dd2030.slack.com/archives/C08PX74S5T4/p1750227230189929>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759325489.179419",
+    "client_msg_id": "2aa9c280-d5b2-4059-8966-86b209082324",
+    "text": "あと、同一トピック無いのポジネガをどれくらい離すか、というのを制御したいという思いはあります。\n「原発賛成」「原発反対」を「原発」という同一トピックに入れてよいのか？\nエンベデッドされた後のベクトルに対して、うまく係り受けをベースにベクトルを制御したい。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LQylJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、同一トピック無いのポジネガをどれくらい離すか、というのを制御したいという思いはあります。\n「原発賛成」「原発反対」を「原発」という同一トピックに入れてよいのか？\nエンベデッドされた後のベクトルに対して、うまく係り受けをベースにベクトルを制御したい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あと、同一トピック無いのポジネガをどれくらい離すか、というのを制御したいという思いはあります。\n「原発賛成」「原発反対」を「原発」という同一トピックに入れてよいのか？\nエンベデッドされた後のベクトルに対して、うまく係り受けをベースにベクトルを制御したい。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759325517.476929",
+    "client_msg_id": "3ca901aa-1adf-47c9-955a-547672d072f1",
+    "text": "現状、同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bNJB6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状、同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "現状、同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1759325575.406149",
+    "client_msg_id": "996f2272-b6e8-4a60-96a6-f69bbb797ae8",
+    "text": "否定文を正しく取り扱えるか、否定文に対して、適切に距離を変えられるか、みたいなところに興味があります。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cRq02",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "否定文を正しく取り扱えるか、否定文に対して、適切に距離を変えられるか、みたいなところに興味があります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "否定文を正しく取り扱えるか、否定文に対して、適切に距離を変えられるか、みたいなところに興味があります。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759326359.525659",
+    "client_msg_id": "fa4e534c-41f3-4559-9091-8ad94a477671",
+    "text": "&gt; 同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。\nこれは2次元の散布図を見せるなら正しい挙動で、これを遠くに置くと図全体で最大2つの対立軸しか表現できなくなる\nやるとするなら適当な単位のクラスタに対して「このクラスタの中身だけを別の可視化」という手段があって、そこで2軸マトリクスにするなどをするのが良いと思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0giuz",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは2次元の散布図を見せるなら正しい挙動で、これを遠くに置くと図全体で最大2つの対立軸しか表現できなくなる\nやるとするなら適当な単位のクラスタに対して「このクラスタの中身だけを別の可視化」という手段があって、そこで2軸マトリクスにするなどをするのが良いと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 同じトピックで賛成反対があると、全くの無関係なトピックに比べて近くに位置する傾向があります。\nこれは2次元の散布図を見せるなら正しい挙動で、これを遠くに置くと図全体で最大2つの対立軸しか表現できなくなる\nやるとするなら適当な単位のクラスタに対して「このクラスタの中身だけを別の可視化」という手段があって、そこで2軸マトリクスにするなどをするのが良いと思う"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759464931.018799",
+    "client_msg_id": "f47beae2-e03f-4832-83e1-4a9db341efa7",
+    "text": "発掘した\n<https://github.com/nishio/broadlistening-research/blob/main/publish/2025-02-11-02-NISHIO.md>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gwo6M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "発掘した\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/broadlistening-research/blob/main/publish/2025-02-11-02-NISHIO.md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "発掘した\n<https://github.com/nishio/broadlistening-research/blob/main/publish/2025-02-11-02-NISHIO.md>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759828723.599979",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1759831519.000000"
+    },
+    "client_msg_id": "5d8c6975-89c7-42e7-8dfb-5a3ee011428f",
+    "text": "先日の「UMAPしてからクラスタリングするのは良くないと思うよ」の話、2次元に落としてからクラスタリングすると一貫して精度が落ちることが示されてますね(GPT5が適切な論文を見つけてくれて捗る)\n\n<https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline|An Empirical Configuration Study of a Common Document Clustering Pipeline>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/071aa00fa9cb953e7a0d3a988816cfc6/max_size/1000",
+        "thumb_width": 909,
+        "thumb_height": 1000,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline",
+        "fallback": "西尾泰和の外部脳: An Empirical Configuration Study of a Common Document Clustering Pipeline - 西尾泰和の外部脳",
+        "text": "An Empirical Configuration Study of a Common Document Clustering Pipeline GPT5文書クラスタリングの体系的比較（NEJLT 2023） BERT 埋め込み＋次元削減（UMAP/PCA）＋クラスタリング（k‑means/HDBSCAN）のパイプラインを複数データセット（SNACK/AG News/Reuters）で比較。",
+        "title": "An Empirical Configuration Study of a Common Document Clustering Pipeline - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AYdk7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先日の「UMAPしてからクラスタリングするのは良くないと思うよ」の話、2次元に落としてからクラスタリングすると一貫して精度が落ちることが示されてますね(GPT5が適切な論文を見つけてくれて捗る)\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline",
+                "text": "An Empirical Configuration Study of a Common Document Clustering Pipeline"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "先日の「UMAPしてからクラスタリングするのは良くないと思うよ」の話、2次元に落としてからクラスタリングすると一貫して精度が落ちることが示されてますね(GPT5が適切な論文を見つけてくれて捗る)\n\n<https://scrapbox.io/nishio/An_Empirical_Configuration_Study_of_a_Common_Document_Clustering_Pipeline|An Empirical Configuration Study of a Common Document Clustering Pipeline>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759828789.648969",
+    "client_msg_id": "613b3bfc-a58f-418d-a94d-1c5933bd2601",
+    "text": "10次元くらいなら問題ないんだけど、まあ人間は10次元空間を観察できないので「人間が見るためのUMAP可視化」とは両立しない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "17l7w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10次元くらいなら問題ないんだけど、まあ人間は10次元空間を観察できないので「人間が見るためのUMAP可視化」とは両立しない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "10次元くらいなら問題ないんだけど、まあ人間は10次元空間を観察できないので「人間が見るためのUMAP可視化」とは両立しない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1759831601.571819",
+    "client_msg_id": "55e99ce1-4ad1-4586-bc6d-b890611bafd9",
+    "text": "BERTopicがUMAPすることの正当化に使ってる研究は、データセットが画像系だけなので次元削減の影響を受けにくかったのだと思う\n<https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study|Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/47a4ecc636b7a8303f7a26e9178fcb4e/max_size/1000",
+        "thumb_width": 946,
+        "thumb_height": 580,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study",
+        "fallback": "西尾泰和の外部脳: Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study - 西尾泰和の外部脳",
+        "text": "「UMAPで次元削減してからクラスタリングすると、精度と計算時間が大きく改善する」という研究 Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study Allaoui et al. 2020 PDF <https://link.spri>",
+        "title": "Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0VCdL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "BERTopicがUMAPすることの正当化に使ってる研究は、データセットが画像系だけなので次元削減の影響を受けにくかったのだと思う\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study",
+                "text": "Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U09DG5AEA57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "BERTopicがUMAPすることの正当化に使ってる研究は、データセットが画像系だけなので次元削減の影響を受けにくかったのだと思う\n<https://scrapbox.io/nishio/Considerably_Improving_Clustering_Algorithms_Using_UMAP_Dimensionality_Reduction_Technique:_A_Comparative_Study|Considerably Improving Clustering Algorithms Using UMAP Dimensionality Reduction Technique: A Comparative Study>"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": 3490520789,
+    "number": 714,
+    "title": "[BUG] Windows用のsetupスクリプトが文字化けする",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/714",
+    "user": "AkioPonkotu",
+    "created_at": "2025-10-07T08:37:56Z",
+    "body": "### 概要\n\nWindows用のsetupスクリプトが文字化けする\n\n### 再現手順\n\n\n\n### 期待する動作\n\n\n### スクリーンショット・ログ\n\n\n### その他\n",
+    "type": "issue"
+  },
+  {
+    "id": 3490533737,
+    "number": 715,
+    "title": "[BUG] Windows用のsetupスクリプトが文字化けする",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/715",
+    "user": "AkioPonkotu",
+    "created_at": "2025-10-07T08:42:07Z",
+    "body": "# 変更の概要\r\n- 文字化けしていたWindows用のsetupスクリプトの文字コードを設定\r\n- GeminiのAPIキーを正しくチェックできるように\r\n\r\n# 変更の背景\r\n- Slackで報告いただいた\r\n\r\n# 関連Issue\r\nhttps://github.com/digitaldemocracy2030/kouchou-ai/issues/714\r\n\r\n# 動作確認の結果\r\nスクリプトを実行し、APIキーのチェックや環境構築が文字化けせずに実行されることを確認しました。\r\n\r\n# CLAへの同意\r\n- 本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md)に同意することが必須です。\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\r\n# マージ前のチェックリスト（レビュアーがマージ前に確認してください）\r\n- [ ] CIが全て通過している\r\n- [ ] 単体テストが実装されているか\r\n- [ ] 今回実装した機能および影響を受けると思われる機能について、適切な動作確認が行われているかを確認する。\r\n\r\n\r\n動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。\r\n必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- 新機能\n  - コンソールをUTF-8に統一し、文字化けを防止。\n  - APIキーが設定されている場合のみ形式を検証し、不備がある際は続行可否を対話的に確認。\n  - エラー時の確認フローを集約し、中断または続行をユーザーが選択可能に。\n  - 検証・確認後に環境ファイル生成とコンテナ起動を実行するよう制御フローを改善。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 27,
+    "deletions": 8,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3130123124,
+    "number": 597,
+    "title": "Feature/issue 493 レポート画面のスクロールイベント回避を追加",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/597",
+    "user": "dentaro",
+    "created_at": "2025-06-09T12:11:47Z",
+    "updated_at": "2025-10-01T11:22:01Z",
+    "body": "# 変更の概要\r\nclient/components/chart.tsx\r\n図の上にオーバーレイをかけることにより、レポートページを見ようとスクロールしても図が拡大縮小されないようにした。\r\n1秒で自動解除。図内を出ると自動1秒でオーバーレイ復帰。\r\n図の描画速度を向上させた。\r\n\r\n# スクリーンショット\r\n![image](https://github.com/user-attachments/assets/5d8d4190-239c-484b-bad0-3c2e8e81be15)\r\n![image](https://github.com/user-attachments/assets/507f3cbc-2e45-4152-bf79-80e7c993bfdb)\r\n\r\n# 変更の背景\r\nScatterChartの領域でスクロールで拡大縮小できるようになった。\r\nこのことにより「レポートページを見るためにスクロールする→図が拡大/縮小される」というユーザーが意図しない動作がほぼ発生する。何らかの方法でユーザー操作を直感的にする必要がある。\r\n\r\n# 関連Issue\r\n[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される #493\r\n\r\n# 動作確認の結果\r\n「親画面が一定時間（1秒）スクロールしていないこと」を拡大縮小のトリガーにする\r\n親画面スクロール中にScatterChartにマウスオーバーしたら半透明のグレーのパネル（=操作無効）をChartに被せ、そのままスクロールで通り過ぎられるようにした\r\n図内に入るとクリックしなくてもオーバーレイが解除される\r\n意図しないスクロールによる拡大縮小を、オーバーレイのオン状態の時にキャンセルしている\r\n\r\n以下の既存のエラー、警告は維持されているので、別のissueで対応すべき\r\n・No label associated with a form field\r\n・mg タグ、video タグ、canvas タグに overflow: visible を指定すると、要素の境界外にビジュアル コンテンツが作成される場合があります。https://github.com/WICG/shared-element-transitions/blob/main/debugging_overflow_on_images.md をご覧ください。\r\n\r\n# CLAへの同意\r\n- 本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）]\r\n- [x] CLAの内容を読み、同意しました\r\n\r\n# マージ前のチェックリスト（レビュアーがマージ前に確認してください）\r\n- [] CIが全て通過している\r\n- [] 単体テストが実装されているか\r\n- [] 今回実装した機能および影響を受けると思われる機能について、適切な動作確認が行われているかを確認する。\r\n\r\n動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。\r\n必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- **ドキュメント**\n  - READMEに「Windowsからプッシュ！！」という一文を追加しました。\n\n- **リファクタ**\n  - チャートのフィルタリング処理を効率化し、メモ化によるパフォーマンス向上を行いました。\n  - チャートの描画ロジックを整理し、共通プロパティの管理を簡素化しました。\n\n- **新機能**\n  - チャート上にインタラクティブなオーバーレイを追加し、意図しない操作を防止できるようになりました。\n\n- **スタイル**\n  - フルスクリーンボタンやオーバーレイの表示位置・見た目を微調整しました。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 141,
+    "deletions": 161,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
