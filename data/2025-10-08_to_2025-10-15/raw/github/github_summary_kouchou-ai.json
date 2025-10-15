@@ -1,0 +1,53 @@
+{
+  "period": {
+    "start": "2025-10-08T12:23:30.907589+09:00",
+    "end": "2025-10-15T12:23:30.907589+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3501835084,
+      "number": 717,
+      "title": "[BUG] client でロゴなどの画像が表示されない",
+      "state": "closed"
+    },
+    {
+      "id": 3490520789,
+      "number": 714,
+      "title": "[BUG] Windows用のsetupスクリプトが文字化けする",
+      "state": "closed"
+    },
+    {
+      "id": 3185888793,
+      "number": 622,
+      "title": "[FEATURE] Azure に動作確認環境・デモ環境を作る",
+      "state": "closed"
+    },
+    {
+      "id": 3497484443,
+      "number": 716,
+      "title": "[FEATURE] レポート作成時のエラーログを web application 上から確認できない",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3502399221,
+      "number": 718,
+      "title": "fix [BUG] client でロゴなどの画像が表示されない",
+      "state": "merged"
+    },
+    {
+      "id": 3490533737,
+      "number": 715,
+      "title": "[BUG] Windows用のsetupスクリプトが文字化けする",
+      "state": "merged"
+    },
+    {
+      "id": 3511079110,
+      "number": 719,
+      "title": "E2Eテストの実装（管理画面とクライアント画面）",
+      "state": "created"
+    }
+  ]
+}

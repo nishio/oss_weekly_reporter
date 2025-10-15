@@ -1,0 +1,175 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1759901679.924869",
+    "client_msg_id": "8ea17d63-0ad8-41e0-b246-a2c3506a4cde",
+    "text": "<@U08N3V4NQRE>\n<https://opencollective.com/|open collective>を使ってみたいという件についてです。\nstripeのアカウントを作りたいのですが、\nその前に以前事務的な作業を代行いただけるCfJさんから、\n手が足りず余裕がないという話があったと思います。\nその件をどうするかボードメンバーで話すということになっていたと思いますが、\n進めていただけると助かります。\n＝＝＝＝＝＝＝＝＝＝\n• メリット\n    ◦ 経費の支払い、寄付金の受領、助成金の管理、イベントチケットの販売などができる（<https://opencollective.com/how-it-works#:~:text=%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-,%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E6%A9%9F%E8%83%BD%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84,-%E3%82%B3%E3%83%AC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E5%8F%8E%E6%94%AF|URL>）。\n• デメリット\n    ◦ お金は結局Stripe経由になり、3.6%手数料がかかる。\n• とりあえず無料なので作ってみた（<https://opencollective.com/dd2030|URL>）\n    ◦ stripeを連携しないとお金の管理はできない\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5ZvbC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://opencollective.com/",
+                "text": "open collective"
+              },
+              {
+                "type": "text",
+                "text": "を使ってみたいという件についてです。\nstripeのアカウントを作りたいのですが、\nその前に以前事務的な作業を代行いただけるCfJさんから、\n手が足りず余裕がないという話があったと思います。\nその件をどうするかボードメンバーで話すということになっていたと思いますが、\n進めていただけると助かります。\n＝＝＝＝＝＝＝＝＝＝\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "メリット"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "経費の支払い、寄付金の受領、助成金の管理、イベントチケットの販売などができる（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://opencollective.com/how-it-works#:~:text=%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-,%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E6%A9%9F%E8%83%BD%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84,-%E3%82%B3%E3%83%AC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E5%8F%8E%E6%94%AF",
+                    "text": "URL"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デメリット"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "お金は結局Stripe経由になり、3.6%手数料がかかる。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "とりあえず無料なので作ってみた（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://opencollective.com/dd2030",
+                    "text": "URL"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "stripeを連携しないとお金の管理はできない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba\n<https://opencollective.com/|open collective>を使ってみたいという件についてです。\nstripeのアカウントを作りたいのですが、\nその前に以前事務的な作業を代行いただけるCfJさんから、\n手が足りず余裕がないという話があったと思います。\nその件をどうするかボードメンバーで話すということになっていたと思いますが、\n進めていただけると助かります。\n＝＝＝＝＝＝＝＝＝＝\n• メリット\n    ◦ 経費の支払い、寄付金の受領、助成金の管理、イベントチケットの販売などができる（<https://opencollective.com/how-it-works#:~:text=%E3%81%AA%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-,%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E6%A9%9F%E8%83%BD%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84,-%E3%82%B3%E3%83%AC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E5%8F%8E%E6%94%AF|URL>）。\n• デメリット\n    ◦ お金は結局Stripe経由になり、3.6%手数料がかかる。\n• とりあえず無料なので作ってみた（<https://opencollective.com/dd2030|URL>）\n    ◦ stripeを連携しないとお金の管理はできない\n"
+  }
+]

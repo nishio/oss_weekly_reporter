@@ -1,0 +1,411 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1760004004.331909",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jORz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760143059.987919",
+    "client_msg_id": "6c643909-619b-48a6-92b0-73708e1761b3",
+    "text": "fly.io試してみた\n• 数クリックするだけでデプロイされた\n• 「デプロイされました！」と言ってくるがブラウザでアクセスすると表示できない(502 error)\n• ビルドログはあるが「成功しました！」と言ってるのでどこをみたらいいかよくわからない <https://gist.github.com/nishio/be187fab2ff7836c067d6a16e5c0fc57>\n感想としては、サクッと動いたら楽ちんなツールだけど、動かなかった時に何をしたらいいかわからないなという気持ち\n先日、人間のセットアップと、Claude Codeのセットアップの2通りを観察したんだけど、どちらもいどばた会議を使いたいだけなのにいどばた政策でのみ必要なGitHub TokenをセットアップしようとしたりPostgreSQLを入れようとしたりしてて、人間にとってもAIにとってもセットアップがちょっと難しいのだなぁという気持ちになりました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mQ3Y0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "fly.io試してみた\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "数クリックするだけでデプロイされた"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「デプロイされました！」と言ってくるがブラウザでアクセスすると表示できない(502 error)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ビルドログはあるが「成功しました！」と言ってるのでどこをみたらいいかよくわからない "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://gist.github.com/nishio/be187fab2ff7836c067d6a16e5c0fc57"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n感想としては、サクッと動いたら楽ちんなツールだけど、動かなかった時に何をしたらいいかわからないなという気持ち\n先日、人間のセットアップと、Claude Codeのセットアップの2通りを観察したんだけど、どちらもいどばた会議を使いたいだけなのにいどばた政策でのみ必要なGitHub TokenをセットアップしようとしたりPostgreSQLを入れようとしたりしてて、人間にとってもAIにとってもセットアップがちょっと難しいのだなぁという気持ちになりました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "fly.io試してみた\n• 数クリックするだけでデプロイされた\n• 「デプロイされました！」と言ってくるがブラウザでアクセスすると表示できない(502 error)\n• ビルドログはあるが「成功しました！」と言ってるのでどこをみたらいいかよくわからない <https://gist.github.com/nishio/be187fab2ff7836c067d6a16e5c0fc57>\n感想としては、サクッと動いたら楽ちんなツールだけど、動かなかった時に何をしたらいいかわからないなという気持ち\n先日、人間のセットアップと、Claude Codeのセットアップの2通りを観察したんだけど、どちらもいどばた会議を使いたいだけなのにいどばた政策でのみ必要なGitHub TokenをセットアップしようとしたりPostgreSQLを入れようとしたりしてて、人間にとってもAIにとってもセットアップがちょっと難しいのだなぁという気持ちになりました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760143259.098619",
+    "client_msg_id": "8a5c2e3c-27bd-494f-99cf-2dd8271e556f",
+    "text": "ログを見たら「デプロイできました！」と言ってるマシンの中で「npm startがない！」とエラーを出していて「全然できてないじゃん」という気持ちになりました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ekmfc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ログを見たら「デプロイできました！」と言ってるマシンの中で「npm startがない！」とエラーを出していて「全然できてないじゃん」という気持ちになりました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ログを見たら「デプロイできました！」と言ってるマシンの中で「npm startがない！」とエラーを出していて「全然できてないじゃん」という気持ちになりました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760143315.269649",
+    "client_msg_id": "9ebe45d0-78c0-4af9-bb4c-e88c6f3e81c2",
+    "text": "そういう設定を聞いてくることすらなくデプロイされたのでビルドのための設定をどこでやるのかわからない…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1pr0W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういう設定を聞いてくることすらなくデプロイされたのでビルドのための設定をどこでやるのかわからない…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そういう設定を聞いてくることすらなくデプロイされたのでビルドのための設定をどこでやるのかわからない…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760149017.787619",
+    "client_msg_id": "ac80debb-d15b-41ac-8096-926cce93cece",
+    "text": "僕がセットアップした時に遭遇したトラブルまとめ\n<https://gist.github.com/nishio/32019bd7d14c87df11c83592008e586d>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eBDb0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕がセットアップした時に遭遇したトラブルまとめ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/nishio/32019bd7d14c87df11c83592008e586d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕がセットアップした時に遭遇したトラブルまとめ\n<https://gist.github.com/nishio/32019bd7d14c87df11c83592008e586d>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760149055.882939",
+    "client_msg_id": "47395003-382e-4a3c-8809-a63130cb0145",
+    "text": "しかし <@U08H3V9KMFH> さんのケースは「管理画面に管理者としてアクセスできているが、テーマの追加ができない」なので異なる原因だろうなぁという気持ち",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8Lnhm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "しかし "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " さんのケースは「管理画面に管理者としてアクセスできているが、テーマの追加ができない」なので異なる原因だろうなぁという気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "しかし @truego さんのケースは「管理画面に管理者としてアクセスできているが、テーマの追加ができない」なので異なる原因だろうなぁという気持ち"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1760149264.555079",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1760149298.000000"
+    },
+    "client_msg_id": "15d2f741-b632-41b3-ac96-8b49db4fc658",
+    "text": "僕の場合は、<https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C|ここ>までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+        "ts": "1759543042.811529",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FF5MM59C",
+            "ts": "1759543042.811529",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "bv7Qf",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "あ、この辺がいるんですね\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://github.com/digitaldemocracy2030/idobata/tree/main/admin"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+        "fallback": "[October 3rd, 2025 6:57 PM] truego: あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+        "text": "あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0W4Nt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕の場合は、"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C",
+                "text": "ここ"
+              },
+              {
+                "type": "text",
+                "text": "までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "僕の場合は、<https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C|ここ>までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。"
+  }
+]

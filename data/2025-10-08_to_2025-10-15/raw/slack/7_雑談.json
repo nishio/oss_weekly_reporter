@@ -1,0 +1,1019 @@
+[
+  {
+    "user": "U08ST3B84AZ",
+    "type": "message",
+    "ts": "1760020334.260429",
+    "client_msg_id": "3db6385c-4936-43a0-9224-7bae1df282d1",
+    "text": "外部脳を作り始めました。\n<https://scrapbox.io/punioyadi/>\nローカルでObsidianでメモを取ったりしているのですが、いまいち使いこなせてない感じもする…。LLMと組ませてアイデア出す方法しらべてみようかな。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/punioyadi/",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/punioyadi/",
+        "fallback": "punioyadi",
+        "text": "インターネット上での議論について / 議論の難しさ / READ ME / punioについて / Cosenseの使い方",
+        "title": "punioyadi",
+        "title_link": "https://scrapbox.io/punioyadi/",
+        "service_name": "scrapbox.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l92oE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "外部脳を作り始めました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/punioyadi/"
+              },
+              {
+                "type": "text",
+                "text": "\nローカルでObsidianでメモを取ったりしているのですが、いまいち使いこなせてない感じもする…。LLMと組ませてアイデア出す方法しらべてみようかな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iine_",
+        "users": [
+          "U08G2A216TW",
+          "U08HWJ80CHG",
+          "U08HN9UDJUB"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "ぷにポン",
+    "text_readable": "外部脳を作り始めました。\n<https://scrapbox.io/punioyadi/>\nローカルでObsidianでメモを取ったりしているのですが、いまいち使いこなせてない感じもする…。LLMと組ませてアイデア出す方法しらべてみようかな。"
+  },
+  {
+    "user": "U08FZDRRY8Z",
+    "type": "message",
+    "ts": "1760237260.580599",
+    "client_msg_id": "dc65103e-7ae2-4a40-8c67-366431bb670b",
+    "text": "長らくご無沙汰しております。DD2030の創設メンバー（現在はボードメンバーから外れています）であり、チームみらい党首の安野貴博です。参院選の後、すこし落ち着いてきたので遅れ馳せながら改めてご挨拶＆ご報告させていただければと思います。\n\n*DD2030で作られたものに関する参院選活動の報告*\nユーザーとして、DD2030が開発したいくつかのプロダクトについて参院選でもたいへんに活用させていただきました。こちら良かったところ、もっと良くなるといいところそれぞれありますので、ご報告させてください。\n\n• 広聴AI\n    ◦ Xのスクレイピングデータなど、様々なテキストデータを入れて可視化する試みに活用しました\n    ◦ ホスティングしやすい、GUI上で動かせるなどソフトウェアとして使いやすいものにはなってきた感触があります\n    ◦ 一方で、アクションに紐づくインサイトを得られたかというとまだ発展途上という印象でした\n        ▪︎ 特にクラスタリングの構造化について、読み込んでいくとまだまだ違うなあと思う所が多いので、そこのアルゴリズムの発展を期待します\n        ▪︎ 人間の構造化とクラスタリングによる構造化の差分を埋められないか\n• いどばたビジョン\n    ◦ 若干デザインなど手を加えた上で各地の勉強会などで日々活用しています\n        ▪︎ 群馬の例：<https://kaigi.team-mir.ai/themes/68e096ec6740922b2d2b5131>\n        ▪︎ 栃木の例：<https://kaigi.team-mir.ai/themes/68d8d1d36740922b2d25b747>\n    ◦ 短時間で多くの情報を集約できるという観点で有用だと思っています\n        ▪︎ 参加者にとっても一定満足度が高いです\n        ▪︎ やや詰まるものの、一般的なスマホユーザーでも使いこなせています\n    ◦ 「リアル会場でのタウンミーティング」ｘ「熟議前の捌き」としてのユースケースはハマっていると思います\n        ▪︎ 「60分MTGをやる」のではなく「10分いどばたビジョンをしてから50分MTGをやった方がタウンミーティング等では良い議論になる」というような可能性はありそう\n        ▪︎ 知見を抽出し政策立案等に活用するところまではまだつなぎこめていませんが、これはプロダクトというよりも組織やワークフロー側の成熟度の問題な気がします\n    ◦ どのように情報を抽出するか？（AI対話の進化）とそれをどう提示するか？、どういうUIでそれを行うか？　についてはそれぞれ大幅に改善の余地がありそうです\n• いどばた政策\n    ◦ マニフェストをホスティングして活用しました\n        ▪︎ <https://policy.team-mir.ai/view/README.md>\n        ▪︎ <https://github.com/team-mirai/policy>\n    ◦ 2ヶ月で1万件弱のPRを頂きました、うち200件程度はPRをmergeしました\n    ◦ 参加者から様々な視点をいただけたのは実際の政策立案に対してもプラスになり、満足度も高いです\n    ◦ 一方で、使っている中での課題はまだまだありそうだなと思いました\n        ▪︎ １）PRの精度：\n            • 会話内容から最適なPRを出せていない\n            • 類似のPRが大量に出てしまう\n        ▪︎ ２）会話の精度：\n            • ページをまたげない\n        ▪︎ ３）画面\n            • 検索機能が欲しい\n        ▪︎ ４）フォローアップできない\n*DD2030と今後のチームみらいエンジニアチームのコラボレーションについて*\n• 『みらい まる見え政治資金』についてご報告\n    ◦ 最近、政治資金の可視化ツールをリリースしました\n        ▪︎ <https://marumie.team-mir.ai/>\n    ◦ こちらはフルスクラッチで開発しています\n        ▪︎ <https://github.com/team-mirai-volunteer/marumie>\n    ◦ Polimoneyが「政治資金収支報告書提出後」のプロダクトである一方で、こちらは「政治資金収支報告書提出前」の政治団体の業務DXを行うためのプロダクトになります\n    ◦ 具体的にはクラウド会計ツールと連動しながら期中においても政治資金を可視化し、最終的にはワンクリックで政治資金収支報告書をExportできるようにすることを目指します\n    ◦ そういった意味で、同じ「政治資金」領域のプロダクトであるものの、お互いに補完関係にあると認識しています\n    ◦ こちらにも記載頂いている通り、類似性があるので学びをシェアできる部分はあると思っております。もちろん使っていただける部分については使っていただいて構いません\n        ▪︎ <https://dd2030.slack.com/archives/C08FL5L6GSH/p1759385496904729>\n    ◦ 今後ともお互い学びをシェアしあえると良いと思っております\n• その他のコラボレーションについて\n    ◦ チームみらいとしては、今後とも引き続きDD2030のOSSの活用を行い、今後とも学びを得たいと思っております\n    ◦ また、チームみらいのエンジニアコミュニティも継続的に成長し続けており、我々で開発したものについてもOSSとして公開をして参ります。こういった活動を通じて、DD2030の皆様にも学びをお返しできる部分があるかと思っています\n    ◦ チームみらいも現在組織を構築中ですので、まだまだ十分な体制はとれていませんが、今後体制が整ってきたらコラボレーションを模索できると嬉しいと考えております\nデジタル民主主義の実現に向けて、引き続き力をあわせて進められますと幸いです。足元は結構ばたついておるのですが、どこかのタイミングでメンバー含めMTG等できると良いと思っております。引き続き、何卒よろしくお願い申し上げます。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://policy.team-mir.ai/view/README.md",
+        "image_url": "https://tibsocpjqvxxipszbwui.supabase.co/storage/v1/object/public/assets/idobata-policy-ogp.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 905274,
+        "service_icon": "https://team-mir.ai/favicon/favicon.ico",
+        "id": 1,
+        "original_url": "https://policy.team-mir.ai/view/README.md",
+        "fallback": "チームみらい マニフェストver.1.0",
+        "text": "チームみらいの掲げるマニフェストをご覧いただけます。「しゃべれるマニフェスト」として、チャットで政策について質問したり、AIとともにまとめた改善提案を送ることができます。",
+        "title": "チームみらい マニフェストver.1.0",
+        "title_link": "https://policy.team-mir.ai/view/README.md",
+        "service_name": "policy.team-mir.ai"
+      },
+      {
+        "from_url": "https://marumie.team-mir.ai/",
+        "image_url": "https://marumie.team-mir.ai/social/og_image.png",
+        "image_width": 4800,
+        "image_height": 2520,
+        "image_bytes": 4833461,
+        "service_icon": "https://marumie.team-mir.ai/favicon.ico",
+        "id": 2,
+        "original_url": "https://marumie.team-mir.ai/",
+        "fallback": "みらい まる見え政治資金 - チームみらいの政治資金をオープンに",
+        "text": "チームみらいの政治資金の流れを透明性を持って公開するプラットフォームです。",
+        "title": "みらい まる見え政治資金 - チームみらいの政治資金をオープンに",
+        "title_link": "https://marumie.team-mir.ai/",
+        "service_name": "marumie.team-mir.ai"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5zW5J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "長らくご無沙汰しております。DD2030の創設メンバー（現在はボードメンバーから外れています）であり、チームみらい党首の安野貴博です。参院選の後、すこし落ち着いてきたので遅れ馳せながら改めてご挨拶＆ご報告させていただければと思います。\n\n"
+              },
+              {
+                "type": "text",
+                "text": "DD2030で作られたものに関する参院選活動の報告",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nユーザーとして、DD2030が開発したいくつかのプロダクトについて参院選でもたいへんに活用させていただきました。こちら良かったところ、もっと良くなるといいところそれぞれありますので、ご報告させてください。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AI"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Xのスクレイピングデータなど、様々なテキストデータを入れて可視化する試みに活用しました"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ホスティングしやすい、GUI上で動かせるなどソフトウェアとして使いやすいものにはなってきた感触があります"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一方で、アクションに紐づくインサイトを得られたかというとまだ発展途上という印象でした"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "特にクラスタリングの構造化について、読み込んでいくとまだまだ違うなあと思う所が多いので、そこのアルゴリズムの発展を期待します"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "人間の構造化とクラスタリングによる構造化の差分を埋められないか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばたビジョン"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "若干デザインなど手を加えた上で各地の勉強会などで日々活用しています"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "群馬の例："
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://kaigi.team-mir.ai/themes/68e096ec6740922b2d2b5131"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "栃木の例："
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://kaigi.team-mir.ai/themes/68d8d1d36740922b2d25b747"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "短時間で多くの情報を集約できるという観点で有用だと思っています"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "参加者にとっても一定満足度が高いです"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "やや詰まるものの、一般的なスマホユーザーでも使いこなせています"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「リアル会場でのタウンミーティング」ｘ「熟議前の捌き」としてのユースケースはハマっていると思います"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「60分MTGをやる」のではなく「10分いどばたビジョンをしてから50分MTGをやった方がタウンミーティング等では良い議論になる」というような可能性はありそう"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "知見を抽出し政策立案等に活用するところまではまだつなぎこめていませんが、これはプロダクトというよりも組織やワークフロー側の成熟度の問題な気がします"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "どのように情報を抽出するか？（AI対話の進化）とそれをどう提示するか？、どういうUIでそれを行うか？　についてはそれぞれ大幅に改善の余地がありそうです"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "マニフェストをホスティングして活用しました"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://policy.team-mir.ai/view/README.md"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/team-mirai/policy"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "2ヶ月で1万件弱のPRを頂きました、うち200件程度はPRをmergeしました"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "参加者から様々な視点をいただけたのは実際の政策立案に対してもプラスになり、満足度も高いです"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一方で、使っている中での課題はまだまだありそうだなと思いました"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "１）PRの精度："
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "会話内容から最適なPRを出せていない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "類似のPRが大量に出てしまう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "２）会話の精度："
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ページをまたげない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "３）画面"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "検索機能が欲しい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "４）フォローアップできない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "DD2030と今後のチームみらいエンジニアチームのコラボレーションについて",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "『みらい まる見え政治資金』についてご報告"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "最近、政治資金の可視化ツールをリリースしました"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://marumie.team-mir.ai/"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "こちらはフルスクラッチで開発しています"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/team-mirai-volunteer/marumie"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Polimoneyが「政治資金収支報告書提出後」のプロダクトである一方で、こちらは「政治資金収支報告書提出前」の政治団体の業務DXを行うためのプロダクトになります"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "具体的にはクラウド会計ツールと連動しながら期中においても政治資金を可視化し、最終的にはワンクリックで政治資金収支報告書をExportできるようにすることを目指します"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "そういった意味で、同じ「政治資金」領域のプロダクトであるものの、お互いに補完関係にあると認識しています"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "こちらにも記載頂いている通り、類似性があるので学びをシェアできる部分はあると思っております。もちろん使っていただける部分については使っていただいて構いません"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1759385496904729"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今後ともお互い学びをシェアしあえると良いと思っております"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その他のコラボレーションについて"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "チームみらいとしては、今後とも引き続きDD2030のOSSの活用を行い、今後とも学びを得たいと思っております"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "また、チームみらいのエンジニアコミュニティも継続的に成長し続けており、我々で開発したものについてもOSSとして公開をして参ります。こういった活動を通じて、DD2030の皆様にも学びをお返しできる部分があるかと思っています"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "チームみらいも現在組織を構築中ですので、まだまだ十分な体制はとれていませんが、今後体制が整ってきたらコラボレーションを模索できると嬉しいと考えております"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nデジタル民主主義の実現に向けて、引き続き力をあわせて進められますと幸いです。足元は結構ばたついておるのですが、どこかのタイミングでメンバー含めMTG等できると良いと思っております。引き続き、何卒よろしくお願い申し上げます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GJSBAX3K",
+          "U08NZH1RY4S",
+          "U08HWJ80CHG",
+          "U08ST3B84AZ",
+          "U08HN9UDJUB",
+          "U08H3V9KMFH",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 7
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08GJSBAX3K",
+          "U08HWJ80CHG",
+          "U08ST3B84AZ",
+          "U08HN9UDJUB",
+          "U08Q6PK966P",
+          "U08JASQKEEM"
+        ],
+        "count": 6
+      },
+      {
+        "name": "raised_hands::skin-tone-2",
+        "users": [
+          "U08HTMJPH6K"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "安野貴博",
+    "text_readable": "長らくご無沙汰しております。DD2030の創設メンバー（現在はボードメンバーから外れています）であり、チームみらい党首の安野貴博です。参院選の後、すこし落ち着いてきたので遅れ馳せながら改めてご挨拶＆ご報告させていただければと思います。\n\n*DD2030で作られたものに関する参院選活動の報告*\nユーザーとして、DD2030が開発したいくつかのプロダクトについて参院選でもたいへんに活用させていただきました。こちら良かったところ、もっと良くなるといいところそれぞれありますので、ご報告させてください。\n\n• 広聴AI\n    ◦ Xのスクレイピングデータなど、様々なテキストデータを入れて可視化する試みに活用しました\n    ◦ ホスティングしやすい、GUI上で動かせるなどソフトウェアとして使いやすいものにはなってきた感触があります\n    ◦ 一方で、アクションに紐づくインサイトを得られたかというとまだ発展途上という印象でした\n        ▪︎ 特にクラスタリングの構造化について、読み込んでいくとまだまだ違うなあと思う所が多いので、そこのアルゴリズムの発展を期待します\n        ▪︎ 人間の構造化とクラスタリングによる構造化の差分を埋められないか\n• いどばたビジョン\n    ◦ 若干デザインなど手を加えた上で各地の勉強会などで日々活用しています\n        ▪︎ 群馬の例：<https://kaigi.team-mir.ai/themes/68e096ec6740922b2d2b5131>\n        ▪︎ 栃木の例：<https://kaigi.team-mir.ai/themes/68d8d1d36740922b2d25b747>\n    ◦ 短時間で多くの情報を集約できるという観点で有用だと思っています\n        ▪︎ 参加者にとっても一定満足度が高いです\n        ▪︎ やや詰まるものの、一般的なスマホユーザーでも使いこなせています\n    ◦ 「リアル会場でのタウンミーティング」ｘ「熟議前の捌き」としてのユースケースはハマっていると思います\n        ▪︎ 「60分MTGをやる」のではなく「10分いどばたビジョンをしてから50分MTGをやった方がタウンミーティング等では良い議論になる」というような可能性はありそう\n        ▪︎ 知見を抽出し政策立案等に活用するところまではまだつなぎこめていませんが、これはプロダクトというよりも組織やワークフロー側の成熟度の問題な気がします\n    ◦ どのように情報を抽出するか？（AI対話の進化）とそれをどう提示するか？、どういうUIでそれを行うか？　についてはそれぞれ大幅に改善の余地がありそうです\n• いどばた政策\n    ◦ マニフェストをホスティングして活用しました\n        ▪︎ <https://policy.team-mir.ai/view/README.md>\n        ▪︎ <https://github.com/team-mirai/policy>\n    ◦ 2ヶ月で1万件弱のPRを頂きました、うち200件程度はPRをmergeしました\n    ◦ 参加者から様々な視点をいただけたのは実際の政策立案に対してもプラスになり、満足度も高いです\n    ◦ 一方で、使っている中での課題はまだまだありそうだなと思いました\n        ▪︎ １）PRの精度：\n            • 会話内容から最適なPRを出せていない\n            • 類似のPRが大量に出てしまう\n        ▪︎ ２）会話の精度：\n            • ページをまたげない\n        ▪︎ ３）画面\n            • 検索機能が欲しい\n        ▪︎ ４）フォローアップできない\n*DD2030と今後のチームみらいエンジニアチームのコラボレーションについて*\n• 『みらい まる見え政治資金』についてご報告\n    ◦ 最近、政治資金の可視化ツールをリリースしました\n        ▪︎ <https://marumie.team-mir.ai/>\n    ◦ こちらはフルスクラッチで開発しています\n        ▪︎ <https://github.com/team-mirai-volunteer/marumie>\n    ◦ Polimoneyが「政治資金収支報告書提出後」のプロダクトである一方で、こちらは「政治資金収支報告書提出前」の政治団体の業務DXを行うためのプロダクトになります\n    ◦ 具体的にはクラウド会計ツールと連動しながら期中においても政治資金を可視化し、最終的にはワンクリックで政治資金収支報告書をExportできるようにすることを目指します\n    ◦ そういった意味で、同じ「政治資金」領域のプロダクトであるものの、お互いに補完関係にあると認識しています\n    ◦ こちらにも記載頂いている通り、類似性があるので学びをシェアできる部分はあると思っております。もちろん使っていただける部分については使っていただいて構いません\n        ▪︎ <https://dd2030.slack.com/archives/C08FL5L6GSH/p1759385496904729>\n    ◦ 今後ともお互い学びをシェアしあえると良いと思っております\n• その他のコラボレーションについて\n    ◦ チームみらいとしては、今後とも引き続きDD2030のOSSの活用を行い、今後とも学びを得たいと思っております\n    ◦ また、チームみらいのエンジニアコミュニティも継続的に成長し続けており、我々で開発したものについてもOSSとして公開をして参ります。こういった活動を通じて、DD2030の皆様にも学びをお返しできる部分があるかと思っています\n    ◦ チームみらいも現在組織を構築中ですので、まだまだ十分な体制はとれていませんが、今後体制が整ってきたらコラボレーションを模索できると嬉しいと考えております\nデジタル民主主義の実現に向けて、引き続き力をあわせて進められますと幸いです。足元は結構ばたついておるのですが、どこかのタイミングでメンバー含めMTG等できると良いと思っております。引き続き、何卒よろしくお願い申し上げます。"
+  },
+  {
+    "user": "U08ST3B84AZ",
+    "type": "message",
+    "ts": "1760258696.597289",
+    "client_msg_id": "782c343c-ec48-42dd-911f-012bda8f8d1b",
+    "text": "広聴ai読書会、参加者募集中です！\n興味ある方は<https://amzn.asia/d/ex1Dv2p|Plurality本>第1章、第2章の感想をシートに記載して共有いただけると嬉しいです！\n\n▽詳しくは<#C08UYDUBMG8|> チャンネルにて\n<https://dd2030.slack.com/archives/C08UYDUBMG8/p1749694812244779>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08UYDUBMG8/p1749694812244779",
+        "ts": "1749694812.244779",
+        "author_id": "U08J6BDT2P2",
+        "channel_id": "C08UYDUBMG8",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08UYDUBMG8",
+            "ts": "1749694812.244779",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "WBlJw",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "broadcast",
+                          "range": "channel"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "【広聴AI読書会vol.1 やります！】",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nPlurality本の"
+                        },
+                        {
+                          "type": "text",
+                          "text": "第1章、第2章",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "を読んで、スプレッドシートに、印象に残った文章や感想や意見を１チャンク（意味のかたまり）ごとにメモしてください！\n（第1章は序章だったので、今回は第2章まで読みましょ！）\nメモのルールはスプレッドシートに詳しく書いています。\nスプレッドシートは「読書メモテンプレート」に入っています。必ずコピーして使ってください。\n\n締切は今月末（6/30）までとします。\n質問があれば気軽に聞いてください！\n\n現在参加者5人ですが、データ多い方が分析しがいがあるので、もう少し参加者増えたら嬉しいです！お待ちしております！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 2,
+        "original_url": "https://dd2030.slack.com/archives/C08UYDUBMG8/p1749694812244779",
+        "fallback": "[June 11th, 2025 7:20 PM] hiro1125nerine: <!channel>\n*【広聴AI読書会vol.1 やります！】*\nPlurality本の*第1章、第2章*を読んで、スプレッドシートに、印象に残った文章や感想や意見を１チャンク（意味のかたまり）ごとにメモしてください！\n（第1章は序章だったので、今回は第2章まで読みましょ！）\nメモのルールはスプレッドシートに詳しく書いています。\nスプレッドシートは「読書メモテンプレート」に入っています。必ずコピーして使ってください。\n\n締切は今月末（6/30）までとします。\n質問があれば気軽に聞いてください！\n\n現在参加者5人ですが、データ多い方が分析しがいがあるので、もう少し参加者増えたら嬉しいです！お待ちしております！",
+        "text": "<!channel>\n*【広聴AI読書会vol.1 やります！】*\nPlurality本の*第1章、第2章*を読んで、スプレッドシートに、印象に残った文章や感想や意見を１チャンク（意味のかたまり）ごとにメモしてください！\n（第1章は序章だったので、今回は第2章まで読みましょ！）\nメモのルールはスプレッドシートに詳しく書いています。\nスプレッドシートは「読書メモテンプレート」に入っています。必ずコピーして使ってください。\n\n締切は今月末（6/30）までとします。\n質問があれば気軽に聞いてください！\n\n現在参加者5人ですが、データ多い方が分析しがいがあるので、もう少し参加者増えたら嬉しいです！お待ちしております！",
+        "author_name": "Hiromi",
+        "author_link": "https://dd2030.slack.com/team/U08J6BDT2P2",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8618388228352_4bb3188c9aa2cb89ff7f_48.jpg",
+        "author_subname": "Hiromi",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WnwTK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴ai読書会、参加者募集中です！\n興味ある方は"
+              },
+              {
+                "type": "link",
+                "url": "https://amzn.asia/d/ex1Dv2p",
+                "text": "Plurality本"
+              },
+              {
+                "type": "text",
+                "text": "第1章、第2章の感想をシートに記載して共有いただけると嬉しいです！\n\n▽詳しくは"
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08UYDUBMG8"
+              },
+              {
+                "type": "text",
+                "text": " チャンネルにて\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08UYDUBMG8/p1749694812244779"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08GJSBAX3K",
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08HP67R9PE"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "ぷにポン",
+    "text_readable": "広聴ai読書会、参加者募集中です！\n興味ある方は<https://amzn.asia/d/ex1Dv2p|Plurality本>第1章、第2章の感想をシートに記載して共有いただけると嬉しいです！\n\n▽詳しくは<#C08UYDUBMG8|> チャンネルにて\n<https://dd2030.slack.com/archives/C08UYDUBMG8/p1749694812244779>"
+  }
+]
