@@ -1,0 +1,418 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1760608820.222579",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DWFNG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760612760.334579",
+    "client_msg_id": "f877be50-e8e2-4c34-8803-cde4921c2682",
+    "text": "<@U08GJSBAX3K> ↑これますか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NtVJP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " ↑これますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08GJSBAX3K"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@shutaro.aoyama ↑これますか？"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F09M912H0MP",
+        "created": 1760617739,
+        "timestamp": 1760617739,
+        "name": "idobata_carto2.pdf",
+        "title": "idobata_carto2.pdf",
+        "mimetype": "application/pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 3407151,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09M912H0MP/idobata_carto2.pdf",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09M912H0MP/download/idobata_carto2.pdf",
+        "media_display_type": "unknown",
+        "thumb_pdf": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M912H0MP-c90603b632/idobata_carto2_thumb_pdf.png",
+        "thumb_pdf_w": 2228,
+        "thumb_pdf_h": 20584,
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09M912H0MP/idobata_carto2.pdf",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09M912H0MP-b0d9e9e8ed",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1760617747.341039",
+    "client_msg_id": "a531ff3c-56bc-4ea2-9c2d-a98cd7c7a109",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760617873.992009",
+    "client_msg_id": "f3db9a32-e63e-4f8a-bb78-5ecbe5d6b87e",
+    "text": "幅のあるものに対して「点推定」しようとしてしまっている、という問題点の指摘は良い言語化だと思った\n優先順位をつけることが政治の本質かどうかは(すくなくとも「政治」が指すものに幅があるので)さておき\n10人程度の目的指向チームのマネジメントにおいて、トレードオフの関係にあるものに優先順位をつけることは、かなり本質的な課題だと思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uHGdY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "幅のあるものに対して「点推定」しようとしてしまっている、という問題点の指摘は良い言語化だと思った\n優先順位をつけることが政治の本質かどうかは(すくなくとも「政治」が指すものに幅があるので)さておき\n10人程度の目的指向チームのマネジメントにおいて、トレードオフの関係にあるものに優先順位をつけることは、かなり本質的な課題だと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "幅のあるものに対して「点推定」しようとしてしまっている、という問題点の指摘は良い言語化だと思った\n優先順位をつけることが政治の本質かどうかは(すくなくとも「政治」が指すものに幅があるので)さておき\n10人程度の目的指向チームのマネジメントにおいて、トレードオフの関係にあるものに優先順位をつけることは、かなり本質的な課題だと思う"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760625935.615109",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1760626844.000000"
+    },
+    "client_msg_id": "88a88bca-961d-4d7a-b3bd-425b4a36ab07",
+    "text": "非公開で書いてた~新いどばた？いどばたv3？~Cartographyの感想を公開できる形にしました\n<https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3|Cartography初見の感想>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1760625935.615109",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1760676596.562929",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3",
+        "fallback": "西尾泰和の外部脳: Cartography初見の感想 - 西尾泰和の外部脳",
+        "text": "4人の議論でこれができるのは「チーム」単位での導入にとてもよいな いまの井戸端は流石に4人では匿名性がないよなということで30人+くらいを想定しているが、チーム単位でできるならもっと気軽に試せる 最初にざっくりした15問に答えてからphase2、phase3で掘り下げられるのが良かった、どんどん具体的な質問になっていった レポートを見る前に感じていたことのメモ yes/noだけでなく自由記述で補",
+        "title": "Cartography初見の感想 - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Rc9V2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "非公開で書いてた"
+              },
+              {
+                "type": "text",
+                "text": "新いどばた？いどばたv3？",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "Cartographyの感想を公開できる形にしました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3",
+                "text": "Cartography初見の感想"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "非公開で書いてた~新いどばた？いどばたv3？~Cartographyの感想を公開できる形にしました\n<https://scrapbox.io/nishio/Cartography%E5%88%9D%E8%A6%8B%E3%81%AE%E6%84%9F%E6%83%B3|Cartography初見の感想>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1760676596.562929",
+    "client_msg_id": "29f5989b-38f1-4756-bce4-febf6948e27a",
+    "text": "Cartography ってなんですか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1760625935.615109",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Swvbx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cartography ってなんですか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1760625935.615109",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "Cartography ってなんですか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760626761.010899",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1760626867.000000"
+    },
+    "client_msg_id": "d0c54825-fe34-4254-8bf8-73d3e24258bc",
+    "text": "いどばたビジョンとメリットデメリットあるよねという話になってたからv3とは呼ばないほうがいいか、並列のものと見えるネーミングの方がいいな、一旦コードネームのCartographyでよんどこう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PVSEc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたビジョンとメリットデメリットあるよねという話になってたからv3とは呼ばないほうがいいか、並列のものと見えるネーミングの方がいいな、一旦コードネームのCartographyでよんどこう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたビジョンとメリットデメリットあるよねという話になってたからv3とは呼ばないほうがいいか、並列のものと見えるネーミングの方がいいな、一旦コードネームのCartographyでよんどこう"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1760953720.368769",
+    "client_msg_id": "57659774-ff5f-476f-b8e4-a25fbb825703",
+    "text": "Cartography ってなんですか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HTOP4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cartography ってなんですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "Cartography ってなんですか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1761102879.201259",
+    "client_msg_id": "9AC7EE43-DF54-4864-B783-6B9CCA37498C",
+    "text": "いどばたビジョンと公聴AIの両方の後継が Cartography?",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9Pdha",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたビジョンと公聴AIの両方の後継が Cartography"
+              },
+              {
+                "type": "text",
+                "text": "?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いどばたビジョンと公聴AIの両方の後継が Cartography?"
+  }
+]

@@ -1,0 +1,2480 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760941524.930509",
+    "client_msg_id": "bff66ae7-5a18-4e34-bc28-1b98367880ca",
+    "text": "広聴AIの出力する中間ファイルembedding.pklが2次元化済みだというのは勘違いでカラムに‘arg-id’, ‘embedding’の2つが入ってるのを2次元と勘違いしただけでembeddingの中には1536次元入っていた\n\n*### embeddings.pkl*\n- ***形式***: DataFrame (21348 x 2)\n- ***カラム***: `[‘arg-id’, ‘embedding’]`\n- ***Embedding次元***: 1536次元",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Wylao",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIの出力する中間ファイルembedding.pklが2次元化済みだというのは勘違いでカラムに‘arg-id’, ‘embedding’の2つが入ってるのを2次元と勘違いしただけでembeddingの中には1536次元入っていた\n\n"
+              },
+              {
+                "type": "text",
+                "text": "### embeddings.pkl",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n- "
+              },
+              {
+                "type": "text",
+                "text": "**形式**",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ": DataFrame (21348 x 2)\n- "
+              },
+              {
+                "type": "text",
+                "text": "**カラム**",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ": `[‘arg-id’, ‘embedding’]`\n- "
+              },
+              {
+                "type": "text",
+                "text": "**Embedding次元**",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ": 1536次元"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "広聴AIの出力する中間ファイルembedding.pklが2次元化済みだというのは勘違いでカラムに‘arg-id’, ‘embedding’の2つが入ってるのを2次元と勘違いしただけでembeddingの中には1536次元入っていた\n\n*### embeddings.pkl*\n- ***形式***: DataFrame (21348 x 2)\n- ***カラム***: `[‘arg-id’, ‘embedding’]`\n- ***Embedding次元***: 1536次元"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F09MCBN17N2",
+        "created": 1760941557,
+        "timestamp": 1760941557,
+        "name": "kmeans20_umap_convexhull.png",
+        "title": "kmeans20_umap_convexhull.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 2490338,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09MCBN17N2/kmeans20_umap_convexhull.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09MCBN17N2/download/kmeans20_umap_convexhull.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 287,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 382,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 574,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 637,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 765,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MCBN17N2-1eeca633d9/kmeans20_umap_convexhull_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 816,
+        "original_w": 2997,
+        "original_h": 2388,
+        "thumb_tiny": "AwAnADDR2ZOSTn2JFHlr6t/30adzSEnPtQAzyI8scHLdTuPNItvEn3FK/QkU4HJIHB7jOaUkg98elAB5a+rf99GkP7teD3H3iT3pwORxSkZ60AIBtAA6Ad+aaUB4bnnPAp9Ic4OODQAmc8c8/pSK3THeg/d7qKap3Bsg7aAH5wTx+VOppHygA47CnDpQAUHpxRRQA12VdoY43HA+tLtH0qG56wf9dR/I1PQAYGc45ooooA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09MCBN17N2/kmeans20_umap_convexhull.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09MCBN17N2-5703f30760",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1760941568.533929",
+    "client_msg_id": "980c2f24-fa24-4cc0-b7e9-0a4aaa607c16",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760941601.285839",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1760941765.000000"
+    },
+    "client_msg_id": "a46ea039-3e93-41c6-a557-f609fb633446",
+    "text": "高次元空間上でクラスタリングしてからUMAPで2次元にしたらどうなるかの実験\n• 1536次元空間でK=20でk-means\n• UMAPで2次元にする\n• クラスタがわかりやすいように凸包つき",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PwPPG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "高次元空間上でクラスタリングしてからUMAPで2次元にしたらどうなるかの実験\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "1536次元空間でK=20でk-means"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "UMAPで2次元にする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "クラスタがわかりやすいように凸包つき"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "高次元空間上でクラスタリングしてからUMAPで2次元にしたらどうなるかの実験\n• 1536次元空間でK=20でk-means\n• UMAPで2次元にする\n• クラスタがわかりやすいように凸包つき"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760941612.817259",
+    "client_msg_id": "67cbde52-b953-4422-be0f-e49b68e69c2f",
+    "text": "想像以上にダメだった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7YxZK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "想像以上にダメだった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "想像以上にダメだった"
+  },
+  {
+    "text": "ちなみに「もっと細かく割ればいいのでは」という意見が予想されるので、K=400のバージョン(実はこれを先にやった)",
+    "files": [
+      {
+        "id": "F09MTAZPN0Z",
+        "created": 1760941660,
+        "timestamp": 1760941660,
+        "name": "kmeans400_umap_convexhull.png",
+        "title": "kmeans400_umap_convexhull.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 2094368,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09MTAZPN0Z/kmeans400_umap_convexhull.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09MTAZPN0Z/download/kmeans400_umap_convexhull.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 269,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 358,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 538,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 597,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 717,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MTAZPN0Z-6347978c26/kmeans400_umap_convexhull_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 765,
+        "original_w": 2382,
+        "original_h": 1779,
+        "thumb_tiny": "AwAkADDToopCcUACqqrtUBQOw4pBHGvRFGPQf59TTPMBJyMd6USeo+pp2YDxgDAwAOgFLTVYnrx7U6kA1V2oqjooAoYDqfSnUUAROPXApFCngDHpUjIGBFM2EHgDBqrgC55HIANSKcjmkCADA6UoGKTYC0UUUgGTOY4ZHGMqpIz9KSCQyRhmxkgHj6A0l1/x6zf7jfypLT/UL9F/9BFAE1FFFAH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09MTAZPN0Z/kmeans400_umap_convexhull.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09MTAZPN0Z-0580d494d0",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TE5sP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに「もっと細かく割ればいいのでは」という意見が予想されるので、K=400のバージョン(実はこれを先にやった)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1760941705.007859",
+    "client_msg_id": "421f6aab-a621-418b-80db-ebb39888dba6",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ちなみに「もっと細かく割ればいいのでは」という意見が予想されるので、K=400のバージョン(実はこれを先にやった)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760941819.720479",
+    "client_msg_id": "a429ab5e-269c-4c38-82a6-3a5ffde80ef6",
+    "text": "バグってるのではないかとK=20にして色で識別できるようにした結果として、バグでこうなるのは難しいのではという気持ちになった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1Knnk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "バグってるのではないかとK=20にして色で識別できるようにした結果として、バグでこうなるのは難しいのではという気持ちになった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "バグってるのではないかとK=20にして色で識別できるようにした結果として、バグでこうなるのは難しいのではという気持ちになった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760944068.634289",
+    "client_msg_id": "aa054983-177d-460c-89d4-620de6cd9e69",
+    "text": "うーむ、分離できるのは想像通りだったが、この分離の仕方だとあんまり面白くない\n<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|クラスタ解説の埋め込みベクトルをconcatしてUMAP>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/a2092bb3b3c3d51cd12fc22c4af265f6/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 795,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "fallback": "西尾泰和の外部脳: クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "text": "広聴AI <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0#heading=h.xqz9vh6im1kw> 先週のクラスタリング精度アップの議論に関して まず精度の尺度を作らないと議論にならない 過去の実験レポートを発掘した <https://github.com/n>",
+        "title": "クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tCK9Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うーむ、分離できるのは想像通りだったが、この分離の仕方だとあんまり面白くない\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+                "text": "クラスタ解説の埋め込みベクトルをconcatしてUMAP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "うーむ、分離できるのは想像通りだったが、この分離の仕方だとあんまり面白くない\n<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|クラスタ解説の埋め込みベクトルをconcatしてUMAP>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760944676.585079",
+    "client_msg_id": "573968e1-2163-4814-b610-4feb306a71a0",
+    "text": "しかしここ半年の間のAIの進歩のおかげで3行くらいで「こういう実験をしろ」と言ったらAIが実験コードを実装してくれるようになってすごく楽になったな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BOx4A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "しかしここ半年の間のAIの進歩のおかげで3行くらいで「こういう実験をしろ」と言ったらAIが実験コードを実装してくれるようになってすごく楽になったな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "しかしここ半年の間のAIの進歩のおかげで3行くらいで「こういう実験をしろ」と言ったらAIが実験コードを実装してくれるようになってすごく楽になったな"
+  },
+  {
+    "text": "高次元空間でHDBSCANしたものをUMAP",
+    "files": [
+      {
+        "id": "F09MEQLE6RG",
+        "created": 1760946053,
+        "timestamp": 1760946053,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 571475,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09MEQLE6RG/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09MEQLE6RG/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 286,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 382,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 573,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 637,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 764,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MEQLE6RG-e2c26e7727/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 815,
+        "original_w": 1998,
+        "original_h": 1590,
+        "thumb_tiny": "AwAnADDTooGe9BOBk0ABAJBIBx0pNq7t20bvXHNA6ng0pNABQc9qKKAGx7vLXcDuxznGf0oZd2N3IByKdRQAnWlopM4Gf5UALRRRQAUUUUANd1TbuONxwPrTqr3f/LH/AK6j+RqxQAUUUUAf/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09MEQLE6RG/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09MEQLE6RG-f49528d82e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ewsfP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "高次元空間でHDBSCANしたものをUMAP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1760946062.874599",
+    "client_msg_id": "ba156355-e477-4ca4-885c-97fab39055c2",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "高次元空間でHDBSCANしたものをUMAP"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760953070.000889",
+    "client_msg_id": "3bbf1d93-5cc9-47b4-9688-3bfb6814e825",
+    "text": "hdbscanでクラスタIDを求めて、文脈ベクトルにクラスタIDをワンホットにして結合してからUMAPでもうちょいきれいに分割できないかな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ISPAC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "hdbscanでクラスタIDを求めて、文脈ベクトルにクラスタIDをワンホットにして結合してからUMAPでもうちょいきれいに分割できないかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "hdbscanでクラスタIDを求めて、文脈ベクトルにクラスタIDをワンホットにして結合してからUMAPでもうちょいきれいに分割できないかな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760953913.943799",
+    "client_msg_id": "FFC23A6C-C011-4748-ACC9-4FB08096332E",
+    "text": "それがこれでは？　<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|https://scrapbox.io/nishio/クラスタ解説の埋め込みベクトルをconcatしてUMAP>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/a2092bb3b3c3d51cd12fc22c4af265f6/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 795,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "fallback": "西尾泰和の外部脳: クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "text": "広聴AI from <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0#heading=h.xqz9vh6im1kw> 先週のクラスタリング精度アップの議論に関して まず精度の尺度を作らないと議論にならない 過去の実験レポートを発掘した <https://github>.",
+        "title": "クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0i/QH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それがこれでは？　"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+                "text": "https://scrapbox.io/nishio/クラスタ解説の埋め込みベクトルをconcatしてUMAP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それがこれでは？　<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|https://scrapbox.io/nishio/クラスタ解説の埋め込みベクトルをconcatしてUMAP>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760953928.554339",
+    "client_msg_id": "07717605-88B6-4387-BB90-7F8163CABDBE",
+    "text": "タイトルと内容が違うな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mSZuH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "タイトルと内容が違うな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "タイトルと内容が違うな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760953950.766709",
+    "client_msg_id": "1FED743C-FB81-46EA-9D47-F6A515DDF58A",
+    "text": "これはクラスタIDをワンホットにして結合してる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hV8Ir",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはクラスタIDをワンホットにして結合してる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これはクラスタIDをワンホットにして結合してる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760953966.334199",
+    "client_msg_id": "D578F194-11DE-4799-A9BF-78458076D701",
+    "text": "その結果、分離はするが見た目がイマイチ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z5c6t",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "その結果、分離はするが見た目がイマイチ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "その結果、分離はするが見た目がイマイチ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760955131.653049",
+    "client_msg_id": "609ca843-1942-4da9-a5a8-b61f966e900b",
+    "text": "なるほ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "btpk6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "なるほ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760955201.656539",
+    "client_msg_id": "2d0a45cd-35ff-46da-bdb6-eece5472aeaa",
+    "text": "クラスタ間の距離行列とかあるといいのかな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0NAww",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "クラスタ間の距離行列とかあるといいのかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "クラスタ間の距離行列とかあるといいのかな"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760955443.921609",
+    "client_msg_id": "3503d840-223b-40bb-875b-69a36bf8d463",
+    "text": "各クラスタ中心への距離を入れる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JxalL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "各クラスタ中心への距離を入れる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "各クラスタ中心への距離を入れる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760958156.122649",
+    "client_msg_id": "c2535467-5cb8-4d79-bb58-e918360989d4",
+    "text": "これを読んでる\n<https://umap-learn.readthedocs.io/en/latest/supervised.html>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ML5xs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これを読んでる\n"
+              },
+              {
+                "type": "link",
+                "url": "https://umap-learn.readthedocs.io/en/latest/supervised.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これを読んでる\n<https://umap-learn.readthedocs.io/en/latest/supervised.html>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760970742.363209",
+    "client_msg_id": "d2fedbc6-d320-4ab0-9469-85bd2f24c093",
+    "text": "&gt; <https://umap-learn.readthedocs.io/en/latest/clustering.html>\n&gt; 次に注意すべき点は、UMAP を次元削減に使用する場合は、視覚化に使用する場合とは異なるパラメータを選択する必要があることです。まず、大きい `n_neighbors`値が必要になります。値が小さいと、非常にローカルな構造に焦点が当てられ、実際のクラスターというよりもデータ内のノイズ パターンの結果である可能性のあるきめの細かいクラスター構造が生成されやすくなります。この場合は、デフォルトの 15 から 2 倍の 30 にします。次に、`min_dist`非常に低い値に設定すると効果的です。実際にはポイントを密に詰め込みたいため (結局のところ密度が必要なのです)、値を低くすると、クラスター間の分離が明確になり、便利です。この場合は、単に `min_dist`0 に設定します。\nこれで、密度の粗密が出やすくなるポイ？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Sh4gU",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://umap-learn.readthedocs.io/en/latest/clustering.html"
+              },
+              {
+                "type": "text",
+                "text": "\n次に注意すべき点は、UMAP を次元削減に使用する場合は、視覚化に使用する場合とは異なるパラメータを選択する必要があることです。まず、大きい "
+              },
+              {
+                "type": "text",
+                "text": "n_neighbors",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "値が必要になります。値が小さいと、非常にローカルな構造に焦点が当てられ、実際のクラスターというよりもデータ内のノイズ パターンの結果である可能性のあるきめの細かいクラスター構造が生成されやすくなります。この場合は、デフォルトの 15 から 2 倍の 30 にします。次に、"
+              },
+              {
+                "type": "text",
+                "text": "min_dist",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "非常に低い値に設定すると効果的です。実際にはポイントを密に詰め込みたいため (結局のところ密度が必要なのです)、値を低くすると、クラスター間の分離が明確になり、便利です。この場合は、単に "
+              },
+              {
+                "type": "text",
+                "text": "min_dist",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "0 に設定します。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nこれで、密度の粗密が出やすくなるポイ？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "> <https://umap-learn.readthedocs.io/en/latest/clustering.html>\n> 次に注意すべき点は、UMAP を次元削減に使用する場合は、視覚化に使用する場合とは異なるパラメータを選択する必要があることです。まず、大きい `n_neighbors`値が必要になります。値が小さいと、非常にローカルな構造に焦点が当てられ、実際のクラスターというよりもデータ内のノイズ パターンの結果である可能性のあるきめの細かいクラスター構造が生成されやすくなります。この場合は、デフォルトの 15 から 2 倍の 30 にします。次に、`min_dist`非常に低い値に設定すると効果的です。実際にはポイントを密に詰め込みたいため (結局のところ密度が必要なのです)、値を低くすると、クラスター間の分離が明確になり、便利です。この場合は、単に `min_dist`0 に設定します。\nこれで、密度の粗密が出やすくなるポイ？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760970810.108239",
+    "client_msg_id": "894a743f-0258-4863-814c-d27775ac270d",
+    "text": "密度の粗密を大きくして、HDBSCANの密度閾値を超えやすくして、クラスタをちゃんと連続だと認識させるようにするという感じで書かれてるな。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JLMuC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "密度の粗密を大きくして、HDBSCANの密度閾値を超えやすくして、クラスタをちゃんと連続だと認識させるようにするという感じで書かれてるな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "密度の粗密を大きくして、HDBSCANの密度閾値を超えやすくして、クラスタをちゃんと連続だと認識させるようにするという感じで書かれてるな。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1760970989.023069",
+    "client_msg_id": "6a0722a0-facd-4189-9783-6057ea9fb72a",
+    "text": "UMAPのデフォパラメータを見直して、もっと凝縮度が高まるようにして、クラスタが切れやすくするのが、まずやるべきことかなぁ。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1em6U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UMAPのデフォパラメータを見直して、もっと凝縮度が高まるようにして、クラスタが切れやすくするのが、まずやるべきことかなぁ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "UMAPのデフォパラメータを見直して、もっと凝縮度が高まるようにして、クラスタが切れやすくするのが、まずやるべきことかなぁ。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1760974090.319779",
+    "client_msg_id": "5077c5d3-5c45-4435-8314-4957475049f7",
+    "text": "なるほどね、それに近いことを説明なしでclaude codeがやってたので何かなと思った",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XUriM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほどね、それに近いことを説明なしでclaude codeがやってたので何かなと思った"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なるほどね、それに近いことを説明なしでclaude codeがやってたので何かなと思った"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761024329.973229",
+    "client_msg_id": "34e597f3-71cf-4de1-a0c5-5170ec4843ee",
+    "text": "X見てて全然理解されてないなと思ったので書いた\n\nブロードリスニングの4つのデータ型 - 西尾泰和の外部脳\n<https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/4575b88c1ea56b9da058b0fa1ed16087/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 748,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B",
+        "fallback": "西尾泰和の外部脳: ブロードリスニングの4つのデータ型 - 西尾泰和の外部脳",
+        "text": "ブロードリスニングのデータの形には大きく分けて4つある だが特に新しいシステムのデータ構造に関してはまだ世の中の理解度が低いので、しばしば従来型のデータ型(≒アンケート)と混同される まとめ画像 Polis型 K件の意見(statement)があり、それに対してN人が賛成・反対・中立の投票をしたデータ 欠損値を含む4種類の値の行列の形式になる、投票行列(vote matrix)とも呼ばれる 台湾の",
+        "title": "ブロードリスニングの4つのデータ型 - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cvbDL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "X見てて全然理解されてないなと思ったので書いた\n\nブロードリスニングの4つのデータ型 - 西尾泰和の外部脳\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08KVN5B6HX"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "X見てて全然理解されてないなと思ったので書いた\n\nブロードリスニングの4つのデータ型 - 西尾泰和の外部脳\n<https://scrapbox.io/nishio/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%83%AA%E3%82%B9%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE4%E3%81%A4%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E5%9E%8B>"
+  },
+  {
+    "text": "Supervised UMAPの結果を書いてなかった。結局クラスタの間の距離を増やすという数学的な扱いが僕が最初にやった手法とほぼ同じだから、結果も似たようなものになる感じ",
+    "files": [
+      {
+        "id": "F09M97L3TFH",
+        "created": 1761056720,
+        "timestamp": 1761056720,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1500708,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09M97L3TFH/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09M97L3TFH/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 287,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 382,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 573,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 637,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 764,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M97L3TFH-59f7c21278/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 815,
+        "original_w": 2999,
+        "original_h": 2388,
+        "thumb_tiny": "AwAnADDQMSkk5fn0c/40hhXsX/7+N/jUh9hmms21hweTigCJ4IHAD5YZ4Bcnn86cLeLduG7PrvP+PsKkwMmkA69ieM0AN8lfWT/v43+NPVQgwM/iSf50YByKWgBGztOOuOKATkjB4oIyKDzjjvwaAAg9jS96Tgc9MUhJ3YAP17UACgLkYA+gpVztG7rjnFHJpaADPOKKQ/fH0P8ASloABwOTmiiigAooooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09M97L3TFH/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09M97L3TFH-c645c1565f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xwo+X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Supervised UMAPの結果を書いてなかった。結局クラスタの間の距離を増やすという数学的な扱いが僕が最初にやった手法とほぼ同じだから、結果も似たようなものになる感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761056792.257269",
+    "client_msg_id": "b5e2dd00-ffa4-42fe-988d-80e23350e876",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Supervised UMAPの結果を書いてなかった。結局クラスタの間の距離を増やすという数学的な扱いが僕が最初にやった手法とほぼ同じだから、結果も似たようなものになる感じ"
+  },
+  {
+    "text": "<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%[…]E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP>\nこれのa=0.3とほぼ同じ結果だよねという感じ",
+    "files": [
+      {
+        "id": "F09M984HV39",
+        "created": 1761056856,
+        "timestamp": 1761056856,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 357513,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09M984HV39/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09M984HV39/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 286,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 382,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 572,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 636,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09M984HV39-8e7823880f/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 763,
+        "original_w": 1000,
+        "original_h": 795,
+        "thumb_tiny": "AwAnADDTpGGRjAP1paTvQAgAHYA/SlCqOigdulJnocce9NU4kI+Y/hxQBJSHpS55ooAaoOxc5yBS5y3BPH5UtIQcgigAPJ56UdiVIpO+TkY7etJgMMgHHagBzDK4POeKWm87snP506gAooooAazqmNxxk4FOOccGoLrpH/vip6ACiiigD//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09M984HV39/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09M984HV39-560515cb5b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o9eAb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+                "text": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%[…]E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP"
+              },
+              {
+                "type": "text",
+                "text": "\nこれのa=0.3とほぼ同じ結果だよねという感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761056860.005649",
+    "client_msg_id": "9b418757-81d1-4280-84a7-b4b542cf69be",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/a2092bb3b3c3d51cd12fc22c4af265f6/max_size/1000",
+        "thumb_width": 1000,
+        "thumb_height": 795,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "fallback": "西尾泰和の外部脳: クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "text": "広聴AI from <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0#heading=h.xqz9vh6im1kw> 先週のクラスタリング精度アップの議論に関して まず精度の尺度を作らないと議論にならない 過去の実験レポートを発掘した <https://github>.",
+        "title": "クラスタ解説の埋め込みベクトルをconcatしてUMAP - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%E3%81%AE%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP|https://scrapbox.io/nishio/%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E8%A7%A3%E8%AA%AC%[…]E3%82%AF%E3%83%88%E3%83%AB%E3%82%92concat%E3%81%97%E3%81%A6UMAP>\nこれのa=0.3とほぼ同じ結果だよねという感じ"
+  },
+  {
+    "text": "つまりこういうこと",
+    "files": [
+      {
+        "id": "F09MUB5UL8L",
+        "created": 1761057502,
+        "timestamp": 1761057502,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1028467,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09MUB5UL8L/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09MUB5UL8L/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 344,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 458,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 687,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 763,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 916,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09MUB5UL8L-e926d399ca/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 977,
+        "original_w": 1927,
+        "original_h": 1839,
+        "thumb_tiny": "AwAuADDTooooAQsFxuIGTgZpRnAyOaKaFO8tvJH93jAoAdRSAEZyxOT37UtACc56cUvekxgk85+tL1oAKT7uSF5J5xS0hGR/9fFAC0VGIwEKDdg/7Zz+fWnKuxcDOPckmgBxpuMU6igAFIc9hxS0UAMJI4HSnBsnB+tLiigD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09MUB5UL8L/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09MUB5UL8L-aebc2d1e18",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+LCtY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "つまりこういうこと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761057508.050019",
+    "client_msg_id": "661e240b-aaed-4ddf-b68d-7e0a2a59081c",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "つまりこういうこと"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761058874.737589",
+    "client_msg_id": "a3739dc9-d753-442c-a09c-9e232bb2c7c6",
+    "text": "いっそAffinityBubble路線にする手もあるか…\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1754873489226339>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/tsurezure_lab/status/1954571265848881191?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "image_url": "https://pbs.twimg.com/media/GyAHOmZbQAA_RjA.jpg:large",
+        "image_width": 2048,
+        "image_height": 1332,
+        "image_bytes": 537386,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1754873489226339",
+        "fallback": "X (formerly Twitter): 徒然研究室:writing_hand::skin-tone-2: (@tsurezure_lab) on X",
+        "text": "#keep4o を含む国内外のX投稿4800件ほどをざっとクラスタリングしてみました...4o失われた瞬間の喪失感から「ドラえもん化現象」、再構築マニュアル、課金停止国際連合などが混じり合うカオスです...:face_holding_back_tears: 以下クラスタ別の特徴です:writing_hand:",
+        "title": "徒然研究室:writing_hand::skin-tone-2: (@tsurezure_lab) on X",
+        "title_link": "https://x.com/tsurezure_lab/status/1954571265848881191?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IqrwM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いっそAffinityBubble路線にする手もあるか…\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08PX74S5T4/p1754873489226339"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いっそAffinityBubble路線にする手もあるか…\n<https://dd2030.slack.com/archives/C08PX74S5T4/p1754873489226339>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761058950.681249",
+    "client_msg_id": "b072cb14-5655-41e1-b85a-262691940652",
+    "text": "「問題の全体像を素早くつかむ」に特化させるとこれが世界ぽいよね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XnjUz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「問題の全体像を素早くつかむ」に特化させるとこれが世界ぽいよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "「問題の全体像を素早くつかむ」に特化させるとこれが世界ぽいよね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059014.769779",
+    "client_msg_id": "085c3033-b6f3-405b-9353-ccb3b763bce9",
+    "text": "散布図を欲しがるユーザ、実際のところ散布図が欲しいわけではない、という",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "a3V4w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "散布図を欲しがるユーザ、実際のところ散布図が欲しいわけではない、という"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "散布図を欲しがるユーザ、実際のところ散布図が欲しいわけではない、という"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059075.739839",
+    "client_msg_id": "e3b2462c-3e41-44bf-979b-1e0e454c3d30",
+    "text": "欲しいものが言語化できてなくて散布図を見せられて「おっこれが欲しい」となってるけど、たぶん本当に欲しかったものは散布図ではない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YU7Qz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "欲しいものが言語化できてなくて散布図を見せられて「おっこれが欲しい」となってるけど、たぶん本当に欲しかったものは散布図ではない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "欲しいものが言語化できてなくて散布図を見せられて「おっこれが欲しい」となってるけど、たぶん本当に欲しかったものは散布図ではない"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761059091.175529",
+    "client_msg_id": "9449878c-7553-475f-bae0-fd0318e5f38a",
+    "text": "「AIを使っている我々」と「AIを使っている彼ら」　であれば、散布図が合致する",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rIEam",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「AIを使っている我々」と「AIを使っている彼ら」　であれば、散布図が合致する"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "「AIを使っている我々」と「AIを使っている彼ら」　であれば、散布図が合致する"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761059169.262549",
+    "client_msg_id": "6956072e-6583-49a4-b76c-797b637a4d6f",
+    "text": "「安いコストでSNS映えする分析結果を作成して、インプレッションを作成する」",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VQ8TD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「安いコストでSNS映えする分析結果を作成して、インプレッションを作成する」"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "「安いコストでSNS映えする分析結果を作成して、インプレッションを作成する」"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761059226.853089",
+    "client_msg_id": "629b33be-708b-4736-89c8-12352585b13c",
+    "text": "データ分析初心者は、データ分析からナラティブを発してくれる装置が欲しい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sw/9w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "データ分析初心者は、データ分析からナラティブを発してくれる装置が欲しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "データ分析初心者は、データ分析からナラティブを発してくれる装置が欲しい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059246.373849",
+    "client_msg_id": "7df3511f-25a5-44a4-af22-f55416cffa94",
+    "text": "Voronoi Treemap\n<https://exchange.tableau.com/ja-JP/products/1028>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sObOp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Voronoi Treemap\n"
+              },
+              {
+                "type": "link",
+                "url": "https://exchange.tableau.com/ja-JP/products/1028"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Voronoi Treemap\n<https://exchange.tableau.com/ja-JP/products/1028>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059360.059789",
+    "client_msg_id": "de2580f9-7038-41fd-b645-cec144709f82",
+    "text": "Voronoi Treemapという概念なのか\n<https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization",
+        "service_icon": "https://www.themoonlight.io/favicon.ico",
+        "id": 1,
+        "original_url": "https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization",
+        "fallback": "[論文レビュー] StoryGem: Voronoi treemap Approach for Semantics-Preserving Text   Visualization",
+        "text": "本稿では、テキスト可視化における従来の課題を克服する新しい手法 StoryGem を提案する。ワードクラウドはテキストデータの頻度を視覚化する一般的な手法であるが、単語の意味的関係を無視し、配置効率やフォントサイズによる頻度表現の誤解を招くという問題がある。セマンティックワードクラウドは意味的関係を考慮するが、空間効率に課題がある。StoryGem はこれらの手法の強みを組み合わせ、意味的な配置と空間効率を両立させる。\n\nStoryGem の手法は以下の3つの主要なステップから構成される。\n\n1. **セマンティックワードネットワークの構築 (Construction of Semantic Word Network)**:\n 入力されたプレーンテキストデータに対し、まず標準的なストップワードリストと品詞（動詞、名詞、形容詞以外）に基づいてストップワードを除去する。残った単語の集合 $W = \\{w_1, \\dots, w_n\\}$ について、それぞれの単語の出現頻度をカウントする。次に、各単語の意味を数値的に表現する単語ベクトルを取得する。本研究では、学習済みモデル FASTTEXT を使用する。FastTextモデルに含まれない単語は除外される。これにより、ストップワードでなく、かつFastTextモデルに含まれる単語の出現頻度と単語ベクトルが得られる。これらの単語をノードとし、単語ベクトル間の cosine similarity を用いて単語間の類似度を計算する。各単語に対し、類似度の高い順に k個の最も近い隣接単語との間にエッジを張ることで、k-nearest neighbor graph を構築する。\n\n2. **Voronoi Treemap レイアウトの適用 (Applying Voronoi Treemap)**:\n 構築された k-nearest neighbor graph に対してコミュニティ検出を行うことで、意味的に関連性の高い単語群をクラスタリングする。ここでは、モジュール性を最適化する Louvain method を使用する。これにより、単語の階層的なクラスタリング構造が得られる。この階層的なデータ構造を可視化するために VoronoiTreemap を適用する。VoronoiTreemap は centroidal Voronoi tessellations (CVT) を利用して、与えられた領域をギャップなく分割する手法である。各単語（または単語のクラスタ）は階層ノードに対応し、その重要度（ここでは単語の出現頻度）が Voronoi 領域の面積に反映されるように CVT が計算される。これにより、単語の頻度をフォントサイズではなく領域面積で表現し、空間を効率的に使用した視覚化を実現する。\n\n3. **フォントサイズの最大化 (Font Size Maximization)**:\n 各 Voronoi 領域内に対応する単語を可能な限り大きく表示するため、フォントサイズの最適化を行う。単語の描画領域はその convex hull とみなし、Voronoi 領域（これも凸多角形）内に単語の convex hull を配置する問題を解く。これは、ある凸多角形 $O$（単語の convex hull）を、別の与えられた凸多角形 $P$（Voronoi 領域）の中に、スケール因子 $S$ と移動 $(dx, dy)$ を用いた affine transformation で配置し、そのサイズを最大化する問題に置き換えられる。アフィン変換は以下の式で表される。\n $$\n \\begin{pmatrix} x_o^i \\\\ y_o^i \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 1 &amp; 0 &amp; dx \\\\ 0 &amp; 1 &amp; dy \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\begin{pmatrix} S &amp; 0 &amp; 0 \\\\ 0 &amp; S &amp; 0 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\begin{pmatrix} x_q^i \\\\ y_q^i \\\\ 1 \\end{pmatrix}\n $$\n ただし、$O$ の頂点の座標を $(x_o^i, y_o^i)$、$Q$ の頂点の座標を $(x_q^i, y_q^i)$ とする。この変換は以下のように整理できる。\n $$\n x_o^i = Sx_q^i + dx \\quad (1) \\\\\n y_o^i = Sy_q^i + dy \\quad (2)\n $$\n これらの式を用いて、$Q$ の頂点座標に関する線形関係が得られる。\n $$\n (x_o^2 - x_o^1)x_q^i - (x_o^2 - x_o^i)x_q^1 + (x_o^1 - x_o^i)x_q^2 = 0 \\quad (3) \\\\\n (x_o^2 - x_o^1)y_q^i - (x_o^2 - x_o^1)y_q^1 + (y_o^1 - y_o^i)x_q^2 + (y_o^i - y_o^1)x_q^1 = 0 \\quad (4)\n $$\n また、$Q$ の任意の頂点 $q_j$ が $P$ の頂点 $(x_p^1, y_p^1), \\dots, (x_p^n, y_p^n)$ の凸結合として表現できることを利用する。\n $$\n q_j = \\lambda_1 p_1 + \\lambda_2 p_2 + \\lambda_3 p_3 + \\cdots + \\lambda_n p_n \\quad (5)\n $$\n ただし、$0 \\le \\lambda_i \\le 1$ かつ $\\sum_{i=1}^n \\lambda_i = 1$ を満たす実数 $\\lambda_i$ が存在する。LPの定式化では、Qのi番目の頂点 $q_i$ がPの頂点の凸結合で表される際の係数を $\\lambda_{ij}$ と表現する。\n フォントサイズを最大化することは、単語の convex hull の特定の方向への広がりを最大化することと等価である。例えば、x方向の広がり $z = x_q^2 - x_q^1$ を最大化することを考える。これは、式(5)を用いて以下のように表現できる。\n $$\n z = \\sum_j \\lambda_{2j} x_p^j - \\sum_j \\lambda_{1j} x_p^j \\quad (6)\n $$\n 目的関数を $z$ とし、式(3), (4)（$q_i, q_1, q_2$ を P の頂点の凸結合で置き換えたもの）、および $Q$ の各頂点が $P$ 内に収まるという制約（$\\sum_j \\lambda_{ij} = 1$ および $0 \\le \\lambda_{ij} \\le 1$）の下で、以下の線形計画問題として定式化し、解く。\n $$\n \\text{maximize} \\quad \\sum_j \\lambda_{2j} x_p^j - \\sum_j \\lambda_{1j} x_p^j \\\\\n \\text{subject to}\n \\begin{cases}\n (x_o^2 - x_o^1) \\sum_j \\lambda_{ij} x_p^j - (x_o^2 - x_o^i) \\sum_j \\lambda_{j} x_p^j + (x_o^1 - x_o^i) \\sum_j \\lambda_{2j} x_p^j = 0, &amp; 1 \\le i \\le n \\\\\n (x_o^2 - x_o^1) \\sum_j \\lambda_{ij} y_p^j - (x_o^2 - x_o^1) \\sum_j \\lambda_{1j} y_p^j + (y_o^1 - y_o^i) \\sum_j \\lambda_{2j} x_p^j + (y_o^i - y_o^1) \\sum_j \\lambda_{1j} x_p^j = 0, &amp; 1 \\le i \\le n \\\\\n \\sum_j \\lambda_{ij} = 1, &amp; 1 \\le i \\le n \\\\\n 0 \\le \\lambda_{ij} \\le 1, &amp; 1 \\le i \\le n, 1 \\le j \\le m\n \\end{cases}\n $$\n 単語の回転は可読性を損なうため、回転角度を −90◦ ≤ θ ≤ 90◦ の範囲に制限する。また、長い単語の可視性を向上させるため、ハイフネーションによる分割も試み、最大のスケール因子が得られるパターンを採用する。\n\n提案手法の有効性を評価するため、22名の参加者によるユーザー評価を実施した。Random Layout word cloud (RWC)、semantic word cloud (SWC)、StoryGem without optimized font size (SGN)、StoryGem with optimized font size (SGO) の4つの手法を比較した。評価項目は、単語の頻度を読み取る重要度読取タスク、単語の意味的関係を読み取る単語関係読取タスクにおける実行時間と正答率、NASA-TLXによる精神的負荷、および主観的な選好度とした。\n\n評価結果は以下の通りである。重要度読取タスクの実行時間は StoryGem が RWC や SWC よりも長くなる傾向が見られたが、低頻度語の識別精度は StoryGem (SGO) が向上した。単語関係読取タスクにおいては、実行時間に有意差は見られなかったものの、StoryGem (SGN, SGO) の正答率は RWC, SWC に比べて約5倍と顕著に高く、セマンティックな関係性の伝達において優れていることが示された。NASA-TLXでは、SGO が他の手法に比べてフラストレーションを有意に軽減することが示された。ユーザーの主観的な選好度では、StoryGem (SGO, SGN) が RWC, SWC よりも有意に高く評価され、特にSGOが最も好まれた。\n\nユーザーからのフィードバックでは、StoryGem の色分けやエリアサイズによる重要語の把握の容易さ、フォントサイズ最適化による読みやすさなどが肯定的に挙げられた一方、異なるグループ間の関係性の把握の難しさや、フォントサイズ最大化による単語の端への配置に関する懸念も示された。\n\n本研究は、StoryGem が従来のワードクラウドの課題であった意味的関係の無視と、セマンティックワードクラウドの課題であった空間効率の悪さを克服し、特に単語間の意味的関係の可視化とユーザー体験において優れていることを実証した。今後の課題としては、Voronoi 領域の生成におけるシード点配置の最適化によるより正確な単語配置、グループ間の関係性を分かりやすく示す視覚的補助、フォントサイズ最適化と配置のバランス改善などが挙げられる。これらの改良により、StoryGem は様々な分野でのテキストデータ分析において有効なツールとなる可能性がある。",
+        "title": "[論文レビュー] StoryGem: Voronoi treemap Approach for Semantics-Preserving Text   Visualization",
+        "title_link": "https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization",
+        "service_name": "themoonlight.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GuIpV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Voronoi Treemapという概念なのか\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Voronoi Treemapという概念なのか\n<https://www.themoonlight.io/ja/review/storygem-voronoi-treemap-approach-for-semantics-preserving-text-visualization>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761059411.444179",
+    "client_msg_id": "5e10be4c-7bb7-4f99-bf7c-1be1794a9402",
+    "text": "分析結果に対して、質問できるようにするとどうなるんだろう。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZomQA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分析結果に対して、質問できるようにするとどうなるんだろう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "分析結果に対して、質問できるようにするとどうなるんだろう。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059557.985559",
+    "client_msg_id": "68e3743c-91a1-41d2-b44d-9a1bc58157d5",
+    "text": "<https://github.com/Kcnarf/d3-voronoi-treemap>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W4XeY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/Kcnarf/d3-voronoi-treemap"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/Kcnarf/d3-voronoi-treemap>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059572.751349",
+    "client_msg_id": "2298b61c-1967-4b2f-abe6-eed8a4ea5c3c",
+    "text": "&gt; 分析結果に対して、質問できるようにするとどうなるんだろう。\nそれMODAがやったやつだね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "epbE4",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分析結果に対して、質問できるようにするとどうなるんだろう。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それMODAがやったやつだね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 分析結果に対して、質問できるようにするとどうなるんだろう。\nそれMODAがやったやつだね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059629.326549",
+    "client_msg_id": "5e516773-b6e6-4933-9f39-cc198a82bfeb",
+    "text": "&gt; さて、これを見てください。点のひとつひとつが意見を表し、\n&gt; 背景の暗闇の中で星のように輝いています。\n&gt; \n&gt; これらの星々すべての反射は、星座を形成し、\n&gt; 私達が協調できる方向性を示しています。\n&gt; \n&gt; 多くの参加者にとって、\n&gt; [熟議]という文脈でAIと対話するのは初めてのことです。\n&gt; \n&gt; つまり、一人でAIと話すのではなく、\n&gt; みんなの利益のためにグループで議論するのです。\n<https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761059629.326549",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1761060814.270689",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+        "thumb_url": "https://i.ytimg.com/vi/4J9v-j995LU/mqdefault.jpg",
+        "thumb_width": 320,
+        "thumb_height": 180,
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+        "fallback": "Plurality和訳: Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+        "text": "<https://youtu.be/4J9v-j995LU> Japanese Translation Contributor: cFQ2f7LRuLYPnishio 日本語字幕(箇条書きでコメント書いていいよ) こんにちは、私はオードリー・タン、 『Plurality: 協働技術と民主主義の未来』の共著者です。 Pluralityの核心である協働的多様性を祝う、 重要なイベントに参加できることを本当",
+        "title": "Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+        "title_link": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+        "service_name": "Plurality和訳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ld0WH",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "さて、これを見てください。点のひとつひとつが意見を表し、\n背景の暗闇の中で星のように輝いています。\n\nこれらの星々すべての反射は、星座を形成し、\n私達が協調できる方向性を示しています。\n\n多くの参加者にとって、\n[熟議]という文脈でAIと対話するのは初めてのことです。\n\nつまり、一人でAIと話すのではなく、\nみんなの利益のためにグループで議論するのです。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> さて、これを見てください。点のひとつひとつが意見を表し、\n> 背景の暗闇の中で星のように輝いています。\n> \n> これらの星々すべての反射は、星座を形成し、\n> 私達が協調できる方向性を示しています。\n> \n> 多くの参加者にとって、\n> [熟議]という文脈でAIと対話するのは初めてのことです。\n> \n> つまり、一人でAIと話すのではなく、\n> みんなの利益のためにグループで議論するのです。\n<https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1761059629.326549",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1761059629.326549",
+      "client_msg_id": "5e516773-b6e6-4933-9f39-cc198a82bfeb",
+      "text": "&gt; さて、これを見てください。点のひとつひとつが意見を表し、\n&gt; 背景の暗闇の中で星のように輝いています。\n&gt; \n&gt; これらの星々すべての反射は、星座を形成し、\n&gt; 私達が協調できる方向性を示しています。\n&gt; \n&gt; 多くの参加者にとって、\n&gt; [熟議]という文脈でAIと対話するのは初めてのことです。\n&gt; \n&gt; つまり、一人でAIと話すのではなく、\n&gt; みんなの利益のためにグループで議論するのです。\n<https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1761059629.326549",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1761060814.270689",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "thumb_url": "https://i.ytimg.com/vi/4J9v-j995LU/mqdefault.jpg",
+          "thumb_width": 320,
+          "thumb_height": 180,
+          "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+          "id": 1,
+          "original_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "fallback": "Plurality和訳: Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+          "text": "<https://youtu.be/4J9v-j995LU> Japanese Translation Contributor: cFQ2f7LRuLYPnishio 日本語字幕(箇条書きでコメント書いていいよ) こんにちは、私はオードリー・タン、 『Plurality: 協働技術と民主主義の未来』の共著者です。 Pluralityの核心である協働的多様性を祝う、 重要なイベントに参加できることを本当",
+          "title": "Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+          "title_link": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "service_name": "Plurality和訳"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ld0WH",
+          "elements": [
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "さて、これを見てください。点のひとつひとつが意見を表し、\n背景の暗闇の中で星のように輝いています。\n\nこれらの星々すべての反射は、星座を形成し、\n私達が協調できる方向性を示しています。\n\n多くの参加者にとって、\n[熟議]という文脈でAIと対話するのは初めてのことです。\n\nつまり、一人でAIと話すのではなく、\nみんなの利益のためにグループで議論するのです。"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1761060814.270689",
+    "client_msg_id": "b905cc2e-df1d-4877-b7cc-d5b7cb3c21a3",
+    "text": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9Y96B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761059629.326549",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761059636.677539",
+    "client_msg_id": "84b071f5-6e28-41e6-9cd5-41b63ac86cce",
+    "text": "これのソースコードはどこにあるんだろうな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0CaXn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これのソースコードはどこにあるんだろうな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これのソースコードはどこにあるんだろうな"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060403.261669",
+    "client_msg_id": "c0ecff1d-061f-4a74-9dd0-a8ea209a6c76",
+    "text": "AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそうだなぁ。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kJBZb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそうだなぁ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそうだなぁ。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060430.595119",
+    "client_msg_id": "0df7df94-488d-41a1-a23b-7c8d78093f1d",
+    "text": "BigQueryにGeminiにクエリを作らせる機能があるように、その延長線で。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fVs1c",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "BigQueryにGeminiにクエリを作らせる機能があるように、その延長線で。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "BigQueryにGeminiにクエリを作らせる機能があるように、その延長線で。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761060431.622899",
+    "client_msg_id": "6b48cd9a-6a97-4d71-bb2c-e6f023a2f1ab",
+    "text": "ChatGPTの調査によると、AffinityBubbleの方はオープンソースではなく“Observable Notebook を ESM化した*コンパイル済みモジュール*“だそうで、“作者自身が *d3-voronoi-treemap* のパスを加工して“丸い小石（pebble）形状“に整える工夫を言及。“とのことだから作るなら*d3-voronoi-treemapでいいと思う*",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TmGA+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ChatGPTの調査によると、AffinityBubbleの方はオープンソースではなく“Observable Notebook を ESM化した"
+              },
+              {
+                "type": "text",
+                "text": "コンパイル済みモジュール",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "“だそうで、“作者自身が "
+              },
+              {
+                "type": "text",
+                "text": "d3-voronoi-treemap",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " のパスを加工して“丸い小石（pebble）形状“に整える工夫を言及。“とのことだから作るなら"
+              },
+              {
+                "type": "text",
+                "text": "d3-voronoi-treemapでいいと思う",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ChatGPTの調査によると、AffinityBubbleの方はオープンソースではなく“Observable Notebook を ESM化した*コンパイル済みモジュール*“だそうで、“作者自身が *d3-voronoi-treemap* のパスを加工して“丸い小石（pebble）形状“に整える工夫を言及。“とのことだから作るなら*d3-voronoi-treemapでいいと思う*"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060488.413199",
+    "client_msg_id": "a71da563-ff62-4288-8723-de7e35d242a1",
+    "text": "GPTsやNoteBookLM用のデータに変換する、というのがいい気がしてきた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AcVVC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GPTsやNoteBookLM用のデータに変換する、というのがいい気がしてきた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "GPTsやNoteBookLM用のデータに変換する、というのがいい気がしてきた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761060593.962679",
+    "client_msg_id": "67ac90d6-c2b2-4223-9e82-5b1f9a3e6655",
+    "text": "まあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "N0j8t",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761060613.288159",
+    "client_msg_id": "cd180c29-ae52-44b0-991a-8b7f3e0930ce",
+    "text": "1000件の自由記述くらいコンテキストに入る",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "soOxt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1000件の自由記述くらいコンテキストに入る"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1000件の自由記述くらいコンテキストに入る"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060620.702699",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1761060699.000000"
+    },
+    "client_msg_id": "c12b2b7d-ebf5-47d2-91c9-8e45bf706076",
+    "text": "あれは、一次データをそのまま取り扱うしかできないので、",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FrFR2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれは、一次データをそのまま取り扱うしかできないので、"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あれは、一次データをそのまま取り扱うしかできないので、"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060627.995289",
+    "client_msg_id": "f72f29d3-7454-404f-869b-b1ecce553efb",
+    "text": "まぁ、そうか、コンテキストが長いからできるか。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TK+hY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まぁ、そうか、コンテキストが長いからできるか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "まぁ、そうか、コンテキストが長いからできるか。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761060709.086319",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1761060717.000000"
+    },
+    "client_msg_id": "18e91952-66cc-40fb-bb4b-12640510b09b",
+    "text": "> AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそう\nこの運用が有用であることに関しては賛成",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6wY3K",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそう"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この運用が有用であることに関しては賛成"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> AIと会話しながら、集計、分類、要約、インサイトを交互にぐるぐる回し続けるような仕組みがよさそう\nこの運用が有用であることに関しては賛成"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761060735.090339",
+    "client_msg_id": "b2c287b6-5c0a-47ec-b7e3-bfcef8a23921",
+    "text": "広聴AIがやるべきことかはわからない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iSa9s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIがやるべきことかはわからない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "広聴AIがやるべきことかはわからない"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761060752.425249",
+    "client_msg_id": "2b9db4e2-33ac-4fff-849e-4cf71b84eb45",
+    "text": "広聴AIってよりは、次世代のデータ分析のプラットフォームって感じよね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z3lZ4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIってよりは、次世代のデータ分析のプラットフォームって感じよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "広聴AIってよりは、次世代のデータ分析のプラットフォームって感じよね"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1761059629.326549",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1761059629.326549",
+      "client_msg_id": "5e516773-b6e6-4933-9f39-cc198a82bfeb",
+      "text": "&gt; さて、これを見てください。点のひとつひとつが意見を表し、\n&gt; 背景の暗闇の中で星のように輝いています。\n&gt; \n&gt; これらの星々すべての反射は、星座を形成し、\n&gt; 私達が協調できる方向性を示しています。\n&gt; \n&gt; 多くの参加者にとって、\n&gt; [熟議]という文脈でAIと対話するのは初めてのことです。\n&gt; \n&gt; つまり、一人でAIと話すのではなく、\n&gt; みんなの利益のためにグループで議論するのです。\n<https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1761059629.326549",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1761060814.270689",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "thumb_url": "https://i.ytimg.com/vi/4J9v-j995LU/mqdefault.jpg",
+          "thumb_width": 320,
+          "thumb_height": 180,
+          "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+          "id": 1,
+          "original_url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "fallback": "Plurality和訳: Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+          "text": "<https://youtu.be/4J9v-j995LU> Japanese Translation Contributor: cFQ2f7LRuLYPnishio 日本語字幕(箇条書きでコメント書いていいよ) こんにちは、私はオードリー・タン、 『Plurality: 協働技術と民主主義の未来』の共著者です。 Pluralityの核心である協働的多様性を祝う、 重要なイベントに参加できることを本当",
+          "title": "Audrey Tang Remarks in Plurality Seoul - Plurality和訳",
+          "title_link": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul",
+          "service_name": "Plurality和訳"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ld0WH",
+          "elements": [
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "さて、これを見てください。点のひとつひとつが意見を表し、\n背景の暗闇の中で星のように輝いています。\n\nこれらの星々すべての反射は、星座を形成し、\n私達が協調できる方向性を示しています。\n\n多くの参加者にとって、\n[熟議]という文脈でAIと対話するのは初めてのことです。\n\nつまり、一人でAIと話すのではなく、\nみんなの利益のためにグループで議論するのです。"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "link",
+                  "url": "https://scrapbox.io/plurality-japanese/Audrey_Tang_Remarks_in_Plurality_Seoul"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1761060814.270689",
+    "client_msg_id": "b905cc2e-df1d-4877-b7cc-d5b7cb3c21a3",
+    "text": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9Y96B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあでも、分析として有用なのかどうかはさておき「Audrey Tangが台湾でやったこれが、日本語でもできるようになりました」は一定キャッチーではあるか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761063220.821869",
+    "client_msg_id": "e5a5574c-5216-43d2-838f-4f7cc16c7b2f",
+    "text": "&gt; *NISHIO Hirokazu*  [00:29]\n&gt; まあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？\n&gt; 1000件の自由記述くらいコンテキストに入る\n&gt; *中山心太（tokoroten）*  [00:30]\n&gt; あれは、一次データをそのまま取り扱うしかできないので、 （編集済み） \n&gt; まぁ、そうか、コンテキストが長いからできるか。\nでもこれ、NotebookLMの実装がどうなってるか知らんけどコンテキストに積んでの単発のLLM呼び出しではマルチヘッドアテンションのヘッドの数で抽出できる地検が制約されそうな気はするね\nTTTC Turbo的手法で作ったクラスタ要約を積んであげた方が良い結果が出やすそうではある",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cdUU/",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "NISHIO Hirokazu",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  [00:29]\nまあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？\n1000件の自由記述くらいコンテキストに入る\n"
+              },
+              {
+                "type": "text",
+                "text": "中山心太（tokoroten）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  [00:30]\nあれは、一次データをそのまま取り扱うしかできないので、 （編集済み） \nまぁ、そうか、コンテキストが長いからできるか。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nでもこれ、NotebookLMの実装がどうなってるか知らんけどコンテキストに積んでの単発のLLM呼び出しではマルチヘッドアテンションのヘッドの数で抽出できる地検が制約されそうな気はするね\nTTTC Turbo的手法で作ったクラスタ要約を積んであげた方が良い結果が出やすそうではある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> *NISHIO Hirokazu*  [00:29]\n> まあ、それを言い出すと大部分のユースケースではデータをNotebookLMに突っ込めば良くない？\n> 1000件の自由記述くらいコンテキストに入る\n> *中山心太（tokoroten）*  [00:30]\n> あれは、一次データをそのまま取り扱うしかできないので、 （編集済み） \n> まぁ、そうか、コンテキストが長いからできるか。\nでもこれ、NotebookLMの実装がどうなってるか知らんけどコンテキストに積んでの単発のLLM呼び出しではマルチヘッドアテンションのヘッドの数で抽出できる地検が制約されそうな気はするね\nTTTC Turbo的手法で作ったクラスタ要約を積んであげた方が良い結果が出やすそうではある"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761064332.114999",
+    "client_msg_id": "f5400fbb-8a2d-46b9-bad3-9686a8b2bb65",
+    "text": "でもこれ、ちゃんとReasoningできるモデルを使えばいいだけではという気もして、結論ChatGPTに課金してコンテキストにデータを置いてしっかりThinkingさせようということになる気もしてきた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vDLHC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "でもこれ、ちゃんとReasoningできるモデルを使えばいいだけではという気もして、結論ChatGPTに課金してコンテキストにデータを置いてしっかりThinkingさせようということになる気もしてきた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "でもこれ、ちゃんとReasoningできるモデルを使えばいいだけではという気もして、結論ChatGPTに課金してコンテキストにデータを置いてしっかりThinkingさせようということになる気もしてきた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761064531.507649",
+    "client_msg_id": "FD3008DA-890D-4977-AC3E-E3AF83E83FF7",
+    "text": "コンテキストに乗らない場合でもGPTsでRAGさせればいいだけな気もするしなぁ、深掘りさせたければネット検索させることもできるし。安いAIでなんとかしようとすることが不毛な気がしてきたな……",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oqK1A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コンテキストに乗らない場合でもGPTsでRAGさせればいいだけな気もするしなぁ、深掘りさせたければネット検索させることもできるし。安いAIでなんとかしようとすることが不毛な気がしてきたな……"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "コンテキストに乗らない場合でもGPTsでRAGさせればいいだけな気もするしなぁ、深掘りさせたければネット検索させることもできるし。安いAIでなんとかしようとすることが不毛な気がしてきたな……"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761064937.673079",
+    "client_msg_id": "57b11678-eebe-48a3-9d1f-b8c3ad0cbe1d",
+    "text": "いまSenseMakerとtttc-turbo-jsに入れて試してたデータをChatGPT５Thinking にも入れてみてる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2lLDM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いまSenseMakerとtttc-turbo-jsに入れて試してたデータをChatGPT５Thinking にも入れてみてる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いまSenseMakerとtttc-turbo-jsに入れて試してたデータをChatGPT５Thinking にも入れてみてる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761065944.587069",
+    "client_msg_id": "208cd65f-8b3f-46f2-80d9-d456e012d06a",
+    "text": "SenseMaker\n<https://nishio.github.io/result-sensemaker-tttc/polis-ja-summary.html> (Polisデータ)\n<https://nishio.github.io/result-sensemaker-tttc/youtube-no-votes-summary.html>\ntttc-light-js\n<https://nishio.github.io/result-sensemaker-tttc/youtube_report_japanese.html>\nGPT5\n<https://github.com/nishio/result-sensemaker-tttc/blob/main/gpt5.md>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XELg6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SenseMaker\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/result-sensemaker-tttc/polis-ja-summary.html"
+              },
+              {
+                "type": "text",
+                "text": " (Polisデータ)\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/result-sensemaker-tttc/youtube-no-votes-summary.html"
+              },
+              {
+                "type": "text",
+                "text": "\ntttc-light-js\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/result-sensemaker-tttc/youtube_report_japanese.html"
+              },
+              {
+                "type": "text",
+                "text": "\nGPT5\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/result-sensemaker-tttc/blob/main/gpt5.md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "SenseMaker\n<https://nishio.github.io/result-sensemaker-tttc/polis-ja-summary.html> (Polisデータ)\n<https://nishio.github.io/result-sensemaker-tttc/youtube-no-votes-summary.html>\ntttc-light-js\n<https://nishio.github.io/result-sensemaker-tttc/youtube_report_japanese.html>\nGPT5\n<https://github.com/nishio/result-sensemaker-tttc/blob/main/gpt5.md>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761066058.852969",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1761068678.000000"
+    },
+    "client_msg_id": "5ba154e5-a134-4c5d-b00c-43b0a5ed921d",
+    "text": "GPT5は「まんべんなく見てる感」が低い、分析結果を他人に見せる目的では「俺の意見が入ってないじゃないか」というリアクションを産みそう\n一方で、意見提出者に見せないで、意思決定者が読んで何かを判断するって目的ではGPT5の方がアクションに近い結果を出しうる気がするな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g1HZG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GPT5は「まんべんなく見てる感」が低い、分析結果を他人に見せる目的では「俺の意見が入ってないじゃないか」というリアクションを産みそう\n一方で、意見提出者に見せないで、意思決定者が読んで何かを判断するって目的ではGPT5の方がアクションに近い結果を出しうる気がするな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GPT5は「まんべんなく見てる感」が低い、分析結果を他人に見せる目的では「俺の意見が入ってないじゃないか」というリアクションを産みそう\n一方で、意見提出者に見せないで、意思決定者が読んで何かを判断するって目的ではGPT5の方がアクションに近い結果を出しうる気がするな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761066198.283189",
+    "client_msg_id": "5BB05636-4A60-48C9-9754-2B2EEE595DEE",
+    "text": "tttcの出力をGPT5に入れるのは手",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3VE8f",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "tttcの出力をGPT5に入れるのは手"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "tttcの出力をGPT5に入れるのは手"
+  }
+]

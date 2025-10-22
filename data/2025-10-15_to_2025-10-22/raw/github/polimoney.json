@@ -1,0 +1,36 @@
+[
+  {
+    "id": 3530131912,
+    "number": 207,
+    "title": "feat: ページ遷移時に Loading アクションを追加",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/207",
+    "user": "noritaka1166",
+    "created_at": "2025-10-19T14:38:29Z",
+    "merged_at": "2025-10-19T14:43:20Z",
+    "body": "# 変更の概要\r\n- ページ遷移時に Loading アクションを追加\r\n  - [nextjs-toploader](https://www.npmjs.com/package/nextjs-toploader) を使用 \r\n\r\n# スクリーンショット\r\n\r\nhttps://github.com/user-attachments/assets/34a9cfab-26fa-4a90-94de-4e7527fe2d66\r\n\r\n\r\n# 変更の背景\r\nページ遷移中であることが視覚的にわかりやすいようにするため\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## 新機能\n\n* アプリケーション全体にページ読み込みインジケーターを追加しました。ページ遷移や読み込み中にプログレスバーがアプリケーションの上部に表示され、現在の処理状況をより視覚的に確認できるようになります。ユーザーエクスペリエンスの向上により、待ち時間の体感が改善されます。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 60,
+    "deletions": 0,
+    "changed_files": 3,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3528961360,
+    "number": 206,
+    "title": "README に DeepWiki バッジを追加",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/206",
+    "user": "noritaka1166",
+    "created_at": "2025-10-18T16:16:50Z",
+    "merged_at": "2025-10-18T23:12:23Z",
+    "body": "# 変更の概要\r\nREADME に DeepWiki バッジを追加\r\n\r\n# スクリーンショット\r\n<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->\r\n\r\n# 変更の背景\r\n公聴AI のリポジトリに DeepWiki のバッジがあるのを見かけたので、 polimoney にも追加してみました\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## ドキュメンテーション\n\n* プロジェクト説明を拡充し、デジタルデモクラシーの背景と役割を詳しく記載しました\n* 政治資金可視化に向けた目的、コミュニケーション戦略、および具体的な達成目標の説明を追加しました\n* プロジェクトのロードマップや政治資金問題への対応方針に関する内容を充実させました\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 2,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 3516176186,
+    "number": 470,
+    "title": "いどばた政策 policy_edit から github PR 作成時の無用な MCP サーバ経由を削除",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/issues/470",
+    "user": "kuboon",
+    "created_at": "2025-10-15T03:15:39Z",
+    "body": "## 解決・改善したいこと\npolicy_edit でプルリクを作成時に、別途 MCP サーバを立ち上げてそこへ MCP コールしているが、\nhttps://github.com/digitaldemocracy2030/idobata/blob/35b2667f51a12a891689ad7782bb879704275ffa/policy-edit/backend/src/mcp/idobataMcpService.ts#L128\n`openai.chat.completions.create` のレスポンスに含まれている `tool_calls` に必要な情報は全て入っているのでこの情報を使って直接 octokit を実行すれば良い。\n\nasis: callTool -> mcpclient-> mcpserver -> octkit\ntobe: callTool -> octkit\n\nこの修正により、 github 通信時の進捗確認やエラーハンドリングが容易になり、反応も良くなります。\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\nhttps://github.com/digitaldemocracy2030/idobata/pull/429\n\n> Closing due to inactivity for more than 7 days.\n\nで close されてしまっていますが、 policy_edit を今後も発展させる予定があるのでしたら是非ともマージしたいです。",
+    "type": "issue"
+  },
+  {
+    "id": 3014117021,
+    "number": 19,
+    "title": "OGP画像を設定し、SNSでシェアしたときにサイトの魅力が閲覧者に伝わりやすくする",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/issues/19",
+    "user": "jujunjun110",
+    "created_at": "2025-04-23T13:55:28Z",
+    "updated_at": "2025-10-21T04:41:59Z",
+    "body": null,
+    "type": "issue"
+  },
+  {
+    "id": 3528954516,
+    "number": 471,
+    "title": "README に DeepWiki バッジを追加",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/pull/471",
+    "user": "noritaka1166",
+    "created_at": "2025-10-18T16:07:34Z",
+    "body": "# 変更の概要\r\nREADME に DeepWiki バッジを追加\r\n\r\n# スクリーンショット\r\n<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->\r\n\r\n# 変更の背景\r\n公聴AI のリポジトリに DeepWiki のバッジがあるのを見かけたので、 idobata にも追加してみました\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n",
+    "additions": 2,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3037777143,
+    "number": 184,
+    "title": "OGP設定（エンドポイント変更対応）",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/pull/184",
+    "user": "ghost",
+    "created_at": "2025-05-04T04:53:12Z",
+    "updated_at": "2025-10-21T04:41:59Z",
+    "body": "# 変更の概要\r\nお待たせしました。\r\nOGP設定機能の追加をしました。\r\nエラー時用のデフォルトOGP画像は白紙ですが、必要でしたら変更してください。\r\n\r\n\r\n# スクリーンショット\r\n![スクリーンショット 2025-04-27 000331](https://github.com/user-attachments/assets/881ffc55-d3ae-4ae3-84cd-45ea77b15c5a)\r\n![ogp_image_596a5175862dc9fa11c21ccd9e47fb73e2467196f3918573c1d9aed38c3f1688](https://github.com/user-attachments/assets/6785e001-6220-4d64-b185-011383bd6ffc)\r\n\r\n\r\n# 関連Issue\r\nhttps://github.com/digitaldemocracy2030/idobata/issues/19\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n",
+    "additions": 1680,
+    "deletions": 369,
+    "changed_files": 18,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
