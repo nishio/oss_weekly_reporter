@@ -1,0 +1,1257 @@
+[
+  {
+    "text": "<@U08N3V4NQRE>\nwebサイトにCMSを導入したい件について\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169>\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n• 現状のサイトで公開している部分（Next.js）\n    ◦ デプロイ先：Azure Static Web Apps\n• CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)\n    ◦ デプロイ先：Deno Deploy\n    ◦ 無料枠でおさめる\n        ▪︎ 決済情報を入れると無料枠が増える（添付画像参照）\nという構成でデプロイしたく\n• Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。\n• DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。\nです。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n• StrapiではなくLumeCMS採用の理由\n        ▪︎ Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）\n        ▪︎ Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。\n        ▪︎ Deno周りが得意なメンバーがいるため。\n        ▪︎ 単純にDenoというモダンな技術を使ってみたいため。\n• 現状のサイトとCMSのデプロイ先を分ける理由\n    ◦ 現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。\n        ▪︎ 現サイトもDenoにすれば問題ないが、Next.js -&gt; Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。\n            • Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。\n    ◦ Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。",
+    "files": [
+      {
+        "id": "F09NTQAPC72",
+        "created": 1761146465,
+        "timestamp": 1761146465,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 52880,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09NTQAPC72/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09NTQAPC72/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 252,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 336,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_160.png",
+        "original_w": 583,
+        "original_h": 408,
+        "thumb_tiny": "AwAiADDPRgpB2K3rnPNBIKgbAD68806IE9FLHpwM/wBKVgVC5UqDyMjr+lMQxmyPuAfSkJzn5QMn34p+9eOOn+fSjcufb/PtQBHiipN4xjj8v/rUw0APTbt565/z3pWA4Ix/n8aahwp+Yj2FO/4EQCOeev60wGUU/jHJ4/z7004xxnP0oASkNO49z+FNNACZPrRk+poopDDJ9TRk+poooAMn1NGSaKKAP//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09NTQAPC72/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09NTQAPC72-751f52f837",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "66jUO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": "\nwebサイトにCMSを導入したい件について\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169"
+              },
+              {
+                "type": "text",
+                "text": "\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状のサイトで公開している部分（Next.js）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デプロイ先：Azure Static Web Apps"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デプロイ先：Deno Deploy"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "無料枠でおさめる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "決済情報を入れると無料枠が増える（添付画像参照）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "という構成でデプロイしたく\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "です。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "StrapiではなくLumeCMS採用の理由"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno周りが得意なメンバーがいるため。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "単純にDenoというモダンな技術を使ってみたいため。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状のサイトとCMSのデプロイ先を分ける理由"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現サイトもDenoにすれば問題ないが、Next.js -> Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761147918.379939",
+    "client_msg_id": "a733b7db-6d71-46d4-8403-61b7953263aa",
+    "thread_ts": "1761147918.379939",
+    "reply_count": 6,
+    "reply_users_count": 5,
+    "latest_reply": "1761562236.952439",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08HWJ80CHG",
+      "U09C3J7V960",
+      "U08N3V4NQRE",
+      "U08MNRDM28K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169",
+        "ts": "1748444619.832169",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1748444619.832169",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "jxk+V",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "（スプシ記載済）\n"
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08N3V4NQRE"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\ncc: "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08N4BTNYN6"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nウェブサイトに\nヘッドレスCMSを導入しようと思っています。\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プロダクト別にフィルタできるようにする"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "事例、ニュース、リリース情報、ユーザーインタビューなどのタグ付けをし、それでも絞れるようにする"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 1
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プレスリリースをまとめて管理できる"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "非エンジニアも更新が楽になる"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "公開日時・更新日時なども表示できる"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Markdownが永遠に増えていくのはメンテしづらいかも？の解消"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "そんなに投稿する？→しようぜ！"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "という感じです。\n\nMicroCMSは非営利団体向けの料金が無くコスパがよくなさそうなので、オープンソースのstrapiを採用しようと思っています。\nつきましては、Google cloudの\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Container Registry"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "CloudRun"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "CloudSQL"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "CloudStorage"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "SecretManager"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "を利用したいです。\n（参考："
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://qiita.com/eknis/items/505da44169b371609ea7"
+                        },
+                        {
+                          "type": "text",
+                          "text": "）\n\nプレスリリースでの利用なので、すごく料金がかかることは無いと思いますが、念の為承認と、Google cloudの権限をいただけますと幸いです。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169",
+        "fallback": "[May 28th, 2025 8:03 AM] oscar.gaddress: （スプシ記載済）\n<@U08N3V4NQRE>\ncc: <@U08N4BTNYN6>\nウェブサイトに\nヘッドレスCMSを導入しようと思っています。\n> • プロダクト別にフィルタできるようにする\n> • 事例、ニュース、リリース情報、ユーザーインタビューなどのタグ付けをし、それでも絞れるようにする\n• プレスリリースをまとめて管理できる\n• 非エンジニアも更新が楽になる\n• 公開日時・更新日時なども表示できる\n• Markdownが永遠に増えていくのはメンテしづらいかも？の解消\n    ◦ そんなに投稿する？→しようぜ！\nという感じです。\n\nMicroCMSは非営利団体向けの料金が無くコスパがよくなさそうなので、オープンソースのstrapiを採用しようと思っています。\nつきましては、Google cloudの\n• Container Registry\n• CloudRun\n• CloudSQL\n• CloudStorage\n• SecretManager\nを利用したいです。\n（参考：<https://qiita.com/eknis/items/505da44169b371609ea7>）\n\nプレスリリースでの利用なので、すごく料金がかかることは無いと思いますが、念の為承認と、Google cloudの権限をいただけますと幸いです。",
+        "text": "（スプシ記載済）\n<@U08N3V4NQRE>\ncc: <@U08N4BTNYN6>\nウェブサイトに\nヘッドレスCMSを導入しようと思っています。\n> • プロダクト別にフィルタできるようにする\n> • 事例、ニュース、リリース情報、ユーザーインタビューなどのタグ付けをし、それでも絞れるようにする\n• プレスリリースをまとめて管理できる\n• 非エンジニアも更新が楽になる\n• 公開日時・更新日時なども表示できる\n• Markdownが永遠に増えていくのはメンテしづらいかも？の解消\n    ◦ そんなに投稿する？→しようぜ！\nという感じです。\n\nMicroCMSは非営利団体向けの料金が無くコスパがよくなさそうなので、オープンソースのstrapiを採用しようと思っています。\nつきましては、Google cloudの\n• Container Registry\n• CloudRun\n• CloudSQL\n• CloudStorage\n• SecretManager\nを利用したいです。\n（参考：<https://qiita.com/eknis/items/505da44169b371609ea7>）\n\nプレスリリースでの利用なので、すごく料金がかかることは無いと思いますが、念の為承認と、Google cloudの権限をいただけますと幸いです。",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba\nwebサイトにCMSを導入したい件について\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169>\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n• 現状のサイトで公開している部分（Next.js）\n    ◦ デプロイ先：Azure Static Web Apps\n• CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)\n    ◦ デプロイ先：Deno Deploy\n    ◦ 無料枠でおさめる\n        ▪︎ 決済情報を入れると無料枠が増える（添付画像参照）\nという構成でデプロイしたく\n• Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。\n• DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。\nです。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n• StrapiではなくLumeCMS採用の理由\n        ▪︎ Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）\n        ▪︎ Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。\n        ▪︎ Deno周りが得意なメンバーがいるため。\n        ▪︎ 単純にDenoというモダンな技術を使ってみたいため。\n• 現状のサイトとCMSのデプロイ先を分ける理由\n    ◦ 現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。\n        ▪︎ 現サイトもDenoにすれば問題ないが、Next.js -> Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。\n            • Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。\n    ◦ Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1761197938.961029",
+    "client_msg_id": "87f9e840-2751-4074-b123-970fb47ccab6",
+    "text": "&gt;  DD2030用のDeno Deployに招待するので\n今、 deno deploy が旧版と Early Access と 2バージョンあるのですが、EA の方でお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lwb2A",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " DD2030用のDeno Deployに招待するので"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今、 deno deploy が旧版と Early Access と 2バージョンあるのですが、EA の方でお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  DD2030用のDeno Deployに招待するので\n今、 deno deploy が旧版と Early Access と 2バージョンあるのですが、EA の方でお願いします。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761198142.407319",
+    "client_msg_id": "1b30741d-56db-4f0a-8827-727e17a924d5",
+    "text": "たまたまEAでした。よかった・・・",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DVXxr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たまたまEAでした。よかった・・・"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "小野翔太",
+    "text_readable": "たまたまEAでした。よかった・・・"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761201851.993979",
+    "client_msg_id": "20ff16a6-09b2-492b-902d-508d9dd8dda6",
+    "text": "<@U09C3J7V960>\nこちらも大柴さんの代行できそうでしたらお願いします。難しそうな場合は大柴さんに直接聞きます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TmOS8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\nこちらも大柴さんの代行できそうでしたらお願いします。難しそうな場合は大柴さんに直接聞きます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "小野翔太",
+    "text_readable": "<@U09C3J7V960>\nこちらも大柴さんの代行できそうでしたらお願いします。難しそうな場合は大柴さんに直接聞きます！"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761203753.901299",
+    "client_msg_id": "9FBE7F1E-4CE8-4B81-A538-15C9914C46B8",
+    "text": "<@U08HWJ80CHG> ちょっとここらへん、どこまで私に委譲されているか(やりたいか？)わからず、まずは大柴さんまでお願いします〜。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wegXP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " ちょっとここらへん、どこまで私に委譲されているか(やりたいか？)わからず、まずは大柴さんまでお願いします〜。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress ちょっとここらへん、どこまで私に委譲されているか(やりたいか？)わからず、まずは大柴さんまでお願いします〜。"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1761330745.422489",
+    "client_msg_id": "EDF93C19-6877-4E62-A077-80E6C8161E70",
+    "text": "こちらOKです！ <@U08MNRDM28K> から決済情報いただければと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Br7nX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらOKです！ "
+              },
+              {
+                "type": "user",
+                "user_id": "U08MNRDM28K"
+              },
+              {
+                "type": "text",
+                "text": " から決済情報いただければと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "ルー大柴（Kojin Oshiba）",
+    "text_readable": "こちらOKです！ @jinnouchi から決済情報いただければと思います！"
+  },
+  {
+    "user": "U08MNRDM28K",
+    "type": "message",
+    "ts": "1761562236.952439",
+    "client_msg_id": "35138486-27c9-483e-b526-f5ccea901625",
+    "text": "クレジットカードについては、CfJ側にて管理していますので、 <@U08N4BTNYN6> に権限付与をお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761147918.379939",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lq8cj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "クレジットカードについては、CfJ側にて管理していますので、 "
+              },
+              {
+                "type": "user",
+                "user_id": "U08N4BTNYN6"
+              },
+              {
+                "type": "text",
+                "text": " に権限付与をお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08N4BTNYN6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761147918.379939",
+    "user_name": "jinnouchi",
+    "text_readable": "クレジットカードについては、CfJ側にて管理していますので、 @satorun に権限付与をお願いします。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761372206.691149",
+    "client_msg_id": "432adb78-7fb1-4b1b-ae9f-ddc275ddd33d",
+    "text": "<@U09C3J7V960>\n調べたところ、立替これのみでした。（スレッド残っててよかった…）\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1751268277674729>\nスレッドにもある通り、どの様に受け付けて頂いて、どの用に処理するかが決まっていない状況かと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761372206.691149",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1761706596.505739",
+    "reply_users": [
+      "U09C3J7V960"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1751268277674729",
+        "ts": "1751268277.674729",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1751268277.674729",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "do4+w",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08N3V4NQRE"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n7月のミートアップ用に下記を用意したいのですが、予算いただけたりしますでしょうか？\nボードメンバー用（2セット、4本）\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://amzn.asia/d/7DsdrPN"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1751268277674729",
+        "fallback": "[June 30th, 2025 12:24 AM] oscar.gaddress: <@U08N3V4NQRE>\n7月のミートアップ用に下記を用意したいのですが、予算いただけたりしますでしょうか？\nボードメンバー用（2セット、4本）\n<https://amzn.asia/d/7DsdrPN>",
+        "text": "<@U08N3V4NQRE>\n7月のミートアップ用に下記を用意したいのですが、予算いただけたりしますでしょうか？\nボードメンバー用（2セット、4本）\n<https://amzn.asia/d/7DsdrPN>",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1CNOq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\n調べたところ、立替これのみでした。（スレッド残っててよかった…）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1751268277674729"
+              },
+              {
+                "type": "text",
+                "text": "\nスレッドにもある通り、どの様に受け付けて頂いて、どの用に処理するかが決まっていない状況かと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<@U09C3J7V960>\n調べたところ、立替これのみでした。（スレッド残っててよかった…）\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1751268277674729>\nスレッドにもある通り、どの様に受け付けて頂いて、どの用に処理するかが決まっていない状況かと思います。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761372449.456159",
+    "client_msg_id": "e97f2217-4cf1-4035-8a23-bba857928406",
+    "text": "<@U08HWJ80CHG> お調べいただきありがとうございます、後ほどみますね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761372206.691149",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J1Xjw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " お調べいただきありがとうございます、後ほどみますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761372206.691149",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress お調べいただきありがとうございます、後ほどみますね。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761706596.505739",
+    "client_msg_id": "58c505e1-31d2-4044-a0a8-ea6918d5251e",
+    "text": "<@U08HWJ80CHG> FYI こちらタスクとして認識しているのですがまだ着手できていないです。来週中には仕留めるようにします、すいません。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761372206.691149",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xJKuC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " FYI こちらタスクとして認識しているのですがまだ着手できていないです。来週中には仕留めるようにします、すいません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761372206.691149",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress FYI こちらタスクとして認識しているのですがまだ着手できていないです。来週中には仕留めるようにします、すいません。"
+  },
+  {
+    "text": "<@U08HWJ80CHG> <@U08H3V9KMFH> （<@U08N3V4NQRE> ）\n• コード・フォー・ジャパンさんに支援いただく支払管理の契約書をまとめています。\n• 現時点で支払実績があるサービス等についてはまとめました。【キャプチャの通り】\n• 他に支払いの可能性があるサービスについて、今時点でわかるものについて列挙しておきたいのですが、キャプチャ見て頂き、【サービス名】【運営会社名】を教えて頂けますか。\n• ※今回の契約締結のタイミングで漏れていても、「 別途委託者と受託者が合意した支払債務」という文言があるので柔軟に対応できます。なので、そんな時間かけずに回答頂けると助かります！\n• 回答期日は、10/31 11:00（am）まででお願いしたいです",
+    "files": [
+      {
+        "id": "F09Q5DA9UD6",
+        "created": 1761706277,
+        "timestamp": 1761706277,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09C3J7V960",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 43605,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09Q5DA9UD6/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09Q5DA9UD6/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_360.png",
+        "thumb_360_w": 336,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_480.png",
+        "thumb_480_w": 448,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_720.png",
+        "thumb_720_w": 672,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q5DA9UD6-6a51ee03ee/image_800.png",
+        "thumb_800_w": 747,
+        "thumb_800_h": 800,
+        "original_w": 798,
+        "original_h": 855,
+        "thumb_tiny": "AwAwAC2lSUq/e6ge5pTlSy8dcdKAEpKd2xuXp6fj/n/CkABIBYD3NACUv4U4KCfvqPz/AMKZQAo6GnYJXG3OPQf/AFqaPWnnbgZJB68c/wBaQCPtJyFK59T/APWpSyncQMeg4/wpW2qR/EOvP/1jTOAMYBz0J7UAAXP8QH1ob73UH3FKFzwAvPT5un60jAjGcdOxzQALnPHHvTwOBlmBH+fWmJjdycUob1/GhpgOZQQOST3J/wD10zafSgkMQaHADEKcijUBwQ9Nq5HfNNdSp5AH0OabRQB//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09Q5DA9UD6/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09Q5DA9UD6-904593da94",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U09C3J7V960",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8K0rY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " （"
+              },
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " ）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "コード・フォー・ジャパンさんに支援いただく支払管理の契約書をまとめています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現時点で支払実績があるサービス等についてはまとめました。【キャプチャの通り】"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "他に支払いの可能性があるサービスについて、今時点でわかるものについて列挙しておきたいのですが、キャプチャ見て頂き、【サービス名】【運営会社名】を教えて頂けますか。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "※今回の契約締結のタイミングで漏れていても、「 別途委託者と受託者が合意した支払債務」という文言があるので柔軟に対応できます。なので、そんな時間かけずに回答頂けると助かります！"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "回答期日は、10/31 11:00（am）まででお願いしたいです"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761706472.907959",
+    "edited": {
+      "user": "U09C3J7V960",
+      "ts": "1761706885.000000"
+    },
+    "client_msg_id": "dd062a90-ec13-4c91-9894-de4b01c49e42",
+    "thread_ts": "1761706472.907959",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1761707260.710669",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress @truego （@kojin.oshiba ）\n• コード・フォー・ジャパンさんに支援いただく支払管理の契約書をまとめています。\n• 現時点で支払実績があるサービス等についてはまとめました。【キャプチャの通り】\n• 他に支払いの可能性があるサービスについて、今時点でわかるものについて列挙しておきたいのですが、キャプチャ見て頂き、【サービス名】【運営会社名】を教えて頂けますか。\n• ※今回の契約締結のタイミングで漏れていても、「 別途委託者と受託者が合意した支払債務」という文言があるので柔軟に対応できます。なので、そんな時間かけずに回答頂けると助かります！\n• 回答期日は、10/31 11:00（am）まででお願いしたいです"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1761707260.710669",
+    "client_msg_id": "7E2D7BA2-AD4D-41B2-BCA1-1A2EA250A205",
+    "text": "ありがとうございます！\n僕が認識しているものはすでに含まれていると思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761706472.907959",
+    "parent_user_id": "U09C3J7V960",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Am2eR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n僕が認識しているものはすでに含まれていると思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761706472.907959",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！\n僕が認識しているものはすでに含まれていると思います。"
+  }
+]

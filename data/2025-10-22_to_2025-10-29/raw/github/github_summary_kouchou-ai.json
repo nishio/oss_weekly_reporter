@@ -1,0 +1,53 @@
+{
+  "period": {
+    "start": "2025-10-22T12:29:53.378624+09:00",
+    "end": "2025-10-29T12:29:53.378624+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3556918910,
+      "number": 724,
+      "title": "[BUG] 静的ファイル出力でEXDEV: cross-device link not permittedが出る",
+      "state": "closed"
+    },
+    {
+      "id": 3557668572,
+      "number": 726,
+      "title": "[BUG]公開状態にしたレポートがない状態で静的HTML出力をしたときのエラーメッセージがわかりにくい",
+      "state": "created"
+    },
+    {
+      "id": 3543508002,
+      "number": 721,
+      "title": "ファイルシステムベース実行方式の明確化と検証テスト追加",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3556969599,
+      "number": 725,
+      "title": "Fix EXDEV error in static build by adding copy+delete fallback for cross-device rename operations",
+      "state": "merged"
+    },
+    {
+      "id": 3550862357,
+      "number": 723,
+      "title": "Bump playwright and @playwright/test in /test/e2e",
+      "state": "merged"
+    },
+    {
+      "id": 3557697889,
+      "number": 727,
+      "title": "静的ビルド実行前に公開状態のレポートが存在するかを検証",
+      "state": "created"
+    },
+    {
+      "id": 3543557136,
+      "number": 722,
+      "title": "Add filesystem-based usage documentation and validation tests",
+      "state": "created"
+    }
+  ]
+}

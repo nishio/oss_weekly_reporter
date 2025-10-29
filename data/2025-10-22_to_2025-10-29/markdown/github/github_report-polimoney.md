@@ -1,0 +1,935 @@
+# GitHub レポート: digitaldemocracy2030/polimoney
+
+期間: 2025-10-22T12:30:08.170289+09:00 から 2025-10-29T12:30:08.170289+09:00 まで
+
+## Issues
+
+### 過去7日間に完了されたissue (0件)
+
+### 過去7日間に作成されたissue (2件)
+
+### [動的サイトへの変更](https://github.com/digitaldemocracy2030/polimoney/issues/219)
+
+**作成者:** grassfieldk  
+**作成日:** 2025-10-26T04:43:40Z  
+**内容:**
+
+## 解決・改善したいこと
+
+動的サイトへの変更
+
+
+## 具体的な実現方法・実装方法の概要（未記入でも構いません）
+
+Next.js アプリケーションが静的エクスポート設定になっているため設定を変更する
+ただし現在 GitHub Pages を使ってサイトを公開しているため、デプロイ先を変更する必要がある
+
+**コメント:** なし
+
+---
+
+### [ディレクト構成の整理](https://github.com/digitaldemocracy2030/polimoney/issues/218)
+
+**作成者:** grassfieldk  
+**作成日:** 2025-10-26T04:41:46Z  
+**内容:**
+
+## 解決・改善したいこと
+
+Next.js のコードがプロジェクトルートに並んでおり、共通の設定ファイルなどと区別がつきづらい
+また、Next.js のコードだけをみても src ディレクトリが採用されておらず管理がしづらい
+
+
+## 具体的な実現方法・実装方法の概要（未記入でも構いません）
+
+frontend/ ディレクトリを作成し、次のようにまとめる
+※ デプロイの都合上これだとうまくいかない可能性もあるため注意
+
+```
+frontend/app/
+frontend/components/
+frontend/data/
+frontend/models/
+frontend/public/
+frontend/utils/
+frontend/next.config.ts
+frontend/next-env.d.ts
+```
+
+**コメント:** なし
+
+---
+
+### 過去7日間に更新されたissue（作成・クローズを除く）(0件)
+
+## Pull Requests
+
+### 過去7日間にマージされたPR (9件)
+
+### [依存性注入](https://github.com/digitaldemocracy2030/polimoney/pull/217)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-10-25T05:23:00Z  
+**変更:** +28 -15 (2ファイル)  
+**マージ日:** 2025-10-25T05:23:07Z  
+**内容:**
+
+# 変更の概要
+<!-- ここに変更の概要を記載してください -->
+
+# スクリーンショット
+<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->
+
+# 変更の背景
+<!-- ここに変更が必要となった背景を記載してください -->
+
+# 関連Issue
+<!-- 関連するIssueのリンクをこちらに記載してください -->
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+## リリースノート
+
+* **セキュリティ改善**
+  * 管理者向けエンドポイントに認証保護を追加しました。ユーザー管理、政治資金、選挙資金の管理機能へのアクセスに管理者権限が必須となります。
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [とりあえずこれで起動できる](https://github.com/digitaldemocracy2030/polimoney/pull/216)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-10-25T05:09:33Z  
+**変更:** +60 -40 (5ファイル)  
+**マージ日:** 2025-10-25T05:09:38Z  
+**内容:**
+
+# 変更の概要
+<!-- ここに変更の概要を記載してください -->
+
+# スクリーンショット
+<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->
+
+# 変更の背景
+<!-- ここに変更が必要となった背景を記載してください -->
+
+# 関連Issue
+<!-- 関連するIssueのリンクをこちらに記載してください -->
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+## リリースノート
+
+* **Chores**
+  * Python バージョン要件を 3.13 以上に更新
+  * セットアップ手順を簡素化（環境変数構成とデータベースマイグレーション手順を明確化）
+  * 依存パッケージを最新バージョンに更新（FastAPI、SQLAlchemy、Alembic など）
+  * システム内部の初期化ロジックを改善
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [chore(deps): bump black from 23.11.0 to 24.3.0 in /backend](https://github.com/digitaldemocracy2030/polimoney/pull/215)
+
+**作成者:** dependabot[bot]  
+**作成日:** 2025-10-25T04:32:03Z  
+**変更:** +1 -1 (1ファイル)  
+**マージ日:** 2025-10-25T04:32:20Z  
+**内容:**
+
+Bumps [black](https://github.com/psf/black) from 23.11.0 to 24.3.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/psf/black/releases">black's releases</a>.</em></p>
+<blockquote>
+<h2>24.3.0</h2>
+<h3>Highlights</h3>
+<p>This release is a milestone: it fixes Black's first CVE security vulnerability. If you
+run Black on untrusted input, or if you habitually put thousands of leading tab
+characters in your docstrings, you are strongly encouraged to upgrade immediately to fix
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.</p>
+<p>This release also fixes a bug in Black's AST safety check that allowed Black to make
+incorrect changes to certain f-strings that are valid in Python 3.12 and higher.</p>
+<h3>Stable style</h3>
+<ul>
+<li>Don't move comments along with delimiters, which could cause crashes (<a href="https://redirect.github.com/psf/black/issues/4248">#4248</a>)</li>
+<li>Strengthen AST safety check to catch more unsafe changes to strings. Previous versions
+of Black would incorrectly format the contents of certain unusual f-strings containing
+nested strings with the same quote type. Now, Black will crash on such strings until
+support for the new f-string syntax is implemented. (<a href="https://redirect.github.com/psf/black/issues/4270">#4270</a>)</li>
+<li>Fix a bug where line-ranges exceeding the last code line would not work as expected
+(<a href="https://redirect.github.com/psf/black/issues/4273">#4273</a>)</li>
+</ul>
+<h3>Performance</h3>
+<ul>
+<li>Fix catastrophic performance on docstrings that contain large numbers of leading tab
+characters. This fixes
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.
+(<a href="https://redirect.github.com/psf/black/issues/4278">#4278</a>)</li>
+</ul>
+<h3>Documentation</h3>
+<ul>
+<li>Note what happens when <code>--check</code> is used with <code>--quiet</code> (<a href="https://redirect.github.com/psf/black/issues/4236">#4236</a>)</li>
+</ul>
+<h2>24.2.0</h2>
+<h3>Stable style</h3>
+<ul>
+<li>Fixed a bug where comments where mistakenly removed along with redundant parentheses
+(<a href="https://redirect.github.com/psf/black/issues/4218">#4218</a>)</li>
+</ul>
+<h3>Preview style</h3>
+<ul>
+<li>Move the <code>hug_parens_with_braces_and_square_brackets</code> feature to the unstable style
+due to an outstanding crash and proposed formatting tweaks (<a href="https://redirect.github.com/psf/black/issues/4198">#4198</a>)</li>
+<li>Fixed a bug where base expressions caused inconsistent formatting of ** in tenary
+expression (<a href="https://redirect.github.com/psf/black/issues/4154">#4154</a>)</li>
+<li>Checking for newline before adding one on docstring that is almost at the line limit
+(<a href="https://redirect.github.com/psf/black/issues/4185">#4185</a>)</li>
+<li>Remove redundant parentheses in <code>case</code> statement <code>if</code> guards (<a href="https://redirect.github.com/psf/black/issues/4214">#4214</a>).</li>
+</ul>
+<h3>Configuration</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/psf/black/blob/main/CHANGES.md">black's changelog</a>.</em></p>
+<blockquote>
+<h2>24.3.0</h2>
+<h3>Highlights</h3>
+<p>This release is a milestone: it fixes Black's first CVE security vulnerability. If you
+run Black on untrusted input, or if you habitually put thousands of leading tab
+characters in your docstrings, you are strongly encouraged to upgrade immediately to fix
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.</p>
+<p>This release also fixes a bug in Black's AST safety check that allowed Black to make
+incorrect changes to certain f-strings that are valid in Python 3.12 and higher.</p>
+<h3>Stable style</h3>
+<ul>
+<li>Don't move comments along with delimiters, which could cause crashes (<a href="https://redirect.github.com/psf/black/issues/4248">#4248</a>)</li>
+<li>Strengthen AST safety check to catch more unsafe changes to strings. Previous versions
+of Black would incorrectly format the contents of certain unusual f-strings containing
+nested strings with the same quote type. Now, Black will crash on such strings until
+support for the new f-string syntax is implemented. (<a href="https://redirect.github.com/psf/black/issues/4270">#4270</a>)</li>
+<li>Fix a bug where line-ranges exceeding the last code line would not work as expected
+(<a href="https://redirect.github.com/psf/black/issues/4273">#4273</a>)</li>
+</ul>
+<h3>Performance</h3>
+<ul>
+<li>Fix catastrophic performance on docstrings that contain large numbers of leading tab
+characters. This fixes
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21503">CVE-2024-21503</a>.
+(<a href="https://redirect.github.com/psf/black/issues/4278">#4278</a>)</li>
+</ul>
+<h3>Documentation</h3>
+<ul>
+<li>Note what happens when <code>--check</code> is used with <code>--quiet</code> (<a href="https://redirect.github.com/psf/black/issues/4236">#4236</a>)</li>
+</ul>
+<h2>24.2.0</h2>
+<h3>Stable style</h3>
+<ul>
+<li>Fixed a bug where comments where mistakenly removed along with redundant parentheses
+(<a href="https://redirect.github.com/psf/black/issues/4218">#4218</a>)</li>
+</ul>
+<h3>Preview style</h3>
+<ul>
+<li>Move the <code>hug_parens_with_braces_and_square_brackets</code> feature to the unstable style
+due to an outstanding crash and proposed formatting tweaks (<a href="https://redirect.github.com/psf/black/issues/4198">#4198</a>)</li>
+<li>Fixed a bug where base expressions caused inconsistent formatting of ** in tenary
+expression (<a href="https://redirect.github.com/psf/black/issues/4154">#4154</a>)</li>
+<li>Checking for newline before adding one on docstring that is almost at the line limit
+(<a href="https://redirect.github.com/psf/black/issues/4185">#4185</a>)</li>
+<li>Remove redundant parentheses in <code>case</code> statement <code>if</code> guards (<a href="https://redirect.github.com/psf/black/issues/4214">#4214</a>).</li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/psf/black/commit/552baf822992936134cbd31a38f69c8cfe7c0f05"><code>552baf8</code></a> Prepare release 24.3.0 (<a href="https://redirect.github.com/psf/black/issues/4279">#4279</a>)</li>
+<li><a href="https://github.com/psf/black/commit/f00093672628d212b8965a8993cee8bedf5fe9b8"><code>f000936</code></a> Fix catastrophic performance in lines_with_leading_tabs_expanded() (<a href="https://redirect.github.com/psf/black/issues/4278">#4278</a>)</li>
+<li><a href="https://github.com/psf/black/commit/7b5a657285f38126bf28483478bbd9ea928077ec"><code>7b5a657</code></a> Fix --line-ranges behavior when ranges are at EOF (<a href="https://redirect.github.com/psf/black/issues/4273">#4273</a>)</li>
+<li><a href="https://github.com/psf/black/commit/1abcffc81816257985678f08c61584ed4287f22a"><code>1abcffc</code></a> Use regex where we ignore case on windows (<a href="https://redirect.github.com/psf/black/issues/4252">#4252</a>)</li>
+<li><a href="https://github.com/psf/black/commit/719e67462c80574c81a96faa144886de6da84489"><code>719e674</code></a> Fix 4227: Improve documentation for --quiet --check (<a href="https://redirect.github.com/psf/black/issues/4236">#4236</a>)</li>
+<li><a href="https://github.com/psf/black/commit/e5510afc06cd238cd0cba4095283943a870a7e7b"><code>e5510af</code></a> update plugin url for Thonny (<a href="https://redirect.github.com/psf/black/issues/4259">#4259</a>)</li>
+<li><a href="https://github.com/psf/black/commit/6af7d1109693c4ad3af08ecbc34649c232b47a6d"><code>6af7d11</code></a> Fix AST safety check false negative (<a href="https://redirect.github.com/psf/black/issues/4270">#4270</a>)</li>
+<li><a href="https://github.com/psf/black/commit/f03ee113c9f3dfeb477f2d4247bfb7de2e5f465c"><code>f03ee11</code></a> Ensure <code>blib2to3.pygram</code> is initialized before use (<a href="https://redirect.github.com/psf/black/issues/4224">#4224</a>)</li>
+<li><a href="https://github.com/psf/black/commit/e4bfedbec2e8b10cc6b7b31442478f05db0ce06d"><code>e4bfedb</code></a> fix: Don't move comments while splitting delimiters (<a href="https://redirect.github.com/psf/black/issues/4248">#4248</a>)</li>
+<li><a href="https://github.com/psf/black/commit/d0287e1f7558d97e6c0ebd6dc5bcb5b970e2bf8c"><code>d0287e1</code></a> Make trailing comma logic more concise (<a href="https://redirect.github.com/psf/black/issues/4202">#4202</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/psf/black/compare/23.11.0...24.3.0">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=black&package-manager=pip&previous-version=23.11.0&new-version=24.3.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/digitaldemocracy2030/polimoney/network/alerts).
+
+</details>
+
+**コメント:** なし
+
+---
+
+### [chore(deps): bump requests from 2.32.3 to 2.32.4 in /backend](https://github.com/digitaldemocracy2030/polimoney/pull/214)
+
+**作成者:** dependabot[bot]  
+**作成日:** 2025-10-25T04:32:02Z  
+**変更:** +1 -1 (1ファイル)  
+**マージ日:** 2025-10-25T04:32:29Z  
+**内容:**
+
+Bumps [requests](https://github.com/psf/requests) from 2.32.3 to 2.32.4.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/psf/requests/releases">requests's releases</a>.</em></p>
+<blockquote>
+<h2>v2.32.4</h2>
+<h2>2.32.4 (2025-06-10)</h2>
+<p><strong>Security</strong></p>
+<ul>
+<li>CVE-2024-47081 Fixed an issue where a maliciously crafted URL and trusted
+environment will retrieve credentials for the wrong hostname/machine from a
+netrc file. (<a href="https://redirect.github.com/psf/requests/issues/6965">#6965</a>)</li>
+</ul>
+<p><strong>Improvements</strong></p>
+<ul>
+<li>Numerous documentation improvements</li>
+</ul>
+<p><strong>Deprecations</strong></p>
+<ul>
+<li>Added support for pypy 3.11 for Linux and macOS. (<a href="https://redirect.github.com/psf/requests/issues/6926">#6926</a>)</li>
+<li>Dropped support for pypy 3.9 following its end of support. (<a href="https://redirect.github.com/psf/requests/issues/6926">#6926</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/psf/requests/blob/main/HISTORY.md">requests's changelog</a>.</em></p>
+<blockquote>
+<h2>2.32.4 (2025-06-10)</h2>
+<p><strong>Security</strong></p>
+<ul>
+<li>CVE-2024-47081 Fixed an issue where a maliciously crafted URL and trusted
+environment will retrieve credentials for the wrong hostname/machine from a
+netrc file.</li>
+</ul>
+<p><strong>Improvements</strong></p>
+<ul>
+<li>Numerous documentation improvements</li>
+</ul>
+<p><strong>Deprecations</strong></p>
+<ul>
+<li>Added support for pypy 3.11 for Linux and macOS.</li>
+<li>Dropped support for pypy 3.9 following its end of support.</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/psf/requests/commit/021dc729f0b71a3030cefdbec7fb57a0e80a6cfd"><code>021dc72</code></a> Polish up release tooling for last manual release</li>
+<li><a href="https://github.com/psf/requests/commit/821770e822a20a21b207b3907ea83878bda1d396"><code>821770e</code></a> Bump version and add release notes for v2.32.4</li>
+<li><a href="https://github.com/psf/requests/commit/59f8aa2adf1d3d06bcbf7ce6b13743a1639a5401"><code>59f8aa2</code></a> Add netrc file search information to authentication documentation (<a href="https://redirect.github.com/psf/requests/issues/6876">#6876</a>)</li>
+<li><a href="https://github.com/psf/requests/commit/5b4b64c3467fd7a3c03f91ee641aaa348b6bed3b"><code>5b4b64c</code></a> Add more tests to prevent regression of CVE 2024 47081</li>
+<li><a href="https://github.com/psf/requests/commit/7bc45877a86192af77645e156eb3744f95b47dae"><code>7bc4587</code></a> Add new test to check netrc auth leak (<a href="https://redirect.github.com/psf/requests/issues/6962">#6962</a>)</li>
+<li><a href="https://github.com/psf/requests/commit/96ba401c1296ab1dda74a2365ef36d88f7d144ef"><code>96ba401</code></a> Only use hostname to do netrc lookup instead of netloc</li>
+<li><a href="https://github.com/psf/requests/commit/7341690e842a23cf18ded0abd9229765fa88c4e2"><code>7341690</code></a> Merge pull request <a href="https://redirect.github.com/psf/requests/issues/6951">#6951</a> from tswast/patch-1</li>
+<li><a href="https://github.com/psf/requests/commit/6716d7c9f29df636643fa2489f98890216525cb0"><code>6716d7c</code></a> remove links</li>
+<li><a href="https://github.com/psf/requests/commit/a7e1c745dc23c18e836febd672416ed0c5d8d8ae"><code>a7e1c74</code></a> Update docs/conf.py</li>
+<li><a href="https://github.com/psf/requests/commit/c799b8167a13416833ad3b4f3298261a477e826f"><code>c799b81</code></a> docs: fix dead links to kenreitz.org</li>
+<li>Additional commits viewable in <a href="https://github.com/psf/requests/compare/v2.32.3...v2.32.4">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=requests&package-manager=pip&previous-version=2.32.3&new-version=2.32.4)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/digitaldemocracy2030/polimoney/network/alerts).
+
+</details>
+
+**コメント:** なし
+
+---
+
+### [chore(deps): bump python-multipart from 0.0.6 to 0.0.18 in /backend](https://github.com/digitaldemocracy2030/polimoney/pull/213)
+
+**作成者:** dependabot[bot]  
+**作成日:** 2025-10-25T04:31:50Z  
+**変更:** +1 -1 (1ファイル)  
+**マージ日:** 2025-10-25T04:32:10Z  
+**内容:**
+
+Bumps [python-multipart](https://github.com/Kludex/python-multipart) from 0.0.6 to 0.0.18.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href="https://github.com/Kludex/python-multipart/releases">python-multipart's releases</a>.</em></p>
+<blockquote>
+<h2>Version 0.0.18</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Hard break if found data after last boundary on <code>MultipartParser</code> by <a href="https://github.com/Kludex"><code>@​Kludex</code></a> in <a href="https://redirect.github.com/Kludex/python-multipart/pull/189">Kludex/python-multipart#189</a></li>
+</ul>
+<hr />
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.17...0.0.18">https://github.com/Kludex/python-multipart/compare/0.0.17...0.0.18</a></p>
+<h2>Version 0.0.17</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Handle PermissionError in fallback code for old import name by <a href="https://github.com/defnull"><code>@​defnull</code></a> in <a href="https://redirect.github.com/Kludex/python-multipart/pull/182">Kludex/python-multipart#182</a></li>
+</ul>
+<hr />
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.16...0.0.17">https://github.com/Kludex/python-multipart/compare/0.0.16...0.0.17</a></p>
+<h2>Version 0.0.16</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add dunder attributes to <code>multipart</code> package by <a href="https://github.com/Kludex"><code>@​Kludex</code></a> in <a href="https://redirect.github.com/Kludex/python-multipart/pull/177">Kludex/python-multipart#177</a></li>
+</ul>
+<hr />
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.15...0.0.16">https://github.com/Kludex/python-multipart/compare/0.0.15...0.0.16</a></p>
+<h2>Version 0.0.15</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Replace <code>FutureWarning</code> to <code>PendingDeprecationWarning</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/174">#174</a>.</li>
+<li>Add missing files to SDist <a href="https://redirect.github.com/Kludex/python-multipart/pull/171">#171</a>.</li>
+</ul>
+<hr />
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.14...0.0.15">https://github.com/Kludex/python-multipart/compare/0.0.14...0.0.15</a></p>
+<h2>Version 0.0.14</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: use alternate scheme for importing multipart by <a href="https://github.com/henryiii"><code>@​henryiii</code></a> in <a href="https://redirect.github.com/Kludex/python-multipart/pull/168">Kludex/python-multipart#168</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.13...0.0.14">https://github.com/Kludex/python-multipart/compare/0.0.13...0.0.14</a></p>
+<h2>Version 0.0.13</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Rename import to python_multipart by <a href="https://github.com/henryiii"><code>@​henryiii</code></a> in <a href="https://redirect.github.com/Kludex/python-multipart/pull/166">Kludex/python-multipart#166</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href="https://github.com/henryiii"><code>@​henryiii</code></a> made their first contribution in <a href="https://redirect.github.com/Kludex/python-multipart/pull/166">Kludex/python-multipart#166</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Kludex/python-multipart/compare/0.0.12...0.0.13">https://github.com/Kludex/python-multipart/compare/0.0.12...0.0.13</a></p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href="https://github.com/Kludex/python-multipart/blob/master/CHANGELOG.md">python-multipart's changelog</a>.</em></p>
+<blockquote>
+<h2>0.0.18 (2024-11-28)</h2>
+<ul>
+<li>Hard break if found data after last boundary on <code>MultipartParser</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/189">#189</a>.</li>
+</ul>
+<h2>0.0.17 (2024-10-31)</h2>
+<ul>
+<li>Handle PermissionError in fallback code for old import name <a href="https://redirect.github.com/Kludex/python-multipart/pull/182">#182</a>.</li>
+</ul>
+<h2>0.0.16 (2024-10-27)</h2>
+<ul>
+<li>Add dunder attributes to <code>multipart</code> package <a href="https://redirect.github.com/Kludex/python-multipart/pull/177">#177</a>.</li>
+</ul>
+<h2>0.0.15 (2024-10-27)</h2>
+<ul>
+<li>Replace <code>FutureWarning</code> to <code>PendingDeprecationWarning</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/174">#174</a>.</li>
+<li>Add missing files to SDist <a href="https://redirect.github.com/Kludex/python-multipart/pull/171">#171</a>.</li>
+</ul>
+<h2>0.0.14 (2024-10-24)</h2>
+<ul>
+<li>Fix import scheme for <code>multipart</code> module (<a href="https://redirect.github.com/Kludex/python-multipart/pull/168">#168</a>).</li>
+</ul>
+<h2>0.0.13 (2024-10-20)</h2>
+<ul>
+<li>Rename import to <code>python_multipart</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/166">#166</a>.</li>
+</ul>
+<h2>0.0.12 (2024-09-29)</h2>
+<ul>
+<li>Improve error message when boundary character does not match <a href="https://redirect.github.com/Kludex/python-multipart/pull/124">#124</a>.</li>
+<li>Add mypy strict typing <a href="https://redirect.github.com/Kludex/python-multipart/pull/140">#140</a>.</li>
+<li>Enforce 100% coverage <a href="https://redirect.github.com/Kludex/python-multipart/pull/159">#159</a>.</li>
+</ul>
+<h2>0.0.11 (2024-09-28)</h2>
+<ul>
+<li>Improve performance, especially in data with many CR-LF <a href="https://redirect.github.com/Kludex/python-multipart/pull/137">#137</a>.</li>
+<li>Handle invalid CRLF in header name <a href="https://redirect.github.com/Kludex/python-multipart/pull/141">#141</a>.</li>
+</ul>
+<h2>0.0.10 (2024-09-21)</h2>
+<ul>
+<li>Support <code>on_header_begin</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/103">#103</a>.</li>
+<li>Improve type hints on <code>FormParser</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/104">#104</a>.</li>
+<li>Fix <code>OnFileCallback</code> type <a href="https://redirect.github.com/Kludex/python-multipart/pull/106">#106</a>.</li>
+<li>Improve type hints <a href="https://redirect.github.com/Kludex/python-multipart/pull/110">#110</a>.</li>
+<li>Improve type hints on <code>File</code> <a href="https://redirect.github.com/Kludex/python-multipart/pull/111">#111</a>.</li>
+<li>Add type hint to helper functions <a href="https://redirect.github.com/Kludex/python-multipart/pull/112">#112</a>.</li>
+<li>Minor fix for Field.<strong>repr</strong> <a href="https://redirect.github.com/Kludex/python-multipart/pull/114">#114</a>.</li>
+<li>Fix use of chunk_size parameter <a href="https://redirect.github.com/Kludex/python-multipart/pull/136">#136</a>.</li>
+<li>Allow digits and valid token chars in headers <a href="https://redirect.github.com/Kludex/python-multipart/pull/134">#134</a>.</li>
+<li>Fix headers being carried between parts <a href="https://redirect.github.com/Kludex/python-multipart/pull/135">#135</a>.</li>
+</ul>
+<h2>0.0.9 (2024-02-10)</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/Kludex/python-multipart/commit/5b1aed83adadbff1677779cd0df53723cd80a0d6"><code>5b1aed8</code></a> Version 0.0.18 (<a href="https://redirect.github.com/Kludex/python-multipart/issues/191">#191</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/9205a0ec8c646b9f705430a6bfb52bd957b76c19"><code>9205a0e</code></a> Hard break if found data after last boundary on <code>MultipartParser</code> (<a href="https://redirect.github.com/Kludex/python-multipart/issues/189">#189</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/170e6043ffeb8f9fb6ad622729f3eda3f45b98cb"><code>170e604</code></a> Update ruff &amp; mypy (<a href="https://redirect.github.com/Kludex/python-multipart/issues/188">#188</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/e53b541356981b2353914ef5dbf6a1b0605f31c5"><code>e53b541</code></a> Create SECURITY.md (<a href="https://redirect.github.com/Kludex/python-multipart/issues/187">#187</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/02d1ec148b40470b8bbb25dd833c1e1aace51a8b"><code>02d1ec1</code></a> fuzz: fix boundary error (<a href="https://redirect.github.com/Kludex/python-multipart/issues/179">#179</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/616b81e72fe67ce67e332c446513ef89b9d816dc"><code>616b81e</code></a> Version 0.0.17 (<a href="https://redirect.github.com/Kludex/python-multipart/issues/183">#183</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/ca52662eda368bd61fbb9508bfaffb0fc4af6028"><code>ca52662</code></a> Handle PermissionError in fallback code for old import name (<a href="https://redirect.github.com/Kludex/python-multipart/issues/182">#182</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/876406774d9b98c7b3afa24c3a0c901215f87029"><code>8764067</code></a> Version 0.0.16 (<a href="https://redirect.github.com/Kludex/python-multipart/issues/177">#177</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/ce85154ff138227654e19d5a47eea6b316bba427"><code>ce85154</code></a> Version 0.0.15 (<a href="https://redirect.github.com/Kludex/python-multipart/issues/175">#175</a>)</li>
+<li><a href="https://github.com/Kludex/python-multipart/commit/73fb55d1f8fec576759fcc3c11cc0807d246af00"><code>73fb55d</code></a> ci: check-sdist (<a href="https://redirect.github.com/Kludex/python-multipart/issues/172">#172</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/Kludex/python-multipart/compare/0.0.6...0.0.18">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=python-multipart&package-manager=pip&previous-version=0.0.6&new-version=0.0.18)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/digitaldemocracy2030/polimoney/network/alerts).
+
+</details>
+
+**コメント:** なし
+
+---
+
+### [auth0対応](https://github.com/digitaldemocracy2030/polimoney/pull/212)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-10-25T04:30:30Z  
+**変更:** +521 -506 (12ファイル)  
+**マージ日:** 2025-10-25T04:30:36Z  
+**内容:**
+
+# 変更の概要
+auth0対応機能
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+# リリースノート
+
+* **新機能**
+  * Auth0を使用した認証システムを導入しました。
+
+* **ドキュメント**
+  * Auth0の設定手順とセットアップガイドをREADMEに追加しました。
+  * アーキテクチャドキュメントを拡充し、レイヤード設計を詳細に説明しました。
+
+* **Chores**
+  * 認証関連の依存パッケージを更新しました。
+  * ドキュメント生成ツールを追加しました。
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [docs](https://github.com/digitaldemocracy2030/polimoney/pull/211)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-10-25T03:36:53Z  
+**変更:** +957 -235 (26ファイル)  
+**マージ日:** 2025-10-25T03:36:59Z  
+**内容:**
+
+# 変更の概要
+docsをかきました
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x]CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+## リリースノート
+
+* **セキュリティ強化**
+  * パスワード暗号化の2段階処理（SHA256+bcrypt）により保護を強化
+  * トークン検証とユーザー認証フローを改善
+
+* **新機能**
+  * CORS設定、デバッグモード、ホスト/ポート設定のサポート
+  * リクエストIDトレーシング機能でデバッグが容易に
+
+* **データ拡張**
+  * ユーザープロフィールに検証状態、ログイン履歴、タイムスタンプを追加
+  * 選挙資金・政治資金データに詳細情報フィールドを追加
+
+* **API改善**
+  * エラーハンドリングと例外応答を強化
+  * システムスタートアップ時にデータベース初期化を自動実行
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [fastapiリプレイス](https://github.com/digitaldemocracy2030/polimoney/pull/210)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-10-24T14:44:48Z  
+**変更:** +2987 -5576 (89ファイル)  
+**マージ日:** 2025-10-24T14:44:58Z  
+**内容:**
+
+# 変更の概要
+backendをpython fastapiに変更します
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+**コメント:** なし
+
+---
+
+### [chore(deps): bump langchain-text-splitters from 0.3.8 to 0.3.9 in /tools](https://github.com/digitaldemocracy2030/polimoney/pull/209)
+
+**作成者:** dependabot[bot]  
+**作成日:** 2025-10-24T13:38:02Z  
+**変更:** +23 -23 (1ファイル)  
+**マージ日:** 2025-10-24T14:45:18Z  
+**内容:**
+
+Bumps [langchain-text-splitters](https://github.com/langchain-ai/langchain) from 0.3.8 to 0.3.9.
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href="https://github.com/langchain-ai/langchain/commit/77c981999ef9db9a2fcc9feb76576cc035ae40fc"><code>77c9819</code></a> fix(text-splitters): update langchain-core version to 0.3.72</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/7f015b6f144ba5edfc9e35acf3cb663ec6020345"><code>7f015b6</code></a> fix(text-splitters): update lock for release</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/71ad451e1f44de6306b796204f1c03026a5bd470"><code>71ad451</code></a> Merge branch 'master' of github.com:langchain-ai/langchain</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/2c428937039dc2b97877a44e1cd0416a4e69d205"><code>2c42893</code></a> fix(langchain): update langchain-core version to 0.3.72</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/0e139fb9a6eed22be90772822081df90c6d81f5b"><code>0e139fb</code></a> release(langchain): 0.3.27 (<a href="https://redirect.github.com/langchain-ai/langchain/issues/32227">#32227</a>)</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/622bb0575137d883c785e776e1120541a3b286c3"><code>622bb05</code></a> fix(langchain): class HTMLSemanticPreservingSplitter ignores the text inside ...</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/56dde3ade3b6b979f5c1f043c2c8b4a8db82f867"><code>56dde3a</code></a> feat(langchain): v1 scaffolding (<a href="https://redirect.github.com/langchain-ai/langchain/issues/32166">#32166</a>)</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/bd3d6496f3c67c8be10df0847ee346c9379f7169"><code>bd3d649</code></a> release(core): 0.3.72 (<a href="https://redirect.github.com/langchain-ai/langchain/issues/32214">#32214</a>)</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/fb5da8384e636db91b0313cab3cc21b661889684"><code>fb5da83</code></a> fix(core): Dereference Refs for pydantic schema fails in tool schema generati...</li>
+<li><a href="https://github.com/langchain-ai/langchain/commit/a7d0e42f3fa5b147fea9109f60e799229f30a68b"><code>a7d0e42</code></a> docs: fix typos in documentation (<a href="https://redirect.github.com/langchain-ai/langchain/issues/32201">#32201</a>)</li>
+<li>Additional commits viewable in <a href="https://github.com/langchain-ai/langchain/compare/langchain-text-splitters==0.3.8...langchain-text-splitters==0.3.9">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=langchain-text-splitters&package-manager=pip&previous-version=0.3.8&new-version=0.3.9)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/digitaldemocracy2030/polimoney/network/alerts).
+
+</details>
+
+**コメント:** なし
+
+---
+
+### 過去7日間に作成されたPR (2件)
+
+### [設定の更新](https://github.com/digitaldemocracy2030/polimoney/pull/220)
+
+**作成者:** grassfieldk  
+**作成日:** 2025-10-26T07:25:44Z  
+**変更:** +93 -2 (3ファイル)  
+**内容:**
+
+## 変更の概要
+
+- Biome 設定の変更
+- Copilot 指示書の作成
+
+
+## 変更の背景
+
+- Biome のバージョンが固定されておらず、環境によりフォーマットなどが統一されない問題があったため修正
+- GitHub Copilot の出力の品質を高めるため指示書を作成
+
+## 関連Issue
+
+なし
+
+
+## CLAへの同意
+
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+## リリースノート
+
+* **Documentation**
+  * 開発ガイダンス用のドキュメントを追加しました。
+
+* **Chores**
+  * 開発用ツールの依存関係を更新しました。
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [#197 サンキー図・一覧表のデータを統一](https://github.com/digitaldemocracy2030/polimoney/pull/208)
+
+**作成者:** grassfieldk  
+**作成日:** 2025-10-24T10:52:52Z  
+**変更:** +3078 -221 (24ファイル)  
+**内容:**
+
+## 変更の概要
+
+サンキー図用のデータ `Flow` を `Transaction` から生成するように変更
+
+既存の実装との比較のため、新しい実装を適用したコードは各自 uniformed ディレクトリを作成しそこに作成し
+新規ページとして実装（アクセス例: /uniformed/takahiro-anno/2024/）
+
+将来的な機能追加の準備も兼ね、ログインしていないと該当ページが表示されないように
+※ Auth0 を使用
+
+
+## 変更の背景
+
+関連 Issue を参照
+
+
+## 関連Issue
+
+- #199
+
+
+## CLAへの同意
+
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+## リリースノート
+
+* **新機能**
+  * 政治家の年別財務データページを新規追加
+  * 認証機能（Auth0）を実装し、ユーザーアカウント管理とログイン機能を提供
+  * サンキーダイアグラムによる資金フローの可視化を改善
+  * 収支情報の統合サマリー表示を実装
+  * SNS共有パネルをMenu UIに刷新
+
+* **改善**
+  * ヘッダーレイアウトをFlexベースに更新
+  * 複数年の財務データ表示に対応
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### 過去7日間に更新されたPR（作成・マージを除く）(1件)
+
+### [東京都　運動費用収支報告書](https://github.com/digitaldemocracy2030/polimoney/pull/196)
+
+**作成者:** shumizu418128  
+**作成日:** 2025-09-11T11:16:01Z  
+**変更:** +654 -110 (14ファイル)  
+**内容:**
+
+# 変更の概要
+<!-- ここに変更の概要を記載してください -->
+#191 
+東京都にも対応
+また、今後他の地域にも対応できるよう、READMEを策定
+
+# スクリーンショット
+<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->
+
+# 変更の背景
+<!-- ここに変更が必要となった背景を記載してください -->
+
+# 関連Issue
+<!-- 関連するIssueのリンクをこちらに記載してください -->
+
+# CLAへの同意
+本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。
+
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+- 新機能
+  - 東京向けの選挙収支解析を追加し、Excelから各カテゴリのJSONを自動生成、コマンドライン実行に対応。
+- ドキュメント
+  - 都道府県別の実装ガイドと命名・出力規約を追加。
+- リファクタ
+  - 列定義と数値抽出処理を共通化し、既存処理を移行して数値解析の堅牢性を向上。
+  - 出力を入力ファイルごとのサブフォルダに整理。
+- 雑務
+  - .gitignoreをディレクトリ単位に拡張。
+  - 使用方法メッセージを修正。
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
