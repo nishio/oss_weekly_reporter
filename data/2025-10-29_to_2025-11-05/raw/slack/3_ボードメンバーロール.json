@@ -1,0 +1,1052 @@
+[
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1761870227.363719",
+    "client_msg_id": "d7b588f3-8577-4de6-bfcb-bf95456ab683",
+    "text": "<@U08N3V4NQRE> そういえば、個人からの寄付の受付については、いまどういう感じになってますでしょうか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "reply_count": 16,
+    "reply_users_count": 4,
+    "latest_reply": "1761904482.963039",
+    "reply_users": [
+      "U08N3V4NQRE",
+      "U08JASQKEEM",
+      "U09C3J7V960",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZYkVd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " そういえば、個人からの寄付の受付については、いまどういう感じになってますでしょうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "@kojin.oshiba そういえば、個人からの寄付の受付については、いまどういう感じになってますでしょうか"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1761875367.964259",
+    "client_msg_id": "0EE014B6-2308-44FE-ABFF-1325DDF667E7",
+    "text": "たしか以前Stripeか何かで寄付を簡単めに募れる方法があるみたいな議論をしていました。 <@U08HWJ80CHG> ここって一緒に話してましたっけ。最近ウェブリデザインの議論も出てたかと思いますが、その流れで一般寄付のためにStripeか何かの埋め込みってできますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uqfpb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たしか以前Stripeか何かで寄付を簡単めに募れる方法があるみたいな議論をしていました。 "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " ここって一緒に話してましたっけ。最近ウェブリデザインの議論も出てたかと思いますが、その流れで一般寄付のためにStripeか何かの埋め込みってできますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "ルー大柴（Kojin Oshiba）",
+    "text_readable": "たしか以前Stripeか何かで寄付を簡単めに募れる方法があるみたいな議論をしていました。 @oscar.gaddress ここって一緒に話してましたっけ。最近ウェブリデザインの議論も出てたかと思いますが、その流れで一般寄付のためにStripeか何かの埋め込みってできますか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1761876658.697149",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1761876671.000000"
+    },
+    "client_msg_id": "b2748895-d1bb-47c3-92fd-c193a91a3b40",
+    "text": "stripe は Opencollective と連携させる話で出てましたが、 OpenCollective はやらないことになったんですかね？ (wise なしでも stripe + opencollective だけでも寄付の透明化はできるのではと思うのですが",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2XiDX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "stripe は Opencollective と連携させる話で出てましたが、 OpenCollective はやらないことになったんですかね？ (wise なしでも stripe + opencollective だけでも寄付の透明化はできるのではと思うのですが"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "stripe は Opencollective と連携させる話で出てましたが、 OpenCollective はやらないことになったんですかね？ (wise なしでも stripe + opencollective だけでも寄付の透明化はできるのではと思うのですが"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1761876933.813839",
+    "client_msg_id": "97a51549-4a4f-419b-bc96-95a2c2082ab8",
+    "text": "stripe を <http://dd2030.org|dd2030.org> のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+7vWR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "stripe を "
+              },
+              {
+                "type": "link",
+                "url": "http://dd2030.org",
+                "text": "dd2030.org"
+              },
+              {
+                "type": "text",
+                "text": " のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "stripe を <http://dd2030.org|dd2030.org> のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。"
+  },
+  {
+    "text": "<@U08N3V4NQRE> (<@U08JASQKEEM> )\n1. Stripeを埋め込む　のほかに、\n2. Syncableを使う（<https://service.syncable.biz/associate_top?utm_source=syncable&utm_medium=top>）\nの二つあると思っていて、（別の）私の団体ではSyncableを導入しようと思っています。\nもし本件についてフォロー必要でしたらお知らせください！\n（DD2030は任意団体なので、可能性としてSyncable使えない、ってこともゼロではないですが多分大丈夫だとは思います）",
+    "files": [
+      {
+        "id": "F09PRT4F3HB",
+        "created": 1761878888,
+        "timestamp": 1761878888,
+        "name": "Syncableサービス概要資料（資料ダウンロード）.pdf",
+        "title": "Syncableサービス概要資料（資料ダウンロード）.pdf",
+        "mimetype": "application/pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U09C3J7V960",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 2450285,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09PRT4F3HB/syncable_________________________________________________________.pdf",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09PRT4F3HB/download/syncable_________________________________________________________.pdf",
+        "media_display_type": "unknown",
+        "thumb_pdf": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PRT4F3HB-7c017c7a00/syncable__________________________________________________________thumb_pdf.png",
+        "thumb_pdf_w": 2933,
+        "thumb_pdf_h": 1650,
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09PRT4F3HB/syncable_________________________________________________________.pdf",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09PRT4F3HB-fc741d1eea",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U09C3J7V960",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aTLT3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " ("
+              },
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " )\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Stripeを埋め込む　のほかに、"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Syncableを使う（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://service.syncable.biz/associate_top?utm_source=syncable&utm_medium=top"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "の二つあると思っていて、（別の）私の団体ではSyncableを導入しようと思っています。\nもし本件についてフォロー必要でしたらお知らせください！\n（DD2030は任意団体なので、可能性としてSyncable使えない、ってこともゼロではないですが多分大丈夫だとは思います）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761878906.788749",
+    "edited": {
+      "user": "U09C3J7V960",
+      "ts": "1761878948.000000"
+    },
+    "client_msg_id": "b9a9455a-8a08-4f6f-b4b4-371f48f4137c",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "reactions": [
+      {
+        "name": "tikennda",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@kojin.oshiba (@kuboon )\n1. Stripeを埋め込む　のほかに、\n2. Syncableを使う（<https://service.syncable.biz/associate_top?utm_source=syncable&utm_medium=top>）\nの二つあると思っていて、（別の）私の団体ではSyncableを導入しようと思っています。\nもし本件についてフォロー必要でしたらお知らせください！\n（DD2030は任意団体なので、可能性としてSyncable使えない、ってこともゼロではないですが多分大丈夫だとは思います）"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761879625.467359",
+    "client_msg_id": "5833a19a-9f93-42f8-9df4-a64965871629",
+    "text": "&gt; OpenCollective はやらないことになったんですかね？\n<@U08JASQKEEM> はい、先週の全体会議（10/25）で討議したのですがボード判断としてやらないことになりました！\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761358170747179?thread_ts=1759901679.924869&amp;cid=C08TR6S8Y0Z>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761358170747179?thread_ts=1759901679.924869&amp;cid=C08TR6S8Y0Z",
+        "ts": "1761358170.747179",
+        "author_id": "U09C3J7V960",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1761358170.747179",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "WIQpd",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08HWJ80CHG"
+                        },
+                        {
+                          "type": "text",
+                          "text": " ("
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08N3V4NQRE"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n\n10/25全体会議における議論と結論\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Open Collectiveを使いたいのは、\n・DD2030で受け付けた寄附と、それを何に支出しているのかタイムリーに対外的に公表したいから\n\n現状\n・DD2030としてはまだ寄附を受け付けていない段階\n　（＝なので現段階でOpen Collective導入しても公表する寄附がない）\n・支出については、CFJ様からDD2030専用のクレジットカードを提供していただいている。\n・支出の一部を個人立替しているケースがあるが対象は二人、年間でも金額規模は低い。\n\nその他\n・Open Collective導入（Wise導入）には一定程度のエンジニアリソースがかかる\n\n結論\n・Open Collective導入に見合うDD2030の規模ではない、また、リソースもかかる。\n・そのため、Open Collective導入はペンディング。\n・今後寄附を受け取って事業規模が大きくなったら再度検討。"
+                        }
+                      ],
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761358170747179?thread_ts=1759901679.924869&amp;cid=C08TR6S8Y0Z",
+        "fallback": "[October 24th, 2025 7:09 PM] nishida.naofumi: <@U08HWJ80CHG> (<@U08N3V4NQRE>)\n\n10/25全体会議における議論と結論\n```Open Collectiveを使いたいのは、\n・DD2030で受け付けた寄附と、それを何に支出しているのかタイムリーに対外的に公表したいから\n\n現状\n・DD2030としてはまだ寄附を受け付けていない段階\n　（＝なので現段階でOpen Collective導入しても公表する寄附がない）\n・支出については、CFJ様からDD2030専用のクレジットカードを提供していただいている。\n・支出の一部を個人立替しているケースがあるが対象は二人、年間でも金額規模は低い。\n\nその他\n・Open Collective導入（Wise導入）には一定程度のエンジニアリソースがかかる\n\n結論\n・Open Collective導入に見合うDD2030の規模ではない、また、リソースもかかる。\n・そのため、Open Collective導入はペンディング。\n・今後寄附を受け取って事業規模が大きくなったら再度検討。```",
+        "text": "<@U08HWJ80CHG> (<@U08N3V4NQRE>)\n\n10/25全体会議における議論と結論\n```Open Collectiveを使いたいのは、\n・DD2030で受け付けた寄附と、それを何に支出しているのかタイムリーに対外的に公表したいから\n\n現状\n・DD2030としてはまだ寄附を受け付けていない段階\n　（＝なので現段階でOpen Collective導入しても公表する寄附がない）\n・支出については、CFJ様からDD2030専用のクレジットカードを提供していただいている。\n・支出の一部を個人立替しているケースがあるが対象は二人、年間でも金額規模は低い。\n\nその他\n・Open Collective導入（Wise導入）には一定程度のエンジニアリソースがかかる\n\n結論\n・Open Collective導入に見合うDD2030の規模ではない、また、リソースもかかる。\n・そのため、Open Collective導入はペンディング。\n・今後寄附を受け取って事業規模が大きくなったら再度検討。```",
+        "author_name": "naofumi.​nishida",
+        "author_link": "https://dd2030.slack.com/team/U09C3J7V960",
+        "author_icon": "https://avatars.slack-edge.com/2025-08-26/9395057001303_d80767013416da87d923_48.png",
+        "author_subname": "naofumi.​nishida",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "diXu4",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OpenCollective はやらないことになったんですかね？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " はい、先週の全体会議（10/25）で討議したのですがボード判断としてやらないことになりました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761358170747179?thread_ts=1759901679.924869&cid=C08TR6S8Y0Z"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "> OpenCollective はやらないことになったんですかね？\n@kuboon はい、先週の全体会議（10/25）で討議したのですがボード判断としてやらないことになりました！\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761358170747179?thread_ts=1759901679.924869&cid=C08TR6S8Y0Z>"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1761883901.148929",
+    "client_msg_id": "035F4BCA-AE27-4EE2-9540-3B8E07EBB6D2",
+    "text": "おお、 <@U09C3J7V960> 心強いです。ぜひフォローお願いします:bow:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nz4Qx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おお、 "
+              },
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": " 心強いです。ぜひフォローお願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-gesturing-ok",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "ルー大柴（Kojin Oshiba）",
+    "text_readable": "おお、 <@U09C3J7V960> 心強いです。ぜひフォローお願いします:bow:"
+  },
+  {
+    "text": "> stripe を <http://dd2030.org|dd2030.org> のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。\n> <@U08JASQKEEM> こちらが参考になりますか？（「いただいた寄付に関する情報をどういう形で保持したり公開したり」とあるので、公開部分については足りない？　公開部分についてはopen collectiveが対応するからあんまり考えなくてよい？）\n<https://42tokyo.jp/donation/>",
+    "files": [
+      {
+        "id": "F09PEQBQTPZ",
+        "created": 1761891501,
+        "timestamp": 1761891501,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U09C3J7V960",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 202188,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09PEQBQTPZ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09PEQBQTPZ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 346,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 461,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 692,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 769,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 923,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09PEQBQTPZ-be011bc59c/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 984,
+        "original_w": 1366,
+        "original_h": 1313,
+        "thumb_tiny": "AwAvADCl5snOZJCT/tUebL/z1f8A76NMooAf5sv/AD1f/vo05HkY4Msvp8pJ5/Om8EDgClR1UEMmc9w2KAAyyZ4mkI92NJ5sv/PV/wDvo0jFSchcD0zTaACiiigB46UypECfxk+2D/8AWp5jjYHyxIcd/wDIoAgoqTamPvHPpimkY5zkUANooooAcFJHGOPU0EYpUKj7wJ+h/wDrUrsrchSD+GPyxQAm07c8Y+opD90fU1IXQ8bDjGOo/wAKjP3R9TQB/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09PEQBQTPZ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09PEQBQTPZ-c6dfd5af92",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U09C3J7V960",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JUGfs",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "stripe を "
+              },
+              {
+                "type": "link",
+                "url": "http://dd2030.org",
+                "text": "dd2030.org"
+              },
+              {
+                "type": "text",
+                "text": " のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " こちらが参考になりますか？（「いただいた寄付に関する情報をどういう形で保持したり公開したり」とあるので、公開部分については足りない？　公開部分についてはopen collectiveが対応するからあんまり考えなくてよい？）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://42tokyo.jp/donation/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761891506.682789",
+    "edited": {
+      "user": "U09C3J7V960",
+      "ts": "1761892107.000000"
+    },
+    "client_msg_id": "cf415e61-999c-4074-ad09-4abed539b52f",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "> stripe を <http://dd2030.org|dd2030.org> のサイトに埋め込むというのはできると思いますが (私が CMS 化含め実装するつもりです) いただいた寄付に関する情報をどういう形で保持したり公開したりすればいいのかのイメージがわからないので、参考となるサイトなどあれば助かります。\n> @kuboon こちらが参考になりますか？（「いただいた寄付に関する情報をどういう形で保持したり公開したり」とあるので、公開部分については足りない？　公開部分についてはopen collectiveが対応するからあんまり考えなくてよい？）\n<https://42tokyo.jp/donation/>"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761891649.560299",
+    "client_msg_id": "d9677ede-671c-4dff-892d-76e40951e798",
+    "text": "<@U08JASQKEEM> あとはDD2030のstripeのアカウントがあればいいですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u0Hop",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " あとはDD2030のstripeのアカウントがあればいいですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@kuboon あとはDD2030のstripeのアカウントがあればいいですか？"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761891902.302449",
+    "client_msg_id": "89ee8fa1-b4d9-4243-b5a3-c940900aa363",
+    "text": "===\n<@U08N3V4NQRE>\n1. stripe（決済手数料3.7%）＋open collective\n2. syncable（決済手数料5.0%）※開設コストなし\n1をメインで想定しつつ、とりあえず2も準備しておくことで進めてみます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/fV3E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "===\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "stripe（決済手数料3.7%）＋open collective"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "syncable（決済手数料5.0%）※開設コストなし"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n1をメインで想定しつつ、とりあえず2も準備しておくことで進めてみます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "===\n@kojin.oshiba\n1. stripe（決済手数料3.7%）＋open collective\n2. syncable（決済手数料5.0%）※開設コストなし\n1をメインで想定しつつ、とりあえず2も準備しておくことで進めてみます。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1761896180.636609",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1761896256.000000"
+    },
+    "client_msg_id": "cfa748ca-4cd9-426b-83e4-f505a1781eaa",
+    "text": ">  DD2030のstripeのアカウントがあればいいですか？\nはい、それで良いはずです cc: <@U08HWJ80CHG>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SyU/K",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " DD2030のstripeのアカウントがあればいいですか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい、それで良いはずです cc: "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-gesturing-ok",
+        "users": [
+          "U09C3J7V960",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  DD2030のstripeのアカウントがあればいいですか？\nはい、それで良いはずです cc: @oscar.gaddress"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761896849.274279",
+    "client_msg_id": "d37b12b8-71c4-47a6-9ff1-11b6f75b1d94",
+    "text": "<@U08JASQKEEM> 確認ありがとうございます、では相談のうえ進めますね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DqadG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": " 確認ありがとうございます、では相談のうえ進めますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@kuboon 確認ありがとうございます、では相談のうえ進めますね。"
+  },
+  {
+    "text": "以前大柴さんにOKいただきStripeを作成\n↓\n中窪さんに口座などの情報入力を依頼\n↓\n大柴さんにOKいただいたのがDMだったため、本当にOKかわからず、Stripeに情報入力できないとなる\n↓\nいつの間にか皆の頭から消えた\nという状態です:man-bowing:\n情報入力は添付の状況",
+    "files": [
+      {
+        "id": "F09Q9N6PX5X",
+        "created": 1761898076,
+        "timestamp": 1761898076,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 35156,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09Q9N6PX5X/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09Q9N6PX5X/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q9N6PX5X-8f10f1f198/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q9N6PX5X-8f10f1f198/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q9N6PX5X-8f10f1f198/image_360.png",
+        "thumb_360_w": 209,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q9N6PX5X-8f10f1f198/image_480.png",
+        "thumb_480_w": 279,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09Q9N6PX5X-8f10f1f198/image_160.png",
+        "original_w": 280,
+        "original_h": 482,
+        "thumb_tiny": "AwAwABzTpCD/AHjQSR9O9IN3qM5/umgBwGO+aKKKAEbp03e1RhwPlbB6eg/rUh9jikG7v6+v/wBagBwxjjH4UUd+tFAARngjNN2jOQq+5pT0PGfrQwJHQH2NAAN3HAx9aWkwPQUtAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09Q9N6PX5X/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09Q9N6PX5X-be356a2b90",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iZBKl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前大柴さんにOKいただきStripeを作成\n↓\n中窪さんに口座などの情報入力を依頼\n↓\n大柴さんにOKいただいたのがDMだったため、本当にOKかわからず、Stripeに情報入力できないとなる\n↓\nいつの間にか皆の頭から消えた\nという状態です"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              },
+              {
+                "type": "text",
+                "text": "\n情報入力は添付の状況"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1761898085.825339",
+    "client_msg_id": "1ea96297-3afd-4488-a002-2d45eb6cd6bb",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "小野翔太",
+    "text_readable": "以前大柴さんにOKいただきStripeを作成\n↓\n中窪さんに口座などの情報入力を依頼\n↓\n大柴さんにOKいただいたのがDMだったため、本当にOKかわからず、Stripeに情報入力できないとなる\n↓\nいつの間にか皆の頭から消えた\nという状態です:man-bowing:\n情報入力は添付の状況"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761898214.455139",
+    "client_msg_id": "344bd60e-47c2-49d7-8633-bb5eddf67d91",
+    "text": "すでにStripeのメンバーにいるのは\n小野翔太\n管理者\n<mailto:s.ono.moai@dd2030.org|s.ono.moai@dd2030.org>\n\n大柴行人\n所有者・スーパー管理者\n<mailto:community@dd2030.org|community@dd2030.org>\n\n中窪悟\n<mailto:c4j_admin@dd2030.org|c4j_admin@dd2030.org>\n管理者",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Tx9aO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すでにStripeのメンバーにいるのは\n小野翔太\n管理者\n"
+              },
+              {
+                "type": "link",
+                "url": "mailto:s.ono.moai@dd2030.org",
+                "text": "s.ono.moai@dd2030.org",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "\n\n大柴行人\n所有者・スーパー管理者\n"
+              },
+              {
+                "type": "link",
+                "url": "mailto:community@dd2030.org",
+                "text": "community@dd2030.org"
+              },
+              {
+                "type": "text",
+                "text": "\n\n中窪悟\n"
+              },
+              {
+                "type": "link",
+                "url": "mailto:c4j_admin@dd2030.org",
+                "text": "c4j_admin@dd2030.org"
+              },
+              {
+                "type": "text",
+                "text": "\n管理者"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "小野翔太",
+    "text_readable": "すでにStripeのメンバーにいるのは\n小野翔太\n管理者\n<mailto:s.ono.moai@dd2030.org|s.ono.moai@dd2030.org>\n\n大柴行人\n所有者・スーパー管理者\n<mailto:community@dd2030.org|community@dd2030.org>\n\n中窪悟\n<mailto:c4j_admin@dd2030.org|c4j_admin@dd2030.org>\n管理者"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761898278.549059",
+    "client_msg_id": "d2b916e6-cb9e-430e-9927-e7e6c56e5270",
+    "text": "必要あれば西田さん\n<mailto:nishida.naofumi@solon.co.jp|nishida.naofumi@solon.co.jp>\nをご招待します。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "duf4f",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "必要あれば西田さん\n"
+              },
+              {
+                "type": "link",
+                "url": "mailto:nishida.naofumi@solon.co.jp",
+                "text": "nishida.naofumi@solon.co.jp",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": "\nをご招待します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "小野翔太",
+    "text_readable": "必要あれば西田さん\n<mailto:nishida.naofumi@solon.co.jp|nishida.naofumi@solon.co.jp>\nをご招待します。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1761900088.855139",
+    "client_msg_id": "e7d5f1cb-ec03-4ffd-b414-24c241d66f4e",
+    "text": "<@U08HWJ80CHG> おお、めちゃくちゃ助かります。すでに作成済だったんですね。\nはい、管理者に西田も招待頂けると助かります。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8d4YS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " おお、めちゃくちゃ助かります。すでに作成済だったんですね。\nはい、管理者に西田も招待頂けると助かります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress おお、めちゃくちゃ助かります。すでに作成済だったんですね。\nはい、管理者に西田も招待頂けると助かります。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1761904482.963039",
+    "client_msg_id": "c02fa0e2-3cc5-4ef2-b643-739adc4ba57e",
+    "text": "<@U09C3J7V960>\nただいまお送りしました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1761870227.363719",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3uB9x",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\nただいまお送りしました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1761870227.363719",
+    "user_name": "小野翔太",
+    "text_readable": "<@U09C3J7V960>\nただいまお送りしました！"
+  }
+]

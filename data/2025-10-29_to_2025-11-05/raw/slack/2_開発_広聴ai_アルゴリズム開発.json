@@ -1,0 +1,574 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761838662.800449",
+    "client_msg_id": "e292695f-5c0c-4cac-892b-8fbb635a8e07",
+    "text": "<https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0|主観的興味深さ推定システム>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+        "fallback": "西尾泰和の外部脳: 主観的興味深さ推定システム - 西尾泰和の外部脳",
+        "text": "広聴AIのような「大量のオブジェクトがベクトル空間に埋め込まれている」的シチュエーションに関して 抽出された知見(大量のオブジェクト)の中から、分析者が興味深いと思うものを抽出したい ただし、この「興味深さ」は主観であり、何を興味深いと思うかは既知ではない 主観的興味深さ 分析者はそれを言語化できていない なのでAIは分析者との対話を通じて「分析者が何を興味深いと思うか」を探らなければならない お",
+        "title": "主観的興味深さ推定システム - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mb2G6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0",
+                "text": "主観的興味深さ推定システム"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://scrapbox.io/nishio/%E4%B8%BB%E8%A6%B3%E7%9A%84%E8%88%88%E5%91%B3%E6%B7%B1%E3%81%95%E6%8E%A8%E5%AE%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0|主観的興味深さ推定システム>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1761839374.079929",
+    "client_msg_id": "16705ccb-3c7f-43c5-8ee9-5888c2c132dd",
+    "text": "5段階評価で行けるのかなぁ？と考えてた。　いくつか提示して、最も興味深いのを選択するというプロセスで、有効グラフを作ってそれで探索できたりしないかな。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hTjPO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "5段階評価で行けるのかなぁ？と考えてた。　いくつか提示して、最も興味深いのを選択するというプロセスで、有効グラフを作ってそれで探索できたりしないかな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "5段階評価で行けるのかなぁ？と考えてた。　いくつか提示して、最も興味深いのを選択するというプロセスで、有効グラフを作ってそれで探索できたりしないかな。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761840374.298429",
+    "client_msg_id": "ee8d6b42-f44c-4517-b75b-c2b10559eb70",
+    "text": "&gt; いくつか提示して、最も興味深いのを選択するというプロセス\nそれもGPT5が出してきた当初案なんだけど、UX的にはTinder的に超軽いUIで二段階評価が良いと思っている",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Jpr9c",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いくつか提示して、最も興味深いのを選択するというプロセス"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それもGPT5が出してきた当初案なんだけど、UX的にはTinder的に超軽いUIで二段階評価が良いと思っている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> いくつか提示して、最も興味深いのを選択するというプロセス\nそれもGPT5が出してきた当初案なんだけど、UX的にはTinder的に超軽いUIで二段階評価が良いと思っている"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1761957531.627959",
+    "client_msg_id": "322cc0fc-2124-4af5-aa27-2ad1de6aa5ce",
+    "text": "2次元に落としてからクラスタリングしたら精度が下がる話を健さんに説明したことで頭が整理されて\n「2次元に落としてからクラスタリングしたら精度が下がる」\n「高次元(1500くらい)のままクラスタリングしたら可視化結果が読解困難」\nってところまでは正しくても\n「10次元くらいに落としてからクラスタリングしたら精度が下がらず可視化結果も許容範囲」\nという可能性があるなと気づいた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xhr7b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2次元に落としてからクラスタリングしたら精度が下がる話を健さんに説明したことで頭が整理されて\n「2次元に落としてからクラスタリングしたら精度が下がる」\n「高次元(1500くらい)のままクラスタリングしたら可視化結果が読解困難」\nってところまでは正しくても\n「10次元くらいに落としてからクラスタリングしたら精度が下がらず可視化結果も許容範囲」\nという可能性があるなと気づいた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2次元に落としてからクラスタリングしたら精度が下がる話を健さんに説明したことで頭が整理されて\n「2次元に落としてからクラスタリングしたら精度が下がる」\n「高次元(1500くらい)のままクラスタリングしたら可視化結果が読解困難」\nってところまでは正しくても\n「10次元くらいに落としてからクラスタリングしたら精度が下がらず可視化結果も許容範囲」\nという可能性があるなと気づいた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762094706.926769",
+    "client_msg_id": "f701e023-6cf4-469c-8f5f-df07988bbda0",
+    "text": "唐突に降ってきたことをメモしておく\n• 既存の枠組みとデータとをぶつけるのが枠組みの更新に有益\n• その「既存の枠組み」とは？たとえば「グループA, B, C, Dがあるはずだ」という考え\n• これがあっているかを「ぶつける」「照らし合わせる」とは？個々のデータを天下りで与えられた分類にはめこめるかどうかLLMで試せば良い\n• これは技術的にはtttc-light-jsやSenseMakerの後半の処理に関連している\n• なので「既存の枠組み」を人間が書いて与えてもいいし、SenseMakerで作ってもいい。\n• この「既存の枠組み」と照らし合わせるというニーズは新東京2050でも観測されてたもので、その時の観測をもとに必要性を感じた機能をTTTCに盛り込んで広聴AIを作った流れからすると、広聴AIにこの機能の支援が入るのは自然、なんで今までやってなかったかというとGovTechTokyoの中で分類が行われて完了したから、TTTC側ではそれの可視化だけやるかたちになったという経緯にすぎない\n• 雑な直感: 与えられた分類Aに当てはまりそうかどうかをクリスプに分類しないでファジーに分類する、メンバーシップを原点からの距離とする高速条件をつけて可視化をすれば散布図でありつつ、既存の分類の「中に複数クラスかがあるな」とか「クラスタBと非分離だな」とかが散布図で見えるはず",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OAuys",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "唐突に降ってきたことをメモしておく\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存の枠組みとデータとをぶつけるのが枠組みの更新に有益"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その「既存の枠組み」とは？たとえば「グループA, B, C, Dがあるはずだ」という考え"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "これがあっているかを「ぶつける」「照らし合わせる」とは？個々のデータを天下りで与えられた分類にはめこめるかどうかLLMで試せば良い"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "これは技術的にはtttc-light-jsやSenseMakerの後半の処理に関連している"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "なので「既存の枠組み」を人間が書いて与えてもいいし、SenseMakerで作ってもいい。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "この「既存の枠組み」と照らし合わせるというニーズは新東京2050でも観測されてたもので、その時の観測をもとに必要性を感じた機能をTTTCに盛り込んで広聴AIを作った流れからすると、広聴AIにこの機能の支援が入るのは自然、なんで今までやってなかったかというとGovTechTokyoの中で分類が行われて完了したから、TTTC側ではそれの可視化だけやるかたちになったという経緯にすぎない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "雑な直感: 与えられた分類Aに当てはまりそうかどうかをクリスプに分類しないでファジーに分類する、メンバーシップを原点からの距離とする高速条件をつけて可視化をすれば散布図でありつつ、既存の分類の「中に複数クラスかがあるな」とか「クラスタBと非分離だな」とかが散布図で見えるはず"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "唐突に降ってきたことをメモしておく\n• 既存の枠組みとデータとをぶつけるのが枠組みの更新に有益\n• その「既存の枠組み」とは？たとえば「グループA, B, C, Dがあるはずだ」という考え\n• これがあっているかを「ぶつける」「照らし合わせる」とは？個々のデータを天下りで与えられた分類にはめこめるかどうかLLMで試せば良い\n• これは技術的にはtttc-light-jsやSenseMakerの後半の処理に関連している\n• なので「既存の枠組み」を人間が書いて与えてもいいし、SenseMakerで作ってもいい。\n• この「既存の枠組み」と照らし合わせるというニーズは新東京2050でも観測されてたもので、その時の観測をもとに必要性を感じた機能をTTTCに盛り込んで広聴AIを作った流れからすると、広聴AIにこの機能の支援が入るのは自然、なんで今までやってなかったかというとGovTechTokyoの中で分類が行われて完了したから、TTTC側ではそれの可視化だけやるかたちになったという経緯にすぎない\n• 雑な直感: 与えられた分類Aに当てはまりそうかどうかをクリスプに分類しないでファジーに分類する、メンバーシップを原点からの距離とする高速条件をつけて可視化をすれば散布図でありつつ、既存の分類の「中に複数クラスかがあるな」とか「クラスタBと非分離だな」とかが散布図で見えるはず"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1762095193.492069",
+    "client_msg_id": "15fca371-7111-41ae-a050-9461a131fb70",
+    "text": "そうか、盲点が欲しいなら、最初からクラスがあればいいのか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gk97y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうか、盲点が欲しいなら、最初からクラスがあればいいのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "そうか、盲点が欲しいなら、最初からクラスがあればいいのか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096170.567859",
+    "client_msg_id": "3f8e5f18-018f-4cf1-96ee-b6952b179cbd",
+    "text": "• 技術的にはSupervised UMAPですんなりいく気がしてきた\n• つまりファジークラスタリングしてそれを教師データとしてSupervised UMAPすると、人間が与えた「グループA」に当てはまりそうな度合いに基づいてあつまる、メンバーシップ0の点を捨てるとかすればよい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KKPIs",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "技術的にはSupervised UMAPですんなりいく気がしてきた"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "つまりファジークラスタリングしてそれを教師データとしてSupervised UMAPすると、人間が与えた「グループA」に当てはまりそうな度合いに基づいてあつまる、メンバーシップ0の点を捨てるとかすればよい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "• 技術的にはSupervised UMAPですんなりいく気がしてきた\n• つまりファジークラスタリングしてそれを教師データとしてSupervised UMAPすると、人間が与えた「グループA」に当てはまりそうな度合いに基づいてあつまる、メンバーシップ0の点を捨てるとかすればよい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096235.870389",
+    "client_msg_id": "9943ffd0-5e2f-4ebf-bb60-07017d598c7b",
+    "text": "<https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8|分布を観察して気づくこと>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://gyazo.com/d06876055ce7adfe26627c658889f57d/max_size/1000",
+        "thumb_width": 595,
+        "thumb_height": 1000,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8",
+        "fallback": "西尾泰和の外部脳: 分布を観察して気づくこと - 西尾泰和の外部脳",
+        "text": "1: 実際に分布を観察する前は「AとBとCとDがある」と思っている 実際に観察するとどのようなことが起こるか 2: 「Bがあると思ってたけど、BっていうよりB'だな」という気づき 3: 「Cがあると思ってたけど、Cは一塊ではなくC1とC2に別れてるな」という気づき 4: 「AとDは別個のものだと思ってたけど、これは密に結合してるから分けて考えるのは適切じゃないかも」という気づき 散布図によって意",
+        "title": "分布を観察して気づくこと - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pXn7n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8",
+                "text": "分布を観察して気づくこと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://scrapbox.io/nishio/%E5%88%86%E5%B8%83%E3%82%92%E8%A6%B3%E5%AF%9F%E3%81%97%E3%81%A6%E6%B0%97%E3%81%A5%E3%81%8F%E3%81%93%E3%81%A8|分布を観察して気づくこと>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096248.814019",
+    "client_msg_id": "84099ea8-9efb-480d-b261-e7fb5b2ab5fb",
+    "text": "2のタイプは「高いメンバーシップの点がない」で気づく",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mv0Qv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2のタイプは「高いメンバーシップの点がない」で気づく"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2のタイプは「高いメンバーシップの点がない」で気づく"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096296.424809",
+    "client_msg_id": "7b5cb67e-2aaa-4c4c-8e40-7e96d3e40dd2",
+    "text": "弱いメンバーシップのものがどんなクラスタを形成しているかをみるとよい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "18eHS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "弱いメンバーシップのものがどんなクラスタを形成しているかをみるとよい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "弱いメンバーシップのものがどんなクラスタを形成しているかをみるとよい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096334.827099",
+    "client_msg_id": "b1e4a5b3-681a-4f44-8cb7-76136a3949af",
+    "text": "3のタイプは「グループAの表示」のビューでクラスタが分かれているので気づく",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mF4Q9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3のタイプは「グループAの表示」のビューでクラスタが分かれているので気づく"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "3のタイプは「グループAの表示」のビューでクラスタが分かれているので気づく"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096344.106679",
+    "client_msg_id": "c1300ba2-ca6c-47b2-bbb2-907d7d860f24",
+    "text": "それぞれのクラスタのAI解説が有用",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cDcl2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それぞれのクラスタのAI解説が有用"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それぞれのクラスタのAI解説が有用"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096427.368679",
+    "client_msg_id": "59029457-4298-4a24-9369-f6ceda4d4c0d",
+    "text": "4のタイプは「グループAの表示」のビューに「グループDの点」が混ざり込んでくることでわかる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q4V9V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "4のタイプは「グループAの表示」のビューに「グループDの点」が混ざり込んでくることでわかる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "4のタイプは「グループAの表示」のビューに「グループDの点」が混ざり込んでくることでわかる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096439.951949",
+    "client_msg_id": "a8b6136b-3311-447a-80d1-e077ff381b3c",
+    "text": "2のタイプが一番可視化が困るな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sUw+G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2のタイプが一番可視化が困るな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2のタイプが一番可視化が困るな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1762096476.531859",
+    "client_msg_id": "b35122e2-54f2-47c8-a4da-08064c89dbd6",
+    "text": "そもそもグループBに対して強いメンバーシップがないのでクラスタがまとまらなさそうだ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "weDAM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そもそもグループBに対して強いメンバーシップがないのでクラスタがまとまらなさそうだ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そもそもグループBに対して強いメンバーシップがないのでクラスタがまとまらなさそうだ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1762108733.007439",
+    "client_msg_id": "9668a15e-9368-4f0b-9520-2d47f5b72c13",
+    "text": "ある争点\n→インターネット上からディープリサーチ\n→ステークホルダーの人格を生成\n→各ステークホルダーに対して並列インタビュー\n→整理して、シードの軸の案を形成\n→実際のステークホルダーにインタビューして、差異をみる\n\nこんな感じのシステムが降ってきた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WjE3d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ある争点\n→インターネット上からディープリサーチ\n→ステークホルダーの人格を生成\n→各ステークホルダーに対して並列インタビュー\n→整理して、シードの軸の案を形成\n→実際のステークホルダーにインタビューして、差異をみる\n\nこんな感じのシステムが降ってきた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ある争点\n→インターネット上からディープリサーチ\n→ステークホルダーの人格を生成\n→各ステークホルダーに対して並列インタビュー\n→整理して、シードの軸の案を形成\n→実際のステークホルダーにインタビューして、差異をみる\n\nこんな感じのシステムが降ってきた"
+  }
+]
