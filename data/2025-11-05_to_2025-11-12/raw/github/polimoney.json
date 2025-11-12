@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3606405262,
+    "number": 221,
+    "title": "結合データ作成",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/221",
+    "user": "shumizu418128",
+    "created_at": "2025-11-10T06:50:09Z",
+    "merged_at": "2025-11-10T07:58:52Z",
+    "body": "# 変更の概要\r\n選挙運動費用収支報告書\r\n全データを結合したjsonの作成\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **ドキュメント**\n  * 選挙会計データのJSON仕様書を追加。ファイル命名・フォーマット・フィールド定義・検証ルールを明記\n\n* **新機能**\n  * 個別JSONファイルの一括出力と、複数ファイルからの統合JSON自動生成を追加\n  * 個別データの合計検証（チェックサム）と不一致警告を導入\n  * 日付・数値の表現ルールと検証基準を強化\n\n* **動作変更**\n  * 数値抽出時の未定義値は0として扱う仕様に変更\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 834,
+    "deletions": 79,
+    "changed_files": 12,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

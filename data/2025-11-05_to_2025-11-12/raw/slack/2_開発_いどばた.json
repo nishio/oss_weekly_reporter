@@ -1,0 +1,646 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1762423222.049309",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762423222.049309",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1762427604.047969",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ANA/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1762423222.049309",
+    "root": {
+      "user": "USLACKBOT",
+      "type": "message",
+      "ts": "1762423222.049309",
+      "bot_id": "B01",
+      "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1762423222.049309",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1762427604.047969",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08J6JR5SNQ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://meet.google.com/xqo-hsqr-tue",
+          "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+          "thumb_width": 192,
+          "thumb_height": 192,
+          "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+          "id": 1,
+          "original_url": "https://meet.google.com/xqo-hsqr-tue",
+          "fallback": "Meet",
+          "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "title": "Meet",
+          "title_link": "https://meet.google.com/xqo-hsqr-tue",
+          "service_name": "meet.google.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ANA/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダー : "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": " 本日20時より、いどばた開発会議を開催します！"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "clock9",
+                  "unicode": "1f558"
+                },
+                {
+                  "type": "text",
+                  "text": " 20:00-21:00\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "link",
+                  "unicode": "1f517"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "link",
+                  "url": "https://meet.google.com/xqo-hsqr-tue"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "memo",
+                  "unicode": "1f4dd"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+                },
+                {
+                  "type": "text",
+                  "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1762427415.497639",
+    "client_msg_id": "9a76b413-b20b-4c48-84d1-00c04680baf9",
+    "text": "polimoney長引いていております…",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Sj3Yp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoney長引いていております…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08NN8A6P9D"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1762423222.049309",
+    "user_name": "小野翔太",
+    "text_readable": "polimoney長引いていております…"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1762427604.047969",
+    "client_msg_id": "426ca4b1-e555-422a-a535-ed1205c0760d",
+    "text": "<@U08HWJ80CHG>\n私と柴崎さんで雑談している状況です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762423222.049309",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iVSzJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n私と柴崎さんで雑談している状況です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1762423222.049309",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@oscar.gaddress\n私と柴崎さんで雑談している状況です。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1762423222.049309",
+    "root": {
+      "user": "USLACKBOT",
+      "type": "message",
+      "ts": "1762423222.049309",
+      "bot_id": "B01",
+      "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1762423222.049309",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1762427604.047969",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08J6JR5SNQ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://meet.google.com/xqo-hsqr-tue",
+          "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+          "thumb_width": 192,
+          "thumb_height": 192,
+          "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+          "id": 1,
+          "original_url": "https://meet.google.com/xqo-hsqr-tue",
+          "fallback": "Meet",
+          "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "title": "Meet",
+          "title_link": "https://meet.google.com/xqo-hsqr-tue",
+          "service_name": "meet.google.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ANA/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダー : "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": " 本日20時より、いどばた開発会議を開催します！"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "clock9",
+                  "unicode": "1f558"
+                },
+                {
+                  "type": "text",
+                  "text": " 20:00-21:00\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "link",
+                  "unicode": "1f517"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "link",
+                  "url": "https://meet.google.com/xqo-hsqr-tue"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "memo",
+                  "unicode": "1f4dd"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+                },
+                {
+                  "type": "text",
+                  "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1762427415.497639",
+    "client_msg_id": "9a76b413-b20b-4c48-84d1-00c04680baf9",
+    "text": "polimoney長引いていております…",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Sj3Yp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoney長引いていております…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08NN8A6P9D"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "polimoney長引いていております…"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1762477832.572309",
+    "client_msg_id": "131b3ac0-f956-4cb0-9c60-59cec0f4f0c2",
+    "text": "なんか、 dd2030 のマニフェストというのがあってもいい気がしていて、それを「いどばた政策」でドッグフードする (自分達で使う) のはどうですかね\n新しいサービスを成長させていくには自分達で使うのが割と大事だと思っています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762477832.572309",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1762498765.986319",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S0P7A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なんか、 dd2030 のマニフェストというのがあってもいい気がしていて、それを「いどばた政策」でドッグフードする (自分達で使う) のはどうですかね\n新しいサービスを成長させていくには自分達で使うのが割と大事だと思っています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08G2A216TW",
+          "U09C3J7V960",
+          "U09H5EMC3KJ"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "なんか、 dd2030 のマニフェストというのがあってもいい気がしていて、それを「いどばた政策」でドッグフードする (自分達で使う) のはどうですかね\n新しいサービスを成長させていくには自分達で使うのが割と大事だと思っています。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1762479447.423629",
+    "client_msg_id": "3999b8ad-987c-465e-9f17-0ef5fc0159d2",
+    "text": "自分たちでもガンガン使ってみるのはいいですよね！\n\n現状は<https://dd2030.org/about|このような感じのもの>がありますが、\nイメージされているのはこれとは違うものですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762477832.572309",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1200,
+        "image_height": 840,
+        "image_bytes": 22781,
+        "from_url": "https://dd2030.org/about",
+        "service_icon": "https://dd2030.org/apple-icon.png?10e1927b48f6048d",
+        "id": 1,
+        "original_url": "https://dd2030.org/about",
+        "fallback": "デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトポータルサイト",
+        "title": "デジタル民主主義2030",
+        "title_link": "https://dd2030.org/about",
+        "service_name": "dd2030.org"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1FWxK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自分たちでもガンガン使ってみるのはいいですよね！\n\n現状は"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/about",
+                "text": "このような感じのもの"
+              },
+              {
+                "type": "text",
+                "text": "がありますが、\nイメージされているのはこれとは違うものですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1762477832.572309",
+    "user_name": "Shingo OHKI",
+    "text_readable": "自分たちでもガンガン使ってみるのはいいですよね！\n\n現状は<https://dd2030.org/about|このような感じのもの>がありますが、\nイメージされているのはこれとは違うものですか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1762498624.217429",
+    "client_msg_id": "915adcf6-c380-430d-a177-fef6088a4768",
+    "text": "もうちょい詳細版の、「これは賛同する、これはやらない」みたいなのを文章化してもいいのかなと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762477832.572309",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mZXVr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もうちょい詳細版の、「これは賛同する、これはやらない」みたいなのを文章化してもいいのかなと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1762477832.572309",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "もうちょい詳細版の、「これは賛同する、これはやらない」みたいなのを文章化してもいいのかなと。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1762498765.986319",
+    "client_msg_id": "2569b959-0842-49ab-b423-3a6d060b2926",
+    "text": "あと、これは今も感じていることですが複数のプロジェクトが同時に進行していて、全体のビジョンの中でどのプロダクトがどの範囲をカバーしようとしてるのか、みたいなのが見えないので、そういうのもマニフェストに入れたらいいんじゃないか、とか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762477832.572309",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wcqef",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、これは今も感じていることですが複数のプロジェクトが同時に進行していて、全体のビジョンの中でどのプロダクトがどの範囲をカバーしようとしてるのか、みたいなのが見えないので、そういうのもマニフェストに入れたらいいんじゃないか、とか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "agree",
+        "users": [
+          "U09H5EMC3KJ"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1762477832.572309",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "あと、これは今も感じていることですが複数のプロジェクトが同時に進行していて、全体のビジョンの中でどのプロダクトがどの範囲をカバーしようとしてるのか、みたいなのが見えないので、そういうのもマニフェストに入れたらいいんじゃないか、とか。"
+  }
+]
