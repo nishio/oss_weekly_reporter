@@ -1,0 +1,2277 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763097687.235139",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1763097703.000000"
+    },
+    "client_msg_id": "405976fb-c877-49b2-afcd-7fc1a8c92820",
+    "text": "embeddingからの散布図可視化が足枷になる問題、こういう解決方法はどうか\n\n• ブロードリスニングの方法として、まずLLMでキーワード抽出をする\n• LLMでクラスタリングする\n• 「みなれたワードクラウド」として可視化する\n• このワードクラウドはクリックして掘り下げることができる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1763126684.062149",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TYyNW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "embeddingからの散布図可視化が足枷になる問題、こういう解決方法はどうか\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ブロードリスニングの方法として、まずLLMでキーワード抽出をする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "LLMでクラスタリングする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「みなれたワードクラウド」として可視化する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "このワードクラウドはクリックして掘り下げることができる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "embeddingからの散布図可視化が足枷になる問題、こういう解決方法はどうか\n\n• ブロードリスニングの方法として、まずLLMでキーワード抽出をする\n• LLMでクラスタリングする\n• 「みなれたワードクラウド」として可視化する\n• このワードクラウドはクリックして掘り下げることができる"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763104411.229419",
+    "client_msg_id": "c3ba84e3-3e4a-422e-89df-b491f4773519",
+    "text": "システム作る前に見せ方のA/Bテストができると良さそうだなと思いました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sLQil",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "システム作る前に見せ方のA/Bテストができると良さそうだなと思いました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "Shingo OHKI",
+    "text_readable": "システム作る前に見せ方のA/Bテストができると良さそうだなと思いました"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763104987.194249",
+    "client_msg_id": "f8df28cd-971e-43c1-9980-1d1b2b70317a",
+    "text": "全然本質的じゃないですが、\n• ワードクラウドは見慣れているがゆえに「新しそう」には見えない？\n• ワードクラウドっぽい表示にすると、一見するとワードクラウドのネガティブな部分を引き継いでいると誤解される可能性がありそう\n• 散布図は「たくさんある意見をまとめた感」をひと目で感じられるのが「よさそう」と思うポイントだったのかも？\nと思いました。\n\n実物を見たら印象が変わるかもしれませんが\n\nSNSに貼るときのアイキャッチ画像だけ散布図っぽいのになってるといいとか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J0olW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全然本質的じゃないですが、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ワードクラウドは見慣れているがゆえに「新しそう」には見えない？"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ワードクラウドっぽい表示にすると、一見するとワードクラウドのネガティブな部分を引き継いでいると誤解される可能性がありそう"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "散布図は「たくさんある意見をまとめた感」をひと目で感じられるのが「よさそう」と思うポイントだったのかも？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "と思いました。\n\n実物を見たら印象が変わるかもしれませんが\n\nSNSに貼るときのアイキャッチ画像だけ散布図っぽいのになってるといいとか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "Shingo OHKI",
+    "text_readable": "全然本質的じゃないですが、\n• ワードクラウドは見慣れているがゆえに「新しそう」には見えない？\n• ワードクラウドっぽい表示にすると、一見するとワードクラウドのネガティブな部分を引き継いでいると誤解される可能性がありそう\n• 散布図は「たくさんある意見をまとめた感」をひと目で感じられるのが「よさそう」と思うポイントだったのかも？\nと思いました。\n\n実物を見たら印象が変わるかもしれませんが\n\nSNSに貼るときのアイキャッチ画像だけ散布図っぽいのになってるといいとか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763119157.099909",
+    "client_msg_id": "75773b3f-2eb3-47ba-bd19-d321bfc0200f",
+    "text": "うーむなるほど &gt; 見慣れているがゆえに「新しそう」には見えない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y2HZ9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うーむなるほど > 見慣れているがゆえに「新しそう」には見えない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "うーむなるほど > 見慣れているがゆえに「新しそう」には見えない"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763125395.156049",
+    "client_msg_id": "5111c84a-aa1f-4e75-91ed-d7609898b032",
+    "text": "• 見た目やイメージ、印象の話\n• 分析に関する話\nは分けて考えたほうが良いのかもしれません",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z9prs",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "見た目やイメージ、印象の話"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "分析に関する話"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "は分けて考えたほうが良いのかもしれません"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "Shingo OHKI",
+    "text_readable": "• 見た目やイメージ、印象の話\n• 分析に関する話\nは分けて考えたほうが良いのかもしれません"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763126617.881639",
+    "client_msg_id": "dd81bde1-3664-4b5b-a03f-8b18401233e0",
+    "text": "“クリックして掘り下げることができる“で十分新しいと思ったが、確かにSNSでシェアされた時の見栄えは変わらない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AGECu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "“クリックして掘り下げることができる“で十分新しいと思ったが、確かにSNSでシェアされた時の見栄えは変わらない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "“クリックして掘り下げることができる“で十分新しいと思ったが、確かにSNSでシェアされた時の見栄えは変わらない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763126684.062149",
+    "client_msg_id": "75f95cd2-baf2-4dbe-ad77-87a78dee5ec3",
+    "text": "「SNSで映えてほしいユーザニーズ」と\n「インサイトが欲しいユーザニーズ」がある、といういつもの話に帰着する気がした",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763097687.235139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i4Oi4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「SNSで映えてほしいユーザニーズ」と\n「インサイトが欲しいユーザニーズ」がある、といういつもの話に帰着する気がした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763097687.235139",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「SNSで映えてほしいユーザニーズ」と\n「インサイトが欲しいユーザニーズ」がある、といういつもの話に帰着する気がした"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763097778.702409",
+    "client_msg_id": "3ab866d0-1c5f-4780-8e62-2f794a4de41b",
+    "text": "ワードクラウドの配置には意味がなく大きさに意味がある。\nembedding散布図のクラスタの大きさには意味がなく配置に意味がある。\nワードクラウド的な可視化にしてしまえば、位置の自由が生まれる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0Expy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ワードクラウドの配置には意味がなく大きさに意味がある。\nembedding散布図のクラスタの大きさには意味がなく配置に意味がある。\nワードクラウド的な可視化にしてしまえば、位置の自由が生まれる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ワードクラウドの配置には意味がなく大きさに意味がある。\nembedding散布図のクラスタの大きさには意味がなく配置に意味がある。\nワードクラウド的な可視化にしてしまえば、位置の自由が生まれる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763097870.827919",
+    "client_msg_id": "80d6e979-bd00-41fe-bfdd-666c43e89112",
+    "text": "これはJigsaw SenseMakerやTTTC Turboとかと近い分類方法で、見出しを文章の代わりに単語にしたものになる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tFVNT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはJigsaw SenseMakerやTTTC Turboとかと近い分類方法で、見出しを文章の代わりに単語にしたものになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これはJigsaw SenseMakerやTTTC Turboとかと近い分類方法で、見出しを文章の代わりに単語にしたものになる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763135036.093039",
+    "client_msg_id": "5487b113-0dd0-4172-bdcf-d408ce3fabff",
+    "text": "Talk to the CityがScatterとTurboとあるみたいに、今の広聴AIを“広聴AI(Scatter)“ってことにして、新しい“広聴AI(Turbo)“を作ったらいいんじゃないかと気づいたw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KBHHt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Talk to the CityがScatterとTurboとあるみたいに、今の広聴AIを“広聴AI(Scatter)“ってことにして、新しい“広聴AI(Turbo)“を作ったらいいんじゃないかと気づいたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Talk to the CityがScatterとTurboとあるみたいに、今の広聴AIを“広聴AI(Scatter)“ってことにして、新しい“広聴AI(Turbo)“を作ったらいいんじゃないかと気づいたw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763178463.532549",
+    "client_msg_id": "6D0BA185-F177-4739-8688-779E551A8A9C",
+    "text": "健さんのインサイト分類を見てて、やはり「東京都の成功ケースでの既存の分類との照らし合わせはGTTがやったので詳細不明」というままでは良くなくて、今後の広聴AIの発展のためにもこちらの手元で再現実験が必要な気持ちになってきた",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763178463.532549",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763178813.488549",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fP2RX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "健さんのインサイト分類を見てて、やはり「東京都の成功ケースでの既存の分類との照らし合わせはGTTがやったので詳細不明」というままでは良くなくて、今後の広聴AIの発展のためにもこちらの手元で再現実験が必要な気持ちになってきた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "健さんのインサイト分類を見てて、やはり「東京都の成功ケースでの既存の分類との照らし合わせはGTTがやったので詳細不明」というままでは良くなくて、今後の広聴AIの発展のためにもこちらの手元で再現実験が必要な気持ちになってきた"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763178813.488549",
+    "client_msg_id": "afbe6dca-210c-45cf-9e5a-45bca0c8b324",
+    "text": "これやってみたいですが、どんなテーマだといいんでしょうね。\n\nそれこそ「DD2030で今やっていること」と「やれるといいこと」の照らし合わせとかができるといいんでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763178463.532549",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CB6gT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これやってみたいですが、どんなテーマだといいんでしょうね。\n\nそれこそ「DD2030で今やっていること」と「やれるといいこと」の照らし合わせとかができるといいんでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763178463.532549",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これやってみたいですが、どんなテーマだといいんでしょうね。\n\nそれこそ「DD2030で今やっていること」と「やれるといいこと」の照らし合わせとかができるといいんでしょうか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763178617.246089",
+    "client_msg_id": "C09126CE-F626-4056-A98E-05F032158652",
+    "text": "大前提として、Jigsaw Sensemakerは「与えられたデータから分類ツリーを作成」「その分類ツリーに与えられたデータをはめ込み」の2段階になっており、この後半部分がほぼGTTのやったことと同じであると思っている",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P8E3h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "大前提として、Jigsaw Sensemakerは「与えられたデータから分類ツリーを作成」「その分類ツリーに与えられたデータをはめ込み」の2段階になっており、この後半部分がほぼGTTのやったことと同じであると思っている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "大前提として、Jigsaw Sensemakerは「与えられたデータから分類ツリーを作成」「その分類ツリーに与えられたデータをはめ込み」の2段階になっており、この後半部分がほぼGTTのやったことと同じであると思っている"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763254021.409189",
+    "client_msg_id": "4a7fe8c9-40bd-4149-ac5a-454e3b47cfc9",
+    "text": "東京都のレポートから抽出した1000件の意見について、従来の「未来の東京」戦略の重点政策方針2024から抽出した分類ツリー(3カテゴリー、22サブカテゴリー)に対して分類した。…\n東京都の既存分類体系（22サブカテゴリー）は、ブロードリスニングで得られた市民意見を100%カバーできた。すなわち、既存の分類枠組みで捉えられない新しい論点は、サンプルからは発見されなかった。…\n分類が甘い（何でも既存カテゴリーに押し込んでいる）可能性も否定できない\n\n<https://github.com/nishio/broadlistening-research/blob/main/experiments/2025-11-15/REPORT.md>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763254021.409189",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1763256626.966269",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NnCJx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "東京都のレポートから抽出した1000件の意見について、従来の「未来の東京」戦略の重点政策方針2024から抽出した分類ツリー(3カテゴリー、22サブカテゴリー)に対して分類した。…\n東京都の既存分類体系（22サブカテゴリー）は、ブロードリスニングで得られた市民意見を100%カバーできた。すなわち、既存の分類枠組みで捉えられない新しい論点は、サンプルからは発見されなかった。…\n分類が甘い（何でも既存カテゴリーに押し込んでいる）可能性も否定できない\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/broadlistening-research/blob/main/experiments/2025-11-15/REPORT.md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "東京都のレポートから抽出した1000件の意見について、従来の「未来の東京」戦略の重点政策方針2024から抽出した分類ツリー(3カテゴリー、22サブカテゴリー)に対して分類した。…\n東京都の既存分類体系（22サブカテゴリー）は、ブロードリスニングで得られた市民意見を100%カバーできた。すなわち、既存の分類枠組みで捉えられない新しい論点は、サンプルからは発見されなかった。…\n分類が甘い（何でも既存カテゴリーに押し込んでいる）可能性も否定できない\n\n<https://github.com/nishio/broadlistening-research/blob/main/experiments/2025-11-15/REPORT.md>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763254529.135279",
+    "client_msg_id": "7d24e720-73bc-469b-8a59-01d49349a752",
+    "text": "これは「同じデータセットでもインサイトを発見できるかどうかは（現状は）テクニックによる」という理解であっていますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763254021.409189",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wD9vp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは「同じデータセットでもインサイトを発見できるかどうかは（現状は）テクニックによる」という理解であっていますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763254021.409189",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これは「同じデータセットでもインサイトを発見できるかどうかは（現状は）テクニックによる」という理解であっていますか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763255588.479059",
+    "client_msg_id": "2975b599-acb1-43bf-b480-887119073c22",
+    "text": "（分析ツールというのはそもそもそういうものなのか）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763254021.409189",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JUUcW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（分析ツールというのはそもそもそういうものなのか）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763254021.409189",
+    "user_name": "Shingo OHKI",
+    "text_readable": "（分析ツールというのはそもそもそういうものなのか）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763256626.966269",
+    "client_msg_id": "2D23F2C9-2D6E-48D5-89C1-FD5A9A51BC09",
+    "text": "もちろんそうで、なので基本的にツールに通すだけでインサイトを得ようとするより、ツールの出力結果を見て自分でコードを書く必要があるわけです。東京都は多分それをやっていて、ブラックボックスなので追試をしようとしている。\nこの後さらに分析するなら、\nA: otherにする閾値を下げてもっとotherになりやすくした上で、どのようなものがそうなるかを観察する\nB:各クラスタに分かれたものに対して広聴AIして観察(一つのクラスタだと思ってるものの中に複数のクラスタがある場合がある)\nなどがありますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763254021.409189",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7G/D4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もちろんそうで、なので基本的にツールに通すだけでインサイトを得ようとするより、ツールの出力結果を見て自分でコードを書く必要があるわけです。東京都は多分それをやっていて、ブラックボックスなので追試をしようとしている。\nこの後さらに分析するなら、\nA: otherにする閾値を下げてもっとotherになりやすくした上で、どのようなものがそうなるかを観察する\n"
+              },
+              {
+                "type": "text",
+                "text": "B:各クラスタに分かれたものに対して広聴AIして観察(一つのクラスタだと思ってるものの中に複数のクラスタがある場合がある)\nなどがありますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763254021.409189",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "もちろんそうで、なので基本的にツールに通すだけでインサイトを得ようとするより、ツールの出力結果を見て自分でコードを書く必要があるわけです。東京都は多分それをやっていて、ブラックボックスなので追試をしようとしている。\nこの後さらに分析するなら、\nA: otherにする閾値を下げてもっとotherになりやすくした上で、どのようなものがそうなるかを観察する\nB:各クラスタに分かれたものに対して広聴AIして観察(一つのクラスタだと思ってるものの中に複数のクラスタがある場合がある)\nなどがありますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763254268.702269",
+    "client_msg_id": "430296EA-78F0-461E-9554-5583EF4E2EA5",
+    "text": "そうなるかーという感想、確かによほど離れていない限りどこかに嵌め込むことはできてしまうのかも\n(元の分類も素人の適当に考えたものではなく、たくさんの政策を分類しようとして作ったものだから。前の分類ツリーを作った都庁職員が有能)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "090iK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうなるかーという感想、確かによほど離れていない限りどこかに嵌め込むことはできてしまうのかも\n(元の分類も素人の適当に考えたものではなく、たくさんの政策を分類しようとして作ったものだから。前の分類ツリーを作った都庁職員が"
+              },
+              {
+                "type": "text",
+                "text": "有能)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうなるかーという感想、確かによほど離れていない限りどこかに嵌め込むことはできてしまうのかも\n(元の分類も素人の適当に考えたものではなく、たくさんの政策を分類しようとして作ったものだから。前の分類ツリーを作った都庁職員が有能)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763254369.321829",
+    "client_msg_id": "1207939A-596F-4751-8BA0-4C578F214A64",
+    "text": "複数のカテゴリに入る意見が割とあるので、重複度合いによってカテゴリ間の距離を定義することはできてMDSとかで二次元配置はできそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YgxlP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "複数のカテゴリに入る意見が割とあるので、重複度合いによってカテゴリ間の距離を定義することはできてMDSとかで二次元配置はできそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "複数のカテゴリに入る意見が割とあるので、重複度合いによってカテゴリ間の距離を定義することはできてMDSとかで二次元配置はできそう"
+  },
+  {
+    "text": "2025年の結果のまとめでは刊行が新たに生まれたみたいな書き方になっているが\n<https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/kangaekata3>",
+    "files": [
+      {
+        "id": "F09U1HNLPLY",
+        "created": 1763259146,
+        "timestamp": 1763259146,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 31675,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09U1HNLPLY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09U1HNLPLY/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 113,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 151,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U1HNLPLY-7c559d57c8/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 227,
+        "original_w": 724,
+        "original_h": 228,
+        "thumb_tiny": "AwAQADDSopCozwin1zTdh2D5Y93fjigB9RiQF2AIwDg08KB0AH0FDbuNuOvOfSk0A1WOPnK59jS7hxg96RfNwd3l54xjP405d2TuK9eMClYdz//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09U1HNLPLY/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09U1HNLPLY-0d80baa810",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fNk0g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2025年の結果のまとめでは刊行が新たに生まれたみたいな書き方になっているが\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/kangaekata3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763259177.419779",
+    "client_msg_id": "26a08e4a-f0d6-4227-8961-5c57a63c81af",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2025年の結果のまとめでは刊行が新たに生まれたみたいな書き方になっているが\n<https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/kangaekata3>"
+  },
+  {
+    "text": "2024年の時点ですでに観光は入っている\n<https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/houshin_2024>",
+    "files": [
+      {
+        "id": "F09TL5TPC8H",
+        "created": 1763259204,
+        "timestamp": 1763259204,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 200166,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09TL5TPC8H/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09TL5TPC8H/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 77,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 103,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 154,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 171,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 206,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TL5TPC8H-77b375d0e2/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 220,
+        "original_w": 1782,
+        "original_h": 382,
+        "thumb_tiny": "AwALADC+5CnOQCfVjijL5Iyvscfzp9Jgc9efekMCcEA45OKY8gG4KfmBGeCcVJjp7UmOc8/nQIY0qg4H1Oc8CnnORj8aAMev50tAH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09TL5TPC8H/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09TL5TPC8H-d42581a10b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e0hnq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2024年の時点ですでに観光は入っている\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/houshin_2024"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763259219.808929",
+    "client_msg_id": "b1970d61-c91a-44c7-bb8a-732fd6b383c9",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2024年の時点ですでに観光は入っている\n<https://www.seisakukikaku.metro.tokyo.lg.jp/documents/d/seisakukikaku/houshin_2024>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763259293.723729",
+    "client_msg_id": "c4c407d9-11b2-4dfc-b29e-cb9558b2101b",
+    "text": "何をベースに分類したのかよくわからないなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tmDOx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何をベースに分類したのかよくわからないなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "何をベースに分類したのかよくわからないなぁ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763259383.288929",
+    "client_msg_id": "20E22C84-D16D-4B0F-8D3E-09D9B513BA08",
+    "text": "まあ結局もっと色々なものがオープンデータにならないとシビックテックで追試するのは難しいということか…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g/RaC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ結局もっと色々なものがオープンデータにならないとシビックテックで追試するのは難しいということか…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ結局もっと色々なものがオープンデータにならないとシビックテックで追試するのは難しいということか…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763259479.176519",
+    "client_msg_id": "01EF1716-A07D-4CD1-9F37-E8D72AD134BC",
+    "text": "とりあえず今回得られた知見としては、できるだろうと思ってた「既存の枠組みに対してブロードリスニング結果を分類する」という行為がSensemakerで予想通りできたということ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lp/u9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず今回得られた知見としては、できるだろうと思ってた「既存の枠組みに対してブロードリスニング結果を分類する」という行為がSensemakerで予想通りできたということ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "とりあえず今回得られた知見としては、できるだろうと思ってた「既存の枠組みに対してブロードリスニング結果を分類する」という行為がSensemakerで予想通りできたということ"
+  },
+  {
+    "text": "BG2050",
+    "files": [
+      {
+        "id": "F09UHAGMJ2C",
+        "created": 1763468468,
+        "timestamp": 1763468468,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 329415,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHAGMJ2C/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHAGMJ2C/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 234,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 312,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 467,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 519,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 623,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHAGMJ2C-308b83695b/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 665,
+        "original_w": 1824,
+        "original_h": 1184,
+        "thumb_tiny": "AwAgADCy87qx4XAOOvNO+0R+ZszznFVpZV80lUUjPU96Y7ho3kzhxzjt1oaYky1dMyxgDoTgmorNm8wr/Dj1qnvn43M+Cf4jx+tTmUsi7F2gjkZxk1LXU0jroaBOM5GMfrQHBOKpwZlRozhlxnFTRwr5nmYH1pXE1YrlpIJNpJwPpyKN4cN55JVhgAdevWrc5cAbDjnk4/8Ar1A8czEOvPbbnH9a0uTylZLcyKT5iBB1O3kf5+tWysRVU3D5RgYPPp/OnwxuAzSHk9s5xShW3de+cc/40WTC7T0IZNsRCr0J796SKYFgVPv9anli3Djr3wcUiREH5ulZ2E7tn//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09UHAGMJ2C/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09UHAGMJ2C-c393afbc17",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XqsAN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "BG2050"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763468474.030309",
+    "client_msg_id": "c74a1ddf-faef-4d39-b2a9-9f59ab6e5563",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "BG2050"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763468481.962769",
+    "client_msg_id": "27423c73-2c8e-4f51-82d9-80a8eeb619e1",
+    "text": "これでいい説はあるw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YFTrY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これでいい説はあるw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これでいい説はあるw"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763468890.994409",
+    "client_msg_id": "27492f90-7a6b-4fda-8cd3-f844a63f40b5",
+    "text": "リストやテーブルのような、並列構造を並列構造として認知するには訓練が必要、という話なのかなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cY9Od",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リストやテーブルのような、並列構造を並列構造として認知するには訓練が必要、という話なのかなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "リストやテーブルのような、並列構造を並列構造として認知するには訓練が必要、という話なのかなぁ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763468963.866769",
+    "client_msg_id": "cf977c2a-2492-4012-98b9-3d9b74990f0c",
+    "text": "アートは説得力を産む、ということなのよなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D0xoL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アートは説得力を産む、ということなのよなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "アートは説得力を産む、ということなのよなぁ"
+  },
+  {
+    "text": "<@U08G2A216TW>\n<https://www.sp.metro.tokyo.lg.jp/seisakukikaku/mirainotokyo-senryaku/html5.html#page=5>\n\nおそらくアップデート前の2021年のやつが分類基準だと思う。\n\nつまり、2021年から2024年までに行政が淡々とやっていた成果を、2025年の成果として再発表したように見える。\nアップデートを追いかけていない人向けの情報が「ブロードリスニングによって分化した」というように誤った見え方になってしまったんじゃないかなぁ",
+    "files": [
+      {
+        "id": "F09TGN6UWD9",
+        "created": 1763469389,
+        "timestamp": 1763469389,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 451656,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09TGN6UWD9/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09TGN6UWD9/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 143,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 190,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 285,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 317,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 380,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TGN6UWD9-afa1765680/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 406,
+        "original_w": 1250,
+        "original_h": 495,
+        "thumb_tiny": "AwAUADCWyhHkpLmRjg4UNwOatBlywXJ5Oeen51DZf8esYwejcj61Om0AkDGTkj3pvcELkKvXOB680pOCOOvf0oOCCPXjpSYUHk+vU0gAOrAEHg0pYY45z6UoxgY6dsUjY4z+H5UAQWA/0OP8f51YAAOQKr2H/HnH+P8AM1YpvcAphj44YjnPAHH6U+ikAxIwi7QTjt7U4r3yfzpaD0NAH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09TGN6UWD9/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09TGN6UWD9-5bce711915",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tVfWf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.sp.metro.tokyo.lg.jp/seisakukikaku/mirainotokyo-senryaku/html5.html#page=5"
+              },
+              {
+                "type": "text",
+                "text": "\n\nおそらくアップデート前の2021年のやつが分類基準だと思う。\n\nつまり、2021年から2024年までに行政が淡々とやっていた成果を、2025年の成果として再発表したように見える。\nアップデートを追いかけていない人向けの情報が「ブロードリスニングによって分化した」というように誤った見え方になってしまったんじゃないかなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763469469.943189",
+    "client_msg_id": "d64861db-d801-43df-ac23-e5423199ef34",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu\n<https://www.sp.metro.tokyo.lg.jp/seisakukikaku/mirainotokyo-senryaku/html5.html#page=5>\n\nおそらくアップデート前の2021年のやつが分類基準だと思う。\n\nつまり、2021年から2024年までに行政が淡々とやっていた成果を、2025年の成果として再発表したように見える。\nアップデートを追いかけていない人向けの情報が「ブロードリスニングによって分化した」というように誤った見え方になってしまったんじゃないかなぁ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763469526.879589",
+    "client_msg_id": "46f37176-69a4-4aa3-a7e5-452613572b39",
+    "text": "2021年に作成されて、コロナ禍の真っただ中ななので、「観光」という言葉そのものがタブー視されていたっぽいなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v3Hg5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2021年に作成されて、コロナ禍の真っただ中ななので、「観光」という言葉そのものがタブー視されていたっぽいなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "2021年に作成されて、コロナ禍の真っただ中ななので、「観光」という言葉そのものがタブー視されていたっぽいなぁ"
+  },
+  {
+    "text": "本文には観光ということを書いているが、目次に観光という概念をもってくることが不謹慎だった時代なのだな",
+    "files": [
+      {
+        "id": "F09U222PD6V",
+        "created": 1763469570,
+        "timestamp": 1763469570,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1040027,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09U222PD6V/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09U222PD6V/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 263,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 351,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 526,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 584,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 701,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09U222PD6V-3f99d3a7e9/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 748,
+        "original_w": 1109,
+        "original_h": 810,
+        "thumb_tiny": "AwAkADC4GYFMlyGAPA6cd6bvfJyZB8vZe9GSUUBscD60hDJht+fZjgUxIe8mCQBJyTyF6cU5Ce+45A68UDfnPy7fpzTAGLEGTcM8dP8ACkBLu4+6350A5OMEfjVdkwSSQc8fd5P6U9C25QQp75xgj8KVwBdwVMEBcDOaJBvUAMufcZpnLBRsyMDnjilZWcEEYweMmm7jVrEwdQMFhkHkA0vGAxIGT3pgUmMKMgAcY9c0whtwUnb6eoFAE2Ezk7T6UIUcsQOVO3NQsDjC8EdOtTRg7ck5PfFAEYRcDgHFKQDRRQALhQoAHy9KU4OOOhyOT1pKKAFyBj5V49qXec5ptFAH/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09U222PD6V/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09U222PD6V-50d8a40ebd",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rxgR/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本文には観光ということを書いているが、目次に観光という概念をもってくることが不謹慎だった時代なのだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763469592.781319",
+    "client_msg_id": "de7b4da0-4965-40c1-b421-f24d0b4fd883",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "本文には観光ということを書いているが、目次に観光という概念をもってくることが不謹慎だった時代なのだな"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763469722.355299",
+    "client_msg_id": "8f5e547d-5912-4341-adc9-9efbd9ff1f3a",
+    "text": "このときの「観光」は、都市観光ではなく、多摩とか諸島部の観光を指しているんだな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VQa6J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このときの「観光」は、都市観光ではなく、多摩とか諸島部の観光を指しているんだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "このときの「観光」は、都市観光ではなく、多摩とか諸島部の観光を指しているんだな"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F09UHEK3P3J",
+        "created": 1763469755,
+        "timestamp": 1763469755,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1875058,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHEK3P3J/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHEK3P3J/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 130,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 173,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 260,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 289,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 346,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHEK3P3J-c07b74e841/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 370,
+        "original_w": 2200,
+        "original_h": 794,
+        "thumb_tiny": "AwASADC2ySFmAnIGemzp+NHlzc/6T1/2BTnDBmIcAdhtzikRssQXXIHI24qhEcUhkZSLrcCcY8vGanYkMcE/Tb0qtA0BeJI5CSuSB65HerZJ3YyuP1qRkNy0qJujfGGycrxjHP8An9aijmm81FaVGBI7dQatOgfhlVhnoRml2ndkBffihAOxRgelFFABikKg9QD9aWigBNijPyjnrxS0UUAf/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09UHEK3P3J/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09UHEK3P3J-d2bcf98333",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1763469759.536399",
+    "client_msg_id": "b425551c-c16d-450d-ace5-f78d24ecea32",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": ""
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F09UHENPREC",
+        "created": 1763469790,
+        "timestamp": 1763469790,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1453918,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHENPREC/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHENPREC/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 131,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 175,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 262,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 291,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 350,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHENPREC-303c598777/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 373,
+        "original_w": 2207,
+        "original_h": 804,
+        "thumb_tiny": "AwASADCVoyD8t4cp16dffn+dP8tkXd9qcAEgFiCBz39aYZfKY48zAZu3H3j705GkYAhpT3/hH9aYhqgsWH20Fn469Ppg1ZKyhiRKuM8ArUSNI0qjMnH3sBcH9an+UN1OffNACHzN3Dp7fL/9ej95uGXQjPPy/wD16AgDZCgEk5oVcNnuTycUhklFFFABRiiigAooooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09UHENPREC/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09UHENPREC-fe9943bb9b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1763469794.975729",
+    "client_msg_id": "239186df-67c2-468f-8fde-0ae28b1106b5",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": ""
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F09TM47UTU6",
+        "created": 1763469797,
+        "timestamp": 1763469797,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 2651953,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09TM47UTU6/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09TM47UTU6/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 129,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 172,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 258,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 286,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 344,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TM47UTU6-cf8db29243/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 367,
+        "original_w": 2179,
+        "original_h": 780,
+        "thumb_tiny": "AwASADC0WcsQJW5Y9AOBULyzADNwByedo5pzSsszKCMc/wAJJoAlbILL17Ci7JEikkZ1zdg8/d2rzzUkjSqx/fqnJwCo6fWmrAzOhkxuUg8DioyTuffIQGdhy3uaLjJBO69biNs+q9P1pwmkYEhlIGeQnX6c1GiMcFWz79cVHLwHXdwDnJyBj8v60rsdzQ8tOfkXnrxQY0OcovPPSnUUwECKDkKAfXFG0ZzgflS0UAJsX+6PyoKqQQQCD14paKAP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09TM47UTU6/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09TM47UTU6-cc6e69c214",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1763469802.833409",
+    "client_msg_id": "4758301a-231f-414b-b521-ab2eb3ad49a5",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": ""
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763469901.952569",
+    "client_msg_id": "93c151f7-9264-4ec3-b28c-4aed608734b2",
+    "text": "ざっくり読んだけど、コロナ禍のせいで、都市観光に対してアクセルが踏み込めないから、書き方がヌルかった、という話だなこれ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/fMje",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ざっくり読んだけど、コロナ禍のせいで、都市観光に対してアクセルが踏み込めないから、書き方がヌルかった、という話だなこれ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ざっくり読んだけど、コロナ禍のせいで、都市観光に対してアクセルが踏み込めないから、書き方がヌルかった、という話だなこれ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763470299.264899",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1763470720.000000"
+    },
+    "client_msg_id": "36cb1734-a033-4a13-aab3-c48cae3919f1",
+    "text": "<@U08G2A216TW>\n↑の資料を読み込んだ結果の、私のざっくりとした予想\n\n- 2021年に公開された「未来の東京戦略」はコロナ禍を前提とした書き方になっており、ハレーションを避けるために観光は他の項目の下に入っていた\n- 「未来の東京戦略」はコロナ禍の収束と共に年々リライトされており、その2024年時点では既に現在の政策体系と同様のものが出来上がっている\n- 東京2050で市民の意見を現在の政策体系に合わせてマッピング、市民の意見を取り入れて微修正\n- 2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開\n- 結果として「ブロードリスニングによって東京都が政策を大幅に変えた」というように見えてしまった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PSeKw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n↑の資料を読み込んだ結果の、私のざっくりとした予想\n\n- 2021年に公開された「未来の東京戦略」はコロナ禍を前提とした書き方になっており、ハレーションを避けるために観光は他の項目の下に入っていた\n- 「未来の東京戦略」はコロナ禍の収束と共に年々リライトされており、その2024年時点では既に現在の政策体系と同様のものが出来上がっている\n- 東京2050で市民の意見を現在の政策体系に合わせてマッピング、市民の意見を取り入れて微修正\n- 2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開\n- 結果として「ブロードリスニングによって東京都が政策を大幅に変えた」というように見えてしまった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu\n↑の資料を読み込んだ結果の、私のざっくりとした予想\n\n- 2021年に公開された「未来の東京戦略」はコロナ禍を前提とした書き方になっており、ハレーションを避けるために観光は他の項目の下に入っていた\n- 「未来の東京戦略」はコロナ禍の収束と共に年々リライトされており、その2024年時点では既に現在の政策体系と同様のものが出来上がっている\n- 東京2050で市民の意見を現在の政策体系に合わせてマッピング、市民の意見を取り入れて微修正\n- 2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開\n- 結果として「ブロードリスニングによって東京都が政策を大幅に変えた」というように見えてしまった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763470482.576479",
+    "client_msg_id": "2ca5cfd1-40c0-401e-b70b-c8cc81429462",
+    "text": "我々の過大評価だったと言うわけか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6rJx9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "我々の過大評価だったと言うわけか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "我々の過大評価だったと言うわけか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763470499.999979",
+    "client_msg_id": "e959a2ae-e7ad-4fef-b0fa-da838cda24a9",
+    "text": "そうするとブロードリスニングの成功事例としていいづらくなってしまうな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "moPbQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうするとブロードリスニングの成功事例としていいづらくなってしまうな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうするとブロードリスニングの成功事例としていいづらくなってしまうな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763470665.818079",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1763470673.000000"
+    },
+    "client_msg_id": "e0ace15b-8df6-4382-b4db-1c03fbc5c2ab",
+    "text": "> 2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開\nまー、でもそうだよなぁ、2024年までの結果をブロードリスニングだけで大幅に変更するのは不自然だし、\n変化がないのに変化がないように見せたくないのであえて直前ではなく古いものと比較するとか当然やりそうだし\nこの解釈はブロードリスニングでドラスティンクに政策体系を変えたって説明よりも自然なんだよな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dtRsm",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まー、でもそうだよなぁ、2024年までの結果をブロードリスニングだけで大幅に変更するのは不自然だし、\n変化がないのに変化がないように見せたくないのであえて直前ではなく古いものと比較するとか当然やりそうだし\nこの解釈はブロードリスニングでドラスティンクに政策体系を変えたって説明よりも自然なんだよな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 2025年、東京2050を発表。　2021年に発表された「未来の東京戦略」との差分を「政策体系の再構築の結果」として公開\nまー、でもそうだよなぁ、2024年までの結果をブロードリスニングだけで大幅に変更するのは不自然だし、\n変化がないのに変化がないように見せたくないのであえて直前ではなく古いものと比較するとか当然やりそうだし\nこの解釈はブロードリスニングでドラスティンクに政策体系を変えたって説明よりも自然なんだよな"
+  },
+  {
+    "text": "コロナ禍において、観光を「諸島部観光」「（東京の）地方観光」と定義していたんだけど、\n実際に外国人が求めているものは都市観光なんだよね、というので正気に返った結果、都市観光を推し進めるために、観光をトップレイヤーに持ってきた感じだなぁ\n<https://www.spt.metro.tokyo.lg.jp/seisakukikaku/versionup2024/#page=12>",
+    "files": [
+      {
+        "id": "F09TSSBKTMJ",
+        "created": 1763470967,
+        "timestamp": 1763470967,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 205865,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09TSSBKTMJ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09TSSBKTMJ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSSBKTMJ-414719a698/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSSBKTMJ-414719a698/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSSBKTMJ-414719a698/image_360.png",
+        "thumb_360_w": 348,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSSBKTMJ-414719a698/image_480.png",
+        "thumb_480_w": 464,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSSBKTMJ-414719a698/image_160.png",
+        "original_w": 517,
+        "original_h": 535,
+        "thumb_tiny": "AwAwAC+ziQLgg59S1AEmMnJGOoepfMjbI38jIPtSjZxhyc988VNkIiO/B4I54O+m4lzjccn/AGqnyn96jKYA3Hj60WQaEBEu7GSCeg3VJEsgY784x3NPG3OdxNLkZwOtFkFhxIA5NICSQQwx7ClPbkj6CkXJ/iY/UVQxm4f3/wDx2lBGNxcYHqMUm/8A6af+O08HIHzH6460AKARjOPypG+8PoadTW+8PoaAEkkEa7j0oVwTjOD6UuODyeTnrR3zlqAGqDnq/wCNPBz6/iKapAP8Z+tLuHv+VADqa33h9DSlsdjSZy30oA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09TSSBKTMJ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09TSSBKTMJ-89e2c8963b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LL0ix",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コロナ禍において、観光を「諸島部観光」「（東京の）地方観光」と定義していたんだけど、\n実際に外国人が求めているものは都市観光なんだよね、というので正気に返った結果、都市観光を推し進めるために、観光をトップレイヤーに持ってきた感じだなぁ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.spt.metro.tokyo.lg.jp/seisakukikaku/versionup2024/#page=12"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763471029.363919",
+    "client_msg_id": "471bb44e-3deb-4b9b-921f-a9d586e4c262",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "コロナ禍において、観光を「諸島部観光」「（東京の）地方観光」と定義していたんだけど、\n実際に外国人が求めているものは都市観光なんだよね、というので正気に返った結果、都市観光を推し進めるために、観光をトップレイヤーに持ってきた感じだなぁ\n<https://www.spt.metro.tokyo.lg.jp/seisakukikaku/versionup2024/#page=12>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763471137.216009",
+    "client_msg_id": "cfce3485-7e63-485a-991c-20bb2e1bea90",
+    "text": "書籍の書き方をどうしよう以前に僕は明日の講演をどうしようw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f2aPg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "書籍の書き方をどうしよう以前に僕は明日の講演をどうしようw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "書籍の書き方をどうしよう以前に僕は明日の講演をどうしようw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763471161.188809",
+    "client_msg_id": "73d076b9-0012-46fa-b488-6d7e10b8b71a",
+    "text": "書き切ってから明日考えようw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mNh5q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "書き切ってから明日考えようw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "書き切ってから明日考えようw"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763471217.385509",
+    "client_msg_id": "26999fe4-f00c-4a34-a5ad-4fc80ca3e18e",
+    "text": "2021年に東京オリンピック2020があったので、それの絡みでいろいろと東京オリンピック前提になっていたのだなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HQ91G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2021年に東京オリンピック2020があったので、それの絡みでいろいろと東京オリンピック前提になっていたのだなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "2021年に東京オリンピック2020があったので、それの絡みでいろいろと東京オリンピック前提になっていたのだなぁ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763471237.850539",
+    "client_msg_id": "aece3427-6a86-43ae-b2b3-68f676aa0ec8",
+    "text": "んで、オリンピックが終わった結果、オリンピックを前提としていた施策が軒並み終わってるので、方針転換がモリモリと入ってきている",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yKBr5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "んで、オリンピックが終わった結果、オリンピックを前提としていた施策が軒並み終わってるので、方針転換がモリモリと入ってきている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "んで、オリンピックが終わった結果、オリンピックを前提としていた施策が軒並み終わってるので、方針転換がモリモリと入ってきている"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763471319.391879",
+    "client_msg_id": "9c88aab3-d9f8-4c35-bd26-c7c77005a625",
+    "text": "確かに、これは東京都は取材NGになるわなぁ、こっちが期待した応えを返せないだろうし。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7S2go",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "確かに、これは東京都は取材NGになるわなぁ、こっちが期待した応えを返せないだろうし。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "確かに、これは東京都は取材NGになるわなぁ、こっちが期待した応えを返せないだろうし。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1763471419.697019",
+    "client_msg_id": "e59d6795-6543-4758-a6ca-8cdffb018d26",
+    "text": "あと、これはコンウェイの法則じゃないかなー\n東京都の政策担当者が増えていった結果、部署が分割され、それが政策カテゴリになっていっている、っていう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5Tlu2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、これはコンウェイの法則じゃないかなー\n東京都の政策担当者が増えていった結果、部署が分割され、それが政策カテゴリになっていっている、っていう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あと、これはコンウェイの法則じゃないかなー\n東京都の政策担当者が増えていった結果、部署が分割され、それが政策カテゴリになっていっている、っていう"
+  },
+  {
+    "text": "これとか分かりやすくて、オリンピック対応の部署が消えたからだよね……",
+    "files": [
+      {
+        "id": "F09TSU0DVLL",
+        "created": 1763471447,
+        "timestamp": 1763471447,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 36240,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09TSU0DVLL/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09TSU0DVLL/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSU0DVLL-fcbdedf871/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSU0DVLL-fcbdedf871/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSU0DVLL-fcbdedf871/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 111,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09TSU0DVLL-fcbdedf871/image_160.png",
+        "original_w": 463,
+        "original_h": 143,
+        "thumb_tiny": "AwAPADC+yrnhFz7rRtTP3Fx/u0O/UKwB9wTQX5GHAHf5aAEfCcooB6dPcUDJHzge3y//AFzS8SHrkA54GPSn0gIwBvycbfTZ/WnDZnhef92nUU7gf//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09TSU0DVLL/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09TSU0DVLL-d0f6ddebe2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GPjEh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これとか分かりやすくて、オリンピック対応の部署が消えたからだよね……"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763471459.723919",
+    "client_msg_id": "5cfeff10-c616-4f5e-8f3f-f9ffbacf8e7b",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "これとか分かりやすくて、オリンピック対応の部署が消えたからだよね……"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763471725.748529",
+    "client_msg_id": "b42cae44-9e2a-41f6-89fc-267ff2ffef02",
+    "text": "コンウェイの法則の解決になるって話をしたかったのに、結局コンウェイの法則だったw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hVC3d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コンウェイの法則の解決になるって話をしたかったのに、結局コンウェイの法則だったw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "コンウェイの法則の解決になるって話をしたかったのに、結局コンウェイの法則だったw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763471760.230619",
+    "client_msg_id": "bcf6d3e9-ac2a-4d47-bbcd-fe93de0ed6a4",
+    "text": "どうしようかなぁ、ほんとw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EVzDq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どうしようかなぁ、ほんとw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "どうしようかなぁ、ほんとw"
+  },
+  {
+    "text": "これの話をしたかったんだがw",
+    "files": [
+      {
+        "id": "F09UHMLB996",
+        "created": 1763471800,
+        "timestamp": 1763471800,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 478570,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHMLB996/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09UHMLB996/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 275,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 367,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 550,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 611,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09UHMLB996-2093536331/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 733,
+        "original_w": 1000,
+        "original_h": 764,
+        "thumb_tiny": "AwAlADDTopCw5xk4ODik5D9yPTFAAWHIzj39KRWJYjsOM980OgOSc8jBA/nSRjIBKkMPWgByuG7fXkcUqsHGVII9jTGBLKQGHrz/APXqQc9sUAITj6npSZ5GRyPbNOPIwaQBUXAAVR6UAIwBIGOTxnHSgIM8gH8Oc5oO1hnkgHtTQysuNrANkYKmgBiuQxffuTOMDBA49alQ7lB5+pxz+VRmNUjdFGcg54x29hT4xtyO2eOB0wPSgB9Ic9iB9RS0UANZSwGdp+q0FSeu09O1OooAMeuM0AAdBRRQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09UHMLB996/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09UHMLB996-2af89719ea",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+hQbC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これの話をしたかったんだがw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763471807.556519",
+    "client_msg_id": "fca29dda-5413-42b7-b33a-f3c3873aa16c",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これの話をしたかったんだがw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763472586.520699",
+    "client_msg_id": "666637b8-0747-441c-88a5-a3cdc9174f67",
+    "text": "まー、すくなくともチームみらいが集まったデータを見て福祉を新しい柱に追加したのは事実のはずなんだが、事例がチームみらいばっかりになってしまうな〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D/yBT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まー、すくなくともチームみらいが集まったデータを見て福祉を新しい柱に追加したのは事実のはずなんだが、事例がチームみらいばっかりになってしまうな〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まー、すくなくともチームみらいが集まったデータを見て福祉を新しい柱に追加したのは事実のはずなんだが、事例がチームみらいばっかりになってしまうな〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763472631.641619",
+    "client_msg_id": "1c53d5c7-5d2f-460e-8a9d-e59bcd0fcc43",
+    "text": "やっぱ事例は東京都のままにして「東京都はこう報告している」と報告されている通りに紹介した上で脚注とかコラムで疑義を呈するか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M+diL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やっぱ事例は東京都のままにして「東京都はこう報告している」と報告されている通りに紹介した上で脚注とかコラムで疑義を呈するか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "やっぱ事例は東京都のままにして「東京都はこう報告している」と報告されている通りに紹介した上で脚注とかコラムで疑義を呈するか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763473101.233189",
+    "client_msg_id": "817187a6-d846-4768-86e8-550fb8a45270",
+    "text": "ちなみにBG2050の元データも探したが、Jigsaw側は「公開する予定」とブログに書いてるけど、GPT5が発見できるところにはコメント一覧みたいなしょぼいデータしかなく、vote matrixのデータを出したら一部の熱心な人が超使ってただけだと言うことが明らかになっちゃうのかなーと推測している",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GB2zC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみにBG2050の元データも探したが、Jigsaw側は「公開する予定」とブログに書いてるけど、GPT5が発見できるところにはコメント一覧みたいなしょぼいデータしかなく、vote matrixのデータを出したら一部の熱心な人が超使ってただけだと言うことが明らかになっちゃうのかなーと推測している"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ちなみにBG2050の元データも探したが、Jigsaw側は「公開する予定」とブログに書いてるけど、GPT5が発見できるところにはコメント一覧みたいなしょぼいデータしかなく、vote matrixのデータを出したら一部の熱心な人が超使ってただけだと言うことが明らかになっちゃうのかなーと推測している"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1763473141.406129",
+    "client_msg_id": "5c60cde5-5569-4867-88e1-5dc7d1b9bf09",
+    "text": "色々調べてて、参加人数とか投票数みたいな虚栄の指標を追うのはやめようよと言う気持ちになってきたw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AIP9v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "色々調べてて、参加人数とか投票数みたいな虚栄の指標を追うのはやめようよと言う気持ちになってきたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "色々調べてて、参加人数とか投票数みたいな虚栄の指標を追うのはやめようよと言う気持ちになってきたw"
+  }
+]

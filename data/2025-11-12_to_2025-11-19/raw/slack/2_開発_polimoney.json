@@ -1,0 +1,787 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1762932989.183049",
+    "client_msg_id": "6865e3c5-9a27-4d52-9f8f-4f5119fc7fa4",
+    "text": "<@U08PD4Y0D9V>\n会計ソフトを設計する上で、ご存知でしたら伺いたいです。以前作っていただいた\n↓の『勘定科目マスタ』\n<https://docs.google.com/spreadsheets/d/1nr-UsawVtqbSf0sqm7L5z8efjO6cLYIB/edit?usp=sharing&amp;ouid=104891002119032349947&amp;rtpof=true&amp;sd=true>\nについて、一般だと勘定科目を任意に追加することがあると思いますが、政治資金収支報告書や選挙運動収支報告書において、勘定科目を追加することはありますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762932989.183049",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1763023601.102609",
+    "reply_users": [
+      "U08PD4Y0D9V",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bajpO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08PD4Y0D9V"
+              },
+              {
+                "type": "text",
+                "text": "\n会計ソフトを設計する上で、ご存知でしたら伺いたいです。以前作っていただいた\n↓の『勘定科目マスタ』\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/1nr-UsawVtqbSf0sqm7L5z8efjO6cLYIB/edit?usp=sharing&ouid=104891002119032349947&rtpof=true&sd=true"
+              },
+              {
+                "type": "text",
+                "text": "\nについて、一般だと勘定科目を任意に追加することがあると思いますが、政治資金収支報告書や選挙運動収支報告書において、勘定科目を追加することはありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@seikeijin.tokyo.10969\n会計ソフトを設計する上で、ご存知でしたら伺いたいです。以前作っていただいた\n↓の『勘定科目マスタ』\n<https://docs.google.com/spreadsheets/d/1nr-UsawVtqbSf0sqm7L5z8efjO6cLYIB/edit?usp=sharing&ouid=104891002119032349947&rtpof=true&sd=true>\nについて、一般だと勘定科目を任意に追加することがあると思いますが、政治資金収支報告書や選挙運動収支報告書において、勘定科目を追加することはありますか？"
+  },
+  {
+    "text": "<@U08HWJ80CHG>\n:point_up_2:の科目マスタは「政治資金収支報告書」用になります。\n\n「選挙運動収支報告書」は科目が別になります。添付が東京都の手引きの科目で、総務省の科目とも一致しています。家屋費だけ①選挙事務所費、②集合会場費等は総務省のExcelひな形（添付）では科目が内訳でわかれています。\n\n基本的に報告上は科目を上記の「選挙運動収支報告書」の家屋費を除き、分ける必要はないと思います。\n\n「政治資金収支報告書」は、「その他経費」が、「選挙運動収支報告書」は、「雑費」が科目として用意されているからです。\n\nただし、管理する側として費目を細かく入れたいという要望はあるかもしれませんので、内部管理用として基本の科目に枝番で補助科目を設定すればよいと思います。マネーフォワードは補助科目が設定できます。freeeもできたと思いますが記憶あいまいです。\n\n\n【まとめ】\n・「政治資金収支報告書」と「選挙運動収支報告」は科目マスタは別（スプシのは前者用）\n・報告上は、新規科目いらない\n・ただし、細かく見せたい、内部管理で細かく把握したい等で補助科目使うのはあり。",
+    "files": [
+      {
+        "id": "F09SRQ87XC4",
+        "created": 1763021936,
+        "timestamp": 1763021936,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PD4Y0D9V",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 110602,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09SRQ87XC4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09SRQ87XC4/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 156,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 208,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 312,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SRQ87XC4-d8c852b207/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 347,
+        "original_w": 931,
+        "original_h": 404,
+        "thumb_tiny": "AwAVADDQfIUsBkgHjJ/pS7gOx6Z6GlcKVO8Ar3z0puASQVQjvz7f/qoAcGBXPOPoaNwzjn8jTFOV4CYJyMNnPPPb/JpwK5yNvGc89PWgBSwBA559jQCGGRn8RimhYzggKc8j/P4/rT8AEkAZPWgA9OaTHPU0tFADVUqAN7HHrjmlC/LjJPvnmlooAMcEc8+9FFFAH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09SRQ87XC4/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09SRQ87XC4-e2f16c465f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F09SN9E163C",
+        "created": 1763022519,
+        "timestamp": 1763022519,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PD4Y0D9V",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 30467,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09SN9E163C/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09SN9E163C/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 101,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 134,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 202,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 224,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 269,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F09SN9E163C-7b95890108/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 287,
+        "original_w": 1590,
+        "original_h": 445,
+        "thumb_tiny": "AwAOADDQLDftxk9ccUoY5wQfYcf40hXIfadpJzn3xT6AE3H+6f0o3H+6f0paTPzYoANx/un9KinJ+zS5U/dbnj0qao7n/j2l/wBw/wAqa3A//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09SN9E163C/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09SN9E163C-19feb52b08",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PD4Y0D9V",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Qk7hl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "point_up_2",
+                "unicode": "1f446"
+              },
+              {
+                "type": "text",
+                "text": "の科目マスタは「政治資金収支報告書」用になります。\n\n「選挙運動収支報告書」は科目が別になります。添付が東京都の手引きの科目で、総務省の科目とも一致しています。家屋費だけ①選挙事務所費、②集合会場費等は総務省のExcelひな形（添付）では科目が内訳でわかれています。\n\n基本的に報告上は科目を上記の「選挙運動収支報告書」の家屋費を除き、分ける必要はないと思います。\n\n「政治資金収支報告書」は、「その他経費」が、「選挙運動収支報告書」は、「雑費」が科目として用意されているからです。\n\nただし、管理する側として費目を細かく入れたいという要望はあるかもしれませんので、内部管理用として基本の科目に枝番で補助科目を設定すればよいと思います。マネーフォワードは補助科目が設定できます。freeeもできたと思いますが記憶あいまいです。\n\n\n【まとめ】\n・「政治資金収支報告書」と「選挙運動収支報告」は科目マスタは別（スプシのは前者用）\n・報告上は、新規科目いらない\n・ただし、細かく見せたい、内部管理で細かく把握したい等で補助科目使うのはあり。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763022815.259179",
+    "edited": {
+      "user": "U08PD4Y0D9V",
+      "ts": "1763022911.000000"
+    },
+    "client_msg_id": "a06b6e44-558b-40e2-8a75-0886b9ff5328",
+    "thread_ts": "1762932989.183049",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1762932989.183049",
+    "user_name": "中村幸信",
+    "text_readable": "@oscar.gaddress\n:point_up_2:の科目マスタは「政治資金収支報告書」用になります。\n\n「選挙運動収支報告書」は科目が別になります。添付が東京都の手引きの科目で、総務省の科目とも一致しています。家屋費だけ①選挙事務所費、②集合会場費等は総務省のExcelひな形（添付）では科目が内訳でわかれています。\n\n基本的に報告上は科目を上記の「選挙運動収支報告書」の家屋費を除き、分ける必要はないと思います。\n\n「政治資金収支報告書」は、「その他経費」が、「選挙運動収支報告書」は、「雑費」が科目として用意されているからです。\n\nただし、管理する側として費目を細かく入れたいという要望はあるかもしれませんので、内部管理用として基本の科目に枝番で補助科目を設定すればよいと思います。マネーフォワードは補助科目が設定できます。freeeもできたと思いますが記憶あいまいです。\n\n\n【まとめ】\n・「政治資金収支報告書」と「選挙運動収支報告」は科目マスタは別（スプシのは前者用）\n・報告上は、新規科目いらない\n・ただし、細かく見せたい、内部管理で細かく把握したい等で補助科目使うのはあり。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763023601.102609",
+    "client_msg_id": "bb39388b-b5ca-4b20-b671-19074b53f452",
+    "text": "ありがとうございます！\n大科目（という言い方が正しいかわかりませんが）は、追加する機能はなくてOK\n大科目に紐づく補助科目は追加できると便利そう\nということも理解しました。\n便利だと使ってくれる方も増えそう（≒デジタル民主主義の社会実装）なので、前向きに検討したいと思います。\n画像も添付ありがとうございます！めっちゃ参考になります！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1762932989.183049",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lt2Ki",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n大科目（という言い方が正しいかわかりませんが）は、追加する機能はなくてOK\n大科目に紐づく補助科目は追加できると便利そう\nということも理解しました。\n便利だと使ってくれる方も増えそう（≒デジタル民主主義の社会実装）なので、前向きに検討したいと思います。\n画像も添付ありがとうございます！めっちゃ参考になります！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08PD4Y0D9V"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1762932989.183049",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！\n大科目（という言い方が正しいかわかりませんが）は、追加する機能はなくてOK\n大科目に紐づく補助科目は追加できると便利そう\nということも理解しました。\n便利だと使ってくれる方も増えそう（≒デジタル民主主義の社会実装）なので、前向きに検討したいと思います。\n画像も添付ありがとうございます！めっちゃ参考になります！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1763024411.409299",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hlr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1763027427.418509",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lY9M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08PD4Y0D9V",
+    "type": "message",
+    "ts": "1763030557.523719",
+    "client_msg_id": "4ee37875-2490-441c-aaae-ac17d023ccee",
+    "text": "<@U08HWJ80CHG>\n<https://www.soumu.go.jp/main_content/000823150.pdf>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ESs5X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.soumu.go.jp/main_content/000823150.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中村幸信",
+    "text_readable": "@oscar.gaddress\n<https://www.soumu.go.jp/main_content/000823150.pdf>"
+  },
+  {
+    "text": "<@U08HWJ80CHG>\n選挙運動収支報告書の手引きは以下にあります。\n選挙ごとでことなるので、pdfの手前のリンク貼っています。\n<https://www.senkyo.metro.tokyo.lg.jp/application>\n\nなお、さきほど金額の上限についてお話しましたが、少し正しくなかったので、訂正します。\n・選挙運動費用の上限（公費負担関係なく）\n→添付の画像の内容で決まります。\n・選挙運動費用のうち、公費負担額\n→ビラ、ポスターは単価が都度決まるので、それに規程の枚数を掛けて金額が決まります。他は上限は定額×日数です。\n\n（参考）\n・都議会議員選挙の手引き\n<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7togisen_syusihoukokutebiki>\n\n・参議院選挙の手引き\n<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7sangiin_syusihoukokutebiki>",
+    "files": [
+      {
+        "id": "F09T23S4P6V",
+        "created": 1763031183,
+        "timestamp": 1763031183,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08PD4Y0D9V",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 90066,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09T23S4P6V/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09T23S4P6V/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_360.png",
+        "thumb_360_w": 262,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_480.png",
+        "thumb_480_w": 350,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_720.png",
+        "thumb_720_w": 524,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_800.png",
+        "thumb_800_w": 583,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F09T23S4P6V-ede66b7ab0/image_960.png",
+        "thumb_960_w": 699,
+        "thumb_960_h": 960,
+        "original_w": 727,
+        "original_h": 998,
+        "thumb_tiny": "AwAwACPROcgDP1GKU5+tGRnqKRtpIPBx70AByehI9xilycZwfpTSFLZz753Uo2jHzdP9qgB1FA6cUUAIRk9vyoIB6gUjKCeQD2ORS8nGVx65oADnsR+VLTCgY8qp+q04KASdoB9cdaAFooooAYwYkfKvHrQd4KhUXH8qdjnv69aac7hkH3wxoATLhvuA57g0fvPl+ReP0p4HAz/OloABnHPWiiigD//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09T23S4P6V/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F09T23S4P6V-4d6c2ca12c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08PD4Y0D9V",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L+504",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n選挙運動収支報告書の手引きは以下にあります。\n選挙ごとでことなるので、pdfの手前のリンク貼っています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.senkyo.metro.tokyo.lg.jp/application"
+              },
+              {
+                "type": "text",
+                "text": "\n\nなお、さきほど金額の上限についてお話しましたが、少し正しくなかったので、訂正します。\n・選挙運動費用の上限（公費負担関係なく）\n→添付の画像の内容で決まります。\n・選挙運動費用のうち、公費負担額\n→ビラ、ポスターは単価が都度決まるので、それに規程の枚数を掛けて金額が決まります。他は上限は定額×日数です。\n\n（参考）\n・都議会議員選挙の手引き\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7togisen_syusihoukokutebiki"
+              },
+              {
+                "type": "text",
+                "text": "\n\n・参議院選挙の手引き\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7sangiin_syusihoukokutebiki"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1763031267.494429",
+    "client_msg_id": "d3d14b9c-fb8f-4c84-9145-d8c89abc8509",
+    "attachments": [
+      {
+        "image_url": "https://www.senkyo.metro.tokyo.lg.jp/documents/158990/5052145/opg.png2/3c79ba89-ab16-4589-4fad-b5b411615b25?version=1.1&t=1758200157619&imagePreview=1",
+        "image_width": 600,
+        "image_height": 315,
+        "image_bytes": 18141,
+        "from_url": "https://www.senkyo.metro.tokyo.lg.jp/application",
+        "service_icon": "https://www.senkyo.metro.tokyo.lg.jp/favicon.ico",
+        "id": 1,
+        "original_url": "https://www.senkyo.metro.tokyo.lg.jp/application",
+        "fallback": "選挙管理委員会事務局: 届出・申請|東京都選挙管理委員会",
+        "text": "東京都選挙管理委員会の届出・申請のページです。",
+        "title": "届出・申請|東京都選挙管理委員会",
+        "title_link": "https://www.senkyo.metro.tokyo.lg.jp/application",
+        "service_name": "選挙管理委員会事務局"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中村幸信",
+    "text_readable": "@oscar.gaddress\n選挙運動収支報告書の手引きは以下にあります。\n選挙ごとでことなるので、pdfの手前のリンク貼っています。\n<https://www.senkyo.metro.tokyo.lg.jp/application>\n\nなお、さきほど金額の上限についてお話しましたが、少し正しくなかったので、訂正します。\n・選挙運動費用の上限（公費負担関係なく）\n→添付の画像の内容で決まります。\n・選挙運動費用のうち、公費負担額\n→ビラ、ポスターは単価が都度決まるので、それに規程の枚数を掛けて金額が決まります。他は上限は定額×日数です。\n\n（参考）\n・都議会議員選挙の手引き\n<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7togisen_syusihoukokutebiki>\n\n・参議院選挙の手引き\n<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r7sangiin_syusihoukokutebiki>"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1763048506.438449",
+    "client_msg_id": "ca7fac80-e3eb-4fd7-9152-96ed8ee3f7d4",
+    "text": "夜遅いのでメンションなしで...\n@ GrassfieldK\n\n今日お話ししていたjson仕様完成しました。\n詳細は<https://github.com/shumizu418128/polimoney/blob/main/tools_election/JSON_RULE.md|JSON_RULE.md>, <https://github.com/shumizu418128/polimoney/blob/main/tools_election/WORD_TRANSLATION.md|WORD_TRANSLATION.md>, <https://github.com/shumizu418128/polimoney/tree/main/tools_election/output_json_example|output_json_example>に書いたのでAIくんも読みやすいかなと思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fh0Ka",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "夜遅いのでメンションなしで...\n@ GrassfieldK\n\n今日お話ししていたjson仕様完成しました。\n詳細は"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/shumizu418128/polimoney/blob/main/tools_election/JSON_RULE.md",
+                "text": "JSON_RULE.md"
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/shumizu418128/polimoney/blob/main/tools_election/WORD_TRANSLATION.md",
+                "text": "WORD_TRANSLATION.md"
+              },
+              {
+                "type": "text",
+                "text": ", "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/shumizu418128/polimoney/tree/main/tools_election/output_json_example",
+                "text": "output_json_example"
+              },
+              {
+                "type": "text",
+                "text": "に書いたのでAIくんも読みやすいかなと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "夜遅いのでメンションなしで...\n@ GrassfieldK\n\n今日お話ししていたjson仕様完成しました。\n詳細は<https://github.com/shumizu418128/polimoney/blob/main/tools_election/JSON_RULE.md|JSON_RULE.md>, <https://github.com/shumizu418128/polimoney/blob/main/tools_election/WORD_TRANSLATION.md|WORD_TRANSLATION.md>, <https://github.com/shumizu418128/polimoney/tree/main/tools_election/output_json_example|output_json_example>に書いたのでAIくんも読みやすいかなと思います"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763225226.413119",
+    "client_msg_id": "9ea029c7-d408-449d-82ad-f95ee361cbeb",
+    "text": "README改善案を書いてみました（現READMEからもってきた方がいいこともありそう）。\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.7hmepg1dvsgu>\n改善理由\n• いろいろ古くなってきた気がしたので\n• 全体会議で\n    ◦ 「みらい まる見え政治資金」との違いがわかりにくいという意見があった\n        ▪︎ 開発する必要性への疑問もあった（特に会計ソフト）\n        ▪︎ コントリビューターやユーザーの取り合いになってしまうので、差別ががいるのでは？\n相談したいこと等も書いた（一番上）ので、協力いただけたら嬉しい。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nq/up",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "README改善案を書いてみました（現READMEからもってきた方がいいこともありそう）。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.7hmepg1dvsgu"
+              },
+              {
+                "type": "text",
+                "text": "\n改善理由\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いろいろ古くなってきた気がしたので"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "全体会議で"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「みらい まる見え政治資金」との違いがわかりにくいという意見があった"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発する必要性への疑問もあった（特に会計ソフト）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "コントリビューターやユーザーの取り合いになってしまうので、差別ががいるのでは？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n相談したいこと等も書いた（一番上）ので、協力いただけたら嬉しい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U09C3J7V960",
+          "U08NZH1RY4S",
+          "U08H3V9KMFH",
+          "U08JASQKEEM"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "README改善案を書いてみました（現READMEからもってきた方がいいこともありそう）。\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.7hmepg1dvsgu>\n改善理由\n• いろいろ古くなってきた気がしたので\n• 全体会議で\n    ◦ 「みらい まる見え政治資金」との違いがわかりにくいという意見があった\n        ▪︎ 開発する必要性への疑問もあった（特に会計ソフト）\n        ▪︎ コントリビューターやユーザーの取り合いになってしまうので、差別ががいるのでは？\n相談したいこと等も書いた（一番上）ので、協力いただけたら嬉しい。"
+  }
+]

@@ -1,0 +1,1482 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1763008920.112629",
+    "client_msg_id": "c731d9e9-c263-435f-9722-4818585e6ae9",
+    "text": "いどばた政策がプルリクを作る前段階として\n• ユーザーとのAI対話で「すでに提出済みの意見」を RAG かなんかでAIが参照できるようにする\nというのが必要かなと思っています。この用途に使えそうな既存のプロジェクトってなんかありますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763008920.112629",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763009131.112919",
+    "reply_users": [
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qzp/t",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばた政策がプルリクを作る前段階として\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユーザーとのAI対話で「すでに提出済みの意見」を RAG かなんかでAIが参照できるようにする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "というのが必要かなと思っています。この用途に使えそうな既存のプロジェクトってなんかありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いどばた政策がプルリクを作る前段階として\n• ユーザーとのAI対話で「すでに提出済みの意見」を RAG かなんかでAIが参照できるようにする\nというのが必要かなと思っています。この用途に使えそうな既存のプロジェクトってなんかありますか？"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763009131.112919",
+    "client_msg_id": "e3e51349-9fde-4d39-ad52-111687824463",
+    "text": "「技術検証用のサンプルデータ」であれば、この二つが使えると思います！\n<https://github.com/team-mirai/policy>\n<https://github.com/takahiroanno2024/2025_ai_idobatakaigi_output>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763008920.112629",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gzVCT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「技術検証用のサンプルデータ」であれば、この二つが使えると思います！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/team-mirai/policy"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/takahiroanno2024/2025_ai_idobatakaigi_output"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763008920.112629",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "「技術検証用のサンプルデータ」であれば、この二つが使えると思います！\n<https://github.com/team-mirai/policy>\n<https://github.com/takahiroanno2024/2025_ai_idobatakaigi_output>"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1763028025.574519",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/xqo-hsqr-tue",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/xqo-hsqr-tue",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/xqo-hsqr-tue",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6WT6Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、いどばた開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/xqo-hsqr-tue"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 本日20時より、いどばた開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/xqo-hsqr-tue> :memo: <https://docs.google.com/document/d/1cK5i3ATo1OXsy-oicllY6-YlI-q0AJVtqQW7a71V-AU> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763031296.832249",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1763032731.000000"
+    },
+    "client_msg_id": "93a1d048-290f-473d-9691-caf0a0a0bc45",
+    "text": "<!here>\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは:man-gesturing-ok:スタンプなどお願いします！\n来週水曜頃には判断して投稿します！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "reply_count": 6,
+    "reply_users_count": 3,
+    "latest_reply": "1763513802.582679",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08GJSBAX3K",
+      "U08NN8A6P9D"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "okYwT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは"
+              },
+              {
+                "type": "emoji",
+                "name": "man-gesturing-ok",
+                "unicode": "1f646-200d-2642-fe0f"
+              },
+              {
+                "type": "text",
+                "text": "スタンプなどお願いします！\n来週水曜頃には判断して投稿します！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08Q9JW7SC9"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは:man-gesturing-ok:スタンプなどお願いします！\n来週水曜頃には判断して投稿します！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763031566.665239",
+    "client_msg_id": "058c92c0-caae-4dc3-a7fc-4a090de5d703",
+    "text": "<@U08Q9JW7SC9>\n&gt; 木曜20時のいどばた定例について、Ｓ高 ユウスケくんに打診してみました。\n&gt; 時間帯としては調整可能とのことです。\n&gt; \n&gt; 来週 11/20(木)  20:15ぐらいに入ってもらって、広聴AI／いどばたの概要を\n&gt; モアイさんから説明いただく、というのはいかがでしょうか？\nこれはもちろん参加します！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oxldk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08Q9JW7SC9"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "木曜20時のいどばた定例について、Ｓ高 ユウスケくんに打診してみました。\n時間帯としては調整可能とのことです。\n\n来週 11/20(木)  20:15ぐらいに入ってもらって、広聴AI／いどばたの概要を\nモアイさんから説明いただく、というのはいかがでしょうか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはもちろん参加します！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "小野翔太",
+    "text_readable": "@sambo.office.ota\n> 木曜20時のいどばた定例について、Ｓ高 ユウスケくんに打診してみました。\n> 時間帯としては調整可能とのことです。\n> \n> 来週 11/20(木)  20:15ぐらいに入ってもらって、広聴AI／いどばたの概要を\n> モアイさんから説明いただく、というのはいかがでしょうか？\nこれはもちろん参加します！！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763031741.239139",
+    "client_msg_id": "1cae006f-4539-47c2-b8d6-da7dc18118be",
+    "text": "同意です！raiseありがとうございます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TnyIJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "同意です！raiseありがとうございます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "同意です！raiseありがとうございます"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763031754.384659",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1763031785.000000"
+    },
+    "client_msg_id": "9a49487a-16fe-49a6-aa3c-efd4c78e9249",
+    "text": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "ts": "1762992778.529559",
+        "author_id": "U08GJSBAX3K",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1762992778.529559",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "aC82e",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "fallback": "[November 12th, 2025 4:12 PM] shutaro.aoyama: こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！",
+        "text": "こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！",
+        "author_name": "Shutaro Aoyama (ぶるーも)",
+        "author_link": "https://dd2030.slack.com/team/U08GJSBAX3K",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-05/8562895877809_d4c7a9097f140ba638be_48.png",
+        "author_subname": "Shutaro Aoyama (ぶるーも)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z5Csz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763031766.203569",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1763031773.000000"
+    },
+    "client_msg_id": "08a027c5-b56a-4f58-b6cd-16f0e417b7de",
+    "text": "こちらが新定例として代わるイメージを持っています",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KttM7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらが新定例として代わるイメージを持っています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "こちらが新定例として代わるイメージを持っています"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1763031296.832249",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1763031296.832249",
+      "edited": {
+        "user": "U08HWJ80CHG",
+        "ts": "1763032731.000000"
+      },
+      "client_msg_id": "93a1d048-290f-473d-9691-caf0a0a0bc45",
+      "text": "<!here>\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは:man-gesturing-ok:スタンプなどお願いします！\n来週水曜頃には判断して投稿します！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1763031296.832249",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1763513802.582679",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08GJSBAX3K",
+        "U08NN8A6P9D"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "okYwT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは"
+                },
+                {
+                  "type": "emoji",
+                  "name": "man-gesturing-ok",
+                  "unicode": "1f646-200d-2642-fe0f"
+                },
+                {
+                  "type": "text",
+                  "text": "スタンプなどお願いします！\n来週水曜頃には判断して投稿します！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1763439781.656059",
+    "client_msg_id": "1063a602-a81f-430b-9faf-a265c1240a2e",
+    "text": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7NabN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08NN8A6P9D"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "小野翔太",
+    "text_readable": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！"
+  },
+  {
+    "user": "U08NN8A6P9D",
+    "type": "message",
+    "ts": "1763513802.582679",
+    "client_msg_id": "6e6b35ec-13d1-47d6-8ca2-20575194cd11",
+    "text": "&gt; 必要があれば臨時\n仮に何か相談事項あればまた直接質問、という形でよろしくお願いします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763031296.832249",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wKvft",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "必要があれば臨時"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "仮に何か相談事項あればまた直接質問、という形でよろしくお願いします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763031296.832249",
+    "user_name": "TAKESHI SHIBASAKI",
+    "text_readable": "> 必要があれば臨時\n仮に何か相談事項あればまた直接質問、という形でよろしくお願いします！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763089515.388539",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1763090982.000000"
+    },
+    "client_msg_id": "83a1e574-0fe2-452b-b06c-f36a058e2521",
+    "text": "興味があったのですが（広聴AIとの兼ね合いでどういうスタンスで参加したらいいか悩んでいて）なかなか参加できず、<https://dd2030.slack.com/archives/C08FL58LK8V/p1761954347931869?thread_ts=1760599523.779789&cid=C08FL58LK8V|こちら>を今更ながら拝見して状況を把握したのですが、目下のところ\n• 定例mtg をスケジューリングして開発サイクルを動かす（<https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V|定例の日程調整中>）\n• 現状の<https://github.com/digitaldemocracy2030/idobata/issues|いどばた政策> のデモ環境をDD2030として用意する\n• 潜在的なユーザーとコミュニケーションする\nみたいなことができるといいんですかね？\n（ひとまずできるといいことが共有されていると、参加したいなと思ったり勝手にやり始める人が現れそうだと思ったので）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763089515.388539",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763120406.453729",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1761954347931869?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "ts": "1761954347.931869",
+        "author_id": "U08GJSBAX3K",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1761954347.931869",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "PhZc3",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "先日ご参加いただいた皆さんありがとうございました！\nミーティングログはこちらご覧ください！"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://drive.google.com/drive/folders/1j327QdH1acd0QQ7jX46HPcYXEQ6hYiJ2?usp=drive_link"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n"
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08JASQKEEM"
+                        },
+                        {
+                          "type": "text",
+                          "text": " さん "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08LQ0PPZ98"
+                        },
+                        {
+                          "type": "text",
+                          "text": " さんも、やりたいこと/やれることのイメージあれば共有いただけると嬉しいです！\nーー\n以前手を挙げてくださっていたので、kuboonさんにPOお願いしてよろしいでしょうか？\n技術選定などもお任せします！\n（自分も手を動かせる部分では動かしますが、基本的にプロジェクトのリード/意思決定などお任せするイメージでいます！）\n\nーー\n改めて皆さんの会う時間で定例を作りたいです。皆さん毎週空いてる曜日/時間を教えていただきたいです！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1761954347931869?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "fallback": "[October 31st, 2025 4:45 PM] shutaro.aoyama: 先日ご参加いただいた皆さんありがとうございました！\nミーティングログはこちらご覧ください！<https://drive.google.com/drive/folders/1j327QdH1acd0QQ7jX46HPcYXEQ6hYiJ2?usp=drive_link>\n\n<@U08JASQKEEM> さん <@U08LQ0PPZ98> さんも、やりたいこと/やれることのイメージあれば共有いただけると嬉しいです！\nーー\n以前手を挙げてくださっていたので、kuboonさんにPOお願いしてよろしいでしょうか？\n技術選定などもお任せします！\n（自分も手を動かせる部分では動かしますが、基本的にプロジェクトのリード/意思決定などお任せするイメージでいます！）\n\nーー\n改めて皆さんの会う時間で定例を作りたいです。皆さん毎週空いてる曜日/時間を教えていただきたいです！",
+        "text": "先日ご参加いただいた皆さんありがとうございました！\nミーティングログはこちらご覧ください！<https://drive.google.com/drive/folders/1j327QdH1acd0QQ7jX46HPcYXEQ6hYiJ2?usp=drive_link>\n\n<@U08JASQKEEM> さん <@U08LQ0PPZ98> さんも、やりたいこと/やれることのイメージあれば共有いただけると嬉しいです！\nーー\n以前手を挙げてくださっていたので、kuboonさんにPOお願いしてよろしいでしょうか？\n技術選定などもお任せします！\n（自分も手を動かせる部分では動かしますが、基本的にプロジェクトのリード/意思決定などお任せするイメージでいます！）\n\nーー\n改めて皆さんの会う時間で定例を作りたいです。皆さん毎週空いてる曜日/時間を教えていただきたいです！",
+        "author_name": "Shutaro Aoyama (ぶるーも)",
+        "author_link": "https://dd2030.slack.com/team/U08GJSBAX3K",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-05/8562895877809_d4c7a9097f140ba638be_48.png",
+        "author_subname": "Shutaro Aoyama (ぶるーも)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      },
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "ts": "1762992778.529559",
+        "author_id": "U08GJSBAX3K",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1762992778.529559",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "aC82e",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 2,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&amp;cid=C08FL58LK8V",
+        "fallback": "[November 12th, 2025 4:12 PM] shutaro.aoyama: こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！",
+        "text": "こちらいかがでしょうか？定例がセットできそうな曜日/時間を教えていただきただけると助かります！",
+        "author_name": "Shutaro Aoyama (ぶるーも)",
+        "author_link": "https://dd2030.slack.com/team/U08GJSBAX3K",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-05/8562895877809_d4c7a9097f140ba638be_48.png",
+        "author_subname": "Shutaro Aoyama (ぶるーも)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Jfq57",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "興味があったのですが（広聴AIとの兼ね合いでどういうスタンスで参加したらいいか悩んでいて）なかなか参加できず、"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1761954347931869?thread_ts=1760599523.779789&cid=C08FL58LK8V",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "を今更ながら拝見して状況を把握したのですが、目下のところ\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "定例mtg をスケジューリングして開発サイクルを動かす（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V",
+                    "text": "定例の日程調整中"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状の"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/issues",
+                    "text": "いどばた政策"
+                  },
+                  {
+                    "type": "text",
+                    "text": " のデモ環境をDD2030として用意する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "潜在的なユーザーとコミュニケーションする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "みたいなことができるといいんですかね？\n（ひとまずできるといいことが共有されていると、参加したいなと思ったり勝手にやり始める人が現れそうだと思ったので）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "興味があったのですが（広聴AIとの兼ね合いでどういうスタンスで参加したらいいか悩んでいて）なかなか参加できず、<https://dd2030.slack.com/archives/C08FL58LK8V/p1761954347931869?thread_ts=1760599523.779789&cid=C08FL58LK8V|こちら>を今更ながら拝見して状況を把握したのですが、目下のところ\n• 定例mtg をスケジューリングして開発サイクルを動かす（<https://dd2030.slack.com/archives/C08FL58LK8V/p1762992778529559?thread_ts=1760599523.779789&cid=C08FL58LK8V|定例の日程調整中>）\n• 現状の<https://github.com/digitaldemocracy2030/idobata/issues|いどばた政策> のデモ環境をDD2030として用意する\n• 潜在的なユーザーとコミュニケーションする\nみたいなことができるといいんですかね？\n（ひとまずできるといいことが共有されていると、参加したいなと思ったり勝手にやり始める人が現れそうだと思ったので）"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1763120406.453729",
+    "client_msg_id": "050C2D9E-A73C-4EB8-93BA-E49A0B665C52",
+    "text": "ミーティングで話してシェア出来てないお話が少々ありまして、もう少しお待ちください :pray::skin-tone-2:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763089515.388539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PYzf2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ミーティングで話してシェア出来てないお話が少々ありまして、もう少しお待ちください "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f-1f3fb",
+                "skin_tone": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1763089515.388539",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "ミーティングで話してシェア出来てないお話が少々ありまして、もう少しお待ちください :pray::skin-tone-2:"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763172666.939469",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1763173091.000000"
+    },
+    "client_msg_id": "144b6882-8fce-44b6-bbe6-e102a4fb8737",
+    "text": "いどばた1ユースケース\n*11月 18日 (火曜日) · 午前10:00～11:30*\nタイムゾーン: Asia/Tokyo\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: <https://meet.google.com/gkn-jheb-kht> (",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/gkn-jheb-kht",
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "id": 1,
+        "original_url": "https://meet.google.com/gkn-jheb-kht",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/gkn-jheb-kht",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rnEyG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばた1ユースケース\n"
+              },
+              {
+                "type": "text",
+                "text": "11月 18日 (火曜日) · 午前10:00～11:30",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nタイムゾーン: Asia/Tokyo\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/gkn-jheb-kht"
+              },
+              {
+                "type": "text",
+                "text": " ("
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "いどばた1ユースケース\n*11月 18日 (火曜日) · 午前10:00～11:30*\nタイムゾーン: Asia/Tokyo\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: <https://meet.google.com/gkn-jheb-kht> ("
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763172668.055479",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1763172683.000000"
+    },
+    "client_msg_id": "7c5269b4-6b4d-4c4c-acc7-cfea2ea84914",
+    "text": "こちらでボードメンバー等も交えていどばた政策について議論します。興味ある方はぜひご参加ください！\n話すこと：\n• パブコメミラーサイトをホストする案\n    ◦ いどばた政策のいどばた政策の延長戦上にパブコメか or いどばた政策とは別プロダクトか\n    ◦ 後者の場合、あらためて、いどばた政策の発展は何か？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ETnXa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらでボードメンバー等も交えていどばた政策について議論します。興味ある方はぜひご参加ください！\n話すこと：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "パブコメミラーサイトをホストする案"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策のいどばた政策の延長戦上にパブコメか or いどばた政策とは別プロダクトか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "後者の場合、あらためて、いどばた政策の発展は何か？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "こちらでボードメンバー等も交えていどばた政策について議論します。興味ある方はぜひご参加ください！\n話すこと：\n• パブコメミラーサイトをホストする案\n    ◦ いどばた政策のいどばた政策の延長戦上にパブコメか or いどばた政策とは別プロダクトか\n    ◦ 後者の場合、あらためて、いどばた政策の発展は何か？"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1763172730.191919",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1763172741.000000"
+    },
+    "client_msg_id": "e5cd0797-9d46-4ee8-8ef4-1dd0a6a9f358",
+    "text": "（今までの議論の文脈など後ほどシェアします / kuboonさんなどもし材料あればシェアいただけると助かります:bow:）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KrR0O",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（今までの議論の文脈など後ほどシェアします / kuboonさんなどもし材料あればシェアいただけると助かります"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "（今までの議論の文脈など後ほどシェアします / kuboonさんなどもし材料あればシェアいただけると助かります:bow:）"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1763243156.649179",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1763243205.000000"
+    },
+    "client_msg_id": "ff599245-e43c-4a8a-a73d-668a85a37f98",
+    "text": "パブコメミラーサイトのアイデアについて文書にまとめました。フィードバックください。\n<https://docs.google.com/document/d/1xSLTT6P7Lnh-dnoXv7k30xOrSKwMH7ma2Pm4DLfGy4c/edit?tab=t.qawqfaio88cl#heading=h.l6e9ygfmauxg>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763243156.649179",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763426844.094039",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BN3Jh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "パブコメミラーサイトのアイデアについて文書にまとめました。フィードバックください。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1xSLTT6P7Lnh-dnoXv7k30xOrSKwMH7ma2Pm4DLfGy4c/edit?tab=t.qawqfaio88cl#heading=h.l6e9ygfmauxg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08JASQKEEM"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "パブコメミラーサイトのアイデアについて文書にまとめました。フィードバックください。\n<https://docs.google.com/document/d/1xSLTT6P7Lnh-dnoXv7k30xOrSKwMH7ma2Pm4DLfGy4c/edit?tab=t.qawqfaio88cl#heading=h.l6e9ygfmauxg>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1763426844.094039",
+    "client_msg_id": "4ec5ed2f-182f-43b0-9120-84fe0cc23967",
+    "text": "前段というか第一フェーズとして、\n<https://public-comment.e-gov.go.jp/pcm/1050>\nの一覧を分野別に10分割くらいしてそれぞれの専用SNS bot アカウントを立ち上げて募集の開始と結果をSNS のフィードに流す、というのをやってみたいなと思いました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763243156.649179",
+    "parent_user_id": "U08KVN5B6HX",
+    "attachments": [
+      {
+        "from_url": "https://public-comment.e-gov.go.jp/pcm/1050",
+        "service_icon": "https://public-comment.e-gov.go.jp/common/img/favicon.ico",
+        "id": 1,
+        "original_url": "https://public-comment.e-gov.go.jp/pcm/1050",
+        "fallback": "トップ | e-Govパブリック・コメント",
+        "text": "各府省のパブリックコメントの募集状況や意見提出方法、結果を確認できます。",
+        "title": "トップ | e-Govパブリック・コメント",
+        "title_link": "https://public-comment.e-gov.go.jp/pcm/1050",
+        "service_name": "public-comment.e-gov.go.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y63Xh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "前段というか第一フェーズとして、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://public-comment.e-gov.go.jp/pcm/1050"
+              },
+              {
+                "type": "text",
+                "text": "\nの一覧を分野別に10分割くらいしてそれぞれの専用SNS bot アカウントを立ち上げて募集の開始と結果をSNS のフィードに流す、というのをやってみたいなと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763243156.649179",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "前段というか第一フェーズとして、\n<https://public-comment.e-gov.go.jp/pcm/1050>\nの一覧を分野別に10分割くらいしてそれぞれの専用SNS bot アカウントを立ち上げて募集の開始と結果をSNS のフィードに流す、というのをやってみたいなと思いました。"
+  },
+  {
+    "user": "U08HZGSCT53",
+    "type": "message",
+    "ts": "1763436514.543249",
+    "client_msg_id": "4d6ff252-9a01-46c0-9422-219404ad9a64",
+    "text": "先ほどはありがとうございました。久々にslack見てたら会議やってたので参加させていただきました。\n本区内で行政に対する不満や要望を区民から気軽に投げてもらうサービスをいどばた的なもので作れないかなとちょうど考えているところでした。目的としては潜在的な声の抽出です（いわゆるノイジーマイノリティは直接電話とかメールが来るが、そうでない人の意見は拾いにくい\n\n対象として何となく想定していたのは基本計画、議会の資料、行政評価、区のWebサイトなどで、これらに対してAIと対話しつつ意見を投げてもらうという形です（Option1のイメージに近い？\n\nただ、個々の文書を読んで具体的な箇所を示して回答するのはしんどいので、ユーザとしては「こういうことに不満なんだけど」と投げて、それをあらかじめインプットした文書からAIが読み取って「この事業ですか？」「どういう点で困ってますか？」「どうすれば良いと思います？」みたいに掘り下げて意見としてまとめてくれるとサイコーだなと思ってます。\n\n1つの利用ケースではあるかと思いますので参考になれば幸いです。開発のスキルはないですが、利用側に近い立ち位置なのでこの辺りで必要あればお気軽にお声掛けください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763436514.543249",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763439366.883829",
+    "reply_users": [
+      "U08KVN5B6HX"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d/53W",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先ほどはありがとうございました。久々にslack見てたら会議やってたので参加させていただきました。\n本区内で行政に対する不満や要望を区民から気軽に投げてもらうサービスをいどばた的なもので作れないかなとちょうど考えているところでした。目的としては潜在的な声の抽出です（いわゆるノイジーマイノリティは直接電話とかメールが来るが、そうでない人の意見は拾いにくい\n\n対象として何となく想定していたのは基本計画、議会の資料、行政評価、区のWebサイトなどで、これらに対してAIと対話しつつ意見を投げてもらうという形です（Option1のイメージに近い？\n\nただ、個々の文書を読んで具体的な箇所を示して回答するのはしんどいので、ユーザとしては「こういうことに不満なんだけど」と投げて、それをあらかじめインプットした文書からAIが読み取って「この事業ですか？」「どういう点で困ってますか？」「どうすれば良いと思います？」みたいに掘り下げて意見としてまとめてくれるとサイコーだなと思ってます。\n\n1つの利用ケースではあるかと思いますので参考になれば幸いです。開発のスキルはないですが、利用側に近い立ち位置なのでこの辺りで必要あればお気軽にお声掛けください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U09C3J7V960",
+          "U08HWJ80CHG",
+          "U08N3V4NQRE",
+          "U08H3V9KMFH"
+        ],
+        "count": 4
+      },
+      {
+        "name": "atsui",
+        "users": [
+          "U08HWJ80CHG",
+          "U08JASQKEEM",
+          "U08N3V4NQRE"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "ほづみゆうき",
+    "text_readable": "先ほどはありがとうございました。久々にslack見てたら会議やってたので参加させていただきました。\n本区内で行政に対する不満や要望を区民から気軽に投げてもらうサービスをいどばた的なもので作れないかなとちょうど考えているところでした。目的としては潜在的な声の抽出です（いわゆるノイジーマイノリティは直接電話とかメールが来るが、そうでない人の意見は拾いにくい\n\n対象として何となく想定していたのは基本計画、議会の資料、行政評価、区のWebサイトなどで、これらに対してAIと対話しつつ意見を投げてもらうという形です（Option1のイメージに近い？\n\nただ、個々の文書を読んで具体的な箇所を示して回答するのはしんどいので、ユーザとしては「こういうことに不満なんだけど」と投げて、それをあらかじめインプットした文書からAIが読み取って「この事業ですか？」「どういう点で困ってますか？」「どうすれば良いと思います？」みたいに掘り下げて意見としてまとめてくれるとサイコーだなと思ってます。\n\n1つの利用ケースではあるかと思いますので参考になれば幸いです。開発のスキルはないですが、利用側に近い立ち位置なのでこの辺りで必要あればお気軽にお声掛けください！"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1763439366.883829",
+    "client_msg_id": "524983b5-a98a-4b05-87e9-3d1e142f9748",
+    "text": "はい。Option 1の今日の合意案のユースケースだと思います。利用者が開発チームの中にいると話がはやいので、ぜひよろしくおねがいします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763436514.543249",
+    "parent_user_id": "U08HZGSCT53",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X0dqv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい。Option 1の今日の合意案のユースケースだと思います。利用者が開発チームの中にいると話がはやいので、ぜひよろしくおねがいします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08HZGSCT53"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1763436514.543249",
+    "user_name": "Ken Suzuki",
+    "text_readable": "はい。Option 1の今日の合意案のユースケースだと思います。利用者が開発チームの中にいると話がはやいので、ぜひよろしくおねがいします！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1763438947.990099",
+    "client_msg_id": "82b38dd5-ad70-41cd-8b96-5e61087a9223",
+    "text": "いどばた「ビジョン」の方は今後どうなっていくんでしょうか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Wlp9+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばた「ビジョン」の方は今後どうなっていくんでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いどばた「ビジョン」の方は今後どうなっていくんでしょうか？"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1763031296.832249",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1763031296.832249",
+      "edited": {
+        "user": "U08HWJ80CHG",
+        "ts": "1763032731.000000"
+      },
+      "client_msg_id": "93a1d048-290f-473d-9691-caf0a0a0bc45",
+      "text": "<!here>\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは:man-gesturing-ok:スタンプなどお願いします！\n来週水曜頃には判断して投稿します！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1763031296.832249",
+      "reply_count": 6,
+      "reply_users_count": 3,
+      "latest_reply": "1763513802.582679",
+      "reply_users": [
+        "U08HWJ80CHG",
+        "U08GJSBAX3K",
+        "U08NN8A6P9D"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "okYwT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\n書くのを忘れてしまってたのですが、毎週のいどばた開発定例、\nproject1, 2が動き出さなくても、頻度を落とすか、なしにしていいのではと思っています。\n理由としては特に進捗、議題がないことが多いというのが理由です。\n毎週、あつまっては今日は議題なし→解散ということが起きてます。。。\n特に反対意見がなければ、来週からなし＋必要があれば臨時としたいのですが、どうでしょう？\nスレッドにご意見、もしくは"
+                },
+                {
+                  "type": "emoji",
+                  "name": "man-gesturing-ok",
+                  "unicode": "1f646-200d-2642-fe0f"
+                },
+                {
+                  "type": "text",
+                  "text": "スタンプなどお願いします！\n来週水曜頃には判断して投稿します！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1763439781.656059",
+    "client_msg_id": "1063a602-a81f-430b-9faf-a265c1240a2e",
+    "text": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7NabN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08NN8A6P9D"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "いどばたの定例開発会議（毎週木曜）は、無くす方向となりました。\n派生する新プロダクトごとに、また定例会議を行う予定です！"
+  },
+  {
+    "user": "U09TGRB8C2Z",
+    "type": "message",
+    "ts": "1763454614.840399",
+    "client_msg_id": "a3141cf1-df48-4de7-893e-b71af1fbd301",
+    "text": "本日より参加させていただきました。\n元SEのライラックと申します。よろしくお願いいたします。\n\nAIとの実際の対話体験を通して、AIとどう向き合うべきかという提案を資料化しました。\n技術的な実装論ではなく、「人とAIの関係性の設計（デザイン）」という視点からの提案であり、\n日本文化にその優位性があると考えています。\n\n今後訪れる高齢化社会において、AIが人々の生活を支える重要な役割を果たす上で、\nAIが人の自律性を奪わずにどう寄り添うべきか。 その「健全な関係性」を築くためのフレームワークです。\n\n技術的な専門家の皆様とは異なるアプローチかと思いますが、\n「AIが民主主義や社会にどう関わるべきか」という議論の叩き台として、\n下記資料に目を通していただき、ご意見をいただけますと幸いです。\n\nCI Framework 提案資料\n[<https://docs.google.com/document/d/1zqOzFE2yWtNk60v8dib9O3W6o010aDEFqy0kD-F0SH8/edit?usp=drive_link>]\n\nCI ドキュメント：\n[<https://drive.google.com/drive/folders/1tuPTXs_PsAFgVSUOaxahAU3CwUzy7BpE?usp=sharing>]\n\nCI Framework ランディングページ：\n[<https://lilacaoi.github.io/ci/gate.html>]\n\n（※もし本チャンネルでの投稿が不適切であれば、適切なチャンネルをご教示いただけますと幸いです）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hjAZA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日より参加させていただきました。\n元SEのライラックと申します。よろしくお願いいたします。\n\nAIとの実際の対話体験を通して、AIとどう向き合うべきかという提案を資料化しました。\n技術的な実装論ではなく、「人とAIの関係性の設計（デザイン）」という視点からの提案であり、\n日本文化にその優位性があると考えています。\n\n今後訪れる高齢化社会において、AIが人々の生活を支える重要な役割を果たす上で、\nAIが人の自律性を奪わずにどう寄り添うべきか。 その「健全な関係性」を築くためのフレームワークです。\n\n技術的な専門家の皆様とは異なるアプローチかと思いますが、\n「AIが民主主義や社会にどう関わるべきか」という議論の叩き台として、\n下記資料に目を通していただき、ご意見をいただけますと幸いです。\n\nCI Framework 提案資料\n["
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1zqOzFE2yWtNk60v8dib9O3W6o010aDEFqy0kD-F0SH8/edit?usp=drive_link"
+              },
+              {
+                "type": "text",
+                "text": "]\n\nCI ドキュメント：\n["
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1tuPTXs_PsAFgVSUOaxahAU3CwUzy7BpE?usp=sharing"
+              },
+              {
+                "type": "text",
+                "text": "]\n\nCI Framework ランディングページ：\n["
+              },
+              {
+                "type": "link",
+                "url": "https://lilacaoi.github.io/ci/gate.html"
+              },
+              {
+                "type": "text",
+                "text": "]\n\n（※もし本チャンネルでの投稿が不適切であれば、適切なチャンネルをご教示いただけますと幸いです）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U09TGRB8C2Z",
+    "text_readable": "本日より参加させていただきました。\n元SEのライラックと申します。よろしくお願いいたします。\n\nAIとの実際の対話体験を通して、AIとどう向き合うべきかという提案を資料化しました。\n技術的な実装論ではなく、「人とAIの関係性の設計（デザイン）」という視点からの提案であり、\n日本文化にその優位性があると考えています。\n\n今後訪れる高齢化社会において、AIが人々の生活を支える重要な役割を果たす上で、\nAIが人の自律性を奪わずにどう寄り添うべきか。 その「健全な関係性」を築くためのフレームワークです。\n\n技術的な専門家の皆様とは異なるアプローチかと思いますが、\n「AIが民主主義や社会にどう関わるべきか」という議論の叩き台として、\n下記資料に目を通していただき、ご意見をいただけますと幸いです。\n\nCI Framework 提案資料\n[<https://docs.google.com/document/d/1zqOzFE2yWtNk60v8dib9O3W6o010aDEFqy0kD-F0SH8/edit?usp=drive_link>]\n\nCI ドキュメント：\n[<https://drive.google.com/drive/folders/1tuPTXs_PsAFgVSUOaxahAU3CwUzy7BpE?usp=sharing>]\n\nCI Framework ランディングページ：\n[<https://lilacaoi.github.io/ci/gate.html>]\n\n（※もし本チャンネルでの投稿が不適切であれば、適切なチャンネルをご教示いただけますと幸いです）"
+  }
+]
