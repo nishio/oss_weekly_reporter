@@ -1,0 +1,1311 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1763783397.349629",
+    "client_msg_id": "a1c40981-5015-4e24-a133-3e06d20de890",
+    "text": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1763778782849749?thread_ts=1763778724.704149&amp;cid=C08FL58LK8V|こちら>をベースに、まずは初めての方向けのページというのを追加してみるPRを作ってみました\n<https://github.com/digitaldemocracy2030/website/pull/181>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1763778782849749?thread_ts=1763778724.704149&amp;cid=C08FL58LK8V",
+        "ts": "1763778782.849749",
+        "author_id": "U08G2A216TW",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1763778782.849749",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "nVTzs",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "prompt\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/history"
+                        },
+                        {
+                          "type": "text",
+                          "text": " これを参考にして、このプロジェクトに新しく参加した人向けに「今どうなっているのか」の解説を作って"
+                        }
+                      ],
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "いまDD2030に入ってきた人向けに、「このプロジェクトは今どんな状態なのか」をざっくり言語化してみます。\n\n1. 全体の位置づけ：3つの柱＋大きなコミュニティ\n*"
+                        },
+                        {
+                          "type": "text",
+                          "text": "デジタル民主主義2030（DD2030）",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "*は、\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "市民の声を可視化する "
+                            },
+                            {
+                              "type": "text",
+                              "text": "広聴AI（Talk to the City系）",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "大規模なオンライン熟議プラットフォーム "
+                            },
+                            {
+                              "type": "text",
+                              "text": "「いどばた」",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "政治資金の可視化ダッシュボード "
+                            },
+                            {
+                              "type": "text",
+                              "text": "Polimoney",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "という3つの取り組みを中心に、「デジタルで民主主義をアップデートする」ことを目指しているプロジェクトです。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n2025年3月にSlackが立ち上がり、最初の1週間で開発チャンネルが立ち上がり、リポジトリが公開され、OSS開発コミュニティとして一気に立ち上がりました。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/history",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\nそこから毎週の活動を「第○週の活動」として /history にまとめていて、"
+                        },
+                        {
+                          "type": "text",
+                          "text": "少なくとも36週分（2025-11-19の週）まで継続的に動いている",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "ことがわかります。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/history",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n\n2. 「今」のスナップショット（直近1週間から見えること）\n直近の「第36週（2025-11-13〜11-19）」のSlackダイジェストを見ると、今のDD2030の雰囲気がかなりよく伝わります。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/history/week36_20251119/slack",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n2-1. 広聴AI（ブロードリスニング）\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "アルゴリズム開発チャンネルが最も盛り上がっている",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "（55件のメッセージ）。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "散布図（embedding）だけにこだわらず、"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「ワードクラウド＋クリックで掘り下げ」"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「LLMによるクラスタリングと可視化」"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " など、"
+                            },
+                            {
+                              "type": "text",
+                              "text": "見た目と分析の本質を分けて考えよう",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "という議論が進行中。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "東京都の「未来の東京」戦略など既存の分類にブロードリスニングの結果をはめてみたところ、意外と全カテゴリに収まってしまい、「新しい論点が見えにくい」という問題提起も出ている。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "自治体・議員へのヒアリングやアンケートの計画を立てつつ、「人手をかけずにテキスト意見を分類したい」という現場ニーズをどう汲むかを検討している。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "トップページ側では、"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Local LLM対応やコスト削減機能を盛り込んだ広聴AI v3.0.0が2025-05-30にリリース済み",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "で、ツールとしてもかなり実用度が上がっている状態です。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n2-2. いどばた（大規模熟議）\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "毎週の定例ミーティングは「議題が薄い時は無理にやらない」方向にシフトしつつあり、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "必要なときに集まる実務寄りフェーズ",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "に入りつつあります。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「区民の潜在的な不満・要望をAI対話からうまく引き出せないか？」というユースケースが議論され、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "“Option1” 的な新しいサービス案",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "として盛り上がっています。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばたから派生するプロジェクトの種がいくつも生まれつつある段階。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "2-3. Polimoney（政治資金の可視化）\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "既存の政治資金可視化ツールと比較しつつ、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "Polimoneyの立ち位置・目的をREADMEで整理し直そう",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "としているところ。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "選挙運動費用や公費負担などの制度理解を深めつつ、プロダクトとしてどこを特徴にするか議論中。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "2-4. Cartographer & 新しいツール群\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「Cartographer」というツールを使って、コミュニティ内の認識を整理する試みが続いています。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "参加時に答えた質問＋途中で追加した「深掘り質問」をどう見せるか、といった"
+                            },
+                            {
+                              "type": "text",
+                              "text": "UI/UX課題を検証中",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「じぶんレポート」を作ってSlackプロフィールに貼る、など、"
+                            },
+                            {
+                              "type": "text",
+                              "text": "オンボーディングを楽しくするアイデア",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "が出ている。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "2-5. コミュニティ全体・運営\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Slackには "
+                            },
+                            {
+                              "type": "text",
+                              "text": "1400人超（直近では1403人）",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " が参加しており、新規メンバーは今も増加中。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「完成した成果物」よりも、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "“生々しい議論“や”まだ形になっていないアイデア“をオープンに共有すること自体に価値がある",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "という声が強く、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " それをどう外部に伝えるか（広報／PR）も議題になっています。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "/history",
+                              "style": {
+                                "code": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " ページの更新フローを自動化したい、アクセス解析をどう共有するかなど、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "OSSコミュニティらしい運営上の悩みも議論中",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "さらに、"
+                            },
+                            {
+                              "type": "text",
+                              "text": "「ブロードリスニング本」や新しい理論・研究寄りのディスカッション",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "も進んでおり、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " 技術・実装・理論・書籍執筆が並走している状態です。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n3. いま参加した人から見た「入りどころ」\n直近のダイジェストでは、「参加すると何ができる？」として次のような入口が整理されています。("
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.org/history/week36_20251119/slack",
+                          "text": "デジタル民主主義2030"
+                        },
+                        {
+                          "type": "text",
+                          "text": ")\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "広聴AI",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "AI開発・データ分析・自治体への実装に関心がある人向け"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばた & その派生",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "施策を議論しながらサクッとまとめる、オンライン熟議の設計に興味がある人向け"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Polimoney",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "政治とお金の透明化、オープンデータ可視化に興味がある人向け"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "コミュニティ運営",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "オンボーディング設計・イベント・広報など、コミュニティづくりをやりたい人向け"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "その他",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Cartographer・ブロードリスニング本・新しい理論的検討など、研究寄り／メタな議論の場もある"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n4. 新規参加者向けのおすすめ行動\n「今どうなっているか」を踏まえたうえで、これから入る人向けに、ざっくりこんな動き方がよさそうです：\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Slackに参加して ",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "channel",
+                              "channel_id": "C08HKET1YG3",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " にひと言書く",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " どの領域（開発／政策／デザイン／運営／研究など）に興味があるかを書いておくと、誘われやすくなります。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week1_20250319/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "/history の「最新の週」のSlackまとめだけ読む",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " すべてをさかのぼる必要はなく、直近1〜2週分を読むだけで「今の空気」がだいたい掴めます。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "自分の関心に近いチャンネルを1〜2個だけ開く",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "例）広聴AIなら "
+                            },
+                            {
+                              "type": "text",
+                              "text": "2_開発_広聴ai",
+                              "style": {
+                                "code": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " / "
+                            },
+                            {
+                              "type": "text",
+                              "text": "2_開発_広聴ai_アルゴリズム開発",
+                              "style": {
+                                "code": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばたなら "
+                            },
+                            {
+                              "type": "text",
+                              "text": "2_開発_いどばた",
+                              "style": {
+                                "code": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "コミュニティ運営なら "
+                            },
+                            {
+                              "type": "text",
+                              "text": "2_コミュニティ運営",
+                              "style": {
+                                "code": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " など"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "「いま困っていること・知りたいこと」を気軽に質問する",
+                              "style": {
+                                "bold": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " ダイジェストにも書かれている通り、「どのチャンネルで聞いてもOK」という文化なので、"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "text",
+                              "text": "「何から始めたらいいですか？」自体が立派な一歩",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "です。("
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://dd2030.org/history/week36_20251119/slack",
+                              "text": "デジタル民主主義2030"
+                            },
+                            {
+                              "type": "text",
+                              "text": ")"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "ordered",
+                      "indent": 0,
+                      "offset": 5,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\nざっくりまとめると、"
+                        },
+                        {
+                          "type": "text",
+                          "text": "DD2030は「立ち上げ期」を超えて、ツールもコミュニティもかなり厚みが出てきた「実験＋実装フェーズ」に入っている",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "状態です。\n「完成したサービスにユーザとして参加する」というより、\n "
+                        },
+                        {
+                          "type": "text",
+                          "text": "「一緒に実験しながら“デジタル民主主義の新しい形“をつくっていく場」に飛び込む",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "感じで捉えてもらうと、今の状況にフィットすると思います。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1763778782849749?thread_ts=1763778724.704149&amp;cid=C08FL58LK8V",
+        "fallback": "[November 21st, 2025 6:33 PM] nishio.hirokazu: prompt\n```<https://dd2030.org/history> これを参考にして、このプロジェクトに新しく参加した人向けに「今どうなっているのか」の解説を作って```\nいまDD2030に入ってきた人向けに、「このプロジェクトは今どんな状態なのか」をざっくり言語化してみます。\n\n1. 全体の位置づけ：3つの柱＋大きなコミュニティ\n**デジタル民主主義2030（DD2030）**は、\n• 市民の声を可視化する *広聴AI（Talk to the City系）*\n• 大規模なオンライン熟議プラットフォーム *「いどばた」*\n• 政治資金の可視化ダッシュボード *Polimoney*\nという3つの取り組みを中心に、「デジタルで民主主義をアップデートする」ことを目指しているプロジェクトです。(<https://dd2030.org/|デジタル民主主義2030>)\n2025年3月にSlackが立ち上がり、最初の1週間で開発チャンネルが立ち上がり、リポジトリが公開され、OSS開発コミュニティとして一気に立ち上がりました。(<https://dd2030.org/history|デジタル民主主義2030>)\nそこから毎週の活動を「第○週の活動」として /history にまとめていて、*少なくとも36週分（2025-11-19の週）まで継続的に動いている*ことがわかります。(<https://dd2030.org/history|デジタル民主主義2030>)\n\n2. 「今」のスナップショット（直近1週間から見えること）\n直近の「第36週（2025-11-13〜11-19）」のSlackダイジェストを見ると、今のDD2030の雰囲気がかなりよく伝わります。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n2-1. 広聴AI（ブロードリスニング）\n• *アルゴリズム開発チャンネルが最も盛り上がっている*（55件のメッセージ）。\n• 散布図（embedding）だけにこだわらず、\n    ◦ 「ワードクラウド＋クリックで掘り下げ」\n• 「LLMによるクラスタリングと可視化」\n    ◦  など、*見た目と分析の本質を分けて考えよう*という議論が進行中。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 東京都の「未来の東京」戦略など既存の分類にブロードリスニングの結果をはめてみたところ、意外と全カテゴリに収まってしまい、「新しい論点が見えにくい」という問題提起も出ている。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 自治体・議員へのヒアリングやアンケートの計画を立てつつ、「人手をかけずにテキスト意見を分類したい」という現場ニーズをどう汲むかを検討している。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\nトップページ側では、*Local LLM対応やコスト削減機能を盛り込んだ広聴AI v3.0.0が2025-05-30にリリース済み*で、ツールとしてもかなり実用度が上がっている状態です。(<https://dd2030.org/|デジタル民主主義2030>)\n2-2. いどばた（大規模熟議）\n• 毎週の定例ミーティングは「議題が薄い時は無理にやらない」方向にシフトしつつあり、\n•  *必要なときに集まる実務寄りフェーズ*に入りつつあります。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 「区民の潜在的な不満・要望をAI対話からうまく引き出せないか？」というユースケースが議論され、\n•  *“Option1” 的な新しいサービス案*として盛り上がっています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• いどばたから派生するプロジェクトの種がいくつも生まれつつある段階。\n2-3. Polimoney（政治資金の可視化）\n• 既存の政治資金可視化ツールと比較しつつ、\n•  *Polimoneyの立ち位置・目的をREADMEで整理し直そう*としているところ。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 選挙運動費用や公費負担などの制度理解を深めつつ、プロダクトとしてどこを特徴にするか議論中。\n2-4. Cartographer &amp; 新しいツール群\n• 「Cartographer」というツールを使って、コミュニティ内の認識を整理する試みが続いています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n    ◦ 参加時に答えた質問＋途中で追加した「深掘り質問」をどう見せるか、といった*UI/UX課題を検証中*。\n    ◦ 「じぶんレポート」を作ってSlackプロフィールに貼る、など、*オンボーディングを楽しくするアイデア*が出ている。\n2-5. コミュニティ全体・運営\n• Slackには *1400人超（直近では1403人）* が参加しており、新規メンバーは今も増加中。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 「完成した成果物」よりも、\n•  *“生々しい議論“や”まだ形になっていないアイデア“をオープンに共有すること自体に価値がある*という声が強く、\n•  それをどう外部に伝えるか（広報／PR）も議題になっています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• `/history` ページの更新フローを自動化したい、アクセス解析をどう共有するかなど、\n•  *OSSコミュニティらしい運営上の悩みも議論中*。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• さらに、*「ブロードリスニング本」や新しい理論・研究寄りのディスカッション*も進んでおり、\n•  技術・実装・理論・書籍執筆が並走している状態です。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n3. いま参加した人から見た「入りどころ」\n直近のダイジェストでは、「参加すると何ができる？」として次のような入口が整理されています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• *広聴AI*\n    ◦ AI開発・データ分析・自治体への実装に関心がある人向け\n• *いどばた &amp; その派生*\n    ◦ 施策を議論しながらサクッとまとめる、オンライン熟議の設計に興味がある人向け\n• *Polimoney*\n    ◦ 政治とお金の透明化、オープンデータ可視化に興味がある人向け\n• *コミュニティ運営*\n    ◦ オンボーディング設計・イベント・広報など、コミュニティづくりをやりたい人向け\n• *その他*\n    ◦ Cartographer・ブロードリスニング本・新しい理論的検討など、研究寄り／メタな議論の場もある\n4. 新規参加者向けのおすすめ行動\n「今どうなっているか」を踏まえたうえで、これから入る人向けに、ざっくりこんな動き方がよさそうです：\n1. *Slackに参加して <#C08HKET1YG3|> にひと言書く*\n2.  どの領域（開発／政策／デザイン／運営／研究など）に興味があるかを書いておくと、誘われやすくなります。(<https://dd2030.org/history/week1_20250319/slack|デジタル民主主義2030>)\n3. */history の「最新の週」のSlackまとめだけ読む*\n4.  すべてをさかのぼる必要はなく、直近1〜2週分を読むだけで「今の空気」がだいたい掴めます。(<https://dd2030.org/history|デジタル民主主義2030>)\n5. *自分の関心に近いチャンネルを1〜2個だけ開く*\n    ◦ 例）広聴AIなら `2_開発_広聴ai` / `2_開発_広聴ai_アルゴリズム開発`\n    ◦ いどばたなら `2_開発_いどばた`\n    ◦ コミュニティ運営なら `2_コミュニティ運営` など\n6. *「いま困っていること・知りたいこと」を気軽に質問する*\n7.  ダイジェストにも書かれている通り、「どのチャンネルで聞いてもOK」という文化なので、\n8.  *「何から始めたらいいですか？」自体が立派な一歩*です。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\nざっくりまとめると、*DD2030は「立ち上げ期」を超えて、ツールもコミュニティもかなり厚みが出てきた「実験＋実装フェーズ」に入っている*状態です。\n「完成したサービスにユーザとして参加する」というより、\n *「一緒に実験しながら“デジタル民主主義の新しい形“をつくっていく場」に飛び込む*感じで捉えてもらうと、今の状況にフィットすると思います。",
+        "text": "prompt\n```<https://dd2030.org/history> これを参考にして、このプロジェクトに新しく参加した人向けに「今どうなっているのか」の解説を作って```\nいまDD2030に入ってきた人向けに、「このプロジェクトは今どんな状態なのか」をざっくり言語化してみます。\n\n1. 全体の位置づけ：3つの柱＋大きなコミュニティ\n**デジタル民主主義2030（DD2030）**は、\n• 市民の声を可視化する *広聴AI（Talk to the City系）*\n• 大規模なオンライン熟議プラットフォーム *「いどばた」*\n• 政治資金の可視化ダッシュボード *Polimoney*\nという3つの取り組みを中心に、「デジタルで民主主義をアップデートする」ことを目指しているプロジェクトです。(<https://dd2030.org/|デジタル民主主義2030>)\n2025年3月にSlackが立ち上がり、最初の1週間で開発チャンネルが立ち上がり、リポジトリが公開され、OSS開発コミュニティとして一気に立ち上がりました。(<https://dd2030.org/history|デジタル民主主義2030>)\nそこから毎週の活動を「第○週の活動」として /history にまとめていて、*少なくとも36週分（2025-11-19の週）まで継続的に動いている*ことがわかります。(<https://dd2030.org/history|デジタル民主主義2030>)\n\n2. 「今」のスナップショット（直近1週間から見えること）\n直近の「第36週（2025-11-13〜11-19）」のSlackダイジェストを見ると、今のDD2030の雰囲気がかなりよく伝わります。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n2-1. 広聴AI（ブロードリスニング）\n• *アルゴリズム開発チャンネルが最も盛り上がっている*（55件のメッセージ）。\n• 散布図（embedding）だけにこだわらず、\n    ◦ 「ワードクラウド＋クリックで掘り下げ」\n• 「LLMによるクラスタリングと可視化」\n    ◦  など、*見た目と分析の本質を分けて考えよう*という議論が進行中。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 東京都の「未来の東京」戦略など既存の分類にブロードリスニングの結果をはめてみたところ、意外と全カテゴリに収まってしまい、「新しい論点が見えにくい」という問題提起も出ている。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 自治体・議員へのヒアリングやアンケートの計画を立てつつ、「人手をかけずにテキスト意見を分類したい」という現場ニーズをどう汲むかを検討している。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\nトップページ側では、*Local LLM対応やコスト削減機能を盛り込んだ広聴AI v3.0.0が2025-05-30にリリース済み*で、ツールとしてもかなり実用度が上がっている状態です。(<https://dd2030.org/|デジタル民主主義2030>)\n2-2. いどばた（大規模熟議）\n• 毎週の定例ミーティングは「議題が薄い時は無理にやらない」方向にシフトしつつあり、\n•  *必要なときに集まる実務寄りフェーズ*に入りつつあります。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 「区民の潜在的な不満・要望をAI対話からうまく引き出せないか？」というユースケースが議論され、\n•  *“Option1” 的な新しいサービス案*として盛り上がっています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• いどばたから派生するプロジェクトの種がいくつも生まれつつある段階。\n2-3. Polimoney（政治資金の可視化）\n• 既存の政治資金可視化ツールと比較しつつ、\n•  *Polimoneyの立ち位置・目的をREADMEで整理し直そう*としているところ。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 選挙運動費用や公費負担などの制度理解を深めつつ、プロダクトとしてどこを特徴にするか議論中。\n2-4. Cartographer &amp; 新しいツール群\n• 「Cartographer」というツールを使って、コミュニティ内の認識を整理する試みが続いています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n    ◦ 参加時に答えた質問＋途中で追加した「深掘り質問」をどう見せるか、といった*UI/UX課題を検証中*。\n    ◦ 「じぶんレポート」を作ってSlackプロフィールに貼る、など、*オンボーディングを楽しくするアイデア*が出ている。\n2-5. コミュニティ全体・運営\n• Slackには *1400人超（直近では1403人）* が参加しており、新規メンバーは今も増加中。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• 「完成した成果物」よりも、\n•  *“生々しい議論“や”まだ形になっていないアイデア“をオープンに共有すること自体に価値がある*という声が強く、\n•  それをどう外部に伝えるか（広報／PR）も議題になっています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• `/history` ページの更新フローを自動化したい、アクセス解析をどう共有するかなど、\n•  *OSSコミュニティらしい運営上の悩みも議論中*。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• さらに、*「ブロードリスニング本」や新しい理論・研究寄りのディスカッション*も進んでおり、\n•  技術・実装・理論・書籍執筆が並走している状態です。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n3. いま参加した人から見た「入りどころ」\n直近のダイジェストでは、「参加すると何ができる？」として次のような入口が整理されています。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\n• *広聴AI*\n    ◦ AI開発・データ分析・自治体への実装に関心がある人向け\n• *いどばた &amp; その派生*\n    ◦ 施策を議論しながらサクッとまとめる、オンライン熟議の設計に興味がある人向け\n• *Polimoney*\n    ◦ 政治とお金の透明化、オープンデータ可視化に興味がある人向け\n• *コミュニティ運営*\n    ◦ オンボーディング設計・イベント・広報など、コミュニティづくりをやりたい人向け\n• *その他*\n    ◦ Cartographer・ブロードリスニング本・新しい理論的検討など、研究寄り／メタな議論の場もある\n4. 新規参加者向けのおすすめ行動\n「今どうなっているか」を踏まえたうえで、これから入る人向けに、ざっくりこんな動き方がよさそうです：\n1. *Slackに参加して <#C08HKET1YG3|> にひと言書く*\n2.  どの領域（開発／政策／デザイン／運営／研究など）に興味があるかを書いておくと、誘われやすくなります。(<https://dd2030.org/history/week1_20250319/slack|デジタル民主主義2030>)\n3. */history の「最新の週」のSlackまとめだけ読む*\n4.  すべてをさかのぼる必要はなく、直近1〜2週分を読むだけで「今の空気」がだいたい掴めます。(<https://dd2030.org/history|デジタル民主主義2030>)\n5. *自分の関心に近いチャンネルを1〜2個だけ開く*\n    ◦ 例）広聴AIなら `2_開発_広聴ai` / `2_開発_広聴ai_アルゴリズム開発`\n    ◦ いどばたなら `2_開発_いどばた`\n    ◦ コミュニティ運営なら `2_コミュニティ運営` など\n6. *「いま困っていること・知りたいこと」を気軽に質問する*\n7.  ダイジェストにも書かれている通り、「どのチャンネルで聞いてもOK」という文化なので、\n8.  *「何から始めたらいいですか？」自体が立派な一歩*です。(<https://dd2030.org/history/week36_20251119/slack|デジタル民主主義2030>)\nざっくりまとめると、*DD2030は「立ち上げ期」を超えて、ツールもコミュニティもかなり厚みが出てきた「実験＋実装フェーズ」に入っている*状態です。\n「完成したサービスにユーザとして参加する」というより、\n *「一緒に実験しながら“デジタル民主主義の新しい形“をつくっていく場」に飛び込む*感じで捉えてもらうと、今の状況にフィットすると思います。",
+        "author_name": "NISHIO Hirokazu",
+        "author_link": "https://dd2030.slack.com/team/U08G2A216TW",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-03/8546342683588_63fd2b76c154c16c727e_48.png",
+        "author_subname": "NISHIO Hirokazu",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PLKwp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1763778782849749?thread_ts=1763778724.704149&cid=C08FL58LK8V",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "をベースに、まずは初めての方向けのページというのを追加してみるPRを作ってみました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/pull/181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U09JLDAG8GK",
+          "U08G2A216TW"
+        ],
+        "count": 3
+      },
+      {
+        "name": "lgtm",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1763778782849749?thread_ts=1763778724.704149&cid=C08FL58LK8V|こちら>をベースに、まずは初めての方向けのページというのを追加してみるPRを作ってみました\n<https://github.com/digitaldemocracy2030/website/pull/181>"
+  }
+]

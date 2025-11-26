@@ -1,0 +1,602 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1763601268.166039",
+    "client_msg_id": "d007ac68-9a48-4e62-8eb4-9399397dd67e",
+    "text": "<https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327|https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327>\nなにこれ:thinking_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763601268.166039",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1763617962.773659",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251119-00000008-impwfw-000-1-view.jpg?exp=10800",
+        "image_width": 540,
+        "image_height": 261,
+        "image_bytes": 14765,
+        "from_url": "https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327",
+        "service_icon": "https://s.yimg.jp/c/icon/s/bsc/2.0/news120.png",
+        "id": 1,
+        "original_url": "https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327",
+        "fallback": "Yahoo!ニュース: Microsoft、「SQL Server 2025」を一般提供開始 ～エンジンにAIを直接統合（窓の杜） - Yahoo!ニュース",
+        "text": "　米Microsoftは11月18日（現地時間）、テクニカルカンファレンス「Ignite 2025」で、データベースサーバー「SQL Server」の新バージョン「SQL Server 2025」（",
+        "title": "Microsoft、「SQL Server 2025」を一般提供開始 ～エンジンにAIを直接統合（窓の杜） - Yahoo!ニュース",
+        "title_link": "https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327",
+        "service_name": "Yahoo!ニュース"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rM+pa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327",
+                "text": "https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327"
+              },
+              {
+                "type": "text",
+                "text": "\nなにこれ"
+              },
+              {
+                "type": "emoji",
+                "name": "thinking_face",
+                "unicode": "1f914"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U096VK0FHV1"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327|https://news.yahoo.co.jp/articles/175f25739094a9c398c41f9e4e1ac09ca508f327>\nなにこれ:thinking_face:"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763617921.649449",
+    "client_msg_id": "a481263a-f0fc-4212-9f79-9ac7354c5320",
+    "text": "&gt; 対応OSは<https://search.yahoo.co.jp/search?ei=UTF-8&amp;rkf=1&amp;slfr=1&amp;qrw=0&amp;p=Windows%2010&amp;fr=link_kw_nws_direct&amp;fr2=cid_175f25739094a9c398c41f9e4e1ac09ca508f327|Windows 10>/Server 2019以降\n&gt; Webエディションは廃止された。代わりに「Azure SQL Database」の利用が推奨されている。\nうーん、どうなるのか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763601268.166039",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l2/+p",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "対応OSは"
+              },
+              {
+                "type": "link",
+                "url": "https://search.yahoo.co.jp/search?ei=UTF-8&rkf=1&slfr=1&qrw=0&p=Windows%2010&fr=link_kw_nws_direct&fr2=cid_175f25739094a9c398c41f9e4e1ac09ca508f327",
+                "text": "Windows 10"
+              },
+              {
+                "type": "text",
+                "text": "/Server 2019以降"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Webエディションは廃止された。代わりに「Azure SQL Database」の利用が推奨されている。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nうーん、どうなるのか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763601268.166039",
+    "user_name": "小野翔太",
+    "text_readable": "> 対応OSは<https://search.yahoo.co.jp/search?ei=UTF-8&rkf=1&slfr=1&qrw=0&p=Windows%2010&fr=link_kw_nws_direct&fr2=cid_175f25739094a9c398c41f9e4e1ac09ca508f327|Windows 10>/Server 2019以降\n> Webエディションは廃止された。代わりに「Azure SQL Database」の利用が推奨されている。\nうーん、どうなるのか。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763617962.773659",
+    "client_msg_id": "28e8419f-5b14-4ec1-9112-eb5d59c2bf52",
+    "text": "今のところモチベーションと時間の問題で試せない。いつか触ろうｗ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763601268.166039",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZHMYl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今のところモチベーションと時間の問題で試せない。いつか触ろうｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763601268.166039",
+    "user_name": "小野翔太",
+    "text_readable": "今のところモチベーションと時間の問題で試せない。いつか触ろうｗ"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1763629220.873259",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ATK5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1763632226.536079",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jYGco",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U099TAD6RKL",
+    "thread_ts": "1763048506.438449",
+    "root": {
+      "user": "U08NZH1RY4S",
+      "type": "message",
+      "ts": "1763048506.438449",
+      "client_msg_id": "ca7fac80-e3eb-4fd7-9152-96ed8ee3f7d4",
+      "text": "夜遅いのでメンションなしで...\n@ GrassfieldK\n\n今日お話ししていたjson仕様完成しました。\n詳細は<https://github.com/shumizu418128/polimoney/blob/main/tools_election/JSON_RULE.md|JSON_RULE.md>, <https://github.com/shumizu418128/polimoney/blob/main/tools_election/WORD_TRANSLATION.md|WORD_TRANSLATION.md>, <https://github.com/shumizu418128/polimoney/tree/main/tools_election/output_json_example|output_json_example>に書いたのでAIくんも読みやすいかなと思います",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1763048506.438449",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1763632671.386769",
+      "reply_users": [
+        "U099TAD6RKL"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fh0Ka",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "夜遅いのでメンションなしで...\n@ GrassfieldK\n\n今日お話ししていたjson仕様完成しました。\n詳細は"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/shumizu418128/polimoney/blob/main/tools_election/JSON_RULE.md",
+                  "text": "JSON_RULE.md"
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/shumizu418128/polimoney/blob/main/tools_election/WORD_TRANSLATION.md",
+                  "text": "WORD_TRANSLATION.md"
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/shumizu418128/polimoney/tree/main/tools_election/output_json_example",
+                  "text": "output_json_example"
+                },
+                {
+                  "type": "text",
+                  "text": "に書いたのでAIくんも読みやすいかなと思います"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1763632671.386769",
+    "client_msg_id": "a6c0ebbe-97d5-4db8-8bd6-e9a557bac5d6",
+    "text": "フロントで処理するときキーが必要になるため、連番でいいので ID が欲しいです！といまきづきました",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DgvlE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "フロントで処理するときキーが必要になるため、連番でいいので ID が欲しいです！といまきづきました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "done2",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U099TAD6RKL",
+    "text_readable": "フロントで処理するときキーが必要になるため、連番でいいので ID が欲しいです！といまきづきました"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1763799636.704019",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1763799724.000000"
+    },
+    "client_msg_id": "ca5bf24a-a6ef-409d-af02-d595368f7dad",
+    "text": "デジタル庁の人と雑談する機会があったのでメモ\n\n・財務に関わるデータに関しては、「原則触るな」という号令が出ている\n・デジタル庁もダッシュボードを作ってはいるが、すべてのデータを扱っているわけではなく、問題なさそうなものを取捨選択している\n・ものによってはやろうとすると自治体から反発があることもあり、自治体職員限定で公開しているデータも存在する\nお話しした方曰く、この辺は闇が深い\n・収支報告書作成ソフトについては何も知らなかった（総務省管轄なら仕方ないかも）\n・（polimoneyを紹介した）我々行政はこんなところ絶対踏み込めない。民間だからできること。ぜひやって欲しい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763799636.704019",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1763902126.481009",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z33HB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デジタル庁の人と雑談する機会があったのでメモ\n\n・財務に関わるデータに関しては、「原則触るな」という号令が出ている\n・デジタル庁もダッシュボードを作ってはいるが、すべてのデータを扱っているわけではなく、問題なさそうなものを取捨選択している\n・ものによってはやろうとすると自治体から反発があることもあり、自治体職員限定で公開しているデータも存在する\nお話しした方曰く、この辺は闇が深い\n・収支報告書作成ソフトについては何も知らなかった（総務省管轄なら仕方ないかも）\n・（polimoneyを紹介した）我々行政はこんなところ絶対踏み込めない。民間だからできること。ぜひやって欲しい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08KXSKKWEB",
+          "U08PD4Y0D9V",
+          "U08HN9UDJUB",
+          "U08JASQKEEM",
+          "U09725PGV9P"
+        ],
+        "count": 5
+      },
+      {
+        "name": "blob-dundundun-gif",
+        "users": [
+          "U09725PGV9P"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "デジタル庁の人と雑談する機会があったのでメモ\n\n・財務に関わるデータに関しては、「原則触るな」という号令が出ている\n・デジタル庁もダッシュボードを作ってはいるが、すべてのデータを扱っているわけではなく、問題なさそうなものを取捨選択している\n・ものによってはやろうとすると自治体から反発があることもあり、自治体職員限定で公開しているデータも存在する\nお話しした方曰く、この辺は闇が深い\n・収支報告書作成ソフトについては何も知らなかった（総務省管轄なら仕方ないかも）\n・（polimoneyを紹介した）我々行政はこんなところ絶対踏み込めない。民間だからできること。ぜひやって欲しい"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1763902126.481009",
+    "client_msg_id": "35c9a78f-42c2-4d0e-8024-c11e21eb43ce",
+    "text": "やる気出てきますなぁ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1763799636.704019",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MKZWL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やる気出てきますなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1763799636.704019",
+    "user_name": "小野翔太",
+    "text_readable": "やる気出てきますなぁ"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1764048349.878799",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1764048404.000000"
+    },
+    "client_msg_id": "22a6370e-98b2-4832-91e7-83cbe4c0a5b2",
+    "text": "今週の定例は出れないので先に報告\njson完成しました\n<https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example|https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p7uWl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今週の定例は出れないので先に報告\njson完成しました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example",
+                "text": "https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "今週の定例は出れないので先に報告\njson完成しました\n<https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example|https://github.com/digitaldemocracy2030/polimoney/tree/main/tools_election%2Foutput_json_example>"
+  }
+]
