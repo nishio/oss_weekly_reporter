@@ -1,0 +1,555 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764324818.379489",
+    "client_msg_id": "21da482c-45e4-4a1c-8b0a-728e149a0e0b",
+    "text": "Farbrainをレンタルサーバで動かそうと思ったんだけど、要求されるメモリ量が大きすぎる（SentenseTransformerのホスティングと、UMAP）ので、VPSだと高く付くことに…\n自宅サーバ建てないとダメそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bhXkJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Farbrainをレンタルサーバで動かそうと思ったんだけど、要求されるメモリ量が大きすぎる（SentenseTransformerのホスティングと、UMAP）ので、VPSだと高く付くことに…\n自宅サーバ建てないとダメそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Farbrainをレンタルサーバで動かそうと思ったんだけど、要求されるメモリ量が大きすぎる（SentenseTransformerのホスティングと、UMAP）ので、VPSだと高く付くことに…\n自宅サーバ建てないとダメそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764326528.377609",
+    "client_msg_id": "148cf38d-f639-47af-8259-bf443bc3ced4",
+    "text": "SentenseTransformerが高いのかUMAPが高いのか\n課金を0にしたいケースでない限りOpenAI APIでのEmbeddingって端金しかかからないからVPS代の方が高いよね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yq3KX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SentenseTransformerが高いのかUMAPが高いのか\n課金を0にしたいケースでない限りOpenAI APIでのEmbeddingって端金しかかからないからVPS代の方が高いよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "SentenseTransformerが高いのかUMAPが高いのか\n課金を0にしたいケースでない限りOpenAI APIでのEmbeddingって端金しかかからないからVPS代の方が高いよね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764326583.599779",
+    "client_msg_id": "82023664-f6dd-4d30-a124-db024d1d883e",
+    "text": "あとは、そもそもデータ量の少ない序盤においてUMAPを使わなくてもPCAで十分な可能性はあると思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u8ieM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとは、そもそもデータ量の少ない序盤においてUMAPを使わなくてもPCAで十分な可能性はあると思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あとは、そもそもデータ量の少ない序盤においてUMAPを使わなくてもPCAで十分な可能性はあると思う"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764326600.234749",
+    "client_msg_id": "52bcedad-8fbb-423e-963a-257a0662322c",
+    "text": "(PolisがPCAなんで)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iEs6B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(PolisがPCAなんで)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(PolisがPCAなんで)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764326637.158119",
+    "client_msg_id": "3a0c5081-3cb4-434f-b287-e2840013eda8",
+    "text": "いや、Polisはyes/noデータだからembeddingの集合とは性質が違うか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HvZcP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや、Polisはyes/noデータだからembeddingの集合とは性質が違うか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いや、Polisはyes/noデータだからembeddingの集合とは性質が違うか"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764326859.886469",
+    "client_msg_id": "8eb63271-530d-46d4-a1ff-c37917aeab1e",
+    "text": "SentenseTransformerが２GBくらい食いますね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mVvf1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SentenseTransformerが２GBくらい食いますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sweat_smile",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "SentenseTransformerが２GBくらい食いますね"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764405062.082709",
+    "client_msg_id": "5f67e124-19ad-45f8-a4fa-b01f2cd78827",
+    "text": "divconと↑のセンチメント強化のやつ、同じデータでやっていますけど、DivConのほうが少数意見をうまく拾えていてよいな\n広聴AIはk-meansを使っている都合上「同じくらいのデータ量で切断する」という傾向が強いので、少数意見が潰れてしまう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y4VVu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "divconと↑のセンチメント強化のやつ、同じデータでやっていますけど、DivConのほうが少数意見をうまく拾えていてよいな\n広聴AIはk-meansを使っている都合上「同じくらいのデータ量で切断する」という傾向が強いので、少数意見が潰れてしまう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "divconと↑のセンチメント強化のやつ、同じデータでやっていますけど、DivConのほうが少数意見をうまく拾えていてよいな\n広聴AIはk-meansを使っている都合上「同じくらいのデータ量で切断する」という傾向が強いので、少数意見が潰れてしまう"
+  },
+  {
+    "text": "DivConだと系統強化・蓄電・柔軟性という軸がでてきているけど、この軸はUMAP+K-meansでは出てきてないよな",
+    "files": [
+      {
+        "id": "F0A1EJ75G0Y",
+        "created": 1764489216,
+        "timestamp": 1764489216,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 307690,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A1EJ75G0Y/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A1EJ75G0Y/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 286,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 381,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 571,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 635,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 762,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1EJ75G0Y-8969d0dc8b/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 813,
+        "original_w": 1255,
+        "original_h": 996,
+        "thumb_tiny": "AwAnADDR2nOd7Y9OKNp/vt1z0H5dKbkq5IRjnuG/oaAxGP3T8e4/xpgSUUze3/PJ/wAx/jTm3bTtxn3pALRSLnA3Yz3xS0AR5fcVDDjn7v196CZACdy8f7B/xpTuLEBgOBxj60oDZPz5/DpQO4n7z+8v/fJ/xqE+aZSomI742DgVYAPGSPfim5IkOXGMZx6U0FyILMf+W7fjHil2TAgeeef9ipsMP4h+VHOevFFxXG8GQjAzgZ+nNOwCBlenamr/AK5v90f1p9IbEJOQAv41HwJiFHzFc9TzUtQ/8vn/AGz/AK00Ik78IOetLjBAAGKWikB//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A1EJ75G0Y/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A1EJ75G0Y-c7a1e1978f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zO8Vv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DivConだと系統強化・蓄電・柔軟性という軸がでてきているけど、この軸はUMAP+K-meansでは出てきてないよな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1764489228.312069",
+    "client_msg_id": "98e03384-53e8-4e82-a193-8571662d4535",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08GXFFJLTA"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "DivConだと系統強化・蓄電・柔軟性という軸がでてきているけど、この軸はUMAP+K-meansでは出てきてないよな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764489966.453159",
+    "client_msg_id": "98b8ef12-7cb1-4862-9359-2b3113a32861",
+    "text": "embedからのK-meansでは潰れてしまう内容がLLMベースのDivConなら拾えてるということか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "N03lW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "embedからのK-meansでは潰れてしまう内容がLLMベースのDivConなら拾えてるということか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "embedからのK-meansでは潰れてしまう内容がLLMベースのDivConなら拾えてるということか"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764495384.416139",
+    "client_msg_id": "caf6ddbd-db08-4a19-adcf-2768e5954b5c",
+    "text": "一段抽象化されたレベルのクラスタリングが行われるので、こういう切り口が出てくるっぽい。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cct4t",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一段抽象化されたレベルのクラスタリングが行われるので、こういう切り口が出てくるっぽい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "一段抽象化されたレベルのクラスタリングが行われるので、こういう切り口が出てくるっぽい。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764495418.876339",
+    "client_msg_id": "6fe5d686-77ed-4b7c-8389-c09aeb0ad0a4",
+    "text": "語彙が近いことと、抽象化されたときに同じクラスタである、というのはイコールではない。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ohwvq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "語彙が近いことと、抽象化されたときに同じクラスタである、というのはイコールではない。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "語彙が近いことと、抽象化されたときに同じクラスタである、というのはイコールではない。"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1763780315.588439",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1763780315.588439",
+      "client_msg_id": "ff1144bc-f248-4def-bab2-e65eb043b8c4",
+      "text": "divcon の改善に自治体に集まった意見データを使わせてもらえないかという件、ひとまずご相談メールを投げてみました。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1763780315.588439",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1764583428.246309",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08J6JR5SNQ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hxXfn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "divcon の改善に自治体に集まった意見データを使わせてもらえないかという件、ひとまずご相談メールを投げてみました。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1764583428.246309",
+    "client_msg_id": "e86529cf-1341-4500-9735-aa2cc78b88b7",
+    "text": "意見データ（CSV 11000行ほど）、提供いただきました。\n共有フォルダに置くのはちょっとまずそうなので、一旦 tokoroten さん宛てに送ります。\n\nその他、活用されたい方はご連絡ください。\n\n&gt; 先般ご依頼いただいておりましたデータにつきまして、添付ファイルのとおり送付させていただきます。\n&gt; なお、貴団体様が研究で活用する目的に限り提供するものです。\n&gt; （個人情報等はあらかじめ削除した上で提供しておりますが、取扱にはご留意いただけますと幸いです。）\n&gt; （中略）\n&gt; ブロードリスニングの取組を推進するにあたり、研究結果のフィードバックなど、\n&gt; 引き続き、ご支援いただけますと幸いです。\n&gt; \n&gt; 提供に時間がかかり大変申し訳ございませんでした。\n&gt; 引き続き、どうぞよろしくお願いいたします。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/r5tZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "意見データ（CSV 11000行ほど）、提供いただきました。\n共有フォルダに置くのはちょっとまずそうなので、一旦 tokoroten さん宛てに送ります。\n\nその他、活用されたい方はご連絡ください。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先般ご依頼いただいておりましたデータにつきまして、添付ファイルのとおり送付させていただきます。\nなお、貴団体様が研究で活用する目的に限り提供するものです。\n（個人情報等はあらかじめ削除した上で提供しておりますが、取扱にはご留意いただけますと幸いです。）\n（中略）\nブロードリスニングの取組を推進するにあたり、研究結果のフィードバックなど、\n引き続き、ご支援いただけますと幸いです。\n\n提供に時間がかかり大変申し訳ございませんでした。\n引き続き、どうぞよろしくお願いいたします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "意見データ（CSV 11000行ほど）、提供いただきました。\n共有フォルダに置くのはちょっとまずそうなので、一旦 tokoroten さん宛てに送ります。\n\nその他、活用されたい方はご連絡ください。\n\n> 先般ご依頼いただいておりましたデータにつきまして、添付ファイルのとおり送付させていただきます。\n> なお、貴団体様が研究で活用する目的に限り提供するものです。\n> （個人情報等はあらかじめ削除した上で提供しておりますが、取扱にはご留意いただけますと幸いです。）\n> （中略）\n> ブロードリスニングの取組を推進するにあたり、研究結果のフィードバックなど、\n> 引き続き、ご支援いただけますと幸いです。\n> \n> 提供に時間がかかり大変申し訳ございませんでした。\n> 引き続き、どうぞよろしくお願いいたします。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764597675.583939",
+    "client_msg_id": "ba53963c-4a64-4155-95b3-12ec065d6278",
+    "text": "<https://farbrain.easyrec.app/>\nfarbrain、自宅サーバでちゃんとホスティングし始めたので、適当にどうぞ。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xeq6C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://farbrain.easyrec.app/"
+              },
+              {
+                "type": "text",
+                "text": "\nfarbrain、自宅サーバでちゃんとホスティングし始めたので、適当にどうぞ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://farbrain.easyrec.app/>\nfarbrain、自宅サーバでちゃんとホスティングし始めたので、適当にどうぞ。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764599233.747549",
+    "client_msg_id": "da2acc07-8d42-4bcf-b2ef-60813b4f4b37",
+    "text": "<https://note.com/tokoroten_jp/n/n8c2b2e6fe35b>\n書いた",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://assets.st-note.com/production/uploads/images/233312515/rectangle_large_type_2_fcec54c3e1312fe2bb50a2e3738a1c56.png?fit=bounds&quality=85&width=1280",
+        "image_width": 1280,
+        "image_height": 670,
+        "image_bytes": 43183,
+        "from_url": "https://note.com/tokoroten_jp/n/n8c2b2e6fe35b",
+        "service_icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/icons/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://note.com/tokoroten_jp/n/n8c2b2e6fe35b",
+        "fallback": "note（ノート）: FarBrain：俺が考えた最強のブレストソフトを作った話｜tokoroten",
+        "text": "インターネッツコンテンツの皆様ごきげんよう、インターネッツコンテンツのところてんです。インターネッツ秘密結社pyspaのアドベントカレンダーの1日目です。 \n \n \n\n \n \n \n\n<http://adventar.org|adventar.org>\n\n \n \n 俺が考える最強のブレストツールであるFarBrainを作ったので、今回はその紹介をします。 <https://farbrain.easyrec.app/> FarBrainが動作している様子 ちなみに100%ClaudeCode製で、1行もコードを書いていません。 従来のブレインストーミングの課題 ブレインストーミングはなんだかんだで、何も考えずに実行すると、確実に失",
+        "title": "FarBrain：俺が考えた最強のブレストソフトを作った話｜tokoroten",
+        "title_link": "https://note.com/tokoroten_jp/n/n8c2b2e6fe35b",
+        "service_name": "note（ノート）"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "negAG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://note.com/tokoroten_jp/n/n8c2b2e6fe35b"
+              },
+              {
+                "type": "text",
+                "text": "\n書いた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW",
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://note.com/tokoroten_jp/n/n8c2b2e6fe35b>\n書いた"
+  }
+]
