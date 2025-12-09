@@ -13,6 +13,87 @@ class TestGitHubReport(unittest.TestCase):
     @patch('src.github_logger.github_report.get_github_token')
     @patch('src.github_logger.github_report.requests.get')
     @patch('src.github_logger.github_report.write_json_file')
+    def test_merged_pr_in_created_query(self, mock_write, mock_get, mock_token):
+        """作成クエリに現れたマージ済みPRが正しくマージ済みとして扱われることを確認"""
+        mock_token.return_value = "test_token"
+        
+        # PRが作成もマージも同じ期間に行われた場合
+        mock_responses = {
+            'merged': {'items': []},
+            'closed': {'items': []},
+            'created': {'items': [
+                {
+                    'id': 1,
+                    'number': 10,
+                    'title': 'PR created and merged',
+                    'user': {'login': 'testuser'},
+                    'html_url': 'https://github.com/test/repo/pull/10',
+                    'created_at': '2024-01-01T00:00:00Z',
+                    'updated_at': '2024-01-02T00:00:00Z',
+                    'body': 'Test PR'
+                }
+            ]},
+            'updated': {'items': []}
+        }
+        
+        def mock_get_side_effect(url, headers=None, params=None):
+            response = MagicMock()
+            if '/commits' in url:
+                response.json.return_value = [
+                    {
+                        'commit': {
+                            'message': 'Test commit message'
+                        }
+                    }
+                ]
+            elif '/pulls/' in url:
+                # PR詳細: このPRは実際にはマージ済み
+                response.json.return_value = {
+                    'additions': 10,
+                    'deletions': 5,
+                    'changed_files': 2,
+                    'state': 'closed',
+                    'merged': True,
+                    'merged_at': '2024-01-02T00:00:00Z',
+                    'body': 'Test body'
+                }
+            elif params and 'q' in params:
+                query = params['q']
+                if 'merged:' in query:
+                    response.json.return_value = mock_responses['merged']
+                elif 'closed:' in query and 'is:unmerged' in query:
+                    response.json.return_value = mock_responses['closed']
+                elif 'created:' in query and 'merged' not in query and 'updated' not in query:
+                    response.json.return_value = mock_responses['created']
+                elif 'updated:' in query:
+                    response.json.return_value = mock_responses['updated']
+                else:
+                    response.json.return_value = {'items': []}
+            else:
+                response.json.return_value = {'items': []}
+            return response
+        
+        mock_get.side_effect = mock_get_side_effect
+        
+        # extract_github_dataを実行
+        result, json_file = extract_github_data(
+            repo='test/repo',
+            output_dir='/tmp/test_output',
+            last_days=7,
+            include_prs=True,
+            timezone_str='UTC'
+        )
+        
+        # 結果を検証: PRはマージ済みとして扱われるべき
+        self.assertIsNotNone(result)
+        self.assertEqual(len(result['prs']), 1)
+        self.assertEqual(result['prs'][0]['state'], 'merged', 
+                         "PR should be categorized as merged, not created")
+        self.assertEqual(result['prs'][0]['number'], 10)
+
+    @patch('src.github_logger.github_report.get_github_token')
+    @patch('src.github_logger.github_report.requests.get')
+    @patch('src.github_logger.github_report.write_json_file')
     def test_closed_prs_not_in_updated(self, mock_write, mock_get, mock_token):
         """クローズされたPRが更新済みPRに含まれないことを確認"""
         mock_token.return_value = "test_token"
@@ -49,12 +130,15 @@ class TestGitHubReport(unittest.TestCase):
                     }
                 ]
             elif '/pulls/' in url:
-                # PR詳細のモック
+                # PR詳細のモック - クローズされた未マージPR
                 response.json.return_value = {
                     'additions': 10,
                     'deletions': 5,
                     'changed_files': 2,
+                    'state': 'closed',
+                    'merged': False,
                     'merged_at': None,
+                    'closed_at': '2024-01-02T00:00:00Z',
                     'body': 'Test body'
                 }
             elif params and 'q' in params:

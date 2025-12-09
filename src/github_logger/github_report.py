@@ -343,11 +343,22 @@ def extract_github_data(
                 if match:
                     requester = extract_username_from_email(match.group(1).strip())
             
+            # Determine actual state from pr_detail
+            if pr_detail.get("merged") or pr_detail.get("merged_at"):
+                actual_state = "merged"
+                state_date = pr_detail.get("merged_at")
+            elif pr_detail.get("state") == "closed":
+                actual_state = "closed"
+                state_date = pr_detail.get("closed_at")
+            else:
+                actual_state = "created"
+                state_date = None
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
                 "title": pr["title"],
-                "state": "created",
+                "state": actual_state,
                 "html_url": pr["html_url"],
                 "user": pr["user"]["login"],
                 "created_at": pr["created_at"],
@@ -359,12 +370,18 @@ def extract_github_data(
                 "requester": requester,
                 "type": "pr"
             }
+            if state_date:
+                if actual_state == "merged":
+                    pr_data["merged_at"] = state_date
+                elif actual_state == "closed":
+                    pr_data["closed_at"] = state_date
+            
             all_prs.append(pr_data)
             result["prs"].append({
                 "id": pr["id"],
                 "number": pr["number"],
                 "title": pr["title"],
-                "state": "created"
+                "state": actual_state
             })
         
         for pr in updated_prs.get("items", []):
@@ -396,11 +413,22 @@ def extract_github_data(
                 if match:
                     requester = extract_username_from_email(match.group(1).strip())
             
+            # Determine actual state from pr_detail
+            if pr_detail.get("merged") or pr_detail.get("merged_at"):
+                actual_state = "merged"
+                state_date = pr_detail.get("merged_at")
+            elif pr_detail.get("state") == "closed":
+                actual_state = "closed"
+                state_date = pr_detail.get("closed_at")
+            else:
+                actual_state = "updated"
+                state_date = None
+            
             pr_data = {
                 "id": pr["id"],
                 "number": pr["number"],
                 "title": pr["title"],
-                "state": "updated",
+                "state": actual_state,
                 "html_url": pr["html_url"],
                 "user": pr["user"]["login"],
                 "created_at": pr["created_at"],
@@ -413,12 +441,18 @@ def extract_github_data(
                 "requester": requester,
                 "type": "pr"
             }
+            if state_date:
+                if actual_state == "merged":
+                    pr_data["merged_at"] = state_date
+                elif actual_state == "closed":
+                    pr_data["closed_at"] = state_date
+            
             all_prs.append(pr_data)
             result["prs"].append({
                 "id": pr["id"],
                 "number": pr["number"],
                 "title": pr["title"],
-                "state": "updated"
+                "state": actual_state
             })
     
     repo_name = repo.split("/")[1]
