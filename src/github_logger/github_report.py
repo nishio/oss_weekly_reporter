@@ -178,8 +178,8 @@ def extract_github_data(
             # Determine state from the response
             state = pr_detail.get("state", "open")
             
-            # Check if merged for closed PRs
-            if state == "closed" and pr_detail.get("merged_at"):
+            # Check if merged - merged_at presence indicates a merged PR
+            if pr_detail.get("merged_at"):
                 state = "merged"
             
             pr_data = {
