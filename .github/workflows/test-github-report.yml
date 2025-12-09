@@ -14,7 +14,7 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -34,7 +34,7 @@ jobs:
       - name: Run github_report test
         run: |
           echo "=== Testing github_report.py ==="
-          echo "Running github_report for kuboon/oss_weekly_reporter repository..."
+          echo "Running github_report for digitaldemocracy/website repository..."
           echo ""
           
           # データディレクトリの作成
@@ -42,7 +42,7 @@ jobs:
           
           # github_reportを実行して出力を表示
           python -m github_logger.github_report \
-            --repo "kuboon/oss_weekly_reporter" \
+            --repo "digitaldemocracy/website" \
             --last-days 7 \
             --markdown \
             --output-dir "./test_data" || {
