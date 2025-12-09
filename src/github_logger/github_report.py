@@ -194,12 +194,17 @@ def extract_github_data(
         response_merged = requests.get(url_search, headers=headers, params=params_merged)
         merged_prs = response_merged.json()
         
+        query_pr_closed = f"repo:{repo} is:pr is:closed is:unmerged closed:>={one_week_ago_str}"
+        params_pr_closed = {"q": query_pr_closed}
+        response_pr_closed = requests.get(url_search, headers=headers, params=params_pr_closed)
+        closed_prs = response_pr_closed.json()
+        
         query_pr_created = f"repo:{repo} is:pr created:>={one_week_ago_str}"
         params_pr_created = {"q": query_pr_created}
         response_pr_created = requests.get(url_search, headers=headers, params=params_pr_created)
         created_prs = response_pr_created.json()
         
-        query_pr_updated = f"repo:{repo} is:pr updated:>={one_week_ago_str} -created:>={one_week_ago_str} -merged:>={one_week_ago_str}"
+        query_pr_updated = f"repo:{repo} is:pr updated:>={one_week_ago_str} -created:>={one_week_ago_str} -merged:>={one_week_ago_str} -closed:>={one_week_ago_str}"
         params_pr_updated = {"q": query_pr_updated}
         response_pr_updated = requests.get(url_search, headers=headers, params=params_pr_updated)
         updated_prs = response_pr_updated.json()
@@ -253,6 +258,60 @@ def extract_github_data(
                 "number": pr["number"],
                 "title": pr["title"],
                 "state": "merged"
+            })
+        
+        for pr in closed_prs.get("items", []):
+            if any(p["id"] == pr["id"] for p in all_prs):
+                continue
+            
+            pr_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}"
+            pr_response = requests.get(pr_url, headers=headers)
+            pr_detail = pr_response.json()
+            
+            commits_url = f"https://api.github.com/repos/{repo}/pulls/{pr['number']}/commits"
+            commits_response = requests.get(commits_url, headers=headers)
+            commits = commits_response.json()
+            
+            co_author = None
+            requester = None
+            
+            if commits and len(commits) > 0:
+                for commit in commits:
+                    commit_message = commit.get("commit", {}).get("message", "")
+                    match = re.search(r'Co-Authored-By:\s*([^<]+)', commit_message)
+                    if match:
+                        co_author = extract_username_from_email(match.group(1).strip())
+                        break
+            
+            pr_body = pr_detail.get("body", "")
+            if pr_body:
+                match = re.search(r'Requested by:\s*([^\n]+)', pr_body)
+                if match:
+                    requester = extract_username_from_email(match.group(1).strip())
+            
+            pr_data = {
+                "id": pr["id"],
+                "number": pr["number"],
+                "title": pr["title"],
+                "state": "closed",
+                "html_url": pr["html_url"],
+                "user": pr["user"]["login"],
+                "created_at": pr["created_at"],
+                "closed_at": pr.get("closed_at"),
+                "body": pr.get("body", ""),
+                "additions": pr_detail.get("additions"),
+                "deletions": pr_detail.get("deletions"),
+                "changed_files": pr_detail.get("changed_files"),
+                "co_author": co_author,
+                "requester": requester,
+                "type": "pr"
+            }
+            all_prs.append(pr_data)
+            result["prs"].append({
+                "id": pr["id"],
+                "number": pr["number"],
+                "title": pr["title"],
+                "state": "closed"
             })
         
         for pr in created_prs.get("items", []):
@@ -408,6 +467,8 @@ def format_item(item):
             md += f"**変更:** +{item['additions']} -{item['deletions']} ({item['changed_files']}ファイル)  \n"
         if "merged_at" in item and item["merged_at"]:
             md += f"**マージ日:** {item['merged_at']}  \n"
+        if "closed_at" in item and item["closed_at"] and item.get("state") == "closed":
+            md += f"**クローズ日:** {item['closed_at']}  \n"
     
     md += f"**内容:**\n\n{item_body}\n\n"
     
@@ -482,6 +543,7 @@ def generate_markdown(
         markdown_report += f"## Pull Requests\n\n"
         
         merged_prs = [pr for pr in prs if pr.get("state") == "merged"]
+        closed_prs = [pr for pr in prs if pr.get("state") == "closed"]
         created_prs = [pr for pr in prs if pr.get("state") == "created"]
         updated_prs = [pr for pr in prs if pr.get("state") == "updated"]
         
@@ -489,11 +551,15 @@ def generate_markdown(
         for pr in merged_prs:
             markdown_report += format_item(pr)
         
+        markdown_report += f"### 過去{days_diff}日間にクローズされたPR（マージなし） ({len(closed_prs)}件)\n\n"
+        for pr in closed_prs:
+            markdown_report += format_item(pr)
+        
         markdown_report += f"### 過去{days_diff}日間に作成されたPR ({len(created_prs)}件)\n\n"
         for pr in created_prs:
             markdown_report += format_item(pr)
         
-        markdown_report += f"### 過去{days_diff}日間に更新されたPR（作成・マージを除く）({len(updated_prs)}件)\n\n"
+        markdown_report += f"### 過去{days_diff}日間に更新されたPR（作成・マージ・クローズを除く）({len(updated_prs)}件)\n\n"
         for pr in updated_prs:
             markdown_report += format_item(pr)
     
