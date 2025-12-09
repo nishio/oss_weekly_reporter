@@ -1,0 +1,65 @@
+name: Test GitHub Report
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/github_logger/github_report.py'
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  test-github-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          
+      - name: Set up GitHub CLI
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+          gh auth status
+          
+      - name: Run github_report test
+        run: |
+          echo "=== Testing github_report.py ==="
+          echo "Running github_report for kuboon/oss_weekly_reporter repository..."
+          echo ""
+          
+          # データディレクトリの作成
+          mkdir -p "./test_data"
+          
+          # github_reportを実行して出力を表示
+          python -m github_logger.github_report \
+            --repo "kuboon/oss_weekly_reporter" \
+            --last-days 7 \
+            --markdown \
+            --output-dir "./test_data" || {
+              echo "Error: github_report failed"
+              exit 1
+            }
+          
+          echo ""
+          echo "=== Test completed successfully ==="
+          echo ""
+          echo "Generated files:"
+          find ./test_data -type f -name "*.json" -o -name "*.md" | sort
+          
+          echo ""
+          echo "=== JSON Summary ==="
+          find ./test_data -type f -name "github_summary_*.json" -exec cat {} \;
+          
+          echo ""
+          echo "=== Markdown Report Preview (first 50 lines) ==="
+          find ./test_data -type f -name "github_report-*.md" -exec head -50 {} \;
