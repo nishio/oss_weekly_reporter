@@ -41,7 +41,7 @@ jobs:
           mkdir -p "./test_data"
           
           # github_reportを実行して出力を表示
-          python -m github_logger.github_report \
+          python -m src.github_logger.github_report \
             --repo "digitaldemocracy/website" \
             --last-days 7 \
             --markdown \
