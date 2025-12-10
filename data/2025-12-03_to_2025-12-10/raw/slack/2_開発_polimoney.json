@@ -1,0 +1,1497 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1764762994.906609",
+    "client_msg_id": "d29cae4c-8002-4263-8bc6-c073353d87b4",
+    "text": "<https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12>\nこれいいなぁ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "reply_count": 8,
+    "reply_users_count": 4,
+    "latest_reply": "1764824340.229339",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08G2A216TW",
+      "U08NZH1RY4S",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12/opengraph-image-1umokf?5589478d64c13f8a",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 28598,
+        "from_url": "https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12",
+        "service_icon": "https://izanami.dev/apple-icon.png?c652425b422480ff",
+        "ts": 1764786952,
+        "id": 1,
+        "original_url": "https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12",
+        "fallback": "dotenvx で .env ファイルを安全に共有する方法 - izanami",
+        "text": "dotenvx を使えば .env ファイルを暗号化して Git にコミットできる。共同開発者には .env.keys の秘密鍵だけを渡せば、各自が復号して環境変数を取得可能。これで .env 共有問題が解決する",
+        "title": "dotenvx で .env ファイルを安全に共有する方法 - izanami",
+        "title_link": "https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12",
+        "service_name": "izanami.dev"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IbWPU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12"
+              },
+              {
+                "type": "text",
+                "text": "\nこれいいなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://izanami.dev/post/59b95a54-77b2-42e0-9721-b457f1527b12>\nこれいいなぁ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764763323.486949",
+    "client_msg_id": "357f07ad-a7e6-4896-a044-bf6be563bfcf",
+    "text": "&gt; 最後に、.env.keys の中身（秘密鍵）だけを共同開発者に安全な方法で共有する。\nこれ結局パスワードを内密に伝えるのに近くて、うーんとなってる\n\n&gt; 直接会って伝えるなど、セキュアな経路で渡すのが大事\n口頭…？w",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YX3sQ",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "最後に、.env.keys の中身（秘密鍵）だけを共同開発者に安全な方法で共有する。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ結局パスワードを内密に伝えるのに近くて、うーんとなってる\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "直接会って伝えるなど、セキュアな経路で渡すのが大事"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "口頭…？w"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "thinking_face",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "小野翔太",
+    "text_readable": "> 最後に、.env.keys の中身（秘密鍵）だけを共同開発者に安全な方法で共有する。\nこれ結局パスワードを内密に伝えるのに近くて、うーんとなってる\n\n> 直接会って伝えるなど、セキュアな経路で渡すのが大事\n口頭…？w"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764771018.078009",
+    "client_msg_id": "F8E63D2B-3179-40FD-A559-CE1F059C008C",
+    "text": "プロジェクトごとに作った秘密鍵をどうやって管理するのだろう(えっ、まさか共有じゃないよね？())\n\n共有機能のあるパスワードマネージャーに入れるのかなぁ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8tm6f",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プロジェクトごとに作った秘密鍵をどうやって管理するのだろう(えっ、まさか共有じゃないよね？())\n\n共有機能のあるパスワードマネージャーに入れるのかなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "プロジェクトごとに作った秘密鍵をどうやって管理するのだろう(えっ、まさか共有じゃないよね？())\n\n共有機能のあるパスワードマネージャーに入れるのかなぁ"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1764771427.708269",
+    "client_msg_id": "32b40366-1fee-400d-b8b8-edb4a9f38a6d",
+    "text": "ツイッターには結局1password使うって書いてありましたねｗ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z08+N",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ツイッターには結局1password使うって書いてありましたねｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "laughing",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "haruki shimizu",
+    "text_readable": "ツイッターには結局1password使うって書いてありましたねｗ"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764813700.667749",
+    "client_msg_id": "dac86cee-970a-4289-9008-ed2d47812cdd",
+    "text": "1password は業務で使っていますが、 めちゃくちゃ良いですね\n<https://developer.1password.com/docs/cli/secrets-scripts/>\n.env には `AWS_SECRET_ACCESS_KEY=<op://prod/aws/secret-key>` みたいに書いておいて\n`op run --env-file yourscript.env -- yourscript.sh` で実行すると、ローカルディスクに一度も秘密鍵を書き出すことなくプロセスに直接値を渡せます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "attachments": [
+      {
+        "image_url": "https://developer.1password.com/img/meta-og-image.png",
+        "image_width": 1200,
+        "image_height": 628,
+        "image_bytes": 23899,
+        "from_url": "https://developer.1password.com/docs/cli/secrets-scripts/",
+        "service_icon": "https://developer.1password.com/img/favicon.ico",
+        "id": 1,
+        "original_url": "https://developer.1password.com/docs/cli/secrets-scripts/",
+        "fallback": "Load secrets into scripts | 1Password Developer",
+        "text": "Learn how to use secret references to securely load secrets in your scripts.",
+        "title": "Load secrets into scripts | 1Password Developer",
+        "title_link": "https://developer.1password.com/docs/cli/secrets-scripts/",
+        "service_name": "developer.1password.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Pn1+g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1password は業務で使っていますが、 めちゃくちゃ良いですね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://developer.1password.com/docs/cli/secrets-scripts/"
+              },
+              {
+                "type": "text",
+                "text": "\n.env には "
+              },
+              {
+                "type": "text",
+                "text": "AWS_SECRET_ACCESS_KEY=",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "link",
+                "url": "op://prod/aws/secret-key",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " みたいに書いておいて\n"
+              },
+              {
+                "type": "text",
+                "text": "op run --env-file yourscript.env -- yourscript.sh",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " で実行すると、ローカルディスクに一度も秘密鍵を書き出すことなくプロセスに直接値を渡せます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "1password は業務で使っていますが、 めちゃくちゃ良いですね\n<https://developer.1password.com/docs/cli/secrets-scripts/>\n.env には `AWS_SECRET_ACCESS_KEY=<op://prod/aws/secret-key>` みたいに書いておいて\n`op run --env-file yourscript.env -- yourscript.sh` で実行すると、ローカルディスクに一度も秘密鍵を書き出すことなくプロセスに直接値を渡せます。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764813793.267549",
+    "client_msg_id": "495f3040-0756-41c3-8e27-3cb8bc363e7c",
+    "text": "まあ実際には、本番をいじる権限を持つ鍵は github actions とかだけに持たせておくべきで、ローカルでは env 空っぽでも dev で動作するようにしとくのが良いと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UB0yV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ実際には、本番をいじる権限を持つ鍵は github actions とかだけに持たせておくべきで、ローカルでは env 空っぽでも dev で動作するようにしとくのが良いと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まあ実際には、本番をいじる権限を持つ鍵は github actions とかだけに持たせておくべきで、ローカルでは env 空っぽでも dev で動作するようにしとくのが良いと思います"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764818817.450059",
+    "client_msg_id": "13332c3b-23db-47dc-ae00-a0e846934dd2",
+    "text": "npmの脆弱性の件でそもそも.envにsecretを書くのは攻撃機会を増やすよくないやり方だよねという話にもなってて、~めんどくさ~\nこういう方法に移行していくのは大事ですね(理想はわかるが自分はまだやってない)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0oflc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "npmの脆弱性の件でそもそも.envにsecretを書くのは攻撃機会を増やすよくないやり方だよねという話にもなってて、"
+              },
+              {
+                "type": "text",
+                "text": "めんどくさ",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nこういう方法に移行していくのは大事ですね(理想はわかるが自分はまだやってない)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "innocent",
+        "users": [
+          "U08NZH1RY4S",
+          "U08HN9UDJUB"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "npmの脆弱性の件でそもそも.envにsecretを書くのは攻撃機会を増やすよくないやり方だよねという話にもなってて、~めんどくさ~\nこういう方法に移行していくのは大事ですね(理想はわかるが自分はまだやってない)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764818995.506569",
+    "client_msg_id": "f21f5f97-cfb1-4bc2-8dd8-4b9f986434ba",
+    "text": "OSSのREADMEに「1Passwordを契約してopを使え」と書くわけにもいかないから、今後も.envに書けと書くしかないのかな〜、というもんにょり感はあります\nが、世の中は脱.envの前にまずDockerを使えないとかWSLを使えないとかでつまずいてて、理想には近づけるの大変だなぁという気持ち",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Dwgc4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OSSのREADMEに「1Passwordを契約してopを使え」と書くわけにもいかないから、今後も.envに書けと書くしかないのかな〜、というもんにょり感はあります\nが、世の中は脱.envの前にまずDockerを使えないとかWSLを使えないとかでつまずいてて、理想には近づけるの大変だなぁという気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OSSのREADMEに「1Passwordを契約してopを使え」と書くわけにもいかないから、今後も.envに書けと書くしかないのかな〜、というもんにょり感はあります\nが、世の中は脱.envの前にまずDockerを使えないとかWSLを使えないとかでつまずいてて、理想には近づけるの大変だなぁという気持ち"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764824340.229339",
+    "client_msg_id": "f8124dff-8dbf-4356-9407-599259d44735",
+    "text": "`.devcontainer` 書いとけば github workspace で環境を立ち上げてローカルの vscode からアクセスできるので、もう全部それでいいと思っている",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764762994.906609",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c9m5S",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": ".devcontainer",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 書いとけば github workspace で環境を立ち上げてローカルの vscode からアクセスできるので、もう全部それでいいと思っている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW",
+          "U08HN9UDJUB"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1764762994.906609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "`.devcontainer` 書いとけば github workspace で環境を立ち上げてローカルの vscode からアクセスできるので、もう全部それでいいと思っている"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1764838813.214409",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "=EY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1764841812.036489",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "reply_count": 13,
+    "reply_users_count": 5,
+    "latest_reply": "1764847304.313499",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08NZH1RY4S",
+      "U08J64P3SF4",
+      "U099TAD6RKL",
+      "U09JLDAG8GK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L7I2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764842495.510989",
+    "client_msg_id": "2e806a6b-9a04-493b-bcda-a6614aed92cd",
+    "text": "ちょっと遅れます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cV4w5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちょっと遅れます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "小野翔太",
+    "text_readable": "ちょっと遅れます"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1764842627.863669",
+    "client_msg_id": "e37851fa-f728-4eba-bb34-15a82150ffce",
+    "text": "<@U099TAD6RKL> :pleading_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w+IpM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "pleading_face",
+                "unicode": "1f97a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "haruki shimizu",
+    "text_readable": "<@U099TAD6RKL> :pleading_face:"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1764844770.649389",
+    "client_msg_id": "26A736CE-C001-48B6-9FFC-F45310282885",
+    "text": "この開始時間で幾度となく参加チャレンジ失敗しているので、ドキュメントを読んで衣笠の動きが必要そうな時に動くようにします:woman-bowing:\n申し訳ないです…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KYhiX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この開始時間で幾度となく参加チャレンジ失敗しているので、ドキュメントを読んで衣笠の動きが必要そうな時に動くようにします"
+              },
+              {
+                "type": "emoji",
+                "name": "woman-bowing",
+                "unicode": "1f647-200d-2640-fe0f"
+              },
+              {
+                "type": "text",
+                "text": "\n申し訳ないです…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sob",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      },
+      {
+        "name": "わかる",
+        "users": [
+          "U09725PGV9P"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "Chieko",
+    "text_readable": "この開始時間で幾度となく参加チャレンジ失敗しているので、ドキュメントを読んで衣笠の動きが必要そうな時に動くようにします:woman-bowing:\n申し訳ないです…"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1764844836.765089",
+    "client_msg_id": "b6e12d26-84e2-4c82-b316-d45d8e505c60",
+    "text": "<@U08J64P3SF4> 選挙運動費用収支報告書のページがあと少しで公開できそうです！\nなので公開したら、なんかこう、パーッといきたいっすね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hLtPR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J64P3SF4"
+              },
+              {
+                "type": "text",
+                "text": " 選挙運動費用収支報告書のページがあと少しで公開できそうです！\nなので公開したら、なんかこう、パーッといきたいっすね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08HWJ80CHG",
+          "U08J64P3SF4"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "haruki shimizu",
+    "text_readable": "@chieko.kinugasa0314 選挙運動費用収支報告書のページがあと少しで公開できそうです！\nなので公開したら、なんかこう、パーッといきたいっすね"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764845085.348899",
+    "client_msg_id": "81eb242f-1595-4e75-9281-311b79ced4df",
+    "text": "<@U08J64P3SF4>\ndd2030の広報のMTGもあるので、サイトにブログ機能がもうすぐつくかも？そしたら記事書きたいので相談したい…\nちなみに私は定例の時間ずらせますよ～\n今ならアクティブなメンバーも少ないし調整しやすいかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R0eXy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J64P3SF4"
+              },
+              {
+                "type": "text",
+                "text": "\ndd2030の広報のMTGもあるので、サイトにブログ機能がもうすぐつくかも？そしたら記事書きたいので相談したい…\nちなみに私は定例の時間ずらせますよ～\n今ならアクティブなメンバーも少ないし調整しやすいかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "小野翔太",
+    "text_readable": "@chieko.kinugasa0314\ndd2030の広報のMTGもあるので、サイトにブログ機能がもうすぐつくかも？そしたら記事書きたいので相談したい…\nちなみに私は定例の時間ずらせますよ～\n今ならアクティブなメンバーも少ないし調整しやすいかも。"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1764845121.991419",
+    "client_msg_id": "FB56DF8B-EF88-4228-9E1A-970D15AE36EC",
+    "text": "<@U08NZH1RY4S> ありがとうございます！\nクリスマスプレゼント的にパーっと行けるようにちょこちょこ動きはじめましょかね。\nまず手始めに、みらいとの違いにかんするモアイさんの資料と、数ヶ月前に安野さんの発信があった気がするのでまったり探します:+1:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iA4b/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": " ありがとうございます！\nクリスマスプレゼント的にパーっと行けるようにちょこちょこ動きはじめましょかね。\nまず手始めに、みらいとの違いにかんするモアイさんの資料と、数ヶ月前に安野さんの発信があった気がするのでまったり探します"
+              },
+              {
+                "type": "emoji",
+                "name": "+1",
+                "unicode": "1f44d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "Chieko",
+    "text_readable": "@shumizu418128 ありがとうございます！\nクリスマスプレゼント的にパーっと行けるようにちょこちょこ動きはじめましょかね。\nまず手始めに、みらいとの違いにかんするモアイさんの資料と、数ヶ月前に安野さんの発信があった気がするのでまったり探します:+1:"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1764845448.313409",
+    "client_msg_id": "BB84FEC6-7AB8-4BEC-9FBE-DA20DB626215",
+    "text": "<@U08HWJ80CHG> ありがとうございます！\n広報のミートも時間合えば耳だけでも参加したいですが、参加してもよろしいですか？ポリマネと同じく時間合わない場合はドキュメント追いかけたいです:page_with_curl:\n\nポリマネ定例時間、とっても悩ましいですね…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0OKp5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " ありがとうございます！\n広報のミートも時間合えば耳だけでも参加したいですが、参加してもよろしいですか？ポリマネと同じく時間合わない場合はドキュメント追いかけたいです"
+              },
+              {
+                "type": "emoji",
+                "name": "page_with_curl",
+                "unicode": "1f4c3"
+              },
+              {
+                "type": "text",
+                "text": "\n\nポリマネ定例時間、とっても悩ましいですね…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "Chieko",
+    "text_readable": "@oscar.gaddress ありがとうございます！\n広報のミートも時間合えば耳だけでも参加したいですが、参加してもよろしいですか？ポリマネと同じく時間合わない場合はドキュメント追いかけたいです:page_with_curl:\n\nポリマネ定例時間、とっても悩ましいですね…"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764845690.930059",
+    "client_msg_id": "aab853e2-2e6a-457e-b9b4-117becad34c9",
+    "text": "広報のミート、是非参加してくださいー！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QLoQC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広報のミート、是非参加してくださいー！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "小野翔太",
+    "text_readable": "広報のミート、是非参加してくださいー！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764845715.896309",
+    "client_msg_id": "06b5f58f-f63b-4cce-9b2f-b2ad62f39852",
+    "text": "<https://meet.google.com/tgg-orug-yry|https://meet.google.com/tgg-orug-yry>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/tgg-orug-yry",
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "id": 1,
+        "original_url": "https://meet.google.com/tgg-orug-yry",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/tgg-orug-yry",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LS/b5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://meet.google.com/tgg-orug-yry",
+                "text": "https://meet.google.com/tgg-orug-yry"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "小野翔太",
+    "text_readable": "<https://meet.google.com/tgg-orug-yry|https://meet.google.com/tgg-orug-yry>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764845742.216069",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1764845773.000000"
+    },
+    "client_msg_id": "cbc0074b-a699-4e27-93cb-73fe375482ff",
+    "text": "あ、今日22時からと遅いです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "F+0oz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、今日22時からと遅いです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      },
+      {
+        "name": "ear",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "小野翔太",
+    "text_readable": "あ、今日22時からと遅いです"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1764845796.670089",
+    "client_msg_id": "858a76b2-00a3-4eee-b646-f11092e17daf",
+    "text": "<@U08NZH1RY4S> <@U08HWJ80CHG>\nすみません普通に曜日間違えて参加逃しました。。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "K6OSq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nすみません普通に曜日間違えて参加逃しました。。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-pkmn-diglet",
+        "users": [
+          "U08J64P3SF4",
+          "U099TAD6RKL",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@shumizu418128 @oscar.gaddress\nすみません普通に曜日間違えて参加逃しました。。。。"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1764845936.993749",
+    "client_msg_id": "98EBD925-381F-48AD-BEBD-C4743056C37D",
+    "text": "<@U09JLDAG8GK> ご無沙汰しています！\nそろそろポリマネの選挙運動費用収支報告書のページが出来上がりそうとのことです:わい:\n\nクリスマス前後に「はじめてポリマネの動画作成したぜ！新しいページを公開したぜ！」的な縦長ショート動画（被写体なし、アニメかページキャプチャあたり）も出せるといいなぁーと思っていて会話できると嬉しいのですが、来週の定例参加出来そうですか？？\n可能そうでしたら衣笠も来週気合いで調整いたします:muscle:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GjqUG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09JLDAG8GK"
+              },
+              {
+                "type": "text",
+                "text": " ご無沙汰しています！\nそろそろポリマネの選挙運動費用収支報告書のページが出来上がりそうとのことです"
+              },
+              {
+                "type": "emoji",
+                "name": "わい"
+              },
+              {
+                "type": "text",
+                "text": "\n\nクリスマス前後に「はじめてポリマネの動画作成したぜ！新しいページを公開したぜ！」的な縦長ショート動画（被写体なし、アニメかページキャプチャあたり）も出せるといいなぁーと思っていて会話できると嬉しいのですが、来週の定例参加出来そうですか？？\n可能そうでしたら衣笠も来週気合いで調整いたします"
+              },
+              {
+                "type": "emoji",
+                "name": "muscle",
+                "unicode": "1f4aa"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "atsui",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "blob-helicopter-gif",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "muscle",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yoroshikuonegaishimasu",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "Chieko",
+    "text_readable": "<@U09JLDAG8GK> ご無沙汰しています！\nそろそろポリマネの選挙運動費用収支報告書のページが出来上がりそうとのことです:わい:\n\nクリスマス前後に「はじめてポリマネの動画作成したぜ！新しいページを公開したぜ！」的な縦長ショート動画（被写体なし、アニメかページキャプチャあたり）も出せるといいなぁーと思っていて会話できると嬉しいのですが、来週の定例参加出来そうですか？？\n可能そうでしたら衣笠も来週気合いで調整いたします:muscle:"
+  },
+  {
+    "user": "U09JLDAG8GK",
+    "type": "message",
+    "ts": "1764847304.313499",
+    "client_msg_id": "BDE0F0BD-111F-42B3-9F4D-63A09C2092E2",
+    "text": "<@U08J64P3SF4> 召喚ありがとうございます:star-struck:\n来週参加させていただきます〜:blob-attention-reverse-gif:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764841812.036489",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CjVgq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J64P3SF4"
+              },
+              {
+                "type": "text",
+                "text": " 召喚ありがとうございます"
+              },
+              {
+                "type": "emoji",
+                "name": "star-struck",
+                "unicode": "1f929"
+              },
+              {
+                "type": "text",
+                "text": "\n来週参加させていただきます〜"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-attention-reverse-gif"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      },
+      {
+        "name": "わい",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      },
+      {
+        "name": "yoroshikuonegaishimasu",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764841812.036489",
+    "user_name": "U09JLDAG8GK",
+    "text_readable": "@chieko.kinugasa0314 召喚ありがとうございます:star-struck:\n来週参加させていただきます〜:blob-attention-reverse-gif:"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765249261.798849",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1765249287.000000"
+    },
+    "client_msg_id": "9ceac812-1df2-4eaf-9ca4-e8bb7712fd53",
+    "text": "<https://dd2030.org/polimoney/>\nここに書き足したい事があれば教えてください。（長らくアップデートされてない気がするので)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765249261.798849",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1765252287.192479",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1500,
+        "image_height": 813,
+        "image_bytes": 143678,
+        "from_url": "https://dd2030.org/polimoney/",
+        "service_icon": "https://dd2030.org/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://dd2030.org/polimoney/",
+        "fallback": "デジタル民主主義2030: Polimoney | デジタル民主主義2030",
+        "text": "政治資金の透明化：政治資金の見える化ダッシュボードの開発",
+        "title": "Polimoney | デジタル民主主義2030",
+        "title_link": "https://dd2030.org/polimoney/",
+        "service_name": "デジタル民主主義2030"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UmSd7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.org/polimoney/"
+              },
+              {
+                "type": "text",
+                "text": "\nここに書き足したい事があれば教えてください。（長らくアップデートされてない気がするので)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://dd2030.org/polimoney/>\nここに書き足したい事があれば教えてください。（長らくアップデートされてない気がするので)"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765252287.192479",
+    "client_msg_id": "57713fb2-6722-4ac5-b59b-fb167311cee0",
+    "text": "• Webサイトを見る→ダッシュボードを見る　とかに変えたい\n• 今後の展開～以降変えないとですね。すでに導入されてるし\n    ◦ 導入方法\n        ▪︎ <https://docs.google.com/forms/d/e/1FAIpQLScytDD9cdYwcl_Gsr0qal-Op7mpXaQzK3KGTk_FsahY5FkU9w/viewform|こちら>よりお問い合わせください。\n    ◦ 今後の展開\n        ▪︎ 収支報告書（またはそれを作るための補助的なcsv）とPolimoneyに対応したファイルを出力できる、政治資金・選挙運動資金用の会計ソフト「<https://github.com/digitaldemocracy2030/polimoney_ledger|Polimoney Ledger>」も開発中です。\nこんな感じでしょうか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765249261.798849",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6MTCf",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Webサイトを見る→ダッシュボードを見る　とかに変えたい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今後の展開～以降変えないとですね。すでに導入されてるし"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "導入方法"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/forms/d/e/1FAIpQLScytDD9cdYwcl_Gsr0qal-Op7mpXaQzK3KGTk_FsahY5FkU9w/viewform",
+                    "text": "こちら"
+                  },
+                  {
+                    "type": "text",
+                    "text": "よりお問い合わせください。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今後の展開"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "収支報告書（またはそれを作るための補助的なcsv）とPolimoneyに対応したファイルを出力できる、政治資金・選挙運動資金用の会計ソフト「"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/polimoney_ledger",
+                    "text": "Polimoney Ledger"
+                  },
+                  {
+                    "type": "text",
+                    "text": "」も開発中です。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんな感じでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM",
+          "U08Q2CKU139"
+        ],
+        "count": 2
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765249261.798849",
+    "user_name": "小野翔太",
+    "text_readable": "• Webサイトを見る→ダッシュボードを見る　とかに変えたい\n• 今後の展開～以降変えないとですね。すでに導入されてるし\n    ◦ 導入方法\n        ▪︎ <https://docs.google.com/forms/d/e/1FAIpQLScytDD9cdYwcl_Gsr0qal-Op7mpXaQzK3KGTk_FsahY5FkU9w/viewform|こちら>よりお問い合わせください。\n    ◦ 今後の展開\n        ▪︎ 収支報告書（またはそれを作るための補助的なcsv）とPolimoneyに対応したファイルを出力できる、政治資金・選挙運動資金用の会計ソフト「<https://github.com/digitaldemocracy2030/polimoney_ledger|Polimoney Ledger>」も開発中です。\nこんな感じでしょうか。"
+  }
+]

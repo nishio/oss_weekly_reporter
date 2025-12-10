@@ -1,0 +1,435 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HKU721PV",
+    "thread_ts": "1760149264.555079",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1760149264.555079",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1760149298.000000"
+      },
+      "client_msg_id": "15d2f741-b632-41b3-ac96-8b49db4fc658",
+      "text": "僕の場合は、<https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C|ここ>までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1760149264.555079",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1765289507.178969",
+      "reply_users": [
+        "U08HKU721PV",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+          "ts": "1759543042.811529",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08FF5MM59C",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "is_reply_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08FF5MM59C",
+              "ts": "1759543042.811529",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "bv7Qf",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "あ、この辺がいるんですね\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://github.com/digitaldemocracy2030/idobata/tree/main/admin"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+          "fallback": "[October 3rd, 2025 6:57 PM] truego: あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+          "text": "あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0W4Nt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "僕の場合は、"
+                },
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C",
+                  "text": "ここ"
+                },
+                {
+                  "type": "text",
+                  "text": "までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1765283900.313399",
+    "edited": {
+      "user": "U08HKU721PV",
+      "ts": "1765283999.000000"
+    },
+    "client_msg_id": "60da2970-9224-4e1b-8be9-2db2f1bdfb47",
+    "text": "サイボウズの動画を見て興味を持っていどばたビジョンを企業相手に試したいと思って環境構築してるのですがテーマ一覧に出てこない問題で同じくつまづいています。\n/themes を直接URLを叩いてアクセスしてそこからチャット開始すれば何かできそうですが、どこか設定ミスに心当たりますかね？\nそれとも/themesで管理者側である程度重要論点を絞ってからトップページで広く意見を募集する設計なんでしょうか",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CrNrY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "サイボウズの動画を見て興味を持っていどばたビジョンを企業相手に試したいと思って環境構築してるのですがテーマ一覧に出てこない問題で同じくつまづいています。\n/themes を直接URLを叩いてアクセスしてそこからチャット開始すれば何かできそうですが、どこか設定ミスに心当たりますかね？\nそれとも/themesで管理者側である程度重要論点を絞ってからトップページで広く意見を募集する設計なんでしょうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "種延真之",
+    "text_readable": "サイボウズの動画を見て興味を持っていどばたビジョンを企業相手に試したいと思って環境構築してるのですがテーマ一覧に出てこない問題で同じくつまづいています。\n/themes を直接URLを叩いてアクセスしてそこからチャット開始すれば何かできそうですが、どこか設定ミスに心当たりますかね？\nそれとも/themesで管理者側である程度重要論点を絞ってからトップページで広く意見を募集する設計なんでしょうか"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JGS0BS57",
+    "thread_ts": "1760149264.555079",
+    "root": {
+      "user": "U08H3V9KMFH",
+      "type": "message",
+      "ts": "1760149264.555079",
+      "edited": {
+        "user": "U08H3V9KMFH",
+        "ts": "1760149298.000000"
+      },
+      "client_msg_id": "15d2f741-b632-41b3-ac96-8b49db4fc658",
+      "text": "僕の場合は、<https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C|ここ>までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1760149264.555079",
+      "reply_count": 3,
+      "reply_users_count": 2,
+      "latest_reply": "1765289507.178969",
+      "reply_users": [
+        "U08HKU721PV",
+        "U08JGS0BS57"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+          "ts": "1759543042.811529",
+          "author_id": "U08H3V9KMFH",
+          "channel_id": "C08FF5MM59C",
+          "channel_team": "T08FL58DC9K",
+          "is_msg_unfurl": true,
+          "is_reply_unfurl": true,
+          "message_blocks": [
+            {
+              "team": "T08FL58DC9K",
+              "channel": "C08FF5MM59C",
+              "ts": "1759543042.811529",
+              "message": {
+                "blocks": [
+                  {
+                    "type": "rich_text",
+                    "block_id": "bv7Qf",
+                    "elements": [
+                      {
+                        "type": "rich_text_section",
+                        "elements": [
+                          {
+                            "type": "text",
+                            "text": "あ、この辺がいるんですね\n"
+                          },
+                          {
+                            "type": "link",
+                            "url": "https://github.com/digitaldemocracy2030/idobata/tree/main/admin"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "id": 1,
+          "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&amp;cid=C08FF5MM59C",
+          "fallback": "[October 3rd, 2025 6:57 PM] truego: あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+          "text": "あ、この辺がいるんですね\n<https://github.com/digitaldemocracy2030/idobata/tree/main/admin>",
+          "author_name": "Shingo OHKI",
+          "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+          "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+          "author_subname": "Shingo OHKI",
+          "mrkdwn_in": [
+            "text"
+          ],
+          "footer": "Thread in Slack conversation"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0W4Nt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "僕の場合は、"
+                },
+                {
+                  "type": "link",
+                  "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1759543042811529?thread_ts=1759542684.750129&cid=C08FF5MM59C",
+                  "text": "ここ"
+                },
+                {
+                  "type": "text",
+                  "text": "までやってみて「管理画面からテーマを作成してみたけどテーマ一覧に作成したテーマが表示されない」という状態でした。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1765289507.178969",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1765290197.000000"
+    },
+    "client_msg_id": "a248844c-9474-497b-99bd-4314cab3b145",
+    "text": "あっ、私も同じ。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e7a6i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あっ、私も同じ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "naoyo4",
+    "text_readable": "あっ、私も同じ。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765326829.754789",
+    "client_msg_id": "7de9391b-5d56-49b6-be66-8335e9896481",
+    "text": "いどばたビジョン、まだ需要あるならメンテするかなあ。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765326829.754789",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1765333599.310919",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zB2/5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたビジョン、まだ需要あるならメンテするかなあ。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いどばたビジョン、まだ需要あるならメンテするかなあ。。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765328718.293639",
+    "client_msg_id": "f472af4b-d040-4157-9622-1fd099342f3e",
+    "text": "何ができるか分かりませんが、手伝いますよ！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765326829.754789",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OyWng",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何ができるか分かりませんが、手伝いますよ！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765326829.754789",
+    "user_name": "Shingo OHKI",
+    "text_readable": "何ができるか分かりませんが、手伝いますよ！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765332873.006209",
+    "client_msg_id": "c163f3b9-2c66-4ade-8f75-3538776acb09",
+    "text": "とりあえずディレクトリを整理したいです、　いどばたビジョンといどばた政策を統合する、という方向で中途半端に頓挫したのでぐちゃぐちゃになっています。シンプルにトップレベルを `vision/` `seisaku/` としてバラしても良いかなと。\ngithub repo への権限はありますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765326829.754789",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pE3u8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずディレクトリを整理したいです、　いどばたビジョンといどばた政策を統合する、という方向で中途半端に頓挫したのでぐちゃぐちゃになっています。シンプルにトップレベルを "
+              },
+              {
+                "type": "text",
+                "text": "vision/",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "seisaku/",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " としてバラしても良いかなと。\ngithub repo への権限はありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765326829.754789",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "とりあえずディレクトリを整理したいです、　いどばたビジョンといどばた政策を統合する、という方向で中途半端に頓挫したのでぐちゃぐちゃになっています。シンプルにトップレベルを `vision/` `seisaku/` としてバラしても良いかなと。\ngithub repo への権限はありますか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765333599.310919",
+    "client_msg_id": "337286e2-e66d-44a7-b1a4-c586e61b55ed",
+    "text": "このリポジトリの権限は持ってないですー",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765326829.754789",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ELG+6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このリポジトリの権限は持ってないですー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765326829.754789",
+    "user_name": "Shingo OHKI",
+    "text_readable": "このリポジトリの権限は持ってないですー"
+  }
+]

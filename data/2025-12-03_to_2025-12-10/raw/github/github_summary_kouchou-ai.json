@@ -1,0 +1,47 @@
+{
+  "period": {
+    "start": "2025-12-03T12:34:55.649308+09:00",
+    "end": "2025-12-10T12:34:55.649308+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3497484443,
+      "number": 716,
+      "title": "[FEATURE] レポート作成時のエラーログを web application 上から確認できない",
+      "state": "updated"
+    },
+    {
+      "id": 3397278087,
+      "number": 700,
+      "title": "Biome 設定の調整",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3692906957,
+      "number": 733,
+      "title": "fix: security update for CVE-2025-55182 (React Server Components RCE)",
+      "state": "merged"
+    },
+    {
+      "id": 3699486480,
+      "number": 735,
+      "title": "Implement Content Security Policy (CSP) headers and add local model f…",
+      "state": "created"
+    },
+    {
+      "id": 3692994086,
+      "number": 734,
+      "title": "feat: integrate Biome for linting and formatting",
+      "state": "created"
+    },
+    {
+      "id": 3691893979,
+      "number": 732,
+      "title": "Bump next from 15.2.3 to 15.5.7 in /client",
+      "state": "created"
+    }
+  ]
+}

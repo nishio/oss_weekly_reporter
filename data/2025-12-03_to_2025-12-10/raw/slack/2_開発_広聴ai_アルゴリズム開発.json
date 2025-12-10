@@ -1,0 +1,349 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764949921.453119",
+    "client_msg_id": "acdf0614-7241-4499-abbb-d2c1e12bb41e",
+    "text": "Claude Codeで解説させたPolis2.0のクラスタリング\n<https://gist.github.com/nishio/820c3d39b81ec3f6e73114d23873b54c>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ETbXz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Claude Codeで解説させたPolis2.0のクラスタリング\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/nishio/820c3d39b81ec3f6e73114d23873b54c"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Claude Codeで解説させたPolis2.0のクラスタリング\n<https://gist.github.com/nishio/820c3d39b81ec3f6e73114d23873b54c>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764949973.737169",
+    "client_msg_id": "ae37a083-2dab-431a-82c0-e9ff3d5dc9ca",
+    "text": "EVōC (pronounced as “evoke”) is Embedding Vector Oriented Clustering.\n<https://github.com/TutteInstitute/evoc>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iPXZX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "EVōC (pronounced as “evoke”) is Embedding Vector Oriented Clustering.\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/TutteInstitute/evoc"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "EVōC (pronounced as “evoke”) is Embedding Vector Oriented Clustering.\n<https://github.com/TutteInstitute/evoc>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764950352.471369",
+    "client_msg_id": "1f64a92e-60aa-4dab-b4ac-91992b56d181",
+    "text": "UMAP + HDBSCANの良いところを残して必要ないところを削った的なことが書いてある",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RRdb+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UMAP + HDBSCANの良いところを残して必要ないところを削った的なことが書いてある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "UMAP + HDBSCANの良いところを残して必要ないところを削った的なことが書いてある"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764951118.017879",
+    "client_msg_id": "d4747630-5115-449b-b821-19b1e10156b1",
+    "text": "UMAPとHDBSCANを使うのではなく、思想をもとに自前で実装して高速にしている、こういうの好きw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ae6u8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "UMAPとHDBSCANを使うのではなく、思想をもとに自前で実装して高速にしている、こういうの好きw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "UMAPとHDBSCANを使うのではなく、思想をもとに自前で実装して高速にしている、こういうの好きw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764951319.567409",
+    "client_msg_id": "67932c66-5646-4cbe-bdb7-455505c27c0c",
+    "text": "HDBSCAN由来の「ノイズ点を捨てる」特徴はもちろん引き継いでる\n以前HDBSCANを使った時は遅いから外そうということになったか、これを使うことで高速になってやりたかったことができるかもしれない\n広聴AIのアルゴリズムにプラグインが可能になったら僕がやりたいことの最有力候補",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FvdJm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "HDBSCAN由来の「ノイズ点を捨てる」特徴はもちろん引き継いでる\n以前HDBSCANを使った時は遅いから外そうということになったか、これを使うことで高速になってやりたかったことができるかもしれない\n広聴AIのアルゴリズムにプラグインが可能になったら僕がやりたいことの最有力候補"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "HDBSCAN由来の「ノイズ点を捨てる」特徴はもちろん引き継いでる\n以前HDBSCANを使った時は遅いから外そうということになったか、これを使うことで高速になってやりたかったことができるかもしれない\n広聴AIのアルゴリズムにプラグインが可能になったら僕がやりたいことの最有力候補"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764985325.133739",
+    "client_msg_id": "afcd2c31-5a12-4174-977d-e88144f78a0f",
+    "text": "Instruction Embeddingの話、こっちで探して見つからないとアレなのでリンク貼っとく\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1764909938656439>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1764909938656439",
+        "ts": "1764909938.656439",
+        "author_id": "U08J6JR5SNQ",
+        "channel_id": "C08F7JZPD63",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08F7JZPD63",
+            "ts": "1764909938.656439",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "UQN/2",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://huggingface.co/hkunlp/instructor-large"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nInstruction Embbedingを使うと、センチメントや賛否をうまく分類できたりするかもしれない。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1764909938656439",
+        "fallback": "[December 4th, 2025 8:45 PM] shinta.nakayama: <https://huggingface.co/hkunlp/instructor-large>\nInstruction Embbedingを使うと、センチメントや賛否をうまく分類できたりするかもしれない。",
+        "text": "<https://huggingface.co/hkunlp/instructor-large>\nInstruction Embbedingを使うと、センチメントや賛否をうまく分類できたりするかもしれない。",
+        "author_name": "中山心太（tokoroten）",
+        "author_link": "https://dd2030.slack.com/team/U08J6JR5SNQ",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8618637867012_26be93206834b059ed0a_48.jpg",
+        "author_subname": "中山心太（tokoroten）",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "s154F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Instruction Embeddingの話、こっちで探して見つからないとアレなのでリンク貼っとく\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1764909938656439"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Instruction Embeddingの話、こっちで探して見つからないとアレなのでリンク貼っとく\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1764909938656439>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764985388.884469",
+    "client_msg_id": "b0ba81cb-618b-4e35-9829-268803e2eed4",
+    "text": "ありゃ、部屋を間違えていたのか。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CGtMX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありゃ、部屋を間違えていたのか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ありゃ、部屋を間違えていたのか。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1764985430.784919",
+    "client_msg_id": "934edf77-09fb-43ce-ab4b-bb4d1ece0c28",
+    "text": "アルゴリズム部屋に貼ってたとおもってた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D/awV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アルゴリズム部屋に貼ってたとおもってた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "アルゴリズム部屋に貼ってたとおもってた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764998574.074279",
+    "client_msg_id": "2b7e6d67-5e46-4834-87b8-1393a7280874",
+    "text": "EVoC in Polis\n<https://gist.github.com/nishio/ca7fe0904f81b6ab7933c0e40855e322>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1KBn1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "EVoC in Polis\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gist.github.com/nishio/ca7fe0904f81b6ab7933c0e40855e322"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "EVoC in Polis\n<https://gist.github.com/nishio/ca7fe0904f81b6ab7933c0e40855e322>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1765070706.716859",
+    "client_msg_id": "d0ef36f2-a0ae-41b9-9dd8-00d55d4055cb",
+    "text": "<https://docs.google.com/presentation/d/1eY1eDnJoYvtCd_eUdXXKiHHKzlhO5_kKS4yBISXosWI/edit?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "axeMn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://docs.google.com/presentation/d/1eY1eDnJoYvtCd_eUdXXKiHHKzlhO5_kKS4yBISXosWI/edit?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "hushed",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://docs.google.com/presentation/d/1eY1eDnJoYvtCd_eUdXXKiHHKzlhO5_kKS4yBISXosWI/edit?usp=sharing>"
+  }
+]

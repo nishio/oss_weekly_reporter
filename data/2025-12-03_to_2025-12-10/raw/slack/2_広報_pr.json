@@ -1,0 +1,3549 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764750933.959909",
+    "text": "<@U08HWJ80CHG>\n新しいサイトをこの deno deploy へ上げたいので organization へ招待お願いします\ngithub username kuboon です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764750933.959909",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1764751344.200319",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "ts": "1761147918.379939",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08TR6S8Y0Z",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08TR6S8Y0Z",
+            "ts": "1761147918.379939",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "66jUO",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08N3V4NQRE"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nwebサイトにCMSを導入したい件について\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現状のサイトで公開している部分（Next.js）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "デプロイ先：Azure Static Web Apps"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "デプロイ先：Deno Deploy"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "無料枠でおさめる"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "決済情報を入れると無料枠が増える（添付画像参照）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "という構成でデプロイしたく\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "です。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "StrapiではなくLumeCMS採用の理由"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Deno周りが得意なメンバーがいるため。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "単純にDenoというモダンな技術を使ってみたいため。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現状のサイトとCMSのデプロイ先を分ける理由"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現サイトもDenoにすれば問題ないが、Next.js -> Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 3,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F09NTQAPC72",
+            "created": 1761146465,
+            "timestamp": 1761146465,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08HWJ80CHG",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 52880,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F09NTQAPC72/image.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F09NTQAPC72/download/image.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 252,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 336,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F09NTQAPC72-b52408ddb1/image_160.png",
+            "original_w": 583,
+            "original_h": 408,
+            "thumb_tiny": "AwAiADDPRgpB2K3rnPNBIKgbAD68806IE9FLHpwM/wBKVgVC5UqDyMjr+lMQxmyPuAfSkJzn5QMn34p+9eOOn+fSjcufb/PtQBHiipN4xjj8v/rUw0APTbt565/z3pWA4Ix/n8aahwp+Yj2FO/4EQCOeev60wGUU/jHJ4/z7004xxnP0oASkNO49z+FNNACZPrRk+poopDDJ9TRk+poooAMn1NGSaKKAP//Z",
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F09NTQAPC72/image.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F09NTQAPC72-751f52f837",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1761147918379939?thread_ts=1761147918.379939&cid=C08TR6S8Y0Z",
+        "is_share": true,
+        "fallback": "[October 23rd, 2025 12:45 AM] oscar.gaddress: <@U08N3V4NQRE>\nwebサイトにCMSを導入したい件について\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169>\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n• 現状のサイトで公開している部分（Next.js）\n    ◦ デプロイ先：Azure Static Web Apps\n• CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)\n    ◦ デプロイ先：Deno Deploy\n    ◦ 無料枠でおさめる\n        ▪︎ 決済情報を入れると無料枠が増える（添付画像参照）\nという構成でデプロイしたく\n• Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。\n• DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。\nです。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n• StrapiではなくLumeCMS採用の理由\n        ▪︎ Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）\n        ▪︎ Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。\n        ▪︎ Deno周りが得意なメンバーがいるため。\n        ▪︎ 単純にDenoというモダンな技術を使ってみたいため。\n• 現状のサイトとCMSのデプロイ先を分ける理由\n    ◦ 現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。\n        ▪︎ 現サイトもDenoにすれば問題ないが、Next.js -&gt; Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。\n            • Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。\n    ◦ Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。",
+        "text": "<@U08N3V4NQRE>\nwebサイトにCMSを導入したい件について\n<https://dd2030.slack.com/archives/C08TR6S8Y0Z/p1748444619832169>\n\nGCPの権限頂いたんですが、後回しにしている間に\nプロダクトの環境をAzureにまとめようという話になっていました。。。\nまたCMSも検討し、別のものを採用しようと思っています。\nそのため改めてなのですが、\n• 現状のサイトで公開している部分（Next.js）\n    ◦ デプロイ先：Azure Static Web Apps\n• CMSとそのフロントとDB（Deno環境：LumeCMS, Fresh, Deno KV)\n    ◦ デプロイ先：Deno Deploy\n    ◦ 無料枠でおさめる\n        ▪︎ 決済情報を入れると無料枠が増える（添付画像参照）\nという構成でデプロイしたく\n• Azureに新たなサブスクリプション（website）を作って、私に権限をいただきたい。\n• DD2030用のDeno Deployに招待するので決済情報を入力いただきたい。\nです。\n以下に細かいところを書いています。ご検討お願いします！\n＝＝＝＝＝＝＝＝＝＝\n• StrapiではなくLumeCMS採用の理由\n        ▪︎ Strapiはローカル駆動 or 正式クラウドサービス（有料）を前提に開発されており、クラウド上にデプロイするのが大変そうだったため（私用のGCPで試したがうまくいかなかった）\n        ▪︎ Deno DeployにCMSもフロントもDBまとめることで、楽にデプロイできそうなため。\n        ▪︎ Deno周りが得意なメンバーがいるため。\n        ▪︎ 単純にDenoというモダンな技術を使ってみたいため。\n• 現状のサイトとCMSのデプロイ先を分ける理由\n    ◦ 現状のサイト（Next.js）もCMS（Deno）もDeno Deployにデプロイできるが、リバースプロキシが使えず、それぞれを同一ドメイン上で稼働できない。\n        ▪︎ 現サイトもDenoにすれば問題ないが、Next.js -&gt; Freshを手作業でやる必要がある。デプロイ先を統一した方がわかりやすいと思うので、いずれDeno１本化したい。\n            • Deno１本化の作業が終わってからCMS導入の判断でも大丈夫だが、プロダクトを優先しているとなかなか進まないかもしれない。。。\n    ◦ Deno KV（DB）はAzureには無いので、CMSをAzureにデプロイする場合、LumeCMSとAzureのDBサービスをつなぐプラグインを自作しなければならない。",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+p7e4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n新しいサイトをこの deno deploy へ上げたいので organization へ招待お願いします\ngithub username kuboon です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@oscar.gaddress\n新しいサイトをこの deno deploy へ上げたいので organization へ招待お願いします\ngithub username kuboon です"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764751344.200319",
+    "client_msg_id": "3fa81302-f983-47da-8ad4-fc166d95a2d3",
+    "text": "<@U08JASQKEEM>\n招待送りました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764750933.959909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AraaO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": "\n招待送りました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764750933.959909",
+    "user_name": "小野翔太",
+    "text_readable": "@kuboon\n招待送りました！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764812821.871909",
+    "client_msg_id": "ab3d3831-80c8-42d1-9e1f-f1ceb84969d8",
+    "text": "もうおおよそ仕上がったので切り替えを断行してしまおうと思っていますが、OKでしょうか。。？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "reply_count": 7,
+    "reply_users_count": 3,
+    "latest_reply": "1764837109.804499",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08JASQKEEM",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8mwc7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もうおおよそ仕上がったので切り替えを断行してしまおうと思っていますが、OKでしょうか。。？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 3
+      },
+      {
+        "name": "man-gesturing-ok",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "もうおおよそ仕上がったので切り替えを断行してしまおうと思っていますが、OKでしょうか。。？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1764819176.214099",
+    "client_msg_id": "af4a7cb4-3139-4c71-a519-0568b218f7a4",
+    "text": "It is often easier to ask for forgiveness than to ask for permission.の文化を主張していきたいw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mZHeO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "It is often easier to ask for forgiveness than to ask for permission.の文化を主張していきたいw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "It is often easier to ask for forgiveness than to ask for permission.の文化を主張していきたいw"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764819818.707349",
+    "client_msg_id": "EA70B8E2-F2CE-4DBD-AFF5-00BF52469F7F",
+    "text": "文化的には同意するんだけど、それって権限管理をきちんとした上で成立するゴールみたいなものじゃないの？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IorNn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "文化的には同意するんだけど、それって権限管理をきちんとした上で成立するゴールみたいなものじゃないの？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "文化的には同意するんだけど、それって権限管理をきちんとした上で成立するゴールみたいなものじゃないの？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764819909.628159",
+    "client_msg_id": "F280A22D-F117-4B33-901A-017B8521E33A",
+    "text": "「この範囲までは許可を得ずにやっていいよ」と明確化していくプロセスというか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J2u8Q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「この範囲までは許可を得ずにやっていいよ」と明確化していくプロセスというか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tikennda",
+        "users": [
+          "U08G2A216TW",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "「この範囲までは許可を得ずにやっていいよ」と明確化していくプロセスというか"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1764831053.015679",
+    "client_msg_id": "95cd12e0-90ae-4b25-975f-5b7610bc4bfe",
+    "text": "それを（怒られて済むものであれば）怒られながら明確化していくことなのかと思ってました（笑）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0ygQc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それを（怒られて済むものであれば）怒られながら明確化していくことなのかと思ってました（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Shingo OHKI",
+    "text_readable": "それを（怒られて済むものであれば）怒られながら明確化していくことなのかと思ってました（笑）"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764836682.055599",
+    "client_msg_id": "6DCA974B-2FC9-4966-810E-1A82CBCC087B",
+    "text": "怒られで済むかどうか事前に分からないというのが問題？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IIUQf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "怒られで済むかどうか事前に分からないというのが問題？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "怒られで済むかどうか事前に分からないというのが問題？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1764837022.750999",
+    "client_msg_id": "680CBA97-E5FF-4F8C-BFD0-5EAAB2B9AE8B",
+    "text": "なるほどー。でもそれをドキュメントにしたりするのは難しそうだ\n\n例えば今回の話でいうと、えいやで dd2030 のサイトをリニューアルしてしまってもいいか？というのは、どうやって事前に知れるといいんでしょうね？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E2oIy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほどー。でもそれをドキュメントにしたりするのは難しそうだ\n\n例えば今回の話でいうと、えいやで dd2030 のサイトをリニューアルしてしまってもいいか？というのは、どうやって事前に知れるといいんでしょうね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Shingo OHKI",
+    "text_readable": "なるほどー。でもそれをドキュメントにしたりするのは難しそうだ\n\n例えば今回の話でいうと、えいやで dd2030 のサイトをリニューアルしてしまってもいいか？というのは、どうやって事前に知れるといいんでしょうね？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1764837109.804499",
+    "client_msg_id": "A53ACFC4-9C0E-4C0A-B728-F32925E7A004",
+    "text": "元に戻せるものはやっていい\nとか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764812821.871909",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uRMzp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "元に戻せるものはやっていい\nとか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764812821.871909",
+    "user_name": "Shingo OHKI",
+    "text_readable": "元に戻せるものはやっていい\nとか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764826498.204869",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1764826506.000000"
+    },
+    "client_msg_id": "beade438-d521-402f-b3e3-c64d11e42f59",
+    "text": "がっと出しました！ <https://dd2030.org/>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.org/",
+        "image_url": "http://dd2030.org/ogp.png",
+        "image_width": 1500,
+        "image_height": 813,
+        "image_bytes": 143678,
+        "service_icon": "https://dd2030.org/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://dd2030.org/",
+        "fallback": "デジタル民主主義2030: ホーム | デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトポータルサイト",
+        "title": "ホーム | デジタル民主主義2030",
+        "title_link": "https://dd2030.org/",
+        "service_name": "デジタル民主主義2030"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9pUbO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "がっと出しました！ "
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08HZ8JS0EQ",
+          "U08GJSBAX3K",
+          "U09H5EMC3KJ",
+          "U096VK0FHV1"
+        ],
+        "count": 6
+      },
+      {
+        "name": "dd2030",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08HZ8JS0EQ",
+          "U08GJSBAX3K"
+        ],
+        "count": 4
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U08HZ8JS0EQ",
+          "U08H3V9KMFH",
+          "U08GJSBAX3K"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "がっと出しました！ <https://dd2030.org/>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764827347.980139",
+    "client_msg_id": "0e4b10c2-7e65-4767-afb6-929037d48d55",
+    "text": "新しいサイトは daisyui をほぼそのまま使っています。 ダークテーマを追加したいという要望があるので誰かダークテーマをここで作ってください\n<https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0|https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0b[…]xRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://img.daisyui.com/images/theme-generator.webp",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 58784,
+        "from_url": "https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0",
+        "service_icon": "https://img.daisyui.com/images/daisyui/daisyui-logo-180.png",
+        "id": 1,
+        "original_url": "https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0",
+        "fallback": "daisyUI and Tailwind CSS theme generator",
+        "text": "Tailwind CSS Theme Generator for daisyUI - Custom Tailwind CSS themes with light mode and dark mode support",
+        "title": "daisyUI and Tailwind CSS theme generator",
+        "title_link": "https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0",
+        "service_name": "daisyui.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SeqVq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新しいサイトは daisyui をほぼそのまま使っています。 ダークテーマを追加したいという要望があるので誰かダークテーマをここで作ってください\n"
+              },
+              {
+                "type": "link",
+                "url": "https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0",
+                "text": "https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0b[…]xRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "新しいサイトは daisyui をほぼそのまま使っています。 ダークテーマを追加したいという要望があるので誰かダークテーマをここで作ってください\n<https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0bktUAC9KqP7E_-xw7Fn8KZ69U_CzCu5sur_aFiqeiGYfRn0JzoZRqrX-O0dMpx8820AmEiJnxeWgu30F9Y4ILw7AGjnX94zOMKxjFF7Bcw191bkY3kZseBbqeCwAUQ11yDXJdcfP91fr3BYYZRoFMlobrCg7gnQJmhehJciP0uiRQhNu1Qo3ZDjCUgkuoD_G9hkljVxXDUnJQGxXbNJuJ04qglkwpbmS5R_ftq9RexxEqjsqsSxzdJ2-HB1um9ljGfWouUB6wu_61zvbzIwi5EehdNy7my2Q-zimRV9sHmMH_20y4x3lDWLonH6CQQTwfA3gA7xWy-bJiYJAr3Cz01XrXu18P2Ii8fGSmnp_5gN0JlJhvWjGluRabkyDvR7_4lzxPgMDm_WwXmdi9fcmVgKwQl2Ti1eFHmbdtfw_x7AZqpiQDnq7rVNfT0Ma44OpT5jy-rfnQ_6Z1o3ghapNbOi2J8-hbSrK3txRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0|https://daisyui.com/theme-generator/#theme=eJyVlOuOnDAMhV8lQqrUSjtR7BBC-jYZMB20TBglzF5a9d0b[…]xRo6TZdZih9ubEP9PHVUmfvQ5yqs0Ogp-LmqSMf0o8ox_7-A4fLVV0>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764837934.296969",
+    "client_msg_id": "a5f0990a-3e73-47aa-8381-5eec743f653f",
+    "text": "<@U08JASQKEEM>\n以下のツイートをしていきたいなーと考えてます。\n• X\n    ◦ プロダクト活用事例をツイート\n    ◦ デジタル民主主義関連（国内外）のことをツイート\n    ◦ ウィークリー活動報告\n    ◦ その他活動の告知や報告（MEETUPやYouTubeなど）\n    ◦ 人材募集ツイート\nただ長文をシェアする際のことを考えると、やはり記事がかけるといいなぁと思っているのですが、note、Qiita、アメブロなど、外部サービスに依存せず、サ終に怯えず記事を残したい気持ちがあります。\nなのでできればCMSの方も作りたいのです。\n私作業でもいいですし、せっかくリニューアルいただいたのでkuboonさんにお願いできるならお願いしたかったりします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "reply_count": 15,
+    "reply_users_count": 3,
+    "latest_reply": "1765183767.481329",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ETBrU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": "\n以下のツイートをしていきたいなーと考えてます。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "X"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "プロダクト活用事例をツイート"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デジタル民主主義関連（国内外）のことをツイート"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ウィークリー活動報告"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その他活動の告知や報告（MEETUPやYouTubeなど）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "人材募集ツイート"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nただ長文をシェアする際のことを考えると、やはり記事がかけるといいなぁと思っているのですが、note、Qiita、アメブロなど、外部サービスに依存せず、サ終に怯えず記事を残したい気持ちがあります。\nなのでできればCMSの方も作りたいのです。\n私作業でもいいですし、せっかくリニューアルいただいたのでkuboonさんにお願いできるならお願いしたかったりします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kuboon\n以下のツイートをしていきたいなーと考えてます。\n• X\n    ◦ プロダクト活用事例をツイート\n    ◦ デジタル民主主義関連（国内外）のことをツイート\n    ◦ ウィークリー活動報告\n    ◦ その他活動の告知や報告（MEETUPやYouTubeなど）\n    ◦ 人材募集ツイート\nただ長文をシェアする際のことを考えると、やはり記事がかけるといいなぁと思っているのですが、note、Qiita、アメブロなど、外部サービスに依存せず、サ終に怯えず記事を残したい気持ちがあります。\nなのでできればCMSの方も作りたいのです。\n私作業でもいいですし、せっかくリニューアルいただいたのでkuboonさんにお願いできるならお願いしたかったりします。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1764838299.862339",
+    "client_msg_id": "10c56875-f6d2-4124-99c5-102ebddddbd5",
+    "text": "横から失礼します。\n1. 記事を書くこと\n2. 外部サービスに依存しない場所を用意すること\n記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ONuCk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "横から失礼します。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "記事を書くこと"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "外部サービスに依存しない場所を用意すること"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Shingo OHKI",
+    "text_readable": "横から失礼します。\n1. 記事を書くこと\n2. 外部サービスに依存しない場所を用意すること\n記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764839842.684869",
+    "client_msg_id": "1D2BD985-009C-4196-A5C2-CAD6442523B0",
+    "text": "note がありますがあれは今後どうしますか？\n\n<https://note.com/dd2030|https://note.com/dd2030>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "image_url": "https://assets.st-note.com/production/uploads/images/195573489/d3f1f28bd8e835a8b5279052a4faea19.png?fit=bounds&format=jpeg&height=1024&quality=85&width=1024",
+        "image_width": 1024,
+        "image_height": 536,
+        "image_bytes": 132754,
+        "from_url": "https://note.com/dd2030",
+        "service_icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/svg/production.ico",
+        "id": 1,
+        "original_url": "https://note.com/dd2030",
+        "fallback": "note（ノート）: デジタル民主主義2030｜note",
+        "text": "日本におけるデジタル民主主義の社会実装を目指す、非営利・中立のOSS開発コミュニティです。\nAIとデジタル技術を用い、情報分断・政治参加の断絶といった構造課題に対し、\n政策形成プロセスの透明化と参加拡張を実現する仕組みを構築しています。\n<https://dd2030.org/>",
+        "title": "デジタル民主主義2030｜note",
+        "title_link": "https://note.com/dd2030",
+        "service_name": "note（ノート）"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CFhjc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "note がありますがあれは今後どうしますか？"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://note.com/dd2030",
+                "text": "https://note.com/dd2030"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "note がありますがあれは今後どうしますか？\n\n<https://note.com/dd2030|https://note.com/dd2030>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764844726.479939",
+    "client_msg_id": "68ec5b11-b15d-440e-a6ce-8623a3216a1b",
+    "text": "&gt; 記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）\nSEOまで気にするなら、ほかサービスから移植が難しい（.htaccessが書けない）のが少し気になったりはします。SNS時代だからまぁいいかの気持ちと、割とすぐCMS入れ込めるなら待った方がいいのではのハザマ。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l64sU",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "SEOまで気にするなら、ほかサービスから移植が難しい（.htaccessが書けない）のが少し気になったりはします。SNS時代だからまぁいいかの気持ちと、割とすぐCMS入れ込めるなら待った方がいいのではのハザマ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "> 記事はポータブルだと思うので、1と2は独立に動いてもよいのでは？と思いました。（2 を待っていて 1 ができないのはもったいないなーと）\nSEOまで気にするなら、ほかサービスから移植が難しい（.htaccessが書けない）のが少し気になったりはします。SNS時代だからまぁいいかの気持ちと、割とすぐCMS入れ込めるなら待った方がいいのではのハザマ。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764844848.741939",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1764844887.000000"
+    },
+    "client_msg_id": "69f837e0-833c-45e9-90b8-7cc0b15ac06a",
+    "text": "> note がありますがあれは今後どうしますか？\n広報やってくれてたり、やりたいという方々と話そうとは思うのですが、個人的にはまだ2記事しか無いし、この２記事だけ残して放置でいいかなと思ってます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UWE6l",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "note がありますがあれは今後どうしますか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広報やってくれてたり、やりたいという方々と話そうとは思うのですが、個人的にはまだ2記事しか無いし、この２記事だけ残して放置でいいかなと思ってます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "> note がありますがあれは今後どうしますか？\n広報やってくれてたり、やりたいという方々と話そうとは思うのですが、個人的にはまだ2記事しか無いし、この２記事だけ残して放置でいいかなと思ってます。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764893792.833249",
+    "client_msg_id": "fc59e47a-3641-4717-9495-bfd0597ea057",
+    "text": "とりあえずモアイさんが記事を書くということなら\n<https://github.com/digitaldemocracy2030/website/tree/main/src/news>\nの右上の Add file ってボタンから create new file でブラウザ上で markdown を書くなり、ローカルで markdown 書いて upload file してくれればそれだけで記事の追加は完了します。 frontmatter の書き方は既存の２記事を参考ください。\n\nあとは、 <http://note.com|note.com> に書いた記事を dd2030 へ自動的に取り込む、というのもやろうと思えばできると思います。そうすると note のオンラインエディタが割と使いやすいのでいいかもです。\n\ncms はやろうと思えば実現手段は色々あるのですが、リッチな編集体験を求めるなら自前では限界があるので既存のものをうまく使うのが良いかと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PrvvN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずモアイさんが記事を書くということなら\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/tree/main/src/news"
+              },
+              {
+                "type": "text",
+                "text": "\nの右上の Add file ってボタンから create new file でブラウザ上で markdown を書くなり、ローカルで markdown 書いて upload file してくれればそれだけで記事の追加は完了します。 frontmatter の書き方は既存の２記事を参考ください。\n\nあとは、 "
+              },
+              {
+                "type": "link",
+                "url": "http://note.com",
+                "text": "note.com"
+              },
+              {
+                "type": "text",
+                "text": " に書いた記事を dd2030 へ自動的に取り込む、というのもやろうと思えばできると思います。そうすると note のオンラインエディタが割と使いやすいのでいいかもです。\n\ncms はやろうと思えば実現手段は色々あるのですが、リッチな編集体験を求めるなら自前では限界があるので既存のものをうまく使うのが良いかと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "とりあえずモアイさんが記事を書くということなら\n<https://github.com/digitaldemocracy2030/website/tree/main/src/news>\nの右上の Add file ってボタンから create new file でブラウザ上で markdown を書くなり、ローカルで markdown 書いて upload file してくれればそれだけで記事の追加は完了します。 frontmatter の書き方は既存の２記事を参考ください。\n\nあとは、 <http://note.com|note.com> に書いた記事を dd2030 へ自動的に取り込む、というのもやろうと思えばできると思います。そうすると note のオンラインエディタが割と使いやすいのでいいかもです。\n\ncms はやろうと思えば実現手段は色々あるのですが、リッチな編集体験を求めるなら自前では限界があるので既存のものをうまく使うのが良いかと。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764909777.251029",
+    "client_msg_id": "30fe38c7-39ab-417e-bf00-7577d681975c",
+    "text": "&gt; とりあえずモアイさんが記事を書くということなら\nこれはとりあえずやります！\nありがとうございます！\n\nnote.comの記事を取り込むと、ネット上に同じ記事が2つあることになり、SEO的にはどちらかがパクりサイト評価をうけるのかと思っております。\n\nCMSを導入する場合、利用料の有無と実装のしやすさを考えると、以前提案いただいたLume CMSが良いと考えています。\n\n今のところnote.comのようなリッチな編集体験はなくていいかと思います。\n\n究極にノンエンジニア向けにリッチな編集体験を求めると、WordPressのような拡張性のあるブロックエディタもありますが、ヘッドレスとして使うなら、WordPressいろいろ問題があるのではなしと思ってます。\n\nmdで書き、リストのインデントなどのストレスは許容でいいかなと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ppprT",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずモアイさんが記事を書くということなら"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはとりあえずやります！\nありがとうございます！\n\nnote.comの記事を取り込むと、ネット上に同じ記事が2つあることになり、SEO的にはどちらかがパクりサイト評価をうけるのかと思っております。\n\nCMSを導入する場合、利用料の有無と実装のしやすさを考えると、以前提案いただいたLume CMSが良いと考えています。\n\n今のところnote.comのようなリッチな編集体験はなくていいかと思います。\n\n究極にノンエンジニア向けにリッチな編集体験を求めると、WordPressのような拡張性のあるブロックエディタもありますが、ヘッドレスとして使うなら、WordPressいろいろ問題があるのではなしと思ってます。\n\nmdで書き、リストのインデントなどのストレスは許容でいいかなと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "> とりあえずモアイさんが記事を書くということなら\nこれはとりあえずやります！\nありがとうございます！\n\nnote.comの記事を取り込むと、ネット上に同じ記事が2つあることになり、SEO的にはどちらかがパクりサイト評価をうけるのかと思っております。\n\nCMSを導入する場合、利用料の有無と実装のしやすさを考えると、以前提案いただいたLume CMSが良いと考えています。\n\n今のところnote.comのようなリッチな編集体験はなくていいかと思います。\n\n究極にノンエンジニア向けにリッチな編集体験を求めると、WordPressのような拡張性のあるブロックエディタもありますが、ヘッドレスとして使うなら、WordPressいろいろ問題があるのではなしと思ってます。\n\nmdで書き、リストのインデントなどのストレスは許容でいいかなと。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1764911137.032499",
+    "client_msg_id": "CE723E4F-05E5-44B6-B4A2-FD8BC4856F00",
+    "text": "人間が好きに書いた記事を、各自AIで mdにしてもらって、それをGitHubに入れてもらうのでも良さそうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "siVyE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人間が好きに書いた記事を、各自AIで mdにしてもらって、それをGitHubに入れてもらうのでも良さそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Shingo OHKI",
+    "text_readable": "人間が好きに書いた記事を、各自AIで mdにしてもらって、それをGitHubに入れてもらうのでも良さそうですね"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1764924376.719159",
+    "client_msg_id": "bb599a38-2327-4f61-92f3-21b894eea3fd",
+    "text": "一応 lume cms は準備を進めてはいますが、 dd2030 に write アクセスするための github token が必要で、そこで止まってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sq9pP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応 lume cms は準備を進めてはいますが、 dd2030 に write アクセスするための github token が必要で、そこで止まってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "一応 lume cms は準備を進めてはいますが、 dd2030 に write アクセスするための github token が必要で、そこで止まってます"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765174176.130269",
+    "client_msg_id": "f93c6e97-e1ab-4ab1-847c-a4f16d1ed41e",
+    "text": "private repo をストレージにする方法が簡単そうなので一旦それで進めます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rumtZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "private repo をストレージにする方法が簡単そうなので一旦それで進めます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "private repo をストレージにする方法が簡単そうなので一旦それで進めます"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765174787.970249",
+    "client_msg_id": "bcc8cd59-1668-44b7-9f0f-1bc5a4d16e1c",
+    "text": "ありがとうございます！レポジトリつくりましょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jmN2J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！レポジトリつくりましょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！レポジトリつくりましょうか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765181790.520429",
+    "client_msg_id": "f69792ba-d8ab-4785-9e18-e0362ccecb9e",
+    "text": "正式にやるには dd2030 organization のリポジトリでやった方が良いと思いますが、そのために secret key を作ってもらう必要が生じます。\nとりあえず私にアクセス権のあるリポジトリで実験を進めています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z2WK5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "正式にやるには dd2030 organization のリポジトリでやった方が良いと思いますが、そのために secret key を作ってもらう必要が生じます。\nとりあえず私にアクセス権のあるリポジトリで実験を進めています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "正式にやるには dd2030 organization のリポジトリでやった方が良いと思いますが、そのために secret key を作ってもらう必要が生じます。\nとりあえず私にアクセス権のあるリポジトリで実験を進めています。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765182524.774089",
+    "client_msg_id": "747e3e64-ec39-4a5b-b0f7-a3f674902bad",
+    "text": "ありがとうございます。\n本番用レポジトリが必要になったら作ります！\nまた、現在の実装の方向と違いますが、Issueにメモしたazure内のgithubの様なサービスを使う場合は、キーの発行含め権限を渡せると思います。一応共有です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d3y5/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。\n本番用レポジトリが必要になったら作ります！\nまた、現在の実装の方向と違いますが、Issueにメモしたazure内のgithubの様なサービスを使う場合は、キーの発行含め権限を渡せると思います。一応共有です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます。\n本番用レポジトリが必要になったら作ります！\nまた、現在の実装の方向と違いますが、Issueにメモしたazure内のgithubの様なサービスを使う場合は、キーの発行含め権限を渡せると思います。一応共有です。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765182585.507469",
+    "client_msg_id": "c1150c39-e679-4f78-88c9-781a598dbc76",
+    "text": "google cloud のアカウントもあったと思いますが、 azure に寄せていく方針とかあるんでしたっけ？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ecmz/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google cloud のアカウントもあったと思いますが、 azure に寄せていく方針とかあるんでしたっけ？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "google cloud のアカウントもあったと思いますが、 azure に寄せていく方針とかあるんでしたっけ？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765183151.452189",
+    "client_msg_id": "edfb4f35-a216-4aa1-b992-3d0fe5bb40c9",
+    "text": "• 様々なサービス使うと\n    ◦ 管理がたいへん\n    ◦ お金的にもスマートじゃない\n• 自治体等でazureはOKだが他サービスがダメという謎ルール\n    ◦ そのため、広聴AIはazureでホスティングしやすい様にできている\nという感じで極力azureに寄せようという方針です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hl8xK",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "様々なサービス使うと"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "管理がたいへん"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "お金的にもスマートじゃない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自治体等でazureはOKだが他サービスがダメという謎ルール"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "そのため、広聴AIはazureでホスティングしやすい様にできている"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "という感じで極力azureに寄せようという方針です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "小野翔太",
+    "text_readable": "• 様々なサービス使うと\n    ◦ 管理がたいへん\n    ◦ お金的にもスマートじゃない\n• 自治体等でazureはOKだが他サービスがダメという謎ルール\n    ◦ そのため、広聴AIはazureでホスティングしやすい様にできている\nという感じで極力azureに寄せようという方針です！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765183767.481329",
+    "client_msg_id": "4c1bc63d-1190-460a-afdf-d20632282c83",
+    "text": "なるほど了解です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764837934.296969",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p0oXr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど了解です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1764837934.296969",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "なるほど了解です"
+  },
+  {
+    "text": "<@U08HWJ80CHG>\n<https://github.com/digitaldemocracy2030/website/settings>\nここに Enfoce HTTPS というフラグがあると思うのでチェック入れてもらえますか",
+    "files": [
+      {
+        "id": "F0A1H33UWR1",
+        "created": 1764893913,
+        "timestamp": 1764893913,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JASQKEEM",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 31798,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A1H33UWR1/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A1H33UWR1/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1H33UWR1-3163e90408/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1H33UWR1-3163e90408/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1H33UWR1-3163e90408/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 146,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1H33UWR1-3163e90408/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 194,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A1H33UWR1-3163e90408/image_160.png",
+        "original_w": 564,
+        "original_h": 228,
+        "thumb_tiny": "AwAUADCkrJtAMeSOp3e4/wA/jSuEOdqBT/vgiowcUu4+3XPQUwFyNv3RnHXPvTcdOnPvRn6flRSAAM//AK6MdPelDEenXPQUmfp+VAD0l2Y+RGx/eXOf8/570NLuB+RBk54XH+f/AK9R0UAWREo7dqPKT0/Wn0VtZDK0ow5A6CmU+b/WGmVk9xH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A1H33UWR1/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A1H33UWR1-4b4bf71da2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JASQKEEM",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lqNCF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/settings"
+              },
+              {
+                "type": "text",
+                "text": "\nここに Enfoce HTTPS というフラグがあると思うのでチェック入れてもらえますか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1764893917.241389",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1764893930.000000"
+    },
+    "client_msg_id": "a951110a-a09d-4d1d-90d7-d4591a6f226c",
+    "thread_ts": "1764893917.241389",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1764908494.082189",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@oscar.gaddress\n<https://github.com/digitaldemocracy2030/website/settings>\nここに Enfoce HTTPS というフラグがあると思うのでチェック入れてもらえますか"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764908494.082189",
+    "client_msg_id": "d57d29e7-1496-4562-8981-28f240f09879",
+    "text": "<@U08JASQKEEM>\n入れました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764893917.241389",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nwmkU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": "\n入れました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764893917.241389",
+    "user_name": "小野翔太",
+    "text_readable": "@kuboon\n入れました！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1764939979.284419",
+    "client_msg_id": "5866f419-b36a-42d4-8dca-ecf1b4cd5578",
+    "text": "<@U08J66CBKKJ>\n忘れそうなのでXのアカウント送っておきます！\n<https://x.com/ono_shouta>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cLdEb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J66CBKKJ"
+              },
+              {
+                "type": "text",
+                "text": "\n忘れそうなのでXのアカウント送っておきます！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/ono_shouta"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08J66CBKKJ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@k0414sailor\n忘れそうなのでXのアカウント送っておきます！\n<https://x.com/ono_shouta>"
+  },
+  {
+    "text": "<@U09JLDAG8GK>\nいどばたの一枚絵のfigmaデータを共有しておきます！",
+    "files": [
+      {
+        "id": "F0A21NLHJ4U",
+        "created": 1764996198,
+        "timestamp": 1764996198,
+        "name": "デジタル民主主義2030一枚絵.fig",
+        "title": "デジタル民主主義2030一枚絵.fig",
+        "mimetype": "application/octet-stream",
+        "filetype": "binary",
+        "pretty_type": "Binary",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 993007,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A21NLHJ4U/________________________2030_________.fig",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A21NLHJ4U/download/________________________2030_________.fig",
+        "media_display_type": "unknown",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A21NLHJ4U/________________________2030_________.fig",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A21NLHJ4U-02ee1e772e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BW2Qy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09JLDAG8GK"
+              },
+              {
+                "type": "text",
+                "text": "\nいどばたの一枚絵のfigmaデータを共有しておきます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1764996229.372189",
+    "client_msg_id": "97892c01-2e49-4b49-8271-0fa377e8cff6",
+    "thread_ts": "1764996229.372189",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1765022279.421659",
+    "reply_users": [
+      "U09JLDAG8GK"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "user_name": "小野翔太",
+    "text_readable": "<@U09JLDAG8GK>\nいどばたの一枚絵のfigmaデータを共有しておきます！"
+  },
+  {
+    "user": "U09JLDAG8GK",
+    "type": "message",
+    "ts": "1765022279.421659",
+    "client_msg_id": "4126f01a-2fd2-442f-92aa-f96d24966ec4",
+    "text": "<@U08HWJ80CHG>\nありがとうございます！\nアニメーションつけたら楽しそうです:blob-bolb:\n\n自己紹介は内容見ていただいて固まりましたらそれに合わせてスライドつくりますね:muscle:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1764996229.372189",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rxzhQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nありがとうございます！\nアニメーションつけたら楽しそうです"
+              },
+              {
+                "type": "emoji",
+                "name": "blob-bolb"
+              },
+              {
+                "type": "text",
+                "text": "\n\n自己紹介は内容見ていただいて固まりましたらそれに合わせてスライドつくりますね"
+              },
+              {
+                "type": "emoji",
+                "name": "muscle",
+                "unicode": "1f4aa"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "muscle",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1764996229.372189",
+    "user_name": "U09JLDAG8GK",
+    "text_readable": "@oscar.gaddress\nありがとうございます！\nアニメーションつけたら楽しそうです:blob-bolb:\n\n自己紹介は内容見ていただいて固まりましたらそれに合わせてスライドつくりますね:muscle:"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765113453.205439",
+    "client_msg_id": "f8090469-0f9e-4fae-b404-c40b631194e4",
+    "text": "【共有】振り返る会\n• <https://drive.google.com/drive/folders/1KN5QfAevDFf9xwGtbXlaiiSumLDZnrS6?usp=drive_link|素材系>（今から入れる）\n• <https://yt-live-rooms.vercel.app/starting-screen.html|配信前の待機画面>\n• <https://yt-live-rooms.vercel.app/ending-screen.html|エンディング画面>\n• <https://yt-live-rooms.vercel.app/please-wait.html|何か合ったときの画面>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jUcOn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【共有】振り返る会\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://drive.google.com/drive/folders/1KN5QfAevDFf9xwGtbXlaiiSumLDZnrS6?usp=drive_link",
+                    "text": "素材系"
+                  },
+                  {
+                    "type": "text",
+                    "text": "（今から入れる）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://yt-live-rooms.vercel.app/starting-screen.html",
+                    "text": "配信前の待機画面"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://yt-live-rooms.vercel.app/ending-screen.html",
+                    "text": "エンディング画面"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://yt-live-rooms.vercel.app/please-wait.html",
+                    "text": "何か合ったときの画面"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sasuga2",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "kami",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "【共有】振り返る会\n• <https://drive.google.com/drive/folders/1KN5QfAevDFf9xwGtbXlaiiSumLDZnrS6?usp=drive_link|素材系>（今から入れる）\n• <https://yt-live-rooms.vercel.app/starting-screen.html|配信前の待機画面>\n• <https://yt-live-rooms.vercel.app/ending-screen.html|エンディング画面>\n• <https://yt-live-rooms.vercel.app/please-wait.html|何か合ったときの画面>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765169190.754499",
+    "client_msg_id": "5df26393-e896-4b7e-a70e-3fa4c38986b3",
+    "text": "振り返る会のパネルディスカッション、\n• パネラー誰誘おう？（kenさんには軽く声をかけた）\n• パネラーMax何人がいいだろう？\nで悩んでます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bb6m/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "振り返る会のパネルディスカッション、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "パネラー誰誘おう？（kenさんには軽く声をかけた）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "パネラーMax何人がいいだろう？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "で悩んでます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "振り返る会のパネルディスカッション、\n• パネラー誰誘おう？（kenさんには軽く声をかけた）\n• パネラーMax何人がいいだろう？\nで悩んでます。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765169560.448779",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1765170231.000000"
+    },
+    "client_msg_id": "88792f8d-94c2-4338-8967-12764f390081",
+    "text": "<!here>\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "reply_count": 15,
+    "reply_users_count": 5,
+    "latest_reply": "1765326527.619179",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM",
+      "U08HWJ80CHG",
+      "U08G2A216TW",
+      "U08J66CBKKJ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FjL/b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08H3V9KMFH",
+          "U08J66CBKKJ",
+          "U096VK0FHV1"
+        ],
+        "count": 3
+      },
+      {
+        "name": "sugoi",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765169838.948459",
+    "client_msg_id": "b6f2a543-d25d-421b-b8f9-17f0408218c5",
+    "text": "時間が合えば何かお手伝いしますー",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M9b0d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "時間が合えば何かお手伝いしますー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Shingo OHKI",
+    "text_readable": "時間が合えば何かお手伝いしますー"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765170064.608619",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1765170083.000000"
+    },
+    "client_msg_id": "adaf5c9b-e001-4806-9325-0ee8736f06e4",
+    "text": "「当日」って何の日のことですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f2Hlz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「当日」って何の日のことですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-bowing",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "「当日」って何の日のことですか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765170284.327449",
+    "client_msg_id": "14afac37-231d-46fb-a742-ab33831d5cdf",
+    "text": "<@U08JASQKEEM>\nめっちゃ言葉足らずでした。。。\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催予定で、そのサポートの募集でした。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "htp4G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": "\nめっちゃ言葉足らずでした。。。\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催予定で、そのサポートの募集でした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "小野翔太",
+    "text_readable": "@kuboon\nめっちゃ言葉足らずでした。。。\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催予定で、そのサポートの募集でした。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765170483.177689",
+    "client_msg_id": "8dcc49b5-220b-40b5-9b7d-44dbf01b60e1",
+    "text": "それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gHlcp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765170996.877319",
+    "client_msg_id": "33230b2f-a387-4449-82f4-8cec4587c846",
+    "text": "この辺ですね\n<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.3o9fkzg2gvuq>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+gnj8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この辺ですね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.3o9fkzg2gvuq"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Shingo OHKI",
+    "text_readable": "この辺ですね\n<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.3o9fkzg2gvuq>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765171248.149249",
+    "client_msg_id": "7c703c0c-1fe7-4c45-b61c-b54dffba7a35",
+    "text": "&gt; それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？\n広報_prの臨時MTGがあり、\n<https://dd2030.slack.com/archives/C08K4CUB12T/p1764338982985959>\nその際、<@U08J66CBKKJ> さんから提案がありました。\n議事録は<https://docs.google.com/document/d/1N3hNd2h-j8mYOZc1zPI9zpIIGj8f70b77-NOPN_fTWg/edit?usp=sharing|こちら>です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fdliy",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広報_prの臨時MTGがあり、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08K4CUB12T/p1764338982985959"
+              },
+              {
+                "type": "text",
+                "text": "\nその際、"
+              },
+              {
+                "type": "user",
+                "user_id": "U08J66CBKKJ"
+              },
+              {
+                "type": "text",
+                "text": " さんから提案がありました。\n議事録は"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1N3hNd2h-j8mYOZc1zPI9zpIIGj8f70b77-NOPN_fTWg/edit?usp=sharing",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "小野翔太",
+    "text_readable": "> それは定例ミーティングかなんかでやることになったのですかね？ drive に議事録がある？\n広報_prの臨時MTGがあり、\n<https://dd2030.slack.com/archives/C08K4CUB12T/p1764338982985959>\nその際、@k0414sailor さんから提案がありました。\n議事録は<https://docs.google.com/document/d/1N3hNd2h-j8mYOZc1zPI9zpIIGj8f70b77-NOPN_fTWg/edit?usp=sharing|こちら>です。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765171429.027989",
+    "client_msg_id": "b4e1668d-10a5-46aa-b05c-4f686e85baee",
+    "text": "あー、僕が貼ったのは全体定例で共有されたやつか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xclS0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、僕が貼ったのは全体定例で共有されたやつか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あー、僕が貼ったのは全体定例で共有されたやつか"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JASQKEEM",
+    "thread_ts": "1765169560.448779",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1765169560.448779",
+      "edited": {
+        "user": "U08HWJ80CHG",
+        "ts": "1765170231.000000"
+      },
+      "client_msg_id": "88792f8d-94c2-4338-8967-12764f390081",
+      "text": "<!here>\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1765169560.448779",
+      "reply_count": 15,
+      "reply_users_count": 5,
+      "latest_reply": "1765326527.619179",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JASQKEEM",
+        "U08HWJ80CHG",
+        "U08G2A216TW",
+        "U08J66CBKKJ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FjL/b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1765248722.948619",
+    "client_msg_id": "5a977856-e36c-421b-bc2b-3180f2c2eab6",
+    "text": "google docs だけに議事録を置かれると、現在運用している weekly reporter <https://dd2030.org/history/> に全く拾われないので、なんかやり方を考えたい",
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1500,
+        "image_height": 813,
+        "image_bytes": 143678,
+        "from_url": "https://dd2030.org/history/",
+        "service_icon": "https://dd2030.org/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://dd2030.org/history/",
+        "fallback": "デジタル民主主義2030: プロジェクトの歴史 | デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトの歴史と週ごとの活動記録",
+        "title": "プロジェクトの歴史 | デジタル民主主義2030",
+        "title_link": "https://dd2030.org/history/",
+        "service_name": "デジタル民主主義2030"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jlN0M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google docs だけに議事録を置かれると、現在運用している weekly reporter "
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/history/"
+              },
+              {
+                "type": "text",
+                "text": " に全く拾われないので、なんかやり方を考えたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "google docs だけに議事録を置かれると、現在運用している weekly reporter <https://dd2030.org/history/> に全く拾われないので、なんかやり方を考えたい"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765248814.752239",
+    "client_msg_id": "b5ad1dc8-c9a5-4ca2-9abe-e5fd1f9f8c03",
+    "text": "google docs の議事録って gemini かなんかで自動生成してるのですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f89Rk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google docs の議事録って gemini かなんかで自動生成してるのですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "google docs の議事録って gemini かなんかで自動生成してるのですか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765252467.877459",
+    "client_msg_id": "66f9bcd2-cc40-4078-b482-30e058533991",
+    "text": "&gt; google docs の議事録って gemini かなんかで自動生成してるのですか？\n<https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?usp=sharing>\nなどは人力です。\n\n<https://drive.google.com/drive/folders/1yWleEnEMFOrCfyg8b9JgLtDJ5jnu_N6x?usp=drive_link>\nのあたりはGeminiです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZtSrO",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google docs の議事録って gemini かなんかで自動生成してるのですか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?usp=sharing"
+              },
+              {
+                "type": "text",
+                "text": "\nなどは人力です。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1yWleEnEMFOrCfyg8b9JgLtDJ5jnu_N6x?usp=drive_link"
+              },
+              {
+                "type": "text",
+                "text": "\nのあたりはGeminiです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "小野翔太",
+    "text_readable": "> google docs の議事録って gemini かなんかで自動生成してるのですか？\n<https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?usp=sharing>\nなどは人力です。\n\n<https://drive.google.com/drive/folders/1yWleEnEMFOrCfyg8b9JgLtDJ5jnu_N6x?usp=drive_link>\nのあたりはGeminiです！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765252531.345029",
+    "client_msg_id": "f8e9b10d-8663-4c11-9c0a-e5ffb23e9340",
+    "text": "GAS経由でなんかうまいことできんものか。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P+Vrx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GAS経由でなんかうまいことできんものか。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "小野翔太",
+    "text_readable": "GAS経由でなんかうまいことできんものか。。。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1765293818.586579",
+    "client_msg_id": "4FD9CA92-66E3-4064-942E-977877008979",
+    "text": "Drive APIで読めそうではある",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mkgG6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Drive APIで読めそうではある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Drive APIで読めそうではある"
+  },
+  {
+    "user": "U08J66CBKKJ",
+    "type": "message",
+    "ts": "1765294213.370539",
+    "client_msg_id": "F8625B74-0001-4C90-AFB2-5067CBE8FF50",
+    "text": "dd2030のgmailアカウントを作って、そこのドライブに貯めていけば色々楽そうなような？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Qh3tN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030のgmailアカウントを作って、そこのドライブに貯めていけば色々楽そうなような？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "K",
+    "text_readable": "dd2030のgmailアカウントを作って、そこのドライブに貯めていけば色々楽そうなような？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765326386.732899",
+    "client_msg_id": "54e728aa-b697-4138-8637-9241e555d9fc",
+    "text": "google workspace for NPO とか使えると色々楽そうなんですが\n<https://www.google.com/intl/ja/nonprofits/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "image_url": "https://lh3.googleusercontent.com/OeG4W5OPZB6S1m9LBzWHY5RcfidqPTRcQNffWJfGVxvZyo97Ia6MpCxi1PPxZDWhAbB2VfysWP_amEy3jYeTFeld5JSrEuV0jfzRdA",
+        "image_width": 512,
+        "image_height": 269,
+        "image_bytes": 25391,
+        "from_url": "https://www.google.com/intl/ja/nonprofits/",
+        "service_icon": "https://www.gstatic.com/images/branding/googleg_gradient/2x/googleg_gradient_standard_192dp.png",
+        "id": 1,
+        "original_url": "https://www.google.com/intl/ja/nonprofits/",
+        "fallback": "非営利団体向けデジタルツール - Google for Nonprofits | 非営利団体向けプログラム",
+        "text": "Google のサービスを活用して世界に大きく貢献しましょう。活動内容を広く周知したり、チームとコラボレーションしたり、活動資金を集めたりと、デジタルツールでさまざまなことが可能になります。今すぐアクセスしてデジタルツールを入手してください。",
+        "title": "非営利団体向けデジタルツール - Google for Nonprofits | 非営利団体向けプログラム",
+        "title_link": "https://www.google.com/intl/ja/nonprofits/",
+        "service_name": "google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d9OcC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google workspace for NPO とか使えると色々楽そうなんですが\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.google.com/intl/ja/nonprofits/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "google workspace for NPO とか使えると色々楽そうなんですが\n<https://www.google.com/intl/ja/nonprofits/>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765326527.619179",
+    "client_msg_id": "7b61e0ce-916e-45ff-8f2b-253df32cc899",
+    "text": "OSS で全部やっていく、というのも個人的にはチャレンジしたいことではある\n<https://opensourcealternative.to/alternativesto/google-drive>\nslack の代わりに matrix 使いたい、とかもある\n<https://matrix.org/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765169560.448779",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "image_url": "https://lafptocsuil8sakp.public.blob.vercel-storage.com/og-8hD3z53UHLHVtSFHRJlooI2zNiPKaN.png",
+        "image_width": 2400,
+        "image_height": 1200,
+        "image_bytes": 499450,
+        "from_url": "https://opensourcealternative.to/alternativesto/google-drive",
+        "service_icon": "https://opensourcealternative.to/favicon.ico",
+        "id": 1,
+        "original_url": "https://opensourcealternative.to/alternativesto/google-drive",
+        "fallback": "5 Open Source Alternatives to Google Drive",
+        "text": "Discover the best open source alternatives to Google Drive, including NextCloud, OwnCloud, Filebrowser, Seafile, Sandstorm",
+        "title": "5 Open Source Alternatives to Google Drive",
+        "title_link": "https://opensourcealternative.to/alternativesto/google-drive",
+        "service_name": "opensourcealternative.to"
+      },
+      {
+        "from_url": "https://matrix.org/",
+        "image_url": "https://matrix.org/blog/img/matrix-logo.png",
+        "image_width": 800,
+        "image_height": 400,
+        "image_bytes": 12170,
+        "service_icon": "https://matrix.org/assets/favicon.ico",
+        "id": 2,
+        "original_url": "https://matrix.org/",
+        "fallback": "Matrix.org",
+        "text": "Matrix, the open protocol for secure decentralised communications",
+        "title": "Matrix.org",
+        "title_link": "https://matrix.org/",
+        "service_name": "matrix.org"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9E6ez",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OSS で全部やっていく、というのも個人的にはチャレンジしたいことではある\n"
+              },
+              {
+                "type": "link",
+                "url": "https://opensourcealternative.to/alternativesto/google-drive"
+              },
+              {
+                "type": "text",
+                "text": "\nslack の代わりに matrix 使いたい、とかもある\n"
+              },
+              {
+                "type": "link",
+                "url": "https://matrix.org/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765169560.448779",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "OSS で全部やっていく、というのも個人的にはチャレンジしたいことではある\n<https://opensourcealternative.to/alternativesto/google-drive>\nslack の代わりに matrix 使いたい、とかもある\n<https://matrix.org/>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765241797.830879",
+    "client_msg_id": "955632b7-00b7-4d90-9090-db08709fd83a",
+    "text": "<@U08HWJ80CHG>\n「DD2030のプロダクトを使うには、こういうことができるエンジニアが必要だよ」というのが分かる資料って確か以前あったの思うのですが、心当たりありますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765241797.830879",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1765326164.549369",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EGyKn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n「DD2030のプロダクトを使うには、こういうことができるエンジニアが必要だよ」というのが分かる資料って確か以前あったの思うのですが、心当たりありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "@oscar.gaddress\n「DD2030のプロダクトを使うには、こういうことができるエンジニアが必要だよ」というのが分かる資料って確か以前あったの思うのですが、心当たりありますか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765246172.402389",
+    "client_msg_id": "008a9445-f5b1-46ac-81a6-c13550eb345f",
+    "text": "心当たりないです…:man-bowing:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765241797.830879",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vLcjH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "心当たりないです…"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765241797.830879",
+    "user_name": "小野翔太",
+    "text_readable": "心当たりないです…:man-bowing:"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765251136.898489",
+    "client_msg_id": "0cf5eda8-a838-4301-92f6-eb0b0747eb1e",
+    "text": "広聴AIのは見つけました\n<https://docs.google.com/presentation/d/1gbOS0fxKma8Jy-_BXHwt_PtTn1oV_rCvVf0QlcLdfE4/edit?slide=id.g2e3dbdb45bf_0_177#slide=id.g2e3dbdb45bf_0_177>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765241797.830879",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i24JY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIのは見つけました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/presentation/d/1gbOS0fxKma8Jy-_BXHwt_PtTn1oV_rCvVf0QlcLdfE4/edit?slide=id.g2e3dbdb45bf_0_177#slide=id.g2e3dbdb45bf_0_177"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1765241797.830879",
+    "user_name": "Shingo OHKI",
+    "text_readable": "広聴AIのは見つけました\n<https://docs.google.com/presentation/d/1gbOS0fxKma8Jy-_BXHwt_PtTn1oV_rCvVf0QlcLdfE4/edit?slide=id.g2e3dbdb45bf_0_177#slide=id.g2e3dbdb45bf_0_177>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765251870.557959",
+    "client_msg_id": "df8f0a5a-b994-4d78-ac20-191fc6dd4e2c",
+    "text": "<@U08Q9JW7SC9>\n上記、僕の方から先方にお送りしました。\n太田さんからも送っていただいているので、一旦こちら側の宿題は完了という認識です。\nありがとうございました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765241797.830879",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dz8hU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08Q9JW7SC9"
+              },
+              {
+                "type": "text",
+                "text": "\n上記、僕の方から先方にお送りしました。\n太田さんからも送っていただいているので、一旦こちら側の宿題は完了という認識です。\nありがとうございました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U08Q9JW7SC9",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1765241797.830879",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@sambo.office.ota\n上記、僕の方から先方にお送りしました。\n太田さんからも送っていただいているので、一旦こちら側の宿題は完了という認識です。\nありがとうございました！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765326164.549369",
+    "client_msg_id": "479C2B7D-4ADC-4259-9875-253DD285561A",
+    "text": "こういう資料系も割と必要なことがあるのですが、少しずつ整備できるといいなと思いつつ、それが必要だという事がコミュニティ内でうまく共有できてない感じがしています。\n\nどうするとみんなで少しずつ作っていけますかね？GitHub Issueだとエンジニアしか見れないでしょうし\n\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765241797.830879",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ioCYE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういう"
+              },
+              {
+                "type": "text",
+                "text": "資料系"
+              },
+              {
+                "type": "text",
+                "text": "も割と必要なことがあるので"
+              },
+              {
+                "type": "text",
+                "text": "すが、"
+              },
+              {
+                "type": "text",
+                "text": "少しずつ整備できるといいなと思いつつ、それが"
+              },
+              {
+                "type": "text",
+                "text": "必要だという事がコミュニティ内で"
+              },
+              {
+                "type": "text",
+                "text": "うまく共有できてない感じが"
+              },
+              {
+                "type": "text",
+                "text": "しています。\n\nどうするとみんなで少しずつ作っていけますかね？GitHub Issueだとエンジニアしか見れないでしょうし\n\n"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765241797.830879",
+    "user_name": "Shingo OHKI",
+    "text_readable": "こういう資料系も割と必要なことがあるのですが、少しずつ整備できるといいなと思いつつ、それが必要だという事がコミュニティ内でうまく共有できてない感じがしています。\n\nどうするとみんなで少しずつ作っていけますかね？GitHub Issueだとエンジニアしか見れないでしょうし\n\n"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765241879.823319",
+    "client_msg_id": "40c21df2-3d88-400e-aee8-8ebac88f8b32",
+    "text": "<@U08Q9JW7SC9>\n広聴AIのデモ環境です\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1760149113668119>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1760149113668119",
+        "ts": "1760149113.668119",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C08F7JZPD63",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08F7JZPD63",
+            "ts": "1760149113.668119",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "Rf6K+",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U09C3J7V960"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08KVN5B6HX"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n以前の全体定例でお話しておりました、広聴AIのデモ環境を作成しました\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://client-admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/",
+                              "text": "レポート管理画面"
+                            },
+                            {
+                              "type": "text",
+                              "text": "（現状の仕組み上認証がかかっています。認証情報は"
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.k008h3fty400",
+                              "text": "こちら"
+                            },
+                            {
+                              "type": "text",
+                              "text": "）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://client.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/",
+                              "text": "レポート一覧画面"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1760149113668119",
+        "fallback": "[October 10th, 2025 7:18 PM] truego: <@U09C3J7V960> <@U08KVN5B6HX>\n以前の全体定例でお話しておりました、広聴AIのデモ環境を作成しました\n• <https://client-admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/|レポート管理画面>（現状の仕組み上認証がかかっています。認証情報は<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.k008h3fty400|こちら>）\n• <https://client.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/|レポート一覧画面>",
+        "text": "<@U09C3J7V960> <@U08KVN5B6HX>\n以前の全体定例でお話しておりました、広聴AIのデモ環境を作成しました\n• <https://client-admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/|レポート管理画面>（現状の仕組み上認証がかかっています。認証情報は<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.k008h3fty400|こちら>）\n• <https://client.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/|レポート一覧画面>",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X8OCq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08Q9JW7SC9"
+              },
+              {
+                "type": "text",
+                "text": "\n広聴AIのデモ環境です\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1760149113668119"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08Q9JW7SC9"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "@sambo.office.ota\n広聴AIのデモ環境です\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1760149113668119>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JASQKEEM",
+    "thread_ts": "1765169560.448779",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1765169560.448779",
+      "edited": {
+        "user": "U08HWJ80CHG",
+        "ts": "1765170231.000000"
+      },
+      "client_msg_id": "88792f8d-94c2-4338-8967-12764f390081",
+      "text": "<!here>\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1765169560.448779",
+      "reply_count": 15,
+      "reply_users_count": 5,
+      "latest_reply": "1765326527.619179",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08JASQKEEM",
+        "U08HWJ80CHG",
+        "U08G2A216TW",
+        "U08J66CBKKJ"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FjL/b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\nYouTube liveで『デジタル民主主義を振り返ろう 2025』を開催します！\n※日程はパネルディスカッションコーナーのパネラー（スカウト中）の予定に合わせます。\n\ngoogle meetのyoutube配信機能がEnterprise版機能だったので、似たようなwebアプリを作りました。\n当日配信のサポートをしてくれる方を募集してます。\nサポーターの方にはアプリの使い方説明　兼　運用テストと、当日やってほしいことの説明をしたいと思ってます。\nまだ日程決まってませんが、興味ある方はご連絡ください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1765248722.948619",
+    "client_msg_id": "5a977856-e36c-421b-bc2b-3180f2c2eab6",
+    "text": "google docs だけに議事録を置かれると、現在運用している weekly reporter <https://dd2030.org/history/> に全く拾われないので、なんかやり方を考えたい",
+    "attachments": [
+      {
+        "image_url": "https://dd2030.org/ogp.png",
+        "image_width": 1500,
+        "image_height": 813,
+        "image_bytes": 143678,
+        "from_url": "https://dd2030.org/history/",
+        "service_icon": "https://dd2030.org/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://dd2030.org/history/",
+        "fallback": "デジタル民主主義2030: プロジェクトの歴史 | デジタル民主主義2030",
+        "text": "デジタル民主主義2030プロジェクトの歴史と週ごとの活動記録",
+        "title": "プロジェクトの歴史 | デジタル民主主義2030",
+        "title_link": "https://dd2030.org/history/",
+        "service_name": "デジタル民主主義2030"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jlN0M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "google docs だけに議事録を置かれると、現在運用している weekly reporter "
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/history/"
+              },
+              {
+                "type": "text",
+                "text": " に全く拾われないので、なんかやり方を考えたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U09JLDAG8GK"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "google docs だけに議事録を置かれると、現在運用している weekly reporter <https://dd2030.org/history/> に全く拾われないので、なんかやり方を考えたい"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765327212.879119",
+    "client_msg_id": "2ee61732-fc49-4e3f-bd81-11b5c5a576a6",
+    "text": "<@U08G2A216TW> oss weekly reporter の github で多分プルリクのクエリ式が間違っていて、完了済みの PR が「未完了」としてまとめに出ているという問題がありできれば本日12時の実行より前に修正したい\n昨夜プルリクを出したけど、 <https://github.com/nishio/oss_weekly_reporter/pull/46>\n一晩経ってちょっと気になる事があって一旦 draft に戻してあります。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765327212.879119",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1765333189.815129",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1765263505,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/nishio/oss_weekly_reporter/pull/46",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#46 Copilot/fix bug in GitHub report",
+        "text": "かなり前に close 済みの PR が未完了扱いになっていたので全面的にロジックを見直した。  \n詳細は <https://github.com/kuboon/oss_weekly_reporter/pull/1|kuboon/oss_weekly_reporter#1>",
+        "title": "#46 Copilot/fix bug in GitHub report",
+        "title_link": "https://github.com/nishio/oss_weekly_reporter/pull/46",
+        "footer": "<https://github.com/nishio/oss_weekly_reporter|nishio/oss_weekly_reporter>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VjoFI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " oss weekly reporter の github で多分プルリクのクエリ式が間違っていて、完了済みの PR が「未完了」としてまとめに出ているという問題がありできれば本日12時の実行より前に修正したい\n昨夜プルリクを出したけど、 "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/nishio/oss_weekly_reporter/pull/46"
+              },
+              {
+                "type": "text",
+                "text": "\n一晩経ってちょっと気になる事があって一旦 draft に戻してあります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@nishio.hirokazu oss weekly reporter の github で多分プルリクのクエリ式が間違っていて、完了済みの PR が「未完了」としてまとめに出ているという問題がありできれば本日12時の実行より前に修正したい\n昨夜プルリクを出したけど、 <https://github.com/nishio/oss_weekly_reporter/pull/46>\n一晩経ってちょっと気になる事があって一旦 draft に戻してあります。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765333033.229959",
+    "client_msg_id": "0ae50e3c-d649-45b5-9604-84572ccad6f6",
+    "text": "あーだめだ、間に合わんw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765327212.879119",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j1ZWc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あーだめだ、間に合わんw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765327212.879119",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "あーだめだ、間に合わんw"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1765333189.815129",
+    "client_msg_id": "0066f51d-baee-4207-aa53-a15edc7e48ef",
+    "text": "弄ってるうちに要点を理解できたので dd2030/website でフルスクラッチで Javascript で書き直そうかな。。来週までなら間に合うだろう\n\nオープンな情報を拾ってるだけなので github token は不要ということがわかった",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765327212.879119",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v/6s0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "弄ってるうちに要点を理解できたので dd2030/website でフルスクラッチで Javascript で書き直そうかな。。来週までなら間に合うだろう\n\nオープンな情報を拾ってるだけなので github token は不要ということがわかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765327212.879119",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "弄ってるうちに要点を理解できたので dd2030/website でフルスクラッチで Javascript で書き直そうかな。。来週までなら間に合うだろう\n\nオープンな情報を拾ってるだけなので github token は不要ということがわかった"
+  }
+]
