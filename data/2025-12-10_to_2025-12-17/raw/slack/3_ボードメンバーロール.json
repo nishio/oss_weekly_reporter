@@ -1,0 +1,2403 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765450751.990789",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1765553170.000000"
+    },
+    "client_msg_id": "179d6bea-0b76-4d63-80b0-9c12b5ed4f86",
+    "text": "<@U08N3V4NQRE>\n本日Polimoneyの定例にてメンバーにも相談したのですが、\nPolimoney Ledger（会計ソフト）を、ユーザーにセルフホストしてもらうつもりで開発していた\n↓\nSaaS化\nしたく、相談をさせていただきたいです。\n\n■ 承認頂きたいこと\n•  Supabase Cloud の利用（インフラ：バックエンド）\n• Deno Deploy の既存アカウント利用（インフラ：フロントエンド）\n• 利用料をとること（特に、サポート体制のため）\n• Stripeの既存アカウント利用（利用料徴収のため）\n■ 理由\n• DD2030がホスティングし、SaaSとしてサービス提供したいため。\n    ◦ 選挙・政治団体・政治家のIDをPolimoneyと共通化するため、共通DBが必要\n        ▪︎ ユーザーがセルフホスティングする場合、共通DBが使えない or ユーザーの技術的ハードルが高い\n• 利用料をとる以上、最低限のサポート体制があるのが望ましく、コストを賄う必要がある。\n■ 費用見込み\n• MVP期（〜10ユーザー）: ¥0（Deno Deploy、Supabase Cloudの両サービスFree枠）\n• 初期運用（〜50ユーザー）: 約¥45,000/年（Supabase Pro $25/月）\n• 成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）\n■その他相談事項\n• サポート体制について（必要なもの・人、それらの費用、タスク等）知見がなく、調べられていない。そのため利用料も明確にできていない。資料化できたら、相談したい。\n• 利用料をとるに当たって、経理・会計上で課題はないか。\n■ Deno Deploy を選ぶ理由\n• DD2030のWebサイトCMS用として既にアカウントがある\n• 無料枠が充実（100,000 req/日、100 GiB/月）\n■ Supabase Cloud を選ぶ理由\n• PostgreSQL + 認証 + ストレージがオールインワン\n• Row Level Security でセキュリティ担保\n• 無料枠が充実（MVP期は無料運用可能）\n■ 詳細\n• アーキテクチャ: \n    ◦ <https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/ARCHITECTURE.md>\n• ビジネスプラン:\n    ◦ ※料金設定など、まだ詰められてない部分も多々あります。 \n    ◦ <https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/BUSINESS_PLAN.md>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "reply_count": 11,
+    "reply_users_count": 4,
+    "latest_reply": "1765941311.621449",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08HN9UDJUB",
+      "U09C3J7V960",
+      "U08N3V4NQRE"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ep+rw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": "\n本日Polimoneyの定例にてメンバーにも相談したのですが、\nPolimoney Ledger（会計ソフト）を、ユーザーにセルフホストしてもらうつもりで開発していた\n↓\nSaaS化\nしたく、相談をさせていただきたいです。\n\n■ 承認頂きたいこと\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " Supabase Cloud の利用（インフラ：バックエンド）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno Deploy の既存アカウント利用（インフラ：フロントエンド）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "利用料をとること（特に、サポート体制のため）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Stripeの既存アカウント利用（利用料徴収のため）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ 理由\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DD2030がホスティングし、SaaSとしてサービス提供したいため。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "選挙・政治団体・政治家のIDをPolimoneyと共通化するため、共通DBが必要"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユーザーがセルフホスティングする場合、共通DBが使えない or ユーザーの技術的ハードルが高い"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "利用料をとる以上、最低限のサポート体制があるのが望ましく、コストを賄う必要がある。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ 費用見込み\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "MVP期（〜10ユーザー）: ¥0（Deno Deploy、Supabase Cloudの両サービスFree枠）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "初期運用（〜50ユーザー）: 約¥45,000/年（Supabase Pro $25/月）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■その他相談事項\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "サポート体制について（必要なもの・人、それらの費用、タスク等）知見がなく、調べられていない。そのため利用料も明確にできていない。資料化できたら、相談したい。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "利用料をとるに当たって、経理・会計上で課題はないか。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ Deno Deploy を選ぶ理由\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DD2030のWebサイトCMS用として既にアカウントがある"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "無料枠が充実（100,000 req/日、100 GiB/月）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ Supabase Cloud を選ぶ理由\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "PostgreSQL + 認証 + ストレージがオールインワン"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Row Level Security でセキュリティ担保"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "無料枠が充実（MVP期は無料運用可能）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ 詳細\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "アーキテクチャ: "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/ARCHITECTURE.md",
+                    "style": {
+                      "underline": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ビジネスプラン:"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "※料金設定など、まだ詰められてない部分も多々あります。 "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/BUSINESS_PLAN.md",
+                    "style": {
+                      "underline": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba\n本日Polimoneyの定例にてメンバーにも相談したのですが、\nPolimoney Ledger（会計ソフト）を、ユーザーにセルフホストしてもらうつもりで開発していた\n↓\nSaaS化\nしたく、相談をさせていただきたいです。\n\n■ 承認頂きたいこと\n•  Supabase Cloud の利用（インフラ：バックエンド）\n• Deno Deploy の既存アカウント利用（インフラ：フロントエンド）\n• 利用料をとること（特に、サポート体制のため）\n• Stripeの既存アカウント利用（利用料徴収のため）\n■ 理由\n• DD2030がホスティングし、SaaSとしてサービス提供したいため。\n    ◦ 選挙・政治団体・政治家のIDをPolimoneyと共通化するため、共通DBが必要\n        ▪︎ ユーザーがセルフホスティングする場合、共通DBが使えない or ユーザーの技術的ハードルが高い\n• 利用料をとる以上、最低限のサポート体制があるのが望ましく、コストを賄う必要がある。\n■ 費用見込み\n• MVP期（〜10ユーザー）: ¥0（Deno Deploy、Supabase Cloudの両サービスFree枠）\n• 初期運用（〜50ユーザー）: 約¥45,000/年（Supabase Pro $25/月）\n• 成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）\n■その他相談事項\n• サポート体制について（必要なもの・人、それらの費用、タスク等）知見がなく、調べられていない。そのため利用料も明確にできていない。資料化できたら、相談したい。\n• 利用料をとるに当たって、経理・会計上で課題はないか。\n■ Deno Deploy を選ぶ理由\n• DD2030のWebサイトCMS用として既にアカウントがある\n• 無料枠が充実（100,000 req/日、100 GiB/月）\n■ Supabase Cloud を選ぶ理由\n• PostgreSQL + 認証 + ストレージがオールインワン\n• Row Level Security でセキュリティ担保\n• 無料枠が充実（MVP期は無料運用可能）\n■ 詳細\n• アーキテクチャ: \n    ◦ <https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/ARCHITECTURE.md>\n• ビジネスプラン:\n    ◦ ※料金設定など、まだ詰められてない部分も多々あります。 \n    ◦ <https://github.com/moai-redcap/polimoney_ledger/blob/main/docs/BUSINESS_PLAN.md>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765556899.319579",
+    "client_msg_id": "15f04503-1c29-4837-b086-09db07b81ccf",
+    "text": "追加ですみません。\nPolimoneyと会計ソフトをつなぐハブとなるもの（Polimoney Hub 仮）が、コスト面、拡張性を考えると必要でした。\nつきましては、下記承諾も頂きたいです。\n\n■ 承認頂きたいこと\n• Azure PostgreSQL の利用\n    ◦ 既存 Polimoney 用 DB を拡張（テーブル追加のみ）\n    ◦ 追加コスト: ほぼ 0円（ストレージ増加分のみ）\n• Deno Deploy（Hub サーバー）\n    ◦ Free tier で開始可能（100,000 req/日）\n    ◦ 将来的に Pro プラン: 約 3,000円/月\n        ▪︎ ※webサイト用、polimoney ledger用、polimoney_hub用合わせてこの価格。\n■Hubがない場合の課題:\n• Ledger の仕訳データを Polimoney で表示するたびに Ledger DB にクエリ\n    ◦ → Ledger 側の負荷増大 &amp; Supabase 料金増加\n• 政治家が過去の台帳をこっそり変更しても検知できない\n    ◦ → 透明性の担保が困難\n■Hubでの解決策:\n• 仕訳データを Hub (Azure DB) に永続キャッシュ\n    ◦ → Ledger DB への負荷ゼロ\n• 変更履歴とハッシュを保存\n    ◦ → 「いつ、何が変更されたか」を Polimoney で公開表示\n■ 詳細\n• hubのアーキテクチャ &amp; Polimoney系全体像など:\n    ◦ <https://github.com/moai-redcap/polimoney_hub/blob/main/docs/ARCHITECTURE.md>\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WMHmS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "追加ですみません。\nPolimoneyと会計ソフトをつなぐハブとなるもの（Polimoney Hub 仮）が、コスト面、拡張性を考えると必要でした。\nつきましては、下記承諾も頂きたいです。\n\n■ 承認頂きたいこと\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Azure PostgreSQL の利用"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存 Polimoney 用 DB を拡張（テーブル追加のみ）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "追加コスト: ほぼ 0円（ストレージ増加分のみ）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno Deploy（Hub サーバー）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Free tier で開始可能（100,000 req/日）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "将来的に Pro プラン: 約 3,000円/月"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "※webサイト用、polimoney ledger用、polimoney_hub用合わせてこの価格。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■Hubがない場合の課題:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Ledger の仕訳データを Polimoney で表示するたびに Ledger DB にクエリ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "→ Ledger 側の負荷増大 & Supabase 料金増加"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "政治家が過去の台帳をこっそり変更しても検知できない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "→ 透明性の担保が困難"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■Hubでの解決策:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "仕訳データを Hub (Azure DB) に永続キャッシュ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "→ Ledger DB への負荷ゼロ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "変更履歴とハッシュを保存"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "→ 「いつ、何が変更されたか」を Polimoney で公開表示"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■ 詳細\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "hubのアーキテクチャ & Polimoney系全体像など:"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/moai-redcap/polimoney_hub/blob/main/docs/ARCHITECTURE.md"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "追加ですみません。\nPolimoneyと会計ソフトをつなぐハブとなるもの（Polimoney Hub 仮）が、コスト面、拡張性を考えると必要でした。\nつきましては、下記承諾も頂きたいです。\n\n■ 承認頂きたいこと\n• Azure PostgreSQL の利用\n    ◦ 既存 Polimoney 用 DB を拡張（テーブル追加のみ）\n    ◦ 追加コスト: ほぼ 0円（ストレージ増加分のみ）\n• Deno Deploy（Hub サーバー）\n    ◦ Free tier で開始可能（100,000 req/日）\n    ◦ 将来的に Pro プラン: 約 3,000円/月\n        ▪︎ ※webサイト用、polimoney ledger用、polimoney_hub用合わせてこの価格。\n■Hubがない場合の課題:\n• Ledger の仕訳データを Polimoney で表示するたびに Ledger DB にクエリ\n    ◦ → Ledger 側の負荷増大 & Supabase 料金増加\n• 政治家が過去の台帳をこっそり変更しても検知できない\n    ◦ → 透明性の担保が困難\n■Hubでの解決策:\n• 仕訳データを Hub (Azure DB) に永続キャッシュ\n    ◦ → Ledger DB への負荷ゼロ\n• 変更履歴とハッシュを保存\n    ◦ → 「いつ、何が変更されたか」を Polimoney で公開表示\n■ 詳細\n• hubのアーキテクチャ & Polimoney系全体像など:\n    ◦ <https://github.com/moai-redcap/polimoney_hub/blob/main/docs/ARCHITECTURE.md>\n"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765591894.850489",
+    "client_msg_id": "a9df0dbf-cffe-4366-bb21-4ed0fa589013",
+    "text": "<@U08N3V4NQRE> <@U09C3J7V960> <@U08HN9UDJUB> <@U08KVN5B6HX>\n本日定例にてsekiさん、kenさんとお話しました。\n以下まとめです。\n• 開発に必要なインフラ代の承認　と　利用料をとること　はわけて承認を得る形にできるとありがたいです。\n• 関さんより：（別軸）これを機会にそろそろ法人化してもいいのでは？\n＝＝＝＝＝＝＝＝＝＝\n• 開発に必要なインフラ代の承認\n    ◦ 開発段階の費用はFreeプラン＋Azureも数円～数千円。\n        ▪︎ ただし、利用者が本当にいるのかは要事前調査（モアイ）\n• 利用料をとることの承認\n    ◦ 「利用料をとること」は、税務等の関係から法人化を検討しなければならない。\n    ◦ そもそも寄付ではだめなのか\n        ▪︎ 金額的にユーザーが多くなっても寄付でよさそう\n            • 費用：成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H6Fls",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HN9UDJUB"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08KVN5B6HX"
+              },
+              {
+                "type": "text",
+                "text": "\n本日定例にてsekiさん、kenさんとお話しました。\n以下まとめです。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発に必要なインフラ代の承認　と　利用料をとること　はわけて承認を得る形にできるとありがたいです。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "関さんより：（別軸）これを機会にそろそろ法人化してもいいのでは？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "＝＝＝＝＝＝＝＝＝＝\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発に必要なインフラ代の承認"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発段階の費用はFreeプラン＋Azureも数円～数千円。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ただし、利用者が本当にいるのかは要事前調査（モアイ）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "利用料をとることの承認"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「利用料をとること」は、税務等の関係から法人化を検討しなければならない。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "そもそも寄付ではだめなのか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "金額的にユーザーが多くなっても寄付でよさそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "費用：成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba <@U09C3J7V960> @hal @kensuzuki\n本日定例にてsekiさん、kenさんとお話しました。\n以下まとめです。\n• 開発に必要なインフラ代の承認　と　利用料をとること　はわけて承認を得る形にできるとありがたいです。\n• 関さんより：（別軸）これを機会にそろそろ法人化してもいいのでは？\n＝＝＝＝＝＝＝＝＝＝\n• 開発に必要なインフラ代の承認\n    ◦ 開発段階の費用はFreeプラン＋Azureも数円～数千円。\n        ▪︎ ただし、利用者が本当にいるのかは要事前調査（モアイ）\n• 利用料をとることの承認\n    ◦ 「利用料をとること」は、税務等の関係から法人化を検討しなければならない。\n    ◦ そもそも寄付ではだめなのか\n        ▪︎ 金額的にユーザーが多くなっても寄付でよさそう\n            • 費用：成長期（〜200ユーザー）: 約¥126,000/年（Supabase Pro $25/月 + Deno Deploy Pro $20/月）"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765694048.316899",
+    "client_msg_id": "37ac6dd1-8e33-4c64-a6e9-19e57e655dba",
+    "text": "<@U08N3V4NQRE> <@U09C3J7V960>\n&gt; • ただし、利用者が本当にいるのかは要事前調査（モアイ）\nこちらは連絡し、返信待ちですが、\n開発の手を止めてるのがもどかしく、、、\n• 既存のDeno Deployを無料枠内で使う\n• Supabaseを新規で契約、無料プランで使う\nはお金がかからないので良いでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G4DkB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08N3V4NQRE"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ただし、利用者が本当にいるのかは要事前調査（モアイ）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらは連絡し、返信待ちですが、\n開発の手を止めてるのがもどかしく、、、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存のDeno Deployを無料枠内で使う"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Supabaseを新規で契約、無料プランで使う"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はお金がかからないので良いでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "@kojin.oshiba <@U09C3J7V960>\n> • ただし、利用者が本当にいるのかは要事前調査（モアイ）\nこちらは連絡し、返信待ちですが、\n開発の手を止めてるのがもどかしく、、、\n• 既存のDeno Deployを無料枠内で使う\n• Supabaseを新規で契約、無料プランで使う\nはお金がかからないので良いでしょうか？"
+  },
+  {
+    "user": "U08HN9UDJUB",
+    "type": "message",
+    "ts": "1765717432.601729",
+    "client_msg_id": "4CF59C72-AA3C-43F6-82AD-50C9DADA735D",
+    "text": "この前言ったように、お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。\nコミュニティ側で必要だと認識されているならばですが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MPVAo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この前言ったように、お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。\nコミュニティ側で必要だと認識されているならばですが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "Hal Seki",
+    "text_readable": "この前言ったように、お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。\nコミュニティ側で必要だと認識されているならばですが。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765719744.367429",
+    "client_msg_id": "a65b939a-ea1f-406c-897e-ad0b96f316c4",
+    "text": "&gt; お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。\nありがとうございます。寄付で賄えるか心配でお金をとるのはどうかという相談でした。寄付で賄えそうなコスト感でしたら、とくにお金をとりたいわけではありません。\n\n&gt; コミュニティ側で必要だと認識されているならばですが。\nこのこと＋使いたい人がいるか？について考えていたのですが、正直モヤモヤしています。\n• 広聴AI　や　いどばた　はユーザーがいる前提ではなかったような気がします（後に安野さんが出馬し、利用しましたが）。\n    ◦ なぜPolimoneyだけこのような確認が発生しているのか。\n• 現状のPolimoneyだけでは政治資金の見える化が不可能で、見える化という当初の目的を達するためにPolimoneyをアップグレードしたく、そのために補助的に派生アプリ作っています。他主要プロダクトやその派生プロダクトはコミュニティ内の個人の手でどんどん探索され、作られ実験されていて、Polimoneyやその派生プロダクトは他と違う条件がつくのでしょうか。\n    ◦ 派生プロダクトはそれぞれ個人のレポジトリ・インフラで作っていると思いますが、PolimoneyはSaaS式なため、確認が必要というのはわかっているつもりですが、そういうことでは無いところで止められている気がします。\n• 何ヶ月も前からPolimoneyチームで話し合い、現職の議員の方にインタビューをしたり、過去立候補された方、会計士の方とも話し、目的やターゲットの設定もし、議事録やレポジトリのREADMEにもロードマップを書き、それになぞって作り始めたものです。誤解のないように書いておきますが、私個人の暴走ではありません。\n    ◦ もし、コミュニティがこれをダメだと言うのなら、Polimoneyの開発を中止する判断を早めに頂きたいです。全く知らない公職選挙法や収支報告書読み、会計の知識に触れ、プログラミングやPOなど、慣れないことも頑張ってやってくれているメンバーがかわいそうです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QoXsO",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。寄付で賄えるか心配でお金をとるのはどうかという相談でした。寄付で賄えそうなコスト感でしたら、とくにお金をとりたいわけではありません。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コミュニティ側で必要だと認識されているならばですが。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このこと＋使いたい人がいるか？について考えていたのですが、正直モヤモヤしています。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AI　や　いどばた　はユーザーがいる前提ではなかったような気がします（後に安野さんが出馬し、利用しましたが）。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "なぜPolimoneyだけこのような確認が発生しているのか。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現状のPolimoneyだけでは政治資金の見える化が不可能で、見える化という当初の目的を達するためにPolimoneyをアップグレードしたく、そのために補助的に派生アプリ作っています。他主要プロダクトやその派生プロダクトはコミュニティ内の個人の手でどんどん探索され、作られ実験されていて、Polimoneyやその派生プロダクトは他と違う条件がつくのでしょうか。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "派生プロダクトはそれぞれ個人のレポジトリ・インフラで作っていると思いますが、PolimoneyはSaaS式なため、確認が必要というのはわかっているつもりですが、そういうことでは無いところで止められている気がします。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "何ヶ月も前からPolimoneyチームで話し合い、現職の議員の方にインタビューをしたり、過去立候補された方、会計士の方とも話し、目的やターゲットの設定もし、議事録やレポジトリのREADMEにもロードマップを書き、それになぞって作り始めたものです。誤解のないように書いておきますが、私個人の暴走ではありません。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "もし、コミュニティがこれをダメだと言うのなら、Polimoneyの開発を中止する判断を早めに頂きたいです。全く知らない公職選挙法や収支報告書読み、会計の知識に触れ、プログラミングやPOなど、慣れないことも頑張ってやってくれているメンバーがかわいそうです。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "> お金を取る事は結構大変ですが、数千円の支払いの話なら、進めても良いんでは無いか？とも思います。\nありがとうございます。寄付で賄えるか心配でお金をとるのはどうかという相談でした。寄付で賄えそうなコスト感でしたら、とくにお金をとりたいわけではありません。\n\n> コミュニティ側で必要だと認識されているならばですが。\nこのこと＋使いたい人がいるか？について考えていたのですが、正直モヤモヤしています。\n• 広聴AI　や　いどばた　はユーザーがいる前提ではなかったような気がします（後に安野さんが出馬し、利用しましたが）。\n    ◦ なぜPolimoneyだけこのような確認が発生しているのか。\n• 現状のPolimoneyだけでは政治資金の見える化が不可能で、見える化という当初の目的を達するためにPolimoneyをアップグレードしたく、そのために補助的に派生アプリ作っています。他主要プロダクトやその派生プロダクトはコミュニティ内の個人の手でどんどん探索され、作られ実験されていて、Polimoneyやその派生プロダクトは他と違う条件がつくのでしょうか。\n    ◦ 派生プロダクトはそれぞれ個人のレポジトリ・インフラで作っていると思いますが、PolimoneyはSaaS式なため、確認が必要というのはわかっているつもりですが、そういうことでは無いところで止められている気がします。\n• 何ヶ月も前からPolimoneyチームで話し合い、現職の議員の方にインタビューをしたり、過去立候補された方、会計士の方とも話し、目的やターゲットの設定もし、議事録やレポジトリのREADMEにもロードマップを書き、それになぞって作り始めたものです。誤解のないように書いておきますが、私個人の暴走ではありません。\n    ◦ もし、コミュニティがこれをダメだと言うのなら、Polimoneyの開発を中止する判断を早めに頂きたいです。全く知らない公職選挙法や収支報告書読み、会計の知識に触れ、プログラミングやPOなど、慣れないことも頑張ってやってくれているメンバーがかわいそうです。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1765722071.529029",
+    "client_msg_id": "601be1ee-2a4c-4776-97aa-0de06d296588",
+    "text": "<@U08HWJ80CHG> 私はボードじゃないので決定権者じゃないのですが、\n&gt; 開発の手を止めてるのがもどかしく、、、\n&gt; • 既存のDeno Deployを無料枠内で使う\n&gt; • Supabaseを新規で契約、無料プランで使う\n&gt; はお金がかからないので良いでしょうか？\nこれってそもそもお金かからない提案なのであれば、相談も不要ではないかなと思いました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5EXFo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " 私はボードじゃないので決定権者じゃないのですが、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発の手を止めてるのがもどかしく、、、"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "既存のDeno Deployを無料枠内で使う"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Supabaseを新規で契約、無料プランで使う"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はお金がかからないので良いでしょうか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これってそもそもお金かからない提案なのであれば、相談も不要ではないかなと思いました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress 私はボードじゃないので決定権者じゃないのですが、\n> 開発の手を止めてるのがもどかしく、、、\n> • 既存のDeno Deployを無料枠内で使う\n> • Supabaseを新規で契約、無料プランで使う\n> はお金がかからないので良いでしょうか？\nこれってそもそもお金かからない提案なのであれば、相談も不要ではないかなと思いました！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765775741.345889",
+    "client_msg_id": "befd816e-214f-4ad9-a813-907f646cca60",
+    "text": "&gt; Supabaseを新規で契約\nここだけ、dd2030名義になるので、一応<@U08N4BTNYN6> さんとの連携もあるかなと思い。\nDeno Deploy新規契約の際も承諾を一応いただいたので、念の為でした。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qfrhg",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Supabaseを新規で契約"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ここだけ、dd2030名義になるので、一応"
+              },
+              {
+                "type": "user",
+                "user_id": "U08N4BTNYN6"
+              },
+              {
+                "type": "text",
+                "text": " さんとの連携もあるかなと思い。\nDeno Deploy新規契約の際も承諾を一応いただいたので、念の為でした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "> Supabaseを新規で契約\nここだけ、dd2030名義になるので、一応@satorun さんとの連携もあるかなと思い。\nDeno Deploy新規契約の際も承諾を一応いただいたので、念の為でした。"
+  },
+  {
+    "user": "U08HN9UDJUB",
+    "type": "message",
+    "ts": "1765776850.683039",
+    "client_msg_id": "01e96959-eea7-4cda-b973-a9da23e72cc4",
+    "text": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949|ここ>で示されているように、ボードの役割は\n\n&gt; • DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う\n&gt; • 開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定\n&gt; • 以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す\nとなっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。\n事務的なこととして、契約行為は一元化した方が良いので、クレジットカード情報の入力などは中窪さん （ <@U08N4BTNYN6> ）に依頼することになります。\nただ、中窪さんからは、依頼されたことが、コミュニティの承認を得たものなのか、個人が勝手に依頼していることなのかがわからないので、何らかの仕組みを考えてほしいです。\n例えば、「中窪さんへの依頼グループにプロジェクトのPOを招待して、そのチャンネル内で依頼をする」とか。\nまた、無料枠で使えているうちはいいのですが、枠を超えた場合に検知できるのか？などのモニタリングの仕組みも必要かと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949",
+        "ts": "1747984617.426949",
+        "author_id": "U08N3V4NQRE",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1747984617.426949",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "7T4rr",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ボード新体制のアナウンスがあってから、皆さんのご尽力で体制移行が着々と進んでいます。状況のアップデートをさせてください！\n\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "引き継ぎ",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n基本方針\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "渉外担当やコミュニティマネジャーなど内外で多くの人・団体などと連携する役職は政治的中立性を重視"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "それ以外（プロダクト、開発、表に見えない業務）は特定の団体や政治思想を贔屓にするようなことをしない限りは誰でも参加OK。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "方針に基づいた引き継ぎ状況\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ボード：現状４名体制。詳しくは"
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://note.com/dd2030/n/n27f77452ef49",
+                              "text": "こちら"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "コミュニティマネジャー："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HWJ80CHG"
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08LQ25DPAB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " （引き継ぎ完了）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "SNS運営："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08J66CBKKJ"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "渉外担当："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HRGS1ZTL"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08G0C3GM5H"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08FSED4GG4"
+                            },
+                            {
+                              "type": "text",
+                              "text": " -> "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HMV9AHLL"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (いどばた) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08H3V9KMFH"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (広聴AI) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R11R3ERM"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (Polimoney)"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "各プロジェクト担当のPO（プロダクトオーナー＝指針設定、大きな意思決定、ボード連携など）・PjM（プロジェクトマネジャー＝進捗管理など）："
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08LQ25DPAB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08H3V9KMFH"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "いどばた："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08GJSBAX3K"
+                            },
+                            {
+                              "type": "text",
+                              "text": "（いどばたビジョンPO）"
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08FTAEETAB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " （いどばた政策PO）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Polimoney："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08QDPC2JRG"
+                            },
+                            {
+                              "type": "text",
+                              "text": "(PO) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R11R3ERM"
+                            },
+                            {
+                              "type": "text",
+                              "text": "(PO) "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HWJ80CHG"
+                            },
+                            {
+                              "type": "text",
+                              "text": " (PjM)"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "人募集",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "上記のメンバーに加え、それぞれのロールで手伝っていただける方は引き続き募集（特に渉外）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "SNS運営手伝ってもいい、渉外手伝ってもいいなどあればどしどしご応募ください"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n"
+                        },
+                        {
+                          "type": "text",
+                          "text": "ボード",
+                          "style": {
+                            "bold": true
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nボードの役割\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割",
+                              "style": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": "。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "各ボードメンバーの役割\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "業務執行ボード＝日々の業務に関しての意思決定をサポート： "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08KVN5B6HX"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08N3V4NQRE"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "非業務執行ボード："
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HN9UDJUB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R0JY8AQN"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ボードとコミュニティの連携\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "channel",
+                              "channel_id": "C08TR6S8Y0Z"
+                            },
+                            {
+                              "type": "text",
+                              "text": " で議論"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "user",
+                              "user_id": "U08KVN5B6HX"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08N3V4NQRE"
+                            },
+                            {
+                              "type": "text",
+                              "text": " は土曜の午前の全体定例にできる限り参加。そこでも議論可能"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "最低でも週一で "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08N3V4NQRE"
+                            },
+                            {
+                              "type": "text",
+                              "text": " がレビュー → 必要に応じて他のボードメンバーにも展開"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "こちらに溜めておいていただけると漏れがなくやりやすい　"
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "緊急性高いものはその旨言ってください"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949",
+        "fallback": "[May 23rd, 2025 12:16 AM] kojin.oshiba: ボード新体制のアナウンスがあってから、皆さんのご尽力で体制移行が着々と進んでいます。状況のアップデートをさせてください！\n\n*引き継ぎ*\n基本方針\n• 渉外担当やコミュニティマネジャーなど内外で多くの人・団体などと連携する役職は政治的中立性を重視\n• それ以外（プロダクト、開発、表に見えない業務）は特定の団体や政治思想を贔屓にするようなことをしない限りは誰でも参加OK。\n方針に基づいた引き継ぎ状況\n• ボード：現状４名体制。詳しくは<https://note.com/dd2030/n/n27f77452ef49|こちら>\n• コミュニティマネジャー：<@U08HWJ80CHG><@U08LQ25DPAB> （引き継ぎ完了）\n• SNS運営：<@U08J66CBKKJ>\n• 渉外担当：<@U08HRGS1ZTL> <@U08G0C3GM5H> <@U08FSED4GG4> -> <@U08HMV9AHLL> (いどばた) <@U08H3V9KMFH> (広聴AI) <@U08R11R3ERM> (Polimoney)\n• 各プロジェクト担当のPO（プロダクトオーナー＝指針設定、大きな意思決定、ボード連携など）・PjM（プロジェクトマネジャー＝進捗管理など）：\n    ◦ 公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 <@U08LQ25DPAB> <@U08H3V9KMFH>\n    ◦ いどばた：<@U08GJSBAX3K>（いどばたビジョンPO）<@U08FTAEETAB> （いどばた政策PO）\n    ◦ Polimoney：<@U08QDPC2JRG>(PO) <@U08R11R3ERM>(PO) <@U08HWJ80CHG> (PjM)\n*人募集*\n• 上記のメンバーに加え、それぞれのロールで手伝っていただける方は引き続き募集（特に渉外）\n• SNS運営手伝ってもいい、渉外手伝ってもいいなどあればどしどしご応募ください\n*ボード*\nボードの役割\n• *DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割*。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う\n• 開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定\n• 以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す\n各ボードメンバーの役割\n• 業務執行ボード＝日々の業務に関しての意思決定をサポート： <@U08KVN5B6HX> <@U08N3V4NQRE>\n• 非業務執行ボード：<@U08HN9UDJUB> <@U08R0JY8AQN>\nボードとコミュニティの連携\n• <#C08TR6S8Y0Z|> で議論\n• <@U08KVN5B6HX> <@U08N3V4NQRE> は土曜の午前の全体定例にできる限り参加。そこでも議論可能\n• 最低でも週一で <@U08N3V4NQRE> がレビュー → 必要に応じて他のボードメンバーにも展開\n    ◦ こちらに溜めておいていただけると漏れがなくやりやすい　<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0>\n• 緊急性高いものはその旨言ってください",
+        "text": "ボード新体制のアナウンスがあってから、皆さんのご尽力で体制移行が着々と進んでいます。状況のアップデートをさせてください！\n\n*引き継ぎ*\n基本方針\n• 渉外担当やコミュニティマネジャーなど内外で多くの人・団体などと連携する役職は政治的中立性を重視\n• それ以外（プロダクト、開発、表に見えない業務）は特定の団体や政治思想を贔屓にするようなことをしない限りは誰でも参加OK。\n方針に基づいた引き継ぎ状況\n• ボード：現状４名体制。詳しくは<https://note.com/dd2030/n/n27f77452ef49|こちら>\n• コミュニティマネジャー：<@U08HWJ80CHG><@U08LQ25DPAB> （引き継ぎ完了）\n• SNS運営：<@U08J66CBKKJ>\n• 渉外担当：<@U08HRGS1ZTL> <@U08G0C3GM5H> <@U08FSED4GG4> -> <@U08HMV9AHLL> (いどばた) <@U08H3V9KMFH> (広聴AI) <@U08R11R3ERM> (Polimoney)\n• 各プロジェクト担当のPO（プロダクトオーナー＝指針設定、大きな意思決定、ボード連携など）・PjM（プロジェクトマネジャー＝進捗管理など）：\n    ◦ 公聴AI：YAGNI的にロールを置かない方針。ただしクラウドサービス（Google Cloud, Azure等）の管理者は設定 <@U08LQ25DPAB> <@U08H3V9KMFH>\n    ◦ いどばた：<@U08GJSBAX3K>（いどばたビジョンPO）<@U08FTAEETAB> （いどばた政策PO）\n    ◦ Polimoney：<@U08QDPC2JRG>(PO) <@U08R11R3ERM>(PO) <@U08HWJ80CHG> (PjM)\n*人募集*\n• 上記のメンバーに加え、それぞれのロールで手伝っていただける方は引き続き募集（特に渉外）\n• SNS運営手伝ってもいい、渉外手伝ってもいいなどあればどしどしご応募ください\n*ボード*\nボードの役割\n• *DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割*。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う\n• 開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定\n• 以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す\n各ボードメンバーの役割\n• 業務執行ボード＝日々の業務に関しての意思決定をサポート： <@U08KVN5B6HX> <@U08N3V4NQRE>\n• 非業務執行ボード：<@U08HN9UDJUB> <@U08R0JY8AQN>\nボードとコミュニティの連携\n• <#C08TR6S8Y0Z|> で議論\n• <@U08KVN5B6HX> <@U08N3V4NQRE> は土曜の午前の全体定例にできる限り参加。そこでも議論可能\n• 最低でも週一で <@U08N3V4NQRE> がレビュー → 必要に応じて他のボードメンバーにも展開\n    ◦ こちらに溜めておいていただけると漏れがなくやりやすい　<https://docs.google.com/spreadsheets/d/1nxGSTcDlfhUkYyZsY18muMChgsVHV_oAbf45lr6Yp_0/edit?gid=0#gid=0>\n• 緊急性高いものはその旨言ってください",
+        "author_name": "ルー大柴（Kojin Oshiba）",
+        "author_link": "https://dd2030.slack.com/team/U08N3V4NQRE",
+        "author_icon": "https://avatars.slack-edge.com/2025-04-09/8751991571792_96c6eb1e59a6dd54a634_48.jpg",
+        "author_subname": "ルー大柴（Kojin Oshiba）",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZzyIe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949",
+                "text": "ここ"
+              },
+              {
+                "type": "text",
+                "text": "で示されているように、ボードの役割は\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nとなっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。\n事務的なこととして、契約行為は一元化した方が良いので、クレジットカード情報の入力などは中窪さん （ "
+              },
+              {
+                "type": "user",
+                "user_id": "U08N4BTNYN6"
+              },
+              {
+                "type": "text",
+                "text": " ）に依頼することになります。\nただ、中窪さんからは、依頼されたことが、コミュニティの承認を得たものなのか、個人が勝手に依頼していることなのかがわからないので、何らかの仕組みを考えてほしいです。\n例えば、「中窪さんへの依頼グループにプロジェクトのPOを招待して、そのチャンネル内で依頼をする」とか。\nまた、無料枠で使えているうちはいいのですが、枠を超えた場合に検知できるのか？などのモニタリングの仕組みも必要かと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "Hal Seki",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949|ここ>で示されているように、ボードの役割は\n\n> • DD2030はコミュニティ主導の団体。ボードの役割はコミュニティに必要な意思決定をサポートする補助的な役割。具体的には寄付の管理・寄付者との連携、予算策定、決済などを行う\n> • 開発のロードマップ、意思決定、開発の体制などはコミュニティが有機的にドライブしていくことを想定\n> • 以前ボードにいらした安野さんはスーパーサイヤ人としてボード＋全ての製品のPO（プロダクトオーナー）的な役割を担っていた。今後プロダクトの意思決定はボードではなく上記の各プロジェクトのPOが行っていく。なので皆さんの活動の上でボードの意思決定が必要なことは意外と少なくしていけるのではないかと思っている。ボードが意思決定をしていても、今後担当を立てることによってそれをする必要がなくなる業務に関してはどんどん権限委譲をし「小さな政府」を目指す\nとなっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。\n事務的なこととして、契約行為は一元化した方が良いので、クレジットカード情報の入力などは中窪さん （ @satorun ）に依頼することになります。\nただ、中窪さんからは、依頼されたことが、コミュニティの承認を得たものなのか、個人が勝手に依頼していることなのかがわからないので、何らかの仕組みを考えてほしいです。\n例えば、「中窪さんへの依頼グループにプロジェクトのPOを招待して、そのチャンネル内で依頼をする」とか。\nまた、無料枠で使えているうちはいいのですが、枠を超えた場合に検知できるのか？などのモニタリングの仕組みも必要かと。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765786012.549529",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1765786063.000000"
+    },
+    "client_msg_id": "05693770-5eb3-4a58-b35b-371b94120914",
+    "text": "以下の形でどうでしょうか？\n\n■無料サービスの登録について\n• コミュニティの承認を得たうえで、slackの専用チャンネル『#2_契約作業』にて中窪さんに依頼\n    ◦ その以来にコミュニティメンバー（特に、そのプロダクトの開発メンバー）がスタンプでOK:ok:を出してるかを確認、中窪さんがクレジットカード情報を入力。\nとするのはどうでしょう？\n\n■無料枠の検知について\n• 無料枠を超える可能性のあるものは、事前にボードメンバーに承諾を得る必要がある。\n• 基本的に無料枠（または上限金額）を検知、課金を停止する機能を使う。\n    ◦ 課金を停止できる機能がない場合は、検知の連絡がPOと『<mailto:admin@dd2030.org|admin@dd2030.org>』と中窪さん『<mailto:c4j_admin@dd2030.org|c4j_admin@dd2030.org>』に届くよう設定、気付いた人が止め、。『#2_契約作業』にて報告する。\n    ◦ 検知する機能が用意できない場合は、基本的に契約を許可しない。\n■今回の場合\n• Deno Deploy\n• Supabase Cloud\nに関しては、プランをアップグレードしなければFreeプランの上限で自動的に停止するので、許可は不要。\n\n• Deno Deploy\nはすでに公式website用に許可がおりており、Freeプランで契約済み\n→許可無しで使用して良い。\n\n• Supabase Cloud\n契約は無いが、Freeプランを使うのに決済情報は不要。\n→契約したことの報告のみでOK。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "O5RW6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以下の形でどうでしょうか？\n\n■無料サービスの登録について\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "コミュニティの承認を得たうえで、slackの専用チャンネル『#2_契約作業』にて中窪さんに依頼"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その以来にコミュニティメンバー（特に、そのプロダクトの開発メンバー）がスタンプでOK"
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "ok",
+                    "unicode": "1f197"
+                  },
+                  {
+                    "type": "text",
+                    "text": "を出してるかを確認、中窪さんがクレジットカード情報を入力。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とするのはどうでしょう？\n\n■無料枠の検知について\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "無料枠を超える可能性のあるものは、事前にボードメンバーに承諾を得る必要がある。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "基本的に無料枠（または上限金額）を検知、課金を停止する機能を使う。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "課金を停止できる機能がない場合は、検知の連絡がPOと『"
+                  },
+                  {
+                    "type": "link",
+                    "url": "mailto:admin@dd2030.org",
+                    "text": "admin@dd2030.org"
+                  },
+                  {
+                    "type": "text",
+                    "text": "』と中窪さん『"
+                  },
+                  {
+                    "type": "link",
+                    "url": "mailto:c4j_admin@dd2030.org",
+                    "text": "c4j_admin@dd2030.org"
+                  },
+                  {
+                    "type": "text",
+                    "text": "』に届くよう設定、気付いた人が止め、。『#2_契約作業』にて報告する。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "検知する機能が用意できない場合は、基本的に契約を許可しない。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n■今回の場合\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno Deploy"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Supabase Cloud"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "に関しては、プランをアップグレードしなければFreeプランの上限で自動的に停止するので、許可は不要。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Deno Deploy"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はすでに公式website用に許可がおりており、Freeプランで契約済み\n→許可無しで使用して良い。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Supabase Cloud"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "契約は無いが、Freeプランを使うのに決済情報は不要。\n→契約したことの報告のみでOK。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "以下の形でどうでしょうか？\n\n■無料サービスの登録について\n• コミュニティの承認を得たうえで、slackの専用チャンネル『#2_契約作業』にて中窪さんに依頼\n    ◦ その以来にコミュニティメンバー（特に、そのプロダクトの開発メンバー）がスタンプでOK:ok:を出してるかを確認、中窪さんがクレジットカード情報を入力。\nとするのはどうでしょう？\n\n■無料枠の検知について\n• 無料枠を超える可能性のあるものは、事前にボードメンバーに承諾を得る必要がある。\n• 基本的に無料枠（または上限金額）を検知、課金を停止する機能を使う。\n    ◦ 課金を停止できる機能がない場合は、検知の連絡がPOと『<mailto:admin@dd2030.org|admin@dd2030.org>』と中窪さん『<mailto:c4j_admin@dd2030.org|c4j_admin@dd2030.org>』に届くよう設定、気付いた人が止め、。『#2_契約作業』にて報告する。\n    ◦ 検知する機能が用意できない場合は、基本的に契約を許可しない。\n■今回の場合\n• Deno Deploy\n• Supabase Cloud\nに関しては、プランをアップグレードしなければFreeプランの上限で自動的に停止するので、許可は不要。\n\n• Deno Deploy\nはすでに公式website用に許可がおりており、Freeプランで契約済み\n→許可無しで使用して良い。\n\n• Supabase Cloud\n契約は無いが、Freeプランを使うのに決済情報は不要。\n→契約したことの報告のみでOK。"
+  },
+  {
+    "user": "U08N3V4NQRE",
+    "type": "message",
+    "ts": "1765904608.372849",
+    "client_msg_id": "E4BEE51A-3C77-4BA3-ACCB-FAA9ABDEF1BB",
+    "text": "結局今回は許可どりはいらないという事であってますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t8+Yq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "結局今回は許可どりはいらないという事であってますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "ルー大柴（Kojin Oshiba）",
+    "text_readable": "結局今回は許可どりはいらないという事であってますか？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1765941311.621449",
+    "client_msg_id": "b1f8c796-15eb-4db4-b8ca-f1770c0269fb",
+    "text": "&gt; <https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949|ここ>で示されているように、ボードの役割は　～中略～　となっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。\n関さんのこちらの考えで問題なければ、今回は特に何も許可はいらないということになります。\nこの方針で進めさせていただきます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1765450751.990789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "drYms",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949",
+                "text": "ここ"
+              },
+              {
+                "type": "text",
+                "text": "で示されているように、ボードの役割は　～中略～　となっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "関さんのこちらの考えで問題なければ、今回は特に何も許可はいらないということになります。\nこの方針で進めさせていただきます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1765450751.990789",
+    "user_name": "小野翔太",
+    "text_readable": "> <https://dd2030.slack.com/archives/C08FL58LK8V/p1747984617426949|ここ>で示されているように、ボードの役割は　～中略～　となっており、予算がかかららないものであれば、プロジェクトのPOが決めて良いと思います。\n関さんのこちらの考えで問題なければ、今回は特に何も許可はいらないということになります。\nこの方針で進めさせていただきます！"
+  }
+]
