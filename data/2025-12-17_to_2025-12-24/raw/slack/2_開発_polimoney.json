@@ -1,0 +1,1059 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1765634207.569659",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1765634207.569659",
+      "client_msg_id": "5c0a13c9-f384-4be9-9d47-5e40601ffda4",
+      "text": "<@U08NZH1RY4S>\nhubを作ってみてたらDB案が生まれたので、共有。\n<https://github.com/moai-redcap/polimoney_hub/blob/main/docs/DATABASE.md>\n問題なければ\npolimoney-sql\nに作ってしまおうかと思ってます。\nAPIやダミーデータはまだ完璧では無いですが、city_code的なものは突っ込みます。\n（AIすごくてすぐできちゃう）",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1765634207.569659",
+      "reply_count": 10,
+      "reply_users_count": 2,
+      "latest_reply": "1766034118.191379",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08HWJ80CHG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "atVse",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08NZH1RY4S"
+                },
+                {
+                  "type": "text",
+                  "text": "\nhubを作ってみてたらDB案が生まれたので、共有。\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/moai-redcap/polimoney_hub/blob/main/docs/DATABASE.md"
+                },
+                {
+                  "type": "text",
+                  "text": "\n問題なければ\npolimoney-sql\nに作ってしまおうかと思ってます。\nAPIやダミーデータはまだ完璧では無いですが、city_code的なものは突っ込みます。\n（AIすごくてすぐできちゃう）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1766034118.191379",
+    "client_msg_id": "98d7c035-372b-4aa5-8984-b254bc9a3a62",
+    "text": "【報告】\nDB、結局azureではなくsupabaseに作りました。\n• 初期段階だと料金的によい（無料）\n• 最先端のイケてるいろいろも検討したが、authやストレージもついてくるためsupabaseに。\n• authやストレージ等も無料\nな感じです。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EN6Ub",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【報告】\nDB、結局azureではなくsupabaseに作りました。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "初期段階だと料金的によい（無料）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "最先端のイケてるいろいろも検討したが、authやストレージもついてくるためsupabaseに。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "authやストレージ等も無料"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "な感じです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "froge-yah",
+        "users": [
+          "U099TAD6RKL",
+          "U08JASQKEEM"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "【報告】\nDB、結局azureではなくsupabaseに作りました。\n• 初期段階だと料金的によい（無料）\n• 最先端のイケてるいろいろも検討したが、authやストレージもついてくるためsupabaseに。\n• authやストレージ等も無料\nな感じです。"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1766048368.471739",
+    "client_msg_id": "E81F7240-631F-4261-99DB-D886B42C6F55",
+    "text": "本日定例参加難しいかもなので進捗をドキュメントに残します:sob:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MFu3T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日定例参加難しいかもなので進捗をドキュメントに残します"
+              },
+              {
+                "type": "emoji",
+                "name": "sob",
+                "unicode": "1f62d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Chieko",
+    "text_readable": "本日定例参加難しいかもなので進捗をドキュメントに残します:sob:"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1766048429.311449",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766048429.311449",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1766199242.659319",
+    "reply_users": [
+      "U08J64P3SF4"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "isTDA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1766199242.659319",
+    "client_msg_id": "5aecf4ae-0585-439a-9b63-b7c3093f94f5",
+    "text": "<@U08NZH1RY4S>\nお疲れ様です！登壇レポ用のアンケートフォーム作成しましたのでご報告です＾＾\n\n当日のお写真をお願いしたいのですが、完璧な写真でなくてOKですのでしみずさんの視点から見た『会場の熱気』が伝わるお気楽写真があると嬉しいです！\n（お時間あれば自撮りなどでもOKですので２〜３枚あると嬉しいです。）\nもし写真が撮れなかったときは「使用したスライドのスクショ」をアップいただけましたら嬉しいです＾＾\n\n:black_medium_small_square:️アンケートフォーム\n<https://forms.gle/HYiyU5hYAZWV1RBm7>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766048429.311449",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UC7Pf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\nお疲れ様です！登壇レポ用のアンケートフォーム作成しましたのでご報告です＾＾\n\n当日のお写真をお願いしたいのですが、完璧な写真でなくてOKですのでしみずさんの視点から見た『会場の熱気』が伝わるお気楽写真があると嬉しいです！\n（お時間あれば自撮りなどでもOKですので２〜３枚あると嬉しいです。）\nもし写真が撮れなかったときは「使用したスライドのスクショ」をアップいただけましたら嬉しいです＾＾\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "black_medium_small_square",
+                "unicode": "25fe"
+              },
+              {
+                "type": "text",
+                "text": "️アンケートフォーム\n"
+              },
+              {
+                "type": "link",
+                "url": "https://forms.gle/HYiyU5hYAZWV1RBm7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "scream",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766048429.311449",
+    "user_name": "Chieko",
+    "text_readable": "@shumizu418128\nお疲れ様です！登壇レポ用のアンケートフォーム作成しましたのでご報告です＾＾\n\n当日のお写真をお願いしたいのですが、完璧な写真でなくてOKですのでしみずさんの視点から見た『会場の熱気』が伝わるお気楽写真があると嬉しいです！\n（お時間あれば自撮りなどでもOKですので２〜３枚あると嬉しいです。）\nもし写真が撮れなかったときは「使用したスライドのスクショ」をアップいただけましたら嬉しいです＾＾\n\n:black_medium_small_square:️アンケートフォーム\n<https://forms.gle/HYiyU5hYAZWV1RBm7>"
+  },
+  {
+    "user": "U08R0JY8AQN",
+    "type": "message",
+    "ts": "1766050529.645439",
+    "client_msg_id": "6F8FECF8-ED2A-4D6E-9097-EF493B3B047B",
+    "text": "<@U08HWJ80CHG> \nまだ確定ではないのですが、今日の夜のTBSのnews23でpolimoneyの話をしても良さそうなものでしょうか？そのときにオンエアに乗せてよさそうなURLとかありますでしょうか？\nどういう文脈かというと、下記のような話の流れです。\n<https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml|https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766050529.645439",
+    "reply_count": 4,
+    "reply_users_count": 3,
+    "latest_reply": "1766113250.195549",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08R0JY8AQN",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://www.mbs.jp/4chantv/news/files/1217_yt_seijitokane2.jpg",
+        "image_width": 760,
+        "image_height": 427,
+        "image_bytes": 88406,
+        "from_url": "https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml",
+        "service_icon": "https://www.mbs.jp/favicon.ico",
+        "id": 1,
+        "original_url": "https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml",
+        "fallback": "MBSニュース: 【独自取材で判明】全国214の政治団体が収支報告書「２年連続未提出」で事実上解散　「法律を知らなかった」「把握していなかった」政治とカネへの甘い認識　開き直る議員も... | 特集 | MBSニュース",
+        "text": "　今回取材したのは政治資金収支報告書を巡る問題です。政治資金収支報告書とは議員の後援会などの政治団体が１年間、政治資金をどのように使ったのか記載されたもので、毎年、原則年度末に選挙管理委員会などへ提出することが法律で定められています。　収支報告書がなければ、政治資金が不適切な使われ方をしていても分からないため、２年続けて提出しなければ　その政治団体は事実上解散させられます。　ところが、ＭＢＳが独自に調べたところ、昨年度末時点で現職の地方議員の名前が入っている後援会や議員本人が代表などを務める組織、あわせて２１４の政治団体が、おととしと去年の２年連続で収支報告書を提出していないことが分かりました。",
+        "title": "【独自取材で判明】全国214の政治団体が収支報告書「２年連続未提出」で事実上解散　「法律を知らなかった」「把握していなかった」政治とカネへの甘い認識　開き直る議員も... | 特集 | MBSニュース",
+        "title_link": "https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml",
+        "service_name": "MBSニュース"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ScUzK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " \nまだ確定ではないのですが、今日の夜のTBSのnews23でpolimoneyの話をしても良さそうなものでしょうか？そのときにオンエアに乗せてよさそうなURLとかありますでしょうか？\nどういう文脈かというと"
+              },
+              {
+                "type": "text",
+                "text": "、下記のような話の流れです。"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml",
+                "text": "https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "hushed",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HN9UDJUB"
+        ],
+        "count": 2
+      },
+      {
+        "name": "atsui",
+        "users": [
+          "U08JASQKEEM",
+          "U08J60VKDUY",
+          "U08J64P3SF4"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "中室牧子",
+    "text_readable": "@oscar.gaddress \nまだ確定ではないのですが、今日の夜のTBSのnews23でpolimoneyの話をしても良さそうなものでしょうか？そのときにオンエアに乗せてよさそうなURLとかありますでしょうか？\nどういう文脈かというと、下記のような話の流れです。\n<https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml|https://www.mbs.jp/news/feature/scoop/article/2025/12/109271.shtml>"
+  },
+  {
+    "text": "<@U08R0JY8AQN>\n！\nこのサイトにあるものはすべて公開されているものです！\n<ttps://polimoney.dd2030.org/>\n\nまた、メディア向けではないかもしれませんが、Githubのリンクも載せておきます。\n<https://github.com/digitaldemocracy2030/polimoney>\n\nあとは、開発中なのでスクショですが、\n会計ソフト『Polimoney Ledger』も作っております。\n• 単式ではなく複式\n    ◦ より厳しく詳しくお金を管理できる\n• Polimoneyに同期され、即時公開可能。\n• 政治資金収支報告書だけでなく、選挙運動費用収支報告書にも対応\n• 将来的には収支報告書の基準より細かく入力・公開できる様に考えている。\nその他「こんなものが欲しい！」などあれば遠慮なくどうぞ！",
+    "files": [
+      {
+        "id": "F0A3X75B3HD",
+        "created": 1766051737,
+        "timestamp": 1766051737,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 117845,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A3X75B3HD/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A3X75B3HD/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 203,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 270,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 405,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 450,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 540,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A3X75B3HD-a5d0eecf5b/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 576,
+        "original_w": 1920,
+        "original_h": 1080,
+        "thumb_tiny": "AwAbADC/ukydoVgPUkf0p4z3I6+lLTSwDYJ/SgB1FJke/wCRoBz/APqoAWikooAWm5wxyOPUd6dRQAhAPUA0tFFACUUUUAf/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A3X75B3HD/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A3X75B3HD-ce5b8a5d9d",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "keTfr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08R0JY8AQN"
+              },
+              {
+                "type": "text",
+                "text": "\n！\nこのサイトにあるものはすべて公開されているものです！\n"
+              },
+              {
+                "type": "link",
+                "url": "ttps://polimoney.dd2030.org/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nまた、メディア向けではないかもしれませんが、Githubのリンクも載せておきます。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney"
+              },
+              {
+                "type": "text",
+                "text": "\n\nあとは、開発中なのでスクショですが、\n会計ソフト『Polimoney Ledger』も作っております。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "単式ではなく複式"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "より厳しく詳しくお金を管理できる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Polimoneyに同期され、即時公開可能。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "政治資金収支報告書だけでなく、選挙運動費用収支報告書にも対応"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "将来的には収支報告書の基準より細かく入力・公開できる様に考えている。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nその他「こんなものが欲しい！」などあれば遠慮なくどうぞ！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766051822.590939",
+    "client_msg_id": "d072d83f-d2d2-44d7-a34a-d958a7838fa9",
+    "thread_ts": "1766050529.645439",
+    "parent_user_id": "U08R0JY8AQN",
+    "parent_ts": "1766050529.645439",
+    "user_name": "小野翔太",
+    "text_readable": "@makikon\n！\nこのサイトにあるものはすべて公開されているものです！\n<ttps://polimoney.dd2030.org/>\n\nまた、メディア向けではないかもしれませんが、Githubのリンクも載せておきます。\n<https://github.com/digitaldemocracy2030/polimoney>\n\nあとは、開発中なのでスクショですが、\n会計ソフト『Polimoney Ledger』も作っております。\n• 単式ではなく複式\n    ◦ より厳しく詳しくお金を管理できる\n• Polimoneyに同期され、即時公開可能。\n• 政治資金収支報告書だけでなく、選挙運動費用収支報告書にも対応\n• 将来的には収支報告書の基準より細かく入力・公開できる様に考えている。\nその他「こんなものが欲しい！」などあれば遠慮なくどうぞ！"
+  },
+  {
+    "user": "U08R0JY8AQN",
+    "type": "message",
+    "ts": "1766051848.676269",
+    "client_msg_id": "E91744EB-121D-4714-B2B4-BDDC8422CFBA",
+    "text": "ありがとうございます:blush:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766050529.645439",
+    "parent_user_id": "U08R0JY8AQN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UvojR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます"
+              },
+              {
+                "type": "emoji",
+                "name": "blush",
+                "unicode": "1f60a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766050529.645439",
+    "user_name": "中室牧子",
+    "text_readable": "ありがとうございます:blush:"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766091661.508759",
+    "client_msg_id": "7f2db062-6741-4921-b4bb-9c7934fddb79",
+    "text": "記事が見えなくなってしまいましたね\n同名のタイトルの別のメディアの記事も合わせて\n（なんでだろう）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766050529.645439",
+    "parent_user_id": "U08R0JY8AQN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j8YeU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "記事が見えなくなってしまいましたね\n同名のタイトルの別のメディアの記事も合わせて\n（なんでだろう）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "thinking_face",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766050529.645439",
+    "user_name": "Shingo OHKI",
+    "text_readable": "記事が見えなくなってしまいましたね\n同名のタイトルの別のメディアの記事も合わせて\n（なんでだろう）"
+  },
+  {
+    "user": "U08R0JY8AQN",
+    "type": "message",
+    "ts": "1766113250.195549",
+    "client_msg_id": "B58D584E-9871-4C68-9562-7B4BFE382025",
+    "text": "本当ですね。なんでやろ？一応昨日は非常に短い股間ではありますが、ご紹介はできました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766050529.645439",
+    "parent_user_id": "U08R0JY8AQN",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0HlRE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本当ですね。なんでやろ？一応昨日は非常に短い股間ではありますが、ご紹介はできました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1766050529.645439",
+    "user_name": "中室牧子",
+    "text_readable": "本当ですね。なんでやろ？一応昨日は非常に短い股間ではありますが、ご紹介はできました。"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1766051407.134379",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xy0J2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766134196.179509",
+    "client_msg_id": "e394d867-09ad-4399-9814-6a1567581db6",
+    "text": "まだ生きてますね\n<https://news.livedoor.com/article/detail/30220495/>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://image.news.livedoor.com/newsimage/stf/2/c/2cd04_1834_d98e20f0_1918065b.jpg",
+        "image_width": 760,
+        "image_height": 427,
+        "image_bytes": 88406,
+        "from_url": "https://news.livedoor.com/article/detail/30220495/",
+        "service_icon": "https://news.livedoor.com/img/favicon.ico?20230601",
+        "id": 1,
+        "original_url": "https://news.livedoor.com/article/detail/30220495/",
+        "fallback": "ライブドアニュース: 【独自取材で判明】全国214の政治団体が収支報告書「２年連続未提出」で事実上解散　「法律を知らなかった」「把握していなかった」政治とカネへの甘い認識　開き直る議員も... - ライブドアニュース",
+        "text": "今回取材したのは政治資金収支報告書を巡る問題です。政治資金収支報告書とは議員の後援会などの政治団体が１年間、政治資金をどのように使ったのか記載されたもので、毎年、原則年度末に選挙管理委員会などへ提出",
+        "title": "【独自取材で判明】全国214の政治団体が収支報告書「２年連続未提出」で事実上解散　「法律を知らなかった」「把握していなかった」政治とカネへの甘い認識　開き直る議員も... - ライブドアニュース",
+        "title_link": "https://news.livedoor.com/article/detail/30220495/",
+        "service_name": "ライブドアニュース"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oB6ww",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだ生きてますね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://news.livedoor.com/article/detail/30220495/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      },
+      {
+        "name": "face_vomiting",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "まだ生きてますね\n<https://news.livedoor.com/article/detail/30220495/>"
+  },
+  {
+    "text": "<@U08HWJ80CHG>\nページできました！\nプロフィール表示は現在ある情報だと Figma と同じようなデザインはできなかったのでとりあえず羅列するただけにしています",
+    "files": [
+      {
+        "id": "F0A4UEZL9NJ",
+        "created": 1766316121,
+        "timestamp": 1766316121,
+        "name": "nakaumra.png",
+        "title": "nakaumra.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 652282,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4UEZL9NJ/nakaumra.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4UEZL9NJ/download/nakaumra.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_360.png",
+        "thumb_360_w": 20,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_480.png",
+        "thumb_480_w": 27,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_720.png",
+        "thumb_720_w": 41,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_800.png",
+        "thumb_800_w": 46,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_960.png",
+        "thumb_960_w": 55,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4UEZL9NJ-961d497bac/nakaumra_1024.png",
+        "thumb_1024_w": 58,
+        "thumb_1024_h": 1024,
+        "original_w": 373,
+        "original_h": 6554,
+        "thumb_tiny": "AwAwAAO9uXu8f4j/AOvRuX/npF+X/wBenbG/56P+Q/wo2N/z0f8AIf4VQWH0U3L/AN1f++v/AK1JmT+6v/fX/wBakAuJP7yj8P8A69GJP7y/98//AF6UHIyKOfSgLn//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A4UEZL9NJ/nakaumra.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A4UEZL9NJ-6ffd856333",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0A4T3ECUJH",
+        "created": 1766316125,
+        "timestamp": 1766316125,
+        "name": "iwanaga.png",
+        "title": "iwanaga.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 812685,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4T3ECUJH/iwanaga.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4T3ECUJH/download/iwanaga.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_360.png",
+        "thumb_360_w": 18,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_480.png",
+        "thumb_480_w": 24,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_720.png",
+        "thumb_720_w": 36,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_800.png",
+        "thumb_800_w": 40,
+        "thumb_800_h": 800,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_960.png",
+        "thumb_960_w": 48,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4T3ECUJH-288463bb65/iwanaga_1024.png",
+        "thumb_1024_w": 51,
+        "thumb_1024_h": 1024,
+        "original_w": 373,
+        "original_h": 7441,
+        "thumb_tiny": "AwAwAAO8DgY/9pmjd7f+QzQbeJjllJPqSaT7ND/dP5mquh6Ewz3opglX0f8A74NHmr6P/wB8H/ClZiFLn+4x/L/Gk3t/zzb9P8ad+FL+FAH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A4T3ECUJH/iwanaga.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A4T3ECUJH-b0b9a62149",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lzYLX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nページできました！\nプロフィール表示は現在ある情報だと Figma と同じようなデザインはできなかったのでとりあえず羅列するただけにしています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766316192.776469",
+    "client_msg_id": "990ba4ec-c43b-443c-81ae-427ba01f8776",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U08J64P3SF4",
+          "U08KXSKKWEB",
+          "U09725PGV9P"
+        ],
+        "count": 5
+      },
+      {
+        "name": "raised_hands::skin-tone-2",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@oscar.gaddress\nページできました！\nプロフィール表示は現在ある情報だと Figma と同じようなデザインはできなかったのでとりあえず羅列するただけにしています"
+  }
+]

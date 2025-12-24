@@ -1,0 +1,1317 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1765965609.020969",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ufRxL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765966090.600429",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1765966345.000000"
+    },
+    "client_msg_id": "2d1eaf14-7dcc-4e28-837c-27920a4a8094",
+    "text": "広聴AIの今後の方向性は、12/13 の mtg によりこんな感じで合意しました。\n> • 広聴AIの方向性について 第2回 12/13 9:00 - 10:00\n>     ◦ 合意したこと\n>         ▪︎ 現段階では大規模な改修はせず、ブロードリスニング本出版段階（6月頃）の main ブランチの状態で version tag を打って安定版（おそらく v4.0）としてリリースする\nおそらく今後開発定例で議論する内容は少なくなりそうかなと思ったので、今日含めて今後は一旦定例は開催せず（必要があれば臨時で開催）でもよいのかも？と思いましたがどうでしょうか？\n• <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0|広聴AI開発定例> (今週分の共有は追加済み)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7saA6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIの今後の方向性は、12/13 の mtg によりこんな感じで合意しました。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AIの方向性について 第2回 12/13 9:00 - 10:00"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "合意したこと"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現段階では大規模な改修はせず、ブロードリスニング本出版段階（6月頃）の main ブランチの状態で version tag を打って安定版（おそらく v4.0）としてリリースする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おそらく今後開発定例で議論する内容は少なくなりそうかなと思ったので、今日含めて今後は一旦定例は開催せず（必要があれば臨時で開催）でもよいのかも？と思いましたがどうでしょうか？\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0",
+                    "text": "広聴AI開発定例"
+                  },
+                  {
+                    "type": "text",
+                    "text": " (今週分の共有は追加済み)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "広聴AIの今後の方向性は、12/13 の mtg によりこんな感じで合意しました。\n> • 広聴AIの方向性について 第2回 12/13 9:00 - 10:00\n>     ◦ 合意したこと\n>         ▪︎ 現段階では大規模な改修はせず、ブロードリスニング本出版段階（6月頃）の main ブランチの状態で version tag を打って安定版（おそらく v4.0）としてリリースする\nおそらく今後開発定例で議論する内容は少なくなりそうかなと思ったので、今日含めて今後は一旦定例は開催せず（必要があれば臨時で開催）でもよいのかも？と思いましたがどうでしょうか？\n• <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M/edit?tab=t.0|広聴AI開発定例> (今週分の共有は追加済み)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1765967653.338899",
+    "client_msg_id": "798A0C2A-B88A-4CCE-BCA5-95B2D65B2CBB",
+    "text": "<@U08J6JR5SNQ> さんが書籍企画の進行についてここで同期的に進捗共有をやりたいか、非同期Slackがいいかによるかなという気持ち",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zOuD3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " さんが書籍企画の進行についてここで同期的に進捗共有をやりたいか、非同期Slackがいいかによるかなという気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama さんが書籍企画の進行についてここで同期的に進捗共有をやりたいか、非同期Slackがいいかによるかなという気持ち"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765968175.792199",
+    "client_msg_id": "c0c26e89-a7a6-46ec-afcd-569f7ddc1c1f",
+    "text": "今の日程は比較的\n&gt; ところてん（客先につき発言できません）\nとのことなので、書籍の同期な進捗共有が必要な場合は、ご都合の良い日時に変更になるのかなと思いました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "odOmH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今の日程は比較的\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ところてん（客先につき発言できません）"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とのことなので、書籍の同期な進捗共有が必要な場合は、ご都合の良い日時に変更になるのかなと思いました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "今の日程は比較的\n> ところてん（客先につき発言できません）\nとのことなので、書籍の同期な進捗共有が必要な場合は、ご都合の良い日時に変更になるのかなと思いました"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1765968251.445649",
+    "client_msg_id": "3b75e238-fd4a-47a2-8f87-c21fa10d35fa",
+    "text": "進捗が出てない事による罪悪感駆動のためには定例はやったほうがいいですが、やるなら曜日変更してほしいすねー",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bvEpm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "進捗が出てない事による罪悪感駆動のためには定例はやったほうがいいですが、やるなら曜日変更してほしいすねー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "進捗が出てない事による罪悪感駆動のためには定例はやったほうがいいですが、やるなら曜日変更してほしいすねー"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1765968623.442409",
+    "bot_id": "B01",
+    "text": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TPR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : !here "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、広聴AI開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : !here :mega: 本日20時より、広聴AI開発会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765969128.524479",
+    "client_msg_id": "78bafced-68f3-474b-a4af-dff624c4fe9b",
+    "text": "開発定例としては一旦ストップすることには概ね合意が取れていそうなので、\n• 名前を「ブロードリスニング本進捗定例」などに変える\n• tokoroten さんをオーナーに変える\n• リマインダーを調整する\nみたいなことはやってもらったほうが良さそう\n≒僕は開発定例の取り回しから解放されたい（笑）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VtOjD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発定例としては一旦ストップすることには概ね合意が取れていそうなので、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "名前を「ブロードリスニング本進捗定例」などに変える"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "tokoroten さんをオーナーに変える"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "リマインダーを調整する"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "みたいなことはやってもらったほうが良さそう\n≒僕は開発定例の取り回しから解放されたい（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "開発定例としては一旦ストップすることには概ね合意が取れていそうなので、\n• 名前を「ブロードリスニング本進捗定例」などに変える\n• tokoroten さんをオーナーに変える\n• リマインダーを調整する\nみたいなことはやってもらったほうが良さそう\n≒僕は開発定例の取り回しから解放されたい（笑）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1765969463.543499",
+    "client_msg_id": "7356b49a-e686-43d6-8710-b955061e4507",
+    "text": "<@U08H3V9KMFH> 今日は参加されない感じですか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "armI3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " 今日は参加されない感じですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego 今日は参加されない感じですか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765969532.346659",
+    "client_msg_id": "84592f3d-2439-427a-8141-6d6ff298b1a1",
+    "text": "お、やってます？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "607kp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お、やってます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "お、やってます？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1765969534.217099",
+    "client_msg_id": "cba7fb0c-cc65-412a-ac6f-e8abc8b0dbd1",
+    "text": "します",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kf7aY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "します"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1765988821.782369",
+    "client_msg_id": "7a64375a-f03e-4c04-8cfc-83f1140edaad",
+    "text": "<@U08HWJ80CHG>\n広聴AIの定例ミーティングは月曜の20時に移動します。\n開発ミーティングではなくて、執筆ミーティングになります。\nslackのリマインダーを修正してもらえると嬉しいです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p3Q8I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n広聴AIの定例ミーティングは月曜の20時に移動します。\n開発ミーティングではなくて、執筆ミーティングになります。\nslackのリマインダーを修正してもらえると嬉しいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "done2",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@oscar.gaddress\n広聴AIの定例ミーティングは月曜の20時に移動します。\n開発ミーティングではなくて、執筆ミーティングになります。\nslackのリマインダーを修正してもらえると嬉しいです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766106209.589679",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1766106229.000000"
+    },
+    "client_msg_id": "5ba5dafb-b7f0-4d11-8de4-94e09bb0fbed",
+    "text": "緩やかに議論していきたいこと: 執筆がひと段落ついたら執筆定例は停止し、たぶん開発定例が再開されはしないので定例なし進行に変わると思われる。どういう形で進めるのが良いか。いどばたはすでに定例なし進行に変わっているようだ。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "reply_count": 14,
+    "reply_users_count": 3,
+    "latest_reply": "1766234738.446819",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lbZyv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "緩やかに議論していきたいこと: 執筆がひと段落ついたら執筆定例は停止し、たぶん開発定例が再開されはしないので定例なし進行に変わると思われる。どういう形で進めるのが良いか。いどばたはすでに定例なし進行に変わっているようだ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "緩やかに議論していきたいこと: 執筆がひと段落ついたら執筆定例は停止し、たぶん開発定例が再開されはしないので定例なし進行に変わると思われる。どういう形で進めるのが良いか。いどばたはすでに定例なし進行に変わっているようだ。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766114878.707129",
+    "client_msg_id": "141e00b1-615e-47cb-b3c4-613f7d78f7b2",
+    "text": "何か問題意識があって投稿されているのかなと思ったのですが、意図はどういうところにありますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4G/K+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何か問題意識があって投稿されているのかなと思ったのですが、意図はどういうところにありますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Shingo OHKI",
+    "text_readable": "何か問題意識があって投稿されているのかなと思ったのですが、意図はどういうところにありますか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766117614.454209",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1766117631.000000"
+    },
+    "client_msg_id": "A721CECB-15F1-4801-8847-62C4BD47165D",
+    "text": "単純に「定例なし進行をどうするのが良いかわからない」ということです\nやり方のわからないものはやらなくなるので、完全消滅の前に次の形を模索しておきたい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WJCV3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "単純に「"
+              },
+              {
+                "type": "text",
+                "text": "定例なし進行を"
+              },
+              {
+                "type": "text",
+                "text": "どうするのが良いかわからない」ということです\nやり方のわからないものはやらなくなるので、完全消滅の前に次の形を模索しておきたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "単純に「定例なし進行をどうするのが良いかわからない」ということです\nやり方のわからないものはやらなくなるので、完全消滅の前に次の形を模索しておきたい"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766123353.513259",
+    "client_msg_id": "67f312d6-2d33-464b-a0e1-17d8ff53e534",
+    "text": "あれ？進行というのは、どういうことをイメージされていますか？\n定例はなくとも、Slack &amp; GitHub Issues でコミュニケーションはこれまで通り続くという想定でした。\nそれもなくなってしまうのではないかという問題意識ですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rp0dm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ？進行というのは、どういうことをイメージされていますか？\n定例はなくとも、Slack & GitHub Issues でコミュニケーションはこれまで通り続くという想定でした。\nそれもなくなってしまうのではないかという問題意識ですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あれ？進行というのは、どういうことをイメージされていますか？\n定例はなくとも、Slack & GitHub Issues でコミュニケーションはこれまで通り続くという想定でした。\nそれもなくなってしまうのではないかという問題意識ですか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766123435.484929",
+    "client_msg_id": "92186231-baad-4a32-b249-18157b0cc8f1",
+    "text": "（1週間に1回とは言わないまでも、定例はやった方がいいです？）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b7HqD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（1週間に1回とは言わないまでも、定例はやった方がいいです？）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Shingo OHKI",
+    "text_readable": "（1週間に1回とは言わないまでも、定例はやった方がいいです？）"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766126018.703729",
+    "client_msg_id": "4dbec580-d149-4503-b36c-a59527e9e93c",
+    "text": "毎週月曜に、先週の成果と今週の予定をテキストで投稿しましょう、とか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NHCYI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "毎週月曜に、先週の成果と今週の予定をテキストで投稿しましょう、とか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "毎週月曜に、先週の成果と今週の予定をテキストで投稿しましょう、とか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766126128.400479",
+    "client_msg_id": "2dd1fab3-2ad0-4ca3-8bea-feff119e8043",
+    "text": "1週間以上音沙汰がない人には slackbot から\n&gt;  <@U08G2A216TW> さん、進捗どうですか\nとメンションを飛ばすとか？w",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gla0P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1週間以上音沙汰がない人には slackbot から\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " さん、進捗どうですか"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とメンションを飛ばすとか？w"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "1週間以上音沙汰がない人には slackbot から\n>  @nishio.hirokazu さん、進捗どうですか\nとメンションを飛ばすとか？w"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766126192.675139",
+    "client_msg_id": "60D1422B-D563-434A-99B7-82B501AEDE3D",
+    "text": "Botに追っかけられるのヤダー:smile:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xvsUM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Botに追っかけられるのヤダー"
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "robot_face",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Shingo OHKI",
+    "text_readable": "Botに追っかけられるのヤダー:smile:"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766127926.810699",
+    "client_msg_id": "01AF6EFC-096A-4C42-9CEC-10C81BF61458",
+    "text": "いや、既にいる人のコミュニケーションはSlackでいいんですけど、それだけになると新しい人が「今どんな感じか」を知る手段がなくなるんじゃないかと思っていて、同期的に集まってミーティングをしないとしても「いま何が起きてるか」のドキュメントは最新に保つ必要があるのではと思ってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "71Bv5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや、既にいる人のコミュニケーションはSlackでいいんですけど、それだけになると新しい人が「今どんな感じか」を知る手段がなくなるんじゃないかと思っていて、同期的に集まってミーティングをしないとしても「いま何が起きてるか」のドキュメントは最新に保つ必要があるのではと思ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いや、既にいる人のコミュニケーションはSlackでいいんですけど、それだけになると新しい人が「今どんな感じか」を知る手段がなくなるんじゃないかと思っていて、同期的に集まってミーティングをしないとしても「いま何が起きてるか」のドキュメントは最新に保つ必要があるのではと思ってます"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766128200.260399",
+    "client_msg_id": "1a7f6886-4661-4a07-820a-fb64b3e0fe16",
+    "text": "理想を言うとチャンネルの canvas を slack bot が勝手に更新して常に最新化してくれるといいのかな\n\n&gt; 独立した canvas の作成は有料機能です。\n「独立した canvas」の意味が判然としないが、各チャンネルに1つずつの canvas は無料で使い続けられる気がする",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "byCTD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "理想を言うとチャンネルの canvas を slack bot が勝手に更新して常に最新化してくれるといいのかな\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "独立した canvas の作成は有料機能です。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「独立した canvas」の意味が判然としないが、各チャンネルに1つずつの canvas は無料で使い続けられる気がする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "理想を言うとチャンネルの canvas を slack bot が勝手に更新して常に最新化してくれるといいのかな\n\n> 独立した canvas の作成は有料機能です。\n「独立した canvas」の意味が判然としないが、各チャンネルに1つずつの canvas は無料で使い続けられる気がする"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766128256.130749",
+    "client_msg_id": "eacd7a8e-b647-431d-9cbb-7b8db3dd0bcd",
+    "text": "新しい人はとりあえず定例に参加したいものなのですかね？私は逆にそれがわからない (自分が異常値だという自覚はある)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SmEVs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "新しい人はとりあえず定例に参加したいものなのですかね？私は逆にそれがわからない (自分が異常値だという自覚はある)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "新しい人はとりあえず定例に参加したいものなのですかね？私は逆にそれがわからない (自分が異常値だという自覚はある)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766131651.366439",
+    "client_msg_id": "7CFA46F2-8D32-42B6-BFAA-F710B2A2E36E",
+    "text": "ほとんどの新しい人は定例に参加するの怖くてしてないと思うよ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6SCuE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ほとんどの新しい人は定例に参加するの怖くてしてないと思うよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ほとんどの新しい人は定例に参加するの怖くてしてないと思うよ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766131677.565569",
+    "client_msg_id": "29DB08BB-B858-4C82-8D36-48E4A6CB88E9",
+    "text": "チャットのログを元にAIが「いまのまとめ」を作ればいいのか、なるほど",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "otgW+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チャットのログを元にAIが「いまのまとめ」を作ればいいのか、なるほど"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "チャットのログを元にAIが「いまのまとめ」を作ればいいのか、なるほど"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766131725.513099",
+    "client_msg_id": "AEDB9087-B4FB-489D-BEB9-1A2A80A73034",
+    "text": "いまのhistoryは毎週個別に作ってるけど、毎週前回のを踏まえて生成される「1ページまとめ」があればいいんだな",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ylTcZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いまのhistoryは毎週個別に作ってるけど、毎週前回のを踏まえて生成される「1ページまとめ」があればいいんだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いまのhistoryは毎週個別に作ってるけど、毎週前回のを踏まえて生成される「1ページまとめ」があればいいんだな"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766234738.446819",
+    "client_msg_id": "6f3eee82-88e4-49a3-a058-bff74177ac9e",
+    "text": "あー、なるほど、理解できました。\n•  現在の週ごとの要約（1週間のスナップショット） \nに加えて、\n• その1週間の動きが積み重なって更新される、 ドラマ「24」の “Previously on …” みたいな 「今回までの広聴AI」というようなまとめがあるとよい\nということですね。\n\nすごくよさそう！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766106209.589679",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iNZK9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、なるほど、理解できました。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " 現在の週ごとの要約（1週間のスナップショット） "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "に加えて、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その1週間の動きが積み重なって更新される、 ドラマ「24」の “Previously on …” みたいな 「今回までの広聴AI」というようなまとめがあるとよい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ということですね。\n\nすごくよさそう！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766106209.589679",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あー、なるほど、理解できました。\n•  現在の週ごとの要約（1週間のスナップショット） \nに加えて、\n• その1週間の動きが積み重なって更新される、 ドラマ「24」の “Previously on …” みたいな 「今回までの広聴AI」というようなまとめがあるとよい\nということですね。\n\nすごくよさそう！"
+  },
+  {
+    "user": "U08RUJSRQK0",
+    "type": "message",
+    "ts": "1766404788.471289",
+    "client_msg_id": "4259cc53-f214-4c8d-9a88-4520607a44a8",
+    "text": "すいません。振られると思ってなくてあわててしまい話せませんでした。ブロードリスニングに興味があって、お話の方いつも楽しく拝聴させていただいてます。開発の話は敷居が高かったように感じてますが、執筆の話は、裏話っぽくて面白いですね。次も、またよろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y0pLq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すいません。振られると思ってなくてあわててしまい話せませんでした。ブロードリスニングに興味があって、お話の方いつも楽しく拝聴させていただいてます。開発の話は敷居が高かったように感じてますが、執筆の話は、裏話っぽくて面白いですね。次も、またよろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "志賀貞昭",
+    "text_readable": "すいません。振られると思ってなくてあわててしまい話せませんでした。ブロードリスニングに興味があって、お話の方いつも楽しく拝聴させていただいてます。開発の話は敷居が高かったように感じてますが、執筆の話は、裏話っぽくて面白いですね。次も、またよろしくお願いします。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1766404862.140689",
+    "client_msg_id": "526bcf50-0325-4404-b03c-4cbf99cb1453",
+    "text": "<@U08RUJSRQK0> 急に振ってしまってすいません。　レビューや校正でも人手が要るので、参加してもらえると大変助かります。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u+3Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08RUJSRQK0"
+              },
+              {
+                "type": "text",
+                "text": " 急に振ってしまってすいません。　レビューや校正でも人手が要るので、参加してもらえると大変助かります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@1618212207 急に振ってしまってすいません。　レビューや校正でも人手が要るので、参加してもらえると大変助かります。"
+  },
+  {
+    "user": "U08RUJSRQK0",
+    "type": "message",
+    "ts": "1766404976.451099",
+    "client_msg_id": "67831c38-322d-42c9-a94f-fe840346851c",
+    "text": "お気遣いありがとうございます。レビューの方、お力になれるかどうか分かりませんが、頑張ってみます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TlFRv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お気遣いありがとうございます。レビューの方、お力になれるかどうか分かりませんが、頑張ってみます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "志賀貞昭",
+    "text_readable": "お気遣いありがとうございます。レビューの方、お力になれるかどうか分かりませんが、頑張ってみます。"
+  }
+]

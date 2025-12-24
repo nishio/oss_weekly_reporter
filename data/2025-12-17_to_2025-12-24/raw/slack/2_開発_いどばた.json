@@ -1,0 +1,996 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766055922.614139",
+    "client_msg_id": "c7d0d291-816a-48aa-b7fe-513d12001955",
+    "text": "いどばたって定例会議なくなったんでしたっけ？(久しぶりに参加しようかと思ったら気配がなかった)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766055922.614139",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1766125580.175969",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pQfN2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたって定例会議なくなったんでしたっけ？(久しぶりに参加しようかと思ったら気配がなかった)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いどばたって定例会議なくなったんでしたっけ？(久しぶりに参加しようかと思ったら気配がなかった)"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766125580.175969",
+    "client_msg_id": "27214810-352d-4372-b374-fd52df1a38d6",
+    "text": "canvas から定例のお知らせを削除した",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766055922.614139",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BRiDZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "canvas から定例のお知らせを削除した"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766055922.614139",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "canvas から定例のお知らせを削除した"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766060529.386219",
+    "client_msg_id": "4f026ca5-6b23-4260-a311-10fcdfa15752",
+    "text": "なくなりました…！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Sn8iF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なくなりました…！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "なくなりました…！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766103378.711729",
+    "client_msg_id": "70d9ab97-4d20-4ce4-abb6-d02d7305689a",
+    "text": "私が定例会議嫌いなのでなくしてもらいましたw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cuf+K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私が定例会議嫌いなのでなくしてもらいましたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "私が定例会議嫌いなのでなくしてもらいましたw"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766104878.063209",
+    "client_msg_id": "e5d2f4d1-41cc-49fc-9381-5ea1501c65f1",
+    "text": "今は私が <http://dd2030.org|dd2030.org> の CMS 化が案外むずくてどハマりしており、いどばたに手が回っていない状況ですが、ざっくり現状を整理しておくと\n• <https://github.com/digitaldemocracy2030/idobata>\n    ◦ いどばたビジョンといどばた政策のディレクトリが混沌としている\n    ◦ dd2030 管理下で公開しているサーバインスタンスは存在しない\n    ◦ チームみらいサブドメイン下にビジョン、政策がそれぞれ1つずつ存在している\n        ▪︎ ビジョンはチームみらい側で時々AI勉強会に使われているらしい\n        ▪︎ なんか理由があって最新版ではなく、結構古いコミットを使い続けている\n    ◦ チームみらい以外に実質的な利用者がおらず、 dd2030 側ではフルスクラッチで新しいいどばたシステムを組む方向なので、いっそ idobata リポジトリをチームみらい側へ fork してこっちは idobata-archive とかにしようかな\n    ◦ とはいえ新システムを立ち上げるまでまだ数ヶ月は要するので、その間に「いどばた」に興味を持った人がお試ししたり、プルリク出してアップデートしたりする環境くらいは整備しておいてもいいのではないか\n    ◦ idobata/ ルートディレクトリに vision/, seisaku/ を作ってディレクトリ整理しよう (誰かできる人いたらお願いします\n• いどばた新プロジェクト <#C09T4CVQA07|> \n    ◦ 叩き台となる文書があり、それを熟知したAIと対話ができるシステム\n    ◦ 対話の中で意見、改善案などがあればそれを整形してメモリーする\n        ▪︎ メモリーする意見はAIと共同で整形するが、保存直前のものをユーザーが確認できるようにする\n    ◦ メモリーしてある意見もAIが「知っている」状態にし、対話の中で「あなたの意見はこれと同じですか」のような感じでサジェストし、同じような意見が重複するのを対話段階で防ぐ\n    ◦ いどばた政策が実装していた「文書へのPR作成とリアルタイム更新」はさほど需要なさそうなのでスペックアウトする",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "digitaldemocracy2030/idobata",
+        "title": "digitaldemocracy2030/idobata",
+        "fields": [
+          {
+            "value": "87",
+            "title": "Stars",
+            "short": true
+          },
+          {
+            "value": "TypeScript",
+            "title": "Language",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IDDpq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今は私が "
+              },
+              {
+                "type": "link",
+                "url": "http://dd2030.org",
+                "text": "dd2030.org"
+              },
+              {
+                "type": "text",
+                "text": " の CMS 化が案外むずくてどハマりしており、いどばたに手が回っていない状況ですが、ざっくり現状を整理しておくと\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばたビジョンといどばた政策のディレクトリが混沌としている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "dd2030 管理下で公開しているサーバインスタンスは存在しない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "チームみらいサブドメイン下にビジョン、政策がそれぞれ1つずつ存在している"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ビジョンはチームみらい側で時々AI勉強会に使われているらしい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "なんか理由があって最新版ではなく、結構古いコミットを使い続けている"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "チームみらい以外に実質的な利用者がおらず、 dd2030 側ではフルスクラッチで新しいいどばたシステムを組む方向なので、いっそ idobata リポジトリをチームみらい側へ fork してこっちは idobata-archive とかにしようかな"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "とはいえ新システムを立ち上げるまでまだ数ヶ月は要するので、その間に「いどばた」に興味を持った人がお試ししたり、プルリク出してアップデートしたりする環境くらいは整備しておいてもいいのではないか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "idobata/ ルートディレクトリに vision/, seisaku/ を作ってディレクトリ整理しよう (誰かできる人いたらお願いします"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた新プロジェクト "
+                  },
+                  {
+                    "type": "channel",
+                    "channel_id": "C09T4CVQA07"
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "叩き台となる文書があり、それを熟知したAIと対話ができるシステム"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "対話の中で意見、改善案などがあればそれを整形してメモリーする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "メモリーする意見はAIと共同で整形するが、保存直前のものをユーザーが確認できるようにする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "メモリーしてある意見もAIが「知っている」状態にし、対話の中で「あなたの意見はこれと同じですか」のような感じでサジェストし、同じような意見が重複するのを対話段階で防ぐ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばた政策が実装していた「文書へのPR作成とリアルタイム更新」はさほど需要なさそうなのでスペックアウトする"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HZGSCT53",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "今は私が <http://dd2030.org|dd2030.org> の CMS 化が案外むずくてどハマりしており、いどばたに手が回っていない状況ですが、ざっくり現状を整理しておくと\n• <https://github.com/digitaldemocracy2030/idobata>\n    ◦ いどばたビジョンといどばた政策のディレクトリが混沌としている\n    ◦ dd2030 管理下で公開しているサーバインスタンスは存在しない\n    ◦ チームみらいサブドメイン下にビジョン、政策がそれぞれ1つずつ存在している\n        ▪︎ ビジョンはチームみらい側で時々AI勉強会に使われているらしい\n        ▪︎ なんか理由があって最新版ではなく、結構古いコミットを使い続けている\n    ◦ チームみらい以外に実質的な利用者がおらず、 dd2030 側ではフルスクラッチで新しいいどばたシステムを組む方向なので、いっそ idobata リポジトリをチームみらい側へ fork してこっちは idobata-archive とかにしようかな\n    ◦ とはいえ新システムを立ち上げるまでまだ数ヶ月は要するので、その間に「いどばた」に興味を持った人がお試ししたり、プルリク出してアップデートしたりする環境くらいは整備しておいてもいいのではないか\n    ◦ idobata/ ルートディレクトリに vision/, seisaku/ を作ってディレクトリ整理しよう (誰かできる人いたらお願いします\n• いどばた新プロジェクト <#C09T4CVQA07|> \n    ◦ 叩き台となる文書があり、それを熟知したAIと対話ができるシステム\n    ◦ 対話の中で意見、改善案などがあればそれを整形してメモリーする\n        ▪︎ メモリーする意見はAIと共同で整形するが、保存直前のものをユーザーが確認できるようにする\n    ◦ メモリーしてある意見もAIが「知っている」状態にし、対話の中で「あなたの意見はこれと同じですか」のような感じでサジェストし、同じような意見が重複するのを対話段階で防ぐ\n    ◦ いどばた政策が実装していた「文書へのPR作成とリアルタイム更新」はさほど需要なさそうなのでスペックアウトする"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766115203.320339",
+    "client_msg_id": "afdacaa4-e49d-4264-8fd0-7b57959d22e7",
+    "text": "現時点で導入に興味がある人は、どれを使うといいんでしょう？\n現状の <https://github.com/digitaldemocracy2030/idobata> は、もうこれ以上はメンテされなくなるということになりますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766115203.320339",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1766125416.162319",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "520ov",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現時点で導入に興味がある人は、どれを使うといいんでしょう？\n現状の "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata"
+              },
+              {
+                "type": "text",
+                "text": " は、もうこれ以上はメンテされなくなるということになりますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "現時点で導入に興味がある人は、どれを使うといいんでしょう？\n現状の <https://github.com/digitaldemocracy2030/idobata> は、もうこれ以上はメンテされなくなるということになりますか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766115253.745019",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1766115275.000000"
+    },
+    "client_msg_id": "beb2acee-ba79-4f2d-8999-1d2a401a0807",
+    "text": "そういう人のためのものが idobata-archive なのかな",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766115203.320339",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8Ppqu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういう人のためのものが idobata-archive なのかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766115203.320339",
+    "user_name": "Shingo OHKI",
+    "text_readable": "そういう人のためのものが idobata-archive なのかな"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766125416.162319",
+    "client_msg_id": "abd00c22-16a9-4d61-b15a-09c13204da37",
+    "text": "現時点で興味のある人の受け皿レベルまでは idobata を整備しといた方がいいかなと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766115203.320339",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zPWOF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現時点で興味のある人の受け皿レベルまでは idobata を整備しといた方がいいかなと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766115203.320339",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "現時点で興味のある人の受け皿レベルまでは idobata を整備しといた方がいいかなと。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766126590.802619",
+    "text": "なんか立ち上がったらしい",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "ts": "1766114417.133039",
+        "author_id": "U08HZ8JS0EQ",
+        "channel_id": "C08FL58M3D3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58M3D3",
+            "ts": "1766114417.133039",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "sgxH+",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "いどばたビジョン・政策・管理者画面のデプロイできました〜！\n嬉しくなったので雑談に投稿..."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F0A4NNLTU3E",
+            "created": 1766114365,
+            "timestamp": 1766114365,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08HZ8JS0EQ",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 164781,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4NNLTU3E/image.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A4NNLTU3E/download/image.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 207,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 277,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_720.png",
+            "thumb_720_w": 720,
+            "thumb_720_h": 415,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 461,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_960.png",
+            "thumb_960_w": 960,
+            "thumb_960_h": 553,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A4NNLTU3E-17994a9a0c/image_1024.png",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 590,
+            "original_w": 1668,
+            "original_h": 961,
+            "thumb_tiny": "AwAcADDSJxknoB2FKDkAjPPqMU0tg4xn34pdwoAWijI9RRkeooAKKMj1FGR6igCPaadzgYyKWlxnHtTuIT86B+JpjsVOB/s/qaRTkE88MB1PfFIZIenSm4NKB/FznHrS0xH/2Q==",
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A4NNLTU3E/image.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A4NNLTU3E-10780b622a",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1766114417133039?thread_ts=1766114417.133039&cid=C08FL58M3D3",
+        "is_share": true,
+        "fallback": "[December 19th, 2025 12:20 PM] workta28: いどばたビジョン・政策・管理者画面のデプロイできました〜！\n嬉しくなったので雑談に投稿...",
+        "text": "いどばたビジョン・政策・管理者画面のデプロイできました〜！\n嬉しくなったので雑談に投稿...",
+        "author_name": "今井 竜也",
+        "author_link": "https://dd2030.slack.com/team/U08HZ8JS0EQ",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-14/8611291152948_a8fccc3bac0c657ce26c_48.png",
+        "author_subname": "今井 竜也",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ubBya",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なんか立ち上がったらしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08HWJ80CHG",
+          "U08KXSKKWEB",
+          "U08JGS0BS57"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "なんか立ち上がったらしい"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766219559.823749",
+    "client_msg_id": "fe67c8bf-14ab-4ae5-9417-3fb9f00bc365",
+    "text": "<@U08HZ8JS0EQ> さんが立ち上げてくださったサーバですが、使ってみたい方 welcome とのことです。\n現在、idobata の最新版を実際に試せるサーバは他にないっぽいのでありがたいことです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XUff3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HZ8JS0EQ"
+              },
+              {
+                "type": "text",
+                "text": " さんが立ち上げてくださったサーバですが、使ってみたい方 welcome とのことです。\n現在、idobata の最新版を実際に試せるサーバは他にないっぽいのでありがたいことです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08G2A216TW",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      },
+      {
+        "name": "iihanashi",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@workta28 さんが立ち上げてくださったサーバですが、使ってみたい方 welcome とのことです。\n現在、idobata の最新版を実際に試せるサーバは他にないっぽいのでありがたいことです。"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1766220037.711289",
+    "client_msg_id": "D26705C5-AC7F-4056-8DF3-5E86862A7FEA",
+    "text": "動かすにあたって、フロントエンドは少しカスタムしてます！\n<https://github.com/101ta28/idobata/tree/deploy-railway-vercel|https://github.com/101ta28/idobata/tree/deploy-railway-vercel>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kvcDu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "動かすにあたって、フロントエンドは少しカスタムしてます！"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/101ta28/idobata/tree/deploy-railway-vercel",
+                "text": "https://github.com/101ta28/idobata/tree/deploy-railway-vercel"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "今井 竜也",
+    "text_readable": "動かすにあたって、フロントエンドは少しカスタムしてます！\n<https://github.com/101ta28/idobata/tree/deploy-railway-vercel|https://github.com/101ta28/idobata/tree/deploy-railway-vercel>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766272860.152879",
+    "client_msg_id": "57e7c51c-ad9a-43d6-8365-0196edd8458f",
+    "text": "むしろそれを <https://github.com/digitaldemocracy2030/idobata> へ入れたいです。\nあと、デプロイされたならお分かりと思いますがディレクトリ構成が「なんで？」という状態なので出来れば整理したいんですよね。。\n権限お渡しするので、整理を手伝ってもらえませんでしょうか。。。 :pray:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766272860.152879",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1766356725.559149",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08HZ8JS0EQ",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "digitaldemocracy2030/idobata",
+        "title": "digitaldemocracy2030/idobata",
+        "fields": [
+          {
+            "value": "87",
+            "title": "Stars",
+            "short": true
+          },
+          {
+            "value": "TypeScript",
+            "title": "Language",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fxb/e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "むしろそれを "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata"
+              },
+              {
+                "type": "text",
+                "text": " へ入れたいです。\nあと、デプロイされたならお分かりと思いますがディレクトリ構成が「なんで？」という状態なので出来れば整理したいんですよね。。\n権限お渡しするので、整理を手伝ってもらえませんでしょうか。。。 "
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "むしろそれを <https://github.com/digitaldemocracy2030/idobata> へ入れたいです。\nあと、デプロイされたならお分かりと思いますがディレクトリ構成が「なんで？」という状態なので出来れば整理したいんですよね。。\n権限お渡しするので、整理を手伝ってもらえませんでしょうか。。。 :pray:"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1766273230.694429",
+    "client_msg_id": "3aec4618-2664-4b22-979f-0e24c894aff6",
+    "text": "あと、忘れないうちにメモですが、いどばた政策は無駄に mcp 経由するために無駄に子プロセス立ち上げたりしているのでこれを入れたい\n<https://github.com/digitaldemocracy2030/idobata/pull/429>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766272860.152879",
+    "parent_user_id": "U08JASQKEEM",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1752827050,
+        "color": "cb2431",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/idobata/pull/429",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#429 Implement direct octokit calls bypassing MCP server",
+        "text": "# Bypass MCP server for direct GitHub API calls\n\n## Summary\n\nThis PR implements a significant architectural change to bypass the MCP (Model Context Protocol) server and call GitHub APIs directly within `IdobataMcpService.processQuery()`. The change eliminates the overhead of MCP communication while maintaining the same AI-driven GitHub operations functionality.\n\n*Key Changes:*\n\n• *Direct GitHub Integration*: Added Octokit dependencies and GitHub App authentication to the backend\n• *Logic Migration*: Moved GitHub operation logic from `policy-edit/mcp/src/` to `policy-edit/backend/src/`\n• *Service Refactoring*: Modified `IdobataMcpService` to execute GitHub tools directly instead of via MCP\n• *Workspace Cleanup*: Removed MCP from npm workspaces to resolve CI failures\n• *Configuration*: Added new GitHub App environment variables for authentication\n\n*Flow Change:*\n\n• *Before*: `callTool` → `mcpClient` → `mcpServer` → `octokit`\n• *After*: `callTool` → `octokit` (direct)\n\n## Review & Testing Checklist for Human\n\n*:red_circle: High Risk - Requires Careful Verification:*\n\n• *Environment Configuration*: Verify all GitHub App environment variables are properly set in all environments (`GITHUB_APP_ID`, `GITHUB_INSTALLATION_ID`, `GITHUB_TARGET_OWNER`, `GITHUB_TARGET_REPO`, `GITHUB_BASE_BRANCH`, `GITHUB_API_BASE_URL`)\n• *GitHub App Private Key*: Confirm the private key file exists at `/app/secrets/github-key.pem` in the container and has correct permissions\n• *End-to-End Testing*: Test the complete chat flow with actual GitHub operations (file creation/updates, PR creation/updates) to ensure the ported logic works correctly\n• *Error Handling*: Verify that GitHub API errors are properly handled and don't crash the chat service\n• *Deployment Impact*: Confirm that removing MCP from workspaces doesn't break the Docker build or deployment process\n\n*Recommended Test Plan:*\n\n1. Test chat requests that trigger `upsert_file_and_commit` operations\n2. Test chat requests that trigger `update_pr` operations\n3. Verify error scenarios (invalid file paths, GitHub API failures)\n4. Check that branch creation and PR management still work as expected\n\n---\n\n### Diagram\n\n%%{ init : { \"theme\" : \"default\" }}%%\ngraph TD\n    ChatRoute[\"policy-edit/backend/src/<br/>routes/chat.ts\"]:::context\n    ProcessUsecase[\"policy-edit/backend/src/<br/>usecases/ProcessChatMessageUsecase.ts\"]:::context\n    IdobataService[\"policy-edit/backend/src/<br/>mcp/idobataMcpService.ts\"]:::major-edit\n    \n    GitHubClient[\"policy-edit/backend/src/<br/>github/client.ts\"]:::major-edit\n    GitHubUtils[\"policy-edit/backend/src/<br/>github/utils.ts\"]:::major-edit\n    StringUtils[\"policy-edit/backend/src/<br/>utils/stringUtils.ts\"]:::major-edit\n    \n    Config[\"policy-edit/backend/src/<br/>config.ts\"]:::minor-edit\n    PackageJson[\"package.json\"]:::minor-edit\n    \n    McpClient[\"policy-edit/backend/src/<br/>mcp/client.ts\"]:::context\n    \n    ChatRoute --> ProcessUsecase\n    ProcessUsecase --> IdobataService\n    IdobataService -.->|\"bypassed\"| McpClient\n    IdobataService --> GitHubClient\n    GitHubClient --> GitHubUtils\n    GitHubUtils --> StringUtils\n    GitHubClient --> Config\n    \n    subgraph Legend\n        L1[\"Major Edit\"]:::major-edit\n        L2[\"Minor Edit\"]:::minor-edit  \n        L3[\"Context/No Edit\"]:::context\n    end\n    \n    classDef major-edit fill:#90EE90\n    classDef minor-edit fill:#87CEEB\n    classDef context fill:#FFFFFF\n\nLoading \n\n### Notes\n\n• *Session*: <https://app.devin.ai/sessions/502f83bde7044f72bc8e7e62284d1aa1|https://app.devin.ai/sessions/502f83bde7044f72bc8e7e62284d1aa1>\n• *Requested by*: kuboon (<mailto:kuboon@trick-with.net|kuboon@trick-with.net>)\n• *MCP Directory*: The `policy-edit/mcp` directory still exists but is no longer functional or included in CI. This was intentional per user requirements.\n• *Authentication*: Uses GitHub App authentication instead of personal access tokens for better security and rate limiting.\n• *Performance*: Should improve response times by eliminating MCP server communication overhead.",
+        "title": "#429 Implement direct octokit calls bypassing MCP server",
+        "title_link": "https://github.com/digitaldemocracy2030/idobata/pull/429",
+        "footer": "<https://github.com/digitaldemocracy2030/idobata|digitaldemocracy2030/idobata>",
+        "fields": [
+          {
+            "value": "3",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uLxVK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、忘れないうちにメモですが、いどばた政策は無駄に mcp 経由するために無駄に子プロセス立ち上げたりしているのでこれを入れたい\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/idobata/pull/429"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766272860.152879",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "あと、忘れないうちにメモですが、いどばた政策は無駄に mcp 経由するために無駄に子プロセス立ち上げたりしているのでこれを入れたい\n<https://github.com/digitaldemocracy2030/idobata/pull/429>"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1766290285.983659",
+    "client_msg_id": "0AEC904B-CB3E-4067-9CE3-DAA84FCD4690",
+    "text": "稼働時間が少ないですが、出来る範囲でお手伝いします！\nちまちまプルリク投げてみますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766272860.152879",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2k8Vj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "稼働時間が少ないですが、出来る範囲でお手伝いします！\nちまちまプルリク投げてみますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766272860.152879",
+    "user_name": "今井 竜也",
+    "text_readable": "稼働時間が少ないですが、出来る範囲でお手伝いします！\nちまちまプルリク投げてみますね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766356725.559149",
+    "client_msg_id": "5fa7bedb-a6be-42e1-9542-5d0db17798e4",
+    "text": "僕はいどばたの開発そのものにはこれまで関わっておらず、\nあくまで、興味を持って横から経緯を見ていたという関わり方からの印象ですが、\n少しコメントしてみたくなりました。\n\nこれまではどちらかというとスピード優先で、とにかく実験的に動くものを早く作って試す、\nという動き方だったように見えています。\n実際、政党での利用などの件など、タイトなスケジュールの中で\n「まず使えるところまで持っていく」ことを優先していた時期もありましたし。\n\nなので、あとから見ると違和感を感じるところもあるのかもしれないですね。\n\nこのタイミングで、そういうところも少しずつ改善していけるといいですね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766272860.152879",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "k2IBn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕はいどばたの開発そのものにはこれまで関わっておらず、\nあくまで、興味を持って横から経緯を見ていたという関わり方からの印象ですが、\n少しコメントしてみたくなりました。\n\nこれまではどちらかというとスピード優先で、とにかく実験的に動くものを早く作って試す、\nという動き方だったように見えています。\n実際、政党での利用などの件など、タイトなスケジュールの中で\n「まず使えるところまで持っていく」ことを優先していた時期もありましたし。\n\nなので、あとから見ると違和感を感じるところもあるのかもしれないですね。\n\nこのタイミングで、そういうところも少しずつ改善していけるといいですね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766272860.152879",
+    "user_name": "Shingo OHKI",
+    "text_readable": "僕はいどばたの開発そのものにはこれまで関わっておらず、\nあくまで、興味を持って横から経緯を見ていたという関わり方からの印象ですが、\n少しコメントしてみたくなりました。\n\nこれまではどちらかというとスピード優先で、とにかく実験的に動くものを早く作って試す、\nという動き方だったように見えています。\n実際、政党での利用などの件など、タイトなスケジュールの中で\n「まず使えるところまで持っていく」ことを優先していた時期もありましたし。\n\nなので、あとから見ると違和感を感じるところもあるのかもしれないですね。\n\nこのタイミングで、そういうところも少しずつ改善していけるといいですね！"
+  }
+]
