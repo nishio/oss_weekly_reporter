@@ -1,0 +1,41 @@
+{
+  "period": {
+    "start": "2025-12-24T12:36:43.736854+09:00",
+    "end": "2025-12-31T12:36:43.736854+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3764830604,
+      "number": 741,
+      "title": "[BUG] main ブランチへのマージ時に実行される Azure への deploy が失敗することがある",
+      "state": "created"
+    },
+    {
+      "id": 3764799318,
+      "number": 740,
+      "title": "レポート一覧取得時にslugフィールドの欠落によるValidationErrorが発生する",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3764777800,
+      "number": 739,
+      "title": "Bump next from 15.4.9 to 15.4.10 in /utils/dummy-server",
+      "state": "merged"
+    },
+    {
+      "id": 3721629383,
+      "number": 738,
+      "title": "Bump next from 15.5.7 to 15.5.9 in /client",
+      "state": "merged"
+    },
+    {
+      "id": 3721508714,
+      "number": 737,
+      "title": "Bump next from 15.2.3 to 15.4.9 in /utils/dummy-server",
+      "state": "merged"
+    }
+  ]
+}

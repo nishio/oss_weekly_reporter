@@ -1,0 +1,4040 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766562568.950919",
+    "client_msg_id": "f574b844-5f84-41bb-bc59-fd49f6a1fab4",
+    "text": "<@U08NZH1RY4S>\nsupabase招待しました～\npolimoney_ledger：\n会計ソフト用DB、Authなど。この情報から個人情報等を削除してpolimoney_hubに渡して保存。\n\npolimoney_hub：\n内外API用。ここに情報を集約する。\nis_testカラムがtrueのもの→DEV用API keyで呼ばれたときに取れる情報\nis_testカラムがfalseのもの→PROD用API keyで呼ばれたときに取れる情報\n\n岩永さんのデータはPROD用API keyのデータとしていれます。API keyはDMします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766562568.950919",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1766636002.197519",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3zi2J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\nsupabase招待しました～\npolimoney_ledger：\n会計ソフト用DB、Authなど。この情報から個人情報等を削除してpolimoney_hubに渡して保存。\n\npolimoney_hub：\n内外API用。ここに情報を集約する。\nis_testカラムがtrueのもの→DEV用API keyで呼ばれたときに取れる情報\nis_testカラムがfalseのもの→PROD用API keyで呼ばれたときに取れる情報\n\n岩永さんのデータはPROD用API keyのデータとしていれます。API keyはDMします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@shumizu418128\nsupabase招待しました～\npolimoney_ledger：\n会計ソフト用DB、Authなど。この情報から個人情報等を削除してpolimoney_hubに渡して保存。\n\npolimoney_hub：\n内外API用。ここに情報を集約する。\nis_testカラムがtrueのもの→DEV用API keyで呼ばれたときに取れる情報\nis_testカラムがfalseのもの→PROD用API keyで呼ばれたときに取れる情報\n\n岩永さんのデータはPROD用API keyのデータとしていれます。API keyはDMします。"
+  },
+  {
+    "text": "DBにいれてAPIでとれました！データが正確かは見れてません。",
+    "files": [
+      {
+        "id": "F0A5SJNTFJM",
+        "created": 1766566337,
+        "timestamp": 1766566337,
+        "name": "iwanaga-d4444444-4444-4444-4444-444444444444.json",
+        "title": "iwanaga-d4444444-4444-4444-4444-444444444444.json",
+        "mimetype": "text/plain",
+        "filetype": "json",
+        "pretty_type": "JSON",
+        "user": "U08HWJ80CHG",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 23090,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5SJNTFJM/iwanaga-d4444444-4444-4444-4444-444444444444.json",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5SJNTFJM/download/iwanaga-d4444444-4444-4444-4444-444444444444.json",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5SJNTFJM/iwanaga-d4444444-4444-4444-4444-444444444444.json",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5SJNTFJM-70d698cb9e",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5SJNTFJM/iwanaga-d4444444-4444-4444-4444-444444444444.json/edit",
+        "preview": "{\r\n  \"meta\": {\r\n    \"api_version\": \"v1\",\r\n    \"politician\": {\r\n      \"id\": \"c3333333-3333-3333-3333-333333333333\",\r",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre>{</pre></div>\n<div><pre>  <span class=\"cm-string cm-property\">&quot;meta&quot;</span>: {</pre></div>\n<div><pre>    <span class=\"cm-string cm-property\">&quot;api_version&quot;</span>: <span class=\"cm-string\">&quot;v1&quot;</span>,</pre></div>\n<div><pre>    <span class=\"cm-string cm-property\">&quot;politician&quot;</span>: {</pre></div>\n<div><pre>      <span class=\"cm-string cm-property\">&quot;id&quot;</span>: <span class=\"cm-string\">&quot;c3333333-3333-3333-3333-333333333333&quot;</span>,</pre></div>\n</div>\n</div>\n",
+        "lines": 751,
+        "lines_more": 746,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08HWJ80CHG",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JOwaA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DBにいれてAPIでとれました！データが正確かは見れてません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766567243.195989",
+    "client_msg_id": "8bda84fd-a3b8-4f1b-b764-758b5dea8621",
+    "thread_ts": "1766562568.950919",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1766562568.950919",
+    "user_name": "小野翔太",
+    "text_readable": "DBにいれてAPIでとれました！データが正確かは見れてません。"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766584532.150239",
+    "edited": {
+      "user": "U099TAD6RKL",
+      "ts": "1766584544.000000"
+    },
+    "client_msg_id": "d8e4d2e8-791a-4551-b6c3-1544f49bb17b",
+    "text": "<@U08HWJ80CHG>\nすみません自分も招待してもらっていいですか？\nメールアドレス招待でしたっけ？下記アドレスを招待してもらえると\n<mailto:tagusa-k@grassfield.online|tagusa-k@grassfield.online>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766562568.950919",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Vo6B0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nすみません自分も招待してもらっていいですか？\nメールアドレス招待でしたっけ？下記アドレスを招待してもらえると\n"
+              },
+              {
+                "type": "link",
+                "url": "mailto:tagusa-k@grassfield.online",
+                "text": "tagusa-k@grassfield.online"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766562568.950919",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@oscar.gaddress\nすみません自分も招待してもらっていいですか？\nメールアドレス招待でしたっけ？下記アドレスを招待してもらえると\n<mailto:tagusa-k@grassfield.online|tagusa-k@grassfield.online>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766636002.197519",
+    "client_msg_id": "c7489aa0-9b5e-4708-bd99-9e6519720c2a",
+    "text": "<@U099TAD6RKL>\n招待しました！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766562568.950919",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "60LAR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": "\n招待しました！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766562568.950919",
+    "user_name": "小野翔太",
+    "text_readable": "<@U099TAD6RKL>\n招待しました！！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766572031.670549",
+    "client_msg_id": "2cd2ad22-ece3-41f9-81ac-e667e0c9946b",
+    "text": "とほほのMarkdown入門\n<https://www.tohoho-web.com/ex/markdown.html>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nb8Fi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とほほのMarkdown入門\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.tohoho-web.com/ex/markdown.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "とほほのMarkdown入門\n<https://www.tohoho-web.com/ex/markdown.html>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766651166.566139",
+    "client_msg_id": "da2df035-f194-4c1f-9dd9-a46e437214c0",
+    "text": "<!here> \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766651166.566139",
+    "reply_count": 4,
+    "reply_users_count": 3,
+    "latest_reply": "1766658252.876739",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U08HWJ80CHG",
+      "U08PD4Y0D9V"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "faMD+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here> \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766651186.716389",
+    "client_msg_id": "4c418394-e450-43cd-857e-b24c385942b2",
+    "text": "無しでお願いします！ｗ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766651166.566139",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FihQv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "無しでお願いします！ｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766651166.566139",
+    "user_name": "haruki shimizu",
+    "text_readable": "無しでお願いします！ｗ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766651202.058379",
+    "client_msg_id": "16539754-c5c9-432b-b643-7c50c09cfc01",
+    "text": "メリークリスマス！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766651166.566139",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "amiq4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メリークリスマス！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766651166.566139",
+    "user_name": "小野翔太",
+    "text_readable": "メリークリスマス！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1766651166.566139",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1766651166.566139",
+      "client_msg_id": "da2df035-f194-4c1f-9dd9-a46e437214c0",
+      "text": "<!here> \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1766651166.566139",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1766658252.876739",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08HWJ80CHG",
+        "U08PD4Y0D9V"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "faMD+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1766652928.250419",
+    "client_msg_id": "76cb2406-7b5a-4a95-ab97-9a2d788b7853",
+    "text": "本日定例なしで！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nb6RZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日定例なしで！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "christmas_tree",
+        "users": [
+          "U08QDPC2JRG",
+          "U09JLDAG8GK",
+          "U08J64P3SF4",
+          "U099TAD6RKL",
+          "U08PD4Y0D9V",
+          "U08HWJ80CHG"
+        ],
+        "count": 6
+      },
+      {
+        "name": "snowflake",
+        "users": [
+          "U08QDPC2JRG",
+          "U09JLDAG8GK",
+          "U08J64P3SF4",
+          "U099TAD6RKL"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1766651166.566139",
+    "user_name": "小野翔太",
+    "text_readable": "本日定例なしで！"
+  },
+  {
+    "user": "U08PD4Y0D9V",
+    "type": "message",
+    "ts": "1766658252.876739",
+    "client_msg_id": "85A273C1-6E3D-4B92-98A2-371CBFFD857E",
+    "text": "<@U08HWJ80CHG> \nメリークリスマスです！\n頂いた収支報告の:gift:は確認して返信しました:saluting_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766651166.566139",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UlMas",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " \nメリークリスマスです！\n頂いた収支報告の"
+              },
+              {
+                "type": "emoji",
+                "name": "gift",
+                "unicode": "1f381"
+              },
+              {
+                "type": "text",
+                "text": "は確認して返信しました"
+              },
+              {
+                "type": "emoji",
+                "name": "saluting_face",
+                "unicode": "1fae1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      },
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "gift",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766651166.566139",
+    "user_name": "中村幸信",
+    "text_readable": "@oscar.gaddress \nメリークリスマスです！\n頂いた収支報告の:gift:は確認して返信しました:saluting_face:"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1766651166.566139",
+    "root": {
+      "user": "U08HWJ80CHG",
+      "type": "message",
+      "ts": "1766651166.566139",
+      "client_msg_id": "da2df035-f194-4c1f-9dd9-a46e437214c0",
+      "text": "<!here> \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1766651166.566139",
+      "reply_count": 4,
+      "reply_users_count": 3,
+      "latest_reply": "1766658252.876739",
+      "reply_users": [
+        "U08NZH1RY4S",
+        "U08HWJ80CHG",
+        "U08PD4Y0D9V"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "faMD+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " \n本日の定例、参加者少なかったら無しにしようと思うのですがどうでしょう？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1766652928.250419",
+    "client_msg_id": "76cb2406-7b5a-4a95-ab97-9a2d788b7853",
+    "text": "本日定例なしで！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nb6RZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日定例なしで！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "christmas_tree",
+        "users": [
+          "U08QDPC2JRG",
+          "U09JLDAG8GK",
+          "U08J64P3SF4",
+          "U099TAD6RKL",
+          "U08PD4Y0D9V",
+          "U08HWJ80CHG"
+        ],
+        "count": 6
+      },
+      {
+        "name": "snowflake",
+        "users": [
+          "U08QDPC2JRG",
+          "U09JLDAG8GK",
+          "U08J64P3SF4",
+          "U099TAD6RKL"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "本日定例なしで！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1766653222.238569",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zmu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1766656222.104169",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BJva",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1766711010.220089",
+    "client_msg_id": "9557559A-0C48-4C33-AC8C-CD44A6C461D0",
+    "text": "令和6年分政治資金収支報告書の概要（総務大臣届出分＋都道府県選管届出分）\n<https://www.soumu.go.jp/main_content/001046266.pdf|https://www.soumu.go.jp/main_content/001046266.pdf>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EuY6B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "令和6年分政治資金収支報告書の概要（総務大臣届出分＋都道府県選管届出分）"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.soumu.go.jp/main_content/001046266.pdf",
+                "text": "https://www.soumu.go.jp/main_content/001046266.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Chieko",
+    "text_readable": "令和6年分政治資金収支報告書の概要（総務大臣届出分＋都道府県選管届出分）\n<https://www.soumu.go.jp/main_content/001046266.pdf|https://www.soumu.go.jp/main_content/001046266.pdf>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766734370.693449",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1766734516.000000"
+    },
+    "client_msg_id": "a4b4fe88-0a34-4ace-85ac-1f71b38e03c7",
+    "text": "岩永さんFBスレ\n<@U099TAD6RKL> <@U08NZH1RY4S>\n岩永さんの一番上のグラフ、支出の方が多くなっている…\n右の数字と合っていない…なぜだ…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "reply_count": 11,
+    "reply_users_count": 2,
+    "latest_reply": "1766854807.016779",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T3iMa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "岩永さんFBスレ\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\n岩永さんの一番上のグラフ、支出の方が多くなっている…\n右の数字と合っていない…なぜだ…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "岩永さんFBスレ\n<@U099TAD6RKL> @shumizu418128\n岩永さんの一番上のグラフ、支出の方が多くなっている…\n右の数字と合っていない…なぜだ…"
+  },
+  {
+    "text": "シンプルにグラフの部分の問題ですね\n数字はすべてあっていました",
+    "files": [
+      {
+        "id": "F0A5KFA171C",
+        "created": 1766734602,
+        "timestamp": 1766734602,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 37527,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5KFA171C/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5KFA171C/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5KFA171C-45e3d7ee3f/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5KFA171C-45e3d7ee3f/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5KFA171C-45e3d7ee3f/image_360.png",
+        "thumb_360_w": 331,
+        "thumb_360_h": 360,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5KFA171C-45e3d7ee3f/image_160.png",
+        "original_w": 436,
+        "original_h": 474,
+        "thumb_tiny": "AwAwAC23cOyuACRxUXmv/eNSXP8ArB9KgzzjB+tSzeKViaORzIoLHGatVRQ7XB9KnNwccJn8aqKbIqbk9FQfaP8AZ/WpUbegbGM02mjMguf9YPpUNWVeC4chTuYD3FO8iP8Au/rUWNVNJWKg60tWvJj/ALv60CKM/wAP860g+UmUkyqM4561bh/1S0eTH/d/WnKAowOlOUk0S2QxwRxSZDHdjgFug/wqUplcbm6Yzmnc5phV+cSY/wCA9Ki4rDxwKYFBUAOTjvmn01Qw+8QePSgA2853N1z1p1FFAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5KFA171C/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5KFA171C-23fe321cd5",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "818lv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "シンプルにグラフの部分の問題ですね\n数字はすべてあっていました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766734625.638509",
+    "client_msg_id": "6e186630-7ab0-4043-b54a-f6aba82e929d",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "シンプルにグラフの部分の問題ですね\n数字はすべてあっていました"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766734858.114499",
+    "client_msg_id": "6FD6AAAB-35D0-4665-A461-0D1A3478E36D",
+    "text": "あ…確認します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JXi2b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ…確認します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "あ…確認します"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766849086.547409",
+    "client_msg_id": "3f588e15-cf0c-4f75-88ee-06f50525e215",
+    "text": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1766847438769559?thread_ts=1766735011.908789&amp;cid=C08FL5L6GSH>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1766847438769559?thread_ts=1766735011.908789&amp;cid=C08FL5L6GSH",
+        "ts": "1766847438.769559",
+        "author_id": "U099TAD6RKL",
+        "channel_id": "C08FL5L6GSH",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL5L6GSH",
+            "ts": "1766847438.769559",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "P1dyc",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08HWJ80CHG"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08NZH1RY4S"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…元データがおかしいような気がしますね…"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F0A5ATP1BC7",
+            "created": 1766847425,
+            "timestamp": 1766847425,
+            "name": "iwanaga_20251227.png",
+            "title": "iwanaga_20251227.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U099TAD6RKL",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 1549642,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5ATP1BC7/iwanaga_20251227.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5ATP1BC7/download/iwanaga_20251227.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_360.png",
+            "thumb_360_w": 29,
+            "thumb_360_h": 360,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_480.png",
+            "thumb_480_w": 39,
+            "thumb_480_h": 480,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_720.png",
+            "thumb_720_w": 59,
+            "thumb_720_h": 720,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 9769,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_960.png",
+            "thumb_960_w": 79,
+            "thumb_960_h": 960,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_1024.png",
+            "thumb_1024_w": 84,
+            "thumb_1024_h": 1024,
+            "original_w": 988,
+            "original_h": 12065,
+            "thumb_tiny": "AwAwAATTGCMiigdOaKADGKKB0ooAQEgcg5+tGT/dP6UhMnG1VP1bH9KTMv8AcT/vs/4UAf/Z",
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5ATP1BC7/iwanaga_20251227.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5ATP1BC7-1e2fa62e6e",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          },
+          {
+            "id": "F0A5L016867",
+            "created": 1766847432,
+            "timestamp": 1766847432,
+            "name": "nakamura_20251227.png",
+            "title": "nakamura_20251227.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U099TAD6RKL",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 1095178,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5L016867/nakamura_20251227.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5L016867/download/nakamura_20251227.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_360.png",
+            "thumb_360_w": 40,
+            "thumb_360_h": 360,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_480.png",
+            "thumb_480_w": 53,
+            "thumb_480_h": 480,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_160.png",
+            "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_720.png",
+            "thumb_720_w": 79,
+            "thumb_720_h": 720,
+            "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_800.png",
+            "thumb_800_w": 800,
+            "thumb_800_h": 7262,
+            "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_960.png",
+            "thumb_960_w": 106,
+            "thumb_960_h": 960,
+            "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_1024.png",
+            "thumb_1024_w": 113,
+            "thumb_1024_h": 1024,
+            "original_w": 988,
+            "original_h": 8969,
+            "thumb_tiny": "AwAwAAbSVdoxkn60tNZUKAMu4ehXNM2Q/wDPIf8AfH/1qAHsQBgvg+vFN3L/AM9v1FSDmigAopNwzjIz6UuaAP/Z",
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5L016867/nakamura_20251227.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5L016867-de2911d997",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1766847438769559?thread_ts=1766735011.908789&amp;cid=C08FL5L6GSH",
+        "fallback": "[December 27th, 2025 6:57 AM] tagusa-k: <@U08HWJ80CHG> <@U08NZH1RY4S>\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…元データがおかしいような気がしますね…",
+        "text": "<@U08HWJ80CHG> <@U08NZH1RY4S>\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…元データがおかしいような気がしますね…",
+        "author_name": "TAGUSA Kentaro",
+        "author_link": "https://dd2030.slack.com/team/U099TAD6RKL",
+        "author_icon": "https://avatars.slack-edge.com/2025-08-16/9364069098374_b47d86218556f0a275c5_48.png",
+        "author_subname": "TAGUSA Kentaro",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hGLu5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL5L6GSH/p1766847438769559?thread_ts=1766735011.908789&cid=C08FL5L6GSH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL5L6GSH/p1766847438769559?thread_ts=1766735011.908789&cid=C08FL5L6GSH>"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766849217.551169",
+    "client_msg_id": "bd5e73a6-7cdb-4b23-b81b-4fd704df2932",
+    "text": "めも\n\n総収入1255000 = あっている\n総支出2219399.6 = おかしい（小数点以下切り上げを考慮してもずれている）\n本来は2322850\n総公費1135856 = あっている",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/1kXh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "めも\n\n総収入1255000 = あっている\n総支出2219399.6 = おかしい（小数点以下切り上げを考慮してもずれている）\n本来は2322850\n総公費1135856 = あっている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "めも\n\n総収入1255000 = あっている\n総支出2219399.6 = おかしい（小数点以下切り上げを考慮してもずれている）\n本来は2322850\n総公費1135856 = あっている"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766850614.529559",
+    "client_msg_id": "523db329-a0af-40a5-9cf0-8ff73f3b4453",
+    "text": "こちらでもjsonの値を計算し、category != incomeで2219400になりました（小数点なおした）\njsonがおかしいのは確定です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kiB7b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こちらでもjsonの値を計算し、category != incomeで2219400になりました（小数点なおした）\njsonがおかしいのは確定です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "こちらでもjsonの値を計算し、category != incomeで2219400になりました（小数点なおした）\njsonがおかしいのは確定です"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766850710.899719",
+    "client_msg_id": "72f300bf-5cf7-4a0c-aef9-4108730eb502",
+    "text": "その差は\n2322850 - 2219400 = 103450",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zWGAN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "その差は\n2322850 - 2219400 = 103450"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "その差は\n2322850 - 2219400 = 103450"
+  },
+  {
+    "text": "Excelの人件～雑費までの全部を足しても2,219,400にしかならないので、もしかして書かなくていい費用足されてますかね？",
+    "files": [
+      {
+        "id": "F0A65EHGKED",
+        "created": 1766851955,
+        "timestamp": 1766851955,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 36729,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A65EHGKED/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A65EHGKED/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 266,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 354,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A65EHGKED-4c589ebcb4/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 531,
+        "original_w": 789,
+        "original_h": 582,
+        "thumb_tiny": "AwAkADDQIbB2kA+4zS0UUAFB6cUzyUzk7jxjliRilWNUZmUcsck+tACq2SRz/wB8kUtFFAC/hSD6UtFACfhQPcYp1N570AFFFFACgDOccmgjPciil70AMm4hcgkEKe9VrF2bfuYnGOp+tWZ/9RJ/un+VVNP/AOWn4f1q18LJfxIuUUUVBR//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A65EHGKED/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A65EHGKED-99da146b76",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0A5SGJ8B3L",
+        "created": 1766851969,
+        "timestamp": 1766851969,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 4953,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5SGJ8B3L/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5SGJ8B3L/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 34,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 45,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 67,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5SGJ8B3L-ce8d8d8e6b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 75,
+        "original_w": 825,
+        "original_h": 77,
+        "thumb_tiny": "AwAFADC9sX+6v/fNBjXH3VH/AAGn0UAM8tf7q/8AfNBjXI+VfptFPooAYY1/ur/3zR5a5+6v/fNPooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5SGJ8B3L/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5SGJ8B3L-101484f5b0",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D3BrS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Excelの人件～雑費までの全部を足しても2,219,400にしかならないので、もしかして書かなくていい費用足されてますかね？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766852015.438579",
+    "client_msg_id": "c80add7b-7510-4b73-a982-adb622bda6e7",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "Excelの人件～雑費までの全部を足しても2,219,400にしかならないので、もしかして書かなくていい費用足されてますかね？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766852381.112889",
+    "client_msg_id": "14e5dd3e-9589-4c87-8a79-16f22cc01783",
+    "text": "わかった！！\n第1回・第2回の通信費です。\n\nここの費用は第3回に書いていないけど、合計には含まれているから、ここでずれてました。\n\n第1回：44379\n第2回：59071\n合計：103450\n\nつまり第1回～3回まで全部取らなきゃいけなかった...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vnB0m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "わかった！！\n第1回・第2回の通信費です。\n\nここの費用は第3回に書いていないけど、合計には含まれているから、ここでずれてました。\n\n第1回：44379\n第2回：59071\n合計：103450\n\nつまり第1回～3回まで全部取らなきゃいけなかった..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-bongo-love",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "わかった！！\n第1回・第2回の通信費です。\n\nここの費用は第3回に書いていないけど、合計には含まれているから、ここでずれてました。\n\n第1回：44379\n第2回：59071\n合計：103450\n\nつまり第1回～3回まで全部取らなきゃいけなかった..."
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766852462.244559",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1766852512.000000"
+    },
+    "client_msg_id": "82eba7bd-0782-4f60-9f33-1bf5717c0ae4",
+    "text": "= 入力Excelファイル数をパラメータにしなきゃいけない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dnzRF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "= 入力Excelファイル数をパラメータにしなきゃいけない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "= 入力Excelファイル数をパラメータにしなきゃいけない"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766852468.245059",
+    "client_msg_id": "019da40d-a269-43f7-a60a-8818d580234b",
+    "text": ":sob:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5Icfw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "sob",
+                "unicode": "1f62d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sob",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": ":sob:"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766854807.016779",
+    "client_msg_id": "16f34754-7e8d-43fd-af31-7c4629719c26",
+    "text": "<@U099TAD6RKL> <https://github.com/shumizu418128/polimoney/blob/main/tools_election/output_json_example/%E5%B2%A9%E6%B0%B8%E3%81%95%E3%82%93.json>\njsonなおしました、お手数ですが対応お願いします:bow:\n小数点問題もクリアです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766734370.693449",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VO8U4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/shumizu418128/polimoney/blob/main/tools_election/output_json_example/%E5%B2%A9%E6%B0%B8%E3%81%95%E3%82%93.json"
+              },
+              {
+                "type": "text",
+                "text": "\njsonなおしました、お手数ですが対応お願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "\n小数点問題もクリアです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766734370.693449",
+    "user_name": "haruki shimizu",
+    "text_readable": "<@U099TAD6RKL> <https://github.com/shumizu418128/polimoney/blob/main/tools_election/output_json_example/%E5%B2%A9%E6%B0%B8%E3%81%95%E3%82%93.json>\njsonなおしました、お手数ですが対応お願いします:bow:\n小数点問題もクリアです。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766735011.908789",
+    "client_msg_id": "debd7eba-9520-4931-b3cb-4997d2e29027",
+    "text": "中村さんFBスレ\n<@U099TAD6RKL> <@U08NZH1RY4S>\n下記、修正お願いしたいです。\nスコープ範囲が岩永さんにも及びますが…\n\n支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい\n\n&gt; 2.公費で見る\n&gt; →公費が自費かなので、「その他」→「自費」で良いかと思います。\n現状は自費と書いたほうがスッキリするので、今回はその方向にしたい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "reply_count": 19,
+    "reply_users_count": 3,
+    "latest_reply": "1766848341.434139",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U099TAD6RKL",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ahQE5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "中村さんFBスレ\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\n下記、修正お願いしたいです。\nスコープ範囲が岩永さんにも及びますが…\n\n支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2.公費で見る\n→公費が自費かなので、「その他」→「自費」で良いかと思います。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n現状は自費と書いたほうがスッキリするので、今回はその方向にしたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08KXSKKWEB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "中村さんFBスレ\n<@U099TAD6RKL> @shumizu418128\n下記、修正お願いしたいです。\nスコープ範囲が岩永さんにも及びますが…\n\n支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい\n\n> 2.公費で見る\n> →公費が自費かなので、「その他」→「自費」で良いかと思います。\n現状は自費と書いたほうがスッキリするので、今回はその方向にしたい"
+  },
+  {
+    "text": "pythonの変換ツール側では印刷費のデータはとれていました。",
+    "files": [
+      {
+        "id": "F0A5J4XDLLV",
+        "created": 1766735384,
+        "timestamp": 1766735384,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 94148,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5J4XDLLV/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5J4XDLLV/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5J4XDLLV-1eafc54e51/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5J4XDLLV-1eafc54e51/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5J4XDLLV-1eafc54e51/image_360.png",
+        "thumb_360_w": 290,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5J4XDLLV-1eafc54e51/image_480.png",
+        "thumb_480_w": 387,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5J4XDLLV-1eafc54e51/image_160.png",
+        "original_w": 497,
+        "original_h": 617,
+        "thumb_tiny": "AwAwACeoME844Hc0/anJAXqeN9MVtp5JGR1FL5medxzj+6OafQBhIOMLik4pTjHB/Sj5c9T+VIQnHvRx70p29iT9RSUwHqMnkA/XP9KVcbSx2Z9DnP6U08DvyOxpwlPcnP0H6f5/lS6AMIOAePwIpKdu+bIH6Cjdz29/lFADaKOMdTnPpRTAeoJPH/oOakCqcj5Q2em01GDjOe49aUSepYn13UdBjGJ6EAY9qSn7l3dBg8Yyf8//AKqCV44T9aQhlFBHvmimB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5J4XDLLV/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5J4XDLLV-55fae43419",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0A5F6CHN6P",
+        "created": 1766735397,
+        "timestamp": 1766735397,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 21490,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5F6CHN6P/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5F6CHN6P/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5F6CHN6P-0544186108/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5F6CHN6P-0544186108/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5F6CHN6P-0544186108/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 205,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5F6CHN6P-0544186108/image_160.png",
+        "original_w": 362,
+        "original_h": 206,
+        "thumb_tiny": "AwAcADDSJxyaTeoxlhz0560pGeD0ppWMYYheOhNADgwYZBBHqKCcDJIApF24wuMe1KQCMHkUAJuGcZH50oYN0IP0oIABJwB1oAUZ24HPOPWgBe9NK85wp/ChzhSfQVXe4dZY0AXDYz+NAFoDAx2oqKBzJCrtjJ9KkoAWkCgZIAFQmZhM6YGFK/qRTbWdpt+4AYx0oA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5F6CHN6P/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5F6CHN6P-0864020a03",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fsnaU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "pythonの変換ツール側では印刷費のデータはとれていました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766735410.598159",
+    "client_msg_id": "25e19c46-6ba4-42f4-93fc-0b7f4a311fe8",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "pythonの変換ツール側では印刷費のデータはとれていました。"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766741739.835239",
+    "client_msg_id": "69a50e57-f08e-43ae-a474-b9b9ed9f97d8",
+    "text": "支出（計）のシートだと総計が 2,322,850 になってるものの、人件～雑費 シートの支出を足しても 2,219,400 になってしまう…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hSB19",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "支出（計）のシートだと総計が 2,322,850 になってるものの、人件～雑費 シートの支出を足しても 2,219,400 になってしまう…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "支出（計）のシートだと総計が 2,322,850 になってるものの、人件～雑費 シートの支出を足しても 2,219,400 になってしまう…"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766741927.168529",
+    "client_msg_id": "0cb35ccc-ee93-4071-8eff-a7645e6b554f",
+    "text": "JSON データの支出レコードをすべて足しても 2,219,400 ですね\nこの差分ってなんでしたっけ…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KSUgU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "JSON データの支出レコードをすべて足しても 2,219,400 ですね\nこの差分ってなんでしたっけ…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "JSON データの支出レコードをすべて足しても 2,219,400 ですね\nこの差分ってなんでしたっけ…"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766744304.856789",
+    "client_msg_id": "cdcaaa78-43f2-49ff-94f6-1e5081053c1a",
+    "text": "差は無いのが正解なはず…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iCDz4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "差は無いのが正解なはず…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "小野翔太",
+    "text_readable": "差は無いのが正解なはず…"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766744341.846129",
+    "client_msg_id": "242aeb85-cd80-44fa-8287-e48d77e2638a",
+    "text": "前回計もたすとか…？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NwWgv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "前回計もたすとか…？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "小野翔太",
+    "text_readable": "前回計もたすとか…？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766744467.550499",
+    "client_msg_id": "25f0df2f-ae75-4a29-b6b2-d4a8d6dd9c04",
+    "text": "中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NZNOH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766744492.323699",
+    "client_msg_id": "dc105db1-d1c6-4324-9c01-dbb6b1f8cb7d",
+    "text": "岩永さんは第１回と３回を使ってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ttE8r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "岩永さんは第１回と３回を使ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "岩永さんは第１回と３回を使ってます"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766748059.103389",
+    "client_msg_id": "26df8680-5d2e-4962-9c40-ac5e8b3d0771",
+    "text": "あれ、岩永さんのも第三回だけみればよかったと思ってました\nJSON も第三回のデータが反映されているような",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bqyx9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ、岩永さんのも第三回だけみればよかったと思ってました\nJSON も第三回のデータが反映されているような"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "あれ、岩永さんのも第三回だけみればよかったと思ってました\nJSON も第三回のデータが反映されているような"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766748402.440709",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1766749311.000000"
+    },
+    "client_msg_id": "79b910e5-6b13-47a5-a70a-18b32c7d38b7",
+    "text": "私が作ったjsonは\n岩永さん：第１回・第３回\n中村さん：(1ファイルしかない)\nがソースです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "em/kb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私が作ったjsonは\n岩永さん：第１回・第３回\n中村さん：(1ファイルしかない)\nがソースです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "私が作ったjsonは\n岩永さん：第１回・第３回\n中村さん：(1ファイルしかない)\nがソースです"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766748431.356049",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1766749324.000000"
+    },
+    "client_msg_id": "d7d11bae-f8bf-40b4-afd3-e3c72ebed17a",
+    "text": "和歌山は最初・最後に提出したファイルを両方見ないとすべての情報がとれないのでこうしています",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yezcC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "和歌山は最初・最後に提出したファイルを両方見ないとすべての情報がとれないのでこうしています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "和歌山は最初・最後に提出したファイルを両方見ないとすべての情報がとれないのでこうしています"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766750284.331359",
+    "client_msg_id": "ed95c325-ca23-4b3b-9cec-4fe6b96518fc",
+    "text": "&gt; 中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ\nそうか、そうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ak2iu",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうか、そうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "小野翔太",
+    "text_readable": "> 中村さんのExcelは１つしか処理対象じゃなかった記憶があるんですが違いましたっけ\nそうか、そうですね"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766751199.971319",
+    "client_msg_id": "8fdc0ee4-50af-4859-8a77-e9df8ae81b83",
+    "text": "でもずれてるのは不思議なんですよね…\n帰ったら確認します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ph22s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "でもずれてるのは不思議なんですよね…\n帰ったら確認します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "でもずれてるのは不思議なんですよね…\n帰ったら確認します"
+  },
+  {
+    "text": "<@U099TAD6RKL>\n&gt; 支出（計）のシートだと総計が 2,322,850 になってるものの、\nこれ岩永さんのほうじゃないですか...？\n中村さんは2545993です",
+    "files": [
+      {
+        "id": "F0A5LPD3Z70",
+        "created": 1766757709,
+        "timestamp": 1766757709,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08NZH1RY4S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 43446,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5LPD3Z70/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5LPD3Z70/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 307,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 410,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 615,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5LPD3Z70-c8dda8e90b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 683,
+        "original_w": 910,
+        "original_h": 777,
+        "thumb_tiny": "AwApADDR3EEAIxHqMU4dOKgMuCCIZWwcZUgj+dKszkf8e8v5r/jQBMBgAZz70VF5r/8APvJ+a/40ea//AD7yfmv+NAEtIDkkeneo/Nf/AJ95PzX/ABojkZ5WBikQADliMfzoARmlyPLiT3LNjv8AT8qUGYAARRADtvP/AMTT+WXCtgeo6g0vOPQ0AR7rjJ/dxY/3z/hSF5wf9XF9PMP+FSkE4+YjH601QclSQwBzycn1oAaTOf8AlnH/AN/D/hREsgdi6IC3UqxP07U/BIyHOD0xinUAIOnWj8ahuf8Aj2k/3TTbn/jyb/doAsfjS/jVa9/49H/D+dS23/HvH/uj+VAD/wAaPxqvd9I/9/8AoafB/wAe8f8Auj+VAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5LPD3Z70/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5LPD3Z70-adf202decf",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08NZH1RY4S",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zKRqg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "支出（計）のシートだと総計が 2,322,850 になってるものの、"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ岩永さんのほうじゃないですか...？\n中村さんは2545993です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766757724.923129",
+    "client_msg_id": "dff76cdf-e961-4464-8cf7-d12a132cc921",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "<@U099TAD6RKL>\n> 支出（計）のシートだと総計が 2,322,850 になってるものの、\nこれ岩永さんのほうじゃないですか...？\n中村さんは2545993です"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766757755.935049",
+    "client_msg_id": "367f5175-2584-40de-a68f-04ebf7f7d120",
+    "text": "ちなみにここ中村さんスレです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ilC8o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみにここ中村さんスレです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "haruki shimizu",
+    "text_readable": "ちなみにここ中村さんスレです"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766757877.349659",
+    "client_msg_id": "9d7fcd62-07cf-445a-8440-3fef337a7c45",
+    "text": "おう…\n• ずれてるのは→岩永さんの収支報告書\n• 中村さんはスレッド頭を参照",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9BjFD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おう…\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ずれてるのは→岩永さんの収支報告書"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "中村さんはスレッド頭を参照"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "小野翔太",
+    "text_readable": "おう…\n• ずれてるのは→岩永さんの収支報告書\n• 中村さんはスレッド頭を参照"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766765565.946559",
+    "client_msg_id": "164ee8cf-7e8a-4f9f-9ec8-fb720cdec2aa",
+    "text": "ごめんなさい誰のデータかちゃんと言ってなかったです…\n岩永さんのデータがズレてて中村さんのは問題なさそうです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VU7oM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ごめんなさい誰のデータかちゃんと言ってなかったです…\n岩永さんのデータがズレてて中村さんのは問題なさそうです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "ごめんなさい誰のデータかちゃんと言ってなかったです…\n岩永さんのデータがズレてて中村さんのは問題なさそうです"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766808997.162939",
+    "client_msg_id": "5fd93cdc-f7b4-44d0-8566-ff3a9e4264b3",
+    "text": "&gt; 支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい\nこちら公費を収入の一覧から省いてしまっていました\n全体的にロジック見直してます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D+UmP",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nこちら公費を収入の一覧から省いてしまっていました\n全体的にロジック見直してます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "> 支出目的で見るの「印刷費」公費支払われた支出項目が抜けているので、追加したい\nこちら公費を収入の一覧から省いてしまっていました\n全体的にロジック見直してます"
+  },
+  {
+    "text": "<@U08HWJ80CHG> <@U08NZH1RY4S>\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…\n~元データがおかしいような気がしますね…~\n各値の関係を式にして紙に書き出してみたんですがなにかがおかしい…ロジックにまだ不備がありそう。。。",
+    "files": [
+      {
+        "id": "F0A5ATP1BC7",
+        "created": 1766847425,
+        "timestamp": 1766847425,
+        "name": "iwanaga_20251227.png",
+        "title": "iwanaga_20251227.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1549642,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5ATP1BC7/iwanaga_20251227.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5ATP1BC7/download/iwanaga_20251227.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_360.png",
+        "thumb_360_w": 29,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_480.png",
+        "thumb_480_w": 39,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_720.png",
+        "thumb_720_w": 59,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 9769,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_960.png",
+        "thumb_960_w": 79,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5ATP1BC7-6ffa2f37f2/iwanaga_20251227_1024.png",
+        "thumb_1024_w": 84,
+        "thumb_1024_h": 1024,
+        "original_w": 988,
+        "original_h": 12065,
+        "thumb_tiny": "AwAwAATTGCMiigdOaKADGKKB0ooAQEgcg5+tGT/dP6UhMnG1VP1bH9KTMv8AcT/vs/4UAf/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5ATP1BC7/iwanaga_20251227.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5ATP1BC7-1e2fa62e6e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0A5L016867",
+        "created": 1766847432,
+        "timestamp": 1766847432,
+        "name": "nakamura_20251227.png",
+        "title": "nakamura_20251227.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1095178,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5L016867/nakamura_20251227.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A5L016867/download/nakamura_20251227.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_360.png",
+        "thumb_360_w": 40,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_480.png",
+        "thumb_480_w": 53,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_720.png",
+        "thumb_720_w": 79,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 7262,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_960.png",
+        "thumb_960_w": 106,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A5L016867-d054dccf4e/nakamura_20251227_1024.png",
+        "thumb_1024_w": 113,
+        "thumb_1024_h": 1024,
+        "original_w": 988,
+        "original_h": 8969,
+        "thumb_tiny": "AwAwAAbSVdoxkn60tNZUKAMu4ehXNM2Q/wDPIf8AfH/1qAHsQBgvg+vFN3L/AM9v1FSDmigAopNwzjIz6UuaAP/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A5L016867/nakamura_20251227.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A5L016867-de2911d997",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hcXBL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…\n"
+              },
+              {
+                "type": "text",
+                "text": "元データがおかしいような気がしますね…",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n各値の関係を式にして紙に書き出してみたんですがなにかがおかしい…ロジックにまだ不備がありそう。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1766847438.769559",
+    "edited": {
+      "user": "U099TAD6RKL",
+      "ts": "1766849715.000000"
+    },
+    "client_msg_id": "824a647c-59cd-4652-ac4b-edd0783bd3f4",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@oscar.gaddress @shumizu418128\n\"その他\" 表記を \"自費\" に修正したのと、全体的に金額計算などのロジックを見直して修正しました\n中村さんのページは問題なくなったと思います\n※ 一番上の変数値はデバッグ用なのでちゃんと消します\n\nただ岩永さんのページは繰越金がおかしくなりました…\n~元データがおかしいような気がしますね…~\n各値の関係を式にして紙に書き出してみたんですがなにかがおかしい…ロジックにまだ不備がありそう。。。"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766848341.434139",
+    "client_msg_id": "0a97b611-d76c-46af-99dd-dedf0e2b0853",
+    "text": "デバッグ表示にもある各値は次のように算出してます\n\n総収入: category == income の合計\n総支出: category != income の合計\n総公費: category != income &amp;&amp; public_expense_amount有 の合計\n総自費: category != income &amp;&amp; public_expense_amount無 の合計\n※ 自費というと語弊があるが文字数揃えたくてこうしてる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766735011.908789",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pxUDG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デバッグ表示にもある各値は次のように算出してます\n\n総収入: category == income の合計\n総支出: category != income の合計\n総公費: category != income && public_expense_amount有 の合計\n総自費: category != income && public_expense_amount無 の合計\n※ 自費というと語弊があるが文字数揃えたくてこうしてる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766735011.908789",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "デバッグ表示にもある各値は次のように算出してます\n\n総収入: category == income の合計\n総支出: category != income の合計\n総公費: category != income && public_expense_amount有 の合計\n総自費: category != income && public_expense_amount無 の合計\n※ 自費というと語弊があるが文字数揃えたくてこうしてる"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766785438.622539",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1766785643.000000"
+    },
+    "client_msg_id": "4cffc506-2f7f-4477-a647-b8faed958080",
+    "text": "西田さんの政治資金データベースのクラウドファンディングのサイトを見ていて気がついたのですが、\nPolimoneyと合わせて、こういう系のツールを作っている誰もが困っている、元のpdfや画像データ-> システムで扱いやすいように変換したデータを公開したら、どのプロジェクトにも有用な元データになりませんか？（全部のプロジェクトが加速しそう）　\n\n元のpdfや画像データ（公開済み） -> `システムで扱いやすいように変換したデータ` これも公開する -> Polimoney, 政治資金収支報告書データベースなどの可視化ツール\n<https://camp-fire.jp/projects/854626/view>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "reply_count": 6,
+    "reply_users_count": 3,
+    "latest_reply": "1766903033.099379",
+    "reply_users": [
+      "U099TAD6RKL",
+      "U08H3V9KMFH",
+      "U09C3J7V960"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://static.camp-fire.jp/uploads/project_version/image/1437065/047c30b6-ac20-4370-b83f-35f227b308fe.jpeg?ixlib=rails-2.1.4&fit=fill&auto=format&w=1200&h=630&fill=blur",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 71035,
+        "from_url": "https://camp-fire.jp/projects/854626/view",
+        "service_icon": "https://camp-fire.jp/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://camp-fire.jp/projects/854626/view",
+        "fallback": "「政治とカネ」に終止符を。誰でも使える政治資金データベースを全国へ",
+        "text": "政治とカネの議論を、日本社会から終わらせたい。私たちは国会議員の政治資金の流れを「見える化」するデータベースを、無償で公開しています。今回、この仕組みを全国の地方議員・知事へと広げる挑戦に、あなたの力を貸していただきたく、クラウドファンディングを立ち上げました。",
+        "title": "「政治とカネ」に終止符を。誰でも使える政治資金データベースを全国へ",
+        "title_link": "https://camp-fire.jp/projects/854626/view",
+        "service_name": "camp-fire.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6zdgd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "西田さんの政治資金データベースのクラウドファンディングのサイトを見ていて気がついたのですが、\nPolimoneyと合わせて、こういう系のツールを作っている誰もが困っている、元のpdfや画像データ-> システムで扱いやすいように変換したデータを公開したら、どのプロジェクトにも有用な元データになりませんか？（全部のプロジェクトが加速しそう）　\n\n元のpdfや画像データ（公開済み） -> "
+              },
+              {
+                "type": "text",
+                "text": "システムで扱いやすいように変換したデータ",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " これも公開する -> Polimoney, 政治資金収支報告書データベースなどの可視化ツール\n"
+              },
+              {
+                "type": "link",
+                "url": "https://camp-fire.jp/projects/854626/view"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "he-brings-you-database",
+        "users": [
+          "U099TAD6RKL",
+          "U08J64P3SF4"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "西田さんの政治資金データベースのクラウドファンディングのサイトを見ていて気がついたのですが、\nPolimoneyと合わせて、こういう系のツールを作っている誰もが困っている、元のpdfや画像データ-> システムで扱いやすいように変換したデータを公開したら、どのプロジェクトにも有用な元データになりませんか？（全部のプロジェクトが加速しそう）　\n\n元のpdfや画像データ（公開済み） -> `システムで扱いやすいように変換したデータ` これも公開する -> Polimoney, 政治資金収支報告書データベースなどの可視化ツール\n<https://camp-fire.jp/projects/854626/view>"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1766803643.541509",
+    "client_msg_id": "7123b89a-a2a5-48df-a592-45a841eff1d8",
+    "text": "格納先のデータ型をきちんと定義したうえで「がんばってこの型に当てはめて！」ってやるツール作ればいろいろなところで使えそうですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hcipv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "格納先のデータ型をきちんと定義したうえで「がんばってこの型に当てはめて！」ってやるツール作ればいろいろなところで使えそうですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "格納先のデータ型をきちんと定義したうえで「がんばってこの型に当てはめて！」ってやるツール作ればいろいろなところで使えそうですね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766804700.367949",
+    "client_msg_id": "3c3d1e6a-83b5-47fe-b5b2-54c8f59232c4",
+    "text": "全体定例で西田さんがお話してくださった<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.y1rctjomqfsw|この辺の話>は開発メンバー内で共有されると良さそうだなと思いました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+Saot",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全体定例で西田さんがお話してくださった"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.y1rctjomqfsw",
+                "text": "この辺の話"
+              },
+              {
+                "type": "text",
+                "text": "は開発メンバー内で共有されると良さそうだなと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "全体定例で西田さんがお話してくださった<https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I/edit?tab=t.0#bookmark=id.y1rctjomqfsw|この辺の話>は開発メンバー内で共有されると良さそうだなと思いました。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1766879231.320749",
+    "client_msg_id": "5673cb83-bafb-4144-bfdb-f859ff1b9da3",
+    "text": "（<@U08H3V9KMFH> ）ありがとうございます。政策推進機構という団体を運営しているのですが、「データに基づく政策立案を推進する」をミッションにしてまして、元のpdfや画像データ-&gt; システムで扱いやすいように変換したデータのやりかたの知見あります。政治資金収支報告書だけではなくて、今後、新しいデータをつくっていくつもりです。オープンソースではないのですが（データそのものはcsv出力できるようにして共有財にしていくつもり）有償での業務機会もあるので、データの取り込み、データの分析（可視化）、にご興味ある人いればぜひお知らせください～",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Lx4Dn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（"
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " ）ありがとうございます。政策推進機構という団体を運営しているのですが、「データに基づく政策立案を推進する」をミッションにしてまして、元のpdfや画像データ-> システムで扱いやすいように変換したデータのやりかたの知見あります。政治資金収支報告書だけではなくて、今後、新しいデータをつくっていくつもりです。オープンソースではないのですが（データそのものはcsv出力できるようにして共有財にしていくつもり）有償での業務機会もあるので、データの取り込み、データの分析（可視化）、にご興味ある人いればぜひお知らせください～"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "hushed",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "U09C3J7V960",
+    "text_readable": "（@truego ）ありがとうございます。政策推進機構という団体を運営しているのですが、「データに基づく政策立案を推進する」をミッションにしてまして、元のpdfや画像データ-> システムで扱いやすいように変換したデータのやりかたの知見あります。政治資金収支報告書だけではなくて、今後、新しいデータをつくっていくつもりです。オープンソースではないのですが（データそのものはcsv出力できるようにして共有財にしていくつもり）有償での業務機会もあるので、データの取り込み、データの分析（可視化）、にご興味ある人いればぜひお知らせください～"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766882381.545309",
+    "client_msg_id": "524cb564-78b2-446a-997c-2b377e7ac85e",
+    "text": "おぉ面白そうですね！\n 「PDF/画像→構造化データ」は政治資金だけじゃなく、色んな透明化・可視化プロジェクトの共通基盤になり得ますね。格納先の型を定義して当てはめる部分が共通化できると、一気に加速しそうですね。\nそれと「データに基づく政策立案」という観点だと、昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GJE5o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おぉ面白そうですね！\n 「PDF/画像→構造化データ」は政治資金だけじゃなく、色んな透明化・可視化プロジェクトの共通基盤になり得ますね。格納先の型を定義して当てはめる部分が共通化できると、一気に加速しそうですね。\nそれと「データに基づく政策立案」という観点だと、昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "おぉ面白そうですね！\n 「PDF/画像→構造化データ」は政治資金だけじゃなく、色んな透明化・可視化プロジェクトの共通基盤になり得ますね。格納先の型を定義して当てはめる部分が共通化できると、一気に加速しそうですね。\nそれと「データに基づく政策立案」という観点だと、昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1766887665.699669",
+    "client_msg_id": "784fa814-8168-417e-80a3-13cec95f2c0d",
+    "text": "&gt; 昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。\nまさにそれを目指していて、政治資金収支報告書データベースはちょっと違うかたちなのですが、今後データ構築する際は大学教授やジャーナリスト、政党と組んで最初からそれを狙って進めて行きます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D+CHU",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まさにそれを目指していて、政治資金収支報告書データベースはちょっと違うかたちなのですが、今後データ構築する際は大学教授やジャーナリスト、政党と組んで最初からそれを狙って進めて行きます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "U09C3J7V960",
+    "text_readable": "> 昔から議論されてるのに進んでない論点を、データで停滞の可視化して多くの目が入ると、進めるインセンティブが生まれたりしないかなと思いました。\nまさにそれを目指していて、政治資金収支報告書データベースはちょっと違うかたちなのですが、今後データ構築する際は大学教授やジャーナリスト、政党と組んで最初からそれを狙って進めて行きます！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766903033.099379",
+    "client_msg_id": "c486f303-ed5a-4a4a-9c7d-e63d57dca3b5",
+    "text": "おぉ、なんと。面白そうですね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766785438.622539",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UCNR8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おぉ、なんと。面白そうですね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blush",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766785438.622539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "おぉ、なんと。面白そうですね！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766818480.241949",
+    "client_msg_id": "f9d6720b-d180-4a14-a3a2-69f24c19688e",
+    "text": "&gt;&gt; 政治資金収支報告書をCSVデータとして提出するような制度になる予定\n\nwhat",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "reply_count": 14,
+    "reply_users_count": 6,
+    "latest_reply": "1766970186.520919",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U08HWJ80CHG",
+      "U08G2A216TW",
+      "U08H3V9KMFH",
+      "U09C3J7V960",
+      "U08J64P3SF4"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LQ/jY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": ">> 政治資金収支報告書をCSVデータとして提出するような制度になる予定\n\nwhat"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": ">> 政治資金収支報告書をCSVデータとして提出するような制度になる予定\n\nwhat"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766818504.840929",
+    "client_msg_id": "61444048-b64c-448b-b2da-730039d3daab",
+    "text": "実現したらいいなぁ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7jt3C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実現したらいいなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "haruki shimizu",
+    "text_readable": "実現したらいいなぁ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766821365.789519",
+    "client_msg_id": "aac63179-acdc-46fb-8b78-c9dd4049d54c",
+    "text": "これはミスかも？\nむしろGUIの入力ソフトができるという噂は聞いたが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2BTrK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはミスかも？\nむしろGUIの入力ソフトができるという噂は聞いたが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "thinking_face",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "小野翔太",
+    "text_readable": "これはミスかも？\nむしろGUIの入力ソフトができるという噂は聞いたが。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766843785.899539",
+    "client_msg_id": "fffaf723-160e-4b86-857f-7c69465d178a",
+    "text": "GPTいわく\n• *提出は「オンライン提出の義務化」*：政党本部・政治資金団体・国会議員関係政治団体の収支報告書等は、*令和9年1月1日施行でオンライン提出が義務化*されています。 (<https://www.businesslawyers.jp/articles/1455|BUSINESS LAWYERS>)\n• *形式は少なくとも現状「XML」*：オンライン提出は、総務省系のソフトで作成した「収支報告書データ（*XML形式*）」をシステムに登録する方式として案内されています。\n• 加えて、オンライン提出された情報をもとに、*検索・取得が可能なデータベースを2028年4月1日までに整備して一般利用に供する*、という政府側の計画・方針も確認できます。 (<https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/5ecac8cc-50f1-4168-b989-2bcaabffe870/1e27e6d1/20250613_policies_priority_outline_04.pdf|デジタル庁>)\nだそうです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/GYU5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GPTいわく\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "提出は「オンライン提出の義務化」",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：政党本部・政治資金団体・国会議員関係政治団体の収支報告書等は、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "令和9年1月1日施行でオンライン提出が義務化",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "されています。 ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://www.businesslawyers.jp/articles/1455",
+                    "text": "BUSINESS LAWYERS"
+                  },
+                  {
+                    "type": "text",
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "形式は少なくとも現状「XML」",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "：オンライン提出は、総務省系のソフトで作成した「収支報告書データ（"
+                  },
+                  {
+                    "type": "text",
+                    "text": "XML形式",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "）」をシステムに登録する方式として案内されています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "加えて、オンライン提出された情報をもとに、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "検索・取得が可能なデータベースを2028年4月1日までに整備して一般利用に供する",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "、という政府側の計画・方針も確認できます。 ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/5ecac8cc-50f1-4168-b989-2bcaabffe870/1e27e6d1/20250613_policies_priority_outline_04.pdf",
+                    "text": "デジタル庁"
+                  },
+                  {
+                    "type": "text",
+                    "text": ")"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nだそうです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U09C3J7V960",
+          "U08HWJ80CHG",
+          "U08J64P3SF4",
+          "U0A62D0GT40"
+        ],
+        "count": 4
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GPTいわく\n• *提出は「オンライン提出の義務化」*：政党本部・政治資金団体・国会議員関係政治団体の収支報告書等は、*令和9年1月1日施行でオンライン提出が義務化*されています。 (<https://www.businesslawyers.jp/articles/1455|BUSINESS LAWYERS>)\n• *形式は少なくとも現状「XML」*：オンライン提出は、総務省系のソフトで作成した「収支報告書データ（*XML形式*）」をシステムに登録する方式として案内されています。\n• 加えて、オンライン提出された情報をもとに、*検索・取得が可能なデータベースを2028年4月1日までに整備して一般利用に供する*、という政府側の計画・方針も確認できます。 (<https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/5ecac8cc-50f1-4168-b989-2bcaabffe870/1e27e6d1/20250613_policies_priority_outline_04.pdf|デジタル庁>)\nだそうです"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1766843856.993119",
+    "client_msg_id": "70a9536d-9073-4919-bbaa-578902142777",
+    "text": "2027年1月以降オンライン提出が義務付けられる関係上、2026年中にはそのためのツールが公開される予定であり、それが「総務省系のソフト」というやつかと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D81Hk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2027年1月以降オンライン提出が義務付けられる関係上、2026年中にはそのためのツールが公開される予定であり、それが「総務省系のソフト」というやつかと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2027年1月以降オンライン提出が義務付けられる関係上、2026年中にはそのためのツールが公開される予定であり、それが「総務省系のソフト」というやつかと。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766844025.893919",
+    "client_msg_id": "66806cfb-a45c-4526-9b22-82f60468bc2e",
+    "text": "これpolimoneyは地方の議員さんのみ対象という形になりうる...？\n*データベース*がどういう見た目になるかですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9+LpH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これpolimoneyは地方の議員さんのみ対象という形になりうる...？\n"
+              },
+              {
+                "type": "text",
+                "text": "データベース",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "がどういう見た目になるかですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "haruki shimizu",
+    "text_readable": "これpolimoneyは地方の議員さんのみ対象という形になりうる...？\n*データベース*がどういう見た目になるかですね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766844206.583069",
+    "client_msg_id": "49fa363e-375e-44fc-a3cb-cf8660964dac",
+    "text": "<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r705kiseigaiyou>\nこれを見るとツールはもうあるのかな？\n<https://kyoudou.soumu.go.jp/kyoudou/GK020201>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "attachments": [
+      {
+        "from_url": "https://kyoudou.soumu.go.jp/kyoudou/GK020201",
+        "service_icon": "https://kyoudou.soumu.go.jp/kyoudou/static/favicon.ico",
+        "id": 1,
+        "original_url": "https://kyoudou.soumu.go.jp/kyoudou/GK020201",
+        "fallback": "政治資金関係申請・届出オンラインシステム",
+        "text": "政治資金関係申請・届出オンラインシステムを利用することで政治資金収支報告書、各種届出をオンラインでいつでも簡単に提出できます。",
+        "title": "政治資金関係申請・届出オンラインシステム",
+        "title_link": "https://kyoudou.soumu.go.jp/kyoudou/GK020201",
+        "service_name": "kyoudou.soumu.go.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2Ey+X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r705kiseigaiyou"
+              },
+              {
+                "type": "text",
+                "text": "\nこれを見るとツールはもうあるのかな？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://kyoudou.soumu.go.jp/kyoudou/GK020201"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://www.senkyo.metro.tokyo.lg.jp/documents/d/senkyo/r705kiseigaiyou>\nこれを見るとツールはもうあるのかな？\n<https://kyoudou.soumu.go.jp/kyoudou/GK020201>"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766844352.711569",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1766846035.000000"
+    },
+    "client_msg_id": "2994dfc4-c81c-4cf4-95c0-efc436c0a27d",
+    "text": "以前見た総務省の収支報告書作成ソフトホームページとUIが違う...\n別物？にしては内容が似ていますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WYxSF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前見た総務省の収支報告書作成ソフトホームページとUIが違う...\n別物？にしては内容が似ていますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "haruki shimizu",
+    "text_readable": "以前見た総務省の収支報告書作成ソフトホームページとUIが違う...\n別物？にしては内容が似ていますね"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1766879453.351889",
+    "client_msg_id": "6a52dc97-6918-41d6-9949-eb71e30e2874",
+    "text": "&gt; これはミスかも？\n・西尾さんのGPT整理が正しいです。補足すると、\n・2028年4月から、政治資金収支報告書データベース（<https://political-finance-database.com/>）の総務省版の運用始まります。これは法律で決まっていて、予算も通る見込みなので確定です。\n・データベース公開とあわせて、学者やジャーナリストが分析しやすくなるように、APIの提供と、csvでのデータ提供も始まります。\n・尚、データベースの対象は国会議員関係政治団体（国会議員の政治団体）＋政党本部＋政治資金団体＋主要な政党支部（都道府県連）です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "attachments": [
+      {
+        "image_url": "https://58a39fe6abc83c642f11cedd63f7ccaf.cdn.bubble.io/cdn-cgi/image/w=,h=,f=auto,dpr=1,fit=contain/f1743469721164x316696556492724200/OGP.png",
+        "image_width": 1800,
+        "image_height": 945,
+        "image_bytes": 44012,
+        "from_url": "https://political-finance-database.com/",
+        "service_icon": "https://58a39fe6abc83c642f11cedd63f7ccaf.cdn.bubble.io/cdn-cgi/image/w=128,h=,f=auto,dpr=1,fit=contain/f1743578766322x355429690902134140/%E3%83%95%E3%82%A1%E3%83%92%E3%82%99%E3%82%B3%E3%83%B3_%E3%82%BD%E3%83%AD%E3%83%B3.jpeg",
+        "id": 1,
+        "original_url": "https://political-finance-database.com/",
+        "fallback": "政治資金収支報告書データベース",
+        "text": "総務省及び全国の都道府県選挙管理委員会に提出された\n政治資金収支報告書（国会議員関係政治団体・政党本部・政治資金団体・みなし団体・政党支部（主要分）を集計し、データベースのかたちで公表します。",
+        "title": "政治資金収支報告書データベース",
+        "title_link": "https://political-finance-database.com/",
+        "service_name": "political-finance-database.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U95sr",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはミスかも？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "・西尾さんのGPT整理が正しいです。補足すると、\n・2028年4月から、政治資金収支報告書データベース（"
+              },
+              {
+                "type": "link",
+                "url": "https://political-finance-database.com/"
+              },
+              {
+                "type": "text",
+                "text": "）の総務省版の運用始まります。これは法律で決まっていて、予算も通る見込みなので確定です。\n・データベース公開とあわせて、学者やジャーナリストが分析しやすくなるように、APIの提供と、csvでのデータ提供も始まります。\n・尚、データベースの対象は国会議員関係政治団体（国会議員の政治団体）＋政党本部＋政治資金団体＋主要な政党支部（都道府県連）です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "U09C3J7V960",
+    "text_readable": "> これはミスかも？\n・西尾さんのGPT整理が正しいです。補足すると、\n・2028年4月から、政治資金収支報告書データベース（<https://political-finance-database.com/>）の総務省版の運用始まります。これは法律で決まっていて、予算も通る見込みなので確定です。\n・データベース公開とあわせて、学者やジャーナリストが分析しやすくなるように、APIの提供と、csvでのデータ提供も始まります。\n・尚、データベースの対象は国会議員関係政治団体（国会議員の政治団体）＋政党本部＋政治資金団体＋主要な政党支部（都道府県連）です。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1766879737.775859",
+    "client_msg_id": "e787c42b-3d7d-4db5-8da2-2f7b9fc1cf17",
+    "text": "&gt; 以前見た総務省の収支報告書作成ソフトホームページとUIが違う...\n・上記が最新のものです。\n・あわせて、GPT整理であるように、オンライン届出義務化にあたり、総務省としては「より利便性が高く国会議員が使いやすい」アプリの開発を検討・進めています。これもほぼ確定事項で、2年以内にローンチされます。\n・総務省がお金をかけてつくったものだけであって、機能がかなり充実したものになります（現時点版である馬鹿にされがちなマクロも、マクロである点を除くとかなり質はよいです。とっつきづらさを乗り越えると。例えば寄附をした人に対して寄付金控除の申請書も出力できたりします。）。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BEvlC",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前見た総務省の収支報告書作成ソフトホームページとUIが違う..."
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "・上記が最新のものです。\n・あわせて、GPT整理であるように、オンライン届出義務化にあたり、総務省としては「より利便性が高く国会議員が使いやすい」アプリの開発を検討・進めています。これもほぼ確定事項で、2年以内にローンチされます。\n・総務省がお金をかけてつくったものだけであって、機能がかなり充実したものになります（現時点版である馬鹿にされがちなマクロも、マクロである点を除くとかなり質はよいです。とっつきづらさを乗り越えると。例えば寄附をした人に対して寄付金控除の申請書も出力できたりします。）。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08NZH1RY4S",
+          "U08G2A216TW",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "U09C3J7V960",
+    "text_readable": "> 以前見た総務省の収支報告書作成ソフトホームページとUIが違う...\n・上記が最新のものです。\n・あわせて、GPT整理であるように、オンライン届出義務化にあたり、総務省としては「より利便性が高く国会議員が使いやすい」アプリの開発を検討・進めています。これもほぼ確定事項で、2年以内にローンチされます。\n・総務省がお金をかけてつくったものだけであって、機能がかなり充実したものになります（現時点版である馬鹿にされがちなマクロも、マクロである点を除くとかなり質はよいです。とっつきづらさを乗り越えると。例えば寄附をした人に対して寄付金控除の申請書も出力できたりします。）。"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766893259.856079",
+    "edited": {
+      "user": "U08NZH1RY4S",
+      "ts": "1766893282.000000"
+    },
+    "client_msg_id": "e85bc941-1dd3-4cde-b286-890b51a5a624",
+    "text": "俺たちは選挙運動費用収支報告書に軸足移した方がよさそうですかね…？\n完成したものを見ないと何とも言えないですが、今後の動向に要注意ですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TaSsY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "俺たちは選挙運動費用収支報告書に軸足移した方がよさそうですかね…？\n完成したものを見ないと何とも言えないですが、今後の動向に要注意ですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "haruki shimizu",
+    "text_readable": "俺たちは選挙運動費用収支報告書に軸足移した方がよさそうですかね…？\n完成したものを見ないと何とも言えないですが、今後の動向に要注意ですね"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1766903478.595579",
+    "client_msg_id": "798d4a79-4561-43b5-afeb-6edf9c375900",
+    "text": "ポジショニング的には\n• 軸足を選挙運動費用収支報告書にする\n• 国政にかかわらない政治資金収支報告書に集中\nあたりが無難そう。\nあと、\n『どうせ国が作るシステムだから抜け道だらけなんだろう』という気持ちと『なんか今回は本腰入れている感じがする…！』という感覚で、結局出来上がったもの見ないとわからないのが現状。\n\nこのスレで教えていただいたように、時間と共に国の作るソフトが良いものに変化しつつあるのを考えると、marumieのように『こんなのどうですか？』を早急に作り、世に示すのもありかと。\n\nもしくは国のソフトが出来上がるのをまってから、内容をみて動きを決めるか。\n\nどちらにせよ、『何が課題でどういいのか』を示す必要はある。年明け1/8のMTGである程度話せるといいかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bJjHG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ポジショニング的には\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "軸足を選挙運動費用収支報告書にする"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "国政にかかわらない政治資金収支報告書に集中"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あたりが無難そう。\nあと、\n『どうせ国が作るシステムだから抜け道だらけなんだろう』という気持ちと『なんか今回は本腰入れている感じがする…！』という感覚で、結局出来上がったもの見ないとわからないのが現状。\n\nこのスレで教えていただいたように、時間と共に国の作るソフトが良いものに変化しつつあるのを考えると、marumieのように『こんなのどうですか？』を早急に作り、世に示すのもありかと。\n\nもしくは国のソフトが出来上がるのをまってから、内容をみて動きを決めるか。\n\nどちらにせよ、『何が課題でどういいのか』を示す必要はある。年明け1/8のMTGである程度話せるといいかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "小野翔太",
+    "text_readable": "ポジショニング的には\n• 軸足を選挙運動費用収支報告書にする\n• 国政にかかわらない政治資金収支報告書に集中\nあたりが無難そう。\nあと、\n『どうせ国が作るシステムだから抜け道だらけなんだろう』という気持ちと『なんか今回は本腰入れている感じがする…！』という感覚で、結局出来上がったもの見ないとわからないのが現状。\n\nこのスレで教えていただいたように、時間と共に国の作るソフトが良いものに変化しつつあるのを考えると、marumieのように『こんなのどうですか？』を早急に作り、世に示すのもありかと。\n\nもしくは国のソフトが出来上がるのをまってから、内容をみて動きを決めるか。\n\nどちらにせよ、『何が課題でどういいのか』を示す必要はある。年明け1/8のMTGである程度話せるといいかも。"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1766905669.239269",
+    "client_msg_id": "D1B12BC1-58D4-4DFC-A2A1-B1CD1A8C65FE",
+    "text": "（記事もこの辺り、加味できるとよさそうですね！）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ECVMK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（記事もこの辺り、加味できるとよさそうですね！）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-bowing",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "Chieko",
+    "text_readable": "（記事もこの辺り、加味できるとよさそうですね！）"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1766965890.904579",
+    "client_msg_id": "6fc90c1a-2c36-4fc7-a170-9f4bd97355f4",
+    "text": "総務省は、このシステムを使うことになる人（政治資金収支報告書を書く可能性のある人、つまり全国民）に説明をする責任があるので、コンタクトさえすれば、根掘り葉掘り聞けてしまうのでは？と思いました。\n<https://kyoudou.soumu.go.jp/kyoudou/GK020203|ご意見・ご要望>も受け付けているようなので、いろんなコミュニケーションができるのかも？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "attachments": [
+      {
+        "from_url": "https://kyoudou.soumu.go.jp/kyoudou/GK020203",
+        "service_icon": "https://kyoudou.soumu.go.jp/kyoudou/static/favicon.ico",
+        "id": 1,
+        "original_url": "https://kyoudou.soumu.go.jp/kyoudou/GK020203",
+        "fallback": "政治資金関係申請・届出オンラインシステム",
+        "text": "政治資金関係申請・届出オンラインシステムを利用することで政治資金収支報告書、各種届出をオンラインでいつでも簡単に提出できます。",
+        "title": "政治資金関係申請・届出オンラインシステム",
+        "title_link": "https://kyoudou.soumu.go.jp/kyoudou/GK020203",
+        "service_name": "kyoudou.soumu.go.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z9A8e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "総務省は、このシステムを使うことになる人（政治資金収支報告書を書く可能性のある人、つまり全国民）に説明をする責任があるので、コンタクトさえすれば、根掘り葉掘り聞けてしまうのでは？と思いました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://kyoudou.soumu.go.jp/kyoudou/GK020203",
+                "text": "ご意見・ご要望"
+              },
+              {
+                "type": "text",
+                "text": "も受け付けているようなので、いろんなコミュニケーションができるのかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "Shingo OHKI",
+    "text_readable": "総務省は、このシステムを使うことになる人（政治資金収支報告書を書く可能性のある人、つまり全国民）に説明をする責任があるので、コンタクトさえすれば、根掘り葉掘り聞けてしまうのでは？と思いました。\n<https://kyoudou.soumu.go.jp/kyoudou/GK020203|ご意見・ご要望>も受け付けているようなので、いろんなコミュニケーションができるのかも？"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1766970186.520919",
+    "client_msg_id": "7afc18e9-4585-4300-b5d9-76b9e572c36f",
+    "text": "ではまず初めに、収支報告書作成システムをossにしてよって言ってみますか…ｗ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1766818480.241949",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AWfaE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ではまず初めに、収支報告書作成システムをossにしてよって言ってみますか…ｗ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1766818480.241949",
+    "user_name": "haruki shimizu",
+    "text_readable": "ではまず初めに、収支報告書作成システムをossにしてよって言ってみますか…ｗ"
+  },
+  {
+    "user": "U08J64P3SF4",
+    "type": "message",
+    "ts": "1766837528.284839",
+    "client_msg_id": "1C36567C-4C5C-4516-B484-5B4E62B61C38",
+    "text": "【ゆる募】誰でも赤入れ歓迎\n\n本日も全体定例出れなくて、記事作成遅くなりごめんなさい…！\n\n各プロダクトとの比較記事を60%程度の完成度で書き終えました！\nが、しかし\n年内途中で離脱していたためもあってか、ポリマネの方向性がまだ確実にキャッチアップ出来ておらず、整合性がこちらで判断できない箇所が多々ありまして:bow:（プラットフォームと会計ソフトの2軸で開発中？など）\n\n年明けで構いませんので、どなたか（どなたでも歓迎！）本記事の赤入れをお願いしてもよろしいでしょうか？？:bow:\n———————————————\n▪︎添削依頼の記事はこちら\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258|https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258>\n\n▪︎記事作成の際に参考にしたのが、以下のタブのREADME\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu|https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu>\n———————————————\n↑ \nお願いを重ねて恐縮ですが、赤入れ方法は以下で振り分けていただくと、次工程動きやすくなりますのでご協力のほど何卒…:bow:\n```・直接、文に対する加筆修正　→【提案】\n・疑問質問など、ポリマネのみんなで会話必要そう　→【コメント】\n・提案テキストに対しての疑問質問など　→【提案のスレに返信】```\n（本業、やっと年内分の仕事納めれました。やったー）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mgdu9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【ゆる募】誰でも赤入れ歓迎\n\n本日も全体定例出れなくて、記事作成遅くなりごめんなさい…！\n\n各プロダクトとの比較記事を60%程度の完成度で書き終え"
+              },
+              {
+                "type": "text",
+                "text": "ました！\nが、しかし\n"
+              },
+              {
+                "type": "text",
+                "text": "年内途中で離脱していたためもあってか"
+              },
+              {
+                "type": "text",
+                "text": "、"
+              },
+              {
+                "type": "text",
+                "text": "ポリマネの方向性がまだ確実にキャッチアップ出来ておらず、整合性がこちらで判断できない箇所が多々ありまして"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "（プラットフォームと会計ソフトの2軸で開発中？など）"
+              },
+              {
+                "type": "text",
+                "text": "\n\n年明けで構いませんので、どなたか（どなたでも歓迎！）本記事の赤入れをお願いしてもよろしいでしょうか？？"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "———————————————"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "▪︎添削依頼の記事はこちら"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258",
+                "text": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "▪︎記事作成の際に参考にしたのが、以下のタブのREADME"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu",
+                "text": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "———————————————"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "↑ \nお願いを重ねて恐縮ですが、"
+              },
+              {
+                "type": "text",
+                "text": "赤入れ方法は以下で振り分けていただくと"
+              },
+              {
+                "type": "text",
+                "text": "、"
+              },
+              {
+                "type": "text",
+                "text": "次工程動きやすくなりますのでご協力のほど何卒…"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "・直接、文に対する加筆修正　→【提案】\n・疑問質問など、ポリマネのみんなで会話必要そう　→【コメント】\n・提案テキストに対しての疑問質問など　→【提案のスレに返信】"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n（本業、やっと年内分の仕事納めれました。やったー）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "otsukaresamadeshita",
+        "users": [
+          "U09JLDAG8GK",
+          "U08NZH1RY4S",
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08PD4Y0D9V",
+          "U08QDPC2JRG"
+        ],
+        "count": 6
+      },
+      {
+        "name": "igyo",
+        "users": [
+          "U09JLDAG8GK",
+          "U08NZH1RY4S",
+          "U08H3V9KMFH",
+          "U08HWJ80CHG",
+          "U08QDPC2JRG"
+        ],
+        "count": 5
+      }
+    ],
+    "user_name": "Chieko",
+    "text_readable": "【ゆる募】誰でも赤入れ歓迎\n\n本日も全体定例出れなくて、記事作成遅くなりごめんなさい…！\n\n各プロダクトとの比較記事を60%程度の完成度で書き終えました！\nが、しかし\n年内途中で離脱していたためもあってか、ポリマネの方向性がまだ確実にキャッチアップ出来ておらず、整合性がこちらで判断できない箇所が多々ありまして:bow:（プラットフォームと会計ソフトの2軸で開発中？など）\n\n年明けで構いませんので、どなたか（どなたでも歓迎！）本記事の赤入れをお願いしてもよろしいでしょうか？？:bow:\n———————————————\n▪︎添削依頼の記事はこちら\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258|https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.878tgq6wc258>\n\n▪︎記事作成の際に参考にしたのが、以下のタブのREADME\n<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu|https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M?tab=t.7hmepg1dvsgu>\n———————————————\n↑ \nお願いを重ねて恐縮ですが、赤入れ方法は以下で振り分けていただくと、次工程動きやすくなりますのでご協力のほど何卒…:bow:\n```・直接、文に対する加筆修正　→【提案】\n・疑問質問など、ポリマネのみんなで会話必要そう　→【コメント】\n・提案テキストに対しての疑問質問など　→【提案のスレに返信】```\n（本業、やっと年内分の仕事納めれました。やったー）"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1767010919.670929",
+    "client_msg_id": "87b6927d-c248-4947-8631-5efbcaeab8e2",
+    "text": "<https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149|https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149",
+        "ts": "1767010874.846149",
+        "author_id": "U08NZH1RY4S",
+        "channel_id": "C08N2NU6D0S",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08N2NU6D0S",
+            "ts": "1767010874.846149",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "7Xc/B",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "link",
+                          "url": "https://fortee.jp/burikaigi-2026/proposal/3d5b72c7-a96a-49f3-a434-c7f169def5db",
+                          "text": "おれのburikaigi発表練習"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 会\n兼\npolimoneyウェルカムミート\n兼\n作ったburikaigi発表資料を改善する会\n\nやりたいです\nちょうど1/8 木曜日 polimoney定例 & burikaigi前日ということで、勝手に21時くらいからやったろうかな〜と思ってますなう"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149",
+        "fallback": "[December 29th, 2025 4:21 AM] shumizu418128: <https://fortee.jp/burikaigi-2026/proposal/3d5b72c7-a96a-49f3-a434-c7f169def5db|おれのburikaigi発表練習> 会\n兼\npolimoneyウェルカムミート\n兼\n作ったburikaigi発表資料を改善する会\n\nやりたいです\nちょうど1/8 木曜日 polimoney定例 &amp; burikaigi前日ということで、勝手に21時くらいからやったろうかな〜と思ってますなう",
+        "text": "<https://fortee.jp/burikaigi-2026/proposal/3d5b72c7-a96a-49f3-a434-c7f169def5db|おれのburikaigi発表練習> 会\n兼\npolimoneyウェルカムミート\n兼\n作ったburikaigi発表資料を改善する会\n\nやりたいです\nちょうど1/8 木曜日 polimoney定例 &amp; burikaigi前日ということで、勝手に21時くらいからやったろうかな〜と思ってますなう",
+        "author_name": "haruki shimizu",
+        "author_link": "https://dd2030.slack.com/team/U08NZH1RY4S",
+        "author_icon": "https://avatars.slack-edge.com/2025-05-14/8907070959169_c771511c167b42dd07ac_48.png",
+        "author_subname": "haruki shimizu",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HWz25",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149",
+                "text": "https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blob-attention-gif",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "blob-attention-reverse-gif",
+        "users": [
+          "U08QDPC2JRG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149|https://dd2030.slack.com/archives/C08N2NU6D0S/p1767010874846149>"
+  }
+]

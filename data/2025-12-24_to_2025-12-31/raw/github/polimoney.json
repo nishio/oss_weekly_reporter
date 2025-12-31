@@ -1,0 +1,53 @@
+[
+  {
+    "id": 3764927954,
+    "number": 242,
+    "title": "入力ファイルが指定されていない場合のエラーハンドリングを追加",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/242",
+    "user": "shumizu418128",
+    "created_at": "2025-12-27T17:09:37Z",
+    "merged_at": "2025-12-27T17:09:44Z",
+    "body": "# 変更の概要\r\n<!-- ここに変更の概要を記載してください -->\r\n\r\n# スクリーンショット\r\n<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->\r\n\r\n# 変更の背景\r\n<!-- ここに変更が必要となった背景を記載してください -->\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## Bug Fixes\n* 入力ファイルが空の場合のエラーハンドリングを改善しました。エラーメッセージが表示され、プログラムは適切に終了するようになります。\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 3,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3764918764,
+    "number": 241,
+    "title": "fix: 和歌山県のデータ取得方法見直し",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/241",
+    "user": "shumizu418128",
+    "created_at": "2025-12-27T16:56:07Z",
+    "merged_at": "2025-12-27T16:56:49Z",
+    "body": "# 変更の概要\r\n<!-- ここに変更の概要を記載してください -->\r\n和歌山県においては、複数回提出したすべてのファイルからデータ取得が必要なため修正\r\n\r\n# スクリーンショット\r\n<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->\r\n\r\n# 変更の背景\r\n<!-- ここに変更が必要となった背景を記載してください -->\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## リリースノート\n\n* **バグ修正**\n  * 金額値を修正しました\n\n* **改善**\n  * 複数ファイルの処理ワークフローを再構成し、処理効率を向上させました\n  * データ識別子を更新しました\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 293,
+    "deletions": 208,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3764884454,
+    "number": 240,
+    "title": "日付処理の統一関数",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/240",
+    "user": "shumizu418128",
+    "created_at": "2025-12-27T16:09:25Z",
+    "merged_at": "2025-12-27T16:09:36Z",
+    "body": "# 変更の概要\r\n<!-- ここに変更の概要を記載してください -->\r\nExcelの日付処理の煩雑さを吸収するutil\r\n\r\n# スクリーンショット\r\n<!-- UIの変更を伴う場合は、変更前後のスクリーンショットもしくはgif画像をこちらに記載してください -->\r\n\r\n# 変更の背景\r\n<!-- ここに変更が必要となった背景を記載してください -->\r\n\r\n# 関連Issue\r\n<!-- 関連するIssueのリンクをこちらに記載してください -->\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## 改善点\n\n* **バグ修正**\n  * 日付処理の一貫性と信頼性を向上させました\n  * データ構造に新たに非金銭的根拠、注記、内訳フィールドが含まれるようになりました\n  * 文字列型の安定性を改善し、データ抽出の堅牢性を強化しました\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 79,
+    "deletions": 45,
+    "changed_files": 9,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
