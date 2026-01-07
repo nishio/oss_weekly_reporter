@@ -1,0 +1,166 @@
+[
+  {
+    "user": "U0A6RSYBV5G",
+    "type": "message",
+    "ts": "1767590611.185789",
+    "client_msg_id": "d1ddfc27-acfc-4456-9903-49f4a9d3e335",
+    "text": ":wave: Hello, team!",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xosxe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "wave",
+                "unicode": "1f44b"
+              },
+              {
+                "type": "text",
+                "text": " Hello, team!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A6RSYBV5G",
+    "text_readable": ":wave: Hello, team!"
+  },
+  {
+    "user": "U0A6RSYBV5G",
+    "type": "message",
+    "ts": "1767590667.250519",
+    "client_msg_id": "c9ecc166-34b1-4135-afce-e68b51fb8176",
+    "text": "さんが年賀カードを送りました。  :partying_face: カードを見る button この機能はデスクトップ版でのみ利用できます",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "section",
+        "block_id": "pt4n+",
+        "text": {
+          "type": "mrkdwn",
+          "text": "さんが年賀カードを送りました。  :partying_face:",
+          "verbatim": false
+        }
+      },
+      {
+        "type": "actions",
+        "block_id": "january_delight_greeting_msg_button",
+        "elements": [
+          {
+            "type": "button",
+            "action_id": "january_delight_greeting_msg_button_open_modal",
+            "text": {
+              "type": "plain_text",
+              "text": "カードを見る",
+              "emoji": true
+            },
+            "style": "primary",
+            "value": "{\"senderId\":\"U0A6RSYBV5G\",\"presetImage\":\"card-pigeon\",\"greetingText\":\"Happy new year\"}"
+          }
+        ]
+      },
+      {
+        "type": "context",
+        "block_id": "0D+bY",
+        "elements": [
+          {
+            "type": "mrkdwn",
+            "text": "この機能はデスクトップ版でのみ利用できます",
+            "verbatim": false
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A6RSYBV5G",
+    "text_readable": "さんが年賀カードを送りました。  :partying_face: カードを見る button この機能はデスクトップ版でのみ利用できます"
+  },
+  {
+    "user": "U0A6RSYBV5G",
+    "type": "message",
+    "ts": "1767691308.529499",
+    "client_msg_id": "2fde45c9-1a3b-45f3-a3c8-43d06cac5543",
+    "text": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767691308.529499",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1767694602.741909",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vc+SR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A6RSYBV5G",
+    "text_readable": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767694602.741909",
+    "client_msg_id": "39b67216-ca13-4e45-b261-461691f4db5f",
+    "text": "まずは <#C08HKET1YG3|> をどうぞ！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767691308.529499",
+    "parent_user_id": "U0A6RSYBV5G",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "seYv6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まずは "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08HKET1YG3"
+              },
+              {
+                "type": "text",
+                "text": " をどうぞ！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1767691308.529499",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まずは <#C08HKET1YG3|> をどうぞ！"
+  }
+]

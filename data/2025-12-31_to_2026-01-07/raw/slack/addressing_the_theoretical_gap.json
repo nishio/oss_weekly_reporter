@@ -1,0 +1,729 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08HWJ80CHG",
+    "text": "<@U08HWJ80CHG>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1767676741.949009",
+    "user_name": "小野翔太",
+    "text_readable": "@oscar.gaddressさんがチャンネルに参加しました"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08JASQKEEM",
+    "text": "<@U08JASQKEEM>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1767677273.244699",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@kuboonさんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767677289.177429",
+    "client_msg_id": "d514c340-b1f6-4bd3-bee7-ad52820c6358",
+    "text": "<https://github.com/pluralitybook/plurality/issues/1113>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1767266170,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/pluralitybook/plurality/issues/1113",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#1113 Addressing the Theoretical Gap: Integrating Dynamic Process Perspectives into Deliberation and Voting Frameworks",
+        "text": "#### *Problem: The \"Equilibrium Trap\" in Digital Democracy*\n\nCurrent frameworks for digital democracy (including descriptions of tools like Polis, vTaiwan, and Quadratic Voting) tend to focus on *ideal endpoints or static equilibrium states*. While these models excel at describing _what_ consensus or fair allocation looks like, they often fail to explain the _dynamic path_ required to get there, or why these processes often fail to scale or replicate.\n\nSpecifically, we observe the following gaps:\n\n*The Reusability Paradox*: Why successful models like vTaiwan's 2015 Uber case are difficult to replicate in different \"fields\" (Ba).\n\n1. *The Verification vs. Action Gap*: Why identifying bridging statements (in Polis) does not automatically lead to social movement or policy change.\n\n*Optimization/Gaming Risk*: Why static voting rules are inherently vulnerable to gaming, as participants optimize against fixed rules rather than evolving with the process.\n\n#### *Proposed Solution: Shifting from Static Aggregation to Process Design*\n\nTo address these challenges, I propose integrating a *dynamic process framework* into the \"Limits\" sections of Chapters 5-4 and 5-6.\n\nBy introducing perspectives grounded in dynamical systems—specifically the *Stuart-Landau framework*—we can move beyond static aggregation toward a more robust \"Process Design\". This addition helps practitioners understand:\n\n*Critical Thresholds ()*: Why certain deliberations \"ignite\" while others fail.\n\n*Saturation Mechanisms ()*: How to design for resilient systems that avoid unbounded polarization or \"The Scaling Trap\".\n\n*Path Dependence*: Why the _how_ of the deliberation process matters as much as the _what_ of the final vote.\n\n#### *Changes Included in PR #1112*\n\n*Chapter 5-4 (Augmented Deliberation)*: Added a discussion on the distinction between _discovering_ consensus and _achieving_ it through dynamic movement.\n\n*Chapter 5-6 (⿻ Voting)*: Addressed \"gaming\" as a consequence of optimizing against static rules, proposing a shift toward dynamic frameworks.\n\n*Theoretical Foundation*: Cited *Ishibashi (2025)*, providing a rigorous mathematical and systems-theoretic foundation for these limitations.\n\n#### *References*\n\n• Ishibashi, R. (2025). \"Dynamic Tools for Digital Democracy: From Static Aggregation to Process Design.\" Zenodo. <https://zenodo.org/records/18074832|https://zenodo.org/records/18074832>",
+        "title": "#1113 Addressing the Theoretical Gap: Integrating Dynamic Process Perspectives into Deliberation and Voting Frameworks",
+        "title_link": "https://github.com/pluralitybook/plurality/issues/1113",
+        "footer": "<https://github.com/pluralitybook/plurality|pluralitybook/plurality>",
+        "fields": [
+          {
+            "value": "1",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ntT+v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/pluralitybook/plurality/issues/1113"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://github.com/pluralitybook/plurality/issues/1113>"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08MG09M5FH",
+    "text": "<@U08MG09M5FH>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1767678056.668449",
+    "user_name": "tahashika（たはしか）",
+    "text_readable": "@tahashika0712さんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767679269.339159",
+    "client_msg_id": "2aa99ef3-5fd6-4741-9dc7-164979dab974",
+    "text": "まずこっちを読むか\n<https://zenodo.org/records/18074832>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767679269.339159",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1767679751.549409",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://zenodo.org/records/18074832",
+        "service_icon": "https://zenodo.org/static/apple-touch-icon-120.png",
+        "id": 1,
+        "original_url": "https://zenodo.org/records/18074832",
+        "fallback": "Zenodo: Dynamic Tools for Digital Democracy: From Static Aggregation to Process Design",
+        "text": "Digital democracy practitioners have built important infrastructure for civic participation over the past decade. Platforms like vTaiwan, Polis, and Decidim have demonstrated that technology can facilitate large-scale deliberation. Yet these initiatives consistently encounter similar challenges: difficulty scaling beyond pilot projects, outcomes that fail to translate into sustained change, and occasional unintended consequences such as polarization or capture by motivated minorities. This paper identifies a common root cause: current theoretical frameworks—inherited from equilibrium-based approaches exemplified by Anderson's 'More is Different' (1972) and formalized in Landau-Ginzburg theory—describe static states rather than dynamic processes. These frameworks can compare endpoints but cannot represent transitions, instabilities, or path dependence. We introduce an alternative: the Stuart-Landau equation, a mathematical framework that describes how order emerges dynamically through critical transitions. This framework enables practitioners to detect approaching instabilities, design temporal structures for deliberation, and understand when and why democratic processes succeed or fail. Rather than replacing existing work, this tool extends it: the infrastructure already built becomes more powerful when guided by dynamic theory.",
+        "title": "Dynamic Tools for Digital Democracy: From Static Aggregation to Process Design",
+        "title_link": "https://zenodo.org/records/18074832",
+        "service_name": "Zenodo"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6fgFN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まずこっちを読むか\n"
+              },
+              {
+                "type": "link",
+                "url": "https://zenodo.org/records/18074832"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まずこっちを読むか\n<https://zenodo.org/records/18074832>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767679751.549409",
+    "client_msg_id": "01aa10a4-b7ee-46c3-8781-9dd4c00c64c5",
+    "text": "by gemini\n&gt;  この文書は、従来の*デジタル民主主義*が抱く限界を克服するため、静的な均衡モデルから*動的なプロセス設計*への転換を提唱しています。著者である石橋氏は、既存のプラットフォームが直面するスケールアップの困難や分極化といった課題は、時間経過による変化を捉えられない*理論的欠陥*に起因すると指摘します。その解決策として、物理学や生物学で用いられる*スチュアート・ランダウ方程式*を導入し、合意形成がいつ、どのように創発するかを数学的に解明する手法を提示しています。この枠組みにより、実務者は*システムの不安定性*を事前に察知し、議論の各段階を適切に管理・制御することが可能になります。最終的に本書は、既存のインフラを否定するのではなく、*動態理論*によってその真価をさらに引き出すための新たな指針を提示しています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767679269.339159",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "23o4c",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "by gemini\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " この文書は、従来の"
+              },
+              {
+                "type": "text",
+                "text": "デジタル民主主義",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "が抱く限界を克服するため、静的な均衡モデルから"
+              },
+              {
+                "type": "text",
+                "text": "動的なプロセス設計",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "への転換を提唱しています。著者である石橋氏は、既存のプラットフォームが直面するスケールアップの困難や分極化といった課題は、時間経過による変化を捉えられない"
+              },
+              {
+                "type": "text",
+                "text": "理論的欠陥",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "に起因すると指摘します。その解決策として、物理学や生物学で用いられる"
+              },
+              {
+                "type": "text",
+                "text": "スチュアート・ランダウ方程式",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を導入し、合意形成がいつ、どのように創発するかを数学的に解明する手法を提示しています。この枠組みにより、実務者は"
+              },
+              {
+                "type": "text",
+                "text": "システムの不安定性",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を事前に察知し、議論の各段階を適切に管理・制御することが可能になります。最終的に本書は、既存のインフラを否定するのではなく、"
+              },
+              {
+                "type": "text",
+                "text": "動態理論",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "によってその真価をさらに引き出すための新たな指針を提示しています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1767679269.339159",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "by gemini\n>  この文書は、従来の*デジタル民主主義*が抱く限界を克服するため、静的な均衡モデルから*動的なプロセス設計*への転換を提唱しています。著者である石橋氏は、既存のプラットフォームが直面するスケールアップの困難や分極化といった課題は、時間経過による変化を捉えられない*理論的欠陥*に起因すると指摘します。その解決策として、物理学や生物学で用いられる*スチュアート・ランダウ方程式*を導入し、合意形成がいつ、どのように創発するかを数学的に解明する手法を提示しています。この枠組みにより、実務者は*システムの不安定性*を事前に察知し、議論の各段階を適切に管理・制御することが可能になります。最終的に本書は、既存のインフラを否定するのではなく、*動態理論*によってその真価をさらに引き出すための新たな指針を提示しています。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767680952.292909",
+    "client_msg_id": "97184cd9-786f-4a8a-88ea-38bea8c0e7d2",
+    "text": "<@U08HV1H5HKK> 概要は把握しましたよ〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uGZ53",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HV1H5HKK"
+              },
+              {
+                "type": "text",
+                "text": " 概要は把握しましたよ〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@rysh.cact 概要は把握しましたよ〜"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08HV1H5HKK",
+    "text": "<@U08HV1H5HKK>さんがチャンネルに参加しました",
+    "inviter": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767680954.880159",
+    "user_name": "石橋隆平",
+    "text_readable": "@rysh.cactさんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767691196.137029",
+    "client_msg_id": "99872370-8581-46EB-8972-0F3B56BE2181",
+    "text": "理解できました？\nわからないところあったら聞いてください！\nありがとうございます！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n+eKW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "理解できました？\nわからないところあったら聞いてください！\nありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "理解できました？\nわからないところあったら聞いてください！\nありがとうございます！"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767691439.489789",
+    "client_msg_id": "64BF59AB-2691-4016-B304-322121BCBE1B",
+    "text": "これ参考になるかも？\n興味あればどうぞ\n<https://gemini.google.com/share/b210d9012855|https://gemini.google.com/share/b210d9012855>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://www.gstatic.com/lamda/images/gemini_aurora_thumbnail_4g_e74822ff0ca4259beb718.png",
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_bytes": 29249,
+        "from_url": "https://gemini.google.com/share/b210d9012855",
+        "service_icon": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png",
+        "id": 1,
+        "original_url": "https://gemini.google.com/share/b210d9012855",
+        "fallback": "Gemini: Gemini - H.G.ウェルズ歴史観の系譜と論破",
+        "text": "Created with Gemini",
+        "title": "Gemini - H.G.ウェルズ歴史観の系譜と論破",
+        "title_link": "https://gemini.google.com/share/b210d9012855",
+        "service_name": "Gemini"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/fkbq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ参考になるかも？\n興味あればどうぞ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://gemini.google.com/share/b210d9012855",
+                "text": "https://gemini.google.com/share/b210d9012855"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "これ参考になるかも？\n興味あればどうぞ\n<https://gemini.google.com/share/b210d9012855|https://gemini.google.com/share/b210d9012855>"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767691893.607659",
+    "client_msg_id": "44449501-E147-4915-B30C-95B469E0F3FA",
+    "text": "こっちの方がわかりやすいかも？\n論文は人類に理解できるように噛み砕いて書いてあるので\n<https://doi.org/10.5281/zenodo.18143018|https://doi.org/10.5281/zenodo.18143018>\n<https://doi.org/10.5281/zenodo.18143246|https://doi.org/10.5281/zenodo.18143246>\n<https://doi.org/10.5281/zenodo.18149484|https://doi.org/10.5281/zenodo.18149484>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://doi.org/10.5281/zenodo.18143018",
+        "service_icon": "https://zenodo.org/favicon.ico",
+        "id": 1,
+        "original_url": "https://doi.org/10.5281/zenodo.18143018",
+        "fallback": "Zenodo: A Reduction Network for Order Formation: From Newton to MIPS",
+        "text": "How are gravitational clustering, neural synchronization, and bacterial swarmingrelated? This paper presents a reduction networkan explicit diagram of limitingprocedures connecting models of order formation across three centuries of physics.We trace the paths: Newton →HMF (phenomenological modeling), HMF →Kuramoto (overdamped limit), Stuart-Landau →Kuramoto (phase reduction), Ku-ramoto →Vicsek (spatial extension), Vicsek →MIPS (coarse-graining). Each arrowspecies validity conditions and what is preserved or lost.While individual connections are well-established (Acebrón et al., Gupta et al.,Strogatz), the network structure itself has not been systematically pre-sented. We demonstrate its utility as a model selection guide: given a physicalsystem's properties (inertia, spatial structure, noise), one can identify the appropri-ate node and applicable theorems.The framework extends beyond physics. Shimizu's and Kuramoto's work hasbeen applied to organizational dynamics and economic systems, suggesting that themathematics of emergenceattraction, instability, symmetry breaking, saturationmay be substrate-independent.",
+        "title": "A Reduction Network for Order Formation: From Newton to MIPS",
+        "title_link": "https://doi.org/10.5281/zenodo.18143018",
+        "service_name": "Zenodo"
+      },
+      {
+        "from_url": "https://doi.org/10.5281/zenodo.18149484",
+        "service_icon": "https://zenodo.org/favicon.ico",
+        "id": 2,
+        "original_url": "https://doi.org/10.5281/zenodo.18149484",
+        "fallback": "Zenodo: Relational Emergence Systems",
+        "text": "This paper proposes Relational Emergence Systems (RES), a unifying perspective describing how meaning, symbols, and force exist and interact without invoking causation. RES posits that: (1) only relations exist; (2) symbol, meaning, and force are ontologically independent; (3) meaning emerges from relations and persists in the field; (4) selective overwriting and forgetting are possible; (5) force operates as a vector field drawing states toward stable couplings; and (6) all descriptions operate through covariation rather than causation. This perspective integrates insights spanning 2,500 years—from Buddhist pratityasamutpada through Newtonian mechanics, field theory, game theory, Stuart-Landau dynamics, Kuramoto synchronization, the Shimizu-Kuramoto lineage, SECI model, information geometry, and free energy principle. RES provides a unified foundation for understanding tacit knowledge, authority degradation, observer phase transitions, and attractor dynamics, with implications for education and artificial intelligence. The framework embraces its own groundlessness: RES is itself a relational meaning, subject to its own axioms, standing not on absolute foundations but within the relational field it describes.",
+        "title": "Relational Emergence Systems",
+        "title_link": "https://doi.org/10.5281/zenodo.18149484",
+        "service_name": "Zenodo"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zWFzw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こっちの方がわかりやすいかも？\n論文は人類に理解できるように噛み砕いて書いてあるので"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://doi.org/10.5281/zenodo.18143018",
+                "text": "https://doi.org/10.5281/zenodo.18143018"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://doi.org/10.5281/zenodo.18143246",
+                "text": "https://doi.org/10.5281/zenodo.18143246"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://doi.org/10.5281/zenodo.18149484",
+                "text": "https://doi.org/10.5281/zenodo.18149484"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "こっちの方がわかりやすいかも？\n論文は人類に理解できるように噛み砕いて書いてあるので\n<https://doi.org/10.5281/zenodo.18143018|https://doi.org/10.5281/zenodo.18143018>\n<https://doi.org/10.5281/zenodo.18143246|https://doi.org/10.5281/zenodo.18143246>\n<https://doi.org/10.5281/zenodo.18149484|https://doi.org/10.5281/zenodo.18149484>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767695292.390989",
+    "client_msg_id": "4f348333-b070-41d4-a5cb-1821bbea2ff7",
+    "text": "まだざっくり notebooklm で読んだ程度ですが、意見を集め終わってからAIが登場するのではなく、集める行程にも参加させる、みたいなイメージで合ってます？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "F4yQJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだざっくり notebooklm で読んだ程度ですが、意見を集め終わってからAIが登場するのではなく、集める行程にも参加させる、みたいなイメージで合ってます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まだざっくり notebooklm で読んだ程度ですが、意見を集め終わってからAIが登場するのではなく、集める行程にも参加させる、みたいなイメージで合ってます？"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U08M5UU4B54",
+    "text": "<@U08M5UU4B54>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1767698770.603559",
+    "user_name": "HideTanaami",
+    "text_readable": "@hide.tanaamiさんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767722071.578559",
+    "client_msg_id": "A07EEB71-8D44-430B-87B2-BC7ACF5902BA",
+    "text": "もともとの中核になってる哲学が静的モデルで創発を記述できてなかったんです。\nぼくはそこの哲学を批判して動的モデルでアップデートしました。\nそれをデジタル民主主義のアルゴリズムや設計に導入すると衆愚政治になるのが回避できます",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JLoh9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もともとの中核になってる哲学が静的モデルで創発を記述できてなかったんです。\nぼくはそこの哲学を批判して動的モデルでアップデートしました。\nそれをデジタル民主主義のアルゴリズムや設計に導入すると衆愚政治になるのが回避できます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "もともとの中核になってる哲学が静的モデルで創発を記述できてなかったんです。\nぼくはそこの哲学を批判して動的モデルでアップデートしました。\nそれをデジタル民主主義のアルゴリズムや設計に導入すると衆愚政治になるのが回避できます"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767722186.199989",
+    "client_msg_id": "63FA577D-A8FB-40FC-B40E-81104415C1A6",
+    "text": "僕のその辺の研究はまだ査読中ですが、Journal of PhilosophyやMINDでデスクリジェクトされず査読開始されました。\nあと、いままで神秘とされていた未解決問題のほとんどを解明しました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2dkqc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕のその辺の研究はまだ査読中ですが、Journal of PhilosophyやMINDでデスクリジェクトされず査読開始されました。\nあと、いままで神秘とされていた未解決問題のほとんどを解明しました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "僕のその辺の研究はまだ査読中ですが、Journal of PhilosophyやMINDでデスクリジェクトされず査読開始されました。\nあと、いままで神秘とされていた未解決問題のほとんどを解明しました"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767722269.653129",
+    "client_msg_id": "781E58E2-204D-447E-8895-99C6D1677F8A",
+    "text": "昨日24本書いた論文群の全体像と格論文の簡単な説明です\n<https://elanare.jp/blog/relational-emergence-22-papers|https://elanare.jp/blog/relational-emergence-22-papers>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://elanare.jp/blog/relational-emergence-22-papers",
+        "ts": 1767625200,
+        "id": 1,
+        "original_url": "https://elanare.jp/blog/relational-emergence-22-papers",
+        "fallback": "Elanare",
+        "text": "Elanareの会社紹介サイト",
+        "title": "Elanare",
+        "title_link": "https://elanare.jp/blog/relational-emergence-22-papers",
+        "service_name": "elanare.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zwnFZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "昨日24本書いた論文群の全体像と格論文の簡単な説明です"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://elanare.jp/blog/relational-emergence-22-papers",
+                "text": "https://elanare.jp/blog/relational-emergence-22-papers"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "昨日24本書いた論文群の全体像と格論文の簡単な説明です\n<https://elanare.jp/blog/relational-emergence-22-papers|https://elanare.jp/blog/relational-emergence-22-papers>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1767746756.778419",
+    "client_msg_id": "a23a13d4-0ea3-4e52-969f-b88a63537640",
+    "text": "&gt;  いままで神秘とされていた未解決問題\nって例えばどんなのですか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZWPRI",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": " いままで神秘とされていた未解決問題"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "って例えばどんなのですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ">  いままで神秘とされていた未解決問題\nって例えばどんなのですか？"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767752175.410039",
+    "client_msg_id": "8E26931F-F99F-4EB1-8163-2691D62AB387",
+    "text": "ブログに説明書いたので見てください\n一言で説明して在るので早いですよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "F8taq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ブログに説明書いたので見てください\n一言で説明して在るので早いですよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "ブログに説明書いたので見てください\n一言で説明して在るので早いですよ"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767752248.480429",
+    "client_msg_id": "0C1634F3-1B6D-4A4D-9095-8DCF9E60F87E",
+    "text": "ググレカス\nチャピレカス\nみたいな感じですが、確認しないでポジションだけ表明するのは知的怠慢です",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ENcF4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ググレカス\nチャピレカス\nみたいな感じですが、確認しないでポジションだけ表明するのは知的怠慢です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "ググレカス\nチャピレカス\nみたいな感じですが、確認しないでポジションだけ表明するのは知的怠慢です"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767752274.732559",
+    "client_msg_id": "14C29740-A90A-492C-8ADC-EEE767DE8538",
+    "text": "コミュニケーションのフリをした暴力ですよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pMAbf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コミュニケーションのフリをした暴力ですよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "コミュニケーションのフリをした暴力ですよ"
+  },
+  {
+    "user": "U08HV1H5HKK",
+    "type": "message",
+    "ts": "1767753438.570179",
+    "client_msg_id": "5ECC81FE-6D69-40CA-9F9E-8701E35348DF",
+    "text": "ぶっきらぼうに見えるかもしれないですが、私の発言を無視した返答は、対人拒絶過敏症の私にとっては、アレルギー患者がアレルゲンを無理やり食べさせられてるようなものです。\n面倒なら対応しなくて結構です\nトップジャーナルに送っており、Zenodoというプレプリントサーバーの性質上、変更も削除もできません\n全てが公知になるのは時間の問題です\n実際にダウンロード数はジリジリ増えています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y/to2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ぶっきらぼうに見えるかもしれないですが、私の発言を無視した返答は、対人拒絶過敏症の私にとっては、アレルギー患者がアレルゲンを無理やり食べさせられてるようなものです。\n面倒なら対応しなくて結構です\nトップジャーナルに送っており、Zenodoというプレプリントサーバーの性質上、変更も削除もできません\n全てが公知になるのは時間の問題です\n実際にダウンロード数はジリジリ増えています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "石橋隆平",
+    "text_readable": "ぶっきらぼうに見えるかもしれないですが、私の発言を無視した返答は、対人拒絶過敏症の私にとっては、アレルギー患者がアレルゲンを無理やり食べさせられてるようなものです。\n面倒なら対応しなくて結構です\nトップジャーナルに送っており、Zenodoというプレプリントサーバーの性質上、変更も削除もできません\n全てが公知になるのは時間の問題です\n実際にダウンロード数はジリジリ増えています"
+  }
+]

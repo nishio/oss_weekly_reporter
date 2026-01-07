@@ -1,0 +1,975 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1767244417.029629",
+    "client_msg_id": "5565dcee-96ee-4ea6-9b40-48e166a3dde0",
+    "text": "本日はあけおめということで、定例はお休みです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767244417.029629",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1767259572.232339",
+    "reply_users": [
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HR/1g",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日はあけおめということで、定例はお休みです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08NZH1RY4S",
+          "U08PD4Y0D9V",
+          "U08J64P3SF4"
+        ],
+        "count": 3
+      },
+      {
+        "name": "+1::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "本日はあけおめということで、定例はお休みです！"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1767259572.232339",
+    "client_msg_id": "1944E8CD-8302-44DE-BCCF-CA6DE10114CF",
+    "text": "あけめです！今年もどうぞ:bow::skin-tone-2:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767244417.029629",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X0Sef",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あけめです！今年もどうぞ"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647-1f3fb",
+                "skin_tone": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bamboo",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1767244417.029629",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "あけめです！今年もどうぞ:bow::skin-tone-2:"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1767258026.214949",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767258026.214949",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1767260001.970549",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yrn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1767258026.214949",
+    "root": {
+      "user": "USLACKBOT",
+      "type": "message",
+      "ts": "1767258026.214949",
+      "bot_id": "B01",
+      "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1767258026.214949",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1767260001.970549",
+      "reply_users": [
+        "U08HWJ80CHG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://meet.google.com/ozd-knuy-tbx",
+          "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+          "thumb_width": 192,
+          "thumb_height": 192,
+          "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+          "id": 1,
+          "original_url": "https://meet.google.com/ozd-knuy-tbx",
+          "fallback": "Meet",
+          "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "title": "Meet",
+          "title_link": "https://meet.google.com/ozd-knuy-tbx",
+          "service_name": "meet.google.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yrn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダー : "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C08FL5L6GSH"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": " 1時間後より、Polimoney開発会議を開催します！"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "clock9",
+                  "unicode": "1f558"
+                },
+                {
+                  "type": "text",
+                  "text": " 19:00-20:00（毎週木曜日）\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "link",
+                  "unicode": "1f517"
+                },
+                {
+                  "type": "text",
+                  "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "memo",
+                  "unicode": "1f4dd"
+                },
+                {
+                  "type": "text",
+                  "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1767260001.970549",
+    "client_msg_id": "425a4ece-81d0-49ff-9c1d-380b6cd2b721",
+    "text": "※念の為\n今回はお休みです！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H33VD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "※念の為\n今回はお休みです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1767258026.214949",
+    "user_name": "小野翔太",
+    "text_readable": "※念の為\n今回はお休みです！"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08HWJ80CHG",
+    "thread_ts": "1767258026.214949",
+    "root": {
+      "user": "USLACKBOT",
+      "type": "message",
+      "ts": "1767258026.214949",
+      "bot_id": "B01",
+      "text": "リマインダー : <#C08FL5L6GSH|> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1767258026.214949",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1767260001.970549",
+      "reply_users": [
+        "U08HWJ80CHG"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "from_url": "https://meet.google.com/ozd-knuy-tbx",
+          "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+          "thumb_width": 192,
+          "thumb_height": 192,
+          "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+          "id": 1,
+          "original_url": "https://meet.google.com/ozd-knuy-tbx",
+          "fallback": "Meet",
+          "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+          "title": "Meet",
+          "title_link": "https://meet.google.com/ozd-knuy-tbx",
+          "service_name": "meet.google.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yrn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "リマインダー : "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C08FL5L6GSH"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": " 1時間後より、Polimoney開発会議を開催します！"
+                },
+                {
+                  "type": "emoji",
+                  "name": "mega",
+                  "unicode": "1f4e3"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "clock9",
+                  "unicode": "1f558"
+                },
+                {
+                  "type": "text",
+                  "text": " 19:00-20:00（毎週木曜日）\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "link",
+                  "unicode": "1f517"
+                },
+                {
+                  "type": "text",
+                  "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "memo",
+                  "unicode": "1f4dd"
+                },
+                {
+                  "type": "text",
+                  "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1767260001.970549",
+    "client_msg_id": "425a4ece-81d0-49ff-9c1d-380b6cd2b721",
+    "text": "※念の為\n今回はお休みです！",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H33VD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "※念の為\n今回はお休みです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "※念の為\n今回はお休みです！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1767261019.573859",
+    "bot_id": "B01",
+    "text": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L7=n7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : リマインダー : <#C08FL5L6GSH|> :mega: Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "text": "レビュー結果を受けた修正完了しました\n<https://github.com/digitaldemocracy2030/polimoney/pull/244>",
+    "files": [
+      {
+        "id": "F0A6L81RWG5",
+        "created": 1767540202,
+        "timestamp": 1767540202,
+        "name": "nakamura_20260105.png",
+        "title": "nakamura_20260105.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1056924,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A6L81RWG5/nakamura_20260105.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A6L81RWG5/download/nakamura_20260105.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_360.png",
+        "thumb_360_w": 39,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_480.png",
+        "thumb_480_w": 52,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_720.png",
+        "thumb_720_w": 78,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 7372,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_960.png",
+        "thumb_960_w": 104,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L81RWG5-a95f0ad74c/nakamura_20260105_1024.png",
+        "thumb_1024_w": 111,
+        "thumb_1024_h": 1024,
+        "original_w": 958,
+        "original_h": 8828,
+        "thumb_tiny": "AwAwAAa+sgxzv/FD/hS+Yvo//fB/wpJAPLAJQD/aHFRbU/v2/wD3x/8AXp6AWaM0c0c0gGsFKjcoI9MZpuyL/nmP++KcrhgCD1GaXIoA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A6L81RWG5/nakamura_20260105.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A6L81RWG5-1344ffc588",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0A6L82PA3F",
+        "created": 1767540208,
+        "timestamp": 1767540208,
+        "name": "iwanaga_20260105.png",
+        "title": "iwanaga_20260105.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1632507,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0A6L82PA3F/iwanaga_20260105.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0A6L82PA3F/download/iwanaga_20260105.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_360.png",
+        "thumb_360_w": 27,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_480.png",
+        "thumb_480_w": 36,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_720.png",
+        "thumb_720_w": 54,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 10666,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_960.png",
+        "thumb_960_w": 72,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0A6L82PA3F-a104b44797/iwanaga_20260105_1024.png",
+        "thumb_1024_w": 77,
+        "thumb_1024_h": 1024,
+        "original_w": 958,
+        "original_h": 12773,
+        "thumb_tiny": "AwAwAATSUYFLRRQA1i+flVT9Tj+lJmT+6v8A31/9an9aKACigZxz1ooA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0A6L82PA3F/iwanaga_20260105.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0A6L82PA3F-f8a4f5fc94",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IE32Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レビュー結果を受けた修正完了しました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney/pull/244"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1767540215.912389",
+    "client_msg_id": "3ed92619-9db8-47d0-b808-ba16c2b58769",
+    "thread_ts": "1767540215.912389",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1767540488.828749",
+    "reply_users": [
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "igyo",
+        "users": [
+          "U08NZH1RY4S",
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U08J60VKDUY",
+          "U08J64P3SF4"
+        ],
+        "count": 5
+      },
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U099TAD6RKL",
+    "text_readable": "レビュー結果を受けた修正完了しました\n<https://github.com/digitaldemocracy2030/polimoney/pull/244>"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1767540488.828749",
+    "client_msg_id": "9ad2a9f8-2e18-473d-b237-6cbc2d6c923b",
+    "text": "## 各値の定義（ベースとなる定義、グラフに記載の表記とは別）\n収入総額: 収入シートに記載の各収入額の合計\n支出総額: 各支出シートに記載の各支出項目の金額の合計\n公費負担額: 支出総額のうち、公費負担となっている金額の合計\n繰越: 収入総額 - 支出総額",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767540215.912389",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LVqqG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "## 各値の定義（ベースとなる定義、グラフに記載の表記とは別）\n収入総額: 収入シートに記載の各収入額の合計\n支出総額: 各支出シートに記載の各支出項目の金額の合計\n公費負担額: 支出総額のうち、公費負担となっている金額の合計\n繰越: 収入総額 - 支出総額"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1767540215.912389",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "## 各値の定義（ベースとなる定義、グラフに記載の表記とは別）\n収入総額: 収入シートに記載の各収入額の合計\n支出総額: 各支出シートに記載の各支出項目の金額の合計\n公費負担額: 支出総額のうち、公費負担となっている金額の合計\n繰越: 収入総額 - 支出総額"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1767676511.451789",
+    "client_msg_id": "e82de089-fbcc-450d-877a-9e2335ef6acd",
+    "text": "・岩永さん、中村さんのページはまだプレビュー状態ですが完成したので、無事burikaigi資料に間に合いました:bow:\nおふたりからOKいただき次第一般公開に切り替えたいです\n\n・backendをむりやりazureで稼働させてログイン機能から順次実装させたい（burikaigiのあとに頑張るｗ）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7OHcL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "・岩永さん、中村さんのページはまだプレビュー状態ですが完成したので、無事burikaigi資料に間に合いました"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "\nおふたりからOKいただき次第一般公開に切り替えたいです\n\n・backendをむりやりazureで稼働させてログイン機能から順次実装させたい（burikaigiのあとに頑張るｗ）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U099TAD6RKL",
+          "U08U6HFDS1G",
+          "U08J64P3SF4"
+        ],
+        "count": 3
+      },
+      {
+        "name": "muscle",
+        "users": [
+          "U08HWJ80CHG",
+          "U08J64P3SF4"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "・岩永さん、中村さんのページはまだプレビュー状態ですが完成したので、無事burikaigi資料に間に合いました:bow:\nおふたりからOKいただき次第一般公開に切り替えたいです\n\n・backendをむりやりazureで稼働させてログイン機能から順次実装させたい（burikaigiのあとに頑張るｗ）"
+  },
+  {
+    "user": "U08U6HFDS1G",
+    "type": "message",
+    "ts": "1767685316.379459",
+    "client_msg_id": "6d0b103c-40de-4913-b079-78d2a4f7cd68",
+    "text": "今週の木曜日に開発会議があるようでしたら参加したいと考えています。（だめになったらすみません。）よろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767685316.379459",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1767704258.112729",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08U6HFDS1G"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2VWcs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今週の木曜日に開発会議があるようでしたら参加したいと考えています。（だめになったらすみません。）よろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U099TAD6RKL",
+          "U08NZH1RY4S",
+          "U08J64P3SF4",
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 5
+      },
+      {
+        "name": "fire",
+        "users": [
+          "U08NZH1RY4S",
+          "U08J64P3SF4",
+          "U08HWJ80CHG"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "U08U6HFDS1G",
+    "text_readable": "今週の木曜日に開発会議があるようでしたら参加したいと考えています。（だめになったらすみません。）よろしくお願いします。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1767689871.243919",
+    "client_msg_id": "7cc13c4d-d221-4241-a931-f5664629987f",
+    "text": "今週はあります！ご都合つくようでしたらぜひご参加ください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767685316.379459",
+    "parent_user_id": "U08U6HFDS1G",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dJSYB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今週はあります！ご都合つくようでしたらぜひご参加ください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08U6HFDS1G"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1767685316.379459",
+    "user_name": "小野翔太",
+    "text_readable": "今週はあります！ご都合つくようでしたらぜひご参加ください！"
+  },
+  {
+    "user": "U08U6HFDS1G",
+    "type": "message",
+    "ts": "1767704258.112729",
+    "client_msg_id": "fbedb11b-a63c-4071-9061-7ec764f54c32",
+    "text": "ありがとうございます。承知しました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1767685316.379459",
+    "parent_user_id": "U08U6HFDS1G",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cQw4m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。承知しました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1767685316.379459",
+    "user_name": "U08U6HFDS1G",
+    "text_readable": "ありがとうございます。承知しました！"
+  },
+  {
+    "user": "U0A6RSYBV5G",
+    "type": "message",
+    "ts": "1767691339.194839",
+    "client_msg_id": "86c7e520-ecff-48d2-83eb-d7c56764bb12",
+    "text": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vc+SR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A6RSYBV5G",
+    "text_readable": "こんにちは。明けましておめでとうございます。\n私は誰かの勧告に従ってURLリンクに沿って偶然このスラックに参加した開発者です。\nこのスラックについて教えていただけますか。\nよろしくお願いします。"
+  }
+]
