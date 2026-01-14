@@ -1,0 +1,721 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U0A84RYC3T2",
+    "text": "<@U0A84RYC3T2>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1767796113.122029",
+    "user_name": "U0A84RYC3T2",
+    "text_readable": "<@U0A84RYC3T2>さんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768185871.021999",
+    "client_msg_id": "020ca56d-ac76-4392-ae87-3b4965a09b42",
+    "text": "• [document] 主文書\n    ◦ 話題の中心となる文書。A4数枚程度の分量を想定\n        ▪︎ markdown の他、PDFやスライド資料などの可能性もある\n    ◦ id が振られ、個別の URL を持つ\n        ▪︎ `&lt;//idobata.dd2030.org/docs/1&gt;` のような感じ\n• [opinion] 意見\n    ◦ 補足 or 疑問 (要検討)\n    ◦ 100字の要約と、1000字の本文\n        ▪︎ AI がユーザーとの対話を元に生成し、ユーザーが内容を確認の上で post を実行する\n        ▪︎ 一度 post して公開されたものは基本的に編集、削除されない\n        ▪︎ (運営権限では変更削除できるようにしておく必要はありそう)\n    ◦ 個別に id が振られ、 URL も持つ\n    ◦ 本文内には `OP-123` のような記法で他の opinion へのリンクを貼れる\n        ▪︎ 貼られたリンクはメタデータとして別途保存する\n    ◦ URLは `&lt;//idobata.dd2030.org/docs/1/OP-123&gt;` のような感じにするか\n        ▪︎ 相互リンク関係を 2hop くらい一望できるといい (cosence 的な)\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f0L/X",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "[document] 主文書"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "話題の中心となる文書。A4数枚程度の分量を想定"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "markdown の他、PDFやスライド資料などの可能性もある"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "id が振られ、個別の URL を持つ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "//idobata.dd2030.org/docs/1",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " のような感じ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "[opinion] 意見"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "補足 or 疑問 (要検討)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "100字の要約と、1000字の本文"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "AI がユーザーとの対話を元に生成し、ユーザーが内容を確認の上で post を実行する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一度 post して公開されたものは基本的に編集、削除されない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(運営権限では変更削除できるようにしておく必要はありそう)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "個別に id が振られ、 URL も持つ"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "本文内には "
+                  },
+                  {
+                    "type": "text",
+                    "text": "OP-123",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " のような記法で他の opinion へのリンクを貼れる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "貼られたリンクはメタデータとして別途保存する"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "URLは "
+                  },
+                  {
+                    "type": "link",
+                    "url": "//idobata.dd2030.org/docs/1/OP-123",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " のような感じにするか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "相互リンク関係を 2hop くらい一望できるといい (cosence 的な)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U09H5EMC3KJ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "• [document] 主文書\n    ◦ 話題の中心となる文書。A4数枚程度の分量を想定\n        ▪︎ markdown の他、PDFやスライド資料などの可能性もある\n    ◦ id が振られ、個別の URL を持つ\n        ▪︎ `<//idobata.dd2030.org/docs/1>` のような感じ\n• [opinion] 意見\n    ◦ 補足 or 疑問 (要検討)\n    ◦ 100字の要約と、1000字の本文\n        ▪︎ AI がユーザーとの対話を元に生成し、ユーザーが内容を確認の上で post を実行する\n        ▪︎ 一度 post して公開されたものは基本的に編集、削除されない\n        ▪︎ (運営権限では変更削除できるようにしておく必要はありそう)\n    ◦ 個別に id が振られ、 URL も持つ\n    ◦ 本文内には `OP-123` のような記法で他の opinion へのリンクを貼れる\n        ▪︎ 貼られたリンクはメタデータとして別途保存する\n    ◦ URLは `<//idobata.dd2030.org/docs/1/OP-123>` のような感じにするか\n        ▪︎ 相互リンク関係を 2hop くらい一望できるといい (cosence 的な)\n"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768186008.490379",
+    "client_msg_id": "87e3a20c-41e4-4b12-bdbd-8d445a599cc9",
+    "text": "• idobata-bot\n    ◦ 「いどばたさん」 (愛称募集中)\n    ◦ document と opinion について何らかの RAG 手法で知識を有している\n        ▪︎ NotebookLM みたいな感じ？\n    ◦ `&lt;//idobata.dd2030.org/docs/1&gt;` の右下からチャットウィンドウでこんにちは\n    ◦ まずは document について「ご質問あればどうぞ」と促す\n    ◦ 対話中にユーザーから以下が提起されたら\n        ▪︎ document からでは答えられないような疑問点\n        ▪︎ document への改善提案\n    ◦ まずは類似の opinion を探し、あればそれを提示する\n    ◦ なければ、 新規 opinion の草稿を提示し、さらに対話を重ねて草稿を練っていく\n    ◦ `&lt;//idobata.dd2030.org/docs/1/OP-123&gt;` にも同様にチャットウィンドウを出せてもいいな\n    ◦ コンテキスト管理\n        ▪︎ DBコストをかけたくないのでサーバには保存しない\n        ▪︎ ページ遷移してもコンテキストが失われないように localStorage に保存でいいかな\n        ▪︎ 別のデバイスで会話を再開したい、という要望が多ければその時考える\n            • ユーザ管理を無しで行くならコンテキストを圧縮してQRコード経由で引き渡す、とかは出来うる\n            • コンテキストを単一のテキストファイルにシリアライズしてユーザーがコピペで保存/復元できるようにすればいいか\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XbbfA",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "idobata-bot"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「いどばたさん」 (愛称募集中)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "document と opinion について何らかの RAG 手法で知識を有している"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "NotebookLM みたいな感じ？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "//idobata.dd2030.org/docs/1",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " の右下からチャットウィンドウでこんにちは"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "まずは document について「ご質問あればどうぞ」と促す"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "対話中にユーザーから以下が提起されたら"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "document からでは答えられないような疑問点"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "document への改善提案"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "まずは類似の opinion を探し、あればそれを提示する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "なければ、 新規 opinion の草稿を提示し、さらに対話を重ねて草稿を練っていく"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "//idobata.dd2030.org/docs/1/OP-123",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " にも同様にチャットウィンドウを出せてもいいな"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "コンテキスト管理"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "DBコストをかけたくないのでサーバには保存しない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ページ遷移してもコンテキストが失われないように localStorage に保存でいいかな"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "別のデバイスで会話を再開したい、という要望が多ければその時考える"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユーザ管理を無しで行くならコンテキストを圧縮してQRコード経由で引き渡す、とかは出来うる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "コンテキストを単一のテキストファイルにシリアライズしてユーザーがコピペで保存/復元できるようにすればいいか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "• idobata-bot\n    ◦ 「いどばたさん」 (愛称募集中)\n    ◦ document と opinion について何らかの RAG 手法で知識を有している\n        ▪︎ NotebookLM みたいな感じ？\n    ◦ `<//idobata.dd2030.org/docs/1>` の右下からチャットウィンドウでこんにちは\n    ◦ まずは document について「ご質問あればどうぞ」と促す\n    ◦ 対話中にユーザーから以下が提起されたら\n        ▪︎ document からでは答えられないような疑問点\n        ▪︎ document への改善提案\n    ◦ まずは類似の opinion を探し、あればそれを提示する\n    ◦ なければ、 新規 opinion の草稿を提示し、さらに対話を重ねて草稿を練っていく\n    ◦ `<//idobata.dd2030.org/docs/1/OP-123>` にも同様にチャットウィンドウを出せてもいいな\n    ◦ コンテキスト管理\n        ▪︎ DBコストをかけたくないのでサーバには保存しない\n        ▪︎ ページ遷移してもコンテキストが失われないように localStorage に保存でいいかな\n        ▪︎ 別のデバイスで会話を再開したい、という要望が多ければその時考える\n            • ユーザ管理を無しで行くならコンテキストを圧縮してQRコード経由で引き渡す、とかは出来うる\n            • コンテキストを単一のテキストファイルにシリアライズしてユーザーがコピペで保存/復元できるようにすればいいか\n"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768192874.873709",
+    "client_msg_id": "ec160219-7bf5-45e0-aeb8-56b983989cae",
+    "text": "• ユーザ管理\n    ◦ サインアップ不要でいきなり使えるようにしたい\n    ◦ 複数の doc への 複数の opinion を「同一人物からのものである」と主張したい人のためにサインアップを提供するか\n    ◦ SNSを巻き込みたいので、SNS上のアカウントと opinion の紐付けを保証する仕組みを何かしら用意したいかも\n        ▪︎ 順当なのは X とかの oauth を使うことだが、今は threads など様々な SNS が分散しており、それらに個別対応するのは面倒くさい\n        ▪︎ もっと汎用的な暗号論的手法で対応できないか？\n            • 2ch の trip 的なものとか\n            • <https://aosankaku.net/blog/invalid_saltpack_sign/|keybase の sns 認証> の仕組みを真似できないか？ \n",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://aosankaku.net/_astro/og-default.Sky_PEAX.png",
+        "image_width": 1280,
+        "image_height": 720,
+        "image_bytes": 188341,
+        "from_url": "https://aosankaku.net/blog/invalid_saltpack_sign/",
+        "service_icon": "https://aosankaku.net/icon.png",
+        "id": 1,
+        "original_url": "https://aosankaku.net/blog/invalid_saltpack_sign/",
+        "fallback": "AoSankaku's Iroiro Blog: 【Misskey】Keybaseで「これは俺のアカウントだぜ」と証明する方法 | AoSankaku's Iroiro Blog",
+        "text": "Keybaseは本人性を証明するためにめっちゃいいサービスです。やり方について解説していきます。",
+        "title": "【Misskey】Keybaseで「これは俺のアカウントだぜ」と証明する方法 | AoSankaku's Iroiro Blog",
+        "title_link": "https://aosankaku.net/blog/invalid_saltpack_sign/",
+        "service_name": "AoSankaku's Iroiro Blog"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "335jl",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ユーザ管理"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "サインアップ不要でいきなり使えるようにしたい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "複数の doc への 複数の opinion を「同一人物からのものである」と主張したい人のためにサインアップを提供するか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "SNSを巻き込みたいので、SNS上のアカウントと opinion の紐付けを保証する仕組みを何かしら用意したいかも"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "順当なのは X とかの oauth を使うことだが、今は threads など様々な SNS が分散しており、それらに個別対応するのは面倒くさい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "もっと汎用的な暗号論的手法で対応できないか？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "2ch の trip 的なものとか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://aosankaku.net/blog/invalid_saltpack_sign/",
+                    "text": "keybase の sns 認証"
+                  },
+                  {
+                    "type": "text",
+                    "text": " の仕組みを真似できないか？ "
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 3,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "• ユーザ管理\n    ◦ サインアップ不要でいきなり使えるようにしたい\n    ◦ 複数の doc への 複数の opinion を「同一人物からのものである」と主張したい人のためにサインアップを提供するか\n    ◦ SNSを巻き込みたいので、SNS上のアカウントと opinion の紐付けを保証する仕組みを何かしら用意したいかも\n        ▪︎ 順当なのは X とかの oauth を使うことだが、今は threads など様々な SNS が分散しており、それらに個別対応するのは面倒くさい\n        ▪︎ もっと汎用的な暗号論的手法で対応できないか？\n            • 2ch の trip 的なものとか\n            • <https://aosankaku.net/blog/invalid_saltpack_sign/|keybase の sns 認証> の仕組みを真似できないか？ \n"
+  }
+]

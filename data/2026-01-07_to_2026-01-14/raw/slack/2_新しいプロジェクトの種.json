@@ -1,0 +1,270 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768213276.528829",
+    "text": "投稿先間違えた",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "ts": "1768210788.267769",
+        "author_id": "U08JASQKEEM",
+        "channel_id": "C08FL58M3D3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58M3D3",
+            "ts": "1768210788.267769",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "W059k",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "ID基盤を作りたい。\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "dd2030 アカウントを作り、そのアカウントと様々な SNS アカウントが同一所有者であることを暗号学的に保証できるような仕組み"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "参考 keybase "
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://aosankaku.net/blog/invalid_saltpack_sign/"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "今はいろんなSNSがあるが、ユニバーサルに対応したい"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "実例"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "http://id.dd2030.org",
+                              "text": "id.dd2030.org"
+                            },
+                            {
+                              "type": "text",
+                              "text": " でアカウントを作成する。そのアカウント専用の秘密鍵 skey がサーバサイドで生成される"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "link",
+                              "url": "https://x.com/kuboon",
+                              "style": {
+                                "code": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " に対し、 skey で電子署名し、それを含むURL を x でポストする"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ポストしたURL を "
+                            },
+                            {
+                              "type": "link",
+                              "url": "http://id.dd2030.org",
+                              "text": "id.dd2030.org"
+                            },
+                            {
+                              "type": "text",
+                              "text": " に登録することで、 X <-> dd2030 の相互認証が完了する"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "X 以外の SNS では"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "プロフィール URL "
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://x.com/:id",
+                              "style": {
+                                "code": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "そのID を含む投稿 URL "
+                            },
+                            {
+                              "type": "link",
+                              "url": "https://x.com/:id/status/:post_id",
+                              "style": {
+                                "code": true
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "text": " と、そのhtml内から投稿箇所を拾う css selector "
+                            },
+                            {
+                              "type": "text",
+                              "text": "div[data-testid=tweetText] span",
+                              "style": {
+                                "code": true
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "この3つ組みをハードコードでどんどん追加していけば対応できるはず"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1768210788267769",
+        "is_share": true,
+        "fallback": "[January 12th, 2026 6:39 PM] kuboon: ID基盤を作りたい。\n• dd2030 アカウントを作り、そのアカウントと様々な SNS アカウントが同一所有者であることを暗号学的に保証できるような仕組み\n• 参考 keybase <https://aosankaku.net/blog/invalid_saltpack_sign/>\n• 今はいろんなSNSがあるが、ユニバーサルに対応したい\n• 実例\n    ◦ <http://id.dd2030.org|id.dd2030.org> でアカウントを作成する。そのアカウント専用の秘密鍵 skey がサーバサイドで生成される\n    ◦ `<https://x.com/kuboon>` に対し、 skey で電子署名し、それを含むURL を x でポストする\n    ◦ ポストしたURL を <http://id.dd2030.org|id.dd2030.org> に登録することで、 X &lt;-&gt; dd2030 の相互認証が完了する\n• X 以外の SNS では\n    ◦ プロフィール URL `<https://x.com/:id>`\n    ◦ そのID を含む投稿 URL `<https://x.com/:id/status/:post_id>` と、そのhtml内から投稿箇所を拾う css selector `div[data-testid=tweetText] span`\n    ◦ この3つ組みをハードコードでどんどん追加していけば対応できるはず",
+        "text": "ID基盤を作りたい。\n• dd2030 アカウントを作り、そのアカウントと様々な SNS アカウントが同一所有者であることを暗号学的に保証できるような仕組み\n• 参考 keybase <https://aosankaku.net/blog/invalid_saltpack_sign/>\n• 今はいろんなSNSがあるが、ユニバーサルに対応したい\n• 実例\n    ◦ <http://id.dd2030.org|id.dd2030.org> でアカウントを作成する。そのアカウント専用の秘密鍵 skey がサーバサイドで生成される\n    ◦ `<https://x.com/kuboon>` に対し、 skey で電子署名し、それを含むURL を x でポストする\n    ◦ ポストしたURL を <http://id.dd2030.org|id.dd2030.org> に登録することで、 X &lt;-&gt; dd2030 の相互認証が完了する\n• X 以外の SNS では\n    ◦ プロフィール URL `<https://x.com/:id>`\n    ◦ そのID を含む投稿 URL `<https://x.com/:id/status/:post_id>` と、そのhtml内から投稿箇所を拾う css selector `div[data-testid=tweetText] span`\n    ◦ この3つ組みをハードコードでどんどん追加していけば対応できるはず",
+        "author_name": "Ohkubo KOHEI (kuboon)",
+        "author_link": "https://dd2030.slack.com/team/U08JASQKEEM",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8622908976177_04e3df87088aa6049b14_48.jpg",
+        "author_subname": "Ohkubo KOHEI (kuboon)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LBT/5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "投稿先間違えた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "投稿先間違えた"
+  }
+]
