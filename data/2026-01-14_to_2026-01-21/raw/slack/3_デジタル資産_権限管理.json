@@ -1,0 +1,103 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768441059.170529",
+    "client_msg_id": "F56CBDDE-ED6C-4B38-AD5A-19E97F959A87",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "ts": "1768437243.372259",
+        "author_id": "U08G2A216TW",
+        "channel_id": "C08K4CUB12T",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08K4CUB12T",
+            "ts": "1768437243.372259",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "kUX/c",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U08HWJ80CHG"
+                        },
+                        {
+                          "type": "text",
+                          "text": " dd2030のNoteは誰が編集権限を持っていますか？"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C08K4CUB12T/p1768437243372259",
+        "is_share": true,
+        "fallback": "[January 15th, 2026 9:34 AM] nishio.hirokazu: <@U08HWJ80CHG> dd2030のNoteは誰が編集権限を持っていますか？",
+        "text": "<@U08HWJ80CHG> dd2030のNoteは誰が編集権限を持っていますか？",
+        "author_name": "NISHIO Hirokazu",
+        "author_link": "https://dd2030.slack.com/team/U08G2A216TW",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-03/8546342683588_63fd2b76c154c16c727e_48.png",
+        "author_subname": "NISHIO Hirokazu",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": ""
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1768949620.943969",
+    "client_msg_id": "519ecda7-d115-47e1-a5d7-2bde76018bf3",
+    "text": "<@U08HWJ80CHG>\n<https://github.com/digitaldemocracy2030/website/settings>\nの権限が欲しいです。　lume のビルドプロセスで private repo から下書き記事を持ってくるのに secret の設定が必要でした。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "podaK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/website/settings"
+              },
+              {
+                "type": "text",
+                "text": "\nの権限が欲しいです。　lume のビルドプロセスで private repo から下書き記事を持ってくるのに secret の設定が必要でした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@oscar.gaddress\n<https://github.com/digitaldemocracy2030/website/settings>\nの権限が欲しいです。　lume のビルドプロセスで private repo から下書き記事を持ってくるのに secret の設定が必要でした。"
+  }
+]

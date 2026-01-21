@@ -1,0 +1,89 @@
+[
+  {
+    "id": 3836107823,
+    "number": 750,
+    "title": "[FEATURE].envとshell envが食い違っている時にその旨を表示する",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/750",
+    "user": "nishio",
+    "created_at": "2026-01-21T01:11:33Z",
+    "body": "# 背景\nadminサーバの起動の際、.envと異なった値(特にport番号)がshell envで指定されている場合、shell envが優先される。しかしこれは暗黙的に行われるので食い違いに気付きにくい(特にshell envの設定をAIエージェントがやっていて、しかもそのことを忘れている場合)\n\nなので.envをshell envがoverrideしている場合にその旨がサーバ起動時のメッセージで出るようにする。\n\n# 提案内容\n```\n[env-check] WARNING: Shell environment variables are overriding .env file values:\n  API_BASEPATH:\n    .env file:    http://localhost:8000\n    shell env:    http://localhost:8001 (this value is used)\n  ...\n\nTo fix this, either:\n  1. Unset the shell environment variables: unset API_BASEPATH NEXT_PUBLIC_API_BASEPATH\n  2. Or start in a new terminal session\n  3. Or explicitly set correct values when starting: API_BASEPATH=http://localhost:8000 npm run dev\n```\n",
+    "type": "issue"
+  },
+  {
+    "id": 3836062890,
+    "number": 749,
+    "title": "[FEATURE]「レポートの取得に失敗しました」を親切にする",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/749",
+    "user": "nishio",
+    "created_at": "2026-01-21T00:46:59Z",
+    "body": "# 提案内容\nadmin画面がapiサーバからの\n```\n>  9 |     const response = await fetch(`${getApiBaseUrl()}/admin/reports`, {\n```\nに失敗した時に表示される\n\n```\nレポートの取得に失敗しました\nエラー：データの取得に失敗しました\nError: fetch failed to http://localhost:8000.\n```\nについて、もう少し親切なメッセージにする。\napiサーバからレポート一覧を取得しようとしたこと、サーバにそもそも接続できてないのか(=apiサーバが起動していない、addressやportが間違っている)、接続したけどパスワード違いでrejectされたのか、など。\n\n<img width=\"897\" height=\"330\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/55e1ae1f-7f3f-410d-b527-441814affb3b\" />",
+    "type": "issue"
+  },
+  {
+    "id": 3836045097,
+    "number": 748,
+    "title": "[FEATURE]JSONダウンロード",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/748",
+    "user": "nishio",
+    "created_at": "2026-01-21T00:37:22Z",
+    "body": "# 背景\nサーバで広聴AIを動かしているケースで、分析後にJSONファイルを使って「広聴AI上での可視化」以外のことを可能にする(他のBIツールと連携するなど)ために、JSONをダウンロードするAPIとメニューをつける\n\n\n# 提案内容\n<!-- 実装案やデザイン案があれば記入してください -->\n\n`/reports/{slug}`が今までそれに近いことをしていたが、これは内部APIであり、管理画面でレポート表示パラメータを設定可能にするにあたって設定も含まれるようになった。\nこれとは別に、パイプラインが出力したJSONを取得するシンプルなAPIがあるべきである。\nまたUIもあるのがベター。\n\n<img width=\"318\" height=\"358\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9dd8da79-b79c-44bf-98f5-cccd82c34c37\" />",
+    "type": "issue"
+  },
+  {
+    "id": 3836016342,
+    "number": 747,
+    "title": "[DOCUMENT]ドキュメントをorganizeする",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/747",
+    "user": "nishio",
+    "created_at": "2026-01-21T00:22:30Z",
+    "body": "# 現在の問題点\n色々なファイルがあるが目次などが整備されていない\n\n# 提案内容\nよくあるOSSのドキュメントみたいなものをMkDocs Material作り、CI+GitHub Pagesで公開する\n",
+    "type": "issue"
+  },
+  {
+    "id": 3832104245,
+    "number": 745,
+    "title": "[FEATURE] バックエンドの pandas を polars に置換する",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/745",
+    "user": "101ta28",
+    "created_at": "2026-01-20T05:24:37Z",
+    "body": "# 背景\nパッケージを pandas から polars にすることで、処理の高速化が見込まれるため。\n\n\n# 提案内容\n- polars パッケージの導入\n- pandas で処理している部分を polars の記法に置き換え",
+    "type": "issue"
+  },
+  {
+    "id": 3835937974,
+    "number": 746,
+    "title": "安定運用したいコアと実験的な拡張を分離し、壊れにくい形に設計変更する",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/746",
+    "user": "nishio",
+    "created_at": "2026-01-20T23:48:34Z",
+    "body": "# 目的\r\n安定運用したいコアと実験的な拡張（新しい解析手法・ビュー・入力ソース）を技術的に分離し、壊れにくい契約（API/manifest）を軸に拡張できる構造へリファクタすること。あわせて、CLI/PyPI での再利用や運用の整理（アプリ/パッケージ/プラグインの分離）を実現するのが狙い。\r\n\r\n詳細: docs/M5_REFACTORING_PLAN.md\r\n\r\n## 細部の変更\r\n- リポジトリ構造の整理と命名統一\r\n  - `server`→`apps/api`、`client`→`apps/public-viewer`、`client-admin`→`apps/admin`、`client-static-build`→`apps/static-site-builder` へ移行し、docker/CI/ドキュメントの参照を更新\r\n  - `scripts`→`tools/scripts`、`experimental`→`experiments` へ移動\r\n  - `pnpm-workspace.yaml` と `pnpm-lock.yaml` を追加してワークスペース化し、root の `.npmrc` を整備\r\n- パイプラインのパッケージ化（analysis-core）\r\n  - `packages/analysis-core` を新設し、ワークフローエンジン・互換レイヤ・CLI を実装\r\n  - API 側は従来のパイプラインに依存せず `analysis_core` を subprocess で起動する構成に移行\r\n  - テストや依存関係を整理\r\n- 入力プラグイン機構の導入（API＋管理UI）\r\n  - `apps/api/src/plugins` にプラグイン基盤（manifest/registry）を追加し、YouTube 取得プラグインを実装\r\n  - 管理画面のレポート作成 UI にプラグインタブを追加し、検証・プレビュー・インポートのフローを統合\r\n- 可視化プラグイン＋可視化設定の整備\r\n  - `apps/public-viewer` にチャートのプラグインレジストリを導入（scatter/treemap/階層リスト）し、動的な表示切り替えに対応\r\n  - `visualizationConfig` のスキーマと API を追加し、管理画面に可視化設定ダイアログを実装\r\n  - 公開画面は設定値を優先し、既存の既定挙動と互換性を維持\r\n- CI/運用・Docker/Azureの更新\r\n  - GitHub Actions を pnpm 前提に変更し、パスやビルドコマンドを新構成に合わせて更新\r\n  - `compose.yaml` と Azure デプロイのコンテナ名・ビルドパスを新しいアプリ構成に揃えた\r\n  - `.dockerignore` を新規追加し、ビルド対象を整理\r\n- ドキュメントと計画の追加・更新\r\n  - `docs/PLUGIN_GUIDE.md` などプラグイン関連のドキュメントを拡充\r\n  - `M5_REFACTORING_PLAN.md`、`M5_PLUGIN_SYSTEM_PLAN.md` など計画・背景文書を追加し、方向性を明文化\r\n\r\n# スクリーンショット\r\n> `apps/public-viewer` にチャートのプラグインレジストリを導入（scatter/treemap/階層リスト）し、動的な表示切り替えに対応\r\nhttps://gyazo.com/af56999b44a99ee8e1497158086cdabe][https://gyazo.com/43ddac15c0ab52f89a54eb60512a9832\r\n\r\n>`apps/api/src/plugins` にプラグイン基盤（manifest/registry）を追加し、YouTube 取得プラグインを実装\r\n\r\n<img width=\"1000\" height=\"331\" alt=\"image\" src=\"https://github.com/user-attachments/assets/81a5fbeb-9b16-4726-8308-71932b91d3e3\" />\r\n\r\n# 動作確認の結果\r\n\r\nResult: All 167 tests now pass\r\n\r\n# CLAへの同意\r\n- 本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md)に同意することが必須です。\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\r\n# マージ前のチェックリスト（レビュアーがマージ前に確認してください）\r\n- [ ] CIが全て通過している\r\n- [ ] 単体テストが実装されているか\r\n- [ ] 今回実装した機能および影響を受けると思われる機能について、適切な動作確認が行われているかを確認する。\r\n\r\n\r\n動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。\r\n必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。",
+    "additions": 30635,
+    "deletions": 25349,
+    "changed_files": 484,
+    "co_author": "Claude Opus 4.5",
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3831849933,
+    "number": 744,
+    "title": "バックエンドの pandas を polars に変更",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/744",
+    "user": "101ta28",
+    "created_at": "2026-01-20T03:14:22Z",
+    "body": "close #745 \r\n\r\n# 変更の概要\r\n- server 側の DataFrame 処理（スプレッドシート取込・レポート入力保存・パイプライン各ステップ）を pandas から polars へ移行し、`pyproject.toml` の依存を polars に置き換えました。\r\n- パイプライン各ステップ（extraction/embedding/hierarchical_*）は polars 用 API で再実装し、CSV/PKL の入出力や NaN 取扱いを polars ベースに統一しました。\r\n- `hierarchical_initial_labelling.py` では polars 変換に伴う `cluster_id` 非存在時の例外を防ぐため、列存在チェックを追加しました。\r\n\r\n# スクリーンショット\r\n- UI 変更はありません。\r\n\r\n# 変更の背景\r\n- pandas から polars に一本化し、処理速度やメモリ効率の改善と依存関係の簡素化を図るため。\r\n\r\n# 動作確認の結果\r\n- `python server/broadlistening/pipeline/hierarchical_main.py configs/<slug>.json --skip-interaction --without-html` を実行し、各ステップが polars ベースで正常に完了することを確認しました。\r\n- extraction や embedding の処理速度が向上しました。\r\n\r\n## pandas実装でのログ\r\n```md\r\n[2026-01-20T02:07:30.434587] Pipeline started (force=False, only=None)\r\n[2026-01-20T02:07:30.434656] Execution plan: extraction -> not trace of previous run, embedding -> not trace of previous run, hierarchical_clustering -> not trace of previous run, hierarchical_initial_labelling -> not trace of previous run, hierarchical_merge_labelling -> not trace of previous run, hierarchical_overview -> not trace of previous run, hierarchical_aggregation -> not trace of previous run, hierarchical_visualization (skip: skipping html output)\r\n[2026-01-20T02:07:30.491381] Step 'extraction' started\r\n[2026-01-20T02:08:00.566242] Step 'extraction' completed in 30.07s (token_usage=219804, cost=$0.0386)\r\n[2026-01-20T02:08:00.566657] Step 'embedding' started\r\n[2026-01-20T02:09:54.465461] Step 'embedding' completed in 113.90s (token_usage=0, cost=$0.0386)\r\n[2026-01-20T02:09:54.470881] Step 'hierarchical_clustering' started\r\n[2026-01-20T02:10:17.690810] Step 'hierarchical_clustering' completed in 23.22s (token_usage=0, cost=$0.0386)\r\n[2026-01-20T02:10:17.691584] Step 'hierarchical_initial_labelling' started\r\n[2026-01-20T02:10:25.716891] Step 'hierarchical_initial_labelling' completed in 8.03s (token_usage=41476, cost=$0.0477)\r\n[2026-01-20T02:10:25.717396] Step 'hierarchical_merge_labelling' started\r\n[2026-01-20T02:10:29.967746] Step 'hierarchical_merge_labelling' completed in 4.25s (token_usage=15450, cost=$0.0505)\r\n[2026-01-20T02:10:29.968368] Step 'hierarchical_overview' started\r\n[2026-01-20T02:10:33.520297] Step 'hierarchical_overview' completed in 3.55s (token_usage=1518, cost=$0.0508)\r\n[2026-01-20T02:10:33.525990] Step 'hierarchical_aggregation' started\r\n[2026-01-20T02:10:33.629066] Step 'hierarchical_aggregation' completed in 0.10s (token_usage=0, cost=$0.0508)\r\n[2026-01-20T02:10:33.629110] Skipping step 'hierarchical_visualization' (skipping html output)\r\n[2026-01-20T02:10:33.629686] Pipeline completed successfully in 183.19s\r\n```\r\n\r\n## polars実装でのログ\r\n```md\r\n[2026-01-20T02:46:20.192634] Pipeline started (force=False, only=None)\r\n[2026-01-20T02:46:20.192672] Execution plan: extraction -> not trace of previous run, embedding -> not trace of previous run, hierarchical_clustering -> not trace of previous run, hierarchical_initial_labelling -> not trace of previous run, hierarchical_merge_labelling -> not trace of previous run, hierarchical_overview -> not trace of previous run, hierarchical_aggregation -> not trace of previous run, hierarchical_visualization (skip: skipping html output)\r\n[2026-01-20T02:46:20.194132] Step 'extraction' started\r\n[2026-01-20T02:46:44.269107] Step 'extraction' completed in 24.07s (token_usage=219789, cost=$0.0386)\r\n[2026-01-20T02:46:44.269520] Step 'embedding' started\r\n[2026-01-20T02:48:32.488457] Step 'embedding' completed in 108.22s (token_usage=0, cost=$0.0386)\r\n[2026-01-20T02:48:32.493790] Step 'hierarchical_clustering' started\r\n[2026-01-20T02:48:55.816983] Step 'hierarchical_clustering' completed in 23.32s (token_usage=0, cost=$0.0386)\r\n[2026-01-20T02:48:55.817834] Step 'hierarchical_initial_labelling' started\r\n[2026-01-20T02:49:02.517996] Step 'hierarchical_initial_labelling' completed in 6.70s (token_usage=41416, cost=$0.0477)\r\n[2026-01-20T02:49:02.522667] Step 'hierarchical_merge_labelling' started\r\n[2026-01-20T02:49:06.590521] Step 'hierarchical_merge_labelling' completed in 4.07s (token_usage=15159, cost=$0.0505)\r\n[2026-01-20T02:49:06.594908] Step 'hierarchical_overview' started\r\n[2026-01-20T02:49:10.318800] Step 'hierarchical_overview' completed in 3.72s (token_usage=1597, cost=$0.0508)\r\n[2026-01-20T02:49:10.324562] Step 'hierarchical_aggregation' started\r\n[2026-01-20T02:49:10.348322] Step 'hierarchical_aggregation' completed in 0.02s (token_usage=0, cost=$0.0508)\r\n[2026-01-20T02:49:10.348372] Skipping step 'hierarchical_visualization' (skipping html output)\r\n[2026-01-20T02:49:10.349008] Pipeline completed successfully in 170.16s\r\n```\r\n\r\n# CLAへの同意\r\n- [x] CLAの内容を読み、同意しました\r\n\r\n# マージ前のチェックリスト（レビュアーがマージ前に確認してください）\r\n- [ ] CIが全て通過している\r\n- [ ] 単体テストが実装されているか\r\n- [ ] 今回実装した機能および影響を受けると思われる機能について、適切な動作確認が行われているかを確認する。\r\n\r\n\r\n動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。\r\n必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。\r\n\r\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\r\n## Summary by CodeRabbit\r\n\r\n* **リファクタリング**\r\n  * 全体的にデータ処理基盤をpandasからpolarsへ移行し、入出力と処理効率を改善\r\n  * 埋め込みやクラスタリング、抽出〜集約〜ラベリングの各処理をpolarsベースで統一\r\n  * スプレッドシート/レポート出力のCSV処理と列操作をpolarsに更新\r\n\r\n* **バグ修正 / 安定性**\r\n  * 埋め込み読み込みの形式検証、不整合検出、空結果や例外処理を強化\r\n\r\n* **その他**\r\n  * ビルド・依存設定を整理・拡充\r\n\r\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\r\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 298,
+    "deletions": 213,
+    "changed_files": 11,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
