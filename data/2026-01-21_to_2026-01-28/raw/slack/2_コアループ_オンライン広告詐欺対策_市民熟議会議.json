@@ -1,0 +1,711 @@
+[
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1769216655.801419",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1769243792.000000"
+    },
+    "client_msg_id": "a2d35396-0896-455f-8b48-3306fc5eed55",
+    "text": "コアループ週次レポート(1/23)\n• 全体: 1/15と16日に台湾のオンライン広告詐欺規制やデジタル民主主義の関係者にヒアリングをしてきました。その概要は<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.khdzlrlez4lu#heading=h.sbaxysq7suru|こちら>で確認できますが、別途報告会を開こうと考えています。Reference ProductのLeadとして、赤澤さんに参画いただきました。(鈴木)\n• Process: 日本で討論型世論調査(DP: Deliberative Polling)を普及してきた慶応大学の曽根名誉教授にオンラインでインタビューをしました。DPは台湾でも使われました。議事録は<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.1pri05nn1e8d#heading=h.j9se0ldfruuk|こちら>で確認できます。(縄田)\n• Tech: 熟議をサポートするツール開発をすることになります。まずは1/10のミニワークショップ、台湾でのヒアリングを踏まえて、具体的につくるもののフィジビリティチェックとスコープについての議論を進めていきます。(Ryoma)\n• Policy: 台湾ヒアリングで、オンライン広告詐欺規制の運用の実際がわかってきました。日本の関係者には、これからINPUTしていきたいと思います。(鈴木)\n• Reference Product : 台湾のオンライン詐欺広告通報サイトである、<https://fraudbuster.digiat.org.tw/accessibility/index?listType=H|網路詐騙通報查詢網>(Fraud Buster)の日本版（リファレンス実装）をつくることになりそうです。ご協力おねがいします。(赤澤)",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://fraudbuster.digiat.org.tw/accessibility/index?listType=H",
+        "id": 1,
+        "original_url": "https://fraudbuster.digiat.org.tw/accessibility/index?listType=H",
+        "fallback": "網路詐騙通報查詢網: 數發部網路詐騙通報查詢網",
+        "text": "網詐通報查詢網為數位發展部打造的防詐平台，提供民眾即時查詢與通報可疑詐騙資訊，共同守護數位安全",
+        "title": "數發部網路詐騙通報查詢網",
+        "title_link": "https://fraudbuster.digiat.org.tw/accessibility/index?listType=H",
+        "service_name": "網路詐騙通報查詢網"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1m9l0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コアループ週次レポート(1/23)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "全体: 1/15と16日に台湾のオンライン広告詐欺規制やデジタル民主主義の関係者にヒアリングをしてきました。その概要は"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.khdzlrlez4lu#heading=h.sbaxysq7suru",
+                    "text": "こちら",
+                    "style": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "で確認できますが、別途報告会を開こうと考えています。Reference ProductのLeadとして、赤澤さんに参画いただきました。(鈴木)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Process: 日本で討論型世論調査(DP: Deliberative Polling)を普及してきた慶応大学の曽根名誉教授にオンラインでインタビューをしました。DPは台湾でも使われました。議事録は"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.1pri05nn1e8d#heading=h.j9se0ldfruuk",
+                    "text": "こちら",
+                    "style": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "で確認できます。(縄田)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Tech: 熟議をサポートするツール開発をすることになります。まずは1/10のミニワークショップ、台湾でのヒアリングを踏まえて、具体的につくるもののフィジビリティチェックとスコープについての議論を進めていきます。(Ryoma)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Policy: 台湾ヒアリングで、オンライン広告詐欺規制の運用の実際がわかってきました。日本の関係者には、これからINPUTしていきたいと思います。(鈴木)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Reference Product : 台湾のオンライン詐欺広告通報サイトである、"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://fraudbuster.digiat.org.tw/accessibility/index?listType=H",
+                    "text": "網路詐騙通報查詢網",
+                    "style": {
+                      "underline": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "(Fraud Buster)の日本版（リファレンス実装）をつくることになりそうです。ご協力おねがいします。(赤澤)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "fire",
+        "users": [
+          "U08JGS0BS57",
+          "U08HWJ80CHG",
+          "U0A6CE44B2S",
+          "U0A6P8CRT1Q",
+          "U091ZN08WQH",
+          "U08JASQKEEM"
+        ],
+        "count": 6
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U0A6CE44B2S",
+          "U0A6P8CRT1Q",
+          "U091ZN08WQH"
+        ],
+        "count": 5
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "コアループ週次レポート(1/23)\n• 全体: 1/15と16日に台湾のオンライン広告詐欺規制やデジタル民主主義の関係者にヒアリングをしてきました。その概要は<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.khdzlrlez4lu#heading=h.sbaxysq7suru|こちら>で確認できますが、別途報告会を開こうと考えています。Reference ProductのLeadとして、赤澤さんに参画いただきました。(鈴木)\n• Process: 日本で討論型世論調査(DP: Deliberative Polling)を普及してきた慶応大学の曽根名誉教授にオンラインでインタビューをしました。DPは台湾でも使われました。議事録は<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.1pri05nn1e8d#heading=h.j9se0ldfruuk|こちら>で確認できます。(縄田)\n• Tech: 熟議をサポートするツール開発をすることになります。まずは1/10のミニワークショップ、台湾でのヒアリングを踏まえて、具体的につくるもののフィジビリティチェックとスコープについての議論を進めていきます。(Ryoma)\n• Policy: 台湾ヒアリングで、オンライン広告詐欺規制の運用の実際がわかってきました。日本の関係者には、これからINPUTしていきたいと思います。(鈴木)\n• Reference Product : 台湾のオンライン詐欺広告通報サイトである、<https://fraudbuster.digiat.org.tw/accessibility/index?listType=H|網路詐騙通報查詢網>(Fraud Buster)の日本版（リファレンス実装）をつくることになりそうです。ご協力おねがいします。(赤澤)"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1769310346.499219",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1769311583.000000"
+    },
+    "client_msg_id": "5EC4EB89-143A-46DC-8734-3F5442D30C14",
+    "text": "プロセスチームのmtgに参加してみて思ったこと（状況を断片的にしか知らない個人の感想です）\n• それぞれのミッションを持っているチームは、とても忙しい本業を抱えながらタイトかつ不確定なスケジュールとタスクに取り組んでいるのでスコープ外のことまで目を配るのは大変そう\n• 第2回、3回の熟議プロセスやってみようの運用のタスクがチーム間の狭間で浮いてそう（少なくともプロセスチーム内での話では、運用のためのやり方の提供までがプロセスチームの責任範囲という認識のよう。つまり、運用者は別という認識）\n• それぞれのチームへの増員の動きができると良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C4N96",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プロセスチームのmtgに参加してみて思ったこと（"
+              },
+              {
+                "type": "text",
+                "text": "状況を断片的にしか知らない"
+              },
+              {
+                "type": "text",
+                "text": "個人の感想です）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "それぞれのミッションを持っているチームは、とても忙しい本業を抱えながらタイトかつ不確定なスケジュールとタスクに取り組んでいるのでスコープ外のことまで目を配るのは大変そう"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "第2回、3回の熟議プロセスやってみようの運用のタスクがチーム間の狭間で浮いてそう（少なくともプロセスチーム内での話では、運用のためのやり方の提供までがプロセスチームの責任範囲という認識のよう。つまり、運用者は別という認識）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "それぞれのチームへの増員の動きができると良さそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "offset": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U0A6CE44B2S",
+          "U08JFSYHEP6"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "プロセスチームのmtgに参加してみて思ったこと（状況を断片的にしか知らない個人の感想です）\n• それぞれのミッションを持っているチームは、とても忙しい本業を抱えながらタイトかつ不確定なスケジュールとタスクに取り組んでいるのでスコープ外のことまで目を配るのは大変そう\n• 第2回、3回の熟議プロセスやってみようの運用のタスクがチーム間の狭間で浮いてそう（少なくともプロセスチーム内での話では、運用のためのやり方の提供までがプロセスチームの責任範囲という認識のよう。つまり、運用者は別という認識）\n• それぞれのチームへの増員の動きができると良さそう"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769324089.900639",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1769324119.000000"
+    },
+    "client_msg_id": "c823e50a-15c8-4254-86bc-46b18ab9009f",
+    "text": "台湾視察の報告会やります！:loudspeaker:(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n:one: 1/31 18:00頃~\n:two: 2/1 18:00頃~\n:three: 2/2 18:00頃~",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769324089.900639",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1769335424.746289",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JFSYHEP6"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FJHt0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "台湾視察の報告会やります！"
+              },
+              {
+                "type": "emoji",
+                "name": "loudspeaker",
+                "unicode": "1f4e2"
+              },
+              {
+                "type": "text",
+                "text": "(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n"
+              },
+              {
+                "type": "emoji",
+                "name": "one",
+                "unicode": "0031-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " 1/31 18:00頃~\n"
+              },
+              {
+                "type": "emoji",
+                "name": "two",
+                "unicode": "0032-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " 2/1 18:00頃~\n"
+              },
+              {
+                "type": "emoji",
+                "name": "three",
+                "unicode": "0033-fe0f-20e3"
+              },
+              {
+                "type": "text",
+                "text": " 2/2 18:00頃~"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "one",
+        "users": [
+          "U08JFSYHEP6",
+          "U0A6P8CRT1Q",
+          "U091ZN08WQH",
+          "U0A40CF5ESY",
+          "U0A7Q8YAH8U",
+          "U08J6JR5SNQ"
+        ],
+        "count": 6
+      },
+      {
+        "name": "two",
+        "users": [
+          "U08JFSYHEP6",
+          "U0A6P8CRT1Q",
+          "U0A40CF5ESY",
+          "U0A7K64JT71",
+          "U0A7Q8YAH8U",
+          "U0A77P2EY7L",
+          "U08HKLUGE67",
+          "U0A67RK86BH",
+          "U08J6JR5SNQ",
+          "U08HWJ80CHG",
+          "U08H3V9KMFH"
+        ],
+        "count": 11
+      },
+      {
+        "name": "three",
+        "users": [
+          "U08JFSYHEP6",
+          "U091ZN08WQH",
+          "U0AAL9KK2S1",
+          "U0A40CF5ESY",
+          "U0A7K64JT71",
+          "U0A7Q8YAH8U",
+          "U0A77P2EY7L",
+          "U08J6JR5SNQ",
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U08JPUZRT40",
+          "U08HKLUGE67"
+        ],
+        "count": 12
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U091ZN08WQH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "台湾視察の報告会やります！:loudspeaker:(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n:one: 1/31 18:00頃~\n:two: 2/1 18:00頃~\n:three: 2/2 18:00頃~"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1769326091.397349",
+    "client_msg_id": "CB2C7C34-BEB5-4CEF-8832-985DA5EBEC53",
+    "text": "興味はあるのですが、お役に立てるかどうか分からずでして、具体的に手を動かすとはどういうことを考えているでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769324089.900639",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Dla4w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "興味はあるのですが、お役に立てるかどうか分からずでして、具体的に手を動かすとはどういうことを考えているでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769324089.900639",
+    "user_name": "Shingo OHKI",
+    "text_readable": "興味はあるのですが、お役に立てるかどうか分からずでして、具体的に手を動かすとはどういうことを考えているでしょうか？"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769335337.400769",
+    "client_msg_id": "c5bb1b13-13e4-45c9-b9d4-7ba8ffb15c27",
+    "text": "ありがとうございます！\nTech、Process、Policy、その他チームでやることは異なるので、ここで具体的な作業レベルの話は控えます。\n\n市民熟議から政策反映のコアループを回すために必要なことをコアメンバーでスケジュール感と合わせて整理がおおよそ付いてきました。\n現状、各チーム共通してやることは、ブレストして現実的にできるスコープに収めていくというのが、最初のミッションです。なので、具体的にやること、やりたいことを決められる段階ともいえます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769324089.900639",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FF+L8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nTech、Process、Policy、その他チームでやることは異なるので、ここで具体的な作業レベルの話は控えます。\n\n市民熟議から政策反映のコアループを回すために必要なことをコアメンバーでスケジュール感と合わせて整理がおおよそ付いてきました。\n現状、各チーム共通してやることは、ブレストして現実的にできるスコープに収めていくというのが、最初のミッションです。なので、具体的にやること、やりたいことを決められる段階ともいえます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769324089.900639",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "ありがとうございます！\nTech、Process、Policy、その他チームでやることは異なるので、ここで具体的な作業レベルの話は控えます。\n\n市民熟議から政策反映のコアループを回すために必要なことをコアメンバーでスケジュール感と合わせて整理がおおよそ付いてきました。\n現状、各チーム共通してやることは、ブレストして現実的にできるスコープに収めていくというのが、最初のミッションです。なので、具体的にやること、やりたいことを決められる段階ともいえます。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769335424.746289",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1769335437.000000"
+    },
+    "client_msg_id": "033a236b-d58b-4991-b8bd-ff0db5d1e3d5",
+    "text": "手を動かすといってもカジュアルにとらえていただいてよく、シビックテックプロジェクトなので各自の都合に合わせてできる貢献をしていただけると！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769324089.900639",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "15GjB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "手を動かすといってもカジュアルにとらえていただいてよく、シビックテックプロジェクトなので各自の都合に合わせてできる貢献をしていただけると！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769324089.900639",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "手を動かすといってもカジュアルにとらえていただいてよく、シビックテックプロジェクトなので各自の都合に合わせてできる貢献をしていただけると！"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769471459.494599",
+    "client_msg_id": "e5d7381f-332a-4758-865e-f93039b50e7f",
+    "text": "↑こちら本日締切にします！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nr9jy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑こちら本日締切にします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "↑こちら本日締切にします！"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769500566.475239",
+    "client_msg_id": "e848898a-9d88-42d1-a52f-95786ecad6ea",
+    "text": "人数の都合上ここらで締め切らせてください報告会の内容は別途共有しますね。\nどうしても！という方はぜひDMいただけると！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8XjpE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人数の都合上ここらで締め切らせてください報告会の内容は別途共有しますね。\nどうしても！という方はぜひDMいただけると！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "人数の都合上ここらで締め切らせてください報告会の内容は別途共有しますね。\nどうしても！という方はぜひDMいただけると！"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1769544764.912189",
+    "client_msg_id": "4f9e49dc-51a7-4bbe-bfba-bfc4d9144b53",
+    "text": "<https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO2525834026012026000000-1.jpg?auto=format&bg=FFFF&crop=focalpoint&fit=crop&fp-x=0.51&fp-y=0.3&h=630&w=1200&s=c416a9427265f58c341cb56961735a45",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 82212,
+        "from_url": "https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android",
+        "service_icon": "https://www.nikkei.com/.resources/k-components/180.rev-79352c3.png",
+        "ts": 1769457600,
+        "id": 1,
+        "original_url": "https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android",
+        "fallback": "日本経済新聞: SNS詐欺広告対策、台湾の規制に学べ　米テックへの｢お願い｣効かず - 日本経済新聞",
+        "text": "有名人になりすました広告などからSNS上の偽の投資話に誘い込む「SNS型投資詐欺」の被害増加が止まらない。警察庁の集計によると、2025年は11月までで、件数、被害総額とも24年の年間実績を超えた。SNS運営企業に「お願いベース」で対策を要請する従来の政府の対応に全く効果がないことが証明された。有効な対策を打ち出せない政府に業を煮やした自民党はプロジェクトチーム（PT）を立ち上げ、新法の導入で成",
+        "title": "SNS詐欺広告対策、台湾の規制に学べ　米テックへの｢お願い｣効かず - 日本経済新聞",
+        "title_link": "https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android",
+        "service_name": "日本経済新聞"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "D03p1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "<https://www.nikkei.com/article/DGXZQOCD149JB0U6A110C2000000/?n_cid=dsapp_share_android>"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1769556637.679629",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1769556858.000000"
+    },
+    "text": "~2/1(日) 18:00~~ 2/2(月) 18:00~で実施したいとおもいます！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "ts": "1769324089.900639",
+        "author_id": "U08JFSYHEP6",
+        "channel_id": "C0A3ZG16TEY",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C0A3ZG16TEY",
+            "ts": "1769324089.900639",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "FJHt0",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "台湾視察の報告会やります！"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "loudspeaker",
+                          "unicode": "1f4e2"
+                        },
+                        {
+                          "type": "text",
+                          "text": "(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "one",
+                          "unicode": "0031-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 1/31 18:00頃~\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "two",
+                          "unicode": "0032-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 2/1 18:00頃~\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "three",
+                          "unicode": "0033-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 2/2 18:00頃~"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "color": "D0D0D0",
+        "from_url": "https://dd2030.slack.com/archives/C0A3ZG16TEY/p1769324089900639?thread_ts=1769324089.900639&cid=C0A3ZG16TEY",
+        "is_share": true,
+        "fallback": "[January 25th, 2026 3:54 PM] yuki.kawabe: 台湾視察の報告会やります！:loudspeaker:(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n:one: 1/31 18:00頃~\n:two: 2/1 18:00頃~\n:three: 2/2 18:00頃~",
+        "text": "台湾視察の報告会やります！:loudspeaker:(1/10の熟議ミニワークショップからの経緯含む)\n\n本プロジェクトを進めるにあたって、台湾のケースを参考にしていることから、先週2日間いろいろな人に話を聞いてきました。これから日本でのケースをつくっていくにあたって、たくさん参考になることがあったので報告会を開き、実際にどう進めるか話し合う会をしたいと思います。\n\n場所は原宿付近を予定しています。\n日程調整を進めたいので、ご興味があり参加可能な方はスタンプを押してください！申し訳ないのですが、手を動かしたいという方を優先させていただき、人数が多ければ途中で締め切らせてもらいます。\n:one: 1/31 18:00頃~\n:two: 2/1 18:00頃~\n:three: 2/2 18:00頃~",
+        "author_name": "Ryoma Kawabe Yuki",
+        "author_link": "https://dd2030.slack.com/team/U08JFSYHEP6",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-18/8627916936340_044045703650cfcc2173_48.jpg",
+        "author_subname": "Ryoma Kawabe Yuki",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "52CPu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2/1(日) 18:00~",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 2/2(月) 18:00~で実施したいとおもいます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "~2/1(日) 18:00~~ 2/2(月) 18:00~で実施したいとおもいます！"
+  }
+]

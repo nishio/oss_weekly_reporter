@@ -1,0 +1,185 @@
+{
+  "period": {
+    "start": "2026-01-21T12:38:36.955456+09:00",
+    "end": "2026-01-28T12:38:36.955456+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3853196211,
+      "number": 764,
+      "title": "[BUG]pip installして使った時、大量のDEBUGログが出る",
+      "state": "closed"
+    },
+    {
+      "id": 3836903835,
+      "number": 752,
+      "title": "[FEATURE]レポート生成時にタイトルと概要を必須で要求しない",
+      "state": "closed"
+    },
+    {
+      "id": 3836899042,
+      "number": 751,
+      "title": "[FEATURE]pre-push hook にruff formatを追加する",
+      "state": "closed"
+    },
+    {
+      "id": 3836107823,
+      "number": 750,
+      "title": "[FEATURE].envとshell envが食い違っている時にその旨を表示する",
+      "state": "closed"
+    },
+    {
+      "id": 3836062890,
+      "number": 749,
+      "title": "[FEATURE]「レポートの取得に失敗しました」を親切にする",
+      "state": "closed"
+    },
+    {
+      "id": 3836045097,
+      "number": 748,
+      "title": "[FEATURE]JSONダウンロード",
+      "state": "closed"
+    },
+    {
+      "id": 3836016342,
+      "number": 747,
+      "title": "[DOCUMENT]ドキュメントをorganizeする",
+      "state": "closed"
+    },
+    {
+      "id": 3832104245,
+      "number": 745,
+      "title": "[FEATURE] バックエンドの pandas を polars に置換する",
+      "state": "closed"
+    },
+    {
+      "id": 3854224843,
+      "number": 766,
+      "title": "[REFACTOR] 未解決パスが最終キー欠落時に None になり、誤設定が黙殺される可能性",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3853207543,
+      "number": 765,
+      "title": "fix: remove DEBUG logging configuration that causes excessive log output",
+      "state": "merged"
+    },
+    {
+      "id": 3852532883,
+      "number": 763,
+      "title": "fix: Add validate_slug to all slug parameter handlers for consistent validation",
+      "state": "merged"
+    },
+    {
+      "id": 3852436074,
+      "number": 762,
+      "title": "docs: polish plugin system doc",
+      "state": "merged"
+    },
+    {
+      "id": 3850015656,
+      "number": 760,
+      "title": "fix(admin): Add cluster settings for plugin imports",
+      "state": "merged"
+    },
+    {
+      "id": 3849989780,
+      "number": 759,
+      "title": "feat(admin): Make title and survey overview optional in report creation",
+      "state": "merged"
+    },
+    {
+      "id": 3849988669,
+      "number": 758,
+      "title": "feat(admin): Default to Azure OpenAI when USE_AZURE=true",
+      "state": "merged"
+    },
+    {
+      "id": 3849968258,
+      "number": 757,
+      "title": "chore: Add ruff check and format to pre-push hook",
+      "state": "merged"
+    },
+    {
+      "id": 3849950381,
+      "number": 756,
+      "title": "feat(admin): Improve error messages when API connection fails",
+      "state": "merged"
+    },
+    {
+      "id": 3849944377,
+      "number": 755,
+      "title": "feat(admin): Add JSON download feature for reports",
+      "state": "merged"
+    },
+    {
+      "id": 3849939782,
+      "number": 754,
+      "title": "docs: Add MkDocs Material documentation site with CI/CD",
+      "state": "merged"
+    },
+    {
+      "id": 3846186021,
+      "number": 753,
+      "title": "refactor: migrate from pandas to polars for improved performance",
+      "state": "merged"
+    },
+    {
+      "id": 3835937974,
+      "number": 746,
+      "title": "安定運用したいコアと実験的な拡張を分離し、壊れにくい形に設計変更する",
+      "state": "merged"
+    },
+    {
+      "id": 3856166901,
+      "number": 771,
+      "title": "feat: public-viewer の API 接続エラー時にわかりやすいメッセージを表示",
+      "state": "created"
+    },
+    {
+      "id": 3855950906,
+      "number": 770,
+      "title": "docs: why-pnpm刷新とプラグイン出力仕様の整理",
+      "state": "created"
+    },
+    {
+      "id": 3854826869,
+      "number": 769,
+      "title": "Add report duplication plan",
+      "state": "created"
+    },
+    {
+      "id": 3854252146,
+      "number": 768,
+      "title": "feat: CLI使用時に.envの設定不良をfail-fastする",
+      "state": "created"
+    },
+    {
+      "id": 3854244355,
+      "number": 767,
+      "title": "fix: raise error when config key is missing during path resolution",
+      "state": "created"
+    },
+    {
+      "id": 3851625233,
+      "number": 761,
+      "title": "docs/mkdocs 747",
+      "state": "created"
+    },
+    {
+      "id": 3831849933,
+      "number": 744,
+      "title": "バックエンドの pandas を polars に変更",
+      "state": "updated"
+    },
+    {
+      "id": 3779856022,
+      "number": 743,
+      "title": "Bump qs from 6.14.0 to 6.14.1 in /client",
+      "state": "updated"
+    }
+  ]
+}

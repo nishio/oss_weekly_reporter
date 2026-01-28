@@ -1,0 +1,2988 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768978261.586869",
+    "client_msg_id": "0c9afd16-1e42-4e99-be09-8c966c53adab",
+    "text": "最近のAIは「この修正は~~branchにcherry-pickしてpushしよう」っていうだけで諸々いい感じにやってくれるので便利だw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dOcVv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "最近のAIは「この修正は~~branchにcherry-pickしてpushしよう」っていうだけで諸々いい感じにやってくれるので便利だw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "最近のAIは「この修正は~~branchにcherry-pickしてpushしよう」っていうだけで諸々いい感じにやってくれるので便利だw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768978315.036819",
+    "client_msg_id": "6e5277a3-f3f5-4f7a-871a-177b563ee7ca",
+    "text": "PRのマージを待たずにこっちがやりたいように開発して、後から並び替えたり分割してPRにすることができる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LRGSt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PRのマージを待たずにこっちがやりたいように開発して、後から並び替えたり分割してPRにすることができる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PRのマージを待たずにこっちがやりたいように開発して、後から並び替えたり分割してPRにすることができる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768979522.435429",
+    "client_msg_id": "bd0af186-edd4-4286-b0e8-640e013ed583",
+    "text": "&gt; メモ: CIではdockerを動かさないのでdockerで起動する経路は人間が試す必要がある\nこの話、人間はどうせ忘れるのでAIに気づいてほしいな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e3qAR",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ: CIではdockerを動かさないのでdockerで起動する経路は人間が試す必要がある"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この話、人間はどうせ忘れるのでAIに気づいてほしいな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> メモ: CIではdockerを動かさないのでdockerで起動する経路は人間が試す必要がある\nこの話、人間はどうせ忘れるのでAIに気づいてほしいな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768982309.563309",
+    "client_msg_id": "bab49e6c-a571-4911-8c2c-65945d0bb6b4",
+    "text": "dockerを使った場合がテストされてないだけではなく、そもそものテストケースにも結構漏れがある",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yVXEu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dockerを使った場合がテストされてないだけではなく、そもそものテストケースにも結構漏れがある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "dockerを使った場合がテストされてないだけではなく、そもそものテストケースにも結構漏れがある"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768982338.479419",
+    "client_msg_id": "fa8ed9ce-6ecd-4fe4-8ac1-012a24cbb522",
+    "text": "「壊れにくくする」がそもそもの目的なのでテスト自体を増やそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Kctx8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「壊れにくくする」がそもそもの目的なのでテスト自体を増やそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「壊れにくくする」がそもそもの目的なのでテスト自体を増やそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768985413.619249",
+    "client_msg_id": "60ac6f27-f7f6-47fa-8b33-066abbc344b7",
+    "text": "API Keyを渡すとちゃんとAPIを叩いて全プロセスを通すテストを作りました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4SOXU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "API Keyを渡すとちゃんとAPIを叩いて全プロセスを通すテストを作りました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "API Keyを渡すとちゃんとAPIを叩いて全プロセスを通すテストを作りました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1768985434.929019",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1768985443.000000"
+    },
+    "client_msg_id": "2acea9db-0d12-4d98-a233-d478b65303b9",
+    "text": "テストで動作確認してから、Docker環境で無事ちゃんと動くことが確認できた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V4DtR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "テストで動作確認してから、Docker環境で無事ちゃんと動くことが確認できた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "テストで動作確認してから、Docker環境で無事ちゃんと動くことが確認できた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769044791.049769",
+    "client_msg_id": "83513E6B-D63B-4E58-A2AE-D3201E056D81",
+    "text": "メモ: 分析プラグインを変えて試行錯誤する場合、素直に考えると「同じデータに対して、違う分析をして結果を比較したい」というユースケースがありそうなので「入力データやextraction, embeddingの結果を再利用」の機能がセットで欲しくなる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YhFtg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ: 分析プラグインを変えて試行錯誤する場合、素直に考えると「同じデータに対して、違う分析をして結果を比較したい」というユースケースがありそうなので「入力データやextraction, embeddingの結果を再利用」の機能がセットで欲しくなる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tasikani",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "メモ: 分析プラグインを変えて試行錯誤する場合、素直に考えると「同じデータに対して、違う分析をして結果を比較したい」というユースケースがありそうなので「入力データやextraction, embeddingの結果を再利用」の機能がセットで欲しくなる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769057222.631949",
+    "client_msg_id": "FE290734-2E6E-44AB-A55C-41B0C9DD04D3",
+    "text": "メモ: 前からできてる「APIでレポート生成」に、「レポート完了時にWebHook」を追加したら完全に無人で動作するな…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7AAS6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ: 前からできてる「APIでレポート生成」に、「レポート完了時にWebHook」を追加したら完全に無人で動作するな…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "メモ: 前からできてる「APIでレポート生成」に、「レポート完了時にWebHook」を追加したら完全に無人で動作するな…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769080075.896399",
+    "client_msg_id": "2140fbac-8feb-44cb-8bba-1fe725aa4f19",
+    "text": "今回もClaude CodeにAzure環境をつくらせています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ofjPC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今回もClaude CodeにAzure環境をつくらせています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今回もClaude CodeにAzure環境をつくらせています"
+  },
+  {
+    "text": "エラーメッセージをわかりやすくしたことの恩恵を早速受けている",
+    "files": [
+      {
+        "id": "F0AA3LDFBQB",
+        "created": 1769080665,
+        "timestamp": 1769080665,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 118806,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AA3LDFBQB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AA3LDFBQB/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 82,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 110,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 164,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 183,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 219,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA3LDFBQB-7d72f7be61/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 234,
+        "original_w": 2478,
+        "original_h": 566,
+        "thumb_tiny": "AwALADDSHH/66M0UUwAtgd6A2RkZ/EYpNo49qQopOSM8560gHd+9IPqaWiiwH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AA3LDFBQB/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AA3LDFBQB-9ba19f51cf",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M90Rq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "エラーメッセージをわかりやすくしたことの恩恵を早速受けている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769080669.550799",
+    "client_msg_id": "f610e17e-e70e-43b4-946a-d6863a3b76e6",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "エラーメッセージをわかりやすくしたことの恩恵を早速受けている"
+  },
+  {
+    "text": "AIまかせのdeploy、環境変数を失敗しがち…",
+    "files": [
+      {
+        "id": "F0AB4DPCEP2",
+        "created": 1769081581,
+        "timestamp": 1769081581,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 134798,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AB4DPCEP2/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AB4DPCEP2/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 149,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 199,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 298,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 331,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 397,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB4DPCEP2-d7f18fe3f9/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 424,
+        "original_w": 1542,
+        "original_h": 638,
+        "thumb_tiny": "AwAUADDSOfWml1Gcuox1yelOPXpRQAiklc7gc9wKdTc9eKUHPakAtFJRTAWjFFFABijFFFABijFFFAH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AB4DPCEP2/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AB4DPCEP2-619699b9ef",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GsEzP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIまかせのdeploy、環境変数を失敗しがち…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769081585.471519",
+    "client_msg_id": "35b2f6a0-32e6-40ae-83c2-6802d0331cec",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "AIまかせのdeploy、環境変数を失敗しがち…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769085165.982479",
+    "client_msg_id": "50ee2e61-077f-4c42-93c8-3f65727ef802",
+    "text": "無事動きました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "K5KAD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "無事動きました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U09C3J7V960",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "無事動きました。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769085616.784329",
+    "client_msg_id": "a16877d6-a976-4215-9b36-8f55acba20dd",
+    "text": "• エラーメッセージをわかりやすくしたのは良い助けになった\n• うまく動かない時にClaude Codeにそういえば自動でコンテナのログを見て改善してくれるようになった、以前夏か秋にやった時よりもさらにスムーズになっていた\n• まだ一発で問題なくセットアップできるという感じではない、雰囲気的にビルドコマンドなどを実行して1000行とかのログが出力されてコンテキストが溢れてる感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0MeT6",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "エラーメッセージをわかりやすくしたのは良い助けになった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "うまく動かない時にClaude Codeにそういえば自動でコンテナのログを見て改善してくれるようになった、以前夏か秋にやった時よりもさらにスムーズになっていた"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "まだ一発で問題なくセットアップできるという感じではない、雰囲気的にビルドコマンドなどを実行して1000行とかのログが出力されてコンテキストが溢れてる感じ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "• エラーメッセージをわかりやすくしたのは良い助けになった\n• うまく動かない時にClaude Codeにそういえば自動でコンテナのログを見て改善してくれるようになった、以前夏か秋にやった時よりもさらにスムーズになっていた\n• まだ一発で問題なくセットアップできるという感じではない、雰囲気的にビルドコマンドなどを実行して1000行とかのログが出力されてコンテキストが溢れてる感じ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769087242.538909",
+    "client_msg_id": "8367cfad-d37c-4106-876a-4efac0e353aa",
+    "text": "Claude Codeの自己分析:\n• ビルドコマンドの出力が大きかった。特に：`docker build` の出力（数百行）\n• バックグラウンドで複数のタスクが並行して動いていて、それぞれのリマインダーが毎回表示された\n• 前のセッションからの継続で、すでにコンテキストが使われていた\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "naPE7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Claude Codeの自己分析:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ビルドコマンドの出力が大きかった。特に："
+                  },
+                  {
+                    "type": "text",
+                    "text": "docker build",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " の出力（数百行）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "バックグラウンドで複数のタスクが並行して動いていて、それぞれのリマインダーが毎回表示された"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "前のセッションからの継続で、すでにコンテキストが使われていた"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Claude Codeの自己分析:\n• ビルドコマンドの出力が大きかった。特に：`docker build` の出力（数百行）\n• バックグラウンドで複数のタスクが並行して動いていて、それぞれのリマインダーが毎回表示された\n• 前のセッションからの継続で、すでにコンテキストが使われていた\n"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769087483.724759",
+    "client_msg_id": "10209bf4-705c-4137-a330-f135a375004d",
+    "text": "docker buildのログはファイルに書く方がいいのかなぁ？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dnCXG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "docker buildのログはファイルに書く方がいいのかなぁ？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "docker buildのログはファイルに書く方がいいのかなぁ？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769087978.143229",
+    "client_msg_id": "c73cd070-4ebd-4d0d-b1a2-f8c81f6090ed",
+    "text": "プラグインに関しては、ハードコードされてた可視化一覧もプラグインに分割されたのでカスタマイズしやすくなったし、\n入力もプラグインになったので拡張しやすくなった、YouTube読み込みを作ってというだけでClaude Codeが作ってくれるレベル\nあとは「プラグインを作った時にどうやって他の人に共有するのか、ユーザはどうやってプラグインを見つけて導入するのか」あたりの設計が必要",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DeJ4Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プラグインに関しては、ハードコードされてた可視化一覧もプラグインに分割されたのでカスタマイズしやすくなったし、\n入力もプラグインになったので拡張しやすくなった、YouTube読み込みを作ってというだけでClaude Codeが作ってくれるレベル\nあとは「プラグインを作った時にどうやって他の人に共有するのか、ユーザはどうやってプラグインを見つけて導入するのか」あたりの設計が必要"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "すごい",
+        "users": [
+          "U0A91756W07"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "プラグインに関しては、ハードコードされてた可視化一覧もプラグインに分割されたのでカスタマイズしやすくなったし、\n入力もプラグインになったので拡張しやすくなった、YouTube読み込みを作ってというだけでClaude Codeが作ってくれるレベル\nあとは「プラグインを作った時にどうやって他の人に共有するのか、ユーザはどうやってプラグインを見つけて導入するのか」あたりの設計が必要"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769088033.632179",
+    "client_msg_id": "192f92f4-0327-4cb4-b098-6e05d8eb881b",
+    "text": "まあでもそれは執筆がひと段落ついてからでもいいかなという気持ち",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U6dCN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあでもそれは執筆がひと段落ついてからでもいいかなという気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあでもそれは執筆がひと段落ついてからでもいいかなという気持ち"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769088119.325939",
+    "client_msg_id": "7fe7dfb2-dd1c-4b14-b8d1-d0c77d26e99f",
+    "text": "それよりもドキュメントがbookスタイルでまとまるようになったので、それをより良くしていくことがしたいですね、まずは今のバージョンをmerge後にgithub pagesで読めるようにして、読めるようになると改善したくなって、というサイクル",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YMhav",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それよりもドキュメントがbookスタイルでまとまるようになったので、それをより良くしていくことがしたいですね、まずは今のバージョンをmerge後にgithub pagesで読めるようにして、読めるようになると改善したくなって、というサイクル"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それよりもドキュメントがbookスタイルでまとまるようになったので、それをより良くしていくことがしたいですね、まずは今のバージョンをmerge後にgithub pagesで読めるようにして、読めるようになると改善したくなって、というサイクル"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769092749.391689",
+    "client_msg_id": "ceef93e8-64c9-4021-ae12-0c9d95f148ae",
+    "text": "レポートの再利用、できそうな気がしてきたが、今の未マージブランチにブランチが積み上がってる状態でやると不必要に複雑なので保留",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zWIYY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポートの再利用、できそうな気がしてきたが、今の未マージブランチにブランチが積み上がってる状態でやると不必要に複雑なので保留"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "レポートの再利用、できそうな気がしてきたが、今の未マージブランチにブランチが積み上がってる状態でやると不必要に複雑なので保留"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769092851.120459",
+    "client_msg_id": "4bbc10d5-ee1b-4871-9865-558b310ab0de",
+    "text": "refactoring PRに関しては全テスト通ってるし、それをベースにしてAzureにデプロイして実データで通して実行するところまでできてるんでself-mergeしていいですか\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/746>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6UMh/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "refactoring PRに関しては全テスト通ってるし、それをベースにしてAzureにデプロイして実データで通して実行するところまでできてるんでself-mergeしていいですか\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/746"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "lgtm",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "refactoring PRに関しては全テスト通ってるし、それをベースにしてAzureにデプロイして実データで通して実行するところまでできてるんでself-mergeしていいですか\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/746>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769141084.352499",
+    "client_msg_id": "b3d3a196-1985-456a-bb38-6164da7b076f",
+    "text": "merged\n次はこれをDevinにやらせますね <https://github.com/digitaldemocracy2030/kouchou-ai/pull/743>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KWU1z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "merged\n次はこれをDevinにやらせますね "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/743"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "merged\n次はこれをDevinにやらせますね <https://github.com/digitaldemocracy2030/kouchou-ai/pull/743>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769144019.900359",
+    "client_msg_id": "23de9daa-626c-4a69-bf09-81e2df0999c0",
+    "text": "&gt; 既に`qs@6.14.1`が含まれています\nとのことでcloseして無視でOK",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g1+HZ",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "既に`qs@6.14.1`が含まれています"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とのことでcloseして無視でOK"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 既に`qs@6.14.1`が含まれています\nとのことでcloseして無視でOK"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769151729.050079",
+    "client_msg_id": "81fb1061-889c-4c02-b39d-1369a65e0695",
+    "text": "<@U08HZ8JS0EQ>\nDevinにレビューしてもらったらコンフリクト解消は大変で、アイデアを採用して新規実装する方がいいというので試しに実行させてみています\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1769151620608169?thread_ts=1769144073.134619&amp;cid=C08PRQVQWSE>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769151729.050079",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1769151830.942639",
+    "reply_users": [
+      "U08HZ8JS0EQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1769151620608169?thread_ts=1769144073.134619&amp;cid=C08PRQVQWSE",
+        "ts": "1769151620.608169",
+        "author_id": "U08M2Q2M6SV",
+        "channel_id": "C08PRQVQWSE",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08PRQVQWSE",
+            "ts": "1769151620.608169",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "SAh",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "良いアイデアです。PR #744 のコンセプト（pandas→polars移行）を参考に、現在の main ブランチのコード構造に合わせて新規実装する方が効率的です。コンフリクト解決より、クリーンな実装ができます。\n\n実装を進めましょうか？"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1769151620608169?thread_ts=1769144073.134619&amp;cid=C08PRQVQWSE",
+        "fallback": "[January 22nd, 2026 11:00 PM] devin: 良いアイデアです。PR #744 のコンセプト（pandas→polars移行）を参考に、現在の main ブランチのコード構造に合わせて新規実装する方が効率的です。コンフリクト解決より、クリーンな実装ができます。\n\n実装を進めましょうか？",
+        "text": "良いアイデアです。PR #744 のコンセプト（pandas→polars移行）を参考に、現在の main ブランチのコード構造に合わせて新規実装する方が効率的です。コンフリクト解決より、クリーンな実装ができます。\n\n実装を進めましょうか？",
+        "author_name": "Devin",
+        "author_link": "https://dd2030.slack.com/services/B08M2Q2LNQ1",
+        "author_icon": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "author_subname": "devin",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/WvBW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HZ8JS0EQ"
+              },
+              {
+                "type": "text",
+                "text": "\nDevinにレビューしてもらったらコンフリクト解消は大変で、アイデアを採用して新規実装する方がいいというので試しに実行させてみています\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1769151620608169?thread_ts=1769144073.134619&cid=C08PRQVQWSE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@workta28\nDevinにレビューしてもらったらコンフリクト解消は大変で、アイデアを採用して新規実装する方がいいというので試しに実行させてみています\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1769151620608169?thread_ts=1769144073.134619&cid=C08PRQVQWSE>"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1769151830.942639",
+    "client_msg_id": "3bd69b6d-f6df-42e6-8e9b-761f0b24f109",
+    "text": "ありがとうございます！\n良い形になるのであれば、ウェルカムです！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769151729.050079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NfFn/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n良い形になるのであれば、ウェルカムです！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769151729.050079",
+    "user_name": "今井 竜也",
+    "text_readable": "ありがとうございます！\n良い形になるのであれば、ウェルカムです！！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769219389.057249",
+    "client_msg_id": "490abbab-f28f-4086-b4f9-8efcb81037c7",
+    "text": "全体会議に参加している時に話したことを広聴AI側のドキュメントにも転記しておきました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3Ay+R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全体会議に参加している時に話したことを広聴AI側のドキュメントにも転記しておきました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "全体会議に参加している時に話したことを広聴AI側のドキュメントにも転記しておきました。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769219661.790869",
+    "client_msg_id": "3896d4fc-532b-452b-b494-0efe0c7ff167",
+    "text": "この後のやることブレスト\n• 今回の開発の最中に発生した細かい修正をPRしていく\n• ドキュメントを改善していく\n• 多言語化\n• Polisプラグイン\n• Jigsawプラグイン\n• Issuesのバグ報告を確認して修正する\nいやまず細かい修正のPR化を終わらせて頭の中をスッキリさせないと混乱してしまうからそれをやるか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mLS1E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この後のやることブレスト\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今回の開発の最中に発生した細かい修正をPRしていく"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ドキュメントを改善していく"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "多言語化"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Polisプラグイン"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Jigsawプラグイン"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Issuesのバグ報告を確認して修正する"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nいやまず細かい修正のPR化を終わらせて頭の中をスッキリさせないと混乱してしまうからそれをやるか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "この後のやることブレスト\n• 今回の開発の最中に発生した細かい修正をPRしていく\n• ドキュメントを改善していく\n• 多言語化\n• Polisプラグイン\n• Jigsawプラグイン\n• Issuesのバグ報告を確認して修正する\nいやまず細かい修正のPR化を終わらせて頭の中をスッキリさせないと混乱してしまうからそれをやるか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769220669.132149",
+    "client_msg_id": "d13367dc-0a7e-4370-9aba-9220cc30f87e",
+    "text": "memo: 「別レポートでも embeddings を再利用できる機能」",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qLbIX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: 「別レポートでも embeddings を再利用できる機能」"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: 「別レポートでも embeddings を再利用できる機能」"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769220692.605769",
+    "client_msg_id": "9a052ac0-4e2c-473b-842d-5612577471cc",
+    "text": "早速やることを忘れてるw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oJ91r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "早速やることを忘れてるw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "早速やることを忘れてるw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769221261.200229",
+    "client_msg_id": "c5c650b7-bba7-4369-8910-b2413ed67cde",
+    "text": "Claude CodeがGithubのIssueを読んで、それに対応したcommitをbranchにしてPR作成するところまでやってくれる、便利",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1oUIU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Claude CodeがGithubのIssueを読んで、それに対応したcommitをbranchにしてPR作成するところまでやってくれる、便利"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HN9UDJUB"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Claude CodeがGithubのIssueを読んで、それに対応したcommitをbranchにしてPR作成するところまでやってくれる、便利"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769221337.772509",
+    "client_msg_id": "441a4b8a-533c-4eae-88c7-22bb53234dbd",
+    "text": "僕の代わりにコメントしてcloseするところまでやってる！w\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/750#issuecomment-3793509169>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FCBqN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕の代わりにコメントしてcloseするところまでやってる！w\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/750#issuecomment-3793509169"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕の代わりにコメントしてcloseするところまでやってる！w\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/750#issuecomment-3793509169>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1769221433.588309",
+    "client_msg_id": "91280781-10c0-45cc-8d99-d7dab81b63ee",
+    "text": "おー、これ nishio さんがコメントしてるんじゃないんですねw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nJFnX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おー、これ nishio さんがコメントしてるんじゃないんですねw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "おー、これ nishio さんがコメントしてるんじゃないんですねw"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1769221449.148939",
+    "client_msg_id": "d7c292c1-ad07-48fd-9f59-348e968975b7",
+    "text": "もう分からないなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AGRNC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もう分からないなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "もう分からないなぁ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769221677.229019",
+    "client_msg_id": "88e7e13b-35e1-40aa-b66c-46c9730564e7",
+    "text": "さすがにこれはアイコンを変えるとかせめてメッセージに「from Claude Code」とか書いて欲しいですよねw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IjktI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "さすがにこれはアイコンを変えるとかせめてメッセージに「from Claude Code」とか書いて欲しいですよねw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tasikani",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "さすがにこれはアイコンを変えるとかせめてメッセージに「from Claude Code」とか書いて欲しいですよねw"
+  },
+  {
+    "text": "べんりだー",
+    "files": [
+      {
+        "id": "F0AAMRUBMGE",
+        "created": 1769221922,
+        "timestamp": 1769221922,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 147860,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAMRUBMGE/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAMRUBMGE/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 162,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 216,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 323,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 359,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 431,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAMRUBMGE-654852a08d/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 460,
+        "original_w": 1340,
+        "original_h": 602,
+        "thumb_tiny": "AwAWADCnHyTkZ47D/wCsaTaCMl1B6Ywf8KWP7vUfiRTdpPIxgn1FAAAN2CePWkxzjI+tG04zx+dKVI64/Ag0AATdwGGewwefakbG47elORsDjGevIH9aTaQCMjp6igBUYqch2X3Wk3E4DMcU2igAooooAKKKKAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AAMRUBMGE/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AAMRUBMGE-e1769097a9",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EBir3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "べんりだー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769221927.549089",
+    "client_msg_id": "d2111af3-ffaa-4a37-8b27-9f1167ae2d59",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "べんりだー"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769222855.776519",
+    "client_msg_id": "66fcc332-afa6-4652-bae4-3204458a1666",
+    "text": "&gt; `nishio` has exceeded the limit for the number of commits that can be reviewed per hour. Please wait 1 minutes and 57 seconds before requesting another review.\nうさぎちゃん、また過労死した…w",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4ytYe",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "nishio",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " has exceeded the limit for the number of commits that can be reviewed per hour. Please wait 1 minutes and 57 seconds before requesting another review."
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うさぎちゃん、また過労死した…w"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> `nishio` has exceeded the limit for the number of commits that can be reviewed per hour. Please wait 1 minutes and 57 seconds before requesting another review.\nうさぎちゃん、また過労死した…w"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769223497.628149",
+    "client_msg_id": "0dccab25-afdb-4a29-bb81-2583182a1c22",
+    "text": "全部PRにし終わったのでぼちぼちとCode Rabbitのレビューを見て直していく\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/755#discussion_r2723438433>\nいままで気づいていなかったけどCSVダウンロードのところにパストラバーサル脆弱性があり、JSONダウンロードを作ってレビューしたのでうさぎちゃんが気づいた流れ\n\nそもそも管理画面にアクセスできてる必要があるので深刻な脆弱性ではないが、まあ一緒に直しときましょう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uDDeR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全部PRにし終わったのでぼちぼちとCode Rabbitのレビューを見て直していく\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/755#discussion_r2723438433"
+              },
+              {
+                "type": "text",
+                "text": "\nいままで気づいていなかったけどCSVダウンロードのところにパストラバーサル脆弱性があり、JSONダウンロードを作ってレビューしたのでうさぎちゃんが気づいた流れ\n\nそもそも管理画面にアクセスできてる必要があるので深刻な脆弱性ではないが、まあ一緒に直しときましょう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "全部PRにし終わったのでぼちぼちとCode Rabbitのレビューを見て直していく\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/755#discussion_r2723438433>\nいままで気づいていなかったけどCSVダウンロードのところにパストラバーサル脆弱性があり、JSONダウンロードを作ってレビューしたのでうさぎちゃんが気づいた流れ\n\nそもそも管理画面にアクセスできてる必要があるので深刻な脆弱性ではないが、まあ一緒に直しときましょう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769225724.799249",
+    "client_msg_id": "7a68bf3f-7ede-4ae6-ade7-9291cc0b8c6a",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/760>\nこれは手元で動作確認済みのbug fixをPRに入れ忘れたものなのでmergeしますね\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/754>\nドキュメントをMkDocsでorganizeする件も本体実装とは無関係なのでmergeしてみんなが見れる形にします",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f9zwm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/760"
+              },
+              {
+                "type": "text",
+                "text": "\nこれは手元で動作確認済みのbug fixをPRに入れ忘れたものなのでmergeしますね\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/754"
+              },
+              {
+                "type": "text",
+                "text": "\nドキュメントをMkDocsでorganizeする件も本体実装とは無関係なのでmergeしてみんなが見れる形にします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/760>\nこれは手元で動作確認済みのbug fixをPRに入れ忘れたものなのでmergeしますね\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/754>\nドキュメントをMkDocsでorganizeする件も本体実装とは無関係なのでmergeしてみんなが見れる形にします"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769226162.806859",
+    "client_msg_id": "3717e75b-e834-451b-8947-4650c5e715a1",
+    "text": "ドキュメント、リリースされました！\n<https://digitaldemocracy2030.github.io/kouchou-ai/>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "id": 1,
+        "original_url": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "fallback": "広聴AI Documentation",
+        "text": "デジタル民主主義2030プロジェクト - ブロードリスニングシステム",
+        "title": "広聴AI Documentation",
+        "title_link": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "service_name": "digitaldemocracy2030.github.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QxAlB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメント、リリースされました！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://digitaldemocracy2030.github.io/kouchou-ai/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HZ8JS0EQ",
+          "U08HZGSCT53"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメント、リリースされました！\n<https://digitaldemocracy2030.github.io/kouchou-ai/>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769229994.346659",
+    "client_msg_id": "fe049cf5-fe3a-478a-a560-2d36ad01abeb",
+    "text": "プラグインシステムがあると誰が嬉しいのかの話を図を書いて整理",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9q3yo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プラグインシステムがあると誰が嬉しいのかの話を図を書いて整理"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "プラグインシステムがあると誰が嬉しいのかの話を図を書いて整理"
+  },
+  {
+    "text": "まず入力プラグインが一番わかりやすくて、現状広聴AIはCSVとGoogle Spreadsheetしか入力として受け付けないので、TwitterとかGoogle Mapとか色々なものに応用できるという話を聞いたとしてもエンジニアのいない自治体はそれを実行できないわけ",
+    "files": [
+      {
+        "id": "F0AAQ5HQAE6",
+        "created": 1769230111,
+        "timestamp": 1769230111,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 105119,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ5HQAE6/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ5HQAE6/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 175,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 233,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 350,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 389,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 467,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ5HQAE6-4c9b75a2bd/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 498,
+        "original_w": 1713,
+        "original_h": 833,
+        "thumb_tiny": "AwAYADDRbfkbdvvn6/4Zp1RuiuDuVjjsDjd+vP404LsBCKo/SgB1JnG7PQc8D/OabCrJGFbGR3Hf6+/rQGLZUldwPI68Z4/MUAODAhTz83Tg/wCRS0n8Q+lLQA1lyVP5/MRTqKKACkPpg4PcGlooAYkYQ8Fj/vMT/On0UUAf/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AAQ5HQAE6/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AAQ5HQAE6-321d7fdf2e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "H9g6C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まず入力プラグインが一番わかりやすくて、現状広聴AIはCSVとGoogle Spreadsheetしか入力として受け付けないので、TwitterとかGoogle Mapとか色々なものに応用できるという話を聞いたとしてもエンジニアのいない自治体はそれを実行できないわけ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769230114.821199",
+    "client_msg_id": "1bc66acb-7b1b-4648-b470-3ad88aaf8fee",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まず入力プラグインが一番わかりやすくて、現状広聴AIはCSVとGoogle Spreadsheetしか入力として受け付けないので、TwitterとかGoogle Mapとか色々なものに応用できるという話を聞いたとしてもエンジニアのいない自治体はそれを実行できないわけ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769230188.697339",
+    "client_msg_id": "139545d4-c6e7-4f80-afe2-ecb22b41f9dd",
+    "text": "赤矢印のギャップを埋めるエンジニアが各自治体に必要",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2I8sg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "赤矢印のギャップを埋めるエンジニアが各自治体に必要"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "赤矢印のギャップを埋めるエンジニアが各自治体に必要"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769230342.646529",
+    "client_msg_id": "949b8ade-20c4-4b86-bb5d-b1a958ae775a",
+    "text": "今までは「CSVにするのはkouchou-aiの担当範囲ではないので各自治体がやれ」という境界線だった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jDKVO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今までは「CSVにするのはkouchou-aiの担当範囲ではないので各自治体がやれ」という境界線だった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今までは「CSVにするのはkouchou-aiの担当範囲ではないので各自治体がやれ」という境界線だった"
+  },
+  {
+    "text": "そもそもTTTCから広聴AIが作られた時の理想である「非エンジニアがレポート作成をエンジニアに依頼せずに実行できること」\n仮にエンジニアがスクリプトを作ったとして、それを実行するのが非エンジニアには少し難しいから結局エンジニアのかどうか必要になったりしてしまう。\n入力をプラグインで拡張可能にすることで、エンジニアが目的に合ったプラグインを作って差し込んでデプロイすることが可能になる。",
+    "files": [
+      {
+        "id": "F0AB33S5ABT",
+        "created": 1769230353,
+        "timestamp": 1769230353,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 52227,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AB33S5ABT/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AB33S5ABT/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 275,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 366,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 549,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB33S5ABT-c05aac40d7/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 610,
+        "original_w": 881,
+        "original_h": 672,
+        "thumb_tiny": "AwAlADDTpHztO1gp9SMilyM4yMjtTZMFSGHy4ySTgDH+f0oAcTj/APVRUSiMPgMN/puzngfrjFOWMKu3llPUMSf50APopFUIgVRgKMAUtAETxuX+UgK2d56EcYGP/r05ydwUrlCDu4z7Y/X9KfUUowyv83yg4wCeTjsOTQA1plUbkjkZiQCdjce/6dqdC7OqFlwe+VK8+mDTRJKIlaQYbjICE5/ImpRkhSRg9xQA6gZycke1FFABRRRQAY5zRRRQAUUUUAf/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AB33S5ABT/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AB33S5ABT-09f4829e5b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tVrGH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そもそもTTTCから広聴AIが作られた時の理想である「非エンジニアがレポート作成をエンジニアに依頼せずに実行できること」\n仮にエンジニアがスクリプトを作ったとして、それを実行するのが非エンジニアには少し難しいから結局エンジニアのかどうか必要になったりしてしまう。\n入力をプラグインで拡張可能にすることで、エンジニアが目的に合ったプラグインを作って差し込んでデプロイすることが可能になる。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769230573.020769",
+    "client_msg_id": "24c7a791-72ad-41c3-bd66-a9cefb3c104e",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そもそもTTTCから広聴AIが作られた時の理想である「非エンジニアがレポート作成をエンジニアに依頼せずに実行できること」\n仮にエンジニアがスクリプトを作ったとして、それを実行するのが非エンジニアには少し難しいから結局エンジニアのかどうか必要になったりしてしまう。\n入力をプラグインで拡張可能にすることで、エンジニアが目的に合ったプラグインを作って差し込んでデプロイすることが可能になる。"
+  },
+  {
+    "text": "pluginを追加するだけでこういう綺麗なUIで管理画面に統合されるので、ギャップを埋める作業をするエンジニアの側も楽だし、非エンジニアのユーザも楽",
+    "files": [
+      {
+        "id": "F0AATPSLKD2",
+        "created": 1769230638,
+        "timestamp": 1769230638,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 63114,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AATPSLKD2/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AATPSLKD2/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 119,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 159,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 238,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 265,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 318,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AATPSLKD2-886b0cd8d2/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 339,
+        "original_w": 1534,
+        "original_h": 508,
+        "thumb_tiny": "AwAQADDQ3BcD5vToTTufWg57YppYhsYOPpQA/migcjNFABRRRQB//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AATPSLKD2/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AATPSLKD2-7b54dc9a0a",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QfLEL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "pluginを追加するだけでこういう綺麗なUIで管理画面に統合されるので、ギャップを埋める作業をするエンジニアの側も楽だし、非エンジニアのユーザも楽"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769230672.591179",
+    "client_msg_id": "cd411dea-46aa-4ed3-984a-380278efa9a2",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "pluginを追加するだけでこういう綺麗なUIで管理画面に統合されるので、ギャップを埋める作業をするエンジニアの側も楽だし、非エンジニアのユーザも楽"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769230726.111979",
+    "client_msg_id": "32d9ab64-d640-43b1-b80d-e3236da1a696",
+    "text": "次に可視化プラグインの側",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "74GVc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "次に可視化プラグインの側"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "次に可視化プラグインの側"
+  },
+  {
+    "text": "可視化の部分は1~3月にえいやとつくった3種類の可視化方法が決め打ちで、ソースコードにもがっつりハードコードされている状態にあった",
+    "files": [
+      {
+        "id": "F0AAQ6C9BT4",
+        "created": 1769230914,
+        "timestamp": 1769230914,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 77205,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ6C9BT4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ6C9BT4/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 338,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 450,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 675,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 750,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 900,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6C9BT4-65daf0e20a/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 960,
+        "original_w": 1077,
+        "original_h": 1010,
+        "thumb_tiny": "AwAuADDRdtoBJAGQDx68fzxSbG37vNfH93Ax/LNLLGsqbGzjIPBx0Oaa8W8MPMkXJz8pxjp0/L9TQA9WDoGU5DDINKRkEZx70zywVZXy6k5w3P4UJGisSqkbiSeeCT/+qgBvlP8A8/En5L/hUigjqxP1xQDkkDHHB56UbvnCnGSCR/n8aAFooooAKi8pWO/LBsAZHp6fnz/9bipaYyMWJVyOABx09T/npQA1IUUk4Oc53cA549PXHNBGLmMDPEbdTnutQOzRyKwE7Hn+DPGRnvjnacY9elSrnz48liQrjLAAnkelAE9FFFABUbs4kAVdw2knnHcf/XpxVmTG8qfVQP65p1AEMk0iAlYHYY7Ee/8A9b86kCZdXbhgpGAeOcf4UOhbGJGT/dx/UGnUAf/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AAQ6C9BT4/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AAQ6C9BT4-282a2b1d22",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+yO7E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "可視化の部分は1~3月にえいやとつくった3種類の可視化方法が決め打ちで、ソースコードにもがっつりハードコードされている状態にあった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769230934.775739",
+    "client_msg_id": "1c8cf3a9-2fd4-4a0d-848b-558c81bd006b",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "可視化の部分は1~3月にえいやとつくった3種類の可視化方法が決め打ちで、ソースコードにもがっつりハードコードされている状態にあった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769231064.429179",
+    "client_msg_id": "cf12eab4-5205-4c67-8016-170f688eb5b3",
+    "text": "で、これには色々問題点があった\n• scatterの縦横比が維持されてないのはそもそもおかしい\n• treemapの操作が難しい、よくわからない\n• scatterがあることで手前の分析部分がscatter用の座標データを出すものに限定される\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6nj+I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "で、これには色々問題点があった\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "scatterの縦横比が維持されてないのはそもそもおかしい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "treemapの操作が難しい、よくわからない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "scatterがあることで手前の分析部分がscatter用の座標データを出すものに限定される"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "で、これには色々問題点があった\n• scatterの縦横比が維持されてないのはそもそもおかしい\n• treemapの操作が難しい、よくわからない\n• scatterがあることで手前の分析部分がscatter用の座標データを出すものに限定される\n"
+  },
+  {
+    "text": "そこでここの部分をプラグインで追加できるようにした上で、どれを使うかはレポートの管理者が決められるようにした",
+    "files": [
+      {
+        "id": "F0AAQ6L0TLJ",
+        "created": 1769231096,
+        "timestamp": 1769231096,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 126693,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ6L0TLJ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAQ6L0TLJ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 348,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 464,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 696,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 773,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 927,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAQ6L0TLJ-d25e760d21/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 989,
+        "original_w": 1060,
+        "original_h": 1024,
+        "thumb_tiny": "AwAvADC5FGpSP91GVKjJPXP5f1p6xLj5oox9Bn+lRR+VuTdjeIwTnPT+XWpYTGqiNNox2B/z3zQAvlR/880/75FHlR/880/75FP70nOOg/OgBvlR/wDPNP8AvkU2WKMROQighT2qUZxz1pk3+pk/3T/KgCKNHIRsjYYgCNxHP/6vxqcYycZ49aZESIYsKTkDpjjinBiWIKMB6nGKAHUUUUAFMm/1L/7pp9Mm/wBS/wDumgBIf9VGcD7oyaf1JBAxUEdzEsSAvyAAeDTvtUP9/wDQ0AS7V54HJyeKUjIwelQ/aof7/wCho+1Q/wB/9DQBMAB0AFMm4gkx/dNM+1Q/89P0NU4WZN/mz7wUIAyx5/GgD//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AAQ6L0TLJ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AAQ6L0TLJ-035a8c77de",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2mVTb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そこでここの部分をプラグインで追加できるようにした上で、どれを使うかはレポートの管理者が決められるようにした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769231111.693869",
+    "client_msg_id": "c4c70394-6689-4c1f-852f-55423b9c1027",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そこでここの部分をプラグインで追加できるようにした上で、どれを使うかはレポートの管理者が決められるようにした"
+  },
+  {
+    "text": "こういうこと",
+    "files": [
+      {
+        "id": "F0AA8P2GYA3",
+        "created": 1769231169,
+        "timestamp": 1769231169,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 82090,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AA8P2GYA3/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AA8P2GYA3/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_360.png",
+        "thumb_360_w": 349,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_480.png",
+        "thumb_480_w": 465,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_720.png",
+        "thumb_720_w": 697,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 826,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_960.png",
+        "thumb_960_w": 930,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AA8P2GYA3-26c2cd375b/image_1024.png",
+        "thumb_1024_w": 992,
+        "thumb_1024_h": 1024,
+        "original_w": 1075,
+        "original_h": 1110,
+        "thumb_tiny": "AwAwAC/SYNkbSBzzkZzSScr98pz1GP60rKGxkZwc1FJb+YADNKME9CP8O3bvQAvlP/z8Sfkv+FORSucyM/1xx+QFKE2ncWLHGBkDj/8AXUaMUAVbeQD/AHl4/WgCagc00ltmVUbvRjj/ABojYsCDgMpwQDnHf+tADqKKKACo40BRSQy46DOMe3HH+eakqo0kQjBW5yy5O3zAN3OcH+X0oAtAKWJGNw4Pt0/+tTYiGDMFxliD74OP6VSWWOORVXYFDA5WZQDxzkDGfy59ulX1ZXUMrBge4OaAFooooAKrrcJu/wBfDtz03c4x/jViigCstyA/zywFSeNr4IHPX17fnVhWJLDBGDj68UKCqAE5IGM0tAH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AA8P2GYA3/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AA8P2GYA3-7dfd15c267",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hwW7o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういうこと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769231172.967779",
+    "client_msg_id": "4b1bc903-49db-4fb6-b027-8ab45efd26b9",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "こういうこと"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769231247.617769",
+    "client_msg_id": "898b321b-f19e-47ce-981e-3f58274d1f31",
+    "text": "でこの灰色のインターフェイス部分は可視化手法によって要求するものが違っているので機械的な検証手段があるのがベター、一応作ったけどその検証手段が正しく動いているかは今回は試せていない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tc0ll",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "でこの灰色のインターフェイス部分は可視化手法によって要求するものが違っているので機械的な検証手段があるのがベター、一応作ったけどその検証手段が正しく動いているかは今回は試せていない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "でこの灰色のインターフェイス部分は可視化手法によって要求するものが違っているので機械的な検証手段があるのがベター、一応作ったけどその検証手段が正しく動いているかは今回は試せていない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769231442.332259",
+    "client_msg_id": "04b04422-da6a-42b3-84a6-79d5f414eac7",
+    "text": "どの可視化手法がいいかなどと実物を見ないで議論しても意味がないので、「これはプラグインだから本体に悪影響はない」という境界線を作ることでみんなが気軽に「自分の考えた最強の可視化手法」を作れるようにし、実際のユーザが画面を見て「これがいいな」と選べるようにする",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M+Lxm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どの可視化手法がいいかなどと実物を見ないで議論しても意味がないので、「これはプラグインだから本体に悪影響はない」という境界線を作ることでみんなが気軽に「自分の考えた最強の可視化手法」を作れるようにし、実際のユーザが画面を見て「これがいいな」と選べるようにする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "どの可視化手法がいいかなどと実物を見ないで議論しても意味がないので、「これはプラグインだから本体に悪影響はない」という境界線を作ることでみんなが気軽に「自分の考えた最強の可視化手法」を作れるようにし、実際のユーザが画面を見て「これがいいな」と選べるようにする"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769231524.397979",
+    "client_msg_id": "f50b880f-30f6-46db-93ec-0cdfd33450c4",
+    "text": "で、本丸の「解析プラグイン」だが、ここは理屈の上では差し替え可能になってると思うが、現状まだ差し替え対象の解析手段がないのでおいおいやっていく感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5gyty",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "で、本丸の「解析プラグイン」だが、ここは理屈の上では差し替え可能になってると思うが、現状まだ差し替え対象の解析手段がないのでおいおいやっていく感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "で、本丸の「解析プラグイン」だが、ここは理屈の上では差し替え可能になってると思うが、現状まだ差し替え対象の解析手段がないのでおいおいやっていく感じ"
+  },
+  {
+    "text": "今後プラグインが増えていった時に懸念されるのは\n• 互換性がない or 機能しないプラグイン\n• たくさんからどう選ぶのか\nと考えていて、互換性に関しては要するにデータ型の整合性チェックなので各プラグインが「なにをrequireするか、なにをsupplyするか」を機械可読な形で表明して、プラットフォーム側が整合性チェックを行えばいい。traitの合成と同じ概念です。(拙著: コーディングを支える技術 p.233)",
+    "files": [
+      {
+        "id": "F0AAN69P7BQ",
+        "created": 1769231857,
+        "timestamp": 1769231857,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 114325,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAN69P7BQ/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AAN69P7BQ/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 212,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 283,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 424,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 471,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 565,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AAN69P7BQ-6cb46e8b5d/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 603,
+        "original_w": 1080,
+        "original_h": 636,
+        "thumb_tiny": "AwAdADDQaNSSSW554YikLDaAVYMw4XcAT+tSVEbeM9d5/wC2jf40AP2Ddnnpj7xpnmhWKBWO3jORz09TnuPzpkMCQZOwnb0OSc/h6/48dcUv2aGT94YypfkjJH50ASh1KllIYD0OadUCRQD7jHHHRzg/rU9AAelMEh2EleRkY56/lT6YUJ6yN+Q/woAVSzA5AUHoQef1HFKGBzjPHtTRGQSQ7AnrwOf0o8s/32/If4UAKQFTvwPX0p1M8s4xvbHpgf4U+gD/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AAN69P7BQ/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AAN69P7BQ-ac81711310",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Aer6w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今後プラグインが増えていった時に懸念されるのは\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "互換性がない or 機能しないプラグイン"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "たくさんからどう選ぶのか"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "と考えていて、互換性に関しては要するにデータ型の整合性チェックなので各プラグインが「なにをrequireするか、なにをsupplyするか」を機械可読な形で表明して、プラットフォーム側が整合性チェックを行えばいい。traitの合成と同じ概念です。(拙著: コーディングを支える技術 p.233)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769231890.250999",
+    "client_msg_id": "84c8b166-353f-42fd-b223-67d17aee8348",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今後プラグインが増えていった時に懸念されるのは\n• 互換性がない or 機能しないプラグイン\n• たくさんからどう選ぶのか\nと考えていて、互換性に関しては要するにデータ型の整合性チェックなので各プラグインが「なにをrequireするか、なにをsupplyするか」を機械可読な形で表明して、プラットフォーム側が整合性チェックを行えばいい。traitの合成と同じ概念です。(拙著: コーディングを支える技術 p.233)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769232002.193149",
+    "client_msg_id": "c4c44c9f-ee99-484e-816b-71802fc08111",
+    "text": "「たくさんからどう選ぶのか」は増えてから考えたらいいけど、最初は適当なリストにしといて、見切れないくらい増えたらそのリストに「実際に使われているところ」とか「使った人の感想」とかをつけられるようにしたカタログサイトを作ればいいと思います。で、使用例や最近の更新があったものを上にするように並べる。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/rAFl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「たくさんからどう選ぶのか」は増えてから考えたらいいけど、最初は適当なリストにしといて、見切れないくらい増えたらそのリストに「実際に使われているところ」とか「使った人の感想」とかをつけられるようにしたカタログサイトを作ればいいと思います。で、使用例や最近の更新があったものを上にするように並べる。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「たくさんからどう選ぶのか」は増えてから考えたらいいけど、最初は適当なリストにしといて、見切れないくらい増えたらそのリストに「実際に使われているところ」とか「使った人の感想」とかをつけられるようにしたカタログサイトを作ればいいと思います。で、使用例や最近の更新があったものを上にするように並べる。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1769232711.536549",
+    "client_msg_id": "d1c4449b-b119-42f7-9493-74b474f1ff10",
+    "text": "ありがとうございます！\nまさに聞きたかったところでした。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RGjDl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nまさに聞きたかったところでした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！\nまさに聞きたかったところでした。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769308959.749189",
+    "client_msg_id": "da19b295-c32e-426a-8062-3191a9f26b1c",
+    "text": "上記チャットの内容をベースに書きかけだったドキュメントを完成させておきました(Codexが)\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/762>\n\n<https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5",
+        "service_icon": "https://digitaldemocracy2030.github.io/kouchou-ai/assets/images/favicon.png",
+        "id": 1,
+        "original_url": "https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5",
+        "fallback": "プラグインシステムの設計思想 - 広聴AI Documentation",
+        "text": "デジタル民主主義2030プロジェクト - ブロードリスニングシステム",
+        "title": "プラグインシステムの設計思想 - 広聴AI Documentation",
+        "title_link": "https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5",
+        "service_name": "digitaldemocracy2030.github.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oJKVP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "上記チャットの内容をベースに書きかけだったドキュメントを完成させておきました(Codexが)\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/762"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "上記チャットの内容をベースに書きかけだったドキュメントを完成させておきました(Codexが)\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/762>\n\n<https://digitaldemocracy2030.github.io/kouchou-ai/development/why-plugin-system.html#5>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769325811.565369",
+    "client_msg_id": "19ef9a67-14e4-4b19-b2ba-67daabb0518b",
+    "text": "pandas to polars、どうしましょうかね。急ぐ必要はないとはいえ、テストは全部通っててCode Rabbitの指摘も修正済みなのでマージしていいんじゃないのかなという気もします。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MSt3e",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "pandas to polars、どうしましょうかね。急ぐ必要はないとはいえ、テストは全部通っててCode Rabbitの指摘も修正済みなのでマージしていいんじゃないのかなという気もします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "lgtm",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 2
+      },
+      {
+        "name": "white_check_mark",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "pandas to polars、どうしましょうかね。急ぐ必要はないとはいえ、テストは全部通っててCode Rabbitの指摘も修正済みなのでマージしていいんじゃないのかなという気もします。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769411460.984799",
+    "client_msg_id": "8fc586e3-89cc-4355-bf62-b111283b7cdc",
+    "text": "memo: pipでインストールしてCLIコマンドで分析するところまではあっさり行ったが、いまpipに入っているのは分析プラグイン部分のみで、JSONを出力して終了なのでCLIユーザがJSONを可視化する手法を自分で作る羽目になるw CLI用の可視化プラグインを同梱してあげたほうが親切",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fk5iG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: pipでインストールしてCLIコマンドで分析するところまではあっさり行ったが、いまpipに入っているのは分析プラグイン部分のみで、JSONを出力して終了なのでCLIユーザがJSONを可視化する手法を自分で作る羽目になるw CLI用の可視化プラグインを同梱してあげたほうが親切"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: pipでインストールしてCLIコマンドで分析するところまではあっさり行ったが、いまpipに入っているのは分析プラグイン部分のみで、JSONを出力して終了なのでCLIユーザがJSONを可視化する手法を自分で作る羽目になるw CLI用の可視化プラグインを同梱してあげたほうが親切"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769411753.563559",
+    "client_msg_id": "d0515f5f-f1de-461e-8a98-438270fa2d0b",
+    "text": "marimoで探索的に見れば良いよねって話だっけ？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ymNPY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "marimoで探索的に見れば良いよねって話だっけ？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "marimoで探索的に見れば良いよねって話だっけ？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1769411757.778149",
+    "client_msg_id": "152b8cdd-2c4e-4e8c-aae1-f65257c014a8",
+    "text": "大企業的にはexcel＋散布図で吐き出してあげると親切かも？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/w7Ez",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "大企業的にはexcel＋散布図で吐き出してあげると親切かも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "大企業的にはexcel＋散布図で吐き出してあげると親切かも？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769411767.921409",
+    "client_msg_id": "2444fcd0-8928-4472-9630-72adfa292c3e",
+    "text": "www",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wguDq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "www"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "www"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769411952.239889",
+    "client_msg_id": "fc8637ea-6aee-46e2-9033-eab58c377978",
+    "text": "そういうのを公式機能として実装してメンテしたくないので、kouchou-ai JSONからExcelに変換するツールを誰かが勝手に開発してPyPIに入れたら良いんじゃないかなw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zCrgu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういうのを公式機能として実装してメンテしたくないので、kouchou-ai JSONからExcelに変換するツールを誰かが勝手に開発してPyPIに入れたら良いんじゃないかなw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そういうのを公式機能として実装してメンテしたくないので、kouchou-ai JSONからExcelに変換するツールを誰かが勝手に開発してPyPIに入れたら良いんじゃないかなw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769412040.118439",
+    "client_msg_id": "619c3229-b6ef-4084-8bb0-423cb73986cf",
+    "text": "そう言う意味ではkouchou-aiが出力するJSON形式に関するかっちりとした仕様のドキュメントがあるべきなんかな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/2bas",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そう言う意味ではkouchou-aiが出力するJSON形式に関するかっちりとした仕様のドキュメントがあるべきなんかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そう言う意味ではkouchou-aiが出力するJSON形式に関するかっちりとした仕様のドキュメントがあるべきなんかな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769412530.632309",
+    "client_msg_id": "543cfec2-7557-4577-8776-1d6cc825fc2f",
+    "text": "Codexに書かせてみよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b2lCI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Codexに書かせてみよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Codexに書かせてみよ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769433751.116449",
+    "client_msg_id": "353f7732-2051-415f-97cd-9d96d9ccea4e",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/770>\nドキュメントができました\n(これもうさぎがレビューするのか)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UNlwJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/770"
+              },
+              {
+                "type": "text",
+                "text": "\nドキュメントができました\n(これもうさぎがレビューするのか)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/770>\nドキュメントができました\n(これもうさぎがレビューするのか)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1769433834.260009",
+    "client_msg_id": "1d40d261-6558-4d2e-9f0a-499164b9f3c3",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/769>\nレポート再利用の件もPLANだけ作ってPRにしてみたらCodeRabbitがレビューしていたけども、監査ログが必要とかいうコメントは前提がズレてるなという気持ち",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kcaPu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/769"
+              },
+              {
+                "type": "text",
+                "text": "\nレポート再利用の件もPLANだけ作ってPRにしてみたらCodeRabbitがレビューしていたけども、監査ログが必要とかいうコメントは前提がズレてるなという気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/769>\nレポート再利用の件もPLANだけ作ってPRにしてみたらCodeRabbitがレビューしていたけども、監査ログが必要とかいうコメントは前提がズレてるなという気持ち"
+  }
+]
