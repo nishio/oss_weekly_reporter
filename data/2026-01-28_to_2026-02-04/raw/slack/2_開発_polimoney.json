@@ -1,0 +1,1296 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769579118.668839",
+    "client_msg_id": "cbe6d050-925f-48bc-9976-f03d3f9a058a",
+    "text": "もしかしてpolimoney backend vercelでもいいですかね...？\nいまazureでデプロイして環境変数エラーになってます\nauth0とdbも整備しなきゃ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "reply_count": 5,
+    "reply_users_count": 3,
+    "latest_reply": "1769579978.584839",
+    "reply_users": [
+      "U099TAD6RKL",
+      "U08HWJ80CHG",
+      "U08NZH1RY4S"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GU2/t",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もしかしてpolimoney backend vercelでもいいですかね...？\nいまazureでデプロイして環境変数エラーになってます\nauth0とdbも整備しなきゃ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "もしかしてpolimoney backend vercelでもいいですかね...？\nいまazureでデプロイして環境変数エラーになってます\nauth0とdbも整備しなきゃ"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1769579183.578809",
+    "client_msg_id": "6F2E9675-132E-4786-BA0D-C644B8A36A6A",
+    "text": "結構色々動かせるからいけそうな気はします",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "K1Hhu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "結構色々動かせるからいけそうな気はします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769579118.668839",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "結構色々動かせるからいけそうな気はします"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769579794.400289",
+    "client_msg_id": "489097d3-bac0-4054-b0ed-30771cc53362",
+    "text": "polimoneyバックエンド、DBはhubで問題ない認識でした（supabase、ledgerとは別）\nauth0もsupabaseAuthでいいかも？\nただsupabaseが無料版2プロジェクトまでの制限があり、いまhubとledgerで無料版使ってしまってます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o+ujq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoneyバックエンド、DBはhubで問題ない認識でした（supabase、ledgerとは別）\nauth0もsupabaseAuthでいいかも？\nただsupabaseが無料版2プロジェクトまでの制限があり、いまhubとledgerで無料版使ってしまってます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769579118.668839",
+    "user_name": "小野翔太",
+    "text_readable": "polimoneyバックエンド、DBはhubで問題ない認識でした（supabase、ledgerとは別）\nauth0もsupabaseAuthでいいかも？\nただsupabaseが無料版2プロジェクトまでの制限があり、いまhubとledgerで無料版使ってしまってます。"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1769579871.192109",
+    "client_msg_id": "E0EBFA5E-7DB7-41C9-BD1A-A7675F755465",
+    "text": "一回全体像まとめたほうがよさそうですね…構成図みたいなのほしい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FsoiL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一回全体像まとめたほうがよさそうですね…構成図みたいなのほしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769579118.668839",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "一回全体像まとめたほうがよさそうですね…構成図みたいなのほしい"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769579891.883739",
+    "client_msg_id": "2807691e-7cac-4e44-955d-b029521e7e63",
+    "text": "明日の定例でやりたいですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nsxKS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "明日の定例でやりたいですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-gesturing-ok::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "man-gesturing-ok",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769579118.668839",
+    "user_name": "haruki shimizu",
+    "text_readable": "明日の定例でやりたいですね"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769579978.584839",
+    "client_msg_id": "37ef1a49-c6cd-467a-a454-d3b7d3e616de",
+    "text": "一応貼っておきます\n<https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%85%A8%E4%BD%93%E5%9B%B3|https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E[…]%A0%E5%85%A8%E4%BD%93%E5%9B%B3>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579118.668839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TMMmX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応貼っておきます\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%85%A8%E4%BD%93%E5%9B%B3",
+                "text": "https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E[…]%A0%E5%85%A8%E4%BD%93%E5%9B%B3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769579118.668839",
+    "user_name": "小野翔太",
+    "text_readable": "一応貼っておきます\n<https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%85%A8%E4%BD%93%E5%9B%B3|https://github.com/digitaldemocracy2030/polimoney_hub/blob/main/docs/ARCHITECTURE.md#polimoney-%E3%82%A8%E3%82%B3%E[…]%A0%E5%85%A8%E4%BD%93%E5%9B%B3>"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769579159.606409",
+    "client_msg_id": "0e256353-338a-4444-b54e-ee7b0180aa37",
+    "text": "あ、あと岩永さんの収支報告書データいかがでしょう？\n岩永さんはあとチェックいただくだけですぐ公開できた記憶",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579159.606409",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1769579834.115869",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0Gm64",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あ、あと岩永さんの収支報告書データいかがでしょう？\n岩永さんはあとチェックいただくだけですぐ公開できた記憶"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "あ、あと岩永さんの収支報告書データいかがでしょう？\n岩永さんはあとチェックいただくだけですぐ公開できた記憶"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769579834.115869",
+    "client_msg_id": "764d29c5-e118-4207-8b04-34922c4aa0e2",
+    "text": "岩永さんの会計責任者OKは出ましたが、本人のOKがまだです～！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769579159.606409",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OD64E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "岩永さんの会計責任者OKは出ましたが、本人のOKがまだです～！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      },
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769579159.606409",
+    "user_name": "小野翔太",
+    "text_readable": "岩永さんの会計責任者OKは出ましたが、本人のOKがまだです～！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1769677213.148409",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: &lt;https://meet.google.com/ozd-knuy-tbx&gt; :memo: &lt;https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0&gt; • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "07wYf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 19:00-20:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " <https://meet.google.com/ozd-knuy-tbx>\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH> :mega: 1時間後より、Polimoney開発会議を開催します！:mega: :clock9: 19:00-20:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "subtype": "reminder_add",
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769678407.388549",
+    "text": "  毎週木曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “1時間後より、Polimoney開発会議を開催します！\\n20:00-21:00（毎週木曜日）\\nhttps://meet.google.com/ozd-knuy-tbx\\nhttps://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” ",
+    "user_name": "haruki shimizu",
+    "text_readable": "  毎週木曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “1時間後より、Polimoney開発会議を開催します！\\n20:00-21:00（毎週木曜日）\\nhttps://meet.google.com/ozd-knuy-tbx\\nhttps://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” "
+  },
+  {
+    "subtype": "reminder_add",
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769678492.249649",
+    "text": "  毎週木曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “1時間後より、Polimoney開発会議を開催します！\n:clock9: 20:00-21:00（毎週木曜日）\n:link: https://meet.google.com/ozd-knuy-tbx\n:memo: https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” ",
+    "user_name": "haruki shimizu",
+    "text_readable": "  毎週木曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “1時間後より、Polimoney開発会議を開催します！\n:clock9: 20:00-21:00（毎週木曜日）\n:link: https://meet.google.com/ozd-knuy-tbx\n:memo: https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” "
+  },
+  {
+    "subtype": "reminder_add",
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769678595.885429",
+    "text": "  毎週木曜日 19:59 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “:mega: Polimoney開発会議を開催します！:mega:\n:clock9: 20:00-21:00（毎週木曜日）\n:link: https://meet.google.com/ozd-knuy-tbx\n:memo: https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” ",
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U099TAD6RKL",
+          "U08J64P3SF4"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "  毎週木曜日 19:59 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “:mega: Polimoney開発会議を開催します！:mega:\n:clock9: 20:00-21:00（毎週木曜日）\n:link: https://meet.google.com/ozd-knuy-tbx\n:memo: https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！” "
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1769680809.088999",
+    "bot_id": "B01",
+    "text": "リマインダー : 1時間後より、Polimoney開発会議を開催します！ :clock9: 20:00-21:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n/F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : 1時間後より、Polimoney開発会議を開催します！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : 1時間後より、Polimoney開発会議を開催します！ :clock9: 20:00-21:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1769684352.614889",
+    "bot_id": "B01",
+    "text": "リマインダー : :mega: Polimoney開発会議を開催します！:mega: :clock9: 20:00-21:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769684352.614889",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1769684478.122809",
+    "reply_users": [
+      "U08NZH1RY4S"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/ozd-knuy-tbx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/ozd-knuy-tbx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/ozd-knuy-tbx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Big5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00（毎週木曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/ozd-knuy-tbx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n• 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : :mega: Polimoney開発会議を開催します！:mega: :clock9: 20:00-21:00（毎週木曜日） :link: <https://meet.google.com/ozd-knuy-tbx> :memo: <https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0> • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769684478.122809",
+    "client_msg_id": "3f7dcf9f-2ea1-4c8f-93d0-fa95ea796b4c",
+    "text": "<@U08HWJ80CHG> <@U099TAD6RKL> :pleading_face:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769684352.614889",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+mztg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "pleading_face",
+                "unicode": "1f97a"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-bowing",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08J64P3SF4"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769684352.614889",
+    "user_name": "haruki shimizu",
+    "text_readable": "@oscar.gaddress <@U099TAD6RKL> :pleading_face:"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769688391.028489",
+    "client_msg_id": "265891de-bb29-49c2-9668-6d1738ed5fdd",
+    "text": "<@U099TAD6RKL>\n岩永さんのAPI、\n<https://api.polimoney.dd2030.org/api-reference#tag/polimoney/GET/api/v1/polimoney/ledgers/{ledgerId}/journals>\n上のリファレンスを参考にしてください。\n台帳IDは\nd4444444-4444-4444-4444-444444444444\nです。\nテスト用のAPIキーは以前DMしたやつです！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rMLxJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": "\n岩永さんのAPI、\n"
+              },
+              {
+                "type": "link",
+                "url": "https://api.polimoney.dd2030.org/api-reference#tag/polimoney/GET/api/v1/polimoney/ledgers/{ledgerId}/journals"
+              },
+              {
+                "type": "text",
+                "text": "\n上のリファレンスを参考にしてください。\n台帳IDは\nd4444444-4444-4444-4444-444444444444\nです。\nテスト用のAPIキーは以前DMしたやつです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<@U099TAD6RKL>\n岩永さんのAPI、\n<https://api.polimoney.dd2030.org/api-reference#tag/polimoney/GET/api/v1/polimoney/ledgers/{ledgerId}/journals>\n上のリファレンスを参考にしてください。\n台帳IDは\nd4444444-4444-4444-4444-444444444444\nです。\nテスト用のAPIキーは以前DMしたやつです！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769697568.660499",
+    "client_msg_id": "a97608a4-5022-4337-991a-b80851f4ea46",
+    "text": "polimoney/backendにあったやつは、polimoney_hub/backendとして開発続行しています\npolimoney_hubに求められる機能をここにつくっています\n<@U08HWJ80CHG> PRつくったのでレビュアーになりたいです＋coderabbitがほしいです\n\nあとたぐささんもレビュアー割り振っていいと思います～",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "reply_count": 12,
+    "reply_users_count": 3,
+    "latest_reply": "1769824630.775109",
+    "reply_users": [
+      "U08NZH1RY4S",
+      "U08HWJ80CHG",
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yg1Fm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "polimoney/backendにあったやつは、polimoney_hub/backendとして開発続行しています\npolimoney_hubに求められる機能をここにつくっています\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " PRつくったのでレビュアーになりたいです＋coderabbitがほしいです\n\nあとたぐささんもレビュアー割り振っていいと思います～"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "polimoney/backendにあったやつは、polimoney_hub/backendとして開発続行しています\npolimoney_hubに求められる機能をここにつくっています\n@oscar.gaddress PRつくったのでレビュアーになりたいです＋coderabbitがほしいです\n\nあとたぐささんもレビュアー割り振っていいと思います～"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769755619.221869",
+    "client_msg_id": "26b78d69-ed01-45b7-a6d7-d43d7dac5fb7",
+    "text": "あとさっそくpolimoney_hubをvercelにあげてみたいのでvercelあれば私も入りたいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m9bEg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとさっそくpolimoney_hubをvercelにあげてみたいのでvercelあれば私も入りたいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "haruki shimizu",
+    "text_readable": "あとさっそくpolimoney_hubをvercelにあげてみたいのでvercelあれば私も入りたいです"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769755976.436379",
+    "client_msg_id": "e4d58f42-3228-4ce9-8917-8f25adb5bd4a",
+    "text": "<@U08NZH1RY4S> <@U099TAD6RKL>\n必要ないかもしれませんが、ledger等にもメンテナー権限で招待しました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BIFEe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U099TAD6RKL"
+              },
+              {
+                "type": "text",
+                "text": "\n必要ないかもしれませんが、ledger等にもメンテナー権限で招待しました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08NZH1RY4S",
+          "U099TAD6RKL"
+        ],
+        "count": 2
+      },
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "@shumizu418128 <@U099TAD6RKL>\n必要ないかもしれませんが、ledger等にもメンテナー権限で招待しました！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756098.232159",
+    "client_msg_id": "b49c75f3-c010-4910-aa86-6c9962508436",
+    "text": "vercelは無料プランだと1人でしか管理できないらしい。。。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "P6xEC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "vercelは無料プランだと1人でしか管理できないらしい。。。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "vercelは無料プランだと1人でしか管理できないらしい。。。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756370.631559",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1769756446.000000"
+    },
+    "client_msg_id": "2f5e2583-7d72-4e51-9506-90870477451c",
+    "text": "~deno deployなら無料で複数人管理いけます（ただし、バックエンドはdenoになる）。~\n~使わないかもですが、すでにあるdeno deployにも招待しておきます。~\nだめだ、3人までだった…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QJr+m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "deno deployなら無料で複数人管理いけます（ただし、バックエンドはdenoになる）。",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "使わないかもですが、すでにあるdeno deployにも招待しておきます。",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nだめだ、3人までだった…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "~deno deployなら無料で複数人管理いけます（ただし、バックエンドはdenoになる）。~\n~使わないかもですが、すでにあるdeno deployにも招待しておきます。~\nだめだ、3人までだった…"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1769756437.097089",
+    "client_msg_id": "dfec4bc5-7c94-4dac-beef-f8ef25b58cbc",
+    "text": "となると管理の手間考えたらAzureですかね...\ndeno知らなかったので調べてきます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "z0hau",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "となると管理の手間考えたらAzureですかね...\ndeno知らなかったので調べてきます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "haruki shimizu",
+    "text_readable": "となると管理の手間考えたらAzureですかね...\ndeno知らなかったので調べてきます"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756460.010739",
+    "client_msg_id": "451cd2ab-4065-4f44-b4e4-31c25220c62e",
+    "text": "だめだ、3人までだった…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XGq5u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "だめだ、3人までだった…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "innocent",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "だめだ、3人までだった…"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756494.221449",
+    "client_msg_id": "742943cc-77a0-4368-8a1a-3f65104a7be7",
+    "text": "3人（code for japan管理、私、kuboonさん）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uNbGE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "3人（code for japan管理、私、kuboonさん）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "3人（code for japan管理、私、kuboonさん）"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756611.855599",
+    "client_msg_id": "d1b79659-c746-4fa0-95be-cb197cfe16ad",
+    "text": "azureですかねぇ。。。\nazureの場合、denoの実行環境として最適化されてないらしいので、azureならdenoじゃないほうがいいかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hn9jl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "azureですかねぇ。。。\nazureの場合、denoの実行環境として最適化されてないらしいので、azureならdenoじゃないほうがいいかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "azureですかねぇ。。。\nazureの場合、denoの実行環境として最適化されてないらしいので、azureならdenoじゃないほうがいいかも。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769756792.224639",
+    "client_msg_id": "460315a7-7345-4e0e-8ec6-21460b061e01",
+    "text": "coderabbitは私は権限持ってなくて。あと今日納期でバタバタしてるので<#C08TR6S8Y0Z> にて、<@U09C3J7V960> さん当てにお願いしてみると早いかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JKSpf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "coderabbitは私は権限持ってなくて。あと今日納期でバタバタしてるので"
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08TR6S8Y0Z"
+              },
+              {
+                "type": "text",
+                "text": " にて、"
+              },
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": " さん当てにお願いしてみると早いかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "coderabbitは私は権限持ってなくて。あと今日納期でバタバタしてるので<#C08TR6S8Y0Z> にて、<@U09C3J7V960> さん当てにお願いしてみると早いかも。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769757212.917619",
+    "client_msg_id": "cfc38e94-063e-4db5-81e8-dd697ad1e83f",
+    "text": "ちなみに、deno dplayでは、githubにてメインブランチがアップデートされると、下記ドメインにDeployされる様にしてます。\n\nhub-admin（polimoney全体の管理画面になる予定）\n<https://polimoney-hub-admin.dd2030-topics.deno.net/login>\n\nhub\n<https://api.polimoney.dd2030.org/>\n\nledger\n<https://ledger.polimoney.dd2030.org/>\n\nDeployエラー（だいたいbuildエラー）がなければ、1分弱でDeployされます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EJYEx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに、deno dplayでは、githubにてメインブランチがアップデートされると、下記ドメインにDeployされる様にしてます。\n\nhub-admin（polimoney全体の管理画面になる予定）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://polimoney-hub-admin.dd2030-topics.deno.net/login"
+              },
+              {
+                "type": "text",
+                "text": "\n\nhub\n"
+              },
+              {
+                "type": "link",
+                "url": "https://api.polimoney.dd2030.org/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nledger\n"
+              },
+              {
+                "type": "link",
+                "url": "https://ledger.polimoney.dd2030.org/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nDeployエラー（だいたいbuildエラー）がなければ、1分弱でDeployされます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "ちなみに、deno dplayでは、githubにてメインブランチがアップデートされると、下記ドメインにDeployされる様にしてます。\n\nhub-admin（polimoney全体の管理画面になる予定）\n<https://polimoney-hub-admin.dd2030-topics.deno.net/login>\n\nhub\n<https://api.polimoney.dd2030.org/>\n\nledger\n<https://ledger.polimoney.dd2030.org/>\n\nDeployエラー（だいたいbuildエラー）がなければ、1分弱でDeployされます。"
+  },
+  {
+    "text": "ありがとうございますレビュアー設定きました！\n\nあと今更なんですが CodeRabbit のこの欄に今まで気づいていなかった…\nこれ便利すぎる",
+    "files": [
+      {
+        "id": "F0ABTAJ9ZC3",
+        "created": 1769776251,
+        "timestamp": 1769776251,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U099TAD6RKL",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 104086,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ABTAJ9ZC3/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ABTAJ9ZC3/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 239,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 318,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 478,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ABTAJ9ZC3-0888cd97b7/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 531,
+        "original_w": 844,
+        "original_h": 560,
+        "thumb_tiny": "AwAgADClF1PAz2yM59uhpXTOAilgehA/+sPQ1GqljhQSfQUpUgkHHHpzQAmDjODQysv3lI+op21l+b5ePcH9KTDDKgA59MGmA2lLE4zjgY4GKXaSAfl6eopCMHBx+BzQA+NAwJxnAzUirkBdqAr1YkYpsLbVOQeQRx+FSGQMGBDDceoHt6Uiteg1Y2CnAjwQTkjPSm7SFbhCCcE4/lUhkBU8NkqRwO+f/rc0eZtztzy2eVOemPWgNe34EDAKSMKfcUhxjoKfJlmyF/SmEEDoaNA17H//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ABTAJ9ZC3/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ABTAJ9ZC3-294e77c0ef",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U099TAD6RKL",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DKu4B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございますレビュアー設定きました！\n\nあと今更なんですが CodeRabbit のこの欄に今まで気づいていなかった…\nこれ便利すぎる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1769776283.061759",
+    "client_msg_id": "0638fc76-2e97-4f56-b1f8-e98e571bed53",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "parent_ts": "1769697568.660499",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "ありがとうございますレビュアー設定きました！\n\nあと今更なんですが CodeRabbit のこの欄に今まで気づいていなかった…\nこれ便利すぎる"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1769824630.775109",
+    "client_msg_id": "13e3a1c7-5a38-4e3a-8fd8-da715e4e1733",
+    "text": "便利…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1769697568.660499",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NfWEw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "便利…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1769697568.660499",
+    "user_name": "小野翔太",
+    "text_readable": "便利…"
+  }
+]

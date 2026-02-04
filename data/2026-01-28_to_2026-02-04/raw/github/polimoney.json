@@ -1,0 +1,42 @@
+[
+  {
+    "id": 3409279807,
+    "number": 197,
+    "title": "サンキー図・一覧表のデータを統一",
+    "state": "closed",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/197",
+    "user": "grassfieldk",
+    "created_at": "2025-09-12T07:37:15Z",
+    "closed_at": "2026-01-29T12:52:17Z",
+    "body": "## 解決・改善したいこと\n\n各議員ページに表示する資金項目データのフォーマット統一を図りたい\n\nサンキー図用に Flow / Transaction の２つのデータ型が存在しているため、これを統合したい\n\n\n## Flow と Transaction の関係\n\nFlow: サンキー図用のデータ、カテゴリごとの合計値\nTransaction: 収支一覧用のデータ、各項目の詳細\n\nFlow は Transaction から生成可能\nページ表示時に生成してもよいが、プレ生成しているのが現状\n\n### 整合性要件\n\n- Transaction の category ごとに Flow が存在すること（総収入は除く）\n- Flow と同じ category を持つ Transaction[].amount 合計値が Flow.value になっていること\n\n\n## 対応方針\n\n下記に示す通り現状不整合が起きているが、あくまででもデータのため問題ではない\nただ Flow は動的生成できるため Transaction さえあればよく、生成処理の負荷も非常に低いはず\nまた今後 RDB などを使えばビューなどで処理を DB に任せることも可能\n※ ただし Flow にはカテゴリの親子関係も記録されているため、これについては別途定義が必要\n\nよって、サンキー図のデータは整合性が確実に担保される動的生成に変更する\n\n## 現状\n\n現在定義されているデータに不整合あり\n※ チェック用スクリプトで確認\n\n<details>\n<summary>不整合の詳細</summary>\n\n```plaintext\n[demo-comingsoon.ts] OK\n[demo-example.ts] category='寄附' の Flow が存在しません\n[demo-example.ts] Flow.name='個人からの寄附' に対応する Transaction がありません\n[demo-example.ts] Flow.name='総収入' に対応する Transaction がありません\n[demo-example.ts] Flow.name='翌年への繰越額' に対応する Transaction がありません\n[demo-example.ts] Flow.name='人件費' に対応する Transaction がありません\n[demo-kokifujisaki.ts] category='前年繰越' の Flow が存在しません\n[demo-kokifujisaki.ts] category='党費・会費' の Flow が存在しません\n[demo-kokifujisaki.ts] category='交付金' の Flow が存在しません\n[demo-kokifujisaki.ts] Flow.name='前年からの繰越額' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='本年の収入額' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='個人の負担する党費又は会費' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='本部又は支部から供与された交付金' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='総収入' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='組織活動費' に対応する Transaction がありません\n[demo-kokifujisaki.ts] Flow.name='翌年への繰越' に対応する Transaction がありません\n[demo-ryosukeidei.ts] category='前年繰越' の Flow が存在しません\n[demo-ryosukeidei.ts] category='党費・会費' の Flow が存在しません\n[demo-ryosukeidei.ts] category='交付金' の Flow が存在しません\n[demo-ryosukeidei.ts] category='その他収入' の Flow が存在しません\n[demo-ryosukeidei.ts] category='政治活動費' の合計値不一致: Transaction合計=7723335, Flow.value=14575541\n[demo-ryosukeidei.ts] Flow.name='前年からの繰越額' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='個人の負担する党費又は会費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='個人からの寄附' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='法人その他の団体からの寄附' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='政治団体からの寄附' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='本部又は支部から供与された交付金' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='その他の収入' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='本年の収入額' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='総収入' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='人件費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='光熱水費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='備品・消耗品費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='事務所費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='組織活動費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='選挙関係費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='宣伝事業費' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='寄附・交付金' に対応する Transaction がありません\n[demo-ryosukeidei.ts] Flow.name='翌年への繰越' に対応する Transaction がありません\n[demo-takahiroanno.ts] category='組織活動費' の Flow が存在しません\n[demo-takahiroanno.ts] Flow.name='総収入' に対応する Transaction がありません\n[demo-takahiroanno.ts] Flow.name='事務所費' に対応する Transaction がありません\n[demo-takahiroanno.ts] Flow.name='宣伝事業費' に対応する Transaction がありません\n[demo-takahiroanno.ts] Flow.name='政治活動費' に対応する Transaction がありません\n[demo-takahiroanno.ts] Flow.name='翌年への繰越額' に対応する Transaction がありません\n```\n</details>\n\n\n## 実装中に気づいた課題など\n\n- カテゴリの親子関係が議員データによって異なる\n- Transaction から読み取れない情報が Flows に記載されている\n\n\n## 関連 Issue\n\n- blocked by #199 \n- blocks #166 \n- relates to #32 ",
+    "type": "issue"
+  },
+  {
+    "id": 3553279035,
+    "number": 218,
+    "title": "ディレクトリ構成の整理",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/218",
+    "user": "grassfieldk",
+    "created_at": "2025-10-26T04:41:46Z",
+    "updated_at": "2026-01-29T12:46:20Z",
+    "body": "## 解決・改善したいこと\n\nNext.js のコードがプロジェクトルートに並んでおり、共通の設定ファイルなどと区別がつきづらい\nまた、Next.js のコードだけをみても src ディレクトリが採用されておらず管理がしづらい\n\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\nfrontend/ ディレクトリを作成し、次のようにまとめる\n※ デプロイの都合上これだとうまくいかない可能性もあるため注意\n\n```\nfrontend/app/\nfrontend/components/\nfrontend/data/\nfrontend/models/\nfrontend/public/\nfrontend/utils/\nfrontend/next.config.ts\nfrontend/next-env.d.ts\n```",
+    "type": "issue"
+  },
+  {
+    "id": 3870489879,
+    "number": 247,
+    "title": "フロントエンドのコード整理",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/247",
+    "user": "grassfieldk",
+    "created_at": "2026-01-29T12:47:21Z",
+    "body": "## 変更の概要\r\n\r\n- フロントエンドのコードを frontend ディレクトリにまとめる\r\n- Next.js の脆弱性への対応\r\n- 動的エクスポートへの変更およびこれに伴うリファクタリング\r\n\r\n\r\n## 変更の背景\r\n\r\n- ルートディレクトリ配下にフロントエンド・バックエンドのコードが混在し、わかりづらくなっていたため\r\n- デプロイ先を GitHub Pages から Vercel に変えたことにより動的サイトの実行が可能となったため\r\n\r\n\r\n## 関連Issue\r\n\r\nClose: #218 #219 \r\n\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **新機能**\n  * 認証ミドルウェアと認証用ルートを追加し、ログイン／ログアウトの挙動をリダイレクトベースに統一\n\n* **リファクタリング**\n  * フロントエンド／バックエンドの構成を明確化し、Next.js周りをfrontendディレクトリ中心に再構成\n  * レイアウトがサーバーサイドでセッションを取得するよう変更\n\n* **Chores**\n  * デプロイ設定をVercelに移行し、ワークスペース設定を導入\n\n* **ドキュメント**\n  * パスやデプロイ手順をfrontend中心に更新し、説明を簡素化\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 1555,
+    "deletions": 1872,
+    "changed_files": 95,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
