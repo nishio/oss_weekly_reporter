@@ -1,0 +1,3750 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770225158.873279",
+    "client_msg_id": "8b47890c-c676-416e-b36b-e9a300da47ed",
+    "text": "修正したところとあんまり関係ないテストがエラーで落ちてるなと思ったら静的HTML出力がrootでもsubdirでも動くように両方テストしているのがタイミングによって衝突するということらしい(両方生的なビルドをファイルシステムに出力してからテストしようとするので)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fay/r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "修正したところとあんまり関係ないテストがエラーで落ちてるなと思ったら静的HTML出力がrootでもsubdirでも動くように両方テストしているのがタイミングによって衝突するということらしい(両方生的なビルドをファイルシステムに出力してからテストしようとするので)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "修正したところとあんまり関係ないテストがエラーで落ちてるなと思ったら静的HTML出力がrootでもsubdirでも動くように両方テストしているのがタイミングによって衝突するということらしい(両方生的なビルドをファイルシステムに出力してからテストしようとするので)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770226351.306149",
+    "client_msg_id": "449d7097-0392-4038-8d7a-a663407fe9b0",
+    "text": "よーし、全部直ってテストも通った。改めて振り返って実装内容を解説させよう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "npNsF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "よーし、全部直ってテストも通った。改めて振り返って実装内容を解説させよう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "よーし、全部直ってテストも通った。改めて振り返って実装内容を解説させよう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770227837.495339",
+    "client_msg_id": "275ebf8c-4b93-4412-8275-0d49b116b0b9",
+    "text": "PRの説明を最終版にしました: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/769>\nもう深夜だから明日以降にmergeします",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AKaXu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PRの説明を最終版にしました: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/769"
+              },
+              {
+                "type": "text",
+                "text": "\nもう深夜だから明日以降にmergeします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U09C3J7V960",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      },
+      {
+        "name": "done2",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PRの説明を最終版にしました: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/769>\nもう深夜だから明日以降にmergeします"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770230374.508639",
+    "client_msg_id": "1887D47D-EE32-4278-BFD4-7376057F435A",
+    "text": "これでようやく「同一データ、同一抽出、同一埋め込み」の条件を揃えてクラスタリング方法の違いでどうなるかをやってみせることが可能になる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pVhwi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これでようやく「同一データ、同一抽出、同一埋め込み」の条件を揃えてクラスタリング方法の違いでどうなるかをやってみせることが可能になる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これでようやく「同一データ、同一抽出、同一埋め込み」の条件を揃えてクラスタリング方法の違いでどうなるかをやってみせることが可能になる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770254558.119029",
+    "client_msg_id": "7d4e3454-f3ac-4e18-925c-e3a572cdb1d1",
+    "text": "レポート再利用機能がひと段落したので、まずは細々した修正を取り込むのをやる\nその次の大きな開発は「クラスタリング手法の切り替えを可能にする」\nこれをやる上では一旦CLIにスコープを絞ったほうが良いと思う\nCLIで分析して、結果だけブラウザで見ることを可能にする\n小さな変更と大きな変更のどちらから試すのがよいか\n当初は人間の発想としては細かいものを試そうとしてたけど、\n細かい変更はユーザにとってメリットがよくわからないと思うのと、AIが書くなら試してみてダメだったら捨てるのでも良いので\n「Google Jigsaw的なものを作って」で作っちゃうのが手\nこの場合、出力結果からは散布図が消えることになる\n3つ目としてはオリジナルのTTTC的なスペクトラルクラスタリングをやる。この場合は散布図はあるが階層掘り下げがなくなり、散布図に飛地ができるケースが出てくる。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KhRIV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポート再利用機能がひと段落したので、まずは細々した修正を取り込むのをやる\nその次の大きな開発は「クラスタリング手法の切り替えを可能にする」\n"
+              },
+              {
+                "type": "text",
+                "text": "これをやる上では一旦CLIにスコープを絞ったほうが良いと思う\nCLIで分析して、結果だけブラウザで見ることを可能にする\n小さな変更と大きな変更のどちらから試すのがよいか\n当初は人間の発想としては細かいものを試そうとしてたけど、\n細かい変更はユーザにとってメリットがよくわからないと思うのと、AIが書くなら試してみてダメだったら捨てるのでも良いので\n「Google Jigsaw的なものを作って」で作っちゃうのが手\nこの場合、出力結果からは散布図が消えることになる\n3つ目としてはオリジナルのTTTC的なスペクトラルクラスタリングをやる。この場合は散布図はあるが階層掘り下げがなくなり、散布図に飛地ができるケースが出てくる。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "レポート再利用機能がひと段落したので、まずは細々した修正を取り込むのをやる\nその次の大きな開発は「クラスタリング手法の切り替えを可能にする」\nこれをやる上では一旦CLIにスコープを絞ったほうが良いと思う\nCLIで分析して、結果だけブラウザで見ることを可能にする\n小さな変更と大きな変更のどちらから試すのがよいか\n当初は人間の発想としては細かいものを試そうとしてたけど、\n細かい変更はユーザにとってメリットがよくわからないと思うのと、AIが書くなら試してみてダメだったら捨てるのでも良いので\n「Google Jigsaw的なものを作って」で作っちゃうのが手\nこの場合、出力結果からは散布図が消えることになる\n3つ目としてはオリジナルのTTTC的なスペクトラルクラスタリングをやる。この場合は散布図はあるが階層掘り下げがなくなり、散布図に飛地ができるケースが出てくる。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770255800.945419",
+    "client_msg_id": "FE1C04F8-1D84-4DEC-863C-4518206A8A61",
+    "text": "これをやる前に細かいのをマージした段階でCodexに全体レビューをしてもらうのもいいかもな。作業過程のドキュメントをうっかり残してたりとかするのでキレイにするフェーズ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CwiZY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これをやる前に細かいのをマージした段階でCodexに全体レビューをしてもらうのもいいかもな。作業過程のドキュメントをうっかり残してたりとかするのでキレイにするフェーズ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これをやる前に細かいのをマージした段階でCodexに全体レビューをしてもらうのもいいかもな。作業過程のドキュメントをうっかり残してたりとかするのでキレイにするフェーズ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770261158.468379",
+    "client_msg_id": "97DA0079-A2CB-461E-9064-F82E5A211933",
+    "text": "<@U08H3V9KMFH> Azureのproduction環境のデプロイが落ちてるのって僕に直す権限はありますかね？自分が全然使ってないのでどういう感じになってるのか把握してないなと気づきました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "reply_count": 18,
+    "reply_users_count": 3,
+    "latest_reply": "1770383815.283769",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wp+5E",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " Azureのproduction環境のデプロイが落ちてるのって僕に直す権限はありますかね？自分が全然使ってないのでどういう感じになってるのか把握してないなと気づきました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego Azureのproduction環境のデプロイが落ちてるのって僕に直す権限はありますかね？自分が全然使ってないのでどういう感じになってるのか把握してないなと気づきました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770267404.335319",
+    "client_msg_id": "2d158f65-347d-4933-a2ca-b720cfed2f06",
+    "text": "僕ももう少し見ようと思ってまだ原因調査が十分にできていないのですが、基本的にはこの GitHub Actions で deploy されているので、リポジトリに権限があれば修正は可能だと思います！<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/workflows/azure-deploy.yml>\n\nAzure の権限もお渡しできます。必要であれば言ってください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J9jOe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕ももう少し見ようと思ってまだ原因調査が十分にできていないのですが、基本的にはこの GitHub Actions で deploy されているので、リポジトリに権限があれば修正は可能だと思います！"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/workflows/azure-deploy.yml"
+              },
+              {
+                "type": "text",
+                "text": "\n\nAzure の権限もお渡しできます。必要であれば言ってください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "僕ももう少し見ようと思ってまだ原因調査が十分にできていないのですが、基本的にはこの GitHub Actions で deploy されているので、リポジトリに権限があれば修正は可能だと思います！<https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/.github/workflows/azure-deploy.yml>\n\nAzure の権限もお渡しできます。必要であれば言ってください！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770268139.292219",
+    "client_msg_id": "a74a2ec0-fdca-4275-b3e4-be370954aa10",
+    "text": "一旦Codexに修正計画を立てさせるところまでやって確認してみますね！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uAsnD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一旦Codexに修正計画を立てさせるところまでやって確認してみますね！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "一旦Codexに修正計画を立てさせるところまでやって確認してみますね！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770273109.145409",
+    "client_msg_id": "971c9d7a-a37b-4dcd-8852-ebe195b8e567",
+    "text": "CodexがPRを作ってくれましたけどこれが正しく機能するかどうかってどうやって確かめるのがいいですかね。\nmergeするしかないです？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JPqKm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CodexがPRを作ってくれましたけどこれが正しく機能するかどうかってどうやって確かめるのがいいですかね。\nmergeするしかないです？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "CodexがPRを作ってくれましたけどこれが正しく機能するかどうかってどうやって確かめるのがいいですかね。\nmergeするしかないです？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770278985.235839",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1770279175.000000"
+    },
+    "client_msg_id": "4D18D8F9-2245-424D-8E0D-6CCF644F510B",
+    "text": "以前開発してた時は、確か手元のリポジトリのブランチへのマージがトリガーになるように azure-deploy.yml を修正して試してました\n（自分の azure 環境に）\nそんなことをしなくていいように、そろそろ dd2030 としてそういうテスト用の場所を用意してもい良いのかもしれませんね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Vdc0l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前開発してた時は、確か手元のリポジトリのブランチへのマージがトリガーになるように azure-deploy.yml を修正して試してました\n（自分の azure 環境に）\nそんなことをしなくていいように、そろそろ dd2030 としてそういうテスト用の場所を用意してもい良いのかもしれませんね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "以前開発してた時は、確か手元のリポジトリのブランチへのマージがトリガーになるように azure-deploy.yml を修正して試してました\n（自分の azure 環境に）\nそんなことをしなくていいように、そろそろ dd2030 としてそういうテスト用の場所を用意してもい良いのかもしれませんね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770279482.374359",
+    "client_msg_id": "1C205E21-751A-400B-9ADF-793D84DC04FA",
+    "text": "もし急ぎでなければ、僕の方で確認しておきましょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L+RSa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もし急ぎでなければ、僕の方で確認しておきましょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "もし急ぎでなければ、僕の方で確認しておきましょうか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770298548.337189",
+    "client_msg_id": "54945560-3cd9-45b5-a036-9065b8cda5df",
+    "text": "現状万が一止まって困る人そこまでいないと思うので merge してみます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TyMVy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状万が一止まって困る人そこまでいないと思うので merge してみます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "現状万が一止まって困る人そこまでいないと思うので merge してみます"
+  },
+  {
+    "text": "なぜか僕がレビューできなくて merge ができない...",
+    "files": [
+      {
+        "id": "F0AD3NSBX7F",
+        "created": 1770299879,
+        "timestamp": 1770299879,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 54974,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD3NSBX7F/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD3NSBX7F/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 157,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 210,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 314,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD3NSBX7F-a91e013756/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 349,
+        "original_w": 907,
+        "original_h": 396,
+        "thumb_tiny": "AwAVADDQKqnIyMtnAPU0quGzjt70rdODg+uM0wEFwPMOeuAO3+f/AK1AEmaM0m5fUfnQGUnAIP0NAC5pDS0hoAU/WjHvRRQAY96Me9FFABj3oxRRQB//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AD3NSBX7F/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AD3NSBX7F-12f1dcb12f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y4cm8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なぜか僕がレビューできなくて merge ができない..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770299896.086989",
+    "client_msg_id": "58cf3d24-aee8-4954-adef-0ee81bfa85b5",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "なぜか僕がレビューできなくて merge ができない..."
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770300240.707469",
+    "client_msg_id": "2ddca5b3-6f2f-4194-ba1a-32a0961c78f0",
+    "text": "あー、これは僕がPR内のボタンで main ブランチへの追従をしてしまったから、僕もレビュイーになってしまったので、自分でレビューできなくなっちゃったのかな？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sabpg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、これは僕がPR内のボタンで main ブランチへの追従をしてしまったから、僕もレビュイーになってしまったので、自分でレビューできなくなっちゃったのかな？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あー、これは僕がPR内のボタンで main ブランチへの追従をしてしまったから、僕もレビュイーになってしまったので、自分でレビューできなくなっちゃったのかな？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770300390.390389",
+    "client_msg_id": "16fff927-8309-4797-9dda-dea1d15965b2",
+    "text": "<@U08J6JR5SNQ>\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/780>\nこれマージしてもらえませんか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v3boI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/780"
+              },
+              {
+                "type": "text",
+                "text": "\nこれマージしてもらえませんか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@shinta.nakayama\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/780>\nこれマージしてもらえませんか？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770301711.518029",
+    "client_msg_id": "fc243fe0-ac5f-4035-8830-699cecf30023",
+    "text": "<@U08H3V9KMFH> レビュアーに自分を突っ込んで、ノールックでapproveして、マージしておきました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u80RI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " レビュアーに自分を突っ込んで、ノールックでapproveして、マージしておきました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@truego レビュアーに自分を突っ込んで、ノールックでapproveして、マージしておきました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770305728.172529",
+    "client_msg_id": "b714e249-307a-4259-99ee-16aed185e3e9",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21715339005/job/62629553572>\n&gt; ERROR: The containerapp 'public-viewer' does not exist\n&gt; Error: Process completed with exit code 3.\nまだどこか修正が必要そうでした（詳しく見れてません）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zL6XE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21715339005/job/62629553572"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ERROR: The containerapp 'public-viewer' does not exist\nError: Process completed with exit code 3."
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだどこか修正が必要そうでした（詳しく見れてません）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21715339005/job/62629553572>\n> ERROR: The containerapp 'public-viewer' does not exist\n> Error: Process completed with exit code 3.\nまだどこか修正が必要そうでした（詳しく見れてません）"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770306403.232099",
+    "client_msg_id": "7ebe3f27-c914-44c2-8a87-afba666539e3",
+    "text": "ひとまず西尾さんを DD2030 の Azure 環境に招待してみました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Pn3gG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ひとまず西尾さんを DD2030 の Azure 環境に招待してみました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ひとまず西尾さんを DD2030 の Azure 環境に招待してみました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770306465.583029",
+    "client_msg_id": "cf148e2a-f76b-461e-a825-82ed01bf5cbd",
+    "text": "多分 Azure 側に新しい名前のコンテナがなさそう。\n（となると、デモ環境の案内に記載した最終的なURLも変わりそう）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mV6XC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "多分 Azure 側に新しい名前のコンテナがなさそう。\n（となると、デモ環境の案内に記載した最終的なURLも変わりそう）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "多分 Azure 側に新しい名前のコンテナがなさそう。\n（となると、デモ環境の案内に記載した最終的なURLも変わりそう）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770333735.491309",
+    "client_msg_id": "f486ae51-b3cf-461b-99f8-028f93c62c6c",
+    "text": "了解です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kvi5w",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "了解です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "了解です！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770334187.233569",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1770334426.000000"
+    },
+    "client_msg_id": "9EE1E05D-A59D-416D-AA30-EC05EBD7257B",
+    "text": "ちなみに、既存のAzureの広聴AIのリソースがどうなるかは気にせず、最新環境が適切に動くことを優先していただいて良いと思います！\n\n（当時の時点で、そこまでやるのは優先度は高くないと判断したのでインフラのコード化まではされてませんが、あくまでデモ環境の位置付けで削除されて困るデータはなく、多分環境が全部無くなっても僕含む今のメンバーならなんとかなると思うので）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ESmuR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに、既存のAzureの広聴AIのリソースがどうなるかは気にせず、最新環境が適切に動くことを優先していただいて良いと思います！\n\n（当時の時点で、そこまでやるの"
+              },
+              {
+                "type": "text",
+                "text": "は優先度は高くない"
+              },
+              {
+                "type": "text",
+                "text": "と判断したのでインフラのコード化まではされてませんが、あくまでデモ環境の位置付けで削除されて困るデータはなく、多分環境が全部無くなっても僕含む今のメンバーならなんとかなると思うので）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ちなみに、既存のAzureの広聴AIのリソースがどうなるかは気にせず、最新環境が適切に動くことを優先していただいて良いと思います！\n\n（当時の時点で、そこまでやるのは優先度は高くないと判断したのでインフラのコード化まではされてませんが、あくまでデモ環境の位置付けで削除されて困るデータはなく、多分環境が全部無くなっても僕含む今のメンバーならなんとかなると思うので）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770358940.840839",
+    "client_msg_id": "573475b5-12b2-42c4-84ea-096a2b49e916",
+    "text": "invite linkを通って参加したんですがアプリが0件でした、別途何かの権限をもらう必要があるかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "256cx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "invite linkを通って参加したんですがアプリが0件でした、別途何かの権限をもらう必要があるかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "invite linkを通って参加したんですがアプリが0件でした、別途何かの権限をもらう必要があるかも"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770368527.074209",
+    "client_msg_id": "22C32B32-97F7-4646-B219-742B898BBB13",
+    "text": "見てみます\nクラウドの権限設定、中途半端に日本語化されてて訳がワカラナイ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7Ul4h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "見てみます\nクラウドの権限設定、中途半端に日本語化されてて訳がワカラナイ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "見てみます\nクラウドの権限設定、中途半端に日本語化されてて訳がワカラナイ"
+  },
+  {
+    "text": "<@U08G2A216TW>\n設定追加してみました。\n（Azure の kouchou-ai サブスクリプションで西尾さんに「共同作成者」というロールを割り当て）\n\n西尾さんのアカウントで、Azure の「サブスクリプション」で kouchou-ai というのが見えてれば良さそうな感じです",
+    "files": [
+      {
+        "id": "F0AD041F6MD",
+        "created": 1770383809,
+        "timestamp": 1770383809,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 219937,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD041F6MD/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD041F6MD/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 169,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 226,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 339,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 377,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 452,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD041F6MD-cced10b2e3/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 482,
+        "original_w": 1874,
+        "original_h": 882,
+        "thumb_tiny": "AwAXADC95KZYqMZGCABg/gaPKiXqgPGfuf4Cpc0H607isMG0qMJxjptxSrtb+E/iuKcBjuTRSGNMUZOTGpJ9qTyo/wDnmn/fIp9B+tO4rCDOTkDHbmloopDCiiigAooooA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AD041F6MD/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AD041F6MD-d74d9634f8",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W6mrP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n設定追加してみました。\n（Azure の kouchou-ai サブスクリプションで西尾さんに「共同作成者」というロールを割り当て）\n\n西尾さんのアカウントで、Azure の「サブスクリプション」で kouchou-ai というのが見えてれば良さそうな感じです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770383815.283769",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1770383943.000000"
+    },
+    "client_msg_id": "40b9a009-c8e3-47bf-ac4a-6ed4b3873896",
+    "thread_ts": "1770261158.468379",
+    "parent_user_id": "U08G2A216TW",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770261158.468379",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@nishio.hirokazu\n設定追加してみました。\n（Azure の kouchou-ai サブスクリプションで西尾さんに「共同作成者」というロールを割り当て）\n\n西尾さんのアカウントで、Azure の「サブスクリプション」で kouchou-ai というのが見えてれば良さそうな感じです"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770344311.509699",
+    "client_msg_id": "5E7F3513-4934-4108-B13B-42F1D9D15C08",
+    "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "reply_count": 7,
+    "reply_users_count": 2,
+    "latest_reply": "1770353225.897059",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5GO8F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "daiji",
+        "users": [
+          "U08HZ8JS0EQ",
+          "U08H3V9KMFH"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1770344311.509699",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1770344311.509699",
+      "client_msg_id": "5E7F3513-4934-4108-B13B-42F1D9D15C08",
+      "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1770344311.509699",
+      "reply_count": 7,
+      "reply_users_count": 2,
+      "latest_reply": "1770353225.897059",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5GO8F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1770346087.552329",
+    "client_msg_id": "3c999a9e-2477-4c75-8f6d-a8473ccc6318",
+    "text": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sZCBh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "Shingo OHKI",
+    "text_readable": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770346307.825799",
+    "client_msg_id": "be9b0bae-7fbe-4824-8514-c82f1884d1f9",
+    "text": "きっとこうなっている\n1. 気になって DD2030 の web ページを見る\n2. GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）\n=== 大きな断絶 ===\n3. git clone して試す\n\n「自治体にエンジニア組織を置いてくれ」は、理想的だとは思うけど、僕ら側の勝手なエゴかも？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ghKBU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "きっとこうなっている\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "気になって DD2030 の web ページを見る"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "=== 大きな断絶 ===\n3. git clone して試す\n\n「自治体にエンジニア組織を置いてくれ」は、理想的だとは思うけど、僕ら側の勝手なエゴかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "Shingo OHKI",
+    "text_readable": "きっとこうなっている\n1. 気になって DD2030 の web ページを見る\n2. GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）\n=== 大きな断絶 ===\n3. git clone して試す\n\n「自治体にエンジニア組織を置いてくれ」は、理想的だとは思うけど、僕ら側の勝手なエゴかも？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770346345.155669",
+    "client_msg_id": "d5f632f2-66d0-4458-aef6-f49be0330fdf",
+    "text": "きっとそこで止まるより、どうやったら現場で使われるかを考えたほうがいい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5d/m4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "きっとそこで止まるより、どうやったら現場で使われるかを考えたほうがいい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "Shingo OHKI",
+    "text_readable": "きっとそこで止まるより、どうやったら現場で使われるかを考えたほうがいい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770347044.089419",
+    "client_msg_id": "09535980-c52b-4055-a624-5cac632862d8",
+    "text": "GitHubを見るのはハードル高いから\n1. 気になって DD2030 の web ページを見る\n2. デモサイトで動いているものを見る(public-viewer側)\n3. デモサイトで管理画面を見る(admin側)\n4. GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）\nとかにできるといいですよねぇ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KlaKG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GitHubを見るのはハードル高いから\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "気になって DD2030 の web ページを見る"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デモサイトで動いているものを見る(public-viewer側)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デモサイトで管理画面を見る(admin側)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）"
+                  }
+                ]
+              }
+            ],
+            "style": "ordered",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とかにできるといいですよねぇ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GitHubを見るのはハードル高いから\n1. 気になって DD2030 の web ページを見る\n2. デモサイトで動いているものを見る(public-viewer側)\n3. デモサイトで管理画面を見る(admin側)\n4. GitHub を見る（本質的な価値判断をする前に試すハードルで挫折する）\nとかにできるといいですよねぇ"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770347198.228699",
+    "client_msg_id": "0C17C610-171C-4FF7-9316-D873273EFF11",
+    "text": "ブロードリスニング本が出て認知が広がるとこの傾向は加速すると思いました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JgZk1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ブロードリスニング本が出て認知が広がるとこの傾向は加速すると思いました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sorena",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ブロードリスニング本が出て認知が広がるとこの傾向は加速すると思いました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770351550.986779",
+    "client_msg_id": "45C1A618-D9AF-4C7F-A8A7-45927D6177B3",
+    "text": "サーバ費用とエンジニアリングコストを度外視するなら理想はこうですかね\n- 公開デモ環境はパスワードなし\n- dd2030にコンタクトを取ってミーティングをする自治体には独立非公開デモ環境を提供",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9JZ1a",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "サーバ費用とエンジニアリングコストを度外視するなら理想はこうですかね\n- 公開デモ環境はパスワードなし\n- dd2030にコンタクトを取ってミーティングをする自治体には独立非公開デモ環境を提供"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "サーバ費用とエンジニアリングコストを度外視するなら理想はこうですかね\n- 公開デモ環境はパスワードなし\n- dd2030にコンタクトを取ってミーティングをする自治体には独立非公開デモ環境を提供"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770353225.897059",
+    "client_msg_id": "45b8e071-64b0-4185-8e4c-4f52f30a130b",
+    "text": "デモ環境を用意することが現状は手間だけど、将来的にこれがCLIでコマンド1行売って待ってればできるようになった場合、さほど非現実的ではなくなる\nデモ環境0→1は大変だったけど1→2はそれほどでもない可能性が高い",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770344311.509699",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v1RMk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デモ環境を用意することが現状は手間だけど、将来的にこれがCLIでコマンド1行売って待ってればできるようになった場合、さほど非現実的ではなくなる\nデモ環境0→1は大変だったけど1→2はそれほどでもない可能性が高い"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770344311.509699",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デモ環境を用意することが現状は手間だけど、将来的にこれがCLIでコマンド1行売って待ってればできるようになった場合、さほど非現実的ではなくなる\nデモ環境0→1は大変だったけど1→2はそれほどでもない可能性が高い"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1770344311.509699",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1770344311.509699",
+      "client_msg_id": "5E7F3513-4934-4108-B13B-42F1D9D15C08",
+      "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1770344311.509699",
+      "reply_count": 7,
+      "reply_users_count": 2,
+      "latest_reply": "1770353225.897059",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5GO8F",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "memo: デモサーバがあるとドキュメントともここをみて」とかスクリーンショットを取ったりとかやりやすくて整備しやすい"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1770346087.552329",
+    "client_msg_id": "3c999a9e-2477-4c75-8f6d-a8473ccc6318",
+    "text": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sZCBh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "今あるデモ環境、一応 basic 認証をかけているので大々的にURLを公開していない（やり取りがあればその中でご紹介しているにとどめている）のですが、もうちょっと気軽に使える良い方法ないでしょうか。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770356196.230439",
+    "client_msg_id": "2611da3c-e066-4b51-ba08-a8aa1dbf0b88",
+    "text": "memo: CLIで生成したレポートをWebUIで見たい場合(workdirは別のところにあるとする)\nCLIで生成されたoutputの中のdirをkouchou-ai側でln -sしたうえでstatus.jsonを編集してレポートとして追加すればいい\nこれは自明ではないので、むしろCLI側の機能としてあるといいのではないか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NPPnu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: CLIで生成したレポートをWebUIで見たい場合(workdirは別のところにあるとする)\nCLIで生成されたoutputの中のdirをkouchou-ai側でln -sしたうえでstatus.jsonを編集してレポートとして追加すればいい\nこれは自明ではないので、むしろCLI側の機能としてあるといいのではないか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: CLIで生成したレポートをWebUIで見たい場合(workdirは別のところにあるとする)\nCLIで生成されたoutputの中のdirをkouchou-ai側でln -sしたうえでstatus.jsonを編集してレポートとして追加すればいい\nこれは自明ではないので、むしろCLI側の機能としてあるといいのではないか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770356308.352879",
+    "client_msg_id": "c34e9429-4c53-4a63-a2c8-ebe42eda65aa",
+    "text": "memo: Codexに“kouchou-aiで分析して“というだけで分析はしてくれたが、1000件のデータに対してクラスタの個数が[3, 6]だったのでやり直し、ここはいい感じのデフォルト値が選ばれるようにしたい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "To3VD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: Codexに“kouchou-aiで分析して“というだけで分析はしてくれたが、1000件のデータに対してクラスタの個数が[3, 6]だったのでやり直し、ここはいい感じのデフォルト値が選ばれるようにしたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: Codexに“kouchou-aiで分析して“というだけで分析はしてくれたが、1000件のデータに対してクラスタの個数が[3, 6]だったのでやり直し、ここはいい感じのデフォルト値が選ばれるようにしたい"
+  },
+  {
+    "text": "Codexに[10, 100]でやりなおせと指示したら、configを編集して再実行したのでレポートは自動的に上書きされ、WebUIの側ではリロードするだけで10,100の分析結果を見ることができた",
+    "files": [
+      {
+        "id": "F0AD9LY1S7P",
+        "created": 1770357051,
+        "timestamp": 1770357051,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 546025,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD9LY1S7P/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AD9LY1S7P/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 145,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 194,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 291,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 323,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 388,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AD9LY1S7P-2eceab8df8/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 414,
+        "original_w": 2386,
+        "original_h": 964,
+        "thumb_tiny": "AwAUADDTJAGScCm7wehHPfNDDjO4j8cVC65GBIDj1NAajhvydjZH1zUibhwxBNRASj7w4Ax2pNsnI2emPmpXHqxz3KKxBVsg+lPjdZASB7c0xCWO3bsOM4zzipQCOpzTvfoDFIBGCM00xrnoB+FOooEI3Ck+gzSeWuec/nSv9xvpS0CCiiigZ//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AD9LY1S7P/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AD9LY1S7P-71d31d10ac",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CoyDf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Codexに[10, 100]でやりなおせと指示したら、configを編集して再実行したのでレポートは自動的に上書きされ、WebUIの側ではリロードするだけで10,100の分析結果を見ることができた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770357085.476899",
+    "client_msg_id": "6a19d958-b5d0-441d-9fb1-6cd1cc63e37f",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U093MQD3Y78"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Codexに[10, 100]でやりなおせと指示したら、configを編集して再実行したのでレポートは自動的に上書きされ、WebUIの側ではリロードするだけで10,100の分析結果を見ることができた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770357124.623509",
+    "client_msg_id": "784ec2c2-85d9-46fe-88bb-7545da3e19f8",
+    "text": "memo: CLIのコードを更新した時にPyPIが自動的に更新されるようにしたい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ckwOF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "memo: CLIのコードを更新した時にPyPIが自動的に更新されるようにしたい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "memo: CLIのコードを更新した時にPyPIが自動的に更新されるようにしたい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770427547.259829",
+    "client_msg_id": "f42e8074-9647-4901-86be-f2bce1491bd2",
+    "text": "Azureの環境をどういじったかという情報は <@U08H3V9KMFH> さんに共有しておくべきだが、Slackに書くべきではない気がしており、たとえばGoogle Docsなどで「linkで共有」ではなく対象者を名指しで共有してAzure ダッシュボードのアクセス権と範囲の一致しているドキュメントにするのが良いのではないか、と思ってます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "reply_count": 10,
+    "reply_users_count": 3,
+    "latest_reply": "1770429744.592929",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08HWJ80CHG",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ly/hH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azureの環境をどういじったかという情報は "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " さんに共有しておくべきだが、Slackに書くべきではない気がしており、たとえばGoogle Docsなどで「linkで共有」ではなく対象者を名指しで共有してAzure ダッシュボードのアクセス権と範囲の一致しているドキュメントにするのが良いのではないか、と思ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Azureの環境をどういじったかという情報は @truego さんに共有しておくべきだが、Slackに書くべきではない気がしており、たとえばGoogle Docsなどで「linkで共有」ではなく対象者を名指しで共有してAzure ダッシュボードのアクセス権と範囲の一致しているドキュメントにするのが良いのではないか、と思ってます"
+  },
+  {
+    "text": "これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n<https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX>\n\n<@U08HWJ80CHG>\nこのフォルダの権限を特定のメンバーに限定することはできますか？",
+    "files": [
+      {
+        "id": "F0AEEDGK916",
+        "created": 1770427820,
+        "timestamp": 1770427820,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 53415,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEEDGK916/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEEDGK916/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 315,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 420,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_160.png",
+        "original_w": 528,
+        "original_h": 462,
+        "thumb_tiny": "AwAqADC8V/dfIil8DGRxSIrAASLGST/CpqRc+WuCBwOtG4EkB19B9aAGhcqD5aAn9P0oKEr8qx7sHqvU1JRQBGqHPzLGR6gf59qGQeWSVUHHapKR/uN9KAGoW+Ubfl29aXcePkPP04pm4iMYJGF7DnpSiTJxhhj2oAeu7aM4z37UtM8w7sbSPelLY/8A1UAOprj5CcDhTQHz0z+IxSM2Ub6UACfdXg8jrS4A6L1PP+NKn3F+lLQAYFGBRRQAyVhHGz7ScDoKhjnE29QvAXOQT/hVmkf7jfSnpYR//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AEEDGK916/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AEEDGK916-27efb81326",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZhKVE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\nこのフォルダの権限を特定のメンバーに限定することはできますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770427847.305119",
+    "client_msg_id": "5a65918b-f422-4f05-9468-ae9a3a2ffe82",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n<https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX>\n\n@oscar.gaddress\nこのフォルダの権限を特定のメンバーに限定することはできますか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770427880.712959",
+    "client_msg_id": "55b90431-5e5b-4070-b7e5-bb6804904651",
+    "text": "何かの下に作るのではなく、そういうトップフォルダを作る必要があるのかな？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tuX8L",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "何かの下に作るのではなく、そういうトップフォルダを作る必要があるのかな？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "何かの下に作るのではなく、そういうトップフォルダを作る必要があるのかな？"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1770427937.809399",
+    "client_msg_id": "e961d768-289e-4888-ab6d-d3c36dfd2502",
+    "text": "そうですね、トップフォルダの権限に依存する作りです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "20rYk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうですね、トップフォルダの権限に依存する作りです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "小野翔太",
+    "text_readable": "そうですね、トップフォルダの権限に依存する作りです"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770428051.389079",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1770428084.000000"
+    },
+    "client_msg_id": "31ca90f2-be2e-4c2c-81bc-931906bdb273",
+    "text": "お手隙で↑のフォルダをその様にしていただけませんか？\n一旦西尾さんと大木に制限された場所にして、かつ、（今後運用方法を自由に変えられるように）可能ならこの二人がこのフォルダの共有権限を修正できるようにしたいです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nAycX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お手隙で↑のフォルダをその様にしていただけませんか？\n一旦西尾さんと大木に制限された場所にして、かつ、（今後運用方法を自由に変えられるように）可能ならこの二人がこのフォルダの共有権限を修正できるようにしたいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "お手隙で↑のフォルダをその様にしていただけませんか？\n一旦西尾さんと大木に制限された場所にして、かつ、（今後運用方法を自由に変えられるように）可能ならこの二人がこのフォルダの共有権限を修正できるようにしたいです。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770428147.396959",
+    "client_msg_id": "c0bc08bb-9c11-4f88-9bc3-2f10461cceb5",
+    "text": "（この手の話は、DD2030内のどのプロジェクトでもありそう）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ef+jb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（この手の話は、DD2030内のどのプロジェクトでもありそう）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "（この手の話は、DD2030内のどのプロジェクトでもありそう）"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1770428385.431659",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1770428396.000000"
+    },
+    "client_msg_id": "32609ebd-7a63-45e3-ab27-67c69b49a311",
+    "text": "共有設定してみました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cqVWV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "共有設定してみました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "小野翔太",
+    "text_readable": "共有設定してみました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770429296.090239",
+    "client_msg_id": "68aee5b3-b498-4158-ac1c-f63532066dc7",
+    "text": "<@U08H3V9KMFH> <https://docs.google.com/document/d/1lcX2mw_dLGGBZF-a83IYDn1FZqkPEt37sj6AS8HtynI/edit?tab=t.0#heading=h.ulqincydsdlf>\nこんな感じになりました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tiP07",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1lcX2mw_dLGGBZF-a83IYDn1FZqkPEt37sj6AS8HtynI/edit?tab=t.0#heading=h.ulqincydsdlf"
+              },
+              {
+                "type": "text",
+                "text": "\nこんな感じになりました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego <https://docs.google.com/document/d/1lcX2mw_dLGGBZF-a83IYDn1FZqkPEt37sj6AS8HtynI/edit?tab=t.0#heading=h.ulqincydsdlf>\nこんな感じになりました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770429302.223239",
+    "client_msg_id": "fd672c66-0110-4056-bd9a-c82c72355b74",
+    "text": "見れます？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i00HP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "見れます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "見れます？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770429392.388959",
+    "client_msg_id": "1f6056df-d40b-4e8e-8dd3-352e53956244",
+    "text": "ありがとうございます。見れました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3imPz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。見れました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます。見れました！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770429744.592929",
+    "client_msg_id": "49129ac2-16b0-44ff-b58c-bf1f5f8c9cb9",
+    "text": "メモ\nこのフォルダIDは使用していない\n現在のフォルダは<https://drive.google.com/drive/u/1/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX|こちら>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1770427847305119?thread_ts=1770427547.259829&amp;cid=C08F7JZPD63>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770427547.259829",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1770427847305119?thread_ts=1770427547.259829&amp;cid=C08F7JZPD63",
+        "ts": "1770427847.305119",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C08F7JZPD63",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08F7JZPD63",
+            "ts": "1770427847.305119",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "ZhKVE",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n\n"
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U08HWJ80CHG"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nこのフォルダの権限を特定のメンバーに限定することはできますか？"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "files": [
+          {
+            "id": "F0AEEDGK916",
+            "created": 1770427820,
+            "timestamp": 1770427820,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U08H3V9KMFH",
+            "user_team": "T08FL58DC9K",
+            "editable": false,
+            "size": 53415,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEEDGK916/image.png",
+            "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEEDGK916/download/image.png",
+            "media_display_type": "unknown",
+            "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_64.png",
+            "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_80.png",
+            "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_360.png",
+            "thumb_360_w": 360,
+            "thumb_360_h": 315,
+            "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_480.png",
+            "thumb_480_w": 480,
+            "thumb_480_h": 420,
+            "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEEDGK916-1e416d0ae4/image_160.png",
+            "original_w": 528,
+            "original_h": 462,
+            "thumb_tiny": "AwAqADC8V/dfIil8DGRxSIrAASLGST/CpqRc+WuCBwOtG4EkB19B9aAGhcqD5aAn9P0oKEr8qx7sHqvU1JRQBGqHPzLGR6gf59qGQeWSVUHHapKR/uN9KAGoW+Ubfl29aXcePkPP04pm4iMYJGF7DnpSiTJxhhj2oAeu7aM4z37UtM8w7sbSPelLY/8A1UAOprj5CcDhTQHz0z+IxSM2Ub6UACfdXg8jrS4A6L1PP+NKn3F+lLQAYFGBRRQAyVhHGz7ScDoKhjnE29QvAXOQT/hVmkf7jfSnpYR//9k=",
+            "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AEEDGK916/image.png",
+            "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AEEDGK916-27efb81326",
+            "comments_count": 0,
+            "is_starred": false,
+            "skipped_shares": true,
+            "has_rich_preview": false,
+            "file_access": "visible"
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1770427847305119?thread_ts=1770427547.259829&amp;cid=C08F7JZPD63",
+        "fallback": "[February 6th, 2026 5:30 PM] truego: これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n<https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX>\n\n<@U08HWJ80CHG>\nこのフォルダの権限を特定のメンバーに限定することはできますか？",
+        "text": "これを見て、試しにそういう場所を作ってみようと思ったのですが、\n権限的に制限をかけられない\n<https://drive.google.com/drive/u/0/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX>\n\n<@U08HWJ80CHG>\nこのフォルダの権限を特定のメンバーに限定することはできますか？",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zETmB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ\nこのフォルダIDは使用していない\n現在のフォルダは"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/u/1/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1770427847305119?thread_ts=1770427547.259829&cid=C08F7JZPD63"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770427547.259829",
+    "user_name": "Shingo OHKI",
+    "text_readable": "メモ\nこのフォルダIDは使用していない\n現在のフォルダは<https://drive.google.com/drive/u/1/folders/1RZ1CCtm72Ngs1RDwgADrDOU9N7CQnFSX|こちら>\n<https://dd2030.slack.com/archives/C08F7JZPD63/p1770427847305119?thread_ts=1770427547.259829&cid=C08F7JZPD63>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770428803.292449",
+    "client_msg_id": "58888f66-f5b7-4df3-9d39-d98d98ba7087",
+    "text": "deploy, re-runしてsuccessしました <https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21740920722/job/62820695796>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ARF5o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "deploy, re-runしてsuccessしました "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21740920722/job/62820695796"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "deploy, re-runしてsuccessしました <https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/21740920722/job/62820695796>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770429787.551639",
+    "client_msg_id": "e49279fa-10bf-4324-88e8-812b197c737f",
+    "text": "管理画面は見れたけどviewerがstream timeoutになる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770429787.551639",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1770433001.467359",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GW6/5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "管理画面は見れたけどviewerがstream timeoutになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "管理画面は見れたけどviewerがstream timeoutになる"
+  },
+  {
+    "text": "public-viewer コンテナがうまく起動していないっぽいですね",
+    "files": [
+      {
+        "id": "F0ADDRN8Y91",
+        "created": 1770430180,
+        "timestamp": 1770430180,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 133334,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADDRN8Y91/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADDRN8Y91/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 147,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 196,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 294,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 326,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 391,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADDRN8Y91-addcdd958e/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 418,
+        "original_w": 1209,
+        "original_h": 493,
+        "thumb_tiny": "AwAUADC35CFz8qYHscg//qqRYUUYAA+nFP3DOO9IygnPf6U7sVkIIk7D9aXy1wRzg9smlGBx/SkO3O3HX24pXHYb9ni/uCjyYgB8o46U8Y7Ubhx159qd2KyDAoxxilopDEK57n86TYN27nP1p1FABj3pMUtFAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ADDRN8Y91/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ADDRN8Y91-5a3ebc48d3",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PJRNa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "public-viewer コンテナがうまく起動していないっぽいですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770430191.504289",
+    "client_msg_id": "7467873b-def7-4522-8bb0-afe1a6241930",
+    "thread_ts": "1770429787.551639",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1770429787.551639",
+    "user_name": "Shingo OHKI",
+    "text_readable": "public-viewer コンテナがうまく起動していないっぽいですね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770430236.666889",
+    "client_msg_id": "adc55993-982f-4efa-880c-119fbe01fe47",
+    "text": "&gt; 2026-02-07T02:10:05.99697  Connecting to the container 'public-viewer'...\n&gt; 2026-02-07T02:10:06.15824  Successfully Connected to container: 'public-viewer' [Revision: 'public-viewer--0000006', Replica: 'public-viewer--0000006-bd7c7cfd9-cm7s5']\n&gt; 2026-02-07T02:07:37.4069516Z stderr F Error: Next.js inferred your workspace root, but it may not be correct.\n&gt; 2026-02-07T02:07:37.4069536Z stderr F     We couldn't find the Next.js package (next/package.json) from the project directory: /repo/apps/public-viewer/app\n&gt; 2026-02-07T02:07:37.4069550Z stderr F      To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.\n&gt; 2026-02-07T02:07:37.4069564Z stderr F     Note: For security and performance reasons, files outside of the project directory will not be compiled.\n&gt; 2026-02-07T02:07:37.4069577Z stderr F     See <https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory> for more information.\n&gt; 2026-02-07T02:07:37.4069591Z stderr F \n&gt; 2026-02-07T02:07:37.4069642Z stderr F     at ignore-listed frames\n&gt; 2026-02-07T02:07:37.4311866Z stdout F  ELIFECYCLE  Command failed with exit code 1.\n&gt; 2026-02-07T02:07:38.3251496Z stdout F \n&gt; 2026-02-07T02:07:38.3251884Z stdout F &gt; @kouchou-ai/public-viewer@0.1.0 start /repo/apps/public-viewer\n&gt; 2026-02-07T02:07:38.3252035Z stdout F &gt; next start\n&gt; 2026-02-07T02:07:38.3252054Z stdout F \n&gt; 2026-02-07T02:07:38.9973477Z stdout F ▲ Next.js 16.1.5\n&gt; 2026-02-07T02:07:38.9975851Z stdout F - Local:         <http://localhost:3000>\n&gt; 2026-02-07T02:07:38.9975961Z stdout F - Network:       <http://100.100.205.57:3000>\n&gt; 2026-02-07T02:07:38.9977146Z stdout F \n&gt; 2026-02-07T02:07:38.9979372Z stdout F ✓ Starting...\n&gt; 2026-02-07T02:07:39.7286568Z stderr F Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. <https://nextjs.org/docs/messages/production-start-no-build-id>\n&gt; 2026-02-07T02:07:39.7287029Z stderr F     at ignore-listed frames\n&gt; 2026-02-07T02:07:39.7969639Z stdout F  ELIFECYCLE  Command failed with exit code 1.\n<https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e8ef5-7461-407d-84b6-b4f37b9f31c1/resourceGroups/dd2030-kouchouai-demo-rg/providers/Microsoft.App/containerApps/public-viewer/revisionManagement|https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e[…]Microsoft.App/containerApps/public-viewer/revisionManagement>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770429787.551639",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fnv7W",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2026-02-07T02:10:05.99697  Connecting to the container 'public-viewer'...\n2026-02-07T02:10:06.15824  Successfully Connected to container: 'public-viewer' [Revision: 'public-viewer--0000006', Replica: 'public-viewer--0000006-bd7c7cfd9-cm7s5']\n2026-02-07T02:07:37.4069516Z stderr F Error: Next.js inferred your workspace root, but it may not be correct.\n2026-02-07T02:07:37.4069536Z stderr F     We couldn't find the Next.js package (next/package.json) from the project directory: /repo/apps/public-viewer/app\n2026-02-07T02:07:37.4069550Z stderr F      To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.\n2026-02-07T02:07:37.4069564Z stderr F     Note: For security and performance reasons, files outside of the project directory will not be compiled.\n2026-02-07T02:07:37.4069577Z stderr F     See "
+              },
+              {
+                "type": "link",
+                "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory"
+              },
+              {
+                "type": "text",
+                "text": " for more information.\n2026-02-07T02:07:37.4069591Z stderr F \n2026-02-07T02:07:37.4069642Z stderr F     at ignore-listed frames\n2026-02-07T02:07:37.4311866Z stdout F  ELIFECYCLE  Command failed with exit code 1.\n2026-02-07T02:07:38.3251496Z stdout F \n2026-02-07T02:07:38.3251884Z stdout F > @kouchou-ai/public-viewer@0.1.0 start /repo/apps/public-viewer\n2026-02-07T02:07:38.3252035Z stdout F > next start\n2026-02-07T02:07:38.3252054Z stdout F \n2026-02-07T02:07:38.9973477Z stdout F ▲ Next.js 16.1.5\n2026-02-07T02:07:38.9975851Z stdout F - Local:         "
+              },
+              {
+                "type": "link",
+                "url": "http://localhost:3000"
+              },
+              {
+                "type": "text",
+                "text": "\n2026-02-07T02:07:38.9975961Z stdout F - Network:       "
+              },
+              {
+                "type": "link",
+                "url": "http://100.100.205.57:3000"
+              },
+              {
+                "type": "text",
+                "text": "\n2026-02-07T02:07:38.9977146Z stdout F \n2026-02-07T02:07:38.9979372Z stdout F ✓ Starting...\n2026-02-07T02:07:39.7286568Z stderr F Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. "
+              },
+              {
+                "type": "link",
+                "url": "https://nextjs.org/docs/messages/production-start-no-build-id"
+              },
+              {
+                "type": "text",
+                "text": "\n2026-02-07T02:07:39.7287029Z stderr F     at ignore-listed frames\n2026-02-07T02:07:39.7969639Z stdout F  ELIFECYCLE  Command failed with exit code 1."
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e8ef5-7461-407d-84b6-b4f37b9f31c1/resourceGroups/dd2030-kouchouai-demo-rg/providers/Microsoft.App/containerApps/public-viewer/revisionManagement",
+                "text": "https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e[…]Microsoft.App/containerApps/public-viewer/revisionManagement"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770429787.551639",
+    "user_name": "Shingo OHKI",
+    "text_readable": "> 2026-02-07T02:10:05.99697  Connecting to the container 'public-viewer'...\n> 2026-02-07T02:10:06.15824  Successfully Connected to container: 'public-viewer' [Revision: 'public-viewer--0000006', Replica: 'public-viewer--0000006-bd7c7cfd9-cm7s5']\n> 2026-02-07T02:07:37.4069516Z stderr F Error: Next.js inferred your workspace root, but it may not be correct.\n> 2026-02-07T02:07:37.4069536Z stderr F     We couldn't find the Next.js package (next/package.json) from the project directory: /repo/apps/public-viewer/app\n> 2026-02-07T02:07:37.4069550Z stderr F      To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.\n> 2026-02-07T02:07:37.4069564Z stderr F     Note: For security and performance reasons, files outside of the project directory will not be compiled.\n> 2026-02-07T02:07:37.4069577Z stderr F     See <https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory> for more information.\n> 2026-02-07T02:07:37.4069591Z stderr F \n> 2026-02-07T02:07:37.4069642Z stderr F     at ignore-listed frames\n> 2026-02-07T02:07:37.4311866Z stdout F  ELIFECYCLE  Command failed with exit code 1.\n> 2026-02-07T02:07:38.3251496Z stdout F \n> 2026-02-07T02:07:38.3251884Z stdout F > @kouchou-ai/public-viewer@0.1.0 start /repo/apps/public-viewer\n> 2026-02-07T02:07:38.3252035Z stdout F > next start\n> 2026-02-07T02:07:38.3252054Z stdout F \n> 2026-02-07T02:07:38.9973477Z stdout F ▲ Next.js 16.1.5\n> 2026-02-07T02:07:38.9975851Z stdout F - Local:         <http://localhost:3000>\n> 2026-02-07T02:07:38.9975961Z stdout F - Network:       <http://100.100.205.57:3000>\n> 2026-02-07T02:07:38.9977146Z stdout F \n> 2026-02-07T02:07:38.9979372Z stdout F ✓ Starting...\n> 2026-02-07T02:07:39.7286568Z stderr F Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. <https://nextjs.org/docs/messages/production-start-no-build-id>\n> 2026-02-07T02:07:39.7287029Z stderr F     at ignore-listed frames\n> 2026-02-07T02:07:39.7969639Z stdout F  ELIFECYCLE  Command failed with exit code 1.\n<https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e8ef5-7461-407d-84b6-b4f37b9f31c1/resourceGroups/dd2030-kouchouai-demo-rg/providers/Microsoft.App/containerApps/public-viewer/revisionManagement|https://portal.azure.com/#@c4jadmindd2030.onmicrosoft.com/resource/subscriptions/079e[…]Microsoft.App/containerApps/public-viewer/revisionManagement>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770430266.859339",
+    "client_msg_id": "6553483b-33d6-46d6-ac8e-2d1b55c2de04",
+    "text": "コンソールにはこんなのが出てました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770429787.551639",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "woMQ2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コンソールにはこんなのが出てました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770429787.551639",
+    "user_name": "Shingo OHKI",
+    "text_readable": "コンソールにはこんなのが出てました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770433001.467359",
+    "client_msg_id": "e7067b90-daab-4edf-8283-9a8429eef46b",
+    "text": "&gt; 原因は *public-viewer のランナーイメージにワークスペースのルート情報が無い* ため、Turbopack が next を解決できず next build が失敗している点です。\n&gt; 修正は「ランナーにもルートの <https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#|package.json> / <https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#|pnpm-workspace.yaml> / .npmrc を含める」ことです。\nなるほど、Dockerfileを修正してみます\n\n(next buildが失敗しているのにCIがsuccessしたらダメだと思うがそれはさておき)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770429787.551639",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1VYB3",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "原因は "
+              },
+              {
+                "type": "text",
+                "text": "public-viewer のランナーイメージにワークスペースのルート情報が無い",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " ため、Turbopack が next を解決できず next build が失敗している点です。\n修正は「ランナーにもルートの "
+              },
+              {
+                "type": "link",
+                "url": "https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#",
+                "text": "package.json",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": " / "
+              },
+              {
+                "type": "link",
+                "url": "https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#",
+                "text": "pnpm-workspace.yaml",
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": " / .npmrc を含める」ことです。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど、Dockerfileを修正してみます\n\n(next buildが失敗しているのにCIがsuccessしたらダメだと思うがそれはさておき)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770429787.551639",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 原因は *public-viewer のランナーイメージにワークスペースのルート情報が無い* ため、Turbopack が next を解決できず next build が失敗している点です。\n> 修正は「ランナーにもルートの <https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#|package.json> / <https://file+.vscode-resource.vscode-cdn.net/Users/nishio/.vscode/extensions/openai.chatgpt-0.4.71-darwin-arm64/webview/#|pnpm-workspace.yaml> / .npmrc を含める」ことです。\nなるほど、Dockerfileを修正してみます\n\n(next buildが失敗しているのにCIがsuccessしたらダメだと思うがそれはさておき)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770440855.104789",
+    "client_msg_id": "d2f15b6d-4e83-4dd1-947a-65daa56483a2",
+    "text": "viewerはOKになってるのに「viewerのbuildが通ってないのにCIがsuccessになるのはダメでしょ」で入れたチェックが厳しすぎてCI failになってたことがわかりましたw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770440855.104789",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1770441045.642639",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "k9Y57",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "viewerはOKになってるのに「viewerのbuildが通ってないのにCIがsuccessになるのはダメでしょ」で入れたチェックが厳しすぎてCI failになってたことがわかりましたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "viewerはOKになってるのに「viewerのbuildが通ってないのにCIがsuccessになるのはダメでしょ」で入れたチェックが厳しすぎてCI failになってたことがわかりましたw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770441035.985119",
+    "client_msg_id": "52d3500f-63b8-4804-b65a-29d0d1865bfd",
+    "text": "Codexいわく\n\n事実関係（今回の run）:\npublic-viewer の最新 revision は 2026-02-07T04:47:34Z 作成\nその revision 内で next build が走って 04:51:25Z 頃に Ready\nCI の「デプロイ確認」は 04:47:43Z 開始 -&gt; 04:50:26Z で終了（= public-viewer が立ち上がる前にタイムアウト）\n現在は api も public-viewer も curl で 200 を返しています（こちらでも確認済み）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770440855.104789",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jBfy1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Codexいわく\n\n事実関係（今回の run）:\npublic-viewer の最新 revision は 2026-02-07T04:47:34Z 作成\nその revision 内で next build が走って 04:51:25Z 頃に Ready\nCI の「デプロイ確認」は 04:47:43Z 開始 -> 04:50:26Z で終了（= public-viewer が立ち上がる前にタイムアウト）\n現在は api も public-viewer も curl で 200 を返しています（こちらでも確認済み）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770440855.104789",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Codexいわく\n\n事実関係（今回の run）:\npublic-viewer の最新 revision は 2026-02-07T04:47:34Z 作成\nその revision 内で next build が走って 04:51:25Z 頃に Ready\nCI の「デプロイ確認」は 04:47:43Z 開始 -> 04:50:26Z で終了（= public-viewer が立ち上がる前にタイムアウト）\n現在は api も public-viewer も curl で 200 を返しています（こちらでも確認済み）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770441045.642639",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1770441050.000000"
+    },
+    "client_msg_id": "4fe98b58-4b61-41d3-9610-d544be8a160a",
+    "text": "---\n3分ではビルドが終わらないぞと言うことらしい",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770440855.104789",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u9npz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "---\n3分ではビルドが終わらないぞと言うことらしい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770440855.104789",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "---\n3分ではビルドが終わらないぞと言うことらしい"
+  },
+  {
+    "text": "めでたしめでたし",
+    "files": [
+      {
+        "id": "F0ADZHH9RFB",
+        "created": 1770442210,
+        "timestamp": 1770442210,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 58628,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADZHH9RFB/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADZHH9RFB/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 134,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 179,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 268,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADZHH9RFB-bf2c57a9a0/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 298,
+        "original_w": 880,
+        "original_h": 328,
+        "thumb_tiny": "AwASADCmc52gAkgdFppOTmnn7wwuTgDpntTdpY4CnOOgFACZ69OfakpQAQTzx7UEYOOfxoAMZxtyT9KMH0pKKACiiigAooooAKKKKAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ADZHH9RFB/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ADZHH9RFB-d32699cce6",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l2wm0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "めでたしめでたし"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770442215.697889",
+    "client_msg_id": "8f0e214b-d954-4f50-a81f-c0a7060e9410",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "めでたしめでたし"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770453012.412359",
+    "client_msg_id": "4b3e0251-345a-4d18-900f-f4a837c08755",
+    "text": "テストも通ってデモ環境デプロイもうまく動いているということで、open PRのgeminiの更新の券が終わったら次は\n「テストやデプロイを壊さないようにしながらいらないファイルを消す」をやろうと思います。\nうっかりAIが生成した一時的ドキュメントが残ってたりするのと、消す作業はAIに任せると良くなさそうなので人間がやる\nAIには削除するのではなくレビューして必要なさそうなものを見つけたり矛盾した記述を見つけたりしてもらう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8+wdi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "テストも通ってデモ環境デプロイもうまく動いているということで、open PRのgeminiの更新の券が終わったら次は\n「テストやデプロイを壊さないようにしながらいらないファイルを消す」をやろうと思います。\nうっかりAIが生成した一時的ドキュメントが残ってたりするのと、消す作業はAIに任せると良くなさそうなので人間がやる\nAIには削除するのではなくレビューして必要なさそうなものを見つけたり矛盾した記述を見つけたりしてもらう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "テストも通ってデモ環境デプロイもうまく動いているということで、open PRのgeminiの更新の券が終わったら次は\n「テストやデプロイを壊さないようにしながらいらないファイルを消す」をやろうと思います。\nうっかりAIが生成した一時的ドキュメントが残ってたりするのと、消す作業はAIに任せると良くなさそうなので人間がやる\nAIには削除するのではなくレビューして必要なさそうなものを見つけたり矛盾した記述を見つけたりしてもらう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770513713.939489",
+    "client_msg_id": "4D238C40-3C8E-43B5-BF78-FA3A457C0FE5",
+    "text": "geminiのアップデートもできて、自動デプロイも問題なく動いてますね、めでたしめでたし",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gJHxt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "geminiのアップデートもできて、自動デプロイも問題なく動いてますね、めでたしめでたし"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "geminiのアップデートもできて、自動デプロイも問題なく動いてますね、めでたしめでたし"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770621390.336249",
+    "client_msg_id": "a8701f8a-e827-4963-bac4-27b0f303269f",
+    "text": "RepoにCLAUDE.mdを置くのはやめる方針\n• docs/for-ai/ あたりにおいて、AIに読ませたい人は自分のCLAUDE.mdなりAGENTS.mdなりskillなりcustom commandなりに入れる\n• 領域ごとにmdは分ける、WebUIを開発する時にpythonの分析プロセスの知識は必要ないのでcontextに入れるべきではない\n• CLAUDE.mdなどは.gitignoreに入れる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CyDeI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "RepoにCLAUDE.mdを置くのはやめる方針\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "docs/for-ai/ あたりにおいて、AIに読ませたい人は自分のCLAUDE.mdなりAGENTS.mdなりskillなりcustom commandなりに入れる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "領域ごとにmdは分ける、WebUIを開発する時にpythonの分析プロセスの知識は必要ないのでcontextに入れるべきではない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "CLAUDE.mdなどは.gitignoreに入れる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "RepoにCLAUDE.mdを置くのはやめる方針\n• docs/for-ai/ あたりにおいて、AIに読ませたい人は自分のCLAUDE.mdなりAGENTS.mdなりskillなりcustom commandなりに入れる\n• 領域ごとにmdは分ける、WebUIを開発する時にpythonの分析プロセスの知識は必要ないのでcontextに入れるべきではない\n• CLAUDE.mdなどは.gitignoreに入れる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770621578.258369",
+    "client_msg_id": "77a79ff5-f813-4a98-930b-117da6498d80",
+    "text": "まあ `@&lt;filename&gt;` で読ませてもいいしね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y5IOR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ "
+              },
+              {
+                "type": "text",
+                "text": "@<filename>",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " で読ませてもいいしね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ `@<filename>` で読ませてもいいしね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770622142.369669",
+    "client_msg_id": "0c242563-16f9-4dcc-a4b8-c7918b1de43c",
+    "text": "なぜそう思ったかというと、PRを作る時点でPRテンプレートを尊重してほしいからCLAUDEに入れようかなと開いてみて、そもそもこれ自体も改善か必要だなとなった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gppvy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なぜそう思ったかというと、PRを作る時点でPRテンプレートを尊重してほしいからCLAUDEに入れようかなと開いてみて、そもそもこれ自体も改善か必要だなとなった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なぜそう思ったかというと、PRを作る時点でPRテンプレートを尊重してほしいからCLAUDEに入れようかなと開いてみて、そもそもこれ自体も改善か必要だなとなった"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770667837.732859",
+    "client_msg_id": "cb2cff99-30cd-43be-8609-2aaf354b1b2e",
+    "text": "<https://x.com/annotakahiro24/status/1882912202602201370>\nそういえば、XのAPIのプランが変わったので、これをアップデートしたいですね。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/annotakahiro24/status/1882912202602201370",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/1938219586345963521/vzlZs_L2_200x200.jpg",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/annotakahiro24/status/1882912202602201370",
+        "fallback": "X (formerly Twitter): 安野貴博(スタッフ更新) (@annotakahiro24) on X",
+        "text": "検討の様子を取材いただいています。記事中に「実験参加には約100万円の月額費用が必要」とありますが、ここはXの投稿データを活用する場合(X社のプランが月額5,000ドル)の話でした。\n\nブロードリスニングは、無料で取得できるデータから、Xの投稿など有償のデータまで、様々なデータを活用可能です。",
+        "title": "安野貴博(スタッフ更新) (@annotakahiro24) on X",
+        "title_link": "https://x.com/annotakahiro24/status/1882912202602201370",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2dzeu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/annotakahiro24/status/1882912202602201370"
+              },
+              {
+                "type": "text",
+                "text": "\nそういえば、XのAPIのプランが変わったので、これをアップデートしたいですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://x.com/annotakahiro24/status/1882912202602201370>\nそういえば、XのAPIのプランが変わったので、これをアップデートしたいですね。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770667986.418949",
+    "client_msg_id": "eb9f1992-6ebb-4f28-873d-f85485dbed64",
+    "text": "10月にAPIが刷新されたけど、取得は月5000ドルのママだった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3YV17",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "10月にAPIが刷新されたけど、取得は月5000ドルのママだった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "10月にAPIが刷新されたけど、取得は月5000ドルのママだった"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770676480.095419",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1770676705.000000"
+    },
+    "client_msg_id": "79bdb700-8be4-4751-ad44-9ded0a683c55",
+    "text": "最近従量課金プランが出ましたね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770676480.095419",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1770676948.359309",
+    "reply_users": [
+      "U08JFSYHEP6"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Oe5y7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "最近従量課金プランが出ましたね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "最近従量課金プランが出ましたね"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770676948.359309",
+    "client_msg_id": "670c9f7b-d1b6-4e89-b04f-c2352fb4effe",
+    "text": "プライシングはこちら\n<https://developer.x.com/#pricing|https://developer.x.com/#pricing>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770676480.095419",
+    "parent_user_id": "U08JFSYHEP6",
+    "attachments": [
+      {
+        "image_url": "https://ton.twimg.com/dataproducts/developerlanding/og.png",
+        "image_width": 1896,
+        "image_height": 1302,
+        "image_bytes": 531449,
+        "from_url": "https://developer.x.com/#pricing",
+        "service_icon": "https://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://developer.x.com/#pricing",
+        "fallback": "X Developer Platform",
+        "text": "Use the X API with an all-new Developer Console and consumption-based billing. No fixed monthly costs, no monthly caps.",
+        "title": "X Developer Platform",
+        "title_link": "https://developer.x.com/#pricing",
+        "service_name": "developer.x.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kd1pl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プライシングはこちら\n"
+              },
+              {
+                "type": "link",
+                "url": "https://developer.x.com/#pricing",
+                "text": "https://developer.x.com/#pricing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770676480.095419",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "プライシングはこちら\n<https://developer.x.com/#pricing|https://developer.x.com/#pricing>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770687052.267509",
+    "client_msg_id": "2BFE6C92-0E9D-46A2-B3D4-9894DD301545",
+    "text": "1週間分を取得して1000件いかないケースが多いんじゃないかと思うので「取得して溜める」みたいなのとセットで提供したいですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j4Gq3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1週間分を取得して1000件いかないケースが多いんじゃないかと思うので「取得して溜める」みたいなのとセットで提供したいですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1週間分を取得して1000件いかないケースが多いんじゃないかと思うので「取得して溜める」みたいなのとセットで提供したいですね"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770715905.729629",
+    "client_msg_id": "cdc11f89-18df-4df6-9f2c-d3d07d3c8e07",
+    "text": "あー、ほんとだ、見落としてた。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CN044",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、ほんとだ、見落としてた。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あー、ほんとだ、見落としてた。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770720292.948299",
+    "client_msg_id": "bae97c53-5531-4164-84e1-fd4207f44beb",
+    "text": "やっと手元の広聴AIのリポジトリがクリーンになった\nテストの実装にPandas依存があった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YGznX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やっと手元の広聴AIのリポジトリがクリーンになった\nテストの実装にPandas依存があった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "やっと手元の広聴AIのリポジトリがクリーンになった\nテストの実装にPandas依存があった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770721159.262449",
+    "client_msg_id": "bcd3b786-47e9-483f-972b-99dbe9aa1fc3",
+    "text": "CodeXの提案\n• test/ と tests/ が分かれているのでどちらかに統一（test/ にまとめる or tests/ に寄せる）\n• setup_*.sh start_*.sh stop_*.sh は scripts/ に移動＋短いREADMEで入口を作ると見通しが良い\nあー、なるほどね〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IFAl0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CodeXの提案\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "test/ と tests/ が分かれているのでどちらかに統一（test/ にまとめる or tests/ に寄せる）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "setup_*.sh start_*.sh stop_*.sh は scripts/ に移動＋短いREADMEで入口を作ると見通しが良い"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、なるほどね〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "CodeXの提案\n• test/ と tests/ が分かれているのでどちらかに統一（test/ にまとめる or tests/ に寄せる）\n• setup_*.sh start_*.sh stop_*.sh は scripts/ に移動＋短いREADMEで入口を作ると見通しが良い\nあー、なるほどね〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770721401.110249",
+    "client_msg_id": "50a8df52-4600-4e8e-8bfc-b08586ce9e40",
+    "text": "そもそもこのシェルスクリプト、かなり初期にドキュメントの内容を誰かがシェルにまとめたもので、その後の変更に合わせてメンテしてないのではないかという気がする(ドキュメントにもこれを使えとは書いていない)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xGTaA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そもそもこのシェルスクリプト、かなり初期にドキュメントの内容を誰かがシェルにまとめたもので、その後の変更に合わせてメンテしてないのではないかという気がする(ドキュメントにもこれを使えとは書いていない)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そもそもこのシェルスクリプト、かなり初期にドキュメントの内容を誰かがシェルにまとめたもので、その後の変更に合わせてメンテしてないのではないかという気がする(ドキュメントにもこれを使えとは書いていない)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770721878.413249",
+    "client_msg_id": "98f8ea37-6d3b-455e-afe5-031be7421933",
+    "text": "&gt; test/ と tests/ が分かれている\nなるほど、Playwright Agentがtestsを仮定していてそこに作りにくるが、従来からのテストはtest/にある、と。testsに一本化するのが良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EsGB+",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "test/ と tests/ が分かれている"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど、Playwright Agentがtestsを仮定していてそこに作りにくるが、従来からのテストはtest/にある、と。testsに一本化するのが良さそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> test/ と tests/ が分かれている\nなるほど、Playwright Agentがtestsを仮定していてそこに作りにくるが、従来からのテストはtest/にある、と。testsに一本化するのが良さそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770722786.423649",
+    "client_msg_id": "22e92be2-7911-492c-a4f3-be36f34691c9",
+    "text": "各フォルダにあるREADMEは各フォルダにあるべきだが、ドキュメントにも含まれるといいかもしれない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RnflR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "各フォルダにあるREADMEは各フォルダにあるべきだが、ドキュメントにも含まれるといいかもしれない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "各フォルダにあるREADMEは各フォルダにあるべきだが、ドキュメントにも含まれるといいかもしれない"
+  },
+  {
+    "text": "READMEまとめのカテゴリができた",
+    "files": [
+      {
+        "id": "F0AEY1BK3NU",
+        "created": 1770724420,
+        "timestamp": 1770724420,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 363728,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEY1BK3NU/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AEY1BK3NU/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 274,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 365,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 548,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 609,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 731,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AEY1BK3NU-b1c003145e/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 780,
+        "original_w": 2136,
+        "original_h": 1626,
+        "thumb_tiny": "AwAlADCt5o9DR5q+hqKgDPSr5mKxL5q46Gl81PRvzqE5zz1oPJyaXMwsSmRT2NJvX0NR0UczCwZ4xQOtFA6ikMOKOKkCcYwpPTocj/PSoz1OMfhQAcUuR6UlFABmlUbmC+pxSU6P/Wp9RQA6OLekjZxtGelR/hVm3/1U3+7/AI1WoAKKKKAP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AEY1BK3NU/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AEY1BK3NU-321e905b3e",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J52RH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "READMEまとめのカテゴリができた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770724427.399569",
+    "client_msg_id": "3890e2c1-2c4b-4c64-b0c6-1c8313fcc2f2",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "READMEまとめのカテゴリができた"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770725070.887939",
+    "client_msg_id": "6e950042-06a7-4ae4-88ce-cedbb06e937b",
+    "text": "<@U08G2A216TW>\n<https://github.com/digitaldemocracy2030/kouchou-ai?tab=readme-ov-file>\n\n開発者でない方は以下のユーザーガイドを参照してください：\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/windows-setup.md|Windows 環境でのユーザーガイド>\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/mac-setup.md|Mac 環境でのユーザーガイド>\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/linux-setup.md|Linux 環境でのユーザーガイド>\nこれがリンク切れという報告を貰いました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SHDwy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai?tab=readme-ov-file"
+              },
+              {
+                "type": "text",
+                "text": "\n\n開発者でない方は以下のユーザーガイドを参照してください：\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/windows-setup.md",
+                    "text": "Windows 環境でのユーザーガイド"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/mac-setup.md",
+                    "text": "Mac 環境でのユーザーガイド"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/linux-setup.md",
+                    "text": "Linux 環境でのユーザーガイド"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nこれがリンク切れという報告を貰いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu\n<https://github.com/digitaldemocracy2030/kouchou-ai?tab=readme-ov-file>\n\n開発者でない方は以下のユーザーガイドを参照してください：\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/windows-setup.md|Windows 環境でのユーザーガイド>\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/mac-setup.md|Mac 環境でのユーザーガイド>\n• <https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/linux-setup.md|Linux 環境でのユーザーガイド>\nこれがリンク切れという報告を貰いました。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770725120.463209",
+    "client_msg_id": "2164ac0c-e3e4-4721-aa10-fe3dbc63d70f",
+    "text": "直します",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hZoEg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "直します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "直します"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770725143.369949",
+    "client_msg_id": "36162e1d-60b6-4ed5-af8a-d0c25419a021",
+    "text": "```「一般向けにはリンク先の閲覧ができない」件につきましてですが、\nGitHub の README.md 内の「手順」の「開発者でない方は以下のユーザーガイドを参照してください：」の直下に、\nある三つのリンクが見当たらないようでした。\n確認したところ、kouchou-ai/docs/getting-started/ 配下に説明があることを把握いたしました。```",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7YGTd",
+        "elements": [
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「一般向けにはリンク先の閲覧ができない」件につきましてですが、\nGitHub の README.md 内の「手順」の「開発者でない方は以下のユーザーガイドを参照してください：」の直下に、\nある三つのリンクが見当たらないようでした。\n確認したところ、kouchou-ai/docs/getting-started/ 配下に説明があることを把握いたしました。"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "```「一般向けにはリンク先の閲覧ができない」件につきましてですが、\nGitHub の README.md 内の「手順」の「開発者でない方は以下のユーザーガイドを参照してください：」の直下に、\nある三つのリンクが見当たらないようでした。\n確認したところ、kouchou-ai/docs/getting-started/ 配下に説明があることを把握いたしました。```"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770725225.485919",
+    "client_msg_id": "a3206829-0d6e-4c8a-bfa9-84202cbcc9bc",
+    "text": "ドキュメントからではなくREADMEからってことね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5iKLs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントからではなくREADMEからってことね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメントからではなくREADMEからってことね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770725257.743809",
+    "client_msg_id": "3c0cf6c6-6e4b-43f0-a268-5d82b356e063",
+    "text": "GitHubでMarkdownプレビューを見てリンクを辿った時にGitHub上でMarkdownに飛ぶべきかdocsに飛ぶべきか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SEeD9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "GitHubでMarkdownプレビューを見てリンクを辿った時にGitHub上でMarkdownに飛ぶべきかdocsに飛ぶべきか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "GitHubでMarkdownプレビューを見てリンクを辿った時にGitHub上でMarkdownに飛ぶべきかdocsに飛ぶべきか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770725298.735989",
+    "client_msg_id": "7f43eb14-98c7-44ee-83fb-2cb44fe21363",
+    "text": "docsの側はmkdocs画リンク切れとかを検知してくれるので生Markdownであんまり複雑なことをしないのが正しいな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PFexv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "docsの側はmkdocs画リンク切れとかを検知してくれるので生Markdownであんまり複雑なことをしないのが正しいな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "docsの側はmkdocs画リンク切れとかを検知してくれるので生Markdownであんまり複雑なことをしないのが正しいな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770728457.498849",
+    "client_msg_id": "12c35ff2-f7e1-47a1-8302-c76bfd4fa8c6",
+    "text": "READMEのリンクを押したらドキュメントサイトに飛ぶようになりました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rH2ey",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "READMEのリンクを押したらドキュメントサイトに飛ぶようになりました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08J6JR5SNQ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "READMEのリンクを押したらドキュメントサイトに飛ぶようになりました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770728643.150749",
+    "client_msg_id": "75836869-8485-431c-b9ca-56543186801e",
+    "text": "ドキュメントを本格的に改善するのは本の原稿がFIXしてリリースされるまでの間にしたらいいかな〜という気持ち",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8X5h7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントを本格的に改善するのは本の原稿がFIXしてリリースされるまでの間にしたらいいかな〜という気持ち"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメントを本格的に改善するのは本の原稿がFIXしてリリースされるまでの間にしたらいいかな〜という気持ち"
+  }
+]

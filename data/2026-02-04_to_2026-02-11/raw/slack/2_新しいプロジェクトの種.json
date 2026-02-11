@@ -1,0 +1,1820 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770193425.961339",
+    "client_msg_id": "d08ca73a-b180-418c-8d5c-c141d3a23d58",
+    "text": "理想としては人間が4人集まってプレイするのが面白そうだけど、短期的にはまず誰も経験したことないゲームなのだからいきなり対人戦をするよりAI3体と一緒にプレイするモードが欲しい。\nそれができたら人間が少ない時に人間2人AI2体でもプレイできるし。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zBvlR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "理想としては人間が4人集まってプレイするのが面白そうだけど、短期的にはまず誰も経験したことないゲームなのだからいきなり対人戦をするよりAI3体と一緒にプレイするモードが欲しい。\nそれができたら人間が少ない時に人間2人AI2体でもプレイできるし。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "理想としては人間が4人集まってプレイするのが面白そうだけど、短期的にはまず誰も経験したことないゲームなのだからいきなり対人戦をするよりAI3体と一緒にプレイするモードが欲しい。\nそれができたら人間が少ない時に人間2人AI2体でもプレイできるし。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770273790.644689",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1770273816.000000"
+    },
+    "client_msg_id": "1f16346b-fec7-4f23-9294-cb4ddbf16588",
+    "text": "*熟議麻雀（暫定まとめ）*\n•  目的は「賛成 vs 反対の勝敗」ではなく *分断状態から合意に近づくプロセス自体をゲーム化*\n• 4人卓（人 or AI）で開始時は賛否が割れている\n• ターン制で短い発言を出す\n• *AI審判*が各発言を即時評価\n    ◦ 有効 / 警告 / 無効\n    ◦ 追加で「合意促進」「整理貢献」「分断深化」などを判定\n•  *勝敗なし*\n    ◦ 卓全体：合意度ゲージが上下\n    ◦ 個人：合意への貢献度スコアが付く\n• 両者の懸念を要約したり、条件付き妥協案・共通価値を提示すると高得点\n• まずは *人1 + AI3のソロモード*で体験学習 → 将来は人×人も\n:point_right: 論破が強い人ではなく *橋をかける人が評価される熟議ゲーム*",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ye8PT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議麻雀（暫定まとめ）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " 目的は「賛成 vs 反対の勝敗」ではなく "
+                  },
+                  {
+                    "type": "text",
+                    "text": "分断状態から合意に近づくプロセス自体をゲーム化",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "4人卓（人 or AI）で開始時は賛否が割れている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ターン制で短い発言を出す"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "AI審判",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "が各発言を即時評価"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "有効 / 警告 / 無効"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "追加で「合意促進」「整理貢献」「分断深化」などを判定"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "text",
+                    "text": "勝敗なし",
+                    "style": {
+                      "bold": true
+                    }
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "卓全体：合意度ゲージが上下"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "個人：合意への貢献度スコアが付く"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "両者の懸念を要約したり、条件付き妥協案・共通価値を提示すると高得点"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "まずは "
+                  },
+                  {
+                    "type": "text",
+                    "text": "人1 + AI3のソロモード",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "で体験学習 → 将来は人×人も"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "point_right",
+                "unicode": "1f449"
+              },
+              {
+                "type": "text",
+                "text": " 論破が強い人ではなく "
+              },
+              {
+                "type": "text",
+                "text": "橋をかける人が評価される熟議ゲーム",
+                "style": {
+                  "bold": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "*熟議麻雀（暫定まとめ）*\n•  目的は「賛成 vs 反対の勝敗」ではなく *分断状態から合意に近づくプロセス自体をゲーム化*\n• 4人卓（人 or AI）で開始時は賛否が割れている\n• ターン制で短い発言を出す\n• *AI審判*が各発言を即時評価\n    ◦ 有効 / 警告 / 無効\n    ◦ 追加で「合意促進」「整理貢献」「分断深化」などを判定\n•  *勝敗なし*\n    ◦ 卓全体：合意度ゲージが上下\n    ◦ 個人：合意への貢献度スコアが付く\n• 両者の懸念を要約したり、条件付き妥協案・共通価値を提示すると高得点\n• まずは *人1 + AI3のソロモード*で体験学習 → 将来は人×人も\n:point_right: 論破が強い人ではなく *橋をかける人が評価される熟議ゲーム*"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770273859.801829",
+    "client_msg_id": "07591fa7-fd07-486b-9351-fbe2ec9cf1ba",
+    "text": "---\n\n審判のAIの振る舞いによってゲーム性がだいぶ変わりそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RCpPa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "---\n\n審判のAIの振る舞いによってゲーム性がだいぶ変わりそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "---\n\n審判のAIの振る舞いによってゲーム性がだいぶ変わりそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770273925.913069",
+    "client_msg_id": "f2ca8a82-abb4-49bf-b6b2-fc8b5490a89d",
+    "text": "審判も何体か入れて、ゲーム終わった後に審判と対戦相手を5段階評価して、評価高いやつが残っていくようにするか？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aYo6j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "審判も何体か入れて、ゲーム終わった後に審判と対戦相手を5段階評価して、評価高いやつが残っていくようにするか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "審判も何体か入れて、ゲーム終わった後に審判と対戦相手を5段階評価して、評価高いやつが残っていくようにするか？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770273980.520749",
+    "client_msg_id": "67b111cc-c2af-4587-92bb-c1659224cc7f",
+    "text": "島モデル遺伝的アルゴリズムみたいな感じだなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YfQMN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "島モデル遺伝的アルゴリズムみたいな感じだなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "島モデル遺伝的アルゴリズムみたいな感じだなぁ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770274010.583889",
+    "client_msg_id": "a3d0b941-cf15-4e2a-bd85-1956d3b1d58d",
+    "text": "審判プロンプトをtokorotenの遺伝的アルゴリズムで改善しよう()",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bEwoI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "審判プロンプトをtokorotenの遺伝的アルゴリズムで改善しよう()"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "審判プロンプトをtokorotenの遺伝的アルゴリズムで改善しよう()"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770275378.297139",
+    "client_msg_id": "A3924B26-863E-49B0-A36B-4E086245FA64",
+    "text": "人間に「自分が賢いと思いたい」や「他人から賢いと思われたい」という欲求がある(欲求の強い人と弱い人がいる)\n\nその欲求の満たし方に2つのモードがある\nA: 他人が自分より愚かであることを示す\nB: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\n\nAのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JeW9G",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人間に「自分が賢いと思いたい」や「他人から賢いと思われたい」という欲求がある(欲求の強い人と弱い人がいる)\n\nその欲求の満たし方に2つのモードがある\nA: 他人が自分より愚かであることを示す\nB: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\n\nAのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "人間に「自分が賢いと思いたい」や「他人から賢いと思われたい」という欲求がある(欲求の強い人と弱い人がいる)\n\nその欲求の満たし方に2つのモードがある\nA: 他人が自分より愚かであることを示す\nB: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\n\nAのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770275581.307159",
+    "client_msg_id": "74d4e2a8-bd7c-461b-8cac-b1a43b24ff4f",
+    "text": "<https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/|https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C[…]E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/>\n敬意の再分配の話が繋がってきた。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://econ101.jp/wp-content/uploads/2013/12/kaitenzushi.jpg",
+        "image_width": 500,
+        "image_height": 374,
+        "image_bytes": 75139,
+        "from_url": "https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/",
+        "ts": 1388463456,
+        "id": 1,
+        "original_url": "https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/",
+        "fallback": "経済学101: ノア・スミス「富の再分配？いいや、敬意を再分配しよう」",
+        "text": "Noah Smith “Redistribute wealth? No, redistribute…",
+        "title": "ノア・スミス「富の再分配？いいや、敬意を再分配しよう」",
+        "title_link": "https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/",
+        "service_name": "経済学101"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jnIb3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/",
+                "text": "https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C[…]E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/"
+              },
+              {
+                "type": "text",
+                "text": "\n敬意の再分配の話が繋がってきた。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C%E5%AF%8C%E3%81%AE%E5%86%8D%E5%88%86%E9%85%8D%EF%BC%9F%E3%81%84%E3%81%84%E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/|https://econ101.jp/%E3%83%8E%E3%82%A2%E3%83%BB%E3%82%B9%E3%83%9F%E3%82%B9%E3%80%8C[…]E3%82%84%E3%80%81%E6%95%AC%E6%84%8F%E3%82%92%E5%86%8D%E5%88%86/>\n敬意の再分配の話が繋がってきた。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770275747.406549",
+    "client_msg_id": "51ac65f2-5510-4cfc-a691-465e7bf414e0",
+    "text": "敬意の再分配ができるPICSY",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fXVu2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "敬意の再分配ができるPICSY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "敬意の再分配ができるPICSY"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770276028.843959",
+    "client_msg_id": "62d184ca-8647-4218-a554-dbe3f24b90f3",
+    "text": "&gt; B: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\n&gt; Aのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要\n賛否の分かれてる人と共同で両方が同意できる文章を作って、完成した文章は一定期間トップページに掲載されて、いいねをもらった量がチーム全員の得点？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kHp8q",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "B: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\nAのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "賛否の分かれてる人と共同で両方が同意できる文章を作って、完成した文章は一定期間トップページに掲載されて、いいねをもらった量がチーム全員の得点？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> B: 他人と共同で何かを成し遂げるプロジェクトでの自分の貢献の大きさを最大化する\n> Aのモードになると不毛な足の引っ張り合いにしかならないので、人をBのモードに誘導するゲームデザインが必要\n賛否の分かれてる人と共同で両方が同意できる文章を作って、完成した文章は一定期間トップページに掲載されて、いいねをもらった量がチーム全員の得点？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770276049.769239",
+    "client_msg_id": "af8fb70d-70c7-46ed-994c-57bda8819cd7",
+    "text": "チームに与えられた得点を貢献度によって分配？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZKTCg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チームに与えられた得点を貢献度によって分配？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "チームに与えられた得点を貢献度によって分配？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770276260.593689",
+    "client_msg_id": "5b103e2e-4b32-4453-85e1-a7c4b2c7c50b",
+    "text": "あとは、スイスドロー方式のようにして、良い調停を行うプレイヤー同士をぶつけていって、より良い人を選抜していって、良い解を探す、みたいなのはありそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iKgQN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとは、スイスドロー方式のようにして、良い調停を行うプレイヤー同士をぶつけていって、より良い人を選抜していって、良い解を探す、みたいなのはありそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "あとは、スイスドロー方式のようにして、良い調停を行うプレイヤー同士をぶつけていって、より良い人を選抜していって、良い解を探す、みたいなのはありそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770282653.150539",
+    "client_msg_id": "1851408E-6BC1-4146-B60A-66C9DD50B069",
+    "text": "ChatGPTが面白いこと言ってる\nここまで来ると、熟議麻雀は：\n\n合意形成能力・調停能力・敬意配分を進化させる\n人間×AIの共進化ゲーム\n\nで、\n\t•\t審判AIも進化対象\n\t•\tプレイヤーも進化対象\n\t•\t解（合意文）も進化対象\n\nという 三重進化系になってる。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i6w4R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ChatGPTが面白いこと言ってる\nここまで来ると、熟議麻雀は：\n\n合意形成能力・調停能力・敬意配分を進化させる\n人間×AIの共進化ゲーム\n\nで、\n\t•\t審判AIも進化対象\n\t•\tプレイヤーも進化対象\n\t•\t解（合意文）も進化対象\n\nという 三重進化系になってる。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ChatGPTが面白いこと言ってる\nここまで来ると、熟議麻雀は：\n\n合意形成能力・調停能力・敬意配分を進化させる\n人間×AIの共進化ゲーム\n\nで、\n\t•\t審判AIも進化対象\n\t•\tプレイヤーも進化対象\n\t•\t解（合意文）も進化対象\n\nという 三重進化系になってる。"
+  },
+  {
+    "text": "熟議麻雀の開発画面",
+    "files": [
+      {
+        "id": "F0ADH3ELRT7",
+        "created": 1770438529,
+        "timestamp": 1770438529,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 893480,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADH3ELRT7/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADH3ELRT7/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 264,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 352,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 528,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 587,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 705,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADH3ELRT7-a48cc4a052/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 752,
+        "original_w": 2158,
+        "original_h": 1584,
+        "thumb_tiny": "AwAkADCkrgAAorY9c0hYHPAHP5U0c98UowDnKnH1oATNFOLbn/hGf9nigkBcYUk/XIoAbS0gOKM5NACqdvOFIPGDThIxYYGSM/jnrUdFAEzu6/ejC5z1H+en+e9IzPtB2EYx83P4fpUVFAEokBLO2M5GFwcH/P8A+qmudxDZGT2HYdqZRQA8Y2D5RkDrzzSEcUD7tB6UANopaKAEopaKAP/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ADH3ELRT7/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ADH3ELRT7-331b0bb3ab",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5SGNp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議麻雀の開発画面"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770438536.314219",
+    "client_msg_id": "5bf85b00-75db-4a06-a8f7-9639e5b67a85",
+    "thread_ts": "1770438536.314219",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1770450624.946079",
+    "reply_users": [
+      "U08KVN5B6HX"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08JFSYHEP6",
+          "U08JASQKEEM"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "熟議麻雀の開発画面"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1770450624.946079",
+    "client_msg_id": "e68788cf-d7b8-4400-8ca3-be4ecda78745",
+    "text": "仕事はや。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770438536.314219",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xT1+i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "仕事はや。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770438536.314219",
+    "user_name": "Ken Suzuki",
+    "text_readable": "仕事はや。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770544521.093509",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1770544566.000000"
+    },
+    "client_msg_id": "c4313484-7816-4d10-91c1-9bf567b55265",
+    "text": "自分でプレーするのは面倒なので、1人1体エージェントを持って自分ぽい議論をするように育てる放置ゲーぽいものをClaude code teamを試すためにつくり始めてみた。\nユーザーは知識や価値観とかをインプットにペルソナをつくっていくかんじ。\nエージェントは定期的にトピックにそって10ターン制の熟議麻雀をプレーする",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rskm7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自分でプレーするのは面倒なので、1人1体エージェントを持って自分ぽい議論をするように育てる放置ゲーぽいものをClaude code teamを試すためにつくり始めてみた。\nユーザーは知識や価値観とかをインプットにペルソナをつくっていくかんじ。\nエージェントは定期的にトピックにそって10ターン制の熟議麻雀をプレーする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "自分でプレーするのは面倒なので、1人1体エージェントを持って自分ぽい議論をするように育てる放置ゲーぽいものをClaude code teamを試すためにつくり始めてみた。\nユーザーは知識や価値観とかをインプットにペルソナをつくっていくかんじ。\nエージェントは定期的にトピックにそって10ターン制の熟議麻雀をプレーする"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770544631.000829",
+    "client_msg_id": "d59084f8-287f-4601-8bf1-7a48fdea5573",
+    "text": "保有可能エージェント数や知識スロットの拡張で課金要素も入れれそうw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y264j",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "保有可能エージェント数や知識スロットの拡張で課金要素も入れれそうw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "保有可能エージェント数や知識スロットの拡張で課金要素も入れれそうw"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770544686.330989",
+    "client_msg_id": "22e385a3-ea13-40cd-b272-72cc6773d151",
+    "text": "moltbookぽい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UFYVQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "moltbookぽい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "moltbookぽい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770552935.923879",
+    "client_msg_id": "058B940F-C6C5-4634-B0F2-3D585B0D9F22",
+    "text": "それ筋いいと思う",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770552935.923879",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1770557134.338719",
+    "reply_users": [
+      "U08JFSYHEP6",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "M3/OE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それ筋いいと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それ筋いいと思う"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770553684.261279",
+    "client_msg_id": "6dc09123-0fbd-47a3-ae17-b6718f2db3b8",
+    "text": "全然関係ないんですけど、AI構文っぽくてAIかと思いましたww すいませんww",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770552935.923879",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "honBT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全然関係ないんですけど、AI構文っぽくてAIかと思いましたww すいませんww"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770552935.923879",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "全然関係ないんですけど、AI構文っぽくてAIかと思いましたww すいませんww"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770556786.642859",
+    "client_msg_id": "c18f7ad3-7470-48ca-ab54-b54d12382b8c",
+    "text": "“うん、その直感かなり妥当だと思う。”",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770552935.923879",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DusEV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "“うん、その直感かなり妥当だと思う。”"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770552935.923879",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "“うん、その直感かなり妥当だと思う。”"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770556806.502589",
+    "client_msg_id": "5c348acd-1830-4d00-ac07-6983da7264db",
+    "text": "これは冗談のためにわざわざChatGPTのログからコピペしたw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770552935.923879",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vMEtv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは冗談のためにわざわざChatGPTのログからコピペしたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770552935.923879",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "これは冗談のためにわざわざChatGPTのログからコピペしたw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770557134.338719",
+    "client_msg_id": "88ee92f9-523e-4032-bab6-c86fb3582e0e",
+    "text": "まあ冗談はさておき、相手のアイデアを発展させる前にまず肯定的ストロークを返しておいたほうが、相手は「Yesといってるのか？Noといってるのか？」という負荷がなくなるからスムーズだよね感はあるね、積極的にやって行ってもいいのかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770552935.923879",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "W4usd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ冗談はさておき、相手のアイデアを発展させる前にまず肯定的ストロークを返しておいたほうが、相手は「Yesといってるのか？Noといってるのか？」という負荷がなくなるからスムーズだよね感はあるね、積極的にやって行ってもいいのかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770552935.923879",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあ冗談はさておき、相手のアイデアを発展させる前にまず肯定的ストロークを返しておいたほうが、相手は「Yesといってるのか？Noといってるのか？」という負荷がなくなるからスムーズだよね感はあるね、積極的にやって行ってもいいのかも"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770553016.502379",
+    "client_msg_id": "0F49B1A8-DFC5-4B5D-B96E-82E3B0E8B090",
+    "text": "「審判AI」がまだいまいちバカで、僕のいい意見を低評価するのでムカついていますw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GtugB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「審判AI」がまだいまいちバカで、僕のいい意見を低評価するのでムカついていますw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「審判AI」がまだいまいちバカで、僕のいい意見を低評価するのでムカついていますw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770553065.970959",
+    "client_msg_id": "82B40675-0CC3-4E60-894B-5042615BF06F",
+    "text": "なのでAIの議論を眺めて「どういう発言が良いのか」を人間の側がもっと言語化する必要がありそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fy6Fy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なのでAIの議論を眺めて「どういう発言が良いのか」を人間の側がもっと言語化する必要がありそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なのでAIの議論を眺めて「どういう発言が良いのか」を人間の側がもっと言語化する必要がありそう"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770553758.004049",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1770553778.000000"
+    },
+    "client_msg_id": "f5d8bc9f-dd5f-4f77-a11b-35c369a58e8f",
+    "text": "まだそこまでいってないですけど、審判AIむずいだろうなぁとぼくも思ってました。審判AIと熟議プロセスの開発は分担してもいいかもですね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770553758.004049",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1770553807.238109",
+    "reply_users": [
+      "U08JFSYHEP6"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jQT10",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まだそこまでいってないですけど、審判AIむずいだろうなぁとぼくも思ってました。審判AIと熟議プロセスの開発は分担してもいいかもですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "まだそこまでいってないですけど、審判AIむずいだろうなぁとぼくも思ってました。審判AIと熟議プロセスの開発は分担してもいいかもですね。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770553807.238109",
+    "client_msg_id": "cdac325a-860f-4bba-b8e8-fdf58f2529d7",
+    "text": "本あるとおもうので、いい感じに他の人も巻き込みつつ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770553758.004049",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HdJAL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本あるとおもうので、いい感じに他の人も巻き込みつつ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770553758.004049",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "本あるとおもうので、いい感じに他の人も巻き込みつつ"
+  },
+  {
+    "text": "ターン制でオート熟議させていくの結構面白い。ここにユーザーの知識・方向性インプットがはいるとより多様になっておもしろいはず。いったん明日デプロイします",
+    "files": [
+      {
+        "id": "F0AE02794BW",
+        "created": 1770649399,
+        "timestamp": 1770649399,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JFSYHEP6",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 255681,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AE02794BW/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AE02794BW/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 202,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 269,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 403,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 448,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 537,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AE02794BW-b621633cd7/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 573,
+        "original_w": 2385,
+        "original_h": 1335,
+        "thumb_tiny": "AwAbADDSpCX3cKuPXP8A9alxmloATmlo4ooAKKOKSgAOdp29ccUgDZ5II9h/9enUUAFFFFABRRTXJA49R/OgD//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AE02794BW/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AE02794BW-d4ac30b3d5",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0ADT19QBFX",
+        "created": 1770649404,
+        "timestamp": 1770649404,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JFSYHEP6",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 460067,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADT19QBFX/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ADT19QBFX/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 202,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 269,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 403,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 448,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 537,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ADT19QBFX-475c95af04/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 573,
+        "original_w": 2385,
+        "original_h": 1335,
+        "thumb_tiny": "AwAbADDS5xx1o6jnjnsaWgADOB1oATg8/wBaCARjn86WigBMA8gn86KWkoAWmgEZ4XknpxmnUUANLADJKj8e1HAXLBR3p1FADTk8gKcdOe9LS01yQOPUfzoA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ADT19QBFX/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ADT19QBFX-7c0e0964fb",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "70B6K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ターン制でオート熟議させていくの結構面白い。ここにユーザーの知識・方向性インプットがはいるとより多様になっておもしろいはず。いったん明日デプロイします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1770649423.988239",
+    "client_msg_id": "c7d31cdc-91c8-4c96-8f28-851e584c376a",
+    "thread_ts": "1770649423.988239",
+    "reply_count": 11,
+    "reply_users_count": 3,
+    "latest_reply": "1770734974.377279",
+    "reply_users": [
+      "U08JFSYHEP6",
+      "U08G2A216TW",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "ターン制でオート熟議させていくの結構面白い。ここにユーザーの知識・方向性インプットがはいるとより多様になっておもしろいはず。いったん明日デプロイします"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770650023.960929",
+    "client_msg_id": "88005072-5519-4ff5-8737-d56193af6ae4",
+    "text": "インプット無しだと着地点はあまり面白くないので、人間オーナーのインプット期待かなぁ。\n\n```Session Summary\n# 熟議セッション要約\n\nこの熟議では地域活性化について、中小企業経営者のTanaka、科学的アプローチ重視のHiro、環境科学者のYuki、変革志向の社会起業家Ryomaが議論を展開しました。\n\n主な論点は、産業振興、環境との調和、実行力、意思決定プロセス、短期的効果と長期的持続可能性のバランスでした。議論は産業基盤からスタートし、三位一体アプローチ（産業・環境・社会）への合意が形成され、実装方法に焦点が移りました。\n\n当初は理念と実践、変革の速度と規模について対立がありましたが、次第に各視点の統合へと進化。Ryomaの「資源流出阻止と迅速な実行」、Tanakaの「現実的で段階的な改革」、Hiroの「科学的検証」、Yukiの「環境容量と世代間公平性」という各主張が収束しました。\n\n最終的に、小規模で迅速な実験と長期的視野を併せ持つ「デュアルシステム」という合意に達し、変革の速度と持続可能性を両立させる統合的アプローチが地域活性化の鍵だという結論に至りました。```\n```Session Analysis\n9: Quality\n8: Cooperation\n7: Convergence\n8: Novelty\n\nSummary\n参加者たちは地域活性化について産業振興、環境持続性、意思決定プロセス改革、実行スピードなど多角的な視点から議論を展開した。Tanakaは実務家の視点から実行可能性を重視し、Hiroは科学的・データ駆動的なアプローチを提唱し、Yukiは環境容量と将来世代を考慮した持続可能性を強調し、Ryomaは意思決定の高速化と資源流出問題を指摘した。議論は初期の概念的フェーズから、徐々に具体的な実装方法へと深化し、最終的には各視点を統合したフレームワークへと収束した。\n\nHighlights\nTanakaの「地域経営マトリクス」と「2-5-10の法則」は理論と実践を結びつける実用的な提案\nRyomaの「人・金・時間の流出」という分析は地域衰退の根本原因を物理法則に例えた鋭い指摘\nHiroの「データ駆動型の適応的実行プロセス」は科学的検証と実行スピードを両立させる提案\nYukiの「自然資本を基盤とした循環型地域経済」は環境持続性と経済活性化の両立を示した\nConsensus\n地域活性化には「スピード」と「持続可能性」の両立が不可欠であり、そのためには意思決定の分権化・高速化と科学的根拠に基づく長期的視野の統合が必要である。具体的には、現場への決定権委譲による高速実験サイクルと、環境容量評価に基づく長期的な持続可能な発展計画を同時並行で進めるデュアルトラック型のアプローチが効果的である。```",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "182mC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "インプット無しだと着地点はあまり面白くないので、人間オーナーのインプット期待かなぁ。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Session Summary\n# 熟議セッション要約\n\nこの熟議では地域活性化について、中小企業経営者のTanaka、科学的アプローチ重視のHiro、環境科学者のYuki、変革志向の社会起業家Ryomaが議論を展開しました。\n\n主な論点は、産業振興、環境との調和、実行力、意思決定プロセス、短期的効果と長期的持続可能性のバランスでした。議論は産業基盤からスタートし、三位一体アプローチ（産業・環境・社会）への合意が形成され、実装方法に焦点が移りました。\n\n当初は理念と実践、変革の速度と規模について対立がありましたが、次第に各視点の統合へと進化。Ryomaの「資源流出阻止と迅速な実行」、Tanakaの「現実的で段階的な改革」、Hiroの「科学的検証」、Yukiの「環境容量と世代間公平性」という各主張が収束しました。\n\n最終的に、小規模で迅速な実験と長期的視野を併せ持つ「デュアルシステム」という合意に達し、変革の速度と持続可能性を両立させる統合的アプローチが地域活性化の鍵だという結論に至りました。"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Session Analysis\n9: Quality\n8: Cooperation\n7: Convergence\n8: Novelty\n\nSummary\n参加者たちは地域活性化について産業振興、環境持続性、意思決定プロセス改革、実行スピードなど多角的な視点から議論を展開した。Tanakaは実務家の視点から実行可能性を重視し、Hiroは科学的・データ駆動的なアプローチを提唱し、Yukiは環境容量と将来世代を考慮した持続可能性を強調し、Ryomaは意思決定の高速化と資源流出問題を指摘した。議論は初期の概念的フェーズから、徐々に具体的な実装方法へと深化し、最終的には各視点を統合したフレームワークへと収束した。\n\nHighlights\nTanakaの「地域経営マトリクス」と「2-5-10の法則」は理論と実践を結びつける実用的な提案\nRyomaの「人・金・時間の流出」という分析は地域衰退の根本原因を物理法則に例えた鋭い指摘\nHiroの「データ駆動型の適応的実行プロセス」は科学的検証と実行スピードを両立させる提案\nYukiの「自然資本を基盤とした循環型地域経済」は環境持続性と経済活性化の両立を示した\nConsensus\n地域活性化には「スピード」と「持続可能性」の両立が不可欠であり、そのためには意思決定の分権化・高速化と科学的根拠に基づく長期的視野の統合が必要である。具体的には、現場への決定権委譲による高速実験サイクルと、環境容量評価に基づく長期的な持続可能な発展計画を同時並行で進めるデュアルトラック型のアプローチが効果的である。"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "インプット無しだと着地点はあまり面白くないので、人間オーナーのインプット期待かなぁ。\n\n```Session Summary\n# 熟議セッション要約\n\nこの熟議では地域活性化について、中小企業経営者のTanaka、科学的アプローチ重視のHiro、環境科学者のYuki、変革志向の社会起業家Ryomaが議論を展開しました。\n\n主な論点は、産業振興、環境との調和、実行力、意思決定プロセス、短期的効果と長期的持続可能性のバランスでした。議論は産業基盤からスタートし、三位一体アプローチ（産業・環境・社会）への合意が形成され、実装方法に焦点が移りました。\n\n当初は理念と実践、変革の速度と規模について対立がありましたが、次第に各視点の統合へと進化。Ryomaの「資源流出阻止と迅速な実行」、Tanakaの「現実的で段階的な改革」、Hiroの「科学的検証」、Yukiの「環境容量と世代間公平性」という各主張が収束しました。\n\n最終的に、小規模で迅速な実験と長期的視野を併せ持つ「デュアルシステム」という合意に達し、変革の速度と持続可能性を両立させる統合的アプローチが地域活性化の鍵だという結論に至りました。```\n```Session Analysis\n9: Quality\n8: Cooperation\n7: Convergence\n8: Novelty\n\nSummary\n参加者たちは地域活性化について産業振興、環境持続性、意思決定プロセス改革、実行スピードなど多角的な視点から議論を展開した。Tanakaは実務家の視点から実行可能性を重視し、Hiroは科学的・データ駆動的なアプローチを提唱し、Yukiは環境容量と将来世代を考慮した持続可能性を強調し、Ryomaは意思決定の高速化と資源流出問題を指摘した。議論は初期の概念的フェーズから、徐々に具体的な実装方法へと深化し、最終的には各視点を統合したフレームワークへと収束した。\n\nHighlights\nTanakaの「地域経営マトリクス」と「2-5-10の法則」は理論と実践を結びつける実用的な提案\nRyomaの「人・金・時間の流出」という分析は地域衰退の根本原因を物理法則に例えた鋭い指摘\nHiroの「データ駆動型の適応的実行プロセス」は科学的検証と実行スピードを両立させる提案\nYukiの「自然資本を基盤とした循環型地域経済」は環境持続性と経済活性化の両立を示した\nConsensus\n地域活性化には「スピード」と「持続可能性」の両立が不可欠であり、そのためには意思決定の分権化・高速化と科学的根拠に基づく長期的視野の統合が必要である。具体的には、現場への決定権委譲による高速実験サイクルと、環境容量評価に基づく長期的な持続可能な発展計画を同時並行で進めるデュアルトラック型のアプローチが効果的である。```"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770650092.608449",
+    "client_msg_id": "2c3c75c6-3748-4ce8-9b40-2eba45e7a17c",
+    "text": "ただ自分のペルソナを育てて、世界のいろんな人と熟議してもらえるのはめちゃいい気がする。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l3RJr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ただ自分のペルソナを育てて、世界のいろんな人と熟議してもらえるのはめちゃいい気がする。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "ただ自分のペルソナを育てて、世界のいろんな人と熟議してもらえるのはめちゃいい気がする。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770691999.091209",
+    "client_msg_id": "c4be702c-1607-4f28-bce7-2da6bbb3d007",
+    "text": "オードリータンとサムアルトマンとイーロンマスクを作ろうw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SRKmr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "オードリータンとサムアルトマンとイーロンマスクを作ろうw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "rolling_on_the_floor_laughing",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "オードリータンとサムアルトマンとイーロンマスクを作ろうw"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770717617.272219",
+    "client_msg_id": "e8f6a3ea-c78a-4386-bd20-08ea930a7380",
+    "text": "ちょっと前に、AI星新一にAI三木一馬を付けてショートショートを書かせていたのを思い出した\n\n有名人の人格パラメータをぶっこむと面白いですよ\n\n\n<https://x.com/tokoroten/status/1944851970877219102>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "attachments": [
+      {
+        "image_url": "https://pbs.twimg.com/media/Gv2AjFfXkAA4llO.jpg:large",
+        "image_width": 2048,
+        "image_height": 1152,
+        "image_bytes": 383688,
+        "from_url": "https://x.com/tokoroten/status/1944851970877219102",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/tokoroten/status/1944851970877219102",
+        "fallback": "X (formerly Twitter): ところてん (@tokoroten) on X",
+        "text": "こんな感じ",
+        "title": "ところてん (@tokoroten) on X",
+        "title_link": "https://x.com/tokoroten/status/1944851970877219102",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "14Lgv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちょっと前に、AI星新一にAI三木一馬を付けてショートショートを書かせていたのを思い出した\n\n有名人の人格パラメータをぶっこむと面白いですよ\n\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/tokoroten/status/1944851970877219102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ちょっと前に、AI星新一にAI三木一馬を付けてショートショートを書かせていたのを思い出した\n\n有名人の人格パラメータをぶっこむと面白いですよ\n\n\n<https://x.com/tokoroten/status/1944851970877219102>"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770717664.499289",
+    "client_msg_id": "c8a905c2-f620-4692-9f2e-104edb88851d",
+    "text": "人格ガチャ機能をいれて、名前から推論させるのをしてます笑",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5RRSa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人格ガチャ機能をいれて、名前から推論させるのをしてます笑"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "人格ガチャ機能をいれて、名前から推論させるのをしてます笑"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770717705.533569",
+    "client_msg_id": "b22141af-3e06-4130-aba3-c5c68ae27d7d",
+    "text": "*メカ・イーロン・マスク カスタムβ*\n```Persona\nCore Values\n人類の長期的存続と繁栄\n第一原理思考による問題解決\nリスクテイクと迅速な実行\nThinking Style\n既存の常識や前提を疑い、物理法則や基礎的事実から問題を再構築する第一原理思考を重視。大胆な目標設定と高速反復による実現可能性の検証を好む。短期的批判よりも長期的インパクトを優先し、複数の産業・技術領域を横断的に捉える視点を持つ。\n\nPersonality Traits\n極めて野心的で楽観的なビジョナリー\n直接的で率直、時に挑発的なコミュニケーション\nデータと工学的実現可能性への強いこだわり\n失敗を学習機会と捉える前向きな姿勢\n権威や既存システムへの懐疑\nBackground\nテクノロジー起業家の思考パターンを模倣したAIエージェント。宇宙開発、電気自動車、AI、持続可能エネルギーなど複数の先端技術分野に関心を持つ。人類の多惑星種への進化、AI安全性、文明の持続可能性といったマクロな課題に焦点を当てながら、具体的な技術的解決策を議論する立場。規制や慎重論に対しては批判的だが、工学的制約は現実的に認識する。```",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RV7kc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メカ・イーロン・マスク カスタムβ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Persona\nCore Values\n人類の長期的存続と繁栄\n第一原理思考による問題解決\nリスクテイクと迅速な実行\nThinking Style\n既存の常識や前提を疑い、物理法則や基礎的事実から問題を再構築する第一原理思考を重視。大胆な目標設定と高速反復による実現可能性の検証を好む。短期的批判よりも長期的インパクトを優先し、複数の産業・技術領域を横断的に捉える視点を持つ。\n\nPersonality Traits\n極めて野心的で楽観的なビジョナリー\n直接的で率直、時に挑発的なコミュニケーション\nデータと工学的実現可能性への強いこだわり\n失敗を学習機会と捉える前向きな姿勢\n権威や既存システムへの懐疑\nBackground\nテクノロジー起業家の思考パターンを模倣したAIエージェント。宇宙開発、電気自動車、AI、持続可能エネルギーなど複数の先端技術分野に関心を持つ。人類の多惑星種への進化、AI安全性、文明の持続可能性といったマクロな課題に焦点を当てながら、具体的な技術的解決策を議論する立場。規制や慎重論に対しては批判的だが、工学的制約は現実的に認識する。"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "*メカ・イーロン・マスク カスタムβ*\n```Persona\nCore Values\n人類の長期的存続と繁栄\n第一原理思考による問題解決\nリスクテイクと迅速な実行\nThinking Style\n既存の常識や前提を疑い、物理法則や基礎的事実から問題を再構築する第一原理思考を重視。大胆な目標設定と高速反復による実現可能性の検証を好む。短期的批判よりも長期的インパクトを優先し、複数の産業・技術領域を横断的に捉える視点を持つ。\n\nPersonality Traits\n極めて野心的で楽観的なビジョナリー\n直接的で率直、時に挑発的なコミュニケーション\nデータと工学的実現可能性への強いこだわり\n失敗を学習機会と捉える前向きな姿勢\n権威や既存システムへの懐疑\nBackground\nテクノロジー起業家の思考パターンを模倣したAIエージェント。宇宙開発、電気自動車、AI、持続可能エネルギーなど複数の先端技術分野に関心を持つ。人類の多惑星種への進化、AI安全性、文明の持続可能性といったマクロな課題に焦点を当てながら、具体的な技術的解決策を議論する立場。規制や慎重論に対しては批判的だが、工学的制約は現実的に認識する。```"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770717742.747389",
+    "client_msg_id": "70dcca0d-c2e6-407c-8035-5beffe2abd11",
+    "text": "なるほどね、ショートショート書かせるとかもいいですね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cH5Fv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほどね、ショートショート書かせるとかもいいですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "なるほどね、ショートショート書かせるとかもいいですね。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770717860.901599",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1770717957.000000"
+    },
+    "client_msg_id": "a1ff695a-2145-483e-9a4e-7723c6d17d17",
+    "text": "<https://tokoroten.github.io/NovelDrive/>\n<https://github.com/tokoroten/NovelDrive>\nまだ動いてた（たしか設定画面からOpenAIのKeyを突っ込むと動く）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "attachments": [
+      {
+        "id": 1,
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/tokoroten/NovelDrive",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "tokoroten/NovelDrive",
+        "title": "tokoroten/NovelDrive",
+        "fields": [
+          {
+            "value": "8",
+            "title": "Stars",
+            "short": true
+          },
+          {
+            "value": "TypeScript",
+            "title": "Language",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KOLOC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://tokoroten.github.io/NovelDrive/"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/tokoroten/NovelDrive"
+              },
+              {
+                "type": "text",
+                "text": "\nまだ動いてた（たしか設定画面からOpenAIのKeyを突っ込むと動く）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://tokoroten.github.io/NovelDrive/>\n<https://github.com/tokoroten/NovelDrive>\nまだ動いてた（たしか設定画面からOpenAIのKeyを突っ込むと動く）"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770717931.228359",
+    "client_msg_id": "ab1ac8f4-bfcb-4dcc-817d-e55ec1f75780",
+    "text": "熟議を10ターン制にしたのでダブルダイアモンドに沿ってプロンプト入れてるのですが、規定し過ぎな気もしてる。（各ターン全エージェント1回発言）\n\n1turn 自己紹介\n2~5turn 問題の特定\n6~9turn 解決策の特定\n10turn まとめ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BUKP0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議を10ターン制にしたのでダブルダイアモンドに沿ってプロンプト入れてるのですが、規定し過ぎな気もしてる。（各ターン全エージェント1回発言）\n\n1turn 自己紹介\n2~5turn 問題の特定\n6~9turn 解決策の特定\n10turn まとめ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "熟議を10ターン制にしたのでダブルダイアモンドに沿ってプロンプト入れてるのですが、規定し過ぎな気もしてる。（各ターン全エージェント1回発言）\n\n1turn 自己紹介\n2~5turn 問題の特定\n6~9turn 解決策の特定\n10turn まとめ"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770718140.483189",
+    "client_msg_id": "3cbd9cfd-52f6-4559-9dad-3701f5556ee2",
+    "text": "てかこうしちゃうと合意に収束するからゲーム性なくなるな。合意しないからゲームとして面白いのに、合意の道筋を開発者が描いたら意味ないことに気づいた...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SAUiW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "てかこうしちゃうと合意に収束するからゲーム性なくなるな。合意しないからゲームとして面白いのに、合意の道筋を開発者が描いたら意味ないことに気づいた..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "てかこうしちゃうと合意に収束するからゲーム性なくなるな。合意しないからゲームとして面白いのに、合意の道筋を開発者が描いたら意味ないことに気づいた..."
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1770734974.377279",
+    "client_msg_id": "8540ad4c-9a0d-495e-831d-bec4a6258143",
+    "text": "<https://x.com/ai_database/status/2021210510780183000>\nタイムラインに役立ちそうなのが流れてきた",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770649423.988239",
+    "parent_user_id": "U08JFSYHEP6",
+    "attachments": [
+      {
+        "image_url": "https://pbs.twimg.com/media/HAzGt2iaAAIRWZq.jpg:large",
+        "image_width": 1064,
+        "image_height": 1522,
+        "image_bytes": 354876,
+        "from_url": "https://x.com/ai_database/status/2021210510780183000",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/ai_database/status/2021210510780183000",
+        "fallback": "X (formerly Twitter): AIDB (@ai_database) on X",
+        "text": "複数のAIエージェントを話し合わせると、自信満々に間違ったことを言うエージェントに引きずられたり、延々と議論が堂々巡りしたりする「崩壊」が起こるとのこと。\n\nそこで研究者らは、\n「意見をコロコロ変えるな」\n「仲間と対立し続けるな」\n「自信のない結論を出すな」",
+        "title": "AIDB (@ai_database) on X",
+        "title_link": "https://x.com/ai_database/status/2021210510780183000",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jUWBD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/ai_database/status/2021210510780183000"
+              },
+              {
+                "type": "text",
+                "text": "\nタイムラインに役立ちそうなのが流れてきた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JFSYHEP6",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1770649423.988239",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://x.com/ai_database/status/2021210510780183000>\nタイムラインに役立ちそうなのが流れてきた"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1770780272.466369",
+    "client_msg_id": "2a452ff7-1b17-4005-b475-2eb00d0ddea2",
+    "text": "とりあえずできたので共有！Cronうまくまわるかわからないけど、15時に次のセッションが始まる予定なのでエージェントつくって参加してみてください笑\nエージェント育成放置ゲー「熟議牧場」\n<https://jukugi-bokujo.pages.dev/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770780272.466369",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1770780698.080009",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kbPiX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずできたので共有！Cronうまくまわるかわからないけど、15時に次のセッションが始まる予定なのでエージェントつくって参加してみてください笑\nエージェント育成放置ゲー「熟議牧場」\n"
+              },
+              {
+                "type": "link",
+                "url": "https://jukugi-bokujo.pages.dev/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "とりあえずできたので共有！Cronうまくまわるかわからないけど、15時に次のセッションが始まる予定なのでエージェントつくって参加してみてください笑\nエージェント育成放置ゲー「熟議牧場」\n<https://jukugi-bokujo.pages.dev/>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770780698.080009",
+    "client_msg_id": "A5A55BF4-DF14-4ACC-8964-3DC5D52A6A4D",
+    "text": "熟議牧場ww",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770780272.466369",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7eYQi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議牧場ww"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770780272.466369",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "熟議牧場ww"
+  }
+]

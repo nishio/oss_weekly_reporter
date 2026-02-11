@@ -1,0 +1,155 @@
+{
+  "period": {
+    "start": "2026-02-04T13:01:09.535791+09:00",
+    "end": "2026-02-11T13:01:09.535791+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3909349420,
+      "number": 783,
+      "title": "public-viewer が起動時ビルドで失敗しヘルスチェックがタイムアウトする",
+      "state": "closed"
+    },
+    {
+      "id": 3890918416,
+      "number": 775,
+      "title": "[FEATURE]レポート生成ページから一覧ページに戻る手段がなさそう",
+      "state": "closed"
+    },
+    {
+      "id": 3854224843,
+      "number": 766,
+      "title": "[REFACTOR] 未解決パスが最終キー欠落時に None になり、誤設定が黙殺される可能性",
+      "state": "closed"
+    },
+    {
+      "id": 3764830604,
+      "number": 741,
+      "title": "[BUG] main ブランチへのマージ時に実行される Azure への deploy が失敗する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3921514097,
+      "number": 793,
+      "title": "docs: add AI assistant skills and usage guide",
+      "state": "merged"
+    },
+    {
+      "id": 3921336359,
+      "number": 792,
+      "title": "docs: fix docs site URLs in README",
+      "state": "merged"
+    },
+    {
+      "id": 3920975979,
+      "number": 791,
+      "title": "docs: embed repo readmes",
+      "state": "merged"
+    },
+    {
+      "id": 3920917082,
+      "number": 790,
+      "title": "docs: consolidate and clean up documentation",
+      "state": "merged"
+    },
+    {
+      "id": 3920541872,
+      "number": 789,
+      "title": "テストからPandas依存を取り除く",
+      "state": "merged"
+    },
+    {
+      "id": 3915101703,
+      "number": 788,
+      "title": "Fix cluster count display for single-level reports",
+      "state": "merged"
+    },
+    {
+      "id": 3914829290,
+      "number": 787,
+      "title": "fix: ReportConfig.nameをオプショナルに変更（CLI生成レポート対応）",
+      "state": "merged"
+    },
+    {
+      "id": 3909417481,
+      "number": 785,
+      "title": "Azure Deployment のヘルスチェックを改善（public-viewer 起動遅延を許容）",
+      "state": "merged"
+    },
+    {
+      "id": 3909353873,
+      "number": 784,
+      "title": "public-viewer の turbopack root を明示して起動時ビルドを修正",
+      "state": "merged"
+    },
+    {
+      "id": 3909211022,
+      "number": 782,
+      "title": "Fix public-viewer runtime build by copying workspace root files",
+      "state": "merged"
+    },
+    {
+      "id": 3900440479,
+      "number": 781,
+      "title": "fix(api): Pandas依存が残っていたところをPolarsに一本化",
+      "state": "merged"
+    },
+    {
+      "id": 3899840487,
+      "number": 780,
+      "title": "Fix Azure deploy build context for monorepo",
+      "state": "merged"
+    },
+    {
+      "id": 3897896893,
+      "number": 779,
+      "title": "chore: migrate from deprecated google-generativeai to google-genai",
+      "state": "merged"
+    },
+    {
+      "id": 3897836100,
+      "number": 778,
+      "title": "feat(admin): レポート可視性アイコンにツールチップを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3890960134,
+      "number": 776,
+      "title": "feat: レポート作成ページから一覧ページに戻る手段を追加",
+      "state": "merged"
+    },
+    {
+      "id": 3856166901,
+      "number": 771,
+      "title": "feat: public-viewer の API 接続エラー時にわかりやすいメッセージを表示",
+      "state": "merged"
+    },
+    {
+      "id": 3854826869,
+      "number": 769,
+      "title": "レポートの再利用機能",
+      "state": "merged"
+    },
+    {
+      "id": 3854252146,
+      "number": 768,
+      "title": "feat: CLI使用時に.envの設定不良をfail-fastする",
+      "state": "merged"
+    },
+    {
+      "id": 3854244355,
+      "number": 767,
+      "title": "fix: raise error when config key is missing during path resolution",
+      "state": "merged"
+    },
+    {
+      "id": 3914755261,
+      "number": 786,
+      "title": "docs: Azure Container Apps 移行メモを実装に合わせて更新",
+      "state": "created"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770300082.647369",
+    "client_msg_id": "28e925a0-920f-4e22-a1cc-6722faf98c37",
+    "text": "この辺りの権限は整理した方がよさそう\n<https://github.com/orgs/digitaldemocracy2030/people>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "reply_count": 8,
+    "reply_users_count": 3,
+    "latest_reply": "1770375786.049579",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08H3V9KMFH",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Hw+yC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この辺りの権限は整理した方がよさそう\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/orgs/digitaldemocracy2030/people"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "この辺りの権限は整理した方がよさそう\n<https://github.com/orgs/digitaldemocracy2030/people>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1770358554.891519",
+    "client_msg_id": "a8678b31-538f-4d2e-947c-c766434f9c1b",
+    "text": "それずっと前から todo に入ってるんですけど何がブロッカーなのかもよくわからない。\nとりあえず私を追加してはどうでしょうかね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SB29h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それずっと前から todo に入ってるんですけど何がブロッカーなのかもよくわからない。\nとりあえず私を追加してはどうでしょうかね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "それずっと前から todo に入ってるんですけど何がブロッカーなのかもよくわからない。\nとりあえず私を追加してはどうでしょうかね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770368753.004739",
+    "client_msg_id": "32E032D7-9B18-4526-9F04-35823FA7AF57",
+    "text": "権限持っている人が忙しいのかと",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1aGoi",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "権限持っている人が忙しいのかと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Shingo OHKI",
+    "text_readable": "権限持っている人が忙しいのかと"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1770369709.037929",
+    "client_msg_id": "5f95b717-2842-4e54-be77-5b30b8dbecba",
+    "text": "誰が権限持ってるんでしょうか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wBhgL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "誰が権限持ってるんでしょうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "誰が権限持ってるんでしょうか"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1770372053.638569",
+    "client_msg_id": "02b3ef02-0e3e-43a4-8412-f83dc9c99294",
+    "text": "少なくとも私は持ってます。\n権限整理で、現在organizationの管理権限持ってる人が、レポジトリごとの権限持ってなくて、外されたことによって開発に支障が出ることや、トラックナンバーが下がるって問題が起きないようにするために、誰にどんな権限を与えるか整理しなきゃならないのが腰が重い、という状況です。\nあんまり多くの人にorganizationの管理権限は渡さないほうが安全な気もするなど。\nとりあえず全員リストアップして書き出すか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gyOA5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "少なくとも私は持ってます。\n権限整理で、現在organizationの管理権限持ってる人が、レポジトリごとの権限持ってなくて、外されたことによって開発に支障が出ることや、トラックナンバーが下がるって問題が起きないようにするために、誰にどんな権限を与えるか整理しなきゃならないのが腰が重い、という状況です。\nあんまり多くの人にorganizationの管理権限は渡さないほうが安全な気もするなど。\nとりあえず全員リストアップして書き出すか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "小野翔太",
+    "text_readable": "少なくとも私は持ってます。\n権限整理で、現在organizationの管理権限持ってる人が、レポジトリごとの権限持ってなくて、外されたことによって開発に支障が出ることや、トラックナンバーが下がるって問題が起きないようにするために、誰にどんな権限を与えるか整理しなきゃならないのが腰が重い、という状況です。\nあんまり多くの人にorganizationの管理権限は渡さないほうが安全な気もするなど。\nとりあえず全員リストアップして書き出すか。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770375547.162789",
+    "client_msg_id": "d0d69284-fe1d-40a2-952b-9e2005913ede",
+    "text": "Team をうまく使う（個別に権限を配るのではなく Team 経由に寄せる）と整理しやすそうです。\nまずは「repoごとのメンテナ Team」を作って、権限を Team に寄せていくのが安全そうな感じがしました。\n• <https://docs.github.com/ja/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations|組織のベスト プラクティス>\n• <https://docs.github.com/ja/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/managing-team-access-to-an-organization-repository|Organization のリポジトリに対するチームのアクセスを管理する>\n• <https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository|リポジトリへのアクセス権を持つ Team と人を管理する>\n&gt; 誰にどんな権限を与えるか整理\nこれをみんなでやってしまえばよいのかも？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7hkmL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Team をうまく使う（個別に権限を配るのではなく Team 経由に寄せる）と整理しやすそうです。\nまずは「repoごとのメンテナ Team」を作って、権限を Team に寄せていくのが安全そうな感じがしました。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.github.com/ja/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations",
+                    "text": "組織のベスト プラクティス"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.github.com/ja/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/managing-team-access-to-an-organization-repository",
+                    "text": "Organization のリポジトリに対するチームのアクセスを管理する"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository",
+                    "text": "リポジトリへのアクセス権を持つ Team と人を管理する"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "誰にどんな権限を与えるか整理"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これをみんなでやってしまえばよいのかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Shingo OHKI",
+    "text_readable": "Team をうまく使う（個別に権限を配るのではなく Team 経由に寄せる）と整理しやすそうです。\nまずは「repoごとのメンテナ Team」を作って、権限を Team に寄せていくのが安全そうな感じがしました。\n• <https://docs.github.com/ja/organizations/collaborating-with-groups-in-organizations/best-practices-for-organizations|組織のベスト プラクティス>\n• <https://docs.github.com/ja/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/managing-team-access-to-an-organization-repository|Organization のリポジトリに対するチームのアクセスを管理する>\n• <https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository|リポジトリへのアクセス権を持つ Team と人を管理する>\n> 誰にどんな権限を与えるか整理\nこれをみんなでやってしまえばよいのかも？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770375602.579729",
+    "client_msg_id": "be6cc285-55ad-41ec-a274-543d5bb3dae8",
+    "text": "実際に GitHub 上で設定を反映するのと、どのような設定がよいのかを考えるのは独立できそう",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ppt9k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実際に GitHub 上で設定を反映するのと、どのような設定がよいのかを考えるのは独立できそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Shingo OHKI",
+    "text_readable": "実際に GitHub 上で設定を反映するのと、どのような設定がよいのかを考えるのは独立できそう"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770375682.398689",
+    "client_msg_id": "620e5e7c-7d28-4afb-b867-2f3f3698ffbf",
+    "text": "あるいは、kuboon さんがやってくれそうだから、一旦彼に権限を渡すとか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fZyBs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あるいは、kuboon さんがやってくれそうだから、一旦彼に権限を渡すとか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あるいは、kuboon さんがやってくれそうだから、一旦彼に権限を渡すとか"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1770375786.049579",
+    "client_msg_id": "d66482cf-bc4d-4d77-9a45-36bb52cb2174",
+    "text": "一旦きれいにしてしまえば、それ以降は各リポジトリのメンテナーにおまかせでよさそうな気がしました（ブーメラン）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1770300082.647369",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ftGNn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一旦きれいにしてしまえば、それ以降は各リポジトリのメンテナーにおまかせでよさそうな気がしました（ブーメラン）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1770300082.647369",
+    "user_name": "Shingo OHKI",
+    "text_readable": "一旦きれいにしてしまえば、それ以降は各リポジトリのメンテナーにおまかせでよさそうな気がしました（ブーメラン）"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1770369492.992929",
+    "client_msg_id": "3a78453e-9f99-4fdf-8ba2-95cb34485498",
+    "text": "本日の定例は参加者少なそうなのでなしでお願いします:pray:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HqagN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "本日の定例は参加者少なそうなのでなしでお願いします"
+              },
+              {
+                "type": "emoji",
+                "name": "pray",
+                "unicode": "1f64f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sob",
+        "users": [
+          "U092D2X1GNP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "本日の定例は参加者少なそうなのでなしでお願いします:pray:"
+  }
+]
