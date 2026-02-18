@@ -1,0 +1,166 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770866072.079509",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1770866235.000000"
+    },
+    "client_msg_id": "01024D1E-F0F4-480C-9639-D0815C98A6C9",
+    "text": "ドキュメントを本格的に改善するのは出版直前にAIエージェントに人間の真似をしてREADMEやドキュメントを読みながらいろいろな作業をしてもらって、わかりにくいところを報告させるのをやり、改善する、というのを何周か回すといいと思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "A5eKm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントを本格的に改善するのは出版直前にAIエージェントに人間の真似をしてREA"
+              },
+              {
+                "type": "text",
+                "text": "D"
+              },
+              {
+                "type": "text",
+                "text": "MEやドキュメントを読みながらいろいろな作業をしてもらって、わかりにくいところを報告させるのをやり、改善する、というのを何周か回すといいと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメントを本格的に改善するのは出版直前にAIエージェントに人間の真似をしてREADMEやドキュメントを読みながらいろいろな作業をしてもらって、わかりにくいところを報告させるのをやり、改善する、というのを何周か回すといいと思う"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770866426.113059",
+    "client_msg_id": "ABFD22BC-7079-45A7-90C6-89B30BD23396",
+    "text": "開発側の大きな案としては、Jigsaw的なLLMベースのクラスタリングを選択肢に入れちゃうというのがあり、これは「extraction, embeddingの後に、座標に対してではなくextractionに対してLLMクラスタリング」という方法で今のパイプラインや可視化と素直に両立する気がしている。\n長期的には位置情報の制約を外したいところだけど、まず位置情報ありのデータ構造が変わらないやつで2種類の分析をできる形に持って行って分析プロセスの切り替え部分を検証してから、データ構造の変わるパターンをやる方が開発の過程がなめらか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R9gYk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発側の大きな案としては、"
+              },
+              {
+                "type": "text",
+                "text": "Jigsaw的なLLMベースのクラスタリングを選択肢に入れちゃうというのがあり、これは「extraction, embeddingの後に、座標に対してではなくextractionに対してLLMクラスタリング」という方法で今のパイプラインや可視化と素直に両立する気がしている。\n長期的には位置情報の制約を外したいところだけど、まず位置情報ありのデータ構造が変わらないやつで2種類の分析をできる形に持って行って分析プロセスの切り替え部分を検証してから、データ構造の変わるパターンをやる方が開発の過程がなめらか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "開発側の大きな案としては、Jigsaw的なLLMベースのクラスタリングを選択肢に入れちゃうというのがあり、これは「extraction, embeddingの後に、座標に対してではなくextractionに対してLLMクラスタリング」という方法で今のパイプラインや可視化と素直に両立する気がしている。\n長期的には位置情報の制約を外したいところだけど、まず位置情報ありのデータ構造が変わらないやつで2種類の分析をできる形に持って行って分析プロセスの切り替え部分を検証してから、データ構造の変わるパターンをやる方が開発の過程がなめらか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770879186.124709",
+    "client_msg_id": "2e9c0d76-3933-404d-9202-1a838a2b7090",
+    "text": "設計図をPRにして、そこに実装を積んでいくスタイルをやります。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8luwr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "設計図をPRにして、そこに実装を積んでいくスタイルをやります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "設計図をPRにして、そこに実装を積んでいくスタイルをやります。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1770911862.155569",
+    "client_msg_id": "9E57247E-C383-4835-B18D-6E05A346E794",
+    "text": "<https://x.com/hagure_melon/status/2021829812449657024?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/hagure_melon/status/2021829812449657024?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw>\n500ドル分のX APIが今なら無料って聞いた",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "image_url": "https://pbs.twimg.com/media/HA75ttSakAAlLdM.png:large",
+        "image_width": 795,
+        "image_height": 810,
+        "image_bytes": 221336,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/hagure_melon/status/2021829812449657024?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw",
+        "fallback": "X (formerly Twitter): はぐれメロン (@hagure_melon) on X",
+        "text": ":rotating_light:速報:rotating_light:\nX APIで従量課金がテスト導入されていますが、\nななななんと、今なら500ドル無料クレジットをプレゼント:gift:\n\n運営太っ腹すぎる！試すなら今だ:bangbang:\n<https://t.co/5hIRNngnhu>",
+        "title": "はぐれメロン (@hagure_melon) on X",
+        "title_link": "https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jLCDB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+                "text": "https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw"
+              },
+              {
+                "type": "text",
+                "text": "\n500ドル分のX APIが今なら無料って聞いた"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/hagure_melon/status/2021829812449657024?s=46&t=gkSZtjGEtUZPO0JCzBxCBw>\n500ドル分のX APIが今なら無料って聞いた"
+  },
+  {
+    "subtype": "channel_join",
+    "user": "U0A9X4CLERX",
+    "text": "<@U0A9X4CLERX>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1771384577.712229",
+    "user_name": "U0A9X4CLERX",
+    "text_readable": "<@U0A9X4CLERX>さんがチャンネルに参加しました"
+  }
+]

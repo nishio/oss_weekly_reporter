@@ -1,0 +1,34 @@
+[
+  {
+    "id": 3947507464,
+    "number": 795,
+    "title": "Increase analysis-core timeout defaults to 300 seconds",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/795",
+    "user": "nishio",
+    "created_at": "2026-02-16T12:22:25Z",
+    "body": "# 変更の概要\r\n- analysis-core の LLM リクエストタイムアウト既定値を 300 秒に引き上げました\r\n- `hierarchical_overview` で使う LLM リクエストに 300 秒タイムアウトを明示的に指定しました\r\n- `extraction` のバッチ待機タイムアウトを 300 秒に変更し、`config[\"extraction\"][\"timeout_seconds\"]` で上書き可能にしました\r\n\r\n# スクリーンショット\r\n- UI変更なし\r\n\r\n# 変更の背景\r\n- `hierarchical_overview` で `Request timed out.` が発生し、分析パイプライン全体が失敗するケースが継続的に発生していました\r\n- 既存の 30 秒タイムアウトでは外部 LLM 応答遅延時に失敗しやすいため、分析系のタイムアウトを 300 秒へ統一しました\r\n- レポートの再利用によって今までのようにextractionからスタートしないケースが増えたため、後半のLLM呼び出しでcold startを踏むケースが増えたのだと思われます\r\n\r\n# 関連Issue\r\n- なし\r\n\r\n# 動作確認の結果\r\n- `python3 -m py_compile packages/analysis-core/src/analysis_core/services/llm.py packages/analysis-core/src/analysis_core/steps/extraction.py packages/analysis-core/src/analysis_core/steps/hierarchical_overview.py`\r\n  - 成功\r\n- `python3 -m ruff check ...`\r\n  - 実行環境に `ruff` が未インストールのため未実施\r\n\r\n# CLAへの同意\r\n- 本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md)に同意することが必須です。\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\r\n# マージ前のチェックリスト（レビュアーがマージ前に確認してください）\r\n- [x] CIが全て通過している\r\n\r\n\r\n動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。\r\n必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。\r\n\r\n\r\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\r\n## Summary by CodeRabbit\r\n\r\n* **新機能**\r\n  * LLM関連リクエストに共通のタイムアウト設定を導入しました。デフォルトは300秒で、抽出処理や階層的概要生成を含むすべてのAI呼び出しで一貫して適用されます。長時間処理やローカル/外部プロバイダ間でのタイムアウト挙動が統一され、設定可能になりました。\r\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 48,
+    "deletions": 17,
+    "changed_files": 3,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 3930186603,
+    "number": 794,
+    "title": "docs: add plan for llm grouping and capability auto-detection",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/794",
+    "user": "nishio",
+    "created_at": "2026-02-12T06:58:07Z",
+    "body": "## Summary\\n- add initial implementation plan document for LLM grouping and capability auto-detection\\n- clarify short-term compatibility approach and long-term capability-driven visualization gating\\n\\n## Notes\\n- this PR is intended as a base branch to stack follow-up commits\\n- unrelated local files are intentionally excluded\\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## リリースノート\n\n* **Documentation**\n  * AI搭載オピニオングループ化機能の今後の計画書を追加。今後の開発ロードマップを定義します。\n\n**注:** この変更は内部計画ドキュメントであり、ユーザー向けの機能変更は含まれていません。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 275,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
