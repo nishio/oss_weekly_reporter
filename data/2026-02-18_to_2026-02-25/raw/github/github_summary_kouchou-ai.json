@@ -1,0 +1,101 @@
+{
+  "period": {
+    "start": "2026-02-18T12:53:14.529103+09:00",
+    "end": "2026-02-25T12:53:14.529103+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3973385107,
+      "number": 805,
+      "title": "[FEATURE] Dockerイメージが重たい",
+      "state": "closed"
+    },
+    {
+      "id": 3973359058,
+      "number": 803,
+      "title": "[BUG] 巨大なCSVを分析にかけると、分析開始のボタンのアイコンがぐるぐる回ったまま帰ってこなくなる",
+      "state": "closed"
+    },
+    {
+      "id": 3973287540,
+      "number": 800,
+      "title": "fix: Overview コンポーネントで result.config が undefined の場合にクラッシュする",
+      "state": "created"
+    },
+    {
+      "id": 3973226034,
+      "number": 799,
+      "title": "fix: ローカル開発環境でのReactバージョン不一致によるdev overlay クラッシュ",
+      "state": "created"
+    },
+    {
+      "id": 3099729568,
+      "number": 583,
+      "title": "[BUG]分析対象のカラムにから文字列が含まれているとエラーになる",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 3973832262,
+      "number": 807,
+      "title": "fix: shrink Docker images (api ~34GB→~2.7GB, admin/viewer smaller) and clean up api deps",
+      "state": "merged"
+    },
+    {
+      "id": 3973359448,
+      "number": 804,
+      "title": "Fix infinite spinner when submitting large CSV for analysis",
+      "state": "merged"
+    },
+    {
+      "id": 3973052400,
+      "number": 798,
+      "title": "feat: 散布図に「詳細クラスタ」タブを追加、クラスタの凸包を表示するオプションを追加",
+      "state": "merged"
+    },
+    {
+      "id": 3947507464,
+      "number": 795,
+      "title": "Increase analysis-core timeout defaults to 300 seconds",
+      "state": "merged"
+    },
+    {
+      "id": 3983667260,
+      "number": 808,
+      "title": "fix: override minimatch to ^10.2.1 to fix CVE-2026-26996 (ReDoS)",
+      "state": "created"
+    },
+    {
+      "id": 3973385675,
+      "number": 806,
+      "title": "Fix: Shrink all Docker images (api ~34GB→~3GB, admin ~1.33GB→~200-400MB) by eliminating layer duplication and using standalone mode",
+      "state": "created"
+    },
+    {
+      "id": 3973336891,
+      "number": 802,
+      "title": "fix: prevent crash in Overview when result.config is undefined",
+      "state": "created"
+    },
+    {
+      "id": 3973336648,
+      "number": 801,
+      "title": "fix: resolve duplicate React instance crash in local dev (pnpm workspace)",
+      "state": "created"
+    },
+    {
+      "id": 3972206561,
+      "number": 797,
+      "title": "feat: 散布図に「詳細クラスタ」タブを追加",
+      "state": "created"
+    },
+    {
+      "id": 3970573977,
+      "number": 796,
+      "title": "fix: filter out empty/whitespace-only comments before LLM processing (#583)",
+      "state": "created"
+    }
+  ]
+}

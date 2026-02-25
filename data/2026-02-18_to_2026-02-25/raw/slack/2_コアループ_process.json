@@ -1,0 +1,784 @@
+[
+  {
+    "user": "U0A6P8CRT1Q",
+    "type": "message",
+    "ts": "1771388091.880219",
+    "client_msg_id": "B5D42ABC-A72F-40A8-9E05-635A2A4E485B",
+    "text": "<@U08KVN5B6HX> cc. <@U0A67RK86BH>\n\nお世話になっております。\nProcessチームの小林です。\n\nプライバシーポリシーの作成/リーガルレビューですが、複数の方にアドバイスを伺ったところ、スマートニュースの結城 東輝さん(とんふぃさん)をご推薦いただきました。\n\nつきましては、とんふぃさんにご依頼いただくことは可能でしょうか。\n\n<https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629|https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629>\n\n<@U0A67RK86BH> 補足ありましたら、スレッドに追記いただけますと幸いです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771388091.880219",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1771473702.321079",
+    "reply_users": [
+      "U0A67RK86BH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629",
+        "ts": "1771213647.454629",
+        "author_id": "U09C3J7V960",
+        "channel_id": "C0AEFK4RNG5",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C0AEFK4RNG5",
+            "ts": "1771213647.454629",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "Deb3E",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "user",
+                          "user_id": "U0A67RK86BH"
+                        },
+                        {
+                          "type": "text",
+                          "text": " "
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U0A6CE44B2S"
+                        },
+                        {
+                          "type": "text",
+                          "text": " プロボノで活躍いただける弁護士に誰か心当たりないか、教えて頂けると幸いです。（"
+                        },
+                        {
+                          "type": "user",
+                          "user_id": "U0A821PG3PA"
+                        },
+                        {
+                          "type": "text",
+                          "text": " ）\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "西田様\n\nおはようございます。\n本日は15:15よりお打ち合わせをよろしくお願いいたします。\n\n並行する形となりますが、この度のプロジェクトについて\n審査観点で確認させていただきたいことがございます。\n\n通常はプロジェクトページを審査に提出いただいた段階で審査があり、\n今回もページご提出時に改めて審査はさせていただくのですが、\n重要と思われる点のみ先んじてお伺いしております。\n\n掲載を取り締まるものではなく、安全にご掲載いただくための審査となります。\nお手数をおかけしますが、以下3点についてご確認いただけますでしょうか。\n①②についてはお手隙でお返事をいただき、\n③についてはページ制作の際にご配慮いただけますと幸いです。\n\n▼確認事項3点\n\n①システムの法的性格に関するご確認\n「Fraud Buster（日本版）」によるAI一次審査や通報機能が、弁護士法第72条（非弁活動の禁止）との兼ね合いでどのように整理されているか、貴団体の見解を伺えますでしょうか。\n具体的には、AIの判定はあくまで「行政への情報提供を円滑にするための事務補助」であり、法的見解を提示するものではないといった整理や、サービスを無償で提供するため対価性がない、といった点について、もしリーガルアドバイザー等との確認事項があれば共有いただけますと幸いです。\n\n②行政機関等との連携状況\n「通報内容を適切な所管官庁（金融庁、厚労省など）へ自動で振り分ける機能」について、現時点で情報の受け入れ方法等に関し、行政側と事前の相談や調整をされている状況がございましたら、可能な範囲でご教示ください。\n\n③プロジェクトページへの記載依頼\n支援を検討される方や社会的な信頼性をより高めるため、ページ内に以下の要素・説明を加えていただくことは可能でしょうか。\n・AI判定の役割：「本システムによるAI審査は、法的な違法性を確定させるものではなく、行政への通報を効率化するためのスクリーニング（仕分け）である」旨の注釈。\n・免責事項：「最終的な削除判断はプラットフォームや行政が行うものであり、本システムはその結果を保証するものではない」旨の記載。\n・実務的な監修体制：賛同者の方々とは別に、システムの設計や運用において弁護士等の法務専門家が実務的に関与（監修）していることが伝わる記載。\n・訴訟支援ではないことの明示：「本プロジェクトは『行政対応の可視化と仕組みづくり』を目的としており、特定の個人・法人・その他事業者等に対する訴訟を教唆・支援するものではない」旨の記載。\n\n以上でございます。\nお手数をおかけしますが、よろしくお願いいたします。\n\nCAMPFIRE 高橋"
+                        }
+                      ],
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629",
+        "fallback": "[February 15th, 2026 7:47 PM] nishida.naofumi: <@U0A67RK86BH> <@U0A6CE44B2S> プロボノで活躍いただける弁護士に誰か心当たりないか、教えて頂けると幸いです。（<@U0A821PG3PA> ）\n```西田様\n\nおはようございます。\n本日は15:15よりお打ち合わせをよろしくお願いいたします。\n\n並行する形となりますが、この度のプロジェクトについて\n審査観点で確認させていただきたいことがございます。\n\n通常はプロジェクトページを審査に提出いただいた段階で審査があり、\n今回もページご提出時に改めて審査はさせていただくのですが、\n重要と思われる点のみ先んじてお伺いしております。\n\n掲載を取り締まるものではなく、安全にご掲載いただくための審査となります。\nお手数をおかけしますが、以下3点についてご確認いただけますでしょうか。\n①②についてはお手隙でお返事をいただき、\n③についてはページ制作の際にご配慮いただけますと幸いです。\n\n▼確認事項3点\n\n①システムの法的性格に関するご確認\n「Fraud Buster（日本版）」によるAI一次審査や通報機能が、弁護士法第72条（非弁活動の禁止）との兼ね合いでどのように整理されているか、貴団体の見解を伺えますでしょうか。\n具体的には、AIの判定はあくまで「行政への情報提供を円滑にするための事務補助」であり、法的見解を提示するものではないといった整理や、サービスを無償で提供するため対価性がない、といった点について、もしリーガルアドバイザー等との確認事項があれば共有いただけますと幸いです。\n\n②行政機関等との連携状況\n「通報内容を適切な所管官庁（金融庁、厚労省など）へ自動で振り分ける機能」について、現時点で情報の受け入れ方法等に関し、行政側と事前の相談や調整をされている状況がございましたら、可能な範囲でご教示ください。\n\n③プロジェクトページへの記載依頼\n支援を検討される方や社会的な信頼性をより高めるため、ページ内に以下の要素・説明を加えていただくことは可能でしょうか。\n・AI判定の役割：「本システムによるAI審査は、法的な違法性を確定させるものではなく、行政への通報を効率化するためのスクリーニング（仕分け）である」旨の注釈。\n・免責事項：「最終的な削除判断はプラットフォームや行政が行うものであり、本システムはその結果を保証するものではない」旨の記載。\n・実務的な監修体制：賛同者の方々とは別に、システムの設計や運用において弁護士等の法務専門家が実務的に関与（監修）していることが伝わる記載。\n・訴訟支援ではないことの明示：「本プロジェクトは『行政対応の可視化と仕組みづくり』を目的としており、特定の個人・法人・その他事業者等に対する訴訟を教唆・支援するものではない」旨の記載。\n\n以上でございます。\nお手数をおかけしますが、よろしくお願いいたします。\n\nCAMPFIRE 高橋```",
+        "text": "<@U0A67RK86BH> <@U0A6CE44B2S> プロボノで活躍いただける弁護士に誰か心当たりないか、教えて頂けると幸いです。（<@U0A821PG3PA> ）\n```西田様\n\nおはようございます。\n本日は15:15よりお打ち合わせをよろしくお願いいたします。\n\n並行する形となりますが、この度のプロジェクトについて\n審査観点で確認させていただきたいことがございます。\n\n通常はプロジェクトページを審査に提出いただいた段階で審査があり、\n今回もページご提出時に改めて審査はさせていただくのですが、\n重要と思われる点のみ先んじてお伺いしております。\n\n掲載を取り締まるものではなく、安全にご掲載いただくための審査となります。\nお手数をおかけしますが、以下3点についてご確認いただけますでしょうか。\n①②についてはお手隙でお返事をいただき、\n③についてはページ制作の際にご配慮いただけますと幸いです。\n\n▼確認事項3点\n\n①システムの法的性格に関するご確認\n「Fraud Buster（日本版）」によるAI一次審査や通報機能が、弁護士法第72条（非弁活動の禁止）との兼ね合いでどのように整理されているか、貴団体の見解を伺えますでしょうか。\n具体的には、AIの判定はあくまで「行政への情報提供を円滑にするための事務補助」であり、法的見解を提示するものではないといった整理や、サービスを無償で提供するため対価性がない、といった点について、もしリーガルアドバイザー等との確認事項があれば共有いただけますと幸いです。\n\n②行政機関等との連携状況\n「通報内容を適切な所管官庁（金融庁、厚労省など）へ自動で振り分ける機能」について、現時点で情報の受け入れ方法等に関し、行政側と事前の相談や調整をされている状況がございましたら、可能な範囲でご教示ください。\n\n③プロジェクトページへの記載依頼\n支援を検討される方や社会的な信頼性をより高めるため、ページ内に以下の要素・説明を加えていただくことは可能でしょうか。\n・AI判定の役割：「本システムによるAI審査は、法的な違法性を確定させるものではなく、行政への通報を効率化するためのスクリーニング（仕分け）である」旨の注釈。\n・免責事項：「最終的な削除判断はプラットフォームや行政が行うものであり、本システムはその結果を保証するものではない」旨の記載。\n・実務的な監修体制：賛同者の方々とは別に、システムの設計や運用において弁護士等の法務専門家が実務的に関与（監修）していることが伝わる記載。\n・訴訟支援ではないことの明示：「本プロジェクトは『行政対応の可視化と仕組みづくり』を目的としており、特定の個人・法人・その他事業者等に対する訴訟を教唆・支援するものではない」旨の記載。\n\n以上でございます。\nお手数をおかけしますが、よろしくお願いいたします。\n\nCAMPFIRE 高橋```",
+        "author_name": "naofumi.​nishida",
+        "author_link": "https://dd2030.slack.com/team/U09C3J7V960",
+        "author_icon": "https://avatars.slack-edge.com/2025-08-26/9395057001303_d80767013416da87d923_48.png",
+        "author_subname": "naofumi.​nishida",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xa/mw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08KVN5B6HX"
+              },
+              {
+                "type": "text",
+                "text": " cc. "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A67RK86BH"
+              },
+              {
+                "type": "text",
+                "text": "\n\nお世話になっております。\nProcessチームの小林です。\n\nプライバシーポリシーの作成/リーガルレビューですが、複数の方にアドバイスを伺ったところ、スマートニュースの結城 東輝さん(とんふぃさん)をご推薦いただきました。\n\nつきましては、とんふぃさんにご依頼いただくことは可能でしょうか。"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629",
+                "text": "https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U0A67RK86BH"
+              },
+              {
+                "type": "text",
+                "text": " 補足ありましたら、スレッドに追記いただけますと幸いです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A6P8CRT1Q",
+    "text_readable": "@kensuzuki cc. <@U0A67RK86BH>\n\nお世話になっております。\nProcessチームの小林です。\n\nプライバシーポリシーの作成/リーガルレビューですが、複数の方にアドバイスを伺ったところ、スマートニュースの結城 東輝さん(とんふぃさん)をご推薦いただきました。\n\nつきましては、とんふぃさんにご依頼いただくことは可能でしょうか。\n\n<https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629|https://dd2030.slack.com/archives/C0AEFK4RNG5/p1771213647454629>\n\n<@U0A67RK86BH> 補足ありましたら、スレッドに追記いただけますと幸いです！"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1771473702.321079",
+    "client_msg_id": "45d542f3-87bc-4cfd-b95c-d6766a5a919c",
+    "text": "<@U0A6P8CRT1Q> こちら探していただいてありがとうございます！ご多忙なので難しそうというのが鈴建さんの所感でした。Ryomaさんの方で打診できそうな人がいるようなので、そちらを当たってみる予定です。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771388091.880219",
+    "parent_user_id": "U0A6P8CRT1Q",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Uhw9M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6P8CRT1Q"
+              },
+              {
+                "type": "text",
+                "text": " こちら探していただいてありがとうございます！ご多忙なので難しそうというのが鈴建さんの所感でした。Ryomaさんの方で打診できそうな人がいるようなので、そちらを当たってみる予定です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U0A6P8CRT1Q"
+        ],
+        "count": 1
+      },
+      {
+        "name": "bow",
+        "users": [
+          "U0A6P8CRT1Q"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1771388091.880219",
+    "user_name": "U0A67RK86BH",
+    "text_readable": "<@U0A6P8CRT1Q> こちら探していただいてありがとうございます！ご多忙なので難しそうというのが鈴建さんの所感でした。Ryomaさんの方で打診できそうな人がいるようなので、そちらを当たってみる予定です。"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1771619268.395909",
+    "client_msg_id": "55ba9085-b625-4b6b-9738-5c89f128ee35",
+    "text": "<@U0A67RK86BH> 先日の鈴木寛さんが言及していた名古屋大学の田村哲樹さんがたまたま、なめ敵について言及していた。\n<https://x.com/ttya70/status/2024769886543815029?s=20>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771619268.395909",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1771793882.382109",
+    "reply_users": [
+      "U08KVN5B6HX"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://x.com/ttya70/status/2024769886543815029?s=20",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/2858997253/e4f7cd236b4672c5ff28a1d1c7e0177e_200x200.png",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/ttya70/status/2024769886543815029?s=20",
+        "fallback": "X (formerly Twitter): tetsuki tamura (@ttya70) on X",
+        "text": "みすず書房『読書アンケート2025』で、以下の５冊を取り上げました。\n　酒井大輔『日本政治学史』中公新書、都築勉『政治学の運命』吉田書店、熊谷英人編『戦後日本と政治学史』白水社、鈴木健『なめらかな社会とその敵』ちくま学芸文庫、→",
+        "title": "tetsuki tamura (@ttya70) on X",
+        "title_link": "https://x.com/ttya70/status/2024769886543815029?s=20",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OQBvy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A67RK86BH"
+              },
+              {
+                "type": "text",
+                "text": " 先日の鈴木寛さんが言及していた名古屋大学の田村哲樹さんがたまたま、なめ敵について言及していた。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/ttya70/status/2024769886543815029?s=20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U0A67RK86BH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "<@U0A67RK86BH> 先日の鈴木寛さんが言及していた名古屋大学の田村哲樹さんがたまたま、なめ敵について言及していた。\n<https://x.com/ttya70/status/2024769886543815029?s=20>"
+  },
+  {
+    "text": "鈴木寛の熟議のススメの該当ページ。この三分類は結構だいじかもね",
+    "files": [
+      {
+        "id": "F0AGC2L0PGV",
+        "created": 1771793295,
+        "timestamp": 1771793295,
+        "name": "1230.jpg",
+        "title": "1230.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08KVN5B6HX",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 329312,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGC2L0PGV/1230.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGC2L0PGV/download/1230.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_360.jpg",
+        "thumb_360_w": 324,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_480.jpg",
+        "thumb_480_w": 433,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_720.jpg",
+        "thumb_720_w": 649,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 888,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_960.jpg",
+        "thumb_960_w": 865,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGC2L0PGV-04687ea734/1230_1024.jpg",
+        "thumb_1024_w": 923,
+        "thumb_1024_h": 1024,
+        "original_w": 1968,
+        "original_h": 2184,
+        "thumb_tiny": "AwAwACzTopkjMMbBnkA/mP6Zo3H+8CwGSMfX8qAH03epkKc7gMnil3DGTxzjnjvTAjCZ3yCGAGPTH/6zQA8nAJIPAzwKWkBBGQc9uKFJI5GDk/zoAMYyeeTUWCy4JwWQAnPPQ08jbuPHLDr+FNwW4G5HCg5zkZ5/P/8AVQA4ruTA+X5s/rmlAwzHrk8D8qcKYw3Zzg4YY46dD/n/ACaAEdTkFSQfz7H8vr+FSVCu7a+73xk8dT/SpVzjn1NABtHPGMnJxxQw3IVyRkYyKWjtQAU1VwzHj5jnp7D/AAp1FADGDEnDYGOPrz/9bvTgMDqT9aUDHfNFAH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AGC2L0PGV/1230.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AGC2L0PGV-d24fca02aa",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0AGUCJSRDX",
+        "created": 1771793295,
+        "timestamp": 1771793295,
+        "name": "1232.jpg",
+        "title": "1232.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08KVN5B6HX",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 359579,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGUCJSRDX/1232.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGUCJSRDX/download/1232.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_360.jpg",
+        "thumb_360_w": 324,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_480.jpg",
+        "thumb_480_w": 433,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_720.jpg",
+        "thumb_720_w": 649,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 888,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_960.jpg",
+        "thumb_960_w": 865,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGUCJSRDX-7d51d3b73f/1232_1024.jpg",
+        "thumb_1024_w": 923,
+        "thumb_1024_h": 1024,
+        "original_w": 1968,
+        "original_h": 2184,
+        "thumb_tiny": "AwAwACzTzzjmimlhuxkZ9M/T/GkLPjhRnGcZ+vFADxz2xR3pO9Mjk3BQSM45yec8f4+30oAkopjMR/d4689Bzz7fr/WnKcjOCOSOaAI9uJGYc5bn/wAd/wAP8aXBCKgGBjBAPQY9aVch3+8cn06cDio5N6jIJZgvJzjsefTr/wDXoAmTOOW3cnn8elRx/NggFVx8uCMYwPSnxkEHAAGT0+pqMAq4xtwvy8dvu/5/rQA/DB8g5B4PHTr/APWp4AA4phI3HOCQMgd+9OXGOM9e9AC45zTGQEKAMbemO3BFOPPcigDAAyTjv60AABGf50hXLA+g9fp/hTu/X8KTHoSMnNACbM53YORg8cf55p1FIOnUn60Af//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AGUCJSRDX/1232.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AGUCJSRDX-e0c783fc10",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7A0DA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "鈴木寛の熟議のススメの該当ページ。この三分類は結構だいじかもね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1771793337.848129",
+    "client_msg_id": "eb3e1766-dc90-4cfe-a52c-06030f36b72a",
+    "thread_ts": "1771619268.395909",
+    "parent_user_id": "U08KVN5B6HX",
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U0A67RK86BH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1771619268.395909",
+    "user_name": "Ken Suzuki",
+    "text_readable": "鈴木寛の熟議のススメの該当ページ。この三分類は結構だいじかもね"
+  },
+  {
+    "text": "核膜網はなめ敵から来てそうですね。",
+    "files": [
+      {
+        "id": "F0AGDDQRY86",
+        "created": 1771793873,
+        "timestamp": 1771793873,
+        "name": "1240.jpg",
+        "title": "1240.jpg",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08KVN5B6HX",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 352594,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGDDQRY86/1240.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AGDDQRY86/download/1240.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_360.jpg",
+        "thumb_360_w": 324,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_480.jpg",
+        "thumb_480_w": 433,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_720.jpg",
+        "thumb_720_w": 649,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 888,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_960.jpg",
+        "thumb_960_w": 865,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AGDDQRY86-509a8de429/1240_1024.jpg",
+        "thumb_1024_w": 923,
+        "thumb_1024_h": 1024,
+        "original_w": 1968,
+        "original_h": 2184,
+        "thumb_tiny": "AwAwACzTpAeBwRnt6UwHbIwVc5OSQenQc/57U4lsHavOOM9CaAHZ5xRnnGD9aYGYk4AI/wDr807LZPAx9aAFz7Gimbm3YwMev5//AFvX+tKjh1yPUj8jigBsmNysVUgHHPuRSGPch3ttJXDYx6H1+v8AnmnnO7h8DuOPb/P40yYsLdmyV2qSQp9j0NACMBySBjcvJ653e+Pw/rUhGTyTgfh6U1dzZ3L82ehzjGTg/Wh8Z+YgcjGe/I/r+VACBQHZQqncOT7HPb/Oc1IrBhkepFMkkKkquNxHy5HGcHv+FPXOOTnk0AM8sedv5GMg++cc/pTtuVHABHTjIBp3eigBqrtzyTn1Pv8A/XpFjCuzZ5Y5+nAH9KeBj1/OigBrKSQVIB78dRzSoMDpjk/zpT09KKAP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AGDDQRY86/1240.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AGDDQRY86-f2b4a03c74",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08KVN5B6HX",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VRGG4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "核膜網はなめ敵から来てそうですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1771793882.382109",
+    "client_msg_id": "d4b203a9-1f70-428f-8b04-274e2753d3fe",
+    "thread_ts": "1771619268.395909",
+    "parent_user_id": "U08KVN5B6HX",
+    "parent_ts": "1771619268.395909",
+    "user_name": "Ken Suzuki",
+    "text_readable": "核膜網はなめ敵から来てそうですね。"
+  },
+  {
+    "user": "U0A98JWF24B",
+    "type": "message",
+    "ts": "1771907087.862079",
+    "client_msg_id": "e65b5422-9b08-4d46-8208-115f85df574d",
+    "text": "<@U0A67RK86BH>\nRJCから以下の連絡が来ました。個人情報の管理がハードルとなるようです。他の調査会社の場合、オンラインパネルとのコンタクト自体が個人情報保護のために断られているので、これでもだいぶ柔軟な対応をされていると思います。\n\n```案件実施の可否について、チェックシート上問題がなければ、\n\n実施は可能かと考えられますが、法人に比べると任意団体の場合は、\n\nハードルが高くなります。\n\n（個人情報の責任の所在等が把握しにくい可能性があるため）\n\n \n\nまずは個人情報の取扱いに関する、管理・責任がどなた（団体）になるのかを\n\nはっきりとすることが前提となります。\n\n（何か起きた場合は弊社も連帯責任となるため、法務に一度確認をさせてください）\n\n \n\n調査対象者のリクルートを行う際、下記の明示と対象者からの承諾が\n\n必要となります。\n\n・調査主体名（任意団体名）\n\n・プライバシーポリシー（団体の個人情報保護方針など）\n\n・個人情報の取扱についての連絡先（トラブルや削除依頼時の窓口）\n\n・個人情報の取得目的、利用範囲、削除期限（原則3ヶ月以内）\n\n※録画データのご提供なども含む。```",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771907087.862079",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1771983004.027709",
+    "reply_users": [
+      "U0A67RK86BH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zgy5k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A67RK86BH"
+              },
+              {
+                "type": "text",
+                "text": "\nRJCから以下の連絡が来ました。個人情報の管理がハードルとなるようです。他の調査会社の場合、オンラインパネルとのコンタクト自体が個人情報保護のために断られているので、これでもだいぶ柔軟な対応をされていると思います。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "案件実施の可否について、チェックシート上問題がなければ、\n\n実施は可能かと考えられますが、法人に比べると任意団体の場合は、\n\nハードルが高くなります。\n\n（個人情報の責任の所在等が把握しにくい可能性があるため）\n\n \n\nまずは個人情報の取扱いに関する、管理・責任がどなた（団体）になるのかを\n\nはっきりとすることが前提となります。\n\n（何か起きた場合は弊社も連帯責任となるため、法務に一度確認をさせてください）\n\n \n\n調査対象者のリクルートを行う際、下記の明示と対象者からの承諾が\n\n必要となります。\n\n・調査主体名（任意団体名）\n\n・プライバシーポリシー（団体の個人情報保護方針など）\n\n・個人情報の取扱についての連絡先（トラブルや削除依頼時の窓口）\n\n・個人情報の取得目的、利用範囲、削除期限（原則3ヶ月以内）\n\n※録画データのご提供なども含む。"
+              }
+            ],
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A98JWF24B",
+    "text_readable": "<@U0A67RK86BH>\nRJCから以下の連絡が来ました。個人情報の管理がハードルとなるようです。他の調査会社の場合、オンラインパネルとのコンタクト自体が個人情報保護のために断られているので、これでもだいぶ柔軟な対応をされていると思います。\n\n```案件実施の可否について、チェックシート上問題がなければ、\n\n実施は可能かと考えられますが、法人に比べると任意団体の場合は、\n\nハードルが高くなります。\n\n（個人情報の責任の所在等が把握しにくい可能性があるため）\n\n \n\nまずは個人情報の取扱いに関する、管理・責任がどなた（団体）になるのかを\n\nはっきりとすることが前提となります。\n\n（何か起きた場合は弊社も連帯責任となるため、法務に一度確認をさせてください）\n\n \n\n調査対象者のリクルートを行う際、下記の明示と対象者からの承諾が\n\n必要となります。\n\n・調査主体名（任意団体名）\n\n・プライバシーポリシー（団体の個人情報保護方針など）\n\n・個人情報の取扱についての連絡先（トラブルや削除依頼時の窓口）\n\n・個人情報の取得目的、利用範囲、削除期限（原則3ヶ月以内）\n\n※録画データのご提供なども含む。```"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1771979662.835699",
+    "client_msg_id": "19fd6891-2015-4055-b033-d57808efcb1d",
+    "text": "<@U0A98JWF24B> ありがとうございます！依頼主体を別にすることで問題ないかと思うので、調整します。それとは別に費用感も気になるので、現状の仕様でどのくらいになるのか見積もってもらえないでしょうか。必要に応じてオンライン会議で補足する形でも構いません。また、その際に、RJCの抱えているパネル数も聴取いただきたいです。\n\nそれと、次点候補として2社程度費用の比較をしたいのですが、それぞれどのぐらいの対応をしてもらえて、どのぐらいの費用感なのかを追加聴取の上で比較表を作成してもらえないでしょうか（パネル母数含む）。やや高額なクロスマーケティングと、やりとりはこちらで担わないといけない楽天の２つがあったと認識しております。\n\n趣旨は、出資者である鈴健さんとしては、なるべく費用を抑えたいので、謝金を含む各社の費用感を知りたいとのことです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771907087.862079",
+    "parent_user_id": "U0A98JWF24B",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BywNS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A98JWF24B"
+              },
+              {
+                "type": "text",
+                "text": " ありがとうございます！依頼主体を別にすることで問題ないかと思うので、調整します。それとは別に費用感も気になるので、現状の仕様でどのくらいになるのか見積もってもらえないでしょうか。必要に応じてオンライン会議で補足する形でも構いません。また、その際に、RJCの抱えているパネル数も聴取いただきたいです。\n\nそれと、次点候補として2社程度費用の比較をしたいのですが、それぞれどのぐらいの対応をしてもらえて、どのぐらいの費用感なのかを追加聴取の上で比較表を作成してもらえないでしょうか（パネル母数含む）。やや高額なクロスマーケティングと、やりとりはこちらで担わないといけない楽天の２つがあったと認識しております。\n\n趣旨は、出資者である鈴健さんとしては、なるべく費用を抑えたいので、謝金を含む各社の費用感を知りたいとのことです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1771907087.862079",
+    "user_name": "U0A67RK86BH",
+    "text_readable": "<@U0A98JWF24B> ありがとうございます！依頼主体を別にすることで問題ないかと思うので、調整します。それとは別に費用感も気になるので、現状の仕様でどのくらいになるのか見積もってもらえないでしょうか。必要に応じてオンライン会議で補足する形でも構いません。また、その際に、RJCの抱えているパネル数も聴取いただきたいです。\n\nそれと、次点候補として2社程度費用の比較をしたいのですが、それぞれどのぐらいの対応をしてもらえて、どのぐらいの費用感なのかを追加聴取の上で比較表を作成してもらえないでしょうか（パネル母数含む）。やや高額なクロスマーケティングと、やりとりはこちらで担わないといけない楽天の２つがあったと認識しております。\n\n趣旨は、出資者である鈴健さんとしては、なるべく費用を抑えたいので、謝金を含む各社の費用感を知りたいとのことです。"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1771983004.027709",
+    "client_msg_id": "E6FA4D24-1684-40A9-8C18-19D9DCB789A0",
+    "text": "補足: 依頼主を慶応にできそうなので、その想定で調整をお願いします",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771907087.862079",
+    "parent_user_id": "U0A98JWF24B",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n1N3v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "補足: 依頼主を慶応にできそうなので、その想定で調整をお願いします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1771907087.862079",
+    "user_name": "U0A67RK86BH",
+    "text_readable": "補足: 依頼主を慶応にできそうなので、その想定で調整をお願いします"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1771980030.410889",
+    "client_msg_id": "0e918c01-7051-4a6a-a19b-11b9834a85c3",
+    "text": "<@U0A6P8CRT1Q> <@U0A7K64JT71> <@U0AAL9KK2S1> <@U0A98JWF24B> <@U0A77P2EY7L>\n最近のヒアリングで話題に上がった熟議関連の書籍です。特に１冊目が概要が分かりやすくまとまっているので、是非ご覧ください。\n<https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83%8B%E3%83%BB%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%8F%E3%81%98%E5%BC%95%E3%81%8D%E3%81%A8%E7%86%9F%E8%AD%B0%E3%81%AB%E3%82%88%E3%82%8B%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F-OECD%EF%BC%88%E7%B5%8C%E6%B8%88%E5%8D%94%E5%8A%9B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524|https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83[…]B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524>\n<https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508>\n<https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%94%BF%E6%B2%BB%E7%90%86%E8%AB%96-%E7%94%B0%E6%9D%91-%E5%93%B2%E6%A8%B9/dp/4326301740?ref_=ast_author_dp_rw&amp;th=1&amp;psc=1&amp;dib=eyJ2IjoiMSJ9._lZaKZYyXZlVVAwITI5n7OgGwe7VQq3p7rSZLK799QTMGpH0t_IaUpduCuPkYLdEssFmm79vsJsD71EQJMzlvrYDE_BcqpPN2W4CPxZDGmBWJBCFnsxuTpn4yqBoY-p9helDXyECIovH12fQYsgluA.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&amp;dib_tag=AUTHOR|https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0[…]A.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&amp;dib_tag=AUTHOR>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771980030.410889",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1771982239.772169",
+    "reply_users": [
+      "U0AAL9KK2S1"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://m.media-amazon.com/images/I/41XVOS7ga0L.jpg_BO30,255,255,255_UF750,750_SR1910,1000,0,C_ZJPHNwYW4gZm9yZWdyb3VuZD0iIzBGMTExMSIgZm9udD0iQW1hem9uRW1iZXIgNjYiPjQuMjwvc3Bhbj4=,60,875,420,420,0,0_PIRIOFOUR-medium-V2,TopLeft,190,885_ZJPHNwYW4gZm9yZWdyb3VuZD0iIzU2NTk1OSIgZm9udD0iQW1hem9uRW1iZXIgNjYiPigyNik8L3NwYW4+,650,875,420,420,0,0_QL100_.jpg",
+        "image_width": 1910,
+        "image_height": 1000,
+        "image_bytes": 161100,
+        "from_url": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508",
+        "service_icon": "https://www.amazon.co.jp/favicon.ico",
+        "id": 1,
+        "original_url": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508",
+        "fallback": "熟議のススメ",
+        "text": "熟議とは、対話、共感、自発で対立、混乱、矛盾をのみこみ好循環を創発する方法",
+        "title": "熟議のススメ",
+        "title_link": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508",
+        "service_name": "amazon.co.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SvEOp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6P8CRT1Q"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A7K64JT71"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0AAL9KK2S1"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A98JWF24B"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U0A77P2EY7L"
+              },
+              {
+                "type": "text",
+                "text": "\n最近のヒアリングで話題に上がった熟議関連の書籍です。特に１冊目が概要が分かりやすくまとまっているので、是非ご覧ください。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83%8B%E3%83%BB%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%8F%E3%81%98%E5%BC%95%E3%81%8D%E3%81%A8%E7%86%9F%E8%AD%B0%E3%81%AB%E3%82%88%E3%82%8B%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F-OECD%EF%BC%88%E7%B5%8C%E6%B8%88%E5%8D%94%E5%8A%9B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524",
+                "text": "https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83[…]B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%94%BF%E6%B2%BB%E7%90%86%E8%AB%96-%E7%94%B0%E6%9D%91-%E5%93%B2%E6%A8%B9/dp/4326301740?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9._lZaKZYyXZlVVAwITI5n7OgGwe7VQq3p7rSZLK799QTMGpH0t_IaUpduCuPkYLdEssFmm79vsJsD71EQJMzlvrYDE_BcqpPN2W4CPxZDGmBWJBCFnsxuTpn4yqBoY-p9helDXyECIovH12fQYsgluA.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&dib_tag=AUTHOR",
+                "text": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0[…]A.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&dib_tag=AUTHOR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A67RK86BH",
+    "text_readable": "<@U0A6P8CRT1Q> <@U0A7K64JT71> <@U0AAL9KK2S1> <@U0A98JWF24B> <@U0A77P2EY7L>\n最近のヒアリングで話題に上がった熟議関連の書籍です。特に１冊目が概要が分かりやすくまとまっているので、是非ご覧ください。\n<https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83%8B%E3%83%BB%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9-%E3%81%8F%E3%81%98%E5%BC%95%E3%81%8D%E3%81%A8%E7%86%9F%E8%AD%B0%E3%81%AB%E3%82%88%E3%82%8B%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E3%81%A4%E3%81%8F%E3%82%8A%E3%81%8B%E3%81%9F-OECD%EF%BC%88%E7%B5%8C%E6%B8%88%E5%8D%94%E5%8A%9B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524|https://www.amazon.co.jp/%E4%B8%96%E7%95%8C%E3%81%AB%E5%AD%A6%E3%81%B6%E3%83%9F%E3%83[…]B%E9%96%8B%E7%99%BA%E6%A9%9F%E6%A7%8B%EF%BC%89/dp/4761528524>\n<https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8-%E5%AF%9B/dp/4062184508>\n<https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E3%81%AE%E6%94%BF%E6%B2%BB%E7%90%86%E8%AB%96-%E7%94%B0%E6%9D%91-%E5%93%B2%E6%A8%B9/dp/4326301740?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9._lZaKZYyXZlVVAwITI5n7OgGwe7VQq3p7rSZLK799QTMGpH0t_IaUpduCuPkYLdEssFmm79vsJsD71EQJMzlvrYDE_BcqpPN2W4CPxZDGmBWJBCFnsxuTpn4yqBoY-p9helDXyECIovH12fQYsgluA.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&dib_tag=AUTHOR|https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E7%90%86%E7%94%B1%E2%80%95%E6%B0[…]A.IhAACYhiMT8eADyfE74SaaUye3WXVIgoB603yu4Wk8E&dib_tag=AUTHOR>"
+  },
+  {
+    "user": "U0AAL9KK2S1",
+    "type": "message",
+    "ts": "1771982239.772169",
+    "client_msg_id": "12D1796F-D716-40A1-BCB1-D888F2A1DB1F",
+    "text": "読んでみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771980030.410889",
+    "parent_user_id": "U0A67RK86BH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xh4Jj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "読んでみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U0A67RK86BH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1771980030.410889",
+    "user_name": "U0AAL9KK2S1",
+    "text_readable": "読んでみます！"
+  }
+]

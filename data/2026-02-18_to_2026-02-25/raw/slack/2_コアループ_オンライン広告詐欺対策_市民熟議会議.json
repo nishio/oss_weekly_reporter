@@ -1,0 +1,520 @@
+[
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1771633354.745529",
+    "client_msg_id": "b0f79379-63ff-4f01-a3a7-ab11fcd9478f",
+    "text": "コアループ週次レポート(2/20)\n• 全体: 今週も各種ヒアリングや開発が進みました。（鈴木）\n• Process: <https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8%E5%AF%9B-ebook/dp/B00G9Q4TJW/ref=nav_signin?|「熟議のススメ」>の著者であり、文科省副大臣時代に熟議カケアイを実践された東大・鈴寛先生にお話を伺いました（メモは<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&amp;tab=t.1pri05nn1e8d#bookmark=id.5jd34zityeb3|こちら>）。また、アンケート調査会社と仕様や見積もり調整を引き続き行っておりますが、テキサス大・若尾先生と日本での熟議実績もあるRJCという会社が有力そうというのが現在の感触です。他チームとも連携して、更に詳細なプロセス設計を進めていきます。（縄田）\n• Tech:  (Ryoma) Aliceへのヒアリングを踏まえて、SODPの機能整理と開発優先付けを始めました。これから、必須機能からGitHub Issue化し、開発していきます。Policyチームとブロードリスニングの連携を始める予定です。\n• Policy: 総務省・警察庁・消費者庁への<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng|ヒアリング>を完了しました。ヒアリング結果を踏まえTechチームと連携しブロードリスニングも進める予定です。また、総務省デジタル広告ワーキンググループ座長の京都大学曽我部教授など有識者へのヒアリングを調整中です。\n• Reference Product: 日本版Fraud Busterの実装の初期バージョンが概ね完成が見えてきてデプロイまで完了しました。細かい調整をしてクローズドに触れる用に調整します。その後、審査支援AIの仕様と設計を本格化します。（赤澤）\n• Communication: 銀行口座開設申請（任意団体であるから書類準備に時間がかかりました）、クラファンページ開設準備、記者会見実施の有無、クラファン実施後の準備進めてます。（西田）\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7rIXg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コアループ週次レポート(2/20)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "全体: 今週も各種ヒアリングや開発が進みました。（鈴木）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Process: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8%E5%AF%9B-ebook/dp/B00G9Q4TJW/ref=nav_signin?",
+                    "text": "「熟議のススメ」"
+                  },
+                  {
+                    "type": "text",
+                    "text": "の著者であり、文科省副大臣時代に熟議カケアイを実践された東大・鈴寛先生にお話を伺いました（メモは"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.5jd34zityeb3",
+                    "text": "こちら"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）。また、アンケート調査会社と仕様や見積もり調整を引き続き行っておりますが、テキサス大・若尾先生と日本での熟議実績もあるRJCという会社が有力そうというのが現在の感触です。他チームとも連携して、更に詳細なプロセス設計を進めていきます。（縄田）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Tech:  (Ryoma) Aliceへのヒアリングを踏まえて、SODPの機能整理と開発優先付けを始めました。これから、必須機能からGitHub Issue化し、開発していきます。Policyチームとブロードリスニングの連携を始める予定です。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Policy: 総務省・警察庁・消費者庁への"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng",
+                    "text": "ヒアリング"
+                  },
+                  {
+                    "type": "text",
+                    "text": "を完了しました。ヒアリング結果を踏まえTechチームと連携しブロードリスニングも進める予定です。また、総務省デジタル広告ワーキンググループ座長の京都大学曽我部教授など有識者へのヒアリングを調整中です。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Reference Product: 日本版Fraud Busterの実装の初期バージョンが概ね完成が見えてきてデプロイまで完了しました。細かい調整をしてクローズドに触れる用に調整します。その後、審査支援AIの仕様と設計を本格化します。（赤澤）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Communication: 銀行口座開設申請（任意団体であるから書類準備に時間がかかりました）、クラファンページ開設準備、記者会見実施の有無、クラファン実施後の準備進めてます。（西田）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "コアループ週次レポート(2/20)\n• 全体: 今週も各種ヒアリングや開発が進みました。（鈴木）\n• Process: <https://www.amazon.co.jp/%E7%86%9F%E8%AD%B0%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%88%B4%E6%9C%A8%E5%AF%9B-ebook/dp/B00G9Q4TJW/ref=nav_signin?|「熟議のススメ」>の著者であり、文科省副大臣時代に熟議カケアイを実践された東大・鈴寛先生にお話を伺いました（メモは<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.5jd34zityeb3|こちら>）。また、アンケート調査会社と仕様や見積もり調整を引き続き行っておりますが、テキサス大・若尾先生と日本での熟議実績もあるRJCという会社が有力そうというのが現在の感触です。他チームとも連携して、更に詳細なプロセス設計を進めていきます。（縄田）\n• Tech:  (Ryoma) Aliceへのヒアリングを踏まえて、SODPの機能整理と開発優先付けを始めました。これから、必須機能からGitHub Issue化し、開発していきます。Policyチームとブロードリスニングの連携を始める予定です。\n• Policy: 総務省・警察庁・消費者庁への<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng|ヒアリング>を完了しました。ヒアリング結果を踏まえTechチームと連携しブロードリスニングも進める予定です。また、総務省デジタル広告ワーキンググループ座長の京都大学曽我部教授など有識者へのヒアリングを調整中です。\n• Reference Product: 日本版Fraud Busterの実装の初期バージョンが概ね完成が見えてきてデプロイまで完了しました。細かい調整をしてクローズドに触れる用に調整します。その後、審査支援AIの仕様と設計を本格化します。（赤澤）\n• Communication: 銀行口座開設申請（任意団体であるから書類準備に時間がかかりました）、クラファンページ開設準備、記者会見実施の有無、クラファン実施後の準備進めてます。（西田）\n"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1771890853.778439",
+    "client_msg_id": "23b14570-ca32-43b7-b991-01830585f55a",
+    "text": "このプロジェクトに、少し意図しないクローズド感が出てしまっている気がしています。\nもう少し改善できるといいなと思っているのですが、似た感覚ある方いますか？\n （例：何が起きてるか追いづらく、参加ハードルがあるように見える、入口が見えにくい）\n<https://dd2030.slack.com/archives/C0A7ZNHB421/p1771890515651039?thread_ts=1771729792.752909&amp;cid=C0A7ZNHB421>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771890853.778439",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1771912428.440179",
+    "reply_users": [
+      "U08GJSBAX3K",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C0A7ZNHB421/p1771890515651039?thread_ts=1771729792.752909&amp;cid=C0A7ZNHB421",
+        "ts": "1771890515.651039",
+        "author_id": "U08H3V9KMFH",
+        "channel_id": "C0A7ZNHB421",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C0A7ZNHB421",
+            "ts": "1771890515.651039",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "9Dm1S",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "なるほど、意図は理解できました（初回が説明会になって進まないのは避けたいですよね）。\n一方で、DD2030で進めるなら、この形が続くと「知ってる人だけが分かる」状態が固定化して、外側が追えなくなっていくのが少し心配です（僕が気にしすぎているだけならすみません）。\n\n以前「DD2030のプロジェクトとしてどう意思決定していくか？」を確認したのも、まさにこの外側が追える構造が気になっていたからでした。\n\nクローズド感が出ると「入口が見えない／発言しづらい／どうせ決まってそう」になって参加が減りやすいので、ここは早めに潰せるといいなと思っています。\nなので録画でも議事メモでも良いので、外から追える形になっていると良いのかなと思いました。\n\nまた、これ自体も負荷がかかると思うので、継続させるためにコミュニティで分担して回すとか、会議に参加した人が共有するなど、無理のない形でできると良さそうだなと思いました（この部分だけでも手伝う意思のある人はDD2030内にもいそう）。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C0A7ZNHB421/p1771890515651039?thread_ts=1771729792.752909&amp;cid=C0A7ZNHB421",
+        "fallback": "[February 23rd, 2026 3:48 PM] truego: なるほど、意図は理解できました（初回が説明会になって進まないのは避けたいですよね）。\n一方で、DD2030で進めるなら、この形が続くと「知ってる人だけが分かる」状態が固定化して、外側が追えなくなっていくのが少し心配です（僕が気にしすぎているだけならすみません）。\n\n以前「DD2030のプロジェクトとしてどう意思決定していくか？」を確認したのも、まさにこの外側が追える構造が気になっていたからでした。\n\nクローズド感が出ると「入口が見えない／発言しづらい／どうせ決まってそう」になって参加が減りやすいので、ここは早めに潰せるといいなと思っています。\nなので録画でも議事メモでも良いので、外から追える形になっていると良いのかなと思いました。\n\nまた、これ自体も負荷がかかると思うので、継続させるためにコミュニティで分担して回すとか、会議に参加した人が共有するなど、無理のない形でできると良さそうだなと思いました（この部分だけでも手伝う意思のある人はDD2030内にもいそう）。",
+        "text": "なるほど、意図は理解できました（初回が説明会になって進まないのは避けたいですよね）。\n一方で、DD2030で進めるなら、この形が続くと「知ってる人だけが分かる」状態が固定化して、外側が追えなくなっていくのが少し心配です（僕が気にしすぎているだけならすみません）。\n\n以前「DD2030のプロジェクトとしてどう意思決定していくか？」を確認したのも、まさにこの外側が追える構造が気になっていたからでした。\n\nクローズド感が出ると「入口が見えない／発言しづらい／どうせ決まってそう」になって参加が減りやすいので、ここは早めに潰せるといいなと思っています。\nなので録画でも議事メモでも良いので、外から追える形になっていると良いのかなと思いました。\n\nまた、これ自体も負荷がかかると思うので、継続させるためにコミュニティで分担して回すとか、会議に参加した人が共有するなど、無理のない形でできると良さそうだなと思いました（この部分だけでも手伝う意思のある人はDD2030内にもいそう）。",
+        "author_name": "Shingo OHKI",
+        "author_link": "https://dd2030.slack.com/team/U08H3V9KMFH",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-13/8581996056551_b8372a283ff45746fea3_48.jpg",
+        "author_subname": "Shingo OHKI",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yiqgs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このプロジェクトに、少し意図しないクローズド感が出てしまっている気がしています。\nもう少し改善できるといいなと思っているのですが、似た感覚ある方いますか？\n （例：何が起きてるか追いづらく、参加ハードルがあるように見える、入口が見えにくい）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C0A7ZNHB421/p1771890515651039?thread_ts=1771729792.752909&cid=C0A7ZNHB421"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "このプロジェクトに、少し意図しないクローズド感が出てしまっている気がしています。\nもう少し改善できるといいなと思っているのですが、似た感覚ある方いますか？\n （例：何が起きてるか追いづらく、参加ハードルがあるように見える、入口が見えにくい）\n<https://dd2030.slack.com/archives/C0A7ZNHB421/p1771890515651039?thread_ts=1771729792.752909&cid=C0A7ZNHB421>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1771891133.059619",
+    "client_msg_id": "508d71a6-898c-4e9c-952c-1c50868d06c2",
+    "text": "具体の施策の一つとしては、週次レポートは <#C08FL58LK8V> に流しても良いと思いました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771890853.778439",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HhfF2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "具体の施策の一つとしては、週次レポートは "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL58LK8V"
+              },
+              {
+                "type": "text",
+                "text": " に流しても良いと思いました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08JGS0BS57"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1771890853.778439",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "具体の施策の一つとしては、週次レポートは <#C08FL58LK8V> に流しても良いと思いました！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1771912428.440179",
+    "client_msg_id": "012141ac-f17c-43e6-a454-b28e2bd3ffc7",
+    "text": "Ohkiさんが貼ってくれた\n&gt; リードミーティング\n&gt; • 3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。\n&gt; • 4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。\nを理解してませんでした。\n私はコアループチームの求める人材等をキャッチアップできていなくて、協力できてないのがなんだか歯がゆい。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1771890853.778439",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U6Hqz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Ohkiさんが貼ってくれた\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リードミーティング"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "を理解してませんでした。\n私はコアループチームの求める人材等をキャッチアップできていなくて、協力できてないのがなんだか歯がゆい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1771890853.778439",
+    "user_name": "小野翔太",
+    "text_readable": "Ohkiさんが貼ってくれた\n> リードミーティング\n> • 3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。\n> • 4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。\nを理解してませんでした。\n私はコアループチームの求める人材等をキャッチアップできていなくて、協力できてないのがなんだか歯がゆい。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1771902570.110609",
+    "client_msg_id": "fc78a423-f5c0-473f-bc92-c3b582d2e148",
+    "text": "ここに記述がありましたね\n<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.i931e8cju7mq#bookmark=id.qn2nx6iybp4v>\n&gt; リードミーティング\n&gt; • 週1回のペースで各チームの進行や状況を報告し、同期するリードミーティングを実施しています。\n&gt; • 3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。\n&gt; • 一方で各チームでの作業を進めるに当たって、全体感を把握しておいたほうがいいこともあります。\n&gt; • そこで、参加希望者については、一定のコミットメントを前提として招待させていただきます。スピード感と進めやすさの両方をとる折衷案としてこうしています。\n&gt; • 短期的には非効率が生じる可能性があるものの、長期的には全体像を理解している人を増やすことを目指しています。\n&gt; • 4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "p0QzT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ここに記述がありましたね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.i931e8cju7mq#bookmark=id.qn2nx6iybp4v"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リードミーティング"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "週1回のペースで各チームの進行や状況を報告し、同期するリードミーティングを実施しています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "一方で各チームでの作業を進めるに当たって、全体感を把握しておいたほうがいいこともあります。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "そこで、参加希望者については、一定のコミットメントを前提として招待させていただきます。スピード感と進めやすさの両方をとる折衷案としてこうしています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "短期的には非効率が生じる可能性があるものの、長期的には全体像を理解している人を増やすことを目指しています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "ここに記述がありましたね\n<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.i931e8cju7mq#bookmark=id.qn2nx6iybp4v>\n> リードミーティング\n> • 週1回のペースで各チームの進行や状況を報告し、同期するリードミーティングを実施しています。\n> • 3月まではスピード感をもって実施する必要があるので、優先度の高い課題対応を中心に進行しています。そのためオープンにはしていません。\n> • 一方で各チームでの作業を進めるに当たって、全体感を把握しておいたほうがいいこともあります。\n> • そこで、参加希望者については、一定のコミットメントを前提として招待させていただきます。スピード感と進めやすさの両方をとる折衷案としてこうしています。\n> • 短期的には非効率が生じる可能性があるものの、長期的には全体像を理解している人を増やすことを目指しています。\n> • 4月以降ひと段落して、コアループのケース2・3を設計する段階では、よりオープンな進め方にします。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1771903857.622529",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1771903883.000000"
+    },
+    "client_msg_id": "a7f5701a-a07d-42e1-9716-4531c444d7ea",
+    "text": "<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.u1z0rdy0dcc0#heading=h.379wko5vkhcb>\n基本的にこのプロジェクトでは、↑のドキュメントに順次追記されているのでプロジェクトの動きを追いかけたい人はこのドキュメントをまずはじっくり読むと良さそう\n（ということがあんまり周知されていなさそう）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6Tkq1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.u1z0rdy0dcc0#heading=h.379wko5vkhcb"
+              },
+              {
+                "type": "text",
+                "text": "\n基本的にこのプロジェクトでは、↑のドキュメントに順次追記されているのでプロジェクトの動きを追いかけたい人はこのドキュメントをまずはじっくり読むと良さそう\n（ということがあんまり周知されていなさそう）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.u1z0rdy0dcc0#heading=h.379wko5vkhcb>\n基本的にこのプロジェクトでは、↑のドキュメントに順次追記されているのでプロジェクトの動きを追いかけたい人はこのドキュメントをまずはじっくり読むと良さそう\n（ということがあんまり周知されていなさそう）"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1771905175.934819",
+    "client_msg_id": "9bc4ea25-715c-419e-8b52-ffe2d0c00cf6",
+    "text": "リード定例、めちゃくちゃ面白いので公開しないのもったいない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BJcOw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リード定例、めちゃくちゃ面白いので公開しないのもったいない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "リード定例、めちゃくちゃ面白いので公開しないのもったいない"
+  }
+]
