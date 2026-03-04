@@ -1,0 +1,19 @@
+[
+  {
+    "id": 3870489879,
+    "number": 247,
+    "title": "フロントエンドのコード整理",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/247",
+    "user": "grassfieldk",
+    "created_at": "2026-01-29T12:47:21Z",
+    "updated_at": "2026-02-26T12:31:52Z",
+    "body": "## 変更の概要\r\n\r\n- フロントエンドのコードを frontend ディレクトリにまとめる\r\n- Next.js の脆弱性への対応\r\n- 動的エクスポートへの変更およびこれに伴うリファクタリング\r\n\r\n\r\n## 変更の背景\r\n\r\n- ルートディレクトリ配下にフロントエンド・バックエンドのコードが混在し、わかりづらくなっていたため\r\n- デプロイ先を GitHub Pages から Vercel に変えたことにより動的サイトの実行が可能となったため\r\n\r\n\r\n## 関連Issue\r\n\r\nClose: #218 #219 \r\n\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n## リリースノート\n\n* **構造の最適化**\n  * フロントエンド・バックエンド分離により、プロジェクト構造を再編成しました。\n  * フロントエンドファイルを `frontend/` ディレクトリに統合しました。\n\n* **デプロイメント改善**\n  * GitHub PagesからVercelへの移行により、ホスティングを簡素化しました。\n  * ビルドおよびCI/CDパイプラインを更新しました。\n\n* **バックエンド削除**\n  * バックエンドサービスおよび関連ツールを削除しました。\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 1742,
+    "deletions": 20101,
+    "changed_files": 154,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

@@ -1,0 +1,1362 @@
+[
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1772235202.711949",
+    "client_msg_id": "e0f8ebaa-d154-4d50-b245-af8c0e9d74d7",
+    "text": "コアループ週次レポート(2/28)\n• 全体: 政府の尾崎内閣官房副長官と川崎デジタル政務官に、今回のプロジェクトについてオンラインレクをしました。（鈴木）\n• Process: 調査会社との調整を進めています。個人情報を扱うため情報管理やセキュリティチェックができる体制が求められています。またどこまでを調査会社に外注するかで費用感も異なるため、各社比較を行います。（縄田）\n• Tech: 熟議支援のためのオンライン会議ツールの<https://github.com/digitaldemocracy2030/jukugi-bot|フィジビリティチェックとして開発を始めました>。また、熟議前のブロードリスニングの準備をPolicyチームと連携しながら始めました。両方ともにコントリビュートしやすくなってきたと思うので、ぜひ声かけてください (Ryoma) \n• Policy: Techチームと連携しブロードリスニング・熟議参加者へのアンケートの実施に向けて動き出しています。来週は大学の先生や広告業界へのヒアリングを実施します。\n• Reference Product: 最初期のバージョンであるα版としてクローズドにデプロイを行いました。日本版のFraud Busterの全体像を整理して、基盤としてのAntiFraud（仮称）のアップデートや審査支援AI等の設計開発を並行して進められる素地ができました。（赤澤）\n• Communication: クラウドファンディングのページ開設（<https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&amp;utm_campaign=cp_po_share_c_msg_projects_show>）、記者会見の準備進めています。クラファンページは申請プロセス進めるためのたたき台で、これからリバイズかけていきます。記者会見の日時は3/19午前（永田町）を予定しています。当日準備手伝ってくれる方募集します。communicationチャネルにご参加ください、宜しくお願いします！（西田）\n",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show",
+        "image_url": "https://static.camp-fire.jp/uploads/project_version/image/1542399/efc4dc4e-fd62-46e5-a43c-5d4c06fa2d93.jpeg?ixlib=rails-2.1.4&fit=fill&auto=format&w=1200&h=630&fill=blur",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 76462,
+        "service_icon": "https://camp-fire.jp/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&amp;utm_campaign=cp_po_share_c_msg_projects_show",
+        "fallback": "SNS上の詐欺広告被害が深刻化する中、市民の通報をAIで仕分けし適切な行政窓口へ",
+        "text": "SNS上の詐欺広告被害が深刻化する中、市民の通報をAIで仕分けし適切な行政窓口へ橋渡しする実証システム「Fraud Buster（日本版）」を開発します。また、広く国民の間で本問題についての世論喚起を行い、この問題について専門家のインプットを前提に市民が熟議・議論できる場を作ります。",
+        "title": "SNS上の詐欺広告被害が深刻化する中、市民の通報をAIで仕分けし適切な行政窓口へ",
+        "title_link": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show",
+        "service_name": "camp-fire.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "poUSt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コアループ週次レポート(2/28)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "全体: 政府の尾崎内閣官房副長官と川崎デジタル政務官に、今回のプロジェクトについてオンラインレクをしました。（鈴木）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Process: 調査会社との調整を進めています。個人情報を扱うため情報管理やセキュリティチェックができる体制が求められています。またどこまでを調査会社に外注するかで費用感も異なるため、各社比較を行います。（縄田）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Tech: 熟議支援のためのオンライン会議ツールの"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/jukugi-bot",
+                    "text": "フィジビリティチェックとして開発を始めました"
+                  },
+                  {
+                    "type": "text",
+                    "text": "。また、熟議前のブロードリスニングの準備をPolicyチームと連携しながら始めました。両方ともにコントリビュートしやすくなってきたと思うので、ぜひ声かけてください (Ryoma) "
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Policy: Techチームと連携しブロードリスニング・熟議参加者へのアンケートの実施に向けて動き出しています。来週は大学の先生や広告業界へのヒアリングを実施します。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Reference Product: 最初期のバージョンであるα版としてクローズドにデプロイを行いました。日本版のFraud Busterの全体像を整理して、基盤としてのAntiFraud（仮称）のアップデートや審査支援AI等の設計開発を並行して進められる素地ができました。（赤澤）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Communication: クラウドファンディングのページ開設（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）、記者会見の準備進めています。クラファンページは申請プロセス進めるためのたたき台で、これからリバイズかけていきます。記者会見の日時は3/19午前（永田町）を予定しています。当日準備手伝ってくれる方募集します。communicationチャネルにご参加ください、宜しくお願いします！（西田）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JGS0BS57",
+          "U08HKLUGE67",
+          "U08HN9UDJUB",
+          "U0AAL9KK2S1"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "コアループ週次レポート(2/28)\n• 全体: 政府の尾崎内閣官房副長官と川崎デジタル政務官に、今回のプロジェクトについてオンラインレクをしました。（鈴木）\n• Process: 調査会社との調整を進めています。個人情報を扱うため情報管理やセキュリティチェックができる体制が求められています。またどこまでを調査会社に外注するかで費用感も異なるため、各社比較を行います。（縄田）\n• Tech: 熟議支援のためのオンライン会議ツールの<https://github.com/digitaldemocracy2030/jukugi-bot|フィジビリティチェックとして開発を始めました>。また、熟議前のブロードリスニングの準備をPolicyチームと連携しながら始めました。両方ともにコントリビュートしやすくなってきたと思うので、ぜひ声かけてください (Ryoma) \n• Policy: Techチームと連携しブロードリスニング・熟議参加者へのアンケートの実施に向けて動き出しています。来週は大学の先生や広告業界へのヒアリングを実施します。\n• Reference Product: 最初期のバージョンであるα版としてクローズドにデプロイを行いました。日本版のFraud Busterの全体像を整理して、基盤としてのAntiFraud（仮称）のアップデートや審査支援AI等の設計開発を並行して進められる素地ができました。（赤澤）\n• Communication: クラウドファンディングのページ開設（<https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show>）、記者会見の準備進めています。クラファンページは申請プロセス進めるためのたたき台で、これからリバイズかけていきます。記者会見の日時は3/19午前（永田町）を予定しています。当日準備手伝ってくれる方募集します。communicationチャネルにご参加ください、宜しくお願いします！（西田）\n"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772510662.439219",
+    "client_msg_id": "25991bc7-4169-42f4-9384-a06ce6977dfc",
+    "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという <@U08GJSBAX3K> <@U08JPUZRT40> がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: <https://baisoku-survey.plural-reality.com/preset/UDQfyMuS>\n期限: 3/6 までに回答いただけると嬉しいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "reply_count": 7,
+    "reply_users_count": 5,
+    "latest_reply": "1772554102.167759",
+    "reply_users": [
+      "U08JGS0BS57",
+      "U08JFSYHEP6",
+      "U0A6CE44B2S",
+      "U08H3V9KMFH",
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS/opengraph-image?3e54c3f3cd054838",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 94695,
+        "from_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+        "service_icon": "https://baisoku-survey.plural-reality.com/apple-icon.png",
+        "id": 1,
+        "original_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+        "fallback": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+        "text": "このテーマに関して熟議を行いたいです。この人が論点やトレードオフに関して考えを深め、立場がより明確に深まり、本人が自身のスタンスを理解する助けになると望ましい。",
+        "title": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+        "title_link": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+        "service_name": "baisoku-survey.plural-reality.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RXPys",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという "
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08JPUZRT40"
+              },
+              {
+                "type": "text",
+                "text": " がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: "
+              },
+              {
+                "type": "link",
+                "url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS"
+              },
+              {
+                "type": "text",
+                "text": "\n期限: 3/6 までに回答いただけると嬉しいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A821PG3PA"
+        ],
+        "count": 1
+      },
+      {
+        "name": "done",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという @shutaro.aoyama @takagishunsuke1129 がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: <https://baisoku-survey.plural-reality.com/preset/UDQfyMuS>\n期限: 3/6 までに回答いただけると嬉しいです"
+  },
+  {
+    "user": "U08JGS0BS57",
+    "type": "message",
+    "ts": "1772528606.850699",
+    "edited": {
+      "user": "U08JGS0BS57",
+      "ts": "1772542285.000000"
+    },
+    "client_msg_id": "3d59f305-e236-4ecc-9ac5-78b5ab7c4a16",
+    "text": "やはり、長すぎて（ 同じ様な質問が多くて、難しくて、面倒くさくて ）\n途中から、全部 真ん中（ 分からない ）にした。\n\nアンケートを受ける人の主張を分析するには、もう少し短くても良いかも。\n（　*不正確な結果*よりも、*もっと少なく短い質問*で、もっと正確な分析結果を・・　）\n\nただ、*診断結果*を見る限り、*私の主張に近い*ので、設問＆アルゴリズムそのものは*素晴らしい*と思います。\n（　*極端な選択肢をあえて選んだ*からかな？　でも、正確に選んでない設問が多くなると？・・　）\n\n> 回答の後半において、「わからない」という選択が集中している点に、あなたの思慮深さと誠実な葛藤が表れています 14,15,16,19,21,22,23,24,25。\nと、軽く嫌味を言われたけど・・ :cold_sweat:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eBy+D",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やはり、長すぎて（ 同じ様な質問が多くて、難しくて、面倒くさくて ）\n途中から、全部 真ん中（ 分からない ）にした。\n\nアンケートを受ける人の主張を分析するには、もう少し短くても良いかも。\n（　"
+              },
+              {
+                "type": "text",
+                "text": "不正確な結果",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "よりも、"
+              },
+              {
+                "type": "text",
+                "text": "もっと少なく短い質問",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "で、もっと正確な分析結果を・・　）\n\nただ、"
+              },
+              {
+                "type": "text",
+                "text": "診断結果",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を見る限り、"
+              },
+              {
+                "type": "text",
+                "text": "私の主張に近い",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "ので、設問＆アルゴリズムそのものは"
+              },
+              {
+                "type": "text",
+                "text": "素晴らしい",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "と思います。\n（　"
+              },
+              {
+                "type": "text",
+                "text": "極端な選択肢をあえて選んだ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "からかな？　でも、正確に選んでない設問が多くなると？・・　）\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "回答の後半において、「わからない」という選択が集中している点に、あなたの思慮深さと誠実な葛藤が表れています 14,15,16,19,21,22,23,24,25。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "と、軽く嫌味を言われたけど・・ "
+              },
+              {
+                "type": "emoji",
+                "name": "cold_sweat",
+                "unicode": "1f630"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08JFSYHEP6",
+          "U0A6CE44B2S"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1772510662.439219",
+    "user_name": "naoyo4.​btc",
+    "text_readable": "やはり、長すぎて（ 同じ様な質問が多くて、難しくて、面倒くさくて ）\n途中から、全部 真ん中（ 分からない ）にした。\n\nアンケートを受ける人の主張を分析するには、もう少し短くても良いかも。\n（　*不正確な結果*よりも、*もっと少なく短い質問*で、もっと正確な分析結果を・・　）\n\nただ、*診断結果*を見る限り、*私の主張に近い*ので、設問＆アルゴリズムそのものは*素晴らしい*と思います。\n（　*極端な選択肢をあえて選んだ*からかな？　でも、正確に選んでない設問が多くなると？・・　）\n\n> 回答の後半において、「わからない」という選択が集中している点に、あなたの思慮深さと誠実な葛藤が表れています 14,15,16,19,21,22,23,24,25。\nと、軽く嫌味を言われたけど・・ :cold_sweat:"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772529515.384719",
+    "client_msg_id": "fd3586b8-49c5-4d3f-9637-25b970c65978",
+    "text": "たしかにこのへんは難しい気がした",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q6HJe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たしかにこのへんは難しい気がした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1772510662.439219",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "たしかにこのへんは難しい気がした"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F0AHRARLKFH",
+        "created": 1772529522,
+        "timestamp": 1772529522,
+        "name": "Screenshot_20260303-181136.png",
+        "title": "Screenshot_20260303-181136.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JFSYHEP6",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 462123,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHRARLKFH/screenshot_20260303-181136.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHRARLKFH/download/screenshot_20260303-181136.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_360.png",
+        "thumb_360_w": 347,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_480.png",
+        "thumb_480_w": 463,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_720.png",
+        "thumb_720_w": 694,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 829,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_960.png",
+        "thumb_960_w": 926,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHRARLKFH-9a2b6747c1/screenshot_20260303-181136_1024.png",
+        "thumb_1024_w": 988,
+        "thumb_1024_h": 1024,
+        "original_w": 1660,
+        "original_h": 1721,
+        "thumb_tiny": "AwAwAC/TJ/Gky2Ogz9eKWmliFJKnI7CgB1Jz3A/Ogk44XvSEnj5Tz156UAOopGJGcLk49etFAAcgHAyfSoy8uBiHnOD83H1qTrSFFY/MM/XmgALMFzsJbjgGgMd2DtHPHzc4oYYBwB9CcCgIoOQoBAxx6UALzu6DHrmigADoAKWgBDwOmaYkySfdI4x3B6/jT+e1Lzx+tAEfm5YhVLY7gj0+tO3HAOxue3HFKM9yOvpQM9yD9BQA0Ox6xOPrj/GnUtFAH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AHRARLKFH/screenshot_20260303-181136.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AHRARLKFH-cee4d54b4f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0AJKMFE9DX",
+        "created": 1772529522,
+        "timestamp": 1772529522,
+        "name": "Screenshot_20260303-180644.png",
+        "title": "Screenshot_20260303-180644.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08JFSYHEP6",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 282863,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJKMFE9DX/screenshot_20260303-180644.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJKMFE9DX/download/screenshot_20260303-180644.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_360.png",
+        "thumb_360_w": 347,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_480.png",
+        "thumb_480_w": 463,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_720.png",
+        "thumb_720_w": 694,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 829,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_960.png",
+        "thumb_960_w": 926,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJKMFE9DX-df2713eb58/screenshot_20260303-180644_1024.png",
+        "thumb_1024_w": 988,
+        "thumb_1024_h": 1024,
+        "original_w": 1660,
+        "original_h": 1721,
+        "thumb_tiny": "AwAwAC/TJ/Gky2Ogz9eKKjWeNsYb73Tg0AS0nPcD86aJFK5zgYzlgR/P6U1biJxlW4LbeQRz6UAS0VCLmIuqhvmboCCM1LQAtR7VPygk44PznI/zipKTGfWgBAgC7QWx7sSaUKBnGefU5pcUYoAKKMUUAIzBQSc4HoM0mVPPI785FKc4OMZ7ZpuJc9Uxn0PSgB9FNcPgbCoOeSRmlwc9Rj6UALSUmGyMEY78df1p1AH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AJKMFE9DX/screenshot_20260303-180644.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AJKMFE9DX-a8e1dd1e2c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hCn+5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1772529527.877659",
+    "client_msg_id": "b2aba72d-841f-4060-b80c-b3b651c30ff3",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "parent_ts": "1772510662.439219",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": ""
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772529595.259729",
+    "client_msg_id": "5e64e67e-ef26-4a44-9be0-e265c2a8fb72",
+    "text": "供託金の積立とか分かったけど一瞬考えてしまった",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pxKgQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "供託金の積立とか分かったけど一瞬考えてしまった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772510662.439219",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "供託金の積立とか分かったけど一瞬考えてしまった"
+  },
+  {
+    "user": "U0A6CE44B2S",
+    "type": "message",
+    "ts": "1772530164.034329",
+    "client_msg_id": "D28818E5-6069-4677-9E0F-7552E9B834DC",
+    "text": "<@U08JGS0BS57>\nFBありがとうございます！policyチームで参加者向けの設計を担当している小倉です。\n設問はもっとシンプルにします・・・！\n同じような質問というのも、質問の表現含め何をどういう趣旨で聞いているのかクリアにする必要があるなと思いました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6TtIy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JGS0BS57"
+              },
+              {
+                "type": "text",
+                "text": "\nFBありがとうございます！policyチームで参加者向けの設計を担当している小倉です。\n設問はもっとシンプルにします・・・！\n同じような質問というのも、質問の表現含め何をどういう趣旨で聞いているのかクリアにする必要があるなと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "man-bowing",
+        "users": [
+          "U08JGS0BS57"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1772510662.439219",
+    "user_name": "U0A6CE44B2S",
+    "text_readable": "@nao.yo4da\nFBありがとうございます！policyチームで参加者向けの設計を担当している小倉です。\n設問はもっとシンプルにします・・・！\n同じような質問というのも、質問の表現含め何をどういう趣旨で聞いているのかクリアにする必要があるなと思いました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1772532785.741659",
+    "client_msg_id": "9f8283f8-7017-4adf-bb96-330e83d8b195",
+    "text": "熟議の対象が誰かにもよるかもしれませんが、KYA, KYC などの略語はそこまで認知されていないのではないかと思いました。\n\nまた、設問の長さについては、個人的には長さよりも意味が取りやすいかの方が気になりました。情報圧縮度の高い言葉を使った短い文章よりも、平易な言葉を使ったある程度の長さで、かつ、意味の取りやすい文章だと答えやすいのかなと思いました。\n（ぜひ、AIで「高校生にも分かる変換」を！）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FD5zQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議の対象が誰かにもよるかもしれませんが、KYA, KYC などの略語はそこまで認知されていないのではないかと思いました。\n\nまた、設問の長さについては、個人的には長さよりも意味が取りやすいかの方が気になりました。情報圧縮度の高い言葉を使った短い文章よりも、平易な言葉を使ったある程度の長さで、かつ、意味の取りやすい文章だと答えやすいのかなと思いました。\n（ぜひ、AIで「高校生にも分かる変換」を！）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1772510662.439219",
+    "user_name": "Shingo OHKI",
+    "text_readable": "熟議の対象が誰かにもよるかもしれませんが、KYA, KYC などの略語はそこまで認知されていないのではないかと思いました。\n\nまた、設問の長さについては、個人的には長さよりも意味が取りやすいかの方が気になりました。情報圧縮度の高い言葉を使った短い文章よりも、平易な言葉を使ったある程度の長さで、かつ、意味の取りやすい文章だと答えやすいのかなと思いました。\n（ぜひ、AIで「高校生にも分かる変換」を！）"
+  },
+  {
+    "text": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。",
+    "files": [
+      {
+        "id": "F0AJNFLT3T3",
+        "created": 1772554084,
+        "timestamp": 1772554084,
+        "name": "fraud_reportv1.pdf",
+        "title": "fraud_reportv1.pdf",
+        "mimetype": "application/pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 4327571,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJNFLT3T3/fraud_reportv1.pdf",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJNFLT3T3/download/fraud_reportv1.pdf",
+        "media_display_type": "unknown",
+        "thumb_pdf": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJNFLT3T3-b62e44ddb9/fraud_reportv1_thumb_pdf.png",
+        "thumb_pdf_w": 910,
+        "thumb_pdf_h": 5222,
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AJNFLT3T3/fraud_reportv1.pdf",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AJNFLT3T3-661e180ca7",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5VbMd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08JFSYHEP6",
+      "type": "message",
+      "ts": "1772510662.439219",
+      "client_msg_id": "25991bc7-4169-42f4-9384-a06ce6977dfc",
+      "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという <@U08GJSBAX3K> <@U08JPUZRT40> がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: <https://baisoku-survey.plural-reality.com/preset/UDQfyMuS>\n期限: 3/6 までに回答いただけると嬉しいです",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1772510662.439219",
+      "reply_count": 7,
+      "reply_users_count": 5,
+      "latest_reply": "1772554102.167759",
+      "reply_users": [
+        "U08JGS0BS57",
+        "U08JFSYHEP6",
+        "U0A6CE44B2S",
+        "U08H3V9KMFH",
+        "U08GJSBAX3K"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS/opengraph-image?3e54c3f3cd054838",
+          "image_width": 1200,
+          "image_height": 630,
+          "image_bytes": 94695,
+          "from_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "service_icon": "https://baisoku-survey.plural-reality.com/apple-icon.png",
+          "id": 1,
+          "original_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "fallback": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+          "text": "このテーマに関して熟議を行いたいです。この人が論点やトレードオフに関して考えを深め、立場がより明確に深まり、本人が自身のスタンスを理解する助けになると望ましい。",
+          "title": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+          "title_link": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "service_name": "baisoku-survey.plural-reality.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RXPys",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08JPUZRT40"
+                },
+                {
+                  "type": "text",
+                  "text": " がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS"
+                },
+                {
+                  "type": "text",
+                  "text": "\n期限: 3/6 までに回答いただけると嬉しいです"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1772554102.167759",
+    "client_msg_id": "5fb4ef99-eb08-42aa-a0fd-6fb58684f232",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "parent_ts": "1772510662.439219",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1772518541.733159",
+    "client_msg_id": "c0449090-4764-4cfc-b3f5-8ff2964c419a",
+    "text": "自由記述欄が出てこなかったのでここに書いておきますが\nスタートアップを作るときに、先にマーケティングをしてみてから、反応を見て作るかどうかを決める手法があるので、そういうのが規制されるとやだなーと思いました\n<https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071|https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://ogimg.chatgpt.com/?postId=t_69a67c7e978481918bdb796da8653071",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 168675,
+        "from_url": "https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071",
+        "service_icon": "https://chatgpt.com/cdn/assets/favicon-180x180-kqq5ndm1.webp",
+        "ts": 1772518526,
+        "id": 1,
+        "original_url": "https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071",
+        "fallback": "ChatGPT: スタートアップのスモークテスト",
+        "text": "ChatGPT helps you get answers, find inspiration, and be more productive.",
+        "title": "スタートアップのスモークテスト",
+        "title_link": "https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071",
+        "service_name": "ChatGPT"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Wkpkx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自由記述欄が出てこなかったのでここに書いておきますが\nスタートアップを作るときに、先にマーケティングをしてみてから、反応を見て作るかどうかを決める手法があるので、そういうのが規制されるとやだなーと思いました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071",
+                "text": "https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "自由記述欄が出てこなかったのでここに書いておきますが\nスタートアップを作るときに、先にマーケティングをしてみてから、反応を見て作るかどうかを決める手法があるので、そういうのが規制されるとやだなーと思いました\n<https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071|https://chatgpt.com/s/t_69a67c7e978481918bdb796da8653071>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772532194.206419",
+    "client_msg_id": "e3b007db-dea7-46be-b0a8-ebbc4b6d81ab",
+    "text": "台湾のSODPのときの解説マテリアルとかってもらったんでしたっけ？もしもらってたらブロードリスニング本執筆の参考にしたいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "reply_count": 7,
+    "reply_users_count": 3,
+    "latest_reply": "1772589683.182829",
+    "reply_users": [
+      "U08JFSYHEP6",
+      "U08G2A216TW",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rCfad",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "台湾のSODPのときの解説マテリアルとかってもらったんでしたっけ？もしもらってたらブロードリスニング本執筆の参考にしたいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "台湾のSODPのときの解説マテリアルとかってもらったんでしたっけ？もしもらってたらブロードリスニング本執筆の参考にしたいです"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772534165.986659",
+    "client_msg_id": "2dd49f1b-548e-4c95-8859-53f3fd7562c7",
+    "text": "解説マテリアルは事前資料ですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QVRoK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "解説マテリアルは事前資料ですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "解説マテリアルは事前資料ですか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772535799.022729",
+    "client_msg_id": "ae3699d2-2224-447e-9c9c-143c50be870e",
+    "text": "ですです、それ以外でも何か資料があるならウェルカムです。Polisのデータと照らし合わせようかと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bl0by",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ですです、それ以外でも何か資料があるならウェルカムです。Polisのデータと照らし合わせようかと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ですです、それ以外でも何か資料があるならウェルカムです。Polisのデータと照らし合わせようかと。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772536852.080009",
+    "client_msg_id": "a3376931-02ad-45e5-9308-b01aa2687ade",
+    "text": "事前資料は記憶にないですね、例の大学教授のかたに再度アプローチしてみようとしているので、タイミングできたら聞いてみますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MYxpA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "事前資料は記憶にないですね、例の大学教授のかたに再度アプローチしてみようとしているので、タイミングできたら聞いてみますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "事前資料は記憶にないですね、例の大学教授のかたに再度アプローチしてみようとしているので、タイミングできたら聞いてみますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772538408.825729",
+    "client_msg_id": "fff4959e-289a-4d03-a935-6b53c81f8450",
+    "text": "ありがとうございます。\n僕の方はPolisのデータを見て「いやこれ参考にしたとは言えないのでは？」と感じています。\n<https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE|2023/7台湾Polisの投稿のうちKYAにつながりそうなもの>\n\nあと、熟義の後の話も「これは熟議がプラットフォーム規制に寄与したとは言えないんじゃない？」と思っています。\n<https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B|2024/3台湾の熟義でプラットフォームに責任を求める声は減少している>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE",
+        "fallback": "西尾泰和の外部脳: 2023/7台湾Polisの投稿のうちKYAにつながりそうなもの - 西尾泰和の外部脳",
+        "text": "2023/7台湾Polisの投稿のうち「SNSでのオンライン広告詐欺への対策としてプラットフォーマーに広告主の本人確認厳格化をさせよう」という発想に繋がりそうなもの <https://polis.tw/report/r8x8ffn5fe7ktnwrhdkar> GPT5 ほぼ直結（そのまま“本人確認の厳格化”の主張） 121 原文：AI智慧未來運用是一個趨勢，也不可避免，但為有效管理網路資源，辨別使用",
+        "title": "2023/7台湾Polisの投稿のうちKYAにつながりそうなもの - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE",
+        "service_name": "西尾泰和の外部脳"
+      },
+      {
+        "from_url": "https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://scrapbox.io/assets/img/content-logo.png",
+        "thumb_width": 288,
+        "thumb_height": 288,
+        "id": 2,
+        "original_url": "https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B",
+        "fallback": "西尾泰和の外部脳: 2024/3台湾の熟義でプラットフォームに責任を求める声は減少している - 西尾泰和の外部脳",
+        "text": "Large platforms should bear primary responsibility for enhancing information integrity, identifying risks associated with generative AI technologies. The post-test agreement proportion is 85.3%, a dec",
+        "title": "2024/3台湾の熟義でプラットフォームに責任を求める声は減少している - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "93JlJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。\n僕の方はPolisのデータを見て「いやこれ参考にしたとは言えないのでは？」と感じています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE",
+                "text": "2023/7台湾Polisの投稿のうちKYAにつながりそうなもの"
+              },
+              {
+                "type": "text",
+                "text": "\n\nあと、熟義の後の話も「これは熟議がプラットフォーム規制に寄与したとは言えないんじゃない？」と思っています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B",
+                "text": "2024/3台湾の熟義でプラットフォームに責任を求める声は減少している"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ありがとうございます。\n僕の方はPolisのデータを見て「いやこれ参考にしたとは言えないのでは？」と感じています。\n<https://scrapbox.io/nishio/2023%2F7%E5%8F%B0%E6%B9%BEPolis%E3%81%AE%E6%8A%95%E7%A8%BF%E3%81%AE%E3%81%86%E3%81%A1KYA%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9D%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE|2023/7台湾Polisの投稿のうちKYAにつながりそうなもの>\n\nあと、熟義の後の話も「これは熟議がプラットフォーム規制に寄与したとは言えないんじゃない？」と思っています。\n<https://scrapbox.io/nishio/2024%2F3%E5%8F%B0%E6%B9%BE%E3%81%AE%E7%86%9F%E7%BE%A9%E3%81%A7%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AB%E8%B2%AC%E4%BB%BB%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E5%A3%B0%E3%81%AF%E6%B8%9B%E5%B0%91%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B|2024/3台湾の熟義でプラットフォームに責任を求める声は減少している>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1772588518.760099",
+    "client_msg_id": "2f1c70cc-fe93-4937-b863-167301022ad9",
+    "text": "単なるアンケートと、熟議後でのアンケートの結果は、議会で使う際の正統性レベルは後者のほうが高い、というイメージはある",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TBGSr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "単なるアンケートと、熟議後でのアンケートの結果は、議会で使う際の正統性レベルは後者のほうが高い、というイメージはある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "単なるアンケートと、熟議後でのアンケートの結果は、議会で使う際の正統性レベルは後者のほうが高い、というイメージはある"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1772588585.312549",
+    "client_msg_id": "9d5ed216-0865-45e3-8ca5-6b4916b2955b",
+    "text": "熟議は正統性レベルが高い、というの、直感では分かるんだが、理論化されてたりするんだろうか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OCfib",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議は正統性レベルが高い、というの、直感では分かるんだが、理論化されてたりするんだろうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "熟議は正統性レベルが高い、というの、直感では分かるんだが、理論化されてたりするんだろうか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772589683.182829",
+    "client_msg_id": "f0da3b49-418f-4c47-afdb-96235552f048",
+    "text": "熟議のプロセスでの教育や議論で誘導が起きてなければの話&gt; 正統性レベルは後者のほうが高い",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772532194.206419",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pWojG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "熟議のプロセスでの教育や議論で誘導が起きてなければの話> 正統性レベルは後者のほうが高い"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772532194.206419",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "熟議のプロセスでの教育や議論で誘導が起きてなければの話> 正統性レベルは後者のほうが高い"
+  },
+  {
+    "text": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。",
+    "files": [
+      {
+        "id": "F0AJNFLT3T3",
+        "created": 1772554084,
+        "timestamp": 1772554084,
+        "name": "fraud_reportv1.pdf",
+        "title": "fraud_reportv1.pdf",
+        "mimetype": "application/pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 4327571,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJNFLT3T3/fraud_reportv1.pdf",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJNFLT3T3/download/fraud_reportv1.pdf",
+        "media_display_type": "unknown",
+        "thumb_pdf": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJNFLT3T3-b62e44ddb9/fraud_reportv1_thumb_pdf.png",
+        "thumb_pdf_w": 910,
+        "thumb_pdf_h": 5222,
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AJNFLT3T3/fraud_reportv1.pdf",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AJNFLT3T3-661e180ca7",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5VbMd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08JFSYHEP6",
+      "type": "message",
+      "ts": "1772510662.439219",
+      "client_msg_id": "25991bc7-4169-42f4-9384-a06ce6977dfc",
+      "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという <@U08GJSBAX3K> <@U08JPUZRT40> がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: <https://baisoku-survey.plural-reality.com/preset/UDQfyMuS>\n期限: 3/6 までに回答いただけると嬉しいです",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1772510662.439219",
+      "reply_count": 7,
+      "reply_users_count": 5,
+      "latest_reply": "1772554102.167759",
+      "reply_users": [
+        "U08JGS0BS57",
+        "U08JFSYHEP6",
+        "U0A6CE44B2S",
+        "U08H3V9KMFH",
+        "U08GJSBAX3K"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS/opengraph-image?3e54c3f3cd054838",
+          "image_width": 1200,
+          "image_height": 630,
+          "image_bytes": 94695,
+          "from_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "service_icon": "https://baisoku-survey.plural-reality.com/apple-icon.png",
+          "id": 1,
+          "original_url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "fallback": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+          "text": "このテーマに関して熟議を行いたいです。この人が論点やトレードオフに関して考えを深め、立場がより明確に深まり、本人が自身のスタンスを理解する助けになると望ましい。",
+          "title": "オンライン広告詐欺について（アンケート試作 2026-03-03） | 倍速アンケート",
+          "title_link": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS",
+          "service_name": "baisoku-survey.plural-reality.com"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RXPys",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "【協力依頼】アンケート回答おねがいします！\n熟議前の事前調査として、オンライン広告詐欺についてのみなさんの意見やアイディアを収集しています。以下のリンクからご回答ください！（倍速アンケートという "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08GJSBAX3K"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08JPUZRT40"
+                },
+                {
+                  "type": "text",
+                  "text": " がつくってる新しいツールをつかってみる機会としてもぜひご参加ください）\n\nアンケートリンク: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://baisoku-survey.plural-reality.com/preset/UDQfyMuS"
+                },
+                {
+                  "type": "text",
+                  "text": "\n期限: 3/6 までに回答いただけると嬉しいです"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1772554102.167759",
+    "client_msg_id": "5fb4ef99-eb08-42aa-a0fd-6fb58684f232",
+    "thread_ts": "1772510662.439219",
+    "parent_user_id": "U08JFSYHEP6",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "現段階での回答結果です！スクロールすると後半に分析レポートがあります。"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1772562322.209989",
+    "client_msg_id": "15fe5243-d74e-47ea-9d7a-6a00fc0b288a",
+    "text": "アンケート答えてみました、このアンケートが100件、200件集まったときに、新しいインサイトが得られるイメージがないのだけど、ニーズとツールがミスマッチなのかな。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1LA0v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アンケート答えてみました、このアンケートが100件、200件集まったときに、新しいインサイトが得られるイメージがないのだけど、ニーズとツールがミスマッチなのかな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "アンケート答えてみました、このアンケートが100件、200件集まったときに、新しいインサイトが得られるイメージがないのだけど、ニーズとツールがミスマッチなのかな。"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1772585940.209399",
+    "client_msg_id": "31466ef1-cf44-41d6-905e-2c392c3ecb5e",
+    "text": "個人的な感想です。何がトレードオフの関係にあって、どちらかを優先すると片方が損なわれるが、あなたはどの立場から何を優先し、それはどのような考えに基づくのか？というのが一連のプロセスの中で徐々に判明していけばいいのかなと思いました、現状では、罰則を課すかどうかなどの結論ありきになっているのでアイディアも生まれにくいような気がします。ただ、これはこれとしてPolis的なものということで良いとして、また目的が異なるものも作成してみるのも手かもしれません。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S75MO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人的な感想です。何がトレードオフの関係にあって、どちらかを優先すると片方が損なわれるが、あなたはどの立場から何を優先し、それはどのような考えに基づくのか？というのが一連のプロセスの中で徐々に判明していけばいいのかなと思いました、現状では、罰則を課すかどうかなどの結論ありきになっているのでアイディアも生まれにくいような気がします。ただ、これはこれとしてPolis的なものということで良いとして、また目的が異なるものも作成してみるのも手かもしれません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "U0A67RK86BH",
+    "text_readable": "個人的な感想です。何がトレードオフの関係にあって、どちらかを優先すると片方が損なわれるが、あなたはどの立場から何を優先し、それはどのような考えに基づくのか？というのが一連のプロセスの中で徐々に判明していけばいいのかなと思いました、現状では、罰則を課すかどうかなどの結論ありきになっているのでアイディアも生まれにくいような気がします。ただ、これはこれとしてPolis的なものということで良いとして、また目的が異なるものも作成してみるのも手かもしれません。"
+  }
+]

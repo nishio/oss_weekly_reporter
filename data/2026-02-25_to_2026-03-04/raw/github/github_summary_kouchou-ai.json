@@ -1,0 +1,65 @@
+{
+  "period": {
+    "start": "2026-02-25T12:50:27.609769+09:00",
+    "end": "2026-03-04T12:50:27.609769+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 4005172784,
+      "number": 809,
+      "title": "[FEATURE] UMAPを並列化したい",
+      "state": "created"
+    },
+    {
+      "id": 3557668572,
+      "number": 726,
+      "title": "[BUG]公開状態にしたレポートがない状態で静的HTML出力をしたときのエラーメッセージがわかりにくい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4005792369,
+      "number": 812,
+      "title": "feat: 散布図のデータポイントホバー時にクラスタラベルを非表示にする",
+      "state": "merged"
+    },
+    {
+      "id": 4005718437,
+      "number": 811,
+      "title": "refactor: 属性フィルタロジックの統合とstale closureバグ修正",
+      "state": "merged"
+    },
+    {
+      "id": 3983667260,
+      "number": 808,
+      "title": "fix: override minimatch to ^10.2.1 to fix CVE-2026-26996 (ReDoS)",
+      "state": "merged"
+    },
+    {
+      "id": 4010657618,
+      "number": 814,
+      "title": "Show clear Japanese error on static build with no published reports",
+      "state": "created"
+    },
+    {
+      "id": 4009832986,
+      "number": 813,
+      "title": "fix: filter out empty/whitespace-only comments before LLM processing (#583) - conflict resolved",
+      "state": "created"
+    },
+    {
+      "id": 4005173296,
+      "number": 810,
+      "title": "feat: Make UMAP random_state configurable to enable parallelization",
+      "state": "created"
+    },
+    {
+      "id": 3970573977,
+      "number": 796,
+      "title": "fix: filter out empty/whitespace-only comments before LLM processing (#583)",
+      "state": "updated"
+    }
+  ]
+}

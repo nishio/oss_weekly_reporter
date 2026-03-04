@@ -1,0 +1,254 @@
+[
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772033180.185729",
+    "client_msg_id": "af1a620d-59e0-49c4-ae7a-3f4a1b80a247",
+    "text": "今日は動画フェーズ、投票フェーズ、LLMの逐次要約あたりまでいけた。フィジビリティチェック的にはいいとこまで行けた気がする。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6I3W8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日は動画フェーズ、投票フェーズ、LLMの逐次要約あたりまでいけた。フィジビリティチェック的にはいいとこまで行けた気がする。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08H3V9KMFH",
+          "U091ZN08WQH",
+          "U08GJSBAX3K",
+          "U0A67RK86BH"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "今日は動画フェーズ、投票フェーズ、LLMの逐次要約あたりまでいけた。フィジビリティチェック的にはいいとこまで行けた気がする。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772149834.383149",
+    "client_msg_id": "79b244e9-df36-4b53-90b6-a0da5b12b05f",
+    "text": "今晩予定がありまして、定例不参加です。リンクはおいておきます。\n<https://meet.google.com/goa-hwcn-jwx>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/goa-hwcn-jwx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/goa-hwcn-jwx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/goa-hwcn-jwx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G1ETu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今晩予定がありまして、定例不参加です。リンクはおいておきます。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/goa-hwcn-jwx"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "今晩予定がありまして、定例不参加です。リンクはおいておきます。\n<https://meet.google.com/goa-hwcn-jwx>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1772158639.901589",
+    "client_msg_id": "562860a5-447e-4ae8-b9f6-3f15fdbef68f",
+    "text": "<https://x.com/t_wada/status/2026911302279717070>\nこの投稿で、Slop fork という言葉を知って、気になったので調べてみました。\n（このプロジェクトでやろうとしていることは問題なさそう）\n<https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772158639.901589",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1772184933.225689",
+    "reply_users": [
+      "U08JFSYHEP6"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://x.com/t_wada/status/2026911302279717070",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "thumb_url": "https://pbs.twimg.com/profile_images/421959794/TQ_LOGO_200x200.png",
+        "thumb_width": 200,
+        "thumb_height": 200,
+        "id": 1,
+        "original_url": "https://x.com/t_wada/status/2026911302279717070",
+        "fallback": "X (formerly Twitter): Takuto Wada (@t_wada) on X",
+        "text": "包括的なテストコードがあれば短時間で Slop Fork （AI による雑フォーク）作成が可能であると分かってしまった結果、テストコードを非公開にする OSS が出始めた",
+        "title": "Takuto Wada (@t_wada) on X",
+        "title_link": "https://x.com/t_wada/status/2026911302279717070",
+        "service_name": "X (formerly Twitter)"
+      },
+      {
+        "image_url": "https://cdn.openai.com/chatgpt/share-og.png",
+        "image_width": 1600,
+        "image_height": 900,
+        "image_bytes": 705565,
+        "from_url": "https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d",
+        "service_icon": "https://chatgpt.com/cdn/assets/favicon-180x180-kqq5ndm1.webp",
+        "id": 2,
+        "original_url": "https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d",
+        "fallback": "ChatGPT: ChatGPT - Slop fork とは",
+        "text": "Shared via ChatGPT",
+        "title": "ChatGPT - Slop fork とは",
+        "title_link": "https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d",
+        "service_name": "ChatGPT"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xMhrY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/t_wada/status/2026911302279717070"
+              },
+              {
+                "type": "text",
+                "text": "\nこの投稿で、Slop fork という言葉を知って、気になったので調べてみました。\n（このプロジェクトでやろうとしていることは問題なさそう）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://x.com/t_wada/status/2026911302279717070>\nこの投稿で、Slop fork という言葉を知って、気になったので調べてみました。\n（このプロジェクトでやろうとしていることは問題なさそう）\n<https://chatgpt.com/share/69a0fe5e-7dd0-800c-9e35-ed4a2a6c738d>"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772184844.883409",
+    "client_msg_id": "4c23a199-b43f-4f52-ac67-c5c09ab8a2d7",
+    "text": "似た概念だと、バンパイアアタックというのが一時期クリプト界隈ではやりましたね。基本スマートコントラクトは全て公開する作法があるので、うまく行ったプロジェクトはすぐに真似されるという。\n\nちなみに、仁義切るためにAliceにはコンタクトとってます笑",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772158639.901589",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IKoZK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "似た概念だと、バンパイアアタックというのが一時期クリプト界隈ではやりましたね。基本スマートコントラクトは全て公開する作法があるので、うまく行ったプロジェクトはすぐに真似されるという。\n\nちなみに、仁義切るためにAliceにはコンタクトとってます笑"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1772158639.901589",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "似た概念だと、バンパイアアタックというのが一時期クリプト界隈ではやりましたね。基本スマートコントラクトは全て公開する作法があるので、うまく行ったプロジェクトはすぐに真似されるという。\n\nちなみに、仁義切るためにAliceにはコンタクトとってます笑"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1772184933.225689",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1772185147.000000"
+    },
+    "client_msg_id": "df0d5363-1e95-4121-b9f4-83e05bcd5e55",
+    "text": "とはいえ、もうコードにビジネス上の価値なくなってますからねぇ。2年前とか取れてたR&Dの開発系予算つきにくくなってるのを感じます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1772158639.901589",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Qi8HU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とはいえ、もうコードにビジネス上の価値なくなってますからねぇ。2年前とか取れてたR&Dの開発系予算つきにくくなってるのを感じます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "naruhodo",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1772158639.901589",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "とはいえ、もうコードにビジネス上の価値なくなってますからねぇ。2年前とか取れてたR&Dの開発系予算つきにくくなってるのを感じます。"
+  }
+]

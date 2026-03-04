@@ -1,0 +1,1166 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1771899120.372119",
+    "root": {
+      "user": "U08JASQKEEM",
+      "type": "message",
+      "ts": "1771899120.372119",
+      "client_msg_id": "5666dee5-3478-4eb9-aa3e-f140c2ab1f92",
+      "text": "AGENTS.md に DoD (Definition of Done) として \"Dockerイメージのサイズを計測し、 4GB 以下であることを確認\" とかしときますか",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1771899120.372119",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1772001799.492729",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "csiAA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "AGENTS.md に DoD (Definition of Done) として \"Dockerイメージのサイズを計測し、 4GB 以下であることを確認\" とかしときますか"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1772001799.492729",
+    "client_msg_id": "c084ad84-4661-4749-89f3-64d9e94f2804",
+    "text": "それはAIエージェントがやるべきではない\n確認のたびにビルドしてコンテキストを汚染するから\n\nCIで確認すべきでしょう",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o0Kgc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それはAIエージェントがやるべきではない\n確認のたびにビルドしてコンテキストを汚染するから\n\nCIで確認すべきでしょう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それはAIエージェントがやるべきではない\n確認のたびにビルドしてコンテキストを汚染するから\n\nCIで確認すべきでしょう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772098875.081239",
+    "client_msg_id": "4FE57226-A734-4B54-BB93-257A028DB65E",
+    "text": "白黒つけない会議の広聴AIまとめがリリースされました！\n<https://x.com/dangphoto83/status/2026949618362462376?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/dangphoto83/status/2026949618362462376?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "image_url": "https://pbs.twimg.com/media/HCEr77CbIAASuGP.jpg:large",
+        "image_width": 1040,
+        "image_height": 2048,
+        "image_bytes": 171503,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/dangphoto83/status/2026949618362462376?s=46&amp;t=gkSZtjGEtUZPO0JCzBxCBw",
+        "fallback": "X (formerly Twitter): 高橋団 / サイボウズ (@dangphoto83) on X",
+        "text": "動画のコメントをAIがカテゴライズして可視化してくれます。普通にYouTubeコメントを見るのと違って、多数派、少数派がわかったり、議論の全体を把握できたりします。自分の考えをまとめるきっかけにしてください",
+        "title": "高橋団 / サイボウズ (@dangphoto83) on X",
+        "title_link": "https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hOxZs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "白黒つけない会議の広聴AIまとめがリリースされました！"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw",
+                "text": "https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08GG5LRGMP",
+          "U08HZ8JS0EQ",
+          "U08H3V9KMFH"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "白黒つけない会議の広聴AIまとめがリリースされました！\n<https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw|https://x.com/dangphoto83/status/2026949618362462376?s=46&t=gkSZtjGEtUZPO0JCzBxCBw>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1772155409.083149",
+    "client_msg_id": "0b776f9b-ea4e-4622-a21c-6355b71c0ac6",
+    "text": "先日、元自治体職員の方に広聴AIのお話をしたところ、\n広聴AIのレポートを、自治体内の事業計画（予算）の分け方に合わせたカテゴリー分けできるとよいというフィードバックをいただきました。\n（これ複数回あるフィードバックですね。明確なニーズと言えそう）\n<https://dd2030.slack.com/archives/C09J7A6HKRA/p1772108780950589>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C09J7A6HKRA/p1772108780950589",
+        "ts": "1772108780.950589",
+        "author_id": "U08J6JR5SNQ",
+        "channel_id": "C09J7A6HKRA",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C09J7A6HKRA",
+            "ts": "1772108780.950589",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "o6P5p",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "nano bananaで図を適当に作っているけど、nano bananaの図が入ると、だいぶ分かりやすくなるなぁ"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C09J7A6HKRA/p1772108780950589",
+        "fallback": "[February 26th, 2026 4:26 AM] shinta.nakayama: nano bananaで図を適当に作っているけど、nano bananaの図が入ると、だいぶ分かりやすくなるなぁ",
+        "text": "nano bananaで図を適当に作っているけど、nano bananaの図が入ると、だいぶ分かりやすくなるなぁ",
+        "author_name": "中山心太（tokoroten）",
+        "author_link": "https://dd2030.slack.com/team/U08J6JR5SNQ",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8618637867012_26be93206834b059ed0a_48.jpg",
+        "author_subname": "中山心太（tokoroten）",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9SXsQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "先日、元自治体職員の方に広聴AIのお話をしたところ、\n広聴AIのレポートを、自治体内の事業計画（予算）の分け方に合わせたカテゴリー分けできるとよいというフィードバックをいただきました。\n（これ複数回あるフィードバックですね。明確なニーズと言えそう）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C09J7A6HKRA/p1772108780950589"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "先日、元自治体職員の方に広聴AIのお話をしたところ、\n広聴AIのレポートを、自治体内の事業計画（予算）の分け方に合わせたカテゴリー分けできるとよいというフィードバックをいただきました。\n（これ複数回あるフィードバックですね。明確なニーズと言えそう）\n<https://dd2030.slack.com/archives/C09J7A6HKRA/p1772108780950589>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772162235.505939",
+    "client_msg_id": "4a6a54e6-e911-4244-89dc-44515ab5f1eb",
+    "text": "今の広聴AIのプロセスの処理部分にJigsaw的LLM分類の枝ができたら、そのLLM分類の亜種として既存の分類構造をパラメータで与えることもできる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7kbtN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今の広聴AIのプロセスの処理部分にJigsaw的LLM分類の枝ができたら、そのLLM分類の亜種として既存の分類構造をパラメータで与えることもできる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今の広聴AIのプロセスの処理部分にJigsaw的LLM分類の枝ができたら、そのLLM分類の亜種として既存の分類構造をパラメータで与えることもできる"
+  },
+  {
+    "text": "0: 現状\n1: クラスタリング部分をLLMベースに変える枝\n2: LLMクラスタリングにパラメータとして既存のカテゴリーツリーを与えられるようにする",
+    "files": [
+      {
+        "id": "F0AHA8XCF99",
+        "created": 1772162388,
+        "timestamp": 1772162388,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 108287,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHA8XCF99/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHA8XCF99/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 149,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 199,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 298,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 332,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 398,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHA8XCF99-b2fb4fad47/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 424,
+        "original_w": 1711,
+        "original_h": 709,
+        "thumb_tiny": "AwAUADDSZgoJYgKO5NIHXnLjPGefXp+dOpGUMMMMjIP5c0AN35VtoBYZwM8Hr3/D8KEfczDDceowKdt+bdkg9Ov9KRnUHllA6cnvQA12feEXCk5IJBYYH5Ypyb8fOVzgcAdDSqMdeSOM96XAznAyOM0AFFFFAARkEetFFFABRRRQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AHA8XCF99/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AHA8XCF99-afeece0bc6",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XgXuq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "0: 現状\n1: クラスタリング部分をLLMベースに変える枝\n2: LLMクラスタリングにパラメータとして既存のカテゴリーツリーを与えられるようにする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1772162432.588119",
+    "client_msg_id": "3d765603-fd4c-4124-baaf-a59155e0638c",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "0: 現状\n1: クラスタリング部分をLLMベースに変える枝\n2: LLMクラスタリングにパラメータとして既存のカテゴリーツリーを与えられるようにする"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772162488.713599",
+    "client_msg_id": "ee41ffa3-f575-443c-8e5b-299f29d0b66a",
+    "text": "プラグイン化して枝をつけられるようにすることに比べると、単にプラグインにパラメータをつけるだけのことなので全然難しくはない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "v5ysA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "プラグイン化して枝をつけられるようにすることに比べると、単にプラグインにパラメータをつけるだけのことなので全然難しくはない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "プラグイン化して枝をつけられるようにすることに比べると、単にプラグインにパラメータをつけるだけのことなので全然難しくはない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772162521.124719",
+    "client_msg_id": "f4cdf61a-a2b5-4e60-9269-898d0bf94dba",
+    "text": "ただ、現状まだ “(1)が可能なように作ったつもりだけどまだ(1)自体は作ってない” の段階",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V7z8n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ただ、現状まだ “(1)が可能なように作ったつもりだけどまだ(1)自体は作ってない” の段階"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ただ、現状まだ “(1)が可能なように作ったつもりだけどまだ(1)自体は作ってない” の段階"
+  },
+  {
+    "text": "実装の都合を度外視すると概念的にはこっちの図の方が素直",
+    "files": [
+      {
+        "id": "F0AHAJBQPJP",
+        "created": 1772167427,
+        "timestamp": 1772167427,
+        "name": "iOS の画像.jpg",
+        "title": "iOS の画像",
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 115722,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "subtype": "slack_image",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHAJBQPJP/ios__________.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHAJBQPJP/download/ios__________.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________360.jpg",
+        "thumb_360_w": 360,
+        "thumb_360_h": 178,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________480.jpg",
+        "thumb_480_w": 480,
+        "thumb_480_h": 237,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________160.jpg",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________720.jpg",
+        "thumb_720_w": 720,
+        "thumb_720_h": 355,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________800.jpg",
+        "thumb_800_w": 800,
+        "thumb_800_h": 395,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________960.jpg",
+        "thumb_960_w": 960,
+        "thumb_960_h": 474,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHAJBQPJP-2a479ddc41/ios___________1024.jpg",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 505,
+        "original_w": 1962,
+        "original_h": 968,
+        "thumb_tiny": "AwAYADDTzzjB+tJkFcqRgjg9RS01UEcYRAAB7YoAZ52Z1jBjIYZHz8kfTH9acXUd2yOwBJ7/AOBoUvgAc84Jbr+lJKpbqWCjspOT+VAC78qNu4Fs4JQ/r/kU1RNu5dMA8/uyP60/G4DggD169KcQCCCAQeoNABSE4UkUtFADedh3AH+tOoooAKKKKAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AHAJBQPJP/ios__________.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AHAJBQPJP-d7f489b2ce",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Shaza",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実装の都合を度外視すると概念的にはこっちの"
+              },
+              {
+                "type": "text",
+                "text": "図の"
+              },
+              {
+                "type": "text",
+                "text": "方が素直"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1772167432.372199",
+    "client_msg_id": "A9352598-9007-46BB-B3AD-9DB06215D17E",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "実装の都合を度外視すると概念的にはこっちの図の方が素直"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772167496.042809",
+    "client_msg_id": "AA170553-FFF7-41FF-9ED2-526FAB6AFB18",
+    "text": "実装の楽さとか後での可視化とかを考えてembeddingの後で分岐しようと考えてるけど、論理的に「embeddingは必須か？」と言われたら「No」なので。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b9g87",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "実装の楽さとか後での可視化とかを考えてembeddingの後で分岐しようと考えてるけど、論理的に「embeddingは必須か？」と言われたら「No」なので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "実装の楽さとか後での可視化とかを考えてembeddingの後で分岐しようと考えてるけど、論理的に「embeddingは必須か？」と言われたら「No」なので。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772169148.066359",
+    "client_msg_id": "7ebc3f31-04b5-4fe3-bad1-2a57280f3ea6",
+    "text": "結局のところembeddingは本来の意味通り「離散的な集合を距離の入ったベクトル空間に埋め込む」ことで「距離」という分類基準を与えていて、\nLLMクラスタリングでは「分類ツリー」を与えることよって分類基準を与えている、というわけ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "niEO3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "結局のところembeddingは本来の意味通り「離散的な集合を距離の入ったベクトル空間に埋め込む」ことで「距離」という分類基準を与えていて、\nLLMクラスタリングでは「分類ツリー」を与えることよって分類基準を与えている、というわけ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "結局のところembeddingは本来の意味通り「離散的な集合を距離の入ったベクトル空間に埋め込む」ことで「距離」という分類基準を与えていて、\nLLMクラスタリングでは「分類ツリー」を与えることよって分類基準を与えている、というわけ"
+  },
+  {
+    "text": "AとBって全然別物なんで今まで「Bをやりたいです！」という意見に対しては「やったらいいじゃん(Aとは関係ないから)」と思ってたんだが\n大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見えるんだな",
+    "files": [
+      {
+        "id": "F0AHLN0N7GC",
+        "created": 1772169274,
+        "timestamp": 1772169274,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 183425,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHLN0N7GC/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AHLN0N7GC/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 197,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 263,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 395,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 439,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 527,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AHLN0N7GC-2d8dc9bcc4/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 562,
+        "original_w": 1823,
+        "original_h": 1000,
+        "thumb_tiny": "AwAbADDSJABJOAOpNNEqMu5XUqOpByKVgSuAxHuBzRjMgYjkZAOexx/hQApOMk4AHfNMEh3uCpAXnODz9PWm7gVYEHIYgBWOTn8vf6Y9qXaqMMBjj+J2JAz9f8/rRYLkisHUMMge4x/Ol+tMG7cdoX/a9c05VVRhVAHsKAFooooABjAxwKaEHOerdeB+VOooAKKKKAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AHLN0N7GC/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AHLN0N7GC-80b5a99234",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z1j3h",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AとBって全然別物なんで今まで「Bをやりたいです！」という意見に対しては「やったらいいじゃん(Aとは関係ないから)」と思ってたんだが\n大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見えるんだな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1772169407.147179",
+    "client_msg_id": "dd016850-6737-4e0c-8ec2-1d18d2db947c",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "AとBって全然別物なんで今まで「Bをやりたいです！」という意見に対しては「やったらいいじゃん(Aとは関係ないから)」と思ってたんだが\n大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見えるんだな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772169451.971449",
+    "client_msg_id": "9c18a369-4f73-4f7f-91db-5a1f398cbbca",
+    "text": "でまあ、Aの領域にとどまる必要はないし、プラグインという建て付けで色々追加できるようになったから、そういう周辺的ニーズも適宜取り込んで行ったらいいのかもな〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EmkPY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "でまあ、Aの領域にとどまる必要はないし、プラグインという建て付けで色々追加できるようになったから、そういう周辺的ニーズも適宜取り込んで行ったらいいのかもな〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "でまあ、Aの領域にとどまる必要はないし、プラグインという建て付けで色々追加できるようになったから、そういう周辺的ニーズも適宜取り込んで行ったらいいのかもな〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772169469.638219",
+    "client_msg_id": "3243c4e9-ee92-4379-a87d-853f55f03f13",
+    "text": "正直、ワードクラウド出せるようにしてもいいと思うw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "haJK5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "正直、ワードクラウド出せるようにしてもいいと思うw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "正直、ワードクラウド出せるようにしてもいいと思うw"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1772169854.823139",
+    "client_msg_id": "0fb90144-6ded-4161-b9bb-941842aef25f",
+    "text": "&gt; 大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見える\nユーザーは処理の中身そのものより、業務で使える形の結果が出るかに関心がある、ということなのかなと思いました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0Fr7B",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見える"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nユーザーは処理の中身そのものより、業務で使える形の結果が出るかに関心がある、ということなのかなと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "> 大部分のユーザはこういう分解をして捉えていなくて「データを入れたら分析が出てくるもの」と認識しているから「関係あるもの」に見える\nユーザーは処理の中身そのものより、業務で使える形の結果が出るかに関心がある、ということなのかなと思いました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1772427438.980359",
+    "client_msg_id": "ec694102-fed3-48d5-a4c9-8e4724df2b20",
+    "text": "Github Copilot Agentに作らせた標本フィルタのロジックが腐ってたのを、Claudeに修正させた\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/811>\n\nマウスホバー時にラベルを自動的に隠す\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/812>\n\nこれらの処理を入れました。こいつらは動作確認済みです。問題なければ取り込んでください。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1772322085,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/811",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#811 refactor: 属性フィルタロジックの統合とstale closureバグ修正",
+        "title": "#811 refactor: 属性フィルタロジックの統合とstale closureバグ修正",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/811",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      },
+      {
+        "id": 2,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1772324951,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/812",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#812 feat: 散布図のデータポイントホバー時にクラスタラベルを非表示にする",
+        "title": "#812 feat: 散布図のデータポイントホバー時にクラスタラベルを非表示にする",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/812",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OdHh8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Github Copilot Agentに作らせた標本フィルタのロジックが腐ってたのを、Claudeに修正させた\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/811"
+              },
+              {
+                "type": "text",
+                "text": "\n\nマウスホバー時にラベルを自動的に隠す\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/812"
+              },
+              {
+                "type": "text",
+                "text": "\n\nこれらの処理を入れました。こいつらは動作確認済みです。問題なければ取り込んでください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Github Copilot Agentに作らせた標本フィルタのロジックが腐ってたのを、Claudeに修正させた\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/811>\n\nマウスホバー時にラベルを自動的に隠す\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/812>\n\nこれらの処理を入れました。こいつらは動作確認済みです。問題なければ取り込んでください。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1772427464.885329",
+    "client_msg_id": "9c5cba48-f254-44eb-92a9-14a0355b41bd",
+    "text": "マウスホバー時にラベルを自動的に隠すのは、TTTCScatterを触っていて便利だったので。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6eA7V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "マウスホバー時にラベルを自動的に隠すのは、TTTCScatterを触っていて便利だったので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "マウスホバー時にラベルを自動的に隠すのは、TTTCScatterを触っていて便利だったので。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772521508.826679",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1772521514.000000"
+    },
+    "client_msg_id": "9f9550d9-b54f-440d-abd8-4d454105686f",
+    "text": "Talk to the CityのScatterとTurboの主たる開発者が誰なのかコミット履歴から特定しようとした結果、予想外の結論がでてお茶を吹きそうになった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "G3oqf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Talk to the CityのScatterとTurboの主たる開発者が誰なのかコミット履歴から特定しようとした結果、予想外の結論がでてお茶を吹きそうになった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Talk to the CityのScatterとTurboの主たる開発者が誰なのかコミット履歴から特定しようとした結果、予想外の結論がでてお茶を吹きそうになった"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F0AJ3UT5DUN",
+        "created": 1772521529,
+        "timestamp": 1772521529,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 235203,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJ3UT5DUN/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AJ3UT5DUN/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 202,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 270,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 404,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 449,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 539,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AJ3UT5DUN-c4ca79a389/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 575,
+        "original_w": 1528,
+        "original_h": 858,
+        "thumb_tiny": "AwAbADCoqjHDDpzkD/Gl+UgZbp1+Uf480IoJBw68bsqucY/H9fWlUt5agKxzwBg4P6+poAQPtBIKkk90Xrx/9f8Az0Q48kYIz0I2j379alM04XG1we7ZbPp6+2KjPmZZmDZ7k54oAYzFmycZ9hikoJJ60UAOGDtAI5HPHT9KQj3H4UmaKAHocH7ydO657/Smg4Hbr6UlFADj93GVI46Cm0UUAf/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AJ3UT5DUN/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AJ3UT5DUN-f74cdcfd12",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1772521533.429339",
+    "client_msg_id": "15838be1-1962-4c8a-aba9-c89774871c38",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772521573.699199",
+    "client_msg_id": "6583bbad-613a-4285-a524-4b061e4f7df6",
+    "text": "2023年12月に公開された時点でもうプロジェクト的には動いてなくて、公開後の唯一のコントリビューターは僕だったw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wJccz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "2023年12月に公開された時点でもうプロジェクト的には動いてなくて、公開後の唯一のコントリビューターは僕だったw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "2023年12月に公開された時点でもうプロジェクト的には動いてなくて、公開後の唯一のコントリビューターは僕だったw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772521985.393489",
+    "client_msg_id": "705a7ffc-7a17-4f85-9d95-0b03836a9742",
+    "text": "そしてこの匿名のlightningorb氏とColleen McKenzie氏のGitHub上での活動を見て、あ〜という気持ちになった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9yzkM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そしてこの匿名のlightningorb氏とColleen McKenzie氏のGitHub上での活動を見て、あ〜という気持ちになった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そしてこの匿名のlightningorb氏とColleen McKenzie氏のGitHub上での活動を見て、あ〜という気持ちになった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772522032.896909",
+    "client_msg_id": "4c4f4524-bde5-4cfd-859b-2dda80bdcb42",
+    "text": "というわけでアクティブに開発が続いている広聴AIはすばらしいですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "V8hCA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "というわけでアクティブに開発が続いている広聴AIはすばらしいですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "というわけでアクティブに開発が続いている広聴AIはすばらしいですね"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1772525207.044969",
+    "client_msg_id": "5a4863fc-fa13-4ab8-abe2-2179c57a8058",
+    "text": "Turboは今でも動いてるの?",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SXjCW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Turboは今でも動いてるの?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "Turboは今でも動いてるの?"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772526321.478549",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1772526384.000000"
+    },
+    "client_msg_id": "4effb083-a2cb-41eb-9445-9608ac2f30e2",
+    "text": "まずTurboも含めて <https://github.com/AIObjectives/talk-to-the-city-reports> のリポジトリは8ヶ月前にpublic archiveになっており、今後開発がおこなわれない旨の表明があります。\n\nで、新しい <https://github.com/AIObjectives/tttc-light-js/> は開発が進んでいます。ただし<https://github.com/AIObjectives/talk-to-the-city-reports|talk-to-the-city-reports> に僕よりコミットしていたメンバーは誰一人としてこの1年ここで活動していません。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GSrOU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まずTurboも含めて "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/AIObjectives/talk-to-the-city-reports"
+              },
+              {
+                "type": "text",
+                "text": " のリポジトリは8ヶ月前にpublic archiveになっており、今後開発がおこなわれない旨の表明があります。\n\nで、新しい "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/AIObjectives/tttc-light-js/"
+              },
+              {
+                "type": "text",
+                "text": " は開発が進んでいます。ただし"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/AIObjectives/talk-to-the-city-reports",
+                "text": "talk-to-the-city-reports"
+              },
+              {
+                "type": "text",
+                "text": " に僕よりコミットしていたメンバーは誰一人としてこの1年ここで活動していません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まずTurboも含めて <https://github.com/AIObjectives/talk-to-the-city-reports> のリポジトリは8ヶ月前にpublic archiveになっており、今後開発がおこなわれない旨の表明があります。\n\nで、新しい <https://github.com/AIObjectives/tttc-light-js/> は開発が進んでいます。ただし<https://github.com/AIObjectives/talk-to-the-city-reports|talk-to-the-city-reports> に僕よりコミットしていたメンバーは誰一人としてこの1年ここで活動していません。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772526434.272409",
+    "client_msg_id": "582ec0ca-3fe0-4b0e-af29-f7bcbf8a1c2e",
+    "text": "名前の継続性も開発者の継続性もなくなっちゃったんだなぁ〜という感じです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+N36L",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "名前の継続性も開発者の継続性もなくなっちゃったんだなぁ〜という感じです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "名前の継続性も開発者の継続性もなくなっちゃったんだなぁ〜という感じです。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1772534102.436239",
+    "client_msg_id": "89b48d2d-3492-4e6d-b92b-3a68679e691c",
+    "text": "残さなくてはいけないのはプロダクトではなくコミュニティーな気がしますけど、やっぱりそれは難しいんですかね。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EhEIj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "残さなくてはいけないのはプロダクトではなくコミュニティーな気がしますけど、やっぱりそれは難しいんですかね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "残さなくてはいけないのはプロダクトではなくコミュニティーな気がしますけど、やっぱりそれは難しいんですかね。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1772535917.126339",
+    "client_msg_id": "0060884a-2462-4c20-ab81-b04d90d58078",
+    "text": "開発者の継続性がなくなってもユーザコミュニティが継続していればいずれ新しい開発者が見つかるかもしれない…\nそういう意味で言うとTTTCもSODPも「ユーザコミュニティ」を作ることはできてなさそうですね。\nPolisは無性のサーバが起動し続けていたことによって世界中にユーザができた。\nコミュニティとしてつながってはいないかもだけど。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yUqJQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発者の継続性がなくなってもユーザコミュニティが継続していればいずれ新しい開発者が見つかるかもしれない…\nそういう意味で言うとTTTCもSODPも「ユーザコミュニティ」を作ることはできてなさそうですね。\nPolisは無性のサーバが起動し続けていたことによって世界中にユーザができた。\nコミュニティとしてつながってはいないかもだけど。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "開発者の継続性がなくなってもユーザコミュニティが継続していればいずれ新しい開発者が見つかるかもしれない…\nそういう意味で言うとTTTCもSODPも「ユーザコミュニティ」を作ることはできてなさそうですね。\nPolisは無性のサーバが起動し続けていたことによって世界中にユーザができた。\nコミュニティとしてつながってはいないかもだけど。"
+  }
+]
