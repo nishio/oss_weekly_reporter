@@ -1,0 +1,31 @@
+[
+  {
+    "id": 3553279035,
+    "number": 218,
+    "title": "ディレクトリ構成の整理",
+    "state": "closed",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/issues/218",
+    "user": "grassfieldk",
+    "created_at": "2025-10-26T04:41:46Z",
+    "closed_at": "2026-03-05T10:29:47Z",
+    "body": "## 解決・改善したいこと\n\nNext.js のコードがプロジェクトルートに並んでおり、共通の設定ファイルなどと区別がつきづらい\nまた、Next.js のコードだけをみても src ディレクトリが採用されておらず管理がしづらい\n\n\n## 具体的な実現方法・実装方法の概要（未記入でも構いません）\n\nfrontend/ ディレクトリを作成し、次のようにまとめる\n※ デプロイの都合上これだとうまくいかない可能性もあるため注意\n\n```\nfrontend/app/\nfrontend/components/\nfrontend/data/\nfrontend/models/\nfrontend/public/\nfrontend/utils/\nfrontend/next.config.ts\nfrontend/next-env.d.ts\n```",
+    "type": "issue"
+  },
+  {
+    "id": 3870489879,
+    "number": 247,
+    "title": "フロントエンドのコード整理",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/247",
+    "user": "grassfieldk",
+    "created_at": "2026-01-29T12:47:21Z",
+    "merged_at": "2026-03-05T10:29:46Z",
+    "body": "## 変更の概要\r\n\r\n- フロントエンドのコードを frontend ディレクトリにまとめる\r\n- Next.js の脆弱性への対応\r\n- 動的エクスポートへの変更およびこれに伴うリファクタリング\r\n\r\n\r\n## 変更の背景\r\n\r\n- ルートディレクトリ配下にフロントエンド・バックエンドのコードが混在し、わかりづらくなっていたため\r\n- デプロイ先を GitHub Pages から Vercel に変えたことにより動的サイトの実行が可能となったため\r\n\r\n\r\n## 関連Issue\r\n\r\nClose: #218 #219 \r\n\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **構造の最適化**\n  * フロントエンドを専用ディレクトリに集約し、プロジェクト構成を整理しました。\n\n* **デプロイメント改善**\n  * GitHub PagesからVercel中心のデプロイへ移行し、フロントエンド向けビルド設定を更新しました。\n\n* **削除/整理**\n  * バックエンド関連のサービス・ツール群、画像/データ生成ツール、及び多くのドキュメントやサンプルデータを削除・整理しました。\n\n* **ドキュメント**\n  * README等の説明を簡潔化・再構成しました。\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 1743,
+    "deletions": 20230,
+    "changed_files": 158,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

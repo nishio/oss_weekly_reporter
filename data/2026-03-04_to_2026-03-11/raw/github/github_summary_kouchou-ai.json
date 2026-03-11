@@ -1,0 +1,47 @@
+{
+  "period": {
+    "start": "2026-03-04T12:50:58.983330+09:00",
+    "end": "2026-03-11T12:50:58.983330+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 3099729568,
+      "number": 583,
+      "title": "[BUG]分析対象のカラムにから文字列が含まれているとエラーになる",
+      "state": "closed"
+    },
+    {
+      "id": 4042811405,
+      "number": 815,
+      "title": "#813 の coderabbit, github workflow についての議論",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4009832986,
+      "number": 813,
+      "title": "fix: filter out empty/whitespace-only comments before LLM processing (#583) - conflict resolved",
+      "state": "merged"
+    },
+    {
+      "id": 3970573977,
+      "number": 796,
+      "title": "fix: filter out empty/whitespace-only comments before LLM processing (#583)",
+      "state": "merged"
+    },
+    {
+      "id": 4052260225,
+      "number": 817,
+      "title": "誤混入したCI設定を見直し、CodeQL定期実行とCodeRabbit設定を調整",
+      "state": "created"
+    },
+    {
+      "id": 4045098570,
+      "number": 816,
+      "title": "Make UMAP n_neighbors configurable in hierarchical clustering (default: 15)",
+      "state": "created"
+    }
+  ]
+}
