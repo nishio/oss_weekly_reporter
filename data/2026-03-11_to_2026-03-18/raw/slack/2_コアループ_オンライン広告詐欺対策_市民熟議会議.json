@@ -1,0 +1,249 @@
+[
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1773283412.618389",
+    "client_msg_id": "d9dbc724-0b14-4ec5-8b06-00ac7cd5b1d6",
+    "text": "<!channel> 3/19 10:00-11:00、永田町都道府県会館にて記者会見を行います。もし当日参加されたい方がいらっしゃいましたら、席を準備しますのでこちらに返信頂けますか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773283412.618389",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1773283549.545319",
+    "reply_users": [
+      "U09C3J7V960"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XktUj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "channel"
+              },
+              {
+                "type": "text",
+                "text": " 3/19 10:00-11:00、永田町都道府県会館にて記者会見を行います。もし当日参加されたい方がいらっしゃいましたら、席を準備しますのでこちらに返信頂けますか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08U6HFDS1G"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U09C3J7V960",
+    "text_readable": "<!channel> 3/19 10:00-11:00、永田町都道府県会館にて記者会見を行います。もし当日参加されたい方がいらっしゃいましたら、席を準備しますのでこちらに返信頂けますか。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1773283549.545319",
+    "client_msg_id": "222d3fe2-24f0-4433-8675-6271de5f4153",
+    "text": "現在の状況（漏れている人いたらすいません）：\n出席者（DD2030側）8名\n健さん\nリード（縄田さん、赤澤さん、りょうまさん、西田）\nコミュニケーション（井出さん、佐々木さん、佐藤さん）\n\n慶應義塾大学：駒村先生1名",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773283412.618389",
+    "parent_user_id": "U09C3J7V960",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f/hpe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在の状況（漏れている人いたらすいません）：\n出席者（DD2030側）8名\n健さん\nリード（縄田さん、赤澤さん、りょうまさん、西田）\nコミュニケーション（井出さん、佐々木さん、佐藤さん）\n\n慶應義塾大学：駒村先生1名"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U091ZN08WQH",
+          "U08HKLUGE67"
+        ],
+        "count": 2
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U0A821PG3PA"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773283412.618389",
+    "user_name": "U09C3J7V960",
+    "text_readable": "現在の状況（漏れている人いたらすいません）：\n出席者（DD2030側）8名\n健さん\nリード（縄田さん、赤澤さん、りょうまさん、西田）\nコミュニケーション（井出さん、佐々木さん、佐藤さん）\n\n慶應義塾大学：駒村先生1名"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773654057.506659",
+    "client_msg_id": "75195b6f-b9a1-418b-89f9-bb7a21c4c82a",
+    "text": "コアループ週次レポート(3/14)\n• 全体: スタンフォードAliceとMtgしてDPにするかどうかの協議を行いました。クラファン開始に向けてカウントダウン的に告知をはじめ、AntiFraud試験運用ベータを公開し、すでに40件の報告があつまっています。（鈴木）\n• Process: 調査会社と引き続き<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&amp;tab=t.1pri05nn1e8d#bookmark=id.kqtfqv460vcb|MTG>・見積もり交渉を重ねています。その他、Techチームとともにスタンフォード・Alice氏と<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&amp;tab=t.1pri05nn1e8d#bookmark=id.vuilowkdvqka|MTG>を行いました。DP実施に向けて内部で検討を進めていきます。（縄田）\n• Tech:  倍速アンケートの改善と、AIインタビューのプロトタイプが進んでいます。<https://ai-interview-7hg.pages.dev/|AIインタビューについてはこちらで体験できます。>\n• Policy: DPにご参加いただく有識者の選定のためオンライン広告詐欺やデジタルプラットフォーム上の課題に詳しい有識者へのヒアリングを進めています。来週は京都大学曽我部先生、再来週に東京大学澁谷先生、神戸大学善如先生、森濱田弁護士事務所の増島弁護士など政府検討会に参加されている方々に高い関心を持ってもらいヒアリングを実施します。（小倉）\n• Reference Product: AntiFraudβを公開しました。クラファンスタートまで投稿を受け付けつつ、細かいアップデートを今後入れていく予定です。（赤澤）\n• Communication: 3月19日10:00～11:00（永田町都道府県会館）に向けて各種動いています。<https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&amp;utm_campaign=cp_po_share_c_msg_projects_show|クラファンページ>も準備してます。コメントあればお願いします！（西田）\n",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show",
+        "image_url": "https://static.camp-fire.jp/uploads/project_version/image/1555593/fb7f0f5b-6844-4667-b01e-d1dd5ed6ac00.jpeg?ixlib=rails-2.1.4&fit=fill&auto=format&ref=projects_overview&w=1200&h=630&fill=blur",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 37154,
+        "service_icon": "https://camp-fire.jp/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&amp;utm_campaign=cp_po_share_c_msg_projects_show",
+        "fallback": "SNS型投資詐欺の被害額1,274億円。テクノロジーと市民の力で止める。",
+        "text": "SNS型投資詐欺の被害額は1,274億円。その主な手口が、有名人なりすまし詐欺広告です。私たちは通報プラットフォーム「AntiFraud」で詐欺広告を可視化し、市民の議論で規制のあり方を考え、政策に届けます。台湾では市民の声起点での政策形成で被害が97%減りました。次は日本の番です。",
+        "title": "SNS型投資詐欺の被害額1,274億円。テクノロジーと市民の力で止める。",
+        "title_link": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show",
+        "service_name": "camp-fire.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0r9G+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コアループ週次レポート(3/14)\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "全体: スタンフォードAliceとMtgしてDPにするかどうかの協議を行いました。クラファン開始に向けてカウントダウン的に告知をはじめ、AntiFraud試験運用ベータを公開し、すでに40件の報告があつまっています。（鈴木）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Process: 調査会社と引き続き"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.kqtfqv460vcb",
+                    "text": "MTG"
+                  },
+                  {
+                    "type": "text",
+                    "text": "・見積もり交渉を重ねています。その他、Techチームとともにスタンフォード・Alice氏と"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.vuilowkdvqka",
+                    "text": "MTG"
+                  },
+                  {
+                    "type": "text",
+                    "text": "を行いました。DP実施に向けて内部で検討を進めていきます。（縄田）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Tech:  倍速アンケートの改善と、AIインタビューのプロトタイプが進んでいます。"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://ai-interview-7hg.pages.dev/",
+                    "text": "AIインタビューについてはこちらで体験できます。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Policy: DPにご参加いただく有識者の選定のためオンライン広告詐欺やデジタルプラットフォーム上の課題に詳しい有識者へのヒアリングを進めています。来週は京都大学曽我部先生、再来週に東京大学澁谷先生、神戸大学善如先生、森濱田弁護士事務所の増島弁護士など政府検討会に参加されている方々に高い関心を持ってもらいヒアリングを実施します。（小倉）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Reference Product: AntiFraudβを公開しました。クラファンスタートまで投稿を受け付けつつ、細かいアップデートを今後入れていく予定です。（赤澤）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Communication: 3月19日10:00～11:00（永田町都道府県会館）に向けて各種動いています。"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show",
+                    "text": "クラファンページ"
+                  },
+                  {
+                    "type": "text",
+                    "text": "も準備してます。コメントあればお願いします！（西田）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08HN9UDJUB"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "コアループ週次レポート(3/14)\n• 全体: スタンフォードAliceとMtgしてDPにするかどうかの協議を行いました。クラファン開始に向けてカウントダウン的に告知をはじめ、AntiFraud試験運用ベータを公開し、すでに40件の報告があつまっています。（鈴木）\n• Process: 調査会社と引き続き<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.kqtfqv460vcb|MTG>・見積もり交渉を重ねています。その他、Techチームとともにスタンフォード・Alice氏と<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?pli=1&tab=t.1pri05nn1e8d#bookmark=id.vuilowkdvqka|MTG>を行いました。DP実施に向けて内部で検討を進めていきます。（縄田）\n• Tech:  倍速アンケートの改善と、AIインタビューのプロトタイプが進んでいます。<https://ai-interview-7hg.pages.dev/|AIインタビューについてはこちらで体験できます。>\n• Policy: DPにご参加いただく有識者の選定のためオンライン広告詐欺やデジタルプラットフォーム上の課題に詳しい有識者へのヒアリングを進めています。来週は京都大学曽我部先生、再来週に東京大学澁谷先生、神戸大学善如先生、森濱田弁護士事務所の増島弁護士など政府検討会に参加されている方々に高い関心を持ってもらいヒアリングを実施します。（小倉）\n• Reference Product: AntiFraudβを公開しました。クラファンスタートまで投稿を受け付けつつ、細かいアップデートを今後入れていく予定です。（赤澤）\n• Communication: 3月19日10:00～11:00（永田町都道府県会館）に向けて各種動いています。<https://camp-fire.jp/projects/930941/preview?token=3mzs6cea&utm_campaign=cp_po_share_c_msg_projects_show|クラファンページ>も準備してます。コメントあればお願いします！（西田）\n"
+  }
+]

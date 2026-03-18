@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3090423906,
+    "number": 573,
+    "title": "[ALGORITHM] PLaMo-Embedding-1Bの動作実験",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/573",
+    "user": "tokoroten",
+    "created_at": "2025-05-26T08:27:08Z",
+    "updated_at": "2026-03-13T14:33:36Z",
+    "body": "# 背景\n\n現在使っているSentenseTransformerはマルチランゲージ対応\n\nPLaMo-Embedding-1Bは日本語特化で作られているので、日本語特化版で性能比較をしたい\nhttps://tech.preferred.jp/ja/blog/plamo-embedding-1b/\n\n現在使われているSentenseTransformerよりも、良い結果が出るのであれば、組み込みembededdingを交換可能にしたい\n",
+    "type": "issue"
+  }
+]

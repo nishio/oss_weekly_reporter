@@ -1,0 +1,1903 @@
+[
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773384456.281179",
+    "client_msg_id": "a8bbefbe-0e07-4c69-bae8-cc834c6fb0ad",
+    "text": "今日の定例は僕の方でAIインタビューのプロトタイプをつくったのでそれをシェアするのと、もしブルーモさんから倍速アンケートのアップデートがあったらそれをシェアしてもらいますか。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NHXkr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日の定例は僕の方でAIインタビューのプロトタイプをつくったのでそれをシェアするのと、もしブルーモさんから倍速アンケートのアップデートがあったらそれをシェアしてもらいますか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "すごい",
+        "users": [
+          "U0A67RK86BH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "今日の定例は僕の方でAIインタビューのプロトタイプをつくったのでそれをシェアするのと、もしブルーモさんから倍速アンケートのアップデートがあったらそれをシェアしてもらいますか。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773384499.515309",
+    "client_msg_id": "233a4cff-f832-4d3e-83ce-b13cc5c12dd6",
+    "text": "DD2030Techチーム定例\n3月13日金曜日  •  20時00分～21時00分\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: <https://meet.google.com/goa-hwcn-jwx|https://meet.google.com/goa-hwcn-jwx>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773384499.515309",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1773388467.000479",
+    "reply_users": [
+      "U0A67RK86BH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/goa-hwcn-jwx",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/goa-hwcn-jwx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/goa-hwcn-jwx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Aiilf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DD2030Techチーム定例\n3月13日金曜日  •  20時00分～21時00分\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/goa-hwcn-jwx",
+                "text": "https://meet.google.com/goa-hwcn-jwx",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "DD2030Techチーム定例\n3月13日金曜日  •  20時00分～21時00分\nGoogle Meet の参加に必要な情報\nビデオ通話のリンク: <https://meet.google.com/goa-hwcn-jwx|https://meet.google.com/goa-hwcn-jwx>"
+  },
+  {
+    "user": "U0A67RK86BH",
+    "type": "message",
+    "ts": "1773388467.000479",
+    "client_msg_id": "79e265dd-d211-41b3-a876-b6d562d703b1",
+    "text": "<@U08JFSYHEP6>\nDPのツールなので急ぎではないのですが、調査会社とやり取りする中で、以下が論点となりました。特にP1は費用に響くので、今後のツール検討の際にご相談したいです。\n\n• (P1)調査会社が普段Zoom等で実施している「事前のオンライン接続確認」をあえて行わないことで、工数を削減し費用を抑えることが可能。代わりに、リンクとパスワードのみで、高齢者やスペックが低い端末を使う人でも容易に入室できるツールである必要がある\n• (P1)謝金支払いの観点から、DPオンラインツール上の参加者300人分の特定が必須。事前に名前指定や操作方法を指示していても必ず漏れは想定される。Zoom等の場合、名前変更を促す手間が大きすぎるので、例えば入室後に「参加確認ボタン」を押下してもらい、システム側で名前とログを自動で紐付けるような、手動確認に頼らない仕組みが必要ではないか。\n• (P1)想定されるトラブル（例：ツールに入る以前→「ツールに入れない」「メールが届いていない」、ツールに入った後→「動作がうまくいかない」「音が聞こえない」）に対して、人力で対応しようとすると調査会社の見積もりが高くなるため、Techで解決できそうな部分がどこで、どこからは人を張る必要があるかを整理したい\n• (P2)DP参加者をPCユーザーに絞ると、偏りが生じることと、回収が困難になるため、できればスマホやタブレット端末でも参加できるようにしたい\n• (P3)事前アンケート（T1）は調査会社経由で300名に配布してもらう想定だが、現状、未回答者への督促を行うには、両社間でデータのやり取り（ラリー）が必要であり、煩雑さが課題となっている 。GoogleフォームやQualtricsを活用し、調査会社側もリアルタイムで回答状況を確認できる共有アクセス権限の付与を検討できないか。また、Googleフォームは重複回答が可能なので、要検討",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773384499.515309",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pUR8X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JFSYHEP6"
+              },
+              {
+                "type": "text",
+                "text": "\nDPのツールなので急ぎではないのですが、調査会社とやり取りする中で、以下が論点となりました。特にP1は費用に響くので、今後のツール検討の際にご相談したいです。\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(P1)調査会社が普段Zoom等で実施している「事前のオンライン接続確認」をあえて行わないことで、工数を削減し費用を抑えることが可能。代わりに、リンクとパスワードのみで、高齢者やスペックが低い端末を使う人でも容易に入室できるツールである必要がある"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(P1)謝金支払いの観点から、DPオンラインツール上の参加者300人分の特定が必須。事前に名前指定や操作方法を指示していても必ず漏れは想定される。Zoom等の場合、名前変更を促す手間が大きすぎるので、例えば入室後に「参加確認ボタン」を押下してもらい、システム側で名前とログを自動で紐付けるような、手動確認に頼らない仕組みが必要ではないか。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(P1)想定されるトラブル（例：ツールに入る以前→「ツールに入れない」「メールが届いていない」、ツールに入った後→「動作がうまくいかない」「音が聞こえない」）に対して、人力で対応しようとすると調査会社の見積もりが高くなるため、Techで解決できそうな部分がどこで、どこからは人を張る必要があるかを整理したい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(P2)DP参加者をPCユーザーに絞ると、偏りが生じることと、回収が困難になるため、できればスマホやタブレット端末でも参加できるようにしたい"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "(P3)事前アンケート（T1）は調査会社経由で300名に配布してもらう想定だが、現状、未回答者への督促を行うには、両社間でデータのやり取り（ラリー）が必要であり、煩雑さが課題となっている 。GoogleフォームやQualtricsを活用し、調査会社側もリアルタイムで回答状況を確認できる共有アクセス権限の付与を検討できないか。また、Googleフォームは重複回答が可能なので、要検討"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773384499.515309",
+    "user_name": "U0A67RK86BH",
+    "text_readable": "@yuki.kawabe\nDPのツールなので急ぎではないのですが、調査会社とやり取りする中で、以下が論点となりました。特にP1は費用に響くので、今後のツール検討の際にご相談したいです。\n\n• (P1)調査会社が普段Zoom等で実施している「事前のオンライン接続確認」をあえて行わないことで、工数を削減し費用を抑えることが可能。代わりに、リンクとパスワードのみで、高齢者やスペックが低い端末を使う人でも容易に入室できるツールである必要がある\n• (P1)謝金支払いの観点から、DPオンラインツール上の参加者300人分の特定が必須。事前に名前指定や操作方法を指示していても必ず漏れは想定される。Zoom等の場合、名前変更を促す手間が大きすぎるので、例えば入室後に「参加確認ボタン」を押下してもらい、システム側で名前とログを自動で紐付けるような、手動確認に頼らない仕組みが必要ではないか。\n• (P1)想定されるトラブル（例：ツールに入る以前→「ツールに入れない」「メールが届いていない」、ツールに入った後→「動作がうまくいかない」「音が聞こえない」）に対して、人力で対応しようとすると調査会社の見積もりが高くなるため、Techで解決できそうな部分がどこで、どこからは人を張る必要があるかを整理したい\n• (P2)DP参加者をPCユーザーに絞ると、偏りが生じることと、回収が困難になるため、できればスマホやタブレット端末でも参加できるようにしたい\n• (P3)事前アンケート（T1）は調査会社経由で300名に配布してもらう想定だが、現状、未回答者への督促を行うには、両社間でデータのやり取り（ラリー）が必要であり、煩雑さが課題となっている 。GoogleフォームやQualtricsを活用し、調査会社側もリアルタイムで回答状況を確認できる共有アクセス権限の付与を検討できないか。また、Googleフォームは重複回答が可能なので、要検討"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773400782.299579",
+    "client_msg_id": "807b5042-fc1a-4d85-9877-1080dfd81c80",
+    "text": "今日はみなさん忙しそうなのでスキップしましょうか\n\n<@U08GJSBAX3K> 倍速アンケートのほういかがでしょう？もし進捗あればテキストでもらえると嬉しいです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "reply_count": 15,
+    "reply_users_count": 4,
+    "latest_reply": "1773759999.434589",
+    "reply_users": [
+      "U08GJSBAX3K",
+      "U08JFSYHEP6",
+      "U08KVN5B6HX",
+      "U0A6CE44B2S"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TAfjd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日はみなさん忙しそうなのでスキップしましょうか\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " 倍速アンケートのほういかがでしょう？もし進捗あればテキストでもらえると嬉しいです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "今日はみなさん忙しそうなのでスキップしましょうか\n\n@shutaro.aoyama 倍速アンケートのほういかがでしょう？もし進捗あればテキストでもらえると嬉しいです！"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773403639.622169",
+    "client_msg_id": "F6FC4A67-172E-4D52-BCFA-0BD25E3F659E",
+    "text": "すみません！今日中に返信します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9ekLO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません！今日中に返信します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "すみません！今日中に返信します"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773444862.301249",
+    "client_msg_id": "2A267BBC-83CA-4491-BF6A-4828E042BAB6",
+    "text": "すみません返信大変遅くなりました:bow:\nまだ最後に自由記述を追加したデモが準備できていないです。\n16日までに実装して、DD内で詐欺広告のテーマで作ったデモをシェアします。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PO29C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません返信大変遅くなりました"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              },
+              {
+                "type": "text",
+                "text": "\nまだ"
+              },
+              {
+                "type": "text",
+                "text": "最後に自由記述を追加した"
+              },
+              {
+                "type": "text",
+                "text": "デモが準備できていないです"
+              },
+              {
+                "type": "text",
+                "text": "。\n"
+              },
+              {
+                "type": "text",
+                "text": "16日までに実装し"
+              },
+              {
+                "type": "text",
+                "text": "て、DD内で詐欺広告のテーマで作ったデモをシェアします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "すみません返信大変遅くなりました:bow:\nまだ最後に自由記述を追加したデモが準備できていないです。\n16日までに実装して、DD内で詐欺広告のテーマで作ったデモをシェアします。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773454095.052239",
+    "client_msg_id": "6aab3bb1-d7d8-4ae5-bc6b-263456b4758f",
+    "text": "了解です、よろしくお願いします！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ObkWC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "了解です、よろしくお願いします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "了解です、よろしくお願いします！"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773658450.123229",
+    "client_msg_id": "cd63d02b-4de1-437b-b63a-ec52f6da06cf",
+    "text": "<@U08GJSBAX3K> cc <@U08KVN5B6HX> \nお疲れ様ですー\nこちら健さんとレビューするのをオンラインでできたらと思うのですがご都合いかがでしょう？\n\n明日17日 13:00~14:30 18:30以降\n明後日18日 11:00~17:00",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xH52r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K",
+                "from_llm": false
+              },
+              {
+                "type": "text",
+                "text": " cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08KVN5B6HX",
+                "from_llm": false
+              },
+              {
+                "type": "text",
+                "text": " \nお疲れ様ですー\nこちら健さんとレビューするのをオンラインでできたらと思うのですがご都合いかがでしょう？\n\n明日17日 13:00~14:30 18:30以降\n明後日18日 11:00~17:00"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "@shutaro.aoyama cc @kensuzuki \nお疲れ様ですー\nこちら健さんとレビューするのをオンラインでできたらと思うのですがご都合いかがでしょう？\n\n明日17日 13:00~14:30 18:30以降\n明後日18日 11:00~17:00"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773704727.680739",
+    "client_msg_id": "69196032-e11d-438f-8d2c-305f155201f5",
+    "text": "連絡遅くなってすみません、倍速アンケートのデプロイ環境自体に問題が発生していて少し手間取っています。\nうまくいけば一時間以内にシェアできると思います、時間がかかっていて申し訳ないです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UoGdz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "連絡遅くなってすみません、倍速アンケートのデプロイ環境自体に問題が発生していて少し手間取っています。\nうまくいけば一時間以内にシェアできると思います、時間がかかっていて申し訳ないです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "連絡遅くなってすみません、倍速アンケートのデプロイ環境自体に問題が発生していて少し手間取っています。\nうまくいけば一時間以内にシェアできると思います、時間がかかっていて申し訳ないです。"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773704845.871379",
+    "client_msg_id": "33af9639-f5d5-4a14-8cb3-0afcaee22f50",
+    "text": "レビューのセットありがとうございます、今晩(17日)の23:00-24:00であれば可能です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "b5ceh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レビューのセットありがとうございます、今晩(17日)の23:00-24:00であれば可能です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "レビューのセットありがとうございます、今晩(17日)の23:00-24:00であれば可能です！"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773705134.441649",
+    "client_msg_id": "baacef75-49a4-48e7-9490-457773d4e348",
+    "text": "ぼくは大丈夫です。\n<@U0A6CE44B2S> 可能なら参加してください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qrVfI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ぼくは大丈夫です。\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U0A6CE44B2S"
+              },
+              {
+                "type": "text",
+                "text": " 可能なら参加してください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Ken Suzuki",
+    "text_readable": "ぼくは大丈夫です。\n<@U0A6CE44B2S> 可能なら参加してください。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773705154.693709",
+    "client_msg_id": "7b1b14e0-2a18-4efa-860e-ed5fa1276aca",
+    "text": "ではお願いします、スケジュール飛ばしておきます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QScim",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ではお願いします、スケジュール飛ばしておきます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "ではお願いします、スケジュール飛ばしておきます"
+  },
+  {
+    "user": "U0A6CE44B2S",
+    "type": "message",
+    "ts": "1773705618.693779",
+    "client_msg_id": "8e83c399-cbe5-458b-bc7f-73f9e354cf1e",
+    "text": "ありがとうございます、今晩(17日)の23:00-24:00大丈夫です\nアンケート項目も早めに準備して共有します。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "71DkN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます、今晩(17日)の23:00-24:00大丈夫です\nアンケート項目も早めに準備して共有します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "U0A6CE44B2S",
+    "text_readable": "ありがとうございます、今晩(17日)の23:00-24:00大丈夫です\nアンケート項目も早めに準備して共有します。"
+  },
+  {
+    "text": "共有：15問の回答を踏まえて最後に自由記述設問を1つ提示できるようにしました\nデモも間も無く共有します",
+    "files": [
+      {
+        "id": "F0ALXJS5WCE",
+        "created": 1773706204,
+        "timestamp": 1773706204,
+        "name": "スクリーンショット 2026-03-17 9.09.39.png",
+        "title": "スクリーンショット 2026-03-17 9.09.39.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 303816,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0ALXJS5WCE/____________________________2026-03-17_9.09.39.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0ALXJS5WCE/download/____________________________2026-03-17_9.09.39.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 316,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 421,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 632,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 702,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 843,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0ALXJS5WCE-65fd7a93a5/____________________________2026-03-17_9.09.39_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 899,
+        "original_w": 1392,
+        "original_h": 1222,
+        "thumb_tiny": "AwArADDQKnJIdhntxRsP/PRv0/wpxzxgDH1pHXcAMkeuDincCsJpf7kg/wA/SjzZs4Ecn6f4VZ2nPOceu40gU+pHGPvZ/nVcy7CsGw/89G/T/CgIdwJdjjtxTmGRjJH0NL2qbjE5z7UxWkOCVwM8qQM/zqSkOfQcdKQDHMn8C9+4Bz+o/wAinZYpkKQf7pxn+dAUf3V6nNKVBGMDH0oAZmQKxIyf4VA5H68/pTlLEsGUjB4PHP6mnYGMY4pFBAOcZ9higBcijIHeiigAJA6nFFFFABRRRQB//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0ALXJS5WCE/____________________________2026-03-17_9.09.39.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0ALXJS5WCE-67acf93810",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Mfg5y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "共有：15問の回答を踏まえて最後に自由記述設問を1つ提示できるようにしました\nデモも間も無く共有します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1773706282.436929",
+    "client_msg_id": "759435c0-d2ec-4310-b3e2-5a2fabf0e20e",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "共有：15問の回答を踏まえて最後に自由記述設問を1つ提示できるようにしました\nデモも間も無く共有します"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773712826.855319",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1773712834.000000"
+    },
+    "client_msg_id": "336fa7dd-c50c-4594-9c70-466dabefbcc3",
+    "text": "事前にみておきたいので、倍速アンケートの現行版のデモのURL教えてもらってもいいですか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WXbAM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "事前にみておきたいので、倍速アンケートの現行版のデモのURL教えてもらってもいいですか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Ken Suzuki",
+    "text_readable": "事前にみておきたいので、倍速アンケートの現行版のデモのURL教えてもらってもいいですか"
+  },
+  {
+    "text": "調査項目案＆Pros/Cons案こちらにまとめました\n<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.x8mkb84j3uz1>",
+    "files": [
+      {
+        "id": "F0AB5K7GY73",
+        "created": 1769320241,
+        "timestamp": 1769320241,
+        "name": "Project Coreloop",
+        "title": "Project Coreloop",
+        "mimetype": "application/vnd.google-apps.document",
+        "filetype": "gdoc",
+        "pretty_type": "Google Docs",
+        "user": "U0A6CE44B2S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 0,
+        "mode": "external",
+        "is_external": true,
+        "external_type": "gdrive",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "external_id": "1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig",
+        "external_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng",
+        "url_private": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_360.png",
+        "thumb_360_w": 277,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_480.png",
+        "thumb_480_w": 369,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_720.png",
+        "thumb_720_w": 554,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1040,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_960.png",
+        "thumb_960_w": 738,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_1024.png",
+        "thumb_1024_w": 788,
+        "thumb_1024_h": 1024,
+        "original_w": 800,
+        "original_h": 1040,
+        "thumb_tiny": "AwAwACXSJIbttxTQ+SPu4Pfd27fnSt977pPuKTYo4EeQPp/ntQAF2DEbB7fNS7mwfl5HbNMKKP4Hbdwef/r0ojQEEJgn0oAepJHzAA+gOaWkUBRgDApaAGsobgjOMHkUALnhcH1xSnt1+gpCuT1YfQ0AOpu8eh79jS7eMbj060mz1ZumOtADqKQDAAyTjuaWgBCQBzTC4CnBPHGMj6UsjBFLFsY7mmLIAo5PXHKnJHsPxoAep+b7x+hxzS5AGS/B9cUgfJwM9cD5TSliD0OOv3e1ADgQRkHNFAz3ooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AB5K7GY73/project_coreloop",
+        "is_starred": false,
+        "skipped_shares": true,
+        "app_id": "A6NL8MJ6Q",
+        "has_rich_preview": true,
+        "file_access": "visible",
+        "entity_id": "W:A6NL8MJ6Q:1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig",
+        "full_size_preview_supported": true,
+        "product_icon": {
+          "alt_text": "Google Docs Logo",
+          "url": "https://a.slack-edge.com/95aff15/img/app-gdrive/icon_document.png",
+          "slack_file": {
+            "id": "F0AB5K7GY73"
+          }
+        }
+      }
+    ],
+    "upload": false,
+    "user": "U0A6CE44B2S",
+    "display_as_bot": false,
+    "x_files": [
+      "F0AB5K7GY73"
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kFGb2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "調査項目案＆Pros/Cons案こちらにまとめました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.x8mkb84j3uz1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1773737988.846209",
+    "client_msg_id": "0623ff69-5a72-4056-ac5d-db81349f749d",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "attachments": [
+      {
+        "from_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.x8mkb84j3uz1",
+        "id": 1918420541,
+        "bot_id": "B08JB590VCN",
+        "is_app_unfurl": true,
+        "app_unfurl_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.x8mkb84j3uz1"
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "U0A6CE44B2S",
+    "text_readable": "調査項目案＆Pros/Cons案こちらにまとめました\n<https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.x8mkb84j3uz1>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773748360.614719",
+    "client_msg_id": "02bc1c5d-6e07-4ad4-8725-83cde30f7266",
+    "text": "すみません、本番環境のデプロイの課題が解決しておらず触っていただけるURLがまだ共有できないです、、\n明日夕方以降に作業時間が取れるので、その後に対応します。\n\n手元の実装はできているので、今日の23:00では画面共有でデモさせてください:man-bowing:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E//sh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すみません、本番環境のデプロイの課題が解決しておらず触っていただけるURLがまだ共有できないです、、\n明日夕方以降に作業時間が取れるので、その後に対応します。\n\n手元の実装はできているので、今日の23:00では画面共有でデモさせてください"
+              },
+              {
+                "type": "emoji",
+                "name": "man-bowing",
+                "unicode": "1f647-200d-2642-fe0f"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JFSYHEP6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "すみません、本番環境のデプロイの課題が解決しておらず触っていただけるURLがまだ共有できないです、、\n明日夕方以降に作業時間が取れるので、その後に対応します。\n\n手元の実装はできているので、今日の23:00では画面共有でデモさせてください:man-bowing:"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1773756684.687779",
+    "client_msg_id": "7EBAFD97-F120-4FCB-B82E-12702FD827E7",
+    "text": "Wifiが絶望的なのでロビーに移動します　すみません数分後に入り直します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vGj45",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Wifiが絶望的なのでロビーに移動します　すみません数分後に入り直します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "Wifiが絶望的なのでロビーに移動します　すみません数分後に入り直します"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F0AM89M6FCL",
+        "created": 1773759954,
+        "timestamp": 1773759954,
+        "name": "UDQfyMuS_responses_2026-03-17.csv",
+        "title": "UDQfyMuS_responses_2026-03-17.csv",
+        "mimetype": "text/csv",
+        "filetype": "csv",
+        "pretty_type": "CSV",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 123799,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AM89M6FCL/udqfymus_responses_2026-03-17.csv",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AM89M6FCL/download/udqfymus_responses_2026-03-17.csv",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AM89M6FCL/udqfymus_responses_2026-03-17.csv",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AM89M6FCL-40b7f1ada6",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AM89M6FCL/udqfymus_responses_2026-03-17.csv/edit",
+        "preview": "\"session_id\",\"question_index\",\"statement\",\"source\",\"question_type\",\"selected_option_text\",\"free_text\"\n\"a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9\",\"1\",\"大規模広告プラットフォームは、すべての広告主に対して、出稿前に実在性確認（KYA）を義務付けるべきである。\",\"fixed\",\"radio\",\"そう思う\",\"\"\n\"a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9\",\"2\",\"大規模広告プラットフォームは、詐欺広告から収益を得ている以上、当該詐欺に対して一定の法的責任を負うべきである。\",\"fixed\",\"radio\",\"強くそう思う\",\"\"\n\"a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9\",\"3\",\"大規模広告プラットフォームが「詐欺だ」と知ってから一定時間（例24時間）以内に削除しない場合は、政府は高額の罰金あるいは罰則を課すべきである。\",\"fixed\",\"radio\",\"そう思う\",\"\"\n\"a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9\",\"4\",\"政府は、詐欺広告の通報サイトを用意し、詐欺広告だと判断された場合は、大規模広告プラットフォームに削除要請をするべきである。\",\"fixed\",\"radio\",\"そう思う\",\"\"\n\"21e3694a-1997-4b12-89b8-78392961b0f6\",\"1\",\"大規模広告プラットフォームは、すべての広告主に対して、出稿前に実在性確認（KYA）を義務付けるべきである。\",\"fixed\",\"radio\",\"強くそう思う\",\"\"\n\"21e3694a-1997-4b12-89b8-78392961b0f6\",\"2\",\"大規模広告プラットフォームは、詐欺広告から収益を得ている以上、当該詐欺に対して一定の法的責任を負うべきである。\",\"fixed\",\"radio\",\"そう思う\",\"\"\n\"21e3694a-1997-4b12-89b8-78392961b0f6\",\"3\",\"大規模広告プラットフォームが「詐欺だ」と知ってから一定時間（例24時間）以内に削除しない場合は、政府は高額の罰金あるいは罰則を課すべきである。\",\"fixed\",\"radio\",\"そう思う...",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer cm-csv-tsv-wrapper\">\n<div class=\"CodeMirror-code\">\n<div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">session_id</div><div class=\"cm-col\">question_index</div><div class=\"cm-col\">statement</div><div class=\"cm-col\">source</div><div class=\"cm-col\">question_type</div><div class=\"cm-col\">selected_option_text</div><div class=\"cm-col\">free_text</div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9</div><div class=\"cm-col cm-num\">1</div><div class=\"cm-col\">大規模広告プラットフォームは、すべての広告主に対して、出稿前に実在性確認（KYA）を義務付けるべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9</div><div class=\"cm-col cm-num\">2</div><div class=\"cm-col\">大規模広告プラットフォームは、詐欺広告から収益を得ている以上、当該詐欺に対して一定の法的責任を負うべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">強くそう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9</div><div class=\"cm-col cm-num\">3</div><div class=\"cm-col\">大規模広告プラットフォームが「詐欺だ」と知ってから一定時間（例24時間）以内に削除しない場合は、政府は高額の罰金あるいは罰則を課すべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">a7472dbb-e85f-4a6c-898c-cd6d38b6ffd9</div><div class=\"cm-col cm-num\">4</div><div class=\"cm-col\">政府は、詐欺広告の通報サイトを用意し、詐欺広告だと判断された場合は、大規模広告プラットフォームに削除要請をするべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">21e3694a-1997-4b12-89b8-78392961b0f6</div><div class=\"cm-col cm-num\">1</div><div class=\"cm-col\">大規模広告プラットフォームは、すべての広告主に対して、出稿前に実在性確認（KYA）を義務付けるべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">強くそう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">21e3694a-1997-4b12-89b8-78392961b0f6</div><div class=\"cm-col cm-num\">2</div><div class=\"cm-col\">大規模広告プラットフォームは、詐欺広告から収益を得ている以上、当該詐欺に対して一定の法的責任を負うべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">21e3694a-1997-4b12-89b8-78392961b0f6</div><div class=\"cm-col cm-num\">3</div><div class=\"cm-col\">大規模広告プラットフォームが「詐欺だ」と知ってから一定時間（例24時間）以内に削除しない場合は、政府は高額の罰金あるいは罰則を課すべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">21e3694a-1997-4b12-89b8-78392961b0f6</div><div class=\"cm-col cm-num\">4</div><div class=\"cm-col\">政府は、詐欺広告の通報サイトを用意し、詐欺広告だと判断された場合は、大規模広告プラットフォームに削除要請をするべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div><div class=\"cm-row cm-hide-line-num\"><div class=\"cm-col\">21e3694a-1997-4b12-89b8-78392961b0f6</div><div class=\"cm-col cm-num\">5</div><div class=\"cm-col\">規制にたび重ねて違反する大規模広告プラットフォームに対し、政府はサービスの停止を含む重大な罰則を課すべきである。</div><div class=\"cm-col\">fixed</div><div class=\"cm-col\">radio</div><div class=\"cm-col\">そう思う</div><div class=\"cm-col\"></div></div></div>\n</div>\n",
+        "lines": 501,
+        "lines_more": 493,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1773759999.434589",
+    "client_msg_id": "64116f19-b80c-4987-8d47-8ee1630d1d91",
+    "thread_ts": "1773400782.299579",
+    "parent_user_id": "U08JFSYHEP6",
+    "parent_ts": "1773400782.299579",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": ""
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773467885.629489",
+    "client_msg_id": "f5f49422-2baf-4e22-b70c-5d16865435bc",
+    "text": "直したいところいろいろありますが、いったんプロトタイプ\n<https://ai-interview-7hg.pages.dev/|https://ai-interview-7hg.pages.dev/>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/LmjI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "直したいところいろいろありますが、いったんプロトタイプ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://ai-interview-7hg.pages.dev/",
+                "text": "https://ai-interview-7hg.pages.dev/",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "直したいところいろいろありますが、いったんプロトタイプ\n<https://ai-interview-7hg.pages.dev/|https://ai-interview-7hg.pages.dev/>"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773468028.342029",
+    "client_msg_id": "b71c76ee-11a6-452a-82a7-26fee11a37f4",
+    "text": "特徴\nあらかじめ聞きたい項目とその項目に求める内容のルーブリックをベースに、足りない情報を動的に深ぼっていく\nとはいえ、何を聞きたいか私たちもふわっとしかわかってないので、実際の回答からいいやつをピックアップすればルーブリックが自動生成される",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "reply_count": 8,
+    "reply_users_count": 3,
+    "latest_reply": "1773536224.207019",
+    "reply_users": [
+      "U08JPUZRT40",
+      "U08JFSYHEP6",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jIMOP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "特徴\nあらかじめ聞きたい項目とその項目に求める内容のルーブリックをベースに、足りない情報を動的に深ぼっていく\nとはいえ、何を聞きたいか私たちもふわっとしかわかってないので、実際の回答からいいやつをピックアップすればルーブリックが自動生成される"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "特徴\nあらかじめ聞きたい項目とその項目に求める内容のルーブリックをベースに、足りない情報を動的に深ぼっていく\nとはいえ、何を聞きたいか私たちもふわっとしかわかってないので、実際の回答からいいやつをピックアップすればルーブリックが自動生成される"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1773468789.791699",
+    "text": "試したが、倍速会議とかアンケートとかに慣れてると、自由選択がめんどくさくなってしまった。。、\nこれはかなりカロリー高いね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HN6lh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "試したが、倍速会議とかアンケートとかに慣れてると、自由選択がめんどくさくなってしまった。。、"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "これはかなりカロリー高いね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shunsuke Takagi",
+    "text_readable": "試したが、倍速会議とかアンケートとかに慣れてると、自由選択がめんどくさくなってしまった。。、\nこれはかなりカロリー高いね。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773469615.120849",
+    "client_msg_id": "d49395f8-eb0e-4e94-aa27-ca5809e7faa6",
+    "text": "それはあるよね笑\n俺もテストしてて思った\n\n相手固有の体験を取るためには自由入力は避けられないとは思うんだよね。まぁ選択肢出すとかはできるけど、AIもしくはこっちが用意したものに当てはまるものがどれかを取りたいというよりは、相手固有の情報が欲しいので",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "irPtE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それはあるよね笑\n俺もテストしてて思った\n\n相手固有の体験を取るためには自由入力は避けられないとは思うんだよね。まぁ選択肢出すとかはできるけど、AIもしくはこっちが用意したものに当てはまるものがどれかを取りたいというよりは、相手固有の情報が欲しいので"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "それはあるよね笑\n俺もテストしてて思った\n\n相手固有の体験を取るためには自由入力は避けられないとは思うんだよね。まぁ選択肢出すとかはできるけど、AIもしくはこっちが用意したものに当てはまるものがどれかを取りたいというよりは、相手固有の情報が欲しいので"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1773535928.744069",
+    "client_msg_id": "725e4e37-8520-4547-95a8-99257946d2a2",
+    "text": "試そうと思ったのですが、日本語変換を確定させようとすると送信されてしまうようで、意図した文字が送信できなかったです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vL6UP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "試そうと思ったのですが、日本語変換を確定させようとすると送信されてしまうようで、意図した文字が送信できなかったです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shingo OHKI",
+    "text_readable": "試そうと思ったのですが、日本語変換を確定させようとすると送信されてしまうようで、意図した文字が送信できなかったです！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1773535956.051259",
+    "client_msg_id": "b45c0455-8886-46e3-92d2-a4e7701b2d20",
+    "text": "こうやると回避できるってあります？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6Oee0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こうやると回避できるってあります？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shingo OHKI",
+    "text_readable": "こうやると回避できるってあります？"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773535977.400399",
+    "client_msg_id": "fa13ebd6-dd2a-4bd2-8756-9abe62c91db7",
+    "text": "お、環境なんですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/3rDB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "お、環境なんですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "お、環境なんですか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1773536118.555549",
+    "client_msg_id": "4a51c45a-62f1-477b-bc3a-875e8d00b9b0",
+    "text": "macOS 15.7.4/ Google Chrome 146.0.7680.80\nです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ODOUE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "macOS 15.7.4/ Google Chrome 146.0.7680.80\nです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shingo OHKI",
+    "text_readable": "macOS 15.7.4/ Google Chrome 146.0.7680.80\nです"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1773536169.097589",
+    "client_msg_id": "2d9d374b-6ff3-4f8a-a4f8-fe7b901e94f9",
+    "text": "テキストエディタに書いてそれをコピペするとうまくいきました（笑）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3TfAn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "テキストエディタに書いてそれをコピペするとうまくいきました（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shingo OHKI",
+    "text_readable": "テキストエディタに書いてそれをコピペするとうまくいきました（笑）"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1773536224.207019",
+    "client_msg_id": "9ef8159c-0d82-48da-bd5b-115b402bc898",
+    "text": "選択肢と自由記述はどっちもできて、それを選べるのがいいのかも",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773468028.342029",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IF0Ei",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "選択肢と自由記述はどっちもできて、それを選べるのがいいのかも"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773468028.342029",
+    "user_name": "Shingo OHKI",
+    "text_readable": "選択肢と自由記述はどっちもできて、それを選べるのがいいのかも"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773760177.670059",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1773760188.000000"
+    },
+    "client_msg_id": "934f9e6e-98a5-4d8b-93b3-06dab92af2c2",
+    "text": "とりあえずSpreadsheet\n<https://docs.google.com/spreadsheets/d/1b3fmQfMsvRYwBjzZQ6LLWwQvV3Gn96nF2f1KUgWnBbc/edit?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "w3TyQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえずSpreadsheet\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/spreadsheets/d/1b3fmQfMsvRYwBjzZQ6LLWwQvV3Gn96nF2f1KUgWnBbc/edit?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "とりあえずSpreadsheet\n<https://docs.google.com/spreadsheets/d/1b3fmQfMsvRYwBjzZQ6LLWwQvV3Gn96nF2f1KUgWnBbc/edit?usp=sharing>"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773761684.965859",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1773761737.000000"
+    },
+    "client_msg_id": "fb13f6a7-d009-4b6f-82bb-afed76609753",
+    "text": "倍速アンケートのテストデータが集まってるなら、追加質問から、小倉さんがどんなインサイトが得られるか、すでに検証できるのかな。インサイトが得られるなら追加質問に価値はあるけど、インサイトが得られないなら追加質問に価値はないということになる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "reply_count": 11,
+    "reply_users_count": 4,
+    "latest_reply": "1773804268.128329",
+    "reply_users": [
+      "U08JFSYHEP6",
+      "U08KVN5B6HX",
+      "U0A6CE44B2S",
+      "U08JPUZRT40"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7UeJf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "倍速アンケートのテストデータが集まってるなら、追加質問から、小倉さんがどんなインサイトが得られるか、すでに検証できるのかな。インサイトが得られるなら追加質問に価値はあるけど、インサイトが得られないなら追加質問に価値はないということになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "倍速アンケートのテストデータが集まってるなら、追加質問から、小倉さんがどんなインサイトが得られるか、すでに検証できるのかな。インサイトが得られるなら追加質問に価値はあるけど、インサイトが得られないなら追加質問に価値はないということになる"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773788732.376409",
+    "client_msg_id": "3bb553b5-569d-48f0-8a1a-f55cab6a020c",
+    "text": "はいできます、↑のスプシがそのデータになりますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3j337",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はいできます、↑のスプシがそのデータになりますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "はいできます、↑のスプシがそのデータになりますね"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773788886.694659",
+    "client_msg_id": "b2778024-903d-4d7d-a402-58b497a725b6",
+    "text": "<@U0A6CE44B2S> インサイトが得られそうか教えてもらえますか。もしインサイトがえられないのであれば、倍速アンケートの追加質問は今回の目的には不要ということになるので。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7y76n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A6CE44B2S"
+              },
+              {
+                "type": "text",
+                "text": " インサイトが得られそうか教えてもらえますか。もしインサイトがえられないのであれば、倍速アンケートの追加質問は今回の目的には不要ということになるので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ken Suzuki",
+    "text_readable": "<@U0A6CE44B2S> インサイトが得られそうか教えてもらえますか。もしインサイトがえられないのであれば、倍速アンケートの追加質問は今回の目的には不要ということになるので。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773788995.801869",
+    "client_msg_id": "9d42687c-fd53-4046-98a0-f1ab79fa3bd0",
+    "text": "昨日の整理どおり僕の方でも揉んでみますね、おぐらさんも見ていただけると助かりますー",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "MWsLR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "昨日の整理どおり僕の方でも揉んでみますね、おぐらさんも見ていただけると助かりますー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "昨日の整理どおり僕の方でも揉んでみますね、おぐらさんも見ていただけると助かりますー"
+  },
+  {
+    "text": "<@U08KVN5B6HX> <@U08JFSYHEP6>\n• 追加質問における「わからない」の回答状況から、DP参加者へのサーベイとして、どこまで細かい話だと回答しにくいのか、現在の固定質問に加えて、nice to haveな質問をどこまで追加してもよさそうか・追加する場合必要なインプット情報は何かのインサイトは得られそうです。\n• 著名人個人による広告停止の権利や、プラットフォーム事業者の幹部個人への罰則など、これまであまり議論していなかったような論点も追加質問から出てきているので、新論点に関するインサイトも数が集まると出るかもしれません（上記2つの論点はそれほど重要ではないとは思いますが、他の論点の可能性として）\n• <https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.k139oq97se0l>",
+    "files": [
+      {
+        "id": "F0AB5K7GY73",
+        "created": 1769320241,
+        "timestamp": 1769320241,
+        "name": "Project Coreloop",
+        "title": "Project Coreloop",
+        "mimetype": "application/vnd.google-apps.document",
+        "filetype": "gdoc",
+        "pretty_type": "Google Docs",
+        "user": "U0A6CE44B2S",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 0,
+        "mode": "external",
+        "is_external": true,
+        "external_type": "gdrive",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "external_id": "1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig",
+        "external_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng",
+        "url_private": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.63at02r243ng",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_360.png",
+        "thumb_360_w": 277,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_480.png",
+        "thumb_480_w": 369,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_720.png",
+        "thumb_720_w": 554,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 1040,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_960.png",
+        "thumb_960_w": 738,
+        "thumb_960_h": 960,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AB5K7GY73-854f4f839d/project_coreloop_1024.png",
+        "thumb_1024_w": 788,
+        "thumb_1024_h": 1024,
+        "original_w": 800,
+        "original_h": 1040,
+        "thumb_tiny": "AwAwACXSJIbttxTQ+SPu4Pfd27fnSt977pPuKTYo4EeQPp/ntQAF2DEbB7fNS7mwfl5HbNMKKP4Hbdwef/r0ojQEEJgn0oAepJHzAA+gOaWkUBRgDApaAGsobgjOMHkUALnhcH1xSnt1+gpCuT1YfQ0AOpu8eh79jS7eMbj060mz1ZumOtADqKQDAAyTjuaWgBCQBzTC4CnBPHGMj6UsjBFLFsY7mmLIAo5PXHKnJHsPxoAep+b7x+hxzS5AGS/B9cUgfJwM9cD5TSliD0OOv3e1ADgQRkHNFAz3ooA//9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AB5K7GY73/project_coreloop",
+        "is_starred": false,
+        "skipped_shares": true,
+        "app_id": "A6NL8MJ6Q",
+        "has_rich_preview": true,
+        "file_access": "visible",
+        "entity_id": "W:A6NL8MJ6Q:1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig",
+        "full_size_preview_supported": true,
+        "product_icon": {
+          "alt_text": "Google Docs Logo",
+          "url": "https://a.slack-edge.com/95aff15/img/app-gdrive/icon_document.png",
+          "slack_file": {
+            "id": "F0AB5K7GY73"
+          }
+        }
+      }
+    ],
+    "upload": false,
+    "user": "U0A6CE44B2S",
+    "display_as_bot": false,
+    "x_files": [
+      "F0AB5K7GY73"
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eC7Zx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08KVN5B6HX"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08JFSYHEP6"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "追加質問における「わからない」の回答状況から、DP参加者へのサーベイとして、どこまで細かい話だと回答しにくいのか、現在の固定質問に加えて、nice to haveな質問をどこまで追加してもよさそうか・追加する場合必要なインプット情報は何かのインサイトは得られそうです。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "著名人個人による広告停止の権利や、プラットフォーム事業者の幹部個人への罰則など、これまであまり議論していなかったような論点も追加質問から出てきているので、新論点に関するインサイトも数が集まると出るかもしれません（上記2つの論点はそれほど重要ではないとは思いますが、他の論点の可能性として）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.k139oq97se0l"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1773793747.103149",
+    "client_msg_id": "a896e8bb-1562-4e2a-bb34-d6d9b8f67e40",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "attachments": [
+      {
+        "from_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.k139oq97se0l",
+        "id": 1673004884,
+        "bot_id": "B08JB590VCN",
+        "is_app_unfurl": true,
+        "app_unfurl_url": "https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.k139oq97se0l"
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "U0A6CE44B2S",
+    "text_readable": "@kensuzuki @yuki.kawabe\n• 追加質問における「わからない」の回答状況から、DP参加者へのサーベイとして、どこまで細かい話だと回答しにくいのか、現在の固定質問に加えて、nice to haveな質問をどこまで追加してもよさそうか・追加する場合必要なインプット情報は何かのインサイトは得られそうです。\n• 著名人個人による広告停止の権利や、プラットフォーム事業者の幹部個人への罰則など、これまであまり議論していなかったような論点も追加質問から出てきているので、新論点に関するインサイトも数が集まると出るかもしれません（上記2つの論点はそれほど重要ではないとは思いますが、他の論点の可能性として）\n• <https://docs.google.com/document/d/1isqRSUvvympiNp8uKBWYHIAI8-CGNjePriZUfrN4qig/edit?tab=t.k139oq97se0l>"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773794085.110559",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1773794498.000000"
+    },
+    "client_msg_id": "57e8a9ab-0506-40f1-bb0b-709ec08cceef",
+    "text": "具体的な参考になった追加質問への答えのソースを教えて下さい。一次情報で理解したいです。\n「わからない」は追加質問じゃなくて、固定質問にもあるべきですし、追加質問が優れているのではなく、「わからない」が固定質問にないことが問題なのではないでしょうか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l03VV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "具体的な参考になった追加質問への答えのソースを教えて下さい。一次情報で理解したいです。\n「わからない」は追加質問じゃなくて、固定質問にもあるべきですし、追加質問が優れているのではなく、「わからない」が固定質問にないことが問題なのではないでしょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ken Suzuki",
+    "text_readable": "具体的な参考になった追加質問への答えのソースを教えて下さい。一次情報で理解したいです。\n「わからない」は追加質問じゃなくて、固定質問にもあるべきですし、追加質問が優れているのではなく、「わからない」が固定質問にないことが問題なのではないでしょうか。"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773794581.229159",
+    "client_msg_id": "907e3296-1d05-4f43-8b18-48a3ae82445c",
+    "text": "「規制にたび重ねて違反する大規模広告プラットフォームの経営者に対し、法的責任を課すべきである。」はもともとの調査項目案の「できればいれたい」の二番目にあり、AIじゃないと思いつかないやつじゃなくて、固定質問にいれればいいだけじゃないですか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tIovf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「規制にたび重ねて違反する大規模広告プラットフォームの経営者に対し、法的責任を課すべきである。」はもともとの調査項目案の「できればいれたい」の二番目にあり、AIじゃないと思いつかないやつじゃなくて、固定質問にいれればいいだけじゃないですか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ken Suzuki",
+    "text_readable": "「規制にたび重ねて違反する大規模広告プラットフォームの経営者に対し、法的責任を課すべきである。」はもともとの調査項目案の「できればいれたい」の二番目にあり、AIじゃないと思いつかないやつじゃなくて、固定質問にいれればいいだけじゃないですか。"
+  },
+  {
+    "user": "U0A6CE44B2S",
+    "type": "message",
+    "ts": "1773802029.217409",
+    "client_msg_id": "f292de17-4640-47d3-af28-4a91ca81c945",
+    "text": "個人の責任のところは調査項目ドラフト案に入っていたのを私が見落としていました。失礼しました。\n\n固定質問には「どちらとも言えない」という回答があります。\n固定質問が多いと途中離脱が増えるということもイメージしていましたが、倍速アンケートを使って追加質問が出てくる前提で考えていたので、ブロードリスニングとしては追加質問なしの固定質問だけにするでも大きな違いはないかと思いました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IvTl9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "個人の責任のところは調査項目ドラフト案に入っていたのを私が見落としていました。失礼しました。\n\n固定質問には「どちらとも言えない」という回答があります。\n固定質問が多いと途中離脱が増えるということもイメージしていましたが、倍速アンケートを使って追加質問が出てくる前提で考えていたので、ブロードリスニングとしては追加質問なしの固定質問だけにするでも大きな違いはないかと思いました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "U0A6CE44B2S",
+    "text_readable": "個人の責任のところは調査項目ドラフト案に入っていたのを私が見落としていました。失礼しました。\n\n固定質問には「どちらとも言えない」という回答があります。\n固定質問が多いと途中離脱が増えるということもイメージしていましたが、倍速アンケートを使って追加質問が出てくる前提で考えていたので、ブロードリスニングとしては追加質問なしの固定質問だけにするでも大きな違いはないかと思いました。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773803667.936099",
+    "client_msg_id": "2f45dda9-e16f-4b1a-b25e-d636d602af28",
+    "text": "時間なかったのでめっちゃ雑にですがClaudeとテストデータをつかって遊んでみました。特に追加質問が関連してるなかでもおもしろそうなのは、`ゴール②分析結果：賛否の理由構造`  `ゴール④分析結果：潜在的論点カタログ`  ですね。\n\n<https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "attachments": [
+      {
+        "image_url": "https://claude.ai/images/claude_ogimage.png",
+        "image_width": 1138,
+        "image_height": 640,
+        "image_bytes": 12257,
+        "from_url": "https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23",
+        "service_icon": "https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c129d018a-jJjJELY8.png",
+        "id": 1,
+        "original_url": "https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23",
+        "fallback": "Claude",
+        "text": "Shared via Claude, an AI assistant from Anthropic",
+        "title": "Claude",
+        "title_link": "https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23",
+        "service_name": "claude.ai"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "60vk1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "時間なかったのでめっちゃ雑にですがClaudeとテストデータをつかって遊んでみました。特に追加質問が関連してるなかでもおもしろそうなのは、"
+              },
+              {
+                "type": "text",
+                "text": "ゴール②分析結果：賛否の理由構造",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  "
+              },
+              {
+                "type": "text",
+                "text": "ゴール④分析結果：潜在的論点カタログ",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "  ですね。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U0A6CE44B2S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "時間なかったのでめっちゃ雑にですがClaudeとテストデータをつかって遊んでみました。特に追加質問が関連してるなかでもおもしろそうなのは、`ゴール②分析結果：賛否の理由構造`  `ゴール④分析結果：潜在的論点カタログ`  ですね。\n\n<https://claude.ai/share/ae3949ea-6a0c-4618-b8ef-0e139842af23>"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1773803745.658779",
+    "edited": {
+      "user": "U08JFSYHEP6",
+      "ts": "1773803880.000000"
+    },
+    "client_msg_id": "8b513929-60ba-4951-b32a-c2f0964cc199",
+    "text": "AIによる生成質問を離散的になるプロンプティングによって、昨晩ブルーモさんが言ってた質的インタビューにより近い構造をとることで見落としていた論点や市民の関心事を確率論的にはみつけられそうだなと。また、固定質問と生成質問の設問チェーンというゆるい論理構造をもって見つけられそうだなとおもいました。ここにガチガチの論理構造分析をもってくる必要があるとも僕は思えないので十分かなとおもったり。\n\nAIが生成した質問だから云々というのはあるかなと思いつつ、結局人間によるインタビューも同じくインタビュワーの差異をどうするんだというフレーミング問題があるので、そのフレームと限界を私たちは認識した上で活かせばいいのかなとおもいます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "57ybM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIによる生成質問を離散的になるプロンプティングによって、昨晩ブルーモさんが言ってた質的インタビューにより近い構造をとることで見落としていた論点や市民の関心事を確率論的にはみつけられそうだなと。また、固定質問と生成質問の設問チェーンというゆるい論理構造をもって見つけられそうだなとおもいました。ここにガチガチの論理構造分析をもってくる必要があるとも僕は思えないので十分かなとおもったり。\n\nAIが生成した質問だから云々というのはあるかなと思いつつ、結局人間によるインタビューも同じくインタビュワーの差異をどうするんだというフレーミング問題があるので、そのフレームと限界を私たちは認識した上で活かせばいいのかなとおもいます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "AIによる生成質問を離散的になるプロンプティングによって、昨晩ブルーモさんが言ってた質的インタビューにより近い構造をとることで見落としていた論点や市民の関心事を確率論的にはみつけられそうだなと。また、固定質問と生成質問の設問チェーンというゆるい論理構造をもって見つけられそうだなとおもいました。ここにガチガチの論理構造分析をもってくる必要があるとも僕は思えないので十分かなとおもったり。\n\nAIが生成した質問だから云々というのはあるかなと思いつつ、結局人間によるインタビューも同じくインタビュワーの差異をどうするんだというフレーミング問題があるので、そのフレームと限界を私たちは認識した上で活かせばいいのかなとおもいます。"
+  },
+  {
+    "user": "U08JPUZRT40",
+    "type": "message",
+    "ts": "1773804018.293899",
+    "text": "めっちゃいい分析だね。claude めっちゃ賢いということが改めてわかった...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "XQVZB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "めっちゃいい分析だね。claude めっちゃ賢いということが改めてわかった..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Shunsuke Takagi",
+    "text_readable": "めっちゃいい分析だね。claude めっちゃ賢いということが改めてわかった..."
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1773804268.128329",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1773804290.000000"
+    },
+    "client_msg_id": "2b5ac738-c57c-462b-b189-256b546ff573",
+    "text": "追加質問が分散して質問されることによって、被質問者への負担を軽減しつつ多くの質問を聞くことができるかもね。事実上、質問数の制限がなくなるというメリットがあるかも。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1773761684.965859",
+    "parent_user_id": "U08KVN5B6HX",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DKsmo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "追加質問が分散して質問されることによって、被質問者への負担を軽減しつつ多くの質問を聞くことができるかもね。事実上、質問数の制限がなくなるというメリットがあるかも。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1773761684.965859",
+    "user_name": "Ken Suzuki",
+    "text_readable": "追加質問が分散して質問されることによって、被質問者への負担を軽減しつつ多くの質問を聞くことができるかもね。事実上、質問数の制限がなくなるというメリットがあるかも。"
+  }
+]
