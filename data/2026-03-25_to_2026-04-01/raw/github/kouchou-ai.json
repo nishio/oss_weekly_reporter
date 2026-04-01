@@ -1,0 +1,40 @@
+[
+  {
+    "id": 4164131737,
+    "number": 820,
+    "title": "静的エクスポート環境向けのCSP設定ガイドをドキュメントに追加する",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/820",
+    "user": "tokoroten",
+    "created_at": "2026-03-29T12:44:22Z",
+    "body": "## 背景\n\nPR #819 で、Plotly の PNG ダウンロードが CSP の `img-src` に `blob:` が含まれていないためブロックされる問題が報告されました。\n\nhttps://www.broadlistening-hiroshima.com/ の本番環境では、Azure Static Web Apps 側で以下の CSP ヘッダーが付与されています：\n\n```\ncontent-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.monitor.azure.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://js.monitor.azure.com https://*.applicationinsights.azure.com https://*.azurestaticapps.net; font-src 'self' data:; frame-ancestors 'none';\n```\n\n`next.config.ts` の `headers()` は `output: 'export'`（静的ビルド）時には無効（Next.js の仕様で no-op）のため、アプリケーション側での対応だけでは不十分です。\n\n## やりたいこと\n\nリバースプロキシ / CDN / 静的ホスティング環境での CSP 設定ガイドをドキュメントに追加する。\n\n具体的には：\n- `img-src` に `blob:` を含める必要がある旨の説明（Plotly の PNG エクスポートに必要）\n- Azure Static Web Apps（`staticwebapp.config.json`）での設定例\n- その他のホスティング環境（Nginx、Cloudflare 等）での設定例\n\n## 関連\n- #819",
+    "type": "issue"
+  },
+  {
+    "id": 4163435878,
+    "number": 818,
+    "title": "PNGでダウンロードボタンが死んでいる可能性がある。",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/818",
+    "user": "tokoroten",
+    "created_at": "2026-03-29T08:52:54Z",
+    "body": "PNGでダウンロードボタンが死んでいる可能性がある。\n要調査\n<img width=\"1241\" height=\"740\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/02137572-8913-4872-85be-e8219c6b3fc7\" />\n\nコンソールには次のエラーが出てきた\n```\nLoading the image 'blob:https://www.broadlistening-hiroshima.com/f28317b7-2c10-4b7b-8534-1ef4a988968b' violates the following Content Security Policy directive: \"img-src 'self' data:\". The action has been blocked.\n```",
+    "type": "issue"
+  },
+  {
+    "id": 4163439424,
+    "number": 819,
+    "title": "Fix Plotly PNG download blocked by CSP missing blob: in img-src",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/819",
+    "user": "Copilot",
+    "created_at": "2026-03-29T08:54:09Z",
+    "body": "Plotly's PNG export pipeline internally renders SVG via `new Image()` with a `blob:` URL (`URL.createObjectURL(svgBlob)`) before drawing to canvas. The CSP `img-src 'self' data:` didn't include `blob:`, causing the snapshot to fail silently with a CSP violation.\n\n## Change\n\n- **`apps/public-viewer/next.config.ts`**: Added `headers()` to emit `Content-Security-Policy: img-src 'self' data: blob:;` on all routes.\n\n```typescript\nasync headers() {\n  return [\n    {\n      source: \"/(.*)\",\n      headers: [\n        {\n          key: \"Content-Security-Policy\",\n          // blob: is required for Plotly's PNG download, which internally loads\n          // an SVG as a blob: URL on a canvas before exporting as PNG.\n          value: \"img-src 'self' data: blob:;\",\n        },\n      ],\n    },\n  ];\n},\n```\n\n> Note: `headers()` is a no-op when `output: 'export'` is set (static builds). Those deployments would need `blob:` added at the web-server/CDN layer separately.\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n⌨️ Start Copilot coding agent tasks without leaving your editor — available in [VS Code](https://gh.io/cca-vs-code-docs), [Visual Studio](https://gh.io/cca-visual-studio-docs), [JetBrains IDEs](https://gh.io/cca-jetbrains-docs) and [Eclipse](https://gh.io/cca-eclipse-docs).\n",
+    "additions": 15,
+    "deletions": 0,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1774608941.197649",
+    "client_msg_id": "467626ab-75ea-4c77-9d0f-7eab6ca34362",
+    "text": "今日も同じリンクです\n<https://meet.google.com/goa-hwcn-jwx|https://meet.google.com/goa-hwcn-jwx>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/goa-hwcn-jwx",
+        "service_icon": "http://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "id": 1,
+        "original_url": "https://meet.google.com/goa-hwcn-jwx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/goa-hwcn-jwx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FSKI6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日も同じリンクです\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/goa-hwcn-jwx",
+                "text": "https://meet.google.com/goa-hwcn-jwx",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "今日も同じリンクです\n<https://meet.google.com/goa-hwcn-jwx|https://meet.google.com/goa-hwcn-jwx>"
+  }
+]

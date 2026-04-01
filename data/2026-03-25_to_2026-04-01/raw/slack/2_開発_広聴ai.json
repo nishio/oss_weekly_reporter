@@ -1,0 +1,516 @@
+[
+  {
+    "text": "PNGとしてダウンロードボタンが死んでる可能性があります。",
+    "files": [
+      {
+        "id": "F0AP3882FU7",
+        "created": 1774774323,
+        "timestamp": 1774774323,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 308734,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AP3882FU7/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AP3882FU7/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 215,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 286,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 429,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 477,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 572,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AP3882FU7-40943c61e9/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 611,
+        "original_w": 1241,
+        "original_h": 740,
+        "thumb_tiny": "AwAdADDTpAMHoKWmPJtHofek2kA7PfIxRn3quszghnK7WIxnjFOW5DHAjf8AAZqrDasT1XHmeYPvYz71NuLKrIAQRnk4oG4n5sD6HP8ASkIdUbkrk7+PpSvGrqRgZwcHHSoja/NlH2+2M09AtcQeUFxhSScc9v8AOTTjtQAhcA9CtQEsHwW3dOtTpDG65Zee+CaUo9x6oRF80DJkH0PHFTImzPzM2fU0IioMKMCnULQG2f/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AP3882FU7/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AP3882FU7-9cb7fe77d9",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QQk4q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PNGとしてダウンロードボタンが死んでる可能性があります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1774774338.431159",
+    "client_msg_id": "1347c615-81fb-4cc2-8b6c-1e993161bd88",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "PNGとしてダウンロードボタンが死んでる可能性があります。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1774775862.907719",
+    "client_msg_id": "e6971ff7-7068-4f2e-a154-a88a24d3d630",
+    "text": "copilotにパッチを作らせたので、どなたか検証してもらえると嬉しいです。\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/819>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1774774449,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/819",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#819 Fix Plotly PNG download blocked by CSP missing blob: in img-src",
+        "text": "Plotly's PNG export pipeline internally renders SVG via `new Image()` with a `blob:` URL (`URL.createObjectURL(svgBlob)`) before drawing to canvas. The CSP `img-src 'self' data:` didn't include `blob:`, causing the snapshot to fail silently with a CSP violation.\n\n*Change*\n\n• *`apps/public-viewer/next.config.ts`*: Added `headers()` to emit `Content-Security-Policy: img-src 'self' data: blob:;` on all routes.\n\nasync headers() {\n  return [\n    {\n      source: \"/(.*)\",\n      headers: [\n        {\n          key: \"Content-Security-Policy\",\n          // blob: is required for Plotly's PNG download, which internally loads\n          // an SVG as a blob: URL on a canvas before exporting as PNG.\n          value: \"img-src 'self' data: blob:;\",\n        },\n      ],\n    },\n  ];\n},\n\n> Note: `headers()` is a no-op when `output: 'export'` is set (static builds). Those deployments would need `blob:` added at the web-server/CDN layer separately.\n\n---\n\n:keyboard: Start Copilot coding agent tasks without leaving your editor — available in <https://gh.io/cca-vs-code-docs|VS Code>, <https://gh.io/cca-visual-studio-docs|Visual Studio>, <https://gh.io/cca-jetbrains-docs|JetBrains IDEs> and <https://gh.io/cca-eclipse-docs|Eclipse>.",
+        "title": "#819 Fix Plotly PNG download blocked by CSP missing blob: in img-src",
+        "title_link": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/819",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>",
+        "fields": [
+          {
+            "value": "<https://github.com/tokoroten|@tokoroten>, <https://github.com/apps/copilot-swe-agent|@Copilot>",
+            "title": "Assignees",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0fEg1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "copilotにパッチを作らせたので、どなたか検証してもらえると嬉しいです。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/819"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "copilotにパッチを作らせたので、どなたか検証してもらえると嬉しいです。\n\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/819>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1774810297.681539",
+    "client_msg_id": "f8191a32-c4e7-43d7-b3e8-320f2966d39a",
+    "text": "↑Azureのリバースプロキシの問題なので、closeしました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "reply_count": 7,
+    "reply_users_count": 2,
+    "latest_reply": "1774994911.707389",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iWbRZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑Azureのリバースプロキシの問題なので、closeしました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "↑Azureのリバースプロキシの問題なので、closeしました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1774816407.110169",
+    "client_msg_id": "3ea9d502-3afe-4098-ab12-13f10cea3fd3",
+    "text": "main への push ごとにデプロイされるデモサイト側では、こちらで確認した限り問題なさそうでした。\n <https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "attachments": [
+      {
+        "from_url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/",
+        "id": 1,
+        "original_url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/",
+        "fallback": "サンプルレポート - 名前未設定ユーザー",
+        "text": "AI技術の発展に関する意見グループは、倫理的枠組みの強化、業務革新、医療やリモートワークの効率化、都市の安全性向上、教育・研究・エンターテイメントの革新、産業自動化、環境保護と災害対応の革新に焦点を当てています。各分野でのAIの導入は、社会全体の生産性向上や新たな価値創造に寄与することが期待されており、国際的な協力や法整備が重要視されています。特に、倫理性や透明性の確保、プライバシー保護が求められています。",
+        "title": "サンプルレポート - 名前未設定ユーザー",
+        "title_link": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/",
+        "service_name": "public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yHfTL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "main への push ごとにデプロイされるデモサイト側では、こちらで確認した限り問題なさそうでした。\n "
+              },
+              {
+                "type": "link",
+                "url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "main への push ごとにデプロイされるデモサイト側では、こちらで確認した限り問題なさそうでした。\n <https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/17dd4a5a-3b6b-4468-adfa-3c4c5e434228/>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1774981072.148249",
+    "client_msg_id": "f9e4c112-a808-4be8-aa00-af2edd938a3c",
+    "text": "↑デモサイトってデプロイ事にアドレス変わります？いまアクセスできないのですが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zob1l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "↑デモサイトってデプロイ事にアドレス変わります？いまアクセスできないのですが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1774810297.681539",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "↑デモサイトってデプロイ事にアドレス変わります？いまアクセスできないのですが。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1774993678.357049",
+    "client_msg_id": "d4e7138f-20ae-476c-a7b4-52173fc454cb",
+    "text": "URLは変わらないはずです。\n確かに public-viewer にアクセスできないですね。なんでだろう。\nこっちはアクセスできるので、public-viewer 側で何か起きてそうですね\n<https://admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4pFOQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "URLは変わらないはずです。\n確かに public-viewer にアクセスできないですね。なんでだろう。\nこっちはアクセスできるので、public-viewer 側で何か起きてそうですね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "URLは変わらないはずです。\n確かに public-viewer にアクセスできないですね。なんでだろう。\nこっちはアクセスできるので、public-viewer 側で何か起きてそうですね\n<https://admin.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/>"
+  },
+  {
+    "text": "これはあんまり見たことないな...",
+    "files": [
+      {
+        "id": "F0AQ7EFQ668",
+        "created": 1774993771,
+        "timestamp": 1774993771,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 128623,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQ7EFQ668/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQ7EFQ668/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 284,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 379,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 568,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 631,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 758,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQ7EFQ668-c9125530a4/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 808,
+        "original_w": 1030,
+        "original_h": 813,
+        "thumb_tiny": "AwAmADC0bZB92INz3Yj+lP8AssP9z9TU2B6UU+Zi5V2IxCoHJY/U0vlJ6H/vo0/HOaBRdhZDPKT0P/fRpDBGyhSCVHQZNSUUXYWQnViCvHrQeF+UfSlwM5xzRSGA6CmBTuJBwPQY/wAKcBiloAAMdyaKKKAEA5J4/KloooAKKKKACiiigD//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQ7EFQ668/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AQ7EFQ668-713e4e6269",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "asaX+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはあんまり見たことないな..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1774993792.350459",
+    "client_msg_id": "603acb76-9232-43e9-adb1-f4ba84cfbab2",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これはあんまり見たことないな..."
+  },
+  {
+    "text": "build 中にコケたのかな",
+    "files": [
+      {
+        "id": "F0AQ0EPSPJ9",
+        "created": 1774993939,
+        "timestamp": 1774993939,
+        "name": "public-viewer-log.txt",
+        "title": "public-viewer-log.txt",
+        "mimetype": "text/plain",
+        "filetype": "text",
+        "pretty_type": "Plain text",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 1457,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQ0EPSPJ9/public-viewer-log.txt",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQ0EPSPJ9/download/public-viewer-log.txt",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQ0EPSPJ9/public-viewer-log.txt",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AQ0EPSPJ9-8fdd25e7f3",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQ0EPSPJ9/public-viewer-log.txt/edit",
+        "preview": "2026-03-31T21:50:30.06788  Connecting to the container 'public-viewer'...\n2026-03-31T21:50:30.37043  Successfully Connected to container: 'public-viewer' [Revision: 'public-viewer--0000063', Replica: 'public-viewer--0000063-69bf585c46-x9hj7']\n2026-03-31T21:45:17.4752503Z stdout F \n2026-03-31T21:45:17.4752869Z stdout F > @kouchou-ai/public-viewer@0.1.0 prebuild /repo/apps/public-viewer\n2026-03-31T21:45:17.4753068Z stdout F > pnpm run rename-file",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre>2026-03-31T21:50:30.06788  Connecting to the container 'public-viewer'...</pre></div>\n<div><pre>2026-03-31T21:50:30.37043  Successfully Connected to container: 'public-viewer' [Revision: 'public-viewer--0000063', Replica: 'public-viewer--0000063-69bf585c46-x9hj7']</pre></div>\n<div><pre>2026-03-31T21:45:17.4752503Z stdout F </pre></div>\n<div><pre>2026-03-31T21:45:17.4752869Z stdout F &gt; @kouchou-ai/public-viewer@0.1.0 prebuild /repo/apps/public-viewer</pre></div>\n<div><pre>2026-03-31T21:45:17.4753068Z stdout F &gt; pnpm run rename-file</pre></div>\n</div>\n</div>\n",
+        "lines": 21,
+        "lines_more": 16,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": true,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rsjqn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "build 中にコケたのかな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1774993942.003029",
+    "client_msg_id": "bf3d33e8-9503-4910-b2e7-a642f2352302",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "build 中にコケたのかな"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1774994719.441849",
+    "client_msg_id": "6973a6ba-c722-4302-bec5-b79450fa6442",
+    "text": "割り当てているメモリ不足っぽいので、一旦手動でメモリ増やしてみたら解消しました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E7vK6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "割り当てているメモリ不足っぽいので、一旦手動でメモリ増やしてみたら解消しました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "割り当てているメモリ不足っぽいので、一旦手動でメモリ増やしてみたら解消しました。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1774994911.707389",
+    "client_msg_id": "3e7856ac-df6d-47df-8ca4-4b70d42e39f3",
+    "text": "あとでリソース指定している部分はPR出しておきます\n（売上がない組織でこういうのをどうするべきか... ）",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1774810297.681539",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "66b77",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あとでリソース指定している部分はPR出しておきます\n（売上がない組織でこういうのをどうするべきか... ）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1774810297.681539",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あとでリソース指定している部分はPR出しておきます\n（売上がない組織でこういうのをどうするべきか... ）"
+  }
+]
