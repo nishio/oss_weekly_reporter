@@ -1,0 +1,1067 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1775016696.817199",
+    "client_msg_id": "ab1ef275-09dd-495c-8406-f3b8295271e9",
+    "text": "すごい。営業メールが来るようになるくらい「ストップ詐欺広告」の件で DD2030 の認知度が上がったようです（笑）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ozGmg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すごい。営業メールが来るようになるくらい「ストップ詐欺広告」の件で DD2030 の認知度が上がったようです（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08HWJ80CHG",
+          "U08GJSBAX3K",
+          "U08Q2CKU139"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "すごい。営業メールが来るようになるくらい「ストップ詐欺広告」の件で DD2030 の認知度が上がったようです（笑）"
+  },
+  {
+    "text": "（雑談）\n個人的な思いつきで、政策の形成過程をリサーチして可視化するシステムを作ってみました。\nテーマを与えると、出来事同士の関係性をネットワークとして構築し、タイムラインで可視化します。市民向けの解説というよりは、政策リサーチ時に高速にテーマにキャッチアップすることの支援を想定しています。\n\n▼ 作成例（テーマだけ与えてClaude Codeを3時間ぶん回すと自動生成されます）\n・町村議会・地方自治制度改革　<https://choson-sokai-explorer.vercel.app/>\n・船荷証券電子化　<https://funani-shoken-explorer.vercel.app/>\n・高校就学支援金制度改革　<https://kokou-shugaku-shien-explorer.vercel.app/>\n・生成AI政策　<https://generative-ai-regulation-explorer.vercel.app/>\n・憲法改正　<https://kenpo-kaisei-explorer.vercel.app/>\n（PC推奨です）\n\nCoreloopで扱っている「SNS型詐欺広告規制」のテーマでも作ってみました：<https://online-fraud-ad-regulation-explorer.vercel.app/>\n興味のあるトピックがあればみていただいて、目に入った情報や感じたこと、気になった点などあればフィードバックいただけると嬉しいです..!\n\n\n▼ 技術的なポイント\n仕組みとしては、リサーチをして結果をグラフに構造化する<https://github.com/blu3mo/policy_ontology/tree/main/.claude|Claude Skills>と、そのビューワーとなるWebアプリの組み合わせで実現しています。\n\n永田町の政策決定プロセスをグラフで表現しています。ノードが各種イベント（事件・提言・法案可決など）、エッジがイベント間の作用関係（例：事件Aが法案Xの成立を後押しした）。この永田町相互作用のデータベースを充実させていくと、「この分野で政策を前に進めるには誰にどうアプローチすべきか」などを過去パターンから推測できるようになるかもです。公開情報だけで十分な精度が出るか怪しいですが、非公開情報も集約していけると良いインサイトが生み出せそう。",
+    "files": [
+      {
+        "id": "F0AQGNZ2W3V",
+        "created": 1775191936,
+        "timestamp": 1775191936,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 720228,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQGNZ2W3V/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQGNZ2W3V/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 279,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 372,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 558,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 620,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 744,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGNZ2W3V-7bf455faeb/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 793,
+        "original_w": 2114,
+        "original_h": 1638,
+        "thumb_tiny": "AwAmADDS570AkgHsR6YobAGScD1pFyc5YEZPSgBeaRm2pknGBycZp1NbAU7sY75oAU5paQUtABRRRQAUyQbmC7iMg8AdelPpGJC5UZNAAvTOSc+tLTQWxyDn2x/jTqACmSyrFs3A/OwUY9TT6rXn/LD/AK7LQBOZAJNmDnAP55/wok4jY5I47VE3/H0f91f5mpJv9S/+6aaAcu7HzEE+wxS0UUgP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQGNZ2W3V/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AQGNZ2W3V-ced38f2920",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0AQGP00F19",
+        "created": 1775191943,
+        "timestamp": 1775191943,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08GJSBAX3K",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 798901,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQGP00F19/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQGP00F19/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 194,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 259,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 389,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 432,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 519,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQGP00F19-74fddfdb4a/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 553,
+        "original_w": 3010,
+        "original_h": 1626,
+        "thumb_tiny": "AwAaADDS5oJwP/rZpNoDEhRk9TS0AIhbHzEE+wxUfmv3wvqMEn9KlpNgyMZGOwPFACk4HQnntTUcuAfLZQRn5sCnEAggjIPqKajIfuEcccDp/nigB9FFFABRmiigBCMjAJHuKPzpaKAP/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQGP00F19/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AQGP00F19-1159e779ec",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZgoHV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（雑談）\n個人的な思いつきで、政策の形成過程をリサーチして可視化するシステムを作ってみました。\nテーマを与えると、出来事同士の関係性をネットワークとして構築し、タイムラインで可視化します。市民向けの解説というよりは、政策リサーチ時に高速にテーマにキャッチアップすることの支援を想定しています。\n\n▼ 作成例（テーマだけ与えてClaude Codeを3時間ぶん回すと自動生成されます）\n・町村議会・地方自治制度改革　"
+              },
+              {
+                "type": "link",
+                "url": "https://choson-sokai-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n・船荷証券電子化　"
+              },
+              {
+                "type": "link",
+                "url": "https://funani-shoken-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n・高校就学支援金制度改革　"
+              },
+              {
+                "type": "link",
+                "url": "https://kokou-shugaku-shien-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n・生成AI政策　"
+              },
+              {
+                "type": "link",
+                "url": "https://generative-ai-regulation-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n・憲法改正　"
+              },
+              {
+                "type": "link",
+                "url": "https://kenpo-kaisei-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n（PC推奨です）\n\nCoreloopで扱っている「SNS型詐欺広告規制」のテーマでも作ってみました："
+              },
+              {
+                "type": "link",
+                "url": "https://online-fraud-ad-regulation-explorer.vercel.app/"
+              },
+              {
+                "type": "text",
+                "text": "\n興味のあるトピックがあればみていただいて、目に入った情報や感じたこと、気になった点などあればフィードバックいただけると嬉しいです..!\n\n\n▼ 技術的なポイント\n仕組みとしては、リサーチをして結果をグラフに構造化する"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/blu3mo/policy_ontology/tree/main/.claude",
+                "text": "Claude Skills"
+              },
+              {
+                "type": "text",
+                "text": "と、そのビューワーとなるWebアプリの組み合わせで実現しています。\n\n永田町の政策決定プロセスをグラフで表現しています。ノードが各種イベント（事件・提言・法案可決など）、エッジがイベント間の作用関係（例：事件Aが法案Xの成立を後押しした）。この永田町相互作用のデータベースを充実させていくと、「この分野で政策を前に進めるには誰にどうアプローチすべきか」などを過去パターンから推測できるようになるかもです。公開情報だけで十分な精度が出るか怪しいですが、非公開情報も集約していけると良いインサイトが生み出せそう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1775191948.496619",
+    "edited": {
+      "user": "U08GJSBAX3K",
+      "ts": "1775191992.000000"
+    },
+    "client_msg_id": "c4aebf4a-128e-45cd-9a99-7c53873c7948",
+    "thread_ts": "1775191948.496619",
+    "reply_count": 3,
+    "reply_users_count": 3,
+    "latest_reply": "1775231829.426709",
+    "reply_users": [
+      "U08JASQKEEM",
+      "U08HKU721PV",
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HZ8JS0EQ",
+          "U091ZN08WQH",
+          "U08HWJ80CHG",
+          "U08J1QVLLAY",
+          "U0A67RK86BH",
+          "U08Q2CKU139",
+          "U08HKLUGE67"
+        ],
+        "count": 7
+      },
+      {
+        "name": "baibusu",
+        "users": [
+          "U08HKU721PV",
+          "U08Q2CKU139",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      },
+      {
+        "name": "すごい",
+        "users": [
+          "U0A67RK86BH",
+          "U08Q2CKU139",
+          "U08HKLUGE67"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "（雑談）\n個人的な思いつきで、政策の形成過程をリサーチして可視化するシステムを作ってみました。\nテーマを与えると、出来事同士の関係性をネットワークとして構築し、タイムラインで可視化します。市民向けの解説というよりは、政策リサーチ時に高速にテーマにキャッチアップすることの支援を想定しています。\n\n▼ 作成例（テーマだけ与えてClaude Codeを3時間ぶん回すと自動生成されます）\n・町村議会・地方自治制度改革　<https://choson-sokai-explorer.vercel.app/>\n・船荷証券電子化　<https://funani-shoken-explorer.vercel.app/>\n・高校就学支援金制度改革　<https://kokou-shugaku-shien-explorer.vercel.app/>\n・生成AI政策　<https://generative-ai-regulation-explorer.vercel.app/>\n・憲法改正　<https://kenpo-kaisei-explorer.vercel.app/>\n（PC推奨です）\n\nCoreloopで扱っている「SNS型詐欺広告規制」のテーマでも作ってみました：<https://online-fraud-ad-regulation-explorer.vercel.app/>\n興味のあるトピックがあればみていただいて、目に入った情報や感じたこと、気になった点などあればフィードバックいただけると嬉しいです..!\n\n\n▼ 技術的なポイント\n仕組みとしては、リサーチをして結果をグラフに構造化する<https://github.com/blu3mo/policy_ontology/tree/main/.claude|Claude Skills>と、そのビューワーとなるWebアプリの組み合わせで実現しています。\n\n永田町の政策決定プロセスをグラフで表現しています。ノードが各種イベント（事件・提言・法案可決など）、エッジがイベント間の作用関係（例：事件Aが法案Xの成立を後押しした）。この永田町相互作用のデータベースを充実させていくと、「この分野で政策を前に進めるには誰にどうアプローチすべきか」などを過去パターンから推測できるようになるかもです。公開情報だけで十分な精度が出るか怪しいですが、非公開情報も集約していけると良いインサイトが生み出せそう。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1775199395.126979",
+    "client_msg_id": "7BF09C92-7BF0-4E59-9D79-CFFC0F7E2F9B",
+    "text": "uiが面白い",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775191948.496619",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kEkjG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "uiが面白い"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775191948.496619",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "uiが面白い"
+  },
+  {
+    "user": "U08HKU721PV",
+    "type": "message",
+    "ts": "1775202476.113329",
+    "client_msg_id": "d65ec5fd-2e8a-4422-89fb-90d80359d506",
+    "text": "住んでる街でテスト。\nWeb上には現れてないアクター達が蠢いている気がするのでディープな情報源をぶち込んだら面白そう\n<https://ofunato-city-history.vercel.app/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775191948.496619",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pKPgS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "住んでる街でテスト。\nWeb上には現れてないアクター達が蠢いている気がするのでディープな情報源をぶち込んだら面白そう\n"
+              },
+              {
+                "type": "link",
+                "url": "https://ofunato-city-history.vercel.app/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08GJSBAX3K"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1775191948.496619",
+    "user_name": "種延真之",
+    "text_readable": "住んでる街でテスト。\nWeb上には現れてないアクター達が蠢いている気がするのでディープな情報源をぶち込んだら面白そう\n<https://ofunato-city-history.vercel.app/>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1775231829.426709",
+    "client_msg_id": "6BAC13A2-AB47-4CD2-A33C-6627874F53DB",
+    "text": "特定地域で作るの面白いですね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775191948.496619",
+    "parent_user_id": "U08GJSBAX3K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fsxHN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "特定地域で作るの面白いですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775191948.496619",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "特定地域で作るの面白いですね"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1775199401.156559",
+    "client_msg_id": "EF640618-1BF7-4369-9D37-820C3DA8D29A",
+    "text": "<https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&amp;t=N9S2sWYwWeB_Xlmr4yoqHQ|https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&amp;t=N9S2sWYwWeB_Xlmr4yoqHQ> ",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ",
+        "image_url": "https://pbs.twimg.com/media/HE74s-PbYAAwC_e.jpg:large",
+        "image_width": 1300,
+        "image_height": 986,
+        "image_bytes": 276027,
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&amp;t=N9S2sWYwWeB_Xlmr4yoqHQ",
+        "fallback": "X (formerly Twitter): Kimiaki Hashimoto AI x Data (@kimi_hashimoto) on X",
+        "text": "DuckDBすげーな。政府のe-StatのデータをSQLだけでテーブルにできちゃった。",
+        "title": "Kimiaki Hashimoto AI x Data (@kimi_hashimoto) on X",
+        "title_link": "https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9CVhk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ",
+                "text": "https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ|https://x.com/kimi_hashimoto/status/2039842418749747277?s=46&t=N9S2sWYwWeB_Xlmr4yoqHQ> "
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1775429548.425019",
+    "client_msg_id": "dffe3f86-71db-4ed1-8940-68303e41092a",
+    "text": "*【デジタル民主主義2030プロジェクト コミュニティ改善のための意見募集】*\nこのデジタル民主主義2030のコミュニティを、もう少し参加しやすく・貢献しやすくできないかなと思い、\nこのプロジェクトで開発しているいどばたで意見を集めてみています。\n\nDD2030に参加・貢献しようとしたとき、どんなところで詰まりましたか？ また、詰まりそうだと感じますか？\n<https://idobata.sambo-office.com/themes/69d2e519f554432fa4deeede>\n\n気づいたことがあれば、気軽に書いてください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775429548.425019",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1775429556.023539",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AQs5F",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【デジタル民主主義2030プロジェクト コミュニティ改善のための意見募集】",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nこのデジタル民主主義2030のコミュニティを、もう少し参加しやすく・貢献しやすくできないかなと思い、\nこのプロジェクトで開発しているいどばたで意見を集めてみています。\n\nDD2030に参加・貢献しようとしたとき、どんなところで詰まりましたか？ また、詰まりそうだと感じますか？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://idobata.sambo-office.com/themes/69d2e519f554432fa4deeede"
+              },
+              {
+                "type": "text",
+                "text": "\n\n気づいたことがあれば、気軽に書いてください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HKU721PV",
+          "U0AQQN267H7",
+          "U08HWJ80CHG",
+          "U08GJSBAX3K"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "*【デジタル民主主義2030プロジェクト コミュニティ改善のための意見募集】*\nこのデジタル民主主義2030のコミュニティを、もう少し参加しやすく・貢献しやすくできないかなと思い、\nこのプロジェクトで開発しているいどばたで意見を集めてみています。\n\nDD2030に参加・貢献しようとしたとき、どんなところで詰まりましたか？ また、詰まりそうだと感じますか？\n<https://idobata.sambo-office.com/themes/69d2e519f554432fa4deeede>\n\n気づいたことがあれば、気軽に書いてください！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1775429556.023539",
+    "client_msg_id": "9ea6cc4f-3cbc-4988-832d-80aeb48efa77",
+    "text": "たとえば、\n• 何をすればよいか分からなかった\n• 誰に聞けばよいか分からなかった\n• 情報が見つけにくかった\n• 関わり方のイメージが持ちづらかった\n• こうだったら参加しやすいのにと思った\nなど、実体験でも印象でも大丈夫です。\n\nまだ深く関わっていない立場からの意見も歓迎です。\nいどばたシステムにまだ触れたことがない方も試してみるのに良いと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775429548.425019",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Skv7k",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たとえば、\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "何をすればよいか分からなかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "誰に聞けばよいか分からなかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "情報が見つけにくかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "関わり方のイメージが持ちづらかった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "こうだったら参加しやすいのにと思った"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "など、実体験でも印象でも大丈夫です。\n\nまだ深く関わっていない立場からの意見も歓迎です。\nいどばたシステムにまだ触れたことがない方も試してみるのに良いと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775429548.425019",
+    "user_name": "Shingo OHKI",
+    "text_readable": "たとえば、\n• 何をすればよいか分からなかった\n• 誰に聞けばよいか分からなかった\n• 情報が見つけにくかった\n• 関わり方のイメージが持ちづらかった\n• こうだったら参加しやすいのにと思った\nなど、実体験でも印象でも大丈夫です。\n\nまだ深く関わっていない立場からの意見も歓迎です。\nいどばたシステムにまだ触れたことがない方も試してみるのに良いと思います。"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1775472205.472499",
+    "client_msg_id": "5df0fcf4-e016-48e1-bdfc-acb66bf92c21",
+    "text": "コアループプロジェクトで今週からAIアンケートを始めるのですが、リリース前のチェックに協力いただける方いらしたら是非ご参加ください！\n<https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&amp;cid=C0A3ZG16TEY|https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&amp;cid=C0A3ZG16TEY>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&amp;cid=C0A3ZG16TEY",
+        "ts": "1775226504.508759",
+        "author_id": "U08JFSYHEP6",
+        "channel_id": "C0A3ZG16TEY",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C0A3ZG16TEY",
+            "ts": "1775226504.508759",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "oK0OJ",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "来週からオンライン広告詐欺に関するAIアンケート調査を広く集め始めるのですが、その前にアンケートツールのテスト会をしようと考えています。\n内容は実際に触って改善点を出せるだけ出すというシンプルなものです。\n\n以下日程候補なので興味のある方は是非参加ください\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "one",
+                          "unicode": "0031-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 4/7 20:00~\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "two",
+                          "unicode": "0032-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 4/7 21:00~\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "three",
+                          "unicode": "0033-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 4/8 20:00~\n"
+                        },
+                        {
+                          "type": "emoji",
+                          "name": "four",
+                          "unicode": "0034-fe0f-20e3"
+                        },
+                        {
+                          "type": "text",
+                          "text": " 4/8 21:00~"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&amp;cid=C0A3ZG16TEY",
+        "fallback": "[April 3rd, 2026 7:28 AM] yuki.kawabe: 来週からオンライン広告詐欺に関するAIアンケート調査を広く集め始めるのですが、その前にアンケートツールのテスト会をしようと考えています。\n内容は実際に触って改善点を出せるだけ出すというシンプルなものです。\n\n以下日程候補なので興味のある方は是非参加ください\n:one: 4/7 20:00~\n:two: 4/7 21:00~\n:three: 4/8 20:00~\n:four: 4/8 21:00~",
+        "text": "来週からオンライン広告詐欺に関するAIアンケート調査を広く集め始めるのですが、その前にアンケートツールのテスト会をしようと考えています。\n内容は実際に触って改善点を出せるだけ出すというシンプルなものです。\n\n以下日程候補なので興味のある方は是非参加ください\n:one: 4/7 20:00~\n:two: 4/7 21:00~\n:three: 4/8 20:00~\n:four: 4/8 21:00~",
+        "author_name": "Ryoma Kawabe Yuki",
+        "author_link": "https://dd2030.slack.com/team/U08JFSYHEP6",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-18/8627916936340_044045703650cfcc2173_48.jpg",
+        "author_subname": "Ryoma Kawabe Yuki",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3ShEP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コアループプロジェクトで今週からAIアンケートを始めるのですが、リリース前のチェックに協力いただける方いらしたら是非ご参加ください！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&cid=C0A3ZG16TEY",
+                "text": "https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&cid=C0A3ZG16TEY",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "コアループプロジェクトで今週からAIアンケートを始めるのですが、リリース前のチェックに協力いただける方いらしたら是非ご参加ください！\n<https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&cid=C0A3ZG16TEY|https://dd2030.slack.com/archives/C0A3ZG16TEY/p1775226504508759?thread_ts=1775226504.508759&cid=C0A3ZG16TEY>"
+  },
+  {
+    "user": "U08UA5VCHQT",
+    "type": "message",
+    "ts": "1775473200.175039",
+    "client_msg_id": "b347173b-86f0-4d5c-8486-c8fc08827c04",
+    "text": "突然すみません！\nXのおすすめタイムラインにおける情報の偏りを可視化するChrome拡張機能を作っています:raised_hands:\n\nアルゴリズムによって自分の見ている情報が偏っていることに気づいていない人が多いのではと感じ、開発しました。どのキーワードを含む投稿が多いか、どの投稿者が頻出しているかをグラフで表示します。偏りの判断はユーザー自身に委ねる設計です。完全ローカル処理で、現在は外部への通信は一切ありません。\n\nまだChrome Web Storeには未公開で、GitHubから手動でインストールする形になります。プログラミングは素人なので粗い部分も多いと思いますが、もし興味があれば見ていただいて助けてもらえると嬉しいです！フィードバックも大歓迎です。できれば優しめに...:blush:\n\n<https://github.com/call-me-shin/ibc-extension>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775473200.175039",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1775539872.515599",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08UA5VCHQT"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ACtUr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "突然すみません！\nXのおすすめタイムラインにおける情報の偏りを可視化するChrome拡張機能を作っています"
+              },
+              {
+                "type": "emoji",
+                "name": "raised_hands",
+                "unicode": "1f64c"
+              },
+              {
+                "type": "text",
+                "text": "\n\nアルゴリズムによって自分の見ている情報が偏っていることに気づいていない人が多いのではと感じ、開発しました。どのキーワードを含む投稿が多いか、どの投稿者が頻出しているかをグラフで表示します。偏りの判断はユーザー自身に委ねる設計です。完全ローカル処理で、現在は外部への通信は一切ありません。\n\nまだChrome Web Storeには未公開で、GitHubから手動でインストールする形になります。プログラミングは素人なので粗い部分も多いと思いますが、もし興味があれば見ていただいて助けてもらえると嬉しいです！フィードバックも大歓迎です。できれば優しめに..."
+              },
+              {
+                "type": "emoji",
+                "name": "blush",
+                "unicode": "1f60a"
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/call-me-shin/ibc-extension"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U08UA5VCHQT",
+    "text_readable": "突然すみません！\nXのおすすめタイムラインにおける情報の偏りを可視化するChrome拡張機能を作っています:raised_hands:\n\nアルゴリズムによって自分の見ている情報が偏っていることに気づいていない人が多いのではと感じ、開発しました。どのキーワードを含む投稿が多いか、どの投稿者が頻出しているかをグラフで表示します。偏りの判断はユーザー自身に委ねる設計です。完全ローカル処理で、現在は外部への通信は一切ありません。\n\nまだChrome Web Storeには未公開で、GitHubから手動でインストールする形になります。プログラミングは素人なので粗い部分も多いと思いますが、もし興味があれば見ていただいて助けてもらえると嬉しいです！フィードバックも大歓迎です。できれば優しめに...:blush:\n\n<https://github.com/call-me-shin/ibc-extension>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1775484640.910669",
+    "client_msg_id": "6bbbded7-52fd-4a02-9cdc-6eb43454d02d",
+    "text": "インストールしようとすると以下のエラーが出てしまいました。\n `tinysegmenter.min.js` はツリーの中になさそうでした。\n&gt; 拡張機能を読み込めませんでした\n&gt; ファイル\n&gt; ~/src/ibc-extension\n&gt; エラー\n&gt; スクリプトの JavaScript「src/lib/tinysegmenter.min.js」を読み込むことができませんでした。\n&gt; マニフェストを読み込めませんでした。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775473200.175039",
+    "parent_user_id": "U08UA5VCHQT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4yzjT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "インストールしようとすると以下のエラーが出てしまいました。\n "
+              },
+              {
+                "type": "text",
+                "text": "tinysegmenter.min.js",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " はツリーの中になさそうでした。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "拡張機能を読み込めませんでした\nファイル\n~/src/ibc-extension\nエラー\nスクリプトの JavaScript「src/lib/tinysegmenter.min.js」を読み込むことができませんでした。\nマニフェストを読み込めませんでした。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08UA5VCHQT"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1775473200.175039",
+    "user_name": "Shingo OHKI",
+    "text_readable": "インストールしようとすると以下のエラーが出てしまいました。\n `tinysegmenter.min.js` はツリーの中になさそうでした。\n> 拡張機能を読み込めませんでした\n> ファイル\n> ~/src/ibc-extension\n> エラー\n> スクリプトの JavaScript「src/lib/tinysegmenter.min.js」を読み込むことができませんでした。\n> マニフェストを読み込めませんでした。"
+  },
+  {
+    "user": "U08UA5VCHQT",
+    "type": "message",
+    "ts": "1775514600.899539",
+    "client_msg_id": "4629a846-e68c-4064-94da-56fdf6bf7465",
+    "text": "ご報告ありがとうございます！\n修正しました。最新版を再度ダウンロードしてお試しください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775473200.175039",
+    "parent_user_id": "U08UA5VCHQT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t7CJ2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ご報告ありがとうございます！\n修正しました。最新版を再度ダウンロードしてお試しください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775473200.175039",
+    "user_name": "U08UA5VCHQT",
+    "text_readable": "ご報告ありがとうございます！\n修正しました。最新版を再度ダウンロードしてお試しください。"
+  },
+  {
+    "text": "ありがとうございます。\n無事使えました！\n\nキーワードにはもう少し意味のあるものが並ぶようになると面白そうだなと思いました！",
+    "files": [
+      {
+        "id": "F0AQRBNAQA3",
+        "created": 1775516727,
+        "timestamp": 1775516727,
+        "name": "image.png",
+        "title": "image.png",
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 64247,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQRBNAQA3/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0AQRBNAQA3/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQRBNAQA3-e46881b364/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQRBNAQA3-e46881b364/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQRBNAQA3-e46881b364/image_360.png",
+        "thumb_360_w": 272,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQRBNAQA3-e46881b364/image_480.png",
+        "thumb_480_w": 362,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0AQRBNAQA3-e46881b364/image_160.png",
+        "original_w": 400,
+        "original_h": 530,
+        "thumb_tiny": "AwAwACWkWQwqoiw4PL56/hUeKcCNo45+lGf84oAbg+lLjtjmlyP8ijcPQflQA0j2xRignmkpgOHTGKcEcjIQn3pq8kVdhlRIwuBwT3Hr9aAKhic/wEfhTSjA4IOfpV57pFHC5P1H9Capkh3ZumTnFADDSUppKQEkaljkHGOc8/0q9b7RCobORnPX1rOHTrS446igC1fbfk257+v9arL1/wD105EVhkyBeehpxhQZ/fKf61XKwITSU51CtgMG9xTaQH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0AQRBNAQA3/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0AQRBNAQA3-1d69aeb4e4",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "udlNr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。\n無事使えました！\n\nキーワードにはもう少し意味のあるものが並ぶようになると面白そうだなと思いました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1775516769.517019",
+    "client_msg_id": "7f30b91b-0e7e-4c7e-8618-565a41623e84",
+    "thread_ts": "1775473200.175039",
+    "parent_user_id": "U08UA5VCHQT",
+    "parent_ts": "1775473200.175039",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます。\n無事使えました！\n\nキーワードにはもう少し意味のあるものが並ぶようになると面白そうだなと思いました！"
+  },
+  {
+    "user": "U08UA5VCHQT",
+    "type": "message",
+    "ts": "1775539872.515599",
+    "client_msg_id": "BE8075F4-1827-42E7-A3A8-6A3E161BF15B",
+    "text": "ありがとうございます！\n\nキーワードについてはChrome組み込みのAI（Gemini Nano）の導入で解決しようと考えています！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775473200.175039",
+    "parent_user_id": "U08UA5VCHQT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mEE/Y",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n\nキーワードについてはChrome組み込みのAI（Gemini Nano）の導入で解決しようと考えています！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1775473200.175039",
+    "user_name": "U08UA5VCHQT",
+    "text_readable": "ありがとうございます！\n\nキーワードについてはChrome組み込みのAI（Gemini Nano）の導入で解決しようと考えています！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1775555039.336259",
+    "client_msg_id": "3b9bc581-fe30-4e34-b83b-6eb9ca5295b6",
+    "text": ":fire: project coreloop のクラウドファンディングが始まっています！:fire:\n\nDD2030 の <#C0A3ZG16TEY> で進んでいる取り組みに関連するクラウドファンディングです。\n\nオンライン広告詐欺対策という具体的なテーマではありますが、\nDD2030 が目指している「市民の声を集め、議論し、政策や制度の実行につなげる」という活動そのものにも関わる取り組みだと思っています。\n\n個人的には、多くのメディアにも取り上げられていて、今対外的には DD2030 として最も見えやすい活動の一つだと感じています。\nその割に、DD2030内では関わっている人以外にまだ十分届いていない気がしていて、もったいないなと思い共有しました。\n\n初速がもう少しつくとよいなと思っています。\nよければぜひ見てみてください。支援やシェアも大歓迎です！\n<https://camp-fire.jp/projects/930941/view>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://static.camp-fire.jp/uploads/project_version/image/1558423/f3b75fd1-aff0-49db-b30c-c2a6db640820.jpeg?ixlib=rails-2.1.4&fit=fill&auto=format&ref=projects_overview&w=1200&h=675&fill=blur",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 24726,
+        "from_url": "https://camp-fire.jp/projects/930941/view",
+        "service_icon": "https://camp-fire.jp/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://camp-fire.jp/projects/930941/view",
+        "fallback": "SNS型投資詐欺の被害額1,274億円。テクノロジーと市民の力で止める。",
+        "text": "SNS型投資詐欺の被害額は1,274億円。その主な手口が、有名人なりすまし詐欺広告です。私たちは通報プラットフォーム「ストップ詐欺広告」で詐欺広告を可視化し、市民の議論で規制のあり方を考え、政策に届けます。台湾では市民の声起点での政策形成で被害が97%減りました。次は日本の番です。",
+        "title": "SNS型投資詐欺の被害額1,274億円。テクノロジーと市民の力で止める。",
+        "title_link": "https://camp-fire.jp/projects/930941/view",
+        "service_name": "camp-fire.jp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iPL9T",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "fire",
+                "unicode": "1f525"
+              },
+              {
+                "type": "text",
+                "text": " project coreloop のクラウドファンディングが始まっています！"
+              },
+              {
+                "type": "emoji",
+                "name": "fire",
+                "unicode": "1f525"
+              },
+              {
+                "type": "text",
+                "text": "\n\nDD2030 の "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C0A3ZG16TEY"
+              },
+              {
+                "type": "text",
+                "text": " で進んでいる取り組みに関連するクラウドファンディングです。\n\nオンライン広告詐欺対策という具体的なテーマではありますが、\nDD2030 が目指している「市民の声を集め、議論し、政策や制度の実行につなげる」という活動そのものにも関わる取り組みだと思っています。\n\n個人的には、多くのメディアにも取り上げられていて、今対外的には DD2030 として最も見えやすい活動の一つだと感じています。\nその割に、DD2030内では関わっている人以外にまだ十分届いていない気がしていて、もったいないなと思い共有しました。\n\n初速がもう少しつくとよいなと思っています。\nよければぜひ見てみてください。支援やシェアも大歓迎です！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://camp-fire.jp/projects/930941/view"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U09C3J7V960",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      },
+      {
+        "name": "heart",
+        "users": [
+          "U08Q9JW7SC9",
+          "U08GJSBAX3K"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": ":fire: project coreloop のクラウドファンディングが始まっています！:fire:\n\nDD2030 の <#C0A3ZG16TEY> で進んでいる取り組みに関連するクラウドファンディングです。\n\nオンライン広告詐欺対策という具体的なテーマではありますが、\nDD2030 が目指している「市民の声を集め、議論し、政策や制度の実行につなげる」という活動そのものにも関わる取り組みだと思っています。\n\n個人的には、多くのメディアにも取り上げられていて、今対外的には DD2030 として最も見えやすい活動の一つだと感じています。\nその割に、DD2030内では関わっている人以外にまだ十分届いていない気がしていて、もったいないなと思い共有しました。\n\n初速がもう少しつくとよいなと思っています。\nよければぜひ見てみてください。支援やシェアも大歓迎です！\n<https://camp-fire.jp/projects/930941/view>"
+  }
+]
