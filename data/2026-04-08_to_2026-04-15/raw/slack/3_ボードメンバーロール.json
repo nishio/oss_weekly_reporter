@@ -1,0 +1,397 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1775904635.024619",
+    "client_msg_id": "70a76886-7775-4be2-8039-007a3b5bc776",
+    "text": "<@U09C3J7V960>\nお疲れ様です。GitHub organization周りの権限の整理をしているのですが、\n大柴さんの業務を西田さんが引き継いだかたちだったと思うので、西田さんにもownerになって頂きたいのですが、よいでしょうか？\n現状、下記投稿の方針で進めています。\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1771989870192309>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775904635.024619",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1775993938.832619",
+    "reply_users": [
+      "U09C3J7V960",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1771989870192309",
+        "ts": "1771989870.192309",
+        "author_id": "U08HWJ80CHG",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58LK8V",
+            "ts": "1771989870.192309",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "6va1s",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "broadcast",
+                          "range": "here"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\nGitHub上の権限を整理したいと思います。\n理由は以下です。\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現在のownerに、レポジトリのmaintainや、権限なしで良い人もおり、セキュリティ的によくない。"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "現在memberには特に権限がなく、表示もされていない。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n反対、要望（開発のためにこのレポジトリの権限が欲しいなど）がなければ、3/11 0:00以降に権限整理作業を行います！\n権限の整理プランの詳細は"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://docs.google.com/spreadsheets/d/1mfTv5f2MDistTfPY0LAkeq75P0fGxydF1zfHodoL1d8/edit?usp=sharing",
+                          "text": "こちら"
+                        },
+                        {
+                          "type": "text",
+                          "text": "の整理2026-2-24のシートを参照ください。\n＝＝＝＝＝＝＝＝＝＝\n■organizationのownerについて\n下記の方々をownerとし、それ以外の方はowner、memberともに一旦外そうと思います。\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "ボードメンバー（代表。また、西田さん・モアイがいなくなったとき実務を行えるように）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "user",
+                              "user_id": "U08KVN5B6HX"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08HN9UDJUB"
+                            },
+                            {
+                              "type": "text",
+                              "text": " "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08R0JY8AQN"
+                            },
+                            {
+                              "type": "text",
+                              "text": " 、GitHubのIDを教えて頂けますと幸いです。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 1,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "GitHubのIDがある方だけでも大丈夫です。"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 2,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_list",
+                      "elements": [
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "user",
+                              "user_id": "U09C3J7V960"
+                            },
+                            {
+                              "type": "text",
+                              "text": " さん（大柴さんの業務を引き継いだため）"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "rich_text_section",
+                          "elements": [
+                            {
+                              "type": "user",
+                              "user_id": "U08HWJ80CHG"
+                            },
+                            {
+                              "type": "text",
+                              "text": ", "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08H3V9KMFH"
+                            },
+                            {
+                              "type": "text",
+                              "text": ", "
+                            },
+                            {
+                              "type": "user",
+                              "user_id": "U08JASQKEEM"
+                            },
+                            {
+                              "type": "text",
+                              "text": " （レポジトリ作成や権限付与など実務を行うため）"
+                            }
+                          ]
+                        }
+                      ],
+                      "style": "bullet",
+                      "indent": 0,
+                      "border": 0
+                    },
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "\n＝＝＝＝＝＝＝＝＝＝\n■レポジトリのadmin、maintainについて\nある程度自走（ownerなしでmaintainの追加 / 削除）できるように、現状メインで動いてくれている方にはadminを与えようと思います。\nただし、これはコミュニティの空気やモアイ個人の信頼感などでの判断なので、今後団体が拡大するに当たって、明確な線引をする必要があり、暫定的な措置です。"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1771989870192309",
+        "fallback": "[February 24th, 2026 7:24 PM] oscar.gaddress: <!here>\nGitHub上の権限を整理したいと思います。\n理由は以下です。\n• 現在のownerに、レポジトリのmaintainや、権限なしで良い人もおり、セキュリティ的によくない。\n• 現在memberには特に権限がなく、表示もされていない。\n反対、要望（開発のためにこのレポジトリの権限が欲しいなど）がなければ、3/11 0:00以降に権限整理作業を行います！\n権限の整理プランの詳細は<https://docs.google.com/spreadsheets/d/1mfTv5f2MDistTfPY0LAkeq75P0fGxydF1zfHodoL1d8/edit?usp=sharing|こちら>の整理2026-2-24のシートを参照ください。\n＝＝＝＝＝＝＝＝＝＝\n■organizationのownerについて\n下記の方々をownerとし、それ以外の方はowner、memberともに一旦外そうと思います。\n• ボードメンバー（代表。また、西田さん・モアイがいなくなったとき実務を行えるように）\n    ◦ <@U08KVN5B6HX> <@U08HN9UDJUB> <@U08R0JY8AQN> 、GitHubのIDを教えて頂けますと幸いです。\n        ▪︎ GitHubのIDがある方だけでも大丈夫です。\n• <@U09C3J7V960> さん（大柴さんの業務を引き継いだため）\n• <@U08HWJ80CHG>, <@U08H3V9KMFH>, <@U08JASQKEEM> （レポジトリ作成や権限付与など実務を行うため）\n＝＝＝＝＝＝＝＝＝＝\n■レポジトリのadmin、maintainについて\nある程度自走（ownerなしでmaintainの追加 / 削除）できるように、現状メインで動いてくれている方にはadminを与えようと思います。\nただし、これはコミュニティの空気やモアイ個人の信頼感などでの判断なので、今後団体が拡大するに当たって、明確な線引をする必要があり、暫定的な措置です。",
+        "text": "<!here>\nGitHub上の権限を整理したいと思います。\n理由は以下です。\n• 現在のownerに、レポジトリのmaintainや、権限なしで良い人もおり、セキュリティ的によくない。\n• 現在memberには特に権限がなく、表示もされていない。\n反対、要望（開発のためにこのレポジトリの権限が欲しいなど）がなければ、3/11 0:00以降に権限整理作業を行います！\n権限の整理プランの詳細は<https://docs.google.com/spreadsheets/d/1mfTv5f2MDistTfPY0LAkeq75P0fGxydF1zfHodoL1d8/edit?usp=sharing|こちら>の整理2026-2-24のシートを参照ください。\n＝＝＝＝＝＝＝＝＝＝\n■organizationのownerについて\n下記の方々をownerとし、それ以外の方はowner、memberともに一旦外そうと思います。\n• ボードメンバー（代表。また、西田さん・モアイがいなくなったとき実務を行えるように）\n    ◦ <@U08KVN5B6HX> <@U08HN9UDJUB> <@U08R0JY8AQN> 、GitHubのIDを教えて頂けますと幸いです。\n        ▪︎ GitHubのIDがある方だけでも大丈夫です。\n• <@U09C3J7V960> さん（大柴さんの業務を引き継いだため）\n• <@U08HWJ80CHG>, <@U08H3V9KMFH>, <@U08JASQKEEM> （レポジトリ作成や権限付与など実務を行うため）\n＝＝＝＝＝＝＝＝＝＝\n■レポジトリのadmin、maintainについて\nある程度自走（ownerなしでmaintainの追加 / 削除）できるように、現状メインで動いてくれている方にはadminを与えようと思います。\nただし、これはコミュニティの空気やモアイ個人の信頼感などでの判断なので、今後団体が拡大するに当たって、明確な線引をする必要があり、暫定的な措置です。",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "author_subname": "小野翔太",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7LSF2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\nお疲れ様です。GitHub organization周りの権限の整理をしているのですが、\n大柴さんの業務を西田さんが引き継いだかたちだったと思うので、西田さんにもownerになって頂きたいのですが、よいでしょうか？\n現状、下記投稿の方針で進めています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1771989870192309"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<@U09C3J7V960>\nお疲れ様です。GitHub organization周りの権限の整理をしているのですが、\n大柴さんの業務を西田さんが引き継いだかたちだったと思うので、西田さんにもownerになって頂きたいのですが、よいでしょうか？\n現状、下記投稿の方針で進めています。\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1771989870192309>"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1775952164.431909",
+    "client_msg_id": "9935b84e-e468-499a-b31d-b8f17165735d",
+    "text": "<@U08HWJ80CHG> はい、、問題ございません！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775904635.024619",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9FCco",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " はい、、問題ございません！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775904635.024619",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress はい、、問題ございません！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1775979623.309119",
+    "client_msg_id": "33273ecf-c826-43ba-b2a4-1086a2d6fd34",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775904635.024619",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775904635.024619",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1775979885.179219",
+    "client_msg_id": "d2173a02-1da1-452f-9147-ec526a0e2db0",
+    "text": "githubIDを教えていただけると幸いです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775904635.024619",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DHHSD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "githubIDを教えていただけると幸いです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775904635.024619",
+    "user_name": "小野翔太",
+    "text_readable": "githubIDを教えていただけると幸いです！"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1775993938.832619",
+    "client_msg_id": "3b5ed9f1-2cfb-40ea-80bb-f94f4bd73d39",
+    "text": "naofumi-nishidaです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1775904635.024619",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kyv3P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "naofumi-nishidaです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1775904635.024619",
+    "user_name": "U09C3J7V960",
+    "text_readable": "naofumi-nishidaです！"
+  }
+]

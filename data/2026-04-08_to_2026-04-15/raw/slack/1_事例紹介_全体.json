@@ -1,0 +1,106 @@
+[
+  {
+    "user": "U08HTMJPH6K",
+    "type": "message",
+    "ts": "1775803973.937609",
+    "edited": {
+      "user": "U08HTMJPH6K",
+      "ts": "1775804665.000000"
+    },
+    "client_msg_id": "1afbb3c1-27b0-47c6-8eaf-fa5a4d4ec90b",
+    "text": "神奈川県相模原市で、市のキャラクターが、「子育て」分野に関するよくある質問に答えるアバターの実証実験中です。\n質問に答えるチャットボットですが、ご意見を生成AIと壁打ちしてまとめることができる「いどばた」のような使い方もできます。\n\n●アバター体験ページ\n<https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9|https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9>\n\n●「さがみん」の生成AIアバターが質問に回答する実証実験を実施します！\n<https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf|https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf>\n<https://www.kanaloco.jp/news/government/article-1263087.html|https://www.kanaloco.jp/news/government/article-1263087.html>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://www.kanaloco.jp/sites/default/files/styles/rectangle_750_390/public/2026-04/sagamin-e.jpg?itok=3qri7vfC",
+        "image_width": 750,
+        "image_height": 390,
+        "image_bytes": 59973,
+        "from_url": "https://www.kanaloco.jp/news/government/article-1263087.html",
+        "service_icon": "https://www.kanaloco.jp/common/favicon/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://www.kanaloco.jp/news/government/article-1263087.html",
+        "fallback": "カナロコ by 神奈川新聞: 相模原市、生成ＡＩで子育て施策の質問に回答 １７日まで実証実験 | カナロコ by 神奈川新聞",
+        "text": "相模原市が生成人工知能（ＡＩ）を使って子育て分野に関する市の取り組みへの質問に回答する実証実験を行っている。市のマスコットキャラクター「さがみん」がアバター（分身）となり、話し言葉でやりとりできる。市は利用状況や回答の精度、アバター活用の…",
+        "title": "相模原市、生成ＡＩで子育て施策の質問に回答 １７日まで実証実験 | カナロコ by 神奈川新聞",
+        "title_link": "https://www.kanaloco.jp/news/government/article-1263087.html",
+        "service_name": "カナロコ by 神奈川新聞"
+      },
+      {
+        "from_url": "https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9",
+        "service_icon": "https://agent.duotech.ai/icons/192.png",
+        "id": 2,
+        "original_url": "https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9",
+        "fallback": "子育てFAQ  案内アバター | DuoTech Agent",
+        "text": "DuoTech Agent",
+        "title": "子育てFAQ  案内アバター | DuoTech Agent",
+        "title_link": "https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9",
+        "service_name": "agent.duotech.ai"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bPyk0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "神奈川県相模原市で、市のキャラクターが、「子育て」分野に関するよくある質問に答えるアバターの実証実験中です。\n質問に答えるチャットボットですが、ご意見を生成AIと壁打ちしてまとめることができる「いどばた」のような使い方もできます。\n\n●アバター体験ページ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9",
+                "text": "https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9",
+                "from_llm": false,
+                "is_slack_url": false
+              },
+              {
+                "type": "text",
+                "text": "\n\n●「さがみん」の生成AIアバターが質問に回答する実証実験を実施します！\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf",
+                "text": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf",
+                "from_llm": false,
+                "is_slack_url": false
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.kanaloco.jp/news/government/article-1263087.html",
+                "text": "https://www.kanaloco.jp/news/government/article-1263087.html",
+                "from_llm": false,
+                "is_slack_url": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "cc",
+    "text_readable": "神奈川県相模原市で、市のキャラクターが、「子育て」分野に関するよくある質問に答えるアバターの実証実験中です。\n質問に答えるチャットボットですが、ご意見を生成AIと壁打ちしてまとめることができる「いどばた」のような使い方もできます。\n\n●アバター体験ページ\n<https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9|https://agent.duotech.ai/start/c9aupoovhcwnje0nexwxlxr9>\n\n●「さがみん」の生成AIアバターが質問に回答する実証実験を実施します！\n<https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf|https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/034/926/0403/01.pdf>\n<https://www.kanaloco.jp/news/government/article-1263087.html|https://www.kanaloco.jp/news/government/article-1263087.html>"
+  }
+]
