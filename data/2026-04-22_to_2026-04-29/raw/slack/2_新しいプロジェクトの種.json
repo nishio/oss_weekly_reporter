@@ -1,0 +1,79 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1777136782.055039",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1777138101.000000"
+    },
+    "client_msg_id": "b343bf72-b90b-4c78-8df7-1aac89346803",
+    "text": "ディープフェイクじゃない、古典的アプローチ（ポリゴンの変形張り付け）での顔交換を作ってみました。\nWebGPUでサーバレスで60FPSで動作します。\n<https://tokoroten.github.io/webfaceswap/>\n\nコアループのところで、ディープフェイクがどういうものかを知るための体験会用のソフトウェアとして使えるかなぁと思ってます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iV/43",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ディープフェイクじゃない、古典的アプローチ（ポリゴンの変形張り付け）での顔交換を作ってみました。\nWebGPUでサーバレスで60FPSで動作します。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://tokoroten.github.io/webfaceswap/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nコアループのところで、ディープフェイクがどういうものかを知るための体験会用のソフトウェアとして使えるかなぁと思ってます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U091ZN08WQH",
+          "U08JASQKEEM"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ディープフェイクじゃない、古典的アプローチ（ポリゴンの変形張り付け）での顔交換を作ってみました。\nWebGPUでサーバレスで60FPSで動作します。\n<https://tokoroten.github.io/webfaceswap/>\n\nコアループのところで、ディープフェイクがどういうものかを知るための体験会用のソフトウェアとして使えるかなぁと思ってます。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1777136798.831579",
+    "client_msg_id": "9409bb5a-6dd4-41e1-86b3-4dfcc844ac53",
+    "text": "ソース画像は全部SDXLで生成した架空人物の画像です。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lnMzc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ソース画像は全部SDXLで生成した架空人物の画像です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ソース画像は全部SDXLで生成した架空人物の画像です。"
+  }
+]
