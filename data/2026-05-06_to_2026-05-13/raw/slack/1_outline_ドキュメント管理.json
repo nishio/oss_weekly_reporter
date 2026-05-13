@@ -1,0 +1,145 @@
+[
+  {
+    "subtype": "channel_join",
+    "user": "U08JASQKEEM",
+    "text": "<@U08JASQKEEM>さんがチャンネルに参加しました",
+    "type": "message",
+    "ts": "1778565805.439719",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@kuboonさんがチャンネルに参加しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1778565830.096789",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1778565861.000000"
+    },
+    "client_msg_id": "046325e2-d8ac-40b9-81c1-2c94203facec",
+    "text": "<https://dd2030.slack.com/archives/C08FL58M3D3/p1778469726736859?thread_ts=1778165904.287349&cid=C08FL58M3D3>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1778469726736859?thread_ts=1778165904.287349&amp;cid=C08FL58M3D3",
+        "ts": "1778469726.736859",
+        "msg_subtype": "thread_broadcast",
+        "author_id": "U08JASQKEEM",
+        "channel_id": "C08FL58M3D3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "message_blocks": [
+          {
+            "team": "T08FL58DC9K",
+            "channel": "C08FL58M3D3",
+            "ts": "1778469726.736859",
+            "message": {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "block_id": "VL+WG",
+                  "elements": [
+                    {
+                      "type": "rich_text_section",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "とりあえずお試しでおうちサーバにセットアップして公開しました。\n"
+                        },
+                        {
+                          "type": "link",
+                          "url": "https://dd2030-docs.kbn.one/"
+                        },
+                        {
+                          "type": "text",
+                          "text": "\n人数無制限で join 可能です\nぜひ色々試してみてください"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": 2,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1778469726736859?thread_ts=1778165904.287349&amp;cid=C08FL58M3D3",
+        "fallback": "[May 10th, 2026 8:22 PM] kuboon: とりあえずお試しでおうちサーバにセットアップして公開しました。\n<https://dd2030-docs.kbn.one/>\n人数無制限で join 可能です\nぜひ色々試してみてください",
+        "text": "とりあえずお試しでおうちサーバにセットアップして公開しました。\n<https://dd2030-docs.kbn.one/>\n人数無制限で join 可能です\nぜひ色々試してみてください",
+        "author_name": "Ohkubo KOHEI (kuboon)",
+        "author_link": "https://dd2030.slack.com/team/U08JASQKEEM",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-17/8622908976177_04e3df87088aa6049b14_48.jpg",
+        "author_subname": "Ohkubo KOHEI (kuboon)",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zU6+X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08FL58M3D3/p1778469726736859?thread_ts=1778165904.287349&cid=C08FL58M3D3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FL58M3D3/p1778469726736859?thread_ts=1778165904.287349&cid=C08FL58M3D3>"
+  },
+  {
+    "subtype": "channel_name",
+    "user": "U08JASQKEEM",
+    "old_name": "1_outline",
+    "name": "1_outline_ドキュメント管理",
+    "text": "チャンネル名を「1_outline」から「1_outline_ドキュメント管理」に変更しました",
+    "type": "message",
+    "ts": "1778565942.958009",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "チャンネル名を「1_outline」から「1_outline_ドキュメント管理」に変更しました"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1778565986.491709",
+    "client_msg_id": "0d71d8c1-37ec-47d1-8b5d-5dbb7c791dea",
+    "text": "`/outline 検索文字列` で検索できるようになってるはず、どなたか試してみてください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "krWJJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "/outline 検索文字列",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " で検索できるようになってるはず、どなたか試してみてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "`/outline 検索文字列` で検索できるようになってるはず、どなたか試してみてください。"
+  }
+]

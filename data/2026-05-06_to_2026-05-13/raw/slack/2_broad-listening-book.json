@@ -1,0 +1,640 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08J6JR5SNQ",
+    "thread_ts": "1778000037.823299",
+    "root": {
+      "user": "U0AQQN267H7",
+      "type": "message",
+      "ts": "1778000037.823299",
+      "client_msg_id": "57427884-9f80-4d24-99d1-ea1af60334ad",
+      "text": "04_05「朝日新聞の特設記事」で参照されている画像ファイルが、リポジトリ内に見当たりませんでした。\n\n具体的には以下の5点です。\n\n- images/04_04_消費税減税SNS散布図.png\n- images/04_04_参院選SNS意見分布.png\n- images/04_04_参院選投票日直前SNS意見分布.png\n- images/04_04_万博SNS分析_前期.png\n- images/04_04_万博SNS分析_後期.png\n\n日本語版・英語版の両方で同じパスを参照しているため、英語版だけの問題ではなく、画像アセットがまだ追加されていない可能性が高そうです。\n\nこれらの画像は後から追加予定でしょうか？それとも、参照パスを別の既存画像に修正する必要がありますか？",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1778000037.823299",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1778090240.844399",
+      "reply_users": [
+        "U08J6JR5SNQ",
+        "U0AQQN267H7"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6enXi",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "04_05「朝日新聞の特設記事」で参照されている画像ファイルが、リポジトリ内に見当たりませんでした。\n\n具体的には以下の5点です。\n\n- images/04_04_消費税減税SNS散布図.png\n- images/04_04_参院選SNS意見分布.png\n- images/04_04_参院選投票日直前SNS意見分布.png\n- images/04_04_万博SNS分析_前期.png\n- images/04_04_万博SNS分析_後期.png\n\n日本語版・英語版の両方で同じパスを参照しているため、英語版だけの問題ではなく、画像アセットがまだ追加されていない可能性が高そうです。\n\nこれらの画像は後から追加予定でしょうか？それとも、参照パスを別の既存画像に修正する必要がありますか？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1778048911.562529",
+    "client_msg_id": "c46df57a-e79a-4484-b0e4-bc83466150e6",
+    "text": "<@U0AQQN267H7>\n朝日新聞はメディア企業なので、引用許諾がとてもうるさいです。\n<https://www.asahi.com/shimbun/chizai/>\n\nそのため、朝日新聞の画像に関しては、私とインプレス（出版社）の担当者の手元にだけあって、Git上には公開されていません。\nWeb版は基本的に、当該記事へのリンクを張る、という形で対応してもらえればと思います。",
+    "attachments": [
+      {
+        "from_url": "https://www.asahi.com/shimbun/chizai/",
+        "service_icon": "https://www.asahi.com/favicon.ico",
+        "thumb_url": "http://www.asahicom.jp/images/logo_ogp.png",
+        "thumb_width": 1200,
+        "thumb_height": 630,
+        "id": 1,
+        "original_url": "https://www.asahi.com/shimbun/chizai/",
+        "fallback": "朝日新聞デジタル: 朝日新聞の記事利用サービス",
+        "text": "朝日新聞（デジタル版記事を含む）やwithnewsの記事を、会社内で共有したり、チラシ・ウェブサイトで紹介したりすることができます。お手元に記事がない場合は電子データで提供します。朝日新聞出版が発行している「AERA」「週刊朝日」「大学ランキング」などの申請も承っています。テレビ番組での利用申し込みもこちらから。",
+        "title": "朝日新聞の記事利用サービス",
+        "title_link": "https://www.asahi.com/shimbun/chizai/",
+        "service_name": "朝日新聞デジタル"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rxc/R",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0AQQN267H7"
+              },
+              {
+                "type": "text",
+                "text": "\n朝日新聞はメディア企業なので、引用許諾がとてもうるさいです。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.asahi.com/shimbun/chizai/"
+              },
+              {
+                "type": "text",
+                "text": "\n\nそのため、朝日新聞の画像に関しては、私とインプレス（出版社）の担当者の手元にだけあって、Git上には公開されていません。\nWeb版は基本的に、当該記事へのリンクを張る、という形で対応してもらえればと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U0AQQN267H7"
+        ],
+        "count": 1
+      },
+      {
+        "name": "sleeping",
+        "users": [
+          "U0AQQN267H7"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<@U0AQQN267H7>\n朝日新聞はメディア企業なので、引用許諾がとてもうるさいです。\n<https://www.asahi.com/shimbun/chizai/>\n\nそのため、朝日新聞の画像に関しては、私とインプレス（出版社）の担当者の手元にだけあって、Git上には公開されていません。\nWeb版は基本的に、当該記事へのリンクを張る、という形で対応してもらえればと思います。"
+  },
+  {
+    "text": "ありがとうございます！元の図の説明文は表示されており、リンクは別タブで開く設定にしています。日本語版・英語版の両方に反映済みです。\n<https://broadlisteningbook.com/ja/04_05_%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E3%81%AE%E7%89%B9%E8%A8%AD%E8%A8%98%E4%BA%8B>",
+    "files": [
+      {
+        "id": "F0B2F5SDSLR",
+        "created": 1778089605,
+        "timestamp": 1778089605,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQQN267H7",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 779070,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B2F5SDSLR/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B2F5SDSLR/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 216,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 288,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 432,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 480,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 576,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B2F5SDSLR-24d3115fe2/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 614,
+        "original_w": 3102,
+        "original_h": 1860,
+        "thumb_tiny": "AwAdADC+Yjk7ZXXp0wcfmKjlLIsxO5gEJAbbtP5c/nUzLkggLn1Iz/nrQF6E43YxnFAAeRjoPbimGCI43IGx68/59/WmQ4b94zsdwBH3gPXufb8vY1LuDSYGcL37E/5/zxQAuBgAjIHrzSimLJuOVbjrjac/5zTwTkg9RznHFAC1HcErbSkEghCQR9KkoIyCM49xQAzIBPX9aUNkkc8e1NhYvCjk/eUH36UeW4B/fMT6kD/CgB9Ao53dRtx0xzQAc9cigD//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B2F5SDSLR/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B2F5SDSLR-1f434ffa8a",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0B22AJJ75G",
+        "created": 1778090020,
+        "timestamp": 1778090020,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0AQQN267H7",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 657729,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B22AJJ75G/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B22AJJ75G/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 216,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 288,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 432,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 480,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 576,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B22AJJ75G-0d2dcdc06c/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 614,
+        "original_w": 3102,
+        "original_h": 1860,
+        "thumb_tiny": "AwAdADDSZQw6kH1FRp5nnkMDsxwcjHX6Z/z61LVe4jC28pXgCNhjJx/hQBYBB6HNFQjC7d28nvgHFKrKo43kehUn/wCvQBL36/hRTRx3zSigBaRyQjFeoBxxmlooAh82TYX8sYxxy2c/TGakzJtHyru7jdx/KnVTuL/yJmj8rdjHO7H9KALOZdn3U3em446/SnDOPmAB9jmkjfzI1fGNwBxTqAP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B22AJJ75G/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B22AJJ75G-773849814c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U0AQQN267H7",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7Yogp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！元の図の説明文は表示されており、リンクは別タブで開く設定にしています。日本語版・英語版の両方に反映済みです。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://broadlisteningbook.com/ja/04_05_%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E3%81%AE%E7%89%B9%E8%A8%AD%E8%A8%98%E4%BA%8B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U0AQQN267H7",
+      "type": "message",
+      "ts": "1778000037.823299",
+      "client_msg_id": "57427884-9f80-4d24-99d1-ea1af60334ad",
+      "text": "04_05「朝日新聞の特設記事」で参照されている画像ファイルが、リポジトリ内に見当たりませんでした。\n\n具体的には以下の5点です。\n\n- images/04_04_消費税減税SNS散布図.png\n- images/04_04_参院選SNS意見分布.png\n- images/04_04_参院選投票日直前SNS意見分布.png\n- images/04_04_万博SNS分析_前期.png\n- images/04_04_万博SNS分析_後期.png\n\n日本語版・英語版の両方で同じパスを参照しているため、英語版だけの問題ではなく、画像アセットがまだ追加されていない可能性が高そうです。\n\nこれらの画像は後から追加予定でしょうか？それとも、参照パスを別の既存画像に修正する必要がありますか？",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1778000037.823299",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1778090240.844399",
+      "reply_users": [
+        "U08J6JR5SNQ",
+        "U0AQQN267H7"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6enXi",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "04_05「朝日新聞の特設記事」で参照されている画像ファイルが、リポジトリ内に見当たりませんでした。\n\n具体的には以下の5点です。\n\n- images/04_04_消費税減税SNS散布図.png\n- images/04_04_参院選SNS意見分布.png\n- images/04_04_参院選投票日直前SNS意見分布.png\n- images/04_04_万博SNS分析_前期.png\n- images/04_04_万博SNS分析_後期.png\n\n日本語版・英語版の両方で同じパスを参照しているため、英語版だけの問題ではなく、画像アセットがまだ追加されていない可能性が高そうです。\n\nこれらの画像は後から追加予定でしょうか？それとも、参照パスを別の既存画像に修正する必要がありますか？"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1778090240.844399",
+    "client_msg_id": "5bea4569-6326-423d-87df-16756120f3d1",
+    "thread_ts": "1778000037.823299",
+    "parent_user_id": "U0AQQN267H7",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08J6JR5SNQ",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "U0AQQN267H7",
+    "text_readable": "ありがとうございます！元の図の説明文は表示されており、リンクは別タブで開く設定にしています。日本語版・英語版の両方に反映済みです。\n<https://broadlisteningbook.com/ja/04_05_%E6%9C%9D%E6%97%A5%E6%96%B0%E8%81%9E%E3%81%AE%E7%89%B9%E8%A8%AD%E8%A8%98%E4%BA%8B>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1777998141.569829",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1777998141.569829",
+      "edited": {
+        "user": "B08HGALULNT",
+        "ts": "1778129008.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1777998141.569829",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1778129008.456299",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1777998138,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by lukec",
+          "text": "*概要*\n\n英語版を `upstream/main` の `ee9de99` 時点の日本語版差分に追従させるPRです。英語版の差分は Luke がレビュー済みです。\n\n*主な変更*\n\n• 第1章・4.4節・7.2節の重複削除と文言整理を英語版に反映\n• 第3章のパブリックコメント件数ヒストグラム参照を `images/` 配下の英語画像に更新し、Figure alt text を追加\n• 11.2節の Polis 説明に、<http://Change.org|Change.org> との設計思想比較、Polis の3ステップ整理、Polis と TTTC の相補性に関する説明を追加\n• 将来利用向けに、現在の英語版 `book_order.txt` には含めず、パブリックコメントコラムと Collective Action / Connective Action コラムを英語化\n• 上記の将来利用向けコラムについて、`en/metadata/path_map.json` に日本語版から英語版への対応を追加\n\n*対応した日本語版コミット*\n\n• `f7453be` 重複削除\n• `d3b96ba` 重複削除\n• `90117ce` 11.2節Polisの誕生・CACAコラム：相互バックポート\n• `29acd32` 3章：パブコメ件数ヒストグラムの画像をimages配下にコピー\n• `b8e4f93` パブコメコラム：3章からのバックポートとTODO解消\n• `13b4118` CACAコラム：11章（特に11.5節）からのバックポート\n各英語版コミットの本文にも、対応する日本語版コミットを記載しています。\n\n*確認*\n\n• `git diff --check`\n• `node -e \"JSON.parse(require('fs').readFileSync('en/metadata/path_map.json','utf8')); console.log('path_map ok')\"`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open`\n\n---\n\n*Summary*\n\nThis PR syncs the English edition with Japanese manuscript updates through `upstream/main` commit `ee9de99`. Luke has reviewed the English diffs.\n\n*Main Changes*\n\n• Ports duplicate-removal and wording cleanup in Chapter 1, Section 4.4, and Section 7.2\n• Updates the Chapter 3 public-comment histogram reference to the English image under `images/` and adds Figure alt text\n• Expands Section 11.2 with the design-philosophy comparison between Polis and <http://Change.org|Change.org>, the three-step summary of how Polis works, and the complementary relationship between Polis and TTTC\n• Translates two future-use columns, without adding them to the current English `book_order.txt`: the public-comment column and the Collective Action / Connective Action column\n• Adds Japanese-to-English mappings for those future-use columns in `en/metadata/path_map.json`\n\n*Corresponding Japanese Commits*\n\n• `f7453be` Duplicate removal\n• `d3b96ba` Duplicate removal\n• `90117ce` Mutual backport for Section 11.2, “The Birth of Polis,” and the CACA column\n• `29acd32` Copy Chapter 3 public-comment histogram image under `images/`\n• `b8e4f93` Public-comment column: backport from Chapter 3 and resolve TODO\n• `13b4118` CACA column: backport from Chapter 11, especially Section 11.5\nThe corresponding Japanese commits are also listed in the English commit messages or bodies.\n\n*Validation*\n\n• `git diff --check`\n• `node -e \"JSON.parse(require('fs').readFileSync('en/metadata/path_map.json','utf8')); console.log('path_map ok')\"`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open`",
+          "pretext": "Pull request opened by <https://github.com/lukec|lukec>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/130|#130 英語版：最新の日本語版差分を反映 / Sync English edition with latest JP updates>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@copilot-pull-request-reviewer[bot]>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:130,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/130&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;英語版：最新の日本語版差分を反映 / Sync English edition with latest JP updates&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1778129008.456299",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1777998138,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request merged by tokoroten",
+        "pretext": "Pull request merged by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/130|#130 英語版：最新の日本語版差分を反映 / Sync English edition with latest JP updates>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U0AQQN267H7"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1778129039.571029",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] 3 new commits pushed to _main_ by tokoroten",
+        "text": "`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/3591cb99248d87aee82e4e8f8e2198deb32c5032|3591cb99>` - Port latest JP manuscript updates / 最新の日本語原稿更新を英語版へ反映\n`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/372e459de89d71d14880660e3d05ba0f31e0f43d|372e459d>` - Translate future-use JP columns / 将来利用向けコラムを英語化\n`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/5826726e77b46424e7126cfe7c7d7fd1d4bbd6bf|5826726e>` - Merge pull request #130 from lukec/codex/port-latest-en-updates",
+        "pretext": "<https://github.com/digitaldemocracy2030/broad-listening-book/compare/ee9de99a7f6d...5826726e77b4|3 new commits> pushed to `<https://github.com/digitaldemocracy2030/broad-listening-book/tree/main|main>` by <https://github.com/tokoroten|tokoroten>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1778129153.077459",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1778129151,
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] New release <https://github.com/digitaldemocracy2030/broad-listening-book/releases/tag/build-20260507-5826726|Release - PDF Build 20260507> published by github-actions[bot]",
+        "text": "Automatically generated from commit <https://github.com/digitaldemocracy2030/broad-listening-book/commit/5826726e77b46424e7126cfe7c7d7fd1d4bbd6bf|5826726>\n\n*文字数一覧*\n\n| ファイル                                   | 文字数       |\n| -------------------------------------- | --------- |\n| 00_序文.md                               | 9,748     |\n| 00_endorsement_from_Audrey.md          | 544       |\n| 00_本書の読みかた.md                          | 6,671     |\n| 01_ブロードリスニングとは何か？.md                   | 11,014    |\n| 02_ブロードリスニングとアンケートの違い、定量分析から定性分析へ.md   | 13,912    |\n| column/ワードクラウドは分析ではない.md               | 1,380     |\n| 03_デジタル民主主義とブロードリスニング、新しい民意の届け方.md     | 12,314    |\n| column/安全な共感.md                        | 3,257     |\n| 04_日本国内におけるブロードリスニングの広がり.md            | 1,500     |\n| 04_01_安野貴博の取り組み.md                     | 11,784    |\n| 04_02_国民民主の国会質問.md                     | 8,566     |\n| 04_03_sumino_日テレ選挙特番.md                | 7,742     |\n| 04_04_Polisで世論の地図を作る.md                | 6,715     |\n| 04_05_朝日新聞の特設記事.md                     | 8,374     |\n| column/公共財とデジタル公共財.md                  | 5,185     |\n| 05_東京都、シン東京2050、ブロードリスニングによる政策転換.md    | 9,941     |\n| 06_国政選挙でのブロードリスニングの利用.md               | 1,250     |\n| 06_01_チームみらい.md                        | 10,350    |\n| 06_02_チームみらい2026年衆院選.md                | 3,549     |\n| 06_03_日本維新の会.md                        | 8,433     |\n| 06_04_国民民主党.md                         | 10,155    |\n| 06_05_公明党.md                           | 8,950     |\n| 07_地方選挙での活用.md                         | 642       |\n| 07_02_いでい良輔氏のケース.md                    | 7,317     |\n| 07_03_再生の道_尾花山和哉.md                    | 10,627    |\n| 08_地方自治体での活用.md                        | 308       |\n| 08_01_群馬県太田市の自分ごと化会議.md                | 9,309     |\n| 08_02_広島県の事例.md                        | 6,023     |\n| 09_企業での活用.md                           | 527       |\n| 09_01_アルティウスリンク_取材記事.md                | 8,623     |\n| 09_02_サイボウズ.md                         | 8,241     |\n| column/レビューで試す広聴AI.md                  | 4,299     |\n| 10_ビジネスになったブロードリスニング.md                | 452       |\n| 10_00_DD2030による広聴AIの開発活動.md            | 9,127     |\n| 10_01_株式会社ブーツ.md                       | 6,890     |\n| 10_02_Code for Japan.md                | 10,010    |\n| 10_03_多元現実.md                          | 10,634    |\n| 10_04_Democracy X.md                   | 1,978     |\n| 10_05_litela_田中魁.md                    | 4,777     |\n| column/1万件の声を集めて気づいたこと.md              | 3,783     |\n| column/パブリックコメントと向き合う大企業AI_富士通の取り組み.md | 3,428     |\n| 11_海外におけるブロードリスニングの流れ.md               | 2,948     |\n| 11_01_台湾.md                            | 12,297    |\n| 11_02_Polisの誕生.md                      | 6,418     |\n| 11_03_ボーリンググリーン.md                     | 4,933     |\n| 11_04_イスラエルパレスチナRemesh事例.md            | 9,786     |\n| 11_05_Connective_Actionを力に変える.md       | 10,023    |\n| 12_ブロードリスニング要素技術解説.md                  | 25,478    |\n| 13_広聴AIの技術スタック解説.md                    | 19,231    |\n| 99_付録_用語集.md                           | 13,117    |\n| 99_付録_公開事例一覧.md                        | 6,592     |\n| *合計*                                   | *379,152* |",
+        "pretext": "New release published by <https://github.com/apps/github-actions|github-actions[bot]>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/releases/tag/build-20260507-5826726|Release - PDF Build 20260507>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1778481499.858019",
+    "client_msg_id": "b41b4763-2605-4c68-bb9d-03578804ec14",
+    "text": "今日は定例会議なしという理解でOKです？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B4kyT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日は定例会議なしという理解でOKです？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今日は定例会議なしという理解でOKです？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1778483149.320519",
+    "client_msg_id": "c0ed680b-0812-404e-a86d-06d22a35201a",
+    "text": "おｋです",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "f4OlC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おｋです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "おｋです"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1778493606.472189",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
+        "thumb_width": 192,
+        "thumb_height": 192,
+        "service_icon": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-24dp/logo_meet_2020q4_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xvE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、ブロードリスニング本執筆会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]

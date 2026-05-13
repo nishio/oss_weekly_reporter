@@ -1,0 +1,86 @@
+[
+  {
+    "subtype": "bot_add",
+    "text": "このチャンネルに次のインテグレーションを追加しました : <https://dd2030.slack.com/services/B0B2ZNKTBR7|dd-bot>",
+    "user": "U08JASQKEEM",
+    "bot_link": "<https://dd2030.slack.com/services/B0B2ZNKTBR7|dd-bot>",
+    "bot_id": "B0B2ZNKTBR7",
+    "type": "message",
+    "ts": "1778481508.189599",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "このチャンネルに次のインテグレーションを追加しました : <https://dd2030.slack.com/services/B0B2ZNKTBR7|dd-bot>"
+  },
+  {
+    "subtype": "bot_message",
+    "text": "kuboon published \"概要\"",
+    "attachments": [
+      {
+        "id": 1,
+        "ts": 1778500205,
+        "fallback": "概要",
+        "title": "概要",
+        "title_link": "https://dd2030-docs.kbn.one/doc/5qac6kab-IGEuBjGRdx",
+        "callback_id": "7e38936b-6442-4e93-a3c4-c399433205ae"
+      }
+    ],
+    "type": "message",
+    "ts": "1778500210.441849",
+    "bot_id": "B0B2ZNKTBR7",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L1Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kuboon published \"概要\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "",
+    "text_readable": "kuboon published \"概要\""
+  },
+  {
+    "subtype": "bot_message",
+    "text": "kuboon updated \"概要\"",
+    "attachments": [
+      {
+        "id": 1,
+        "ts": 1778500332,
+        "fallback": "概要",
+        "text": "「いどばた」とは",
+        "title": "概要",
+        "title_link": "https://dd2030-docs.kbn.one/doc/5qac6kab-IGEuBjGRdx",
+        "callback_id": "7e38936b-6442-4e93-a3c4-c399433205ae"
+      }
+    ],
+    "type": "message",
+    "ts": "1778500355.437949",
+    "bot_id": "B0B2ZNKTBR7",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mrZf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "kuboon updated \"概要\""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "",
+    "text_readable": "kuboon updated \"概要\""
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 4428310486,
+    "number": 213,
+    "title": "広聴AIの「使い方を見てみる」のリンクが切れている",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/website/issues/213",
+    "user": "shingo-ohki",
+    "created_at": "2026-05-12T10:29:10Z",
+    "body": "https://dd2030.org/kouchou-ai/\nこのページの「使い方を見てみる」のリンクが切れている。\n現状\nhttps://github.com/digitaldemocracy2030/kouchou-ai/tree/main/how_to_use\n正しくはこれ\nhttps://github.com/digitaldemocracy2030/kouchou-ai/blob/main/docs/user-guide/how-to-use.md\n\nおそらくドキュメント整理のときに website 側のリンクの更新が漏れたのかも。",
+    "type": "issue"
+  },
+  {
+    "id": 4411033975,
+    "number": 212,
+    "title": "ブロードリスニングのページを追加し「5つの取り組み」に更新",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/212",
+    "user": "nishio",
+    "created_at": "2026-05-09T04:06:00Z",
+    "merged_at": "2026-05-09T09:14:43Z",
+    "body": "## Summary\r\n- 第5の活動として「ブロードリスニング」（解説書出版プロジェクト）を `kouchou-ai` などと並列に追加\r\n- 広聴AIの位置づけを「ブロードリスニングを支援するツール開発」として整理\r\n- ドロワーメニューに「ブロードリスニング」を追加\r\n\r\n## 変更内容\r\n- 新規 `src/broad-listening/index.vto`\r\n  - 書籍サイト（ja/en）への導線\r\n  - 背景・歴史（2025-08-13〜2026-05-04）\r\n  - About / Feedback / Wiki への関連リソース\r\n  - 関連プロジェクトとして広聴AIへリンク\r\n  - GitHub（原書 / 英訳 / 書籍サイト）\r\n- `src/index.vto`\r\n  - 「4つの取り組み」→「5つの取り組み」\r\n  - ブロードリスニングのカードを追加\r\n  - 広聴AI のタグライン・説明文を新しい位置づけに合わせて調整\r\n- `src/_components/drawer.vto`\r\n  - ドロワーメニューに「ブロードリスニング」を追加\r\n\r\n## 背景\r\nSlackでの議論（@nishio / @ohki）を踏まえ、書籍プロジェクトを広聴AIと並列の第5の活動として配置する方針を採用しました。dd2030.org 側はフラットに5プロジェクトを露出させ、`broadlisteningbook.com` 側からは広聴AIを「DD2030が開発するブロードリスニング支援OSSツールの一つ」として相互リンクする構成を想定しています。\r\n\r\n## Test plan\r\n- [x] `CMS_PASSWORD=dev deno task serve` でローカル起動し、以下を確認：\r\n  - [x] `/` ホームの「5つの取り組み」にブロードリスニングカードが表示される\r\n  - [x] `/broad-listening/` が表示され、各リンクが正しく開く\r\n  - [x] ドロワーメニューに「ブロードリスニング」が出る\r\n  - [x] 広聴AIカードのタグライン・説明文の変更が意図どおり\r\n\r\n<img width=\"3308\" height=\"1900\" alt=\"image\" src=\"https://github.com/user-attachments/assets/867f6e3d-a9e4-489c-b075-8d22a4d9c50e\" />\r\n\r\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+    "additions": 121,
+    "deletions": 5,
+    "changed_files": 3,
+    "co_author": "Claude Opus 4.7 (1M context)",
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 4306924772,
+    "number": 211,
+    "title": "Week51 Summary Update",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/211",
+    "user": "github-actions[bot]",
+    "created_at": "2026-04-22T05:37:04Z",
+    "updated_at": "2026-05-06T06:16:07Z",
+    "body": "Auto-generated weekly summaries for week51",
+    "additions": 55,
+    "deletions": 0,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
