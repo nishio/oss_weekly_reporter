@@ -1,0 +1,215 @@
+{
+  "period": {
+    "start": "2026-05-13T13:31:53.893108+09:00",
+    "end": "2026-05-20T13:31:53.893108+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 4470000732,
+      "number": 830,
+      "title": "[FEATURE] CLI / analysis-core で cluster_nums を省略可能にし、argument 数ベースで推奨値を自動計算する",
+      "state": "closed"
+    },
+    {
+      "id": 3973287540,
+      "number": 800,
+      "title": "fix: Overview コンポーネントで result.config が undefined の場合にクラッシュする",
+      "state": "closed"
+    },
+    {
+      "id": 3557668572,
+      "number": 726,
+      "title": "[BUG]公開状態にしたレポートがない状態で静的HTML出力をしたときのエラーメッセージがわかりにくい",
+      "state": "closed"
+    },
+    {
+      "id": 4475541800,
+      "number": 836,
+      "title": "Document filesystem-based usage for analysis-core CLI",
+      "state": "created"
+    },
+    {
+      "id": 4475541803,
+      "number": 837,
+      "title": "Add config and input preflight validation to analysis-core CLI",
+      "state": "created"
+    },
+    {
+      "id": 4475541844,
+      "number": 838,
+      "title": "Evaluate output artifact validation for analysis-core CLI",
+      "state": "created"
+    },
+    {
+      "id": 4470568991,
+      "number": 833,
+      "title": "Issue #685 follow-up: reimplement remote HTTP/CSP/UUID fixes on current apps/* tree",
+      "state": "created"
+    },
+    {
+      "id": 3543508002,
+      "number": 721,
+      "title": "ファイルシステムベース実行方式の明確化と検証テスト追加",
+      "state": "updated"
+    },
+    {
+      "id": 3057175497,
+      "number": 493,
+      "title": "[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4482724467,
+      "number": 839,
+      "title": "[codex] ignore apps/api uv lockfile",
+      "state": "merged"
+    },
+    {
+      "id": 4474973957,
+      "number": 835,
+      "title": "Improve static build error handling for public viewer",
+      "state": "merged"
+    },
+    {
+      "id": 4470672924,
+      "number": 834,
+      "title": "fix: validate public report payload before serving",
+      "state": "merged"
+    },
+    {
+      "id": 4470087471,
+      "number": 832,
+      "title": "feat: auto-calculate cluster counts in analysis-core when omitted",
+      "state": "merged"
+    },
+    {
+      "id": 4470042225,
+      "number": 831,
+      "title": "Add analysis-core publish workflow",
+      "state": "merged"
+    },
+    {
+      "id": 4469994984,
+      "number": 829,
+      "title": "[codex] remove fixed random seeds from hierarchical clustering",
+      "state": "merged"
+    },
+    {
+      "id": 4466338833,
+      "number": 828,
+      "title": "[codex] fix public-viewer reporter API URL fallback",
+      "state": "merged"
+    },
+    {
+      "id": 4466165264,
+      "number": 827,
+      "title": "docs: add plan for llm grouping and capability auto-detection",
+      "state": "merged"
+    },
+    {
+      "id": 4461676360,
+      "number": 826,
+      "title": "Add analysis-core CI and test fixes",
+      "state": "merged"
+    },
+    {
+      "id": 4453319778,
+      "number": 825,
+      "title": "feat(visualization): self-contained HTML report (replaces broken npm step) + fix `--without-html` default",
+      "state": "merged"
+    },
+    {
+      "id": 4452038363,
+      "number": 824,
+      "title": "feat(local-llm): accept full URL in `address`, support `LOCAL_LLM_API_KEY`",
+      "state": "merged"
+    },
+    {
+      "id": 4433517928,
+      "number": 823,
+      "title": "chore(deps): bump next from 16.2.3 to 16.2.6",
+      "state": "merged"
+    },
+    {
+      "id": 4427341119,
+      "number": 822,
+      "title": "chore(deps): bump next from 16.1.5 to 16.2.6 in /utils/dummy-server",
+      "state": "merged"
+    },
+    {
+      "id": 4052260225,
+      "number": 817,
+      "title": "誤混入したCI設定を見直し、CodeQL定期実行とCodeRabbit設定を調整",
+      "state": "merged"
+    },
+    {
+      "id": 4010657618,
+      "number": 814,
+      "title": "Show clear Japanese error on static build with no published reports",
+      "state": "merged"
+    },
+    {
+      "id": 4482815362,
+      "number": 840,
+      "title": "[codex] Start workflow defaultization groundwork",
+      "state": "created"
+    },
+    {
+      "id": 4005173296,
+      "number": 810,
+      "title": "feat: Make UMAP random_state configurable to enable parallelization",
+      "state": "updated"
+    },
+    {
+      "id": 3973336891,
+      "number": 802,
+      "title": "fix: prevent crash in Overview when result.config is undefined",
+      "state": "updated"
+    },
+    {
+      "id": 3973336648,
+      "number": 801,
+      "title": "fix: resolve duplicate React instance crash in local dev (pnpm workspace)",
+      "state": "updated"
+    },
+    {
+      "id": 3930186603,
+      "number": 794,
+      "title": "docs: add plan for llm grouping and capability auto-detection",
+      "state": "updated"
+    },
+    {
+      "id": 3699486480,
+      "number": 735,
+      "title": "Implement Content Security Policy (CSP) headers and add local model f…",
+      "state": "updated"
+    },
+    {
+      "id": 3692994086,
+      "number": 734,
+      "title": "feat: integrate Biome for linting and formatting",
+      "state": "updated"
+    },
+    {
+      "id": 3557697889,
+      "number": 727,
+      "title": "静的ビルド実行前に公開状態のレポートが存在するかを検証",
+      "state": "updated"
+    },
+    {
+      "id": 3543557136,
+      "number": 722,
+      "title": "Add filesystem-based usage documentation and validation tests",
+      "state": "updated"
+    },
+    {
+      "id": 3130123124,
+      "number": 597,
+      "title": "Feature/issue 493 レポート画面のスクロールイベント回避を追加",
+      "state": "updated"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1778731226.498869",
+    "client_msg_id": "985aae04-f158-4937-9296-471584ebb142",
+    "text": "そういえば、仕事でディープフェイクツールを作ってるので、ディープフェイクのアルゴリズムはだいたい理解できるようになってきましたので、必要だったら解説します。\n（InsightFaceのライセンス料が高すぎるので、だったら自分で作るわ、ってなってる）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rM+oH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういえば、仕事でディープフェイクツールを作ってるので、ディープフェイクのアルゴリズムはだいたい理解できるようになってきましたので、必要だったら解説します。\n（InsightFaceのライセンス料が高すぎるので、だったら自分で作るわ、ってなってる）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "そういえば、仕事でディープフェイクツールを作ってるので、ディープフェイクのアルゴリズムはだいたい理解できるようになってきましたので、必要だったら解説します。\n（InsightFaceのライセンス料が高すぎるので、だったら自分で作るわ、ってなってる）"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1778834098.524599",
+    "client_msg_id": "d8f1c80a-ce93-4741-a003-f92007e6c94d",
+    "text": "非同期でできそうなことがおおいので、今週も定例スキップしましょうか。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1778834098.524599",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1778842687.832649",
+    "reply_users": [
+      "U08GJSBAX3K"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bjfIb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "非同期でできそうなことがおおいので、今週も定例スキップしましょうか。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "非同期でできそうなことがおおいので、今週も定例スキップしましょうか。"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1778842687.832649",
+    "client_msg_id": "74377F9B-4DF8-44CF-83D5-38BF3271C814",
+    "text": "了解です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1778834098.524599",
+    "parent_user_id": "U08JFSYHEP6",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eNu58",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "了解です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1778834098.524599",
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "了解です！"
+  },
+  {
+    "text": "最近仕事で作ってるディープフェイクツールはこんな感じ\n\n左下が業界最高性能のInsightFaceのinswapper\n右下が私が現在作っているバージョン\n（交換先の顔は画像生成AIで作った適当な画像）\n\ninswapperの商用ライセンスが高いので、１からディープラーニングをぶん回して自作で作ってます",
+    "files": [
+      {
+        "id": "F0B413RUZ1R",
+        "created": 1778901411,
+        "timestamp": 1778901411,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08J6JR5SNQ",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1171945,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B413RUZ1R/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B413RUZ1R/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 214,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 285,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 427,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 475,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 569,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B413RUZ1R-f3b106e706/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 607,
+        "original_w": 1288,
+        "original_h": 764,
+        "thumb_tiny": "AwAdADCwsxYhA2T65prXKmUxF2BHcDGeKZuPkljHIeeBgjNVjK6NlYW3e6njigCxIzqUG9uWIOGJqcSEkKGOSpNVJiV2uODng46cGk+1R7S24sQc4JIoAtPcgymMluCcYGM1HIXDKoZ855O49MVUN2FYMijPv2qSacKRtdTgnBBzjrQIt5bAXjGeoqMTsZipjG3nGe3Heo5HZbcSIdvG4Dr1/wD11TM7jhTt/wB3jNAy9LgmNQSfmJOe1WMtjAPPcgd81nPP5oVSOhzknNPedljG35flB4PrQBP58jTldi7eceopZRuZBuyu7+lZ/wBokAwp2j/Z4zU0k5mxkYAJPWgD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B413RUZ1R/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B413RUZ1R-aea4b301d1",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08J6JR5SNQ",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B+JBW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "最近仕事で作ってるディープフェイクツールはこんな感じ\n\n左下が業界最高性能のInsightFaceのinswapper\n右下が私が現在作っているバージョン\n（交換先の顔は画像生成AIで作った適当な画像）\n\ninswapperの商用ライセンスが高いので、１からディープラーニングをぶん回して自作で作ってます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1778901566.360859",
+    "client_msg_id": "e467bad8-2450-467c-87aa-488acd92c82e",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "最近仕事で作ってるディープフェイクツールはこんな感じ\n\n左下が業界最高性能のInsightFaceのinswapper\n右下が私が現在作っているバージョン\n（交換先の顔は画像生成AIで作った適当な画像）\n\ninswapperの商用ライセンスが高いので、１からディープラーニングをぶん回して自作で作ってます"
+  }
+]
