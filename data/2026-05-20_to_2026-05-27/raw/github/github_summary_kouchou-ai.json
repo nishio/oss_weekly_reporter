@@ -1,0 +1,407 @@
+{
+  "period": {
+    "start": "2026-05-20T13:35:53.007615+09:00",
+    "end": "2026-05-27T13:35:53.007615+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 4502400334,
+      "number": 860,
+      "title": "Windows実機での Docker Desktop セットアップ検証手順を整備する",
+      "state": "closed"
+    },
+    {
+      "id": 4502380824,
+      "number": 859,
+      "title": "Windows環境向け setup_win.bat の軽量 regression test を作る",
+      "state": "closed"
+    },
+    {
+      "id": 4494618817,
+      "number": 846,
+      "title": "CSP / remote asset policy for public-IP HTTP access on current apps/* tree",
+      "state": "closed"
+    },
+    {
+      "id": 4494618772,
+      "number": 845,
+      "title": "LocalLLM model auto-fetch UX on current apps/admin create flow",
+      "state": "closed"
+    },
+    {
+      "id": 4489210846,
+      "number": 842,
+      "title": "テストの共通モック/fixture 重複を整理する",
+      "state": "closed"
+    },
+    {
+      "id": 4475541800,
+      "number": 836,
+      "title": "Document filesystem-based usage for analysis-core CLI",
+      "state": "closed"
+    },
+    {
+      "id": 4475541803,
+      "number": 837,
+      "title": "Add config and input preflight validation to analysis-core CLI",
+      "state": "closed"
+    },
+    {
+      "id": 4470568991,
+      "number": 833,
+      "title": "Admin UUID fallback for public-IP HTTP access on current apps/* tree",
+      "state": "closed"
+    },
+    {
+      "id": 4164131737,
+      "number": 820,
+      "title": "静的エクスポート環境向けのCSP設定ガイドをドキュメントに追加する",
+      "state": "closed"
+    },
+    {
+      "id": 4163435878,
+      "number": 818,
+      "title": "PNGでダウンロードボタンが死んでいる可能性がある。",
+      "state": "closed"
+    },
+    {
+      "id": 4042811405,
+      "number": 815,
+      "title": "#813 の coderabbit, github workflow についての議論",
+      "state": "closed"
+    },
+    {
+      "id": 3973226034,
+      "number": 799,
+      "title": "fix: ローカル開発環境でのReactバージョン不一致によるdev overlay クラッシュ",
+      "state": "closed"
+    },
+    {
+      "id": 3764799318,
+      "number": 740,
+      "title": "レポート一覧取得時にslugフィールドの欠落によるValidationErrorが発生する",
+      "state": "closed"
+    },
+    {
+      "id": 3543508002,
+      "number": 721,
+      "title": "ファイルシステムベース実行方式の明確化と検証テスト追加",
+      "state": "closed"
+    },
+    {
+      "id": 3497484443,
+      "number": 716,
+      "title": "[FEATURE] レポート作成時のエラーログを web application 上から確認できない",
+      "state": "closed"
+    },
+    {
+      "id": 3448355817,
+      "number": 710,
+      "title": "[BUG]url情報のある散布図で点をクリックしてもリンク先にジャンプできない現象",
+      "state": "closed"
+    },
+    {
+      "id": 3439716753,
+      "number": 707,
+      "title": "[BUG]APIが利用可能であってもAPI接続チェックが失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 3282638514,
+      "number": 685,
+      "title": "[BUG] リモート環境でのHTTPアクセス時に発生するCSPおよびJavaScriptエラーについて",
+      "state": "closed"
+    },
+    {
+      "id": 3278836515,
+      "number": 683,
+      "title": "[BUG] 静的ファイル出力時に公開状態のレポートがない場合にエラーとなる",
+      "state": "closed"
+    },
+    {
+      "id": 3266981229,
+      "number": 681,
+      "title": "[FEATURE] APIの接続チェック機能でユーザー入力APIキーもチェックできるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3233857220,
+      "number": 666,
+      "title": "[BUG] Windows 環境で api の build error が出る",
+      "state": "closed"
+    },
+    {
+      "id": 3197614831,
+      "number": 629,
+      "title": "[BUG]  scripts/fetch_reports.pyでは「限定公開」「非公開」状態のレポートがバックアップできない",
+      "state": "closed"
+    },
+    {
+      "id": 3171592866,
+      "number": 613,
+      "title": "[FEATURE] フォームから入力された API Key を使ってレポートを生成できる",
+      "state": "closed"
+    },
+    {
+      "id": 3100187047,
+      "number": 584,
+      "title": "[BUG] レポート編集、意見グループ編集を行うと、トークン使用量や推定コストが0になる",
+      "state": "closed"
+    },
+    {
+      "id": 3070934885,
+      "number": 530,
+      "title": "[BUG]セットアップ時の「requirements.txt」の追加の必要性(windows環境)",
+      "state": "closed"
+    },
+    {
+      "id": 3045735751,
+      "number": 456,
+      "title": "[DOCUMENT] メンテナー向けのマージ基準についてドキュメント化する",
+      "state": "closed"
+    },
+    {
+      "id": 3030155430,
+      "number": 400,
+      "title": "[FEATURE] 環境確認機能を作る",
+      "state": "closed"
+    },
+    {
+      "id": 3029992887,
+      "number": 398,
+      "title": "Devin とのうまい協働方法を考える",
+      "state": "closed"
+    },
+    {
+      "id": 3029893633,
+      "number": 396,
+      "title": "管理画面の基本e2eテスト計画",
+      "state": "closed"
+    },
+    {
+      "id": 3026963537,
+      "number": 385,
+      "title": "[FEATURE]ローカルLLM / embedding を利用できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 4523574228,
+      "number": 872,
+      "title": "[FEATURE] スマホ環境では散布図と別ビューを提供する方針を検討する",
+      "state": "created"
+    },
+    {
+      "id": 4521968357,
+      "number": 870,
+      "title": "[REFACTOR] fetch_reports.py を migration / 緊急救済専用へ降格し、通常運用から外す",
+      "state": "created"
+    },
+    {
+      "id": 4521968358,
+      "number": 871,
+      "title": "[BUG] Azure deploy の safety を fetch_reports 依存から Blob Storage health check に切り替える",
+      "state": "created"
+    },
+    {
+      "id": 4516168926,
+      "number": 869,
+      "title": "[analysis-core] label refinement PR化までの残作業整理",
+      "state": "created"
+    },
+    {
+      "id": 3764830604,
+      "number": 741,
+      "title": "[BUG] main ブランチへのマージ時に実行される Azure への deploy が失敗する",
+      "state": "updated"
+    },
+    {
+      "id": 3655783565,
+      "number": 731,
+      "title": "[BUG] Windows環境でインストールしようとすると文字化けが発生して中断する",
+      "state": "updated"
+    },
+    {
+      "id": 3054727810,
+      "number": 478,
+      "title": "[BUG] Clientの意見の説明が禁則処理ができていない",
+      "state": "updated"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "updated"
+    },
+    {
+      "id": 2938766428,
+      "number": 121,
+      "title": "[BUG]縦長画面での散布図の表示がおかしい",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4508208492,
+      "number": 865,
+      "title": "[codex] legacy pipeline と refactoring phase docs を cleanup",
+      "state": "merged"
+    },
+    {
+      "id": 4506849057,
+      "number": 864,
+      "title": "[codex] report_launcher の subprocess smoke と path cleanup を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4502676771,
+      "number": 862,
+      "title": "[codex] Windows setup の実機 E2E と軽量 CI を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4501784200,
+      "number": 857,
+      "title": "散布図の source link クリックが modebar に阻害される問題を修正",
+      "state": "merged"
+    },
+    {
+      "id": 4501383907,
+      "number": 856,
+      "title": "legacy report_status の slug 欠落を吸収する",
+      "state": "merged"
+    },
+    {
+      "id": 4500034340,
+      "number": 855,
+      "title": "reuse画面の Biome warning を解消する",
+      "state": "merged"
+    },
+    {
+      "id": 4499989714,
+      "number": 854,
+      "title": "API テストの重複 mock/fixture を整理する",
+      "state": "merged"
+    },
+    {
+      "id": 4499922113,
+      "number": 853,
+      "title": "ユーザー入力 API キーでも接続チェックできるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 4495995844,
+      "number": 852,
+      "title": "管理画面でレポート生成失敗時のエラーログを確認できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 4495357141,
+      "number": 851,
+      "title": "Azure deploy で shared CSP helper を取り込む",
+      "state": "merged"
+    },
+    {
+      "id": 4495260733,
+      "number": 850,
+      "title": "LocalLLM モデル一覧の auto-fetch UX を改善",
+      "state": "merged"
+    },
+    {
+      "id": 4494985347,
+      "number": 849,
+      "title": "Add static hosting CSP deployment guide",
+      "state": "merged"
+    },
+    {
+      "id": 4494801796,
+      "number": 848,
+      "title": "web apps に env-aware CSP header を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4494636042,
+      "number": 847,
+      "title": "admin create/reuse flow の UUID fallback を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4493863963,
+      "number": 844,
+      "title": "analysis-core CLI に preflight validation を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4492642717,
+      "number": 843,
+      "title": "analysis-core の optional dependency を extras に分離",
+      "state": "merged"
+    },
+    {
+      "id": 4484872441,
+      "number": 841,
+      "title": "[codex] legacy API step imports を Ruff に合わせる",
+      "state": "merged"
+    },
+    {
+      "id": 4482815362,
+      "number": 840,
+      "title": "[codex] workflow default化の土台を整備",
+      "state": "merged"
+    },
+    {
+      "id": 4482724467,
+      "number": 839,
+      "title": "[codex] ignore apps/api uv lockfile",
+      "state": "merged"
+    },
+    {
+      "id": 4524727299,
+      "number": 874,
+      "title": "[codex] semantic island layout 生成を追加",
+      "state": "created"
+    },
+    {
+      "id": 4524186170,
+      "number": 873,
+      "title": "[codex] Azure deploy を直列化して更新競合を避ける",
+      "state": "created"
+    },
+    {
+      "id": 4515684067,
+      "number": 868,
+      "title": "[codex] 実行時ユーザーAPIキーの受け渡しを直す",
+      "state": "created"
+    },
+    {
+      "id": 4515424666,
+      "number": 867,
+      "title": "[codex] 既存出力を再利用して再実行できるようにする",
+      "state": "created"
+    },
+    {
+      "id": 4515292972,
+      "number": 866,
+      "title": "[codex] LLM grouping 分析モードを追加",
+      "state": "created"
+    },
+    {
+      "id": 4503384139,
+      "number": 863,
+      "title": "[codex] Windows setup の日本語案内を PowerShell に分離",
+      "state": "created"
+    },
+    {
+      "id": 4502418698,
+      "number": 861,
+      "title": "Windows 向け setup_win.bat の軽量 CI を追加する",
+      "state": "created"
+    },
+    {
+      "id": 4502153721,
+      "number": 858,
+      "title": "[codex] Windows setup の文字化け耐性を改善",
+      "state": "created"
+    }
+  ]
+}

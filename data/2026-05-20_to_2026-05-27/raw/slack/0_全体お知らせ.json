@@ -1,0 +1,593 @@
+[
+  {
+    "subtype": "reminder_add",
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1779446933.314419",
+    "text": "  毎週土曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “!here :mega: 1時間後より、全体定例会を開催します！\n:clock8: 時刻\n20:00-21:00\n:link: Google Meet\nhttps://meet.google.com/fhn-rcoj-sci\n:memo: 議事録\nhttps://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I\n\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください\n\n:open_file_folder:過去の録画格納先\nhttps://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing” ",
+    "user_name": "小野翔太",
+    "text_readable": "  毎週土曜日 19:00 , 日本標準時 にこのチャンネルでこれをリマインドするよう設定しました : “!here :mega: 1時間後より、全体定例会を開催します！\n:clock8: 時刻\n20:00-21:00\n:link: Google Meet\nhttps://meet.google.com/fhn-rcoj-sci\n:memo: 議事録\nhttps://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I\n\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください\n\n:open_file_folder:過去の録画格納先\nhttps://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing” "
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1779517786.957469",
+    "client_msg_id": "d740c6dd-0e54-4a46-8d8f-a343cafd439e",
+    "text": "<!here>\n*コミュニケーションツールをSlackからDiscordへ移行する案について（ご意見募集：5月30日まで）*\n\nみなさん、こんにちは！モアイです。\nデジタル民主主義2030の一般社団法人化などの展開を見据え、より円滑で持続可能なコミュニティ運営を行うため、*メインのコミュニケーションツールを現在の「Slack」から「Discord」へ移行すること*を検討しています。\n\nつきましては、みなさまからのご意見やご懸念を伺いたく、本日から1週間（5月30日まで）フィードバック期間を設けさせていただきます。特に致命的な問題や強い反対がなければ、1週間後にDiscordサーバーを立ち上げ、具体的な移行プロセスを開始する予定です。\n\n以下に、移行を検討している理由と懸念点への対応方針をまとめましたので、ご一読いただけますと幸いです。\n\n---\n\n:bulb: *移行を検討している理由*\n\n*1. 過去ログが残る環境の確保*\n• 現在のSlackの無料プランでは、一定期間が経つと過去のメッセージやファイルが非表示（削除）になってしまいます。有償プランは月額コストが非常に高額なため導入が難しい状況です。\n• Discordであれば、*無料のまま過去ログが残り*、いつでも検索・閲覧が可能です。\n*2. 新メンバーが参加しやすい環境づくり（オンボーディングの改善）*\n• Slackでは新しく入ったメンバーが自分でチャンネルを探して追加する必要がありますが、Discordでは「サーバーに参加した時点で主要なチャンネルに自動で入る（デフォルトイン）」仕組みや、コミュニティ向けのチュートリアル機能が充実しています。\n• これにより、新しく参加したメンバーが迷わず活動に参加しやすくなります。\n*3. コミュニティ運営の効率化*\n - 運営の自動化や整理に必要な機能がDiscordでは無料で豊富に提供されており、コミュニティの活発化や管理コストの削減に繋がります。\n\n---\n\n:warning: *懸念点とこれからの対応について*\n\n*## Slackのメンバーや過去ログの扱いについて ##*\nSlackの1,600人以上のメンバーアセットや過去のやり取りを完全に切り捨てるわけではありません。*移行後も、当面の間はSlackを残します*。\nこれまでの議論の資産を守るため、すでにGitHub上に専用のリポジトリ（<https://github.com/digitaldemocracy2030/slack-logs|slack-logs>）を作成し、*過去ログを本格的に抽出してアーカイブとして保存する作業を開始しています*。\n移行後は、しばらく「Discordを中心」とした運用に切り替えますが、過去ログの参照や連絡用にSlackも併存させます。\n\n*## ツールの使い方の違い（スレッドやUIなど）##*\nSlackとDiscordでは画面デザインやスレッドの仕様（Discordはフォーラムや独自スレッド機能があります）が少し異なります。移行にあたっては、基本的な使い方ガイドを用意し、慣れるまでのサポートを行います。\n\n*## メンバーの移行負荷 ##*\nSlackからDiscordへスムーズに移動できるよう、アカウント作成方法などの案内と、移行用リンクを順次共有いたします。ROM（閲覧のみ）の方も含め、ぜひ一緒に移行していただければ嬉しいです。\n\n---\n\n:date: *今後のスケジュール（予定）*\n\n• 5月23日（土）〜 5月30日（土）：本投稿に対するご意見・リアクションの受付期間\n• 5月30日（土）以降：特にご意見がなければDiscordサーバーを開設し、移行の案内を開始\n• 移行完了までの期間：しばらくの間はSlackとDiscordを併用しますが、*「新しいやり取りやアクティブな議論はDiscord」*を基本とします。Slackは過去の会話の参照や過渡期の連絡用として残す予定です。\n---\n\n:speech_balloon: *みなさまへのお願い*\n\nこの移行について、ご質問や「Discordになるとここが困る」「こういう懸念がある」といったご意見がありましたら、*この投稿のスレッド、またはリアクションにて*お気軽にお知らせください。\n\nコミュニティがより活動しやすく、情報が蓄積されやすい環境にするための前向きな移行として考えております。ご協力のほど、どうぞよろしくお願いいたします！\n\n:question:FAQ等を載せたページを用意しました。こちらも貼っておきます。\n<https://dd2030.org/discord-migration/>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oKqOF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "コミュニケーションツールをSlackからDiscordへ移行する案について（ご意見募集：5月30日まで）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nみなさん、こんにちは！モアイです。\nデジタル民主主義2030の一般社団法人化などの展開を見据え、より円滑で持続可能なコミュニティ運営を行うため、"
+              },
+              {
+                "type": "text",
+                "text": "メインのコミュニケーションツールを現在の「Slack」から「Discord」へ移行すること",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "を検討しています。\n\nつきましては、みなさまからのご意見やご懸念を伺いたく、本日から1週間（5月30日まで）フィードバック期間を設けさせていただきます。特に致命的な問題や強い反対がなければ、1週間後にDiscordサーバーを立ち上げ、具体的な移行プロセスを開始する予定です。\n\n以下に、移行を検討している理由と懸念点への対応方針をまとめましたので、ご一読いただけますと幸いです。\n\n---\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "bulb",
+                "unicode": "1f4a1"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "移行を検討している理由",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "text",
+                "text": "1. 過去ログが残る環境の確保",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現在のSlackの無料プランでは、一定期間が経つと過去のメッセージやファイルが非表示（削除）になってしまいます。有償プランは月額コストが非常に高額なため導入が難しい状況です。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Discordであれば、*無料のまま過去ログが残り*、いつでも検索・閲覧が可能です。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "2. 新メンバーが参加しやすい環境づくり（オンボーディングの改善）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Slackでは新しく入ったメンバーが自分でチャンネルを探して追加する必要がありますが、Discordでは「サーバーに参加した時点で主要なチャンネルに自動で入る（デフォルトイン）」仕組みや、コミュニティ向けのチュートリアル機能が充実しています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "これにより、新しく参加したメンバーが迷わず活動に参加しやすくなります。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "3. コミュニティ運営の効率化",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n - 運営の自動化や整理に必要な機能がDiscordでは無料で豊富に提供されており、コミュニティの活発化や管理コストの削減に繋がります。\n\n---\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "warning",
+                "unicode": "26a0-fe0f"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "懸念点とこれからの対応について",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              },
+              {
+                "type": "text",
+                "text": "## Slackのメンバーや過去ログの扱いについて ##",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nSlackの1,600人以上のメンバーアセットや過去のやり取りを完全に切り捨てるわけではありません。"
+              },
+              {
+                "type": "text",
+                "text": "移行後も、当面の間はSlackを残します",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "。\nこれまでの議論の資産を守るため、すでにGitHub上に専用のリポジトリ（"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/slack-logs",
+                "text": "slack-logs"
+              },
+              {
+                "type": "text",
+                "text": "）を作成し、"
+              },
+              {
+                "type": "text",
+                "text": "過去ログを本格的に抽出してアーカイブとして保存する作業を開始しています",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "。\n移行後は、しばらく「Discordを中心」とした運用に切り替えますが、過去ログの参照や連絡用にSlackも併存させます。\n\n"
+              },
+              {
+                "type": "text",
+                "text": "## ツールの使い方の違い（スレッドやUIなど）##",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nSlackとDiscordでは画面デザインやスレッドの仕様（Discordはフォーラムや独自スレッド機能があります）が少し異なります。移行にあたっては、基本的な使い方ガイドを用意し、慣れるまでのサポートを行います。\n\n"
+              },
+              {
+                "type": "text",
+                "text": "## メンバーの移行負荷 ##",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\nSlackからDiscordへスムーズに移動できるよう、アカウント作成方法などの案内と、移行用リンクを順次共有いたします。ROM（閲覧のみ）の方も含め、ぜひ一緒に移行していただければ嬉しいです。\n\n---\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "date",
+                "unicode": "1f4c5"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "今後のスケジュール（予定）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "5月23日（土）〜 5月30日（土）：本投稿に対するご意見・リアクションの受付期間"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "5月30日（土）以降：特にご意見がなければDiscordサーバーを開設し、移行の案内を開始"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "移行完了までの期間：しばらくの間はSlackとDiscordを併用しますが、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "「新しいやり取りやアクティブな議論はDiscord」",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "を基本とします。Slackは過去の会話の参照や過渡期の連絡用として残す予定です。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n---\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "speech_balloon",
+                "unicode": "1f4ac"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "みなさまへのお願い",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\nこの移行について、ご質問や「Discordになるとここが困る」「こういう懸念がある」といったご意見がありましたら、*この投稿のスレッド、またはリアクションにて*お気軽にお知らせください。\n\nコミュニティがより活動しやすく、情報が蓄積されやすい環境にするための前向きな移行として考えております。ご協力のほど、どうぞよろしくお願いいたします！\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "question",
+                "unicode": "2753"
+              },
+              {
+                "type": "text",
+                "text": "FAQ等を載せたページを用意しました。こちらも貼っておきます。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2030.org/discord-migration/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U091ZN08WQH",
+          "U08MG09M5FH",
+          "U08HZ8JS0EQ"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\n*コミュニケーションツールをSlackからDiscordへ移行する案について（ご意見募集：5月30日まで）*\n\nみなさん、こんにちは！モアイです。\nデジタル民主主義2030の一般社団法人化などの展開を見据え、より円滑で持続可能なコミュニティ運営を行うため、*メインのコミュニケーションツールを現在の「Slack」から「Discord」へ移行すること*を検討しています。\n\nつきましては、みなさまからのご意見やご懸念を伺いたく、本日から1週間（5月30日まで）フィードバック期間を設けさせていただきます。特に致命的な問題や強い反対がなければ、1週間後にDiscordサーバーを立ち上げ、具体的な移行プロセスを開始する予定です。\n\n以下に、移行を検討している理由と懸念点への対応方針をまとめましたので、ご一読いただけますと幸いです。\n\n---\n\n:bulb: *移行を検討している理由*\n\n*1. 過去ログが残る環境の確保*\n• 現在のSlackの無料プランでは、一定期間が経つと過去のメッセージやファイルが非表示（削除）になってしまいます。有償プランは月額コストが非常に高額なため導入が難しい状況です。\n• Discordであれば、*無料のまま過去ログが残り*、いつでも検索・閲覧が可能です。\n*2. 新メンバーが参加しやすい環境づくり（オンボーディングの改善）*\n• Slackでは新しく入ったメンバーが自分でチャンネルを探して追加する必要がありますが、Discordでは「サーバーに参加した時点で主要なチャンネルに自動で入る（デフォルトイン）」仕組みや、コミュニティ向けのチュートリアル機能が充実しています。\n• これにより、新しく参加したメンバーが迷わず活動に参加しやすくなります。\n*3. コミュニティ運営の効率化*\n - 運営の自動化や整理に必要な機能がDiscordでは無料で豊富に提供されており、コミュニティの活発化や管理コストの削減に繋がります。\n\n---\n\n:warning: *懸念点とこれからの対応について*\n\n*## Slackのメンバーや過去ログの扱いについて ##*\nSlackの1,600人以上のメンバーアセットや過去のやり取りを完全に切り捨てるわけではありません。*移行後も、当面の間はSlackを残します*。\nこれまでの議論の資産を守るため、すでにGitHub上に専用のリポジトリ（<https://github.com/digitaldemocracy2030/slack-logs|slack-logs>）を作成し、*過去ログを本格的に抽出してアーカイブとして保存する作業を開始しています*。\n移行後は、しばらく「Discordを中心」とした運用に切り替えますが、過去ログの参照や連絡用にSlackも併存させます。\n\n*## ツールの使い方の違い（スレッドやUIなど）##*\nSlackとDiscordでは画面デザインやスレッドの仕様（Discordはフォーラムや独自スレッド機能があります）が少し異なります。移行にあたっては、基本的な使い方ガイドを用意し、慣れるまでのサポートを行います。\n\n*## メンバーの移行負荷 ##*\nSlackからDiscordへスムーズに移動できるよう、アカウント作成方法などの案内と、移行用リンクを順次共有いたします。ROM（閲覧のみ）の方も含め、ぜひ一緒に移行していただければ嬉しいです。\n\n---\n\n:date: *今後のスケジュール（予定）*\n\n• 5月23日（土）〜 5月30日（土）：本投稿に対するご意見・リアクションの受付期間\n• 5月30日（土）以降：特にご意見がなければDiscordサーバーを開設し、移行の案内を開始\n• 移行完了までの期間：しばらくの間はSlackとDiscordを併用しますが、*「新しいやり取りやアクティブな議論はDiscord」*を基本とします。Slackは過去の会話の参照や過渡期の連絡用として残す予定です。\n---\n\n:speech_balloon: *みなさまへのお願い*\n\nこの移行について、ご質問や「Discordになるとここが困る」「こういう懸念がある」といったご意見がありましたら、*この投稿のスレッド、またはリアクションにて*お気軽にお知らせください。\n\nコミュニティがより活動しやすく、情報が蓄積されやすい環境にするための前向きな移行として考えております。ご協力のほど、どうぞよろしくお願いいたします！\n\n:question:FAQ等を載せたページを用意しました。こちらも貼っておきます。\n<https://dd2030.org/discord-migration/>"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1779530403.085339",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/fhn-rcoj-sci",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/fhn-rcoj-sci",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/fhn-rcoj-sci",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "80py",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、全体定例会を開催します！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock8",
+                "unicode": "1f557"
+              },
+              {
+                "type": "text",
+                "text": " 時刻\n20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " Google Meet\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fhn-rcoj-sci"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " 議事録\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I"
+              },
+              {
+                "type": "text",
+                "text": "\n\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "open_file_folder",
+                "unicode": "1f4c2"
+              },
+              {
+                "type": "text",
+                "text": "過去の録画格納先\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1779854558.203949",
+    "client_msg_id": "7959c7a9-8812-4d67-ad7c-5309c65d3fcb",
+    "text": "【注意喚起】\n先ほど削除致しましたが、スパムととれる求人情報がこのチャンネルに投稿されました。\n• 当団体の目的にそぐわない内容でしたので削除しました。スパムでなくても求人情報の投稿は基本NGとさせていただきます。\n• 投稿がありましても、応募しないでください。\n• 投稿だけでなく、DMにもご注意ください。\n• 被害にあった、もしくはあいそうな場合、一人で悩まず、警察などにご連絡ください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pQXDx",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "【注意喚起】\n先ほど削除致しましたが、スパムととれる求人情報がこのチャンネルに投稿されました。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "当団体の目的にそぐわない内容でしたので削除しました。スパムでなくても求人情報の投稿は基本NGとさせていただきます。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "投稿がありましても、応募しないでください。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "投稿だけでなく、DMにもご注意ください。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "被害にあった、もしくはあいそうな場合、一人で悩まず、警察などにご連絡ください。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U09C3J7V960"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "【注意喚起】\n先ほど削除致しましたが、スパムととれる求人情報がこのチャンネルに投稿されました。\n• 当団体の目的にそぐわない内容でしたので削除しました。スパムでなくても求人情報の投稿は基本NGとさせていただきます。\n• 投稿がありましても、応募しないでください。\n• 投稿だけでなく、DMにもご注意ください。\n• 被害にあった、もしくはあいそうな場合、一人で悩まず、警察などにご連絡ください。"
+  }
+]

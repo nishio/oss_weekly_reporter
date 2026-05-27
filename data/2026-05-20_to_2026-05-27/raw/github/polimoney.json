@@ -1,0 +1,19 @@
+[
+  {
+    "id": 4507306192,
+    "number": 254,
+    "title": "試験的実装の反映・削除",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/254",
+    "user": "grassfieldk",
+    "created_at": "2026-05-23T07:23:10Z",
+    "merged_at": "2026-05-23T07:23:21Z",
+    "body": "## 変更の概要\r\n\r\n- Auth0 の廃止\r\n- uniformed パターンの反映\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"[ ]\" を \"[x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n# Release Notes\n\n* **Refactor**\n  * Changed data flow generation from pre-computed to on-demand; transactions and categories now generate flows internally rather than receiving pre-built flow data.\n  * Removed the uniformed politician profile pages route.\n  * Removed authentication integration.\n  * Simplified demo data structure and removed associated configuration files.\n\n<!-- review_stack_entry_start -->\n\n[![Review Change Stack](https://storage.googleapis.com/coderabbit_public_assets/review-stack-in-coderabbit-ui.svg)](https://app.coderabbit.ai/change-stack/digitaldemocracy2030/polimoney/pull/254?utm_source=github_walkthrough&utm_medium=github&utm_campaign=change_stack)\n\n<!-- review_stack_entry_end -->\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 164,
+    "deletions": 3184,
+    "changed_files": 32,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

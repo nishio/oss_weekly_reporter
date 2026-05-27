@@ -1,0 +1,811 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779687851.349409",
+    "client_msg_id": "4F952A00-EE0C-4D3C-B397-CAB5EFC744F4",
+    "text": "要件として\n・たくさんの意見があることが点群として表示されて欲しい、1つの点が1つの意見に対応するなど\n・embeddingして2D UMAPした場合、空間配置を尊重したクラスタリングをしたら意味的なまとまりがベストではなく、意味的なまとまりでクラスタリングしたら2D UMAPで明瞭に分離しなくて理解が困難\n・良い感じの可視化が欲しい\n\nという積年の課題ですけど\n\n・クラスタ内の距離ベースで全域木を作る\n・クラスタまたぎのエッジを短い方から順に、明瞭分離を壊さない程度追加する(ここは少しずつ足しながらイテラティブにやる、二分探索でも良い)\n\nってのはどうでしょう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DxP7B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "要件として\n・たくさんの意見があることが点群として表示されて欲しい、1つの点が1つの意見に対応するなど\n・embeddingして2D UMAPした場合、空間配置を尊重したクラスタリングをしたら意味的なまとまりがベストではなく、意味的なまとまりでクラスタリングしたら2D UMAPで明瞭に分離しなくて理解が困難\n・良い感じの可視化が欲しい\n\nという積年の課題ですけど\n\n・クラスタ内の距離ベースで全域木を作る\n・クラスタまたぎのエッジを短い方から順に、明瞭分離を壊さない程度追加する(ここは少しずつ足しながらイテラティブにやる、二分探索でも良い)\n\nってのはどうでしょう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "要件として\n・たくさんの意見があることが点群として表示されて欲しい、1つの点が1つの意見に対応するなど\n・embeddingして2D UMAPした場合、空間配置を尊重したクラスタリングをしたら意味的なまとまりがベストではなく、意味的なまとまりでクラスタリングしたら2D UMAPで明瞭に分離しなくて理解が困難\n・良い感じの可視化が欲しい\n\nという積年の課題ですけど\n\n・クラスタ内の距離ベースで全域木を作る\n・クラスタまたぎのエッジを短い方から順に、明瞭分離を壊さない程度追加する(ここは少しずつ足しながらイテラティブにやる、二分探索でも良い)\n\nってのはどうでしょう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779687959.491659",
+    "client_msg_id": "A25BFA9B-0F4F-43BF-ACDB-58C9954610F3",
+    "text": "この方法の良いところは、追加したクラスタまたぎのエッジが示唆を与えるものとしてフォーカスして良いところ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dojUp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この方法の良いところは、追加したクラスタまたぎのエッジが示唆を与えるものとしてフォーカスして良いところ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "この方法の良いところは、追加したクラスタまたぎのエッジが示唆を与えるものとしてフォーカスして良いところ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779688086.680869",
+    "client_msg_id": "2A264ACB-048B-458A-93CC-CD2E07C94BDE",
+    "text": "---\n\n関連した別の話、\n100件未満くらいの小規模ケースで10000件超えを想定したツールをそのまま使うのはそもそもおかしいので\nLLMでN:Nの類似関係を抽出し、関係の強い方から繋いで全域木にする",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9JB0n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "---\n\n関連した別の話、\n100件未満くらいの小規模ケースで10000件超えを想定したツールをそのまま使うのはそもそもおかしいので\nLLMでN:Nの類似関係を抽出し、関係の強い方から繋いで全域木にする"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "---\n\n関連した別の話、\n100件未満くらいの小規模ケースで10000件超えを想定したツールをそのまま使うのはそもそもおかしいので\nLLMでN:Nの類似関係を抽出し、関係の強い方から繋いで全域木にする"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779710401.882199",
+    "client_msg_id": "c909ad9d-808e-4e2b-96c9-7ff247ac8abb",
+    "text": "<@U08J6JR5SNQ> <https://scrapbox.io/nishio/Hypothetical_Document_Embeddings>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://scrapbox.io/nishio/Hypothetical_Document_Embeddings",
+        "service_icon": "https://scrapbox.io/assets/img/favicon/apple-touch-icon.png",
+        "thumb_url": "https://pbs.twimg.com/media/Fmr8uVYaEAEg_Ik.jpg",
+        "thumb_width": 1200,
+        "thumb_height": 526,
+        "id": 1,
+        "original_url": "https://scrapbox.io/nishio/Hypothetical_Document_Embeddings",
+        "fallback": "西尾泰和の外部脳: Hypothetical Document Embeddings - 西尾泰和の外部脳",
+        "text": "Precise Zero-Shot Dense Retrieval without Relevance Labels While dense retrieval has been shown effective and efficient across tasks and languages, it remains difficult to create effective fully zero-",
+        "title": "Hypothetical Document Embeddings - 西尾泰和の外部脳",
+        "title_link": "https://scrapbox.io/nishio/Hypothetical_Document_Embeddings",
+        "service_name": "西尾泰和の外部脳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LutdH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://scrapbox.io/nishio/Hypothetical_Document_Embeddings"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama <https://scrapbox.io/nishio/Hypothetical_Document_Embeddings>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1779710708.290109",
+    "client_msg_id": "17310f4d-852b-4e20-9154-ed915243d8ae",
+    "text": "条文とか計画をベースとしたHyDEはやってもよさそう。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6dR62",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "条文とか計画をベースとしたHyDEはやってもよさそう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "条文とか計画をベースとしたHyDEはやってもよさそう。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779789127.277759",
+    "client_msg_id": "028D8FDE-9140-4298-A478-732192C086D8",
+    "text": "今気づいたのだが、実験は生成されたデータとかを永続化して後から確認できるようにしたいから根本的に別のリポジトリでやるべきだな(気づくのが遅い)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RvDUZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今気づいたのだが、実験は生成されたデータとかを永続化して後から確認できるようにしたいから根本的に別のリポジトリでやるべきだな(気づくのが遅い)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今気づいたのだが、実験は生成されたデータとかを永続化して後から確認できるようにしたいから根本的に別のリポジトリでやるべきだな(気づくのが遅い)"
+  },
+  {
+    "text": "うーん",
+    "files": [
+      {
+        "id": "F0B67T1LESV",
+        "created": 1779792009,
+        "timestamp": 1779792009,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 243797,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B67T1LESV/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B67T1LESV/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 207,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 277,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 415,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 461,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 553,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B67T1LESV-76222d89d5/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 590,
+        "original_w": 2472,
+        "original_h": 1424,
+        "thumb_tiny": "AwAcADDTopMt6D86QBj1IH05oYDqjMpDEeW5A7gU7cAcMwoLcfLhj6Zo3GAcFclWH1FLuHv+RpqmToy/jmn0CCiimliDQA6k3Adj+VJuNG40AB3/AMOMe9Ku7PzYx7UgY5p1AH//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B67T1LESV/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B67T1LESV-e7da2c0936",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gdKCE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うーん"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1779792014.480919",
+    "client_msg_id": "42c120a0-1bc3-4ed7-8601-1fbe51add510",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "うーん"
+  },
+  {
+    "text": "いっぽうSupervised UMAP",
+    "files": [
+      {
+        "id": "F0B642G2Q30",
+        "created": 1779792706,
+        "timestamp": 1779792706,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 157743,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B642G2Q30/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B642G2Q30/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 192,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 256,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 384,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 426,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 512,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B642G2Q30-b3b52f6767/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 546,
+        "original_w": 2436,
+        "original_h": 1298,
+        "thumb_tiny": "AwAaADDT6daTIP8AEKaX9UY/hTlAIztx9RQFmKB70Umxf7o/KjIA6gUALRSH5lO1sH160zZJ/wA9f/HRQA9ywHyruPpnFRmSQEZiOPY5qWigBqvk42sPcinUUUAFFFFAH//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B642G2Q30/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B642G2Q30-79458a6d43",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qqaj/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いっぽうSupervised UMAP"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1779792712.878799",
+    "client_msg_id": "71b11443-9a3a-43af-8d95-713563ad418c",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いっぽうSupervised UMAP"
+  },
+  {
+    "text": "明瞭に分かれた上で他のグループに混ざって見えるのでダメ",
+    "files": [
+      {
+        "id": "F0B643U8M3Q",
+        "created": 1779793196,
+        "timestamp": 1779793196,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 140239,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B643U8M3Q/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B643U8M3Q/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 188,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 250,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 375,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 417,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 500,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B643U8M3Q-9199cfa70e/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 534,
+        "original_w": 2448,
+        "original_h": 1276,
+        "thumb_tiny": "AwAaADDToopCDwQfw9aAFNAOR0oGcc0UAFFFFAB3ooooAMiiiigAooooA//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B643U8M3Q/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B643U8M3Q-1bce057bcf",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YRjpQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "明瞭に分かれた上で他のグループに混ざって見えるのでダメ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1779793213.074589",
+    "client_msg_id": "cd257bc1-1b28-4543-9b00-5e4b03dfea12",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "明瞭に分かれた上で他のグループに混ざって見えるのでダメ"
+  },
+  {
+    "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()",
+    "files": [
+      {
+        "id": "F0B68URV4F3",
+        "created": 1779801640,
+        "timestamp": 1779801640,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 252448,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 202,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 270,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 405,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 450,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 540,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 576,
+        "original_w": 2462,
+        "original_h": 1384,
+        "thumb_tiny": "AwAbADDTJx6/lSAg9KGJA4GfxpoZ92GTAPfNAD6KQgdSM0BQOgxQAZP939aASRzRnnoT+VAJJ6YpWAG3YO0jOOMigbv4iD9BilopgMMfJO9ufenKCuQSTzxmlop3Cw0sR0Un8v8AGnA5HTFFFID/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B68URV4F3/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B68URV4F3-1a6b73ac1b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nQvAM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1779801671.353159",
+    "client_msg_id": "71b474c0-3639-43b2-b1dd-6d28f891353d",
+    "thread_ts": "1779801671.353159",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1779806854.854899",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1779801671.353159",
+    "root": {
+      "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()",
+      "files": [
+        {
+          "id": "F0B68URV4F3",
+          "created": 1779801640,
+          "timestamp": 1779801640,
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08G2A216TW",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 252448,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "name": "image.png",
+          "title": "image.png",
+          "is_modified_by_ai": false,
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 202,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 270,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 405,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 450,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 540,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 576,
+          "original_w": 2462,
+          "original_h": 1384,
+          "thumb_tiny": "AwAbADDTJx6/lSAg9KGJA4GfxpoZ92GTAPfNAD6KQgdSM0BQOgxQAZP939aASRzRnnoT+VAJJ6YpWAG3YO0jOOMigbv4iD9BilopgMMfJO9ufenKCuQSTzxmlop3Cw0sR0Un8v8AGnA5HTFFFID/2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B68URV4F3/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B68URV4F3-1a6b73ac1b",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08G2A216TW",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nQvAM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1779801671.353159",
+      "client_msg_id": "71b474c0-3639-43b2-b1dd-6d28f891353d",
+      "thread_ts": "1779801671.353159",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1779806854.854899",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1779803833.345849",
+    "client_msg_id": "86C81426-52BF-4044-BD23-2B10400EF59D",
+    "text": "見た目的にはこれで十分そうな気がしますね",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RY3UV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "見た目的にはこれで十分そうな気がしますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1779801671.353159",
+    "user_name": "Shingo OHKI",
+    "text_readable": "見た目的にはこれで十分そうな気がしますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779806854.854899",
+    "client_msg_id": "fa5a45c1-0059-4e9c-8c17-c728d93637af",
+    "text": "ですよね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1779801671.353159",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7lfVo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ですよね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1779801671.353159",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ですよね"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1779801671.353159",
+    "root": {
+      "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()",
+      "files": [
+        {
+          "id": "F0B68URV4F3",
+          "created": 1779801640,
+          "timestamp": 1779801640,
+          "mimetype": "image/png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "U08G2A216TW",
+          "user_team": "T08FL58DC9K",
+          "editable": false,
+          "size": 252448,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": true,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "name": "image.png",
+          "title": "image.png",
+          "is_modified_by_ai": false,
+          "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/image.png",
+          "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B68URV4F3/download/image.png",
+          "media_display_type": "unknown",
+          "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_64.png",
+          "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_80.png",
+          "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_360.png",
+          "thumb_360_w": 360,
+          "thumb_360_h": 202,
+          "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_480.png",
+          "thumb_480_w": 480,
+          "thumb_480_h": 270,
+          "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_160.png",
+          "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_720.png",
+          "thumb_720_w": 720,
+          "thumb_720_h": 405,
+          "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_800.png",
+          "thumb_800_w": 800,
+          "thumb_800_h": 450,
+          "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_960.png",
+          "thumb_960_w": 960,
+          "thumb_960_h": 540,
+          "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B68URV4F3-9afcd9702c/image_1024.png",
+          "thumb_1024_w": 1024,
+          "thumb_1024_h": 576,
+          "original_w": 2462,
+          "original_h": 1384,
+          "thumb_tiny": "AwAbADDTJx6/lSAg9KGJA4GfxpoZ92GTAPfNAD6KQgdSM0BQOgxQAZP939aASRzRnnoT+VAJJ6YpWAG3YO0jOOMigbv4iD9BilopgMMfJO9ufenKCuQSTzxmlop3Cw0sR0Un8v8AGnA5HTFFFID/2Q==",
+          "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B68URV4F3/image.png",
+          "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B68URV4F3-1a6b73ac1b",
+          "is_starred": false,
+          "skipped_shares": true,
+          "has_rich_preview": false,
+          "file_access": "visible"
+        }
+      ],
+      "upload": false,
+      "user": "U08G2A216TW",
+      "display_as_bot": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nQvAM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "結論、自分で考えるよりChatGPT ProにサーベイさせてそれをCodexに投げつけるといい可視化ができる()"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "type": "message",
+      "ts": "1779801671.353159",
+      "client_msg_id": "71b474c0-3639-43b2-b1dd-6d28f891353d",
+      "thread_ts": "1779801671.353159",
+      "reply_count": 2,
+      "reply_users_count": 2,
+      "latest_reply": "1779806854.854899",
+      "reply_users": [
+        "U08H3V9KMFH",
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false
+    },
+    "type": "message",
+    "ts": "1779803833.345849",
+    "client_msg_id": "86C81426-52BF-4044-BD23-2B10400EF59D",
+    "text": "見た目的にはこれで十分そうな気がしますね",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RY3UV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "見た目的にはこれで十分そうな気がしますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "見た目的にはこれで十分そうな気がしますね"
+  }
+]
