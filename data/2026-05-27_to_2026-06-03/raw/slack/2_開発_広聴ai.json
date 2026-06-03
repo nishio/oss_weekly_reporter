@@ -1,0 +1,3902 @@
+[
+  {
+    "text": "どっちが正解なんだろという気持ちになったのでそれ自体を質問してみることにした",
+    "files": [
+      {
+        "id": "F0B6DFM6AJE",
+        "created": 1779862990,
+        "timestamp": 1779862990,
+        "mimetype": "image/jpeg",
+        "filetype": "jpg",
+        "pretty_type": "JPEG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 139584,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "IMG_1211.jpg",
+        "title": "IMG_1211",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B6DFM6AJE/img_1211.jpg",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B6DFM6AJE/download/img_1211.jpg",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B6DFM6AJE-e2f08a9cb3/img_1211_64.jpg",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B6DFM6AJE-e2f08a9cb3/img_1211_80.jpg",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B6DFM6AJE-e2f08a9cb3/img_1211_360.jpg",
+        "thumb_360_w": 360,
+        "thumb_360_h": 341,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B6DFM6AJE-e2f08a9cb3/img_1211_480.jpg",
+        "thumb_480_w": 480,
+        "thumb_480_h": 454,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B6DFM6AJE-e2f08a9cb3/img_1211_160.jpg",
+        "original_w": 1320,
+        "original_h": 1249,
+        "thumb_tiny": "AwAuADDNVSzBR1JxT/LMciiRQeRldw/yKjooAeSgOQnA7M2c/lilXYH5QMDjAL+47/565qOigBWOcEKF+h96SiigBypuUkAkj0H+fSpXhUbQvXGW+YEdcdQf/wBVRpkA4GRjnjOKnUgzKCUIB6mPg/gOtADTAsZ+dX24HXC8nOPXPSm+Up3ABsgA54x0JP8A9b2pQM52JkHjIXJ5zgfjSAJs5B5HBCnrxx1/zn8gAjt3kYoqkuOdvH45qMgBff61LkO7btiryeF469vz/wAabKu1RjJQ/dYrjNADVIC8qD9c0vHtz9eKYDxSlsnNADzty33OnHXn/P5Uzt0pM0pYY6YoAduGG+Qc9OvFNY5A4Ax+tKrhc/KDkY57VJJOj2qRCIKynO4d6AP/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B6DFM6AJE/img_1211.jpg",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B6DFM6AJE-67057ac355",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yo5Kq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どっちが正解なんだろという気持ちになったのでそれ自体を質問してみることにした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1779863007.936479",
+    "client_msg_id": "C2FF0B8D-6287-40B6-A9E4-092F003B37D3",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "どっちが正解なんだろという気持ちになったのでそれ自体を質問してみることにした"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779985218.797069",
+    "client_msg_id": "23a5fa61-736c-4347-b572-ebec4d52d8e6",
+    "text": "上記の件、整理されたものを見た結果:\n• 現場の8 stepを固定してオプションと条件分岐でステップの中でごちゃごちゃやるよりは、明確にステップが分かれている方が分かりやすいものに関しては名前をつけたステップになってた方が複雑性は低い\n• ただしこの質問のきっかけになった件はdefault pipelineにステップを追加しようとしていて、それはCLIの実験的機能だけでなくWebUIにまで影響する話なので違うよね、と判断した\n• Codexが書いてきてたステップ追加は「default pipelineに追加するのではなくオプションにすること」と指示して作り直させた",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+N+rj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "上記の件、整理されたものを見た結果:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "現場の8 stepを固定してオプションと条件分岐でステップの中でごちゃごちゃやるよりは、明確にステップが分かれている方が分かりやすいものに関しては名前をつけたステップになってた方が複雑性は低い"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ただしこの質問のきっかけになった件はdefault pipelineにステップを追加しようとしていて、それはCLIの実験的機能だけでなくWebUIにまで影響する話なので違うよね、と判断した"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Codexが書いてきてたステップ追加は「default pipelineに追加するのではなくオプションにすること」と指示して作り直させた"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "上記の件、整理されたものを見た結果:\n• 現場の8 stepを固定してオプションと条件分岐でステップの中でごちゃごちゃやるよりは、明確にステップが分かれている方が分かりやすいものに関しては名前をつけたステップになってた方が複雑性は低い\n• ただしこの質問のきっかけになった件はdefault pipelineにステップを追加しようとしていて、それはCLIの実験的機能だけでなくWebUIにまで影響する話なので違うよね、と判断した\n• Codexが書いてきてたステップ追加は「default pipelineに追加するのではなくオプションにすること」と指示して作り直させた"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779985259.352319",
+    "client_msg_id": "be7b91cc-52cc-4f4f-941b-5202894fd184",
+    "text": "LLMでのグルーピングに関するPRが4つ、CIもCodeRabbitもgreenの状態なので順次マージしていきますね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mrcK0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "LLMでのグルーピングに関するPRが4つ、CIもCodeRabbitもgreenの状態なので順次マージしていきますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "LLMでのグルーピングに関するPRが4つ、CIもCodeRabbitもgreenの状態なので順次マージしていきますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779985499.507069",
+    "client_msg_id": "1839935c-20e0-4afc-a28e-98e44e6fecbc",
+    "text": "分析手法と可視化手法に関してはカタログページがあるとよさそう\nあ、そうか、独立した静的HTMLが生成されるようになったから「こんな出力が出ます」のサンプルもdocsとして用意できるのか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "adgaD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分析手法と可視化手法に関してはカタログページがあるとよさそう\nあ、そうか、独立した静的HTMLが生成されるようになったから「こんな出力が出ます」のサンプルもdocsとして用意できるのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "分析手法と可視化手法に関してはカタログページがあるとよさそう\nあ、そうか、独立した静的HTMLが生成されるようになったから「こんな出力が出ます」のサンプルもdocsとして用意できるのか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779992134.066639",
+    "client_msg_id": "b328837c-931f-4f5a-af34-f16c85e588a9",
+    "text": "Codexにドキュメントの改善案を出させたらほんとすみませんという気持ちになっている\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/876>\n&gt; 開発者向けの導線を「利用モード別」に整理し、1 本の canonical な入口ページを決めたいです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "88Mx5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Codexにドキュメントの改善案を出させたらほんとすみませんという気持ちになっている\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/876"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発者向けの導線を「利用モード別」に整理し、1 本の canonical な入口ページを決めたいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Codexにドキュメントの改善案を出させたらほんとすみませんという気持ちになっている\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/876>\n> 開発者向けの導線を「利用モード別」に整理し、1 本の canonical な入口ページを決めたいです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779992158.842429",
+    "client_msg_id": "80bd42cf-fc3c-40b6-a09f-c99f9848bbb0",
+    "text": "旅館を建て増ししたら道がわかりにくくなった感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xrEq+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "旅館を建て増ししたら道がわかりにくくなった感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "旅館を建て増ししたら道がわかりにくくなった感じ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779992609.226959",
+    "client_msg_id": "5eb8966c-b352-4dda-a821-f232bd76f033",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/877>\nWindows環境の話はもうすこし議論をした方が良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x6Wf/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/877"
+              },
+              {
+                "type": "text",
+                "text": "\nWindows環境の話はもうすこし議論をした方が良さそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/877>\nWindows環境の話はもうすこし議論をした方が良さそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779992737.635369",
+    "client_msg_id": "9EA73678-A862-4D19-9B36-44FFE367C4F7",
+    "text": "リリースしてからWindowsで使おうとする人がいっぱい観測されて「あー、そうなのかー」となった感があると思っていて、それを踏まえて話の流れを改善しないといけないと思うんだ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X0O04",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リリースしてからWindowsで使おうとする人がいっぱい観測されて「あー、そうなのかー」となった感があると思っていて、それを踏まえて話の流れを改善しないといけないと思うんだ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "リリースしてからWindowsで使おうとする人がいっぱい観測されて「あー、そうなのかー」となった感があると思っていて、それを踏まえて話の流れを改善しないといけないと思うんだ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1779993544.423039",
+    "client_msg_id": "FF1DFB88-7B44-415C-BF76-08CD4680EEE2",
+    "text": "まずそもそもTalk to the Cityも含めてこの手のものは「当然Unix-like な環境で動かすもんだろ」と暗黙に思ってる感があって、MacやLinuxはUnix-like な環境なのでまあサポート範囲だが、生Windowsは「は？なんでそんな環境で使うの？使いたいなら自分で頑張って」というノリだと思う。\nだが実際のところはWindowsマシンで動かしたい人が結構多いので「DockerかWSLを使えば(=Windowsの中でLinuxを動かせば)使えますよ」という状態になっている。\nで、推奨の(楽な)方法はDocker Desktopを入れることなのだが、これは個人だと無料なのだけど一定規模以上の企業と自治体は有償なんだ。ここで「Docker Desktop入れられません」となる人がいる。一応DockerをCLIで使えば無料で構築できないことはないと思うが…。\n次にそもそも会社からの非エンジニア向け貸与マシンはうっかり変なことをしないようにシステムルールがガチガチになっててそもそもDocker Desktopをインストールできない人がいる。このケースだとそもそもDockerが動かないとか、WSLも動かないとかありえる。\nこれらの「まともに動かない環境」で動かすことをどこまでドキュメントに書くのかというと、個人的にはDocker Desktopが使えないなら技術的に頑張るより「使えるエンジニアを雇う」とかを考える方が現実的なのではと思う。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fPAQo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まずそもそもTalk to the Cityも含めてこの手のものは「当然Unix-like な環境で動かすもんだろ」と暗黙に思ってる感があって、MacやLinuxはUnix-like な環境なのでまあサポート範囲だが、生Windowsは「は？なんでそんな環境で使うの？使いたいなら自分で頑張って」というノリだと思う。\nだが実際のところはWindowsマシンで動かしたい人が結構多いので「DockerかWSLを使えば(=Windowsの中でLinuxを動かせば)使えますよ」という状態になっている"
+              },
+              {
+                "type": "text",
+                "text": "。\nで、推奨の(楽な)方法はDocker Desktopを入れることなのだが、これは個人だと無料なのだけど一定規模以上の企業と自治体は有償なんだ。ここで「Docker Desktop入れられません」となる人がいる。一応DockerをCLIで使えば無料で構築できないことはないと思うが…。\n次にそもそも会社からの非エンジニア向け貸与マシンはうっかり変なことをしないようにシステムルールがガチガチになっててそもそもDocker Desktopをインストールできない人がいる。このケースだとそもそもDockerが動かないとか、WSLも動かないとかありえる。\nこれらの「まともに動かない環境」で動かすことをどこまでドキュメントに書くのかというと、個人的にはDocker Desktopが使えないなら技術的に頑張るより「使えるエンジニアを雇う」とかを考える方が現実的なのではと思う。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まずそもそもTalk to the Cityも含めてこの手のものは「当然Unix-like な環境で動かすもんだろ」と暗黙に思ってる感があって、MacやLinuxはUnix-like な環境なのでまあサポート範囲だが、生Windowsは「は？なんでそんな環境で使うの？使いたいなら自分で頑張って」というノリだと思う。\nだが実際のところはWindowsマシンで動かしたい人が結構多いので「DockerかWSLを使えば(=Windowsの中でLinuxを動かせば)使えますよ」という状態になっている。\nで、推奨の(楽な)方法はDocker Desktopを入れることなのだが、これは個人だと無料なのだけど一定規模以上の企業と自治体は有償なんだ。ここで「Docker Desktop入れられません」となる人がいる。一応DockerをCLIで使えば無料で構築できないことはないと思うが…。\n次にそもそも会社からの非エンジニア向け貸与マシンはうっかり変なことをしないようにシステムルールがガチガチになっててそもそもDocker Desktopをインストールできない人がいる。このケースだとそもそもDockerが動かないとか、WSLも動かないとかありえる。\nこれらの「まともに動かない環境」で動かすことをどこまでドキュメントに書くのかというと、個人的にはDocker Desktopが使えないなら技術的に頑張るより「使えるエンジニアを雇う」とかを考える方が現実的なのではと思う。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780027732.783879",
+    "client_msg_id": "ff158777-6b57-4735-a8e4-b2c22b420625",
+    "text": "fetch_reports.pyを削除します\n• これはかなり初期のレポートがpublicオンリーでかつAzure Bolb Storageでの永続化がなかった時代にローカルに保存する手法が必要だなとなって作られたもの\n• public APIを叩いて収集しているのでunlistedやprivateのレポートがバックアップされないという問題があった\n• そもそも今はBlob Storageがあるので、API経由でバックアップを取るのではなくBlob Storageからバックアップを取るのが自然\nというわけでfetch_reports.pyを削除し、代わりにBlob Storageを扱うスクリプトを追加しました。upload_reports_to_azure.py download_reports_from_azure.py test_storage.py\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/875>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "CHbr8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "fetch_reports.pyを削除します\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "これはかなり初期のレポートがpublicオンリーでかつAzure Bolb Storageでの永続化がなかった時代にローカルに保存する手法が必要だなとなって作られたもの"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "public APIを叩いて収集しているのでunlistedやprivateのレポートがバックアップされないという問題があった"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "そもそも今はBlob Storageがあるので、API経由でバックアップを取るのではなくBlob Storageからバックアップを取るのが自然"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nというわけでfetch_reports.pyを削除し、代わりにBlob Storageを扱うスクリプトを追加しました。upload_reports_to_azure.py download_reports_from_azure.py test_storage.py\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/875"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U08GG5LRGMP"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "fetch_reports.pyを削除します\n• これはかなり初期のレポートがpublicオンリーでかつAzure Bolb Storageでの永続化がなかった時代にローカルに保存する手法が必要だなとなって作られたもの\n• public APIを叩いて収集しているのでunlistedやprivateのレポートがバックアップされないという問題があった\n• そもそも今はBlob Storageがあるので、API経由でバックアップを取るのではなくBlob Storageからバックアップを取るのが自然\nというわけでfetch_reports.pyを削除し、代わりにBlob Storageを扱うスクリプトを追加しました。upload_reports_to_azure.py download_reports_from_azure.py test_storage.py\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/875>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780120198.686999",
+    "client_msg_id": "8345B043-2AF9-4068-BE4E-83B05CC7C93D",
+    "text": "ユーザに2種類あるよねという整理が言語化された今振り返って考えてみると、以前やった広聴AI体験イベントで集まった人に「自分のマシンにセットアップするところ」からスタートしたのはイベントの設計がおかしくて、参加者の半分くらいは本来「エンジニアにサーバを建ててもらってWebUIだけを触って分析をするユーザ」のはずなのに、いきなり「研究者・データサイエンティスト的ユーザ」の役割をさせられるハメになってたので混乱が起きたのだなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GEygZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ユーザに2種類あるよねという整理が言語化された今振り返って考えてみると、以前やった広聴AI体験イベントで集まった人に「自分のマシンにセットアップするところ」からスタートしたのはイベントの設計がおかしくて、参加者の半分くらいは本来「エンジニアにサーバを建ててもらってWebUIだけを触って分析をするユーザ」のはずなのに、いきなり「研究者・データサイエンティスト的ユーザ」の役割をさせられるハメになってたので混乱が起きたのだなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ユーザに2種類あるよねという整理が言語化された今振り返って考えてみると、以前やった広聴AI体験イベントで集まった人に「自分のマシンにセットアップするところ」からスタートしたのはイベントの設計がおかしくて、参加者の半分くらいは本来「エンジニアにサーバを建ててもらってWebUIだけを触って分析をするユーザ」のはずなのに、いきなり「研究者・データサイエンティスト的ユーザ」の役割をさせられるハメになってたので混乱が起きたのだなぁ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780120243.629739",
+    "client_msg_id": "451F3215-D3C7-407E-AA51-68286E29D53D",
+    "text": "イベントとしては「こちらでサーバを建てました、このURLでアクセスできます、皆さんの持ってきたデータを入れてみましょう！」が正解だった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9cWQ3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "イベントとしては「こちらでサーバを建てました、このURLでアクセスできます、皆さんの持ってきたデータを入れてみましょう！」が正解だった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "イベントとしては「こちらでサーバを建てました、このURLでアクセスできます、皆さんの持ってきたデータを入れてみましょう！」が正解だった"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1780131963.603249",
+    "client_msg_id": "6079b24e-8507-4d17-ab6e-b488ca75ea8a",
+    "text": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+gyYE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780138803.852729",
+    "client_msg_id": "ede4f485-6757-4c72-9317-23fd60638b09",
+    "text": "Azure にあるデモ版を使ってもらうのでは足りないでしょうか？（もっとガッツリ使いたいのかな？）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ERLQz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azure にあるデモ版を使ってもらうのでは足りないでしょうか？（もっとガッツリ使いたいのかな？）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "Azure にあるデモ版を使ってもらうのでは足りないでしょうか？（もっとガッツリ使いたいのかな？）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780139788.555559",
+    "client_msg_id": "8c7b8a63-26d3-4a61-8633-b4959ad2300a",
+    "text": "&gt; 1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました\nこれだと情報量ゼロなので即座に無視します。なにか改善に繋げたければAIに「何につまづいたか」を言語化させたりするといいですよ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iXWPB",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これだと情報量ゼロなので即座に無視します。なにか改善に繋げたければAIに「何につまづいたか」を言語化させたりするといいですよ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました\nこれだと情報量ゼロなので即座に無視します。なにか改善に繋げたければAIに「何につまづいたか」を言語化させたりするといいですよ"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1780142341.420699",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1780142386.000000"
+    },
+    "client_msg_id": "c8c0b610-d2ef-4012-aa4e-abe028d2035f",
+    "text": "> Azure にあるデモ版を使ってもらうのでは足りないでしょうか？\n正直に書きますと、私がその方とうまく対話できなかったと感じており、デモ版で足りるかどうかは判断できませんでした。熱意的にはガッツリ使いたそうでしたが、具体的な用途は確認できてません。\n\n情報量ゼロに関してはそのとおりですね。改善の方向性（セットアップの改善なのか、本件でクラウド版が本当に必要化など）も見えないですよね、すみません。\n\nこちらに関して具体化できましたらまた相談させてください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i0JhP",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azure にあるデモ版を使ってもらうのでは足りないでしょうか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "正直に書きますと、私がその方とうまく対話できなかったと感じており、デモ版で足りるかどうかは判断できませんでした。熱意的にはガッツリ使いたそうでしたが、具体的な用途は確認できてません。\n\n情報量ゼロに関してはそのとおりですね。改善の方向性（セットアップの改善なのか、本件でクラウド版が本当に必要化など）も見えないですよね、すみません。\n\nこちらに関して具体化できましたらまた相談させてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "> Azure にあるデモ版を使ってもらうのでは足りないでしょうか？\n正直に書きますと、私がその方とうまく対話できなかったと感じており、デモ版で足りるかどうかは判断できませんでした。熱意的にはガッツリ使いたそうでしたが、具体的な用途は確認できてません。\n\n情報量ゼロに関してはそのとおりですね。改善の方向性（セットアップの改善なのか、本件でクラウド版が本当に必要化など）も見えないですよね、すみません。\n\nこちらに関して具体化できましたらまた相談させてください。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780190367.485409",
+    "client_msg_id": "24a66cf0-c44e-435a-9642-c8d34e0b25c1",
+    "text": "こういう入口の部分を誰かと相談しないと使うところまで至らないというケースは、もう少しなんとかしたいですね\nAIにこう頼むとうまくいきますというサンプルがあるだけでも違うのかなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "X9KBR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こういう入口の部分を誰かと相談しないと使うところまで至らないというケースは、もう少しなんとかしたいですね\nAIにこう頼むとうまくいきますというサンプルがあるだけでも違うのかなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "こういう入口の部分を誰かと相談しないと使うところまで至らないというケースは、もう少しなんとかしたいですね\nAIにこう頼むとうまくいきますというサンプルがあるだけでも違うのかなぁ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780194606.441099",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1780194614.000000"
+    },
+    "client_msg_id": "ac1bfe67-7f28-48d1-9256-5e0947912056",
+    "text": "AIが書いた新しいドキュメントを読んでみたけどいまいちなので練り直しを指示している",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+koYE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIが書いた新しいドキュメントを読んでみたけどいまいちなので練り直しを指示している"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "AIが書いた新しいドキュメントを読んでみたけどいまいちなので練り直しを指示している"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780194716.780819",
+    "client_msg_id": "5acba8d4-c824-42b6-9d17-d11f1ee624e2",
+    "text": "アルゴリズムの方で書いていた分岐の図とかとも関連するけど、そもそも図解の前に「どういう分岐の質問をすべきか」が我々の中で明確になってないのでAIも既存のドキュメントを見てふわっと理解した内容で生成してくる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780194716.780819",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1780214439.228959",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "d5VCu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "アルゴリズムの方で書いていた分岐の図とかとも関連するけど、そもそも図解の前に「どういう分岐の質問をすべきか」が我々の中で明確になってないのでAIも既存のドキュメントを見てふわっと理解した内容で生成してくる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "アルゴリズムの方で書いていた分岐の図とかとも関連するけど、そもそも図解の前に「どういう分岐の質問をすべきか」が我々の中で明確になってないのでAIも既存のドキュメントを見てふわっと理解した内容で生成してくる"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780214439.228959",
+    "client_msg_id": "F03DBEB5-C59F-40AA-802D-8B7434072CEF",
+    "text": "これは全く同感です。\n\nどういう分岐の質問をすべきかを考えるには、まずユーザーが何を達成したいのかを掘る必要がありそうだと思っています。\n\nここ最近はそのあたりを探りたくて、\n現時点でアクセスしやすいユーザータイプの一つとして自治体の方と話しているのですが、少しずつ見えてきている部分はあるものの、まだ探っている途上という感じです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780194716.780819",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cHZXa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これは全く同感です。\n\nどういう分岐の質問をすべきかを考えるには、まずユーザーが何を達成したいのかを掘る必要がありそうだと思っています。\n\nここ最近はそのあたりを探りたくて、\n現時点でアクセスしやすいユーザータイプの一つとして自治体の方と話しているのですが、少しずつ見えてきている部分はあるものの、まだ探っている途上という感じです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780194716.780819",
+    "user_name": "Shingo OHKI",
+    "text_readable": "これは全く同感です。\n\nどういう分岐の質問をすべきかを考えるには、まずユーザーが何を達成したいのかを掘る必要がありそうだと思っています。\n\nここ最近はそのあたりを探りたくて、\n現時点でアクセスしやすいユーザータイプの一つとして自治体の方と話しているのですが、少しずつ見えてきている部分はあるものの、まだ探っている途上という感じです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780195090.813149",
+    "client_msg_id": "91bd8b38-82e8-4c98-9941-e1494d2bc287",
+    "text": "開発者サイドで初手Docker Composeするんだけど、それって本当に必要なんでしたっけ。どういうメリット・デメリットがあったんでしたっけ。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780195090.813149",
+    "reply_count": 3,
+    "reply_users_count": 1,
+    "latest_reply": "1780195766.120499",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hyw3+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "開発者サイドで初手Docker Composeするんだけど、それって本当に必要なんでしたっけ。どういうメリット・デメリットがあったんでしたっけ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "開発者サイドで初手Docker Composeするんだけど、それって本当に必要なんでしたっけ。どういうメリット・デメリットがあったんでしたっけ。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780195128.915579",
+    "client_msg_id": "914de4df-52d0-47bf-9930-3e5a842a9909",
+    "text": "Claude:\nメリット・デメリットを整理すると Mode 1 が「default 推奨」である根拠は実は弱いです。\nDocker Compose のメリット・デメリット\n*メリット*\n• 依存ツールが Docker だけで済む (Rye / pnpm / Python / Node の個別 install 不要)\n• service 間の連携 (api :left_right_arrow: admin :left_right_arrow: public-viewer) を 1 コマンドで動かせる\n• 本番デプロイが Docker container ベースなので、構成のズレが少ない\n• 新規 contributor の「とりあえず動いた」までの距離が短い\n• 自治体評価役や onboarding 時の「触ってみたい」需要を一発で満たす\n*デメリット*\n• デバッガ / ホットリロードが効きにくい (Mode 3 ネイティブが圧倒的に有利)\n• 初回ビルド + コード変更時の rebuild が遅い (分単位)\n• 環境変数のビルド時埋め込み問題 (Next.js`NEXT_PUBLIC_*`は build 時固定 →`docker compose up --build`必要)\n• リソース消費が重い (全 service 起動でメモリ大)\n• Docker Desktop license の組織問題 ([[docker-desktop-license-2026-05-29]])\n• 「自分が触りたい部分」だけ触りたい開発者にはオーバーキル\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780195090.813149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kqCzE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Claude:\nメリット・デメリットを整理すると Mode 1 が「default 推奨」である根拠は実は弱いです。\nDocker Compose のメリット・デメリット\n"
+              },
+              {
+                "type": "text",
+                "text": "メリット",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "依存ツールが Docker だけで済む (Rye / pnpm / Python / Node の個別 install 不要)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "service 間の連携 (api "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "left_right_arrow",
+                    "unicode": "2194-fe0f"
+                  },
+                  {
+                    "type": "text",
+                    "text": " admin "
+                  },
+                  {
+                    "type": "emoji",
+                    "name": "left_right_arrow",
+                    "unicode": "2194-fe0f"
+                  },
+                  {
+                    "type": "text",
+                    "text": " public-viewer) を 1 コマンドで動かせる"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "本番デプロイが Docker container ベースなので、構成のズレが少ない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "新規 contributor の「とりあえず動いた」までの距離が短い"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自治体評価役や onboarding 時の「触ってみたい」需要を一発で満たす"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デメリット",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "デバッガ / ホットリロードが効きにくい (Mode 3 ネイティブが圧倒的に有利)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "初回ビルド + コード変更時の rebuild が遅い (分単位)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "環境変数のビルド時埋め込み問題 (Next.js"
+                  },
+                  {
+                    "type": "text",
+                    "text": "NEXT_PUBLIC_*",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "は build 時固定 →"
+                  },
+                  {
+                    "type": "text",
+                    "text": "docker compose up --build",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "必要)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "リソース消費が重い (全 service 起動でメモリ大)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Docker Desktop license の組織問題 ([[docker-desktop-license-2026-05-29]])"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "「自分が触りたい部分」だけ触りたい開発者にはオーバーキル"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780195090.813149",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Claude:\nメリット・デメリットを整理すると Mode 1 が「default 推奨」である根拠は実は弱いです。\nDocker Compose のメリット・デメリット\n*メリット*\n• 依存ツールが Docker だけで済む (Rye / pnpm / Python / Node の個別 install 不要)\n• service 間の連携 (api :left_right_arrow: admin :left_right_arrow: public-viewer) を 1 コマンドで動かせる\n• 本番デプロイが Docker container ベースなので、構成のズレが少ない\n• 新規 contributor の「とりあえず動いた」までの距離が短い\n• 自治体評価役や onboarding 時の「触ってみたい」需要を一発で満たす\n*デメリット*\n• デバッガ / ホットリロードが効きにくい (Mode 3 ネイティブが圧倒的に有利)\n• 初回ビルド + コード変更時の rebuild が遅い (分単位)\n• 環境変数のビルド時埋め込み問題 (Next.js`NEXT_PUBLIC_*`は build 時固定 →`docker compose up --build`必要)\n• リソース消費が重い (全 service 起動でメモリ大)\n• Docker Desktop license の組織問題 ([[docker-desktop-license-2026-05-29]])\n• 「自分が触りたい部分」だけ触りたい開発者にはオーバーキル\n"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780195284.119589",
+    "client_msg_id": "37615b73-d000-45bb-8883-c4248829ae75",
+    "text": "あー、そうか、これはこの「開発者」が\n・WebUIを立ち上げて組織内の誰か(しばしば意思決定者・予算決定者であって本人はエンジニアでもデータサイエンティストでもない)に見せたい\n・自分自身がデータサイエンティスト的に分析したい / 研究者的に新しい分析手法を試したい\nのどちらなのかで違いがあるのか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780195090.813149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9SEzW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、そうか、これはこの「開発者」が\n・WebUIを立ち上げて組織内の誰か(しばしば意思決定者・予算決定者であって本人はエンジニアでもデータサイエンティストでもない)に見せたい\n・自分自身がデータサイエンティスト的に分析したい / 研究者的に新しい分析手法を試したい\nのどちらなのかで違いがあるのか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780195090.813149",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あー、そうか、これはこの「開発者」が\n・WebUIを立ち上げて組織内の誰か(しばしば意思決定者・予算決定者であって本人はエンジニアでもデータサイエンティストでもない)に見せたい\n・自分自身がデータサイエンティスト的に分析したい / 研究者的に新しい分析手法を試したい\nのどちらなのかで違いがあるのか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780195766.120499",
+    "client_msg_id": "7b0ece90-da9a-418f-91a6-df5234dc30b1",
+    "text": "Claude:\n「読者像 3 像」を *「開発者 / 自治体担当 / 一般ユーザ」 から、もう一段精緻化*します:\n\n```広聴AI に関わる読者像 (5 つ程度)\n├── 一般ユーザ (アプリを使うだけ) → OS 別 setup docs へ\n├── 自治体担当本人 (技術者でない) → SaaS ホスト待ち / 動かせる人を探す\n├── 組織内デモ役 (橋渡し役、エンジニアではないが PC 触れる) → Mode 1 Docker Compose\n├── WebUI 開発者 (エンジニア) → Mode 2 / 3 (目的別)\n└── 分析者 / 研究者 (DS 素養) → Mode 4 CLI、CLI コミュニティ```\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780195090.813149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j9Z0H",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Claude:\n「読者像 3 像」を "
+              },
+              {
+                "type": "text",
+                "text": "「開発者 / 自治体担当 / 一般ユーザ」 から、もう一段精緻化",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "します:\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AI に関わる読者像 (5 つ程度)\n├── 一般ユーザ (アプリを使うだけ) → OS 別 setup docs へ\n├── 自治体担当本人 (技術者でない) → SaaS ホスト待ち / 動かせる人を探す\n├── 組織内デモ役 (橋渡し役、エンジニアではないが PC 触れる) → Mode 1 Docker Compose\n├── WebUI 開発者 (エンジニア) → Mode 2 / 3 (目的別)\n└── 分析者 / 研究者 (DS 素養) → Mode 4 CLI、CLI コミュニティ"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780195090.813149",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Claude:\n「読者像 3 像」を *「開発者 / 自治体担当 / 一般ユーザ」 から、もう一段精緻化*します:\n\n```広聴AI に関わる読者像 (5 つ程度)\n├── 一般ユーザ (アプリを使うだけ) → OS 別 setup docs へ\n├── 自治体担当本人 (技術者でない) → SaaS ホスト待ち / 動かせる人を探す\n├── 組織内デモ役 (橋渡し役、エンジニアではないが PC 触れる) → Mode 1 Docker Compose\n├── WebUI 開発者 (エンジニア) → Mode 2 / 3 (目的別)\n└── 分析者 / 研究者 (DS 素養) → Mode 4 CLI、CLI コミュニティ```\n"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780196071.568019",
+    "client_msg_id": "89f1dea8-92a0-4815-a1aa-00c9af156ebb",
+    "text": "Windowsユーザ的には実行バイナリがいっこあるだけが嬉しいのよな",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1780206769.137659",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3Ss1i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Windowsユーザ的には実行バイナリがいっこあるだけが嬉しいのよな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Windowsユーザ的には実行バイナリがいっこあるだけが嬉しいのよな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780204354.578909",
+    "client_msg_id": "9dfdda9c-162c-44be-8857-67207767049f",
+    "text": "そうなんだけど、その路線をGPT Proに相談して「難しい」って言われたw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rcyxS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうなんだけど、その路線をGPT Proに相談して「難しい」って言われたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうなんだけど、その路線をGPT Proに相談して「難しい」って言われたw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780204449.704919",
+    "client_msg_id": "a9d9282f-d2b7-40c3-bd2c-15e8ba5dfe1f",
+    "text": "WebUIのサーバサイドにNodeのレイヤーがあるのでPythonとNodeの両方の同梱が必要で…\n\nあれ？むしろサーバをPythonに移植したらいいのか？！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RS6Eb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "WebUIのサーバサイドにNodeのレイヤーがあるのでPythonとNodeの両方の同梱が必要で…\n\nあれ？むしろサーバをPythonに移植したらいいのか？！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "WebUIのサーバサイドにNodeのレイヤーがあるのでPythonとNodeの両方の同梱が必要で…\n\nあれ？むしろサーバをPythonに移植したらいいのか？！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780204628.317929",
+    "client_msg_id": "09eca4a3-fa28-40c1-83cd-e6884c6cff0b",
+    "text": "1年前だったら一笑に付してた計画だけど、リファクタリングの過程でテストケースがびっしりあるし、いまのCoding Agentだったらサクッと実行できそうな気がするな…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oGOcL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1年前だったら一笑に付してた計画だけど、リファクタリングの過程でテストケースがびっしりあるし、いまのCoding Agentだったらサクッと実行できそうな気がするな…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1年前だったら一笑に付してた計画だけど、リファクタリングの過程でテストケースがびっしりあるし、いまのCoding Agentだったらサクッと実行できそうな気がするな…"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780204628.741879",
+    "client_msg_id": "6cfc9509-464e-46c7-8f27-4f823e49f768",
+    "text": "そう。nodeはビルド済みバイナリにして、SPA",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "68/9J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そう。nodeはビルド済みバイナリにして、SPA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "そう。nodeはビルド済みバイナリにして、SPA"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780204679.119079",
+    "client_msg_id": "f3dc1d28-fa37-4ef7-8f2e-4f938b3f54fe",
+    "text": "フロントエンド側はassetにまとめてしまって、サーバサイドはPythonの薄いwrapperだからPythonに置き換えて良い、ということか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aDIw+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "フロントエンド側はassetにまとめてしまって、サーバサイドはPythonの薄いwrapperだからPythonに置き換えて良い、ということか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "フロントエンド側はassetにまとめてしまって、サーバサイドはPythonの薄いwrapperだからPythonに置き換えて良い、ということか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780206769.137659",
+    "client_msg_id": "2003d2b7-512c-491c-8f60-481fddf255d2",
+    "text": "検討することをCodexに指示したw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780196071.568019",
+    "parent_user_id": "U08J6JR5SNQ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HtSCs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "検討することをCodexに指示したw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780196071.568019",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "検討することをCodexに指示したw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780207794.554549",
+    "client_msg_id": "f58bbefc-e0ea-4de1-a310-1d66bea23d1f",
+    "text": "ドキュメントを改善することに挑戦したことは有益だった。ただし後出しでどんどん気にすべきことが発見されてきたので、それらをまとめてから再度考えた方が良さそう。\nnew: OpenAIやGeminiなどのAIサービスに支払いが可能かどうか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "B/NJJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントを改善することに挑戦したことは有益だった。ただし後出しでどんどん気にすべきことが発見されてきたので、それらをまとめてから再度考えた方が良さそう。\nnew: OpenAIやGeminiなどのAIサービスに支払いが可能かどうか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメントを改善することに挑戦したことは有益だった。ただし後出しでどんどん気にすべきことが発見されてきたので、それらをまとめてから再度考えた方が良さそう。\nnew: OpenAIやGeminiなどのAIサービスに支払いが可能かどうか"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780208174.903279",
+    "client_msg_id": "8d2657aa-845d-4949-81d2-1798bcf99e9d",
+    "text": "openrouterの無料モデルをサポートしたいが、あれ、学習データにつかわれるのよなあ、たしか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PNOD4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "openrouterの無料モデルをサポートしたいが、あれ、学習データにつかわれるのよなあ、たしか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "openrouterの無料モデルをサポートしたいが、あれ、学習データにつかわれるのよなあ、たしか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780208287.811849",
+    "client_msg_id": "3f574e18-f44c-433f-92f4-bb4d796b858e",
+    "text": "local LLMで動かすのは現実的だろうか…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pGfIs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "local LLMで動かすのは現実的だろうか…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "local LLMで動かすのは現実的だろうか…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780208311.453839",
+    "client_msg_id": "40c477d1-70e8-421b-81fe-84ee2a1f43f7",
+    "text": "「学習に使われてもいいデータですか」new!",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8eSxw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「学習に使われてもいいデータですか」new!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "「学習に使われてもいいデータですか」new!"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780211347.261789",
+    "client_msg_id": "a4bba05f-f84e-472a-b087-63edea9e1104",
+    "text": "20Bクラスのモデルがそろそろ現実的になってるからワンちゃん行けそうな気はする。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IhfeL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "20Bクラスのモデルがそろそろ現実的になってるからワンちゃん行けそうな気はする。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "20Bクラスのモデルがそろそろ現実的になってるからワンちゃん行けそうな気はする。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780211362.342869",
+    "client_msg_id": "b239d233-0191-48df-a765-76e711903bc0",
+    "text": "ChromeやWindowsがLLMをネイティブサポートし始めているので、そこらへんが使えないか？というのはある",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6xqI2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ChromeやWindowsがLLMをネイティブサポートし始めているので、そこらへんが使えないか？というのはある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ChromeやWindowsがLLMをネイティブサポートし始めているので、そこらへんが使えないか？というのはある"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780222868.679179",
+    "client_msg_id": "60652628-AE64-4768-B961-BE2E8EB2FF29",
+    "text": "あー、そうか、そういう方向性もあるか&gt;ChromeかWindows",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Za2w8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、そうか、そういう方向性もあるか>ChromeかWindows"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あー、そうか、そういう方向性もあるか>ChromeかWindows"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780224121.511239",
+    "client_msg_id": "7a6ec4b1-0f6c-4059-9bac-4da36e3a468d",
+    "text": "そういえば、以前 tokoroten さんが言っていたと思うのですが、\n「広聴AIが local LLM を使うようにセットアップされたPCを提供する」\nというのはありだよと自治体向けのビジネスをされている方にも言われました。\nDD2030 としてはやり辛いですが、自治体側の調達方法からすると導入しやすいそうで。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2qKFT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そういえば、以前 tokoroten さんが言っていたと思うのですが、\n「広聴AIが local LLM を使うようにセットアップされたPCを提供する」\nというのはありだよと自治体向けのビジネスをされている方にも言われました。\nDD2030 としてはやり辛いですが、自治体側の調達方法からすると導入しやすいそうで。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "そういえば、以前 tokoroten さんが言っていたと思うのですが、\n「広聴AIが local LLM を使うようにセットアップされたPCを提供する」\nというのはありだよと自治体向けのビジネスをされている方にも言われました。\nDD2030 としてはやり辛いですが、自治体側の調達方法からすると導入しやすいそうで。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780225403.315729",
+    "client_msg_id": "BF575E7D-73CD-4781-8BA4-B89914AB3DB1",
+    "text": "やりたい人がいれば利幅のせてやってくれていいんですけどねぇ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "gc0YF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "やりたい人がいれば利幅のせてやってくれていいんですけどねぇ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "やりたい人がいれば利幅のせてやってくれていいんですけどねぇ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780226752.150589",
+    "client_msg_id": "A22B6885-9699-4E48-AB06-B6E28A8D3A33",
+    "text": "<@U08J6JR5SNQ>\n20Bモデルを動かせるWindowsユーザは5〜15%で、自治体職員マシンに限定すると1〜5%だろうとCodexが言ってる。\nまあそれはそうか…、特に性能が要求されるわけではない通常業務をしてる人のマシンで動かそうとするのは根本的に茨の道か…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IAgVv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "20Bモデルを動かせるWindowsユーザは5〜15%で、自治体職員マシンに限定すると"
+              },
+              {
+                "type": "text",
+                "text": "1〜5%だろうとCodexが言ってる。\nまあそれはそうか…、特に性能が要求されるわけではない通常業務をしてる人のマシンで動かそうとするのは根本的に茨の道か…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama\n20Bモデルを動かせるWindowsユーザは5〜15%で、自治体職員マシンに限定すると1〜5%だろうとCodexが言ってる。\nまあそれはそうか…、特に性能が要求されるわけではない通常業務をしてる人のマシンで動かそうとするのは根本的に茨の道か…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780226857.375209",
+    "client_msg_id": "16BC0508-27E8-45B6-AFC0-CCC8E870D841",
+    "text": "ハードウェアの調達からやってもらう路線だったらそもそもWindowsを入れる必要がない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fsk/u",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ハードウェアの調達からやってもらう路線だったらそもそもWindowsを入れる必要がない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ハードウェアの調達からやってもらう路線だったらそもそもWindowsを入れる必要がない"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780226899.131349",
+    "client_msg_id": "d0a48337-4151-4d48-abcc-59afb8eab981",
+    "text": "この辺を買ってもらう or セットアップ済みをレンタルとかじゃないですかねー\n\n<https://amzn.to/3RUDHPQ>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bmnbm",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この辺を買ってもらう or セットアップ済みをレンタルとかじゃないですかねー\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://amzn.to/3RUDHPQ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "この辺を買ってもらう or セットアップ済みをレンタルとかじゃないですかねー\n\n<https://amzn.to/3RUDHPQ>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780226949.231769",
+    "client_msg_id": "a3ad3b79-3cad-4107-a552-d9df6aa2e858",
+    "text": "広聴AIセットアップ済みPC、1台100万円 or 月額10万円でレンタル",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "r+YvQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIセットアップ済みPC、1台100万円 or 月額10万円でレンタル"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "広聴AIセットアップ済みPC、1台100万円 or 月額10万円でレンタル"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780226953.354739",
+    "client_msg_id": "ca95ebc4-5f1b-4b3c-bd01-7645c9f0dbd7",
+    "text": "みたいな感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/uJVR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "みたいな感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "みたいな感じ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780227002.470509",
+    "client_msg_id": "1b46aa17-b616-4895-bd06-efaa82d84b01",
+    "text": "これ、ちょっと前なら、30万円で買えたのになぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NaBgj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これ、ちょっと前なら、30万円で買えたのになぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "これ、ちょっと前なら、30万円で買えたのになぁ"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1780265026.536779",
+    "edited": {
+      "user": "U08HZ8JS0EQ",
+      "ts": "1780265228.000000"
+    },
+    "client_msg_id": "a5aec2f2-6361-40b0-988e-02f8edbfaed7",
+    "text": "<https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249|https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249>\n前後の会話を読んで、お試しでログイン機能つきの広聴AIを作ってみました。\nイベントとかだったら、人数分アカウント発行してお試ししてみるってのはできるかなぁと思います。\n\n\nログインURL: <https://admin-production-6428.up.railway.app>\n```sample というレポートがあるアカウント\nメールアドレス: sample_viewer@example.com\n初期パスワード: sample_viewer\n\nレポート無しのアカウント\nメールアドレス: sample_viewer2@example.com\n初期パスワード: sample_viewer2\n\n※管理者とか見たい場合は、スレッド書いてもらえればログイン情報渡します```\nAzure デモとやってること被ってそうですけど...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780265026.536779",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1780266742.855689",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "fallback": "[May 30th, 2026 2:06 AM] oscar.gaddress: 1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。",
+        "from_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249",
+        "ts": "1780131963.603249",
+        "author_id": "U08HWJ80CHG",
+        "author_subname": "小野翔太",
+        "channel_id": "C08F7JZPD63",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "+gyYE",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "1名ですが、AIに頼ってもうまくセットアップできなかったという声を頂きました。また、料金がかかってもいいから手軽に使いたいとも。\n法人化できたら、有料のクラウド版と、ローカルでセットアップする無料版を用意してもいいのかも？\n有料にすることでメンテナンスやクオリティの維持などいろいろ課題は出てきますが。\nちなみにCfJさんの紹介できることはお伝え済です。",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249",
+        "footer": "Slack conversation"
+      },
+      {
+        "from_url": "https://admin-production-6428.up.railway.app/",
+        "service_icon": "https://api-production-6fcb5.up.railway.app/meta/icon.png",
+        "id": 2,
+        "original_url": "https://admin-production-6428.up.railway.app",
+        "fallback": "広聴AIオンライン",
+        "text": "広聴AIオンライン",
+        "title": "広聴AIオンライン",
+        "title_link": "https://admin-production-6428.up.railway.app/",
+        "service_name": "admin-production-6428.up.railway.app"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Se2GT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "message_mention",
+                "message_ts": "1780131963.603249",
+                "channel_id": "C08F7JZPD63",
+                "author_id": "U08HWJ80CHG",
+                "text": "https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249",
+                "url": "https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249"
+              },
+              {
+                "type": "text",
+                "text": "\n前後の会話を読んで、お試しでログイン機能つきの広聴AIを作ってみました。\nイベントとかだったら、人数分アカウント発行してお試ししてみるってのはできるかなぁと思います。\n\n\nログインURL: "
+              },
+              {
+                "type": "link",
+                "url": "https://admin-production-6428.up.railway.app"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "sample というレポートがあるアカウント\nメールアドレス: sample_viewer@example.com\n初期パスワード: sample_viewer\n\nレポート無しのアカウント\nメールアドレス: sample_viewer2@example.com\n初期パスワード: sample_viewer2\n\n※管理者とか見たい場合は、スレッド書いてもらえればログイン情報渡します"
+              }
+            ],
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\nAzure デモとやってること被ってそうですけど..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "今井 竜也",
+    "text_readable": "<https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249|https://dd2030.slack.com/archives/C08F7JZPD63/p1780131963603249>\n前後の会話を読んで、お試しでログイン機能つきの広聴AIを作ってみました。\nイベントとかだったら、人数分アカウント発行してお試ししてみるってのはできるかなぁと思います。\n\n\nログインURL: <https://admin-production-6428.up.railway.app>\n```sample というレポートがあるアカウント\nメールアドレス: sample_viewer@example.com\n初期パスワード: sample_viewer\n\nレポート無しのアカウント\nメールアドレス: sample_viewer2@example.com\n初期パスワード: sample_viewer2\n\n※管理者とか見たい場合は、スレッド書いてもらえればログイン情報渡します```\nAzure デモとやってること被ってそうですけど..."
+  },
+  {
+    "text": "ログインしてみました。\nいいですね！\n> Azure デモとやってること被ってそう\nAzure のデモ環境は、半分は Azure への deploy のテストを兼ねていて、実質は admin の画面に（とりあえず）Basic 認証つけているだけのものなので、ユーザーの区別はしてないです。\nこちらの方がちゃんとやってますね。\nやっぱりこうしたくなりますよね。\n\n継続的に運用するには、どういう形で提供するといいんですかね。あんまり肩肘張らずに、ベストエフォートとかでもないよりはいいんですかねー。",
+    "files": [
+      {
+        "id": "F0B78JY2DDL",
+        "created": 1780265926,
+        "timestamp": 1780265926,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 132108,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B78JY2DDL/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B78JY2DDL/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 300,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 400,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 600,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B78JY2DDL-b20ec93f99/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 667,
+        "original_w": 931,
+        "original_h": 776,
+        "thumb_tiny": "AwApADDR2ncTub6f5+tOx70hBPcilx70AFB6UAY75ooAMe9FFFABiiiigBCenT86M+uB+NLRmgAooooAKQ9aWigBPwopaKAEXPOaWiigD//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B78JY2DDL/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B78JY2DDL-6ed0e0ce52",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      },
+      {
+        "id": "F0B7CG3QWUR",
+        "created": 1780266051,
+        "timestamp": 1780266051,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 215192,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CG3QWUR/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CG3QWUR/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 342,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 456,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 683,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 759,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CG3QWUR-dfcb64c635/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 911,
+        "original_w": 1022,
+        "original_h": 970,
+        "thumb_tiny": "AwAuADDSKgsG5yPc0tIeQcjIpgc5GE6470APZdwxnFAX5s55pN42g5GD70m/nGO5FAD6THOefzpu/nt+Jp4OQD0oAKKKTcPUUXAOfQUc56CkO48qRimBmB+Z1+lA7EnOenFLTVdW6MKdQICcAmoSy9lJ+tTUUmk9w1IhIo6AgZpAVdjlScjmpsUx492MMRijVbCt3K4EyciIZH+fWrEW8jMgwfamrEwOd5qWjXqVddD/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B7CG3QWUR/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B7CG3QWUR-aa44fb3792",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Noej0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ログインしてみました。\nいいですね！\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azure デモとやってること被ってそう"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azure のデモ環境は、半分は Azure への deploy のテストを兼ねていて、実質は admin の画面に（とりあえず）Basic 認証つけているだけのものなので、ユーザーの区別はしてないです。\nこちらの方がちゃんとやってますね。\nやっぱりこうしたくなりますよね。\n\n継続的に運用するには、どういう形で提供するといいんですかね。あんまり肩肘張らずに、ベストエフォートとかでもないよりはいいんですかねー。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780266742.855689",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1780266876.000000"
+    },
+    "client_msg_id": "62adaf2e-c2c7-4bb6-ad1f-e47719c3938a",
+    "thread_ts": "1780265026.536779",
+    "parent_user_id": "U08HZ8JS0EQ",
+    "parent_ts": "1780265026.536779",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ログインしてみました。\nいいですね！\n> Azure デモとやってること被ってそう\nAzure のデモ環境は、半分は Azure への deploy のテストを兼ねていて、実質は admin の画面に（とりあえず）Basic 認証つけているだけのものなので、ユーザーの区別はしてないです。\nこちらの方がちゃんとやってますね。\nやっぱりこうしたくなりますよね。\n\n継続的に運用するには、どういう形で提供するといいんですかね。あんまり肩肘張らずに、ベストエフォートとかでもないよりはいいんですかねー。"
+  },
+  {
+    "text": "あれ、過去の version で作成したレポートの散布図は表示されなくなっています？\n<https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/>",
+    "files": [
+      {
+        "id": "F0B7CH7E8M7",
+        "created": 1780267041,
+        "timestamp": 1780267041,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 101213,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CH7E8M7/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CH7E8M7/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_360.png",
+        "thumb_360_w": 343,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_480.png",
+        "thumb_480_w": 457,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_720.png",
+        "thumb_720_w": 686,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CH7E8M7-afc6e5d24c/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 840,
+        "original_w": 830,
+        "original_h": 871,
+        "thumb_tiny": "AwAwAC7RLYbCjJzg89KdSY5J5/Om4OSMvjGM5H/66AH0U3HJ+8PxowefvdaAHUU0D5T978TzSqMDqT9aAEzRRSE4x9aAFopobPQgg9D2oz05GD096AHDgYpV4GKSlXrQAlJS4oxQAUUYoxQAUq9aTFKOtAH/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B7CH7E8M7/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B7CH7E8M7-ef582796ce",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Yqz56",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あれ、過去の version で作成したレポートの散布図は表示されなくなっています？\n"
+              },
+              {
+                "type": "link",
+                "url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780267102.197099",
+    "client_msg_id": "d85d6022-9bb5-47bc-9a86-ef2c3237657e",
+    "thread_ts": "1780267102.197099",
+    "reply_count": 7,
+    "reply_users_count": 4,
+    "latest_reply": "1780309143.480999",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08J6JR5SNQ",
+      "U08HZ8JS0EQ",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/",
+        "id": 1,
+        "original_url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/",
+        "fallback": "テスト - 名前未設定ユーザー",
+        "text": "AI技術の倫理的利用と透明性の確保が重要視されており、医療分野では責任の明確化が求められています。また、経済的・社会的課題への包括的対応が必要で、特に富の公正な分配や新たな職業創出が強調されています。個人情報保護の強化や国際的な協力も不可欠で、差別を防ぐ仕組みの整備が求められています。さらに、AIと人間の協働を重視した教育改革が、持続可能な社会の実現に向けて期待されています。",
+        "title": "テスト - 名前未設定ユーザー",
+        "title_link": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/",
+        "service_name": "public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io"
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "あれ、過去の version で作成したレポートの散布図は表示されなくなっています？\n<https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/6120b19e-56c4-4248-a374-9370f0e96944/>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780267978.074689",
+    "client_msg_id": "4c6ed2ac-0c4e-4de5-b75f-6a2b490027c3",
+    "text": "とりあえず Issue 化\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/886>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "buOjR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず Issue 化\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/886"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "Shingo OHKI",
+    "text_readable": "とりあえず Issue 化\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/886>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780271790.153459",
+    "client_msg_id": "f8f00e5d-9311-4522-aa48-a0d6a2344a78",
+    "text": "Cloudeに調査を開始させました。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "asaNB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Cloudeに調査を開始させました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Cloudeに調査を開始させました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780279755.931339",
+    "client_msg_id": "ddc1ace4-685d-4ed1-a0ce-b874405a54d5",
+    "text": "だめだなー原因判明せず。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZzCPA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "だめだなー原因判明せず。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "だめだなー原因判明せず。"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1780286930.933969",
+    "client_msg_id": "09b6296f-813f-438f-bee1-d469eb0b68c6",
+    "text": "たぶん直せそうなのでPR出します！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y+WEs",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たぶん直せそうなのでPR出します！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "今井 竜也",
+    "text_readable": "たぶん直せそうなのでPR出します！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780301670.022879",
+    "client_msg_id": "4836216A-76C0-4D20-911C-7C7C9F9C5911",
+    "text": "テスト通ってるのでマージしてプロダクション環境で確認する感じで良いと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z93aY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "テスト通ってるのでマージしてプロダクション環境で確認する感じで良いと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "テスト通ってるのでマージしてプロダクション環境で確認する感じで良いと思います"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780301707.185709",
+    "client_msg_id": "CAF1BB13-52A3-41D9-84F0-AB9864CD2F4B",
+    "text": "(多分僕が壊したんだと思うのだけど)なぜ壊れたのかと、なぜテストで検出できなかったのかは後で考えておきます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KyU0U",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(多分僕が壊したんだと思うのだけど)なぜ壊れたのかと、なぜテストで検出できなかったのかは後で考えておきます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(多分僕が壊したんだと思うのだけど)なぜ壊れたのかと、なぜテストで検出できなかったのかは後で考えておきます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780309143.480999",
+    "client_msg_id": "F0ED0D95-7B74-4AFC-A02B-18C8F3DEA337",
+    "text": "マージしてデプロイはサクセスしてる風なのにリロードしても変わらない",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780267102.197099",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7SfE5",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "マージしてデプロイはサクセスしてる風なのにリロードしても変わらない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780267102.197099",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "マージしてデプロイはサクセスしてる風なのにリロードしても変わらない"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780309668.593269",
+    "client_msg_id": "23EA9C45-8628-4968-B277-65DDEA488FA6",
+    "text": "なんか色々議論した方がベターなことはある気がしますが、キャパが溢れてて何も準備できてません",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fx5J4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なんか色々議論した方がベターなことはある気がしますが、キャパが溢れてて何も準備できてません"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なんか色々議論した方がベターなことはある気がしますが、キャパが溢れてて何も準備できてません"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780310073.261439",
+    "client_msg_id": "f1d09886-3730-4980-b9cc-6bddd77dcdc4",
+    "text": "CIのdeploy successを見て「問題ないな」と進んできてたけど、こいつが正しく状態を返していないっぽい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bFNsw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "CIのdeploy successを見て「問題ないな」と進んできてたけど、こいつが正しく状態を返していないっぽい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "CIのdeploy successを見て「問題ないな」と進んできてたけど、こいつが正しく状態を返していないっぽい"
+  },
+  {
+    "text": "途中でkillされててちゃんとデプロイされてなさげ",
+    "files": [
+      {
+        "id": "F0B7ASVPCLD",
+        "created": 1780310550,
+        "timestamp": 1780310550,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 148746,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7ASVPCLD/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7ASVPCLD/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 186,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 247,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7ASVPCLD-8456fb78e3/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 371,
+        "original_w": 1498,
+        "original_h": 772,
+        "thumb_tiny": "AwAZADCkOOhI455oMZUAkEA8jPegtkDCgYGOM8+9B4PrQAmKMe5pfxHT3pMn0oAXnGMnGc0m0UZPpRk+lADgwCgbVJz6nNAYAA7VPtk/X/61SD/j2H+8v82pZ/8AVfj/AFagCN/lznZ16Bs4pqkZ/h6d80yigCZED/8ALSNfqT/hTeAzDcvHf1+lR0UAf//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B7ASVPCLD/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B7ASVPCLD-ca86c718e2",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Np7e1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "途中でkillされててちゃんとデプロイされてなさげ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780310561.402809",
+    "client_msg_id": "8c0b1a9f-22c9-456d-8479-6bf187f42f2b",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "途中でkillされててちゃんとデプロイされてなさげ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780311159.000559",
+    "client_msg_id": "fb40449f-a999-43f8-aa25-eadf8c273e90",
+    "text": "とりあえず開発定例開きます？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8LAFR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず開発定例開きます？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "とりあえず開発定例開きます？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1780311403.633759",
+    "client_msg_id": "9b799ca2-d5e0-46ee-8440-2ca6c3d3ff73",
+    "text": "<!here>\n開発定例をやることにしました。\n\n:clock9: 20:00-21:00\n:link: <https://meet.google.com/feh-cnpt-nhq>\n:memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BHgzG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\n開発定例をやることにしました。\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<!here>\n開発定例をやることにしました。\n\n:clock9: 20:00-21:00\n:link: <https://meet.google.com/feh-cnpt-nhq>\n:memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780314085.826479",
+    "client_msg_id": "f35597f5-c819-4228-bc47-8abc6cd26e25",
+    "text": "結論\n• 問題1: チェックがおかしい\n    ◦ Azure Deploy CI は Docker image を build/push して Container App の新 revision を作るが、新 revision が Ready になったことは確認していない。\n    ◦ 最後の health check も stable URL を叩くため、新 revision が Ready になってなくても、旧 revision が 200 を返して Deploy Success になる。\n• 問題2: 時々OOMで死ぬ\n    ◦ public-viewer は container 起動後に entrypoint.sh で next build を実行している\n    ◦ #887 では next build の TypeScript phase が OOM らしい SIGKILL(exit 137) で落ちていた。\n• その結果、「CI は Deploy Success と言っているが、新 revision は Ready になっておらず、ユーザには古い revision のサービスが出続ける」という現象が発生している。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AwvGw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "結論\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "問題1: チェックがおかしい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Azure Deploy CI は Docker image を build/push して Container App の新 revision を作るが、新 revision が Ready になったことは確認していない。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "最後の health check も stable URL を叩くため、新 revision が Ready になってなくても、旧 revision が 200 を返して Deploy Success になる。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "問題2: 時々OOMで死ぬ"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "public-viewer は container 起動後に entrypoint.sh で next build を実行している"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#887 では next build の TypeScript phase が OOM らしい SIGKILL(exit 137) で落ちていた。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その結果、「CI は Deploy Success と言っているが、新 revision は Ready になっておらず、ユーザには古い revision のサービスが出続ける」という現象が発生している。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "結論\n• 問題1: チェックがおかしい\n    ◦ Azure Deploy CI は Docker image を build/push して Container App の新 revision を作るが、新 revision が Ready になったことは確認していない。\n    ◦ 最後の health check も stable URL を叩くため、新 revision が Ready になってなくても、旧 revision が 200 を返して Deploy Success になる。\n• 問題2: 時々OOMで死ぬ\n    ◦ public-viewer は container 起動後に entrypoint.sh で next build を実行している\n    ◦ #887 では next build の TypeScript phase が OOM らしい SIGKILL(exit 137) で落ちていた。\n• その結果、「CI は Deploy Success と言っているが、新 revision は Ready になっておらず、ユーザには古い revision のサービスが出続ける」という現象が発生している。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780314174.152239",
+    "client_msg_id": "d4f1d9aa-ddb7-49e2-bb9c-ec067936f04c",
+    "text": "<@U08H3V9KMFH> とりあえずメモリが1Gらしいんですけど2Gに増やすのがいいのではないかと思います。\nその後で、Azureデモ環境のデプロイCIや、動作状態のチェックなどに関してもう少し改善が必要そう。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6+R8z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " とりあえずメモリが1Gらしいんですけど2Gに増やすのがいいのではないかと思います。\nその後で、Azureデモ環境のデプロイCIや、動作状態のチェックなどに関してもう少し改善が必要そう。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego とりあえずメモリが1Gらしいんですけど2Gに増やすのがいいのではないかと思います。\nその後で、Azureデモ環境のデプロイCIや、動作状態のチェックなどに関してもう少し改善が必要そう。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780314531.469359",
+    "client_msg_id": "1DCF78C3-39E8-4C70-BBFC-0B0ABC788994",
+    "text": "あー、それは以前も起きていた気がしますね。何かでタスクが埋もれてしまったのかも。\n\nAzure デモ環境のdeployの件も了解です。\nIssue作って見てみますー",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Zwhv8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あー、"
+              },
+              {
+                "type": "text",
+                "text": "それは以前も起きていた気がしますね。何かでタスクが埋もれてしまったのかも。\n\nAzure デモ環境のdeployの件も了解です。\nIssue作って見てみますー"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "あー、それは以前も起きていた気がしますね。何かでタスクが埋もれてしまったのかも。\n\nAzure デモ環境のdeployの件も了解です。\nIssue作って見てみますー"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780314786.096249",
+    "client_msg_id": "B6F3D65E-2CF9-47D4-90E1-5B9861F88B96",
+    "text": "売上もないのに固定費上げていいのかなという抵抗感があったのは記憶してます（笑）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "h2wLA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "売上もないのに固定費上げていいのかなという抵抗感があったのは"
+              },
+              {
+                "type": "text",
+                "text": "記憶してます（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "売上もないのに固定費上げていいのかなという抵抗感があったのは記憶してます（笑）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780314914.267979",
+    "client_msg_id": "7faed9e7-15be-4ab6-bb1b-16f49d99b4f5",
+    "text": "そうだ、kouchou-aiをGithub Sponserで寄付できるようにするとか(唐突)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cvK+3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうだ、kouchou-aiをGithub Sponserで寄付できるようにするとか(唐突)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうだ、kouchou-aiをGithub Sponserで寄付できるようにするとか(唐突)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315093.399999",
+    "client_msg_id": "a02be05c-9ac1-4c1f-a61e-229640e4450f",
+    "text": "1: OOMなのか？\n2: OOMとして、それはなぜ起こるのか？\n3: ビルドの時だけメモリを増やしたらいいのか？\n3だったら固定費は上がらない説",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eYFKb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1: OOMなのか？\n2: OOMとして、それはなぜ起こるのか？\n3: ビルドの時だけメモリを増やしたらいいのか？\n3だったら固定費は上がらない説"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1: OOMなのか？\n2: OOMとして、それはなぜ起こるのか？\n3: ビルドの時だけメモリを増やしたらいいのか？\n3だったら固定費は上がらない説"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315120.120589",
+    "client_msg_id": "90a5fca7-864f-4950-a78a-7a6725d0ed92",
+    "text": "&gt; はい、方法はあります。いちばん筋がいいのは 「ACA 上で next build しない」 です。\n&gt; 現在の問題は、public-viewer が container 起動後に entrypoint.sh で .next を消して pnpm run build していることです。これを Docker image build 時、つまり GitHub Actions / Docker build の中で済ませるようにすると、ACA の runtime は next start だけになります。そうすれば serve 側は今の 0.5 CPU / 1Gi のままにでき、固定費を増やさずに OOM 要因を消せます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lyhBh",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はい、方法はあります。いちばん筋がいいのは 「ACA 上で next build しない」 です。\n現在の問題は、public-viewer が container 起動後に entrypoint.sh で .next を消して pnpm run build していることです。これを Docker image build 時、つまり GitHub Actions / Docker build の中で済ませるようにすると、ACA の runtime は next start だけになります。そうすれば serve 側は今の 0.5 CPU / 1Gi のままにでき、固定費を増やさずに OOM 要因を消せます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> はい、方法はあります。いちばん筋がいいのは 「ACA 上で next build しない」 です。\n> 現在の問題は、public-viewer が container 起動後に entrypoint.sh で .next を消して pnpm run build していることです。これを Docker image build 時、つまり GitHub Actions / Docker build の中で済ませるようにすると、ACA の runtime は next start だけになります。そうすれば serve 側は今の 0.5 CPU / 1Gi のままにでき、固定費を増やさずに OOM 要因を消せます。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315129.601459",
+    "client_msg_id": "eb17f509-22d9-47e4-a30c-fc692c6c533b",
+    "text": "とCodexは言っている",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "cx4na",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とCodexは言っている"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "とCodexは言っている"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315224.864729",
+    "client_msg_id": "415dde2f-e3bb-4542-bfd5-dfce15af1722",
+    "text": "簡単にいうけど歴史の堆積した沼に踏み込んでる気がするな〜〜",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xZVUE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "簡単にいうけど歴史の堆積した沼に踏み込んでる気がするな〜〜"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "簡単にいうけど歴史の堆積した沼に踏み込んでる気がするな〜〜"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315258.083539",
+    "client_msg_id": "b43d8277-f681-464c-be8c-5d0b90aaf45d",
+    "text": "どうして今の構成になっているのかの歴史的経緯の調査もさせとこう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vtB5Z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "どうして今の構成になっているのかの歴史的経緯の調査もさせとこう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "どうして今の構成になっているのかの歴史的経緯の調査もさせとこう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780315295.650949",
+    "client_msg_id": "bdc257fe-65b4-47c0-9be6-d2ce03e826da",
+    "text": "(多分admin containerが立ち上がってないとviewer containerがbuildできない)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4GJTN",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(多分admin containerが立ち上がってないとviewer containerがbuildできない)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(多分admin containerが立ち上がってないとviewer containerがbuildできない)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780317115.437589",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1780317460.000000"
+    },
+    "client_msg_id": "9b7b0489-c585-4fc0-8511-db636f68a6c3",
+    "text": "うーん\n> (Codex)大まかな経緯はこうです。\n> 1. 2025-03 の PR #8 Docker 化で、entrypoint.sh が npm run build → npm run start する形になった\n> 2. Azure 側のリソースは 0.5 CPU / 1Gi の軽量 viewer 実行用に見える、Next build 用に余裕を見た設定ではなさそうです。\n> 3. 2026-02 頃、monorepo / pnpm / Turbopack 化で起動時 build の前提がさらに重くなった\n> PR #782 / #783 / #784 では、workspace root metadata が runner image に無い、Turbopack root が解決できない、という問題を COPY や turbopack.root で補修しています。\n> 4. PR #785 では「起動時 build が遅い」ことに対して CI の retry を伸ばした\n> 5. PR #851 / #862 では apps/shared の copy 漏れが再発\n> builder stage / runner stage の境界に shared package をどう持ち込むかが問題になっていて、runtime build 構成の脆さが続いています。\n> 6. PR #887 で next build が TypeScript phase 中に SIGKILL/OOM し、問題が表面化した",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ncC21",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "うーん\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(Codex)大まかな経緯はこうです。\n1. 2025-03 の PR #8 Docker 化で、entrypoint.sh が npm run build → npm run start する形になった\n2. Azure 側のリソースは 0.5 CPU / 1Gi の軽量 viewer 実行用に見える、Next build 用に余裕を見た設定ではなさそうです。\n3. 2026-02 頃、monorepo / pnpm / Turbopack 化で起動時 build の前提がさらに重くなった\nPR #782 / #783 / #784 では、workspace root metadata が runner image に無い、Turbopack root が解決できない、という問題を COPY や turbopack.root で補修しています。\n4. PR #785 では「起動時 build が遅い」ことに対して CI の retry を伸ばした\n5. PR #851 / #862 では apps/shared の copy 漏れが再発\nbuilder stage / runner stage の境界に shared package をどう持ち込むかが問題になっていて、runtime build 構成の脆さが続いています。\n6. PR #887 で next build が TypeScript phase 中に SIGKILL/OOM し、問題が表面化した"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "うーん\n> (Codex)大まかな経緯はこうです。\n> 1. 2025-03 の PR #8 Docker 化で、entrypoint.sh が npm run build → npm run start する形になった\n> 2. Azure 側のリソースは 0.5 CPU / 1Gi の軽量 viewer 実行用に見える、Next build 用に余裕を見た設定ではなさそうです。\n> 3. 2026-02 頃、monorepo / pnpm / Turbopack 化で起動時 build の前提がさらに重くなった\n> PR #782 / #783 / #784 では、workspace root metadata が runner image に無い、Turbopack root が解決できない、という問題を COPY や turbopack.root で補修しています。\n> 4. PR #785 では「起動時 build が遅い」ことに対して CI の retry を伸ばした\n> 5. PR #851 / #862 では apps/shared の copy 漏れが再発\n> builder stage / runner stage の境界に shared package をどう持ち込むかが問題になっていて、runtime build 構成の脆さが続いています。\n> 6. PR #887 で next build が TypeScript phase 中に SIGKILL/OOM し、問題が表面化した"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780317449.820849",
+    "client_msg_id": "0f020cbc-eedb-4219-a522-8d91a00e5394",
+    "text": "&gt; • PR #8で Docker 化した時点から、clientは起動後にnpm run build→npm run startしていた。直後の commit に「build時にAPIサーバーを参照するため、APIサーバーの起動を待ってからbuild」とコメントが追加されている。\n&gt; • 当時からgenerateStaticParams()/ metadata / root page が API を fetch していたので、「image build 時に完結させる」より「API が立ってから container 内で build」へ倒したと読める。\n&gt; • PR #746の monorepo / pnpm workspace 化でclient -&gt; apps/public-viewer、packages/report-schema、workspace root metadata が入り、runtime build はそのまま新構成へ持ち越された。\n&gt; • PR #782/#784/#785は、runtime build をやめるのではなく、runner image に root metadata を足す、turbopack.rootを足す、health check retry を伸ばす、という延命だった。\n746の段階でこの件が将来問題になると気づいて一緒にリファクタすると良かったんだけど、当時はそこまで気が付かなかった、という感じか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rkCa5",
+        "elements": [
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "PR #8で Docker 化した時点から、clientは起動後にnpm run build→npm run startしていた。直後の commit に「build時にAPIサーバーを参照するため、APIサーバーの起動を待ってからbuild」とコメントが追加されている。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "当時からgenerateStaticParams()/ metadata / root page が API を fetch していたので、「image build 時に完結させる」より「API が立ってから container 内で build」へ倒したと読める。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "PR #746の monorepo / pnpm workspace 化でclient -> apps/public-viewer、packages/report-schema、workspace root metadata が入り、runtime build はそのまま新構成へ持ち越された。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "PR #782/#784/#785は、runtime build をやめるのではなく、runner image に root metadata を足す、turbopack.rootを足す、health check retry を伸ばす、という延命だった。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n746の段階でこの件が将来問題になると気づいて一緒にリファクタすると良かったんだけど、当時はそこまで気が付かなかった、という感じか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> • PR #8で Docker 化した時点から、clientは起動後にnpm run build→npm run startしていた。直後の commit に「build時にAPIサーバーを参照するため、APIサーバーの起動を待ってからbuild」とコメントが追加されている。\n> • 当時からgenerateStaticParams()/ metadata / root page が API を fetch していたので、「image build 時に完結させる」より「API が立ってから container 内で build」へ倒したと読める。\n> • PR #746の monorepo / pnpm workspace 化でclient -> apps/public-viewer、packages/report-schema、workspace root metadata が入り、runtime build はそのまま新構成へ持ち越された。\n> • PR #782/#784/#785は、runtime build をやめるのではなく、runner image に root metadata を足す、turbopack.rootを足す、health check retry を伸ばす、という延命だった。\n746の段階でこの件が将来問題になると気づいて一緒にリファクタすると良かったんだけど、当時はそこまで気が付かなかった、という感じか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780318554.102939",
+    "client_msg_id": "ee35b2a3-73c2-4dfc-a700-9b99c0cdbd9a",
+    "text": "議論の結果割と納得感のある解決策が見えてきた\n&gt; 現状は通常の next build でも /, /faq, /[slug] が API を fetch しに行きます。\nこれをビルド時に読むのではなく、リクエスト時にAPIを叩く形に変更する。そうするとpublic-viewerをコンテナの中でビルドしているのが丸々不要になる(し、apiのビルドが終わるまで待ってからビルドする必要があるせいで時間がかかる問題も一緒に解決する)\nただしstatic-exportをする時だけは別で、この時はAPIを叩いてビルドして静的コンテンツを作る必要がある。だからstatic-exportであるかどうかで分岐するように変える。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5hS0i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "議論の結果割と納得感のある解決策が見えてきた\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状は通常の next build でも /, /faq, /[slug] が API を fetch しに行きます。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これをビルド時に読むのではなく、リクエスト時にAPIを叩く形に変更する。そうするとpublic-viewerをコンテナの中でビルドしているのが丸々不要になる(し、apiのビルドが終わるまで待ってからビルドする必要があるせいで時間がかかる問題も一緒に解決する)\nただしstatic-exportをする時だけは別で、この時はAPIを叩いてビルドして静的コンテンツを作る必要がある。だからstatic-exportであるかどうかで分岐するように変える。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "議論の結果割と納得感のある解決策が見えてきた\n> 現状は通常の next build でも /, /faq, /[slug] が API を fetch しに行きます。\nこれをビルド時に読むのではなく、リクエスト時にAPIを叩く形に変更する。そうするとpublic-viewerをコンテナの中でビルドしているのが丸々不要になる(し、apiのビルドが終わるまで待ってからビルドする必要があるせいで時間がかかる問題も一緒に解決する)\nただしstatic-exportをする時だけは別で、この時はAPIを叩いてビルドして静的コンテンツを作る必要がある。だからstatic-exportであるかどうかで分岐するように変える。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780321443.328359",
+    "client_msg_id": "C534B74D-79F1-4E57-8591-9314971FEBDC",
+    "text": "計画書\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html|https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01-og-image.webp",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 33992,
+        "from_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html",
+        "service_icon": "https://nishio.github.io/kouchou-ai-developer-wiki/static/icon.png",
+        "id": 1,
+        "original_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html",
+        "fallback": "kouchou-ai developer wiki: public-viewer-build-serve-split-refactor-plan-2026-06-01",
+        "text": "Public Viewer Build Serve Split Refactor Plan 2026-06-01 Goal public-viewer の通常 dynamic hosting では next build 中に API を叩かず、API fetch は request-time に寄せる。その上で Docker image build 時に .next を作り、container 起動時の pnpm run build を撤去する。static export だけは従来どおり build-time に API を叩いて静的 HTML を生成する。public-viewer-run...",
+        "title": "public-viewer-build-serve-split-refactor-plan-2026-06-01",
+        "title_link": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html",
+        "service_name": "kouchou-ai developer wiki"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Rxqx+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "計画書"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html",
+                "text": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "計画書\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html|https://nishio.github.io/kouchou-ai-developer-wiki/analyses/public-viewer-build-serve-split-refactor-plan-2026-06-01.html>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780322964.167549",
+    "client_msg_id": "4e522443-c8d0-41d3-b607-dae13afb4c41",
+    "text": "そうそう、ビルド時にメモリ足りなくてコケてたんです。\n（すごいなぁ、経緯まで追えるようになったAIは無敵感ありますね）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E+1Of",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうそう、ビルド時にメモリ足りなくてコケてたんです。\n（すごいなぁ、経緯まで追えるようになったAIは無敵感ありますね）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "そうそう、ビルド時にメモリ足りなくてコケてたんです。\n（すごいなぁ、経緯まで追えるようになったAIは無敵感ありますね）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780323238.136539",
+    "client_msg_id": "7098e59e-ac4a-427e-8ddc-1ffefc07a462",
+    "text": "このリファクタリング案、人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた気がする\n人間の10~100倍早く経緯を調べ上げてくれて解決案を示してくれるので本当に助かる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "E3sjR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "このリファクタリング案、人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた気がする\n人間の10~100倍早く経緯を調べ上げてくれて解決案を示してくれるので本当に助かる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "desuyone",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "このリファクタリング案、人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた気がする\n人間の10~100倍早く経緯を調べ上げてくれて解決案を示してくれるので本当に助かる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780323645.724259",
+    "client_msg_id": "c8be6717-dfbb-463f-8578-79d1329d9f98",
+    "text": "33分考えてPRが作成されてCIとおってる、CodeRabbitのレビューを見て問題なさそうだったらマージしてみちゃいますね\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/888>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BJEv8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "33分考えてPRが作成されてCIとおってる、CodeRabbitのレビューを見て問題なさそうだったらマージしてみちゃいますね\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/888"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "33分考えてPRが作成されてCIとおってる、CodeRabbitのレビューを見て問題なさそうだったらマージしてみちゃいますね\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/888>"
+  },
+  {
+    "text": "完了ではなかった",
+    "files": [
+      {
+        "id": "F0B7CFL3C8M",
+        "created": 1780323803,
+        "timestamp": 1780323803,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 71326,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CFL3C8M/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7CFL3C8M/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CFL3C8M-b8e22f4b4c/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CFL3C8M-b8e22f4b4c/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CFL3C8M-b8e22f4b4c/image_360.png",
+        "thumb_360_w": 299,
+        "thumb_360_h": 266,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7CFL3C8M-b8e22f4b4c/image_160.png",
+        "original_w": 598,
+        "original_h": 532,
+        "thumb_tiny": "AwArADCpg7d2OM4zSYPHB56e9GOM++KU9Pur19aAEpQpIyOmcdaTH0/OlCnPUD8aAEIwcGkpaSgBwxjHHXrQfoPwpM8AYFKSOwBoAMgY+UH65pCeOg+tGeMYH1oyPQUAAPsKCQegA+lLngjA570FsgDaOO4oAB0wTgZFKcDhSD7kU2lZ2YAE5wMCgA7Yyv5UZ47enSm0UAO44569eOlITmkooA//2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B7CFL3C8M/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B7CFL3C8M-09e17d0a8c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vLTIe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "完了ではなかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780323805.822429",
+    "client_msg_id": "7bb4ec13-7a4f-45ea-8b1b-3ecc4d893280",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "完了ではなかった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780323821.365379",
+    "client_msg_id": "bdd032e7-f2df-4c9f-a331-37bb9f37b3ac",
+    "text": "まあこの段階でCodeRabbitのレビューを見るのはいいこと",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bBeqD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあこの段階でCodeRabbitのレビューを見るのはいいこと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあこの段階でCodeRabbitのレビューを見るのはいいこと"
+  },
+  {
+    "text": "デプロイ治りました",
+    "files": [
+      {
+        "id": "F0B7J5GBM8R",
+        "created": 1780326567,
+        "timestamp": 1780326567,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 133749,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7J5GBM8R/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B7J5GBM8R/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7J5GBM8R-6c323de85d/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7J5GBM8R-6c323de85d/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7J5GBM8R-6c323de85d/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 303,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7J5GBM8R-6c323de85d/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 403,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B7J5GBM8R-6c323de85d/image_160.png",
+        "original_w": 1016,
+        "original_h": 854,
+        "thumb_tiny": "AwApADCiFYqCFJycdOKXBAywI44+X6/4U1eTzj8albZg8xjnsG9P8/8A6qAI/l2Hk5+n9aTPFOfbxgrxx8ueffmmUAKSWOTj8BikoooAVetKWyeQT+NKi5549PvAf560fMO45GeooAbSU8sM4+bb6bqV3DEkb+Rjls0AR0U/KZ5Vj/wL/wCtTSSSSTknuaAFXoccn6Zp3KggjAzjlB19KjooAcMDPJ6f3aXcPzHPyimUUAP3AdO/XKimk5OaSigD/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B7J5GBM8R/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B7J5GBM8R-b434cf05e6",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GgGB7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デプロイ治りました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780326571.629299",
+    "client_msg_id": "556b8b38-14f9-49f3-8750-ed605fe13166",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デプロイ治りました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780330144.592749",
+    "client_msg_id": "CF1AB4A4-3D13-4C55-B9A9-56C206AA5F1A",
+    "text": "<@U08J6JR5SNQ> 一旦僕の方のsetup.batの修正はマージした。Windowsバイナリが作られるならどっちみちsetup.batは書き換えるなり削除するなりされると思うので適当にやっちゃってください",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5EziR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " 一旦僕の方のsetup.batの修正はマージした。Windowsバイナリが作られるならどっちみち"
+              },
+              {
+                "type": "text",
+                "text": "setup.batは"
+              },
+              {
+                "type": "text",
+                "text": "書き換えるなり削除するなりされると思うので適当に"
+              },
+              {
+                "type": "text",
+                "text": "やっちゃってください"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama 一旦僕の方のsetup.batの修正はマージした。Windowsバイナリが作られるならどっちみちsetup.batは書き換えるなり削除するなりされると思うので適当にやっちゃってください"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780353464.071899",
+    "client_msg_id": "c9f60af8-1cac-4f9b-98f6-9805ac7601a1",
+    "text": "すごい、もう終わってた（笑）\n\n&gt; 人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた\nまさにそうですね。そして躊躇している間に別件が入って埋もれて、（メモを残していればいいけど、大抵は頭の中のみにあって）その時の検討の内容が時間とともに記憶から消えて、前何か検討したけどなんだったっけ？という感覚だけ残る。あるいはそれすらも全く忘れる。\n\nこれからは検討の過程もAIとの対話をするから残りやすくなるから、それはいいことなのかも。\nこういうところはAI支援が非常に有効なんですねー。勉強になりました。\n\nそして LLM wiki の有用性がとても良く分かりました。\nこれは応用範囲がとても広そうな気がしますね。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RRDuY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すごい、もう終わってた（笑）\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まさにそうですね。そして躊躇している間に別件が入って埋もれて、（メモを残していればいいけど、大抵は頭の中のみにあって）その時の検討の内容が時間とともに記憶から消えて、前何か検討したけどなんだったっけ？という感覚だけ残る。あるいはそれすらも全く忘れる。\n\nこれからは検討の過程もAIとの対話をするから残りやすくなるから、それはいいことなのかも。\nこういうところはAI支援が非常に有効なんですねー。勉強になりました。\n\nそして LLM wiki の有用性がとても良く分かりました。\nこれは応用範囲がとても広そうな気がしますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "すごい、もう終わってた（笑）\n\n> 人間の僕がやってたら調査している最中に「沼だからいじるのはやめとこう」と判断してた\nまさにそうですね。そして躊躇している間に別件が入って埋もれて、（メモを残していればいいけど、大抵は頭の中のみにあって）その時の検討の内容が時間とともに記憶から消えて、前何か検討したけどなんだったっけ？という感覚だけ残る。あるいはそれすらも全く忘れる。\n\nこれからは検討の過程もAIとの対話をするから残りやすくなるから、それはいいことなのかも。\nこういうところはAI支援が非常に有効なんですねー。勉強になりました。\n\nそして LLM wiki の有用性がとても良く分かりました。\nこれは応用範囲がとても広そうな気がしますね。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780392458.196359",
+    "client_msg_id": "6ACD53FE-F78E-4DC6-A3E6-C12DF2A515F4",
+    "text": "まったく別の文脈の話を見てて唐突に言語化されたんだけど(LLM Wikiを無料のローカルLLMで動かせないかと言う話を見てて思った)\n\n「専門家がお金で解決してることをお金を払わずに解決するには当然知識や技術や時間が必要だ」ということがわかってない人がいる？\n\n知識のある専門家が「自分の時間を使うより外注した方が低コストだ」と判断しているようなものに関して「金銭的コストは払えないので自分でやる」という場合には、当然その専門家が自分でやる場合にかかる時間や労力よりもたくさんの時間と労力が必要になる。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ox6g2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まったく別の文脈の話を見てて唐突に言語化されたんだけど(LLM Wikiを無料のローカルLLMで動かせないかと言う話を見てて思った)\n\n「専門家がお金で解決してることをお金を払わずに解決するには当然知識や技術や時間が必要だ」ということがわかってない人がいる？\n\n知識のある専門家が「自分の時間を使うより外注した方が低コストだ」と判断しているようなものに関して「金銭的コストは払えないので自分でやる」という場合には、当然その専門家が自分でやる場合にかかる時間や労力よりもたくさんの時間と労力が必要になる。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "clap",
+        "users": [
+          "U0A98JWF24B"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まったく別の文脈の話を見てて唐突に言語化されたんだけど(LLM Wikiを無料のローカルLLMで動かせないかと言う話を見てて思った)\n\n「専門家がお金で解決してることをお金を払わずに解決するには当然知識や技術や時間が必要だ」ということがわかってない人がいる？\n\n知識のある専門家が「自分の時間を使うより外注した方が低コストだ」と判断しているようなものに関して「金銭的コストは払えないので自分でやる」という場合には、当然その専門家が自分でやる場合にかかる時間や労力よりもたくさんの時間と労力が必要になる。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780392548.033259",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1780392597.000000"
+    },
+    "client_msg_id": "ECE02C60-BD56-4769-8E7A-77A5904B494A",
+    "text": "タクシーで1万円かかるところに行くのにタクシー代が払えないなら、公共交通機関と徒歩で頑張るか、勉強して免許をとって車を買うとかが必要なわけで、タクシーに乗るのよりも楽な方法などない。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ygw9i",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "タクシーで1万円かかるところに行くのにタクシー代が払えないなら、公共交通機関と徒歩で頑張るか、勉強して免許をとって"
+              },
+              {
+                "type": "text",
+                "text": "車を買うとかが必要なわけで、"
+              },
+              {
+                "type": "text",
+                "text": "タクシーに乗るのよりも楽な方法などない。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A98JWF24B"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "タクシーで1万円かかるところに行くのにタクシー代が払えないなら、公共交通機関と徒歩で頑張るか、勉強して免許をとって車を買うとかが必要なわけで、タクシーに乗るのよりも楽な方法などない。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780403613.089249",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1780403675.000000"
+    },
+    "client_msg_id": "61ae1af5-75e1-4658-9296-8121e1eb915f",
+    "text": "（これは広聴AIの話ではないんですが）\nこの話に関連して、DD2030 のプロダクト提供について少し引っかかっていたことを思い出しました。\n\nOSSとして開発物を公開したり、ベストエフォートのデモ環境を置いたりすることと、継続的にサービスとして提供することは、責任の重さがかなり違いそうだなと。\n\nAIやクラウドで「作る」「公開する」のハードルは下がりましたが、運用責任についてはまた別に考える必要があるのかなと感じています。\n\nオープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのかは、一度整理しておいた方がよいような気がしました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HZcQH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（これは広聴AIの話ではないんですが）\nこの話に関連して、DD2030 のプロダクト提供について少し引っかかっていたことを思い出しました。\n\nOSSとして開発物を公開したり、ベストエフォートのデモ環境を置いたりすることと、継続的にサービスとして提供することは、責任の重さがかなり違いそうだなと。\n\nAIやクラウドで「作る」「公開する」のハードルは下がりましたが、運用責任についてはまた別に考える必要があるのかなと感じています。\n\nオープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのかは、一度整理しておいた方がよいような気がしました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arimasu",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "（これは広聴AIの話ではないんですが）\nこの話に関連して、DD2030 のプロダクト提供について少し引っかかっていたことを思い出しました。\n\nOSSとして開発物を公開したり、ベストエフォートのデモ環境を置いたりすることと、継続的にサービスとして提供することは、責任の重さがかなり違いそうだなと。\n\nAIやクラウドで「作る」「公開する」のハードルは下がりましたが、運用責任についてはまた別に考える必要があるのかなと感じています。\n\nオープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのかは、一度整理しておいた方がよいような気がしました。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780413651.752799",
+    "client_msg_id": "849C4EDA-4749-4708-8A6D-2F6AFE187438",
+    "text": "0%でしょ&gt;どこまで責任を引き受けるか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/62Ut",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "0%でしょ>どこまで責任を引き受けるか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "0%でしょ>どこまで責任を引き受けるか"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780413811.684299",
+    "client_msg_id": "494EB32C-94E8-4011-B686-8DB69F643B30",
+    "text": "責任を引き受けたい人がいれば適切に対価を取ってビジネスをやればいいと思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "dpZKV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "責任を引き受けたい人がいれば適切に対価を取ってビジネスをやればいいと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "責任を引き受けたい人がいれば適切に対価を取ってビジネスをやればいいと思います"
+  },
+  {
+    "user": "U08HN9UDJUB",
+    "type": "message",
+    "ts": "1780445350.879939",
+    "client_msg_id": "375b462b-3490-4b0b-8ae7-54444acf3ffc",
+    "text": "「オープンソースコミュニティ」としては責任を引き受ける必要がない、というのはその通りですよね。OSSライセンスはその通りに書かれている。\nだからこそ、ここまでOSSは広がってきた。\n「オープンソース提供と、運用責任については別に考える必要がある」の言葉どおりで、問いとしては「オープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのか」ではなく、「DD2030は、運用や顧客の課題解決にどこまで責任を持つ事業を行うのか」ということかと思います。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GIx2K",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「オープンソースコミュニティ」としては責任を引き受ける必要がない、というのはその通りですよね。OSSライセンスはその通りに書かれている。\nだからこそ、ここまでOSSは広がってきた。\n「オープンソース提供と、運用責任については別に考える必要がある」の言葉どおりで、問いとしては「オープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのか」ではなく、「DD2030は、運用や顧客の課題解決にどこまで責任を持つ事業を行うのか」ということかと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Hal Seki",
+    "text_readable": "「オープンソースコミュニティ」としては責任を引き受ける必要がない、というのはその通りですよね。OSSライセンスはその通りに書かれている。\nだからこそ、ここまでOSSは広がってきた。\n「オープンソース提供と、運用責任については別に考える必要がある」の言葉どおりで、問いとしては「オープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのか」ではなく、「DD2030は、運用や顧客の課題解決にどこまで責任を持つ事業を行うのか」ということかと思います。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1780459722.885989",
+    "client_msg_id": "391a45d8-c8c1-42af-9ffc-e752c0c6d885",
+    "text": "「広聴AIを使いたい人が使えるように、広まるようにするために」は、「Cloud版の提供」という解決案があるというだけで、解決案は必ずしもCloud版の提供である必要はなく、採用するかも自由だと思っています。\nタクシーの例えには完全に同意です。\n\n広聴AIは、いどばたに比べ、セットアップのドキュメントが非常に丁寧で、私が利用できるくらいでした（v3時点かな？）。\n\nまず広める必要があるのか、なぜ広めるのかも人によって違いがあるのではないかと思っています。\n自分の中でもはっきりしてないのでまず壁打ちして皆さんに共有すべきであれば投稿なりしようと思います。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "62CvM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "「広聴AIを使いたい人が使えるように、広まるようにするために」は、「Cloud版の提供」という解決案があるというだけで、解決案は必ずしもCloud版の提供である必要はなく、採用するかも自由だと思っています。\nタクシーの例えには完全に同意です。\n\n広聴AIは、いどばたに比べ、セットアップのドキュメントが非常に丁寧で、私が利用できるくらいでした（v3時点かな？）。\n\nまず広める必要があるのか、なぜ広めるのかも人によって違いがあるのではないかと思っています。\n自分の中でもはっきりしてないのでまず壁打ちして皆さんに共有すべきであれば投稿なりしようと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "「広聴AIを使いたい人が使えるように、広まるようにするために」は、「Cloud版の提供」という解決案があるというだけで、解決案は必ずしもCloud版の提供である必要はなく、採用するかも自由だと思っています。\nタクシーの例えには完全に同意です。\n\n広聴AIは、いどばたに比べ、セットアップのドキュメントが非常に丁寧で、私が利用できるくらいでした（v3時点かな？）。\n\nまず広める必要があるのか、なぜ広めるのかも人によって違いがあるのではないかと思っています。\n自分の中でもはっきりしてないのでまず壁打ちして皆さんに共有すべきであれば投稿なりしようと思います。"
+  }
+]

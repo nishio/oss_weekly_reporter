@@ -1,0 +1,227 @@
+{
+  "period": {
+    "start": "2026-05-27T13:36:48.015427+09:00",
+    "end": "2026-06-03T13:36:48.015427+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 4559280377,
+      "number": 886,
+      "title": "[BUG] 以前のバージョンで作成したレポートの散布図の表示時に \"WebGL is not supported\" というメッセージが出る",
+      "state": "closed"
+    },
+    {
+      "id": 4521968357,
+      "number": 870,
+      "title": "[REFACTOR] fetch_reports.py を migration / 緊急救済専用へ降格し、通常運用から外す",
+      "state": "closed"
+    },
+    {
+      "id": 3764830604,
+      "number": 741,
+      "title": "[BUG] main ブランチへのマージ時に実行される Azure への deploy が失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 3655783565,
+      "number": 731,
+      "title": "[BUG] Windows環境でインストールしようとすると文字化けが発生して中断する",
+      "state": "closed"
+    },
+    {
+      "id": 4556720303,
+      "number": 885,
+      "title": "[FEATURE] Windows単一実行ファイル配布に向けて Web UI の Node runtime 依存をなくす",
+      "state": "created"
+    },
+    {
+      "id": 4547850449,
+      "number": 884,
+      "title": "[FEATURE] レポート作成前に入力・コスト・API状態を確認できるパネルを追加する",
+      "state": "created"
+    },
+    {
+      "id": 4547101246,
+      "number": 882,
+      "title": "[EXPERIMENT] KJ法的プロンプトがラベル品質に効くか比較実験する",
+      "state": "created"
+    },
+    {
+      "id": 4547099412,
+      "number": 881,
+      "title": "[analysis-core] ラベル品質改善の実験・議論を追跡可能にする",
+      "state": "created"
+    },
+    {
+      "id": 4547052153,
+      "number": 880,
+      "title": "[FEATURE] [8, 64] の分析をマンダラートで可視化したい",
+      "state": "created"
+    },
+    {
+      "id": 4547050322,
+      "number": 879,
+      "title": "[FEATURE] クラスタと時刻の掛け合わせでヒートマップ表示したい",
+      "state": "created"
+    },
+    {
+      "id": 4542703724,
+      "number": 878,
+      "title": "[DOCUMENT] AI エージェントを使うコントリビュータ向けの作業導線を 1 か所にまとめる",
+      "state": "created"
+    },
+    {
+      "id": 4542701930,
+      "number": 877,
+      "title": "[DOCUMENT] Windows セットアップガイドの前提条件と失敗時の分岐を current main に合わせて整理する",
+      "state": "created"
+    },
+    {
+      "id": 4542700437,
+      "number": 876,
+      "title": "[DOCUMENT] README / docs の開発者向け導線を current main に合わせて整理する",
+      "state": "created"
+    },
+    {
+      "id": 4516168926,
+      "number": 869,
+      "title": "[analysis-core] label refinement PR化までの残作業整理",
+      "state": "updated"
+    },
+    {
+      "id": 3028084834,
+      "number": 391,
+      "title": "レポート作成時にAPIが正常でない場合にわかりやすいエラーを出す",
+      "state": "updated"
+    },
+    {
+      "id": 2990880118,
+      "number": 292,
+      "title": "[DOCUMENT]OpenAI APIの課金設定に関する混乱",
+      "state": "updated"
+    },
+    {
+      "id": 2966119535,
+      "number": 221,
+      "title": "(情報整理)試行錯誤の負担を減らす",
+      "state": "updated"
+    },
+    {
+      "id": 2930296014,
+      "number": 97,
+      "title": "[FEATURE]CSVのフォーマットのエラーをわかりやすくする",
+      "state": "updated"
+    },
+    {
+      "id": 2926967566,
+      "number": 79,
+      "title": "[FEATURE]CSVアップロード時にそれを処理した場合のコストを表示",
+      "state": "updated"
+    },
+    {
+      "id": 2893835579,
+      "number": 11,
+      "title": "[FEATURE]レポート出力にかかる時間の目安を記載する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4564482365,
+      "number": 893,
+      "title": "[codex] CodeQL Action を v4 に更新",
+      "state": "merged"
+    },
+    {
+      "id": 4564431888,
+      "number": 892,
+      "title": "[codex] Code scanning alerts の指摘を修正",
+      "state": "merged"
+    },
+    {
+      "id": 4564225522,
+      "number": 890,
+      "title": "Azure Deployment の readiness 確認を latest revision 基準にする",
+      "state": "merged"
+    },
+    {
+      "id": 4564120169,
+      "number": 889,
+      "title": "[codex] Dependabot npm alerts に対応する",
+      "state": "merged"
+    },
+    {
+      "id": 4563754833,
+      "number": 888,
+      "title": "public-viewer の build と startup を分離する",
+      "state": "merged"
+    },
+    {
+      "id": 4560347473,
+      "number": 887,
+      "title": "[codex] Fix Plotly scattergl CSP",
+      "state": "merged"
+    },
+    {
+      "id": 4542634112,
+      "number": 875,
+      "title": "[codex] fetch_reports.py を通常運用から外す",
+      "state": "merged"
+    },
+    {
+      "id": 4524727299,
+      "number": 874,
+      "title": "[codex] semantic island layout 生成を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4524186170,
+      "number": 873,
+      "title": "[codex] Azure deploy を直列化して更新競合を避ける",
+      "state": "merged"
+    },
+    {
+      "id": 4515684067,
+      "number": 868,
+      "title": "[codex] 実行時ユーザーAPIキーの受け渡しを直す",
+      "state": "merged"
+    },
+    {
+      "id": 4515424666,
+      "number": 867,
+      "title": "[codex] 既存出力を再利用して再実行できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 4515292972,
+      "number": 866,
+      "title": "[codex] LLM grouping 分析モードを追加",
+      "state": "merged"
+    },
+    {
+      "id": 4503384139,
+      "number": 863,
+      "title": "[codex] Windows setup の日本語案内を PowerShell に分離",
+      "state": "merged"
+    },
+    {
+      "id": 4564395255,
+      "number": 891,
+      "title": "feat(packaging): Windows スタンドアロン（embeddable Python + 静的 viewer）",
+      "state": "created"
+    },
+    {
+      "id": 4547167009,
+      "number": 883,
+      "title": "[codex] 開発者向け導線を利用モード別に整理する (closes #876)",
+      "state": "created"
+    },
+    {
+      "id": 3831849933,
+      "number": 744,
+      "title": "バックエンドの pandas を polars に変更",
+      "state": "updated"
+    }
+  ]
+}
