@@ -1,0 +1,47 @@
+{
+  "period": {
+    "start": "2026-06-03T13:36:06.875536+09:00",
+    "end": "2026-06-10T13:36:06.875536+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 4594498189,
+      "number": 894,
+      "title": "[BUG] レポート生成しようとすると Hierarchical clustering requires the optional 'clustering' dependencies. というエラーが出る",
+      "state": "closed"
+    },
+    {
+      "id": 4595288529,
+      "number": 898,
+      "title": "[BUG] aarch64 環境で、クラスタリング処理の途中で実行時エラーになる",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 4596775557,
+      "number": 899,
+      "title": "[codex] aarch64 Docker向けに Numba CPU target を generic にする",
+      "state": "merged"
+    },
+    {
+      "id": 4595041805,
+      "number": 897,
+      "title": "[codex] 混在型の入力CSV属性を文字列として扱う",
+      "state": "merged"
+    },
+    {
+      "id": 4594926150,
+      "number": 896,
+      "title": "[codex] API Docker の analysis-core 依存検証を追加",
+      "state": "merged"
+    },
+    {
+      "id": 4594706725,
+      "number": 895,
+      "title": "fix: API Dockerfileでanalysis-coreのclustering依存をインストールするよう修正",
+      "state": "merged"
+    }
+  ]
+}

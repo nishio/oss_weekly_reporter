@@ -1,0 +1,1496 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1780466257.806429",
+    "client_msg_id": "f852e922-e9c5-445b-bc31-8bbad027a191",
+    "text": "広聴AIのマーケティング周りについてAIと壁打ちしてたら、発掘したので貼っておく（過去にボードメンバーを含め、広聴AIのマーケについて話したときの議事録っぽい）\n<https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UMFu7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIのマーケティング周りについてAIと壁打ちしてたら、発掘したので貼っておく（過去にボードメンバーを含め、広聴AIのマーケについて話したときの議事録っぽい）\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "広聴AIのマーケティング周りについてAIと壁打ちしてたら、発掘したので貼っておく（過去にボードメンバーを含め、広聴AIのマーケについて話したときの議事録っぽい）\n<https://docs.google.com/document/d/1qm7I_xEUE0kB8MuQrR_cNOKUerQgbvzFy3CXtUowfgA/edit?usp=sharing>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1780445350.879939",
+    "root": {
+      "user": "U08HN9UDJUB",
+      "type": "message",
+      "ts": "1780445350.879939",
+      "client_msg_id": "375b462b-3490-4b0b-8ae7-54444acf3ffc",
+      "text": "「オープンソースコミュニティ」としては責任を引き受ける必要がない、というのはその通りですよね。OSSライセンスはその通りに書かれている。\nだからこそ、ここまでOSSは広がってきた。\n「オープンソース提供と、運用責任については別に考える必要がある」の言葉どおりで、問いとしては「オープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのか」ではなく、「DD2030は、運用や顧客の課題解決にどこまで責任を持つ事業を行うのか」ということかと思います。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1780445350.879939",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1780468091.065469",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GIx2K",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "「オープンソースコミュニティ」としては責任を引き受ける必要がない、というのはその通りですよね。OSSライセンスはその通りに書かれている。\nだからこそ、ここまでOSSは広がってきた。\n「オープンソース提供と、運用責任については別に考える必要がある」の言葉どおりで、問いとしては「オープンソースコミュニティである DD2030 が、どこまでサービス提供者としての責任を引き受けるのか」ではなく、「DD2030は、運用や顧客の課題解決にどこまで責任を持つ事業を行うのか」ということかと思います。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1780468091.065469",
+    "client_msg_id": "c2a333c5-0d7a-4bb0-bfea-e1c23848e0b9",
+    "text": "いい整理ですね。\n整理の仕方がピンときてない人のために言葉を補うと\n「オープンソースコミュニティである DD2030」は暗黙に「オープンソースコミュニティ = DD2030」を仮定している。\nオープンソースコミュニティは自由に出入りが可能なあつまりであり、今日いた人が明日いる保証がないので運用責任を引き受けることができない。\n\n一方で「オープンソースコミュニティである DD2030」ではなく単に「DD2030」と整理した場合、これはオープンソースコミュニティ とは異なる存在としての DD2030 を示唆している。\n今回の文脈だと具体的には法人格を持つに至った「デジタル民主主義推進機構」ですね。この組織が運用に責任をもつ事業を行うかどうかは、組織の意思決定の問題であり、現状はあまり明確に議論されていない。ごく最近まで法人格もなかったのでこれから議論されていくことかと思います。\nなお曖昧な開始の仕方でしたが、現状Azureでの広聴AIのデモ環境の費用は「デジタル民主主義推進機構」から出ている状態ですし、これをどうしていくか考えることは必要ですね。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kedxa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いい整理ですね。\n整理の仕方がピンときてない人のために言葉を補うと\n「オープンソースコミュニティである DD2030」は暗黙に「オープンソースコミュニティ = DD2030」を仮定している。\nオープンソースコミュニティは自由に出入りが可能なあつまりであり、今日いた人が明日いる保証がないので運用責任を引き受けることができない。\n\n一方で「オープンソースコミュニティである DD2030」ではなく単に「DD2030」と整理した場合、これはオープンソースコミュニティ とは異なる存在としての DD2030 を示唆している。\n今回の文脈だと具体的には法人格を持つに至った「デジタル民主主義推進機構」ですね。この組織が運用に責任をもつ事業を行うかどうかは、組織の意思決定の問題であり、現状はあまり明確に議論されていない。ごく最近まで法人格もなかったのでこれから議論されていくことかと思います。\nなお曖昧な開始の仕方でしたが、現状Azureでの広聴AIのデモ環境の費用は「デジタル民主主義推進機構」から出ている状態ですし、これをどうしていくか考えることは必要ですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG",
+          "U08H3V9KMFH",
+          "U08HN9UDJUB"
+        ],
+        "count": 3
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U0A6CE44B2S"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いい整理ですね。\n整理の仕方がピンときてない人のために言葉を補うと\n「オープンソースコミュニティである DD2030」は暗黙に「オープンソースコミュニティ = DD2030」を仮定している。\nオープンソースコミュニティは自由に出入りが可能なあつまりであり、今日いた人が明日いる保証がないので運用責任を引き受けることができない。\n\n一方で「オープンソースコミュニティである DD2030」ではなく単に「DD2030」と整理した場合、これはオープンソースコミュニティ とは異なる存在としての DD2030 を示唆している。\n今回の文脈だと具体的には法人格を持つに至った「デジタル民主主義推進機構」ですね。この組織が運用に責任をもつ事業を行うかどうかは、組織の意思決定の問題であり、現状はあまり明確に議論されていない。ごく最近まで法人格もなかったのでこれから議論されていくことかと思います。\nなお曖昧な開始の仕方でしたが、現状Azureでの広聴AIのデモ環境の費用は「デジタル民主主義推進機構」から出ている状態ですし、これをどうしていくか考えることは必要ですね。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780578013.264499",
+    "client_msg_id": "09530952-36b3-4aeb-ab14-2601f9f9b3da",
+    "text": "ドキュメントのあるべき形を考えていたんですけど、現状getting-startedで広聴AIを手元のマシンにセットアップする方法の話がされる構成ですが、これがソフトウェアエンジニア視点に狭まっているのがよくないのではないかという気持ちになりました。\n\n改めて考えたらこういう構造になるのが適切かなと思います。\n\n1: 広聴AIに興味がある人\n• まず公開されているデモサービスのビューワーでレポートを見てみよう(Webレポートの使い方解説)\n• dd2030以外のレポートを公開しているサイト・自治体へのリンク集\n2: 自分も自分の持ってるデータでこのレポートを作ってみたい、となった人\n• 選択肢1: 誰かが建ててくれたサーバを使う(dd2030がサービス提供するならここ)\n• 選択肢2: サーバを立ててくれる人を探す(引き受ける気がある人がいればここに連絡先リストを置くとかする)\n• 選択肢3: 自分でサーバを建てる(技術力と適切な計算環境が必要)\n3: 自分でサーバを建てたい人\n• ここで従来のgetting-startedになる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "sV1Tq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントのあるべき形を考えていたんですけど、現状getting-startedで広聴AIを手元のマシンにセットアップする方法の話がされる構成ですが、これがソフトウェアエンジニア視点に狭まっているのがよくないのではないかという気持ちになりました。\n\n改めて考えたらこういう構造になるのが適切かなと思います。\n\n1: 広聴AIに興味がある人\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "まず公開されているデモサービスのビューワーでレポートを見てみよう(Webレポートの使い方解説)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "dd2030以外のレポートを公開しているサイト・自治体へのリンク集"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n2: 自分も自分の持ってるデータでこのレポートを作ってみたい、となった人\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "選択肢1: 誰かが建ててくれたサーバを使う(dd2030がサービス提供するならここ)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "選択肢2: サーバを立ててくれる人を探す(引き受ける気がある人がいればここに連絡先リストを置くとかする)"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "選択肢3: 自分でサーバを建てる(技術力と適切な計算環境が必要)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n3: 自分でサーバを建てたい人\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "ここで従来のgetting-startedになる"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ドキュメントのあるべき形を考えていたんですけど、現状getting-startedで広聴AIを手元のマシンにセットアップする方法の話がされる構成ですが、これがソフトウェアエンジニア視点に狭まっているのがよくないのではないかという気持ちになりました。\n\n改めて考えたらこういう構造になるのが適切かなと思います。\n\n1: 広聴AIに興味がある人\n• まず公開されているデモサービスのビューワーでレポートを見てみよう(Webレポートの使い方解説)\n• dd2030以外のレポートを公開しているサイト・自治体へのリンク集\n2: 自分も自分の持ってるデータでこのレポートを作ってみたい、となった人\n• 選択肢1: 誰かが建ててくれたサーバを使う(dd2030がサービス提供するならここ)\n• 選択肢2: サーバを立ててくれる人を探す(引き受ける気がある人がいればここに連絡先リストを置くとかする)\n• 選択肢3: 自分でサーバを建てる(技術力と適切な計算環境が必要)\n3: 自分でサーバを建てたい人\n• ここで従来のgetting-startedになる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780579765.485069",
+    "client_msg_id": "236967ea-84be-43f8-83d0-233186aabb59",
+    "text": "<@U08H3V9KMFH> 現状のAzureのデモサイトってドキュメントからはっきりと動線がない状態だと思うんですけど、ドキュメントからリンクをすることについてどう思いますか？(ふわっとした質問)\n\nふわっとしてない方が良い場合ように噛み砕いてみました:\n• Q1: ビューワーを公開してサンプルのレポートを見せるのは問題がないのでは\n• Q2: admin画面を公開することに関して、ユーザがAPIキーを入力して使うコードがもうmainに入っているのでコスト的な問題はないはず。「共用環境であり全ての人に強要されるから秘密情報を入れないでね」と明示すればOKではないか？\n• Q3: 「共用環境であり全ての人に強要されるから秘密情報を入れないでね」ではお試しできないよ！という自治体さんに対して、大木さん他Github adminがワンクリックしたら1ヶ月間の専用試用環境が立ち上がるような構成にするという案はどうか？\n• Q4: 試用期間を超えて365日稼働を保証するSaaSは目下のところ大木さんとしてはやる気はないという理解であっているか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780579765.485069",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1780629495.905929",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mUyIa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " 現状のAzureのデモサイトってドキュメントからはっきりと動線がない状態だと思うんですけど、ドキュメントからリンクをすることについてどう思いますか？(ふわっとした質問)\n\nふわっとしてない方が良い場合ように噛み砕いてみました:\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q1: ビューワーを公開してサンプルのレポートを見せるのは問題がないのでは"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q2: admin画面を公開することに関して、ユーザがAPIキーを入力して使うコードがもうmainに入っているのでコスト的な問題はないはず。「共用環境であり全ての人に強要されるから秘密情報を入れないでね」と明示すればOKではないか？"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q3: 「共用環境であり全ての人に強要されるから秘密情報を入れないでね」ではお試しできないよ！という自治体さんに対して、大木さん他Github adminがワンクリックしたら1ヶ月間の専用試用環境が立ち上がるような構成にするという案はどうか？"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q4: 試用期間を超えて365日稼働を保証するSaaSは目下のところ大木さんとしてはやる気はないという理解であっているか？"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego 現状のAzureのデモサイトってドキュメントからはっきりと動線がない状態だと思うんですけど、ドキュメントからリンクをすることについてどう思いますか？(ふわっとした質問)\n\nふわっとしてない方が良い場合ように噛み砕いてみました:\n• Q1: ビューワーを公開してサンプルのレポートを見せるのは問題がないのでは\n• Q2: admin画面を公開することに関して、ユーザがAPIキーを入力して使うコードがもうmainに入っているのでコスト的な問題はないはず。「共用環境であり全ての人に強要されるから秘密情報を入れないでね」と明示すればOKではないか？\n• Q3: 「共用環境であり全ての人に強要されるから秘密情報を入れないでね」ではお試しできないよ！という自治体さんに対して、大木さん他Github adminがワンクリックしたら1ヶ月間の専用試用環境が立ち上がるような構成にするという案はどうか？\n• Q4: 試用期間を超えて365日稼働を保証するSaaSは目下のところ大木さんとしてはやる気はないという理解であっているか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780627015.001049",
+    "client_msg_id": "2b5098ac-0543-499f-ac6f-b7614a133c3d",
+    "text": "西尾さん、整理ありがとうございます！\nざっくりいうとこんな感じです。（詳細は後半）\n• Q1, Q2: 賛成！\n• Q3: アイデアとしてはあり。ただ、現時点では実ニーズがどれくらいあるかはまだ分からない。\n• Q4: 継続利用できる環境は社会実装上あるとよさそう。ただ、誰がどう提供するかは整理した方がよさそう。\n---\n以下、詳細。\n\n■ Q1, Q2\n基本的に賛成です。\n\nAzureのデモ環境については、公開当初は WebUI からユーザー自身の APIキーを指定する機能がまだ未実装で、DD2030側のキーが設定された状態だったため、コストや想定外利用の懸念もあり、外部共有は限定的に行っていました。\n\nその後、ユーザーが自分の APIキーを指定できる機能が入ったので、少なくとも仕組みとしては以前より公開しやすくなっていると思います。\n\nただし、現状の Azure 環境は、APIキーを WebUI から指定しなかった時に DD2030 の APIキーで実行できるように、コンテナには OPENAI_API_KEY が設定されていると思うので、その設定はしないようにした方がいいかもしれません。\n\nその前提で、ビューワーを公開してサンプルレポートを見られる導線を作るのはよいと思いますし、admin 画面についても、共用環境であること、個人情報・未公開情報・機微情報は入れないこと、データ保存や継続稼働は保証しないことを明示すれば、公開する方向で考えてよいのではと思います。\n\n一方で、これまで自治体の方にデモ環境を案内してきた感覚では、実際に自治体側でデータを投入してレポート生成するところまで至ったケースは、自分の把握している範囲ではまだないように思います。\nただし、レポートが削除されていて把握できていない可能性はあります。\n\nただ、動くものを見られることや、admin 画面からサンプルCSVをダウンロードできることで、「どんな風に使うのか」「どんなデータを準備すればよいのか」を理解するうえで参考になっている、という声は聞いています。\n\nなので、デモ環境は現時点では「自分たちのデータを投入して試す場所」というよりも、「使い方や準備すべきデータを具体的に理解するための参照環境」として価値があるのかもしれません。\n\n■ Q3\n1ヶ月間の専用試用環境も、アイデアとしてはありだと思います。ただ、そこに実ニーズがどれくらいあるかは、現時点ではまだよく分からないです。\n\n個人的には、自治体ユーザー向けには、公開事例やサンプルレポート、サンプルCSVを見ながら、「どんなテーマで使えるのか」「どんなデータが必要なのか」を理解できる導線があるとよさそうだと思っています。\n\n特に、自治体の方にとっては、「まず自分たちで admin を触って試す」よりも先に、「他の自治体や団体で実際にどう使われたのか」「どんなテーマで使い、どんなレポートが出て、それがどう活用されたのか」が見える方が、導入イメージを持ちやすそうだと感じています。\n\nなので、DD2030のWebサイト上の公開事例を更新・充実させていくこともかなり重要そうだと思っています。\n\n■ Q4\n広聴AIの社会実装を進めるうえで、継続利用できる環境があるとよいのではとは思っています。\n\nただ、誰が、どの責任範囲で、どういう形で提供するのがよいのかは整理が必要だと思っています。\n\n仮に SaaS 的に提供できるとしても、個人が運用している環境に自治体が本格的に乗るかというと難しそうです。一方で、DD2030として提供できると公共性や信頼感はありますが、365日稼働やデータ管理、問い合わせ対応、サポートまで含めて考えると責任が重くなりそうです。\n\nそう考えると、責任を持って継続運用・サポートできる主体があるとよさそうですし、必要であれば自分もできる範囲で協力したいです。\n\nただ、実際の社会実装を考えると、単にツールやSaaS環境があればよいというより、自治体や団体がどうテーマ設定し、どう意見を集め、どう読み解き、どう政策形成や対話に接続するかまで含めた支援が必要になりそうだとも感じています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780579765.485069",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TgU6B",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "西尾さん、整理ありがとうございます！\nざっくりいうとこんな感じです。（詳細は後半）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q1, Q2: 賛成！"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q3: アイデアとしてはあり。ただ、現時点では実ニーズがどれくらいあるかはまだ分からない。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "Q4: 継続利用できる環境は社会実装上あるとよさそう。ただ、誰がどう提供するかは整理した方がよさそう。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "---\n以下、詳細。\n\n■ Q1, Q2\n基本的に賛成です。\n\nAzureのデモ環境については、公開当初は WebUI からユーザー自身の APIキーを指定する機能がまだ未実装で、DD2030側のキーが設定された状態だったため、コストや想定外利用の懸念もあり、外部共有は限定的に行っていました。\n\nその後、ユーザーが自分の APIキーを指定できる機能が入ったので、少なくとも仕組みとしては以前より公開しやすくなっていると思います。\n\nただし、現状の Azure 環境は、APIキーを WebUI から指定しなかった時に DD2030 の APIキーで実行できるように、コンテナには OPENAI_API_KEY が設定されていると思うので、その設定はしないようにした方がいいかもしれません。\n\nその前提で、ビューワーを公開してサンプルレポートを見られる導線を作るのはよいと思いますし、admin 画面についても、共用環境であること、個人情報・未公開情報・機微情報は入れないこと、データ保存や継続稼働は保証しないことを明示すれば、公開する方向で考えてよいのではと思います。\n\n一方で、これまで自治体の方にデモ環境を案内してきた感覚では、実際に自治体側でデータを投入してレポート生成するところまで至ったケースは、自分の把握している範囲ではまだないように思います。\nただし、レポートが削除されていて把握できていない可能性はあります。\n\nただ、動くものを見られることや、admin 画面からサンプルCSVをダウンロードできることで、「どんな風に使うのか」「どんなデータを準備すればよいのか」を理解するうえで参考になっている、という声は聞いています。\n\nなので、デモ環境は現時点では「自分たちのデータを投入して試す場所」というよりも、「使い方や準備すべきデータを具体的に理解するための参照環境」として価値があるのかもしれません。\n\n■ Q3\n1ヶ月間の専用試用環境も、アイデアとしてはありだと思います。ただ、そこに実ニーズがどれくらいあるかは、現時点ではまだよく分からないです。\n\n個人的には、自治体ユーザー向けには、公開事例やサンプルレポート、サンプルCSVを見ながら、「どんなテーマで使えるのか」「どんなデータが必要なのか」を理解できる導線があるとよさそうだと思っています。\n\n特に、自治体の方にとっては、「まず自分たちで admin を触って試す」よりも先に、「他の自治体や団体で実際にどう使われたのか」「どんなテーマで使い、どんなレポートが出て、それがどう活用されたのか」が見える方が、導入イメージを持ちやすそうだと感じています。\n\nなので、DD2030のWebサイト上の公開事例を更新・充実させていくこともかなり重要そうだと思っています。\n\n■ Q4\n広聴AIの社会実装を進めるうえで、継続利用できる環境があるとよいのではとは思っています。\n\nただ、誰が、どの責任範囲で、どういう形で提供するのがよいのかは整理が必要だと思っています。\n\n仮に SaaS 的に提供できるとしても、個人が運用している環境に自治体が本格的に乗るかというと難しそうです。一方で、DD2030として提供できると公共性や信頼感はありますが、365日稼働やデータ管理、問い合わせ対応、サポートまで含めて考えると責任が重くなりそうです。\n\nそう考えると、責任を持って継続運用・サポートできる主体があるとよさそうですし、必要であれば自分もできる範囲で協力したいです。\n\nただ、実際の社会実装を考えると、単にツールやSaaS環境があればよいというより、自治体や団体がどうテーマ設定し、どう意見を集め、どう読み解き、どう政策形成や対話に接続するかまで含めた支援が必要になりそうだとも感じています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780579765.485069",
+    "user_name": "Shingo OHKI",
+    "text_readable": "西尾さん、整理ありがとうございます！\nざっくりいうとこんな感じです。（詳細は後半）\n• Q1, Q2: 賛成！\n• Q3: アイデアとしてはあり。ただ、現時点では実ニーズがどれくらいあるかはまだ分からない。\n• Q4: 継続利用できる環境は社会実装上あるとよさそう。ただ、誰がどう提供するかは整理した方がよさそう。\n---\n以下、詳細。\n\n■ Q1, Q2\n基本的に賛成です。\n\nAzureのデモ環境については、公開当初は WebUI からユーザー自身の APIキーを指定する機能がまだ未実装で、DD2030側のキーが設定された状態だったため、コストや想定外利用の懸念もあり、外部共有は限定的に行っていました。\n\nその後、ユーザーが自分の APIキーを指定できる機能が入ったので、少なくとも仕組みとしては以前より公開しやすくなっていると思います。\n\nただし、現状の Azure 環境は、APIキーを WebUI から指定しなかった時に DD2030 の APIキーで実行できるように、コンテナには OPENAI_API_KEY が設定されていると思うので、その設定はしないようにした方がいいかもしれません。\n\nその前提で、ビューワーを公開してサンプルレポートを見られる導線を作るのはよいと思いますし、admin 画面についても、共用環境であること、個人情報・未公開情報・機微情報は入れないこと、データ保存や継続稼働は保証しないことを明示すれば、公開する方向で考えてよいのではと思います。\n\n一方で、これまで自治体の方にデモ環境を案内してきた感覚では、実際に自治体側でデータを投入してレポート生成するところまで至ったケースは、自分の把握している範囲ではまだないように思います。\nただし、レポートが削除されていて把握できていない可能性はあります。\n\nただ、動くものを見られることや、admin 画面からサンプルCSVをダウンロードできることで、「どんな風に使うのか」「どんなデータを準備すればよいのか」を理解するうえで参考になっている、という声は聞いています。\n\nなので、デモ環境は現時点では「自分たちのデータを投入して試す場所」というよりも、「使い方や準備すべきデータを具体的に理解するための参照環境」として価値があるのかもしれません。\n\n■ Q3\n1ヶ月間の専用試用環境も、アイデアとしてはありだと思います。ただ、そこに実ニーズがどれくらいあるかは、現時点ではまだよく分からないです。\n\n個人的には、自治体ユーザー向けには、公開事例やサンプルレポート、サンプルCSVを見ながら、「どんなテーマで使えるのか」「どんなデータが必要なのか」を理解できる導線があるとよさそうだと思っています。\n\n特に、自治体の方にとっては、「まず自分たちで admin を触って試す」よりも先に、「他の自治体や団体で実際にどう使われたのか」「どんなテーマで使い、どんなレポートが出て、それがどう活用されたのか」が見える方が、導入イメージを持ちやすそうだと感じています。\n\nなので、DD2030のWebサイト上の公開事例を更新・充実させていくこともかなり重要そうだと思っています。\n\n■ Q4\n広聴AIの社会実装を進めるうえで、継続利用できる環境があるとよいのではとは思っています。\n\nただ、誰が、どの責任範囲で、どういう形で提供するのがよいのかは整理が必要だと思っています。\n\n仮に SaaS 的に提供できるとしても、個人が運用している環境に自治体が本格的に乗るかというと難しそうです。一方で、DD2030として提供できると公共性や信頼感はありますが、365日稼働やデータ管理、問い合わせ対応、サポートまで含めて考えると責任が重くなりそうです。\n\nそう考えると、責任を持って継続運用・サポートできる主体があるとよさそうですし、必要であれば自分もできる範囲で協力したいです。\n\nただ、実際の社会実装を考えると、単にツールやSaaS環境があればよいというより、自治体や団体がどうテーマ設定し、どう意見を集め、どう読み解き、どう政策形成や対話に接続するかまで含めた支援が必要になりそうだとも感じています。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780629495.905929",
+    "client_msg_id": "995A5A2F-6B20-4C18-9DE7-8871423D6E33",
+    "text": "ありがとうございます！\nQ3はそういう温度感なんですね、自治体などからもっと求められているのかと思い込んでました。\nであれば「Q3は選択肢として取り得るが、今は優先度低い」という位置付けにして、Q1, Q2を優先してやっていこうと思います",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780579765.485069",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "6H9KC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nQ3はそういう温度感なんですね、自治体などからもっと求められているのかと思い込んでました。\nであれば「Q3は選択肢として取り得るが、今は優先度低い」という位置付けにして、Q1, Q2を優先してやっていこうと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780579765.485069",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ありがとうございます！\nQ3はそういう温度感なんですね、自治体などからもっと求められているのかと思い込んでました。\nであれば「Q3は選択肢として取り得るが、今は優先度低い」という位置付けにして、Q1, Q2を優先してやっていこうと思います"
+  },
+  {
+    "text": "手元のPC/Azure のデモ環境どちらもですが、サンプルCSVでレポート生成しようとすると以下のエラーが出るようです。\n調査中ですがセットアップ手順のところっぽい感じ。",
+    "files": [
+      {
+        "id": "F0B9ALRRLGY",
+        "created": 1780636331,
+        "timestamp": 1780636331,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 484535,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0B9ALRRLGY/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0B9ALRRLGY/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_360.png",
+        "thumb_360_w": 295,
+        "thumb_360_h": 360,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_480.png",
+        "thumb_480_w": 394,
+        "thumb_480_h": 480,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_720.png",
+        "thumb_720_w": 590,
+        "thumb_720_h": 720,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0B9ALRRLGY-6b74658cb0/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 976,
+        "original_w": 1384,
+        "original_h": 1688,
+        "thumb_tiny": "AwAwACjSzS5qNgN+QBn1xSBiG2kjP0xQOxJuA6kfnRn6U2igLD80U0dadQIgkJWdD25BPNO3DPJAwfWlfr19KZggsCSP7uW9qRRICCMg5opFztGeuKWgBR1p1NHWnUxMjYEtkMRjsMc0gBDfeJ47inMuWzgflSfN/dNIYtFJlsfcb9KXnJG0/WgAXrT6YpJblCPc4p9MTP/Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0B9ALRRLGY/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0B9ALRRLGY-054da9e96f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rNFJa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "手元のPC/Azure のデモ環境どちらもですが、サンプルCSVでレポート生成しようとすると以下のエラーが出るようです。\n調査中ですがセットアップ手順のところっぽい感じ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1780637590.737239",
+    "client_msg_id": "6cee5d8a-2e24-465e-8350-a8f22d8909a5",
+    "thread_ts": "1780637590.737239",
+    "reply_count": 6,
+    "reply_users_count": 2,
+    "latest_reply": "1780646352.990779",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "手元のPC/Azure のデモ環境どちらもですが、サンプルCSVでレポート生成しようとすると以下のエラーが出るようです。\n調査中ですがセットアップ手順のところっぽい感じ。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780638793.732909",
+    "client_msg_id": "650bca79-49f4-42c0-9b89-333eb6ef389a",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/894>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DyFFD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/894"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/894>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780641888.495519",
+    "client_msg_id": "c7363c11-72ce-470b-b7ef-6daabc5802c3",
+    "text": "なおったっぽい\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&amp;cid=C08PRQVQWSE|https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&amp;cid=C08PRQVQWSE>\n再発防止は後で考えておきます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "attachments": [
+      {
+        "fallback": "[June 4th, 2026 11:18 PM] devin: 修正PRを作成しました。CI全パスです: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/895|kouchou-ai#895> (<https://app.devin.ai/review/digitaldemocracy2030/kouchou-ai/pull/895|Devin Review>)\n\n_原因_: コミット `0b720f3b`（\"Split analysis-core optional dependencies into extras\"）でclustering依存がオプションextrasに分離されたが、`apps/api/Dockerfile`が更新されず、`/packages/analysis-core`（extras無し）のままインストールされていた。\n\n_修正_: `/packages/analysis-core` → `\"/packages/analysis-core[full]\"` に変更（1行）。\n\n_既存テストで検出できなかった理由_:\n• CIは`requirements-dev.lock`（`all-features: true`で生成）を使うため、全依存が常にインストールされる\n• clustering関連テストは`monkeypatch`で実際のimportをスキップしている\n• Dockerイメージの依存整合性を検証するテストが存在しない\nつまり、テスト環境と本番Docker環境で依存のインストール方法が異なり、その差分を検証する仕組みがなかったことが根本原因です。",
+        "from_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&amp;cid=C08PRQVQWSE",
+        "ts": "1780640308.860119",
+        "author_id": "U08M2Q2M6SV",
+        "author_subname": "devin",
+        "channel_id": "C08PRQVQWSE",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_reply_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "CYAM8e",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "修正PRを作成しました。CI全パスです: "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/895",
+                    "text": "kouchou-ai#895"
+                  },
+                  {
+                    "type": "text",
+                    "text": " ("
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://app.devin.ai/review/digitaldemocracy2030/kouchou-ai/pull/895",
+                    "text": "Devin Review"
+                  },
+                  {
+                    "type": "text",
+                    "text": ")"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "原因",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ": コミット "
+                  },
+                  {
+                    "type": "text",
+                    "text": "0b720f3b",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "（\"Split analysis-core optional dependencies into extras\"）でclustering依存がオプションextrasに分離されたが、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "apps/api/Dockerfile",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "が更新されず、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "/packages/analysis-core",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "（extras無し）のままインストールされていた。"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "修正",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ": "
+                  },
+                  {
+                    "type": "text",
+                    "text": "/packages/analysis-core",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " → "
+                  },
+                  {
+                    "type": "text",
+                    "text": "\"/packages/analysis-core[full]\"",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " に変更（1行）。"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "既存テストで検出できなかった理由",
+                    "style": {
+                      "italic": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": ":"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_list",
+                "elements": [
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "CIは"
+                      },
+                      {
+                        "type": "text",
+                        "text": "requirements-dev.lock",
+                        "style": {
+                          "code": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "（"
+                      },
+                      {
+                        "type": "text",
+                        "text": "all-features: true",
+                        "style": {
+                          "code": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "で生成）を使うため、全依存が常にインストールされる"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "clustering関連テストは"
+                      },
+                      {
+                        "type": "text",
+                        "text": "monkeypatch",
+                        "style": {
+                          "code": true
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "text": "で実際のimportをスキップしている"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "rich_text_section",
+                    "elements": [
+                      {
+                        "type": "text",
+                        "text": "Dockerイメージの依存整合性を検証するテストが存在しない"
+                      }
+                    ]
+                  }
+                ],
+                "style": "bullet",
+                "indent": 0
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "つまり、テスト環境と本番Docker環境で依存のインストール方法が異なり、その差分を検証する仕組みがなかったことが根本原因です。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "修正PRを作成しました。CI全パスです: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/895|kouchou-ai#895> (<https://app.devin.ai/review/digitaldemocracy2030/kouchou-ai/pull/895|Devin Review>)\n\n_原因_: コミット `0b720f3b`（\"Split analysis-core optional dependencies into extras\"）でclustering依存がオプションextrasに分離されたが、`apps/api/Dockerfile`が更新されず、`/packages/analysis-core`（extras無し）のままインストールされていた。\n\n_修正_: `/packages/analysis-core` → `\"/packages/analysis-core[full]\"` に変更（1行）。\n\n_既存テストで検出できなかった理由_:\n• CIは`requirements-dev.lock`（`all-features: true`で生成）を使うため、全依存が常にインストールされる\n• clustering関連テストは`monkeypatch`で実際のimportをスキップしている\n• Dockerイメージの依存整合性を検証するテストが存在しない\nつまり、テスト環境と本番Docker環境で依存のインストール方法が異なり、その差分を検証する仕組みがなかったことが根本原因です。",
+        "author_name": "Devin",
+        "author_icon": "https://avatars.slack-edge.com/2024-05-31/7220277342145_08d987a83d95634ba8b6_48.png",
+        "author_link": "https://dd2030.slack.com/services/B08M2Q2LNQ1",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&amp;cid=C08PRQVQWSE",
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ii5WL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なおったっぽい\n"
+              },
+              {
+                "type": "message_mention",
+                "message_ts": "1780640308.860119",
+                "channel_id": "C08PRQVQWSE",
+                "author_id": "U08M2Q2M6SV",
+                "thread_ts": "1780639819.915559",
+                "text": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&cid=C08PRQVQWSE",
+                "url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&cid=C08PRQVQWSE"
+              },
+              {
+                "type": "text",
+                "text": "\n再発防止は後で考えておきます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なおったっぽい\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&cid=C08PRQVQWSE|https://dd2030.slack.com/archives/C08PRQVQWSE/p1780640308860119?thread_ts=1780639819.915559&cid=C08PRQVQWSE>\n再発防止は後で考えておきます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780642188.674469",
+    "client_msg_id": "c81c33b7-bb3d-4993-b555-9891033219da",
+    "text": "それはそうとエラー時にエラーログが出るようにした機能追加は有益でしたね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/kZsh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それはそうとエラー時にエラーログが出るようにした機能追加は有益でしたね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "それはそうとエラー時にエラーログが出るようにした機能追加は有益でしたね"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780642989.886439",
+    "client_msg_id": "f5aa9226-c6c0-4766-89f1-3a0b2a271d74",
+    "text": "今回はユーザーの方からの報告でした。\n\nユーザーがこのエラーをこのまま報告するという形にならずに、\nよく分からないけどなんか動かない（大木の意訳）というメール連絡があって、手元で確認する必要があるという課題は別にあるのですが。\n\n開発側としては分かりやすくなりましたね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1DIV2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今回はユーザーの方からの報告でした。\n\nユーザーがこのエラーをこのまま報告するという形にならずに、\nよく分からないけどなんか動かない（大木の意訳）というメール連絡があって、手元で確認する必要があるという課題は別にあるのですが。\n\n開発側としては分かりやすくなりましたね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "Shingo OHKI",
+    "text_readable": "今回はユーザーの方からの報告でした。\n\nユーザーがこのエラーをこのまま報告するという形にならずに、\nよく分からないけどなんか動かない（大木の意訳）というメール連絡があって、手元で確認する必要があるという課題は別にあるのですが。\n\n開発側としては分かりやすくなりましたね。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780644557.226879",
+    "client_msg_id": "e17e9ce7-26d0-48e5-aa68-93a415168e1b",
+    "text": "無事、デモ環境でレポート生成されました\n<https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/7a5bdfe1-18c8-43ce-b9ef-67dd0ad03366/>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3gRZk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "無事、デモ環境でレポート生成されました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/7a5bdfe1-18c8-43ce-b9ef-67dd0ad03366/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "Shingo OHKI",
+    "text_readable": "無事、デモ環境でレポート生成されました\n<https://public-viewer.wittyisland-cc57c95f.japaneast.azurecontainerapps.io/7a5bdfe1-18c8-43ce-b9ef-67dd0ad03366/>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780646352.990779",
+    "client_msg_id": "1380a7c6-4a88-4ec1-a52d-2fadecaab59e",
+    "text": "関連して見つけたので、別の Issue を作りました\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/898|aarch64 環境で、クラスタリング処理の途中で実行時エラーになる>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780637590.737239",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "q1kom",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "関連して見つけたので、別の Issue を作りました\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/898",
+                "text": "aarch64 環境で、クラスタリング処理の途中で実行時エラーになる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780637590.737239",
+    "user_name": "Shingo OHKI",
+    "text_readable": "関連して見つけたので、別の Issue を作りました\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/898|aarch64 環境で、クラスタリング処理の途中で実行時エラーになる>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780642385.325049",
+    "client_msg_id": "b7843d47-c86f-4663-abb7-3e7b4f5e88fa",
+    "text": "問題が見つかった後で直すのはすぐだから、むしろこの「フルで操作してみる」をテストケースにして、毎週末実行して問題を発見しやすくすると良いのかも？(APIコストがかかるからやってないが、正直3円とかのレベルな気がする)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "l63ZW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "問題が見つかった後で直すのはすぐだから、むしろこの「フルで操作してみる」をテストケースにして、毎週末実行して問題を発見しやすくすると良いのかも？(APIコストがかかるからやってないが、正直3円とかのレベルな気がする)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "問題が見つかった後で直すのはすぐだから、むしろこの「フルで操作してみる」をテストケースにして、毎週末実行して問題を発見しやすくすると良いのかも？(APIコストがかかるからやってないが、正直3円とかのレベルな気がする)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780649248.537109",
+    "client_msg_id": "36222814-b9ca-4c78-a884-9f055baf7a3c",
+    "text": "&gt; <https://github.com/digitaldemocracy2030/kouchou-ai/issues/898|aarch64 環境で、クラスタリング処理の途中で実行時エラーになる>\nこれはNumbaってのが高速化のためのJITコンパイラで、UMAPが中で使ってるんだけど、aarch64 環境だって情報が適切に伝わってなくて不適切なコンパイルをしてるんでしょうね。\n&gt; ```NUMBA_DISABLE_JIT=1 を付ける```\nこれはJITコンパイルを捨てるので、可能なら避けたいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780649248.537109",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1780699670.615209",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OLkjM",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/898",
+                "text": "aarch64 環境で、クラスタリング処理の途中で実行時エラーになる"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはNumbaってのが高速化のためのJITコンパイラで、UMAPが中で使ってるんだけど、aarch64 環境だって情報が適切に伝わってなくて不適切なコンパイルをしてるんでしょうね。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_preformatted",
+            "elements": [
+              {
+                "type": "text",
+                "text": "NUMBA_DISABLE_JIT=1 を付ける"
+              }
+            ],
+            "border": 1
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "これはJITコンパイルを捨てるので、可能なら避けたいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "desuyone",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> <https://github.com/digitaldemocracy2030/kouchou-ai/issues/898|aarch64 環境で、クラスタリング処理の途中で実行時エラーになる>\nこれはNumbaってのが高速化のためのJITコンパイラで、UMAPが中で使ってるんだけど、aarch64 環境だって情報が適切に伝わってなくて不適切なコンパイルをしてるんでしょうね。\n> ```NUMBA_DISABLE_JIT=1 を付ける```\nこれはJITコンパイルを捨てるので、可能なら避けたいです"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780650366.749189",
+    "client_msg_id": "67c61c49-d82a-47f2-b25d-f33a30a0251a",
+    "text": "apple silicon になってから、これ系の問題にたまに遭遇するんですが、毎回いまいち良い方法が分かってないです。環境指定（検知？）の共通化した方法があってそれを呼ぶようになっていれば理想的ですが、そんなにうまいこといかないよなぁと",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780649248.537109",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8AG4o",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "apple silicon になってから、これ系の問題にたまに遭遇するんですが、毎回いまいち良い方法が分かってないです。環境指定（検知？）の共通化した方法があってそれを呼ぶようになっていれば理想的ですが、そんなにうまいこといかないよなぁと"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780649248.537109",
+    "user_name": "Shingo OHKI",
+    "text_readable": "apple silicon になってから、これ系の問題にたまに遭遇するんですが、毎回いまいち良い方法が分かってないです。環境指定（検知？）の共通化した方法があってそれを呼ぶようになっていれば理想的ですが、そんなにうまいこといかないよなぁと"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780662422.688669",
+    "client_msg_id": "786326bb-79c6-4306-9dca-9e47fb96c776",
+    "text": "こんな感じになりましたが検証環境がこちらにないので確認をお願いしたいです\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/899>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780649248.537109",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zLuTV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "こんな感じになりましたが検証環境がこちらにないので確認をお願いしたいです\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/899"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780649248.537109",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "こんな感じになりましたが検証環境がこちらにないので確認をお願いしたいです\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/899>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780663199.038199",
+    "client_msg_id": "C2E018A5-6298-4187-BCF1-A456D785E39C",
+    "text": "ありがとうございます！後ほど確認してみます。\n\n僕の手元は Apple Silicon Mac + Colima の Docker 環境なので、Linux/aarch64 実機そのものではないですが、今回の変更対象である Docker コンテナ上の確認としては近いと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780649248.537109",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "R+aRD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！後ほど確認してみます。\n\n僕の手元は Apple Silicon Mac + Colima の Docker 環境なので、Linux/aarch64 実機そのものではないですが、今回の変更対象である Docker コンテナ上の確認としては近いと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1780649248.537109",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！後ほど確認してみます。\n\n僕の手元は Apple Silicon Mac + Colima の Docker 環境なので、Linux/aarch64 実機そのものではないですが、今回の変更対象である Docker コンテナ上の確認としては近いと思います。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780699670.615209",
+    "client_msg_id": "f6a6393c-2580-47f4-93f8-f5269fd9a07c",
+    "text": "ありがとうございます！\n無事動いたので merge しました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1780649248.537109",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kbtx6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n無事動いたので merge しました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1780649248.537109",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！\n無事動いたので merge しました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780666140.863139",
+    "client_msg_id": "4872f91b-80c4-4384-a12e-ca641464a602",
+    "text": "デプロイ壊れてた事件の顛末をAIがエモいストーリーにしましたw\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01-og-image.webp",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 34890,
+        "from_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01",
+        "service_icon": "https://nishio.github.io/kouchou-ai-developer-wiki/static/icon.png",
+        "id": 1,
+        "original_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01",
+        "fallback": "kouchou-ai developer wiki: deploy-success-but-nothing-changed-story-2026-06-01",
+        "text": "デプロイ成功なのに、画面が変わらない 「デプロイ成功なのに画面が変わらない」という人間の小さな違和感をきっかけに、15 ヶ月前から誰も触れずにいた古い設計の沼を AI が一日で遡って直した出来事を、前提知識ゼロの読者向けにストーリー化したもの。LLM Wiki つき Coding Agent がどのような働き方をできるのかをエピソードとして残す。 1.",
+        "title": "deploy-success-but-nothing-changed-story-2026-06-01",
+        "title_link": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01",
+        "service_name": "kouchou-ai developer wiki"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "BgWp3",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デプロイ壊れてた事件の顛末をAIがエモいストーリーにしましたw\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デプロイ壊れてた事件の顛末をAIがエモいストーリーにしましたw\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/deploy-success-but-nothing-changed-story-2026-06-01>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1780699967.042219",
+    "client_msg_id": "f353586a-d57d-47bf-a680-791ed46975d9",
+    "text": "普通に開発しているだけで、勝手に記事を書いて人を惹きつける広報もやってくれるのもできちゃいますね。すごい。\nそのうち、Slack や SNS にいる興味ありそうな人に勝手に声をかけ始めたり、説明したり、スカウトもやってくれそうw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ebhNZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "普通に開発しているだけで、勝手に記事を書いて人を惹きつける広報もやってくれるのもできちゃいますね。すごい。\nそのうち、Slack や SNS にいる興味ありそうな人に勝手に声をかけ始めたり、説明したり、スカウトもやってくれそうw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "普通に開発しているだけで、勝手に記事を書いて人を惹きつける広報もやってくれるのもできちゃいますね。すごい。\nそのうち、Slack や SNS にいる興味ありそうな人に勝手に声をかけ始めたり、説明したり、スカウトもやってくれそうw"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1780743563.607709",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1780743595.000000"
+    },
+    "client_msg_id": "b677dff6-95b0-4a13-a889-67874f1c9c20",
+    "text": "6/1の議事録を呼んでいて\nMicrosoftストアに公開するという話が昔ありました。もしWindowsスタンドアロンで動かせたら、法人化を進めているいまなら公開できるかもしれないと思ったので書き留めておきます。デモ環境より自治体・官庁関係者が使いやすい可能性があるかな？（実態は要調査）というのと、無料で載せるのであれば初期費用$99のみで済むのでいけるかも（年会費無料）。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eQ5C8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "6/1の議事録を呼んでいて\nMicrosoftストアに公開するという話が昔ありました。もしWindowsスタンドアロンで動かせたら、法人化を進めているいまなら公開できるかもしれないと思ったので書き留めておきます。デモ環境より自治体・官庁関係者が使いやすい可能性があるかな？（実態は要調査）というのと、無料で載せるのであれば初期費用$99のみで済むのでいけるかも（年会費無料）。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "6/1の議事録を呼んでいて\nMicrosoftストアに公開するという話が昔ありました。もしWindowsスタンドアロンで動かせたら、法人化を進めているいまなら公開できるかもしれないと思ったので書き留めておきます。デモ環境より自治体・官庁関係者が使いやすい可能性があるかな？（実態は要調査）というのと、無料で載せるのであれば初期費用$99のみで済むのでいけるかも（年会費無料）。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780819794.677529",
+    "client_msg_id": "B97EEF45-4ABD-45C7-9E28-90231C55FC4E",
+    "text": "しばらく忙しくて開発が進まなさそうです予告",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C13hX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "しばらく忙しくて開発が進まなさそうです予告"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "しばらく忙しくて開発が進まなさそうです予告"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1780819852.492789",
+    "client_msg_id": "EA464EE0-D0B5-4232-A2C1-7906109872FC",
+    "text": "余裕があれば開発の現状を議事録に残すけども、会議自体は中山さんが書籍関連で話したいことがなければ開催なしの感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "oEOph",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "余裕があれば開発の現状を議事録に残すけども、会議自体は中山さんが書籍関連で話したいことがなければ開催なしの感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "余裕があれば開発の現状を議事録に残すけども、会議自体は中山さんが書籍関連で話したいことがなければ開催なしの感じ"
+  },
+  {
+    "user": "U08HZ8JS0EQ",
+    "type": "message",
+    "ts": "1780849571.170129",
+    "client_msg_id": "d51125f5-6cd7-466a-8dc8-03cc5e8aa920",
+    "text": "思い付きで、サンプルビューワー作ってみました。\nデータがAI生成なので面白くないのが難点...\n\n<https://kouchou-ai-sample-viewer.vercel.app>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://kouchou-ai-sample-viewer.vercel.app/",
+        "id": 1,
+        "original_url": "https://kouchou-ai-sample-viewer.vercel.app",
+        "fallback": "広聴AI サンプルレポート",
+        "text": "このサイトは閲覧専用のサンプル環境です。自治体・団体での利用イメージをつかむための架空データを掲載しています。",
+        "title": "広聴AI サンプルレポート",
+        "title_link": "https://kouchou-ai-sample-viewer.vercel.app/",
+        "service_name": "kouchou-ai-sample-viewer.vercel.app"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qJV6O",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "思い付きで、サンプルビューワー作ってみました。\nデータがAI生成なので面白くないのが難点...\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://kouchou-ai-sample-viewer.vercel.app"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "今井 竜也",
+    "text_readable": "思い付きで、サンプルビューワー作ってみました。\nデータがAI生成なので面白くないのが難点...\n\n<https://kouchou-ai-sample-viewer.vercel.app>"
+  }
+]
