@@ -1,0 +1,323 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1781135749.265399",
+    "client_msg_id": "15c7d100-6bab-4256-a352-6a694e0fc02b",
+    "text": "OSS をサーバにデプロイしたとして、本当に公開されているコードそのものがデプロイされているのかをどうやって客観的に担保するのか？という問題をAI に質問したら <https://docs.sigstore.dev/> を教えてもらった。\n例えば公開鍵暗号の絡むシステムをリリースする際、通常はサーバ管理者は秘密鍵にアクセスできてしまったりするが、 sigstore でデプロイログに署名することで「開発者も秘密鍵にアクセスできない」みたいなことを客観的に担保できるっぽい",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://docs.sigstore.dev/preview.png",
+        "image_width": 1280,
+        "image_height": 640,
+        "image_bytes": 37768,
+        "from_url": "https://docs.sigstore.dev/",
+        "service_icon": "https://docs.sigstore.dev/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://docs.sigstore.dev/",
+        "fallback": "Sigstore: Overview",
+        "text": "Documentation for Sigstore",
+        "title": "Overview",
+        "title_link": "https://docs.sigstore.dev/",
+        "service_name": "Sigstore"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IUA5A",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OSS をサーバにデプロイしたとして、本当に公開されているコードそのものがデプロイされているのかをどうやって客観的に担保するのか？という問題をAI に質問したら "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.sigstore.dev/"
+              },
+              {
+                "type": "text",
+                "text": " を教えてもらった。\n例えば公開鍵暗号の絡むシステムをリリースする際、通常はサーバ管理者は秘密鍵にアクセスできてしまったりするが、 sigstore でデプロイログに署名することで「開発者も秘密鍵にアクセスできない」みたいなことを客観的に担保できるっぽい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HN9UDJUB"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "OSS をサーバにデプロイしたとして、本当に公開されているコードそのものがデプロイされているのかをどうやって客観的に担保するのか？という問題をAI に質問したら <https://docs.sigstore.dev/> を教えてもらった。\n例えば公開鍵暗号の絡むシステムをリリースする際、通常はサーバ管理者は秘密鍵にアクセスできてしまったりするが、 sigstore でデプロイログに署名することで「開発者も秘密鍵にアクセスできない」みたいなことを客観的に担保できるっぽい"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1781341021.231449",
+    "client_msg_id": "cf5dffbd-82ed-4539-9c52-8609fe9e2a9a",
+    "text": "ある種の作業に関してはSlackに住んでいるAIによってコミュニティメンバにやりとりを共有しながら実行することに公明正大さがあるなと感じました。\nClaude CodeやCodexが急激に賢くなったのでDevinが使われなくなっていますが、入れたトークンは眠らせてても価値を生まないのでなんかコミュニティ運営業務のうちDevinでやることに積極的な価値のあるものがないかなぁ〜という気持ち\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999|https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781341021.231449",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1781497403.693619",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08JFSYHEP6"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "fallback": "[June 13th, 2026 1:44 AM] nishio.hirokazu: <@U08M2Q2M6SV> 直近の\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/901|https://github.com/digitaldemocracy2030/kouchou-ai/issues/901>\nとこの人によるIssuesはプロジェクトと無関係に見える、この行為は3回繰り返されているため、おそらく不適切な設定のAIによって、本人が理解しないまま実行されてると思う。対処を考えて",
+        "from_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999",
+        "ts": "1781340256.997999",
+        "author_id": "U08G2A216TW",
+        "author_subname": "NISHIO Hirokazu",
+        "channel_id": "C08PRQVQWSE",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "DxKup",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "user",
+                    "user_id": "U08M2Q2M6SV"
+                  },
+                  {
+                    "type": "text",
+                    "text": " 直近の"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/901",
+                    "text": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/901"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\nとこの人によるIssuesはプロジェクトと無関係に見える、この行為は3回繰り返されているため、おそらく不適切な設定のAIによって、本人が理解しないまま実行されてると思う。対処を考えて"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "<@U08M2Q2M6SV> 直近の\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/901|https://github.com/digitaldemocracy2030/kouchou-ai/issues/901>\nとこの人によるIssuesはプロジェクトと無関係に見える、この行為は3回繰り返されているため、おそらく不適切な設定のAIによって、本人が理解しないまま実行されてると思う。対処を考えて",
+        "author_name": "NISHIO Hirokazu",
+        "author_link": "https://dd2030.slack.com/team/U08G2A216TW",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-03/8546342683588_63fd2b76c154c16c727e_48.png",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999",
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FcsIS",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ある種の作業に関してはSlackに住んでいるAIによってコミュニティメンバにやりとりを共有しながら実行することに公明正大さがあるなと感じました。\nClaude CodeやCodexが急激に賢くなったのでDevinが使われなくなっていますが、入れたトークンは眠らせてても価値を生まないのでなんかコミュニティ運営業務のうちDevinでやることに積極的な価値のあるものがないかなぁ〜という気持ち\n"
+              },
+              {
+                "type": "message_mention",
+                "message_ts": "1781340256.997999",
+                "channel_id": "C08PRQVQWSE",
+                "author_id": "U08G2A216TW",
+                "thread_ts": "1781340256.997999",
+                "text": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999",
+                "url": "https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HZ8JS0EQ",
+          "U08HN9UDJUB"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ある種の作業に関してはSlackに住んでいるAIによってコミュニティメンバにやりとりを共有しながら実行することに公明正大さがあるなと感じました。\nClaude CodeやCodexが急激に賢くなったのでDevinが使われなくなっていますが、入れたトークンは眠らせてても価値を生まないのでなんかコミュニティ運営業務のうちDevinでやることに積極的な価値のあるものがないかなぁ〜という気持ち\n<https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999|https://dd2030.slack.com/archives/C08PRQVQWSE/p1781340256997999>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1781406447.338609",
+    "client_msg_id": "390236fe-8dcf-4343-85f9-7635dc5642c9",
+    "text": "定期的に事例を調べて勝手に website を更新して欲しいです:smile:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781341021.231449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eDR/d",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "定期的に事例を調べて勝手に website を更新して欲しいです"
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781341021.231449",
+    "user_name": "Shingo OHKI",
+    "text_readable": "定期的に事例を調べて勝手に website を更新して欲しいです:smile:"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1781407051.505949",
+    "client_msg_id": "c26c20be-b713-4b82-abed-8f5315c2d94d",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/901>\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/902>\nこの辺については、ミスだとは思いつつも、Code for Yokohama の人っぽい、かつ、別件で Code for Yokohama の人たちが広聴AIに興味を持ってくれているという話を聞いたので、その動きと関係あるかもしれません。\nニーズを持ってそうな気もするので、コンタクトしてみるのもいいのかもと思いました（してみよう）\n\n<@U08JFSYHEP6>\nもし、何かご存知であれば！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781341021.231449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kk0Gk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/901"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/902"
+              },
+              {
+                "type": "text",
+                "text": "\nこの辺については、ミスだとは思いつつも、Code for Yokohama の人っぽい、かつ、別件で Code for Yokohama の人たちが広聴AIに興味を持ってくれているという話を聞いたので、その動きと関係あるかもしれません。\nニーズを持ってそうな気もするので、コンタクトしてみるのもいいのかもと思いました（してみよう）\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08JFSYHEP6"
+              },
+              {
+                "type": "text",
+                "text": "\nもし、何かご存知であれば！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781341021.231449",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/901>\n<https://github.com/digitaldemocracy2030/kouchou-ai/issues/902>\nこの辺については、ミスだとは思いつつも、Code for Yokohama の人っぽい、かつ、別件で Code for Yokohama の人たちが広聴AIに興味を持ってくれているという話を聞いたので、その動きと関係あるかもしれません。\nニーズを持ってそうな気もするので、コンタクトしてみるのもいいのかもと思いました（してみよう）\n\n@yuki.kawabe\nもし、何かご存知であれば！"
+  },
+  {
+    "user": "U08JFSYHEP6",
+    "type": "message",
+    "ts": "1781494889.283089",
+    "client_msg_id": "f6a6391a-9fc0-49af-b3e4-faebe9f77068",
+    "text": "いえ、特にしらないです！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781341021.231449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mb7tL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いえ、特にしらないです！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781341021.231449",
+    "user_name": "Ryoma Kawabe Yuki",
+    "text_readable": "いえ、特にしらないです！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1781497403.693619",
+    "client_msg_id": "91ccc696-4c22-41b8-b68d-4b4b92b0d8fd",
+    "text": "あら、では関係ないのかな。\n了解です。ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781341021.231449",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "mxC1P",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あら、では関係ないのかな。\n了解です。ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781341021.231449",
+    "user_name": "Shingo OHKI",
+    "text_readable": "あら、では関係ないのかな。\n了解です。ありがとうございます！"
+  }
+]

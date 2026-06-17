@@ -1,0 +1,288 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1781160737.589279",
+    "client_msg_id": "630be9a1-da23-48dc-9aae-8048e9a23280",
+    "text": "<@U08JASQKEEM>\n最近Slackにはいった<@U0ATS7U6NE6>が、いどばたに興味があるとのことでご紹介です。\nざっくり、データサイエンティスト寄りのエンジニアさんです。\nもし何か手伝えることがあれば教えてください！（kuboonさんがやろうとしているけどできてないことなど）。\n\n現状は　いどばた　のレポジトリURLを伝えたところで、これから触るところかと思います！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781160737.589279",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1781319796.573839",
+    "reply_users": [
+      "U0ATS7U6NE6",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+I6I1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM"
+              },
+              {
+                "type": "text",
+                "text": "\n最近Slackにはいった"
+              },
+              {
+                "type": "user",
+                "user_id": "U0ATS7U6NE6"
+              },
+              {
+                "type": "text",
+                "text": "が、いどばたに興味があるとのことでご紹介です。\nざっくり、データサイエンティスト寄りのエンジニアさんです。\nもし何か手伝えることがあれば教えてください！（kuboonさんがやろうとしているけどできてないことなど）。\n\n現状は　いどばた　のレポジトリURLを伝えたところで、これから触るところかと思います！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      },
+      {
+        "name": "man-bowing",
+        "users": [
+          "U0ATS7U6NE6"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@kuboon\n最近Slackにはいった<@U0ATS7U6NE6>が、いどばたに興味があるとのことでご紹介です。\nざっくり、データサイエンティスト寄りのエンジニアさんです。\nもし何か手伝えることがあれば教えてください！（kuboonさんがやろうとしているけどできてないことなど）。\n\n現状は　いどばた　のレポジトリURLを伝えたところで、これから触るところかと思います！"
+  },
+  {
+    "user": "U0ATS7U6NE6",
+    "type": "message",
+    "ts": "1781168211.020149",
+    "client_msg_id": "019e271e-70af-45b1-ba4e-4cfaa81137b6",
+    "text": "<@U08JASQKEEM>よろしくお願いいたします。\nひとまずいどばたのレポジトリを触ってみようと思っております……！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781160737.589279",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bKtj6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08JASQKEEM",
+                "from_llm": false
+              },
+              {
+                "type": "text",
+                "text": "よろしくお願いいたします。\nひとまずいどばたのレポジトリを触ってみようと思っております……！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1781160737.589279",
+    "user_name": "U0ATS7U6NE6",
+    "text_readable": "@kuboonよろしくお願いいたします。\nひとまずいどばたのレポジトリを触ってみようと思っております……！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1781255820.460229",
+    "client_msg_id": "db854d4f-737b-4c46-8236-1fc4ce4bcd14",
+    "text": "いどばたのリポジトリ、フォルダ構成がだいぶぐちゃぐちゃぐちゃなのでまずそれを把握してみてください。\nできるようならフォルダの整理をお願いしたいです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781160737.589279",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "u3Req",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いどばたのリポジトリ、フォルダ構成がだいぶぐちゃぐちゃぐちゃなのでまずそれを把握してみてください。\nできるようならフォルダの整理をお願いしたいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U0ATS7U6NE6"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1781160737.589279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "いどばたのリポジトリ、フォルダ構成がだいぶぐちゃぐちゃぐちゃなのでまずそれを把握してみてください。\nできるようならフォルダの整理をお願いしたいです。"
+  },
+  {
+    "text": "まずこれを読むのがいいかも\nF08HW10FEJH",
+    "files": [
+      {
+        "id": "F08HW10FEJH",
+        "created": 1742110688,
+        "timestamp": 1742110688,
+        "mimetype": "application/vnd.slack-docs",
+        "filetype": "quip",
+        "pretty_type": "Canvas",
+        "user": "U08FZDRRY8Z",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 5306,
+        "mode": "quip",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "2____________________",
+        "title": "2_開発_いどばた",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F08HW10FEJH/canvas",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F08HW10FEJH/download/canvas",
+        "permalink": "https://dd2030.slack.com/docs/T08FL58DC9K/F08HW10FEJH",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F08HW10FEJH-ea2518734b",
+        "url_static_preview": "https://dd2030.slack.com/docs/T08FL58DC9K/F08HW10FEJH/mobile",
+        "quip_thread_id": "GPT9AAI01zz",
+        "updated": 1781263314,
+        "update_notification": 1781255938,
+        "canvas_readtime": 2.7001204335608,
+        "is_starred": false,
+        "skipped_shares": true,
+        "is_restricted_sharing_enabled": true,
+        "has_rich_preview": false,
+        "file_access": "visible",
+        "access": "write",
+        "org_or_workspace_access": "none",
+        "title_blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "temp:C:GPT640fe8614aeb4c3fac4184efc",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "2_開発_いどばた"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "canvas_creator_id": "U08GJSBAX3K",
+        "team_pref_version_history_enabled": true,
+        "canvas_printing_enabled": true,
+        "is_ai_suggested": false
+      }
+    ],
+    "upload": false,
+    "user": "U08JASQKEEM",
+    "display_as_bot": false,
+    "x_files": [
+      "F08HW10FEJH"
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YVyQ6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まずこれを読むのがいいかも\n"
+              },
+              {
+                "type": "canvas",
+                "file_id": "F08HW10FEJH",
+                "text": "https://dd2030.slack.com/docs/T08FL58DC9K/F08HW10FEJH",
+                "url": "https://dd2030.slack.com/docs/T08FL58DC9K/F08HW10FEJH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1781255872.740089",
+    "client_msg_id": "bec77264-0f55-457d-8a97-fecb8fc2b0ef",
+    "thread_ts": "1781160737.589279",
+    "parent_user_id": "U08HWJ80CHG",
+    "parent_ts": "1781160737.589279",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まずこれを読むのがいいかも\nF08HW10FEJH"
+  },
+  {
+    "user": "U0ATS7U6NE6",
+    "type": "message",
+    "ts": "1781319796.573839",
+    "client_msg_id": "7d5c5b87-af56-4283-b7c9-9947fc88c67d",
+    "text": "ありがとうございます。こちら読んでみます！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781160737.589279",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n4eRq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。こちら読んでみます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781160737.589279",
+    "user_name": "U0ATS7U6NE6",
+    "text_readable": "ありがとうございます。こちら読んでみます！"
+  }
+]
