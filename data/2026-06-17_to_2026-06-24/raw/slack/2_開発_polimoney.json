@@ -1,0 +1,275 @@
+[
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1781696255.847839",
+    "client_msg_id": "6782711a-738d-4491-b6b8-1eac2ec6e88b",
+    "text": "<https://github.com/digitaldemocracy2030/polimoney_hub/pull/60>\n全部AIにぶんなげたAPI実装ができたので、これから確認をしていきます...",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781696255.847839",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1781949755.085279",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U099TAD6RKL"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1780134892,
+        "color": "36a64f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/digitaldemocracy2030/polimoney_hub/pull/60",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "#60 選挙データ一覧",
+        "text": "*Summary by CodeRabbit*\n\n*Release Notes*\n\n• *New Features*  \n   • Polimoney API エンドポイントを追加：選挙一覧、選挙資金データ、候補者一覧、台帳資金情報の取得が利用可能になりました\n• *Bug Fixes*  \n   • 複数候補者が存在する場合のエラーハンドリングを改善し、適切なエラー情報を返すようになりました\n• *Tests*  \n   • Polimoney API の主要機能に対するテストスイートを追加",
+        "title": "#60 選挙データ一覧",
+        "title_link": "https://github.com/digitaldemocracy2030/polimoney_hub/pull/60",
+        "footer": "<https://github.com/digitaldemocracy2030/polimoney_hub|digitaldemocracy2030/polimoney_hub>",
+        "fields": [
+          {
+            "value": "1",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zW1ub",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/polimoney_hub/pull/60"
+              },
+              {
+                "type": "text",
+                "text": "\n全部AIにぶんなげたAPI実装ができたので、これから確認をしていきます..."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG",
+          "U08G2A216TW"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/polimoney_hub/pull/60>\n全部AIにぶんなげたAPI実装ができたので、これから確認をしていきます..."
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1781765390.834699",
+    "client_msg_id": "6b302be3-ce7d-492a-8003-508ec5050cc0",
+    "text": "main.pyの一部がコンフリクトしてるっぽいっす\n公開してるフロントに問題なければ、エイヤで上書きしてみてもいいかも。戻せるし。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781696255.847839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9+L3C",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "main.pyの一部がコンフリクトしてるっぽいっす\n公開してるフロントに問題なければ、エイヤで上書きしてみてもいいかも。戻せるし。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "bow",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1781696255.847839",
+    "user_name": "小野翔太",
+    "text_readable": "main.pyの一部がコンフリクトしてるっぽいっす\n公開してるフロントに問題なければ、エイヤで上書きしてみてもいいかも。戻せるし。"
+  },
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1781949755.085279",
+    "client_msg_id": "8dddd12a-6398-46b7-9d93-ff1aa4e8d3d1",
+    "text": "<@U08NZH1RY4S> <@U08HWJ80CHG>\n今サイトから API まったくみていないので今のうちは好き勝手してもらって大丈夫です！\\",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781696255.847839",
+    "parent_user_id": "U08NZH1RY4S",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Eyvc9",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n今サイトから API まったくみていないので今のうちは好き勝手してもらって大丈夫です！\\"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1781696255.847839",
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@shumizu418128 @oscar.gaddress\n今サイトから API まったくみていないので今のうちは好き勝手してもらって大丈夫です！\\"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1781949619.181909",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH> :mega:Polimoney開発会議を開催します！:mega: :clock7:19:00-20:00（毎週土曜日） :link:<http://meet.google.com/myy-ptwx-rsu|meet.google.com/myy-ptwx-rsu> :memo:<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>  • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！  • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "http://meet.google.com/myy-ptwx-rsu",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "http://meet.google.com/myy-ptwx-rsu",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "http://meet.google.com/myy-ptwx-rsu",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1k7/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock7",
+                "unicode": "1f556"
+              },
+              {
+                "type": "text",
+                "text": "19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00（毎週土曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "link",
+                "url": "http://meet.google.com/myy-ptwx-rsu",
+                "text": "meet.google.com/myy-ptwx-rsu"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH> :mega:Polimoney開発会議を開催します！:mega: :clock7:19:00-20:00（毎週土曜日） :link:<http://meet.google.com/myy-ptwx-rsu|meet.google.com/myy-ptwx-rsu> :memo:<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>  • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！  • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  }
+]

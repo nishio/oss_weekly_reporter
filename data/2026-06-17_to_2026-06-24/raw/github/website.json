@@ -1,0 +1,52 @@
+[
+  {
+    "id": 3766217614,
+    "number": 192,
+    "title": "政治的中立性に関するFAQページを追加し、貢献者ガイドから導線を設置",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/192",
+    "user": "shingo-ohki",
+    "created_at": "2025-12-29T01:45:15Z",
+    "merged_at": "2026-06-19T11:43:23Z",
+    "body": "こちらもこんなものを追加してみるのはどうでしょうか？\r\n\r\n## 概要\r\n- `/faq` に「政治的中立性に関するよくある質問」ページを新設（Q1～Q10）\r\n- Q1でチームみらいとの関係性の誤解を解消（安野氏ボード退任のnoteへリンク）\r\n- 貢献者向けガイドライン末尾からFAQへの導線を追加\r\n\r\n## 背景\r\n- Aboutに中立性の定義を追加（PR #191）したが、具体的なケースや判断基準を説明するFAQが不足していた\r\n- コミュニティ内で「チームみらいの活動では？」「政治の話はNG？」といった誤解が見られるため、外向け誤解解消と内向け運用ガイドを兼ねたFAQを整備\r\n\r\n## 主な内容\r\n- Q1: チームみらいとの関係（独立性、ボード退任の仕組み）\r\n- Q2～Q6: 中立の定義、参加条件、個人活動との分離\r\n- Q7: 選挙運動でのリソース利用禁止理由（中立性＋法的遵守）\r\n- Q8: 政党・議員からのツール利用申し出への対応（歓迎・等距離運用）\r\n- Q9: コミュニティ内での政策議論の扱い\r\n- Q10: グレーケースの相談先（Slack、GitHub、問い合わせフォーム）\r\n\r\n## 特に確認してもらいたいこと\r\n- 相談先は適切と思われるものを記載してみたが、公式にはどの様に案内するのがよいか？",
+    "additions": 112,
+    "deletions": 0,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 4684688343,
+    "number": 217,
+    "title": "Add English landing page",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/217",
+    "user": "howaeri",
+    "created_at": "2026-06-17T15:27:21Z",
+    "body": "## Summary\n英語ページ作成 issue #23 に関連する、英語ランディングページを追加します。\n\n- Adds a standalone `/en/` landing page for international readers.\n- Links the English page from the drawer navigation and footer.\n- Summarizes DD2030's mission, neutrality, projects, and participation paths.\n- Uses English-labeled versions of the project diagrams and marks Japanese-only links as `(Japanese)`.\n- Adds a link to the political neutrality FAQ after #192 was merged.\n\n## Notes\n- This intentionally does not introduce full i18n routing, translation dictionaries, or duplicated layouts.\n- The page is written as a neutral overview rather than a full translation of the Japanese site.\n- Japanese-only links are labeled so English readers know what to expect.\n\nRelated to #23.\n\n## Checks\n- `deno task build`\n- `deno test`\n\n`deno lint` currently reports existing repo lint issues in `src/_components/topics.tsx` and `packages/markdown-config/mod.tsx`, unrelated to this change.",
+    "additions": 319,
+    "deletions": 0,
+    "changed_files": 6,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 4306924772,
+    "number": 211,
+    "title": "Week51 Summary Update",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/211",
+    "user": "github-actions[bot]",
+    "created_at": "2026-04-22T05:37:04Z",
+    "updated_at": "2026-06-17T08:40:18Z",
+    "body": "Auto-generated weekly summaries for week51",
+    "additions": 165,
+    "deletions": 0,
+    "changed_files": 4,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

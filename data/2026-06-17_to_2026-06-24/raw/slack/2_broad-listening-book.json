@@ -1,0 +1,1402 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08NPS512ES",
+    "thread_ts": "1777643287.384489",
+    "root": {
+      "user": "U08J6JR5SNQ",
+      "type": "message",
+      "ts": "1777643287.384489",
+      "client_msg_id": "c51b7f03-4696-40da-8d6f-8268c91e4360",
+      "text": "<@U08NPS512ES>\n<https://github.com/digitaldemocracy2030/broad-listening-book/pull/114>\nインプレスさんからの指摘の対応です。これでよいか確認してください。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1777643287.384489",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1782018697.834899",
+      "reply_users": [
+        "U08NPS512ES"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1777545713,
+          "color": "36a64f",
+          "bot_id": "B08HGALULNT",
+          "bot_team_id": "T08FL58DC9K",
+          "app_unfurl_url": "https://github.com/digitaldemocracy2030/broad-listening-book/pull/114",
+          "is_app_unfurl": true,
+          "app_id": "A01BP7R4KNY",
+          "fallback": "#114 07_03 再生の道(尾花山和哉)章のインプレス校正対応",
+          "text": "<https://github.com/k-obanayama|@k-obanayama> さん\nインプレス校正コメント(尾花山和哉さん担当 issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>、6件)について、tokoroten 側で内容を整理しました。本PRは特に *ch08-14*(「感情」にこだわった理由の補強) のみ本文に手を入れており、他5件は :white_large_square: スキップ整理としています。\n著者ご本人での確認・修正の上書きが必要な場合は、このPRをマージせずに該当箇所を修正していただいても、本PRをベースに追加コミットしていただいても、どちらでも結構です。\n\n*内容*\n\n*本文修正(ch08-14)*\n\n• 「同じ『負担を抑えるべき』というNOでも、背景が不信/不安/不公平感のどれかで政治家の取るべき次の行動が変わる」点を具体例で補強  \n   • *不信* → 制度運営や予算の使い道の透明性提示  \n   • *不安* → 将来見通しや安全網の説明  \n   • *不公平感* → 負担構造の可視化と再配分議論\n• 「同じNOでも政治家が次に取るべき行動はまったく違ってくる」とまとめ\n\n*スキップ整理(statuses.json で:white_large_square:)*\n\n| ID      | 元コメント              | スキップ理由                          |\n| ------- | ------------------ | ------------------------------- |\n| ch08-06 | 「報酬」「アカウンタビリティ」の指摘 | 章書き直しで原文削除済                     |\n| ch08-08 | 「90%/10%薬」イメージ図要望  | 章書き直しで原文削除済                     |\n| ch08-13 | 「視点が変わる」リード文要望     | PDFレイアウト上の章区切り問題、書籍化デザインで対応     |\n| ch08-15 | 「二次元プロット」イメージ図要望   | 章書き直しで「散布図を主役にしなかった理由」を解説する形に変更 |\n| ch08-16 | 「デジタルvs街頭」対比簡潔化    | 既存表現で要点伝達OK、著者判断                |\n\n*issue*\n\n• 関連 issue: <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> (修正後にクローズ予定)\n\n*レビューのお願い*\n\n<https://github.com/k-obanayama|@k-obanayama> さん、ch08-14 の修正および各 :white_large_square: 判断について、お時間あるときにご確認いただけると幸いです。違う方向性が良ければ、コメントまたは追加コミットでお願いします。\n:robot_face: Generated with <https://claude.com/claude-code|Claude Code>",
+          "title": "#114 07_03 再生の道(尾花山和哉)章のインプレス校正対応",
+          "title_link": "https://github.com/digitaldemocracy2030/broad-listening-book/pull/114",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "mrkdwn_in": [
+            "text"
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SjLhr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08NPS512ES"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/digitaldemocracy2030/broad-listening-book/pull/114"
+                },
+                {
+                  "type": "text",
+                  "text": "\nインプレスさんからの指摘の対応です。これでよいか確認してください。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1782018697.834899",
+    "client_msg_id": "d8997a07-db27-4dc6-a1e3-73ebe52bd98e",
+    "text": "以前ご依頼いただいていた尾花山担当章の校正コメント対応について、PRを作成しました。\n<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142>\n\nPR #135 の校正修正を main ベースに cherry-pick した上で、Issue #106 の ch08-14 / ch08-16 に追加対応しています。\n\n長く空いてしまったので既に取り込み不可であれば、そのまま破棄していただければと思います。\n大変恐縮ですが、ご確認いただけますと幸いです。 <@U08J6JR5SNQ>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/W0Fo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "以前ご依頼いただいていた尾花山担当章の校正コメント対応について、PRを作成しました。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/broad-listening-book/pull/142"
+              },
+              {
+                "type": "text",
+                "text": "\n\nPR #135 の校正修正を main ベースに cherry-pick した上で、Issue #106 の ch08-14 / ch08-16 に追加対応しています。\n\n長く空いてしまったので既に取り込み不可であれば、そのまま破棄していただければと思います。\n大変恐縮ですが、ご確認いただけますと幸いです。 "
+              },
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "尾花山和哉",
+    "text_readable": "以前ご依頼いただいていた尾花山担当章の校正コメント対応について、PRを作成しました。\n<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142>\n\nPR #135 の校正修正を main ベースに cherry-pick した上で、Issue #106 の ch08-14 / ch08-16 に追加対応しています。\n\n長く空いてしまったので既に取り込み不可であれば、そのまま破棄していただければと思います。\n大変恐縮ですが、ご確認いただけますと幸いです。 @shinta.nakayama"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1781163694.985369",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1781163694.985369",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782040907.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1781163694.985369",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1782040907.219879",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1781163684,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by tokoroten",
+          "text": "*概要*\n\nClaude (Fable 5) による全原稿レビューのうち、*西尾さん担当の7ファイル*の修正です。ベースブランチは <https://github.com/digitaldemocracy2030/broad-listening-book/pull/131|#131>（tokoroten担当分）です。内容を確認の上、問題なければapproveをお願いします。気になる修正はコメントで指摘いただければ取り消します。\n対象: 04章扉 / 04_01_安野貴博の取り組み / 04_04_Polisで世論の地図を作る / 06_01_チームみらい / 09_02_サイボウズ / 11_01_台湾 / column/レビューで試す広聴AI\n\n*主な修正*\n\n*誤字脱字・文法*\n\n• 04_01: 「選られても→得られても」「ラグビ一場（漢数字）→ラグビー場」「スマートホン→スマートフォン」、意味の取れない一文の修復\n• 04_04: 「熟義になれた→熟議に慣れた」「主張分→主張文」\n• 06_01: 「最分類→再分類」「きづきました→気づきました」「派生系→派生形」\n• 09_02: 「重視だと→重要だと」、文体混在（敬体混入）の修正\n• 11_01: 「作り直してしえばよい→しまえばよい」「可視化さます→されます」、文末読点→句点など\n\n*脚注の修復（レンダリングされていなかったもの）*\n\n• 04_01: `[^mynavote]`/`[^minavote]` の参照・定義不一致、`[^github]` の二重定義\n• 09_02: `[idobata]:` のキャレット欠落\n• 11_01: `[niconico]` のキャレット欠落、定義のみで未参照だった脚注3件に本文参照を追加\n\n*事実関係（Web裏取り済み）*\n\n• 04_01: iPhoneのマイナンバーカード搭載「2024年→*2025年*6月24日」（<https://services.digital.go.jp/mynumbercard-iphone/news/79897b6ef9f29d5b27a3d/|デジタル庁発表>）\n• 04_04: 世論地図のリリース日「11月18日→*10月18日*」（Mielkaのプレスリリースで確認。「衆院選期間中」の記述が正で日付側が誤記）\n• 06_01: 分析コスト「1件あたり$0.021→*約$0.0047*」（原典レポートで確認。$0.021は福祉ラベル変更推奨448件あたりの単価）\n• 11_01: 唐鳳の政務委員就任「2016年5月→*10月*」、編集途中だったTODO残存文（「TODO:A章やB章で出てきたPolis」）の修復\n\n*章参照*\n\n• 04_04: 多元現実「11章→10章」/ 06_01: DD2030「11章→10章」「前章→4章」/ 09_02: 「11章3節で紹介した→紹介する」\n\n*その他*\n\n• 04章扉: 本文中のTODOメモをHTMLコメント化（削除はしていません）\n• column/レビューで試す広聴AI: 冒頭のダッシュ削除、「話題になったしている」等の修正\n:robot_face: Generated with <https://claude.com/claude-code|Claude Code>",
+          "pretext": "Pull request opened by <https://github.com/tokoroten|tokoroten>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/132|#132 【西尾さん確認依頼】担当章の校正修正（fableレビュー）>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@copilot-pull-request-reviewer[bot]>, <https://github.com/nishio|@nishio>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:132,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/132&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;【西尾さん確認依頼】担当章の校正修正（fableレビュー）&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782040907.219879",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1781163684,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request merged by nishio",
+        "pretext": "Pull request merged by <https://github.com/nishio|nishio>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/132|#132 【西尾さん確認依頼】担当章の校正修正（fableレビュー）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782048101.759579",
+    "edited": {
+      "user": "U08HGALUSH5",
+      "ts": "1782048102.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1782048101.759579",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1782048101.932379",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1777461550,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by tokoroten",
+        "text": "*書籍校正コメント対応依頼（尾花山和哉 担当分）*\n\nインプレス社からいただいた校正コメントのうち、尾花山和哉 さんが執筆された節への指摘をまとめたものです。各項目について以下のいずれかの判断・対応をお願いします。\n• 修正対応する → 該当箇所を編集し、状況欄を更新\n• 対応不要と判断 → 状況欄に理由を記載して [-] スキップに変更\n• 質問・相談したい → コメントとしてフィードバックをください\n\n*凡例*\n\n• `[ ]` :x: 未対応 / `[~]` :large_yellow_circle: 部分的解決 / `[x]` :white_check_mark: 解決済み / `[?]` :question: 判断保留 / `[-]` :white_large_square: スキップ\n\n*サマリ*\n\n• 合計: *6件*\n• :white_check_mark: 解決済み: 0\n• :large_yellow_circle: 部分的解決: 2\n• :x: 未対応: 2\n• :question: 判断保留: 0\n• :white_large_square: スキップ: 2\n\n---\n\n*ch08(旧) 地方選挙・地方自治体 → 現行 07/08（6件）*\n\n*[-] :white_large_square: ch08-06（旧PDF p.11, Highlight）*\n\n*指している本文:*\n\n&gt; 「報酬」がないという点も指摘されている。時間と労力をかけて意見を書 いても、投稿者には何も返ってこない。政策に反映されたとしても、それが自分の意見のおかげ だと…\n\n*校正者コメント:* 「報酬」と「アカウンタビリティ」：回答者へのフィードバック不足の指摘が唐突に感じる  \n→「市民は『自分の声がどうなったか』を知りたがっている。やりっぱなしにしない設計」の重要性を追記など\n*現状:* 「報酬」「アカウンタビリティ」「やりっぱなし」「投稿者に何も返ってこない」等の議論は現MDに一切なし(章書き直しで削除済み)。指摘対象が存在しないためスキップ\n\n*[-] :white_large_square: ch08-08（旧PDF p.17, Highlight）*\n\n*指している本文:*\n\n&gt; 「 90% の人が助かる薬を開発するべきですか」と「 10% の人が亡くなる薬を開発するべきです か」は言っていることは一緒なのに、9 、90%と %と言った方…\n\n*校正者コメント:* イメージ図とかが欲しいですね  \n（解説のためというよりかは、誌面の見栄えのため）\n*現状:* 「90%助かる薬/10%亡くなる薬」の例(フレーミング効果の説明)は現MDに不在(章書き直しで削除済み)。「誘導」は別文脈(設問の論点誘導の話)で使用。指摘対象が存在しないためスキップ\n\n*[~] :large_yellow_circle: ch08-13（旧PDF p.26, Text）*\n\n*指している本文:*\n\n&gt; めに：企業\n\n*校正者コメント:* ここでいきなり視点が変わるのはなぜ？  \nもう少し、内容の繋がりを補足するリード文が欲しいです\n*現状:* 07.md リード文で3氏位置づけを説明、章冒頭の視点転換は残存\n\n*[ ] :x: ch08-14（旧PDF p.30, Highlight）*\n\n*指している本文:*\n\n&gt; どのような感情が動いているのかを掘り起こすと、理解の解像度が上がることが多かっ たからです。たとえば同じ「負担を抑えるべき」という意見でも、それが制度への不信か…\n\n*校正者コメント:* 尾花山氏が「主張」ではなく「感情」にこだわった理由が少々わかりにくい  \n→同じ『NO』でも、理由が『不信』か『不安』かで、政治家が取るべき行動が変わる（どう変わる？）など、もう少し意図がわかりやすくできないか\n*現状:* 07_03.md 表現はコメント引用と同一、補足説明なし\n\n*[ ] :x: ch08-15（旧PDF p.31, Highlight）*\n\n*指している本文:*\n\n&gt; 試験的に二次元・三次元にプロットした意見分布図を見せてみまし た。しかし、多くの場合、「この点がこの意見を表していて、距離が近いと似た意見で…」という 読み方そ…\n\n*校正者コメント:* これのイメージ図などあれば欲しいです\n*現状:* 二次元プロット説明図は未追加\n\n*[~] :large_yellow_circle: ch08-16（旧PDF p.39, Highlight）*\n\n*指している本文:*\n\n&gt; この経験を通じて、ブロードリスニングは単一チャネルで完結する手法とい うより、複数のチャネルや複数のセグメントから得られた情報を重ね合わせ、そのズレも含めて 読…\n\n*校正者コメント:* デジタルと街頭のズレ：チャネルによる「声の性質」の違いは重要な点？ 説明がながまわしすぎて要点がわかりにくい  \n→デジタルは『大胆な理想』、街頭は『切実な生活』を映し出す鏡など、対比を明確にするとか。もう少し簡潔にしないと読み手に伝わらないかも\n*現状:* 「デジタルは論点／街頭は切実さ」対比は明示、依然長め",
+        "pretext": "Issue created by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106 書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "fields": [
+          {
+            "value": "documentation",
+            "title": "Labels",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "reopen",
+            "text": "Reopen",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782048101.759579",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782048101.759579",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782048102.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782048101.759579",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1782048101.932379",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1777461550,
+          "color": "8250df",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by tokoroten",
+          "text": "*書籍校正コメント対応依頼（尾花山和哉 担当分）*\n\nインプレス社からいただいた校正コメントのうち、尾花山和哉 さんが執筆された節への指摘をまとめたものです。各項目について以下のいずれかの判断・対応をお願いします。\n• 修正対応する → 該当箇所を編集し、状況欄を更新\n• 対応不要と判断 → 状況欄に理由を記載して [-] スキップに変更\n• 質問・相談したい → コメントとしてフィードバックをください\n\n*凡例*\n\n• `[ ]` :x: 未対応 / `[~]` :large_yellow_circle: 部分的解決 / `[x]` :white_check_mark: 解決済み / `[?]` :question: 判断保留 / `[-]` :white_large_square: スキップ\n\n*サマリ*\n\n• 合計: *6件*\n• :white_check_mark: 解決済み: 0\n• :large_yellow_circle: 部分的解決: 2\n• :x: 未対応: 2\n• :question: 判断保留: 0\n• :white_large_square: スキップ: 2\n\n---\n\n*ch08(旧) 地方選挙・地方自治体 → 現行 07/08（6件）*\n\n*[-] :white_large_square: ch08-06（旧PDF p.11, Highlight）*\n\n*指している本文:*\n\n&gt; 「報酬」がないという点も指摘されている。時間と労力をかけて意見を書 いても、投稿者には何も返ってこない。政策に反映されたとしても、それが自分の意見のおかげ だと…\n\n*校正者コメント:* 「報酬」と「アカウンタビリティ」：回答者へのフィードバック不足の指摘が唐突に感じる  \n→「市民は『自分の声がどうなったか』を知りたがっている。やりっぱなしにしない設計」の重要性を追記など\n*現状:* 「報酬」「アカウンタビリティ」「やりっぱなし」「投稿者に何も返ってこない」等の議論は現MDに一切なし(章書き直しで削除済み)。指摘対象が存在しないためスキップ\n\n*[-] :white_large_square: ch08-08（旧PDF p.17, Highlight）*\n\n*指している本文:*\n\n&gt; 「 90% の人が助かる薬を開発するべきですか」と「 10% の人が亡くなる薬を開発するべきです か」は言っていることは一緒なのに、9 、90%と %と言った方…\n\n*校正者コメント:* イメージ図とかが欲しいですね  \n（解説のためというよりかは、誌面の見栄えのため）\n*現状:* 「90%助かる薬/10%亡くなる薬」の例(フレーミング効果の説明)は現MDに不在(章書き直しで削除済み)。「誘導」は別文脈(設問の論点誘導の話)で使用。指摘対象が存在しないためスキップ\n\n*[~] :large_yellow_circle: ch08-13（旧PDF p.26, Text）*\n\n*指している本文:*\n\n&gt; めに：企業\n\n*校正者コメント:* ここでいきなり視点が変わるのはなぜ？  \nもう少し、内容の繋がりを補足するリード文が欲しいです\n*現状:* 07.md リード文で3氏位置づけを説明、章冒頭の視点転換は残存\n\n*[ ] :x: ch08-14（旧PDF p.30, Highlight）*\n\n*指している本文:*\n\n&gt; どのような感情が動いているのかを掘り起こすと、理解の解像度が上がることが多かっ たからです。たとえば同じ「負担を抑えるべき」という意見でも、それが制度への不信か…\n\n*校正者コメント:* 尾花山氏が「主張」ではなく「感情」にこだわった理由が少々わかりにくい  \n→同じ『NO』でも、理由が『不信』か『不安』かで、政治家が取るべき行動が変わる（どう変わる？）など、もう少し意図がわかりやすくできないか\n*現状:* 07_03.md 表現はコメント引用と同一、補足説明なし\n\n*[ ] :x: ch08-15（旧PDF p.31, Highlight）*\n\n*指している本文:*\n\n&gt; 試験的に二次元・三次元にプロットした意見分布図を見せてみまし た。しかし、多くの場合、「この点がこの意見を表していて、距離が近いと似た意見で…」という 読み方そ…\n\n*校正者コメント:* これのイメージ図などあれば欲しいです\n*現状:* 二次元プロット説明図は未追加\n\n*[~] :large_yellow_circle: ch08-16（旧PDF p.39, Highlight）*\n\n*指している本文:*\n\n&gt; この経験を通じて、ブロードリスニングは単一チャネルで完結する手法とい うより、複数のチャネルや複数のセグメントから得られた情報を重ね合わせ、そのズレも含めて 読…\n\n*校正者コメント:* デジタルと街頭のズレ：チャネルによる「声の性質」の違いは重要な点？ 説明がながまわしすぎて要点がわかりにくい  \n→デジタルは『大胆な理想』、街頭は『切実な生活』を映し出す鏡など、対比を明確にするとか。もう少し簡潔にしないと読み手に伝わらないかも\n*現状:* 「デジタルは論点／街頭は切実さ」対比は明示、依然長め",
+          "pretext": "Issue created by <https://github.com/tokoroten|tokoroten>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106 書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）>",
+          "callback_id": "issue-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "documentation",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            },
+            {
+              "id": "2",
+              "name": "edit",
+              "text": "Edit",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            },
+            {
+              "id": "3",
+              "name": "reopen",
+              "text": "Reopen",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782048101.932379",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1777461550,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue closed as completed by tokoroten",
+        "pretext": "Issue closed as completed by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106 書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "parent_ts": "1782048101.759579",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782048101.759579",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782048101.759579",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782048102.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782048101.759579",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1782048101.932379",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1777461550,
+          "color": "8250df",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by tokoroten",
+          "text": "*書籍校正コメント対応依頼（尾花山和哉 担当分）*\n\nインプレス社からいただいた校正コメントのうち、尾花山和哉 さんが執筆された節への指摘をまとめたものです。各項目について以下のいずれかの判断・対応をお願いします。\n• 修正対応する → 該当箇所を編集し、状況欄を更新\n• 対応不要と判断 → 状況欄に理由を記載して [-] スキップに変更\n• 質問・相談したい → コメントとしてフィードバックをください\n\n*凡例*\n\n• `[ ]` :x: 未対応 / `[~]` :large_yellow_circle: 部分的解決 / `[x]` :white_check_mark: 解決済み / `[?]` :question: 判断保留 / `[-]` :white_large_square: スキップ\n\n*サマリ*\n\n• 合計: *6件*\n• :white_check_mark: 解決済み: 0\n• :large_yellow_circle: 部分的解決: 2\n• :x: 未対応: 2\n• :question: 判断保留: 0\n• :white_large_square: スキップ: 2\n\n---\n\n*ch08(旧) 地方選挙・地方自治体 → 現行 07/08（6件）*\n\n*[-] :white_large_square: ch08-06（旧PDF p.11, Highlight）*\n\n*指している本文:*\n\n&gt; 「報酬」がないという点も指摘されている。時間と労力をかけて意見を書 いても、投稿者には何も返ってこない。政策に反映されたとしても、それが自分の意見のおかげ だと…\n\n*校正者コメント:* 「報酬」と「アカウンタビリティ」：回答者へのフィードバック不足の指摘が唐突に感じる  \n→「市民は『自分の声がどうなったか』を知りたがっている。やりっぱなしにしない設計」の重要性を追記など\n*現状:* 「報酬」「アカウンタビリティ」「やりっぱなし」「投稿者に何も返ってこない」等の議論は現MDに一切なし(章書き直しで削除済み)。指摘対象が存在しないためスキップ\n\n*[-] :white_large_square: ch08-08（旧PDF p.17, Highlight）*\n\n*指している本文:*\n\n&gt; 「 90% の人が助かる薬を開発するべきですか」と「 10% の人が亡くなる薬を開発するべきです か」は言っていることは一緒なのに、9 、90%と %と言った方…\n\n*校正者コメント:* イメージ図とかが欲しいですね  \n（解説のためというよりかは、誌面の見栄えのため）\n*現状:* 「90%助かる薬/10%亡くなる薬」の例(フレーミング効果の説明)は現MDに不在(章書き直しで削除済み)。「誘導」は別文脈(設問の論点誘導の話)で使用。指摘対象が存在しないためスキップ\n\n*[~] :large_yellow_circle: ch08-13（旧PDF p.26, Text）*\n\n*指している本文:*\n\n&gt; めに：企業\n\n*校正者コメント:* ここでいきなり視点が変わるのはなぜ？  \nもう少し、内容の繋がりを補足するリード文が欲しいです\n*現状:* 07.md リード文で3氏位置づけを説明、章冒頭の視点転換は残存\n\n*[ ] :x: ch08-14（旧PDF p.30, Highlight）*\n\n*指している本文:*\n\n&gt; どのような感情が動いているのかを掘り起こすと、理解の解像度が上がることが多かっ たからです。たとえば同じ「負担を抑えるべき」という意見でも、それが制度への不信か…\n\n*校正者コメント:* 尾花山氏が「主張」ではなく「感情」にこだわった理由が少々わかりにくい  \n→同じ『NO』でも、理由が『不信』か『不安』かで、政治家が取るべき行動が変わる（どう変わる？）など、もう少し意図がわかりやすくできないか\n*現状:* 07_03.md 表現はコメント引用と同一、補足説明なし\n\n*[ ] :x: ch08-15（旧PDF p.31, Highlight）*\n\n*指している本文:*\n\n&gt; 試験的に二次元・三次元にプロットした意見分布図を見せてみまし た。しかし、多くの場合、「この点がこの意見を表していて、距離が近いと似た意見で…」という 読み方そ…\n\n*校正者コメント:* これのイメージ図などあれば欲しいです\n*現状:* 二次元プロット説明図は未追加\n\n*[~] :large_yellow_circle: ch08-16（旧PDF p.39, Highlight）*\n\n*指している本文:*\n\n&gt; この経験を通じて、ブロードリスニングは単一チャネルで完結する手法とい うより、複数のチャネルや複数のセグメントから得られた情報を重ね合わせ、そのズレも含めて 読…\n\n*校正者コメント:* デジタルと街頭のズレ：チャネルによる「声の性質」の違いは重要な点？ 説明がながまわしすぎて要点がわかりにくい  \n→デジタルは『大胆な理想』、街頭は『切実な生活』を映し出す鏡など、対比を明確にするとか。もう少し簡潔にしないと読み手に伝わらないかも\n*現状:* 「デジタルは論点／街頭は切実さ」対比は明示、依然長め",
+          "pretext": "Issue created by <https://github.com/tokoroten|tokoroten>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106 書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）>",
+          "callback_id": "issue-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "documentation",
+              "title": "Labels",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            },
+            {
+              "id": "2",
+              "name": "edit",
+              "text": "Edit",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            },
+            {
+              "id": "3",
+              "name": "reopen",
+              "text": "Reopen",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":106,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/106\",\"issueTitle\":\"書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）\"}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782048101.932379",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1777461550,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue closed as completed by tokoroten",
+        "pretext": "Issue closed as completed by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106 書籍校正コメント対応依頼（尾花山和哉さん担当・ch07_03 計6件）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051705.875889",
+    "edited": {
+      "user": "U08HGALUSH5",
+      "ts": "1782051737.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1782051705.875889",
+    "reply_count": 2,
+    "reply_users_count": 1,
+    "latest_reply": "1782051737.372519",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782018104,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by k-obanayama",
+        "text": "*概要*\n\n尾花山担当章 `07_03_再生の道_尾花山和哉.md` について、PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を現在の `main` ベースに取り込み、その上で Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の未対応コメントのうち本文反映が必要な箇所を修正しました。\n\n*対応内容*\n\n• PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を `cherry-pick -x` で取り込み  \n   • TTTC の説明修正（台湾発 → 米国発）  \n   • `次章` → `次節`  \n   • 係り受け・語尾の修正\n• Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の追加対応  \n   • ch08-14: 「感情の対象」と「感情の種類」を分析する理由を具体化  \n   • ch08-16: デジタルで集めた声と街頭で直接聞いた声の違いを整理\n\n*確認事項*\n\n• ch08-13 は章扉側で接続が補われているため、本文側では追加対応なしとしています。\n• ch08-15 は、今回の分析では二次元・三次元プロットを主たる解釈ツールとして利用していないため、本文には図を追加していません。必要であれば、読者理解を助けるための模式図・イメージ図は作成可能です。\n• ch08-06 / ch08-08 は、以前の整理どおり、現在の本文では該当する旧記述が削除済みのため追加対応なしとしています。\n\n*関連*\n\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/114|#114>\n\n*確認*\n\n• Markdown本文のみの修正のため、自動テストは実行していません。",
+        "pretext": "Pull request opened by <https://github.com/k-obanayama|k-obanayama>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "fields": [
+          {
+            "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+            "title": "Reviewers",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:142,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/142&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782051705.875889",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782051705.875889",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782051737.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782051705.875889",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1782051737.372519",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1782018104,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by k-obanayama",
+          "text": "*概要*\n\n尾花山担当章 `07_03_再生の道_尾花山和哉.md` について、PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を現在の `main` ベースに取り込み、その上で Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の未対応コメントのうち本文反映が必要な箇所を修正しました。\n\n*対応内容*\n\n• PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を `cherry-pick -x` で取り込み  \n   • TTTC の説明修正（台湾発 → 米国発）  \n   • `次章` → `次節`  \n   • 係り受け・語尾の修正\n• Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の追加対応  \n   • ch08-14: 「感情の対象」と「感情の種類」を分析する理由を具体化  \n   • ch08-16: デジタルで集めた声と街頭で直接聞いた声の違いを整理\n\n*確認事項*\n\n• ch08-13 は章扉側で接続が補われているため、本文側では追加対応なしとしています。\n• ch08-15 は、今回の分析では二次元・三次元プロットを主たる解釈ツールとして利用していないため、本文には図を追加していません。必要であれば、読者理解を助けるための模式図・イメージ図は作成可能です。\n• ch08-06 / ch08-08 は、以前の整理どおり、現在の本文では該当する旧記述が削除済みのため追加対応なしとしています。\n\n*関連*\n\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/114|#114>\n\n*確認*\n\n• Markdown本文のみの修正のため、自動テストは実行していません。",
+          "pretext": "Pull request opened by <https://github.com/k-obanayama|k-obanayama>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:142,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/142&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051706.022449",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782018104,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request ready for review by tokoroten",
+        "pretext": "Pull request ready for review by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "parent_ts": "1782051705.875889",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782051705.875889",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782051705.875889",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782051737.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782051705.875889",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1782051737.372519",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1782018104,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by k-obanayama",
+          "text": "*概要*\n\n尾花山担当章 `07_03_再生の道_尾花山和哉.md` について、PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を現在の `main` ベースに取り込み、その上で Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の未対応コメントのうち本文反映が必要な箇所を修正しました。\n\n*対応内容*\n\n• PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を `cherry-pick -x` で取り込み  \n   • TTTC の説明修正（台湾発 → 米国発）  \n   • `次章` → `次節`  \n   • 係り受け・語尾の修正\n• Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の追加対応  \n   • ch08-14: 「感情の対象」と「感情の種類」を分析する理由を具体化  \n   • ch08-16: デジタルで集めた声と街頭で直接聞いた声の違いを整理\n\n*確認事項*\n\n• ch08-13 は章扉側で接続が補われているため、本文側では追加対応なしとしています。\n• ch08-15 は、今回の分析では二次元・三次元プロットを主たる解釈ツールとして利用していないため、本文には図を追加していません。必要であれば、読者理解を助けるための模式図・イメージ図は作成可能です。\n• ch08-06 / ch08-08 は、以前の整理どおり、現在の本文では該当する旧記述が削除済みのため追加対応なしとしています。\n\n*関連*\n\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/114|#114>\n\n*確認*\n\n• Markdown本文のみの修正のため、自動テストは実行していません。",
+          "pretext": "Pull request opened by <https://github.com/k-obanayama|k-obanayama>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:142,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/142&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051737.372519",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782018104,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request merged by tokoroten",
+        "pretext": "Pull request merged by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "parent_ts": "1782051705.875889",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782051705.875889",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782051705.875889",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782051737.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782051705.875889",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1782051737.372519",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1782018104,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by k-obanayama",
+          "text": "*概要*\n\n尾花山担当章 `07_03_再生の道_尾花山和哉.md` について、PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を現在の `main` ベースに取り込み、その上で Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の未対応コメントのうち本文反映が必要な箇所を修正しました。\n\n*対応内容*\n\n• PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を `cherry-pick -x` で取り込み  \n   • TTTC の説明修正（台湾発 → 米国発）  \n   • `次章` → `次節`  \n   • 係り受け・語尾の修正\n• Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の追加対応  \n   • ch08-14: 「感情の対象」と「感情の種類」を分析する理由を具体化  \n   • ch08-16: デジタルで集めた声と街頭で直接聞いた声の違いを整理\n\n*確認事項*\n\n• ch08-13 は章扉側で接続が補われているため、本文側では追加対応なしとしています。\n• ch08-15 は、今回の分析では二次元・三次元プロットを主たる解釈ツールとして利用していないため、本文には図を追加していません。必要であれば、読者理解を助けるための模式図・イメージ図は作成可能です。\n• ch08-06 / ch08-08 は、以前の整理どおり、現在の本文では該当する旧記述が削除済みのため追加対応なしとしています。\n\n*関連*\n\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/114|#114>\n\n*確認*\n\n• Markdown本文のみの修正のため、自動テストは実行していません。",
+          "pretext": "Pull request opened by <https://github.com/k-obanayama|k-obanayama>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:142,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/142&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051706.022449",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782018104,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request ready for review by tokoroten",
+        "pretext": "Pull request ready for review by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051737.152389",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "name": "GitHub",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "deleted": false,
+      "updated": 1742119439,
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] 3 new commits pushed to _main_ by tokoroten",
+        "text": "`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/524a458a9600b6227b742b79944063cb837b0959|524a458a>` - 尾花山担当章（07_03）の校正修正（fableレビュー）\n`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/7ddc0909ca70d8132970cfd14ce3aed1553aabf7|7ddc0909>` - Issue #106の尾花山章校正コメントに対応\n`<https://github.com/digitaldemocracy2030/broad-listening-book/commit/9c22db67948b7e0968850da2f2b0160b48eb82c6|9c22db67>` - Merge pull request #142 from digitaldemocracy2030/fix/obanayama-issue-106",
+        "pretext": "<https://github.com/digitaldemocracy2030/broad-listening-book/compare/5826726e77b4...9c22db67948b|3 new commits> pushed to `<https://github.com/digitaldemocracy2030/broad-listening-book/tree/main|main>` by <https://github.com/tokoroten|tokoroten>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1782051705.875889",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1782051705.875889",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1782051737.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1782051705.875889",
+      "reply_count": 2,
+      "reply_users_count": 1,
+      "latest_reply": "1782051737.372519",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1782018104,
+          "color": "6f42c1",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by k-obanayama",
+          "text": "*概要*\n\n尾花山担当章 `07_03_再生の道_尾花山和哉.md` について、PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を現在の `main` ベースに取り込み、その上で Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の未対応コメントのうち本文反映が必要な箇所を修正しました。\n\n*対応内容*\n\n• PR <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135> の校正修正を `cherry-pick -x` で取り込み  \n   • TTTC の説明修正（台湾発 → 米国発）  \n   • `次章` → `次節`  \n   • 係り受け・語尾の修正\n• Issue <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106> の追加対応  \n   • ch08-14: 「感情の対象」と「感情の種類」を分析する理由を具体化  \n   • ch08-16: デジタルで集めた声と街頭で直接聞いた声の違いを整理\n\n*確認事項*\n\n• ch08-13 は章扉側で接続が補われているため、本文側では追加対応なしとしています。\n• ch08-15 は、今回の分析では二次元・三次元プロットを主たる解釈ツールとして利用していないため、本文には図を追加していません。必要であれば、読者理解を助けるための模式図・イメージ図は作成可能です。\n• ch08-06 / ch08-08 は、以前の整理どおり、現在の本文では該当する旧記述が削除済みのため追加対応なしとしています。\n\n*関連*\n\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/issues/106|#106>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/135|#135>\n• Refs <https://github.com/digitaldemocracy2030/broad-listening-book/pull/114|#114>\n\n*確認*\n\n• Markdown本文のみの修正のため、自動テストは実行していません。",
+          "pretext": "Pull request opened by <https://github.com/k-obanayama|k-obanayama>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:142,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/142&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051737.372519",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782018104,
+        "color": "6f42c1",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request merged by tokoroten",
+        "pretext": "Pull request merged by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142 尾花山担当章の校正コメント対応（PR #135取り込み + Issue #106対応）>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782051835.821229",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782051834,
+        "color": "24292f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] New release <https://github.com/digitaldemocracy2030/broad-listening-book/releases/tag/build-20260621-9c22db6|Release - PDF Build 20260621> published by github-actions[bot]",
+        "text": "Automatically generated from commit <https://github.com/digitaldemocracy2030/broad-listening-book/commit/9c22db67948b7e0968850da2f2b0160b48eb82c6|9c22db6>\n\n*文字数一覧*\n\n| ファイル                                   | 文字数       |\n| -------------------------------------- | --------- |\n| 00_序文.md                               | 9,748     |\n| 00_endorsement_from_Audrey.md          | 544       |\n| 00_本書の読みかた.md                          | 6,671     |\n| 01_ブロードリスニングとは何か？.md                   | 11,014    |\n| 02_ブロードリスニングとアンケートの違い、定量分析から定性分析へ.md   | 13,912    |\n| column/ワードクラウドは分析ではない.md               | 1,380     |\n| 03_デジタル民主主義とブロードリスニング、新しい民意の届け方.md     | 12,314    |\n| column/安全な共感.md                        | 3,257     |\n| 04_日本国内におけるブロードリスニングの広がり.md            | 1,500     |\n| 04_01_安野貴博の取り組み.md                     | 11,784    |\n| 04_02_国民民主の国会質問.md                     | 8,566     |\n| 04_03_sumino_日テレ選挙特番.md                | 7,742     |\n| 04_04_Polisで世論の地図を作る.md                | 6,715     |\n| 04_05_朝日新聞の特設記事.md                     | 8,374     |\n| column/公共財とデジタル公共財.md                  | 5,185     |\n| 05_東京都、シン東京2050、ブロードリスニングによる政策転換.md    | 9,941     |\n| 06_国政選挙でのブロードリスニングの利用.md               | 1,250     |\n| 06_01_チームみらい.md                        | 10,350    |\n| 06_02_チームみらい2026年衆院選.md                | 3,549     |\n| 06_03_日本維新の会.md                        | 8,433     |\n| 06_04_国民民主党.md                         | 10,155    |\n| 06_05_公明党.md                           | 8,950     |\n| 07_地方選挙での活用.md                         | 642       |\n| 07_02_いでい良輔氏のケース.md                    | 7,317     |\n| 07_03_再生の道_尾花山和哉.md                    | 10,579    |\n| 08_地方自治体での活用.md                        | 308       |\n| 08_01_群馬県太田市の自分ごと化会議.md                | 9,309     |\n| 08_02_広島県の事例.md                        | 6,023     |\n| 09_企業での活用.md                           | 527       |\n| 09_01_アルティウスリンク_取材記事.md                | 8,623     |\n| 09_02_サイボウズ.md                         | 8,241     |\n| column/レビューで試す広聴AI.md                  | 4,299     |\n| 10_ビジネスになったブロードリスニング.md                | 452       |\n| 10_00_DD2030による広聴AIの開発活動.md            | 9,127     |\n| 10_01_株式会社ブーツ.md                       | 6,890     |\n| 10_02_Code for Japan.md                | 10,010    |\n| 10_03_多元現実.md                          | 10,634    |\n| 10_04_Democracy X.md                   | 1,978     |\n| 10_05_litela_田中魁.md                    | 4,777     |\n| column/1万件の声を集めて気づいたこと.md              | 3,783     |\n| column/パブリックコメントと向き合う大企業AI_富士通の取り組み.md | 3,428     |\n| 11_海外におけるブロードリスニングの流れ.md               | 2,948     |\n| 11_01_台湾.md                            | 12,297    |\n| 11_02_Polisの誕生.md                      | 6,418     |\n| 11_03_ボーリンググリーン.md                     | 4,933     |\n| 11_04_イスラエルパレスチナRemesh事例.md            | 9,786     |\n| 11_05_Connective_Actionを力に変える.md       | 10,023    |\n| 12_ブロードリスニング要素技術解説.md                  | 25,478    |\n| 13_広聴AIの技術スタック解説.md                    | 19,231    |\n| 99_付録_用語集.md                           | 13,117    |\n| 99_付録_公開事例一覧.md                        | 6,592     |\n| *合計*                                   | *379,104* |",
+        "pretext": "New release published by <https://github.com/apps/github-actions|github-actions[bot]>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/releases/tag/build-20260621-9c22db6|Release - PDF Build 20260621>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1782122428.354399",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qNjc",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、ブロードリスニング本執筆会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1782126298.004299",
+    "client_msg_id": "4b6168e3-946d-4672-9047-144dcaf84bcd",
+    "text": "<@U08J6JR5SNQ> あれ？なんかやるってはなしでは？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "pSlON",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " あれ？なんかやるってはなしでは？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama あれ？なんかやるってはなしでは？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1782126739.192169",
+    "client_msg_id": "4dc9ed4c-34b7-4971-94f8-0fce3674956a",
+    "text": "終了しました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KV7Rw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "終了しました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "終了しました"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1782126802.494929",
+    "client_msg_id": "44057c3d-628e-4919-8d2a-75f66929ca79",
+    "text": "すいません。仕事が忙しすぎて失念してました。申し訳ない…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iUpAK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すいません。仕事が忙しすぎて失念してました。申し訳ない…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "すいません。仕事が忙しすぎて失念してました。申し訳ない…"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1782126820.814969",
+    "client_msg_id": "a581f680-ff2d-434d-b1f9-59cf94e6a9d5",
+    "text": "一応入っている。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "hfPFy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一応入っている。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "一応入っている。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1782126826.442919",
+    "client_msg_id": "2cea2ff1-5426-44b7-8c13-176aabdb3b24",
+    "text": "<@U08G2A216TW>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IljRy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1782127484.642449",
+    "client_msg_id": "67364d3d-348e-43a1-b6a2-7f4cc71bdca6",
+    "text": "私も抜けた。\n今日は申し訳ない。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/buOI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私も抜けた。\n今日は申し訳ない。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "私も抜けた。\n今日は申し訳ない。"
+  },
+  {
+    "user": "U0AQQN267H7",
+    "type": "message",
+    "ts": "1782144479.833189",
+    "client_msg_id": "66e16534-c95d-426b-a4d7-f4873b0ed333",
+    "text": "8/2のDD2030サミットに参加するため、バンクーバーから東京へ渡航できないか真剣に検討していたのですが、前日に娘のミュージカル公演があり、どうしてもそちらを優先したいため、今回は現地参加を断念します。盛会をお祈りしています！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bDXMI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "8/2のDD2030サミットに参加するため、バンクーバーから東京へ渡航できないか真剣に検討していたのですが、前日に娘のミュージカル公演があり、どうしてもそちらを優先したいため、今回は現地参加を断念します。盛会をお祈りしています！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U08H3V9KMFH",
+          "U0A77QV20BF",
+          "U08J6JR5SNQ"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "U0AQQN267H7",
+    "text_readable": "8/2のDD2030サミットに参加するため、バンクーバーから東京へ渡航できないか真剣に検討していたのですが、前日に娘のミュージカル公演があり、どうしてもそちらを優先したいため、今回は現地参加を断念します。盛会をお祈りしています！"
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1782145204.661849",
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1782145198,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by lukec",
+        "text": "*Summary*\n\n• Updates the English Obanayama chapter to match the recent Japanese changes merged in <https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142>.\n• Corrects the TTTC origin note and ports the revised discussion of emotion analysis, digital responses, street listening, and multi-channel broad listening.\n\n*Verification*\n\n• git diff --check -- en/07_03_saisei_no_michi_kazuya_obanayama.md\n• node -e \"JSON.parse(require('fs').readFileSync('en/metadata/path_map.json','utf8')); console.log('path_map ok')\"\n• .venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open\nReferences upstream Japanese update: <https://github.com/digitaldemocracy2030/broad-listening-book/pull/142|#142>",
+        "pretext": "Pull request opened by <https://github.com/lukec|lukec>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/143|#143 Update English Obanayama translation from latest main>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:143,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/143&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Update English Obanayama translation from latest main&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  }
+]

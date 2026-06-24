@@ -1,0 +1,175 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1781786341.750009",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1781787663.000000"
+    },
+    "client_msg_id": "1275662e-1672-48e4-8d93-35b55e950b58",
+    "text": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639|https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639> に関連して、現在いどばた政策を手元でセットアップしようとすると正しく動かないようだったのでPRを出しました（AIに環境構築を依頼すると、この辺も回避してくれるようですが）\n• <https://github.com/digitaldemocracy2030/idobata/pull/498|fix: postgres:latest 更新に伴うエラー回避 #498>\n• <https://github.com/digitaldemocracy2030/idobata/pull/499|docs: Policy Edit の DB 起動手順と migration 手順を development-setup に追記 #499>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781786341.750009",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1782186646.596039",
+    "reply_users": [
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "fallback": "[June 14th, 2026 6:03 AM] noridukikosuke.min: はじめまして、宮城航佑と申します。\n\n現在、N高グループ生徒会役員選挙2026に中部地区代表として立候補しており、選挙公約のブラッシュアップに「いどばた政策」を活用したいと考えています。\n\nやりたいこととしては、マークダウン形式で作成した公約文を公開し、有権者である生徒の皆さんから修正提案をいただき、その内容をもとに公約を更新していく、というものです。\n\n単に一方的に公約を掲げるのではなく、選挙期間中に生徒の声を反映しながら公約を進化させる「参加型の生徒会選挙」にしたいと考えています。\n\nまさに、安野さんが都知事選の時にされていたようなものをイメージしています。\n\nただ、私自身が技術面にあまり詳しくなく、いどばた政策のセットアップ方法や、公開、運用方法が分からない状況です。\n\nChatGPTやClaudCodeにも手伝ってもらいながら、なんとか頑張ってはいますが、これであってるかもわからない状態で進めているため、とても不安です。\n\nそこで、いどばた政策のセットアップ方法をご存じの方、または設定・運用面でご協力いただける方がいらっしゃいましたら、ご相談させていただけないでしょうか。\n\n特に知りたいことは以下です。\n\n・いどばた政策の初期セットアップ方法\n ・公約文をマークダウン形式で公開する流れ\n ・GitHubへのアップロード方法\n ・サーバー費用が大きくならない安全な運用方法\n ・高校の生徒会選挙で使う場合の現実的な運用方法\n\n学生の小さな選挙ではありますが、いどばた政策を学内選挙・生徒自治の場で活用する実践例にできればと思っています。\n\nもしお力を貸していただける方がいらっしゃいましたら、ぜひご連絡いただけますと幸いです。\nよろしくお願いいたします！",
+        "from_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639",
+        "ts": "1781442234.302639",
+        "author_id": "U09U3QCTD1B",
+        "author_subname": "宮城航佑",
+        "channel_id": "C08FF5MM59C",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "is_thread_root_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "Jsect",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "はじめまして、宮城航佑と申します。\n\n現在、N高グループ生徒会役員選挙2026に中部地区代表として立候補しており、選挙公約のブラッシュアップに「いどばた政策」を活用したいと考えています。\n\nやりたいこととしては、マークダウン形式で作成した公約文を公開し、有権者である生徒の皆さんから修正提案をいただき、その内容をもとに公約を更新していく、というものです。\n\n単に一方的に公約を掲げるのではなく、選挙期間中に生徒の声を反映しながら公約を進化させる「参加型の生徒会選挙」にしたいと考えています。\n\nまさに、安野さんが都知事選の時にされていたようなものをイメージしています。\n\nただ、私自身が技術面にあまり詳しくなく、いどばた政策のセットアップ方法や、公開、運用方法が分からない状況です。\n\nChatGPTやClaudCodeにも手伝ってもらいながら、なんとか頑張ってはいますが、これであってるかもわからない状態で進めているため、とても不安です。\n\nそこで、いどばた政策のセットアップ方法をご存じの方、または設定・運用面でご協力いただける方がいらっしゃいましたら、ご相談させていただけないでしょうか。\n\n特に知りたいことは以下です。\n\n・いどばた政策の初期セットアップ方法\n ・公約文をマークダウン形式で公開する流れ\n ・GitHubへのアップロード方法\n ・サーバー費用が大きくならない安全な運用方法\n ・高校の生徒会選挙で使う場合の現実的な運用方法\n\n学生の小さな選挙ではありますが、いどばた政策を学内選挙・生徒自治の場で活用する実践例にできればと思っています。\n\nもしお力を貸していただける方がいらっしゃいましたら、ぜひご連絡いただけますと幸いです。\nよろしくお願いいたします！"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "はじめまして、宮城航佑と申します。\n\n現在、N高グループ生徒会役員選挙2026に中部地区代表として立候補しており、選挙公約のブラッシュアップに「いどばた政策」を活用したいと考えています。\n\nやりたいこととしては、マークダウン形式で作成した公約文を公開し、有権者である生徒の皆さんから修正提案をいただき、その内容をもとに公約を更新していく、というものです。\n\n単に一方的に公約を掲げるのではなく、選挙期間中に生徒の声を反映しながら公約を進化させる「参加型の生徒会選挙」にしたいと考えています。\n\nまさに、安野さんが都知事選の時にされていたようなものをイメージしています。\n\nただ、私自身が技術面にあまり詳しくなく、いどばた政策のセットアップ方法や、公開、運用方法が分からない状況です。\n\nChatGPTやClaudCodeにも手伝ってもらいながら、なんとか頑張ってはいますが、これであってるかもわからない状態で進めているため、とても不安です。\n\nそこで、いどばた政策のセットアップ方法をご存じの方、または設定・運用面でご協力いただける方がいらっしゃいましたら、ご相談させていただけないでしょうか。\n\n特に知りたいことは以下です。\n\n・いどばた政策の初期セットアップ方法\n ・公約文をマークダウン形式で公開する流れ\n ・GitHubへのアップロード方法\n ・サーバー費用が大きくならない安全な運用方法\n ・高校の生徒会選挙で使う場合の現実的な運用方法\n\n学生の小さな選挙ではありますが、いどばた政策を学内選挙・生徒自治の場で活用する実践例にできればと思っています。\n\nもしお力を貸していただける方がいらっしゃいましたら、ぜひご連絡いただけますと幸いです。\nよろしくお願いいたします！",
+        "author_name": "宮城航佑",
+        "author_link": "https://dd2030.slack.com/team/U09U3QCTD1B",
+        "author_icon": "https://avatars.slack-edge.com/2025-11-20/9959274338610_ab458ab061f2dcbef5cb_48.jpg",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639",
+        "footer": "Thread in Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "x0yz6",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "message_mention",
+                "message_ts": "1781442234.302639",
+                "channel_id": "C08FF5MM59C",
+                "author_id": "U09U3QCTD1B",
+                "thread_ts": "1781442234.302639",
+                "text": "https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639",
+                "url": "https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639"
+              },
+              {
+                "type": "text",
+                "text": " に関連して、現在いどばた政策を手元でセットアップしようとすると正しく動かないようだったのでPRを出しました（AIに環境構築を依頼すると、この辺も回避してくれるようですが）\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/pull/498",
+                    "text": "fix: postgres:latest 更新に伴うエラー回避 #498",
+                    "unsafe": true
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/idobata/pull/499",
+                    "text": "docs: Policy Edit の DB 起動手順と migration 手順を development-setup に追記 #499"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "pray",
+        "users": [
+          "U09U3QCTD1B"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639|https://dd2030.slack.com/archives/C08FF5MM59C/p1781442234302639> に関連して、現在いどばた政策を手元でセットアップしようとすると正しく動かないようだったのでPRを出しました（AIに環境構築を依頼すると、この辺も回避してくれるようですが）\n• <https://github.com/digitaldemocracy2030/idobata/pull/498|fix: postgres:latest 更新に伴うエラー回避 #498>\n• <https://github.com/digitaldemocracy2030/idobata/pull/499|docs: Policy Edit の DB 起動手順と migration 手順を development-setup に追記 #499>"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1782186646.596039",
+    "client_msg_id": "5d269eef-dc69-442d-82fa-dbf4db250081",
+    "text": "議論の余地もない程度の妥当な修正だったのでシュッとマージしました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1781786341.750009",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZaM8s",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "議論の余地もない程度の妥当な修正だったのでシュッとマージしました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1781786341.750009",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "議論の余地もない程度の妥当な修正だったのでシュッとマージしました"
+  }
+]

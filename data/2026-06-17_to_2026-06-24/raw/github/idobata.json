@@ -1,0 +1,47 @@
+[
+  {
+    "id": 4718017607,
+    "number": 500,
+    "title": "idobata（DD2030）セットアップ〜試用レポート / ドキュメント不足点まとめ",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/issues/500",
+    "user": "YusukeHayashiii",
+    "created_at": "2026-06-22T15:17:03Z",
+    "body": "> digitaldemocracy2030/idobata をクローンし、Docker でローカル起動して一通り触ってみた記録。主眼は「公式ドキュメントだけでセットアップ〜試用まで完走できるか」。結論は No（一部不十分）。以下、Issue として起票することを想定した形でまとめる。\n\n\n## TL;DR\n\nリポジトリの README / [development-setup.md](http://development-setup.md/) は高レベルの理解と Docker 起動コマンドには十分だが、手順通りに進めても **AIチャットが動かない**・**政策モジュールのビルドが通らない** という2つの致命的な壁にぶつかった。初見でクローン〜試用まで完走するには、最低でも以下の補強が必要。\n\n**(1)** LLMモデルのハードコードが提供終了（致命・コード修正必須・env化されていない）\n\n**(2)** policy-backend がビルド時に GitHub 秘密鍵を必須とし、無いとビルド失敗（致命・モック構成の案内なし）\n\n## 検証環境（このPC）\n\n本レポートの検証を行ったマシン・ツールチェーンのバージョンは以下のとおり。\n\n**ハードウェア**：MacBook Air（Mac17,3）／ チップ Apple M5（10コア：高性能4＋高効率6）／ メモリ 16GB／ アーキテクチャ arm64\n\n**OS**：macOS 26.5.1（build 25F80）\n\n**Docker**：Docker 29.5.3（build d1c06ef）／ Docker Compose v5.1.4／ Docker Desktop 4.78.0（Homebrew cask で導入）\n\n**Node.js**：v26.0.0（※プロジェクトの想定は Node 20。今回は v26 でも Docker コンテナ内は node:20 系イメージのため起動には支障なし）\n\n**npm**：11.12.1\n\n**Homebrew**：6.0.2\n\n**Python3**：3.9.6（システム標準。python-service はコンテナ内でビルドするためホスト側のバージョンは不問）\n\n**git**：2.50.1（Apple Git-155）\n\n**補足**：arm64（Apple Silicon）環境のため、Docker Desktop 導入時に Rosetta のインストール失敗が出たが、今回使用するイメージ（node / mongo / postgres / nginx / python）はマルチアーキ対応で arm64 ネイティブ動作するため Rosetta は無効のまま支障なし。\n\n## 実施した一連の流れ\n\n**1. HTTPSでクローン** → OK\n\n**2. Docker Desktop を Homebrew で導入**（未インストールだった） → sudoリンクで一度失敗、手動再実行で解決\n\n**3. `.env.template` を `.env` にコピー、JWT生成・モック設定・OpenRouterキー投入** → テンプレに無い変数を手動追加\n\n**4. いどばたビジョン起動**（frontend / idea-backend / mongo / admin） → OK\n\n**5. 管理者ユーザー作成**（`POST /api/auth/initialize`） → OK\n\n**6. いどばた政策起動**（policy-frontend / policy-backend / postgres） → ビルド失敗→ダミー鍵で回避。postgresは起動失敗\n\n**7. テーマ作成→アクティブ化→ユーザー画面で確認** → 仕様/UI導線で混乱\n\n**8. AIチャット送信** → モデル404で失敗→コード修正で解決\n\n**9. 重要論点生成→お題がトップに表示** → OK\n\n**10. 政策モジュールでAIと対話・変更提案** → 保存はGitHub未連携のため失敗（仕様通り）\n\n## ドキュメントが十分だった点\n\n**README.md**：プロダクトの目的・2モジュール構成（いどばたビジョン／いどばた政策）・全体像が充実。\n\n**docs/development-setup.md**：Docker前提の起動コマンド、ポート一覧（5173/5174/5175/3000/3001）、部分起動コマンドが明快。\n\n**admin/README.md**：初期管理者ユーザー作成の `curl` 手順が具体的。\n\n**アーキテクチャ**（モノレポ／2モジュール／MongoDB・PostgreSQL分離）は読めば把握できる。\n\n## ドキュメントが不十分・詰まった箇所\n\nざっくりと、1>2>3の順で重大だと感じた\n\n### 1. 致命的（手順通りでも動かない）\n\n**(A) AIチャットのLLMモデルが提供終了していて全AI機能が500エラー**\n\n事象：`idea-discussion/backend/services/llmService.js` がモデルを `google/gemini-2.0-flash-001` にハードコード。OpenRouterで現在 `404 No endpoints found` を返し、チャット・論点抽出など全AI機能が落ちる。\n\nドキュメントの現状：モデルに関する記載が一切なし。モデルを環境変数で差し替える手段も無い（コード修正必須）。\n\n改善案：モデルIDを `.env`（例 `LLM_MODEL=`）で上書き可能にする＋デフォルトを現行モデルに更新。提供終了時の差し替え方を明記。\n\n**(B) policy-backend がビルド時に GitHub 秘密鍵を必須とし、無いとビルド自体が失敗**\n\n事象：`policy-edit/backend/Dockerfile` に `COPY ./policy-edit/backend/secrets/github-key.pem`。鍵が無いとイメージビルドがエラーで停止（UIを見たいだけでも起動不可）。\n\nドキュメントの現状：「鍵を配置せよ」とはあるが、無いとビルドが壊れること・お試し用にダミー鍵で回避できることが未記載。`VITE_USE_MOCK_GITHUB_CLIENT` でGitHub Appなしに触れる「最小構成パス」が案内されていない。\n\n改善案：「お試し（モック）構成」セクションを新設し、ダミー鍵生成（`openssl genrsa ...`）と `VITE_USE_MOCK_GITHUB_CLIENT=true` をセットで明記。理想はビルド時COPYをやめ実行時マウントに変更。\n\n### 2. 動くが迷う\n\n**(C) `.env.template` に必要変数が欠けている／説明不足**\n\n`VITE_USE_MOCK_GITHUB_CLIENT` が `.env.template` に無い（`.env.example` 側にだけ存在）。`docker-compose.yml` は参照しているのに、テンプレを使うと未設定になる。「いどばたビジョンだけなら実質 `OPENROUTER_API_KEY` だけでOK」「idea-backendはGITHUB_*を実際には使わない（docker-composeで渡しているが未使用）」といった最小要件の切り分けも書かれていない。\n\n**(D) 市民向けの利用フローとUI導線が未文書化**\n\nお題（＝重要論点）はテーマ作成だけでは出ず、管理画面の「重要論点生成」ボタンを手動実行して初めて生成される。この一連（テーマ作成→アクティブ化→意見投稿→重要論点生成→トップに表示）がどのドキュメントにも無い。さらにトップページ／ヘッダーにテーマ一覧（`/themes`）への導線が無い（直接URLが必要）。`project_status.md` で「UIブラッシュアップ」が未完項目として認知済み。\n\n### 3. 品質上直したい\n\n**(E) `postgres:latest` が起動失敗（PG18の仕様変更）**\n\n事象：`docker-compose.yml` が `image: postgres:latest`。現在のlatest=PostgreSQL18でデータ配置仕様が変わり、`postgres-policy` が `Exited(1)`。\n\n影響：チャット応答自体は正常動作する（`ProcessChatMessageUsecase` はログ保存失敗を握り潰して応答を返す設計）。現フローでPostgresを使うのは `interaction_logs`（対話ログ）への保存のみで、停止時の実害は「**対話ログが残らない**」「チャット毎に `ENOTFOUND postgres-policy` のエラーログが出続ける（ノイズ）」だけ。ただし将来ログイン機能（`users`/`sessions` テーブル）が有効化されると必須になる。\n\nドキュメントの現状：記載なし（イメージのタグ固定もされていない）。\n\n改善案：`postgres:16` 等にメジャーバージョンをピン留め（`latest` を使わない）。\n\n**(F) 管理画面テーマ一覧の表示バグ**\n\nDBは `isActive:true` でも一覧が「非アクティブ」、作成日時が「N/A」と表示される（一覧APIの `enhancedThemes` が `isActive`/`createdAt` を返していない）。ユーザーが「アクティブにしたのに反映されない」と誤解する原因に。\n\n**(G) `docker-compose`（ハイフン）表記**\n\nドキュメントは `docker-compose up`。新規にDocker Desktopを入れた環境では v2 の `docker compose`（スペース）が標準で、ハイフン版が無い場合がある。表記を `docker compose` に統一推奨。\n\n## 「ドキュメントだけで完走できるか？」への結論\n\n現状：No（一部不十分）。ただし致命的なのは (A)(B) の2点に絞られる。\n\n(A)(B) を自力で解決しないと AIチャット／お題表示・政策起動まで到達できない\n\n(C)(D) が無いと利用フローで迷子になる。\n\n(E)(F)(G) は品質上の改善点。\n\n→ 「Quick Start（お試し最小構成）」ドキュメントが1枚あれば、初見でもクローン〜AIチャット〜お題表示まで完走できるようになる。\n\n具体的には、\n\n- OpenRouterキーのみで動くいどばたビジョン最小起動\n- ダミー鍵＋モックで動く政策\n- LLMモデルの差し替え方\n- テーマ→お題までの操作フロー\n\nを1ページに集約する。\n\n## 補足：理解した設計上のポイント\n\nいどばたビジョンといどばた政策は **独立した2システム**（DBもMongo/Postgresで別、コード上の相互参照なし）。両者の統合は `project_status.md` のマイルストーン③（将来）で構想されており、現状のコードには未実装。\n\n政策モジュールの「文言変更」はローカル即時編集ではなく、**新ブランチへのコミット→Pull Request提案型**。フロントのGitHubクライアントは読み取り専用（`fetchContent` のみ）で、編集機能自体が存在しない。PRがマージされ再読込された時に初めて反映される（＝人間レビューを前提とするガバナンス設計）。",
+    "type": "issue"
+  },
+  {
+    "id": 4692372728,
+    "number": 499,
+    "title": "docs: Policy Edit の DB 起動手順と migration 手順を development-setup に追記",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/pull/499",
+    "user": "shingo-ohki",
+    "created_at": "2026-06-18T12:33:34Z",
+    "merged_at": "2026-06-23T03:50:12Z",
+    "body": "## 変更の概要\r\nPolicy Edit の開発手順に、実態と異なる記載があったため修正します。\r\nあわせて、初回起動時に必要な migration 手順を追記し、interaction_logs テーブル未作成時の対処が分かるようにします。\r\n\r\n## 変更内容\r\n- Policy Edit 起動手順を修正（PostgreSQL サービスを含める）\r\n- migration 実行手順を追記\r\n- テーブル作成確認手順を追記\r\n- relation interaction_logs does not exist エラー時の確認ポイントを追記\r\n\r\n## 期待効果\r\n初回セットアップ時の詰まりどころを減らす\r\nテーブル未作成によるエラーを自己解決しやすくする\r\n\r\n## 影響範囲\r\n`development-setup.md` のみ\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n",
+    "additions": 22,
+    "deletions": 2,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 4692251921,
+    "number": 498,
+    "title": "fix: postgres:latest 更新に伴うエラー回避",
+    "state": "merged",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/pull/498",
+    "user": "shingo-ohki",
+    "created_at": "2026-06-18T12:15:47Z",
+    "merged_at": "2026-06-23T03:49:39Z",
+    "body": "## 変更の概要\r\n開発時から時間が経過し `postgres:latest` が 18系になったことで、`postgres-policy` が起動時に以下のエアーで停止してしまうようです。\r\nこの影響を回避し、まずは既存の開発フローを安定して動かすため、Policy Edit で利用する PostgreSQL イメージを 17系に固定します。\r\nあわせて、バックエンドがDB起動完了前に立ち上がるレースコンディションを防ぐため、policy-backend の起動条件に `postgres-policy` のヘルスチェック待機を追加します。\r\n\r\nPostgreSQL 18系への追従対応は、本PRでは扱わず、必要に応じて別PRで実施します。\r\n\r\n```\r\npostgres-policy-dev  | Error: in 18+, these Docker images are configured to store database data in a\r\npostgres-policy-dev  |        format which is compatible with \"pg_ctlcluster\" (specifically, using\r\npostgres-policy-dev  |        major-version-specific directory names).  This better reflects how\r\npostgres-policy-dev  |        PostgreSQL itself works, and how upgrades are to be performed.\r\npostgres-policy-dev  | \r\npostgres-policy-dev  |        See also https://github.com/docker-library/postgres/pull/1259\r\npostgres-policy-dev  | \r\npostgres-policy-dev  |        Counter to that, there appears to be PostgreSQL data in:\r\npostgres-policy-dev  |          /var/lib/postgresql/data (unused mount/volume)\r\npostgres-policy-dev  | \r\npostgres-policy-dev  |        This is usually the result of upgrading the Docker image without\r\npostgres-policy-dev  |        upgrading the underlying database using \"pg_upgrade\" (which requires both\r\npostgres-policy-dev  |        versions).\r\npostgres-policy-dev  | \r\npostgres-policy-dev  |        The suggested container configuration for 18+ is to place a single mount\r\npostgres-policy-dev  |        at /var/lib/postgresql which will then place PostgreSQL data in a\r\npostgres-policy-dev  |        subdirectory, allowing usage of \"pg_upgrade --link\" without mount point\r\npostgres-policy-dev  |        boundary issues.\r\npostgres-policy-dev  | \r\npostgres-policy-dev  |        See https://github.com/docker-library/postgres/issues/37 for a (long)\r\npostgres-policy-dev  |        discussion around this process, and suggestions for how to do so.\r\n```\r\n\r\n## 変更内容\r\n- postgres-policy のイメージを postgres:latest から postgres:17 へ変更\r\n- policy-backend の depends_on を service_healthy 条件付きへ変更\r\n\r\n## 期待効果\r\n- latest 追従に伴う想定外の互換性問題を回避\r\n- PostgreSQL準備完了前のバックエンド起動を防止\r\n\r\n## 影響範囲\r\n- docker-compose の Policy Edit 関連サービス定義のみ\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\r\n",
+    "additions": 3,
+    "deletions": 2,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

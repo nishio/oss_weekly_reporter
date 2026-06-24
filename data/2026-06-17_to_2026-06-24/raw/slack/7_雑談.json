@@ -1,0 +1,401 @@
+[
+  {
+    "user": "U0AVBPFDPUZ",
+    "type": "message",
+    "ts": "1781740291.152439",
+    "edited": {
+      "user": "U0AVBPFDPUZ",
+      "ts": "1781745433.000000"
+    },
+    "client_msg_id": "2fcb6dd7-1960-4bac-a098-fe568245a54a",
+    "text": "任意の政策シミュレーターアプリケーションを作成してみました。\n\n目的\n・任意の政策に対して、その政策に対する仮想的な反応や争点、効果を可視化することで多様な視点で政策を見れる様にする。\n\n効果\n・政策に対する賛否や影響を可視化することで、多層的な視点で政策を捉えられるようにする。\n\n現状\n・今のところかなり表面的な結果しか出てきてないように思う。\n・結果がイマイチわかりにくい\n\n今後の対応\n・エージェント的により深い分析をさせる（時間とトークンをかければそれなりのものが出来ると思うが、どこまでやるかは要検討）\n・よりわかり易いUIの検討（簡易的にパッとわかる様にしつつ、深堀したい人は深堀できるようしたい）\n・ゲーム的な要素をもっと入れてもいいかもしれない\n\nアプリケーション\n<https://saotomryo.github.io/japan-policy-simulator/>\n\ngithub\n<https://github.com/saotomryo/japan-policy-simulator.git>\n\n解説記事\n<https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw>\n\n実行動画\n実行動画\n<https://youtu.be/Ro2bz7mateA>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://assets.st-note.com/production/uploads/images/286230958/rectangle_large_type_2_3a198d9ff230d66ed90b30f5d240b284.png?fit=bounds&quality=85&width=1280",
+        "image_width": 1280,
+        "image_height": 670,
+        "image_bytes": 76944,
+        "from_url": "https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw",
+        "service_icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/icons/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw",
+        "fallback": "note（ノート）: AIによる仮想政策シミュレーター紹介｜五月女亮",
+        "text": "はじめに 先日、学園自治シミュレーターを作成しましたが、このシミュレーターの舞台を日本に移して政策シミュレーターを作成しました。 \n 基本的にどの様な政策にも、賛成する人、反対する人、利益を得る人、損害を被る人がいます。 このツールの目的は、各政策に対して、賛否の声を推測して、どのような論点が存在するかを確認することで、より多くの人が受け入れられる政策を検討することです。 ツールの実行動画 ツールの概要 日本版 仮想政策シミュレーターは、政策案を入力し、その政策に対してどのような反応や論点が出そうかを整理するための試作ツールです。 政策の良し悪しを一つの点数で決める",
+        "title": "AIによる仮想政策シミュレーター紹介｜五月女亮",
+        "title_link": "https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw",
+        "service_name": "note（ノート）"
+      },
+      {
+        "from_url": "https://youtu.be/Ro2bz7mateA",
+        "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/youtube.png",
+        "thumb_url": "https://i.ytimg.com/vi/Ro2bz7mateA/hqdefault.jpg",
+        "thumb_width": 480,
+        "thumb_height": 360,
+        "video_html": "<iframe width=\"400\" height=\"300\" src=\"https://www.youtube.com/embed/Ro2bz7mateA?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"日本版「政策シミュレーター」を作ってみた：給付付き税額控除編\"></iframe>",
+        "video_html_width": 400,
+        "video_html_height": 300,
+        "id": 2,
+        "original_url": "https://youtu.be/Ro2bz7mateA",
+        "fallback": "YouTube Video: 日本版「政策シミュレーター」を作ってみた：給付付き税額控除編",
+        "title": "日本版「政策シミュレーター」を作ってみた：給付付き税額控除編",
+        "title_link": "https://youtu.be/Ro2bz7mateA",
+        "author_name": "Ryo'sAIStudio",
+        "author_link": "https://www.youtube.com/@RyosAIStudio",
+        "service_name": "YouTube",
+        "service_url": "https://www.youtube.com/"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KV7G+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "任意の政策シミュレーターアプリケーションを作成してみました。\n\n目的\n・任意の政策に対して、その政策に対する仮想的な反応や争点、効果を可視化することで多様な視点で政策を見れる様にする。\n\n効果\n・政策に対する賛否や影響を可視化することで、多層的な視点で政策を捉えられるようにする。\n\n現状\n・今のところかなり表面的な結果しか出てきてないように思う。\n・結果がイマイチわかりにくい\n\n今後の対応\n・エージェント的により深い分析をさせる（時間とトークンをかければそれなりのものが出来ると思うが、どこまでやるかは要検討）\n・よりわかり易いUIの検討（簡易的にパッとわかる様にしつつ、深堀したい人は深堀できるようしたい）\n・ゲーム的な要素をもっと入れてもいいかもしれない\n\nアプリケーション\n"
+              },
+              {
+                "type": "link",
+                "url": "https://saotomryo.github.io/japan-policy-simulator/"
+              },
+              {
+                "type": "text",
+                "text": "\n\ngithub\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/saotomryo/japan-policy-simulator.git"
+              },
+              {
+                "type": "text",
+                "text": "\n\n解説記事\n"
+              },
+              {
+                "type": "link",
+                "url": "https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw"
+              },
+              {
+                "type": "text",
+                "text": "\n\n実行動画\n実行動画\n"
+              },
+              {
+                "type": "link",
+                "url": "https://youtu.be/Ro2bz7mateA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U0AVBPFDPUZ",
+    "text_readable": "任意の政策シミュレーターアプリケーションを作成してみました。\n\n目的\n・任意の政策に対して、その政策に対する仮想的な反応や争点、効果を可視化することで多様な視点で政策を見れる様にする。\n\n効果\n・政策に対する賛否や影響を可視化することで、多層的な視点で政策を捉えられるようにする。\n\n現状\n・今のところかなり表面的な結果しか出てきてないように思う。\n・結果がイマイチわかりにくい\n\n今後の対応\n・エージェント的により深い分析をさせる（時間とトークンをかければそれなりのものが出来ると思うが、どこまでやるかは要検討）\n・よりわかり易いUIの検討（簡易的にパッとわかる様にしつつ、深堀したい人は深堀できるようしたい）\n・ゲーム的な要素をもっと入れてもいいかもしれない\n\nアプリケーション\n<https://saotomryo.github.io/japan-policy-simulator/>\n\ngithub\n<https://github.com/saotomryo/japan-policy-simulator.git>\n\n解説記事\n<https://note.com/ryosao/n/nab705c862ab6?sub_rt=share_pw>\n\n実行動画\n実行動画\n<https://youtu.be/Ro2bz7mateA>"
+  },
+  {
+    "user": "U08GJSBAX3K",
+    "type": "message",
+    "ts": "1781790491.615159",
+    "client_msg_id": "0638c795-59be-4d5f-8370-e9ac21366b73",
+    "text": "<https://x.com/team_mirai_jp/status/2067547683959762946>\n技術的おもしろポイントもありそうなのでシェア",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://jf.x.com/images/media-preview/2067547683959762946",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 729182,
+        "from_url": "https://x.com/team_mirai_jp/status/2067547683959762946",
+        "service_icon": "http://abs.twimg.com/favicons/twitter.3.ico",
+        "id": 1,
+        "original_url": "https://x.com/team_mirai_jp/status/2067547683959762946",
+        "fallback": "X (formerly Twitter): チームみらい【公式】 (@team_mirai_jp) on X",
+        "text": "／\n#みらい議会 アップデートのお知らせ\n「トピック機能」を追加しました:bulb:\n＼\n\nAIインタビューを通じて集まった数多くの声を、AIが論点ごとに自動で分類・整理・可視化し、どのような論点に分かれ、どこに共感が集まっているのかを、一目で把握できる\n「トピック機能」を公開いいたしました！",
+        "title": "チームみらい【公式】 (@team_mirai_jp) on X",
+        "title_link": "https://x.com/team_mirai_jp/status/2067547683959762946",
+        "service_name": "X (formerly Twitter)"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3v/v2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://x.com/team_mirai_jp/status/2067547683959762946"
+              },
+              {
+                "type": "text",
+                "text": "\n技術的おもしろポイントもありそうなのでシェア"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HKLUGE67"
+        ],
+        "count": 2
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U0AEWLLPE8H",
+          "U08HKLUGE67",
+          "U08HWJ80CHG",
+          "U0ATS7U6NE6"
+        ],
+        "count": 4
+      }
+    ],
+    "user_name": "Shutaro Aoyama (ぶるーも)",
+    "text_readable": "<https://x.com/team_mirai_jp/status/2067547683959762946>\n技術的おもしろポイントもありそうなのでシェア"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1782186981.674409",
+    "client_msg_id": "cd32c67a-a42d-4ec4-8e32-7f7193c7e2ba",
+    "text": "<@U08G2A216TW>\ndevin をどう使うのがいいか、みたいなドキュメントが欲しいです。どっかにすでにありますか？\nトークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1782186981.674409",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1782227437.855199",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U09C3J7V960"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3i3tn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\ndevin をどう使うのがいいか、みたいなドキュメントが欲しいです。どっかにすでにありますか？\nトークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "@nishio.hirokazu\ndevin をどう使うのがいいか、みたいなドキュメントが欲しいです。どっかにすでにありますか？\nトークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1782194489.364769",
+    "client_msg_id": "1d38fd47-81f1-4603-baae-7e6b2fa46452",
+    "text": "ドキュメントはなく、過去にSlack上で、ボードメンバーより月10万までOK！と返答があったのみと記憶してます。\nトークン代はボードメンバーによる寄付からだったと思います。\n\n<@U09C3J7V960>\n今devinがうまく使われていない状態です。\n• 今後も使ってよいのか\n• 使ってよい場合、用途と金額上限の明文化をしたい\nです。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1782186981.674409",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "eIfDH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ドキュメントはなく、過去にSlack上で、ボードメンバーより月10万までOK！と返答があったのみと記憶してます。\nトークン代はボードメンバーによる寄付からだったと思います。\n\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U09C3J7V960"
+              },
+              {
+                "type": "text",
+                "text": "\n今devinがうまく使われていない状態です。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今後も使ってよいのか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "使ってよい場合、用途と金額上限の明文化をしたい"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1782186981.674409",
+    "user_name": "小野翔太",
+    "text_readable": "ドキュメントはなく、過去にSlack上で、ボードメンバーより月10万までOK！と返答があったのみと記憶してます。\nトークン代はボードメンバーによる寄付からだったと思います。\n\n<@U09C3J7V960>\n今devinがうまく使われていない状態です。\n• 今後も使ってよいのか\n• 使ってよい場合、用途と金額上限の明文化をしたい\nです。"
+  },
+  {
+    "user": "U09C3J7V960",
+    "type": "message",
+    "ts": "1782227437.855199",
+    "client_msg_id": "95f1560a-8ffc-41b5-9cf5-1a9b8f47c47f",
+    "text": "<@U08HWJ80CHG> そういえばなぜか大柴さんから引き継いだのでした。\n&gt; トークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。\n・実態としてサブスクかどうかはわからないです。だれかわかりますか？\n・従量の場合ですが、何のためにいくら毎月必要ということをエスカレしてもらって、それをボードに都度諮るという形かと思います。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1782186981.674409",
+    "parent_user_id": "U08JASQKEEM",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i2NhQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " そういえばなぜか大柴さんから引き継いだのでした。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "トークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "・実態としてサブスクかどうかはわからないです。だれかわかりますか？\n・従量の場合ですが、何のためにいくら毎月必要ということをエスカレしてもらって、それをボードに都度諮るという形かと思います。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1782186981.674409",
+    "user_name": "U09C3J7V960",
+    "text_readable": "@oscar.gaddress そういえばなぜか大柴さんから引き継いだのでした。\n> トークン代を誰が負担してるのかとか料金体系とかも知りたい。サブスクなら使わないともったいない、従量なら用途の明文化が欲しい。\n・実態としてサブスクかどうかはわからないです。だれかわかりますか？\n・従量の場合ですが、何のためにいくら毎月必要ということをエスカレしてもらって、それをボードに都度諮るという形かと思います。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1782187027.078579",
+    "client_msg_id": "e5c7e50f-606c-4720-a2f6-fbbee0ac0a44",
+    "text": "<https://lawzilla.jp/>\nこれ全然知らなかったが個人開発で着々と機能改善してるっぽい、凄そう",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://lawzilla.jp/",
+        "service_icon": "https://lawzilla.jp/img/apple-touch-icon.png",
+        "id": 1,
+        "original_url": "https://lawzilla.jp/",
+        "fallback": "Lawzilla｜迷わない法令データベース: Lawzilla（迷わない法令データベース）",
+        "text": "Lawzilla(ロージラ)を使えば、知りたい法令に最短アクセス。迷わず整理し、業務や学習にすぐに活用。つくろう、自分だけの法令ノート。",
+        "title": "Lawzilla（迷わない法令データベース）",
+        "title_link": "https://lawzilla.jp/",
+        "service_name": "Lawzilla｜迷わない法令データベース"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OoT4n",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://lawzilla.jp/"
+              },
+              {
+                "type": "text",
+                "text": "\nこれ全然知らなかったが個人開発で着々と機能改善してるっぽい、凄そう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "<https://lawzilla.jp/>\nこれ全然知らなかったが個人開発で着々と機能改善してるっぽい、凄そう"
+  }
+]
