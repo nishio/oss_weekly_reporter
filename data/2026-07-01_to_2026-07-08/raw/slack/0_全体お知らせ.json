@@ -1,0 +1,184 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1783159226.118099",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/fhn-rcoj-sci",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/fhn-rcoj-sci",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/fhn-rcoj-sci",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "1e3ax",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、全体定例会を開催します！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock8",
+                "unicode": "1f557"
+              },
+              {
+                "type": "text",
+                "text": " 時刻\n20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " Google Meet\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fhn-rcoj-sci"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " 議事録\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I"
+              },
+              {
+                "type": "text",
+                "text": "\n\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "open_file_folder",
+                "unicode": "1f4c2"
+              },
+              {
+                "type": "text",
+                "text": "過去の録画格納先\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783165254.381359",
+    "client_msg_id": "34b92f8b-f840-490f-92fb-aefdc26320fa",
+    "text": "<!here>\n*Discord移行について*\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "A1JQU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "Discord移行について",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1::skin-tone-2",
+        "users": [
+          "U099TAD6RKL"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U0A6CE44B2S",
+          "U08KXSKKWEB"
+        ],
+        "count": 2
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08JASQKEEM"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\n*Discord移行について*\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。"
+  }
+]

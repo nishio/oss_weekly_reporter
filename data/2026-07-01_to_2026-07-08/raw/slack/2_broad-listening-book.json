@@ -1,0 +1,530 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1783332020.250709",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "/DBZp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、ブロードリスニング本執筆会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1783332538.945759",
+    "client_msg_id": "ceb5b669-970d-46a7-b6cc-f3c3054eff11",
+    "text": "<@U08G2A216TW> ↑で、8/2のイベントの話ができたりしませんか？\n\n端的に言うと、西尾さんには以下のことをやってほしいと考えています。\n- 私と西尾で広聴AIの技術解説45分\n- 西尾と青山でブロードリスニング関連のツールの違いの話 45分\n\n最近、西尾さんと話が出来てないので、ここら辺のイベントの話が伝わってるか怪しいので、少し話をさせてほしいです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "RiCcJ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " ↑で、8/2のイベントの話ができたりしませんか？\n\n端的に言うと、西尾さんには以下のことをやってほしいと考えています。\n- 私と西尾で広聴AIの技術解説45分\n- 西尾と青山でブロードリスニング関連のツールの違いの話 45分\n\n最近、西尾さんと話が出来てないので、ここら辺のイベントの話が伝わってるか怪しいので、少し話をさせてほしいです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu ↑で、8/2のイベントの話ができたりしませんか？\n\n端的に言うと、西尾さんには以下のことをやってほしいと考えています。\n- 私と西尾で広聴AIの技術解説45分\n- 西尾と青山でブロードリスニング関連のツールの違いの話 45分\n\n最近、西尾さんと話が出来てないので、ここら辺のイベントの話が伝わってるか怪しいので、少し話をさせてほしいです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783339179.734979",
+    "client_msg_id": "7a8ffab9-87b9-4e2e-80ab-d4b2cec42842",
+    "text": "おっと別件21時と22時のミーティングは把握しててそれまでに作業しようとしてたらこれに気づかなかった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "o14DE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おっと別件21時と22時のミーティングは把握しててそれまでに作業しようとしてたらこれに気づかなかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "おっと別件21時と22時のミーティングは把握しててそれまでに作業しようとしてたらこれに気づかなかった"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783339204.160249",
+    "client_msg_id": "4c403aa0-60b6-4ebf-81c1-914e7ab2c623",
+    "text": "&gt; ここら辺のイベントの話が伝わってるか怪しい\nいや、何も把握してないよ、何日だっけ？という感じ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zJ0u6",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ここら辺のイベントの話が伝わってるか怪しい"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いや、何も把握してないよ、何日だっけ？という感じ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> ここら辺のイベントの話が伝わってるか怪しい\nいや、何も把握してないよ、何日だっけ？という感じ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783339229.353379",
+    "client_msg_id": "2b9e32b4-d279-4614-8623-b62c55188a60",
+    "text": "8/2って上に書いてあったな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "g91yP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "8/2って上に書いてあったな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "8/2って上に書いてあったな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783342638.825919",
+    "client_msg_id": "eeadeb05-67c0-470e-a79c-9250e20a6f7f",
+    "text": "日程は全日予定でスケジュールに入れてあった\nあとはどれくらい準備するかですね\n45分プレゼンテーションする気はないと思うし、",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0gkOW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "日程は全日予定でスケジュールに入れてあった\nあとはどれくらい準備するかですね\n45分プレゼンテーションする気はないと思うし、"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "日程は全日予定でスケジュールに入れてあった\nあとはどれくらい準備するかですね\n45分プレゼンテーションする気はないと思うし、"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783344587.383399",
+    "client_msg_id": "0e6fa0be-cc37-41ba-b317-55403b55e0f6",
+    "text": "前提としてどんな人を対象としたどれくらいの規模のイベントをどれくらいの時間やるのかとか全然わからないまま2つのセッションの出演を無茶振りされたぞ？ww",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4ec6r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "前提としてどんな人を対象としたどれくらいの規模のイベントをどれくらいの時間やるのかとか全然わからないまま2つのセッションの出演を無茶振りされたぞ？ww"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08JPUZRT40"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "前提としてどんな人を対象としたどれくらいの規模のイベントをどれくらいの時間やるのかとか全然わからないまま2つのセッションの出演を無茶振りされたぞ？ww"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783344710.097199",
+    "client_msg_id": "6f860448-7eb9-4b49-8e60-4beb4f4fce4b",
+    "text": "まあしっかりプレゼンを準備する系ではないことがわかった",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "vnj8J",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあしっかりプレゼンを準備する系ではないことがわかった"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "まあしっかりプレゼンを準備する系ではないことがわかった"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1783344820.288049",
+    "client_msg_id": "42ad8482-288b-4625-9251-8ff20dec801c",
+    "text": "まぁ、スライドは私と青山君に投げておいて、モデレータと共に殴ってくる感じでいるといいんじゃないかな。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Pw5nO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まぁ、スライドは私と青山君に投げておいて、モデレータと共に殴ってくる感じでいるといいんじゃないかな。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "まぁ、スライドは私と青山君に投げておいて、モデレータと共に殴ってくる感じでいるといいんじゃないかな。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783346834.664869",
+    "client_msg_id": "5cbbe3c2-9458-4f61-8efb-15d2af0646ce",
+    "text": "Slidoで質問を受け付けて15分くらい質疑にする？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3HBYQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Slidoで質問を受け付けて15分くらい質疑にする？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Slidoで質問を受け付けて15分くらい質疑にする？"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1783346917.442909",
+    "client_msg_id": "ba541894-04c2-4a85-b08f-5d5cc919fa12",
+    "text": "<https://www.youtube.com/watch?v=SpOI-JuJv5o>\nそもそもこの動画が１時間40分あるのでなぁという顔をしている。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://www.youtube.com/watch?v=SpOI-JuJv5o",
+        "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/youtube.png",
+        "thumb_url": "https://i.ytimg.com/vi/SpOI-JuJv5o/hqdefault.jpg",
+        "thumb_width": 480,
+        "thumb_height": 360,
+        "video_html": "<iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/SpOI-JuJv5o?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"広聴AI技術解説 ブロードリスニングを支える技術\"></iframe>",
+        "video_html_width": 400,
+        "video_html_height": 225,
+        "id": 1,
+        "original_url": "https://www.youtube.com/watch?v=SpOI-JuJv5o",
+        "fallback": "YouTube Video: 広聴AI技術解説 ブロードリスニングを支える技術",
+        "title": "広聴AI技術解説 ブロードリスニングを支える技術",
+        "title_link": "https://www.youtube.com/watch?v=SpOI-JuJv5o",
+        "author_name": "ところてん",
+        "author_link": "https://www.youtube.com/@tokorotenjp",
+        "service_name": "YouTube",
+        "service_url": "https://www.youtube.com/"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "A4aJM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.youtube.com/watch?v=SpOI-JuJv5o"
+              },
+              {
+                "type": "text",
+                "text": "\nそもそもこの動画が１時間40分あるのでなぁという顔をしている。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://www.youtube.com/watch?v=SpOI-JuJv5o>\nそもそもこの動画が１時間40分あるのでなぁという顔をしている。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1783346927.167359",
+    "client_msg_id": "38462dbb-1e16-4c00-ba84-ed81843425ff",
+    "text": "<https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546|docswell.com/s/tokoroten/…>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://bcdn.docswell.com/page/87D3Y2VKJG.jpg?width=480",
+        "image_width": 480,
+        "image_height": 270,
+        "image_bytes": 13322,
+        "from_url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+        "service_icon": "https://bcdn.docswell.com/assets/images/favicon.ico",
+        "id": 1,
+        "original_url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+        "fallback": "Docswell: 広聴AI技術解説 ブロードリスニングを支える技術 | ドクセル",
+        "text": "デジタル民主主義2030が開発するOSSである広聴AIの技術解説です。 意見可視化・分析システムを、どのように...",
+        "title": "広聴AI技術解説 ブロードリスニングを支える技術 | ドクセル",
+        "title_link": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+        "service_name": "Docswell",
+        "fields": [
+          {
+            "value": "tokoroten",
+            "title": "Published by",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "T4nhE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546",
+                "text": "docswell.com/s/tokoroten/…",
+                "truncated": true,
+                "unsafe": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://www.docswell.com/s/tokoroten/ZL1M88-2025-06-14-014546|docswell.com/s/tokoroten/…>"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1783347715.772889",
+    "client_msg_id": "454ae1ca-f1f3-4b99-bf90-18a7f0496039",
+    "text": "なので、これを切り刻んで30分版を作って、あとは発展版とかを話をして、45分かなぁという感じがしている。\nモデレータ要るか？とはなってる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fYM1l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なので、これを切り刻んで30分版を作って、あとは発展版とかを話をして、45分かなぁという感じがしている。\nモデレータ要るか？とはなってる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "なので、これを切り刻んで30分版を作って、あとは発展版とかを話をして、45分かなぁという感じがしている。\nモデレータ要るか？とはなってる"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783427975.585789",
+    "client_msg_id": "b52d5e25-dea5-4639-951a-a8230e45314b",
+    "text": "モデレータも僕もいらないのではという気がするがw\n30分の講演の間にSlidoで質問を受け付けつつ僕がコメント機能で撃墜するか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "S4qAv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "モデレータも僕もいらないのではという気がするがw\n30分の講演の間にSlidoで質問を受け付けつつ僕がコメント機能で撃墜するか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "モデレータも僕もいらないのではという気がするがw\n30分の講演の間にSlidoで質問を受け付けつつ僕がコメント機能で撃墜するか"
+  }
+]

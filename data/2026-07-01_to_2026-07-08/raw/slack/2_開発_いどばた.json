@@ -1,0 +1,128 @@
+[
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783043858.429449",
+    "client_msg_id": "4a77540e-55d9-4f9b-a738-d9eb30ef9306",
+    "text": "policy が frontend と backend で docker-compose してるのは複雑すぎるな、この程度なら単一プロセスで全然いけるはず。\nなどと色々思うけども現代だとこの程度のコードはAIに指示書一発で書かせることができるので、実装よりむしろ「指示書」に価値があるのではないか",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2aEz+",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "policy が frontend と backend で docker-compose してるのは複雑すぎるな、この程度なら単一プロセスで全然いけるはず。\nなどと色々思うけども現代だとこの程度のコードはAIに指示書一発で書かせることができるので、実装よりむしろ「指示書」に価値があるのではないか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "policy が frontend と backend で docker-compose してるのは複雑すぎるな、この程度なら単一プロセスで全然いけるはず。\nなどと色々思うけども現代だとこの程度のコードはAIに指示書一発で書かせることができるので、実装よりむしろ「指示書」に価値があるのではないか"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783043952.639009",
+    "client_msg_id": "21d735f3-4832-4d43-943d-424c7f1daf1a",
+    "text": "例えば「1ユーザがいくつもアカウントを取得することは原理的に防げないので、意見の賛成数反対数にはあまり意味がない、多様性だけを処理すべき」みたいなことが割と重要な知見で、それを広めるべき。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DTZwu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "例えば「1ユーザがいくつもアカウントを取得することは原理的に防げないので、意見の賛成数反対数にはあまり意味がない、多様性だけを処理すべき」みたいなことが割と重要な知見で、それを広めるべき。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "例えば「1ユーザがいくつもアカウントを取得することは原理的に防げないので、意見の賛成数反対数にはあまり意味がない、多様性だけを処理すべき」みたいなことが割と重要な知見で、それを広めるべき。"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783044352.610009",
+    "client_msg_id": "5be4b11f-bbde-4364-8ada-b15c235248bc",
+    "text": "各自デプロイしてくださいというスタンスならユーザも coding agent を使うという前提になる\ncoding agent を使わない、使えないというユーザ層までサポートしたいなら「デプロイしてください」は無理なのでマルチテナント SaaS 的なものをちゃんと運用しなきゃならないが、そこまでのリソースはこの組織にはない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xkzSa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "各自デプロイしてくださいというスタンスならユーザも coding agent を使うという前提になる\ncoding agent を使わない、使えないというユーザ層までサポートしたいなら「デプロイしてください」は無理なのでマルチテナント SaaS 的なものをちゃんと運用しなきゃならないが、そこまでのリソースはこの組織にはない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "各自デプロイしてくださいというスタンスならユーザも coding agent を使うという前提になる\ncoding agent を使わない、使えないというユーザ層までサポートしたいなら「デプロイしてください」は無理なのでマルチテナント SaaS 的なものをちゃんと運用しなきゃならないが、そこまでのリソースはこの組織にはない"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783044808.429379",
+    "client_msg_id": "7e47ff74-442b-44a9-b0c3-2ca93ccff58e",
+    "text": "github のプルリクを一括取得する方法がない、というのがいどばた政策の大きな問題の1つなんだけど、AI時代が到来して多くのOSSが「似たようなプルリクが大量に重複して送られてくる」問題に直面しており、 github 側がこれに対応してくれる可能性もありそう\ncursor 社が AI 時代のための github alternative \"origin\" をリリースするという発表があったが、もしかするといどばた政策のバックエンドとして必要な機能を全部持ってるかもしれない",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FfigV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "github のプルリクを一括取得する方法がない、というのがいどばた政策の大きな問題の1つなんだけど、AI時代が到来して多くのOSSが「似たようなプルリクが大量に重複して送られてくる」問題に直面しており、 github 側がこれに対応してくれる可能性もありそう\ncursor 社が AI 時代のための github alternative \"origin\" をリリースするという発表があったが、もしかするといどばた政策のバックエンドとして必要な機能を全部持ってるかもしれない"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "github のプルリクを一括取得する方法がない、というのがいどばた政策の大きな問題の1つなんだけど、AI時代が到来して多くのOSSが「似たようなプルリクが大量に重複して送られてくる」問題に直面しており、 github 側がこれに対応してくれる可能性もありそう\ncursor 社が AI 時代のための github alternative \"origin\" をリリースするという発表があったが、もしかするといどばた政策のバックエンドとして必要な機能を全部持ってるかもしれない"
+  }
+]

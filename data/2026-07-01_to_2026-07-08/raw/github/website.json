@@ -1,0 +1,36 @@
+[
+  {
+    "id": 4684688343,
+    "number": 217,
+    "title": "Add English landing page",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/217",
+    "user": "howaeri",
+    "created_at": "2026-06-17T15:27:21Z",
+    "updated_at": "2026-07-06T13:05:13Z",
+    "body": "## Summary\n英語ページ作成 issue #23 に関連する、英語ランディングページを追加します。\n\n- Adds a standalone `/en/` landing page for international readers.\n- Links the English page from the drawer navigation and footer.\n- Summarizes DD2030's mission, neutrality, projects, and participation paths.\n- Uses English-labeled versions of the project diagrams and marks Japanese-only links as `(Japanese)`.\n- Adds a link to the political neutrality FAQ after #192 was merged.\n\n## Notes\n- This intentionally does not introduce full i18n routing, translation dictionaries, or duplicated layouts.\n- The page is written as a neutral overview rather than a full translation of the Japanese site.\n- Japanese-only links are labeled so English readers know what to expect.\n\nRelated to #23.\n\n## Checks\n- `deno task build`\n- `deno test`\n\n`deno lint` currently reports existing repo lint issues in `src/_components/topics.tsx` and `packages/markdown-config/mod.tsx`, unrelated to this change.",
+    "additions": 319,
+    "deletions": 0,
+    "changed_files": 6,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  },
+  {
+    "id": 4306924772,
+    "number": 211,
+    "title": "Week51 Summary Update",
+    "state": "updated",
+    "html_url": "https://github.com/digitaldemocracy2030/website/pull/211",
+    "user": "github-actions[bot]",
+    "created_at": "2026-04-22T05:37:04Z",
+    "updated_at": "2026-07-01T07:52:57Z",
+    "body": "Auto-generated weekly summaries for week51",
+    "additions": 160,
+    "deletions": 0,
+    "changed_files": 4,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783058306.871679",
+    "client_msg_id": "04e90518-ff70-47eb-b6a7-1d0c372b400b",
+    "text": "<@U08G2A216TW>\n<https://nishio.github.io/dd2030-wiki/|nishio.github.io/dd2030-wiki>\nをdd2030のレポジトリとAIで運用したいと思っているのですが、\nあまり仕組みをわかっておらず、AIの料金がいくらくらい必要かや、人の手で直したい箇所（例：人名の漢字ミス）を直せるのかを伺いたいです。\nウィークリーレポーターの代わりとして、またガイドブック（入りたての方向け）内からのリンク先として使えたらいいなと思っています。\nまた、運用していく上で、人の手がかかる場合、何かお手伝い出来ますでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783058306.871679",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1783141180.953829",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://nishio.github.io/dd2030-wiki/static/og-image.png",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 39281,
+        "from_url": "https://nishio.github.io/dd2030-wiki/",
+        "id": 1,
+        "original_url": "https://nishio.github.io/dd2030-wiki/",
+        "fallback": "dd2030 Wiki: Index",
+        "text": "dd2030 Wiki — 目次 dd2030プロジェクトの知識ベース。プロジェクトに初めて参加する人が全体像を把握できることを目指しています。 まずはここから 初めて読む人へ — 初見者向けの読む順序ガイド overview — プロジェクト全体の概要 初年度まとめ — 2025年3月〜2026年3月の月ごと詳細サマリ（外部アーカイブ参照版） 時系列まとめ — 1年間の活動を四半期ごとに整理（骨子版） プロダクト 広聴AI — 大量の市民意見をAIで分析・可視化するツール いどばた — 市民が政策テーマについて対話できるプラットフォーム Polimoney — 政治資金収支報告書を可視化する...",
+        "title": "Index",
+        "title_link": "https://nishio.github.io/dd2030-wiki/",
+        "service_name": "dd2030 Wiki"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xTztb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/dd2030-wiki/",
+                "text": "nishio.github.io/dd2030-wiki",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\nをdd2030のレポジトリとAIで運用したいと思っているのですが、\nあまり仕組みをわかっておらず、AIの料金がいくらくらい必要かや、人の手で直したい箇所（例：人名の漢字ミス）を直せるのかを伺いたいです。\nウィークリーレポーターの代わりとして、またガイドブック（入りたての方向け）内からのリンク先として使えたらいいなと思っています。\nまた、運用していく上で、人の手がかかる場合、何かお手伝い出来ますでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@nishio.hirokazu\n<https://nishio.github.io/dd2030-wiki/|nishio.github.io/dd2030-wiki>\nをdd2030のレポジトリとAIで運用したいと思っているのですが、\nあまり仕組みをわかっておらず、AIの料金がいくらくらい必要かや、人の手で直したい箇所（例：人名の漢字ミス）を直せるのかを伺いたいです。\nウィークリーレポーターの代わりとして、またガイドブック（入りたての方向け）内からのリンク先として使えたらいいなと思っています。\nまた、運用していく上で、人の手がかかる場合、何かお手伝い出来ますでしょうか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783061086.732629",
+    "client_msg_id": "DE987F43-F981-4305-B1A2-D32310ED0E85",
+    "text": "一旦dd2030に移したらDevinくんがメンテできるようになりそうです\n僕は自分の手元でClaude CodeでやってるのでDevinでやるのは未検証ですが、まぁ9割問題ないのでは〜という肌感です",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783058306.871679",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GF7yL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "一旦dd2030に移したらDevinくんがメンテできるようになりそうです\n僕は自分の手元でClaude CodeでやってるのでDevinでやるのは未検証ですが、まぁ9割問題ないのでは〜という肌感です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783058306.871679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "一旦dd2030に移したらDevinくんがメンテできるようになりそうです\n僕は自分の手元でClaude CodeでやってるのでDevinでやるのは未検証ですが、まぁ9割問題ないのでは〜という肌感です"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1783061235.053079",
+    "client_msg_id": "942A1698-19FD-46BC-AA24-614C0DA5740B",
+    "text": "僕は明日から電波のない山に登る予定で、もうしばらくしたら新幹線に乗るくらいのタイミングなので作業ができませんが、上記のような方針でよければ来週の半ばぐらいに移行するイメージで作業できます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783058306.871679",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UK/EZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕は明日から電波のない山に登る予定で、もうしばらくしたら新幹線に乗るくらいのタイミングなので作業ができませんが、上記のような方針でよければ来週の半ばぐらいに移行するイメージで作業できます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783058306.871679",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕は明日から電波のない山に登る予定で、もうしばらくしたら新幹線に乗るくらいのタイミングなので作業ができませんが、上記のような方針でよければ来週の半ばぐらいに移行するイメージで作業できます"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783141180.953829",
+    "client_msg_id": "95ea365a-045f-476b-b7da-9a0b584c3e69",
+    "text": "ありがとうございます！\nそしたら来週半ばくらいに作業お願いできると助かります！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783058306.871679",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WDj4l",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\nそしたら来週半ばくらいに作業お願いできると助かります！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783058306.871679",
+    "user_name": "小野翔太",
+    "text_readable": "ありがとうございます！\nそしたら来週半ばくらいに作業お願いできると助かります！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1783072809.411849",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 本日20時より、コミュニティ運営定例会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/deb-krky-zxx> :memo: <https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing> • コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/deb-krky-zxx",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/deb-krky-zxx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/deb-krky-zxx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Bsa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、コミュニティ運営定例会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/deb-krky-zxx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing"
+              },
+              {
+                "type": "text",
+                "text": "\n• コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 本日20時より、コミュニティ運営定例会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/deb-krky-zxx> :memo: <https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing> • コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1783076408.057999",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 只今より、コミュニティ運営定例会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/deb-krky-zxx> :memo: <https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing> • コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783076408.057999",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1783077315.374269",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/deb-krky-zxx",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/deb-krky-zxx",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/deb-krky-zxx",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "NSf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 只今より、コミュニティ運営定例会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/deb-krky-zxx"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing"
+              },
+              {
+                "type": "text",
+                "text": "\n• コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 只今より、コミュニティ運営定例会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/deb-krky-zxx> :memo: <https://docs.google.com/document/d/1dn9R9WLaGNMDO-t1w7m8-2gZRSrgZI4glDvSIr101J4/edit?usp=sharing> • コミュニティ運営にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783077315.374269",
+    "client_msg_id": "a15eeaf4-d408-43b7-824d-8144b2715c92",
+    "text": "ごめんなさい、予定が押してて本日無理そうです。すみません。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783076408.057999",
+    "parent_user_id": "USLACKBOT",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GNTWY",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ごめんなさい、予定が押してて本日無理そうです。すみません。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A77QV20BF"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1783076408.057999",
+    "user_name": "小野翔太",
+    "text_readable": "ごめんなさい、予定が押してて本日無理そうです。すみません。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783165468.330609",
+    "client_msg_id": "5182d61b-265b-4189-bbab-3a5f80e96a34",
+    "text": "<@U08H3V9KMFH> <@U08Q9JW7SC9>\nDiscordへの移行について、地方自治体の方や、政治家の方とのコミュニケーションで困ることがないか、お聞きしたくメンションしました。\nお二人の視点から想定される問題はありますか…？\nまた、もし地方自治体の方や、政治家の方に直接聞ける場合、困ることがないか聞いて頂けたら幸いです。\n実際にDiscordを使ってみたい場合、サーバー（ワークスペース）の用意はあるので、言っていただければ招待URLを送ります。\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359|https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "reply_count": 8,
+    "reply_users_count": 4,
+    "latest_reply": "1783303461.442909",
+    "reply_users": [
+      "U08Q9JW7SC9",
+      "U08HWJ80CHG",
+      "U08H3V9KMFH",
+      "U08JASQKEEM"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "fallback": "[July 4th, 2026 4:40 AM] oscar.gaddress: <!here>\n*Discord移行について*\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。",
+        "from_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359",
+        "ts": "1783165254.381359",
+        "author_id": "U08HWJ80CHG",
+        "author_subname": "小野翔太",
+        "channel_id": "C08FL58LK8V",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "A1JQU",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "broadcast",
+                    "range": "here"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n"
+                  },
+                  {
+                    "type": "text",
+                    "text": "Discord移行について",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "<!here>\n*Discord移行について*\n【調査結果】\n公務員・官庁関係者の方が業務用端末でDiscordを開けないことがわかりました（一部地方自治体では可能かもしれません）。\n\n【今後の方針案】\n公務員・官庁関係者の方とのコミュニケーションのためにSlackは残し、\nボランティア同士のコミュニケーションはDiscordに移行する案　があります。\n公務員・官庁関係者の方々も、ボランティアとしては業務用端末を使わないと想定されるためです。\n\n【相談】\n上記方針の場合、なにか想定される困ることやデメリットをスレッドにいただけると幸いです。\n\n【移行の理由（念のため）】\n・Slack無料版だと、チャンネル・DM問わず過去の投稿が追いづらい。90日で閲覧できなくなる（Slack上での検索や、スクロールして表示が出来ない）。\n・Slack有料版にするとコストが高すぎる。\n・Slackへの登録、ワークスペースへの参加操作にハードルがある。\n・Discordだと、無料版でも過去投稿がきえない。また、登録・参加操作のハードルがSlackと比較して低めで、オンボーディング機能もついている。\n\n※補足等ありましたら、それもスレッドにいただけると幸いです。適宜この投稿を編集します。",
+        "author_name": "小野翔太",
+        "author_link": "https://dd2030.slack.com/team/U08HWJ80CHG",
+        "author_icon": "https://avatars.slack-edge.com/2025-03-15/8592599574839_6c544eb7e1e5c02e988f_48.jpg",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359",
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YfCNd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08Q9JW7SC9"
+              },
+              {
+                "type": "text",
+                "text": "\nDiscordへの移行について、地方自治体の方や、政治家の方とのコミュニケーションで困ることがないか、お聞きしたくメンションしました。\nお二人の視点から想定される問題はありますか…？\nまた、もし地方自治体の方や、政治家の方に直接聞ける場合、困ることがないか聞いて頂けたら幸いです。\n実際にDiscordを使ってみたい場合、サーバー（ワークスペース）の用意はあるので、言っていただければ招待URLを送ります。\n"
+              },
+              {
+                "type": "message_mention",
+                "message_ts": "1783165254.381359",
+                "channel_id": "C08FL58LK8V",
+                "author_id": "U08HWJ80CHG",
+                "text": "https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359",
+                "url": "https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "@truego @sambo.office.ota\nDiscordへの移行について、地方自治体の方や、政治家の方とのコミュニケーションで困ることがないか、お聞きしたくメンションしました。\nお二人の視点から想定される問題はありますか…？\nまた、もし地方自治体の方や、政治家の方に直接聞ける場合、困ることがないか聞いて頂けたら幸いです。\n実際にDiscordを使ってみたい場合、サーバー（ワークスペース）の用意はあるので、言っていただければ招待URLを送ります。\n<https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359|https://dd2030.slack.com/archives/C08FL58LK8V/p1783165254381359>"
+  },
+  {
+    "user": "U08Q9JW7SC9",
+    "type": "message",
+    "ts": "1783165973.070579",
+    "client_msg_id": "d0259098-e8f3-4370-a23c-6e4f55cadbf5",
+    "text": "<@U08HWJ80CHG>\n断片的な情報で恐縮なのですが、\n・台東区議会議員　本目さん\n　支援者と一緒に、Discord を使用しているとおっしゃっていました\n・公務員、市区町村職員では、まだDiscord の話をしたことはないです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z2Vwt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": "\n断片的な情報で恐縮なのですが、\n・台東区議会議員　本目さん\n　支援者と一緒に、Discord を使用しているとおっしゃっていました\n・公務員、市区町村職員では、まだDiscord の話をしたことはないです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "Yoshi Ota",
+    "text_readable": "@oscar.gaddress\n断片的な情報で恐縮なのですが、\n・台東区議会議員　本目さん\n　支援者と一緒に、Discord を使用しているとおっしゃっていました\n・公務員、市区町村職員では、まだDiscord の話をしたことはないです"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783166484.492589",
+    "client_msg_id": "37561aaa-f2dc-4a2a-90d8-0a45bee89e4e",
+    "text": "とんでもないです！ありがとうございます！！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ksoyA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とんでもないです！ありがとうございます！！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "小野翔太",
+    "text_readable": "とんでもないです！ありがとうございます！！"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1783185195.983679",
+    "client_msg_id": "123c55be-2e9b-416c-aefb-350e16fe5101",
+    "text": "ちなみに、現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qRdAt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみに、現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ちなみに、現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1783185253.134119",
+    "client_msg_id": "173cbca8-7b54-4635-82df-a7611853df10",
+    "text": "僕も入ってみたいです",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "grem1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕も入ってみたいです"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "僕も入ってみたいです"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783223660.396529",
+    "client_msg_id": "34a8c669-7533-49c3-8ef8-9f337713c8fd",
+    "text": "&gt; 現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？\n現在参加者は1人（渡し含めると2人）で、会話はされていません。\n全体お知らせでは参加できることを言っていないのと、メインはまだSlackで移行してないからかと思います。\n\n招待リンク送ります！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LzRAB",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在参加者は1人（渡し含めると2人）で、会話はされていません。\n全体お知らせでは参加できることを言っていないのと、メインはまだSlackで移行してないからかと思います。\n\n招待リンク送ります！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "小野翔太",
+    "text_readable": "> 現在Discordには何人くらい参加していて、実際に会話している方はどれくらいいるのでしょうか？\n現在参加者は1人（渡し含めると2人）で、会話はされていません。\n全体お知らせでは参加できることを言っていないのと、メインはまだSlackで移行してないからかと思います。\n\n招待リンク送ります！"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783298838.030299",
+    "client_msg_id": "a83f2f37-85c5-424f-b4e2-9f44516046ba",
+    "text": "discord もうあるんですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "y8Pcf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "discord もうあるんですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "discord もうあるんですか？"
+  },
+  {
+    "user": "U08JASQKEEM",
+    "type": "message",
+    "ts": "1783299023.422329",
+    "client_msg_id": "89d512d0-4e36-4055-b41a-199545062f4f",
+    "text": "まあ今もさほど一丸となって動いているわけでもないので、slack を close しないのが確定であれば当面 slack, discord 両方公式ですということにして、使いたい方を使ってくださいでいいんじゃないですかね、 discord 側が便利なら自然にそっちに人が寄ってくるでしょうし。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Q0B8V",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "まあ今もさほど一丸となって動いているわけでもないので、slack を close しないのが確定であれば当面 slack, discord 両方公式ですということにして、使いたい方を使ってくださいでいいんじゃないですかね、 discord 側が便利なら自然にそっちに人が寄ってくるでしょうし。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "まあ今もさほど一丸となって動いているわけでもないので、slack を close しないのが確定であれば当面 slack, discord 両方公式ですということにして、使いたい方を使ってくださいでいいんじゃないですかね、 discord 側が便利なら自然にそっちに人が寄ってくるでしょうし。"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1783303461.442909",
+    "client_msg_id": "36b542d1-37ba-421b-8b30-cf6ae23cd75f",
+    "text": "Discordあります。触ってみたい人用、テスト用で、全体お知らせなどで広めてないので、やり取りなどは全然ないですが。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1783165468.330609",
+    "parent_user_id": "U08HWJ80CHG",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uAmuw",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Discordあります。触ってみたい人用、テスト用で、全体お知らせなどで広めてないので、やり取りなどは全然ないですが。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1783165468.330609",
+    "user_name": "小野翔太",
+    "text_readable": "Discordあります。触ってみたい人用、テスト用で、全体お知らせなどで広めてないので、やり取りなどは全然ないですが。"
+  }
+]
