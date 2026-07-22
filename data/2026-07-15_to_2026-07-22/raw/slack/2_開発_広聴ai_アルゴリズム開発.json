@@ -1,0 +1,313 @@
+[
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784251997.126329",
+    "client_msg_id": "cb8e7185-f474-42cc-89a1-61ef1d27b371",
+    "text": "Fableにぶん投げて、広聴AIをペライチのHTMLにして、OpenAIのAPIKeyを設定画面から差し込むだけで動くようにしました。\n\n<https://github.com/tokoroten/kouchou-ai-serverless|github.com/tokoroten/kouchou-ai-serverless>\n<https://tokoroten.github.io/kouchou-ai-serverless/|tokoroten.github.io/kouchou-ai-serverless>\n\nまだデバッグ中です。\n正直、次のバージョンはこれでいいんじゃないかと思う",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "id": 1,
+        "color": "24292f",
+        "bot_id": "B08HGALULNT",
+        "bot_team_id": "T08FL58DC9K",
+        "app_unfurl_url": "https://github.com/tokoroten/kouchou-ai-serverless",
+        "is_app_unfurl": true,
+        "app_id": "A01BP7R4KNY",
+        "fallback": "tokoroten/kouchou-ai-serverless",
+        "text": "ブラウザだけで完結するブロードリスニングツール — 広聴AI(kouchou-ai)のサーバレス再実装",
+        "title": "tokoroten/kouchou-ai-serverless",
+        "fields": [
+          {
+            "value": "TypeScript",
+            "title": "Language",
+            "short": true
+          },
+          {
+            "value": "5 hours ago",
+            "title": "Last updated",
+            "short": true
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wBdgo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Fableにぶん投げて、広聴AIをペライチのHTMLにして、OpenAIのAPIKeyを設定画面から差し込むだけで動くようにしました。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/tokoroten/kouchou-ai-serverless",
+                "text": "github.com/tokoroten/kouchou-ai-serverless",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://tokoroten.github.io/kouchou-ai-serverless/",
+                "text": "tokoroten.github.io/kouchou-ai-serverless",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\n\nまだデバッグ中です。\n正直、次のバージョンはこれでいいんじゃないかと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HZ8JS0EQ",
+          "U08HWJ80CHG"
+        ],
+        "count": 2
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Fableにぶん投げて、広聴AIをペライチのHTMLにして、OpenAIのAPIKeyを設定画面から差し込むだけで動くようにしました。\n\n<https://github.com/tokoroten/kouchou-ai-serverless|github.com/tokoroten/kouchou-ai-serverless>\n<https://tokoroten.github.io/kouchou-ai-serverless/|tokoroten.github.io/kouchou-ai-serverless>\n\nまだデバッグ中です。\n正直、次のバージョンはこれでいいんじゃないかと思う"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784372080.775289",
+    "client_msg_id": "f01c6a99-6c03-474d-acb3-b62c995133a7",
+    "text": "openaiのapikeyを刺してるなら、画像生成できるので、ポンチ絵生成機能を入れる",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yesHM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "openaiのapikeyを刺してるなら、画像生成できるので、ポンチ絵生成機能を入れる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "openaiのapikeyを刺してるなら、画像生成できるので、ポンチ絵生成機能を入れる"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784397383.364479",
+    "client_msg_id": "6e1ff6b4-1f41-42b3-8885-8253332bd939",
+    "text": "<https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum|tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum>\n<https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum/sample-survey|tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum/sample-survey>\n\n賛否でクラスタを分割できるモードを積みました。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "iUcIb",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum",
+                "text": "tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum/sample-survey",
+                "text": "tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum/sample-survey",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\n\n賛否でクラスタを分割できるモードを積みました。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "cool",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "<https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum|tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum>\n<https://tokoroten.github.io/kouchou-ai-serverless/#/stance-spectrum/sample-survey|tokoroten.github.io/kouchou-ai-serverless#/stance-spectrum/sample-survey>\n\n賛否でクラスタを分割できるモードを積みました。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784397419.707269",
+    "client_msg_id": "f4d6246d-45a4-4d46-a0d4-aca30ffa853e",
+    "text": "スタンスのウェイトをデカくすると、賛否で分割するようになります。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "FV0ZT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "スタンスのウェイトをデカくすると、賛否で分割するようになります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "スタンスのウェイトをデカくすると、賛否で分割するようになります。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784433716.336899",
+    "client_msg_id": "fe5bf572-b616-4f0e-8b8a-a965e5951d7b",
+    "text": "ちなみにChromeに内蔵されたgemini nanoで動くようにしたので、gemini nanoを使えば無料で動作します。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EjBLH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ちなみにChromeに内蔵されたgemini nanoで動くようにしたので、gemini nanoを使えば無料で動作します。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ちなみにChromeに内蔵されたgemini nanoで動くようにしたので、gemini nanoを使えば無料で動作します。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1784448098.817249",
+    "client_msg_id": "B09BB434-3ABF-4130-AEFA-37B32987B26B",
+    "text": "すごい",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nmd9M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "すごい"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "すごい"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784449019.939609",
+    "client_msg_id": "f6d465d4-5671-455f-9ad9-7bd88432e413",
+    "text": "fableがスゴイ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IVkEh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "fableがスゴイ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "fableがスゴイ"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1784449352.587699",
+    "client_msg_id": "55b83560-3357-4b2f-ab73-50117e9f539f",
+    "text": "とりあえず、こいつをDD2030に移管するかどうかの話がしたいかなぁ",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "knQbG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "とりあえず、こいつをDD2030に移管するかどうかの話がしたいかなぁ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "とりあえず、こいつをDD2030に移管するかどうかの話がしたいかなぁ"
+  }
+]

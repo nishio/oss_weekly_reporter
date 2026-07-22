@@ -1,0 +1,18 @@
+[
+  {
+    "id": 4935154076,
+    "number": 506,
+    "title": "ci: チェックワークフローで npm ci を使用する",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/idobata/pull/506",
+    "user": "noritaka1166",
+    "created_at": "2026-07-21T03:39:14Z",
+    "body": "# 変更の概要\r\nGitHub Actions のチェックワークフローにおける依存関係のインストールを、`npm install` から `npm ci` に変更しました。\r\n\r\n# スクリーンショット\r\nUIの変更はないため、スクリーンショットはありません。\r\n\r\n# 変更の背景\r\nCIでは lockfile に基づいて依存関係を再現可能な状態でインストールするため、`npm ci` を使用します。\r\n\r\n# 関連Issue\r\nなし\r\n\r\n# CLAへの同意\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"- [ ]\" を \"- [x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました",
+    "additions": 1,
+    "deletions": 1,
+    "changed_files": 1,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]
