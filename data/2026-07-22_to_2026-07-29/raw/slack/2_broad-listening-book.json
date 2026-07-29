@@ -1,0 +1,884 @@
+[
+  {
+    "user": "U0AQQN267H7",
+    "type": "message",
+    "ts": "1784996774.407009",
+    "client_msg_id": "2afc1ee6-47a3-4609-a741-d24060adc09a",
+    "text": "今、英語版の更新作業を行っています。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Gv2H4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今、英語版の更新作業を行っています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "thanks_ありがとう",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U0AQQN267H7",
+    "text_readable": "今、英語版の更新作業を行っています。"
+  },
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1784999238.052699",
+    "edited": {
+      "user": "U08HGALUSH5",
+      "ts": "1784999304.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1742119439,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+        "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+        "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1784999238.052699",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1784999238.223919",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1784996939,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by lukec",
+        "text": "*日本語*\n\n*概要*\n\n• 確定した書籍タイトルの英語表記を *Broad Listening: Across Politics, Local Government, and Business* とする\n• プロジェクト概要と英語版の紹介文の両方を更新\n• 旧来の直訳調の表現と仮題表記を削除\n\n*直訳を採用しない理由*\n\n確定した日本語タイトル `政治・自治体・企業に広がるブロードリスニング` は、修飾節を名詞の前に置く日本語として自然な構造です。一方、“Broad Listening Spreading Across...” のような直訳は、文法的には成立するものの、英語では硬く不自然に響きます。タイトルとサブタイトルに分けることで、対象領域を維持しながら、英語として自然な表現にしています。\n本PRは、日本語タイトルを確定し、英語版資料を別途更新することとした <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144> の後続対応です。\n\n*検証*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open`（50ファイルのビルド成功）\n\n---\n\n*English*\n\n*Summary*\n\n• render the finalized title in English as *Broad Listening: Across Politics, Local Government, and Business*\n• update both the project overview and English introduction\n• remove the obsolete literal rendering and working-title language\n\n*Why this is not literal*\n\nThe finalized Japanese title, `政治・自治体・企業に広がるブロードリスニング`, uses a modifier-before-noun structure that reads naturally in Japanese. A literal English rendering such as “Broad Listening Spreading Across...” is grammatical but stiff. The title-and-subtitle treatment preserves the same domains while reading naturally in English.\nThis follows <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144>, which finalized the Japanese title and left English materials for a separate update.\n\n*Validation*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open` (50 files built successfully)",
+        "pretext": "Pull request opened by <https://github.com/lukec|lukec>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/145|#145 Use a natural English treatment of the final book title>",
+        "callback_id": "pr-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "fields": [
+          {
+            "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+            "title": "Reviewers",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:145,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/145&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Use a natural English treatment of the final book title&amp;amp;quot;}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1784999238.052699",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1784999238.052699",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1784999304.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1784999238.052699",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1784999238.223919",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1784996939,
+          "color": "36a64f",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by lukec",
+          "text": "*日本語*\n\n*概要*\n\n• 確定した書籍タイトルの英語表記を *Broad Listening: Across Politics, Local Government, and Business* とする\n• プロジェクト概要と英語版の紹介文の両方を更新\n• 旧来の直訳調の表現と仮題表記を削除\n\n*直訳を採用しない理由*\n\n確定した日本語タイトル `政治・自治体・企業に広がるブロードリスニング` は、修飾節を名詞の前に置く日本語として自然な構造です。一方、“Broad Listening Spreading Across...” のような直訳は、文法的には成立するものの、英語では硬く不自然に響きます。タイトルとサブタイトルに分けることで、対象領域を維持しながら、英語として自然な表現にしています。\n本PRは、日本語タイトルを確定し、英語版資料を別途更新することとした <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144> の後続対応です。\n\n*検証*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open`（50ファイルのビルド成功）\n\n---\n\n*English*\n\n*Summary*\n\n• render the finalized title in English as *Broad Listening: Across Politics, Local Government, and Business*\n• update both the project overview and English introduction\n• remove the obsolete literal rendering and working-title language\n\n*Why this is not literal*\n\nThe finalized Japanese title, `政治・自治体・企業に広がるブロードリスニング`, uses a modifier-before-noun structure that reads naturally in Japanese. A literal English rendering such as “Broad Listening Spreading Across...” is grammatical but stiff. The title-and-subtitle treatment preserves the same domains while reading naturally in English.\nThis follows <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144>, which finalized the Japanese title and left English materials for a separate update.\n\n*Validation*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open` (50 files built successfully)",
+          "pretext": "Pull request opened by <https://github.com/lukec|lukec>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/145|#145 Use a natural English treatment of the final book title>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:145,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/145&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Use a natural English treatment of the final book title&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1784999238.223919",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1784996939,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request ready for review by lukec",
+        "pretext": "Pull request ready for review by <https://github.com/lukec|lukec>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/145|#145 Use a natural English treatment of the final book title>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "parent_ts": "1784999238.052699",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1784999238.052699",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1784999238.052699",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1784999304.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_36.png",
+          "image_48": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_48.png",
+          "image_72": "https://avatars.slack-edge.com/2020-11-25/1527503386626_319578f21381f9641cd8_72.png"
+        },
+        "deleted": false,
+        "updated": 1742119439,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1784999238.052699",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1784999238.223919",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1784996939,
+          "color": "36a64f",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request opened by lukec",
+          "text": "*日本語*\n\n*概要*\n\n• 確定した書籍タイトルの英語表記を *Broad Listening: Across Politics, Local Government, and Business* とする\n• プロジェクト概要と英語版の紹介文の両方を更新\n• 旧来の直訳調の表現と仮題表記を削除\n\n*直訳を採用しない理由*\n\n確定した日本語タイトル `政治・自治体・企業に広がるブロードリスニング` は、修飾節を名詞の前に置く日本語として自然な構造です。一方、“Broad Listening Spreading Across...” のような直訳は、文法的には成立するものの、英語では硬く不自然に響きます。タイトルとサブタイトルに分けることで、対象領域を維持しながら、英語として自然な表現にしています。\n本PRは、日本語タイトルを確定し、英語版資料を別途更新することとした <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144> の後続対応です。\n\n*検証*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open`（50ファイルのビルド成功）\n\n---\n\n*English*\n\n*Summary*\n\n• render the finalized title in English as *Broad Listening: Across Politics, Local Government, and Business*\n• update both the project overview and English introduction\n• remove the obsolete literal rendering and working-title language\n\n*Why this is not literal*\n\nThe finalized Japanese title, `政治・自治体・企業に広がるブロードリスニング`, uses a modifier-before-noun structure that reads naturally in Japanese. A literal English rendering such as “Broad Listening Spreading Across...” is grammatical but stiff. The title-and-subtitle treatment preserves the same domains while reading naturally in English.\nThis follows <https://github.com/digitaldemocracy2030/broad-listening-book/pull/144|#144>, which finalized the Japanese title and left English materials for a separate update.\n\n*Validation*\n\n• `git diff --check`\n• `.venv/bin/python scripts/build_pdf.py --order en/book_order.txt --output output/broad-listening-book-en-latest.html --no-open` (50 files built successfully)",
+          "pretext": "Pull request opened by <https://github.com/lukec|lukec>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/145|#145 Use a natural English treatment of the final book title>",
+          "callback_id": "pr-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "<https://github.com/apps/copilot-pull-request-reviewer|@Copilot>",
+              "title": "Reviewers",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{&amp;amp;quot;selectedOrg&amp;amp;quot;:&amp;amp;quot;digitaldemocracy2030&amp;amp;quot;,&amp;amp;quot;selectedOrgId&amp;amp;quot;:203598308,&amp;amp;quot;selectedRepo&amp;amp;quot;:&amp;amp;quot;broad-listening-book&amp;amp;quot;,&amp;amp;quot;selectedRepoId&amp;amp;quot;:1067114386,&amp;amp;quot;number&amp;amp;quot;:145,&amp;amp;quot;htmlUrl&amp;amp;quot;:&amp;amp;quot;https://github.com/digitaldemocracy2030/broad-listening-book/pull/145&amp;amp;quot;,&amp;amp;quot;title&amp;amp;quot;:&amp;amp;quot;Use a natural English treatment of the final book title&amp;amp;quot;}",
+              "style": ""
+            }
+          ]
+        }
+      ]
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1784999238.223919",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1784996939,
+        "color": "36a64f",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Pull request ready for review by lukec",
+        "pretext": "Pull request ready for review by <https://github.com/lukec|lukec>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/pull/145|#145 Use a natural English treatment of the final book title>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "user": "U0AQQN267H7",
+    "type": "message",
+    "ts": "1784999371.751499",
+    "client_msg_id": "dc36ff5a-ccdf-4c3b-bd05-e73d4e6490a8",
+    "text": "英語タイトル更新のPR #145を作成し、Webサイトにも反映しました。<https://broadlisteningbook.com|broadlisteningbook.com> は更新済みです。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://broadlisteningbook.com/",
+        "id": 1,
+        "original_url": "https://broadlisteningbook.com",
+        "fallback": "Broad Listening: Across Politics, Local Government, and Business",
+        "text": "Broad Listening web book",
+        "title": "Broad Listening: Across Politics, Local Government, and Business",
+        "title_link": "https://broadlisteningbook.com/",
+        "service_name": "broadlisteningbook.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wwN42",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "英語タイトル更新のPR #145を作成し、Webサイトにも反映しました。"
+              },
+              {
+                "type": "link",
+                "url": "https://broadlisteningbook.com",
+                "text": "broadlisteningbook.com",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": " は更新済みです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08J6JR5SNQ"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "U0AQQN267H7",
+    "text_readable": "英語タイトル更新のPR #145を作成し、Webサイトにも反映しました。<https://broadlisteningbook.com|broadlisteningbook.com> は更新済みです。"
+  },
+  {
+    "user": "U0AQQN267H7",
+    "type": "message",
+    "ts": "1784999480.618839",
+    "client_msg_id": "94b44c43-e554-4ecf-89cf-eb792108007b",
+    "text": "来週末、皆さんとご一緒できたらよかったです！みんなで楽しんできてください。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zllBU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "来週末、皆さんとご一緒できたらよかったです！みんなで楽しんできてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08J6JR5SNQ"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "U0AQQN267H7",
+    "text_readable": "来週末、皆さんとご一緒できたらよかったです！みんなで楽しんできてください。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785117435.654859",
+    "client_msg_id": "CBEB087E-2D69-401A-B66A-B9C4B343678D",
+    "text": "<@U08J6JR5SNQ> \n執筆に関しては特に会合して議論する議題はない認識です。上記の進捗の話とLukeさんの英語版更新とを議事録に残しておくと良いかなと思います。\n\n週末のイベントに関して、何か話すことはありますか？\n僕の側は何も準備をしなくて良いと認識しているので何もしてませんが、登壇者情報をどこかにアップロードしろと言われたような気がしています。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Xi/lH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " \n執筆に関しては特に会合して議論する議題はない認識です。上記の進捗の話とLukeさんの英語版更新とを議事録に残しておくと良いかなと思います。\n\n週末のイベントに関して、何か話すことはありますか？\n僕の側は何も準備をしなくて良いと認識しているので何もしてませんが、登壇者情報をどこかにアップロードしろと言われたような気がしています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0AQQN267H7"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama \n執筆に関しては特に会合して議論する議題はない認識です。上記の進捗の話とLukeさんの英語版更新とを議事録に残しておくと良いかなと思います。\n\n週末のイベントに関して、何か話すことはありますか？\n僕の側は何も準備をしなくて良いと認識しているので何もしてませんが、登壇者情報をどこかにアップロードしろと言われたような気がしています。"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1785117534.178059",
+    "client_msg_id": "d619e3a4-7caf-4906-9c93-bc508fccf44d",
+    "text": "<@U08G2A216TW>\n資料に関しては、明日ぐわっと作るので、それを見てチェックしてもらえると嬉しいです。\n登壇者情報は以下にアップロードしてください。\n<https://dd2026.socious.io/speaker-onboarding/|dd2026.socious.io/speaker-onboarding>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://summit.dd2030.org/og/dd2026-og.jpg",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 182381,
+        "from_url": "https://dd2026.socious.io/speaker-onboarding/",
+        "service_icon": "https://dd2026.socious.io/brand/dd2030/favicons/apple-icon.png",
+        "id": 1,
+        "original_url": "https://dd2026.socious.io/speaker-onboarding/",
+        "fallback": "Digital Democracy Summit 2026: 登壇者プロフィール登録 — デジタル民主主義サミット2026",
+        "text": "2026年8月2日（日）、慶應義塾大学 三田キャンパス 北館ホールで開催するデジタル民主主義サミット。シビックテックの実践者・自治体・政党・研究者が一堂に集う一日。参加無料（約200名・多数の場合は抽選）。",
+        "title": "登壇者プロフィール登録 — デジタル民主主義サミット2026",
+        "title_link": "https://dd2026.socious.io/speaker-onboarding/",
+        "service_name": "Digital Democracy Summit 2026"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ei/27",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n資料に関しては、明日ぐわっと作るので、それを見てチェックしてもらえると嬉しいです。\n登壇者情報は以下にアップロードしてください。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2026.socious.io/speaker-onboarding/",
+                "text": "dd2026.socious.io/speaker-onboarding",
+                "truncated": true,
+                "style": {
+                  "underline": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu\n資料に関しては、明日ぐわっと作るので、それを見てチェックしてもらえると嬉しいです。\n登壇者情報は以下にアップロードしてください。\n<https://dd2026.socious.io/speaker-onboarding/|dd2026.socious.io/speaker-onboarding>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785117679.485929",
+    "client_msg_id": "B873F108-963F-48E8-92E9-564C20DF8B1B",
+    "text": "あと、イベントテーブルはまだ公開されてない認識であってますか？\n<@U08GJSBAX3K> とも何か話すようなことを聞いたような？という認識だけどその後どうなったか把握できてません",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L8yKz",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと、イベントテーブルはまだ公開されてない認識であってますか？\n"
+              },
+              {
+                "type": "user",
+                "user_id": "U08GJSBAX3K"
+              },
+              {
+                "type": "text",
+                "text": " とも何か話すようなことを聞いたような？という認識だけどその後どうなったか把握できてません"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あと、イベントテーブルはまだ公開されてない認識であってますか？\n@shutaro.aoyama とも何か話すようなことを聞いたような？という認識だけどその後どうなったか把握できてません"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785117756.856459",
+    "client_msg_id": "E13CF97F-A404-4AE7-AD8E-D6B28DA59870",
+    "text": "&gt;資料は明日作る\n今日の段階で特に口頭で話したいことがなさそうであれば会議はなしで良いかなと思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UJsAf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": ">資料は明日作る\n今日の段階で特に口頭で話したいことがなさそうであれば会議はなしで良いかなと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ">資料は明日作る\n今日の段階で特に口頭で話したいことがなさそうであれば会議はなしで良いかなと思います"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1785117958.438879",
+    "client_msg_id": "7bc5e590-4cfd-4ceb-b4de-513f208a434b",
+    "text": "現在のプログラムは以下のようになっています。\n<https://dd2026.socious.io/program/|dd2026.socious.io/program>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://summit.dd2030.org/og/dd2026-og.jpg",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 182381,
+        "from_url": "https://dd2026.socious.io/program/",
+        "service_icon": "https://dd2026.socious.io/brand/dd2030/favicons/apple-icon.png",
+        "id": 1,
+        "original_url": "https://dd2026.socious.io/program/",
+        "fallback": "Digital Democracy Summit 2026: プログラム — デジタル民主主義サミット2026",
+        "text": "2026年8月2日（日）10:00–18:30のプログラム。全体会・分科会のセッションと登壇者を掲載しています。",
+        "title": "プログラム — デジタル民主主義サミット2026",
+        "title_link": "https://dd2026.socious.io/program/",
+        "service_name": "Digital Democracy Summit 2026"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+J1iy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現在のプログラムは以下のようになっています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://dd2026.socious.io/program/",
+                "text": "dd2026.socious.io/program",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "現在のプログラムは以下のようになっています。\n<https://dd2026.socious.io/program/|dd2026.socious.io/program>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785119011.392799",
+    "client_msg_id": "38874F65-EC50-461C-86B1-AEDE1ECF4D5F",
+    "text": "僕が登壇者情報を出してないせいで載ってないんですかね、なる早でやっときます",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+eN59",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "僕が登壇者情報を出してないせいで載ってない"
+              },
+              {
+                "type": "text",
+                "text": "んですかね、なる早でやっときます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "僕が登壇者情報を出してないせいで載ってないんですかね、なる早でやっときます"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1785146420.035019",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/feh-cnpt-nhq",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/feh-cnpt-nhq",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/feh-cnpt-nhq",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "j00",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " 本日20時より、ブロードリスニング本執筆会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock9",
+                "unicode": "1f558"
+              },
+              {
+                "type": "text",
+                "text": " 20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/feh-cnpt-nhq"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M"
+              },
+              {
+                "type": "text",
+                "text": "\n• ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n• 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> 本日20時より、ブロードリスニング本執筆会議を開催します！:mega: :clock9: 20:00-21:00 :link: <https://meet.google.com/feh-cnpt-nhq> :memo: <https://docs.google.com/document/d/1plggszRTxEEYUcZuCLiHkPrBsMtxr3RQpctKtZe5y4M> • ブロードリスニング本執筆にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！ • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1785146617.312799",
+    "client_msg_id": "42e20e9e-fda9-4be0-a996-7c42dd677d89",
+    "text": "今日は客先なので、ないです。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "yDL1r",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日は客先なので、ないです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "今日は客先なので、ないです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785164222.306189",
+    "client_msg_id": "c07a5566-61ab-4541-ae5c-27fff9911886",
+    "text": "分科会って録画されるのかなぁ(裏の講演を聞きたい気持ちになる)",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rmsGo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分科会って録画されるのかなぁ(裏の講演を聞きたい気持ちになる)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "分科会って録画されるのかなぁ(裏の講演を聞きたい気持ちになる)"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1785165283.721829",
+    "client_msg_id": "d5b4ba9c-281e-4d30-b555-8373f73a1aef",
+    "text": "配信されるそうなので、録画はあるとは思う",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U4ms/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "配信されるそうなので、録画はあるとは思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "iine_",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "配信されるそうなので、録画はあるとは思う"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1785268656.640089",
+    "client_msg_id": "872483cb-7827-43c5-b46b-d90a02289d16",
+    "text": "<@U08G2A216TW>\n書きかけだけどひとまずこんな感じで、40分のセッションでフルフルに使うことになると思う。\n<https://www.dropbox.com/scl/fi/0ihk71pkaznjsvk2fq9g0/.pptx?rlkey=s4t6txs5hmawj1doj3jx3d1a5&amp;dl=0|dropbox.com/scl/fi/…/.pptx?rlkey=…&amp;dl=0>",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Aegh0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n書きかけだけどひとまずこんな感じで、40分のセッションでフルフルに使うことになると思う。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://www.dropbox.com/scl/fi/0ihk71pkaznjsvk2fq9g0/.pptx?rlkey=s4t6txs5hmawj1doj3jx3d1a5&dl=0",
+                "text": "dropbox.com/scl/fi/…/.pptx?rlkey=…&dl=0",
+                "truncated": true,
+                "unsafe": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "@nishio.hirokazu\n書きかけだけどひとまずこんな感じで、40分のセッションでフルフルに使うことになると思う。\n<https://www.dropbox.com/scl/fi/0ihk71pkaznjsvk2fq9g0/.pptx?rlkey=s4t6txs5hmawj1doj3jx3d1a5&dl=0|dropbox.com/scl/fi/…/.pptx?rlkey=…&dl=0>"
+  }
+]
