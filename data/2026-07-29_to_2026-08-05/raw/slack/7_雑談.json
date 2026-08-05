@@ -1,0 +1,444 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785631385.610479",
+    "client_msg_id": "5D1AC846-0F49-467D-B8D4-547D3D880E9E",
+    "text": "サミット参加者がワイワイ雑談するためのチャンネルを作りませんか？　<@U08HWJ80CHG> ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1785631385.610479",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1785632492.930919",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "DZNgB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "サミット参加者がワイワイ雑談するためのチャンネルを作りませんか？　"
+              },
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U0A821PG3PA",
+          "U08HWJ80CHG",
+          "U091ZN08WQH",
+          "U08H3V9KMFH",
+          "U08HKLUGE67"
+        ],
+        "count": 5
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "サミット参加者がワイワイ雑談するためのチャンネルを作りませんか？　@oscar.gaddress "
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1785632492.930919",
+    "client_msg_id": "F654B43C-D7DB-4645-8497-1031F1D6ACAE",
+    "text": "<#C0BME5MTWD8> 作りました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1785631385.610479",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "bT0sv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "channel",
+                "channel_id": "C0BME5MTWD8"
+              },
+              {
+                "type": "text",
+                "text": " 作りました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG",
+          "U08HKLUGE67"
+        ],
+        "count": 2
+      }
+    ],
+    "parent_ts": "1785631385.610479",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<#C0BME5MTWD8> 作りました！"
+  },
+  {
+    "user": "U097KN7URN1",
+    "type": "message",
+    "ts": "1785680504.477369",
+    "edited": {
+      "user": "U097KN7URN1",
+      "ts": "1785680696.000000"
+    },
+    "client_msg_id": "73205c27-4bbe-4bfa-bb6b-c053739b73f6",
+    "text": "サミットお疲れ様でした。\nもうご存知の方も多いかもしれませんが先日マイナウォレットと呼ばれるアプリケーションが出ました。（<https://www.mynawallet.jp/|マイナウォレット>）\nマイナウォレットではマイナンバーカードのJPKYを活用したミニアプリのSDKを開発者に提供するらしく、その先行パートナーを募集しているのでご参考までに。\n\n<https://miniapps.mynawallet.jp/|miniapps.mynawallet.jp>\n\nこれを使えばボットのいない議論空間が作れるし、個人情報を開示しないまま年齢や性別ごとに分類された議論空間が作れますし、ウォレットなのでインセンティブも発生させることができます。\n\n個人的にはヨーロッパの方で活躍されてる<https://vocdoni.io/en|Vocdoni>が作られてる<https://davinci.vote/|Davinci>を使ったインターネット投票をマイナウォレットで実現すれば面白いなと思っています。\n\nSDKが公開されたら僕も何かしら作ってみるつもりではいますが、先行パートナーは組織レベルを探してると思われるため自制してます。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://www.mynawallet.jp/",
+        "id": 1,
+        "original_url": "https://www.mynawallet.jp/",
+        "fallback": "マイナウォレット",
+        "text": "マイナンバーカードで便利なデジタル資産体験を。",
+        "title": "マイナウォレット",
+        "title_link": "https://www.mynawallet.jp/",
+        "service_name": "mynawallet.jp"
+      },
+      {
+        "image_url": "https://vocdoni.io/assets/static/vocdoni.D6clRUSm.webp",
+        "image_width": 2762,
+        "image_height": 557,
+        "image_bytes": 16044,
+        "from_url": "https://vocdoni.io/en",
+        "service_icon": "https://vocdoni.io/assets/static/favicon.BVTV8zCW.ico",
+        "id": 2,
+        "original_url": "https://vocdoni.io/en",
+        "fallback": "Secure online voting platform for organizations | Vocdoni",
+        "text": "Run secure, verifiable elections for your organization with legal evidence and audit trails. Start free, set up in minutes, no credit card needed.",
+        "title": "Secure online voting platform for organizations | Vocdoni",
+        "title_link": "https://vocdoni.io/en",
+        "service_name": "vocdoni.io"
+      },
+      {
+        "from_url": "https://davinci.vote/",
+        "id": 3,
+        "original_url": "https://davinci.vote/",
+        "fallback": "DAVINCI by Vocdoni",
+        "text": "The universal voting protocol",
+        "title": "DAVINCI by Vocdoni",
+        "title_link": "https://davinci.vote/",
+        "service_name": "davinci.vote"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Maoqy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "サミットお疲れ様でした。\nもうご存知の方も多いかもしれませんが先日マイナウォレットと呼ばれるアプリケーションが出ました。（"
+              },
+              {
+                "type": "link",
+                "url": "https://www.mynawallet.jp/",
+                "text": "マイナウォレット"
+              },
+              {
+                "type": "text",
+                "text": "）\nマイナウォレットではマイナンバーカードのJPKYを活用したミニアプリのSDKを開発者に提供するらしく、その先行パートナーを募集しているのでご参考までに。\n\n"
+              },
+              {
+                "type": "link",
+                "url": "https://miniapps.mynawallet.jp/",
+                "text": "miniapps.mynawallet.jp",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\n\nこれを使えばボットのいない議論空間が作れるし、個人情報を開示しないまま年齢や性別ごとに分類された議論空間が作れますし、ウォレットなのでインセンティブも発生させることができます。\n\n個人的にはヨーロッパの方で活躍されてる"
+              },
+              {
+                "type": "link",
+                "url": "https://vocdoni.io/en",
+                "text": "Vocdoni"
+              },
+              {
+                "type": "text",
+                "text": "が作られてる"
+              },
+              {
+                "type": "link",
+                "url": "https://davinci.vote/",
+                "text": "Davinci"
+              },
+              {
+                "type": "text",
+                "text": "を使ったインターネット投票をマイナウォレットで実現すれば面白いなと思っています。\n\nSDKが公開されたら僕も何かしら作ってみるつもりではいますが、先行パートナーは組織レベルを探してると思われるため自制してます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U0A7Q8YAH8U"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      },
+      {
+        "name": "あつい",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U097KN7URN1",
+    "text_readable": "サミットお疲れ様でした。\nもうご存知の方も多いかもしれませんが先日マイナウォレットと呼ばれるアプリケーションが出ました。（<https://www.mynawallet.jp/|マイナウォレット>）\nマイナウォレットではマイナンバーカードのJPKYを活用したミニアプリのSDKを開発者に提供するらしく、その先行パートナーを募集しているのでご参考までに。\n\n<https://miniapps.mynawallet.jp/|miniapps.mynawallet.jp>\n\nこれを使えばボットのいない議論空間が作れるし、個人情報を開示しないまま年齢や性別ごとに分類された議論空間が作れますし、ウォレットなのでインセンティブも発生させることができます。\n\n個人的にはヨーロッパの方で活躍されてる<https://vocdoni.io/en|Vocdoni>が作られてる<https://davinci.vote/|Davinci>を使ったインターネット投票をマイナウォレットで実現すれば面白いなと思っています。\n\nSDKが公開されたら僕も何かしら作ってみるつもりではいますが、先行パートナーは組織レベルを探してると思われるため自制してます。"
+  },
+  {
+    "text": "DD2030のSlackチャンネルは90日以上経過したメッセージが見られなくなってしまいますが、<https://www.beeper.com/|beeper.com> というサービスを使うと、Matrixという分散SNSのブリッジとしてSlackチャンネルを取り込めるので、90日以上前のメッセージも保存しておけます。\nBeeperのデスクトップアプリにはローカルMCPサーバー機能もあるので、Claudeなどを使って未読メッセージの要約などもできて便利です\n\nMatrix自体はOSSなので、自前でサーバ立てることもできます（自分はこちらでやってます）",
+    "files": [
+      {
+        "id": "F0BMJ0PLVK4",
+        "created": 1785724920,
+        "timestamp": 1785724920,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U0A7Q8YAH8U",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 1455396,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0BMJ0PLVK4/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0BMJ0PLVK4/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 228,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 304,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 455,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 506,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 607,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0BMJ0PLVK4-ec10670e42/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 648,
+        "original_w": 3248,
+        "original_h": 2054,
+        "thumb_tiny": "AwAfADDR5IbBGeg5o+YKOAT9e1C4BIA689P6/lS89OTx1oAQ9fvke3FOBB6Gjn60c+lABSHIxyaWkPSgAHQ/WjPH3SKBkZ6mk+bIzg/h3/OgA24YseR16dKXPGR+tGT6UZ9jQAtIenHrRn2NIdxI9PpQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0BMJ0PLVK4/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0BMJ0PLVK4-ce78511e90",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U0A7Q8YAH8U",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "OZnSF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DD2030のSlackチャンネルは90日以上経過したメッセージが見られなくなってしまいますが、"
+              },
+              {
+                "type": "link",
+                "url": "https://www.beeper.com/",
+                "text": "beeper.com",
+                "truncated": true,
+                "unsafe": true
+              },
+              {
+                "type": "text",
+                "text": " というサービスを使うと、Matrixという分散SNSのブリッジとしてSlackチャンネルを取り込めるので、90日以上前のメッセージも保存しておけます。\nBeeperのデスクトップアプリにはローカルMCPサーバー機能もあるので、Claudeなどを使って未読メッセージの要約などもできて便利です\n\nMatrix自体はOSSなので、自前でサーバ立てることもできます（自分はこちらでやってます）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1785725014.631499",
+    "client_msg_id": "19bb19be-af32-4685-b76d-0316c4fb2467",
+    "attachments": [
+      {
+        "from_url": "https://www.beeper.com/",
+        "image_url": "https://www.beeper.com/wp-content/themes/beeper-site/assets/img/opengraph-image.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 390893,
+        "service_icon": "https://i0.wp.com/www.beeper.com/wp-content/uploads/2026/05/beeper-favicon.png?fit=180%2C180&amp;ssl=1",
+        "id": 1,
+        "original_url": "https://www.beeper.com/",
+        "fallback": "Beeper: Beeper — All your chats in one app",
+        "text": "Get the most popular messaging services, all in a single app. WhatsApp, Signal, Instagram, Telegram, and more.",
+        "title": "Beeper — All your chats in one app",
+        "title_link": "https://www.beeper.com/",
+        "service_name": "Beeper"
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U0A7Q8YAH8U",
+    "text_readable": "DD2030のSlackチャンネルは90日以上経過したメッセージが見られなくなってしまいますが、<https://www.beeper.com/|beeper.com> というサービスを使うと、Matrixという分散SNSのブリッジとしてSlackチャンネルを取り込めるので、90日以上前のメッセージも保存しておけます。\nBeeperのデスクトップアプリにはローカルMCPサーバー機能もあるので、Claudeなどを使って未読メッセージの要約などもできて便利です\n\nMatrix自体はOSSなので、自前でサーバ立てることもできます（自分はこちらでやってます）"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1785816201.540819",
+    "client_msg_id": "6055c407-b1cb-4811-aafd-c22a22c81484",
+    "text": "<@U0A77QV20BF>\n先日はお疲れ様でした！\n教えていただいた、閉会式でオードリーさんの言っていた返答サイト、下記のようです！既知でしたらすみません。\n<https://audreyt.org/dd#room-lc|audreyt.org/dd#…>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://audreyt.org/og-dd.jpg",
+        "image_width": 1200,
+        "image_height": 675,
+        "image_bytes": 252422,
+        "from_url": "https://audreyt.org/dd#room-lc",
+        "service_icon": "https://audreyt.org/favicon.ico",
+        "ts": 1785596400,
+        "id": 1,
+        "original_url": "https://audreyt.org/dd#room-lc",
+        "fallback": "Audrey Tang 唐鳳: ループを、閉じる ——DD2026 · オードリー・タン",
+        "text": "Audrey Tang's closing remarks at Digital Democracy Summit 2026, with written answers to all 266 Slido questions across 18 rooms: a receipt anyone can inspect.",
+        "title": "ループを、閉じる ——DD2026 · オードリー・タン",
+        "title_link": "https://audreyt.org/dd#room-lc",
+        "service_name": "Audrey Tang 唐鳳"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Z9iwQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U0A77QV20BF"
+              },
+              {
+                "type": "text",
+                "text": "\n先日はお疲れ様でした！\n教えていただいた、閉会式でオードリーさんの言っていた返答サイト、下記のようです！既知でしたらすみません。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://audreyt.org/dd#room-lc",
+                "text": "audreyt.org/dd#…",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<@U0A77QV20BF>\n先日はお疲れ様でした！\n教えていただいた、閉会式でオードリーさんの言っていた返答サイト、下記のようです！既知でしたらすみません。\n<https://audreyt.org/dd#room-lc|audreyt.org/dd#…>"
+  },
+  {
+    "user": "U0A77QV20BF",
+    "type": "message",
+    "ts": "1785816557.132009",
+    "client_msg_id": "a09fdb36-f3fe-4727-8e33-dc9c9598b9f9",
+    "text": "ありがとうございます！これはありがたいです！\n\nサミット運営からの一斉メールで、配信の音に問題があったことを知りました。配信決めたのが直前ですから、そりゃあそうなりますよね。\n\n今回の最大の収穫は、懇親会後に小野さんと飲みながら色々とお話出来たことでした(まじで)。今後ともよろしくお願いします！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "e/CBO",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！これはありがたいです！\n\nサミット運営からの一斉メールで、配信の音に問題があったことを知りました。配信決めたのが直前ですから、そりゃあそうなりますよね。\n\n今回の最大の収穫は、懇親会後に小野さんと飲みながら色々とお話出来たことでした(まじで)。今後ともよろしくお願いします！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "blush",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U0A77QV20BF",
+    "text_readable": "ありがとうございます！これはありがたいです！\n\nサミット運営からの一斉メールで、配信の音に問題があったことを知りました。配信決めたのが直前ですから、そりゃあそうなりますよね。\n\n今回の最大の収穫は、懇親会後に小野さんと飲みながら色々とお話出来たことでした(まじで)。今後ともよろしくお願いします！"
+  }
+]
