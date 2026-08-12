@@ -1,0 +1,121 @@
+[
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1786183207.212389",
+    "bot_id": "B01",
+    "text": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "https://meet.google.com/fhn-rcoj-sci",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "https://meet.google.com/fhn-rcoj-sci",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "https://meet.google.com/fhn-rcoj-sci",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "metadata": {
+      "event_type": "slack_system.reminders.posted_in_channel"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kBV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": " 1時間後より、全体定例会を開催します！\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock8",
+                "unicode": "1f557"
+              },
+              {
+                "type": "text",
+                "text": " 時刻\n20:00-21:00\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "text",
+                "text": " Google Meet\n"
+              },
+              {
+                "type": "link",
+                "url": "https://meet.google.com/fhn-rcoj-sci"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "text",
+                "text": " 議事録\n"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I"
+              },
+              {
+                "type": "text",
+                "text": "\n\n• プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です\n• どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください\n\n"
+              },
+              {
+                "type": "emoji",
+                "name": "open_file_folder",
+                "unicode": "1f4c2"
+              },
+              {
+                "type": "text",
+                "text": "過去の録画格納先\n"
+              },
+              {
+                "type": "link",
+                "url": "https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <!here> :mega: 1時間後より、全体定例会を開催します！ :clock8: 時刻 20:00-21:00 :link: Google Meet <https://meet.google.com/fhn-rcoj-sci> :memo: 議事録 <https://docs.google.com/document/d/1tBhaer67U9LbASfqPrg0rpmv0Tt4K7zFUTTzscKXj_I>  • プロジェクトにまつわる進捗報告・相談・TODOの決定を行う会です • どなたでも参加歓迎です！興味ある方はぜひ覗きに来てください  :open_file_folder:過去の録画格納先 <https://drive.google.com/drive/folders/1H55HTB0_rwargUwUJvEPg76Wz13i2-bp?usp=sharing>"
+  }
+]
