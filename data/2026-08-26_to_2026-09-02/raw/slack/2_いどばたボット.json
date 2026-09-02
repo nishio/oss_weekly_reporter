@@ -1,0 +1,203 @@
+[
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08JASQKEEM",
+    "thread_ts": "1786969129.839679",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1786969129.839679",
+      "client_msg_id": "0153554a-116a-4ba8-af59-966982ed7cf7",
+      "text": "考えと質問を書いておきました\n<https://docs.google.com/document/d/1Wl5xCUkv2U8MkhW8-wLWr5TuLcDIpY2SFAnneKYL6Rk/edit?tab=t.0#heading=h.yebrnper6rct|docs.google.com/document/d/1Wl5xCUkv2U8…/edit?tab=t.0#heading=h.yebrnper6rct>",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1786969129.839679",
+      "reply_count": 7,
+      "reply_users_count": 4,
+      "latest_reply": "1787974420.214609",
+      "reply_users": [
+        "U08JASQKEEM",
+        "U08G2A216TW",
+        "U08J6JR5SNQ",
+        "U08GJSBAX3K"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6tm75",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "考えと質問を書いておきました\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://docs.google.com/document/d/1Wl5xCUkv2U8MkhW8-wLWr5TuLcDIpY2SFAnneKYL6Rk/edit?tab=t.0#heading=h.yebrnper6rct",
+                  "text": "docs.google.com/document/d/1Wl5xCUkv2U8…/edit?tab=t.0#heading=h.yebrnper6rct",
+                  "truncated": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1787795405.699949",
+    "edited": {
+      "user": "U08JASQKEEM",
+      "ts": "1787795621.000000"
+    },
+    "client_msg_id": "9e7c4ad7-7c45-40d0-9904-a03567992b2a",
+    "text": "書きました\n\n> • 着想した時は今ほど coding agent がちゃんとしてなかった。現在状況から考えると\n>     ◦ 内製ツール的なもの、情報が閉じていて自己完結的なサービスは各自治体がそれぞれ作ればよく、こちらで作って提供する意味がない\n>         ▪︎ いどばたBotはこれに該当するのでもはや作る意義がない気がしている\n>         ▪︎ その方向でやるなら skill 的なものテキストを提供するといいのでは (AI利用のありがちな落とし穴など)\n>     ◦ 今なお価値があるのは自治体横断的なシステム\n>         ▪︎ 個々の自治体単独では作れない\n>         ▪︎ 情報をやり取りする共通プロトコルとかフォーマットとか\n>         ▪︎ 市民のサインイン基盤 (これは割と欲しい)\n> ",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Nv1Jf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "書きました\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "着想した時は今ほど coding agent がちゃんとしてなかった。現在状況から考えると"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "内製ツール的なもの、情報が閉じていて自己完結的なサービスは各自治体がそれぞれ作ればよく、こちらで作って提供する意味がない"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "いどばたBotはこれに該当するのでもはや作る意義がない気がしている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "その方向でやるなら skill 的なものテキストを提供するといいのでは (AI利用のありがちな落とし穴など)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今なお価値があるのは自治体横断的なシステム"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 1
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "個々の自治体単独では作れない"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "情報をやり取りする共通プロトコルとかフォーマットとか"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "市民のサインイン基盤 (これは割と欲しい)"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 2,
+            "border": 1
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW",
+          "U0ATS7U6NE6"
+        ],
+        "count": 2
+      }
+    ],
+    "user_name": "Ohkubo KOHEI (kuboon)",
+    "text_readable": "書きました\n\n> • 着想した時は今ほど coding agent がちゃんとしてなかった。現在状況から考えると\n>     ◦ 内製ツール的なもの、情報が閉じていて自己完結的なサービスは各自治体がそれぞれ作ればよく、こちらで作って提供する意味がない\n>         ▪︎ いどばたBotはこれに該当するのでもはや作る意義がない気がしている\n>         ▪︎ その方向でやるなら skill 的なものテキストを提供するといいのでは (AI利用のありがちな落とし穴など)\n>     ◦ 今なお価値があるのは自治体横断的なシステム\n>         ▪︎ 個々の自治体単独では作れない\n>         ▪︎ 情報をやり取りする共通プロトコルとかフォーマットとか\n>         ▪︎ 市民のサインイン基盤 (これは割と欲しい)\n> "
+  }
+]
