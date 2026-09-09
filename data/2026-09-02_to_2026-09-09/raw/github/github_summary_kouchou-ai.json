@@ -1,0 +1,473 @@
+{
+  "period": {
+    "start": "2026-09-02T17:00:57.716135+09:00",
+    "end": "2026-09-09T17:00:57.716135+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 5378637891,
+      "number": 916,
+      "title": "[FEATURE] OpenAIのAPIをFlex-Processingにしてコストを半額にする",
+      "state": "closed"
+    },
+    {
+      "id": 5378239367,
+      "number": 915,
+      "title": "[BUG] ラベル生成の部分失敗を正常完了扱いしない（#905の残件）",
+      "state": "closed"
+    },
+    {
+      "id": 5362294768,
+      "number": 909,
+      "title": "[FEATURE] LLMモデル一覧・料金情報を更新しやすい構造にする",
+      "state": "closed"
+    },
+    {
+      "id": 5362289475,
+      "number": 908,
+      "title": "[BUG] Azure OpenAI 選択時にモデル選択が実際のLLM呼び出しに反映されない",
+      "state": "closed"
+    },
+    {
+      "id": 5362259615,
+      "number": 907,
+      "title": "[FEATURE] Gemini 3.8 Flash / 3.5 Flash-Lite を選択できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 5361489550,
+      "number": 906,
+      "title": "[FEATURE] GPT-5.6 Terra / Luna を選択できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 5361462678,
+      "number": 905,
+      "title": "[BUG] LLM呼び出し失敗時に一部回答が欠落したままレポート生成が完了する",
+      "state": "closed"
+    },
+    {
+      "id": 4547850449,
+      "number": 884,
+      "title": "[FEATURE] レポート作成前に入力・コスト・API状態を確認できるパネルを追加する",
+      "state": "closed"
+    },
+    {
+      "id": 4542703724,
+      "number": 878,
+      "title": "[DOCUMENT] AI エージェントを使うコントリビュータ向けの作業導線を 1 か所にまとめる",
+      "state": "closed"
+    },
+    {
+      "id": 4542701930,
+      "number": 877,
+      "title": "[DOCUMENT] Windows セットアップガイドの前提条件と失敗時の分岐を current main に合わせて整理する",
+      "state": "closed"
+    },
+    {
+      "id": 4523574228,
+      "number": 872,
+      "title": "[FEATURE] スマホ環境では散布図と別ビューを提供する方針を検討する",
+      "state": "closed"
+    },
+    {
+      "id": 4475541844,
+      "number": 838,
+      "title": "Evaluate output artifact validation for analysis-core CLI",
+      "state": "closed"
+    },
+    {
+      "id": 3340746647,
+      "number": 696,
+      "title": "[FEATURE] 広聴AIで作成したレポートを誤って解釈をしないようにする",
+      "state": "closed"
+    },
+    {
+      "id": 3292457041,
+      "number": 690,
+      "title": "[REFACTOR] ts-node-dev はメンテナンスされなくなっているようなので別パッケージに変えたほうがいいかもしれない",
+      "state": "closed"
+    },
+    {
+      "id": 3211674986,
+      "number": 639,
+      "title": "[FEATURE]タイトルや概要空欄の状態でCSVをD&Dしたときファイル名を入れる",
+      "state": "closed"
+    },
+    {
+      "id": 3085808288,
+      "number": 566,
+      "title": "[FEATURE] データの有無に応じた UI のパターンを確認しやすくする",
+      "state": "closed"
+    },
+    {
+      "id": 3070625370,
+      "number": 528,
+      "title": "[design]レポート詳細>階層図にてグラフ下の説明文を階層図の内容に変更",
+      "state": "closed"
+    },
+    {
+      "id": 3061512551,
+      "number": 514,
+      "title": "[FEATURE] Extructionで並列実行した結果をソートしてから保存する",
+      "state": "closed"
+    },
+    {
+      "id": 3054727810,
+      "number": 478,
+      "title": "[BUG] Clientの意見の説明が禁則処理ができていない",
+      "state": "closed"
+    },
+    {
+      "id": 3054606101,
+      "number": 477,
+      "title": "[REFACTOR] Azureのモデル選択の不整合の修正",
+      "state": "closed"
+    },
+    {
+      "id": 3054275789,
+      "number": 473,
+      "title": "[FEATURE] 環境検証ページに、Azure、OpenRouter、LocalLLMを付ける",
+      "state": "closed"
+    },
+    {
+      "id": 3045474005,
+      "number": 452,
+      "title": "[FEATURE]LLM呼び出しのタイムアウトを変更できるようにしてほしい",
+      "state": "closed"
+    },
+    {
+      "id": 3028084834,
+      "number": 391,
+      "title": "レポート作成時にAPIが正常でない場合にわかりやすいエラーを出す",
+      "state": "closed"
+    },
+    {
+      "id": 3019714231,
+      "number": 379,
+      "title": "E2Eテスト導入計画 (E2E Testing Implementation Plan)",
+      "state": "closed"
+    },
+    {
+      "id": 3014089385,
+      "number": 367,
+      "title": "[DOCUMENT] 元データの特徴に合わせたextractionプロンプトのガイドライン",
+      "state": "closed"
+    },
+    {
+      "id": 3001208233,
+      "number": 318,
+      "title": "[FEATURE] 意見を抽出できなかったときのエラーハンドリング",
+      "state": "closed"
+    },
+    {
+      "id": 2991108744,
+      "number": 305,
+      "title": "[FEATURE]CSVアップロード時にタイトルや説明文を自動で埋めてほしい",
+      "state": "closed"
+    },
+    {
+      "id": 2990889159,
+      "number": 294,
+      "title": "[FEATURE]ラベルが多い時の重なりの問題",
+      "state": "closed"
+    },
+    {
+      "id": 2990818818,
+      "number": 287,
+      "title": "[DOCUMENT]Windows向けのセットアップ手順",
+      "state": "closed"
+    },
+    {
+      "id": 2990635491,
+      "number": 283,
+      "title": "[BUG]ScatterChartの全画面表示で要約文が「全画面終了」ボタンの後ろに隠れないようにする処理が不安定",
+      "state": "closed"
+    },
+    {
+      "id": 5396416883,
+      "number": 939,
+      "title": "[FEATURE] shell配布物にレポート別title・noindexを反映する（#935由来）",
+      "state": "created"
+    },
+    {
+      "id": 5383994477,
+      "number": 921,
+      "title": "ブラウザ版（kouchou-ai-serverless）を広聴AIの本流とするかの議論",
+      "state": "created"
+    },
+    {
+      "id": 5376872414,
+      "number": 913,
+      "title": "[TEST] Gemini 3.8 Flash / 3.5 Flash-Liteの実API動作を検証する",
+      "state": "created"
+    },
+    {
+      "id": 5376872208,
+      "number": 912,
+      "title": "[TEST] GPT-5.6 Terra / Lunaの実API動作を検証する",
+      "state": "created"
+    },
+    {
+      "id": 4556720303,
+      "number": 885,
+      "title": "[FEATURE] Windows単一実行ファイル配布に向けて Web UI の Node runtime 依存をなくす",
+      "state": "updated"
+    },
+    {
+      "id": 4542700437,
+      "number": 876,
+      "title": "[DOCUMENT] README / docs の開発者向け導線を current main に合わせて整理する",
+      "state": "updated"
+    },
+    {
+      "id": 3085030525,
+      "number": 564,
+      "title": "活用事例を集めて公開する",
+      "state": "updated"
+    },
+    {
+      "id": 3061488108,
+      "number": 513,
+      "title": "[FEATURE] 再現性を選べる分析設定と比較条件を整理する",
+      "state": "updated"
+    },
+    {
+      "id": 3058569484,
+      "number": 496,
+      "title": "[DOCKER] なしでも動かせるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 3057175497,
+      "number": 493,
+      "title": "[FEATURE] レポートページを見ようとスクロールすると図が拡大縮小される",
+      "state": "updated"
+    },
+    {
+      "id": 3044948581,
+      "number": 450,
+      "title": "[FEATURE]エンベデッドモデルを選択可能にする",
+      "state": "updated"
+    },
+    {
+      "id": 3029891330,
+      "number": 395,
+      "title": "管理画面のe2eテスト拡張ケース",
+      "state": "updated"
+    },
+    {
+      "id": 2990804598,
+      "number": 285,
+      "title": "[FEATURE]利用可能なLLMを増やす",
+      "state": "updated"
+    },
+    {
+      "id": 2979959784,
+      "number": 266,
+      "title": "[FEATURE]クラスタ数が増えた場合に散布図上でクラスタラベルが被ってしまう",
+      "state": "updated"
+    },
+    {
+      "id": 2978426960,
+      "number": 250,
+      "title": "[FEATURE]階層図で一番下まで到達した時には原文を見せても良いのではないか",
+      "state": "updated"
+    },
+    {
+      "id": 2940417589,
+      "number": 130,
+      "title": "[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい",
+      "state": "updated"
+    },
+    {
+      "id": 2926967566,
+      "number": 79,
+      "title": "[FEATURE]CSVアップロード時にそれを処理した場合のコストを表示",
+      "state": "updated"
+    },
+    {
+      "id": 2922752696,
+      "number": 56,
+      "title": "[FEATURE] 元コメントの表示機能",
+      "state": "updated"
+    },
+    {
+      "id": 2922751037,
+      "number": 55,
+      "title": "[FEATURE] 濃いクラスタのしきい値のデフォルト値をレポートごとに設定できるようにする",
+      "state": "updated"
+    },
+    {
+      "id": 2922746686,
+      "number": 52,
+      "title": "[FEATURE] チャート表示に連動した文章表示",
+      "state": "updated"
+    },
+    {
+      "id": 2893835579,
+      "number": 11,
+      "title": "[FEATURE]レポート出力にかかる時間の目安を記載する",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 5396262875,
+      "number": 938,
+      "title": "fix(public-viewer): shell一覧のhydrationエラーを解消",
+      "state": "merged"
+    },
+    {
+      "id": 5394187973,
+      "number": 936,
+      "title": "docs: export ビルドで OGP 画像が生成されない点を訂正 (#885)",
+      "state": "merged"
+    },
+    {
+      "id": 5394160244,
+      "number": 935,
+      "title": "feat(public-viewer): データ非依存な静的出力 (shell ビルド) を追加 (#885)",
+      "state": "merged"
+    },
+    {
+      "id": 5392284115,
+      "number": 934,
+      "title": "fix(llm): make OpenAI Flex Processing work for GPT-5/6 and harden it (#917 follow-up)",
+      "state": "merged"
+    },
+    {
+      "id": 5388734184,
+      "number": 933,
+      "title": "fix: 日本語・全画面・スマホの閲覧を改善し状態カタログを追加",
+      "state": "merged"
+    },
+    {
+      "id": 5388668590,
+      "number": 932,
+      "title": "fix: static-site-builderの開発起動をtsxに移行",
+      "state": "merged"
+    },
+    {
+      "id": 5388663746,
+      "number": 931,
+      "title": "feat: 完成レポートの参照整合性を任意で検査する",
+      "state": "merged"
+    },
+    {
+      "id": 5388564298,
+      "number": 930,
+      "title": "docs: 入力特性に応じた抽出プロンプトの比較手順を追加",
+      "state": "merged"
+    },
+    {
+      "id": 5388444758,
+      "number": 929,
+      "title": "docs: Windows導入の対象環境と失敗時の確認順を明確化",
+      "state": "merged"
+    },
+    {
+      "id": 5388444077,
+      "number": 928,
+      "title": "fix: 抽出失敗と正常0件の原文付き診断を残す",
+      "state": "merged"
+    },
+    {
+      "id": 5388240342,
+      "number": 927,
+      "title": "fix: 階層図の現在位置と説明一覧を連動させる",
+      "state": "merged"
+    },
+    {
+      "id": 5387119547,
+      "number": 926,
+      "title": "選択したprovider・モデル・ローカル接続先でチャット接続を確認する",
+      "state": "merged"
+    },
+    {
+      "id": 5387005616,
+      "number": 925,
+      "title": "AIエージェントのIssue着手からPRまでの作業導線を集約する",
+      "state": "merged"
+    },
+    {
+      "id": 5386967681,
+      "number": 924,
+      "title": "レポートに読み方ガイドを表示し、件数の誤解釈を防ぐ",
+      "state": "merged"
+    },
+    {
+      "id": 5384809991,
+      "number": 923,
+      "title": "CSVの形式エラーを修正方法付きで表示し、古い入力の再利用を防ぐ",
+      "state": "merged"
+    },
+    {
+      "id": 5384012044,
+      "number": 922,
+      "title": "レポート作成前に入力とAPI接続状態を確認できる画面を追加する",
+      "state": "merged"
+    },
+    {
+      "id": 5383920308,
+      "number": 920,
+      "title": "LLM呼び出しのタイムアウトを環境変数で設定できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 5383727965,
+      "number": 919,
+      "title": "ラベル生成の失敗を検知して後続処理を停止する",
+      "state": "merged"
+    },
+    {
+      "id": 5383697261,
+      "number": 918,
+      "title": "CSVファイル名から未入力のタイトルと調査概要を補完する",
+      "state": "merged"
+    },
+    {
+      "id": 5377014409,
+      "number": 914,
+      "title": "モデルカタログを統一し新モデルを動作未確認で選択可能にする",
+      "state": "merged"
+    },
+    {
+      "id": 5376323190,
+      "number": 911,
+      "title": "Azure利用時のモデル選択を無効化し、サーバー設定の利用を明示する",
+      "state": "merged"
+    },
+    {
+      "id": 5374863559,
+      "number": 910,
+      "title": "fix: 意見抽出の部分失敗を検知して分析を中断する (#905)",
+      "state": "merged"
+    },
+    {
+      "id": 4994507007,
+      "number": 904,
+      "title": "Bump next from 16.2.6 to 16.2.11 in /utils/dummy-server",
+      "state": "merged"
+    },
+    {
+      "id": 4757760845,
+      "number": 903,
+      "title": "docs: Web UI の Node runtime 依存インベントリを追加 (#885)",
+      "state": "merged"
+    },
+    {
+      "id": 5396246529,
+      "number": 937,
+      "title": "chore(deps): bump next from 16.2.11 to 16.3.3 in /utils/dummy-server",
+      "state": "created"
+    },
+    {
+      "id": 5378644223,
+      "number": 917,
+      "title": "Enable OpenAI Flex Processing for GPT-5/6 models",
+      "state": "created"
+    }
+  ]
+}
