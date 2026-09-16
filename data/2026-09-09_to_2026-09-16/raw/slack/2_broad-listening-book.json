@@ -1,0 +1,326 @@
+[
+  {
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1789076398.961199",
+    "edited": {
+      "user": "U08HGALUSH5",
+      "ts": "1789076399.000000"
+    },
+    "bot_id": "B08HGALULNT",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "team": "T08FL58DC9K",
+    "bot_profile": {
+      "id": "B08HGALULNT",
+      "deleted": false,
+      "name": "GitHub",
+      "updated": 1787153800,
+      "app_id": "A01BP7R4KNY",
+      "user_id": "U08HGALUSH5",
+      "icons": {
+        "image_36": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_36.png",
+        "image_48": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_48.png",
+        "image_72": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_72.png"
+      },
+      "team_id": "T08FL58DC9K"
+    },
+    "thread_ts": "1789076398.961199",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1789076399.419969",
+    "reply_users": [
+      "U08HGALUSH5"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1772121381,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by frank01945",
+        "text": "My reading vision is limited but I can listen to a pdf.. Is there any way for me to download a pdf? thanks!",
+        "pretext": "Issue created by <https://github.com/frank01945|frank01945>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/47|#47 pdf of English version?>",
+        "callback_id": "issue-opened-interaction",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+        "fields": [
+          {
+            "value": "3",
+            "title": "Comments",
+            "short": true
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ],
+        "actions": [
+          {
+            "id": "1",
+            "name": "comment",
+            "text": "Comment",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+            "style": ""
+          },
+          {
+            "id": "2",
+            "name": "edit",
+            "text": "Edit",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+            "style": ""
+          },
+          {
+            "id": "3",
+            "name": "reopen",
+            "text": "Reopen",
+            "type": "button",
+            "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+            "style": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "event_type": "github_notification"
+    },
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1789076398.961199",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1789076398.961199",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1789076399.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_36.png",
+          "image_48": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_48.png",
+          "image_72": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_72.png"
+        },
+        "deleted": false,
+        "updated": 1787153800,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1789076398.961199",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1789076399.419969",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1772121381,
+          "color": "8250df",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by frank01945",
+          "text": "My reading vision is limited but I can listen to a pdf.. Is there any way for me to download a pdf? thanks!",
+          "pretext": "Issue created by <https://github.com/frank01945|frank01945>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/47|#47 pdf of English version?>",
+          "callback_id": "issue-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "3",
+              "title": "Comments",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            },
+            {
+              "id": "2",
+              "name": "edit",
+              "text": "Edit",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            },
+            {
+              "id": "3",
+              "name": "reopen",
+              "text": "Reopen",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "event_type": "github_notification"
+      }
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1789076399.419969",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1772121381,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue closed as completed by tokoroten",
+        "pretext": "Issue closed as completed by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/47|#47 pdf of English version?>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "metadata": {
+      "event_type": "github_notification"
+    },
+    "parent_ts": "1789076398.961199",
+    "user_name": "GitHub",
+    "text_readable": ""
+  },
+  {
+    "subtype": "thread_broadcast",
+    "bot_id": "B08HGALULNT",
+    "thread_ts": "1789076398.961199",
+    "root": {
+      "user": "U08HGALUSH5",
+      "type": "message",
+      "ts": "1789076398.961199",
+      "edited": {
+        "user": "U08HGALUSH5",
+        "ts": "1789076399.000000"
+      },
+      "bot_id": "B08HGALULNT",
+      "app_id": "A01BP7R4KNY",
+      "text": "",
+      "team": "T08FL58DC9K",
+      "bot_profile": {
+        "id": "B08HGALULNT",
+        "app_id": "A01BP7R4KNY",
+        "user_id": "U08HGALUSH5",
+        "name": "GitHub",
+        "icons": {
+          "image_36": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_36.png",
+          "image_48": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_48.png",
+          "image_72": "https://avatars.slack-edge.com/2026-08-18/11845653794883_611d8be3e7fdc9662973_72.png"
+        },
+        "deleted": false,
+        "updated": 1787153800,
+        "team_id": "T08FL58DC9K"
+      },
+      "thread_ts": "1789076398.961199",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1789076399.419969",
+      "reply_users": [
+        "U08HGALUSH5"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "id": 1,
+          "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+          "ts": 1772121381,
+          "color": "8250df",
+          "fallback": "[digitaldemocracy2030/broad-listening-book] Issue opened by frank01945",
+          "text": "My reading vision is limited but I can listen to a pdf.. Is there any way for me to download a pdf? thanks!",
+          "pretext": "Issue created by <https://github.com/frank01945|frank01945>",
+          "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/47|#47 pdf of English version?>",
+          "callback_id": "issue-opened-interaction",
+          "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>",
+          "fields": [
+            {
+              "value": "3",
+              "title": "Comments",
+              "short": true
+            }
+          ],
+          "mrkdwn_in": [
+            "text"
+          ],
+          "actions": [
+            {
+              "id": "1",
+              "name": "comment",
+              "text": "Comment",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            },
+            {
+              "id": "2",
+              "name": "edit",
+              "text": "Edit",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            },
+            {
+              "id": "3",
+              "name": "reopen",
+              "text": "Reopen",
+              "type": "button",
+              "value": "{\"selectedOrg\":\"digitaldemocracy2030\",\"selectedOrgId\":203598308,\"selectedRepo\":\"broad-listening-book\",\"selectedRepoId\":1067114386,\"issueNumber\":47,\"issueHtmlUrl\":\"https://github.com/digitaldemocracy2030/broad-listening-book/issues/47\",\"issueTitle\":\"pdf of English version?\"}",
+              "style": ""
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "event_type": "github_notification"
+      }
+    },
+    "user": "U08HGALUSH5",
+    "type": "message",
+    "ts": "1789076399.419969",
+    "app_id": "A01BP7R4KNY",
+    "text": "",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1772121381,
+        "color": "8250df",
+        "fallback": "[digitaldemocracy2030/broad-listening-book] Issue closed as completed by tokoroten",
+        "pretext": "Issue closed as completed by <https://github.com/tokoroten|tokoroten>",
+        "title": "<https://github.com/digitaldemocracy2030/broad-listening-book/issues/47|#47 pdf of English version?>",
+        "footer": "<https://github.com/digitaldemocracy2030/broad-listening-book|digitaldemocracy2030/broad-listening-book>"
+      }
+    ],
+    "metadata": {
+      "event_type": "github_notification"
+    },
+    "user_name": "GitHub",
+    "text_readable": ""
+  }
+]

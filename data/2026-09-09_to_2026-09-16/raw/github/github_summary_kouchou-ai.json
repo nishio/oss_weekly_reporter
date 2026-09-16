@@ -1,0 +1,137 @@
+{
+  "period": {
+    "start": "2026-09-09T17:27:04.095181+09:00",
+    "end": "2026-09-16T17:27:04.095181+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 5396416883,
+      "number": 939,
+      "title": "[FEATURE] shell配布物にレポート別title・noindexを反映する（#935由来）",
+      "state": "closed"
+    },
+    {
+      "id": 5378637891,
+      "number": 916,
+      "title": "[FEATURE] OpenAIのAPIをFlex-Processingにしてコストを半額にする",
+      "state": "closed"
+    },
+    {
+      "id": 4556720303,
+      "number": 885,
+      "title": "[FEATURE] Windows単一実行ファイル配布に向けて Web UI の Node runtime 依存をなくす",
+      "state": "updated"
+    },
+    {
+      "id": 3124340592,
+      "number": 592,
+      "title": "[FEATURE] Azure OpenAI Service 利用時のエラーハンドリングをよりユーザーフレンドリーにする",
+      "state": "updated"
+    },
+    {
+      "id": 3064826258,
+      "number": 518,
+      "title": "最新のコードでstatic exportしたページを確認できるようにしたい",
+      "state": "updated"
+    },
+    {
+      "id": 3029891330,
+      "number": 395,
+      "title": "管理画面のe2eテスト拡張ケース",
+      "state": "updated"
+    },
+    {
+      "id": 3028299508,
+      "number": 393,
+      "title": "プラポリURL等をhowtoに記載すると良さそう",
+      "state": "updated"
+    },
+    {
+      "id": 2940417589,
+      "number": 130,
+      "title": "[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい",
+      "state": "updated"
+    },
+    {
+      "id": 2922751037,
+      "number": 55,
+      "title": "[FEATURE] 濃いクラスタのしきい値のデフォルト値をレポートごとに設定できるようにする",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 5397056529,
+      "number": 940,
+      "title": "feat: shell配布物にレポート別title・noindexを反映",
+      "state": "merged"
+    },
+    {
+      "id": 5396262875,
+      "number": 938,
+      "title": "fix(public-viewer): shell一覧のhydrationエラーを解消",
+      "state": "merged"
+    },
+    {
+      "id": 5396246529,
+      "number": 937,
+      "title": "chore(deps): bump next from 16.2.11 to 16.3.3 in /utils/dummy-server",
+      "state": "merged"
+    },
+    {
+      "id": 5394187973,
+      "number": 936,
+      "title": "docs: export ビルドで OGP 画像が生成されない点を訂正 (#885)",
+      "state": "merged"
+    },
+    {
+      "id": 5394160244,
+      "number": 935,
+      "title": "feat(public-viewer): データ非依存な静的出力 (shell ビルド) を追加 (#885)",
+      "state": "merged"
+    },
+    {
+      "id": 5392284115,
+      "number": 934,
+      "title": "fix(llm): make OpenAI Flex Processing work for GPT-5/6 and harden it (#917 follow-up)",
+      "state": "merged"
+    },
+    {
+      "id": 5397806633,
+      "number": 946,
+      "title": "feat: レポート別に濃いクラスタの初期値を保存する",
+      "state": "created"
+    },
+    {
+      "id": 5397766189,
+      "number": 945,
+      "title": "fix: Azure接続確認の失敗時に設定の確認先を案内",
+      "state": "created"
+    },
+    {
+      "id": 5397755209,
+      "number": 944,
+      "title": "docs: 公開前に確認する作成者・規約リンクを案内",
+      "state": "created"
+    },
+    {
+      "id": 5397529647,
+      "number": 943,
+      "title": "test: 作成前のAPI接続エラーから復帰するE2Eを追加",
+      "state": "created"
+    },
+    {
+      "id": 5397506811,
+      "number": 942,
+      "title": "ci: 静的viewerの確認用成果物をダウンロード可能にする",
+      "state": "created"
+    },
+    {
+      "id": 5397506386,
+      "number": 941,
+      "title": "docs: コードを書かない人の貢献方法と投稿先を案内",
+      "state": "created"
+    }
+  ]
+}
