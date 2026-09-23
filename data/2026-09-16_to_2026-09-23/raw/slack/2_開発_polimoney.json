@@ -1,0 +1,287 @@
+[
+  {
+    "user": "U099TAD6RKL",
+    "type": "message",
+    "ts": "1789780291.322349",
+    "client_msg_id": "2f90c30e-9f92-4385-a3a6-cc980c18f65b",
+    "text": "<@U08HWJ80CHG> <@U08NZH1RY4S>\n本日予定が入ったため欠席になります",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1789780291.322349",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1789785400.530729",
+    "reply_users": [
+      "U08HWJ80CHG"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "LUri2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08HWJ80CHG"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S"
+              },
+              {
+                "type": "text",
+                "text": "\n本日予定が入ったため欠席になります"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U099TAD6RKL",
+    "text_readable": "@oscar.gaddress @shumizu418128\n本日予定が入ったため欠席になります"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1789785400.530729",
+    "client_msg_id": "a7dffe69-f718-4420-a482-6f8efe885fb4",
+    "text": "<@U08NZH1RY4S> \n大きな進捗ないのでスキップしますか",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1789780291.322349",
+    "parent_user_id": "U099TAD6RKL",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZEJqq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08NZH1RY4S",
+                "from_llm": false
+              },
+              {
+                "type": "text",
+                "text": " \n大きな進捗ないのでスキップしますか"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08NZH1RY4S"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1789780291.322349",
+    "user_name": "小野翔太",
+    "text_readable": "@shumizu418128 \n大きな進捗ないのでスキップしますか"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1789796625.062699",
+    "client_msg_id": "cbc0d03a-ba7e-45d4-935a-074bdf27e3ea",
+    "text": "健さんとのMTGですが、10月以降になりました！また日程調整しましょう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Tdpkt",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "健さんとのMTGですが、10月以降になりました！また日程調整しましょう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "健さんとのMTGですが、10月以降になりました！また日程調整しましょう"
+  },
+  {
+    "user": "USLACKBOT",
+    "type": "message",
+    "ts": "1789812027.614539",
+    "bot_id": "B01",
+    "text": "リマインダー : <#C08FL5L6GSH> :mega:Polimoney開発会議を開催します！:mega: :clock7:19:00-20:00（毎週土曜日） :link:<http://meet.google.com/myy-ptwx-rsu|meet.google.com/myy-ptwx-rsu> :memo:<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>  • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！  • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "from_url": "http://meet.google.com/myy-ptwx-rsu",
+        "thumb_url": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-512dp/logo_meet_2026_color_1x_web_512dp.png",
+        "thumb_width": 512,
+        "thumb_height": 512,
+        "service_icon": "https://www.gstatic.com/images/branding/productlogos/meet_2026/v2/web-24dp/logo_meet_2026_color_1x_web_24dp.png",
+        "id": 1,
+        "original_url": "http://meet.google.com/myy-ptwx-rsu",
+        "fallback": "Meet",
+        "text": "Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.",
+        "title": "Meet",
+        "title_link": "http://meet.google.com/myy-ptwx-rsu",
+        "service_name": "meet.google.com"
+      }
+    ],
+    "metadata": {
+      "event_type": "slack_system.reminders.posted_in_channel"
+    },
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Acr/m",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "リマインダー : "
+              },
+              {
+                "type": "channel",
+                "channel_id": "C08FL5L6GSH"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "Polimoney開発会議を開催します！"
+              },
+              {
+                "type": "emoji",
+                "name": "mega",
+                "unicode": "1f4e3"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "clock7",
+                "unicode": "1f556"
+              },
+              {
+                "type": "text",
+                "text": "19"
+              },
+              {
+                "type": "emoji",
+                "name": "00-20"
+              },
+              {
+                "type": "text",
+                "text": "00（毎週土曜日）\n"
+              },
+              {
+                "type": "emoji",
+                "name": "link",
+                "unicode": "1f517"
+              },
+              {
+                "type": "link",
+                "url": "http://meet.google.com/myy-ptwx-rsu",
+                "text": "meet.google.com/myy-ptwx-rsu"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "emoji",
+                "name": "memo",
+                "unicode": "1f4dd"
+              },
+              {
+                "type": "link",
+                "url": "https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0"
+              },
+              {
+                "type": "text",
+                "text": "\n • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！\n • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Slackbot",
+    "text_readable": "リマインダー : <#C08FL5L6GSH> :mega:Polimoney開発会議を開催します！:mega: :clock7:19:00-20:00（毎週土曜日） :link:<http://meet.google.com/myy-ptwx-rsu|meet.google.com/myy-ptwx-rsu> :memo:<https://docs.google.com/document/d/19Kn6ekK3twMVcVaSyUgptvmfzrXEJezA6GXTbPXjm9M/edit?tab=t.0>  • 開発にまつわる、進捗報告・相談・ネクストアクションの決定を行う会です！  • 興味ある人、どなたでも参加歓迎です！！ぜひ覗きに来てください！"
+  },
+  {
+    "user": "U08NZH1RY4S",
+    "type": "message",
+    "ts": "1789812787.480289",
+    "client_msg_id": "7b6db6a6-b427-46bd-a78e-9507aabd919a",
+    "text": "私来週欠席です:bow:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uYDJK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "私来週欠席です"
+              },
+              {
+                "type": "emoji",
+                "name": "bow",
+                "unicode": "1f647"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "haruki shimizu",
+    "text_readable": "私来週欠席です:bow:"
+  }
+]
