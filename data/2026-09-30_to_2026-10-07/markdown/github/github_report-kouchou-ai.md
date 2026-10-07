@@ -1,0 +1,763 @@
+# GitHub レポート: digitaldemocracy2030/kouchou-ai
+
+期間: 2026-09-30T19:04:27.451553+09:00 から 2026-10-07T19:04:27.451553+09:00 まで
+
+## Issues
+
+### 過去7日間に完了されたissue (4件)
+
+### [[BUG] ホストで Ollama が動いていると --profile ollama の起動がポート 11434 の衝突で失敗する](https://github.com/digitaldemocracy2030/kouchou-ai/issues/951)
+
+**作成者:** katsushi2441  
+**作成日:** 2026-10-05T16:32:58Z  
+**内容:**
+
+## 起きたこと
+
+ホストですでに Ollama が動いている（11434 番を使っている）マシンで `docker compose --profile ollama up -d` を実行すると、ollama コンテナが起動しません。
+
+```
+Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint ...-ollama-1 (...): failed to bind host port for 0.0.0.0:11434:192.168.144.2:11434/tcp: address already in use
+```
+
+## 再現手順
+
+1. ホストで Ollama を起動しておく（`ss -ltn` で `*:11434` が LISTEN している状態）
+2. 最新の main（fedf67ab）で `.env.example` を `.env` にコピー
+3. `docker compose --profile ollama up -d ollama`
+
+Docker Compose v2.39.2・Ubuntu 22.04 で再現しました。
+
+## 原因
+
+`compose.yaml` の ollama サービスがホストの 11434 番に固定で公開されているためです。アプリ（api / admin）は `NEXT_PUBLIC_LOCAL_LLM_ADDRESS=ollama:11434` のコンテナ間通信で接続するので、ホスト側の番号は変えても動作に影響しません。
+
+## 提案
+
+ホスト側のポートを `${OLLAMA_HOST_PORT:-11434}` にして、既定は 11434 のまま、`.env` で変えられるようにします。README にも、衝突したときの対処を1行足します。PR を出します。
+
+（補足）ローカル LLM で運用するときに当社が踏んだ点は #471 にも書いています。
+
+
+**コメント:** なし
+
+---
+
+### [SECURITY.md を追加し、脆弱性の非公開報告方法を明示する](https://github.com/digitaldemocracy2030/kouchou-ai/issues/947)
+
+**作成者:** noritaka1166  
+**作成日:** 2026-09-27T13:34:52Z  
+**内容:**
+
+現在、このリポジトリには SECURITY.md がないようです。
+脆弱性を発見した方が報告方法に迷わないよう、非公開の報告先や対象範囲を案内する SECURITY.md を作成してはいかがでしょうか。
+あわせて、GitHub の非公開の脆弱性報告機能を利用するかも検討いただけるとよいと思います。
+
+
+
+**コメント:** なし
+
+---
+
+### [プラポリURL等をhowtoに記載すると良さそう](https://github.com/digitaldemocracy2030/kouchou-ai/issues/393)
+
+**作成者:** nasuka  
+**作成日:** 2025-04-29T13:13:43Z  
+**内容:**
+
+## 要望内容
+改善案
+metaデータ以外の変更箇所（フッターのプラポリ・利用規約、テスト環境のページへ）について、howtoもしくはReadMeに記載する。
+
+改善する
+変更することを忘れやすく、デバック時も気づかれない可能性がある。
+ドキュメントに記載することで、公開前のチェックリストとなる。
+
+---
+こちらのイシューはGoogle Form経由で投稿されたものです
+
+**コメント:** なし
+
+---
+
+### [[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい](https://github.com/digitaldemocracy2030/kouchou-ai/issues/130)
+
+**作成者:** nishio  
+**作成日:** 2025-03-22T14:31:29Z  
+**内容:**
+
+# 現在の問題点
+非エンジニアが何をしたらいいかわからない
+
+# 提案内容
+
+例えば
+- GitHubのissuesをみて「その問題が解決されると自分も助かる！」と思ったものに:+1:をつけるのはタスクの優先付の参考になるので貢献
+- 質問をするのは言語化のきっかけになるので貢献
+- 将来的に「AのレポートとBのレポートのどっちがいいですか？」をやる可能性がある、そう言うのに回答してくれるのは貢献
+
+他に思いついたら下にコメントつけてください
+
+---
+
+## 2026-09-09 現状と残作業
+
+コード以外の貢献の入口として、現在のcontributingにはIssueへのリアクションは記載されていますが、ここに集まった利用感想・質問・事例・比較評価等を初見で選べる案内はまだ不足しています。
+
+次の具体的な掲載先は `docs/development/contributing.md` と #876 の入口ページ。最初の一歩を「レポートを読んで分からなかった点を記録」「#564へ出典付き事例」「#912 / #913等の明示された確認作業」「同じ根拠から作ったA/B案の比較」のように、成果の残し先とセットで記載する案です。個人への依頼や役割割当は今回行っていません。
+
+
+**コメント:** なし
+
+---
+
+### 過去7日間に作成されたissue (1件)
+
+### [依存関係のセキュリティ更新と互換性確認（2026-10-05）](https://github.com/digitaldemocracy2030/kouchou-ai/issues/949)
+
+**作成者:** nishio  
+**作成日:** 2026-10-05T11:32:44Z  
+**内容:**
+
+## 目的
+GitHub Securityで確認した依存関係の保守対象を、現行mainから更新・検証する。
+
+## 作業範囲
+- フロントエンドと開発ツールの依存関係・lockfileを更新する。
+- 修正版の解決と、管理画面・公開ビューアのテストおよびビルドを確認する。
+- 修正が難しい項目は理由と対応範囲を切り分ける。
+
+具体的なアラート情報はGitHub Securityで確認し、このIssueには転記しない。完了はPRのmain反映とDependabotの再評価を確認して判断する。
+
+
+## 2026-10-05 対応状況
+
+- 対応PR: #950（未merge）。取得した既存アラート40件について、更新後のlockfileは影響範囲外であることを確認した。
+- 管理画面154件・公開ビューア123件の単体テスト、本番build、公開ビューアの型検査、ブラウザ回帰5件が成功。静的出力・shell出力・Docker・全体E2EもCIで成功。
+- 追加監査では本番依存0件。開発ツール依存に修正版未公開の1件が残るため、このIssueを追跡先として維持する。具体的な詳細はGitHub Securityで管理する。
+- 次の確認: CIとレビュー、main反映後のDependabot再評価、残る開発依存の上流修正版。
+
+
+## 2026-10-05 マージ後の確認
+
+- PR #950をmainへマージ済み（`ccd90172c76dee05e23ca2d9ab6853d22809b844`）。最新HEADのCodeRabbit再レビューは追加指摘なし、実行されたCIはすべて成功しました。
+- マージ後のGitHub Dependabotのopen alertsは0件と確認しました。これは確認時点のGitHubの結果です。
+- 先に記録した上流修正版待ちの開発依存は引き続き追跡します。そのため、このIssueはopenを維持します。
+
+
+**コメント:** なし
+
+---
+
+### 過去7日間に更新されたissue（作成・クローズを除く）(4件)
+
+### [[FEATURE] Azure OpenAI Service 利用時のエラーハンドリングをよりユーザーフレンドリーにする](https://github.com/digitaldemocracy2030/kouchou-ai/issues/592)
+
+**作成者:** shingo-ohki  
+**作成日:** 2025-06-06T10:19:59Z  
+**内容:**
+
+# 背景
+<!-- なぜその機能が必要なのか、何が改善されるのか具体的に記入してください -->
+
+自治体でセットアップ時にハマったところ
+
+> ここまででハマったことなんですが、今回Azure OpenAI Serviceを用いて構築していますが、APIバージョンとモデルバージョンを誤って.envに記述していました。（本来はAPIバージョンを記述する必要があります）
+> そこで、[https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/services/llm.py](https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/server/broadlistening/pipeline/services/llm.py%E3%81%AE)のrequest_to_azure_chatcompletionメソッドで、エンドポイントに接続できない旨のエラーになっていましたが、例外がキャッチされていなく原因を特定するまでに時間が掛かりました。
+
+from #2_開発_広聴ai より
+
+# 提案内容
+<!-- 実装案やデザイン案があれば記入してください -->
+
+## 2026-09-09 進捗
+
+PR #945（未マージ）で、管理画面の接続確認が不明エラーになった場合、Azureを選択していればAPIバージョンとモデルバージョンの違い、同じリソースの設定を確認する案内を表示するようにしました。サーバー側の確認APIと、管理画面の2つの確認ダイアログを対象にしています。
+
+バックエンド23件・関連UI27件の単体テストとCIが成功しています。実際のAzureリソースへの接続試験は行っていません。解析パイプライン全体の例外処理整理はこのPRの対象外のため、Issueは継続します。
+
+
+## 2026-10-06 PR #945 マージ後の状況
+
+PR #945をmainへマージしました（`fedf67abecd7e6a43ecebb9be119ad3d8ef41f63`）。関数説明の警告を修正した最新HEADのCodeRabbit再レビューは追加指摘なし、記載率チェックも合格し、単体テスト・E2E・build・CodeQL・Ruffが成功しました。接続確認APIと管理画面2箇所のAzure向け案内が反映済みです。
+
+実際のAzureリソースへの接続試験と解析パイプライン全体の例外処理整理は今回の完了範囲に含めず、Issueはopenを維持します。
+
+
+**コメント:** なし
+
+---
+
+### [最新のコードでstatic exportしたページを確認できるようにしたい](https://github.com/digitaldemocracy2030/kouchou-ai/issues/518)
+
+**作成者:** nasuka  
+**作成日:** 2025-05-15T04:06:11Z  
+**内容:**
+
+# 背景
+* static exportしたページに問題がないかを確認するには、現状手動でexportして確認する必要がある
+* 毎回手動でexportするのは大変なので自動化したい
+
+# 提案内容
+上記の自動化を実現する。
+
+実現方針の案
+* main branchにコミットがあったタイミングで github actionsを用いてstatic exportを実行する
+* exportしたページをgithub pagesにホスティングする
+
+deep research
+https://chatgpt.com/c/6825654d-6bc4-800f-840a-b8e2ff3531f3
+
+現在使えるリソースがgithubくらいなのでgithub pagesでホスティングする案を記載しているが、他に良さそうな選択肢があればそちらでもOK。
+
+## 2026-09-09 確認用artifactの実装（PR #942、未マージ）
+
+既存client buildで作った静的viewerを、コミットSHA付きのartifactとして7日間保存する変更を追加しました。CIが成功し、成果物の取得とローカルHTTPサーバーでの一覧表示を確認しています。
+
+PR: https://github.com/digitaldemocracy2030/kouchou-ai/pull/942
+
+常設URLへの公開は後続です。通常static出力の閲覧ではReact #418を観測したため、保存処理の成功と画面の実行時エラーを区別して記録します。今回はviewer/build方式を変更していません。
+
+
+## 2026-10-05 PR #942 マージ後の状況
+
+PR #942はmainへマージ済みです（`d50414793568eef59f7fc66e83f8ff7eaaeff8db`）。最新HEADのCodeRabbitレビューは追加指摘なし、CIの動的・shell・static・Docker buildが成功しました。静的viewerのartifactを取得し、一覧・サンプル詳細・BUILD_COMMIT.txtの収録も確認しました。
+
+常設URLへの公開はこのPRの対象外で、後続課題として残ります。9月9日に記録した実行時のReact警告を解消したとは判断していません。このIssueはopenで継続します。
+
+
+**コメント:** なし
+
+---
+
+### [[DOCUMENT] ローカルLLMのベンチマーク、推奨スペックの決定](https://github.com/digitaldemocracy2030/kouchou-ai/issues/471)
+
+**作成者:** tokoroten  
+**作成日:** 2025-05-10T13:18:48Z  
+**内容:**
+
+# 現在の問題点
+
+- ローカルLLMがどれくらいの速度で動作するのかが分かっていない。
+- どれくらいのマシンであれば動作するのかが分かっていない
+- 標準のLLMモデルを何にするのかという議論は出来ていない
+
+# 提案内容
+
+- LLMのベンチマーク用のスクリプトの作成
+- 様々なPCで動作確認を行い、ベンチマークを行う
+  - サンプルのデータが何分で処理でき、1件あたり何秒で処理できるか？というのが出るとよい
+- NPUによるアクセラレーションをいい感じに効かせる
+  - AMD、Apple、Intelのアクセラレータが効くようにする
+  - Arm Windowsはターゲット外でいいと思う
+
+# 最終的なゴール
+
+- 自治体向けにどのようなPCを買えば快適に動作するのか？という案内を出す。
+  - 理想はMSのCopilot+PC基準のスペックで動くような提案をする
+
+**コメント:** なし
+
+---
+
+### [管理画面のe2eテスト拡張ケース](https://github.com/digitaldemocracy2030/kouchou-ai/issues/395)
+
+**作成者:** devin-ai-integration[bot]  
+**作成日:** 2025-04-30T01:41:40Z  
+**内容:**
+
+# 管理画面のe2eテスト拡張ケース
+
+## 追加テストケース
+
+1. Googleスプレッドシートからのデータインポート
+   - スプレッドシートURLの入力と取得テスト
+   - データ列の選択と表示確認
+
+2. 入力バリデーションのテスト
+   - 必須フィールドが空の場合のエラー表示
+   - 無効なレポートIDの検証
+   - 文字数制限の検証
+
+3. AI詳細設定の変更とその反映
+   - モデル選択の変更
+   - ワーカー数の調整
+   - PubComモードの切り替え
+   - プロンプト設定の変更
+
+4. エラーケースのテスト
+   - **APIキーが間違っている場合のエラー処理**
+   - **クレジットが入っていない場合のエラー処理**
+   - ネットワークエラー時の処理
+   - サーバーエラー時の処理
+
+## 実装優先度
+
+特に優先度が高いのは:
+- APIキーエラーの適切な処理と表示
+- クレジット不足時のエラー処理と表示
+
+## 関連ファイル
+
+- `test/e2e/tests/admin/create-report.spec.ts`
+- `test/e2e/utils/mock-api.ts`
+- `client-admin/app/create/page.tsx`
+
+
+---
+
+## 2026-09-09 現状と残作業
+
+E2Eの導入自体は済んでいるため、上位計画 #379 の残ケースをこちらで追跡します。
+
+現行mainにはCSV作成、確認画面の1280px/375px、複製時の要約プロンプト引継ぎのテストがあります。API認証・quota・rate limit・通信失敗は単体試験がありますが、`create-report.spec.ts` のAPIエラーE2Eは現在 `test.skip` です。「単体試験あり」を「ブラウザ経路まで確認済み」と扱わないようにします。
+
+優先する残作業:
+- [ ] ダミーAPIで認証失敗・quota不足・通信失敗を再現し、確認画面→設定へ戻る→再確認のE2Eを有効化する（実キー不要）。
+- [ ] Spreadsheetの取得と列選択をタブ切替だけでなく通して検証する。
+- [ ] モデル・ワーカー・PubCom・各プロンプトが最終送信内容に反映されることを検証する。
+
+根拠: https://github.com/digitaldemocracy2030/kouchou-ai/blob/2dd5adc21103e880bf0250f29511f99a05c52590/test/e2e/tests/admin/create-report.spec.ts / https://github.com/digitaldemocracy2030/kouchou-ai/blob/2dd5adc21103e880bf0250f29511f99a05c52590/test/e2e/tests/admin/duplicate-report.spec.ts
+
+
+## 2026-09-09 エラー復帰E2Eの実装（PR #943、未マージ）
+
+認証・quota・rate limit・HTTP 503・通信切断の5ケースで、確認画面→設定へ戻る→キー変更→再確認のブラウザテストを追加しました。実キー不要、ダミーAPIのリクエスト単位の応答で再現します。ローカルでは事前検証4件、新規5件、既存作成・複製15件が成功しています。
+
+PR: https://github.com/digitaldemocracy2030/kouchou-ai/pull/943
+
+残作業はCI・マージ確認、Spreadsheetの取得と列選択、AI詳細設定の最終送信内容の検証です。Issue全体は完了扱いにしません。
+
+
+## 2026-10-05 PR #943 マージ後の状況
+
+PR #943をmainへマージしました（`a0a5bb4a4387b1a8d1fd3644464c9ba3f9beafcf`）。最新HEADのCodeRabbit実レビューは追加指摘なし、E2E・build・CodeQLを含むCIは成功しました。認証・quota・rate limit・HTTP 503・通信切断から設定へ戻り、キーを変更して再確認するブラウザ経路がmainに入りました。
+
+Spreadsheetの取得と列選択、AI詳細設定の最終送信内容の検証は引き続き残るため、Issue全体はopenを維持します。実プロバイダーの認証・残高検出をこのダミーAPIのE2Eで確認済みとは扱いません。
+
+
+**コメント:** なし
+
+---
+
+## Pull Requests
+
+### 過去7日間にマージされたPR (8件)
+
+### [fix: Ollamaのホスト側ポートを OLLAMA_HOST_PORT で変えられるようにする](https://github.com/digitaldemocracy2030/kouchou-ai/pull/952)
+
+**作成者:** katsushi2441  
+**作成日:** 2026-10-05T16:34:01Z  
+**変更:** +7 -2 (3ファイル)  
+**マージ日:** 2026-10-06T12:30:54Z  
+**内容:**
+
+# 変更の概要
+- ollama サービスのホスト側ポートを `${OLLAMA_HOST_PORT:-11434}` にし、`.env` で変えられるようにしました（既定は 11434 のまま）
+- `.env.example` に `OLLAMA_HOST_PORT=11434` を追加しました
+- README の「ローカル LLM の使用」に、ポートが衝突したときの対処を1行追加しました
+
+# スクリーンショット
+- UI の変更はありません
+
+# 変更の背景
+- ホストですでに Ollama などが 11434 番を使っていると、`docker compose --profile ollama up -d` が `failed to bind host port ... address already in use` で失敗します
+- アプリはコンテナ間通信（`NEXT_PUBLIC_LOCAL_LLM_ADDRESS=ollama:11434`）で接続するため、ホスト側の番号を変えてもアプリ側の設定は不要です
+
+# 関連Issue
+- close #951
+
+# 動作確認の結果
+ホストで Ollama が 11434 を使っている Ubuntu 22.04・Docker Compose v2.39.2 で確認しました。
+- 変更前の main（fedf67ab）：`docker compose --profile ollama up -d ollama` が上記のエラーで起動しないことを確認した
+- 変更後・`OLLAMA_HOST_PORT=18394`：ollama コンテナが起動し、ホストから `curl http://127.0.0.1:18394/api/version` が `{"version":"0.33.2"}` を返し、コンテナ内で `ollama list` が動くことを確認した
+- 変更後・`OLLAMA_HOST_PORT` 未設定：`docker compose --profile ollama config` で公開ポートが従来どおり `11434` になることを確認した
+
+# CLAへの同意
+- 本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/kouchou-ai/blob/main/CLA.md)に同意することが必須です。
+内容をお読みいただき、下記のチェックボックスにチェックをつける（"- [ ]" を "- [x]" に書き換える）ことで同意したものとみなします。
+
+- [x] CLAの内容を読み、同意しました
+
+# マージ前のチェックリスト（レビュアーがマージ前に確認してください）
+- [ ] CIが全て通過している
+- [ ] 単体テストが実装されているか
+- [ ] 今回実装した機能および影響を受けると思われる機能について、適切な動作確認が行われているかを確認する。
+
+動作確認の項目については、実装者による動作確認のケースが適切かを確認してください。
+必要に応じてレビュアー自身による動作確認も歓迎します（必須ではありません）。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+* **Configuration**
+  * Made the host-facing Ollama port configurable with `OLLAMA_HOST_PORT`, defaulting to `11434`. The container continues listening on port `11434`, and the application continues connecting to `ollama:11434`.
+* **Documentation**
+  * Clarified the difference between the host port and the container connection address. If host port `11434` is occupied, choose an available port using `OLLAMA_HOST_PORT`; no change to the application’s connection address is needed.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [fix: 依存関係の更新とPlotly 4互換性対応](https://github.com/digitaldemocracy2030/kouchou-ai/pull/950)
+
+**作成者:** nishio  
+**作成日:** 2026-10-05T11:47:56Z  
+**変更:** +836 -944 (18ファイル)  
+**マージ日:** 2026-10-05T12:34:47Z  
+**内容:**
+
+# 変更の概要
+依存関係を更新し、2026-10-05に取得したDependabotの未解決40件について、更新後のlockfileが影響バージョンを含まないことを確認しました。mainへの反映とGitHub側の再評価はまだ行われていません。
+
+- Next.js / @next/third-partiesを16.3.8、Plotly.jsを4.1.1、react-plotly.jsを4.1.0へ更新し、関連する間接依存を修正版へ固定。
+- Plotlyの同梱型へ移行し、ツリーマップのクリック処理をReactラッパーの正式なイベントへ変更。ツリーマップでサポートされないmarker.opacity指定を除去し、既存の灰色表示は維持。
+- Plotly 4で標準表示になるクラウド送信ボタンを無効化し、従来の表示を維持。
+- Node.js要件とテストCIを22以上に揃え、共有manifest / lockfile変更でもフロントエンドCIが起動するよう修正。
+- 型検査で見つかった既存テストfixtureの不整合を修正。
+
+# 変更の背景
+GitHub Securityの保守対象に対応するためです。描画ライブラリの依存を無理にメジャー上書きせず、上流が対応したPlotly 4へ更新し、表示と階層移動を検証しました。具体的なアラート情報はGitHub Securityで確認してください。
+
+# 関連Issue
+Refs #949
+
+# 動作確認の結果
+- 管理画面: Jest 23 suite / 154 test成功、本番build成功。
+- 公開ビューア: Jest 12 suite / 123 test成功、TypeScript検査成功、クリーンな本番build成功。
+- Playwrightのviewer状態カタログ5件成功。クラウド送信ボタンの非表示、ツリーマップクリックと説明の同期・親階層への復帰を回帰テストに追加。
+- 変更したTS/TSXファイルのBiome検査と `git diff --check` 成功。
+- 取得した40アラートの影響バージョン範囲をlockfileの全該当バージョンと照合し、該当0件。
+- `pnpm audit --prod`: 0件。全依存の監査では、修正版未公開の開発ツール依存1件が残ります。`pnpm why --prod --recursive`では本番依存経路なし。除外・dismissはしていません。
+- 開発用E2E後の最初のviewer buildは、既存のルート退避スクリプトと開発用生成型が干渉して失敗。生成物を退避してクリーンbuildが成功しました。
+- GitHub ActionsでAPIを使う全E2E、static / shell / Docker buildも成功しました。実LLM接続・実環境へのデプロイは未実施。
+
+# スクリーンショット
+新しい画面はありません。既存表示と操作は実ブラウザの回帰テストで確認しています。
+
+# CLAへの同意
+- [ ] CLAの内容を読み、同意しました（本人による確認欄）
+
+# マージ前のチェックリスト（レビュアーがマージ前に確認してください）
+- [ ] CIが全て通過している
+- [ ] Node.js 22以上への要件変更とPlotly更新の互換性を確認した
+- [ ] main反映後にDependabotを再確認し、未解決の開発依存を#949で追跡する
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+* **Improvements**
+  * Updated the application framework and charting libraries.
+  * Treemap charts support navigating into a cluster and returning to the root view.
+  * The chart toolbar no longer displays a cloud-sharing control.
+  * CI checks now run when root package configuration changes and use Node.js 22.
+  * Development requirements now specify Node.js 22 or later and pnpm 9.15.4.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [docs: SECURITY.mdで脆弱性の非公開報告先を案内する](https://github.com/digitaldemocracy2030/kouchou-ai/pull/948)
+
+**作成者:** nishio  
+**作成日:** 2026-10-05T11:21:25Z  
+**変更:** +34 -0 (2ファイル)  
+**マージ日:** 2026-10-05T11:36:30Z  
+**内容:**
+
+# 変更の概要
+脆弱性を見つけた方が非公開で報告できるよう、ルートに `SECURITY.md` を追加し、`CONTRIBUTING.md` から案内します。報告フォーム、対象範囲、再現情報、機密情報を含めない注意、報告後のやりとりを記載しました。
+
+# 変更の背景
+SECURITY.mdがなく、GitHubのPrivate vulnerability reportingも無効だったため、報告者が公開Issueへ詳細を書いてしまう可能性がありました。文書追加と合わせて、リポジトリの非公開報告機能を有効化済みです。対応バージョンや応答期限について、未合意の保証は設けていません。
+
+# 関連Issue
+Closes #947
+
+# 動作確認の結果
+- `mkdocs build --strict` 成功。CONTRIBUTING.mdをコピーする公開ドキュメントもビルドできることを確認。
+- `git diff --check` 成功。
+- GitHub APIでPrivate vulnerability reportingが `enabled: true` になったことを確認。
+- ログアウト状態のAdvisoriesページに「Report a vulnerability」が表示され、案内した `/security/advisories/new` へリンクしていることをブラウザで確認。
+- 担当者nishioのリポジトリ購読は `subscribed: true` / `ignored: false`。テスト報告の送信やメール通知の実配信は検証していません。
+- 文書のみの変更のため、アプリケーションの単体テスト・E2Eは実行していません。
+
+# スクリーンショット
+アプリケーションUIの変更なし。
+
+# CLAへの同意
+- [x] CLAの内容を読み、同意しました（本人による確認欄）
+
+# マージ前のチェックリスト（レビュアーがマージ前に確認してください）
+- [ ] CIが全て通過している
+- [ ] 文書の対象範囲・報告先・案内文を確認した
+- [ ] メンテナーの通知設定と非公開報告の確認運用を確認した
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+* **Documentation**
+  * Added guidance for reporting security vulnerabilities privately rather than in public channels.
+  * Clarified which issues belong in public issue tracking and what details to include in a private security report.
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [fix: Azure接続確認の失敗時に設定の確認先を案内](https://github.com/digitaldemocracy2030/kouchou-ai/pull/945)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:43:39Z  
+**変更:** +68 -2 (7ファイル)  
+**マージ日:** 2026-10-05T15:05:00Z  
+**内容:**
+
+# 変更の概要
+AzureのAPI接続確認が失敗した場合に、APIバージョンとモデルバージョンの違い、およびエンドポイント・デプロイ名・キーの確認先を表示します。作成前確認とAI詳細設定の接続チェックの両画面を対応させました。
+
+# 変更の背景
+Azure設定を誤ったときに「設定や接続を確認」の一般的な案内だけでは、どこを直せばよいか分かりませんでした。原因をAPIバージョンの誤りと断定せず、確認する項目を示します。認証・quota・rate limitの既存の専用表示は維持します。例外の生の内容や設定値は返しません。
+
+# 関連Issue
+Refs #592。管理画面の事前接続確認を改善するPRです。分析実行中の例外の扱いやAzure実環境での確認は残件のため、Issueは閉じません。
+
+# 動作確認の結果
+- APIルーターテスト23件成功。Azureの400・404・接続失敗・設定例外に対する案内と、例外詳細を返さないことを確認。
+- 画面の単体テスト27件成功。両方の接続確認でAzure向け案内が表示されることを確認。
+- Ruff、Biome、diff check成功。実Azureには接続していません。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+* **Bug Fixes**
+  * Improved guidance when an Azure connection check fails. The message clarifies that `AZURE_CHATCOMPLETION_VERSION` should contain an API version, not a model version, and advises checking that the endpoint, deployment name, and API key belong to the same Azure resource.
+  * Azure verification failures now show this troubleshooting guidance instead of a generic error, without exposing private endpoint details.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [docs: 公開前に確認する作成者・規約リンクを案内](https://github.com/digitaldemocracy2030/kouchou-ai/pull/944)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:42:39Z  
+**変更:** +39 -0 (1ファイル)  
+**マージ日:** 2026-10-05T12:37:20Z  
+**内容:**
+
+# 変更の概要
+公開前の確認表を使い方ガイドに追加しました。作成者・プライバシーポリシー・利用規約・メニュー・フッターの現在の設定場所と表示条件、配布済み静的サイトへの反映方法を案内します。
+
+# 変更の背景
+リンクを変更し忘れたまま公開しないよう、metadataで変更できる項目とソース中のリンクを区別しました。現在の標準メニューにはテスト環境へのリンクがないため、古いIssueの前提をそのまま案内せず、独自追加分の確認として扱います。
+
+# 関連Issue
+Closes #393
+
+# 動作確認の結果
+- 現行のmeta router、ReporterContent、Footer、GlobalNavigationと案内を照合。
+- customファイルの実パス、default時のリンク非表示、isDefaultはAPI側で付与する挙動を確認。
+- diff check成功。ドキュメントbuildはCIで確認します。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+- **Documentation**
+  - Added a user guide section explaining how to verify links before publishing reports.
+  - Documented configuration locations for reporter details, introductory text, web pages, policies, menus, and footer links.
+  - Explained fallback behavior between custom and default metadata.
+  - Added a JSON configuration example and a pre-publication checklist covering metadata, link accessibility, mobile menus, and static exports.
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [test: 作成前のAPI接続エラーから復帰するE2Eを追加](https://github.com/digitaldemocracy2030/kouchou-ai/pull/943)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:20:21Z  
+**変更:** +91 -24 (5ファイル)  
+**マージ日:** 2026-10-05T14:03:18Z  
+**内容:**
+
+# 変更の概要
+作成前確認でAPI接続に失敗したとき、エラーを表示し、設定へ戻って入力を修正し、再確認できるE2Eを5ケース追加しました。従来の実行されないAPIエラーテストを置き換えています。
+
+# 変更の背景
+#395の優先課題は、認証失敗・残高不足・通信失敗を単体テストだけでなくブラウザの操作経路で確認することでした。Server Actionからのリクエストはpage.routeでは捕捉できないため、ダミーAPIでリクエストごとにエラーを返します。
+
+- テスト専用キーで認証・quota・rate limit・HTTP 503・ストリーム切断を再現。E2E_TEST=true限定で、実LLMへの通信はありません。
+- 確認画面のエラー表示、設定とCSVの保持、キー変更後の未確認状態へのリセット、再確認の成功までを検証。
+- dummy-server変更でもE2Eが発火するようworkflowのpathsを補足。
+
+# 関連Issue
+Refs #395。優先のエラー復帰経路を実装しました。Spreadsheetの取得・列選択とAI詳細設定の最終送信内容の検証は後続のため、Issueは閉じません。
+
+# 動作確認の結果
+- dummy-serverの事前検証4件成功。
+- 新しいブラウザE2E5件成功。ストリーム切断時にはServer Actionのfetchが実際にSocketErrorで失敗することを確認。
+- 変更TSのBiome・diff check成功。
+- 全体CI成功。E2Eは86 passed / 2 skipped。
+
+画面の実装変更はありません。実プロバイダーでの認証・残高検出自体はこのE2Eの範囲外です。
+
+
+## ローカル回帰確認
+
+新規5ケースに加え、既存の作成・複製E2E15件も成功しました。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+* **Tests**
+  * Added end-to-end coverage for authentication, quota, rate-limit, server, and connection failures during Admin connection checks, including recovery after entering a working API key.
+  * Pull requests affecting the dummy API or E2E workflow now trigger the E2E tests.
+  * Removed the skipped API-error test scenario; responsive-design and performance tests remain unchanged.
+* **Documentation**
+  * Documented the connection-error and recovery test flow, its simulated responses, and its scope.
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [ci: 静的viewerの確認用成果物をダウンロード可能にする](https://github.com/digitaldemocracy2030/kouchou-ai/pull/942)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:17:53Z  
+**変更:** +45 -0 (3ファイル)  
+**マージ日:** 2026-10-05T13:03:48Z  
+**内容:**
+
+# 変更の概要
+client buildの静的exportを、コミットSHA付きのダウンロード成果物として7日間保存します。Nodeで再ビルドせずにローカルHTTPサーバーで閲覧できるよう、取得・閲覧手順を追加しました。
+
+# 変更の背景
+静的exportのCIビルドは既にありますが、成果物が残らず、画面を確認するには手元でビルドし直す必要がありました。既存のfixtureだけを使い、実環境のデータやAPIへ接続しません。workflow自身の変更でもCIが起動するようpathsを追加しています。
+
+# 関連Issue
+Refs #518。自動ビルド済み成果物の取得を先に実装します。GitHub Pages等の常設URLへの公開は後続のため、Issueは閉じません。
+
+# 動作確認の結果
+- 出力のindex.htmlとexample/index.htmlの存在を確認してからアップロードします。
+- artifactにはBUILD_COMMIT.txtを同梱し、PRの検証用merge commitと先端SHAの違いもドキュメントに記載。
+- diff check成功。CI実行後にartifactを取得して内容を確認します。
+
+
+## CI・成果物の確認結果
+
+CI成功。artifactを実際に取得し、BUILD_COMMIT.txt（検証merge commit 39c9183）、HTTP配信での一覧→詳細とタイトル表示を確認しました。通常static出力では一覧初回にReact #418を1件観測しています。表示・遷移は成功していますが、実行時エラーなしとはしていません。本PRはviewerやbuild方式の変更を含みません。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+* **New Features**
+  * Static site builds are now available as downloadable artifacts for qualifying changes, making it easier to preview the generated site. Each artifact is retained for seven days and identifies the commit used to create it.
+* **Documentation**
+  * Added Japanese guidance for downloading and viewing a static preview locally, including how to find its source commit and manually regenerate an artifact. The guide notes that previews are for testing and are not hosted on GitHub Pages.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### [docs: コードを書かない人の貢献方法と投稿先を案内](https://github.com/digitaldemocracy2030/kouchou-ai/pull/941)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:17:50Z  
+**変更:** +32 -1 (3ファイル)  
+**マージ日:** 2026-10-05T13:18:23Z  
+**内容:**
+
+# 変更の概要
+コードを書かずに参加したい人が、感想・質問・事例共有・動作確認・A/B比較などの最初の一歩と投稿先を選べる表を追加しました。感想の記入例と、README・ドキュメントトップからの入口も追加しています。
+
+# 変更の背景
+Issueに集まった貢献方法がガイドへ反映されておらず、非エンジニアが具体的に何をすればよいか分かりにくい状態でした。CONTRIBUTING.mdを編集元とし、公開docsは既存の生成処理で反映します。
+
+# 関連Issue
+Closes #130
+
+# 動作確認の結果
+- 既存Issueの提案と案内の対応、投稿先、相対リンク、diff checkを確認。
+- UIコードの変更なし。公開ドキュメントのビルドはCIで確認します。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+- **Documentation**
+  - Added guidance for non-code contributions, including feedback, questions, use cases, testing, comparisons, and sharing experiences.
+  - Added a feedback and question template, along with advice to avoid sharing personal or non-public data and API keys.
+  - Updated contributor and documentation guides with links to participation guidance and information on where to share feedback or ask for help.
+  - Clarified where AI-agent users can find related guidance and report security concerns.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+
+### 過去7日間に作成されたPR (0件)
+
+### 過去7日間に更新されたPR（作成・マージを除く）(1件)
+
+### [feat: レポート別に濃いクラスタの初期値を保存する](https://github.com/digitaldemocracy2030/kouchou-ai/pull/946)
+
+**作成者:** nishio  
+**作成日:** 2026-09-09T09:47:24Z  
+**変更:** +363 -11 (8ファイル)  
+**内容:**
+
+# 変更の概要
+管理画面の可視化設定に、濃いクラスタの上位割合（%）と最小サンプル数の入力欄を追加しました。既存の設定保存APIへ接続し、レポートを開いたときのviewer初期値に反映します。
+
+# 変更の背景
+viewerはレポート別の閾値を読めましたが、管理画面から編集できませんでした。他の可視化設定を保持して保存し、割合の範囲外・負数・件数の小数・空欄を拒否します。取得失敗時に既存設定をデフォルトで上書きすることも防ぎます。狭い画面ではダイアログ内をスクロールできます。
+
+# 関連Issue
+Closes #55
+
+# 動作確認の結果
+- 管理画面Jest: 24 suites / 163件成功。新規9件は保存・再表示、他設定の保持、入力検証、未設定・取得失敗を検証。
+- API統合テスト6件成功。PATCH→管理APIで再読込→公開APIでの反映と、不正値で保存内容が変わらないことを確認。
+- ローカルの実形状fixture APIで、ブラウザから35%・7件を保存→再表示→公開viewerの設定に35%・7件が出ることを確認。375px幅の保存操作も確認。API永続化は上記の実ルーター統合テストで別途検証しています。
+- Ruff、Biome、diff check成功。
+
+通常staticは再出力、shellは更新後の公開JSONによる再組立が必要です。閲覧中に変えた値を管理設定へ自動保存する変更ではありません。
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+## Summary by CodeRabbit
+
+* **New Features**
+  * Configure and save each report’s default dense-cluster thresholds: the top density percentage and minimum group size. Defaults are 20% and 5 samples.
+  * Public report viewers use these thresholds as defaults, while other chart and display settings are preserved.
+* **Bug Fixes**
+  * Invalid threshold values prevent saving. When saved settings contain invalid density thresholds, only those thresholds are reset to defaults; valid settings are retained.
+  * A failed settings fetch no longer leaves the dialog in a saveable state.
+* **Documentation**
+  * Added a Japanese guide explaining dense-cluster defaults, display requirements, and how settings apply to published reports.
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+**コメント:** なし
+
+---
+

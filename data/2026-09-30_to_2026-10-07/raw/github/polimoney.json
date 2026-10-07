@@ -1,0 +1,18 @@
+[
+  {
+    "id": 5691989356,
+    "number": 258,
+    "title": "chore(ci): update GitHub Actions and pin to commit SHAs",
+    "state": "created",
+    "html_url": "https://github.com/digitaldemocracy2030/polimoney/pull/258",
+    "user": "noritaka1166",
+    "created_at": "2026-10-03T17:40:38Z",
+    "body": "## 変更の概要\r\n\r\nGitHub Actions を最新の安定版に更新し、すべての参照を40桁のコミット SHA に固定。\r\n\r\n対応するバージョンはコメントに記載。\r\n\r\n| Action | 更新前 | 更新後 |\r\n|---|---|---|\r\n| actions/checkout | v4.2.2 | v7.0.1 |\r\n| actions/setup-node | v4.4.0 | v7.0.0 |\r\n| actions/cache | v4.2.3 | v6.1.0 |\r\n| actions/github-script | v6 | v9.0.0 |\r\n\r\n以下の検証を実施。\r\n\r\n- ワークフローの YAML とスクリプトの構文検証\r\n- 公式リリースとコミット SHA の照合\r\n\r\nGitHub 上での CI 実行は未実施\r\n\r\n## 変更の背景\r\n\r\n各アクションの修正を取り込むため、最新の安定版に更新。\r\n\r\nまた、タグの参照先変更によって実行されるコードが変わることを防ぐため、コミット SHA に固定。\r\n\r\n## スクリーンショット\r\n\r\n該当なし（UI の変更なし）\r\n\r\n## 関連Issue\r\n\r\nなし\r\n\r\n## CLAへの同意\r\n\r\n本リポジトリへのコントリビュートには、[コントリビューターライセンス契約（CLA）](https://github.com/digitaldemocracy2030/idobata/blob/main/CLA.md)に同意することが必須です。\r\n\r\n内容をお読みいただき、下記のチェックボックスにチェックをつける（\"[ ]\" を \"[x]\" に書き換える）ことで同意したものとみなします。\r\n\r\n- [x] CLAの内容を読み、同意しました\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Chores**\n  * GitHub Actions の利用バージョンを更新しました。コメントによる割り当て・解除の動作や、Node.js のバージョン、キャッシュ設定に変更はありません。\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "additions": 4,
+    "deletions": 4,
+    "changed_files": 2,
+    "co_author": null,
+    "requester": null,
+    "type": "pr"
+  }
+]

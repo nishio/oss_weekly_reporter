@@ -1,0 +1,119 @@
+{
+  "period": {
+    "start": "2026-09-30T19:04:27.451553+09:00",
+    "end": "2026-10-07T19:04:27.451553+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 5715634523,
+      "number": 951,
+      "title": "[BUG] ホストで Ollama が動いていると --profile ollama の起動がポート 11434 の衝突で失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 5603047534,
+      "number": 947,
+      "title": "SECURITY.md を追加し、脆弱性の非公開報告方法を明示する",
+      "state": "closed"
+    },
+    {
+      "id": 3028299508,
+      "number": 393,
+      "title": "プラポリURL等をhowtoに記載すると良さそう",
+      "state": "closed"
+    },
+    {
+      "id": 2940417589,
+      "number": 130,
+      "title": "[DOCUMENT]ソースコードの実装以外での貢献方法がもっと言語化されるとよい",
+      "state": "closed"
+    },
+    {
+      "id": 5711239061,
+      "number": 949,
+      "title": "依存関係のセキュリティ更新と互換性確認（2026-10-05）",
+      "state": "created"
+    },
+    {
+      "id": 3124340592,
+      "number": 592,
+      "title": "[FEATURE] Azure OpenAI Service 利用時のエラーハンドリングをよりユーザーフレンドリーにする",
+      "state": "updated"
+    },
+    {
+      "id": 3064826258,
+      "number": 518,
+      "title": "最新のコードでstatic exportしたページを確認できるようにしたい",
+      "state": "updated"
+    },
+    {
+      "id": 3054133875,
+      "number": 471,
+      "title": "[DOCUMENT] ローカルLLMのベンチマーク、推奨スペックの決定",
+      "state": "updated"
+    },
+    {
+      "id": 3029891330,
+      "number": 395,
+      "title": "管理画面のe2eテスト拡張ケース",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 5715647784,
+      "number": 952,
+      "title": "fix: Ollamaのホスト側ポートを OLLAMA_HOST_PORT で変えられるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 5711437806,
+      "number": 950,
+      "title": "fix: 依存関係の更新とPlotly 4互換性対応",
+      "state": "merged"
+    },
+    {
+      "id": 5711082843,
+      "number": 948,
+      "title": "docs: SECURITY.mdで脆弱性の非公開報告先を案内する",
+      "state": "merged"
+    },
+    {
+      "id": 5397766189,
+      "number": 945,
+      "title": "fix: Azure接続確認の失敗時に設定の確認先を案内",
+      "state": "merged"
+    },
+    {
+      "id": 5397755209,
+      "number": 944,
+      "title": "docs: 公開前に確認する作成者・規約リンクを案内",
+      "state": "merged"
+    },
+    {
+      "id": 5397529647,
+      "number": 943,
+      "title": "test: 作成前のAPI接続エラーから復帰するE2Eを追加",
+      "state": "merged"
+    },
+    {
+      "id": 5397506811,
+      "number": 942,
+      "title": "ci: 静的viewerの確認用成果物をダウンロード可能にする",
+      "state": "merged"
+    },
+    {
+      "id": 5397506386,
+      "number": 941,
+      "title": "docs: コードを書かない人の貢献方法と投稿先を案内",
+      "state": "merged"
+    },
+    {
+      "id": 5397806633,
+      "number": 946,
+      "title": "feat: レポート別に濃いクラスタの初期値を保存する",
+      "state": "updated"
+    }
+  ]
+}

@@ -1,0 +1,2697 @@
+[
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791160129.953929",
+    "client_msg_id": "3f63fb2e-9d51-42b1-b19a-8f25ff71a4e2",
+    "text": "自治体内で自由に広聴AIを使えるように、自治体内で流用可能なWindows11のノートPCに広聴AIをセットアップしてみたのですが、\nいくつか還元できそうなものが見つかりました。ちょっと今すぐはPR出せないので、項目だけメモしておきます。\n• レポート生成時のモデル選択時の（未検証）はいくつか取れそう（少なくともo4-mini は動いた ）\n• 自治体PCに Docker Desktop を導入するのは適切でないと感じたので、マニュアル上非推奨となっている WSL2+ `./start_linux.sh` で十分動くので、推奨手順は改めて考え直しても良さそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "5eJHd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "自治体内で自由に広聴AIを使えるように、自治体内で流用可能なWindows11のノートPCに広聴AIをセットアップしてみたのですが、\nいくつか還元できそうなものが見つかりました。ちょっと今すぐはPR出せないので、項目だけメモしておきます。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "レポート生成時のモデル選択時の（未検証）はいくつか取れそう（少なくともo4-mini は動いた ）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自治体PCに Docker Desktop を導入するのは適切でないと感じたので、マニュアル上非推奨となっている WSL2+ "
+                  },
+                  {
+                    "type": "text",
+                    "text": "./start_linux.sh",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " で十分動くので、推奨手順は改めて考え直しても良さそう"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "自治体内で自由に広聴AIを使えるように、自治体内で流用可能なWindows11のノートPCに広聴AIをセットアップしてみたのですが、\nいくつか還元できそうなものが見つかりました。ちょっと今すぐはPR出せないので、項目だけメモしておきます。\n• レポート生成時のモデル選択時の（未検証）はいくつか取れそう（少なくともo4-mini は動いた ）\n• 自治体PCに Docker Desktop を導入するのは適切でないと感じたので、マニュアル上非推奨となっている WSL2+ `./start_linux.sh` で十分動くので、推奨手順は改めて考え直しても良さそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791161393.791619",
+    "client_msg_id": "ECB43764-F000-4E4B-AD2B-586AB9D9F2CC",
+    "text": "そうですね、WSL3の話もありますし\n<https://forest.watch.impress.co.jp/docs/news/2144295.html|https://forest.watch.impress.co.jp/docs/news/2144295.html>\n\nDocker Desktopは個人開発だと無料だから手軽だったんですけど、自治体では最初から有料だというのは盲点でしたね。おすすめの方法から外していく方向でも良さそうです。",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://forest.watch.impress.co.jp/img/wf/list/2144/295/wsl.jpg",
+        "image_width": 360,
+        "image_height": 285,
+        "image_bytes": 5387,
+        "from_url": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
+        "service_icon": "https://forest.watch.impress.co.jp/favicon.ico",
+        "ts": 1790749800,
+        "id": 1,
+        "original_url": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
+        "fallback": "窓の杜: 「WSL 3.0」がリリース、3カ月のテストを経て「WSL containers」が正式版に／「Docker」なしでLinuxコンテナーを構築・実行、「wslc compose」の開発にも着手",
+        "text": "　米Microsoftは9月29日（現地時間）、「WSL 3.0」をリリースした。6月末からパブリックプレビューされていた「WSL containers」の一般提供が目玉だ。",
+        "title": "「WSL 3.0」がリリース、3カ月のテストを経て「WSL containers」が正式版に／「Docker」なしでLinuxコンテナーを構築・実行、「wslc compose」の開発にも着手",
+        "title_link": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
+        "service_name": "窓の杜",
+        "media_type": "external_link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "xmRqv",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうですね、WSL3の話もありますし"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "link",
+                "url": "https://forest.watch.impress.co.jp/docs/news/2144295.html",
+                "text": "https://forest.watch.impress.co.jp/docs/news/2144295.html"
+              },
+              {
+                "type": "text",
+                "text": "\n\nDocker Desktopは個人開発だと無料だから手軽だったんですけど、自治体では最初から有料だというのは盲点でしたね。おすすめの方法から外していく方向でも良さそうです。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "hushed",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうですね、WSL3の話もありますし\n<https://forest.watch.impress.co.jp/docs/news/2144295.html|https://forest.watch.impress.co.jp/docs/news/2144295.html>\n\nDocker Desktopは個人開発だと無料だから手軽だったんですけど、自治体では最初から有料だというのは盲点でしたね。おすすめの方法から外していく方向でも良さそうです。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791200214.306009",
+    "client_msg_id": "6fe8d496-f338-497a-bd32-2e885a8d73e3",
+    "text": "非公開脆弱性報告フォーム\n<https://github.com/digitaldemocracy2030/kouchou-ai/security/advisories/new|github.com/digitaldemocracy2030/kouchou-ai/…/new>\nこういう機能があるの知りませんでした",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "zkIgp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "非公開脆弱性報告フォーム\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/security/advisories/new",
+                "text": "github.com/digitaldemocracy2030/kouchou-ai/…/new",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\nこういう機能があるの知りませんでした"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "非公開脆弱性報告フォーム\n<https://github.com/digitaldemocracy2030/kouchou-ai/security/advisories/new|github.com/digitaldemocracy2030/kouchou-ai/…/new>\nこういう機能があるの知りませんでした"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791200261.057279",
+    "client_msg_id": "d846256f-99f5-4d79-99a4-16206bf8d2a7",
+    "text": "便利。でも知らないとONにしないからデフォルトでオンになるようにすればいいのにとも思いました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lVpck",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "便利。でも知らないとONにしないからデフォルトでオンになるようにすればいいのにとも思いました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "便利。でも知らないとONにしないからデフォルトでオンになるようにすればいいのにとも思いました"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791200288.394599",
+    "client_msg_id": "4465b7f9-2807-4460-bbe4-06001bbf84f0",
+    "text": "同じく初めて知りました（笑）",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UqqCk",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "同じく初めて知りました（笑）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "同じく初めて知りました（笑）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791200352.171179",
+    "client_msg_id": "c256b63e-56ac-41cf-a0b6-2b3d7b29eace",
+    "text": "Dependabotの脆弱性報告が来てるのも気づいたのでついでに修正中です",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "J4ijP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Dependabotの脆弱性報告が来てるのも気づいたのでついでに修正中です"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Dependabotの脆弱性報告が来てるのも気づいたのでついでに修正中です"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791201179.381439",
+    "client_msg_id": "92095cdd-01b9-4319-aedc-eb5fbdc995ef",
+    "text": "木曜に韓国の新聞社からインタビューがあるのでデモ用に広聴AIで韓国のデータの分析をしてるのですけど、ほんとCodexの進歩のおかげでデータ分析が楽ですねぇ、という気持ち\nWebのパイプラインだと実装が複雑になっちゃうから「データを入れて解析結果が出る」というシンプルな形にせざるを得ないんだけど\nAI Agentがバイプラインをアドホックに作成できる状況であれば分析結果を見てから一部絞り込んで再分析とか結果の再利用をしたりとかやり放題で…",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KDR6c",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "木曜に韓国の新聞社からインタビューがあるのでデモ用に広聴AIで韓国のデータの分析をしてるのですけど、ほんとCodexの進歩のおかげでデータ分析が楽ですねぇ、という気持ち\nWebのパイプラインだと実装が複雑になっちゃうから「データを入れて解析結果が出る」というシンプルな形にせざるを得ないんだけど\nAI Agentがバイプラインをアドホックに作成できる状況であれば分析結果を見てから一部絞り込んで再分析とか結果の再利用をしたりとかやり放題で…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "木曜に韓国の新聞社からインタビューがあるのでデモ用に広聴AIで韓国のデータの分析をしてるのですけど、ほんとCodexの進歩のおかげでデータ分析が楽ですねぇ、という気持ち\nWebのパイプラインだと実装が複雑になっちゃうから「データを入れて解析結果が出る」というシンプルな形にせざるを得ないんだけど\nAI Agentがバイプラインをアドホックに作成できる状況であれば分析結果を見てから一部絞り込んで再分析とか結果の再利用をしたりとかやり放題で…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791203519.106319",
+    "client_msg_id": "1b0fcdc6-b653-4ae3-8a91-28c5c5e899f9",
+    "text": "$15もかかって「あれ？随分高いな？」と言ったら、「GPT-4o miniだと誤読があったのでGPT-4.1にしました」と勝手なことをして費用が13倍になってたことがわかりましたw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AElK4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "$15もかかって「あれ？随分高いな？」と言ったら、「GPT-4o miniだと誤読があったのでGPT-4.1にしました」と勝手なことをして費用が13倍になってたことがわかりましたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "$15もかかって「あれ？随分高いな？」と言ったら、「GPT-4o miniだと誤読があったのでGPT-4.1にしました」と勝手なことをして費用が13倍になってたことがわかりましたw"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791207886.862889",
+    "client_msg_id": "fca3dec2-04bd-42db-8e0d-39fbc25ed37b",
+    "text": "あら、そんな事するんですね\nいつの時代も破産しないようなガードが必要ですね:smile:",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ngH2z",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あら、そんな事するんですね\nいつの時代も破産しないようなガードが必要ですね"
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "あら、そんな事するんですね\nいつの時代も破産しないようなガードが必要ですね:smile:"
+  },
+  {
+    "user": "U0C6PHNENLV",
+    "type": "message",
+    "ts": "1791231941.434569",
+    "text": "はじめまして、小嶋です（名古屋でAIシステム開発の会社をやっています）。PRを1つ出したので共有させてください。\n\nホストですでにOllamaが動いているマシンで `docker compose --profile ollama up` すると、11434番が衝突してollamaコンテナが起動しない問題がありました。ホスト側のポートを `.env` の `OLLAMA_HOST_PORT` で変えられるようにしています（既定は11434のまま、アプリからの接続先も今までどおり `ollama:11434` です）。\n\nIssue: <https://github.com/digitaldemocracy2030/kouchou-ai/issues/951>\nPR: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/952>\n\nCodeRabbitの指摘（READMEの説明）も反映済みです。お手すきのときにレビューをお願いします。\nあわせて #471 に、ローカルLLM（ELYZA-JP-8B）で動かしたときの実測を書いています。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791231941.434569",
+    "reply_count": 3,
+    "reply_users_count": 2,
+    "latest_reply": "1791345820.463319",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U0C6PHNENLV"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nAR",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "はじめまして、小嶋です（名古屋でAIシステム開発の会社をやっています）。PRを1つ出したので共有させてください。\n\nホストですでにOllamaが動いているマシンで "
+              },
+              {
+                "type": "text",
+                "text": "docker compose --profile ollama up",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " すると、11434番が衝突してollamaコンテナが起動しない問題がありました。ホスト側のポートを "
+              },
+              {
+                "type": "text",
+                "text": ".env",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " の "
+              },
+              {
+                "type": "text",
+                "text": "OLLAMA_HOST_PORT",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " で変えられるようにしています（既定は11434のまま、アプリからの接続先も今までどおり "
+              },
+              {
+                "type": "text",
+                "text": "ollama:11434",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " です）。\n\nIssue: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/951"
+              },
+              {
+                "type": "text",
+                "text": "\nPR: "
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/952"
+              },
+              {
+                "type": "text",
+                "text": "\n\nCodeRabbitの指摘（READMEの説明）も反映済みです。お手すきのときにレビューをお願いします。\nあわせて #471 に、ローカルLLM（ELYZA-JP-8B）で動かしたときの実測を書いています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "U0C6PHNENLV",
+    "text_readable": "はじめまして、小嶋です（名古屋でAIシステム開発の会社をやっています）。PRを1つ出したので共有させてください。\n\nホストですでにOllamaが動いているマシンで `docker compose --profile ollama up` すると、11434番が衝突してollamaコンテナが起動しない問題がありました。ホスト側のポートを `.env` の `OLLAMA_HOST_PORT` で変えられるようにしています（既定は11434のまま、アプリからの接続先も今までどおり `ollama:11434` です）。\n\nIssue: <https://github.com/digitaldemocracy2030/kouchou-ai/issues/951>\nPR: <https://github.com/digitaldemocracy2030/kouchou-ai/pull/952>\n\nCodeRabbitの指摘（READMEの説明）も反映済みです。お手すきのときにレビューをお願いします。\nあわせて #471 に、ローカルLLM（ELYZA-JP-8B）で動かしたときの実測を書いています。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791319275.352429",
+    "client_msg_id": "c7ab8191-8e1e-4c32-acfd-9a349c006182",
+    "text": "ありがとうございます！\n\nもしよろしければ、差し支えない範囲で、広聴AIをどう使っている（使おうとしている）かなど、お聞きすることはできますか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791231941.434569",
+    "parent_user_id": "U0C6PHNENLV",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IlHaf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！\n\nもしよろしければ、差し支えない範囲で、広聴AIをどう使っている（使おうとしている）かなど、お聞きすることはできますか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791231941.434569",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます！\n\nもしよろしければ、差し支えない範囲で、広聴AIをどう使っている（使おうとしている）かなど、お聞きすることはできますか？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791331328.949029",
+    "client_msg_id": "e84d38ac-a564-4797-83b4-95deffdb4a2c",
+    "text": "<https://dd2030.slack.com/archives/C08HKET1YG3/p1791217699480449|こちら>にある程度記載いただいていましたね。\n失礼いたしました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791231941.434569",
+    "parent_user_id": "U0C6PHNENLV",
+    "attachments": [
+      {
+        "fallback": "[October 5th, 2026 9:28 AM] katsushi2441: １. お名前：小嶋 篤（こじま あつし）／株式会社エクスブリッジ（名古屋）\n２. 興味があるプロジェクト：広聴AI、コアループ（とくに、提言のあとに国会や議会でどう扱われたかを追う部分）\n３. 得意なこと：\n• ローカルLLMでの運用：広聴AIを OpenAI のキーなし（Ollama＋ELYZA-JP-8B）で動かしています。実測を #471 に書きました <https://github.com/digitaldemocracy2030/kouchou-ai/issues/471#issuecomment-5998446898>\n• 国会のデータ：国会会議録APIで話題ごとに質疑と答弁を追う仕組みや、衆参の質問主意書と答弁書を本文で引ける検索を作っています\n• 議員事務所や自治体とのやりとり（名古屋で、県議の方から県の河川課につないでもらい、浸水想定のデータ提供を申請したところです）\n４. GitHub：<https://github.com/katsushi2441>　X：<https://x.com/xb_bittensor>　会社：<https://exbridge.jp/>\n５. 本slackを知った経緯：その他（ガイドブックを読んで）\n６. 自由コメント：ガイドブック第2章のコアループの3つ目、「政策・法令・予算として実行し、改善実感まで届ける」の部分に関心があります。詐欺広告の件も、国会では「偽広告」から「SNS型投資詐欺」へと言葉が変わりながら議論されていて、こうした後半の追跡でお手伝いできることがあればと思っています。よろしくお願いします。",
+        "from_url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1791217699480449",
+        "ts": "1791217699.480449",
+        "author_id": "U0C6PHNENLV",
+        "author_subname": "小嶋 篤",
+        "channel_id": "C08HKET1YG3",
+        "channel_team": "T08FL58DC9K",
+        "is_msg_unfurl": true,
+        "blocks": [
+          {
+            "type": "rich_text",
+            "block_id": "=z7pG",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "１. お名前：小嶋 篤（こじま あつし）／株式会社エクスブリッジ（名古屋）\n２. 興味があるプロジェクト：広聴AI、コアループ（とくに、提言のあとに国会や議会でどう扱われたかを追う部分）\n３. 得意なこと：\n• ローカルLLMでの運用：広聴AIを OpenAI のキーなし（Ollama＋ELYZA-JP-8B）で動かしています。実測を #471 に書きました "
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/471#issuecomment-5998446898"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n• 国会のデータ：国会会議録APIで話題ごとに質疑と答弁を追う仕組みや、衆参の質問主意書と答弁書を本文で引ける検索を作っています\n• 議員事務所や自治体とのやりとり（名古屋で、県議の方から県の河川課につないでもらい、浸水想定のデータ提供を申請したところです）\n４. GitHub："
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://github.com/katsushi2441"
+                  },
+                  {
+                    "type": "text",
+                    "text": "　X："
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://x.com/xb_bittensor"
+                  },
+                  {
+                    "type": "text",
+                    "text": "　会社："
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://exbridge.jp/"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\n５. 本slackを知った経緯：その他（ガイドブックを読んで）\n６. 自由コメント：ガイドブック第2章のコアループの3つ目、「政策・法令・予算として実行し、改善実感まで届ける」の部分に関心があります。詐欺広告の件も、国会では「偽広告」から「SNS型投資詐欺」へと言葉が変わりながら議論されていて、こうした後半の追跡でお手伝いできることがあればと思っています。よろしくお願いします。"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "text": "１. お名前：小嶋 篤（こじま あつし）／株式会社エクスブリッジ（名古屋）\n２. 興味があるプロジェクト：広聴AI、コアループ（とくに、提言のあとに国会や議会でどう扱われたかを追う部分）\n３. 得意なこと：\n• ローカルLLMでの運用：広聴AIを OpenAI のキーなし（Ollama＋ELYZA-JP-8B）で動かしています。実測を #471 に書きました <https://github.com/digitaldemocracy2030/kouchou-ai/issues/471#issuecomment-5998446898>\n• 国会のデータ：国会会議録APIで話題ごとに質疑と答弁を追う仕組みや、衆参の質問主意書と答弁書を本文で引ける検索を作っています\n• 議員事務所や自治体とのやりとり（名古屋で、県議の方から県の河川課につないでもらい、浸水想定のデータ提供を申請したところです）\n４. GitHub：<https://github.com/katsushi2441>　X：<https://x.com/xb_bittensor>　会社：<https://exbridge.jp/>\n５. 本slackを知った経緯：その他（ガイドブックを読んで）\n６. 自由コメント：ガイドブック第2章のコアループの3つ目、「政策・法令・予算として実行し、改善実感まで届ける」の部分に関心があります。詐欺広告の件も、国会では「偽広告」から「SNS型投資詐欺」へと言葉が変わりながら議論されていて、こうした後半の追跡でお手伝いできることがあればと思っています。よろしくお願いします。",
+        "author_name": "小嶋 篤",
+        "author_link": "https://dd2030.slack.com/team/U0C6PHNENLV",
+        "author_icon": "https://secure.gravatar.com/avatar/fd7a9225a6db9615b83f4c784d69ea1b.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-48.png",
+        "mrkdwn_in": [
+          "text"
+        ],
+        "id": 1,
+        "original_url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1791217699480449",
+        "footer": "Slack conversation"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "t/Itr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://dd2030.slack.com/archives/C08HKET1YG3/p1791217699480449",
+                "text": "こちら"
+              },
+              {
+                "type": "text",
+                "text": "にある程度記載いただいていましたね。\n失礼いたしました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791231941.434569",
+    "user_name": "Shingo OHKI",
+    "text_readable": "<https://dd2030.slack.com/archives/C08HKET1YG3/p1791217699480449|こちら>にある程度記載いただいていましたね。\n失礼いたしました！"
+  },
+  {
+    "user": "U0C6PHNENLV",
+    "type": "message",
+    "ts": "1791345820.463319",
+    "text": "大木さん、ありがとうございます。自己紹介に書いた以外のところも少し補足させてください。\n\nいまは自社のマシンで、Ollama＋ELYZA-JP-8B を使い、OpenAI のキーなしで広聴AIを動かして試している段階です（#471 に書いた48件・2分33秒の実測はこのときのものです）。まだ自治体や議員事務所で実際に使ってもらってはいません。\n\n使いたいと考えているのは、名古屋の議員事務所や自治体に集まる声（市民の声のフォームや、陳情・相談のメールなど）を、外部のAIに送らずに手元のPCで定期的にまとめる使い方です。なので、今日のスレッドの「何度もレポートを作るところまで至りにくい」という話にはとても共感しました。同じ設定で毎週レポートを作り直して、前回から増えた意見・新しく出た意見を並べるだけでも、現場では役に立つのではと思っています。\n\n大木さんの Windows 11（WSL2＋Docker Engine）の手順は、こちらでも別の PC で試して、詰まったところがあれば共有します。ローカルLLMでどのくらい誤読が出るかも、西尾さんが書かれていたような形で測れそうなら、#471 の続きとして出してみます。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791231941.434569",
+    "parent_user_id": "U0C6PHNENLV",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TLzG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "大木さん、ありがとうございます。自己紹介に書いた以外のところも少し補足させてください。\n\nいまは自社のマシンで、Ollama＋ELYZA-JP-8B を使い、OpenAI のキーなしで広聴AIを動かして試している段階です（#471 に書いた48件・2分33秒の実測はこのときのものです）。まだ自治体や議員事務所で実際に使ってもらってはいません。\n\n使いたいと考えているのは、名古屋の議員事務所や自治体に集まる声（市民の声のフォームや、陳情・相談のメールなど）を、外部のAIに送らずに手元のPCで定期的にまとめる使い方です。なので、今日のスレッドの「何度もレポートを作るところまで至りにくい」という話にはとても共感しました。同じ設定で毎週レポートを作り直して、前回から増えた意見・新しく出た意見を並べるだけでも、現場では役に立つのではと思っています。\n\n大木さんの Windows 11（WSL2＋Docker Engine）の手順は、こちらでも別の PC で試して、詰まったところがあれば共有します。ローカルLLMでどのくらい誤読が出るかも、西尾さんが書かれていたような形で測れそうなら、#471 の続きとして出してみます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791231941.434569",
+    "user_name": "U0C6PHNENLV",
+    "text_readable": "大木さん、ありがとうございます。自己紹介に書いた以外のところも少し補足させてください。\n\nいまは自社のマシンで、Ollama＋ELYZA-JP-8B を使い、OpenAI のキーなしで広聴AIを動かして試している段階です（#471 に書いた48件・2分33秒の実測はこのときのものです）。まだ自治体や議員事務所で実際に使ってもらってはいません。\n\n使いたいと考えているのは、名古屋の議員事務所や自治体に集まる声（市民の声のフォームや、陳情・相談のメールなど）を、外部のAIに送らずに手元のPCで定期的にまとめる使い方です。なので、今日のスレッドの「何度もレポートを作るところまで至りにくい」という話にはとても共感しました。同じ設定で毎週レポートを作り直して、前回から増えた意見・新しく出た意見を並べるだけでも、現場では役に立つのではと思っています。\n\n大木さんの Windows 11（WSL2＋Docker Engine）の手順は、こちらでも別の PC で試して、詰まったところがあれば共有します。ローカルLLMでどのくらい誤読が出るかも、西尾さんが書かれていたような形で測れそうなら、#471 の続きとして出してみます。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791288678.318299",
+    "client_msg_id": "9ce183f7-7941-47d2-8af4-a4178655a147",
+    "text": "ありがとうございます！",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "8u64v",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ありがとうございます！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791290532.507269",
+    "client_msg_id": "5dfcddbe-01d7-4d59-8f82-856b57a1751e",
+    "text": "merged!",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0cgBq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "merged!"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "merged!"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791292853.657799",
+    "client_msg_id": "2d7c44fc-45d2-44bd-b06b-8ded22fa00f7",
+    "text": "<@U08H3V9KMFH> WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n• *自治体は規模に関係なく Docker Desktop が有料*です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（<https://docs.docker.com/subscription/desktop-license/|Docker Desktop license agreement>）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。\n• *今の Windows ガイドはこの点をはっきり書いていません。* <http://windows-setup.md:22|windows-setup.md:22> は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。\n• *大木さんの言う「WSL2 + `start_linux.sh`」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。* <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh|start_linux.sh> も中で `docker compose up` を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md|windows-distribution-options.md> で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。\n    ◦ 大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md|direct-win.md> だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。\n• *今回、これが実機で動いたという初めての報告が出ました。* 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。\n• *#877 の方針は見直しが必要です。* 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。\n• *WSL 3.0 はまだ使えません。* 9/29 に WSL コンテナー機能付きで出ましたが、`wslc compose` はこれから作られる段階で、`compose.yaml` を前提にした今の構成はそのままでは動きません。様子見の対象です。\n",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791292853.657799",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791322229.988089",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "attachments": [
+      {
+        "image_url": "https://docs.docker.com/images/thumbnail.webp",
+        "image_width": 2400,
+        "image_height": 1260,
+        "image_bytes": 37186,
+        "from_url": "https://docs.docker.com/subscription/desktop-license/",
+        "service_icon": "https://docs.docker.com/apple-touch-icon.png",
+        "ts": 1790623607,
+        "id": 1,
+        "original_url": "https://docs.docker.com/subscription/desktop-license/",
+        "fallback": "Docker Documentation: Docker Desktop license agreement",
+        "text": "Learn how the Docker Subscription Service Agreement licenses Docker Desktop and when commercial use requires a paid subscription.",
+        "title": "Docker Desktop license agreement",
+        "title_link": "https://docs.docker.com/subscription/desktop-license/",
+        "service_name": "Docker Documentation",
+        "media_type": "external_link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SwPpj",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": " WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "自治体は規模に関係なく Docker Desktop が有料",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（"
+                  },
+                  {
+                    "type": "link",
+                    "url": "https://docs.docker.com/subscription/desktop-license/",
+                    "text": "Docker Desktop license agreement"
+                  },
+                  {
+                    "type": "text",
+                    "text": "）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今の Windows ガイドはこの点をはっきり書いていません。",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "http://windows-setup.md:22",
+                    "text": "windows-setup.md:22"
+                  },
+                  {
+                    "type": "text",
+                    "text": " は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "大木さんの言う「WSL2 + ",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "start_linux.sh",
+                    "style": {
+                      "bold": true,
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " "
+                  },
+                  {
+                    "type": "link",
+                    "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh",
+                    "text": "start_linux.sh"
+                  },
+                  {
+                    "type": "text",
+                    "text": " も中で "
+                  },
+                  {
+                    "type": "text",
+                    "text": "docker compose up",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の "
+                  },
+                  {
+                    "type": "link",
+                    "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md",
+                    "text": "windows-distribution-options.md",
+                    "unsafe": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の "
+                  },
+                  {
+                    "type": "link",
+                    "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md",
+                    "text": "direct-win.md",
+                    "unsafe": true
+                  },
+                  {
+                    "type": "text",
+                    "text": " だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 1,
+            "border": 0
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "今回、これが実機で動いたという初めての報告が出ました。",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "#877 の方針は見直しが必要です。",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "WSL 3.0 はまだ使えません。",
+                    "style": {
+                      "bold": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 9/29 に WSL コンテナー機能付きで出ましたが、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "wslc compose",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " はこれから作られる段階で、"
+                  },
+                  {
+                    "type": "text",
+                    "text": "compose.yaml",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " を前提にした今の構成はそのままでは動きません。様子見の対象です。"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": []
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@truego WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n• *自治体は規模に関係なく Docker Desktop が有料*です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（<https://docs.docker.com/subscription/desktop-license/|Docker Desktop license agreement>）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。\n• *今の Windows ガイドはこの点をはっきり書いていません。* <http://windows-setup.md:22|windows-setup.md:22> は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。\n• *大木さんの言う「WSL2 + `start_linux.sh`」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。* <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh|start_linux.sh> も中で `docker compose up` を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md|windows-distribution-options.md> で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。\n    ◦ 大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md|direct-win.md> だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。\n• *今回、これが実機で動いたという初めての報告が出ました。* 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。\n• *#877 の方針は見直しが必要です。* 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。\n• *WSL 3.0 はまだ使えません。* 9/29 に WSL コンテナー機能付きで出ましたが、`wslc compose` はこれから作られる段階で、`compose.yaml` を前提にした今の構成はそのままでは動きません。様子見の対象です。\n"
+  },
+  {
+    "text": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n• セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）\n• 広聴AIは安定版zipではなく `main` をcloneしている\n• WSL2上のUbuntuを前提にしている\n• `cp .env.example .env` を実行しないとうまく動かなかったため、手順に追加している（`.env` 周りの想定が `setup_linux.sh` 作成時から変わっている可能性もありそう）\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。",
+    "files": [
+      {
+        "id": "F0C76EPNQ30",
+        "created": 1791322204,
+        "timestamp": 1791322204,
+        "mimetype": "text/plain",
+        "filetype": "markdown",
+        "pretty_type": "Markdown (raw)",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 14144,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "広聴AI_Windows11_WSL2_DockerEngine_セットアップ・利用ガイド.md",
+        "title": "広聴AI_Windows11_WSL2_DockerEngine_セットアップ・利用ガイド.md",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C76EPNQ30/download/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C76EPNQ30-7f62487d5e",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md/edit",
+        "preview": "# 広聴AI Windows 11 セットアップ・利用ガイド（WSL2 + Docker Engine）\n\n> Windows 11上のWSL2（Ubuntu）にDocker Engineを直接インストールして広聴AI（kouchou-ai）を動かすための手順です。ある自治体向けのWindows 11 PCで行った実機セットアップをベースに、一般利用向けに固有情報を外して整理しています。\n\n## 1. このガイドの対象",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\">#</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">広</span><span class=\"cm-header cm-header-1\">聴</span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\">I</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">W</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">d</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">w</span><span class=\"cm-header cm-header-1\">s</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">1</span><span class=\"cm-header cm-header-1\">1</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">セ</span><span class=\"cm-header cm-header-1\">ッ</span><span class=\"cm-header cm-header-1\">ト</span><span class=\"cm-header cm-header-1\">ア</span><span class=\"cm-header cm-header-1\">ッ</span><span class=\"cm-header cm-header-1\">プ</span><span class=\"cm-header cm-header-1\">・</span><span class=\"cm-header cm-header-1\">利</span><span class=\"cm-header cm-header-1\">用</span><span class=\"cm-header cm-header-1\">ガ</span><span class=\"cm-header cm-header-1\">イ</span><span class=\"cm-header cm-header-1\">ド</span><span class=\"cm-header cm-header-1\">（</span><span class=\"cm-header cm-header-1\">W</span><span class=\"cm-header cm-header-1\">S</span><span class=\"cm-header cm-header-1\">L</span><span class=\"cm-header cm-header-1\">2</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">+</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">D</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">c</span><span class=\"cm-header cm-header-1\">k</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">E</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">g</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">）</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-quote cm-quote-1\">&gt;</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">d</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">w</span><span class=\"cm-quote cm-quote-1\">s</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">上</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">S</span><span class=\"cm-quote cm-quote-1\">L</span><span class=\"cm-quote cm-quote-1\">2</span><span class=\"cm-quote cm-quote-1\">（</span><span class=\"cm-quote cm-quote-1\">U</span><span class=\"cm-quote cm-quote-1\">b</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">t</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">）</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">D</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">c</span><span class=\"cm-quote cm-quote-1\">k</span><span class=\"cm-quote cm-quote-1\">e</span><span class=\"cm-quote cm-quote-1\">r</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">E</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">g</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">e</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">直</span><span class=\"cm-quote cm-quote-1\">接</span><span class=\"cm-quote cm-quote-1\">イ</span><span class=\"cm-quote cm-quote-1\">ン</span><span class=\"cm-quote cm-quote-1\">ス</span><span class=\"cm-quote cm-quote-1\">ト</span><span class=\"cm-quote cm-quote-1\">ー</span><span class=\"cm-quote cm-quote-1\">ル</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">広</span><span class=\"cm-quote cm-quote-1\">聴</span><span class=\"cm-quote cm-quote-1\">A</span><span class=\"cm-quote cm-quote-1\">I</span><span class=\"cm-quote cm-quote-1\">（</span><span class=\"cm-quote cm-quote-1\">k</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">c</span><span class=\"cm-quote cm-quote-1\">h</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">-</span><span class=\"cm-quote cm-quote-1\">a</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">）</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">動</span><span class=\"cm-quote cm-quote-1\">か</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">た</span><span class=\"cm-quote cm-quote-1\">め</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">手</span><span class=\"cm-quote cm-quote-1\">順</span><span class=\"cm-quote cm-quote-1\">で</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">。</span><span class=\"cm-quote cm-quote-1\">あ</span><span class=\"cm-quote cm-quote-1\">る</span><span class=\"cm-quote cm-quote-1\">自</span><span class=\"cm-quote cm-quote-1\">治</span><span class=\"cm-quote cm-quote-1\">体</span><span class=\"cm-quote cm-quote-1\">向</span><span class=\"cm-quote cm-quote-1\">け</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">d</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">w</span><span class=\"cm-quote cm-quote-1\">s</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">P</span><span class=\"cm-quote cm-quote-1\">C</span><span class=\"cm-quote cm-quote-1\">で</span><span class=\"cm-quote cm-quote-1\">行</span><span class=\"cm-quote cm-quote-1\">っ</span><span class=\"cm-quote cm-quote-1\">た</span><span class=\"cm-quote cm-quote-1\">実</span><span class=\"cm-quote cm-quote-1\">機</span><span class=\"cm-quote cm-quote-1\">セ</span><span class=\"cm-quote cm-quote-1\">ッ</span><span class=\"cm-quote cm-quote-1\">ト</span><span class=\"cm-quote cm-quote-1\">ア</span><span class=\"cm-quote cm-quote-1\">ッ</span><span class=\"cm-quote cm-quote-1\">プ</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">ベ</span><span class=\"cm-quote cm-quote-1\">ー</span><span class=\"cm-quote cm-quote-1\">ス</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">、</span><span class=\"cm-quote cm-quote-1\">一</span><span class=\"cm-quote cm-quote-1\">般</span><span class=\"cm-quote cm-quote-1\">利</span><span class=\"cm-quote cm-quote-1\">用</span><span class=\"cm-quote cm-quote-1\">向</span><span class=\"cm-quote cm-quote-1\">け</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">固</span><span class=\"cm-quote cm-quote-1\">有</span><span class=\"cm-quote cm-quote-1\">情</span><span class=\"cm-quote cm-quote-1\">報</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">外</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">整</span><span class=\"cm-quote cm-quote-1\">理</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">い</span><span class=\"cm-quote cm-quote-1\">ま</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">。</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">1</span><span class=\"cm-header cm-header-2\">.</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">こ</span><span class=\"cm-header cm-header-2\">の</span><span class=\"cm-header cm-header-2\">ガ</span><span class=\"cm-header cm-header-2\">イ</span><span class=\"cm-header cm-header-2\">ド</span><span class=\"cm-header cm-header-2\">の</span><span class=\"cm-header cm-header-2\">対</span><span class=\"cm-header cm-header-2\">象</span></pre></div>\n</div>\n</div>\n",
+        "lines": 513,
+        "lines_more": 508,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kUo+I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AIは安定版zipではなく "
+                  },
+                  {
+                    "type": "text",
+                    "text": "main",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " をcloneしている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "WSL2上のUbuntuを前提にしている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "cp .env.example .env",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " を実行しないとうまく動かなかったため、手順に追加している（"
+                  },
+                  {
+                    "type": "text",
+                    "text": ".env",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 周りの想定が "
+                  },
+                  {
+                    "type": "text",
+                    "text": "setup_linux.sh",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 作成時から変わっている可能性もありそう）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791292853.657799",
+      "client_msg_id": "2d7c44fc-45d2-44bd-b06b-8ded22fa00f7",
+      "text": "<@U08H3V9KMFH> WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n• *自治体は規模に関係なく Docker Desktop が有料*です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（<https://docs.docker.com/subscription/desktop-license/|Docker Desktop license agreement>）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。\n• *今の Windows ガイドはこの点をはっきり書いていません。* <http://windows-setup.md:22|windows-setup.md:22> は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。\n• *大木さんの言う「WSL2 + `start_linux.sh`」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。* <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh|start_linux.sh> も中で `docker compose up` を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md|windows-distribution-options.md> で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。\n    ◦ 大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md|direct-win.md> だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。\n• *今回、これが実機で動いたという初めての報告が出ました。* 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。\n• *#877 の方針は見直しが必要です。* 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。\n• *WSL 3.0 はまだ使えません。* 9/29 に WSL コンテナー機能付きで出ましたが、`wslc compose` はこれから作られる段階で、`compose.yaml` を前提にした今の構成はそのままでは動きません。様子見の対象です。\n",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791292853.657799",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1791322229.988089",
+      "reply_users": [
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://docs.docker.com/images/thumbnail.webp",
+          "image_width": 2400,
+          "image_height": 1260,
+          "image_bytes": 37186,
+          "from_url": "https://docs.docker.com/subscription/desktop-license/",
+          "service_icon": "https://docs.docker.com/apple-touch-icon.png",
+          "ts": 1790623607,
+          "id": 1,
+          "original_url": "https://docs.docker.com/subscription/desktop-license/",
+          "fallback": "Docker Documentation: Docker Desktop license agreement",
+          "text": "Learn how the Docker Subscription Service Agreement licenses Docker Desktop and when commercial use requires a paid subscription.",
+          "title": "Docker Desktop license agreement",
+          "title_link": "https://docs.docker.com/subscription/desktop-license/",
+          "service_name": "Docker Documentation",
+          "media_type": "external_link"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SwPpj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": " WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "自治体は規模に関係なく Docker Desktop が有料",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.docker.com/subscription/desktop-license/",
+                      "text": "Docker Desktop license agreement"
+                    },
+                    {
+                      "type": "text",
+                      "text": "）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "今の Windows ガイドはこの点をはっきり書いていません。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://windows-setup.md:22",
+                      "text": "windows-setup.md:22"
+                    },
+                    {
+                      "type": "text",
+                      "text": " は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "大木さんの言う「WSL2 + ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "start_linux.sh",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh",
+                      "text": "start_linux.sh"
+                    },
+                    {
+                      "type": "text",
+                      "text": " も中で "
+                    },
+                    {
+                      "type": "text",
+                      "text": "docker compose up",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md",
+                      "text": "windows-distribution-options.md",
+                      "unsafe": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md",
+                      "text": "direct-win.md",
+                      "unsafe": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "今回、これが実機で動いたという初めての報告が出ました。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "#877 の方針は見直しが必要です。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WSL 3.0 はまだ使えません。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 9/29 に WSL コンテナー機能付きで出ましたが、"
+                    },
+                    {
+                      "type": "text",
+                      "text": "wslc compose",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " はこれから作られる段階で、"
+                    },
+                    {
+                      "type": "text",
+                      "text": "compose.yaml",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " を前提にした今の構成はそのままでは動きません。様子見の対象です。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791322229.988089",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1791333478.000000"
+    },
+    "client_msg_id": "a9ed9dfb-b007-4fbd-9b1c-3275b4b8c5d4",
+    "thread_ts": "1791292853.657799",
+    "parent_user_id": "U08G2A216TW",
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791292853.657799",
+    "user_name": "Shingo OHKI",
+    "text_readable": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n• セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）\n• 広聴AIは安定版zipではなく `main` をcloneしている\n• WSL2上のUbuntuを前提にしている\n• `cp .env.example .env` を実行しないとうまく動かなかったため、手順に追加している（`.env` 周りの想定が `setup_linux.sh` 作成時から変わっている可能性もありそう）\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791292947.407769",
+    "client_msg_id": "e534ae80-7130-4b6a-98ba-a0858cc2ef62",
+    "text": "1. *ガイド冒頭の分岐を変える（すぐできる docs 修正）*\n個人・小規模団体：これまでどおり Docker Desktop\n自治体・大きな組織：WSL2 + Docker Engine の手順へ案内\n「政府機関は有料」と規約へのリンクを明記する\nDocker Desktop を完全に外さない理由は、非専門家にとって一番失敗しにくい方法であることは変わらないからです。西尾さんの「外していく方向」とは、ここだけ少し違う提案になります。\n2. *WSL2 + Docker Engine の手順書は、大木さんの実際の手順から作る。* 以下の点で詰まりやすいので、大木さんに具体的な手順を出してもらうのが近道です。\nUbuntu のバージョンと、Docker の入れ方（`docker-ce` か Ubuntu の `<http://docker.io|docker.io>` か）\nリポジトリを WSL 側に clone すること（Windows 側だと CRLF で `.sh` が壊れる）\nsystemd、`.wslconfig` でのメモリ設定、庁内プロキシ\n前提として、`wsl --install` に Windows の管理者権限と仮想化の有効化が要るのは Docker Desktop と同じなので、権限の問題がなくなるわけではありません。\n3. *「（未検証）」ラベルの件は別 issue にする。* o4-mini は動いたという報告で、既存の #912 / #913 と同じ流れの検証タスクです。\n4. *WSL 3 は `wslc compose` が出てから再評価する。* 今は wiki の Open Questions に記録しておく程度で十分です。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GhR50",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "1. "
+              },
+              {
+                "type": "text",
+                "text": "ガイド冒頭の分岐を変える（すぐできる docs 修正）",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n個人・小規模団体：これまでどおり Docker Desktop\n自治体・大きな組織：WSL2 + Docker Engine の手順へ案内\n「政府機関は有料」と規約へのリンクを明記する\nDocker Desktop を完全に外さない理由は、非専門家にとって一番失敗しにくい方法であることは変わらないからです。西尾さんの「外していく方向」とは、ここだけ少し違う提案になります。\n2. "
+              },
+              {
+                "type": "text",
+                "text": "WSL2 + Docker Engine の手順書は、大木さんの実際の手順から作る。",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 以下の点で詰まりやすいので、大木さんに具体的な手順を出してもらうのが近道です。\nUbuntu のバージョンと、Docker の入れ方（"
+              },
+              {
+                "type": "text",
+                "text": "docker-ce",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " か Ubuntu の "
+              },
+              {
+                "type": "link",
+                "url": "http://docker.io",
+                "text": "docker.io",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " か）\nリポジトリを WSL 側に clone すること（Windows 側だと CRLF で "
+              },
+              {
+                "type": "text",
+                "text": ".sh",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " が壊れる）\nsystemd、"
+              },
+              {
+                "type": "text",
+                "text": ".wslconfig",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " でのメモリ設定、庁内プロキシ\n前提として、"
+              },
+              {
+                "type": "text",
+                "text": "wsl --install",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " に Windows の管理者権限と仮想化の有効化が要るのは Docker Desktop と同じなので、権限の問題がなくなるわけではありません。\n3. "
+              },
+              {
+                "type": "text",
+                "text": "「（未検証）」ラベルの件は別 issue にする。",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " o4-mini は動いたという報告で、既存の #912 / #913 と同じ流れの検証タスクです。\n4. "
+              },
+              {
+                "type": "text",
+                "text": "WSL 3 は ",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "wslc compose",
+                "style": {
+                  "bold": true,
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " が出てから再評価する。",
+                "style": {
+                  "bold": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " 今は wiki の Open Questions に記録しておく程度で十分です。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "1. *ガイド冒頭の分岐を変える（すぐできる docs 修正）*\n個人・小規模団体：これまでどおり Docker Desktop\n自治体・大きな組織：WSL2 + Docker Engine の手順へ案内\n「政府機関は有料」と規約へのリンクを明記する\nDocker Desktop を完全に外さない理由は、非専門家にとって一番失敗しにくい方法であることは変わらないからです。西尾さんの「外していく方向」とは、ここだけ少し違う提案になります。\n2. *WSL2 + Docker Engine の手順書は、大木さんの実際の手順から作る。* 以下の点で詰まりやすいので、大木さんに具体的な手順を出してもらうのが近道です。\nUbuntu のバージョンと、Docker の入れ方（`docker-ce` か Ubuntu の `<http://docker.io|docker.io>` か）\nリポジトリを WSL 側に clone すること（Windows 側だと CRLF で `.sh` が壊れる）\nsystemd、`.wslconfig` でのメモリ設定、庁内プロキシ\n前提として、`wsl --install` に Windows の管理者権限と仮想化の有効化が要るのは Docker Desktop と同じなので、権限の問題がなくなるわけではありません。\n3. *「（未検証）」ラベルの件は別 issue にする。* o4-mini は動いたという報告で、既存の #912 / #913 と同じ流れの検証タスクです。\n4. *WSL 3 は `wslc compose` が出てから再評価する。* 今は wiki の Open Questions に記録しておく程度で十分です。"
+  },
+  {
+    "text": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n• セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）\n• 広聴AIは安定版zipではなく `main` をcloneしている\n• WSL2上のUbuntuを前提にしている\n• `cp .env.example .env` を実行しないとうまく動かなかったため、手順に追加している（`.env` 周りの想定が `setup_linux.sh` 作成時から変わっている可能性もありそう）\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。",
+    "files": [
+      {
+        "id": "F0C76EPNQ30",
+        "created": 1791322204,
+        "timestamp": 1791322204,
+        "mimetype": "text/plain",
+        "filetype": "markdown",
+        "pretty_type": "Markdown (raw)",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": true,
+        "size": 14144,
+        "mode": "snippet",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "広聴AI_Windows11_WSL2_DockerEngine_セットアップ・利用ガイド.md",
+        "title": "広聴AI_Windows11_WSL2_DockerEngine_セットアップ・利用ガイド.md",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C76EPNQ30/download/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C76EPNQ30-7f62487d5e",
+        "edit_link": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C76EPNQ30/______ai_windows11_wsl2_dockerengine______________________________________________.md/edit",
+        "preview": "# 広聴AI Windows 11 セットアップ・利用ガイド（WSL2 + Docker Engine）\n\n> Windows 11上のWSL2（Ubuntu）にDocker Engineを直接インストールして広聴AI（kouchou-ai）を動かすための手順です。ある自治体向けのWindows 11 PCで行った実機セットアップをベースに、一般利用向けに固有情報を外して整理しています。\n\n## 1. このガイドの対象",
+        "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\">#</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">広</span><span class=\"cm-header cm-header-1\">聴</span><span class=\"cm-header cm-header-1\">A</span><span class=\"cm-header cm-header-1\">I</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">W</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">d</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">w</span><span class=\"cm-header cm-header-1\">s</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">1</span><span class=\"cm-header cm-header-1\">1</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">セ</span><span class=\"cm-header cm-header-1\">ッ</span><span class=\"cm-header cm-header-1\">ト</span><span class=\"cm-header cm-header-1\">ア</span><span class=\"cm-header cm-header-1\">ッ</span><span class=\"cm-header cm-header-1\">プ</span><span class=\"cm-header cm-header-1\">・</span><span class=\"cm-header cm-header-1\">利</span><span class=\"cm-header cm-header-1\">用</span><span class=\"cm-header cm-header-1\">ガ</span><span class=\"cm-header cm-header-1\">イ</span><span class=\"cm-header cm-header-1\">ド</span><span class=\"cm-header cm-header-1\">（</span><span class=\"cm-header cm-header-1\">W</span><span class=\"cm-header cm-header-1\">S</span><span class=\"cm-header cm-header-1\">L</span><span class=\"cm-header cm-header-1\">2</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">+</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">D</span><span class=\"cm-header cm-header-1\">o</span><span class=\"cm-header cm-header-1\">c</span><span class=\"cm-header cm-header-1\">k</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">r</span><span class=\"cm-header cm-header-1\"> </span><span class=\"cm-header cm-header-1\">E</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">g</span><span class=\"cm-header cm-header-1\">i</span><span class=\"cm-header cm-header-1\">n</span><span class=\"cm-header cm-header-1\">e</span><span class=\"cm-header cm-header-1\">）</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-quote cm-quote-1\">&gt;</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">d</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">w</span><span class=\"cm-quote cm-quote-1\">s</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">上</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">S</span><span class=\"cm-quote cm-quote-1\">L</span><span class=\"cm-quote cm-quote-1\">2</span><span class=\"cm-quote cm-quote-1\">（</span><span class=\"cm-quote cm-quote-1\">U</span><span class=\"cm-quote cm-quote-1\">b</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">t</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">）</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">D</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">c</span><span class=\"cm-quote cm-quote-1\">k</span><span class=\"cm-quote cm-quote-1\">e</span><span class=\"cm-quote cm-quote-1\">r</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">E</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">g</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">e</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">直</span><span class=\"cm-quote cm-quote-1\">接</span><span class=\"cm-quote cm-quote-1\">イ</span><span class=\"cm-quote cm-quote-1\">ン</span><span class=\"cm-quote cm-quote-1\">ス</span><span class=\"cm-quote cm-quote-1\">ト</span><span class=\"cm-quote cm-quote-1\">ー</span><span class=\"cm-quote cm-quote-1\">ル</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">広</span><span class=\"cm-quote cm-quote-1\">聴</span><span class=\"cm-quote cm-quote-1\">A</span><span class=\"cm-quote cm-quote-1\">I</span><span class=\"cm-quote cm-quote-1\">（</span><span class=\"cm-quote cm-quote-1\">k</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">c</span><span class=\"cm-quote cm-quote-1\">h</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">u</span><span class=\"cm-quote cm-quote-1\">-</span><span class=\"cm-quote cm-quote-1\">a</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">）</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">動</span><span class=\"cm-quote cm-quote-1\">か</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">た</span><span class=\"cm-quote cm-quote-1\">め</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">手</span><span class=\"cm-quote cm-quote-1\">順</span><span class=\"cm-quote cm-quote-1\">で</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">。</span><span class=\"cm-quote cm-quote-1\">あ</span><span class=\"cm-quote cm-quote-1\">る</span><span class=\"cm-quote cm-quote-1\">自</span><span class=\"cm-quote cm-quote-1\">治</span><span class=\"cm-quote cm-quote-1\">体</span><span class=\"cm-quote cm-quote-1\">向</span><span class=\"cm-quote cm-quote-1\">け</span><span class=\"cm-quote cm-quote-1\">の</span><span class=\"cm-quote cm-quote-1\">W</span><span class=\"cm-quote cm-quote-1\">i</span><span class=\"cm-quote cm-quote-1\">n</span><span class=\"cm-quote cm-quote-1\">d</span><span class=\"cm-quote cm-quote-1\">o</span><span class=\"cm-quote cm-quote-1\">w</span><span class=\"cm-quote cm-quote-1\">s</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\">1</span><span class=\"cm-quote cm-quote-1\"> </span><span class=\"cm-quote cm-quote-1\">P</span><span class=\"cm-quote cm-quote-1\">C</span><span class=\"cm-quote cm-quote-1\">で</span><span class=\"cm-quote cm-quote-1\">行</span><span class=\"cm-quote cm-quote-1\">っ</span><span class=\"cm-quote cm-quote-1\">た</span><span class=\"cm-quote cm-quote-1\">実</span><span class=\"cm-quote cm-quote-1\">機</span><span class=\"cm-quote cm-quote-1\">セ</span><span class=\"cm-quote cm-quote-1\">ッ</span><span class=\"cm-quote cm-quote-1\">ト</span><span class=\"cm-quote cm-quote-1\">ア</span><span class=\"cm-quote cm-quote-1\">ッ</span><span class=\"cm-quote cm-quote-1\">プ</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">ベ</span><span class=\"cm-quote cm-quote-1\">ー</span><span class=\"cm-quote cm-quote-1\">ス</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">、</span><span class=\"cm-quote cm-quote-1\">一</span><span class=\"cm-quote cm-quote-1\">般</span><span class=\"cm-quote cm-quote-1\">利</span><span class=\"cm-quote cm-quote-1\">用</span><span class=\"cm-quote cm-quote-1\">向</span><span class=\"cm-quote cm-quote-1\">け</span><span class=\"cm-quote cm-quote-1\">に</span><span class=\"cm-quote cm-quote-1\">固</span><span class=\"cm-quote cm-quote-1\">有</span><span class=\"cm-quote cm-quote-1\">情</span><span class=\"cm-quote cm-quote-1\">報</span><span class=\"cm-quote cm-quote-1\">を</span><span class=\"cm-quote cm-quote-1\">外</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">整</span><span class=\"cm-quote cm-quote-1\">理</span><span class=\"cm-quote cm-quote-1\">し</span><span class=\"cm-quote cm-quote-1\">て</span><span class=\"cm-quote cm-quote-1\">い</span><span class=\"cm-quote cm-quote-1\">ま</span><span class=\"cm-quote cm-quote-1\">す</span><span class=\"cm-quote cm-quote-1\">。</span></pre></div>\n<div><pre>&#8203;</pre></div>\n<div><pre><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\">#</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">1</span><span class=\"cm-header cm-header-2\">.</span><span class=\"cm-header cm-header-2\"> </span><span class=\"cm-header cm-header-2\">こ</span><span class=\"cm-header cm-header-2\">の</span><span class=\"cm-header cm-header-2\">ガ</span><span class=\"cm-header cm-header-2\">イ</span><span class=\"cm-header cm-header-2\">ド</span><span class=\"cm-header cm-header-2\">の</span><span class=\"cm-header cm-header-2\">対</span><span class=\"cm-header cm-header-2\">象</span></pre></div>\n</div>\n</div>\n",
+        "lines": 513,
+        "lines_more": 508,
+        "preview_is_truncated": true,
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kUo+I",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "広聴AIは安定版zipではなく "
+                  },
+                  {
+                    "type": "text",
+                    "text": "main",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " をcloneしている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "WSL2上のUbuntuを前提にしている"
+                  }
+                ]
+              },
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "text",
+                    "text": "cp .env.example .env",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " を実行しないとうまく動かなかったため、手順に追加している（"
+                  },
+                  {
+                    "type": "text",
+                    "text": ".env",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 周りの想定が "
+                  },
+                  {
+                    "type": "text",
+                    "text": "setup_linux.sh",
+                    "style": {
+                      "code": true
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": " 作成時から変わっている可能性もありそう）"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "subtype": "thread_broadcast",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791292853.657799",
+      "client_msg_id": "2d7c44fc-45d2-44bd-b06b-8ded22fa00f7",
+      "text": "<@U08H3V9KMFH> WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n• *自治体は規模に関係なく Docker Desktop が有料*です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（<https://docs.docker.com/subscription/desktop-license/|Docker Desktop license agreement>）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。\n• *今の Windows ガイドはこの点をはっきり書いていません。* <http://windows-setup.md:22|windows-setup.md:22> は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。\n• *大木さんの言う「WSL2 + `start_linux.sh`」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。* <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh|start_linux.sh> も中で `docker compose up` を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md|windows-distribution-options.md> で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。\n    ◦ 大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の <vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md|direct-win.md> だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。\n• *今回、これが実機で動いたという初めての報告が出ました。* 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。\n• *#877 の方針は見直しが必要です。* 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。\n• *WSL 3.0 はまだ使えません。* 9/29 に WSL コンテナー機能付きで出ましたが、`wslc compose` はこれから作られる段階で、`compose.yaml` を前提にした今の構成はそのままでは動きません。様子見の対象です。\n",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791292853.657799",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1791322229.988089",
+      "reply_users": [
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "attachments": [
+        {
+          "image_url": "https://docs.docker.com/images/thumbnail.webp",
+          "image_width": 2400,
+          "image_height": 1260,
+          "image_bytes": 37186,
+          "from_url": "https://docs.docker.com/subscription/desktop-license/",
+          "service_icon": "https://docs.docker.com/apple-touch-icon.png",
+          "ts": 1790623607,
+          "id": 1,
+          "original_url": "https://docs.docker.com/subscription/desktop-license/",
+          "fallback": "Docker Documentation: Docker Desktop license agreement",
+          "text": "Learn how the Docker Subscription Service Agreement licenses Docker Desktop and when commercial use requires a paid subscription.",
+          "title": "Docker Desktop license agreement",
+          "title_link": "https://docs.docker.com/subscription/desktop-license/",
+          "service_name": "Docker Documentation",
+          "media_type": "external_link"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SwPpj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": " WSLの件の検討をして、大木さんがやって動いた手順がもし出してもらえるならそれをベースにDocker Desktopを使えない自治体向けのドキュメントを増やすのが良さそうと思いました\n\n---(Opus)\n確認した事実\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "自治体は規模に関係なく Docker Desktop が有料",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "です。無料なのは「従業員250人未満かつ売上1000万ドル未満」の組織などで、政府機関は有料サブスクリプションが必須と規約に明記されています（"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs.docker.com/subscription/desktop-license/",
+                      "text": "Docker Desktop license agreement"
+                    },
+                    {
+                      "type": "text",
+                      "text": "）。広聴AIの主な利用者である自治体は、ちょうどこの条件に当たります。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "今の Windows ガイドはこの点をはっきり書いていません。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://windows-setup.md:22",
+                      "text": "windows-setup.md:22"
+                    },
+                    {
+                      "type": "text",
+                      "text": " は「組織利用の場合は管理者へ確認」とだけ書いて、WSL 内で自分で組む方法は「扱いません」としています。そのため自治体の人は、有料の方法か、IT 管理者に回すかの二択になっています。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "大木さんの言う「WSL2 + ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "start_linux.sh",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "」は、WSL2 の Ubuntu に Docker Engine を直接入れる構成です。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/start_linux.sh",
+                      "text": "start_linux.sh"
+                    },
+                    {
+                      "type": "text",
+                      "text": " も中で "
+                    },
+                    {
+                      "type": "text",
+                      "text": "docker compose up",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " を呼んでいるので、Docker を使わない構成ではありません。この構成は wiki の "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/wiki/analyses/windows-distribution-options.md",
+                      "text": "windows-distribution-options.md",
+                      "unsafe": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " で 2026-05 に「ルート B」として整理済みで、「お金は払わずに済むがサポートの手間が増える」「本体側では未決」のまま止まっていました。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "大木さんが「マニュアル上非推奨」と書いた部分の出典は確認できていません。docs で「非推奨」と明記されているのは、Docker を使わない別手順の "
+                    },
+                    {
+                      "type": "link",
+                      "url": "vscode-webview://1qoak8ciq994g6p46hj8i7vqr3tpoo15l339f23o7qbjfolmcrun/work/kouchou-ai/docs/repo-readmes/experiments/direct-win.md",
+                      "text": "direct-win.md",
+                      "unsafe": true
+                    },
+                    {
+                      "type": "text",
+                      "text": " だけです。WSL2 の構成は、非推奨ではなく「扱わない」扱いです。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 1,
+              "border": 0
+            },
+            {
+              "type": "rich_text_list",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "今回、これが実機で動いたという初めての報告が出ました。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 自治体で使い回せる Windows 11 PC での大木さんの報告です。5月の時点では GPT のブレストしか根拠がなかったので、ここが大きく変わった点です。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "#877 の方針は見直しが必要です。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 「Docker Desktop が使えない組織PCはガイドの対象外にして IT 管理者へ回す」という判断は、技術的にブロックされている前提でした。実際には問題はライセンス費用で、無料で動く別の方法もあります。#877 は 2026-09-08 にクローズ済みです。"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WSL 3.0 はまだ使えません。",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " 9/29 に WSL コンテナー機能付きで出ましたが、"
+                    },
+                    {
+                      "type": "text",
+                      "text": "wslc compose",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " はこれから作られる段階で、"
+                    },
+                    {
+                      "type": "text",
+                      "text": "compose.yaml",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " を前提にした今の構成はそのままでは動きません。様子見の対象です。"
+                    }
+                  ]
+                }
+              ],
+              "style": "bullet",
+              "indent": 0,
+              "border": 0
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791322229.988089",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1791333478.000000"
+    },
+    "client_msg_id": "a9ed9dfb-b007-4fbd-9b1c-3275b4b8c5d4",
+    "thread_ts": "1791292853.657799",
+    "parent_user_id": "U08G2A216TW",
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "もちろんです！\nWindows11用のセットアップ＆利用ドキュメントのたたき台を作ってみました。\nただ、特定の環境向けに作った手順を一般化を試みたものなので、このまま公式手順にしてよいかは要検討だと思っています。\n\n特に元々のドキュメントは、そこまでエンジニアリング知識を求めない前提だったと思うので、そこは今回のケースとは前提が少し違いそうだなと思っています。\n• セットアップ自体は、自治体職員ではなく、広聴AIの開発に関わっている僕がやっている（ので暗黙的に要求しているエンジニアリング知識がきっとある）\n• 広聴AIは安定版zipではなく `main` をcloneしている\n• WSL2上のUbuntuを前提にしている\n• `cp .env.example .env` を実行しないとうまく動かなかったため、手順に追加している（`.env` 周りの想定が `setup_linux.sh` 作成時から変わっている可能性もありそう）\n実機では、この構成でセットアップ、レポート生成、WSL/Windows再起動後の再起動・レポート保持まで確認できています。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791339150.359339",
+    "client_msg_id": "01d3f8d8-582c-4fcf-8d6f-09f85351b7eb",
+    "text": "&gt; `.env.example` には後から変数が追加されてきたのに、3つのスクリプトの「書き出す変数リスト」が追従していない\nなるほど、WSLのせいではなくバグがありそう",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jLQlO",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": ".env.example",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " には後から変数が追加されてきたのに、3つのスクリプトの「書き出す変数リスト」が追従していない"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど、WSLのせいではなくバグがありそう"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> `.env.example` には後から変数が追加されてきたのに、3つのスクリプトの「書き出す変数リスト」が追従していない\nなるほど、WSLのせいではなくバグがありそう"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791340051.706479",
+    "client_msg_id": "490d0320-d7ed-4ba6-8509-ecadc45d0ff8",
+    "text": "<@U08J6JR5SNQ> Local LLMで動くの話、「インターフェイスが共通なので動く」ということと「十分な精度の結果を返す」ということは別物であることをユーザがきちんと理解するように表現していかないといけないなと思った。こちらの手元のOpusは「まずローカルの Qwen3 で意見抽出を試しましたが、意味が変わったり主語が逆になったりしたので不採用にしました」とか言っている。\n一方で誤読は確率的に発生する問題であって、有償APIを使ったら確率は下がるがゼロになるわけでもなく「GPT-4o miniだと誤読があったのでGPT-4.1にしました」とかも言ってくる。\nだからどのくらいのモデルだとどのくらいの確率で誤読が発生するのかとかがわかるといいのかもなと思った。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "m7ZRC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " Local LLMで動くの話、「インターフェイスが共通なので動く」ということと「十分な精度の結果を返す」ということは別物であることをユーザがきちんと理解するように表現していかないといけないなと思った。こちらの手元のOpusは「まずローカルの Qwen3 で意見抽出を試しましたが、意味が変わったり主語が逆になったりしたので不採用にしました」とか言っている。\n一方で誤読は確率的に発生する問題であって、有償APIを使ったら確率は下がるがゼロになるわけでもなく「GPT-4o miniだと誤読があったのでGPT-4.1にしました」とかも言ってくる。\nだからどのくらいのモデルだとどのくらいの確率で誤読が発生するのかとかがわかるといいのかもなと思った。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama Local LLMで動くの話、「インターフェイスが共通なので動く」ということと「十分な精度の結果を返す」ということは別物であることをユーザがきちんと理解するように表現していかないといけないなと思った。こちらの手元のOpusは「まずローカルの Qwen3 で意見抽出を試しましたが、意味が変わったり主語が逆になったりしたので不採用にしました」とか言っている。\n一方で誤読は確率的に発生する問題であって、有償APIを使ったら確率は下がるがゼロになるわけでもなく「GPT-4o miniだと誤読があったのでGPT-4.1にしました」とかも言ってくる。\nだからどのくらいのモデルだとどのくらいの確率で誤読が発生するのかとかがわかるといいのかもなと思った。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791340184.796939",
+    "client_msg_id": "596b8999-5c12-4e36-b321-593940382e9e",
+    "text": "補足: 今回の僕の体験は「韓国語の短文 → 日本語の意見」という難しめの課題をやってることが前提で、同一言語でやる時とか短文ではなくしっかり書かれてる時とかはもっと成功率高いと思う",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791340184.796939",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791344561.337289",
+    "reply_users": [
+      "U08J6JR5SNQ"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ja/ey",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "補足: 今回の僕の体験は「韓国語の短文 → 日本語の意見」という難しめの課題をやってることが前提で、同一言語でやる時とか短文ではなくしっかり書かれてる時とかはもっと成功率高いと思う"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "補足: 今回の僕の体験は「韓国語の短文 → 日本語の意見」という難しめの課題をやってることが前提で、同一言語でやる時とか短文ではなくしっかり書かれてる時とかはもっと成功率高いと思う"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1791344561.337289",
+    "edited": {
+      "user": "U08J6JR5SNQ",
+      "ts": "1791344597.000000"
+    },
+    "client_msg_id": "056d041d-b1c0-4da4-89dc-dd3c7de273bf",
+    "text": "ChatGPT4ominiはreasoning modelではないから、CoTが必要な多段タスクが失敗してる感じがする\n4.1もreasoningではないから厳しいんじゃないかなあ",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791340184.796939",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "AsKJ2",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ChatGPT4ominiはreasoning modelではないから、CoTが必要な多段タスクが失敗してる感じがする\n4.1もreasoningではないから厳しいんじゃないかなあ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791340184.796939",
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "ChatGPT4ominiはreasoning modelではないから、CoTが必要な多段タスクが失敗してる感じがする\n4.1もreasoningではないから厳しいんじゃないかなあ"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791341590.892219",
+    "client_msg_id": "A78FCED4-56AF-4DE8-AEDD-4D2B479BDE83",
+    "text": "そう考えるとローカルLLMが結構発展して無料で実験を回せるようになったからプロンプトを変えて比較実験するのとかもやりやすくなったな",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "rK9aI",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そう考えるとローカルLLMが結構発展して無料で実験を回せるようになったからプロンプトを変えて比較実験するのとかもやりやすくなったな"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そう考えるとローカルLLMが結構発展して無料で実験を回せるようになったからプロンプトを変えて比較実験するのとかもやりやすくなったな"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791341714.773429",
+    "client_msg_id": "BA1D2C95-E557-41C6-B231-85291F014A45",
+    "text": "現状は僕やなすかさんの職人技でエイヤと決められた単一プロンプトになってるのだけど、改善プロセスを回してもいいかも。あと本質的にはissueから抽出するのかSNSから抽出するのかでも最適なプロンプトは違うはずだし",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "82eiq",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "現状は僕やなすかさんの職人技でエイヤと決められた単一プロンプトになってるのだけど、改善プロセスを回してもいいかも。あと本質的にはissueから抽出するのかSNSから抽出するのかでも最適なプロンプトは違うはずだし"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "現状は僕やなすかさんの職人技でエイヤと決められた単一プロンプトになってるのだけど、改善プロセスを回してもいいかも。あと本質的にはissueから抽出するのかSNSから抽出するのかでも最適なプロンプトは違うはずだし"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791342599.084589",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1791342719.000000"
+    },
+    "client_msg_id": "9D01AD81-F439-4058-9C10-E6F9830513E0",
+    "text": "レポートを見て、こう言う形でもう一回レポート作り直しませんか？と改善提案をするところまでセットで広聴AIがやってもいいのかも？",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "ZC2nf",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "レポートを見て、"
+              },
+              {
+                "type": "text",
+                "text": "こう言う形でもう一回レポート作り直しませんか？と"
+              },
+              {
+                "type": "text",
+                "text": "改善提案をするところまでセットで広聴AIがやってもいいのかも？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "レポートを見て、こう言う形でもう一回レポート作り直しませんか？と改善提案をするところまでセットで広聴AIがやってもいいのかも？"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791343281.693759",
+    "client_msg_id": "F981B1F5-BC1B-43EA-8B32-560D1478B0B9",
+    "text": "コールセンターでの事例の様に、何度もレポートを作るというところまでなかなか至りにくいので、それを支援できるといいのかもと思いました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Fsj2q",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "コールセンターでの事例の様に、何度もレポートを作るというところまでなかなか至りにくいので、"
+              },
+              {
+                "type": "text",
+                "text": "それを支援できるといいのかもと思いました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "コールセンターでの事例の様に、何度もレポートを作るというところまでなかなか至りにくいので、それを支援できるといいのかもと思いました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791344167.153909",
+    "client_msg_id": "0EDC8073-1538-49B7-87BC-7A9F3B7454B7",
+    "text": "そうなんですけどそれを良い精度で実行するにはCodexかClaude Codeを課金してくださいって感じになっちゃうので… もう半年から1年後に今フロンティアモデルがやってるAgenticな振る舞いをローカルLLMが良い精度で無償でやれるようになったらって肌感ですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "tb6kr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうなんですけどそれを良い精度で実行するにはCodexかClaude Codeを課金してくださいって感じになっちゃうので… もう半年から1年後に今フロンティアモデルがやってるAgenticな振る舞いをローカルLLMが良い精度で無償でやれるようになったらって肌感ですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "そうなんですけどそれを良い精度で実行するにはCodexかClaude Codeを課金してくださいって感じになっちゃうので… もう半年から1年後に今フロンティアモデルがやってるAgenticな振る舞いをローカルLLMが良い精度で無償でやれるようになったらって肌感ですね"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1791344442.173299",
+    "client_msg_id": "603abac7-9002-410f-bf84-5135561e71e8",
+    "text": "opencodegoに契約してDSV4Fを使ってくれーっておもうが",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "0Rsyr",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "opencodegoに契約してDSV4Fを使ってくれーっておもうが"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "opencodegoに契約してDSV4Fを使ってくれーっておもうが"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1791344454.878279",
+    "client_msg_id": "d5265e87-9df0-4eea-b9b4-d1a182de6ef0",
+    "text": "中華モデルだしなあ、という気持ちもある",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "c342X",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "中華モデルだしなあ、という気持ちもある"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "中華モデルだしなあ、という気持ちもある"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791344490.215319",
+    "edited": {
+      "user": "U08H3V9KMFH",
+      "ts": "1791344561.000000"
+    },
+    "client_msg_id": "6D3792CD-26A0-4700-B404-A6A320FDFD5B",
+    "text": "価値が感じられれば、課金してもやりたいという人はいそうな気はします\n\n少なくとも自治体は（できればなお良いが）ローカルLLMでないと動けないということではなさそうだと最近感じています\n",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "aw5OW",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "価値が感じられれば、"
+              },
+              {
+                "type": "text",
+                "text": "課金し"
+              },
+              {
+                "type": "text",
+                "text": "てもやりたいという人はいそうな気はします\n\n少なくとも自治体は（できればなお良いが）ローカルLLMでないと動けないということではなさそうだと最近感じています\n"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "価値が感じられれば、課金してもやりたいという人はいそうな気はします\n\n少なくとも自治体は（できればなお良いが）ローカルLLMでないと動けないということではなさそうだと最近感じています\n"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791345053.332099",
+    "client_msg_id": "7433C647-55BE-4020-840A-5B022ACEBC93",
+    "text": "(近況共有: Mythosのせいで本業が忙しかったのが落ち着いてデジタル民主主義を再開しようかとし始めてたが、GLMのせいでまた忙しくなりそう、まあそうですよねという気持ち)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791345053.332099",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791347949.009079",
+    "reply_users": [
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GqEVy",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "(近況共有: Mythosのせいで本業が忙しかったのが落ち着いてデジタル民主主義を再開しようかとし始めてたが、GLMのせいでまた忙しくなりそう、まあそうですよねという気持ち)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "(近況共有: Mythosのせいで本業が忙しかったのが落ち着いてデジタル民主主義を再開しようかとし始めてたが、GLMのせいでまた忙しくなりそう、まあそうですよねという気持ち)"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791347949.009079",
+    "client_msg_id": "e432f96f-f645-4a66-b923-4f9029b2206e",
+    "text": "それはそれは。さらに忙しくなりそうですねー:smile:",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791345053.332099",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "C+ADA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "それはそれは。さらに忙しくなりそうですねー"
+              },
+              {
+                "type": "emoji",
+                "name": "smile",
+                "unicode": "1f604"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791345053.332099",
+    "user_name": "Shingo OHKI",
+    "text_readable": "それはそれは。さらに忙しくなりそうですねー:smile:"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1791360191.895609",
+    "edited": {
+      "user": "U08HWJ80CHG",
+      "ts": "1791360526.000000"
+    },
+    "client_msg_id": "f5168ee1-0ca5-4a30-9845-e0243db97694",
+    "text": "<!here>\nTo: 広聴AI　コントリビューター、関係者の皆さま\n<https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07|https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07>\n> 健さん提案の戦略会議は、話したい議題が出てきたプロジェクトから個別にやる、で良いのかなと思います。\n~ということで、もし議題があれば開催しようかと思います。~\n~議題がある場合は候補日時を2, 3いただけると助かります。~\n~議題がない場合はその旨を書いていただけると幸いです。~\n\n> 議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やってひる人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。\n皆様、失礼しました。\n日程調整をできればと思います。\n候補日を決めたいので、こちらのスレッドにて、候補日を2, 3いただけると幸いです。\n皆様のやり取りや候補日をみて私がKenさんとの調整役をします。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "UnWqV",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "broadcast",
+                "range": "here"
+              },
+              {
+                "type": "text",
+                "text": "\nTo: 広聴AI　コントリビューター、関係者の皆さま\n"
+              },
+              {
+                "type": "message_mention",
+                "message_ts": "1788855277.653369",
+                "channel_id": "C09T4CVQA07",
+                "author_id": "U08G2A216TW",
+                "thread_ts": "1786969129.839679",
+                "text": "https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07",
+                "url": "https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "健さん提案の戦略会議は、話したい議題が出てきたプロジェクトから個別にやる、で良いのかなと思います。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ということで、もし議題があれば開催しようかと思います。",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "議題がある場合は候補日時を2, 3いただけると助かります。",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              },
+              {
+                "type": "text",
+                "text": "議題がない場合はその旨を書いていただけると幸いです。",
+                "style": {
+                  "strike": true
+                }
+              },
+              {
+                "type": "text",
+                "text": "\n\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やってひる人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "皆様、失礼しました。\n日程調整をできればと思います。\n候補日を決めたいので、こちらのスレッドにて、候補日を2, 3いただけると幸いです。\n皆様のやり取りや候補日をみて私がKenさんとの調整役をします。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "小野翔太",
+    "text_readable": "<!here>\nTo: 広聴AI　コントリビューター、関係者の皆さま\n<https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07|https://dd2030.slack.com/archives/C09T4CVQA07/p1788855277653369?thread_ts=1786969129.839679&cid=C09T4CVQA07>\n> 健さん提案の戦略会議は、話したい議題が出てきたプロジェクトから個別にやる、で良いのかなと思います。\n~ということで、もし議題があれば開催しようかと思います。~\n~議題がある場合は候補日時を2, 3いただけると助かります。~\n~議題がない場合はその旨を書いていただけると幸いです。~\n\n> 議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やってひる人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。\n皆様、失礼しました。\n日程調整をできればと思います。\n候補日を決めたいので、こちらのスレッドにて、候補日を2, 3いただけると幸いです。\n皆様のやり取りや候補日をみて私がKenさんとの調整役をします。"
+  },
+  {
+    "user": "U08KVN5B6HX",
+    "type": "message",
+    "ts": "1791360413.083359",
+    "edited": {
+      "user": "U08KVN5B6HX",
+      "ts": "1791360435.000000"
+    },
+    "client_msg_id": "627a94cd-7dcd-4d70-bc6b-9e6d03a85611",
+    "text": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やっている人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "lagNh",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やっている人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Ken Suzuki",
+    "text_readable": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やっている人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。"
+  }
+]
