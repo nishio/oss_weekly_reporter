@@ -1,0 +1,2543 @@
+[
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791429396.061149",
+    "client_msg_id": "0BE801B4-5922-483F-AFFC-2D0B76AE953E",
+    "text": "メモ: 韓国語版のREADMEを作る",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791429396.061149",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791492862.755449",
+    "reply_users": [
+      "U0C6PHNENLV"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+ikZG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "メモ: 韓国語版のREADMEを作る"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "メモ: 韓国語版のREADMEを作る"
+  },
+  {
+    "user": "U0C6PHNENLV",
+    "type": "message",
+    "ts": "1791492862.755449",
+    "text": "韓国語版のREADME、PRを出しました（README.ko.md を追加し、日本語版の冒頭にも切り替えリンクを入れています）。\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/959>\n韓国語のネイティブチェックはできていないので、どなたか見ていただけると助かります。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791429396.061149",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "n0M",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "韓国語版のREADME、PRを出しました（README.ko.md を追加し、日本語版の冒頭にも切り替えリンクを入れています）。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/959"
+              },
+              {
+                "type": "text",
+                "text": "\n韓国語のネイティブチェックはできていないので、どなたか見ていただけると助かります。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08G2A216TW"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791429396.061149",
+    "user_name": "U0C6PHNENLV",
+    "text_readable": "韓国語版のREADME、PRを出しました（README.ko.md を追加し、日本語版の冒頭にも切り替えリンクを入れています）。\n<https://github.com/digitaldemocracy2030/kouchou-ai/pull/959>\n韓国語のネイティブチェックはできていないので、どなたか見ていただけると助かります。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791429627.415469",
+    "client_msg_id": "62932958-3D50-4819-89AB-314C98FC42A4",
+    "text": "あと大木さんの話を踏まえて思ったのは「フロンティアモデルのコーディングエージェントを使える人」向けの解説もあった方がいいかもですね、使える人がいないと決めつけるのは悲観的すぎるし、学生さんとかで無償でもらってる人もいるので。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "QlfUQ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あと大木さんの話を踏まえて思ったのは「フロンティアモデルのコーディングエージェントを使える人」向けの解説もあった方がいいかもですね、使える人がいないと決めつけるのは悲観的すぎるし、学生さんとかで無償でもらってる人もいるので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あと大木さんの話を踏まえて思ったのは「フロンティアモデルのコーディングエージェントを使える人」向けの解説もあった方がいいかもですね、使える人がいないと決めつけるのは悲観的すぎるし、学生さんとかで無償でもらってる人もいるので。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791534215.198549",
+    "client_msg_id": "20984d65-f7f1-4d65-ac30-81832c55e1cd",
+    "text": "韓国語版READMEはとりあえずマージして何か問題があったら韓国語読める人にPRして貰えばいいと思いました\nそれはさておき日本国外からの注目も集まってきつつある状況で、よく考えたら英語のREADMEがないのは問題ですね！\nREADME.mdを英語にして、日本語版のREADMEを1行目からリンクする、韓国語版もする。という感じにしたいと思います",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "nIuuP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "韓国語版READMEはとりあえずマージして何か問題があったら韓国語読める人にPRして貰えばいいと思いました\nそれはさておき日本国外からの注目も集まってきつつある状況で、よく考えたら英語のREADMEがないのは問題ですね！\nREADME.mdを英語にして、日本語版のREADMEを1行目からリンクする、韓国語版もする。という感じにしたいと思います"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "sugokuyoi_ii",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "韓国語版READMEはとりあえずマージして何か問題があったら韓国語読める人にPRして貰えばいいと思いました\nそれはさておき日本国外からの注目も集まってきつつある状況で、よく考えたら英語のREADMEがないのは問題ですね！\nREADME.mdを英語にして、日本語版のREADMEを1行目からリンクする、韓国語版もする。という感じにしたいと思います"
+  },
+  {
+    "text": "全画面マップを多言語化",
+    "files": [
+      {
+        "id": "F0C8694AJAG",
+        "created": 1791553896,
+        "timestamp": 1791553896,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 55515,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8694AJAG/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8694AJAG/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 79,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 105,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 157,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8694AJAG-dd7533fb8e/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 175,
+        "original_w": 1658,
+        "original_h": 362,
+        "thumb_tiny": "AwALADC9HD5b7vNkfjGGbIqWiigCOaHzcfvJEx/cbGaeSB1NIxOaTpSAfznoMVHNEZACrupAP3Wxn68GpB0opgf/2Q==",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C8694AJAG/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C8694AJAG-766698b009",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7Tusu",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "全画面マップを多言語化"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1791553911.175419",
+    "client_msg_id": "faa20148-bc70-4539-81c4-b1b53f934a3c",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "全画面マップを多言語化"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791613381.162929",
+    "client_msg_id": "b8754e45-92ca-468c-bf8d-5f26db0ca339",
+    "text": "手元で分析して眺めてから公開するつもりだったのにAstraに最終的にどうする予定かまで話したらそこまでの実行を依頼されたと勘違いされて綺麗なサイトができてしまったwww\n<https://nishio.github.io/tea-latte-opinion-map/|nishio.github.io/tea-latte-opinion-map>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://nishio.github.io/tea-latte-opinion-map/share.png",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 88049,
+        "from_url": "https://nishio.github.io/tea-latte-opinion-map/",
+        "id": 1,
+        "original_url": "https://nishio.github.io/tea-latte-opinion-map/",
+        "fallback": "午後ティーの新作、あなたの「好き」はどこにある？",
+        "text": "公開SNS投稿を広聴AIで分析。どっち派？から、その理由へ。",
+        "title": "午後ティーの新作、あなたの「好き」はどこにある？",
+        "title_link": "https://nishio.github.io/tea-latte-opinion-map/",
+        "service_name": "nishio.github.io",
+        "media_type": "external_link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "F+wz4",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "手元で分析して眺めてから公開するつもりだったのにAstraに最終的にどうする予定かまで話したらそこまでの実行を依頼されたと勘違いされて綺麗なサイトができてしまったwww\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/tea-latte-opinion-map/",
+                "text": "nishio.github.io/tea-latte-opinion-map",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "手元で分析して眺めてから公開するつもりだったのにAstraに最終的にどうする予定かまで話したらそこまでの実行を依頼されたと勘違いされて綺麗なサイトができてしまったwww\n<https://nishio.github.io/tea-latte-opinion-map/|nishio.github.io/tea-latte-opinion-map>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791621496.541319",
+    "client_msg_id": "e3054488-9e62-404c-94c1-c338733d8a0a",
+    "text": "分析結果を渡した人が「こういうことできますか」と言った場合、今までだったら「そういう機能はない」とか「使える機能はなくはないが分析し直しするの手間だな〜」だったのだけど、今時Astraにそのまま中継すると多分できる\n(のでほんというと各自がサブスクリプションを契約して各自でAstra使うほうが社会全体のコストは低いがw まあ過渡期なんで僕が代わりにやることで摩擦が減って物事が動きやすくなるならそれはそれでアリかという気持ち)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791621496.541319",
+    "reply_count": 2,
+    "reply_users_count": 2,
+    "latest_reply": "1791631667.476229",
+    "reply_users": [
+      "U08HWJ80CHG",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EB+t/",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "分析結果を渡した人が「こういうことできますか」と言った場合、今までだったら「そういう機能はない」とか「使える機能はなくはないが分析し直しするの手間だな〜」だったのだけど、今時Astraにそのまま中継すると多分できる\n(のでほんというと各自がサブスクリプションを契約して各自でAstra使うほうが社会全体のコストは低いがw まあ過渡期なんで僕が代わりにやることで摩擦が減って物事が動きやすくなるならそれはそれでアリかという気持ち)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "分析結果を渡した人が「こういうことできますか」と言った場合、今までだったら「そういう機能はない」とか「使える機能はなくはないが分析し直しするの手間だな〜」だったのだけど、今時Astraにそのまま中継すると多分できる\n(のでほんというと各自がサブスクリプションを契約して各自でAstra使うほうが社会全体のコストは低いがw まあ過渡期なんで僕が代わりにやることで摩擦が減って物事が動きやすくなるならそれはそれでアリかという気持ち)"
+  },
+  {
+    "user": "U08HWJ80CHG",
+    "type": "message",
+    "ts": "1791623418.534579",
+    "client_msg_id": "c867c804-dfe7-4c20-9dc4-ecf530dca258",
+    "text": "DD2030としてやっていただくのであれば、費用を団体で負担できる可能性があるので、負担が重ければ教えてください。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791621496.541319",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wR+eo",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "DD2030としてやっていただくのであれば、費用を団体で負担できる可能性があるので、負担が重ければ教えてください。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791621496.541319",
+    "user_name": "小野翔太",
+    "text_readable": "DD2030としてやっていただくのであれば、費用を団体で負担できる可能性があるので、負担が重ければ教えてください。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791631667.476229",
+    "client_msg_id": "edbf6002-7773-4da8-873f-eeefc09fceae",
+    "text": "dd2030としてやる気はないです(AIの使途を制限されると面倒なので費用負担のメリットよりデメリットの方が大きい)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791621496.541319",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wE9QD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "dd2030としてやる気はないです(AIの使途を制限されると面倒なので費用負担のメリットよりデメリットの方が大きい)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08HWJ80CHG"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791621496.541319",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "dd2030としてやる気はないです(AIの使途を制限されると面倒なので費用負担のメリットよりデメリットの方が大きい)"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791705288.377159",
+    "client_msg_id": "45d1c9d3-6ce8-41b1-bec4-75f8b7f3a3e2",
+    "text": "<@U08G2A216TW>\n広聴AIの `analysis-core` のライセンスについて、ちょっと教えてください！\n広聴AI全体はAGPL-3.0ですが、`analysis-core` のREADMEやpyproject.tomlにはMITと書かれています。\n<https://github.com/digitaldemocracy2030/kouchou-ai/tree/main/packages/analysis-core|github.com/digitaldemocracy2030/kouchou-ai/…/analysis-core>\nこれは、analysis-coreを独立したMITライセンスのライブラリとして提供する意図ですか？",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791705288.377159",
+    "reply_count": 3,
+    "reply_users_count": 1,
+    "latest_reply": "1791764549.453169",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TjNyE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": "\n広聴AIの "
+              },
+              {
+                "type": "text",
+                "text": "analysis-core",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " のライセンスについて、ちょっと教えてください！\n広聴AI全体はAGPL-3.0ですが、"
+              },
+              {
+                "type": "text",
+                "text": "analysis-core",
+                "style": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " のREADMEやpyproject.tomlにはMITと書かれています。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/tree/main/packages/analysis-core",
+                "text": "github.com/digitaldemocracy2030/kouchou-ai/…/analysis-core",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": "\nこれは、analysis-coreを独立したMITライセンスのライブラリとして提供する意図ですか？"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "@nishio.hirokazu\n広聴AIの `analysis-core` のライセンスについて、ちょっと教えてください！\n広聴AI全体はAGPL-3.0ですが、`analysis-core` のREADMEやpyproject.tomlにはMITと書かれています。\n<https://github.com/digitaldemocracy2030/kouchou-ai/tree/main/packages/analysis-core|github.com/digitaldemocracy2030/kouchou-ai/…/analysis-core>\nこれは、analysis-coreを独立したMITライセンスのライブラリとして提供する意図ですか？"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791763990.936879",
+    "client_msg_id": "B16AC844-0A68-4A96-8BBA-853D24F82800",
+    "text": "おっと、何でそうなっているのかの記憶がないのでAIに聞いておきます",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791705288.377159",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "GrsgX",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "おっと、何でそうなっているのかの記憶がないのでAIに聞いておきます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791705288.377159",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "おっと、何でそうなっているのかの記憶がないのでAIに聞いておきます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791764201.873129",
+    "client_msg_id": "237AF272-C3C7-4248-860E-880D8C4CD328",
+    "text": "単なるミスな気がします(大元のTalk to the CityがAGPLなのでそれに依拠したものをMITに変えるのは無理なはず)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791705288.377159",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i1xsA",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "単なるミスな気がします(大元のTalk to the CityがAGPLなのでそれに依拠したものをMITに変えるのは無理なはず)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791705288.377159",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "単なるミスな気がします(大元のTalk to the CityがAGPLなのでそれに依拠したものをMITに変えるのは無理なはず)"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791764549.453169",
+    "client_msg_id": "15639DD0-B371-4C0E-840D-3FAF78D2BEBD",
+    "text": "履歴洗った結果、特に議論なく最初からMITになってたのでうっかりミスだと判定して今からAGPLに変更します",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791705288.377159",
+    "parent_user_id": "U08H3V9KMFH",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "HU4Fg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "履歴洗った結果、特に議論なく最初からMITになってたのでうっかりミスだと判定して今からAGPLに変更します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791705288.377159",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "履歴洗った結果、特に議論なく最初からMITになってたのでうっかりミスだと判定して今からAGPLに変更します"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791764069.002439",
+    "client_msg_id": "34E8F433-36D8-46AC-8DF2-A897DCDBF895",
+    "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791764069.002439",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791803332.389719",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "+02J8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1791764069.002439",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791764069.002439",
+      "client_msg_id": "34E8F433-36D8-46AC-8DF2-A897DCDBF895",
+      "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791764069.002439",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1791803332.389719",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+02J8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791803332.389719",
+    "client_msg_id": "89aab7d1-5625-4011-99f8-ea3e76b19ac7",
+    "text": "embeddingが対象外なのでダメという結論",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VYOyl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "embeddingが対象外なのでダメという結論"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791764069.002439",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "embeddingが対象外なのでダメという結論"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791765631.822679",
+    "client_msg_id": "3367ADC6-8A07-4BB1-919A-9DF0E847482F",
+    "text": "ライセンスの話、やさしい解説ドキュメントが必要ですね",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Cyvdp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ライセンスの話、やさしい解説ドキュメントが必要ですね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ライセンスの話、やさしい解説ドキュメントが必要ですね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791786510.745059",
+    "client_msg_id": "d876274b-b27b-4801-88ec-8c251bda255e",
+    "text": "既存のIssueのうち現在の状況を踏まえて考えた時に古くなっているものは閉じますね。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3PevE",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "既存のIssueのうち現在の状況を踏まえて考えた時に古くなっているものは閉じますね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "既存のIssueのうち現在の状況を踏まえて考えた時に古くなっているものは閉じますね。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791786533.268069",
+    "client_msg_id": "0ef68995-413a-4a06-923a-ca5c75ece15b",
+    "text": "AIで全件チェックするという意味。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WcPYg",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "AIで全件チェックするという意味。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "AIで全件チェックするという意味。"
+  },
+  {
+    "text": "",
+    "files": [
+      {
+        "id": "F0C8BSWK3FX",
+        "created": 1791792008,
+        "timestamp": 1791792008,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 92090,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8BSWK3FX/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8BSWK3FX/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BSWK3FX-61cfa36ff1/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BSWK3FX-61cfa36ff1/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BSWK3FX-61cfa36ff1/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 178,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BSWK3FX-61cfa36ff1/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 237,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BSWK3FX-61cfa36ff1/image_160.png",
+        "original_w": 1064,
+        "original_h": 526,
+        "thumb_tiny": "AwAYADCkuW3coMDPIHP+c0nLD+Hj8O1AB28g4PfH+fehc7W44x6Z/wD1UALKW3lW25U44AFMqadWMrYViSzY+X3/AFqMH72e/tQAh4NJTsdSoJX1xQ2QcMMEdsYoAMgAcA/nSdun40lFAEkxBkcjByx5FMpKKAFBAzkA8d+1JRRQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C8BSWK3FX/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C8BSWK3FX-170563ce7c",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "type": "message",
+    "ts": "1791792022.523899",
+    "client_msg_id": "0346f321-42a1-4325-b4b4-ee9d9e204a8f",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": ""
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791795500.527079",
+    "client_msg_id": "24c9cd8e-4e09-4820-95ec-c1dc5abaae5c",
+    "text": "READMEを日本語に戻すのは今回は緊急避難的にOKだと思いますが、READMEのsection名リンクが存在することを根拠にして変更を妨げると金輪際READMEの改訂ができなくなりますから基本的には筋が悪くて、外部からリンクしたいならドキュメントに個別ページを作るべきだと思います。\n徐々にそういう形態に置き換えていきたいですね。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791795500.527079",
+    "reply_count": 4,
+    "reply_users_count": 2,
+    "latest_reply": "1791859367.708379",
+    "reply_users": [
+      "U08H3V9KMFH",
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EnM9b",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "READMEを日本語に戻すのは今回は緊急避難的にOKだと思いますが、READMEのsection名リンクが存在することを根拠にして変更を妨げると金輪際READMEの改訂ができなくなりますから基本的には筋が悪くて、外部からリンクしたいならドキュメントに個別ページを作るべきだと思います。\n徐々にそういう形態に置き換えていきたいですね。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "READMEを日本語に戻すのは今回は緊急避難的にOKだと思いますが、READMEのsection名リンクが存在することを根拠にして変更を妨げると金輪際READMEの改訂ができなくなりますから基本的には筋が悪くて、外部からリンクしたいならドキュメントに個別ページを作るべきだと思います。\n徐々にそういう形態に置き換えていきたいですね。"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791804322.179609",
+    "client_msg_id": "2058d4ce-59a4-4abd-a13e-d26d75238d12",
+    "text": "マニュアルを見ようとアクセスした人が、全面英語で書かれたドキュメントを見た時に面食らってそのまま閉じてしまわないかなという懸念の方が大きかったです。\n（そもそも GitHub へのアクセス自体が、そこで脱落する原因にもなりそう）\n\n長期的には、READMEではなく、ちゃんとしたドキュメントを用意する必要があるということには賛成です！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791795500.527079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Jl/Q8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "マニュアルを見ようとアクセスした人が、全面英語で書かれたドキュメントを見た時に面食らってそのまま閉じてしまわないかなという懸念の方が大きかったです。\n（そもそも GitHub へのアクセス自体が、そこで脱落する原因にもなりそう）\n\n長期的には、READMEではなく、ちゃんとしたドキュメントを用意する必要があるということには賛成です！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791795500.527079",
+    "user_name": "Shingo OHKI",
+    "text_readable": "マニュアルを見ようとアクセスした人が、全面英語で書かれたドキュメントを見た時に面食らってそのまま閉じてしまわないかなという懸念の方が大きかったです。\n（そもそも GitHub へのアクセス自体が、そこで脱落する原因にもなりそう）\n\n長期的には、READMEではなく、ちゃんとしたドキュメントを用意する必要があるということには賛成です！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791857715.242869",
+    "client_msg_id": "c3f167a9-5353-4438-b08c-54e603775dcf",
+    "text": "英語で怯むような人が見るべきものは英語UIのGithubではなくドキュメントサイトなのでは。ドキュメントサイトも用意したような気がしたけど記憶の彼方に…",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791795500.527079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "4QVyp",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "英語で怯むような人が見るべきものは英語UIのGithubではなくドキュメントサイトなのでは。ドキュメントサイトも用意したような気がしたけど記憶の彼方に…"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791795500.527079",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "英語で怯むような人が見るべきものは英語UIのGithubではなくドキュメントサイトなのでは。ドキュメントサイトも用意したような気がしたけど記憶の彼方に…"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791857929.814239",
+    "client_msg_id": "7085312b-e9d7-46d2-a18c-23d5b65070cd",
+    "text": "Issuesの棚卸しがひと段落ついたらドキュメント周りが今どうなってるか調べますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791795500.527079",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "jR5en",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Issuesの棚卸しがひと段落ついたらドキュメント周りが今どうなってるか調べますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791795500.527079",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "Issuesの棚卸しがひと段落ついたらドキュメント周りが今どうなってるか調べますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791859367.708379",
+    "client_msg_id": "8c6cf84e-f9d7-4913-8865-64246528ce3d",
+    "text": "あったあった\n<https://digitaldemocracy2030.github.io/kouchou-ai/|digitaldemocracy2030.github.io/kouchou-ai>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791795500.527079",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "from_url": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "id": 1,
+        "original_url": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "fallback": "広聴AI Documentation",
+        "text": "デジタル民主主義2030プロジェクト - ブロードリスニングシステム",
+        "title": "広聴AI Documentation",
+        "title_link": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+        "service_name": "digitaldemocracy2030.github.io",
+        "media_type": "external_link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "YG7BB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "あったあった\n"
+              },
+              {
+                "type": "link",
+                "url": "https://digitaldemocracy2030.github.io/kouchou-ai/",
+                "text": "digitaldemocracy2030.github.io/kouchou-ai",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791795500.527079",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "あったあった\n<https://digitaldemocracy2030.github.io/kouchou-ai/|digitaldemocracy2030.github.io/kouchou-ai>"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1791764069.002439",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791764069.002439",
+      "client_msg_id": "34E8F433-36D8-46AC-8DF2-A897DCDBF895",
+      "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791764069.002439",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1791803332.389719",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+02J8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "広聴AIにSign in with ChatGPTをつけるとCodexのweekly limitを使って分析ができる説(=使い切らずに余らせたものを切り替え間際に使うなら実質無料)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791803332.389719",
+    "client_msg_id": "89aab7d1-5625-4011-99f8-ea3e76b19ac7",
+    "text": "embeddingが対象外なのでダメという結論",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "VYOyl",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "embeddingが対象外なのでダメという結論"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "embeddingが対象外なのでダメという結論"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791809565.026549",
+    "client_msg_id": "70080b6a-6fb9-4812-8aeb-15a839a8565c",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/515|github.com/digitaldemocracy2030/kouchou-ai/issues/515> この件、技術的にはfit_transformしないでtransformすればいいだけの話なんだけど、それをWebUIでやろうとすると既存のUMAP作成済みのレポートと、新しいデータを選択して生成する画面設計が必要で大事になって、そこまでして本当に必要なんですか？という感じで放置されてる感じだと思って、そこら辺はこの前のリファクタリングでWebUIとCLIのcore部分を切り離したことで「こういうことやりたい人はCLIの方を使ってね」とする方がいいのかもなと思っています",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "JrbY7",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/515",
+                "text": "github.com/digitaldemocracy2030/kouchou-ai/issues/515",
+                "truncated": true
+              },
+              {
+                "type": "text",
+                "text": " この件、技術的にはfit_transformしないでtransformすればいいだけの話なんだけど、それをWebUIでやろうとすると既存のUMAP作成済みのレポートと、新しいデータを選択して生成する画面設計が必要で大事になって、そこまでして本当に必要なんですか？という感じで放置されてる感じだと思って、そこら辺はこの前のリファクタリングでWebUIとCLIのcore部分を切り離したことで「こういうことやりたい人はCLIの方を使ってね」とする方がいいのかもなと思っています"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/issues/515|github.com/digitaldemocracy2030/kouchou-ai/issues/515> この件、技術的にはfit_transformしないでtransformすればいいだけの話なんだけど、それをWebUIでやろうとすると既存のUMAP作成済みのレポートと、新しいデータを選択して生成する画面設計が必要で大事になって、そこまでして本当に必要なんですか？という感じで放置されてる感じだと思って、そこら辺はこの前のリファクタリングでWebUIとCLIのcore部分を切り離したことで「こういうことやりたい人はCLIの方を使ってね」とする方がいいのかもなと思っています"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791857565.501369",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1791862215.000000"
+    },
+    "client_msg_id": "7d121f38-4c98-4b3e-a00a-2e278839fc76",
+    "text": "韓国新聞社と協力して分析した件、事例として言及したいという意味でどこまで公開していいか先方に聞いたら、意外と「直接へのコメントへのリンクを外して、記事公開の後まで待ってもらえれば、レポートを公開して良い」という感じになったので、dd2030が国際的に協力して分析したレポートの事例としてdd2030のサイトに公開しちゃえばどんな分析ができるかのサンプルにもなって一石二鳥な気もしました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Ps/oZ",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "韓国新聞社と協力して分析した件、事例として言及したいという意味でどこまで公開していいか先方に聞いたら、意外と「直接へのコメントへのリンクを外して、記事公開の後まで待ってもらえれば、レポートを公開して良い」という感じになったので、dd2030が国際的に協力して分析したレポートの事例としてdd2030のサイトに公開しちゃえばどんな分析ができるかのサンプルにもなって一石二鳥な気もしました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08HZ8JS0EQ"
+        ],
+        "count": 1
+      },
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH",
+          "U08HZGSCT53",
+          "U0AEMQMF7NV"
+        ],
+        "count": 3
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "韓国新聞社と協力して分析した件、事例として言及したいという意味でどこまで公開していいか先方に聞いたら、意外と「直接へのコメントへのリンクを外して、記事公開の後まで待ってもらえれば、レポートを公開して良い」という感じになったので、dd2030が国際的に協力して分析したレポートの事例としてdd2030のサイトに公開しちゃえばどんな分析ができるかのサンプルにもなって一石二鳥な気もしました"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08G2A216TW",
+    "thread_ts": "1791360413.083359",
+    "root": {
+      "user": "U08KVN5B6HX",
+      "type": "message",
+      "ts": "1791360413.083359",
+      "edited": {
+        "user": "U08KVN5B6HX",
+        "ts": "1791360435.000000"
+      },
+      "client_msg_id": "627a94cd-7dcd-4d70-bc6b-9e6d03a85611",
+      "text": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やっている人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791360413.083359",
+      "reply_count": 1,
+      "reply_users_count": 1,
+      "latest_reply": "1791861536.312719",
+      "reply_users": [
+        "U08G2A216TW"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lagNh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "議題があるかないかというよりは、年に１度は戦略的な話をしましょうというのが議題になります。話したい議題があったら会議しましょうというのは、1年に１度ではなくて、都度発生でいいと思います。今回の戦略会議は、都度発生ではなくて、年に１度の会議なので、議題は戦略です。つまり、みなさんが議題がないかもしれませんが、ぼくは議題がありまして、それは戦略です。少なくとも代表として、各プロジェクトが何を目指してそれは正しい方向に向かっているのかは把握したいですし、何か課題があるのであればサポートしたいと思っています。そして、やっている人が気づかない課題を指摘したり気づいたりすることもぼくの役割だと思っています。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791861536.312719",
+    "client_msg_id": "a03f7d26-8223-4c26-b17f-45d2ab91cb9e",
+    "text": "この「戦略」の話が流れ去ってしまってるけど、しばらく意識に留めておいてもいいかも。チャンネルにピン留めしてみました。\n\n僕の理解としては大木さんの観測範囲でニーズとシーズのマッチングが進んでるんだと思っていて、個別のプロジェクトに関してはこの公開の場で話すようなことではないし、僕個人としてもキャパが溢れるので逐一共有して欲しいとは思っていないです。\n\n一方で年末年始にやった柔軟性を高めるリファクタリングと、その後のAIエージェントの進歩で、個別シチュエーションの困りごとに対応するコストが下がっているので開発はやりやすくなったんじゃないかと思います。今回の「日・英・韓の3ヶ国語で見られるようにする」なんてのは2023年の最初の取り組みから既知の課題だったわけで、それが一晩であっさり解決する時代なんだなぁという感じ。",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "i3qX1",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "この「戦略」の話が流れ去ってしまってるけど、しばらく意識に留めておいてもいいかも。チャンネルにピン留めしてみました。\n\n僕の理解としては大木さんの観測範囲でニーズとシーズのマッチングが進んでるんだと思っていて、個別のプロジェクトに関してはこの公開の場で話すようなことではないし、僕個人としてもキャパが溢れるので逐一共有して欲しいとは思っていないです。\n\n一方で年末年始にやった柔軟性を高めるリファクタリングと、その後のAIエージェントの進歩で、個別シチュエーションの困りごとに対応するコストが下がっているので開発はやりやすくなったんじゃないかと思います。今回の「日・英・韓の3ヶ国語で見られるようにする」なんてのは2023年の最初の取り組みから既知の課題だったわけで、それが一晩であっさり解決する時代なんだなぁという感じ。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "この「戦略」の話が流れ去ってしまってるけど、しばらく意識に留めておいてもいいかも。チャンネルにピン留めしてみました。\n\n僕の理解としては大木さんの観測範囲でニーズとシーズのマッチングが進んでるんだと思っていて、個別のプロジェクトに関してはこの公開の場で話すようなことではないし、僕個人としてもキャパが溢れるので逐一共有して欲しいとは思っていないです。\n\n一方で年末年始にやった柔軟性を高めるリファクタリングと、その後のAIエージェントの進歩で、個別シチュエーションの困りごとに対応するコストが下がっているので開発はやりやすくなったんじゃないかと思います。今回の「日・英・韓の3ヶ国語で見られるようにする」なんてのは2023年の最初の取り組みから既知の課題だったわけで、それが一晩であっさり解決する時代なんだなぁという感じ。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791871448.032649",
+    "client_msg_id": "c7b16604-edc1-45d0-9007-7cb6d732551f",
+    "text": "<@U08J6JR5SNQ> ずっとdraftになっているPRに関してAIでレビューして、現状コードに対する2件の潜在的問題の指摘があると読み取ったのでそれを先に直してmergeすることにしました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791871448.032649",
+    "reply_count": 3,
+    "reply_users_count": 1,
+    "latest_reply": "1791871532.902079",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3hLV8",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08J6JR5SNQ"
+              },
+              {
+                "type": "text",
+                "text": " ずっとdraftになっているPRに関してAIでレビューして、現状コードに対する2件の潜在的問題の指摘があると読み取ったのでそれを先に直してmergeすることにしました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "@shinta.nakayama ずっとdraftになっているPRに関してAIでレビューして、現状コードに対する2件の潜在的問題の指摘があると読み取ったのでそれを先に直してmergeすることにしました"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791871475.708009",
+    "client_msg_id": "27c14dfc-fb23-4503-b350-bad12d2aaa70",
+    "text": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/995|github.com/digitaldemocracy2030/kouchou-ai/pull/995>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791871448.032649",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "EKCBd",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/pull/995",
+                "text": "github.com/digitaldemocracy2030/kouchou-ai/pull/995",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791871448.032649",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "<https://github.com/digitaldemocracy2030/kouchou-ai/pull/995|github.com/digitaldemocracy2030/kouchou-ai/pull/995>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791871504.138129",
+    "client_msg_id": "1e38bcc6-c453-42db-a036-cc516be21d79",
+    "text": "draftのPR自体には手をつけてません、続けるつもりがあるのかどうかは判断お任せします",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791871448.032649",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "3FXwe",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "draftのPR自体には手をつけてません、続けるつもりがあるのかどうかは判断お任せします"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791871448.032649",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "draftのPR自体には手をつけてません、続けるつもりがあるのかどうかは判断お任せします"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791871532.902079",
+    "client_msg_id": "daf35531-ee01-4325-8ef9-b2954554e5d1",
+    "text": "たぶんAstra以前のPRだと思うのでAstraに投げたらできる可能性もあるw",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791871448.032649",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "KlqWM",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "たぶんAstra以前のPRだと思うのでAstraに投げたらできる可能性もあるw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791871448.032649",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "たぶんAstra以前のPRだと思うのでAstraに投げたらできる可能性もあるw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791872725.761849",
+    "client_msg_id": "d4942ec7-324c-4e44-a5b2-49a116d0bbb8",
+    "text": "PRは一通り片付いたので、次はドキュメントを最新の状態に合わせて更新します",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TwhBL",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "PRは一通り片付いたので、次はドキュメントを最新の状態に合わせて更新します"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "saluting_face",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "PRは一通り片付いたので、次はドキュメントを最新の状態に合わせて更新します"
+  },
+  {
+    "user": "U08J6JR5SNQ",
+    "type": "message",
+    "ts": "1791876128.449309",
+    "client_msg_id": "c32a38c0-ae75-4059-b024-52c4e1a44e13",
+    "text": "Windowsスタンドアロンはいったんcloseしました。ある程度までやってましたが、Web単体で動くWebスタンドアロン版ができたので。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IBnUa",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Windowsスタンドアロンはいったんcloseしました。ある程度までやってましたが、Web単体で動くWebスタンドアロン版ができたので。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "中山心太（tokoroten）",
+    "text_readable": "Windowsスタンドアロンはいったんcloseしました。ある程度までやってましたが、Web単体で動くWebスタンドアロン版ができたので。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791877914.313569",
+    "client_msg_id": "2bfbbb00-5678-473f-b646-520c4af52d40",
+    "text": "今回のPRひと段落タイミングにマイナーリビジョンを振ってドキュメントもそれに合わせて一旦総見直し、それから書籍リリースのタイミングに合わせたメジャーリリースにこれはぜひ入れたいと言う機能やここは直しておきたいと言うバグがあれば潰してrelease candidateでガンガン更新、いいタイミングでメジャーリリースのタグを打ちます",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "Y/HuK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今回のPRひと段落タイミングにマイナーリビジョンを振ってドキュメントもそれに合わせて一旦総見直し、それから書籍リリースのタイミングに合わせたメジャーリリースにこれはぜひ入れたいと言う機能やここは直しておきたいと言うバグがあれば潰してrelease candidateでガンガン更新、いいタイミングでメジャーリリースのタグを打ちます"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今回のPRひと段落タイミングにマイナーリビジョンを振ってドキュメントもそれに合わせて一旦総見直し、それから書籍リリースのタイミングに合わせたメジャーリリースにこれはぜひ入れたいと言う機能やここは直しておきたいと言うバグがあれば潰してrelease candidateでガンガン更新、いいタイミングでメジャーリリースのタグを打ちます"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791880758.927309",
+    "client_msg_id": "64cdf797-5c78-404e-97eb-8b43b4a4f1d5",
+    "text": "mkdocsにmkdocs-redirectsを入れて、ページ単位のリネームではリンク切れが起こりにくいようにしていきます。",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "PrAUB",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "mkdocsにmkdocs-redirectsを入れて、ページ単位のリネームではリンク切れが起こりにくいようにしていきます。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "mkdocsにmkdocs-redirectsを入れて、ページ単位のリネームではリンク切れが起こりにくいようにしていきます。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791881908.445609",
+    "client_msg_id": "36c7fef5-9dfe-43b6-96fd-689aac962357",
+    "text": "デプロイが落ちてる件 cc <@U08H3V9KMFH>\n&gt; Azure サービスプリンシパルの client secret が期限切れです。\n&gt; 再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "reply_count": 9,
+    "reply_users_count": 2,
+    "latest_reply": "1791901668.898059",
+    "reply_users": [
+      "U08G2A216TW",
+      "U08H3V9KMFH"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "TX1HU",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "デプロイが落ちてる件 cc "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              },
+              {
+                "type": "text",
+                "text": "\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "Azure サービスプリンシパルの client secret が期限切れです。\n再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "デプロイが落ちてる件 cc @truego\n> Azure サービスプリンシパルの client secret が期限切れです。\n> 再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。"
+  },
+  {
+    "text": "なるほど、とりあえず期間最長で再発行しますね <@U08H3V9KMFH>",
+    "files": [
+      {
+        "id": "F0C8PUS7GS1",
+        "created": 1791898143,
+        "timestamp": 1791898143,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 17123,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8PUS7GS1/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8PUS7GS1/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8PUS7GS1-7cfa95342b/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8PUS7GS1-7cfa95342b/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8PUS7GS1-7cfa95342b/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 71,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8PUS7GS1-7cfa95342b/image_160.png",
+        "original_w": 766,
+        "original_h": 152,
+        "thumb_tiny": "AwAKADDQJ+cHeQOm3jmnbhS4owPSgBNwo3ClwPSjA9KAGk5HBI96asijgybj05xUmB6UYHpQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C8PUS7GS1/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C8PUS7GS1-651ec45b5f",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qQvn0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "なるほど、とりあえず期間最長で再発行しますね "
+              },
+              {
+                "type": "user",
+                "user_id": "U08H3V9KMFH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1791898162.645549",
+    "client_msg_id": "f9098e8a-d1dd-44dd-af62-e14bdafdda63",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1791881908.445609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "なるほど、とりあえず期間最長で再発行しますね @truego"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1791881908.445609",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791881908.445609",
+      "client_msg_id": "36c7fef5-9dfe-43b6-96fd-689aac962357",
+      "text": "デプロイが落ちてる件 cc <@U08H3V9KMFH>\n&gt; Azure サービスプリンシパルの client secret が期限切れです。\n&gt; 再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791881908.445609",
+      "reply_count": 9,
+      "reply_users_count": 2,
+      "latest_reply": "1791901668.898059",
+      "reply_users": [
+        "U08G2A216TW",
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TX1HU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "デプロイが落ちてる件 cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Azure サービスプリンシパルの client secret が期限切れです。\n再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791898298.996969",
+    "client_msg_id": "a75c828f-1e0b-4803-8328-3d5efc87149a",
+    "text": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007|[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wwQUP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007",
+                    "text": "[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007|[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791898318.063999",
+    "client_msg_id": "0bf67264-8e2b-44a3-bb07-f0520f8e442d",
+    "text": "<@U08G2A216TW> あ、いまやりました",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qRKbF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "user",
+                "user_id": "U08G2A216TW"
+              },
+              {
+                "type": "text",
+                "text": " あ、いまやりました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "@nishio.hirokazu あ、いまやりました"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791898818.636559",
+    "client_msg_id": "19437081-9451-43d5-b4b0-0f2d2742183a",
+    "text": "入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう\n<https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489|https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "attachments": [
+      {
+        "id": 1,
+        "footer_icon": "https://slack.github.com/static/img/favicon-neutral.png",
+        "ts": 1791898555,
+        "color": "cb2431",
+        "is_forwarded": true,
+        "original_url": "https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489",
+        "fallback": "[digitaldemocracy2030/kouchou-ai] Deploying <https://github.com/digitaldemocracy2030/kouchou-ai/commit/9602d6b76d00d857f5bd20c003d17a4c3ec9c5a7|`9602d6b (main)`> to <https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38371626365/job/115326405694|production> failed",
+        "pretext": "Deployment to <https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38371626365/job/115326405694|production> by <https://github.com/nishio|nishio>",
+        "footer": "<https://github.com/digitaldemocracy2030/kouchou-ai|digitaldemocracy2030/kouchou-ai>",
+        "fields": [
+          {
+            "value": "Failed",
+            "title": "Status",
+            "short": true
+          },
+          {
+            "value": "<https://github.com/digitaldemocracy2030/kouchou-ai/commit/9602d6b76d00d857f5bd20c003d17a4c3ec9c5a7|`9602d6b (main)`>",
+            "title": "Commit",
+            "short": true
+          },
+          {
+            "value": "<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38371626365/job/115326405694|Azure Deployment #179 / deploy>",
+            "title": "Workflow",
+            "short": false
+          }
+        ],
+        "mrkdwn_in": [
+          "text"
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "kGbVG",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう\n"
+              },
+              {
+                "type": "message_mention",
+                "message_ts": "1791898542.762489",
+                "channel_id": "C08JQEUR79U",
+                "author_id": "U08HGALUSH5",
+                "text": "https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489",
+                "url": "https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう\n<https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489|https://dd2030.slack.com/archives/C08JQEUR79U/p1791898542762489>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791899064.525019",
+    "client_msg_id": "a02587c0-dc6f-47bc-a708-1a625d77689d",
+    "text": "古い deploy を再実行してるからか。\nこれはうまく行ったっぽいので、大丈夫そうですね。\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38404003336/job/115322084178|github.com/digitaldemocracy2030/kouchou-ai/…/115322084178>",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "39tv0",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "古い deploy を再実行してるからか。\nこれはうまく行ったっぽいので、大丈夫そうですね。\n"
+              },
+              {
+                "type": "link",
+                "url": "https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38404003336/job/115322084178",
+                "text": "github.com/digitaldemocracy2030/kouchou-ai/…/115322084178",
+                "truncated": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "古い deploy を再実行してるからか。\nこれはうまく行ったっぽいので、大丈夫そうですね。\n<https://github.com/digitaldemocracy2030/kouchou-ai/actions/runs/38404003336/job/115322084178|github.com/digitaldemocracy2030/kouchou-ai/…/115322084178>"
+  },
+  {
+    "text": "（次の期限までにはやろうと思います）",
+    "files": [
+      {
+        "id": "F0C8E2AU623",
+        "created": 1791899180,
+        "timestamp": 1791899180,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08H3V9KMFH",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 27680,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8E2AU623/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8E2AU623/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8E2AU623-7dd3a992a1/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8E2AU623-7dd3a992a1/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8E2AU623-7dd3a992a1/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 186,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8E2AU623-7dd3a992a1/image_160.png",
+        "original_w": 396,
+        "original_h": 205,
+        "thumb_tiny": "AwAZADDSx833j9OKa7AAjeAR15HFPP0zSKWPVcfjQA3D8DcfzHP6UgJAwXBI65I/wp4yRyMH60DOBkYNACKflBLAjA5z1pSMjhyPpilooAZIoJDFCxXpg/59KN7f3G/Sn0UAMDtjOxh7cU7J9KWigBrfMMEe9NRQhO1CM9/x/wDr1JRQB//Z",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C8E2AU623/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C8E2AU623-61cbdc40c3",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08H3V9KMFH",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "9+Xqn",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "（次の期限までにはやろうと思います）"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1791899224.717469",
+    "client_msg_id": "08d24ff3-a6ae-47d0-8a3c-ecbac09483a5",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1791881908.445609",
+    "user_name": "Shingo OHKI",
+    "text_readable": "（次の期限までにはやろうと思います）"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791899647.370739",
+    "client_msg_id": "e73c818d-d10a-4500-9e23-14fdbb8bd24d",
+    "text": "&gt; 入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう\nチャットに気づかずに自分でもやった上で何かを間違えたみたい！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "WLKmj",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "チャットに気づかずに自分でもやった上で何かを間違えたみたい！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> 入れ替えた直後くらいの西尾さんの deploy は何で失敗してるんだろう\nチャットに気づかずに自分でもやった上で何かを間違えたみたい！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791900341.083449",
+    "client_msg_id": "9792a09f-62c6-48ee-8294-cef0a498a9a9",
+    "text": "もうaz loginまでやってるのでこのままOIDC対応までこっちでやっちゃいますね",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "fBqvH",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "もうaz loginまでやってるのでこのままOIDC対応までこっちでやっちゃいますね"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "もうaz loginまでやってるのでこのままOIDC対応までこっちでやっちゃいますね"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791901668.898059",
+    "client_msg_id": "e004c76a-eacf-4591-bdab-61f9137c68c2",
+    "text": "&gt; :tada: 「Azure CLI ログイン: success」— OIDC での認証が通りました! secret なしで federated credential が機能、subject 設定も正解だったということです。OIDC移行は実質成功です。\nできました！",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881908.445609",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "7COiu",
+        "elements": [
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "emoji",
+                "name": "tada",
+                "unicode": "1f389"
+              },
+              {
+                "type": "text",
+                "text": " 「Azure CLI ログイン: success」— OIDC での認証が通りました! secret なしで federated credential が機能、subject 設定も正解だったということです。OIDC移行は実質成功です。"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "できました！"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      },
+      {
+        "name": "arigato",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "parent_ts": "1791881908.445609",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "> :tada: 「Azure CLI ログイン: success」— OIDC での認証が通りました! secret なしで federated credential が機能、subject 設定も正解だったということです。OIDC移行は実質成功です。\nできました！"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791881958.238219",
+    "client_msg_id": "829ed9d1-17c0-4943-b55a-065bff3a6d4a",
+    "text": "OIDC federated credentialsが簡単なのか難しいのか知らないので調べる",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791881958.238219",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791882454.036769",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "qZbxK",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OIDC federated credentialsが簡単なのか難しいのか知らないので調べる"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OIDC federated credentialsが簡単なのか難しいのか知らないので調べる"
+  },
+  {
+    "text": "ふーむ",
+    "files": [
+      {
+        "id": "F0C8BQNFFCP",
+        "created": 1791882447,
+        "timestamp": 1791882447,
+        "mimetype": "image/png",
+        "filetype": "png",
+        "pretty_type": "PNG",
+        "user": "U08G2A216TW",
+        "user_team": "T08FL58DC9K",
+        "editable": false,
+        "size": 448145,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "name": "image.png",
+        "title": "image.png",
+        "is_modified_by_ai": false,
+        "url_private": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8BQNFFCP/image.png",
+        "url_private_download": "https://files.slack.com/files-pri/T08FL58DC9K-F0C8BQNFFCP/download/image.png",
+        "media_display_type": "unknown",
+        "thumb_64": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_64.png",
+        "thumb_80": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_80.png",
+        "thumb_360": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_360.png",
+        "thumb_360_w": 360,
+        "thumb_360_h": 200,
+        "thumb_480": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_480.png",
+        "thumb_480_w": 480,
+        "thumb_480_h": 266,
+        "thumb_160": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_160.png",
+        "thumb_720": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_720.png",
+        "thumb_720_w": 720,
+        "thumb_720_h": 399,
+        "thumb_800": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_800.png",
+        "thumb_800_w": 800,
+        "thumb_800_h": 444,
+        "thumb_960": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_960.png",
+        "thumb_960_w": 960,
+        "thumb_960_h": 532,
+        "thumb_1024": "https://files.slack.com/files-tmb/T08FL58DC9K-F0C8BQNFFCP-faca544d4a/image_1024.png",
+        "thumb_1024_w": 1024,
+        "thumb_1024_h": 568,
+        "original_w": 2128,
+        "original_h": 1180,
+        "thumb_tiny": "AwAbADCkzFh8zkn0NJhcjn65FSFm3BQ7evLjr6/nUbEED5mJAxz2oAMDj5vrxSADuaSigAooooAlO8fLkYxwN/A/WmF8jBHH1NS7FMkAxwwGffmkmVUztGPnZfwGKAEaQHkKQev3jjPr9aaXyQcDj3PT0poOKAxAxx+VADtwwRsXPrz/AI03jHQ5+tBYkY4/KkoA/9k=",
+        "permalink": "https://dd2030.slack.com/files/U08JN7X6XQX/F0C8BQNFFCP/image.png",
+        "permalink_public": "https://slack-files.com/T08FL58DC9K-F0C8BQNFFCP-e9b9f0324b",
+        "is_starred": false,
+        "skipped_shares": true,
+        "has_rich_preview": false,
+        "file_access": "visible"
+      }
+    ],
+    "upload": false,
+    "user": "U08G2A216TW",
+    "display_as_bot": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "SwzMC",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ふーむ"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "type": "message",
+    "ts": "1791882454.036769",
+    "client_msg_id": "692fde27-affe-426e-8808-3c187f7ed8a5",
+    "thread_ts": "1791881958.238219",
+    "parent_user_id": "U08G2A216TW",
+    "parent_ts": "1791881958.238219",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "ふーむ"
+  },
+  {
+    "subtype": "thread_broadcast",
+    "user": "U08H3V9KMFH",
+    "thread_ts": "1791881908.445609",
+    "root": {
+      "user": "U08G2A216TW",
+      "type": "message",
+      "ts": "1791881908.445609",
+      "client_msg_id": "36c7fef5-9dfe-43b6-96fd-689aac962357",
+      "text": "デプロイが落ちてる件 cc <@U08H3V9KMFH>\n&gt; Azure サービスプリンシパルの client secret が期限切れです。\n&gt; 再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。",
+      "team": "T08FL58DC9K",
+      "thread_ts": "1791881908.445609",
+      "reply_count": 9,
+      "reply_users_count": 2,
+      "latest_reply": "1791901668.898059",
+      "reply_users": [
+        "U08G2A216TW",
+        "U08H3V9KMFH"
+      ],
+      "is_locked": false,
+      "subscribed": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TX1HU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "デプロイが落ちてる件 cc "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U08H3V9KMFH"
+                },
+                {
+                  "type": "text",
+                  "text": "\n"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Azure サービスプリンシパルの client secret が期限切れです。\n再発防止には有効期限を長めに設定するか、OIDC federated credentials への切り替えが有効です（ログ自体も推奨）。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "type": "message",
+    "ts": "1791898298.996969",
+    "client_msg_id": "a75c828f-1e0b-4803-8328-3d5efc87149a",
+    "text": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007|[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007>",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "wwQUP",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_list",
+            "elements": [
+              {
+                "type": "rich_text_section",
+                "elements": [
+                  {
+                    "type": "link",
+                    "url": "https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007",
+                    "text": "[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007"
+                  }
+                ]
+              }
+            ],
+            "style": "bullet",
+            "indent": 0,
+            "border": 0
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "ありがとうございます。\n全然気づいてなかったです。\n（通知入れたほうがいいかなぁ）\n\nちょっと今そこまで時間が取れないので、ひとまず、 client secret を手動で更新して暫定復旧しました。\n根本的な対応は、手が空いたら、調べていただいたこちらで対応しようと思います。\n• <https://github.com/digitaldemocracy2030/kouchou-ai/issues/1007|[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する  #1007>"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791899834.050619",
+    "edited": {
+      "user": "U08G2A216TW",
+      "ts": "1791899843.000000"
+    },
+    "client_msg_id": "8e8b180d-3f26-40ae-be13-a16da6258379",
+    "text": "いやー、情報ソースをどこにするかとかもはや考える必要もなく、現代のフロンティアモデルは強いDeep Research能力があるので単純に「インターネット上の情報を集めろ」で世界中から意見を集めてこれるんだな\n> 108 ソース / 964 匿名化意見 / 511 事実 を収集（多言語: 日本語に加え英語の r/Vocaloid 等、韓国・中国語圏の反応も論旨を日本語化して収録）。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791899834.050619",
+    "reply_count": 1,
+    "reply_users_count": 1,
+    "latest_reply": "1791899862.665359",
+    "reply_users": [
+      "U08G2A216TW"
+    ],
+    "is_locked": false,
+    "subscribed": false,
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "IXeBT",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "いやー、情報ソースをどこにするかとかもはや考える必要もなく、現代のフロンティアモデルは強いDeep Research能力があるので単純に「インターネット上の情報を集めろ」で世界中から意見を集めてこれるんだな\n"
+              }
+            ]
+          },
+          {
+            "type": "rich_text_quote",
+            "elements": [
+              {
+                "type": "text",
+                "text": "108 ソース / 964 匿名化意見 / 511 事実 を収集（多言語: 日本語に加え英語の r/Vocaloid 等、韓国・中国語圏の反応も論旨を日本語化して収録）。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "いやー、情報ソースをどこにするかとかもはや考える必要もなく、現代のフロンティアモデルは強いDeep Research能力があるので単純に「インターネット上の情報を集めろ」で世界中から意見を集めてこれるんだな\n> 108 ソース / 964 匿名化意見 / 511 事実 を収集（多言語: 日本語に加え英語の r/Vocaloid 等、韓国・中国語圏の反応も論旨を日本語化して収録）。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791899862.665359",
+    "client_msg_id": "e48b21a4-d7fc-4743-bc59-90fc5454dbd8",
+    "text": "KAITO問題の情報を集めて可視化してみようかと。",
+    "team": "T08FL58DC9K",
+    "thread_ts": "1791899834.050619",
+    "parent_user_id": "U08G2A216TW",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "uASUF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "KAITO問題の情報を集めて可視化してみようかと。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent_ts": "1791899834.050619",
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "KAITO問題の情報を集めて可視化してみようかと。"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791900566.322649",
+    "client_msg_id": "ce9f951f-a45c-42f6-8f34-584a93b55d8e",
+    "text": "OpenAI APIを置いてない環境でClaude Codeに広聴AIで分析してと言ったらローカルモデルでEmbeddingしてClaude自身がクラスタ命名をして完了させてて、OpenAI APIを使わない経路が爆誕してたw",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "U7dyD",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "OpenAI APIを置いてない環境でClaude Codeに広聴AIで分析してと言ったらローカルモデルでEmbeddingしてClaude自身がクラスタ命名をして完了させてて、OpenAI APIを使わない経路が爆誕してたw"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "smile",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "OpenAI APIを置いてない環境でClaude Codeに広聴AIで分析してと言ったらローカルモデルでEmbeddingしてClaude自身がクラスタ命名をして完了させてて、OpenAI APIを使わない経路が爆誕してたw"
+  },
+  {
+    "user": "U08G2A216TW",
+    "type": "message",
+    "ts": "1791901518.520689",
+    "client_msg_id": "2d134a9c-f6ca-4764-810e-9e48883c1fa8",
+    "text": "今日のドキュメント改善スプリントのまとめ\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10>",
+    "team": "T08FL58DC9K",
+    "attachments": [
+      {
+        "image_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10-og-image.webp",
+        "image_width": 1200,
+        "image_height": 630,
+        "image_bytes": 26572,
+        "from_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10",
+        "service_icon": "https://nishio.github.io/kouchou-ai-developer-wiki/static/icon.png",
+        "id": 1,
+        "original_url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10",
+        "fallback": "kouchou-ai developer wiki: kouchou-ai-docs-overhaul-2026-10",
+        "text": "何のスプリントか 2026-10、kouchou-ai 本体ドキュメント（mkdocs サイト <http://digitaldemocracy2030.github.io/kouchou-ai/|digitaldemocracy2030.github.io/kouchou-ai/> と README.md）を、散発的な改善でなく 一連のスプリントとしてまとめて改善した。起点は「docs 方針が kouchou-ai-docs-policy-history に系譜として集約されていたが、実装は追いついていなかった」こと。計画は kouchou-ai-docs-improvement-roadmap-2026-10-13 に、読者体験の監査は docs-persona-review-2026-10...",
+        "title": "kouchou-ai-docs-overhaul-2026-10",
+        "title_link": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10",
+        "service_name": "kouchou-ai developer wiki",
+        "media_type": "external_link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "L5qYF",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "今日のドキュメント改善スプリントのまとめ\n"
+              },
+              {
+                "type": "link",
+                "url": "https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U08H3V9KMFH"
+        ],
+        "count": 1
+      }
+    ],
+    "user_name": "NISHIO Hirokazu",
+    "text_readable": "今日のドキュメント改善スプリントのまとめ\n<https://nishio.github.io/kouchou-ai-developer-wiki/analyses/kouchou-ai-docs-overhaul-2026-10>"
+  },
+  {
+    "user": "U08H3V9KMFH",
+    "type": "message",
+    "ts": "1791931695.312209",
+    "client_msg_id": "548ac8e4-0598-4dca-bab9-8d6bedd4054d",
+    "text": "そうか、出版の準備をしていたのか　ということに今頃気づきました",
+    "team": "T08FL58DC9K",
+    "blocks": [
+      {
+        "type": "rich_text",
+        "block_id": "2ZH30",
+        "elements": [
+          {
+            "type": "rich_text_section",
+            "elements": [
+              {
+                "type": "text",
+                "text": "そうか、出版の準備をしていたのか　ということに今頃気づきました"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "user_name": "Shingo OHKI",
+    "text_readable": "そうか、出版の準備をしていたのか　ということに今頃気づきました"
+  }
+]

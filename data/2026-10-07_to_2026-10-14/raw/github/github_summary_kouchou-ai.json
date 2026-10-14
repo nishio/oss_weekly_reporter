@@ -1,0 +1,479 @@
+{
+  "period": {
+    "start": "2026-10-07T17:33:22.201376+09:00",
+    "end": "2026-10-14T17:33:22.201376+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 5830677717,
+      "number": 1007,
+      "title": "[REFACTOR] Azure デプロイ認証を client secret から OIDC に移行する",
+      "state": "closed"
+    },
+    {
+      "id": 5825166250,
+      "number": 993,
+      "title": "open()/json.load が encoding 未指定で日本語 Windows（cp932）だとクラッシュする",
+      "state": "closed"
+    },
+    {
+      "id": 5825162681,
+      "number": 992,
+      "title": "report_launcher が subprocess 起動で \"python\" をハードコードしている（sys.executable にすべき）",
+      "state": "closed"
+    },
+    {
+      "id": 5811792179,
+      "number": 979,
+      "title": "analysis-core: PyPI 公開版を AGPL 訂正版へ更新し、旧 MIT 版（0.1.0 / 0.1.2）の扱いを決める",
+      "state": "closed"
+    },
+    {
+      "id": 5811218743,
+      "number": 978,
+      "title": "analysis-core: report.html のライセンス案内を資源欠如時に link-only へ degrade（hard-fail 回避）",
+      "state": "closed"
+    },
+    {
+      "id": 5810746704,
+      "number": 977,
+      "title": "docs: README 見出しアンカーへの外部直リンク依存をやめ、安定URL(docs)へ寄せる（PR #968 残件）",
+      "state": "closed"
+    },
+    {
+      "id": 5809300438,
+      "number": 971,
+      "title": "[FEATURE] 意見ごとに「侮辱・ヘイト表現」「政策・制度への提案」を分類する任意ステップ",
+      "state": "closed"
+    },
+    {
+      "id": 5774495011,
+      "number": 964,
+      "title": "[ALGORITHM] 抽出プロンプトの入出力例が「〜する必要がある」を「〜すべき」に言い直しており、意見の強さが変わる",
+      "state": "closed"
+    },
+    {
+      "id": 5774248492,
+      "number": 962,
+      "title": "[REFACTOR] Biome の全体 lint エラーを 0 にして CI で biome ci を強制する",
+      "state": "closed"
+    },
+    {
+      "id": 5771958165,
+      "number": 960,
+      "title": "[FEATURE] 全画面表示のまま散布図のクラスタ粒度（全体 / 詳細クラスタ）を切り替えたい",
+      "state": "closed"
+    },
+    {
+      "id": 5768745818,
+      "number": 958,
+      "title": "docs: 韓国語版のREADME（README.ko.md）を追加する",
+      "state": "closed"
+    },
+    {
+      "id": 5746555106,
+      "number": 956,
+      "title": "[BUG] セットアップスクリプトが生成する .env に必須の環境変数が欠け、静的版ダウンロードとキャッシュ更新が失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 5745936593,
+      "number": 953,
+      "title": "CLIをHTML出力ありで実行すると可視化ステップが report_dir 未定義で失敗する",
+      "state": "closed"
+    },
+    {
+      "id": 4542700437,
+      "number": 876,
+      "title": "[DOCUMENT] README / docs の開発者向け導線を current main に合わせて整理する",
+      "state": "closed"
+    },
+    {
+      "id": 4521968358,
+      "number": 871,
+      "title": "[BUG] Azure deploy の safety を fetch_reports 依存から Blob Storage health check に切り替える",
+      "state": "closed"
+    },
+    {
+      "id": 3397278087,
+      "number": 700,
+      "title": "Biome 設定の調整",
+      "state": "closed"
+    },
+    {
+      "id": 3092756191,
+      "number": 577,
+      "title": "自動クラスタ数調整機能のベータ評価と継続判断",
+      "state": "closed"
+    },
+    {
+      "id": 3090423906,
+      "number": 573,
+      "title": "[ALGORITHM] PLaMo-Embedding-1Bの動作実験",
+      "state": "closed"
+    },
+    {
+      "id": 3072912666,
+      "number": 542,
+      "title": "[DOCUMENT・FEATURE] レポートに関する責任の所在について明記する",
+      "state": "closed"
+    },
+    {
+      "id": 3071835618,
+      "number": 537,
+      "title": "[FEATURE] OpenRouterの無料モデルを追加する",
+      "state": "closed"
+    },
+    {
+      "id": 3065357997,
+      "number": 519,
+      "title": "[DOCUMENT]エネルギー庁パブコメの分析レポート公開",
+      "state": "closed"
+    },
+    {
+      "id": 3061652220,
+      "number": 515,
+      "title": "[FEATURE] 別のレポートのUMAPを使い回す",
+      "state": "closed"
+    },
+    {
+      "id": 3054276995,
+      "number": 474,
+      "title": "[ALGORITHM] bonsaiの検証をする",
+      "state": "closed"
+    },
+    {
+      "id": 3044948581,
+      "number": 450,
+      "title": "[FEATURE]エンベデッドモデルを選択可能にする",
+      "state": "closed"
+    },
+    {
+      "id": 3035439227,
+      "number": 417,
+      "title": "コードレビューの効率化",
+      "state": "closed"
+    },
+    {
+      "id": 2991203616,
+      "number": 306,
+      "title": "[FEATURE]「全体図」「濃い意見グループ」のUI/UX改善",
+      "state": "closed"
+    },
+    {
+      "id": 2945716392,
+      "number": 176,
+      "title": "[FEATURE]LLMベースの分類機能の実装",
+      "state": "closed"
+    },
+    {
+      "id": 2945122247,
+      "number": 143,
+      "title": "[FEATURE]クラスタ品質の自動評価",
+      "state": "closed"
+    },
+    {
+      "id": 2934407416,
+      "number": 104,
+      "title": "[FEATURE] ツールの利用状況を知る仕組み",
+      "state": "closed"
+    },
+    {
+      "id": 2922751037,
+      "number": 55,
+      "title": "[FEATURE] 濃いクラスタのしきい値のデフォルト値をレポートごとに設定できるようにする",
+      "state": "closed"
+    },
+    {
+      "id": 5831869381,
+      "number": 1012,
+      "title": "docs: 開発者向け入口の仕上げ（README スリム化・起動モード別の落とし穴集約）",
+      "state": "created"
+    },
+    {
+      "id": 5825620846,
+      "number": 997,
+      "title": "[FEATURE] 指定カテゴリ分類（所与カテゴリへの意見分類）の WebUI 統合",
+      "state": "created"
+    },
+    {
+      "id": 5825288111,
+      "number": 994,
+      "title": "[FEATURE] 所与の分類枠（指定カテゴリ）への意見分類（CLI/core 先行）＋「その他」必須",
+      "state": "created"
+    },
+    {
+      "id": 5824856414,
+      "number": 991,
+      "title": "[TEST] OpenRouter無料モデルの実API動作を検証する",
+      "state": "created"
+    },
+    {
+      "id": 5816524672,
+      "number": 989,
+      "title": "[FEATURE] 別レポートのUMAP平面を使い回すWebUI導線（#515 のWebUI残件）",
+      "state": "created"
+    },
+    {
+      "id": 5810354387,
+      "number": 974,
+      "title": "CI: Docker Hub 匿名pullレート制限(429)対策の恒久化と横展開（PR #969 残件）",
+      "state": "created"
+    },
+    {
+      "id": 5810332507,
+      "number": 973,
+      "title": "[FEATURE] Azure deploy の Blob health check に report_status.json の read-back 確認と判断根拠の docs 明記を追加する",
+      "state": "created"
+    },
+    {
+      "id": 5809300907,
+      "number": 972,
+      "title": "[FEATURE] 公開ビューアの表示言語切替（日本語・英語・韓国語）",
+      "state": "created"
+    },
+    {
+      "id": 5745944015,
+      "number": 954,
+      "title": "CLIのreport.htmlで原文リンク・タイトル設定（report_url_pattern / report_html_title）が効かない",
+      "state": "created"
+    },
+    {
+      "id": 4595288529,
+      "number": 898,
+      "title": "[BUG] aarch64 環境で、クラスタリング処理の途中で実行時エラーになる",
+      "state": "updated"
+    },
+    {
+      "id": 3054133875,
+      "number": 471,
+      "title": "[DOCUMENT] ローカルLLMのベンチマーク、推奨スペックの決定",
+      "state": "updated"
+    },
+    {
+      "id": 2994589288,
+      "number": 308,
+      "title": "[FEATURE] HTML フォーム入力による広聴 AI システムの簡易デプロイ機能",
+      "state": "updated"
+    },
+    {
+      "id": 2990845213,
+      "number": 289,
+      "title": "[FEATURE]exe形式での配布によるインストール簡略化",
+      "state": "updated"
+    },
+    {
+      "id": 2978486958,
+      "number": 255,
+      "title": "(情報整理)OpenAIが使えないケースのケア",
+      "state": "updated"
+    },
+    {
+      "id": 2969624362,
+      "number": 227,
+      "title": "[FEATURE]濃い意見グループの設定画面について",
+      "state": "updated"
+    },
+    {
+      "id": 2962653661,
+      "number": 213,
+      "title": "[FEATURE]5→50の表記を50→5に変えるか？",
+      "state": "updated"
+    }
+  ],
+  "prs": [
+    {
+      "id": 5833050383,
+      "number": 1013,
+      "title": "fix(deps): proxy-addr / source-map-js のセキュリティ更新 (#949)",
+      "state": "merged"
+    },
+    {
+      "id": 5831814054,
+      "number": 1011,
+      "title": "ci(azure-deploy): Azure ログインを OIDC federated credential に移行",
+      "state": "merged"
+    },
+    {
+      "id": 5831662679,
+      "number": 1010,
+      "title": "docs: 「始め方の選び方」canonical ページを追加（起動モードの決定導線）(#876)",
+      "state": "merged"
+    },
+    {
+      "id": 5831615342,
+      "number": 1009,
+      "title": "docs: 内部リンク/アンカー切れを CI で検知（link validation + GitHub互換 slugify）(#977)",
+      "state": "merged"
+    },
+    {
+      "id": 5831201359,
+      "number": 1008,
+      "title": "docs: 責任の所在（3レイヤー）の免責を README.en / README.ko にも反映 (#542)",
+      "state": "merged"
+    },
+    {
+      "id": 5830478586,
+      "number": 1006,
+      "title": "docs: メタデータ設定を docs ページ化し README アンカー直リンクを解消 (#977)",
+      "state": "merged"
+    },
+    {
+      "id": 5829485231,
+      "number": 1005,
+      "title": "docs: getting-started/ を self-hosting/ に改称し旧URLを redirect で救済 (#876)",
+      "state": "merged"
+    },
+    {
+      "id": 5828477104,
+      "number": 1004,
+      "title": "docs: レポートの責任の所在を免責に 3 レイヤーで明記 (#542)",
+      "state": "merged"
+    },
+    {
+      "id": 5828443764,
+      "number": 1003,
+      "title": "docs: persona レビューの content gap を解消（読み方/導入検討/信頼性・責任/FAQ刷新）",
+      "state": "merged"
+    },
+    {
+      "id": 5828301140,
+      "number": 1002,
+      "title": "docs: persona レビューの quick fix（CLI例のバグ修正・nav ラベル是正・読者注記）",
+      "state": "merged"
+    },
+    {
+      "id": 5826752200,
+      "number": 1001,
+      "title": "ci: WebUI 変更時に how-to-use 更新を促す非ブロッキング reminder を追加",
+      "state": "merged"
+    },
+    {
+      "id": 5826725824,
+      "number": 1000,
+      "title": "docs: index.md に目的別ガイド（demo-first 導線）を追加（#876 の additive first slice）",
+      "state": "merged"
+    },
+    {
+      "id": 5826689251,
+      "number": 999,
+      "title": "docs: how-to-use に最近の WebUI 機能（分析方式選択・散布図の操作）を追記",
+      "state": "merged"
+    },
+    {
+      "id": 5826533404,
+      "number": 998,
+      "title": "docs: nav 未登録ページの登録・nav validation ゲート追加・CLI の embedding.model を明記",
+      "state": "merged"
+    },
+    {
+      "id": 5825395824,
+      "number": 996,
+      "title": "feat(analysis-core): 所与カテゴリへの意見分類（指定カテゴリ分類）を CLI に追加 (#994)",
+      "state": "merged"
+    },
+    {
+      "id": 5825372297,
+      "number": 995,
+      "title": "fix(api,analysis-core): 日本語 Windows 移植性対応 — sys.executable と UTF-8 明示 (#992, #993)",
+      "state": "merged"
+    },
+    {
+      "id": 5823856325,
+      "number": 990,
+      "title": "docs: ドキュメントサイトのアイコンショートコードを表示できるようにする",
+      "state": "merged"
+    },
+    {
+      "id": 5814731482,
+      "number": 988,
+      "title": "feat(analysis-core): UMAP 平面の使い回しを CLI で実行可能にする (#515)",
+      "state": "merged"
+    },
+    {
+      "id": 5812838198,
+      "number": 987,
+      "title": "feat: 作成UIから分析方式(LLM直接グルーピング)を選択可能にする (#176)",
+      "state": "merged"
+    },
+    {
+      "id": 5812796030,
+      "number": 986,
+      "title": "feat(public-viewer): 散布図に操作ヒントと濃い意見グループの帰属可視化を追加 (#306)",
+      "state": "merged"
+    },
+    {
+      "id": 5812786993,
+      "number": 985,
+      "title": "fix(analysis-core): OpenRouter 無料モデル向けに structured outputs fallback を追加 (#537)",
+      "state": "merged"
+    },
+    {
+      "id": 5812754634,
+      "number": 984,
+      "title": "feat: 埋め込みモデルをチャットと独立に選択可能にする (#450)",
+      "state": "merged"
+    },
+    {
+      "id": 5812754134,
+      "number": 983,
+      "title": "feat(public-viewer): 散布図のクラスタ選択を連動文章・一覧へ反映 (#52)",
+      "state": "merged"
+    },
+    {
+      "id": 5812753589,
+      "number": 982,
+      "title": "feat(evaluation_report): クラスタ品質評価ハーネスを再現可能化 (#143)",
+      "state": "merged"
+    },
+    {
+      "id": 5811932247,
+      "number": 981,
+      "title": "chore(analysis-core): バージョンを 0.1.3 に上げる（AGPL 訂正版公開のため）",
+      "state": "merged"
+    },
+    {
+      "id": 5811797139,
+      "number": 980,
+      "title": "fix(analysis-core): ライセンス資源欠如時に report.html を link-only へ degrade (#978)",
+      "state": "merged"
+    },
+    {
+      "id": 5810510233,
+      "number": 975,
+      "title": "feat(analysis-core): 意見ごとに侮辱・ヘイト表現と政策提案のラベルを付ける任意ステップを追加",
+      "state": "merged"
+    },
+    {
+      "id": 5806596553,
+      "number": 970,
+      "title": "fix: AGPL表記を訂正し、CLI出力HTMLにライセンス案内と表示ソースを同梱",
+      "state": "merged"
+    },
+    {
+      "id": 5784466460,
+      "number": 969,
+      "title": "Docker Hubからのベースイメージ取得失敗時にECR Publicへ切り替える",
+      "state": "merged"
+    },
+    {
+      "id": 5784441950,
+      "number": 968,
+      "title": "docs: restore Japanese README as default",
+      "state": "merged"
+    },
+    {
+      "id": 5810511170,
+      "number": 976,
+      "title": "feat(public-viewer): 日本語・英語・韓国語の表示切替（全画面のままでも）を追加",
+      "state": "created"
+    },
+    {
+      "id": 4564395255,
+      "number": 891,
+      "title": "feat(packaging): Windows スタンドアロン（embeddable Python + 静的 viewer）",
+      "state": "updated"
+    }
+  ]
+}
