@@ -1,0 +1,233 @@
+{
+  "period": {
+    "start": "2026-10-14T17:25:26.041241+09:00",
+    "end": "2026-10-21T17:25:26.041241+09:00"
+  },
+  "repo": "digitaldemocracy2030/kouchou-ai",
+  "issues": [
+    {
+      "id": 5945471013,
+      "number": 1042,
+      "title": "[FEATURE] AnthoropicのAPIに対応する",
+      "state": "created"
+    },
+    {
+      "id": 5883637200,
+      "number": 1023,
+      "title": "散布図: 全点フィルタ済みクラスタのラベルを薄くするか（効いていない dimming 分岐の挙動決定）",
+      "state": "created"
+    }
+  ],
+  "prs": [
+    {
+      "id": 5953246526,
+      "number": 1047,
+      "title": "test(api): 再利用の実行計画テストで、偽のステップが spec の成果物をすべて書くようにする",
+      "state": "merged"
+    },
+    {
+      "id": 5953073292,
+      "number": 1046,
+      "title": "fix(public-viewer): 濃い意見が 0 件のときの切り替え先を有効な表示から選ぶ",
+      "state": "merged"
+    },
+    {
+      "id": 5953072949,
+      "number": 1045,
+      "title": "fix(admin): レポート生成の完了後も管理画面のカードが「作成中」のまま止まる問題を直す",
+      "state": "merged"
+    },
+    {
+      "id": 5953072634,
+      "number": 1044,
+      "title": "fix(api): 再利用での複製で完了記録の入力名を新しい slug に読み替え、抽出からの全段再実行を防ぐ",
+      "state": "merged"
+    },
+    {
+      "id": 5953072264,
+      "number": 1043,
+      "title": "fix(analysis-core): --reuse-from の成果物の複製と、再実行時のトークン引き継ぎの不具合を直す",
+      "state": "merged"
+    },
+    {
+      "id": 5912663738,
+      "number": 1041,
+      "title": "fix(admin): 再利用ページで分析方式を変更不可にし、レポート作成エラーの詳細を表示する",
+      "state": "merged"
+    },
+    {
+      "id": 5912662951,
+      "number": 1040,
+      "title": "fix(public-viewer): 静的ビルドのメタ画像を API から取得し、default の reporter.png を混ぜない",
+      "state": "merged"
+    },
+    {
+      "id": 5912662316,
+      "number": 1039,
+      "title": "fix(public-viewer): OGP 画像と表示まわりの不具合を直す（濃い意見 0 件・フォントキャッシュ・params の Promise・/meta 画像・ビルド失敗時の改名・4xx リトライ・metadataBase）",
+      "state": "merged"
+    },
+    {
+      "id": 5912661797,
+      "number": 1038,
+      "title": "fix(api): ローカル LLM のモデル一覧取得をパイプラインと同じ接続先にし、Gemini 接続確認のエラー分類を直す",
+      "state": "merged"
+    },
+    {
+      "id": 5912661199,
+      "number": 1037,
+      "title": "fix(analysis-core): LLM プロバイダまわりの不具合修正（Flex のタイムアウト、Gemini の思考トークン、Gemini 埋め込みの 429、local アドレスの解析、overview の代替処理）",
+      "state": "merged"
+    },
+    {
+      "id": 5912660674,
+      "number": 1036,
+      "title": "fix(api): スプレッドシート取り込みで comment-id の型と属性値の先頭ゼロを保つ",
+      "state": "merged"
+    },
+    {
+      "id": 5912660223,
+      "number": 1035,
+      "title": "fix(api): llm_grouping レポートのラベル一覧取得・編集で CSV を壊さないようにする",
+      "state": "merged"
+    },
+    {
+      "id": 5912659764,
+      "number": 1034,
+      "title": "fix: レポートのライフサイクルの不具合をまとめて修正（設定編集での項目消失・既存 slug の上書き・再起動で processing 固着・アップロード失敗で ready・複製直後のポーリング停止）",
+      "state": "merged"
+    },
+    {
+      "id": 5912659163,
+      "number": 1033,
+      "title": "fix: 再実行判定と CLI オプション（--only / --dry-run / --reuse-from）の不整合を修正",
+      "state": "merged"
+    },
+    {
+      "id": 5912658508,
+      "number": 1032,
+      "title": "fix(analysis-core): 集計結果のデータ欠落を修正（comment-id の型、同じ文面の意見の帰属、古い意見分類、分析対象件数）",
+      "state": "merged"
+    },
+    {
+      "id": 5909807463,
+      "number": 1031,
+      "title": "fix(analysis-core): 一部ステップのみ再実行してもトークン使用量を 0 に戻さない",
+      "state": "merged"
+    },
+    {
+      "id": 5909795863,
+      "number": 1030,
+      "title": "fix(analysis-core): hierarchical_aggregation の失敗を握りつぶさず伝播させる",
+      "state": "merged"
+    },
+    {
+      "id": 5909795370,
+      "number": 1029,
+      "title": "fix(analysis-core): cluster_nums を正規化してから最大クラスタ数を決める",
+      "state": "merged"
+    },
+    {
+      "id": 5909794836,
+      "number": 1028,
+      "title": "fix(api): async エンドポイント内の同期 I/O を threadpool に逃がしイベントループのブロックを防ぐ",
+      "state": "merged"
+    },
+    {
+      "id": 5909794291,
+      "number": 1027,
+      "title": "fix(api): プラグイン取込とスプレッドシート取得のファイル名を検証しパストラバーサルを防止",
+      "state": "merged"
+    },
+    {
+      "id": 5883477798,
+      "number": 1022,
+      "title": "fix(analysis-core): ローカル埋め込み失敗時に別モデルへ暗黙 fallback せず fail-fast する",
+      "state": "merged"
+    },
+    {
+      "id": 5881537969,
+      "number": 1021,
+      "title": "fix(api): report_status.json の読み書きを lock + atomic 保存で保護",
+      "state": "merged"
+    },
+    {
+      "id": 5881537446,
+      "number": 1020,
+      "title": "fix(api): create_report で report.input を slug 検証しパストラバーサルを防ぐ",
+      "state": "merged"
+    },
+    {
+      "id": 5881536927,
+      "number": 1019,
+      "title": "fix(analysis-core): from_dict 経路で hierarchical の cluster_nums 既定を None にそろえる",
+      "state": "merged"
+    },
+    {
+      "id": 5881536337,
+      "number": 1018,
+      "title": "fix(analysis-core): Azure 推論モデルデプロイに temperature を送らない",
+      "state": "merged"
+    },
+    {
+      "id": 5881535702,
+      "number": 1017,
+      "title": "fix(api,admin): 埋め込みモデル機能(#450)の後始末 — 複製時のモデル引き継ぎ + 作成時のバリデーション接続",
+      "state": "merged"
+    },
+    {
+      "id": 5881038794,
+      "number": 1016,
+      "title": "fix(analysis-core): 指定カテゴリ変更時に llm_grouping を確実に再実行する",
+      "state": "merged"
+    },
+    {
+      "id": 5880983558,
+      "number": 1015,
+      "title": "fix(analysis-core): Gemini 埋め込みレスポンスの .embeddings(複数) 形式を解釈する",
+      "state": "merged"
+    },
+    {
+      "id": 5846677313,
+      "number": 1014,
+      "title": "fix(ci): 公開処理と定期 E2E テストを本家リポジトリのみに限定",
+      "state": "merged"
+    },
+    {
+      "id": 5955611856,
+      "number": 1050,
+      "title": "test(api): モデルカタログのテストが 2027-01-01 以降に必ず落ちる問題を直す",
+      "state": "created"
+    },
+    {
+      "id": 5955568228,
+      "number": 1049,
+      "title": "fix(analysis-core): .env をパッケージの置き場所ではなく作業ディレクトリから探す",
+      "state": "created"
+    },
+    {
+      "id": 5955523693,
+      "number": 1048,
+      "title": "test(analysis-core): テストが .env のキーで実際に LLM へ要求を送らないようにする",
+      "state": "created"
+    },
+    {
+      "id": 5909732602,
+      "number": 1026,
+      "title": "fix(analysis-core): 集計結果の出力内容を整理（取り下げ）",
+      "state": "created"
+    },
+    {
+      "id": 5883649784,
+      "number": 1025,
+      "title": "fix(public-viewer): [選択肢b] 散布図ラベルの効いていない dimming 分岐を削除 (#1023)",
+      "state": "created"
+    },
+    {
+      "id": 5883649329,
+      "number": 1024,
+      "title": "fix(public-viewer): [選択肢a] 全点フィルタ済みクラスタのラベル背景を実際に薄くする (#1023)",
+      "state": "created"
+    }
+  ]
+}
