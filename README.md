@@ -1,5 +1,15 @@
 # OSS Weekly Reporter
 
+## 現状（2026-10-22 に更新を停止）
+
+このリポジトリは、[デジタル民主主義2030（DD2030）](https://dd2030.org)の立ち上がりの時期に、流量の多い Slack を把握するために作ったものです（2025-04 開始）。Slack ログの保存は [digitaldemocracy2030/slack-logs](https://github.com/digitaldemocracy2030/slack-logs) に引き継ぎました。
+
+- GitHub Actions の workflow は 2026-10-22 に止めました。`data` ブランチは 2026-10-21 の週までの記録として残します
+- `data` ブランチにある Slack の本文は、slack-logs の `raw/` にも入っています（slack-logs の [#10](https://github.com/digitaldemocracy2030/slack-logs/pull/10)・[#12](https://github.com/digitaldemocracy2030/slack-logs/pull/12)）。Slack のログを読むなら slack-logs を使ってください
+- 週次の要約と GitHub のスナップショットは、作るのをやめました
+
+以下は当時の説明です。
+
 Open Source Software (OSS) Weekly Reporterは、OSSプロジェクトの週次報告を省力化するためのツールです。SlackのログとGitHubのログを抽出し、LLMに渡すためのMarkdown形式に変換します。
 
 ## 機能
